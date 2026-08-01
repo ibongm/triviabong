@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run preview` — preview the production build locally
 - `npm run lint` — run ESLint over the project
 
-There is no test suite configured in this repository.
+There is no test suite configured in this repository. To verify the app actually works end-to-end (not just that it builds/lints), use the `run-triviabong` skill (`.claude/skills/run-triviabong/`): it starts the dev server and drives the full golden path — lobby → category → leaderboard → quiz → jokers → game-over → save score → back to lobby — in headless Chromium via `node golden-path.mjs`, failing on any browser console error (which is how a Firestore rules regression would surface). See that skill's `SKILL.md` for setup and gotchas — notably, it's a single run-to-completion script rather than an interactive REPL, because a REPL fed via heredoc reliably broke after the first command once Chromium was launched.
 
 ## Project overview
 
