@@ -1,11 +1,13 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
-  Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight,
-  Globe, Film, History, BookOpen, Music, Brain, Sparkles, Utensils, Atom, HelpCircle,
+  Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
   Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, BarChart2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
+import { CATEGORY_META } from './data/categoryMeta';
+import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
+import { computeLevelFromXp } from './utils/leveling';
 import { sound } from './utils/sound';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
@@ -27,22 +29,9 @@ const isAdminPath = () => {
   return path === '/admin' || path === '/admin/';
 };
 
-const CATEGORY_MAP = {
-  geografija: { label: 'Geografija', icon: Globe },
-  film: { label: 'Film', icon: Film },
-  povijest: { label: 'Povijest', icon: History },
-  knjizevnost: { label: 'Književnost i Umjetnost', icon: BookOpen },
-  sport: { label: 'Sport', icon: Trophy },
-  znanost: { label: 'Znanost i Tehnologija', icon: Atom },
-  glazba: { label: 'Glazba', icon: Music },
-  opca_znanje: { label: 'Opće znanje', icon: Brain },
-  pop_kultura: { label: 'Pop kultura', icon: Sparkles },
-  gastronomija: { label: 'Gastronomija', icon: Utensils },
-};
-
 const getCategoryDetails = (catKey) => {
   const normalizedKey = (catKey || '').toLowerCase();
-  return CATEGORY_MAP[normalizedKey] || {
+  return CATEGORY_META[normalizedKey] || {
     label: catKey ? catKey.replace('_', ' ') : 'Kategorija',
     icon: HelpCircle
   };
@@ -82,17 +71,7 @@ export default function App() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [globalStats, setGlobalStats] = useState(() => {
     const saved = localStorage.getItem('triviabong_global_stats');
-    return saved ? JSON.parse(saved) : {
-      level: 1,
-      xp: 0,
-      coins: 15,
-      totalGames: 0,
-      totalAnswered: 0,
-      totalCorrect: 0,
-      maxStreak: 0,
-      totalScore: 0,
-      categoryStats: {}
-    };
+    return saved ? JSON.parse(saved) : DEFAULT_GLOBAL_STATS;
   });
 
   const [jokersUsed, setJokersUsed] = useState({ fiftyFifty: false, plusTen: false, skip: false });
@@ -115,8 +94,13 @@ export default function App() {
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
-  // write the previous account's stats into the new account's profile.
-  const statsReadyForUid = useRef(null);
+  // write the previous account's stats into the new account's profile. It's
+  // state (not a ref) specifically so that flipping it re-runs the save-state
+  // effect below with the CURRENT globalStats - otherwise any gameplay change
+  // that happens in the gap before this becomes ready would be silently
+  // dropped (the effect it would have triggered a sync from already ran and
+  // no-opped while blocked, and nothing re-fires it once ready flips true).
+  const [statsReadyForUid, setStatsReadyForUid] = useState(null);
 
   // Sync options on index change
   useEffect(() => {
@@ -134,7 +118,7 @@ export default function App() {
       // Block syncing until this account's own stats have loaded below -
       // otherwise the outgoing account's in-memory globalStats can get
       // written into the new account's profile before the fetch resolves.
-      statsReadyForUid.current = null;
+      setStatsReadyForUid(null);
       setCurrentUser(user);
       if (user) {
         if (user.displayName) setNickname(user.displayName);
@@ -142,11 +126,11 @@ export default function App() {
         setGlobalStats(prev => ({
           ...prev,
           // No existing doc means this account has never saved stats before -
-          // reset level/xp/coins instead of inheriting whatever the previous
+          // reset every field instead of inheriting whatever the previous
           // account left in memory.
-          ...(cloudStats || { level: 1, xp: 0, coins: 15 })
+          ...(cloudStats || DEFAULT_GLOBAL_STATS)
         }));
-        statsReadyForUid.current = user.uid;
+        setStatsReadyForUid(user.uid);
       }
 
       if (isAdminPath()) {
@@ -169,10 +153,10 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem('triviabong_global_stats', JSON.stringify(globalStats));
-    if (currentUser?.uid && statsReadyForUid.current === currentUser.uid) {
+    if (currentUser?.uid && statsReadyForUid === currentUser.uid) {
       syncUserStatsToFirestore(currentUser.uid, globalStats);
     }
-  }, [globalStats, currentUser]);
+  }, [globalStats, currentUser, statsReadyForUid]);
 
   // Timer
   useEffect(() => {
@@ -272,11 +256,18 @@ export default function App() {
       setScore(s => s + earned);
       setStreak(s => s + 1);
 
-      setGlobalStats(prev => ({
-        ...prev,
-        xp: prev.xp + 50,
-        coins: prev.coins + (streak > 0 && streak % 3 === 0 ? 5 : 2)
-      }));
+      setGlobalStats(prev => {
+        const newXp = prev.xp + 50;
+        return {
+          ...prev,
+          xp: newXp,
+          // Only ever moves level up from gameplay, never down - preserves
+          // an admin's manual override (AdminPanel) until the player's own
+          // xp naturally earns a higher level.
+          level: Math.max(prev.level || 1, computeLevelFromXp(newXp)),
+          coins: prev.coins + (streak > 0 && streak % 3 === 0 ? 5 : 2)
+        };
+      });
 
       if ((streak + 1) % 3 === 0) {
         setHp(h => Math.min(100, h + 15));

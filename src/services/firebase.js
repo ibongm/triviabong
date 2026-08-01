@@ -10,7 +10,8 @@ import {
     getFirestore,
     doc,
     setDoc,
-    getDoc,
+    getDocFromServer,
+    waitForPendingWrites,
     getDocs,
     collection,
     query,
@@ -21,6 +22,7 @@ import {
     serverTimestamp,
     addDoc
 } from "firebase/firestore";
+import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -63,13 +65,27 @@ export const syncUserProfile = async (user) => {
 };
 
 /**
- * Loads user profile & stats (level, xp, coins) from Firestore
+ * Loads user profile & stats from Firestore. On login, App.jsx calls this
+ * around the same time AuthModal's syncUserProfile() writes the profile
+ * doc (uid/email/displayName/photoURL/lastLogin) - these two are separate,
+ * unsequenced reactions to the same auth event, so syncUserProfile's write
+ * can get locally queued WHILE this fetch is already in flight. When that
+ * happens the fetched snapshot comes back with metadata.hasPendingWrites
+ * true (even though it's a server fetch, not a cache hit) and reflects only
+ * that pending write's fields, not the full stats another device already
+ * synced - waiting to check pending-writes state upfront doesn't help since
+ * the write isn't pending yet at that point (classic TOCTOU). Instead,
+ * check hasPendingWrites AFTER fetching and only then wait + refetch.
  */
 export const getUserStatsFromFirestore = async (uid) => {
     if (!uid) return null;
     try {
         const userRef = doc(db, "users", uid);
-        const docSnap = await getDoc(userRef);
+        let docSnap = await getDocFromServer(userRef);
+        if (docSnap.metadata.hasPendingWrites) {
+            await waitForPendingWrites(db);
+            docSnap = await getDocFromServer(userRef);
+        }
         if (docSnap.exists()) {
             return docSnap.data();
         }
@@ -80,16 +96,16 @@ export const getUserStatsFromFirestore = async (uid) => {
 };
 
 /**
- * Syncs user stats (level, xp, coins) to Firestore
+ * Syncs the player's full stats (level, xp, coins, totals, per-category
+ * accuracy) to Firestore, so they follow the account across devices.
  */
 export const syncUserStatsToFirestore = async (uid, stats) => {
     if (!uid) return;
     try {
         const userRef = doc(db, "users", uid);
         await setDoc(userRef, {
-            level: stats.level || 1,
-            xp: stats.xp || 0,
-            coins: stats.coins || 0,
+            ...DEFAULT_GLOBAL_STATS,
+            ...stats,
             updatedAt: serverTimestamp()
         }, { merge: true });
     } catch (error) {

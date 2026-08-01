@@ -134,6 +134,15 @@ try {
     console.log('(no nickname input - score already saved or unexpected state)');
   }
 
+  console.log('=== stats modal shows level/XP progress ===');
+  await clickText(page, 'Statistika');
+  await page.waitForTimeout(300);
+  const statsText = await bodyText(page);
+  step('stats modal shows level/XP progress', /Razina\s+\d+/.test(statsText) && statsText.includes('XP do sljedeće razine'));
+  await ss(page, 'stats-modal');
+  await clickText(page, 'Zatvori');
+  await page.waitForTimeout(300);
+
   console.log('=== back to lobby ===');
   await clickText(page, 'Povratak u Izbornik');
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 10000 });

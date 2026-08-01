@@ -1,18 +1,7 @@
 import React from 'react';
-import { X, Trophy, Target, Award, Flame, Zap, BarChart2 } from 'lucide-react';
-
-const CATEGORY_NAMES = {
-    geografija: 'Geografija',
-    povijest: 'Povijest',
-    film: 'Film',
-    glazba: 'Glazba',
-    sport: 'Sport',
-    znanost: 'Znanost',
-    opca_znanje: 'Opće znanje',
-    pop_kultura: 'Pop kultura',
-    knjizevnost: 'Književnost',
-    gastronomija: 'Gastronomija'
-};
+import { X, Trophy, Target, Award, Flame, Zap, BarChart2, Star } from 'lucide-react';
+import { CATEGORY_META } from '../data/categoryMeta';
+import { XP_PER_LEVEL } from '../utils/leveling';
 
 export default function StatsModal({ isOpen, onClose, stats }) {
     if (!isOpen) return null;
@@ -21,6 +10,11 @@ export default function StatsModal({ isOpen, onClose, stats }) {
     const totalAnswered = stats?.totalAnswered || 0;
     const totalCorrect = stats?.totalCorrect || 0;
     const overallAccuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+
+    const level = stats?.level || 1;
+    const xp = stats?.xp || 0;
+    const xpIntoLevel = xp % XP_PER_LEVEL;
+    const xpProgressPct = Math.round((xpIntoLevel / XP_PER_LEVEL) * 100);
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm">
@@ -43,6 +37,24 @@ export default function StatsModal({ isOpen, onClose, stats }) {
                     >
                         <X className="w-5 h-5" />
                     </button>
+                </div>
+
+                {/* Level / XP Progress */}
+                <div className="bg-slate-950/60 border border-slate-800 rounded-2xl p-4 space-y-2">
+                    <div className="flex justify-between items-center">
+                        <span className="flex items-center gap-1.5 text-sm font-black text-white">
+                            <Star className="w-4 h-4 text-amber-400 fill-amber-400" /> Razina {level}
+                        </span>
+                        <span className="text-xs font-bold text-slate-400">
+                            {xpIntoLevel} / {XP_PER_LEVEL} XP do sljedeće razine
+                        </span>
+                    </div>
+                    <div className="w-full h-2.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
+                        <div
+                            className="h-full bg-amber-500 transition-all duration-500 rounded-full"
+                            style={{ width: `${xpProgressPct}%` }}
+                        />
+                    </div>
                 </div>
 
                 {/* Global Summary Cards */}
@@ -87,10 +99,10 @@ export default function StatsModal({ isOpen, onClose, stats }) {
                     </h3>
 
                     <div className="space-y-3 bg-slate-950/60 p-4 rounded-2xl border border-slate-800">
-                        {Object.keys(CATEGORY_NAMES).map((catKey) => {
+                        {Object.keys(CATEGORY_META).map((catKey) => {
                             const catData = categoryStats[catKey] || { total: 0, correct: 0 };
                             const acc = catData.total > 0 ? Math.round((catData.correct / catData.total) * 100) : 0;
-                            const label = CATEGORY_NAMES[catKey];
+                            const label = CATEGORY_META[catKey]?.label;
 
                             return (
                                 <div key={catKey} className="space-y-1">

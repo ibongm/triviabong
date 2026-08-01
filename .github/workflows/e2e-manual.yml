@@ -1,0 +1,31 @@
+name: E2E (manual)
+
+# Deliberately NOT triggered on push/PR - golden-path.mjs writes a real score
+# to the LIVE production Firestore leaderboard (no emulator wired into local
+# dev or CI). Run this on-demand only, from the Actions tab.
+on:
+  workflow_dispatch:
+
+jobs:
+  golden-path:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Install driver deps
+        working-directory: .claude/skills/run-triviabong
+        run: npm ci
+      - name: Install Playwright Chromium
+        working-directory: .claude/skills/run-triviabong
+        run: npx playwright install --with-deps chromium
+      - name: Start dev server
+        run: |
+          npm run dev &
+          timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done'
+      - name: Run golden-path check
+        working-directory: .claude/skills/run-triviabong
+        run: node golden-path.mjs

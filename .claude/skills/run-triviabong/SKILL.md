@@ -1,6 +1,6 @@
 ---
 name: run-triviabong
-description: Start the TriviaBong Vite dev server and run it end-to-end in headless Chromium (pick a category, play through questions, use jokers, reach game-over/victory, save a score). Use when asked to run, start, screenshot, or verify TriviaBong's UI works after a change.
+description: Start the TriviaBong Vite dev server and run it end-to-end in headless Chromium (pick a category, play through questions, use jokers, reach game-over/victory, save a score) and/or verify stats sync correctly across devices. Use when asked to run, start, screenshot, or verify TriviaBong's UI works after a change.
 ---
 
 TriviaBong is a React SPA (Vite dev server, no backend). There's no
@@ -28,7 +28,7 @@ npm run dev &
 timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done'
 ```
 
-## Run the check
+## Run the golden-path check
 
 ```bash
 cd .claude/skills/run-triviabong
@@ -42,9 +42,26 @@ console errors were seen, 1 otherwise.
 
 Screenshots land in `%TEMP%\triviabong-shots\` (override with
 `SCREENSHOT_DIR`), one per stage (lobby, leaderboard, quiz, jokers,
-end screen, score-saved, back-to-lobby). After a run, actually open
-the PNGs — a blank or error-boundary frame won't show up as a script
-error.
+end screen, score-saved, stats modal, back-to-lobby). After a run,
+actually open the PNGs — a blank or error-boundary frame won't show
+up as a script error.
+
+## Run the cross-device sync check
+
+```bash
+cd .claude/skills/run-triviabong
+node cross-device-sync-check.mjs
+```
+
+Registers a throwaway email/password account in one headless browser
+context, plays a partial round, then logs in with the same
+credentials in a second, independent fresh context (simulating a
+second device) and asserts the stats (games played, per-category
+accuracy) match. Requires the Email/Password sign-in provider to be
+enabled on the `triviabong-web` Firebase project (Console →
+Authentication → Sign-in method) — if it's off you'll see
+`auth/operation-not-allowed` in the script's error output rather than
+a real assertion failure.
 
 ## Stop the dev server
 
@@ -91,8 +108,24 @@ also collects every browser console message and fails the run if any
   exactly why the script fails on any console error: a rules
   regression would show up as `permission-denied` here.
 - **A run that reaches "save score" adds a real (harmless, ~few
-  hundred point) row to that category's live leaderboard.** Fine for
-  occasional manual verification; don't loop this unattended.
+  hundred point) row to that category's live leaderboard.**
+  `cross-device-sync-check.mjs` similarly creates a real throwaway
+  Firebase Auth user + Firestore doc. Fine for occasional manual
+  verification; don't loop either script unattended.
+- **`page.reload({ waitUntil: 'networkidle' })` (or `.goto` with the
+  same option) can hang indefinitely once Firestore's SDK has
+  established its persistent connection** — that connection never
+  goes idle by Playwright's definition, so `networkidle` waits forever
+  on any navigation *after* the page has done real Firestore work.
+  Use `'domcontentloaded'` plus an explicit `waitForSelector`/poll
+  instead. The very first `page.goto` on a fresh page is usually fine
+  (Firestore isn't touched until something actually queries it).
+- **A brand-new client's first stats read after login can race a
+  concurrent profile write** — see `CLAUDE.md`'s "Stats-read race"
+  note and `firebase.js`'s `getUserStatsFromFirestore` comment.
+  `cross-device-sync-check.mjs` is what caught this; if it starts
+  failing again after a `firebase.js` change, check that fix is still
+  intact before assuming the test itself is wrong.
 - **Don't build this as an interactive REPL fed via heredoc/stdin.**
   That was tried first: a long-lived Node process reading commands
   off stdin, one Playwright action per line. It reliably ran the
