@@ -10,14 +10,18 @@ import {
     getFirestore,
     doc,
     setDoc,
+    getDoc,
     getDocs,
     collection,
+    query,
+    orderBy,
+    limit,
     updateDoc,
     deleteDoc,
-    serverTimestamp
+    serverTimestamp,
+    addDoc
 } from "firebase/firestore";
 
-// Your Firebase configuration object
 const firebaseConfig = {
     apiKey: "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
     authDomain: "triviabong-web.firebaseapp.com",
@@ -42,9 +46,8 @@ export const loginWithGoogle = async () => {
     return result.user;
 };
 
-
 /**
- * Syncs player profile to Firestore on login without overwriting existing stats
+ * Syncs player profile metadata to Firestore on login
  */
 export const syncUserProfile = async (user) => {
     if (!user) return;
@@ -57,6 +60,73 @@ export const syncUserProfile = async (user) => {
         photoURL: user.photoURL || '',
         lastLogin: serverTimestamp()
     }, { merge: true });
+};
+
+/**
+ * Loads user profile & stats (level, xp, coins) from Firestore
+ */
+export const getUserStatsFromFirestore = async (uid) => {
+    if (!uid) return null;
+    try {
+        const userRef = doc(db, "users", uid);
+        const docSnap = await getDoc(userRef);
+        if (docSnap.exists()) {
+            return docSnap.data();
+        }
+    } catch (error) {
+        console.error("Error fetching user stats from Firestore:", error);
+    }
+    return null;
+};
+
+/**
+ * Syncs user stats (level, xp, coins) to Firestore
+ */
+export const syncUserStatsToFirestore = async (uid, stats) => {
+    if (!uid) return;
+    try {
+        const userRef = doc(db, "users", uid);
+        await setDoc(userRef, {
+            level: stats.level || 1,
+            xp: stats.xp || 0,
+            coins: stats.coins || 0,
+            updatedAt: serverTimestamp()
+        }, { merge: true });
+    } catch (error) {
+        console.error("Error syncing stats to Firestore:", error);
+    }
+};
+
+/**
+ * Saves a category high score to Firestore
+ */
+export const saveScoreToFirestore = async (categoryKey, name, score, uid = null) => {
+    try {
+        const scoresRef = collection(db, "leaderboards", categoryKey, "scores");
+        await addDoc(scoresRef, {
+            name,
+            score,
+            uid,
+            createdAt: serverTimestamp()
+        });
+    } catch (error) {
+        console.error("Error saving score to Firestore:", error);
+    }
+};
+
+/**
+ * Fetches top 10 scores for a given category from Firestore
+ */
+export const getLeaderboardFromFirestore = async (categoryKey) => {
+    try {
+        const scoresRef = collection(db, "leaderboards", categoryKey, "scores");
+        const q = query(scoresRef, orderBy("score", "desc"), limit(10));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(docSnap => docSnap.data());
+    } catch (error) {
+        console.error("Error fetching leaderboard from Firestore:", error);
+        return [];
+    }
 };
 
 /**
@@ -76,7 +146,7 @@ export const getAllRegisteredUsers = async () => {
 };
 
 /**
- * Updates any user field (Level, XP, Coins, Nickname, Role, etc.) in Firestore
+ * Updates any user field in Firestore
  */
 export const updateUserInFirestore = async (uid, updatedData) => {
     const userRef = doc(db, "users", uid);

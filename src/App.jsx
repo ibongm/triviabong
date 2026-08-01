@@ -2,14 +2,22 @@ import React, { useState, useEffect, useMemo } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight,
   Globe, Film, History, BookOpen, Music, Brain, Sparkles, Utensils, Atom, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck
+  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, BarChart2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
 import { sound } from './utils/sound';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
-import { auth, logoutUser } from './services/firebase';
+import StatsModal from './components/StatsModal';
+import {
+  auth,
+  logoutUser,
+  getUserStatsFromFirestore,
+  syncUserStatsToFirestore,
+  saveScoreToFirestore,
+  getLeaderboardFromFirestore
+} from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
 const ADMIN_EMAIL = 'ivanm.ploce@gmail.com';
@@ -18,9 +26,9 @@ const CATEGORY_MAP = {
   geografija: { label: 'Geografija', icon: Globe },
   film: { label: 'Film', icon: Film },
   povijest: { label: 'Povijest', icon: History },
-  knjizevnost: { label: 'Književnost', icon: BookOpen },
+  knjizevnost: { label: 'Književnost i Umjetnost', icon: BookOpen },
   sport: { label: 'Sport', icon: Trophy },
-  znanost: { label: 'Znanost', icon: Atom },
+  znanost: { label: 'Znanost i Tehnologija', icon: Atom },
   glazba: { label: 'Glazba', icon: Music },
   opca_znanje: { label: 'Opće znanje', icon: Brain },
   pop_kultura: { label: 'Pop kultura', icon: Sparkles },
@@ -35,26 +43,19 @@ const getCategoryDetails = (catKey) => {
   };
 };
 
-// Shuffles options cleanly
 const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
-// Safely extracts all options (correct_answer + incorrect_answers) and shuffles them
 const getQuestionOptions = (q) => {
   if (!q) return [];
-
   if (Array.isArray(q.options)) return q.options;
-
   const correct = q.correct_answer || q.correctAnswer;
   const incorrects = q.incorrect_answers || q.incorrectAnswers || [];
-
   if (correct !== undefined) {
     return [correct, ...incorrects];
   }
-
   return [];
 };
 
-// Checks if selected option matches the correct answer string
 const checkIsCorrect = (q, option) => {
   if (!q || option === undefined) return false;
   const correct = String(q.correct_answer || q.correctAnswer || '').trim().toLowerCase();
@@ -76,7 +77,17 @@ export default function App() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [globalStats, setGlobalStats] = useState(() => {
     const saved = localStorage.getItem('triviabong_global_stats');
-    return saved ? JSON.parse(saved) : { level: 1, xp: 0, coins: 15 };
+    return saved ? JSON.parse(saved) : {
+      level: 1,
+      xp: 0,
+      coins: 15,
+      totalGames: 0,
+      totalAnswered: 0,
+      totalCorrect: 0,
+      maxStreak: 0,
+      totalScore: 0,
+      categoryStats: {}
+    };
   });
 
   const [jokersUsed, setJokersUsed] = useState({ fiftyFifty: false, plusTen: false, skip: false });
@@ -86,14 +97,18 @@ export default function App() {
     const saved = localStorage.getItem('triviabong_leaderboards');
     return saved ? JSON.parse(saved) : {};
   });
+  const [activeCategoryLeaderboard, setActiveCategoryLeaderboard] = useState([]);
+  const [isLoadingLeaderboard, setIsLoadingLeaderboard] = useState(false);
+
   const [nickname, setNickname] = useState('');
   const [scoreSaved, setScoreSaved] = useState(false);
   const [showAdminPanel, setShowAdminPanel] = useState(false);
+  const [showStatsModal, setShowStatsModal] = useState(false);
 
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
 
-  // Synchronously reset question interaction states & shuffle options on index change
+  // Sync options on index change
   useEffect(() => {
     setHiddenOptions([]);
     setSelectedOption(null);
@@ -103,12 +118,19 @@ export default function App() {
     }
   }, [currentIndex, questions]);
 
-  // Handle Firebase Auth Listener
+  // Auth Listener
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, async (user) => {
       setCurrentUser(user);
-      if (user && user.displayName) {
-        setNickname(user.displayName);
+      if (user) {
+        if (user.displayName) setNickname(user.displayName);
+        const cloudStats = await getUserStatsFromFirestore(user.uid);
+        if (cloudStats) {
+          setGlobalStats(prev => ({
+            ...prev,
+            ...cloudStats
+          }));
+        }
       }
 
       if (window.location.pathname.includes('/admin')) {
@@ -124,16 +146,19 @@ export default function App() {
     return () => unsubscribe();
   }, []);
 
-  // Sync state to local storage
+  // Save state
   useEffect(() => {
     localStorage.setItem('triviabong_leaderboards', JSON.stringify(leaderboards));
   }, [leaderboards]);
 
   useEffect(() => {
     localStorage.setItem('triviabong_global_stats', JSON.stringify(globalStats));
-  }, [globalStats]);
+    if (currentUser?.uid) {
+      syncUserStatsToFirestore(currentUser.uid, globalStats);
+    }
+  }, [globalStats, currentUser]);
 
-  // Timer loop
+  // Timer
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null) return;
 
@@ -152,13 +177,27 @@ export default function App() {
     return () => clearInterval(timer);
   }, [timeLeft, gameState, selectedOption]);
 
-  const startCategory = (catKey) => {
+  const selectCategory = async (catKey) => {
     sound.playClick();
-    const loadedQuestions = getQuestionsByCategory(catKey);
+    setSelectedCategory(catKey);
+    setGameState('LEADERBOARD');
+    setIsLoadingLeaderboard(true);
+
+    const remoteScores = await getLeaderboardFromFirestore(catKey);
+    if (remoteScores.length > 0) {
+      setActiveCategoryLeaderboard(remoteScores);
+    } else {
+      setActiveCategoryLeaderboard(leaderboards[catKey] || []);
+    }
+    setIsLoadingLeaderboard(false);
+  };
+
+  const launchQuizRound = () => {
+    sound.playClick();
+    const loadedQuestions = getQuestionsByCategory(selectedCategory);
     const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, 10);
 
     setQuestions(shuffled);
-    setSelectedCategory(catKey);
     setCurrentIndex(0);
     setScore(0);
     setHp(100);
@@ -169,6 +208,34 @@ export default function App() {
     setSelectedOption(null);
     setScoreSaved(false);
     setGameState('PLAYING');
+
+    setGlobalStats(prev => ({
+      ...prev,
+      totalGames: (prev.totalGames || 0) + 1
+    }));
+  };
+
+  const updateCategoryStats = (isCorrect) => {
+    const cat = selectedCategory || 'opca_znanje';
+    setGlobalStats(prev => {
+      const prevCat = prev.categoryStats?.[cat] || { total: 0, correct: 0 };
+      const newStreak = isCorrect ? streak + 1 : 0;
+
+      return {
+        ...prev,
+        totalAnswered: (prev.totalAnswered || 0) + 1,
+        totalCorrect: (prev.totalCorrect || 0) + (isCorrect ? 1 : 0),
+        maxStreak: Math.max(prev.maxStreak || 0, newStreak),
+        totalScore: (prev.totalScore || 0) + (isCorrect ? score : 0),
+        categoryStats: {
+          ...prev.categoryStats,
+          [cat]: {
+            total: prevCat.total + 1,
+            correct: prevCat.correct + (isCorrect ? 1 : 0)
+          }
+        }
+      };
+    });
   };
 
   const handleAnswer = (option) => {
@@ -177,6 +244,8 @@ export default function App() {
 
     const currentQ = questions[currentIndex];
     const correct = checkIsCorrect(currentQ, option);
+
+    updateCategoryStats(correct);
 
     if (correct) {
       sound.playCorrect();
@@ -225,6 +294,7 @@ export default function App() {
 
   const handleAnswerTimeout = () => {
     sound.playWrong();
+    updateCategoryStats(false);
     setStreak(0);
     const newHp = hp - 25;
     setHp(newHp);
@@ -253,10 +323,8 @@ export default function App() {
 
     sound.playClick();
     const correctAns = currentQ.correct_answer || currentQ.correctAnswer;
-
     const incorrects = currentShuffledOptions.filter(opt => opt !== correctAns);
-    const shuffledIncorrects = shuffleArray(incorrects);
-    const toHide = shuffledIncorrects.slice(0, 2);
+    const toHide = shuffleArray(incorrects).slice(0, 2);
 
     setHiddenOptions(toHide);
     setJokersUsed(j => ({ ...j, fiftyFifty: true }));
@@ -287,17 +355,21 @@ export default function App() {
     }
   };
 
-  const handleSaveScore = (e) => {
+  const handleSaveScore = async (e) => {
     e.preventDefault();
     if (!nickname.trim() || scoreSaved) return;
 
     const catKey = selectedCategory || 'opca_znanje';
+    const entryName = nickname.trim();
+
     const currentList = leaderboards[catKey] || [];
-    const newList = [...currentList, { name: nickname.trim(), score, date: new Date().toLocaleDateString() }]
+    const newList = [...currentList, { name: entryName, score, date: new Date().toLocaleDateString() }]
       .sort((a, b) => b.score - a.score)
       .slice(0, 10);
-
     setLeaderboards({ ...leaderboards, [catKey]: newList });
+
+    await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null);
+
     setScoreSaved(true);
     sound.playClick();
   };
@@ -332,11 +404,20 @@ export default function App() {
           </span>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
           <div className="flex items-center gap-1.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400">
             <Coins className="w-4 h-4 text-amber-400" />
             <span>{globalStats.coins}</span>
           </div>
+
+          <button
+            onClick={() => { sound.playClick(); setShowStatsModal(true); }}
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
+            title="Statistika i Profil"
+          >
+            <BarChart2 className="w-4 h-4 text-amber-400" />
+            <span className="hidden sm:inline">Statistika</span>
+          </button>
 
           {isAdminUser && (
             <button
@@ -351,7 +432,7 @@ export default function App() {
 
           {currentUser ? (
             <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-xl">
-              <span className="text-xs font-bold text-slate-200 truncate max-w-[120px]">
+              <span className="text-xs font-bold text-slate-200 truncate max-w-[100px]">
                 {currentUser.displayName || currentUser.email.split('@')[0]}
               </span>
               <button
@@ -395,7 +476,7 @@ export default function App() {
                 return (
                   <button
                     key={catKey}
-                    onClick={() => startCategory(catKey)}
+                    onClick={() => selectCategory(catKey)}
                     className="flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-2xl transition-all group shadow-sm hover:shadow-amber-500/5"
                   >
                     <div className="flex items-center gap-3.5">
@@ -408,6 +489,64 @@ export default function App() {
                   </button>
                 );
               })}
+            </div>
+          </div>
+        )}
+
+        {gameState === 'LEADERBOARD' && (
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl space-y-6 text-center">
+            <div className="flex items-center justify-center gap-3">
+              <div className="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-400">
+                <Trophy className="w-8 h-8" />
+              </div>
+              <div className="text-left">
+                <h2 className="text-2xl font-black text-white">
+                  {getCategoryDetails(selectedCategory).label}
+                </h2>
+                <p className="text-xs font-bold text-amber-400 uppercase tracking-wider">
+                  Najbolji Rezultati
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-slate-950/60 rounded-2xl border border-slate-800 overflow-hidden divide-y divide-slate-800/80 min-h-[160px] flex flex-col justify-center">
+              {isLoadingLeaderboard ? (
+                <div className="p-6 text-slate-400 text-sm animate-pulse flex justify-center items-center gap-2">
+                  <RefreshCw className="w-4 h-4 animate-spin text-amber-400" />
+                  <span>Učitavanje ljestvice...</span>
+                </div>
+              ) : activeCategoryLeaderboard.length > 0 ? (
+                activeCategoryLeaderboard.slice(0, 5).map((entry, idx) => (
+                  <div key={idx} className="flex justify-between items-center p-3.5 text-sm px-5">
+                    <span className="font-semibold text-slate-300 flex items-center gap-3">
+                      <span className={`text-xs font-extrabold w-6 h-6 rounded-lg flex items-center justify-center ${idx === 0 ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}>
+                        #{idx + 1}
+                      </span>
+                      <span>{entry.name}</span>
+                    </span>
+                    <span className="text-amber-400 font-bold">{entry.score} bod.</span>
+                  </div>
+                ))
+              ) : (
+                <div className="p-6 text-slate-500 text-xs">
+                  Još nema zabilježenih rezultata za ovu kategoriju. Budite prvi!
+                </div>
+              )}
+            </div>
+
+            <div className="flex gap-3 pt-2">
+              <button
+                onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
+                className="flex-1 bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold py-3.5 rounded-2xl transition-colors text-sm"
+              >
+                Natrag
+              </button>
+              <button
+                onClick={launchQuizRound}
+                className="flex-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm"
+              >
+                <Play className="w-4 h-4 fill-slate-950" /> Započni Kviz
+              </button>
             </div>
           </div>
         )}
@@ -533,23 +672,6 @@ export default function App() {
               </p>
             )}
 
-            <div className="text-left pt-2">
-              <h3 className="text-xs font-extrabold text-slate-400 uppercase tracking-wider mb-2.5">
-                Top 5 Ljestvica
-              </h3>
-              <div className="bg-slate-950/60 rounded-2xl border border-slate-800 overflow-hidden divide-y divide-slate-800/80">
-                {(leaderboards[selectedCategory] || []).slice(0, 5).map((entry, idx) => (
-                  <div key={idx} className="flex justify-between items-center p-3 text-sm px-4">
-                    <span className="font-semibold text-slate-300 flex items-center gap-2">
-                      <span className={`text-xs font-bold w-5 ${idx === 0 ? 'text-amber-400' : 'text-slate-500'}`}>#{idx + 1}</span>
-                      {entry.name}
-                    </span>
-                    <span className="text-amber-400 font-bold">{entry.score} bod.</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             <button
               onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
               className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm"
@@ -561,7 +683,14 @@ export default function App() {
 
       </main>
 
-      {/* Auth Modal for Players */}
+      {/* Stats Modal */}
+      <StatsModal
+        isOpen={showStatsModal}
+        onClose={() => setShowStatsModal(false)}
+        stats={globalStats}
+      />
+
+      {/* Auth Modal */}
       <AuthModal
         isOpen={showAuthModal}
         onClose={() => setShowAuthModal(false)}
