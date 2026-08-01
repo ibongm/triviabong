@@ -22,6 +22,11 @@ import { onAuthStateChanged } from 'firebase/auth';
 
 const ADMIN_EMAIL = 'ivanm.ploce@gmail.com';
 
+const isAdminPath = () => {
+  const path = window.location.pathname;
+  return path === '/admin' || path === '/admin/';
+};
+
 const CATEGORY_MAP = {
   geografija: { label: 'Geografija', icon: Globe },
   film: { label: 'Film', icon: Film },
@@ -133,7 +138,7 @@ export default function App() {
         }
       }
 
-      if (window.location.pathname.includes('/admin')) {
+      if (isAdminPath()) {
         if (user && user.email === ADMIN_EMAIL) {
           setShowAdminPanel(true);
           setShowAuthModal(false);
@@ -697,7 +702,7 @@ export default function App() {
         onSuccess={(user) => {
           setCurrentUser(user);
           if (user.displayName) setNickname(user.displayName);
-          if (user.email === ADMIN_EMAIL && window.location.pathname.includes('/admin')) {
+          if (user.email === ADMIN_EMAIL && isAdminPath()) {
             setShowAdminPanel(true);
           }
         }}
@@ -712,7 +717,7 @@ export default function App() {
           setLeaderboards={setLeaderboards}
           onClose={() => {
             setShowAdminPanel(false);
-            if (window.location.pathname.includes('/admin')) {
+            if (isAdminPath()) {
               window.history.pushState({}, '', '/');
             }
           }}

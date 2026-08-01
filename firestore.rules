@@ -1,0 +1,68 @@
+rules_version = '2';
+
+// Deploy with: firebase deploy --only firestore:rules
+// (requires `firebase login` and the project already set in .firebaserc)
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // Mirrors ADMIN_EMAIL in src/App.jsx. Keep these two in sync manually —
+    // if the admin email ever changes, update it in both places.
+    function isAdmin() {
+      return isSignedIn() && request.auth.token.email == 'ivanm.ploce@gmail.com';
+    }
+
+    match /users/{uid} {
+      // Only the owner or an admin can read a specific profile.
+      allow get: if isOwner(uid) || isAdmin();
+      // Only an admin can list the whole users collection (AdminPanel).
+      allow list: if isAdmin();
+
+      // Created by syncUserProfile() on first login — owner only, and it
+      // can't seed itself with privileged fields.
+      allow create: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && !('role' in request.resource.data);
+
+      // Owner can update their own doc (e.g. syncUserStatsToFirestore
+      // merges level/xp/coins) but can never touch `role`. Admin can
+      // update anything (AdminPanel's edit form).
+      allow update: if isAdmin()
+        || (isOwner(uid)
+            && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']));
+
+      allow delete: if isAdmin();
+    }
+
+    match /leaderboards/{categoryKey}/scores/{scoreId} {
+      // Leaderboards are shown to signed-out visitors too.
+      allow read: if true;
+
+      // Scores are still client-computed (see App.jsx game logic), so this
+      // only bounds the damage, it doesn't make scores trustworthy. 6000 is
+      // a generous ceiling above the ~5030 max a legitimate 10-question
+      // perfect run can produce (10 correct answers, streak multiplier up
+      // to 2.8x, +10s joker used on the highest-multiplier question).
+      allow create: if request.resource.data.keys().hasOnly(['name', 'score', 'uid', 'createdAt'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 20
+        && request.resource.data.score is int
+        && request.resource.data.score >= 0
+        && request.resource.data.score <= 6000
+        && (!('uid' in request.resource.data)
+            || request.resource.data.uid == null
+            || isOwner(request.resource.data.uid));
+
+      allow update, delete: if isAdmin();
+    }
+  }
+}
