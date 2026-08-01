@@ -5,7 +5,7 @@ import {
   Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import questionsData from './data/questions.json';
+import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
 import { sound } from './utils/sound';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
@@ -42,10 +42,8 @@ const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 const getQuestionOptions = (q) => {
   if (!q) return [];
 
-  // If options are already bundled
   if (Array.isArray(q.options)) return q.options;
 
-  // Combine correct_answer and incorrect_answers from standard schema
   const correct = q.correct_answer || q.correctAnswer;
   const incorrects = q.incorrect_answers || q.incorrectAnswers || [];
 
@@ -70,7 +68,6 @@ export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
 
-  // Active shuffled options for the current active question
   const [currentShuffledOptions, setCurrentShuffledOptions] = useState([]);
 
   const [score, setScore] = useState(0);
@@ -114,7 +111,6 @@ export default function App() {
         setNickname(user.displayName);
       }
 
-      // If user navigated to /admin route, verify their email
       if (window.location.pathname.includes('/admin')) {
         if (user && user.email === ADMIN_EMAIL) {
           setShowAdminPanel(true);
@@ -158,10 +154,8 @@ export default function App() {
 
   const startCategory = (catKey) => {
     sound.playClick();
-    const safeData = Array.isArray(questionsData) ? questionsData : [];
-    const filtered = safeData.filter(q => q && q.category && q.category.toLowerCase() === catKey.toLowerCase());
-    const pool = filtered.length > 0 ? filtered : safeData;
-    const shuffled = [...pool].sort(() => 0.5 - Math.random()).slice(0, 10);
+    const loadedQuestions = getQuestionsByCategory(catKey);
+    const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, 10);
 
     setQuestions(shuffled);
     setSelectedCategory(catKey);
@@ -260,11 +254,8 @@ export default function App() {
     sound.playClick();
     const correctAns = currentQ.correct_answer || currentQ.correctAnswer;
 
-    // Hide incorrect choices
     const incorrects = currentShuffledOptions.filter(opt => opt !== correctAns);
     const shuffledIncorrects = shuffleArray(incorrects);
-
-    // Hide up to 2 incorrect choices
     const toHide = shuffledIncorrects.slice(0, 2);
 
     setHiddenOptions(toHide);
@@ -300,7 +291,7 @@ export default function App() {
     e.preventDefault();
     if (!nickname.trim() || scoreSaved) return;
 
-    const catKey = selectedCategory || 'Opće znanje';
+    const catKey = selectedCategory || 'opca_znanje';
     const currentList = leaderboards[catKey] || [];
     const newList = [...currentList, { name: nickname.trim(), score, date: new Date().toLocaleDateString() }]
       .sort((a, b) => b.score - a.score)
@@ -318,9 +309,7 @@ export default function App() {
   };
 
   const categoriesList = useMemo(() => {
-    const safeData = Array.isArray(questionsData) ? questionsData : [];
-    const set = new Set(safeData.map(q => q && q.category ? q.category.toLowerCase() : 'opca_znanje'));
-    return Array.from(set);
+    return getAllCategories();
   }, []);
 
   const currentQ = questions[currentIndex];
@@ -349,7 +338,6 @@ export default function App() {
             <span>{globalStats.coins}</span>
           </div>
 
-          {/* Admin Quick Action Button (Only visible if logged in as Admin) */}
           {isAdminUser && (
             <button
               onClick={() => setShowAdminPanel(true)}
@@ -443,7 +431,7 @@ export default function App() {
 
             <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl space-y-6">
               <div className="flex justify-between items-center text-xs text-slate-400 font-bold">
-                <span className="uppercase tracking-wider">{selectedCategory}</span>
+                <span className="uppercase tracking-wider">{getCategoryDetails(selectedCategory).label}</span>
                 <span>{currentIndex + 1} / {questions.length}</span>
               </div>
 
