@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight,
   Globe, Film, History, BookOpen, Music, Brain, Sparkles, Utensils, Atom, HelpCircle,
@@ -113,6 +113,11 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
 
+  // Tracks which uid the in-memory globalStats has actually been loaded for.
+  // Firestore sync is gated on this so a still-loading account switch can't
+  // write the previous account's stats into the new account's profile.
+  const statsReadyForUid = useRef(null);
+
   // Sync options on index change
   useEffect(() => {
     setHiddenOptions([]);
@@ -126,16 +131,22 @@ export default function App() {
   // Auth Listener
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
+      // Block syncing until this account's own stats have loaded below -
+      // otherwise the outgoing account's in-memory globalStats can get
+      // written into the new account's profile before the fetch resolves.
+      statsReadyForUid.current = null;
       setCurrentUser(user);
       if (user) {
         if (user.displayName) setNickname(user.displayName);
         const cloudStats = await getUserStatsFromFirestore(user.uid);
-        if (cloudStats) {
-          setGlobalStats(prev => ({
-            ...prev,
-            ...cloudStats
-          }));
-        }
+        setGlobalStats(prev => ({
+          ...prev,
+          // No existing doc means this account has never saved stats before -
+          // reset level/xp/coins instead of inheriting whatever the previous
+          // account left in memory.
+          ...(cloudStats || { level: 1, xp: 0, coins: 15 })
+        }));
+        statsReadyForUid.current = user.uid;
       }
 
       if (isAdminPath()) {
@@ -158,7 +169,7 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem('triviabong_global_stats', JSON.stringify(globalStats));
-    if (currentUser?.uid) {
+    if (currentUser?.uid && statsReadyForUid.current === currentUser.uid) {
       syncUserStatsToFirestore(currentUser.uid, globalStats);
     }
   }, [globalStats, currentUser]);
