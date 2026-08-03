@@ -1,15 +1,25 @@
-// Admin-only endpoint: merges an uploaded question batch into the matching
+// Admin-only endpoint: adds, edits, or removes questions in the matching
 // src/data/categories/*.json file by committing the change to GitHub, which
 // triggers Vercel's normal auto-deploy on push to main. This exists because
 // TriviaBong is a static client-only SPA - the browser has no way to write
 // back to the repo directly, so this function is the write path.
+//
+// Body shape: { action, category, ... } - action is 'add' (default, kept for
+// backward compatibility with the original upload-only client), 'edit', or
+// 'delete'. See src/components/AdminPanel.jsx for the three call shapes.
 //
 // Env vars required (Vercel project settings, Production + Preview):
 //   GITHUB_TOKEN  - fine-grained PAT scoped to this repo, Contents: read/write
 //   GITHUB_REPO   - "owner/repo", e.g. "ibongm/triviabong"
 //   GITHUB_BRANCH - defaults to "main"
 import { createRemoteJWKSet, jwtVerify } from 'jose';
-import { validateQuestions, mergeQuestions, CATEGORY_FILES } from '../src/utils/questionMerge.js';
+import {
+    validateQuestions,
+    mergeQuestions,
+    removeQuestionById,
+    editQuestionById,
+    CATEGORY_FILES,
+} from '../src/utils/questionMerge.js';
 
 const ADMIN_EMAIL = 'ivanm.ploce@gmail.com';
 const FIREBASE_PROJECT_ID = 'triviabong-web';
@@ -54,6 +64,50 @@ const githubRequest = (path, options = {}) => fetch(`${GITHUB_API}${path}`, {
     },
 });
 
+// Reads a category file's current parsed content + blob sha from GitHub.
+const getCategoryFile = async (repo, branch, filePath) => {
+    const res = await githubRequest(`/repos/${repo}/contents/${filePath}?ref=${branch}`);
+    if (!res.ok) {
+        return { ok: false, status: 502, error: 'Neuspješno čitanje trenutne datoteke kategorije s GitHuba.' };
+    }
+    const json = await res.json();
+
+    let content;
+    try {
+        content = JSON.parse(Buffer.from(json.content, 'base64').toString('utf8'));
+    } catch {
+        return { ok: false, status: 500, error: 'Postojeća datoteka kategorije nije valjan JSON.' };
+    }
+    return { ok: true, content, sha: json.sha };
+};
+
+// Commits an updated category file back to GitHub. Passing the sha from the
+// matching getCategoryFile() call means a concurrent change fails with 409
+// instead of silently clobbering it.
+const putCategoryFile = async (repo, branch, filePath, data, sha, message) => {
+    const res = await githubRequest(`/repos/${repo}/contents/${filePath}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            message,
+            content: Buffer.from(JSON.stringify(data, null, 4) + '\n', 'utf8').toString('base64'),
+            sha,
+            branch,
+        }),
+    });
+
+    if (res.status === 409) {
+        return { ok: false, status: 409, error: 'Datoteka je promijenjena u međuvremenu, pokušajte ponovno.' };
+    }
+    if (!res.ok) {
+        const details = await res.text();
+        return { ok: false, status: 502, error: 'Neuspješno spremanje promjena na GitHub.', details };
+    }
+
+    const json = await res.json();
+    return { ok: true, commitUrl: json.commit?.html_url || null };
+};
+
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
         res.status(405).json({ error: 'Method not allowed.' });
@@ -66,16 +120,10 @@ export default async function handler(req, res) {
         return;
     }
 
-    const { category, questions } = req.body || {};
+    const { action = 'add', category, questions, id, question } = req.body || {};
     const filename = CATEGORY_FILES[category];
     if (!filename) {
         res.status(400).json({ error: `Nepoznata kategorija: ${category}` });
-        return;
-    }
-
-    const { valid, errors } = validateQuestions(questions);
-    if (valid.length === 0) {
-        res.status(400).json({ error: 'Nema ispravnih pitanja u datoteci.', invalid: errors });
         return;
     }
 
@@ -87,61 +135,105 @@ export default async function handler(req, res) {
     const branch = process.env.GITHUB_BRANCH || 'main';
     const filePath = `src/data/categories/${filename}`;
 
-    const getRes = await githubRequest(`/repos/${repo}/contents/${filePath}?ref=${branch}`);
-    if (!getRes.ok) {
-        res.status(502).json({ error: 'Neuspješno čitanje trenutne datoteke kategorije s GitHuba.' });
-        return;
-    }
-    const getJson = await getRes.json();
+    if (action === 'add') {
+        const { valid, errors } = validateQuestions(questions);
+        if (valid.length === 0) {
+            res.status(400).json({ error: 'Nema ispravnih pitanja u datoteci.', invalid: errors });
+            return;
+        }
 
-    let existing;
-    try {
-        existing = JSON.parse(Buffer.from(getJson.content, 'base64').toString('utf8'));
-    } catch {
-        res.status(500).json({ error: 'Postojeća datoteka kategorije nije valjan JSON.' });
-        return;
-    }
+        const file = await getCategoryFile(repo, branch, filePath);
+        if (!file.ok) {
+            res.status(file.status).json({ error: file.error });
+            return;
+        }
 
-    const { merged, added, skipped } = mergeQuestions(existing, valid, category);
+        const { merged, added, skipped } = mergeQuestions(file.content, valid, category);
+        if (added === 0) {
+            res.status(200).json({
+                added: 0,
+                skipped,
+                invalid: errors,
+                total: file.content.length,
+                message: 'Nema novih pitanja za dodati (sve su duplikati).',
+            });
+            return;
+        }
 
-    if (added === 0) {
-        res.status(200).json({
-            added: 0,
-            skipped,
-            invalid: errors,
-            total: existing.length,
-            message: 'Nema novih pitanja za dodati (sve su duplikati).',
-        });
-        return;
-    }
+        const commit = await putCategoryFile(
+            repo, branch, filePath, merged, file.sha,
+            `Add ${added} question(s) to ${category} via admin upload`
+        );
+        if (!commit.ok) {
+            res.status(commit.status).json({ error: commit.error, details: commit.details });
+            return;
+        }
 
-    const putRes = await githubRequest(`/repos/${repo}/contents/${filePath}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            message: `Add ${added} question(s) to ${category} via admin upload`,
-            content: Buffer.from(JSON.stringify(merged, null, 4) + '\n', 'utf8').toString('base64'),
-            sha: getJson.sha,
-            branch,
-        }),
-    });
-
-    if (putRes.status === 409) {
-        res.status(409).json({ error: 'Datoteka je promijenjena u međuvremenu, pokušajte ponovno.' });
-        return;
-    }
-    if (!putRes.ok) {
-        const details = await putRes.text();
-        res.status(502).json({ error: 'Neuspješno spremanje promjena na GitHub.', details });
+        res.status(200).json({ added, skipped, invalid: errors, total: merged.length, commitUrl: commit.commitUrl });
         return;
     }
 
-    const putJson = await putRes.json();
-    res.status(200).json({
-        added,
-        skipped,
-        invalid: errors,
-        total: merged.length,
-        commitUrl: putJson.commit?.html_url || null,
-    });
+    if (action === 'delete') {
+        if (!id) {
+            res.status(400).json({ error: 'Nedostaje ID pitanja.' });
+            return;
+        }
+
+        const file = await getCategoryFile(repo, branch, filePath);
+        if (!file.ok) {
+            res.status(file.status).json({ error: file.error });
+            return;
+        }
+
+        const { merged, removed } = removeQuestionById(file.content, id);
+        if (!removed) {
+            res.status(404).json({ error: `Pitanje s ID-om "${id}" nije pronađeno u kategoriji ${category}.` });
+            return;
+        }
+
+        const commit = await putCategoryFile(
+            repo, branch, filePath, merged, file.sha,
+            `Remove ${id} from ${category} via admin panel`
+        );
+        if (!commit.ok) {
+            res.status(commit.status).json({ error: commit.error, details: commit.details });
+            return;
+        }
+
+        res.status(200).json({ removed: true, total: merged.length, commitUrl: commit.commitUrl });
+        return;
+    }
+
+    if (action === 'edit') {
+        if (!id || !question) {
+            res.status(400).json({ error: 'Nedostaje ID ili podaci pitanja.' });
+            return;
+        }
+
+        const file = await getCategoryFile(repo, branch, filePath);
+        if (!file.ok) {
+            res.status(file.status).json({ error: file.error });
+            return;
+        }
+
+        const { merged, edited, reason } = editQuestionById(file.content, id, question);
+        if (!edited) {
+            res.status(400).json({ error: reason || 'Uređivanje nije uspjelo.' });
+            return;
+        }
+
+        const commit = await putCategoryFile(
+            repo, branch, filePath, merged, file.sha,
+            `Edit ${id} in ${category} via admin panel`
+        );
+        if (!commit.ok) {
+            res.status(commit.status).json({ error: commit.error, details: commit.details });
+            return;
+        }
+
+        res.status(200).json({ edited: true, total: merged.length, commitUrl: commit.commitUrl });
+        return;
+    }
+
+    res.status(400).json({ error: `Nepoznata akcija: ${action}` });
 }
