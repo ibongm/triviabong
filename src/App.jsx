@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
   Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal
@@ -35,6 +35,7 @@ import GuideModal from './components/GuideModal';
 import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import RekordiBoards from './components/RekordiBoards';
+import TimerRing from './components/TimerRing';
 import {
   auth,
   logoutUser,
@@ -55,6 +56,12 @@ const isAdminPath = () => {
   const path = window.location.pathname;
   return path === '/admin' || path === '/admin/';
 };
+
+// Firestore's leaderboard/publicProfiles rules cap name/displayName at 20
+// chars - without the slice, a long email local-part (no displayName set)
+// gets silently rejected by the rules ("Missing or insufficient permissions")
+// rather than truncated, so both writes that ever reach Firestore quietly fail.
+const getPlayerDisplayName = (user) => (user.displayName || user.email?.split('@')[0] || 'Igrač').slice(0, 20);
 
 const getCategoryDetails = (catKey) => {
   // Resolve through the same alias map getQuestionsByCategory uses, so a
@@ -123,6 +130,13 @@ export default function App() {
 
   const [jokersUsed, setJokersUsed] = useState({ fiftyFifty: false, plusTen: false, skip: false });
   const [hiddenOptions, setHiddenOptions] = useState([]);
+  const [jokerMessage, setJokerMessage] = useState(null);
+  const jokerMessageTimer = useRef(null);
+  const showJokerMessage = (text) => {
+    clearTimeout(jokerMessageTimer.current);
+    setJokerMessage(text);
+    jokerMessageTimer.current = setTimeout(() => setJokerMessage(null), 2000);
+  };
 
   const [leaderboards, setLeaderboards] = useState(() => {
     const saved = localStorage.getItem('triviabong_leaderboards');
@@ -134,6 +148,7 @@ export default function App() {
   const [nickname, setNickname] = useState('');
   const [scoreSaved, setScoreSaved] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
+  const [autoSaveFailed, setAutoSaveFailed] = useState(false);
   const [showAdminPanel, setShowAdminPanel] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showGuideModal, setShowGuideModal] = useState(false);
@@ -219,8 +234,7 @@ export default function App() {
     localStorage.setItem('triviabong_global_stats', JSON.stringify(globalStats));
     if (currentUser?.uid && statsReadyForUid === currentUser.uid) {
       syncUserStatsToFirestore(currentUser.uid, globalStats);
-      const displayName = currentUser.displayName || currentUser.email?.split('@')[0] || 'Igrač';
-      syncPublicProfile(currentUser.uid, displayName, globalStats);
+      syncPublicProfile(currentUser.uid, getPlayerDisplayName(currentUser), globalStats);
     }
   }, [globalStats, currentUser, statsReadyForUid]);
 
@@ -292,6 +306,7 @@ export default function App() {
     setHiddenOptions([]);
     setSelectedOption(null);
     setScoreSaved(false);
+    setAutoSaveFailed(false);
     setGameState('PLAYING');
 
     setRoundStartTime(Date.now());
@@ -350,7 +365,7 @@ export default function App() {
   //
   // jokersUsedSnapshot/skipUsedAtLastLifeSnapshot are passed in explicitly
   // rather than read from the jokersUsed/skipUsedAtLastLife state closures
-  // here, because useSkip's own VICTORY call site calls this in the same
+  // here, because activateSkip's own VICTORY call site calls this in the same
   // tick it also calls setJokersUsed/setSkipUsedAtLastLife - React state
   // updates aren't visible to a closure until the next render, so reading
   // the state variables directly at that one call site would see stale
@@ -548,7 +563,7 @@ export default function App() {
     });
   };
 
-  const useFiftyFifty = () => {
+  const activateFiftyFifty = () => {
     const currentQ = questions[currentIndex];
     if (jokersUsed.fiftyFifty || globalStats.coins < JOKER_COSTS.fiftyFifty || !currentQ) return;
 
@@ -565,7 +580,7 @@ export default function App() {
     checkTacticianOnJokerUse(newJokersUsed);
   };
 
-  const usePlusTen = () => {
+  const activatePlusTen = () => {
     if (jokersUsed.plusTen || globalStats.coins < JOKER_COSTS.plusTen) return;
     sound.playClick();
     setTimeLeft(t => t + PLUS_TEN_SECONDS);
@@ -575,7 +590,7 @@ export default function App() {
     checkTacticianOnJokerUse(newJokersUsed);
   };
 
-  const useSkip = () => {
+  const activateSkip = () => {
     if (jokersUsed.skip || globalStats.coins < JOKER_COSTS.skip) return;
     sound.playClick();
     const newJokersUsed = { ...jokersUsed, skip: true };
@@ -602,13 +617,11 @@ export default function App() {
     }
   };
 
-  const handleSaveScore = async (e) => {
-    e.preventDefault();
-    if (!nickname.trim() || scoreSaved || isSaving) return;
+  const saveScore = async (entryName) => {
+    if (!entryName || scoreSaved || isSaving) return;
     setIsSaving(true);
 
     const catKey = selectedCategory || 'opca_znanje';
-    const entryName = nickname.trim();
 
     const currentList = leaderboards[catKey] || [];
     const newList = [...currentList, { name: entryName, score, date: new Date().toLocaleDateString() }]
@@ -619,7 +632,8 @@ export default function App() {
     try {
       const elapsedMs = roundStartTime ? Date.now() - roundStartTime : null;
       const isPerfect = correctInRound === QUESTIONS_PER_ROUND;
-      await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
+      const success = await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
+      if (!success) throw new Error('Firestore save failed');
       setScoreSaved(true);
       sound.playClick();
       refreshRekordiData();
@@ -627,6 +641,26 @@ export default function App() {
       setIsSaving(false);
     }
   };
+
+  const handleSaveScore = (e) => {
+    e.preventDefault();
+    saveScore(nickname.trim()).catch(() => {});
+  };
+
+  // Signed-in players already have a displayName - skip the manual nickname
+  // form and save automatically once a round ends. Only anonymous play still
+  // shows the form (the player has no account-derived name to fall back to).
+  useEffect(() => {
+    if ((gameState === 'GAMEOVER' || gameState === 'VICTORY') && currentUser && !scoreSaved) {
+      (async () => {
+        try {
+          await saveScore(getPlayerDisplayName(currentUser));
+        } catch {
+          setAutoSaveFailed(true);
+        }
+      })();
+    }
+  }, [gameState, currentUser, scoreSaved]);
 
   const handlePlayerLogout = async () => {
     await logoutUser();
@@ -640,6 +674,18 @@ export default function App() {
 
   const currentQ = questions[currentIndex];
   const isAdminUser = currentUser && currentUser.email === ADMIN_EMAIL;
+
+  // Split each joker's "disabled" reason: already used / mid-answer is truly
+  // inert (native disabled, nothing to explain), but "not enough coins" stays
+  // clickable so activateFiftyFifty/activatePlusTen/activateSkip's own click can surface a
+  // message instead of just silently dimming - the player might not otherwise
+  // know *why* it's greyed out.
+  const fiftyFiftyLocked = jokersUsed.fiftyFifty || selectedOption !== null;
+  const fiftyFiftyShort = globalStats.coins < JOKER_COSTS.fiftyFifty;
+  const plusTenLocked = jokersUsed.plusTen || selectedOption !== null;
+  const plusTenShort = globalStats.coins < JOKER_COSTS.plusTen;
+  const skipLocked = jokersUsed.skip || selectedOption !== null;
+  const skipShort = globalStats.coins < JOKER_COSTS.skip;
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-between font-sans selection:bg-amber-500 selection:text-slate-950">
@@ -860,10 +906,7 @@ export default function App() {
                   />
                 ))}
               </div>
-              <div className="flex items-center gap-1.5 text-amber-400">
-                <Clock className="w-4 h-4" />
-                <span className={timeLeft <= 4 ? 'text-rose-500 animate-pulse font-black' : ''}>{timeLeft}s</span>
-              </div>
+              <TimerRing timeLeft={timeLeft} totalTime={QUESTION_TIME_SECONDS} />
               <div className="flex items-center gap-1.5 text-slate-300">
                 <Zap className="w-4 h-4 text-amber-400" />
                 <span>Bodovi: {score}</span>
@@ -914,27 +957,41 @@ export default function App() {
 
               <div className="flex justify-center gap-2 pt-2 border-t border-slate-800/80">
                 <button
-                  disabled={jokersUsed.fiftyFifty || selectedOption !== null || globalStats.coins < JOKER_COSTS.fiftyFifty}
-                  onClick={useFiftyFifty}
-                  className="px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1"
+                  disabled={fiftyFiftyLocked}
+                  onClick={() => {
+                    if (fiftyFiftyShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.fiftyFifty}c)`); return; }
+                    activateFiftyFifty();
+                  }}
+                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 ${!fiftyFiftyLocked && fiftyFiftyShort ? 'opacity-40' : ''}`}
                 >
                   <Scissors className="w-3.5 h-3.5 text-amber-400" /> 50:50 ({JOKER_COSTS.fiftyFifty}c)
                 </button>
                 <button
-                  disabled={jokersUsed.plusTen || selectedOption !== null || globalStats.coins < JOKER_COSTS.plusTen}
-                  onClick={usePlusTen}
-                  className="px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1"
+                  disabled={plusTenLocked}
+                  onClick={() => {
+                    if (plusTenShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.plusTen}c)`); return; }
+                    activatePlusTen();
+                  }}
+                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 ${!plusTenLocked && plusTenShort ? 'opacity-40' : ''}`}
                 >
                   <Clock className="w-3.5 h-3.5 text-amber-400" /> +{PLUS_TEN_SECONDS}s ({JOKER_COSTS.plusTen}c)
                 </button>
                 <button
-                  disabled={jokersUsed.skip || selectedOption !== null || globalStats.coins < JOKER_COSTS.skip}
-                  onClick={useSkip}
-                  className="px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1"
+                  disabled={skipLocked}
+                  onClick={() => {
+                    if (skipShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.skip}c)`); return; }
+                    activateSkip();
+                  }}
+                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 ${!skipLocked && skipShort ? 'opacity-40' : ''}`}
                 >
                   <FastForward className="w-3.5 h-3.5 text-amber-400" /> Preskoči ({JOKER_COSTS.skip}c)
                 </button>
               </div>
+              {jokerMessage && (
+                <p className="text-center text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl py-2">
+                  {jokerMessage}
+                </p>
+              )}
             </div>
           </div>
         )}
@@ -954,7 +1011,26 @@ export default function App() {
               </p>
             </div>
 
-            {!scoreSaved ? (
+            {scoreSaved ? (
+              <p className="text-emerald-400 text-xs font-bold flex items-center justify-center gap-1.5 bg-emerald-500/10 border border-emerald-500/20 py-3 rounded-xl">
+                <Award className="w-4 h-4" /> Rezultat uspješno spremljen!
+              </p>
+            ) : currentUser ? (
+              autoSaveFailed ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setAutoSaveFailed(false);
+                    saveScore(getPlayerDisplayName(currentUser)).catch(() => setAutoSaveFailed(true));
+                  }}
+                  className="w-full bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/30 font-bold py-3 rounded-xl text-sm transition-colors"
+                >
+                  Spremanje nije uspjelo. Pokušaj ponovno.
+                </button>
+              ) : (
+                <p className="text-slate-400 text-xs font-bold animate-pulse py-3">Spremanje rezultata...</p>
+              )
+            ) : (
               <form onSubmit={handleSaveScore} className="space-y-3">
                 <input
                   type="text"
@@ -972,10 +1048,6 @@ export default function App() {
                   {isSaving ? 'Spremanje...' : 'Spremi Rezultat'}
                 </button>
               </form>
-            ) : (
-              <p className="text-emerald-400 text-xs font-bold flex items-center justify-center gap-1.5 bg-emerald-500/10 border border-emerald-500/20 py-3 rounded-xl">
-                <Award className="w-4 h-4" /> Rezultat uspješno spremljen!
-              </p>
             )}
 
             <button

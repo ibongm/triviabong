@@ -119,7 +119,10 @@ export const syncUserStatsToFirestore = async (uid, stats) => {
  * Saves a category high score to Firestore. elapsedMs/isPerfect are optional
  * (used by the Rekordi "fastest perfect round" board) - omitted entirely
  * from the payload when not provided, rather than written as null, so
- * older call sites/rules validation are unaffected.
+ * older call sites/rules validation are unaffected. Returns whether the
+ * write actually succeeded - the caller (App.jsx's saveScore) uses this to
+ * decide whether the "successfully saved" state is truthful, rather than
+ * just always showing it once the promise settles.
  */
 export const saveScoreToFirestore = async (categoryKey, name, score, uid = null, elapsedMs = null, isPerfect = null) => {
     try {
@@ -128,8 +131,10 @@ export const saveScoreToFirestore = async (categoryKey, name, score, uid = null,
         if (typeof elapsedMs === 'number') payload.elapsedMs = elapsedMs;
         if (typeof isPerfect === 'boolean') payload.isPerfect = isPerfect;
         await addDoc(scoresRef, payload);
+        return true;
     } catch (error) {
         console.error("Error saving score to Firestore:", error);
+        return false;
     }
 };
 

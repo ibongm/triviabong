@@ -54,7 +54,7 @@ function step(label, ok) {
 }
 
 async function registerAndPlay(page) {
-  await page.goto(URL, { waitUntil: 'networkidle' });
+  await page.goto(URL, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
 
   console.log(`=== [A] register ${EMAIL} ===`);
@@ -92,7 +92,7 @@ async function registerAndPlay(page) {
 
 async function loginAndCheck(page, expected) {
   console.log(`=== [B] fresh context, login as ${EMAIL} ===`);
-  await page.goto(URL, { waitUntil: 'networkidle' });
+  await page.goto(URL, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
   await clickText(page, 'Prijava');
   await page.waitForSelector('input[type="email"]', { timeout: 10000 });
