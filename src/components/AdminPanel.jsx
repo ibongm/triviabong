@@ -5,7 +5,7 @@ import {
     deleteUserFromFirestore,
     auth
 } from '../services/firebase';
-import { getAllCategories, getRawCategoryQuestions } from '../data/questionsLoader';
+import { getAllCategories, getRawCategoryQuestions, getAllQuestions } from '../data/questionsLoader';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { validateQuestions, detectCategory, mergeQuestions } from '../utils/questionMerge';
 
@@ -45,7 +45,19 @@ export default function AdminPanel({ onClose }) {
     const [uploadResult, setUploadResult] = useState(null);
     const [uploadError, setUploadError] = useState('');
 
-    const categoryOptions = getAllCategories();
+    const categoryOptions = useMemo(() => getAllCategories(), []);
+
+    // Counts reflect whatever's in the currently deployed bundle - after an
+    // upload lands, these won't move until the site's next redeploy (~1-2
+    // min), same as everywhere else questions come from static JSON.
+    const categoryCounts = useMemo(() => {
+        const counts = {};
+        for (const key of categoryOptions) {
+            counts[key] = getRawCategoryQuestions(key).length;
+        }
+        return counts;
+    }, [categoryOptions]);
+    const aggregateTotal = useMemo(() => getAllQuestions().length, []);
 
     const handleFileSelect = (e) => {
         const file = e.target.files?.[0];
@@ -176,6 +188,45 @@ export default function AdminPanel({ onClose }) {
                         Zatvori Admin Panel
                     </button>
                 )}
+            </div>
+
+            {/* BROJ PITANJA PO KATEGORIJI */}
+            <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
+                <h2 className="text-lg font-semibold text-amber-400 mb-4 flex items-center gap-2">
+                    <span>📊</span> Broj Pitanja po Kategoriji
+                </h2>
+                <div className="overflow-x-auto">
+                    <table className="w-full text-left border-collapse text-sm">
+                        <thead>
+                            <tr className="border-b border-slate-800 text-slate-400">
+                                <th className="py-2 px-2">Kategorija</th>
+                                <th className="py-2 px-2 text-right">Broj pitanja</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-800/50">
+                            {categoryOptions.map((key) => (
+                                <tr key={key}>
+                                    <td className="py-2 px-2 text-slate-200">
+                                        {CATEGORY_META[key]?.label || key}
+                                        {key === 'opca_znanje' && (
+                                            <span className="text-slate-500 text-xs"> (vlastita pitanja)</span>
+                                        )}
+                                    </td>
+                                    <td className="py-2 px-2 text-right text-amber-400 font-semibold">{categoryCounts[key]}</td>
+                                </tr>
+                            ))}
+                            <tr>
+                                <td className="py-2 px-2 text-slate-300 font-semibold">
+                                    Opće znanje - ukupno u fondu (sve kategorije)
+                                </td>
+                                <td className="py-2 px-2 text-right text-emerald-400 font-bold">{aggregateTotal}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p className="text-slate-600 text-xs italic mt-2">
+                    Opće znanje vuče pitanja iz svih kategorija (uključujući vlastita) - taj zbroj je prikazan posebno iznad.
+                </p>
             </div>
 
             {/* UPLOAD PITANJA */}
