@@ -24,6 +24,7 @@ import {
     writeBatch
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
+import { CATEGORY_META } from "../data/categoryMeta";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -115,17 +116,18 @@ export const syncUserStatsToFirestore = async (uid, stats) => {
 };
 
 /**
- * Saves a category high score to Firestore
+ * Saves a category high score to Firestore. elapsedMs/isPerfect are optional
+ * (used by the Rekordi "fastest perfect round" board) - omitted entirely
+ * from the payload when not provided, rather than written as null, so
+ * older call sites/rules validation are unaffected.
  */
-export const saveScoreToFirestore = async (categoryKey, name, score, uid = null) => {
+export const saveScoreToFirestore = async (categoryKey, name, score, uid = null, elapsedMs = null, isPerfect = null) => {
     try {
         const scoresRef = collection(db, "leaderboards", categoryKey, "scores");
-        await addDoc(scoresRef, {
-            name,
-            score,
-            uid,
-            createdAt: serverTimestamp()
-        });
+        const payload = { name, score, uid, createdAt: serverTimestamp() };
+        if (typeof elapsedMs === 'number') payload.elapsedMs = elapsedMs;
+        if (typeof isPerfect === 'boolean') payload.isPerfect = isPerfect;
+        await addDoc(scoresRef, payload);
     } catch (error) {
         console.error("Error saving score to Firestore:", error);
     }
@@ -142,6 +144,93 @@ export const getLeaderboardFromFirestore = async (categoryKey) => {
         return querySnapshot.docs.map(docSnap => docSnap.data());
     } catch (error) {
         console.error("Error fetching leaderboard from Firestore:", error);
+        return [];
+    }
+};
+
+/**
+ * Syncs a deliberately public-safe summary of a player's stats to
+ * publicProfiles/{uid} - only what the Rekordi ranking boards need
+ * (never the sensitive fields that keep users/{uid} owner/admin-only).
+ * Called alongside syncUserStatsToFirestore, same call site.
+ */
+export const syncPublicProfile = async (uid, displayName, stats) => {
+    if (!uid) return;
+    try {
+        const profileRef = doc(db, "publicProfiles", uid);
+        await setDoc(profileRef, {
+            displayName: (displayName && displayName.trim()) || 'Igrač',
+            level: stats.level || 1,
+            xp: stats.xp || 0,
+            maxStreak: stats.maxStreak || 0,
+            dayStreak: stats.dayStreak || 0,
+            achievementCount: Object.keys(stats.unlockedAchievements || {}).length,
+            updatedAt: serverTimestamp()
+        });
+    } catch (error) {
+        console.error("Error syncing public profile to Firestore:", error);
+    }
+};
+
+/**
+ * Top players ranked by a single publicProfiles field (level, maxStreak,
+ * dayStreak, or achievementCount) - reused for 4 of the Rekordi boards.
+ */
+export const getPublicProfileLeaderboard = async (field, limitN = 10) => {
+    try {
+        const profilesRef = collection(db, "publicProfiles");
+        const q = query(profilesRef, orderBy(field, "desc"), limit(limitN));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(docSnap => ({ uid: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error(`Error fetching public profile leaderboard for ${field}:`, error);
+        return [];
+    }
+};
+
+/**
+ * Best single-round score across every category (Rekordi board) - fetches
+ * the top limitN from each of the 8 category leaderboards (not just the
+ * single best from each, since the true overall top N could plausibly all
+ * come from one category) and re-sorts the merged set.
+ */
+export const getBestScoresAcrossCategories = async (limitN = 10) => {
+    try {
+        const categories = Object.keys(CATEGORY_META);
+        const perCategory = await Promise.all(categories.map(async (cat) => {
+            const scoresRef = collection(db, "leaderboards", cat, "scores");
+            const q = query(scoresRef, orderBy("score", "desc"), limit(limitN));
+            const querySnapshot = await getDocs(q);
+            return querySnapshot.docs.map(docSnap => ({ id: docSnap.id, category: cat, ...docSnap.data() }));
+        }));
+        return perCategory.flat().sort((a, b) => b.score - a.score).slice(0, limitN);
+    } catch (error) {
+        console.error("Error fetching best scores across categories:", error);
+        return [];
+    }
+};
+
+/**
+ * Fastest flawless (10/10) round across every category (Rekordi board).
+ * Firestore can't cheaply combine an equality filter (isPerfect) with a
+ * sort on a different field (elapsedMs) without a composite index per
+ * category, so this fetches each category's full list (same pattern as
+ * getAllScoresForCategory) and filters/sorts client-side - fine for an
+ * occasionally-opened records screen, not a hot path.
+ */
+export const getFastestPerfectRounds = async (limitN = 10) => {
+    try {
+        const categories = Object.keys(CATEGORY_META);
+        const perCategory = await Promise.all(categories.map(async (cat) => {
+            const scoresRef = collection(db, "leaderboards", cat, "scores");
+            const querySnapshot = await getDocs(scoresRef);
+            return querySnapshot.docs
+                .map(docSnap => ({ id: docSnap.id, category: cat, ...docSnap.data() }))
+                .filter(entry => entry.isPerfect === true && typeof entry.elapsedMs === 'number');
+        }));
+        return perCategory.flat().sort((a, b) => a.elapsedMs - b.elapsedMs).slice(0, limitN);
+    } catch (error) {
+        console.error("Error fetching fastest perfect rounds:", error);
         return [];
     }
 };

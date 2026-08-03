@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star
+  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
@@ -33,11 +33,13 @@ import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
 import GuideModal from './components/GuideModal';
 import AchievementsModal from './components/AchievementsModal';
+import RekordiModal from './components/RekordiModal';
 import {
   auth,
   logoutUser,
   getUserStatsFromFirestore,
   syncUserStatsToFirestore,
+  syncPublicProfile,
   saveScoreToFirestore,
   getLeaderboardFromFirestore
 } from './services/firebase';
@@ -132,6 +134,7 @@ export default function App() {
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showGuideModal, setShowGuideModal] = useState(false);
   const [showAchievementsModal, setShowAchievementsModal] = useState(false);
+  const [showRekordiModal, setShowRekordiModal] = useState(false);
 
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
@@ -207,6 +210,8 @@ export default function App() {
     localStorage.setItem('triviabong_global_stats', JSON.stringify(globalStats));
     if (currentUser?.uid && statsReadyForUid === currentUser.uid) {
       syncUserStatsToFirestore(currentUser.uid, globalStats);
+      const displayName = currentUser.displayName || currentUser.email?.split('@')[0] || 'Igrač';
+      syncPublicProfile(currentUser.uid, displayName, globalStats);
     }
   }, [globalStats, currentUser, statsReadyForUid]);
 
@@ -585,7 +590,9 @@ export default function App() {
     setLeaderboards({ ...leaderboards, [catKey]: newList });
 
     try {
-      await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null);
+      const elapsedMs = roundStartTime ? Date.now() - roundStartTime : null;
+      const isPerfect = correctInRound === QUESTIONS_PER_ROUND;
+      await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
       setScoreSaved(true);
       sound.playClick();
     } finally {
@@ -657,6 +664,15 @@ export default function App() {
               <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Trofeji</span>
             </button>
           </div>
+
+          <button
+            onClick={() => { sound.playClick(); setShowRekordiModal(true); }}
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
+            title="Rekordi"
+          >
+            <Medal className="w-4 h-4 text-amber-400" />
+            <span className="hidden sm:inline">Rekordi</span>
+          </button>
 
           <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
@@ -951,6 +967,12 @@ export default function App() {
         isOpen={showAchievementsModal}
         onClose={() => setShowAchievementsModal(false)}
         stats={globalStats}
+      />
+
+      {/* Rekordi Modal */}
+      <RekordiModal
+        isOpen={showRekordiModal}
+        onClose={() => setShowRekordiModal(false)}
       />
 
       {/* Guide Modal */}
