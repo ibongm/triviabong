@@ -10,6 +10,7 @@ import {
     getFirestore,
     doc,
     setDoc,
+    getDoc,
     getDocFromServer,
     waitForPendingWrites,
     getDocs,
@@ -21,7 +22,8 @@ import {
     deleteDoc,
     serverTimestamp,
     addDoc,
-    writeBatch
+    writeBatch,
+    runTransaction
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
@@ -131,10 +133,46 @@ export const saveScoreToFirestore = async (categoryKey, name, score, uid = null,
         if (typeof elapsedMs === 'number') payload.elapsedMs = elapsedMs;
         if (typeof isPerfect === 'boolean') payload.isPerfect = isPerfect;
         await addDoc(scoresRef, payload);
+        if (isPerfect === true && typeof elapsedMs === 'number') {
+            await maybeUpdateFastestPerfectRecord(categoryKey, name, uid, elapsedMs);
+        }
         return true;
     } catch (error) {
         console.error("Error saving score to Firestore:", error);
         return false;
+    }
+};
+
+const FASTEST_PERFECT_DOC_REF = () => doc(db, "records", "fastestPerfect");
+const MAX_FASTEST_PERFECT_ENTRIES = 10;
+
+/**
+ * Keeps records/fastestPerfect (a maintained top-10 of the fastest flawless
+ * rounds across every category) up to date, so getFastestPerfectRounds can
+ * read one bounded doc instead of scanning every leaderboards/{cat}/scores
+ * subcollection - see that function's comment for why the scan existed and
+ * why it had to go. Only writes when the new round actually beats the
+ * current 10th place (or the board isn't full yet); a miss costs one read
+ * and no write. Never throws - a failure here should not fail the
+ * underlying score save it's attached to.
+ */
+const maybeUpdateFastestPerfectRecord = async (categoryKey, name, uid, elapsedMs) => {
+    try {
+        await runTransaction(db, async (tx) => {
+            const ref = FASTEST_PERFECT_DOC_REF();
+            const snap = await tx.get(ref);
+            const entries = snap.exists() ? (snap.data().entries || []) : [];
+            if (entries.length >= MAX_FASTEST_PERFECT_ENTRIES
+                && elapsedMs >= entries[entries.length - 1].elapsedMs) {
+                return;
+            }
+            const updated = [...entries, { category: categoryKey, name, uid: uid || null, elapsedMs, createdAt: Date.now() }]
+                .sort((a, b) => a.elapsedMs - b.elapsedMs)
+                .slice(0, MAX_FASTEST_PERFECT_ENTRIES);
+            tx.set(ref, { entries: updated, updatedAt: serverTimestamp() });
+        });
+    } catch (error) {
+        console.error("Error updating fastest-perfect record:", error);
     }
 };
 
@@ -217,27 +255,48 @@ export const getBestScoresAcrossCategories = async (limitN = 10) => {
 
 /**
  * Fastest flawless (10/10) round across every category (Rekordi board).
- * Firestore can't cheaply combine an equality filter (isPerfect) with a
- * sort on a different field (elapsedMs) without a composite index per
- * category, so this fetches each category's full list (same pattern as
- * getAllScoresForCategory) and filters/sorts client-side - fine for an
- * occasionally-opened records screen, not a hot path.
+ * Reads the single maintained records/fastestPerfect doc (kept current by
+ * maybeUpdateFastestPerfectRecord on every perfect-round score save) instead
+ * of scanning every leaderboards/{cat}/scores subcollection - that scan used
+ * to cost one read per score ever saved, on every app load, forever. This
+ * is one bounded read regardless of how many scores exist.
  */
 export const getFastestPerfectRounds = async (limitN = 10) => {
     try {
-        const categories = Object.keys(CATEGORY_META);
-        const perCategory = await Promise.all(categories.map(async (cat) => {
-            const scoresRef = collection(db, "leaderboards", cat, "scores");
-            const querySnapshot = await getDocs(scoresRef);
-            return querySnapshot.docs
-                .map(docSnap => ({ id: docSnap.id, category: cat, ...docSnap.data() }))
-                .filter(entry => entry.isPerfect === true && typeof entry.elapsedMs === 'number');
-        }));
-        return perCategory.flat().sort((a, b) => a.elapsedMs - b.elapsedMs).slice(0, limitN);
+        const snap = await getDoc(FASTEST_PERFECT_DOC_REF());
+        if (!snap.exists()) return [];
+        return (snap.data().entries || []).slice(0, limitN);
     } catch (error) {
         console.error("Error fetching fastest perfect rounds:", error);
         return [];
     }
+};
+
+/**
+ * Admin-only escape hatch: rebuilds records/fastestPerfect from scratch by
+ * scanning every leaderboards/{cat}/scores subcollection (the same full
+ * scan getFastestPerfectRounds used to do on every load). Needed because
+ * deleting a score or clearing a category via the Admin Panel can leave the
+ * maintained doc pointing at data that no longer exists - this is the fix
+ * for that drift. Deliberately not run automatically; it's an unbounded
+ * scan, only acceptable as an occasional admin action (same tolerance as
+ * getAllScoresForCategory/clearLeaderboardForCategory below).
+ */
+export const recomputeFastestPerfectRecord = async (limitN = MAX_FASTEST_PERFECT_ENTRIES) => {
+    const categories = Object.keys(CATEGORY_META);
+    const perCategory = await Promise.all(categories.map(async (cat) => {
+        const scoresRef = collection(db, "leaderboards", cat, "scores");
+        const querySnapshot = await getDocs(scoresRef);
+        return querySnapshot.docs
+            .map(docSnap => ({ category: cat, ...docSnap.data() }))
+            .filter(entry => entry.isPerfect === true && typeof entry.elapsedMs === 'number');
+    }));
+    const entries = perCategory.flat()
+        .sort((a, b) => a.elapsedMs - b.elapsedMs)
+        .slice(0, limitN)
+        .map(({ category, name, uid, elapsedMs }) => ({ category, name, uid: uid || null, elapsedMs, createdAt: Date.now() }));
+    await setDoc(FASTEST_PERFECT_DOC_REF(), { entries, updatedAt: serverTimestamp() });
+    return entries.length;
 };
 
 /**

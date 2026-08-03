@@ -6,6 +6,7 @@ import {
     getAllScoresForCategory,
     deleteScoreFromFirestore,
     clearLeaderboardForCategory,
+    recomputeFastestPerfectRecord,
     getAllPublicProfiles,
     deletePublicProfile,
     clearAllPublicProfiles,
@@ -293,6 +294,8 @@ export default function AdminPanel({ onClose }) {
     const [lbLoading, setLbLoading] = useState(false);
     const [lbBusy, setLbBusy] = useState(false);
     const [lbMessage, setLbMessage] = useState(null);
+    const [rbBusy, setRbBusy] = useState(false);
+    const [rbMessage, setRbMessage] = useState(null);
 
     const loadLeaderboard = async (key) => {
         setLbCategory(key);
@@ -339,6 +342,23 @@ export default function AdminPanel({ onClose }) {
             setLbMessage({ type: 'error', text: 'Brisanje nije uspjelo.' });
         } finally {
             setLbBusy(false);
+        }
+    };
+
+    const handleRecomputeFastestPerfect = async () => {
+        if (rbBusy) return;
+        if (!window.confirm('Ponovno izgraditi zapis "najbrži savršeni krug" skeniranjem svih ljestvica? Koristite ovo samo ako je zapis zastario nakon brisanja rezultata.')) return;
+
+        setRbBusy(true);
+        setRbMessage(null);
+        try {
+            const count = await recomputeFastestPerfectRecord();
+            setRbMessage({ type: 'success', text: `Rekord obnovljen (${count} zapisa).` });
+        } catch (err) {
+            console.error('Greška pri obnovi rekorda:', err);
+            setRbMessage({ type: 'error', text: 'Obnova nije uspjela.' });
+        } finally {
+            setRbBusy(false);
         }
     };
 
@@ -786,12 +806,29 @@ export default function AdminPanel({ onClose }) {
 
             {/* UPRAVLJAJ LJESTVICAMA */}
             <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-                <h2 className="text-lg font-semibold text-amber-400 mb-1 flex items-center gap-2">
-                    <span>🏆</span> Upravljaj Ljestvicama
-                </h2>
+                <div className="flex items-center justify-between mb-1">
+                    <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
+                        <span>🏆</span> Upravljaj Ljestvicama
+                    </h2>
+                    <button
+                        type="button"
+                        onClick={handleRecomputeFastestPerfect}
+                        disabled={rbBusy}
+                        title="Ponovno izgradi Rekordi zapis najbržeg savršenog kruga (koristi nakon brisanja rezultata)"
+                        className="bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                    >
+                        Rekonstruiraj rekorde
+                    </button>
+                </div>
                 <p className="text-slate-400 text-sm mb-4">
                     Pregledajte i brišite rezultate na ljestvici po kategoriji - uključujući sve rezultate, ne samo top 10 prikazan igračima.
                 </p>
+
+                {rbMessage && (
+                    <div className={`text-sm rounded-lg p-3 mb-4 ${rbMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
+                        {rbMessage.text}
+                    </div>
+                )}
 
                 <div className="flex flex-wrap items-end gap-3 mb-4">
                     <div className="flex-1 min-w-[200px]">
