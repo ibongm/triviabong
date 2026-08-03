@@ -20,7 +20,8 @@ import {
     updateDoc,
     deleteDoc,
     serverTimestamp,
-    addDoc
+    addDoc,
+    writeBatch
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 
@@ -143,6 +144,53 @@ export const getLeaderboardFromFirestore = async (categoryKey) => {
         console.error("Error fetching leaderboard from Firestore:", error);
         return [];
     }
+};
+
+/**
+ * Fetches EVERY score for a category (not capped at 10 like
+ * getLeaderboardFromFirestore, which is the gameplay-facing top-10 read),
+ * including doc ids, for admin management.
+ */
+export const getAllScoresForCategory = async (categoryKey) => {
+    try {
+        const scoresRef = collection(db, "leaderboards", categoryKey, "scores");
+        const q = query(scoresRef, orderBy("score", "desc"));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(docSnap => ({ id: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error("Error fetching all scores for category:", error);
+        return [];
+    }
+};
+
+/**
+ * Deletes a single leaderboard score.
+ */
+export const deleteScoreFromFirestore = async (categoryKey, scoreId) => {
+    const scoreRef = doc(db, "leaderboards", categoryKey, "scores", scoreId);
+    await deleteDoc(scoreRef);
+};
+
+/**
+ * Deletes every score in a category's leaderboard. Firestore has no native
+ * client-side "delete collection" operation, so this fetches every doc id
+ * first, then removes them in batches (writeBatch caps at 500 ops/batch).
+ * Returns how many were deleted.
+ */
+export const clearLeaderboardForCategory = async (categoryKey) => {
+    const scoresRef = collection(db, "leaderboards", categoryKey, "scores");
+    const querySnapshot = await getDocs(scoresRef);
+    const docs = querySnapshot.docs;
+
+    const BATCH_LIMIT = 500;
+    for (let i = 0; i < docs.length; i += BATCH_LIMIT) {
+        const batch = writeBatch(db);
+        for (const docSnap of docs.slice(i, i + BATCH_LIMIT)) {
+            batch.delete(docSnap.ref);
+        }
+        await batch.commit();
+    }
+    return docs.length;
 };
 
 /**
