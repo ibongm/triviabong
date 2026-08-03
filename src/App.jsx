@@ -627,25 +627,34 @@ export default function App() {
           <div className="flex items-center gap-1">
             <button
               onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-              className="flex items-center gap-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors"
+              className="flex flex-col items-center gap-0.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400 transition-colors"
               title="Razina i Statistika"
             >
-              <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-              <span>{globalStats.level || 1}</span>
+              <span className="flex items-center gap-1 text-xs font-bold">
+                <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
+                {globalStats.level || 1}
+              </span>
+              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Razina</span>
             </button>
 
-            <div className="flex items-center gap-1.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400">
-              <Coins className="w-4 h-4 text-amber-400" />
-              <span>{globalStats.coins}</span>
+            <div className="flex flex-col items-center gap-0.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400">
+              <span className="flex items-center gap-1 text-xs font-bold">
+                <Coins className="w-4 h-4 text-amber-400" />
+                {globalStats.coins}
+              </span>
+              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Zlatnici</span>
             </div>
 
             <button
               onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
-              className="flex items-center gap-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors"
+              className="flex flex-col items-center gap-0.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400 transition-colors"
               title="Trofeji"
             >
-              <Trophy className="w-4 h-4 text-amber-400" />
-              <span>{Object.keys(globalStats.unlockedAchievements || {}).length}</span>
+              <span className="flex items-center gap-1 text-xs font-bold">
+                <Trophy className="w-4 h-4 text-amber-400" />
+                {Object.keys(globalStats.unlockedAchievements || {}).length}
+              </span>
+              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Trofeji</span>
             </button>
           </div>
 
