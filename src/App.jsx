@@ -62,6 +62,11 @@ export default function App() {
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
+  // Briefly ignored right after a new question mounts, since answer buttons
+  // keep the same DOM node (key={idx}) across the transition - without this,
+  // a duplicate/delayed mobile tap landing as the button re-enables gets
+  // recorded as a real answer to the new question instead of being dropped.
+  const [answerLocked, setAnswerLocked] = useState(true);
 
   const [currentShuffledOptions, setCurrentShuffledOptions] = useState([]);
 
@@ -86,6 +91,7 @@ export default function App() {
 
   const [nickname, setNickname] = useState('');
   const [scoreSaved, setScoreSaved] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
   const [showAdminPanel, setShowAdminPanel] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
 
@@ -106,10 +112,13 @@ export default function App() {
   useEffect(() => {
     setHiddenOptions([]);
     setSelectedOption(null);
+    setAnswerLocked(true);
     if (questions[currentIndex]) {
       const rawOpts = getQuestionOptions(questions[currentIndex]);
       setCurrentShuffledOptions(shuffleArray(rawOpts));
     }
+    const unlockTimer = setTimeout(() => setAnswerLocked(false), 300);
+    return () => clearTimeout(unlockTimer);
   }, [currentIndex, questions]);
 
   // Auth Listener
@@ -239,7 +248,7 @@ export default function App() {
   };
 
   const handleAnswer = (option) => {
-    if (selectedOption !== null) return;
+    if (selectedOption !== null || answerLocked) return;
     setSelectedOption(option);
 
     const currentQ = questions[currentIndex];
@@ -364,7 +373,8 @@ export default function App() {
 
   const handleSaveScore = async (e) => {
     e.preventDefault();
-    if (!nickname.trim() || scoreSaved) return;
+    if (!nickname.trim() || scoreSaved || isSaving) return;
+    setIsSaving(true);
 
     const catKey = selectedCategory || 'opca_znanje';
     const entryName = nickname.trim();
@@ -375,10 +385,13 @@ export default function App() {
       .slice(0, 10);
     setLeaderboards({ ...leaderboards, [catKey]: newList });
 
-    await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null);
-
-    setScoreSaved(true);
-    sound.playClick();
+    try {
+      await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null);
+      setScoreSaved(true);
+      sound.playClick();
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   const handlePlayerLogout = async () => {
@@ -604,7 +617,7 @@ export default function App() {
                   return (
                     <button
                       key={idx}
-                      disabled={selectedOption !== null}
+                      disabled={selectedOption !== null || answerLocked}
                       onClick={() => handleAnswer(option)}
                       className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all flex justify-between items-center ${btnStyle}`}
                     >
@@ -668,9 +681,10 @@ export default function App() {
                 />
                 <button
                   type="submit"
-                  className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-3 rounded-xl text-sm transition-colors shadow-lg shadow-amber-500/20"
+                  disabled={isSaving}
+                  className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-3 rounded-xl text-sm transition-colors shadow-lg shadow-amber-500/20 disabled:opacity-50"
                 >
-                  Spremi Rezultat
+                  {isSaving ? 'Spremanje...' : 'Spremi Rezultat'}
                 </button>
               </form>
             ) : (
