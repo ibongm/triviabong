@@ -92,7 +92,7 @@ try {
     await page.waitForTimeout(1500); // app auto-advances ~1.2-1.5s after an answer
   }
   const afterAnswers = await bodyText(page);
-  step('score/HP updated from answering', /Bodovi:\s*\d+/.test(afterAnswers));
+  step('score updated from answering', /Bodovi:\s*\d+/.test(afterAnswers));
   await ss(page, 'after-answers');
 
   console.log('=== joker buttons ===');

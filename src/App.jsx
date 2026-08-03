@@ -8,11 +8,26 @@ import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader
 import { resolveCategoryKey } from './data/categoryKeys';
 import { CATEGORY_META } from './data/categoryMeta';
 import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
+import {
+  MAX_LIVES,
+  QUESTIONS_PER_ROUND,
+  QUESTION_TIME_SECONDS,
+  PLUS_TEN_SECONDS,
+  BASE_SCORE,
+  SPEED_BONUS_PER_SECOND,
+  STREAK_MULTIPLIER_STEP,
+  XP_PER_CORRECT_ANSWER,
+  COIN_PER_CORRECT_ANSWER,
+  COIN_BONUS_STREAK_INTERVAL,
+  COIN_BONUS_AMOUNT,
+  JOKER_COSTS
+} from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
 import { sound } from './utils/sound';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
+import GuideModal from './components/GuideModal';
 import {
   auth,
   logoutUser,
@@ -44,10 +59,6 @@ const getCategoryDetails = (catKey) => {
 };
 
 const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
-
-// Time given per question, in seconds. Bumped from 15 to 20 during beta to
-// give testers more room to react or screenshot a bug before it auto-advances.
-const QUESTION_TIME_SECONDS = 20;
 
 const getQuestionOptions = (q) => {
   if (!q) return [];
@@ -81,7 +92,7 @@ export default function App() {
   const [currentShuffledOptions, setCurrentShuffledOptions] = useState([]);
 
   const [score, setScore] = useState(0);
-  const [hp, setHp] = useState(100);
+  const [lives, setLives] = useState(MAX_LIVES);
   const [streak, setStreak] = useState(0);
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_SECONDS);
   const [globalStats, setGlobalStats] = useState(() => {
@@ -104,6 +115,7 @@ export default function App() {
   const [isSaving, setIsSaving] = useState(false);
   const [showAdminPanel, setShowAdminPanel] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
+  const [showGuideModal, setShowGuideModal] = useState(false);
 
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
@@ -214,12 +226,12 @@ export default function App() {
   const launchQuizRound = () => {
     sound.playClick();
     const loadedQuestions = getQuestionsByCategory(selectedCategory);
-    const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, 10);
+    const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, QUESTIONS_PER_ROUND);
 
     setQuestions(shuffled);
     setCurrentIndex(0);
     setScore(0);
-    setHp(100);
+    setLives(MAX_LIVES);
     setStreak(0);
     setTimeLeft(QUESTION_TIME_SECONDS);
     setJokersUsed({ fiftyFifty: false, plusTen: false, skip: false });
@@ -268,15 +280,15 @@ export default function App() {
 
     if (correct) {
       sound.playCorrect();
-      const speedBonus = timeLeft * 10;
-      const streakMultiplier = 1 + streak * 0.2;
-      const earned = Math.round((100 + speedBonus) * streakMultiplier);
+      const speedBonus = timeLeft * SPEED_BONUS_PER_SECOND;
+      const streakMultiplier = 1 + streak * STREAK_MULTIPLIER_STEP;
+      const earned = Math.round((BASE_SCORE + speedBonus) * streakMultiplier);
 
       setScore(s => s + earned);
       setStreak(s => s + 1);
 
       setGlobalStats(prev => {
-        const newXp = prev.xp + 50;
+        const newXp = prev.xp + XP_PER_CORRECT_ANSWER;
         return {
           ...prev,
           xp: newXp,
@@ -284,20 +296,16 @@ export default function App() {
           // an admin's manual override (AdminPanel) until the player's own
           // xp naturally earns a higher level.
           level: Math.max(prev.level || 1, computeLevelFromXp(newXp)),
-          coins: prev.coins + (streak > 0 && streak % 3 === 0 ? 5 : 2)
+          coins: prev.coins + (streak > 0 && streak % COIN_BONUS_STREAK_INTERVAL === 0 ? COIN_BONUS_AMOUNT : COIN_PER_CORRECT_ANSWER)
         };
       });
-
-      if ((streak + 1) % 3 === 0) {
-        setHp(h => Math.min(100, h + 15));
-      }
     } else {
       sound.playWrong();
       setStreak(0);
-      const newHp = hp - 25;
-      setHp(newHp);
+      const newLives = lives - 1;
+      setLives(newLives);
 
-      if (newHp <= 0) {
+      if (newLives <= 0) {
         setTimeout(() => setGameState('GAMEOVER'), 1000);
         return;
       }
@@ -322,11 +330,11 @@ export default function App() {
     sound.playWrong();
     updateCategoryStats(false);
     setStreak(0);
-    const newHp = hp - 25;
-    setHp(newHp);
+    const newLives = lives - 1;
+    setLives(newLives);
     setSelectedOption('TIMEOUT');
 
-    if (newHp <= 0) {
+    if (newLives <= 0) {
       setTimeout(() => setGameState('GAMEOVER'), 1000);
       return;
     }
@@ -345,7 +353,7 @@ export default function App() {
 
   const useFiftyFifty = () => {
     const currentQ = questions[currentIndex];
-    if (jokersUsed.fiftyFifty || globalStats.coins < 1 || !currentQ) return;
+    if (jokersUsed.fiftyFifty || globalStats.coins < JOKER_COSTS.fiftyFifty || !currentQ) return;
 
     sound.playClick();
     const correctAns = currentQ.correct_answer || currentQ.correctAnswer;
@@ -354,22 +362,22 @@ export default function App() {
 
     setHiddenOptions(toHide);
     setJokersUsed(j => ({ ...j, fiftyFifty: true }));
-    setGlobalStats(g => ({ ...g, coins: g.coins - 1 }));
+    setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.fiftyFifty }));
   };
 
   const usePlusTen = () => {
-    if (jokersUsed.plusTen || globalStats.coins < 1) return;
+    if (jokersUsed.plusTen || globalStats.coins < JOKER_COSTS.plusTen) return;
     sound.playClick();
-    setTimeLeft(t => t + 10);
+    setTimeLeft(t => t + PLUS_TEN_SECONDS);
     setJokersUsed(j => ({ ...j, plusTen: true }));
-    setGlobalStats(g => ({ ...g, coins: g.coins - 1 }));
+    setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.plusTen }));
   };
 
   const useSkip = () => {
-    if (jokersUsed.skip || globalStats.coins < 2) return;
+    if (jokersUsed.skip || globalStats.coins < JOKER_COSTS.skip) return;
     sound.playClick();
     setJokersUsed(j => ({ ...j, skip: true }));
-    setGlobalStats(g => ({ ...g, coins: g.coins - 2 }));
+    setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.skip }));
 
     setHiddenOptions([]);
     setSelectedOption(null);
@@ -439,6 +447,15 @@ export default function App() {
             <Coins className="w-4 h-4 text-amber-400" />
             <span>{globalStats.coins}</span>
           </div>
+
+          <button
+            onClick={() => { sound.playClick(); setShowGuideModal(true); }}
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
+            title="Kako Igrati"
+          >
+            <HelpCircle className="w-4 h-4 text-amber-400" />
+            <span className="hidden sm:inline">Vodič</span>
+          </button>
 
           <button
             onClick={() => { sound.playClick(); setShowStatsModal(true); }}
@@ -584,9 +601,13 @@ export default function App() {
         {gameState === 'PLAYING' && currentQ && (
           <div className="space-y-6">
             <div className="flex justify-between items-center bg-slate-900/60 border border-slate-800/80 p-3.5 rounded-2xl text-xs font-bold">
-              <div className="flex items-center gap-2 text-rose-400">
-                <Heart className="w-4 h-4 fill-rose-400" />
-                <span>{hp} HP</span>
+              <div className="flex items-center gap-1">
+                {Array.from({ length: MAX_LIVES }, (_, i) => (
+                  <Heart
+                    key={i}
+                    className={i < lives ? 'w-4 h-4 text-rose-500 fill-rose-500' : 'w-4 h-4 text-slate-700 fill-none'}
+                  />
+                ))}
               </div>
               <div className="flex items-center gap-1.5 text-amber-400">
                 <Clock className="w-4 h-4" />
@@ -642,25 +663,25 @@ export default function App() {
 
               <div className="flex justify-center gap-2 pt-2 border-t border-slate-800/80">
                 <button
-                  disabled={jokersUsed.fiftyFifty || selectedOption !== null || globalStats.coins < 1}
+                  disabled={jokersUsed.fiftyFifty || selectedOption !== null || globalStats.coins < JOKER_COSTS.fiftyFifty}
                   onClick={useFiftyFifty}
                   className="px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1"
                 >
-                  <Scissors className="w-3.5 h-3.5 text-amber-400" /> 50:50 (1c)
+                  <Scissors className="w-3.5 h-3.5 text-amber-400" /> 50:50 ({JOKER_COSTS.fiftyFifty}c)
                 </button>
                 <button
-                  disabled={jokersUsed.plusTen || selectedOption !== null || globalStats.coins < 1}
+                  disabled={jokersUsed.plusTen || selectedOption !== null || globalStats.coins < JOKER_COSTS.plusTen}
                   onClick={usePlusTen}
                   className="px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1"
                 >
-                  <Clock className="w-3.5 h-3.5 text-amber-400" /> +10s (1c)
+                  <Clock className="w-3.5 h-3.5 text-amber-400" /> +{PLUS_TEN_SECONDS}s ({JOKER_COSTS.plusTen}c)
                 </button>
                 <button
-                  disabled={jokersUsed.skip || selectedOption !== null || globalStats.coins < 2}
+                  disabled={jokersUsed.skip || selectedOption !== null || globalStats.coins < JOKER_COSTS.skip}
                   onClick={useSkip}
                   className="px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1"
                 >
-                  <FastForward className="w-3.5 h-3.5 text-amber-400" /> Preskoči (2c)
+                  <FastForward className="w-3.5 h-3.5 text-amber-400" /> Preskoči ({JOKER_COSTS.skip}c)
                 </button>
               </div>
             </div>
@@ -722,6 +743,12 @@ export default function App() {
         isOpen={showStatsModal}
         onClose={() => setShowStatsModal(false)}
         stats={globalStats}
+      />
+
+      {/* Guide Modal */}
+      <GuideModal
+        isOpen={showGuideModal}
+        onClose={() => setShowGuideModal(false)}
       />
 
       {/* Auth Modal */}
