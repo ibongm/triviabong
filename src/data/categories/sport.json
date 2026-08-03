@@ -2198,5 +2198,3305 @@
             "15 bodova",
             "20 bodova"
         ]
+    },
+    {
+        "id": "hr_sport_201",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometaš osvojio Zlatnu loptu (Ballon d'Or) 2018. godine?",
+        "correct_answer": "Luka Modrić",
+        "incorrect_answers": [
+            "Davor Šuker",
+            "Ivan Rakitić",
+            "Mario Mandžukić"
+        ]
+    },
+    {
+        "id": "hr_sport_202",
+        "category": "sport",
+        "question": "Koliko je ukupno olimpijskih medalja (zlatnih i srebrnih) osvojila Janica Kostelić u alpskom skijanju?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "4",
+            "5",
+            "8"
+        ]
+    },
+    {
+        "id": "hr_sport_203",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaš nosio nadimak 'Košarkaški Mozart' i igrao za Šibenku, Cibonu, Real Madrid i New Jersey Nets?",
+        "correct_answer": "Dražen Petrović",
+        "incorrect_answers": [
+            "Toni Kukoč",
+            "Dino Rađa",
+            "Stipan Prikačin"
+        ]
+    },
+    {
+        "id": "hr_sport_204",
+        "category": "sport",
+        "question": "Koja je hrvatska atletičarka osvojila dvije zlatne olimpijske medalje u bacanju diska (2012. i 2016.)?",
+        "correct_answer": "Sandra Perković",
+        "incorrect_answers": [
+            "Blanka Vlašić",
+            "Sara Kolak",
+            "Ana Šimić"
+        ]
+    },
+    {
+        "id": "hr_sport_205",
+        "category": "sport",
+        "question": "Koji je hrvatski tenisač osvojio US Open 2014. godine pobijedivši Keija Nishikorija u finalu?",
+        "correct_answer": "Marin Čilić",
+        "incorrect_answers": [
+            "Goran Ivanišević",
+            "Borna Ćorić",
+            "Ivan Ljubičić"
+        ]
+    },
+    {
+        "id": "hr_sport_206",
+        "category": "sport",
+        "question": "Koja je hrvatska muška rukometna reprezentacija osvojila zlatnu medalju na Olimpijskim igrama u Ateni 2004. pod vodstvom kojeg izbornika?",
+        "correct_answer": "Lino Červar",
+        "incorrect_answers": [
+            "Abas Arslanagić",
+            "Velimir Kljaić",
+            "Slavko Goluža"
+        ]
+    },
+    {
+        "id": "hr_sport_207",
+        "category": "sport",
+        "question": "Koji su hrvatski bračni par/braća veslači osvojili brojne zlatne medalje u dvojcu na pariće i dvojcu bez kormilara?",
+        "correct_answer": "Braća Sinković (Martin i Valent)",
+        "incorrect_answers": [
+            "Braća Skelin",
+            "Braća Fantela",
+            "Braća Lončarić"
+        ]
+    },
+    {
+        "id": "hr_sport_208",
+        "category": "sport",
+        "question": "Koja je hrvatska nogometna reprezentacija osvojila srebrnu medalju na Svjetskom prvenstvu u Rusiji 2018. godine?",
+        "correct_answer": "Hrvatska",
+        "incorrect_answers": [
+            "Francuska",
+            "Engleska",
+            "Belgija"
+        ]
+    },
+    {
+        "id": "hr_sport_209",
+        "category": "sport",
+        "question": "Koji je hrvatski skijaš osvojio Veliki kristalni globus u ukupnom poretku Svjetskog skijaškog kupa u sezoni 2010./2011.?",
+        "correct_answer": "Ivica Kostelić",
+        "incorrect_answers": [
+            "Natko Zrnčić-Dim",
+            "Filip Zubčić",
+            "Vedran Pavlek"
+        ]
+    },
+    {
+        "id": "hr_sport_210",
+        "category": "sport",
+        "question": "Koji je hrvatski vaterpolski klub iz Dubrovnika višestruki prvak Europe i nosi nadimak 'Gospar'?",
+        "correct_answer": "Jug (Jug Dubrovnik)",
+        "incorrect_answers": [
+            "Mladost",
+            "Jadran Split",
+            "Mornar"
+        ]
+    },
+    {
+        "id": "hr_sport_211",
+        "category": "sport",
+        "question": "Tko je bio najbolji strijelac (Zlatna kopačka) Svjetskog nogometnog prvenstva u Francuskoj 1998. godine sa 6 golova?",
+        "correct_answer": "Davor Šuker",
+        "incorrect_answers": [
+            "Ronaldo",
+            "Gabriel Batistuta",
+            "Thierry Henry"
+        ]
+    },
+    {
+        "id": "hr_sport_212",
+        "category": "sport",
+        "question": "Koji je hrvatski tenisač bio brončani na Olimpijskim igrama u Barceloni 1992. u pojedinačnoj i parovnoj konkurenciji?",
+        "correct_answer": "Goran Ivanišević",
+        "incorrect_answers": [
+            "Goran Prpić",
+            "Željko Franulović",
+            "Nikola Pilić"
+        ]
+    },
+    {
+        "id": "hr_sport_213",
+        "category": "sport",
+        "question": "S kojim je NBA klubom Toni Kukoč osvojio tri uzastopna NBA naslova prvaka (1996., 1997., 1998.)?",
+        "correct_answer": "Chicago Bulls",
+        "incorrect_answers": [
+            "Los Angeles Lakers",
+            "Philadelphia 76ers",
+            "Milwaukee Bucks"
+        ]
+    },
+    {
+        "id": "hr_sport_214",
+        "category": "sport",
+        "question": "Koja je hrvatska atletičarka osvojila zlatnu olimpijsku medalju u bacanju koplja na OI u Rio de Janeiru 2016.?",
+        "correct_answer": "Sara Kolak",
+        "incorrect_answers": [
+            "Sandra Perković",
+            "Blanka Vlašić",
+            "Lisa Stublić"
+        ]
+    },
+    {
+        "id": "hr_sport_215",
+        "category": "sport",
+        "question": "Koji je hrvatski gimnastičar osvojio zlatnu medalju na preči na Svjetskom prvenstvu u Montrealu 2017. godine?",
+        "correct_answer": "Tin Srbić",
+        "incorrect_answers": [
+            "Filip Ude",
+            "Robert Seligman",
+            "Marijo Možnik"
+        ]
+    },
+    {
+        "id": "hr_sport_216",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni klub iz Splita osvojio prvi povijesni naslov prvaka Hrvatske u HNL-u 1992. godine?",
+        "correct_answer": "Hajduk Split",
+        "incorrect_answers": [
+            "Dinamo Zagreb",
+            "Rijeka",
+            "Osijek"
+        ]
+    },
+    {
+        "id": "hr_sport_217",
+        "category": "sport",
+        "question": "Koji je hrvatski boksač bio prvak Europe u teškoj kategoriji i borio se za naslov svjetskog prvaka protiv Muhammada Alija 1978.?",
+        "correct_answer": "Mate Parlov",
+        "incorrect_answers": [
+            "Željko Mavrović",
+            "Marijan Beneš",
+            "Damir Škaro"
+        ]
+    },
+    {
+        "id": "hr_sport_218",
+        "category": "sport",
+        "question": "Kako se zove hrvatski jedriličar koji je osvojio prvu olimpijsku medalju u jedrenju za Hrvatsku (srebro u klasi Laser 2016.)?",
+        "correct_answer": "Tonči Stipanović",
+        "incorrect_answers": [
+            "Šime Fantela",
+            "Igor Marenić",
+            "Ivan Kljaković Gašpić"
+        ]
+    },
+    {
+        "id": "hr_sport_219",
+        "category": "sport",
+        "question": "Koji je zagrebački nogometni klub osvojio Kup velesajamskih gradova 1967. godine pobijedivši Leeds United u finalu?",
+        "correct_answer": "Dinamo Zagreb",
+        "incorrect_answers": [
+            "Hajduk Split",
+            "Zagreb",
+            "Rijeka"
+        ]
+    },
+    {
+        "id": "hr_sport_220",
+        "category": "sport",
+        "question": "Koja je hrvatska taekwondo borčica osvojila zlatnu olimpijsku medalju na OI u Tokiju 2020. (2021.) u kategoriji do 67 kg?",
+        "correct_answer": "Matea Jelić",
+        "incorrect_answers": [
+            "Lucija Zaninović",
+            "Ana Zaninović",
+            "Lena Stojković"
+        ]
+    },
+    {
+        "id": "hr_sport_221",
+        "category": "sport",
+        "question": "Koji je hrvatski rukometaš proglašen najboljim rukometašem svijeta 2003. i 2006. godine od strane IHF-a?",
+        "correct_answer": "Ivano Balić",
+        "incorrect_answers": [
+            "Domagoj Duvnjak",
+            "Petar Metličić",
+            "Mirza Džomba"
+        ]
+    },
+    {
+        "id": "hr_sport_222",
+        "category": "sport",
+        "question": "Koliko je puta hrvatska muška vaterpolska reprezentacija osvojila naslov prvaka svijeta (zaključno s Dohom 2024.)?",
+        "correct_answer": "3 puta",
+        "incorrect_answers": [
+            "2 puta",
+            "4 puta",
+            "1 put"
+        ]
+    },
+    {
+        "id": "hr_sport_223",
+        "category": "sport",
+        "question": "Koji je hrvatski gimnastičar osvojio srebrnu olimpijsku medalju na konju s hvataljkama na OI u Pekingu 2008.?",
+        "correct_answer": "Filip Ude",
+        "incorrect_answers": [
+            "Tin Srbić",
+            "Marijo Možnik",
+            "Aurel Benović"
+        ]
+    },
+    {
+        "id": "hr_sport_224",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometaš postigao odlučujući pogodak protiv Engleske u polufinalu SP-a u Rusiji 2018. za pobjedu 2:1 u produžecima?",
+        "correct_answer": "Mario Mandžukić",
+        "incorrect_answers": [
+            "Ivan Perišić",
+            "Luka Modrić",
+            "Andrej Kramarić"
+        ]
+    },
+    {
+        "id": "hr_sport_225",
+        "category": "sport",
+        "question": "Koja je hrvatska skijašica osvojila srebrnu medalju u slalomu na Zimskim olimpijskim igrama u Torinu 2006.?",
+        "correct_answer": "Janica Kostelić",
+        "incorrect_answers": [
+            "Ana Jelušić",
+            "Nika Fleiss",
+            "Zrinka Ljutić"
+        ]
+    },
+    {
+        "id": "hr_sport_226",
+        "category": "sport",
+        "question": "Koji je hrvatski teniski par osvojio zlatnu medalju na Olimpijskim igrama u Tokiju 2020. pobijedivši u hrvatskom finalu Čilića i Dodiga?",
+        "correct_answer": "Nikola Mektić i Mate Pavić",
+        "incorrect_answers": [
+            "Ivan Dodig i Marin Čilić",
+            "Mario Ančić i Ivan Ljubičić",
+            "Borna Gojo i Dino Prižmić"
+        ]
+    },
+    {
+        "id": "hr_sport_227",
+        "category": "sport",
+        "question": "Koji je hrvatski tenisač osvojio brončanu medalju na OI u Ateni 2004. u parovima zajedno s Goranom Ančićem?",
+        "correct_answer": "Ivan Ljubičić",
+        "incorrect_answers": [
+            "Mario Ančić",
+            "Marin Čilić",
+            "Ivo Karlović"
+        ]
+    },
+    {
+        "id": "hr_sport_228",
+        "category": "sport",
+        "question": "Koji je hrvatski vaterpolist bio proglašen najboljim igračem svijeta 2017. godine, a kasnije postao izbornik i trener?",
+        "correct_answer": "Sandro Sukno",
+        "incorrect_answers": [
+            "Maro Joković",
+            "Josip Pavić",
+            "Andro Bušlje"
+        ]
+    },
+    {
+        "id": "hr_sport_229",
+        "category": "sport",
+        "question": "Koja je hrvatska atletičarka u skoku uvis preskočila osobitih 2,08 m te osvojila dvije medalje na OI (srebro 2008., bronca 2016.)?",
+        "correct_answer": "Blanka Vlašić",
+        "incorrect_answers": [
+            "Sandra Perković",
+            "Ana Šimić",
+            "Sara Kolak"
+        ]
+    },
+    {
+        "id": "hr_sport_230",
+        "category": "sport",
+        "question": "Koji je hrvatski boksač osvojio zlatnu olimpijsku medalju na OI u Münchenu 1972. u poluteškoj kategoriji?",
+        "correct_answer": "Mate Parlov",
+        "incorrect_answers": [
+            "Željko Mavrović",
+            "Anton Josipović",
+            "Damir Škaro"
+        ]
+    },
+    {
+        "id": "hr_sport_231",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni klub osvojio naslov prvaka Prve HNL u sezoni 2016./2017. prekinuvši dugogodišnju dominaciju Dinama?",
+        "correct_answer": "Rijeka",
+        "incorrect_answers": [
+            "Hajduk Split",
+            "Osijek",
+            "Zagreb"
+        ]
+    },
+    {
+        "id": "hr_sport_232",
+        "category": "sport",
+        "question": "Koji je hrvatski samostalni veslač osvojio srebrnu medalju u samcu na OI u Rio de Janeiru 2016. u fotofinišu s Maheom Drysdaleom?",
+        "correct_answer": "Damir Martin",
+        "incorrect_answers": [
+            "Valent Sinković",
+            "Martin Sinković",
+            "Nikša Skelin"
+        ]
+    },
+    {
+        "id": "hr_sport_233",
+        "category": "sport",
+        "question": "Koji je brazilsko-hrvatski nogometaš bio najbolji strijelac Prve HNL u sezoni 2006./2007. s rekordna 34 gola za Dinamo?",
+        "correct_answer": "Eduardo da Silva",
+        "incorrect_answers": [
+            "Sammir",
+            "Boško Balaban",
+            "Ivica Olić"
+        ]
+    },
+    {
+        "id": "hr_sport_234",
+        "category": "sport",
+        "question": "Koja je hrvatska stolnoteniska legenda osvojila brojne medalje na europskim i svjetskim prvenstvima te nastupila na 7 Olimpijskih igara?",
+        "correct_answer": "Zoran Primorac",
+        "incorrect_answers": [
+            "Dragutin Šurbek",
+            "Antun Stipančić",
+            "Andrej Gaćina"
+        ]
+    },
+    {
+        "id": "hr_sport_235",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaški klub bio trostruki uzastopni prvak Europe (1989., 1990., 1991.) pod imenom Jugoplastika / Pop 84?",
+        "correct_answer": "KK Split",
+        "incorrect_answers": [
+            "KK Cibona",
+            "KK Zadar",
+            "KK Zagreb"
+        ]
+    },
+    {
+        "id": "hr_sport_236",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaški klub osvojio dva naslova prvaka Europe (1985. i 1986.) predvođen Draženom Petrovićem?",
+        "correct_answer": "KK Cibona",
+        "incorrect_answers": [
+            "KK Split",
+            "KK Zadar",
+            "KK Cedevita"
+        ]
+    },
+    {
+        "id": "hr_sport_237",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni trener vodio reprezentaciju Hrvatske do trećeg mjesta na SP-u 1998. godine u Francuskoj?",
+        "correct_answer": "Miroslav 'Ćiro' Blažević",
+        "incorrect_answers": [
+            "Zlatko Dalić",
+            "Slaven Bilić",
+            "Mirko Jozić"
+        ]
+    },
+    {
+        "id": "hr_sport_238",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni trener preuzeo reprezentaciju 2017. godine i vodio je do srebra 2018. i bronce 2022. na SP-ima?",
+        "correct_answer": "Zlatko Dalić",
+        "incorrect_answers": [
+            "Slaven Bilić",
+            "Niko Kovač",
+            "Zlatko Kranjčar"
+        ]
+    },
+    {
+        "id": "hr_sport_239",
+        "category": "sport",
+        "question": "Koji je hrvatski kanuist na divljim vodama osvojio četiri olimpijske medalje (dvije zlatne i dvije srebrne) za Jugoslaviju?",
+        "correct_answer": "Matija Ljubek",
+        "incorrect_answers": [
+            "Vinko Zaka",
+            "Danko Herceg",
+            "Emil Milihram"
+        ]
+    },
+    {
+        "id": "hr_sport_240",
+        "category": "sport",
+        "question": "Koji je hrvatski plivač osvojio srebrnu olimpijsku medalju na 50m slobodno na OI u Pekingu 2008. godine?",
+        "correct_answer": "Duje Draganja",
+        "incorrect_answers": [
+            "Gordan Kožulj",
+            "Miloš Milošević",
+            "Sanja Jovanović"
+        ]
+    },
+    {
+        "id": "hr_sport_241",
+        "category": "sport",
+        "question": "Koja je hrvatska plivačica postavila svjetski rekord na 50m leđno u malim bazenima 2007. godine?",
+        "correct_answer": "Sanja Jovanović",
+        "incorrect_answers": [
+            "Đurđica Bjedov",
+            "Smiljana Marinović",
+            "Anamarija Petrović"
+        ]
+    },
+    {
+        "id": "hr_sport_242",
+        "category": "sport",
+        "question": "Koja je hrvatska plivačica osvojila zlatnu olimpijsku medalju na 100m prsno u Mexico Cityju 1968. godine?",
+        "correct_answer": "Đurđica Bjedov",
+        "incorrect_answers": [
+            "Sanja Jovanović",
+            "Mirna Jukić",
+            "Duje Draganja"
+        ]
+    },
+    {
+        "id": "hr_sport_243",
+        "category": "sport",
+        "question": "Koji je hrvatski strijelac osvojio zlatnu olimpijsku medalju u disciplini trap na OI u Londonu 2012.?",
+        "correct_answer": "Giovanni Cernogoraz",
+        "incorrect_answers": [
+            "Josip Glasnović",
+            "Anton Glasnović",
+            "Petar Gorša"
+        ]
+    },
+    {
+        "id": "hr_sport_244",
+        "category": "sport",
+        "question": "Koji je hrvatski strijelac osvojio zlatnu olimpijsku medalju u trapu na OI u Rio de Janeiru 2016. godine?",
+        "correct_answer": "Josip Glasnović",
+        "incorrect_answers": [
+            "Giovanni Cernogoraz",
+            "Anton Glasnović",
+            "Miran Maričić"
+        ]
+    },
+    {
+        "id": "hr_sport_245",
+        "category": "sport",
+        "question": "Koji je hrvatski reli vozač višestruki prvak i natjecatelj na WRC utrkama te Pikes Peaku?",
+        "correct_answer": "Niko Pulić",
+        "incorrect_answers": [
+            "Juraj Šebalj",
+            "Martin Prokop",
+            "Viliam Prodan"
+        ]
+    },
+    {
+        "id": "hr_sport_246",
+        "category": "sport",
+        "question": "Koji je hrvatski skijaš bio specijalist za brze discipline i osvojio srebrnu medalju u kombinaciji na OI u Torinu 2006.?",
+        "correct_answer": "Ivica Kostelić",
+        "incorrect_answers": [
+            "Natko Zrnčić-Dim",
+            "Filip Zubčić",
+            "Vedran Pavlek"
+        ]
+    },
+    {
+        "id": "hr_sport_247",
+        "category": "sport",
+        "question": "Kako se zove tradicionalna konjička viteška igra koja se svake godine u kolovozu održava u Sinju od 1715. godine?",
+        "correct_answer": "Sinjska alka",
+        "incorrect_answers": [
+            "Rabska fiumara",
+            "Picokijada",
+            "Uskočka alka"
+        ]
+    },
+    {
+        "id": "hr_sport_248",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometaš bio strijelac prvog gola za Hrvatsku u povijesti na svjetskim prvenstvima (protiv Jamajke 1998.)?",
+        "correct_answer": "Mario Stanić",
+        "incorrect_answers": [
+            "Robert Prosinečki",
+            "Davor Šuker",
+            "Goran Vlaović"
+        ]
+    },
+    {
+        "id": "hr_sport_249",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometaš bio jedini igrač koji je postigao pogodak za dvije različite reprezentacije na SP-ima (Jugoslavija 1990., Hrvatska 1998.)?",
+        "correct_answer": "Robert Prosinečki",
+        "incorrect_answers": [
+            "Davor Šuker",
+            "Robert Jarni",
+            "Aljoša Asanović"
+        ]
+    },
+    {
+        "id": "hr_sport_250",
+        "category": "sport",
+        "question": "Koji je hrvatski borac mješovitih borilačkih vještina (MMA) osvojion PRIDE Grand Prix 2006. i K-1 World Grand Prix 2012.?",
+        "correct_answer": "Mirko 'Cro Cop' Filipović",
+        "incorrect_answers": [
+            "Stipe Miočić",
+            "Satoshi Ishii",
+            "Branko Cikatić"
+        ]
+    },
+    {
+        "id": "hr_sport_251",
+        "category": "sport",
+        "question": "Koji je klub osvojio UEFA Ligu prvaka u sezoni 2022./23. ostvarivši svoju prvu titulu u povijesti?",
+        "correct_answer": "Manchester City",
+        "incorrect_answers": [
+            "Inter Milan",
+            "Real Madrid",
+            "Paris Saint-Germain"
+        ]
+    },
+    {
+        "id": "hr_sport_252",
+        "category": "sport",
+        "question": "Koji je engleski nogometaš najbolji strijelac u povijesti engleske reprezentacije (preko 60 golova)?",
+        "correct_answer": "Harry Kane",
+        "incorrect_answers": [
+            "Wayne Rooney",
+            "Bobby Charlton",
+            "Gary Lineker"
+        ]
+    },
+    {
+        "id": "hr_sport_253",
+        "category": "sport",
+        "question": "Koji je engleski klub osvojio najviše naslova FA Kupa u povijesti (14 naslova)?",
+        "correct_answer": "Arsenal",
+        "incorrect_answers": [
+            "Manchester United",
+            "Chelsea",
+            "Liverpool"
+        ]
+    },
+    {
+        "id": "hr_sport_254",
+        "category": "sport",
+        "question": "Kako se zove poznati engleski stadion u Londonu na kojem se igraju finala FA Kupa i utakmice reprezentacije?",
+        "correct_answer": "Wembley",
+        "incorrect_answers": [
+            "Twickenham",
+            "Emirates",
+            "Stamford Bridge"
+        ]
+    },
+    {
+        "id": "hr_sport_255",
+        "category": "sport",
+        "question": "Koji je francuski napadač prešao iz PSG-a u Real Madrid u ljeto 2024. godine?",
+        "correct_answer": "Kylian Mbappé",
+        "incorrect_answers": [
+            "Antoine Griezmann",
+            "Ousmane Dembélé",
+            "Marcus Thuram"
+        ]
+    },
+    {
+        "id": "hr_sport_256",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila Europsko nogometno prvenstvo (Euro 2024.) održano u Njemačkoj?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Engleska",
+            "Francuska",
+            "Nizozemska"
+        ]
+    },
+    {
+        "id": "hr_sport_257",
+        "category": "sport",
+        "question": "Koja je reprezentacija jedina osvojila tri uzastopna Europska/Svjetska naslova u nogometu (2008., 2010., 2012.)?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Njemačka",
+            "Brazil",
+            "Francuska"
+        ]
+    },
+    {
+        "id": "hr_sport_258",
+        "category": "sport",
+        "question": "Koji je njemački vratar i kapetan Bayern Münchena poznat po stilu 'vratar-čistač' (sweeper-keeper)?",
+        "correct_answer": "Manuel Neuer",
+        "incorrect_answers": [
+            "Marc-André ter Stegen",
+            "Oliver Kahn",
+            "Jens Lehmann"
+        ]
+    },
+    {
+        "id": "hr_sport_259",
+        "category": "sport",
+        "question": "Koji je talijanski klub poznat pod nadimkom 'Rossoneri' (Crveno-crni)?",
+        "correct_answer": "AC Milan",
+        "incorrect_answers": [
+            "Inter Milan",
+            "Juventus",
+            "Roma"
+        ]
+    },
+    {
+        "id": "hr_sport_260",
+        "category": "sport",
+        "question": "Koji je talijanski klub poznat pod nadimkom 'Nerazzurri' (Crno-plavi)?",
+        "correct_answer": "Inter Milan",
+        "incorrect_answers": [
+            "AC Milan",
+            "Atalanta",
+            "Napoli"
+        ]
+    },
+    {
+        "id": "hr_sport_261",
+        "category": "sport",
+        "question": "Koji je argentski napadač bio nadimka 'El Apache' i igrao za Manchester United, Manchester City i Juventus?",
+        "correct_answer": "Carlos Tevez",
+        "incorrect_answers": [
+            "Sergio Agüero",
+            "Gonzalo Higuaín",
+            "Paulo Dybala"
+        ]
+    },
+    {
+        "id": "hr_sport_262",
+        "category": "sport",
+        "question": "Koji je urugvajski napadač postigao više od 200 golova za PSG i nosio nadimak 'El Matador'?",
+        "correct_answer": "Edinson Cavani",
+        "incorrect_answers": [
+            "Luis Suárez",
+            "Diego Forlán",
+            "Mauro Icardi"
+        ]
+    },
+    {
+        "id": "hr_sport_263",
+        "category": "sport",
+        "question": "Koji je engleski klub osvojio Premier ligu u sezoni 2015./16. priredivši jedno od najvećih iznenađenja u sportskoj povijesti?",
+        "correct_answer": "Leicester City",
+        "incorrect_answers": [
+            "Blackburn Rovers",
+            "Tottenham Hotspur",
+            "Everton"
+        ]
+    },
+    {
+        "id": "hr_sport_264",
+        "category": "sport",
+        "question": "Koja je afrička reprezentacija postala prva iz Afrike koja se plasirala u polufinale Svjetskog prvenstva (Katar 2022.)?",
+        "correct_answer": "Maroko",
+        "incorrect_answers": [
+            "Senegal",
+            "Gana",
+            "Kamerun"
+        ]
+    },
+    {
+        "id": "hr_sport_265",
+        "category": "sport",
+        "question": "Koji je švedski napadač igrao za Malmö, Ajax, Juventus, Inter, Barcelonu, Milan, PSG i Manchester United?",
+        "correct_answer": "Zlatan Ibrahimović",
+        "incorrect_answers": [
+            "Henrik Larsson",
+            "Alexander Isak",
+            "Emil Forsberg"
+        ]
+    },
+    {
+        "id": "hr_sport_266",
+        "category": "sport",
+        "question": "Kako se zove nagrada za najboljeg mladog igrača Europe do 21 godine koju dodjeljuje novine Tuttosport?",
+        "correct_answer": "Golden Boy",
+        "incorrect_answers": [
+            "Kopa Trophy",
+            "Bravo Award",
+            "NextGen Trophy"
+        ]
+    },
+    {
+        "id": "hr_sport_267",
+        "category": "sport",
+        "question": "Koji je španjolski veznjak postigao pobjednički pogodak u finalu Svjetskog prvenstva 2010. protiv Nizozemske u 116. minuti?",
+        "correct_answer": "Andrés Iniesta",
+        "incorrect_answers": [
+            "Xavi Hernández",
+            "Cesc Fàbregas",
+            "Xabi Alonso"
+        ]
+    },
+    {
+        "id": "hr_sport_268",
+        "category": "sport",
+        "question": "Koja je brazilska legenda igrala pod brojem 10 na SP-u 2002. te bio poznat po 'elastico' driblingu i osmjehu?",
+        "correct_answer": "Ronaldinho",
+        "incorrect_answers": [
+            "Rivaldo",
+            "Kaká",
+            "Robinho"
+        ]
+    },
+    {
+        "id": "hr_sport_269",
+        "category": "sport",
+        "question": "Koji je brazilski napadač postigao oba gola u finalu SP-a 2002. protiv Njemačke za pobjedu 2:0?",
+        "correct_answer": "Ronaldo Nazário",
+        "incorrect_answers": [
+            "Ronaldinho",
+            "Rivaldo",
+            "Romário"
+        ]
+    },
+    {
+        "id": "hr_sport_270",
+        "category": "sport",
+        "question": "Koji je francuski napadač najbolji strijelac u povijesti klupske karijere Arsenal FC-a sa 228 golova?",
+        "correct_answer": "Thierry Henry",
+        "incorrect_answers": [
+            "Ian Wright",
+            "Dennis Bergkamp",
+            "Robin van Persie"
+        ]
+    },
+    {
+        "id": "hr_sport_271",
+        "category": "sport",
+        "question": "Kako se zove stadion na kojem svoje domaće utakmice igra njemački klub Bayern München?",
+        "correct_answer": "Allianz Arena",
+        "incorrect_answers": [
+            "Signal Iduna Park",
+            "Olympiastadion",
+            "Veltins-Arena"
+        ]
+    },
+    {
+        "id": "hr_sport_272",
+        "category": "sport",
+        "question": "Kako se zove stadion na kojem svoje domaće utakmice igra Real Madrid?",
+        "correct_answer": "Santiago Bernabéu",
+        "incorrect_answers": [
+            "Camp Nou",
+            "Metropolitano",
+            "Mestalla"
+        ]
+    },
+    {
+        "id": "hr_sport_273",
+        "category": "sport",
+        "question": "Koji je nizozemski klub tri puta zaredom osvojio Kup prvaka (Ligu prvaka) od 1971. do 1973. uz 'totalni nogomet'?",
+        "correct_answer": "Ajax",
+        "incorrect_answers": [
+            "PSV Eindhoven",
+            "Feyenoord",
+            "AZ Alkmaar"
+        ]
+    },
+    {
+        "id": "hr_sport_274",
+        "category": "sport",
+        "question": "Koji je portugalski trener osvojio UEFA Ligu prvaka s FC Portom 2004. i s Interom 2010. godine?",
+        "correct_answer": "José Mourinho",
+        "incorrect_answers": [
+            "Jorge Jesus",
+            "Nuno Espírito Santo",
+            "André Villas-Boas"
+        ]
+    },
+    {
+        "id": "hr_sport_275",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila Europsko nogometno prvenstvo 2004. u Portugalu stvorivši veliko iznenađenje?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Portugal",
+            "Češka",
+            "Nizozemska"
+        ]
+    },
+    {
+        "id": "hr_sport_276",
+        "category": "sport",
+        "question": "Koji je njemački nogometaš postigao najviše golova u povijesti Svjetskih prvenstava (16 golova)?",
+        "correct_answer": "Miroslav Klose",
+        "incorrect_answers": [
+            "Gerd Müller",
+            "Jürgen Klinsmann",
+            "Thomas Müller"
+        ]
+    },
+    {
+        "id": "hr_sport_277",
+        "category": "sport",
+        "question": "Koji je engleski klub osvojio Trostruku krunu (Premier liga, FA Kup, Liga prvaka) u sezoni 1998./99. pod Alexom Fergusonom?",
+        "correct_answer": "Manchester United",
+        "incorrect_answers": [
+            "Liverpool",
+            "Arsenal",
+            "Chelsea"
+        ]
+    },
+    {
+        "id": "hr_sport_278",
+        "category": "sport",
+        "question": "Koji je argentinski nogometaš postigao 91 gol u jednoj kalendarskoj godini (2012.) srušivši svjetski rekord?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": [
+            "Cristiano Ronaldo",
+            "Robert Lewandowski",
+            "Pelé"
+        ]
+    },
+    {
+        "id": "hr_sport_279",
+        "category": "sport",
+        "question": "U kojem gradu se nalazi stadion Maracanã, jedan od najslavnijih nogometnih hramova na svijetu?",
+        "correct_answer": "Rio de Janeiro",
+        "incorrect_answers": [
+            "São Paulo",
+            "Buenos Aires",
+            "Montevideo"
+        ]
+    },
+    {
+        "id": "hr_sport_280",
+        "category": "sport",
+        "question": "Koja je nogometna reprezentacija osvojila Europsko prvenstvo 1992. nakon što je naknadno pozvana umjesto Jugoslavije?",
+        "correct_answer": "Danska",
+        "incorrect_answers": [
+            "Švedska",
+            "Njemačka",
+            "Nizozemska"
+        ]
+    },
+    {
+        "id": "hr_sport_281",
+        "category": "sport",
+        "question": "Koji je klub osvojio Europsku ligu / Kup UEFA rekordnih 7 puta (zaključno s 2023. godinom)?",
+        "correct_answer": "Sevilla",
+        "incorrect_answers": [
+            "Inter Milan",
+            "Liverpool",
+            "Juventus"
+        ]
+    },
+    {
+        "id": "hr_sport_282",
+        "category": "sport",
+        "question": "Koji se njemački klub naziva 'Die Fohlen' (Ždrebad) i osvojio je pet naslova Bundeslige u 1970-ima?",
+        "correct_answer": "Borussia Mönchengladbach",
+        "incorrect_answers": [
+            "Eintracht Frankfurt",
+            "Hamburger SV",
+            "VfB Stuttgart"
+        ]
+    },
+    {
+        "id": "hr_sport_283",
+        "category": "sport",
+        "question": "Koji je talijanski napadač bio poznat pod nadimkom 'Il Divin Codino' (Božanstveni repić) i promašio jedanaesterac u finalu SP-a 1994.?",
+        "correct_answer": "Roberto Baggio",
+        "incorrect_answers": [
+            "Alessandro Del Piero",
+            "Francesco Totti",
+            "Gianluca Vialli"
+        ]
+    },
+    {
+        "id": "hr_sport_284",
+        "category": "sport",
+        "question": "Koji je francuski napadač osvojio Zlatnu loptu 2022. godine nakon sjajne sezone u Real Madridu?",
+        "correct_answer": "Karim Benzema",
+        "incorrect_answers": [
+            "Kylian Mbappé",
+            "Antoine Griezmann",
+            "Franck Ribéry"
+        ]
+    },
+    {
+        "id": "hr_sport_285",
+        "category": "sport",
+        "question": "Koja se metoda odlučivanja pobjednika primjenjivala u produžecima 1990-ih gdje prva ekipa koja postigne gol pobjeđuje?",
+        "correct_answer": "Zlatni gol (Golden Goal)",
+        "incorrect_answers": [
+            "Srebrni gol",
+            "Penali",
+            "Nagli prekid"
+        ]
+    },
+    {
+        "id": "hr_sport_286",
+        "category": "sport",
+        "question": "Koja je država domaćin Svjetskog nogometnog prvenstva 2026. godine uz SAD i Meksiko?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Brazil",
+            "Kostarika",
+            "Jamajka"
+        ]
+    },
+    {
+        "id": "hr_sport_287",
+        "category": "sport",
+        "question": "Koji je brazilski vratar bio poznat po obrani jedanaesteraca u Liverpoolu te osvojio Ligu prvaka i Premier ligu?",
+        "correct_answer": "Alisson Becker",
+        "incorrect_answers": [
+            "Ederson",
+            "Júlio César",
+            "Dida"
+        ]
+    },
+    {
+        "id": "hr_sport_288",
+        "category": "sport",
+        "question": "Koji se gradski derbi u Argentini između Boca Juniors i River Plate naziva najstrastvenijim na svijetu?",
+        "correct_answer": "Superclásico",
+        "incorrect_answers": [
+            "El Clásico",
+            "Clásico Capitalino",
+            "Derby della Madonnina"
+        ]
+    },
+    {
+        "id": "hr_sport_289",
+        "category": "sport",
+        "question": "Koji je belgijski veznjak bio dugogodišnji organizator igre Manchester Cityja pod Pepom Guardiolom?",
+        "correct_answer": "Kevin De Bruyne",
+        "incorrect_answers": [
+            "Eden Hazard",
+            "Romelu Lukaku",
+            "Tielemans"
+        ]
+    },
+    {
+        "id": "hr_sport_290",
+        "category": "sport",
+        "question": "U kojem gradu u Škotskoj se nalazi stadion Hampden Park?",
+        "correct_answer": "Glasgow",
+        "incorrect_answers": [
+            "Edinburgh",
+            "Aberdeen",
+            "Dundee"
+        ]
+    },
+    {
+        "id": "hr_sport_291",
+        "category": "sport",
+        "question": "Koji je talijanski vratar proglašen najboljim igračem Europskog prvenstva (Euro 2020) nakon obranjenih penala u finalu?",
+        "correct_answer": "Gianluigi Donnarumma",
+        "incorrect_answers": [
+            "Gianluigi Buffon",
+            "Salvatore Sirigu",
+            "Alex Meret"
+        ]
+    },
+    {
+        "id": "hr_sport_292",
+        "category": "sport",
+        "question": "Koji je NBA klub osvojio naslov prvaka u sezoni 2023./24. ostvarivši svoj 18. naslov u povijesti?",
+        "correct_answer": "Boston Celtics",
+        "incorrect_answers": [
+            "Dallas Mavericks",
+            "Denver Nuggets",
+            "Golden State Warriors"
+        ]
+    },
+    {
+        "id": "hr_sport_293",
+        "category": "sport",
+        "question": "Koji je slovenski košarkaš u NBA ligi postigao 73 boda u jednoj utakmici za Dallas Maverickse u siječnju 2024.?",
+        "correct_answer": "Luka Dončić",
+        "incorrect_answers": [
+            "Goran Dragić",
+            "Bojan Bogdanović",
+            "Nikola Vučević"
+        ]
+    },
+    {
+        "id": "hr_sport_294",
+        "category": "sport",
+        "question": "Koji je košarkaš jedini u povijesti NBA lige postigao 100 bodova u jednoj utakmici (1962. godine)?",
+        "correct_answer": "Wilt Chamberlain",
+        "incorrect_answers": [
+            "Kobe Bryant",
+            "Michael Jordan",
+            "Elgin Baylor"
+        ]
+    },
+    {
+        "id": "hr_sport_295",
+        "category": "sport",
+        "question": "Koji je centar nosio nadimak 'The Diesel' i 'Shaq' te osvojio naslove s LA Lakersima i Miami Heatom?",
+        "correct_answer": "Shaquille O'Neal",
+        "incorrect_answers": [
+            "Hakeem Olajuwon",
+            "Patrick Ewing",
+            "David Robinson"
+        ]
+    },
+    {
+        "id": "hr_sport_296",
+        "category": "sport",
+        "question": "Koji je trener osvojio rekordnih 11 NBA prstena kao trener (s Chicago Bullsima i LA Lakersima)?",
+        "correct_answer": "Phil Jackson",
+        "incorrect_answers": [
+            "Red Auerbach",
+            "Gregg Popovich",
+            "Pat Riley"
+        ]
+    },
+    {
+        "id": "hr_sport_297",
+        "category": "sport",
+        "question": "Koji je klub osvojio EuroLeague naslov prvaka u košarci 2024. godine pod vodstvom trenera Ergina Atamana?",
+        "correct_answer": "Panathinaikos",
+        "incorrect_answers": [
+            "Real Madrid",
+            "Olympiacos",
+            "Fenerbahçe"
+        ]
+    },
+    {
+        "id": "hr_sport_298",
+        "category": "sport",
+        "question": "Koja je košarkašica smatra jednom od najvećih u povijesti WNBA lige s najviše postignutih poena (Diana Taurasi)?",
+        "correct_answer": "Diana Taurasi",
+        "incorrect_answers": [
+            "Sue Bird",
+            "Maya Moore",
+            "Caitlin Clark"
+        ]
+    },
+    {
+        "id": "hr_sport_299",
+        "category": "sport",
+        "question": "Koja je mlada košarkaška senzacija iz SAD-a srušila sve rekorde gledanosti u sveučilišnoj košarci (NCAA) te prešla u WNBA 2024.?",
+        "correct_answer": "Caitlin Clark",
+        "incorrect_answers": [
+            "Angel Reese",
+            "Paige Bueckers",
+            "Sabrina Ionescu"
+        ]
+    },
+    {
+        "id": "hr_sport_300",
+        "category": "sport",
+        "question": "Koji je francuski visoki košarkaš (224 cm) izabran kao 1. pick na NBA Draftu 2023. od strane San Antonio Spursa?",
+        "correct_answer": "Victor Wembanyama",
+        "incorrect_answers": [
+            "Rudy Gobert",
+            "Evan Fournier",
+            "Alex Sarr"
+        ]
+    },
+    {
+        "id": "hr_sport_301",
+        "category": "sport",
+        "question": "Koji je košarkaš poznat po 'Skyhook' (nebeskoj udici) i bio je dugogodišnji vodeći strijelac NBA lige?",
+        "correct_answer": "Kareem Abdul-Jabbar",
+        "incorrect_answers": [
+            "Wilt Chamberlain",
+            "Bill Russell",
+            "Julius Erving"
+        ]
+    },
+    {
+        "id": "hr_sport_302",
+        "category": "sport",
+        "question": "Koji je NBA tim iz San Antonija osvojio 5 naslova prvaka pod vodstvom trenera Gregga Popovicha i Tima Duncana?",
+        "correct_answer": "San Antonio Spurs",
+        "incorrect_answers": [
+            "Houston Rockets",
+            "Dallas Mavericks",
+            "Phoenix Suns"
+        ]
+    },
+    {
+        "id": "hr_sport_303",
+        "category": "sport",
+        "question": "Koliko igrača iz svake ekipe smije biti u isto vrijeme na parketu u 3x3 košarci?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "4",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "id": "hr_sport_304",
+        "category": "sport",
+        "question": "Koji je američki 'Dream Team' na OI u Barceloni 1992. osvojio zlato pobijedivši Hrvatsku u finalu?",
+        "correct_answer": "SAD 1992 Dream Team",
+        "incorrect_answers": [
+            "SAD 2008 Redeem Team",
+            "SAD 1996",
+            "SAD 2004"
+        ]
+    },
+    {
+        "id": "hr_sport_305",
+        "category": "sport",
+        "question": "Koji je razigravač poznat po nadimku 'Point God' i igrao za Hornets, Clippers, Rockets, Suns i Warriors?",
+        "correct_answer": "Chris Paul",
+        "incorrect_answers": [
+            "Steve Nash",
+            "Jason Kidd",
+            "John Stockton"
+        ]
+    },
+    {
+        "id": "hr_sport_306",
+        "category": "sport",
+        "question": "Koji je igrač bio suigrač Michaela Jordana u Chicago Bullsima te bio poznat po najboljim skokovima i obojanoj kosi?",
+        "correct_answer": "Dennis Rodman",
+        "incorrect_answers": [
+            "Scottie Pippen",
+            "Horace Grant",
+            "Ron Harper"
+        ]
+    },
+    {
+        "id": "hr_sport_307",
+        "category": "sport",
+        "question": "Koji je igrač osvojio rekordnih 11 NBA naslova prvaka kao igrač za Boston Celticse u 1950-ima i 60-ima?",
+        "correct_answer": "Bill Russell",
+        "incorrect_answers": [
+            "Bob Cousy",
+            "John Havlicek",
+            "Larry Bird"
+        ]
+    },
+    {
+        "id": "hr_sport_308",
+        "category": "sport",
+        "question": "Koji je bek šuter nosio broj 3 u Miami Heatu te s njim osvojio 3 NBA naslova?",
+        "correct_answer": "Dwyane Wade",
+        "incorrect_answers": [
+            "Chris Bosh",
+            "Ray Allen",
+            "Udonis Haslem"
+        ]
+    },
+    {
+        "id": "hr_sport_309",
+        "category": "sport",
+        "question": "Koja se nagrada u NBA ligi dodjeljuje najboljem obrambenom igraču godine?",
+        "correct_answer": "DPOY (Defensive Player of the Year)",
+        "incorrect_answers": [
+            "Sixth Man of the Year",
+            "MIP",
+            "MVP"
+        ]
+    },
+    {
+        "id": "hr_sport_310",
+        "category": "sport",
+        "question": "U kojem gradu igra NBA klub Miami Heat?",
+        "correct_answer": "Miami, Florida",
+        "incorrect_answers": [
+            "Orlando, Florida",
+            "Tampa, Florida",
+            "Atlanta, Georgia"
+        ]
+    },
+    {
+        "id": "hr_sport_311",
+        "category": "sport",
+        "question": "Koji se trofej dodjeljuje pobjedniku NBA finala?",
+        "correct_answer": "Larry O'Brien Trophy",
+        "incorrect_answers": [
+            "Vince Lombardi Trophy",
+            "Stanley Cup",
+            "Larry Bird Trophy"
+        ]
+    },
+    {
+        "id": "hr_sport_312",
+        "category": "sport",
+        "question": "Koji je njemački košarkaš vodio Dallas Maverickse do NBA naslova 2011. godine i bio poznat po šutu s jedne noge?",
+        "correct_answer": "Dirk Nowitzki",
+        "incorrect_answers": [
+            "Detlef Schrempf",
+            "Franz Wagner",
+            "Daniel Theis"
+        ]
+    },
+    {
+        "id": "hr_sport_313",
+        "category": "sport",
+        "question": "Koji je razigravač iz Golden State Warriorsa postavio rekord po broju pogođenih trica u povijesti NBA lige?",
+        "correct_answer": "Stephen Curry",
+        "incorrect_answers": [
+            "Ray Allen",
+            "Reggie Miller",
+            "James Harden"
+        ]
+    },
+    {
+        "id": "hr_sport_314",
+        "category": "sport",
+        "question": "Koji je kanadski razigravač osvojio dvije uzastopne MVP nagrade u Phoenix Sunsu (2005. i 2006.)?",
+        "correct_answer": "Steve Nash",
+        "incorrect_answers": [
+            "Shai Gilgeous-Alexander",
+            "Jamal Murray",
+            "RJ Barrett"
+        ]
+    },
+    {
+        "id": "hr_sport_315",
+        "category": "sport",
+        "question": "Koji je španjolski centar osvojio dva NBA naslova s LA Lakersima uz Kobea Bryanta i naslov sa Španjolskom?",
+        "correct_answer": "Pau Gasol",
+        "incorrect_answers": [
+            "Marc Gasol",
+            "Ricky Rubio",
+            "Serge Ibaka"
+        ]
+    },
+    {
+        "id": "hr_sport_316",
+        "category": "sport",
+        "question": "Koji je argentinski bek šuter osvojio 4 NBA naslova sa San Antonio Spursima te bio majstor 'Eurostepa'?",
+        "correct_answer": "Manu Ginobili",
+        "incorrect_answers": [
+            "Luis Scola",
+            "Facundo Campazzo",
+            "Andrés Nocioni"
+        ]
+    },
+    {
+        "id": "hr_sport_317",
+        "category": "sport",
+        "question": "Koji je litavski centar bio zvijezda Portland Trail Blazersa u 1990-ima te otac Domantasa Sabonisa?",
+        "correct_answer": "Arvydas Sabonis",
+        "incorrect_answers": [
+            "Žydrūnas Ilgauskas",
+            "Šarūnas Marčiulionis",
+            "Jonas Valančiūnas"
+        ]
+    },
+    {
+        "id": "hr_sport_318",
+        "category": "sport",
+        "question": "Koji je reprezentacija osvojila Europsko prvenstvo u košarci (EuroBasket 2022) pobijedivši Francusku u finalu?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Njemačka",
+            "Slovenija",
+            "Srbija"
+        ]
+    },
+    {
+        "id": "hr_sport_319",
+        "category": "sport",
+        "question": "Koji je reprezentativac Slovenije predvodio svoju zemlju do povijesnog naslova prvaka Europe na EuroBasketu 2017. uz Dončića?",
+        "correct_answer": "Goran Dragić",
+        "incorrect_answers": [
+            "Klemen Prepelič",
+            "Anthony Randolph",
+            "Jaka Blažič"
+        ]
+    },
+    {
+        "id": "hr_sport_320",
+        "category": "sport",
+        "question": "Koji je američki dvoranski stadion u New Yorku dom NBA kluba New York Knicks i zovu ga 'Meka košarke'?",
+        "correct_answer": "Madison Square Garden",
+        "incorrect_answers": [
+            "Barclays Center",
+            "TD Garden",
+            "United Center"
+        ]
+    },
+    {
+        "id": "hr_sport_321",
+        "category": "sport",
+        "question": "Koliko iznosi udaljenost trice u NBA ligi na najdaljem dijelu (vrhu luka)?",
+        "correct_answer": "7,24 m (23 ft 9 in)",
+        "incorrect_answers": [
+            "6,75 m",
+            "6,25 m",
+            "8,00 m"
+        ]
+    },
+    {
+        "id": "hr_sport_322",
+        "category": "sport",
+        "question": "Koliko iznosi linija trice prema FIBA pravilima?",
+        "correct_answer": "6,75 m",
+        "incorrect_answers": [
+            "7,24 m",
+            "6,25 m",
+            "7,00 m"
+        ]
+    },
+    {
+        "id": "hr_sport_323",
+        "category": "sport",
+        "question": "Koji je NBA klub bio poznat po 'Run TMC' eriji brzog napada s Timom Hardawayom, Mitchom Richmondom i Chrisom Mullinom?",
+        "correct_answer": "Golden State Warriors",
+        "incorrect_answers": [
+            "Sacramento Kings",
+            "Phoenix Suns",
+            "Denver Nuggets"
+        ]
+    },
+    {
+        "id": "hr_sport_324",
+        "category": "sport",
+        "question": "Koji je visoki centar iz Kameruna bio MVP NBA lige u sezoni 2022./23. igrajući za Philadelphia 76erse?",
+        "correct_answer": "Joel Embiid",
+        "incorrect_answers": [
+            "Pascal Siakam",
+            "Bismack Biyombo",
+            "Clint Capela"
+        ]
+    },
+    {
+        "id": "hr_sport_325",
+        "category": "sport",
+        "question": "Koji je bek razigravač iz Oklahoma City Thundera prosječno bilježio 'triple-double' u četiri sezone u NBA ligi?",
+        "correct_answer": "Russell Westbrook",
+        "incorrect_answers": [
+            "James Harden",
+            "Paul George",
+            "Shai Gilgeous-Alexander"
+        ]
+    },
+    {
+        "id": "hr_sport_326",
+        "category": "sport",
+        "question": "Koji je NBA igrač bio poznat pod nadimkom 'The Answer' i nosio broj 3 u Philadelphia 76ersima?",
+        "correct_answer": "Allen Iverson",
+        "incorrect_answers": [
+            "Tracy McGrady",
+            "Vince Carter",
+            "Stephon Marbury"
+        ]
+    },
+    {
+        "id": "hr_sport_327",
+        "category": "sport",
+        "question": "Koji je NBA igrač bio poznat po dojmljivim zakucavanjima u Toronto Raptorsima s nadimkom 'Vinsanity'?",
+        "correct_answer": "Vince Carter",
+        "incorrect_answers": [
+            "Tracy McGrady",
+            "DeMar DeRozan",
+            "Rudy Gay"
+        ]
+    },
+    {
+        "id": "hr_sport_328",
+        "category": "sport",
+        "question": "Koji je NBA tim bio poznat kao 'Bad Boys' zbog iznimno čvrste obrane u kasnim 1980-ima s Isiahom Thomasom?",
+        "correct_answer": "Detroit Pistons",
+        "incorrect_answers": [
+            "Indiana Pacers",
+            "New York Knicks",
+            "Boston Celtics"
+        ]
+    },
+    {
+        "id": "hr_sport_329",
+        "category": "sport",
+        "question": "Iz kojeg grada dolazi NBA klub koji se zove 'Jazz'?",
+        "correct_answer": "Salt Lake City (Utah Jazz)",
+        "incorrect_answers": [
+            "New Orleans",
+            "Memphis",
+            "Oklahoma City"
+        ]
+    },
+    {
+        "id": "hr_sport_330",
+        "category": "sport",
+        "question": "Iz kojeg je grada NBA tim Pelicans preuzela ime (ranije Hornets)?",
+        "correct_answer": "New Orleans",
+        "incorrect_answers": [
+            "Charlotte",
+            "Atlanta",
+            "Orlando"
+        ]
+    },
+    {
+        "id": "hr_sport_331",
+        "category": "sport",
+        "question": "Koji je reprezentacija osvojila zlatnu olimpijsku medalju u košarci za muškarce na OI u Ateni 2004.?",
+        "correct_answer": "Argentina",
+        "incorrect_answers": [
+            "SAD",
+            "Italija",
+            "Litva"
+        ]
+    },
+    {
+        "id": "hr_sport_332",
+        "category": "sport",
+        "question": "Koji je srpski razigravač osvojio dva uzastopna naslova prvaka Europe s Anadolu Efesom te bio MVP Final Foura 2021. i 2022.?",
+        "correct_answer": "Vasilije Micić",
+        "incorrect_answers": [
+            "Miloš Teodosić",
+            "Bogdan Bogdanović",
+            "Shane Larkin"
+        ]
+    },
+    {
+        "id": "hr_sport_333",
+        "category": "sport",
+        "question": "Koji je vozač Formule 1 poginuo na stazi u Imoli tijekom Velike nagrade San Marina 1994. godine?",
+        "correct_answer": "Ayrton Senna",
+        "incorrect_answers": [
+            "Roland Ratzenberger",
+            "Alain Prost",
+            "Nigel Mansell"
+        ]
+    },
+    {
+        "id": "hr_sport_334",
+        "category": "sport",
+        "question": "Koji je francuski vozač Formule 1 bio najveći rival Ayrtona Senne i osvojio četiri naslova prvaka svijeta?",
+        "correct_answer": "Alain Prost",
+        "incorrect_answers": [
+            "Jean Alesi",
+            "Rene Arnoux",
+            "Jacques Laffite"
+        ]
+    },
+    {
+        "id": "hr_sport_335",
+        "category": "sport",
+        "question": "Koja se staza Formule 1 u Belgiji smatra jednom od najizazovnijih i poznata po zavoju 'Eau Rouge'?",
+        "correct_answer": "Spa-Francorchamps",
+        "incorrect_answers": [
+            "Zolder",
+            "Nürburgring",
+            "Hockenheimring"
+        ]
+    },
+    {
+        "id": "hr_sport_336",
+        "category": "sport",
+        "question": "Koji je vozač osvojio naslov prvaka Formule 1 2016. godine u bolidu Mercedesa te se odmah potom umirovio?",
+        "correct_answer": "Nico Rosberg",
+        "incorrect_answers": [
+            "Lewis Hamilton",
+            "Valtteri Bottas",
+            "Kimi Räikkönen"
+        ]
+    },
+    {
+        "id": "hr_sport_337",
+        "category": "sport",
+        "question": "Koji je finski vozač Formule 1 nosio nadimak 'Iceman' i osvojio naslov prvaka s Ferrarijem 2007. godine?",
+        "correct_answer": "Kimi Räikkönen",
+        "incorrect_answers": [
+            "Mika Häkkinen",
+            "Valtteri Bottas",
+            "Heikki Kovalainen"
+        ]
+    },
+    {
+        "id": "hr_sport_338",
+        "category": "sport",
+        "question": "Koji se poznati maratonski auto-reli vozio od Pariza do glavnog grada Senegala po afričkim pustinjama?",
+        "correct_answer": "Reli Pariz - Dakar",
+        "incorrect_answers": [
+            "Monte Carlo Rally",
+            "Safari Rally",
+            "Silk Way Rally"
+        ]
+    },
+    {
+        "id": "hr_sport_339",
+        "category": "sport",
+        "question": "Koji je francuski vozač relija osvojio rekordnih 9 uzastopnih naslova WRC prvaka od 2004. do 2012.?",
+        "correct_answer": "Sébastien Loeb",
+        "incorrect_answers": [
+            "Sébastien Ogier",
+            "Tommi Mäkinen",
+            "Juha Kankkunen"
+        ]
+    },
+    {
+        "id": "hr_sport_340",
+        "category": "sport",
+        "question": "Koji je španjolski motociklist u MotoGP-u osvojio 6 naslova prvaka u najjačoj klasi za Honda tim?",
+        "correct_answer": "Marc Márquez",
+        "incorrect_answers": [
+            "Jorge Lorenzo",
+            "Dani Pedrosa",
+            "Joan Mir"
+        ]
+    },
+    {
+        "id": "hr_sport_341",
+        "category": "sport",
+        "question": "Koji je španjolski vozač Formule 1 osvojio svoju prvu pobjedu u karijeri na VN Velike Britanije u Silverstoneu 2022. s Ferrarijem?",
+        "correct_answer": "Carlos Sainz Jr.",
+        "incorrect_answers": [
+            "Fernando Alonso",
+            "Charles Leclerc",
+            "Esteban Ocon"
+        ]
+    },
+    {
+        "id": "hr_sport_342",
+        "category": "sport",
+        "question": "Koji je monegaški vozač pobijedio na svojoj domaćoj utrci Formule 1 u Monaku 2024. godine?",
+        "correct_answer": "Charles Leclerc",
+        "incorrect_answers": [
+            "Carlos Sainz Jr.",
+            "Max Verstappen",
+            "Lando Norris"
+        ]
+    },
+    {
+        "id": "hr_sport_343",
+        "category": "sport",
+        "question": "Koji je irski MMA borac postao prvi u povijesti UFC-a koji je istovremeno držao pojas u dvije različite težinske kategorije?",
+        "correct_answer": "Conor McGregor",
+        "incorrect_answers": [
+            "Khabib Nurmagomedov",
+            "Nate Diaz",
+            "Dustin Poirier"
+        ]
+    },
+    {
+        "id": "hr_sport_344",
+        "category": "sport",
+        "question": "Koji je američki teškaš hrvatskog podrijetla višestruki UFC prvak i nosi nadimak 'The Silencer' ili 'Stipe'?",
+        "correct_answer": "Stipe Miočić",
+        "incorrect_answers": [
+            "Daniel Cormier",
+            "Francis Ngannou",
+            "Jon Jones"
+        ]
+    },
+    {
+        "id": "hr_sport_345",
+        "category": "sport",
+        "question": "Koji se UFC borac smatra jednim od najvećih poluteškaša i teškaša bez poraza u borbi (osim DQ) s nadimkom 'Bones'?",
+        "correct_answer": "Jon Jones",
+        "incorrect_answers": [
+            "Anderson Silva",
+            "Georges St-Pierre",
+            "Chuck Liddell"
+        ]
+    },
+    {
+        "id": "hr_sport_346",
+        "category": "sport",
+        "question": "Iz koje države dolazi kanadski MMA borac Georges St-Pierre (GSP)?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "SAD",
+            "Francuska",
+            "Irska"
+        ]
+    },
+    {
+        "id": "hr_sport_347",
+        "category": "sport",
+        "question": "Koji se stil borilačkih vještina fokusira na borbu na parteru, poluge i davljenja, stvoren u Brazilu od obitelji Gracie?",
+        "correct_answer": "Brazilski Jiu-Jitsu (BJJ)",
+        "incorrect_answers": [
+            "Judo",
+            "Sambo",
+            "Muay Thai"
+        ]
+    },
+    {
+        "id": "hr_sport_348",
+        "category": "sport",
+        "question": "Koji je američki boksač teške kategorije pobijedio Mikea Tysona 1996. i 1997. godine u borbi u kojoj mu je Tyson odgrizao komad uha?",
+        "correct_answer": "Evander Holyfield",
+        "incorrect_answers": [
+            "Lennox Lewis",
+            "Riddick Bowe",
+            "George Foreman"
+        ]
+    },
+    {
+        "id": "hr_sport_349",
+        "category": "sport",
+        "question": "Koji je britanski teškaš pobijedio Deontaya Wildera i Wladimira Klitschka te nosi nadimak 'The Gypsy King'?",
+        "correct_answer": "Tyson Fury",
+        "incorrect_answers": [
+            "Anthony Joshua",
+            "Dillian Whyte",
+            "Oleksandr Usyk"
+        ]
+    },
+    {
+        "id": "hr_sport_350",
+        "category": "sport",
+        "question": "Koji je ukrajinski boksač postao apsolutni prvak teške kategorije pobijedivši Tysona Furyja u svibnju 2024. godine?",
+        "correct_answer": "Oleksandr Usyk",
+        "incorrect_answers": [
+            "Wladimir Klitschko",
+            "Vitali Klitschko",
+            "Vasiliy Lomachenko"
+        ]
+    },
+    {
+        "id": "hr_sport_351",
+        "category": "sport",
+        "question": "Koji je austrijski skijaš dominirao u Svjetskom kupu osvojivši Veliki kristalni globus 8 puta zaredom (2012.–2019.)?",
+        "correct_answer": "Marcel Hirscher",
+        "incorrect_answers": [
+            "Benjamin Raich",
+            "Hermann Maier",
+            "Alexis Pinturault"
+        ]
+    },
+    {
+        "id": "hr_sport_352",
+        "category": "sport",
+        "question": "Koji je austrijski skijaš bio poznat pod nadimkom 'Herminator' i preživio strašan pad na OI u Naganu 1998. te osvojio dvije zlatne medalje?",
+        "correct_answer": "Hermann Maier",
+        "incorrect_answers": [
+            "Marcel Hirscher",
+            "Stephan Eberharter",
+            "Michael Walchhofer"
+        ]
+    },
+    {
+        "id": "hr_sport_353",
+        "category": "sport",
+        "question": "Koja je američka skijašica srušila sveukupni rekord Ingemara Stenmarka ostvarivši više od 90 pobjeda u Svjetskom skijaškom kupu?",
+        "correct_answer": "Mikaela Shiffrin",
+        "incorrect_answers": [
+            "Lindsey Vonn",
+            "Tina Maze",
+            "Lara Gut-Behrami"
+        ]
+    },
+    {
+        "id": "hr_sport_354",
+        "category": "sport",
+        "question": "Koji je švedski skijaš bio dugogodišnji rekorder s 86 pobjeda u Svjetskom kupu u tehničkim disciplinama (slalom i veleslalom)?",
+        "correct_answer": "Ingemar Stenmark",
+        "incorrect_answers": [
+            "Bojan Križaj",
+            "Alberto Tomba",
+            "Marc Girardelli"
+        ]
+    },
+    {
+        "id": "hr_sport_355",
+        "category": "sport",
+        "question": "Koji je talijanski skijaš bio karizmatična zvijezda 1990-ih pod nadimkom 'Tomba la Bomba'?",
+        "correct_answer": "Alberto Tomba",
+        "incorrect_answers": [
+            "Kristian Ghedina",
+            "Giuliano Razzoli",
+            "Dominik Paris"
+        ]
+    },
+    {
+        "id": "hr_sport_356",
+        "category": "sport",
+        "question": "Koja je slovenska skijašica postavila rekord po broju osvojenih bodova u jednoj sezoni Svjetskog kupa (2414 bodova u 2012./13.)?",
+        "correct_answer": "Tina Maze",
+        "incorrect_answers": [
+            "Ilka Štuhec",
+            "Mateja Svet",
+            "Urška Hrovat"
+        ]
+    },
+    {
+        "id": "hr_sport_357",
+        "category": "sport",
+        "question": "Koji je skijaški skakač iz Poljske osvojio četiri olimpijske medalje i četiri naslova Svjetskog kupa te Turneju četiri skakaonice?",
+        "correct_answer": "Adam Małysz",
+        "incorrect_answers": [
+            "Kamil Stoch",
+            "Dawid Kubacki",
+            "Piotr Żyła"
+        ]
+    },
+    {
+        "id": "hr_sport_358",
+        "category": "sport",
+        "question": "Koji je skijaški skakač iz Finske bio poznat pod nadimkom 'Leteći Finac' i osvojio 4 zlatne olimpijske medalje u 1980-ima?",
+        "correct_answer": "Matti Nykänen",
+        "incorrect_answers": [
+            "Janne Ahonen",
+            "Tami Kiuru",
+            "Matti Hautamäki"
+        ]
+    },
+    {
+        "id": "hr_sport_359",
+        "category": "sport",
+        "question": "Koji je skijaški skakač iz Finske osvojio Turneju četiri skakaonice rekordnih 5 puta u karijeri?",
+        "correct_answer": "Janne Ahonen",
+        "incorrect_answers": [
+            "Matti Nykänen",
+            "Tami Kiuru",
+            "Harri Olli"
+        ]
+    },
+    {
+        "id": "hr_sport_360",
+        "category": "sport",
+        "question": "Kako se zove stil skijanja u skijaškim skokovima gdje skijaš drži skije u obliku slova V u zraku?",
+        "correct_answer": "V-stil",
+        "incorrect_answers": [
+            "Paralelni stil",
+            "Klasični stil",
+            "Škare stil"
+        ]
+    },
+    {
+        "id": "hr_sport_361",
+        "category": "sport",
+        "question": "Koji je švicarski skijaš osvojio zlatnu medalju u spustu na ZOI u Pekingu 2022. godine?",
+        "correct_answer": "Beat Feuz",
+        "incorrect_answers": [
+            "Marco Odermatt",
+            "Didier Cuche",
+            "Carlo Janka"
+        ]
+    },
+    {
+        "id": "hr_sport_362",
+        "category": "sport",
+        "question": "Koji je švicarski skijaš osvojio Veliki kristalni globus tri sezone zaredom (2022., 2023., 2024.) te zlato u veleslalomu u Pekingu 2022.?",
+        "correct_answer": "Marco Odermatt",
+        "incorrect_answers": [
+            "Beat Feuz",
+            "Loïc Meillard",
+            "Gino Caviezel"
+        ]
+    },
+    {
+        "id": "hr_sport_363",
+        "category": "sport",
+        "question": "U kom se švedskom gradu tradicionalno održava najstarija i najduža utrka u skijaškom trčanju 'Vasaloppet' (90 km)?",
+        "correct_answer": "Mora",
+        "incorrect_answers": [
+            "Stockholm",
+            "Falun",
+            "Åre"
+        ]
+    },
+    {
+        "id": "hr_sport_364",
+        "category": "sport",
+        "question": "Koji je kanadski hokejaški klub osvojio najviše naslova Stanley Cupa u povijesti NHL-a (24 naslova)?",
+        "correct_answer": "Montreal Canadiens",
+        "incorrect_answers": [
+            "Toronto Maple Leafs",
+            "Boston Celtics",
+            "Edmonton Oilers"
+        ]
+    },
+    {
+        "id": "hr_sport_365",
+        "category": "sport",
+        "question": "Koji je hokejaški klub iz Edmontona proslavio Wayne Gretzky u 1980-ima osvojivši 4 Stanley Cupa?",
+        "correct_answer": "Edmonton Oilers",
+        "incorrect_answers": [
+            "Calgary Flames",
+            "Vancouver Canucks",
+            "Winnipeg Jets"
+        ]
+    },
+    {
+        "id": "hr_sport_366",
+        "category": "sport",
+        "question": "U kojem sportu natjecatelji koriste sanjke i spuštaju se po ledu glavom prema naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Sankanje (Luge)",
+            "Bob",
+            "Curling"
+        ]
+    },
+    {
+        "id": "hr_sport_367",
+        "category": "sport",
+        "question": "Koliko igrača čine posadu u najvećoj bob disciplina na Zimskim olimpijskim igrama?",
+        "correct_answer": "4 igrača",
+        "incorrect_answers": [
+            "2 igrača",
+            "6 igrača",
+            "3 igrača"
+        ]
+    },
+    {
+        "id": "hr_sport_368",
+        "category": "sport",
+        "question": "Koji je američki snowboarder osvojio 3 zlatne olimpijske medalje u halfpipeu (2006., 2010., 2018.)?",
+        "correct_answer": "Shaun White",
+        "incorrect_answers": [
+            "Danny Kass",
+            "Ayumu Hirano",
+            "Scotty James"
+        ]
+    },
+    {
+        "id": "hr_sport_369",
+        "category": "sport",
+        "question": "Koji je norveški biatlonac osvojio 5 zlatnih medalja na OI u Pekingu 2022. i nosi ime Johannes Thingnes...?",
+        "correct_answer": "Bø (Johannes Thingnes Bø)",
+        "incorrect_answers": [
+            "Bjørndalen",
+            "Svendsen",
+            "Laegreid"
+        ]
+    },
+    {
+        "id": "hr_sport_370",
+        "category": "sport",
+        "question": "U kojoj se državi nalazi poznata skijaška staza 'Streif' u Kitzbühelu na kojoj se vozi najopasniji spust Svjetskog kupa?",
+        "correct_answer": "Austrija",
+        "incorrect_answers": [
+            "Švicarska",
+            "Njemačka",
+            "Italija"
+        ]
+    },
+    {
+        "id": "hr_sport_371",
+        "category": "sport",
+        "question": "U kojoj se državi nalazi poznata skijaška staza 'Lauberhorn' u Wengenu?",
+        "correct_answer": "Švicarska",
+        "incorrect_answers": [
+            "Austrija",
+            "Francuska",
+            "Italija"
+        ]
+    },
+    {
+        "id": "hr_sport_372",
+        "category": "sport",
+        "question": "Kako se naziva skijaško natjecanje koje spaja jednu vožnju spusta ili veleslaloma i jednu vožnju slaloma?",
+        "correct_answer": "Kombinacija (Alpska kombinacija)",
+        "incorrect_answers": [
+            "Super-G",
+            "Paralelni slalom",
+            "Moguls"
+        ]
+    },
+    {
+        "id": "hr_sport_373",
+        "category": "sport",
+        "question": "Koji je američki borac teške kategorije pobijedio Brocka Lesnara i bio UFC prvak prije nego što je postao trenera boraca?",
+        "correct_answer": "Cain Velasquez",
+        "incorrect_answers": [
+            "Junior dos Santos",
+            "Daniel Cormier",
+            "Fabricio Werdum"
+        ]
+    },
+    {
+        "id": "hr_sport_374",
+        "category": "sport",
+        "question": "Koji je nigerijsko-novozelandski MMA borac u srednjoj kategoriji nosio nadimak 'The Last Stylebender' u UFC-u?",
+        "correct_answer": "Israel Adesanya",
+        "incorrect_answers": [
+            "Kamaru Usman",
+            "Francis Ngannou",
+            "Dricus du Plessis"
+        ]
+    },
+    {
+        "id": "hr_sport_375",
+        "category": "sport",
+        "question": "Koji je MMA borac iz Južnoafričke Republike osvojio pojas UFC prvaka u srednjoj kategoriji 2024. godine pobijedivši Adesanyu / Stricklanda?",
+        "correct_answer": "Dricus du Plessis",
+        "incorrect_answers": [
+            "Israel Adesanya",
+            "Sean Strickland",
+            "Robert Whittaker"
+        ]
+    },
+    {
+        "id": "hr_sport_376",
+        "category": "sport",
+        "question": "Koji je australski MMA borac perolake kategorije dugo vladao divizijom i nosi nadimak 'The Great'?",
+        "correct_answer": "Alexander Volkanovski",
+        "incorrect_answers": [
+            "Max Holloway",
+            "Ilia Topuria",
+            "Yair Rodriguez"
+        ]
+    },
+    {
+        "id": "hr_sport_377",
+        "category": "sport",
+        "question": "Koji je gruzijsko-španjolski borac nokautirao Alexandra Volkanovskog 2024. godine i postao UFC prvak perolake kategorije?",
+        "correct_answer": "Ilia Topuria",
+        "incorrect_answers": [
+            "Max Holloway",
+            "Movsar Evloev",
+            "Brian Ortega"
+        ]
+    },
+    {
+        "id": "hr_sport_378",
+        "category": "sport",
+        "question": "Koji je izraz za meč u boksu ili MMA u kojem niti jedan borac ne pobijedi prekidom nego sudačkom odlukom (Decision)?",
+        "correct_answer": "Odluka sudaca",
+        "incorrect_answers": [
+            "Nokaut",
+            "Predaja",
+            "Diskvalifikacija"
+        ]
+    },
+    {
+        "id": "hr_sport_379",
+        "category": "sport",
+        "question": "Koliko minuta traje jedna regularna runda u profesionalnoj UFC borbi (izvan šampionskih borbi)?",
+        "correct_answer": "5 minuta",
+        "incorrect_answers": [
+            "3 minute",
+            "4 minute",
+            "10 minuta"
+        ]
+    },
+    {
+        "id": "hr_sport_380",
+        "category": "sport",
+        "question": "Koliko ukupno rundi imaju borbe za naslov prvaka ili glavne borbe večeri u UFC-u?",
+        "correct_answer": "5 rundi",
+        "incorrect_answers": [
+            "3 runde",
+            "7 rundi",
+            "10 rundi"
+        ]
+    },
+    {
+        "id": "hr_sport_381",
+        "category": "sport",
+        "question": "Koji je mexiko-američki boksač pobijedio Anthonyja Joshuu 2019. godine u jednoj od najvećih senzacija teške kategorije?",
+        "correct_answer": "Andy Ruiz Jr.",
+        "incorrect_answers": [
+            "Deontay Wilder",
+            "Luis Ortiz",
+            "Joseph Parker"
+        ]
+    },
+    {
+        "id": "hr_sport_382",
+        "category": "sport",
+        "question": "Koji je filipinski boksač osvojio naslove svjetskog prvaka u rekordnih 8 različitih težinskih kategorija?",
+        "correct_answer": "Manny Pacquiao",
+        "incorrect_answers": [
+            "Floyd Mayweather",
+            "Nonito Donaire",
+            "Naoya Inoue"
+        ]
+    },
+    {
+        "id": "hr_sport_383",
+        "category": "sport",
+        "question": "Koja je jamajčanska sprinterica osvojila zlatne olimpijske medalje na 100m u Pekingu 2008. i Londonu 2012. te u Tokiju 2020.?",
+        "correct_answer": "Shelly-Ann Fraser-Pryce",
+        "incorrect_answers": [
+            "Elaine Thompson-Herah",
+            "Veronica Campbell-Brown",
+            "Shericka Jackson"
+        ]
+    },
+    {
+        "id": "hr_sport_384",
+        "category": "sport",
+        "question": "Koja je jamajčanska sprinterica postavila drugi najbrži rezultat u povijesti na 100m (10,54 s) na OI u Tokiju 2020.?",
+        "correct_answer": "Elaine Thompson-Herah",
+        "incorrect_answers": [
+            "Shelly-Ann Fraser-Pryce",
+            "Shericka Jackson",
+            "Sha'Carri Richardson"
+        ]
+    },
+    {
+        "id": "hr_sport_385",
+        "category": "sport",
+        "question": "Koji je američki sprinter osvojio 4 zlatne medalje na OI u Berlinu 1936. pred očima Adolfa Hitlera?",
+        "correct_answer": "Jesse Owens",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Bob Beamon",
+            "Jim Thorpe"
+        ]
+    },
+    {
+        "id": "hr_sport_386",
+        "category": "sport",
+        "question": "Koji je američki atletičar osvojio 9 zlatnih olimpijskih medalja u skoku udalj i sprintu od 1984. do 1996.?",
+        "correct_answer": "Carl Lewis",
+        "incorrect_answers": [
+            "Jesse Owens",
+            "Michael Johnson",
+            "Maurice Greene"
+        ]
+    },
+    {
+        "id": "hr_sport_387",
+        "category": "sport",
+        "question": "Koji je američki trkač nosio zlatne hrenovke/tenisice i postavio svjetski rekord na 200m i 400m na OI u Atlanti 1996.?",
+        "correct_answer": "Michael Johnson",
+        "incorrect_answers": [
+            "Butch Reynolds",
+            "Jeremy Wariner",
+            "Wayde van Niekerk"
+        ]
+    },
+    {
+        "id": "hr_sport_388",
+        "category": "sport",
+        "question": "Koji je južnoafrički atletičar srušio svjetski rekord Michaela Johnsona na 400m istrčavši 43,03 s na OI u Riju 2016.?",
+        "correct_answer": "Wayde van Niekerk",
+        "incorrect_answers": [
+            "Kirani James",
+            "LaShawn Merritt",
+            "Steven Gardiner"
+        ]
+    },
+    {
+        "id": "hr_sport_389",
+        "category": "sport",
+        "question": "Koji je ukrajinski motkaš dugo držao svjetski rekord u skoku s motkom (6,14 m na otvorenom) prije ere Duplantisa?",
+        "correct_answer": "Sergej Bubka",
+        "incorrect_answers": [
+            "Renaud Lavillenie",
+            "Maksim Tarasov",
+            "Jeff Hartwig"
+        ]
+    },
+    {
+        "id": "hr_sport_390",
+        "category": "sport",
+        "question": "Koji je češki dugoprugaš bio poznat pod nadimkom 'Češka lokomotiva' i osvojio 3 zlata (5000m, 10000m i maraton) na OI u Helsinkiju 1952.?",
+        "correct_answer": "Emil Zátopek",
+        "incorrect_answers": [
+            "Paavo Nurmi",
+            "Lasse Virén",
+            "Abebe Bikila"
+        ]
+    },
+    {
+        "id": "hr_sport_391",
+        "category": "sport",
+        "question": "Koji je finski dugoprugaš nosio nadimak 'Leteći Finac' i osvojio ukupno 9 zlatnih olimpijskih medalja u 1920-ima?",
+        "correct_answer": "Paavo Nurmi",
+        "incorrect_answers": [
+            "Hannes Kolehmainen",
+            "Ville Ritola",
+            "Lasse Virén"
+        ]
+    },
+    {
+        "id": "hr_sport_392",
+        "category": "sport",
+        "question": "Koji je etiopski maratonac osvojio zlatnu medalju na OI u Rimu 1960. trčeći potpuno bos?",
+        "correct_answer": "Abebe Bikila",
+        "incorrect_answers": [
+            "Haile Gebrselassie",
+            "Mamo Wolde",
+            "Kenenisa Bekele"
+        ]
+    },
+    {
+        "id": "hr_sport_393",
+        "category": "sport",
+        "question": "Koji je etiopski dugoprugaš osvojio dvije zlatne olimpijske medalje na 10.000m te srušio 27 svjetskih rekorda?",
+        "correct_answer": "Haile Gebrselassie",
+        "incorrect_answers": [
+            "Kenenisa Bekele",
+            "Sileshi Sihine",
+            "Eliud Kipchoge"
+        ]
+    },
+    {
+        "id": "hr_sport_394",
+        "category": "sport",
+        "question": "Koji je etiopski trkač vlasnik olimpijskog rekorda na 5000m i 10.000m te je osvojio maraton u Parizu 2024. ili Berlinu?",
+        "correct_answer": "Kenenisa Bekele",
+        "incorrect_answers": [
+            "Haile Gebrselassie",
+            "Birhanu Legese",
+            "Tamirat Tola"
+        ]
+    },
+    {
+        "id": "hr_sport_395",
+        "category": "sport",
+        "question": "Koji je marokanski atletičar vlasnik svjetskog rekorda na 1500 m (3:26,00) iz 1998. godine?",
+        "correct_answer": "Hicham El Guerrouj",
+        "incorrect_answers": [
+            "Noureddine Morceli",
+            "Bernard Lagat",
+            "Jakob Ingebrigtsen"
+        ]
+    },
+    {
+        "id": "hr_sport_396",
+        "category": "sport",
+        "question": "Koji je mladi norveški atletičar olimpijski pobjednik na 1500m i 5000m i europski rekorder?",
+        "correct_answer": "Jakob Ingebrigtsen",
+        "incorrect_answers": [
+            "Henrik Ingebrigtsen",
+            "Karsten Warholm",
+            "Sondre Nordstad Moen"
+        ]
+    },
+    {
+        "id": "hr_sport_397",
+        "category": "sport",
+        "question": "Koji je norveški preprekaš srušio svjetski rekord na 400 m s preponama istrčavši nevjerojatnih 45,94 s u Tokiju 2021.?",
+        "correct_answer": "Karsten Warholm",
+        "incorrect_answers": [
+            "Rai Benjamin",
+            "Alison dos Santos",
+            "Abderrahman Samba"
+        ]
+    },
+    {
+        "id": "hr_sport_398",
+        "category": "sport",
+        "question": "Koji je češki bacač koplja vlasnik nedodirljivog svjetskog rekorda od 98,48 m postavljenog 1996. godine?",
+        "correct_answer": "Jan Železný",
+        "incorrect_answers": [
+            "Johannes Vetter",
+            "Aki Parviainen",
+            "Julius Yego"
+        ]
+    },
+    {
+        "id": "hr_sport_399",
+        "category": "sport",
+        "question": "Koji je britanski dugoprugaš podrijetlom iz Somalije osvojio 4 zlatne olimpijske medalje u utrkama na 5000m i 10.000m (2012. i 2016.)?",
+        "correct_answer": "Mo Farah",
+        "incorrect_answers": [
+            "Haile Gebrselassie",
+            "Galen Rupp",
+            "Paul Tergat"
+        ]
+    },
+    {
+        "id": "hr_sport_400",
+        "category": "sport",
+        "question": "Koja je američka plivačica osvojila najviše zlatnih pojedinačnih medalja u povijesti ženskog plivanja na OI i SP?",
+        "correct_answer": "Katie Ledecky",
+        "incorrect_answers": [
+            "Missy Franklin",
+            "Sarah Sjöström",
+            "Jenny Thompson"
+        ]
+    },
+    {
+        "id": "hr_sport_401",
+        "category": "sport",
+        "question": "Koji je australski plivač nosio nadimak 'Thorpedo' i osvojio 5 zlatnih olimpijskih medalja početkom 2000-ih?",
+        "correct_answer": "Ian Thorpe",
+        "incorrect_answers": [
+            "Grant Hackett",
+            "Michael Klim",
+            "Kyle Chalmers"
+        ]
+    },
+    {
+        "id": "hr_sport_402",
+        "category": "sport",
+        "question": "Koji je američki plivač osvojio 7 zlatnih medalja na jednim Olimpijskim igrama u Münchenu 1972. postavivši svjetski rekord u svakoj utrci?",
+        "correct_answer": "Mark Spitz",
+        "incorrect_answers": [
+            "Michael Phelps",
+            "Matt Biondi",
+            "Caeleb Dressel"
+        ]
+    },
+    {
+        "id": "hr_sport_403",
+        "category": "sport",
+        "question": "Koji je francuski plivač osvojio 4 zlatne medalje na OI u Parizu 2024. godine pod vodstvom trenera Boba Bowmana?",
+        "correct_answer": "Léon Marchand",
+        "incorrect_answers": [
+            "Florent Manaudou",
+            "Yannick Agnel",
+            "Alain Bernard"
+        ]
+    },
+    {
+        "id": "hr_sport_404",
+        "category": "sport",
+        "question": "Koja se država smatra kolijevkom antičkih Olimpijskih igara održavanih u čast boga Zeusa?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Italija",
+            "Egipat",
+            "Turska"
+        ]
+    },
+    {
+        "id": "hr_sport_405",
+        "category": "sport",
+        "question": "Kako se zove osnivač modernih Olimpijskih igara i prvobitni predsjednik MOO-a iz Francuske?",
+        "correct_answer": "Pierre de Coubertin",
+        "incorrect_answers": [
+            "Demetrios Vikelas",
+            "Avery Brundage",
+            "Juan Antonio Samaranch"
+        ]
+    },
+    {
+        "id": "hr_sport_406",
+        "category": "sport",
+        "question": "Koliko isprepletenih krugova u različitim bojama čini službeni olimpijski simbol (Olimpijski krugovi)?",
+        "correct_answer": "5 krugova",
+        "incorrect_answers": [
+            "6 krugova",
+            "4 kruga",
+            "7 krugova"
+        ]
+    },
+    {
+        "id": "hr_sport_407",
+        "category": "sport",
+        "question": "Koje se pet boja nalaze na krugovima olimpijske zastave (na bijeloj podlozi)?",
+        "correct_answer": "Plava, žuta, crna, zelena, crvena",
+        "incorrect_answers": [
+            "Plava, crvena, bijela, žuta, zelena",
+            "Ljubičasta, plava, zelena, žuta, crvena",
+            "Narančasta, crna, zelena, plava, crvena"
+        ]
+    },
+    {
+        "id": "hr_sport_408",
+        "category": "sport",
+        "question": "U kojem gradu su održane Olimpijske igre 1936. godine koje je nacistički režim iskoristio za propagandu?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "München",
+            "Beč",
+            "Hamburg"
+        ]
+    },
+    {
+        "id": "hr_sport_409",
+        "category": "sport",
+        "question": "U kojem gradu su održane Olimpijske igre 1972. godine na kojima se dogodio tragični teroristički napad na izraelske sportaše?",
+        "correct_answer": "München",
+        "incorrect_answers": [
+            "Berlin",
+            "Frankfurt",
+            "Stuttgart"
+        ]
+    },
+    {
+        "id": "hr_sport_410",
+        "category": "sport",
+        "question": "U kojem gradu su održane Ljetne olimpijske igre 1980. godine koje su SAD i zapadne zemlje bojkotirale?",
+        "correct_answer": "Moskva",
+        "incorrect_answers": [
+            "Sankt Peterburg",
+            "Varšava",
+            "Prag"
+        ]
+    },
+    {
+        "id": "hr_sport_411",
+        "category": "sport",
+        "question": "U kojem gradu su održane Ljetne olimpijske igre 1984. godine koje su SSSR i istočni blok bojkotirali?",
+        "correct_answer": "Los Angeles",
+        "incorrect_answers": [
+            "New York",
+            "Chicago",
+            "Atlanta"
+        ]
+    },
+    {
+        "id": "hr_sport_412",
+        "category": "sport",
+        "question": "Koja je država domaćin ljetnih Olimpijskih igara predviđenih za 2032. godinu u gradu Brisbaneu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "SAD",
+            "Japan",
+            "Indija"
+        ]
+    },
+    {
+        "id": "hr_sport_413",
+        "category": "sport",
+        "question": "Kako se zove službeni latinski moto Olimpijskih igara koji znači 'Brže, više, jače - zajedno'?",
+        "correct_answer": "Citius, Altius, Fortius - Communiter",
+        "incorrect_answers": [
+            "Veni, Vidi, Vici",
+            "In hoc signo vinces",
+            "Mens sana in corpore sano"
+        ]
+    },
+    {
+        "id": "hr_sport_414",
+        "category": "sport",
+        "question": "Koji je litavski atletičar bio dvostruki olimpijski pobjednik u bacanju diska (2000. i 2004.)?",
+        "correct_answer": "Virgilijus Alekna",
+        "incorrect_answers": [
+            "Gerd Kanter",
+            "Robert Harting",
+            "Mykolas Alekna"
+        ]
+    },
+    {
+        "id": "hr_sport_415",
+        "category": "sport",
+        "question": "Koji je litavski mladi atletičar srušio 38 godina star svjetski rekord Jürgena Schulta u bacanju diska prebacivši 74,35 m u travnju 2024.?",
+        "correct_answer": "Mykolas Alekna",
+        "incorrect_answers": [
+            "Virgilijus Alekna",
+            "Kristjan Čeh",
+            "Daniel Ståhl"
+        ]
+    },
+    {
+        "id": "hr_sport_416",
+        "category": "sport",
+        "question": "Koja je njemačka sprinterica u skoku udalj i sprintu osvojila zlato i drži svjetski rekord na 400m u ženskoj konkurenciji (47,60 s iz 1985.)?",
+        "correct_answer": "Marita Koch",
+        "incorrect_answers": [
+            "Jarmila Kratochvílová",
+            "Florence Griffith-Joyner",
+            "Heike Drechsler"
+        ]
+    },
+    {
+        "id": "hr_sport_417",
+        "category": "sport",
+        "question": "Koja je američka sprinterica vlasnica svjetskog rekorda na 100m (10,49 s) i 200m (21,34 s) postavljenih 1988. godine (Flo-Jo)?",
+        "correct_answer": "Florence Griffith-Joyner",
+        "incorrect_answers": [
+            "Marion Jones",
+            "Carmelita Jeter",
+            "Sha'Carri Richardson"
+        ]
+    },
+    {
+        "id": "hr_sport_418",
+        "category": "sport",
+        "question": "Koja je čehoslovačka atletičarka vlasnica najstarijeg pojedinačnog svjetskog rekorda u atletici na 800 m (1:53,28 iz 1983.)?",
+        "correct_answer": "Jarmila Kratochvílová",
+        "incorrect_answers": [
+            "Marita Koch",
+            "Caster Semenya",
+            "Maria Mutola"
+        ]
+    },
+    {
+        "id": "hr_sport_419",
+        "category": "sport",
+        "question": "Koji je jamajčanski sprinter bio jedini uz Usaina Bolta koji je istrčao 100 m ispod 9,70 s (9,69 s u šprintu)?",
+        "correct_answer": "Yohan Blake",
+        "incorrect_answers": [
+            "Asafa Powell",
+            "Tyson Gay",
+            "Justin Gatlin"
+        ]
+    },
+    {
+        "id": "hr_sport_420",
+        "category": "sport",
+        "question": "Koji se izraz koristi za atletsku utrku od 400 metara u kojoj četiri trkača iz iste ekipe trče po jedan krug predajući palicu?",
+        "correct_answer": "Štafeta 4x400 metara",
+        "incorrect_answers": [
+            "Mješovita utrka",
+            "Sprint višeboj",
+            "Štafeta 4x100 metara"
+        ]
+    },
+    {
+        "id": "hr_sport_421",
+        "category": "sport",
+        "question": "Koliko prepona mora preskočiti svaki natjecatelj u utrci na 110m ili 400m s preponama?",
+        "correct_answer": "10 prepona",
+        "incorrect_answers": [
+            "8 prepona",
+            "12 prepona",
+            "6 prepona"
+        ]
+    },
+    {
+        "id": "hr_sport_422",
+        "category": "sport",
+        "question": "Koja je duljina staze u stijeplechase utrci s preprekama i vodenim rovom na atletskom stadionu?",
+        "correct_answer": "3000 metara s preprekama",
+        "incorrect_answers": [
+            "1500 metara",
+            "5000 metara",
+            "2000 metara"
+        ]
+    },
+    {
+        "id": "hr_sport_423",
+        "category": "sport",
+        "question": "Koja je švedska plivačica vlasnica svjetskog rekorda na 50m i 100m slobodno u ženskoj konkurenciji?",
+        "correct_answer": "Sarah Sjöström",
+        "incorrect_answers": [
+            "Therese Alshammar",
+            "Federica Pellegrini",
+            "Rūta Meilutytė"
+        ]
+    },
+    {
+        "id": "hr_sport_424",
+        "category": "sport",
+        "question": "Koji je mađarski plivač vlasnik svjetskog rekorda na 200m delfin (1:50,34) i zlatni s OI u Tokiju 2020.?",
+        "correct_answer": "Kristóf Milák",
+        "incorrect_answers": [
+            "László Cseh",
+            "Dániel Gyurta",
+            "Péter Bernek"
+        ]
+    },
+    {
+        "id": "hr_sport_425",
+        "category": "sport",
+        "question": "Koliko minuta iznosi pauza između dva poluvremena u vaterpolu prema modernim pravilima FINA-e?",
+        "correct_answer": "3 minute (pauza između 2. i 3. četvrtine)",
+        "incorrect_answers": [
+            "5 minuta",
+            "10 minuta",
+            "2 minute"
+        ]
+    },
+    {
+        "id": "hr_sport_426",
+        "category": "sport",
+        "question": "Koliko traju četvrtine u vaterpolo utakmici čistog vremena igre?",
+        "correct_answer": "8 minuta",
+        "incorrect_answers": [
+            "7 minuta",
+            "10 minuta",
+            "6 minuta"
+        ]
+    },
+    {
+        "id": "hr_sport_427",
+        "category": "sport",
+        "question": "Koja se država smatra najtrofejnijom nacijom u povijesti vaterpola na Olimpijskim igrama (s najviše zlatnih medalja)?",
+        "correct_answer": "Mađarska",
+        "incorrect_answers": [
+            "Italija",
+            "Srbija / SFRJ",
+            "Hrvatska"
+        ]
+    },
+    {
+        "id": "hr_sport_428",
+        "category": "sport",
+        "question": "U kom se sportu dodjeljuje 'Trofej trofeja' na turnirima u skokovima u vodu s daske od 3m i platforme 10m?",
+        "correct_answer": "Skokovi u vodu",
+        "incorrect_answers": [
+            "Plivanje",
+            "Umjetničko plivanje",
+            "Vaterpolo"
+        ]
+    },
+    {
+        "id": "hr_sport_429",
+        "category": "sport",
+        "question": "Kako se zove olimpijski sport u kojem natjecatelji u ležećem položaju pucaju iz zračne ili malokalibarske puške u metu?",
+        "correct_answer": "Streljaštvo",
+        "incorrect_answers": [
+            "Streličarstvo",
+            "Biatlon",
+            "Pikado"
+        ]
+    },
+    {
+        "id": "hr_sport_430",
+        "category": "sport",
+        "question": "Koja je najduža pješačka / trkačka disciplina na atletskim natjecanjima koja se održava na cesti (ranije 50km)?",
+        "correct_answer": "Brzo hodanje (20km / 35km / 50km)",
+        "incorrect_answers": [
+            "Maraton",
+            "Ultramaraton",
+            "Kros"
+        ]
+    },
+    {
+        "id": "hr_sport_431",
+        "category": "sport",
+        "question": "Koji se predmet predaje iz ruke u ruku u štafetnim utrkama u atletici?",
+        "correct_answer": "Štafetna palica",
+        "incorrect_answers": [
+            "Loptica",
+            "Traka",
+            "Prsten"
+        ]
+    },
+    {
+        "id": "hr_sport_432",
+        "category": "sport",
+        "question": "Koji se teški metalni rekvizit baca na žičanoj sajli s ručkom u jednoj od četiri bacčke discipline u atletici?",
+        "correct_answer": "Kladivo",
+        "incorrect_answers": [
+            "Kugla",
+            "Disk",
+            "Koplje"
+        ]
+    },
+    {
+        "id": "hr_sport_433",
+        "category": "sport",
+        "question": "Koji je slovenski biciklist osvojio Tour de France tri puta (2020., 2021., 2024.) i Giro d'Italia 2024.?",
+        "correct_answer": "Tadej Pogačar",
+        "incorrect_answers": [
+            "Primož Roglič",
+            "Matej Mohorič",
+            "Egan Bernal"
+        ]
+    },
+    {
+        "id": "hr_sport_434",
+        "category": "sport",
+        "question": "Koji je slovenski biciklist osvojio Vuelta a España tri puta zaredom i Giro d'Italia 2023. godine?",
+        "correct_answer": "Primož Roglič",
+        "incorrect_answers": [
+            "Tadej Pogačar",
+            "Matej Mohorič",
+            "Simon Špilak"
+        ]
+    },
+    {
+        "id": "hr_sport_435",
+        "category": "sport",
+        "question": "Koji je danski biciklist osvojio Tour de France dvije godine zaredom (2022. i 2023.) u dresu ekipe Jumbo-Visma?",
+        "correct_answer": "Jonas Vingegaard",
+        "incorrect_answers": [
+            "Mads Pedersen",
+            "Jakob Fuglsang",
+            "Kasper Asgreen"
+        ]
+    },
+    {
+        "id": "hr_sport_436",
+        "category": "sport",
+        "question": "Kako se zove slavna jednodnevna biciklistička utrka u Francuskoj poznata po teškim dionicama po kockama (pave)?",
+        "correct_answer": "Pariz - Roubaix",
+        "incorrect_answers": [
+            "Milano - Sanremo",
+            "Ronde van Vlaanderen",
+            "Liège-Bastogne-Liège"
+        ]
+    },
+    {
+        "id": "hr_sport_437",
+        "category": "sport",
+        "question": "Koja je boja vodeće majice koju nosi ukupno vodeći biciklist na utrci Giro d'Italia?",
+        "correct_answer": "Ružičasta majica (Maglia Rosa)",
+        "incorrect_answers": [
+            "Žuta majica (Maillot Jaune)",
+            "Crvena majica (Maillot Rojo)",
+            "Zelena majica"
+        ]
+    },
+    {
+        "id": "hr_sport_438",
+        "category": "sport",
+        "question": "Koja je boja vodeće majice koju nosi ukupno vodeći biciklist na utrci Tour de France?",
+        "correct_answer": "Žuta majica (Maillot Jaune)",
+        "incorrect_answers": [
+            "Ružičasta majica",
+            "Crvena majica",
+            "Bijela majica"
+        ]
+    },
+    {
+        "id": "hr_sport_439",
+        "category": "sport",
+        "question": "Koji je američki golfer bio najmlađi u povijesti koji je osvojio Career Grand Slam te ima 15 Major naslova?",
+        "correct_answer": "Tiger Woods",
+        "incorrect_answers": [
+            "Jack Nicklaus",
+            "Arnold Palmer",
+            "Phil Mickelson"
+        ]
+    },
+    {
+        "id": "hr_sport_440",
+        "category": "sport",
+        "question": "Koji golfer drži rekord po broju osvojenih Major turnira u povijesti (18 Major naslova)?",
+        "correct_answer": "Jack Nicklaus",
+        "incorrect_answers": [
+            "Tiger Woods",
+            "Walter Hagen",
+            "Ben Hogan"
+        ]
+    },
+    {
+        "id": "hr_sport_441",
+        "category": "sport",
+        "question": "Kako se zove slavni golf turnir u SAD-u koji se svake godine u travnju održava na terenu Augusta National (pobjednik dobiva zeleni sako)?",
+        "correct_answer": "The Masters Tournament",
+        "incorrect_answers": [
+            "U.S. Open",
+            "PGA Championship",
+            "The Open Championship"
+        ]
+    },
+    {
+        "id": "hr_sport_442",
+        "category": "sport",
+        "question": "Koji je engleski pikado igrač sa samo 16 godina postao senzacija i došao do finala Svjetskog prvenstva u pikadu (PDC) 2024. godine?",
+        "correct_answer": "Luke Littler",
+        "incorrect_answers": [
+            "Luke Humphries",
+            "Michael van Gerwen",
+            "Gerwyn Price"
+        ]
+    },
+    {
+        "id": "hr_sport_443",
+        "category": "sport",
+        "question": "Koji je nizozemski pikado igrač višestruki svjetski prvak poznat po zelenom dresu i nadimku 'MvG'?",
+        "correct_answer": "Michael van Gerwen",
+        "incorrect_answers": [
+            "Raymond van Barneveld",
+            "Luke Humphries",
+            "Peter Wright"
+        ]
+    },
+    {
+        "id": "hr_sport_444",
+        "category": "sport",
+        "question": "Koji je škotski pikado igrač poznat po šarenoj obojanoj frizuri (irokezi) i nadimku 'Snakebite'?",
+        "correct_answer": "Peter Wright",
+        "incorrect_answers": [
+            "Gary Anderson",
+            "Gerwyn Price",
+            "Michael Smith"
+        ]
+    },
+    {
+        "id": "hr_sport_445",
+        "category": "sport",
+        "question": "Koji se engleski igrač snookera smatra najvećim u povijesti s 7 naslova svjetskog prvaka i nadimkom 'The Rocket'?",
+        "correct_answer": "Ronnie O'Sullivan",
+        "incorrect_answers": [
+            "Stephen Hendry",
+            "Judd Trump",
+            "Mark Selby"
+        ]
+    },
+    {
+        "id": "hr_sport_446",
+        "category": "sport",
+        "question": "Koji je škotski igrač snookera bio dominantan u 1990-ima i osvojio 7 naslova svjetskog prvaka u Sheffieldus (Crucible Theatre)?",
+        "correct_answer": "Stephen Hendry",
+        "incorrect_answers": [
+            "Ronnie O'Sullivan",
+            "John Higgins",
+            "Steve Davis"
+        ]
+    },
+    {
+        "id": "hr_sport_447",
+        "category": "sport",
+        "question": "Kako se zove dvorana u engleskom gradu Sheffieldu u kojoj se održava Svjetsko prvenstvo u snookeru od 1977. godine?",
+        "correct_answer": "Crucible Theatre",
+        "incorrect_answers": [
+            "Alexandra Palace",
+            "York Barbican",
+            "Winter Gardens"
+        ]
+    },
+    {
+        "id": "hr_sport_448",
+        "category": "sport",
+        "question": "U kom se sportu natjecatelji natječu u disciplinama pojedinačno, u parovima i mješovitim parovima udarajući celuloidnu lopticu preko mrežice visine 15,25 cm?",
+        "correct_answer": "Stolni tenis",
+        "incorrect_answers": [
+            "Badminton",
+            "Tenis",
+            "Squash"
+        ]
+    },
+    {
+        "id": "hr_sport_449",
+        "category": "sport",
+        "question": "Koliko poena je potrebno za pobjedu u jednom setu u modernom stolnom tenisu (pod uvjetom 2 poena razlike)?",
+        "correct_answer": "11 poena",
+        "incorrect_answers": [
+            "21 poen",
+            "15 poena",
+            "25 poena"
+        ]
+    },
+    {
+        "id": "hr_sport_450",
+        "category": "sport",
+        "question": "Koliko poena je potrebno za pobjedu u prva četiri seta u dvoranskoj odbojci?",
+        "correct_answer": "25 poena",
+        "incorrect_answers": [
+            "21 poen",
+            "15 poena",
+            "30 poena"
+        ]
+    },
+    {
+        "id": "hr_sport_451",
+        "category": "sport",
+        "question": "Koliko poena je potrebno za pobjedu u odlučujućem petom setu (tie-break) u odbojci?",
+        "correct_answer": "15 poena",
+        "incorrect_answers": [
+            "25 poena",
+            "21 poen",
+            "11 poena"
+        ]
+    },
+    {
+        "id": "hr_sport_452",
+        "category": "sport",
+        "question": "Koji se sport igra na pravokutnom terenu s četirima staklenim zidovima gdje igrač udara gumenu lopticu u zid (ne preko mreže)?",
+        "correct_answer": "Squash",
+        "incorrect_answers": [
+            "Padel",
+            "Badminton",
+            "Racquetball"
+        ]
+    },
+    {
+        "id": "hr_sport_453",
+        "category": "sport",
+        "question": "U kojem sportu natjecateljice i natjecatelji voze konje preko prepreka određenim redoslijedom u parkuru?",
+        "correct_answer": "Preponsko jahanje (Konjički sport)",
+        "incorrect_answers": [
+            "Dresurno jahanje",
+            "Polo",
+            "Kasačke utrke"
+        ]
+    },
+    {
+        "id": "hr_sport_454",
+        "category": "sport",
+        "question": "Koji je tim osvojio Svjetsko prvenstvo u odbojci za muškarce 2022. godine pobijedivši Poljsku u finalu?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Poljska",
+            "Brazil",
+            "Francuska"
+        ]
+    },
+    {
+        "id": "hr_sport_455",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila zlatnu olimpijsku medalju u odbojci za muškarce na OI u Tokiju 2020. i Parizu 2024.?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Poljska",
+            "Italija",
+            "Brazil"
+        ]
+    },
+    {
+        "id": "hr_sport_456",
+        "category": "sport",
+        "question": "Koji je danski rukometaš tri puta zaredom proglašavan najboljim igračem svijeta i vodio Dansku do 3 uzastopna svjetska zlata (2019., 2021., 2023.)?",
+        "correct_answer": "Mikkel Hansen",
+        "incorrect_answers": [
+            "Niklas Landin",
+            "Mathias Gidsel",
+            "Rasmus Lauge"
+        ]
+    },
+    {
+        "id": "hr_sport_457",
+        "category": "sport",
+        "question": "Koji je danski rukometni vratar proglašen najboljim vratarom i igračem svijeta te osvojio sve moguće klupske i reprezentativne trofeje?",
+        "correct_answer": "Niklas Landin",
+        "incorrect_answers": [
+            "Mikkel Hansen",
+            "Emil Nielsen",
+            "Kevin Møller"
+        ]
+    },
+    {
+        "id": "hr_sport_458",
+        "category": "sport",
+        "question": "Koji je francuski rukometaš osvojio rekordne 3 zlatne olimpijske medalje, 4 svjetska i 3 europska zlata te igrao za Barcelona / PSG?",
+        "correct_answer": "Nikola Karabatić",
+        "incorrect_answers": [
+            "Luc Abalo",
+            "Thierry Omeyer",
+            "Michaël Guigou"
+        ]
+    },
+    {
+        "id": "hr_sport_459",
+        "category": "sport",
+        "question": "Koji je francuski rukometni vratar bio dugogodišnji 'zid' na golu Francuske i proglašen najboljim vratarom svih vremena?",
+        "correct_answer": "Thierry Omeyer",
+        "incorrect_answers": [
+            "Niklas Landin",
+            "Arpad Šterbik",
+            "David Barrufet"
+        ]
+    },
+    {
+        "id": "hr_sport_460",
+        "category": "sport",
+        "question": "Iz koje države dolazi e-sport tim T1, višestruki svjetski prvak u igri League of Legends predvođen igračem 'Faker'?",
+        "correct_answer": "Južna Koreja",
+        "incorrect_answers": [
+            "Kina",
+            "SAD",
+            "Danska"
+        ]
+    },
+    {
+        "id": "hr_sport_461",
+        "category": "sport",
+        "question": "Koji se južnokorejski igrač smatra najboljim igračem u povijesti League of Legends e-sporta s nadimkom 'Unkillable Demon King'?",
+        "correct_answer": "Faker (Lee Sang-hyeok)",
+        "incorrect_answers": [
+            "Chovy",
+            "ShowMaker",
+            "Ruler"
+        ]
+    },
+    {
+        "id": "hr_sport_462",
+        "category": "sport",
+        "question": "Kako se zove najveće godišnje natjecanje u igri Dota 2 u organizaciji tvrtke Valve s višemilijunskim nagradnim fondom?",
+        "correct_answer": "The International",
+        "incorrect_answers": [
+            "Worlds",
+            "Major",
+            "ESL One"
+        ]
+    },
+    {
+        "id": "hr_sport_463",
+        "category": "sport",
+        "question": "Koji je e-sport tim pobijedio na Counter-Strike 2 Majoru u Copenhagenu 2024. godine (Navi)?",
+        "correct_answer": "NAVI (Natus Vincere)",
+        "incorrect_answers": [
+            "FaZe Clan",
+            "Vitality",
+            "G2 Esports"
+        ]
+    },
+    {
+        "id": "hr_sport_464",
+        "category": "sport",
+        "question": "Koji je francuski CS2 igrač proglašen najboljim igračem svijeta više puta pod nadimkom 'ZywOo'?",
+        "correct_answer": "Mathieu Herbaut (ZywOo)",
+        "incorrect_answers": [
+            "s1mple",
+            "NiKo",
+            "device"
+        ]
+    },
+    {
+        "id": "hr_sport_465",
+        "category": "sport",
+        "question": "Koji je ukrajinski CS2 igrač nosio nadimak 's1mple' i igrao za Natus Vincere?",
+        "correct_answer": "Oleksandr Kostyliev (s1mple)",
+        "incorrect_answers": [
+            "ZywOo",
+            "NiKo",
+            "b1t"
+        ]
+    },
+    {
+        "id": "hr_sport_466",
+        "category": "sport",
+        "question": "Koji je bh. e-sport igrač u Counter-Strikeu poznat kao jedan od najboljih 'riflera' na svijetu s nadimkom 'NiKo'?",
+        "correct_answer": "Nikola Kovač (NiKo)",
+        "incorrect_answers": [
+            "Nemanja Kovač (huNter-)",
+            "Maniac",
+            "rain"
+        ]
+    },
+    {
+        "id": "hr_sport_467",
+        "category": "sport",
+        "question": "Kako se zove trofej koji se dodjeljuje pobjedniku europskog klupskog prvenstva u ragbiju (European Rugby Champions Cup)?",
+        "correct_answer": "Champions Cup",
+        "incorrect_answers": [
+            "Challenge Cup",
+            "Calcutta Cup",
+            "Six Nations Trophy"
+        ]
+    },
+    {
+        "id": "hr_sport_468",
+        "category": "sport",
+        "question": "Koji je tradicionalni kriket turnir natjecanje u kojem igraju reprezentacije Indije i Australije?",
+        "correct_answer": "Border-Gavaskar Trophy",
+        "incorrect_answers": [
+            "The Ashes",
+            "Wisden Trophy",
+            "Ranji Trophy"
+        ]
+    },
+    {
+        "id": "hr_sport_469",
+        "category": "sport",
+        "question": "Koliko igrača čine jednu ekipu u kriketu na terenu tijekom utakmice?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "id": "hr_sport_470",
+        "category": "sport",
+        "question": "Koji se izraz koristi za pogodak izvan granice igrališta u kriketu bez dodira s tlom koji donosi 6 bodova?",
+        "correct_answer": "Six (Šestica)",
+        "incorrect_answers": [
+            "Four (Četvorka)",
+            "Wicket",
+            "Boundary"
+        ]
+    },
+    {
+        "id": "hr_sport_471",
+        "category": "sport",
+        "question": "U kojem sportu natjecatelji u ležećem položaju veslaju na dasci ili stoje na dasci i veslaju veslom (SUP)?",
+        "correct_answer": "Paddleboarding (SUP)",
+        "incorrect_answers": [
+            "Jedrenje na dasci",
+            "Kajak",
+            "Surfing"
+        ]
+    },
+    {
+        "id": "hr_sport_472",
+        "category": "sport",
+        "question": "Kako se zove ekstremni vodeni sport u kojem zmaj (zmaj/kite) vuče natjecatelja na dasci po vodi?",
+        "correct_answer": "Kitesurfing (Kiteboarding)",
+        "incorrect_answers": [
+            "Windsurfing",
+            "Wakeboarding",
+            "Parasailing"
+        ]
+    },
+    {
+        "id": "hr_sport_473",
+        "category": "sport",
+        "question": "Koji se sport izvodi na velikom valu na dasci bez motoričkog pogona, slavni po plažama na Havajima i Tahitiju (Teahupo'o)?",
+        "correct_answer": "Surfing (Jahanje na valovima)",
+        "incorrect_answers": [
+            "Kitesurfing",
+            "Skijanje na vodi",
+            "Rafting"
+        ]
+    },
+    {
+        "id": "hr_sport_474",
+        "category": "sport",
+        "question": "Koja je država domaćin ljetnih Olimpijskih igara 2000. godine održanih u Sydneyju?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "SAD",
+            "Grčka",
+            "Kina"
+        ]
+    },
+    {
+        "id": "hr_sport_475",
+        "category": "sport",
+        "question": "Koja je država domaćin ljetnih Olimpijskih igara 2008. godine održanih u Pekinga?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Japan",
+            "Ujedinjeno Kraljevstvo",
+            "SAD"
+        ]
+    },
+    {
+        "id": "hr_sport_476",
+        "category": "sport",
+        "question": "Koji se sport sastoji od trčanja, vožnje bicikla i plivanja bez pauze?",
+        "correct_answer": "Trijatlon",
+        "incorrect_answers": [
+            "Biatlon",
+            "Pentatlon",
+            "Dekatlon"
+        ]
+    },
+    {
+        "id": "hr_sport_477",
+        "category": "sport",
+        "question": "Kolika je ukupna plivačka dionica na Ironman trijatlon natjecanju?",
+        "correct_answer": "3,86 km (2.4 mi)",
+        "incorrect_answers": [
+            "1,5 km",
+            "5,0 km",
+            "2,0 km"
+        ]
+    },
+    {
+        "id": "hr_sport_478",
+        "category": "sport",
+        "question": "Kolika je biciklistička dionica na punom Ironman trijatlonu?",
+        "correct_answer": "180,2 km (112 mi)",
+        "incorrect_answers": [
+            "100 km",
+            "90 km",
+            "200 km"
+        ]
+    },
+    {
+        "id": "hr_sport_479",
+        "category": "sport",
+        "question": "Kolika je trkačka dionica na punom Ironman trijatlonu na samom kraju natjecanja?",
+        "correct_answer": "42,195 km (puni maraton)",
+        "incorrect_answers": [
+            "21,097 km (polumaraton)",
+            "10 km",
+            "30 km"
+        ]
+    },
+    {
+        "id": "hr_sport_480",
+        "category": "sport",
+        "question": "U kojoj se državi na otoku Big Island (Kona) svake godine održava Svjetsko prvenstvo u Ironman trijatlonu?",
+        "correct_answer": "Havaji (SAD)",
+        "incorrect_answers": [
+            "Australija",
+            "Novi Zeland",
+            "Španjolska"
+        ]
+    },
+    {
+        "id": "hr_sport_481",
+        "category": "sport",
+        "question": "Kako se naziva tradicionalno zimsko natjecanje u skijaškim skokovima na četiri skakaonice u Njemačkoj i Austriji?",
+        "correct_answer": "Turneja četiri skakaonice (Vierschanzentournee)",
+        "incorrect_answers": [
+            "Raw Air",
+            "Nordijska turneja",
+            "Planica Cup"
+        ]
+    },
+    {
+        "id": "hr_sport_482",
+        "category": "sport",
+        "question": "U kojoj se državi nalazi skakaonica i letaonica Planica, poznata po natjecanjima i svjetskim rekordima u skijaškim letovima?",
+        "correct_answer": "Slovenija",
+        "incorrect_answers": [
+            "Austrija",
+            "Norveška",
+            "Poljska"
+        ]
+    },
+    {
+        "id": "hr_sport_483",
+        "category": "sport",
+        "question": "Koji je engleski nogometni klub osvojio UEFA Ligu prvaka u sezoni 2020./21. pobijedivši Manchester City u finalu?",
+        "correct_answer": "Chelsea",
+        "incorrect_answers": [
+            "Liverpool",
+            "Arsenal",
+            "Tottenham Hotspur"
+        ]
+    },
+    {
+        "id": "hr_sport_484",
+        "category": "sport",
+        "question": "Koliko bodova u Formuli 1 dobiva vozač koji završi na drugom mjestu u utrci?",
+        "correct_answer": "18 bodova",
+        "incorrect_answers": [
+            "15 bodova",
+            "20 bodova",
+            "12 bodova"
+        ]
+    },
+    {
+        "id": "hr_sport_485",
+        "category": "sport",
+        "question": "U kojem se gradu u Njemačkoj nalazi sjedište i stadion kluba Eintracht Frankfurt (Deutsche Bank Park)?",
+        "correct_answer": "Frankfurt",
+        "incorrect_answers": [
+            "München",
+            "Hamburg",
+            "Köln"
+        ]
+    },
+    {
+        "id": "hr_sport_486",
+        "category": "sport",
+        "question": "Koji je američki košarkaš osvojio zlatnu medalju u skoku uvis ili trosskoku? (Ili: Koji je američki trkač Noah Lyles osvojio zlato na 100m na OI u Parizu 2024.?)",
+        "correct_answer": "Noah Lyles",
+        "incorrect_answers": [
+            "Fred Kerley",
+            "Christian Coleman",
+            "Kenny Bednarek"
+        ]
+    },
+    {
+        "id": "hr_sport_487",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni vratar obranio tri jedanaesterca protiv Japana u osmini finala SP-a u Kataru 2022.?",
+        "correct_answer": "Dominik Livaković",
+        "incorrect_answers": [
+            "Danijel Subašić",
+            "Stipe Pletikosa",
+            "Ivica Ivušić"
+        ]
+    },
+    {
+        "id": "hr_sport_488",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni vratar obranio tri jedanaesterca u raspucavanju protiv Danske na SP-u u Rusiji 2018.?",
+        "correct_answer": "Danijel Subašić",
+        "incorrect_answers": [
+            "Dominik Livaković",
+            "Stipe Pletikosa",
+            "Vedran Runje"
+        ]
+    },
+    {
+        "id": "hr_sport_489",
+        "category": "sport",
+        "question": "Iz kojeg grada dolazi talijanski nogometni klub SSC Napoli?",
+        "correct_answer": "Napulj",
+        "incorrect_answers": [
+            "Rim",
+            "Milano",
+            "Torino"
+        ]
+    },
+    {
+        "id": "hr_sport_490",
+        "category": "sport",
+        "question": "Iz kojeg grada dolazi španjolski nogometni klub Sevilla FC?",
+        "correct_answer": "Sevilla",
+        "incorrect_answers": [
+            "Madrid",
+            "Barcelona",
+            "Valencia"
+        ]
+    },
+    {
+        "id": "hr_sport_491",
+        "category": "sport",
+        "question": "Iz kojeg grada dolazi njemački klub Schalke 04?",
+        "correct_answer": "Gelsenkirchen",
+        "incorrect_answers": [
+            "Dortmund",
+            "Düsseldorf",
+            "Essen"
+        ]
+    },
+    {
+        "id": "hr_sport_492",
+        "category": "sport",
+        "question": "Iz kojeg grada dolazi njemački klub RB Leipzig?",
+        "correct_answer": "Leipzig",
+        "incorrect_answers": [
+            "Dresden",
+            "Berlin",
+            "Halle"
+        ]
+    },
+    {
+        "id": "hr_sport_493",
+        "category": "sport",
+        "question": "Koji je nogometni klub poznat pod nadimkom 'Die Werkself' (Tvornička momčad) jer ga je osnovala tvrtka Bayer?",
+        "correct_answer": "Bayer Leverkusen",
+        "incorrect_answers": [
+            "Bayern München",
+            "Wolfsburg",
+            "Carl Zeiss Jena"
+        ]
+    },
+    {
+        "id": "hr_sport_494",
+        "category": "sport",
+        "question": "Kako se zove dom i stadion engleskog kluba Liverpool FC?",
+        "correct_answer": "Anfield",
+        "incorrect_answers": [
+            "Goodison Park",
+            "Old Trafford",
+            "Villa Park"
+        ]
+    },
+    {
+        "id": "hr_sport_495",
+        "category": "sport",
+        "question": "Kako se zove dom i stadion engleskog kluba Everton FC?",
+        "correct_answer": "Goodison Park",
+        "incorrect_answers": [
+            "Anfield",
+            "Etihad",
+            "St James' Park"
+        ]
+    },
+    {
+        "id": "hr_sport_496",
+        "category": "sport",
+        "question": "Koji je francuski nogometni klub iz Pariza osvojio rekordne naslove u Ligue 1 pod vlasništvom QSI fonda?",
+        "correct_answer": "Paris Saint-Germain (PSG)",
+        "incorrect_answers": [
+            "Olympique Marseille",
+            "AS Monaco",
+            "Olympique Lyon"
+        ]
+    },
+    {
+        "id": "hr_sport_497",
+        "category": "sport",
+        "question": "Koji je portugalski klub poznat pod nadimkom 'Os Leões' (Lavovi) i igra na stadionu José Alvalade u Lisabonu?",
+        "correct_answer": "Sporting CP",
+        "incorrect_answers": [
+            "Benfica",
+            "FC Porto",
+            "Braga"
+        ]
+    },
+    {
+        "id": "hr_sport_498",
+        "category": "sport",
+        "question": "Koji je portugalski klub poznat pod nadimkom 'As Águias' (Orlovi) i igra na stadionu Estádio da Luz u Lisabonu?",
+        "correct_answer": "Benfica",
+        "incorrect_answers": [
+            "Sporting CP",
+            "FC Porto",
+            "Boavista"
+        ]
+    },
+    {
+        "id": "hr_sport_499",
+        "category": "sport",
+        "question": "Koji je nizozemski klub iz Rotterdama osvojio Kup prvaka 1970. godine?",
+        "correct_answer": "Feyenoord",
+        "incorrect_answers": [
+            "Ajax",
+            "PSV Eindhoven",
+            "AZ Alkmaar"
+        ]
+    },
+    {
+        "id": "hr_sport_500",
+        "category": "sport",
+        "question": "Koji je nizozemski klub iz Eindhovena osvojio Kup prvaka 1988. godine pod Guusom Hiddinkom?",
+        "correct_answer": "PSV Eindhoven",
+        "incorrect_answers": [
+            "Ajax",
+            "Feyenoord",
+            "Twente"
+        ]
     }
 ]
