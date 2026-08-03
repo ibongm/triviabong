@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import {
-  Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal
+  Heart, Zap, RefreshCw, Flame, Award,
+  Scissors, FastForward, Clock, Crown
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
@@ -37,9 +37,11 @@ import StatsModal from './components/StatsModal';
 import GuideModal from './components/GuideModal';
 import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
-import RekordiBoards from './components/RekordiBoards';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import TimerRing from './components/TimerRing';
+import AppHeader from './components/screens/AppHeader';
+import LobbyScreen from './components/screens/LobbyScreen';
+import CategoryLeaderboardScreen from './components/screens/CategoryLeaderboardScreen';
 import {
   auth,
   logoutUser,
@@ -735,209 +737,39 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-between font-sans selection:bg-amber-500 selection:text-slate-950">
 
-      {/* Header */}
-      <header className="w-full max-w-4xl mx-auto px-4 py-4 flex justify-between items-center border-b border-slate-900">
-        <div
-          onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
-          className="flex items-center gap-2 cursor-pointer group"
-        >
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-slate-950 font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
-            TB
-          </div>
-          <span className="font-black text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-            TriviaBong
-          </span>
-        </div>
-
-        <div className="flex items-center gap-2.5">
-          <div className="flex items-center gap-1">
-            <button
-              onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-              className="flex flex-col items-center gap-0.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400 transition-colors"
-              title="Razina i Statistika"
-            >
-              <span className="flex items-center gap-1 text-xs font-bold">
-                <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-                {globalStats.level || 1}
-              </span>
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Razina</span>
-            </button>
-
-            <div className="flex flex-col items-center gap-0.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400">
-              <span className="flex items-center gap-1 text-xs font-bold">
-                <Coins className="w-4 h-4 text-amber-400" />
-                {globalStats.coins}
-              </span>
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Zlatnici</span>
-            </div>
-
-            <button
-              onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
-              className="flex flex-col items-center gap-0.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400 transition-colors"
-              title="Trofeji"
-            >
-              <span className="flex items-center gap-1 text-xs font-bold">
-                <Trophy className="w-4 h-4 text-amber-400" />
-                {Object.keys(globalStats.unlockedAchievements || {}).length}
-              </span>
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Trofeji</span>
-            </button>
-          </div>
-
-          <button
-            onClick={() => { sound.playClick(); setShowGuideModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
-            title="Kako Igrati"
-          >
-            <HelpCircle className="w-4 h-4 text-amber-400" />
-            <span className="hidden sm:inline">Vodič</span>
-          </button>
-
-          {isAdminUser && (
-            <button
-              onClick={() => setShowAdminPanel(true)}
-              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-3 py-1.5 rounded-xl text-xs font-bold transition-colors"
-              title="Otvori Admin Panel"
-            >
-              <ShieldCheck className="w-4 h-4" />
-              <span>Admin</span>
-            </button>
-          )}
-
-          {currentUser ? (
-            <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-xl">
-              <span className="text-xs font-bold text-slate-200 truncate max-w-[100px]">
-                {currentUser.displayName || currentUser.email.split('@')[0]}
-              </span>
-              <button
-                onClick={handlePlayerLogout}
-                className="text-slate-500 hover:text-rose-400 transition-colors p-0.5"
-                title="Odjava"
-              >
-                <LogOut className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          ) : (
-            <button
-              onClick={() => { sound.playClick(); setShowAuthModal(true); }}
-              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10"
-            >
-              <User className="w-3.5 h-3.5" />
-              <span>Prijava</span>
-            </button>
-          )}
-        </div>
-      </header>
+      <AppHeader
+        globalStats={globalStats}
+        currentUser={currentUser}
+        isAdminUser={isAdminUser}
+        onGoToLobby={() => setGameState('LOBBY')}
+        onOpenStats={() => setShowStatsModal(true)}
+        onOpenAchievements={() => setShowAchievementsModal(true)}
+        onOpenGuide={() => setShowGuideModal(true)}
+        onOpenAdmin={() => setShowAdminPanel(true)}
+        onOpenAuth={() => setShowAuthModal(true)}
+        onLogout={handlePlayerLogout}
+      />
 
       {/* Main Content */}
       <main className="w-full max-w-2xl mx-auto px-4 py-8 flex-1 flex flex-col justify-center">
 
         {gameState === 'LOBBY' && (
-          <div className="space-y-6">
-            <div className="text-center space-y-2">
-              <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-white">
-                Izaberi Kategoriju Kvizova
-              </h1>
-              <p className="text-slate-400 text-sm">
-                Testirajte svoje znanje, skupljajte bodove i penjite se na ljestvicu!
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-              {categoriesList.map(catKey => {
-                const details = getCategoryDetails(catKey);
-                const IconComponent = details.icon;
-                return (
-                  <button
-                    key={catKey}
-                    onClick={() => selectCategory(catKey)}
-                    className="flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-2xl transition-all group shadow-sm hover:shadow-amber-500/5"
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 group-hover:scale-110 transition-transform">
-                        <IconComponent className="w-5 h-5" />
-                      </div>
-                      <span className="font-bold text-slate-200 capitalize text-sm">{details.label}</span>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-amber-400 transition-colors" />
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="space-y-3 pt-4">
-              <div className="flex items-center justify-between">
-                <h2 className="text-sm font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
-                  <Medal className="w-4 h-4 text-amber-400" /> Rekordi
-                </h2>
-                <button
-                  onClick={() => { sound.playClick(); setShowRekordiModal(true); }}
-                  className="text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors"
-                >
-                  Vidi sve →
-                </button>
-              </div>
-              <RekordiBoards data={rekordiData} limitPerBoard={3} compact />
-            </div>
-          </div>
+          <LobbyScreen
+            categoriesList={categoriesList}
+            rekordiData={rekordiData}
+            onSelectCategory={selectCategory}
+            onOpenRekordi={() => setShowRekordiModal(true)}
+          />
         )}
 
         {gameState === 'LEADERBOARD' && (
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl space-y-6 text-center">
-            <div className="flex items-center justify-center gap-3">
-              <div className="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-400">
-                <Trophy className="w-8 h-8" />
-              </div>
-              <div className="text-left">
-                <h2 className="text-2xl font-black text-white">
-                  {getCategoryDetails(selectedCategory).label}
-                </h2>
-                <p className="text-xs font-bold text-amber-400 uppercase tracking-wider">
-                  Najbolji Rezultati
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-slate-950/60 rounded-2xl border border-slate-800 overflow-hidden divide-y divide-slate-800/80 min-h-[160px] flex flex-col justify-center">
-              {isLoadingLeaderboard ? (
-                <div className="p-6 text-slate-400 text-sm animate-pulse flex justify-center items-center gap-2">
-                  <RefreshCw className="w-4 h-4 animate-spin text-amber-400" />
-                  <span>Učitavanje ljestvice...</span>
-                </div>
-              ) : activeCategoryLeaderboard.length > 0 ? (
-                activeCategoryLeaderboard.slice(0, 5).map((entry, idx) => (
-                  <div key={idx} className="flex justify-between items-center p-3.5 text-sm px-5">
-                    <span className="font-semibold text-slate-300 flex items-center gap-3">
-                      <span className={`text-xs font-extrabold w-6 h-6 rounded-lg flex items-center justify-center ${idx === 0 ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}>
-                        #{idx + 1}
-                      </span>
-                      <span>{entry.name}</span>
-                    </span>
-                    <span className="text-amber-400 font-bold">{entry.score} bod.</span>
-                  </div>
-                ))
-              ) : (
-                <div className="p-6 text-slate-500 text-xs">
-                  Još nema zabilježenih rezultata za ovu kategoriju. Budite prvi!
-                </div>
-              )}
-            </div>
-
-            <div className="flex gap-3 pt-2">
-              <button
-                onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
-                className="flex-1 bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold py-3.5 rounded-2xl transition-colors text-sm"
-              >
-                Natrag
-              </button>
-              <button
-                onClick={launchQuizRound}
-                className="flex-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm"
-              >
-                <Play className="w-4 h-4 fill-slate-950" /> Započni Kviz
-              </button>
-            </div>
-          </div>
+          <CategoryLeaderboardScreen
+            selectedCategory={selectedCategory}
+            isLoadingLeaderboard={isLoadingLeaderboard}
+            activeCategoryLeaderboard={activeCategoryLeaderboard}
+            onStart={launchQuizRound}
+            onBack={() => setGameState('LOBBY')}
+          />
         )}
 
         {gameState === 'PLAYING' && currentQ && (
