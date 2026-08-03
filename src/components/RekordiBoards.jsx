@@ -1,5 +1,5 @@
 import { Star, Zap, Medal, Flame, Trophy, CalendarCheck } from 'lucide-react';
-import { CATEGORY_META } from '../data/categoryMeta';
+import { getCategoryLabel } from '../utils/categoryDetails';
 
 const REKORDI_BOARDS = [
     { key: 'level', title: 'Najviša razina', icon: Star, unit: 'level', signedInOnly: true },
@@ -11,7 +11,10 @@ const REKORDI_BOARDS = [
 ];
 
 const formatEntry = (board, entry) => {
-    const categoryLabel = CATEGORY_META[entry.category]?.label || entry.category;
+    // Through getCategoryLabel, not a bare CATEGORY_META lookup: scores are
+    // stored under whatever category key was live when they were saved, so a
+    // legacy alias spelling would otherwise render as a raw underscored string.
+    const categoryLabel = getCategoryLabel(entry.category);
     switch (board.unit) {
         case 'score':
             return `${entry.name} — ${entry.score} bodova (${categoryLabel})`;

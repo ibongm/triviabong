@@ -5,8 +5,6 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
-import { resolveCategoryKey } from './data/categoryKeys';
-import { CATEGORY_META } from './data/categoryMeta';
 import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
 import {
   MAX_LIVES,
@@ -30,6 +28,9 @@ import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate
 import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from './constants/achievements';
 import { sound } from './utils/sound';
 import { sanitizeDisplayName } from './utils/publicProfile';
+import { getCategoryDetails } from './utils/categoryDetails';
+import { shuffleArray, getQuestionOptions, checkIsCorrect } from './utils/quizQuestions';
+import { ADMIN_EMAIL, isAdminPath } from './utils/adminAccess';
 import AdminPanel from './components/admin/AdminPanel';
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
@@ -53,13 +54,6 @@ import {
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
-const ADMIN_EMAIL = 'ivanm.ploce@gmail.com';
-
-const isAdminPath = () => {
-  const path = window.location.pathname;
-  return path === '/admin' || path === '/admin/';
-};
-
 // Firestore's leaderboard/publicProfiles rules cap name/displayName at 20
 // chars - without the slice, a long email local-part (no displayName set)
 // gets silently rejected by the rules ("Missing or insufficient permissions")
@@ -71,38 +65,6 @@ const getPlayerDisplayName = (user) => sanitizeDisplayName(user);
 // Short beat between answering and the secret-achievement overlay, so the
 // green "correct" highlight registers before the overlay covers the board.
 const SECRET_REVEAL_DELAY_MS = 700;
-
-const getCategoryDetails = (catKey) => {
-  // Resolve through the same alias map getQuestionsByCategory uses, so a
-  // question's raw `category` field (which can be an alias spelling, e.g.
-  // legacy data using the filename-style "znanost_i_tehnologija" instead of
-  // the canonical pack key "znanost") still finds its CATEGORY_META entry
-  // instead of falling through to the raw-string fallback below.
-  const resolvedKey = resolveCategoryKey(catKey);
-  return CATEGORY_META[resolvedKey] || {
-    label: catKey ? catKey.replace(/_/g, ' ') : 'Kategorija',
-    icon: HelpCircle
-  };
-};
-
-const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
-
-const getQuestionOptions = (q) => {
-  if (!q) return [];
-  if (Array.isArray(q.options)) return q.options;
-  const correct = q.correct_answer || q.correctAnswer;
-  const incorrects = q.incorrect_answers || q.incorrectAnswers || [];
-  if (correct !== undefined) {
-    return [correct, ...incorrects];
-  }
-  return [];
-};
-
-const checkIsCorrect = (q, option) => {
-  if (!q || option === undefined) return false;
-  const correct = String(q.correct_answer || q.correctAnswer || '').trim().toLowerCase();
-  return String(option).trim().toLowerCase() === correct;
-};
 
 export default function App() {
   const [gameState, setGameState] = useState('LOBBY');
@@ -1196,10 +1158,6 @@ export default function App() {
       {/* Admin Panel Gate */}
       {showAdminPanel && isAdminUser && (
         <AdminPanel
-          globalStats={globalStats}
-          setGlobalStats={setGlobalStats}
-          leaderboards={leaderboards}
-          setLeaderboards={setLeaderboards}
           onClose={() => {
             setShowAdminPanel(false);
             if (isAdminPath()) {
