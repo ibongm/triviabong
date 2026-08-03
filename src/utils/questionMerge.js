@@ -3,7 +3,11 @@
 // unchanged by both src/components/AdminPanel.jsx (client-side preview) and
 // api/questions.js (the Vercel serverless function that actually commits the
 // merged file) - the two must never drift into validating differently.
-import { resolveCategoryKey } from '../data/categoryKeys';
+// Explicit .js extension required: this file is loaded directly by Node's
+// strict ESM resolver in the Vercel serverless function (api/questions.js),
+// which - unlike Vite's bundler for the browser build - does not auto-resolve
+// extensionless relative imports.
+import { resolveCategoryKey } from '../data/categoryKeys.js';
 
 // id prefix convention already used in each src/data/categories/*.json file.
 export const ID_PREFIXES = {

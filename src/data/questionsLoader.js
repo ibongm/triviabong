@@ -6,7 +6,7 @@ import znanost from './categories/znanost_i_tehnologija.json';
 import opca_znanje from './categories/opca_znanje.json';
 import pop_kultura from './categories/pop_kultura.json';
 import knjizevnost from './categories/knjizevnost_i_umjetnost.json';
-import { resolveCategoryKey } from './categoryKeys';
+import { resolveCategoryKey } from './categoryKeys.js';
 
 // Primary category storage mapping
 const categoryPacks = {
