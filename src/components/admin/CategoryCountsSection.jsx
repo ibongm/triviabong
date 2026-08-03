@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { getAllCategories, getRawCategoryQuestions, getAllQuestions } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
+import AdminSection from './shared/AdminSection';
 
 export default function CategoryCountsSection() {
     const categoryOptions = useMemo(() => getAllCategories(), []);
@@ -18,10 +19,7 @@ export default function CategoryCountsSection() {
     const aggregateTotal = useMemo(() => getAllQuestions().length, []);
 
     return (
-        <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-            <h2 className="text-lg font-semibold text-amber-400 mb-4 flex items-center gap-2">
-                <span>📊</span> Broj Pitanja po Kategoriji
-            </h2>
+        <AdminSection icon="📊" title="Broj Pitanja po Kategoriji">
             <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-sm">
                     <thead>
@@ -54,6 +52,6 @@ export default function CategoryCountsSection() {
             <p className="text-slate-600 text-xs italic mt-2">
                 Opće znanje vuče pitanja iz svih kategorija (uključujući vlastita) - taj zbroj je prikazan posebno iznad.
             </p>
-        </div>
+        </AdminSection>
     );
 }

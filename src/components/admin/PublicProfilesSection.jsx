@@ -5,6 +5,8 @@ import {
     clearAllPublicProfiles,
     backfillPublicProfiles
 } from '../../services/firebase';
+import AdminSection from './shared/AdminSection';
+import AdminMessage from './shared/AdminMessage';
 
 export default function PublicProfilesSection() {
     const [ppProfiles, setPpProfiles] = useState([]);
@@ -92,11 +94,11 @@ export default function PublicProfilesSection() {
     };
 
     return (
-        <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-            <div className="flex items-center justify-between mb-1">
-                <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
-                    <span>🥇</span> Upravljaj Javnim Profilima
-                </h2>
+        <AdminSection
+            icon="🥇"
+            title="Upravljaj Javnim Profilima"
+            description={'Podaci koji hrane Rekordi ljestvice (razina, niz, trofeji, dani zaredom). "Popuni sve profile" jednokratno kreira/ažurira profile za sve registrirane igrače na temelju njihovih trenutnih podataka (korisno za igrače koji se nisu ponovno prijavili otkad je ova značajka dodana). Brisanje ovdje uklanja igrača sa svih Rekordi ljestvica, ali ne dira njegov račun.'}
+            action={
                 <div className="flex gap-2">
                     <button
                         type="button"
@@ -115,16 +117,9 @@ export default function PublicProfilesSection() {
                         Obriši sve profile
                     </button>
                 </div>
-            </div>
-            <p className="text-slate-400 text-sm mb-4">
-                Podaci koji hrane Rekordi ljestvice (razina, niz, trofeji, dani zaredom). "Popuni sve profile" jednokratno kreira/ažurira profile za sve registrirane igrače na temelju njihovih trenutnih podataka (korisno za igrače koji se nisu ponovno prijavili otkad je ova značajka dodana). Brisanje ovdje uklanja igrača sa svih Rekordi ljestvica, ali ne dira njegov račun.
-            </p>
-
-            {ppMessage && (
-                <div className={`text-sm rounded-lg p-3 mb-4 ${ppMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
-                    {ppMessage.text}
-                </div>
-            )}
+            }
+        >
+            <AdminMessage message={ppMessage} />
 
             {ppLoading ? (
                 <p className="text-slate-400 text-sm">Učitavanje...</p>
@@ -167,6 +162,6 @@ export default function PublicProfilesSection() {
                     </table>
                 </div>
             )}
-        </div>
+        </AdminSection>
     );
 }

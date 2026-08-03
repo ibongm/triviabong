@@ -1,13 +1,13 @@
 import { useState, useMemo } from 'react';
-import { auth } from '../../services/firebase';
-import { getAllCategories, getRawCategoryQuestions } from '../../data/questionsLoader';
-import { CATEGORY_META } from '../../data/categoryMeta';
+import { getRawCategoryQuestions } from '../../data/questionsLoader';
+import AdminSection from './shared/AdminSection';
+import AdminMessage from './shared/AdminMessage';
+import CategorySelect from './shared/CategorySelect';
+import { postQuestionsApi } from './shared/questionsApi';
 
 const EMPTY_QUESTION_FORM = { question: '', correct_answer: '', incorrect_answers: ['', '', ''] };
 
 export default function ManageQuestionsSection() {
-    const categoryOptions = useMemo(() => getAllCategories(), []);
-
     const [manageCategory, setManageCategory] = useState('');
     const [manageSearch, setManageSearch] = useState('');
     // ids removed/edited this session but not yet reflected in the bundled
@@ -64,25 +64,18 @@ export default function ManageQuestionsSection() {
 
         setIsManageBusy(true);
         setManageMessage(null);
-        try {
-            const idToken = await auth.currentUser.getIdToken();
-            const res = await fetch('/api/questions', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${idToken}` },
-                body: JSON.stringify({ action: 'delete', category: manageCategory, id: q.id }),
-            });
-            const data = await res.json();
-            if (!res.ok) {
-                setManageMessage({ type: 'error', text: data.error || 'Brisanje nije uspjelo.' });
-            } else {
-                setManageDeletedIds((prev) => new Set(prev).add(q.id));
-                setManageMessage({ type: 'success', text: `Pitanje ${q.id} obrisano.`, commitUrl: data.commitUrl });
-            }
-        } catch {
-            setManageMessage({ type: 'error', text: 'Greška u mreži prilikom brisanja.' });
-        } finally {
-            setIsManageBusy(false);
+
+        const { ok, data, error } = await postQuestionsApi(
+            { action: 'delete', category: manageCategory, id: q.id },
+            'Greška u mreži prilikom brisanja.'
+        );
+        if (!ok) {
+            setManageMessage({ type: 'error', text: error || 'Brisanje nije uspjelo.' });
+        } else {
+            setManageDeletedIds((prev) => new Set(prev).add(q.id));
+            setManageMessage({ type: 'success', text: `Pitanje ${q.id} obrisano.`, commitUrl: data.commitUrl });
         }
+        setIsManageBusy(false);
     };
 
     const handleManageEditSubmit = async (e) => {
@@ -91,51 +84,29 @@ export default function ManageQuestionsSection() {
 
         setIsManageBusy(true);
         setManageMessage(null);
-        try {
-            const idToken = await auth.currentUser.getIdToken();
-            const res = await fetch('/api/questions', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${idToken}` },
-                body: JSON.stringify({ action: 'edit', category: manageCategory, id: manageEditingId, question: manageEditForm }),
-            });
-            const data = await res.json();
-            if (!res.ok) {
-                setManageMessage({ type: 'error', text: data.error || 'Uređivanje nije uspjelo.' });
-            } else {
-                setManageEdits((prev) => ({ ...prev, [manageEditingId]: manageEditForm }));
-                setManageMessage({ type: 'success', text: `Pitanje ${manageEditingId} uređeno.`, commitUrl: data.commitUrl });
-                setManageEditingId(null);
-            }
-        } catch {
-            setManageMessage({ type: 'error', text: 'Greška u mreži prilikom uređivanja.' });
-        } finally {
-            setIsManageBusy(false);
+
+        const { ok, data, error } = await postQuestionsApi(
+            { action: 'edit', category: manageCategory, id: manageEditingId, question: manageEditForm },
+            'Greška u mreži prilikom uređivanja.'
+        );
+        if (!ok) {
+            setManageMessage({ type: 'error', text: error || 'Uređivanje nije uspjelo.' });
+        } else {
+            setManageEdits((prev) => ({ ...prev, [manageEditingId]: manageEditForm }));
+            setManageMessage({ type: 'success', text: `Pitanje ${manageEditingId} uređeno.`, commitUrl: data.commitUrl });
+            setManageEditingId(null);
         }
+        setIsManageBusy(false);
     };
 
     return (
-        <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-            <h2 className="text-lg font-semibold text-amber-400 mb-1 flex items-center gap-2">
-                <span>🔍</span> Upravljaj Pitanjima
-            </h2>
-            <p className="text-slate-400 text-sm mb-4">
-                Pronađite pitanje po kategoriji i tekstu/ID-u, pa ga uredite ili obrišite.
-            </p>
-
+        <AdminSection
+            icon="🔍"
+            title="Upravljaj Pitanjima"
+            description="Pronađite pitanje po kategoriji i tekstu/ID-u, pa ga uredite ili obrišite."
+        >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-                <div>
-                    <label className="block text-slate-300 text-xs mb-1">Kategorija</label>
-                    <select
-                        value={manageCategory}
-                        onChange={(e) => handleManageCategoryChange(e.target.value)}
-                        className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm"
-                    >
-                        <option value="">-- Odaberite kategoriju --</option>
-                        {categoryOptions.map((key) => (
-                            <option key={key} value={key}>{CATEGORY_META[key]?.label || key}</option>
-                        ))}
-                    </select>
-                </div>
+                <CategorySelect value={manageCategory} onChange={handleManageCategoryChange} />
                 <div>
                     <label className="block text-slate-300 text-xs mb-1">Pretraga (tekst ili ID)</label>
                     <input
@@ -149,19 +120,7 @@ export default function ManageQuestionsSection() {
                 </div>
             </div>
 
-            {manageMessage && (
-                <div className={`text-sm rounded-lg p-3 mb-4 space-y-1 ${manageMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
-                    <p>{manageMessage.text}</p>
-                    {manageMessage.commitUrl && (
-                        <p>
-                            <a href={manageMessage.commitUrl} target="_blank" rel="noreferrer" className="underline">
-                                Pogledaj commit na GitHubu
-                            </a>
-                            {' '}- stranica će se ponovno objaviti za ~1-2 minute.
-                        </p>
-                    )}
-                </div>
-            )}
+            <AdminMessage message={manageMessage} />
 
             {manageCategory && (
                 <>
@@ -259,6 +218,6 @@ export default function ManageQuestionsSection() {
                     </div>
                 </>
             )}
-        </div>
+        </AdminSection>
     );
 }

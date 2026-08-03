@@ -1,16 +1,16 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import {
     getAllScoresForCategory,
     deleteScoreFromFirestore,
     clearLeaderboardForCategory,
     recomputeFastestPerfectRecord
 } from '../../services/firebase';
-import { getAllCategories } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
+import AdminSection from './shared/AdminSection';
+import AdminMessage from './shared/AdminMessage';
+import CategorySelect from './shared/CategorySelect';
 
 export default function LeaderboardsSection() {
-    const categoryOptions = useMemo(() => getAllCategories(), []);
-
     const [lbCategory, setLbCategory] = useState('');
     const [lbScores, setLbScores] = useState([]);
     const [lbLoading, setLbLoading] = useState(false);
@@ -85,11 +85,11 @@ export default function LeaderboardsSection() {
     };
 
     return (
-        <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-            <div className="flex items-center justify-between mb-1">
-                <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
-                    <span>🏆</span> Upravljaj Ljestvicama
-                </h2>
+        <AdminSection
+            icon="🏆"
+            title="Upravljaj Ljestvicama"
+            description="Pregledajte i brišite rezultate na ljestvici po kategoriji - uključujući sve rezultate, ne samo top 10 prikazan igračima."
+            action={
                 <button
                     type="button"
                     onClick={handleRecomputeFastestPerfect}
@@ -99,31 +99,16 @@ export default function LeaderboardsSection() {
                 >
                     Rekonstruiraj rekorde
                 </button>
-            </div>
-            <p className="text-slate-400 text-sm mb-4">
-                Pregledajte i brišite rezultate na ljestvici po kategoriji - uključujući sve rezultate, ne samo top 10 prikazan igračima.
-            </p>
-
-            {rbMessage && (
-                <div className={`text-sm rounded-lg p-3 mb-4 ${rbMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
-                    {rbMessage.text}
-                </div>
-            )}
+            }
+        >
+            <AdminMessage message={rbMessage} />
 
             <div className="flex flex-wrap items-end gap-3 mb-4">
-                <div className="flex-1 min-w-[200px]">
-                    <label className="block text-slate-300 text-xs mb-1">Kategorija</label>
-                    <select
-                        value={lbCategory}
-                        onChange={(e) => loadLeaderboard(e.target.value)}
-                        className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm"
-                    >
-                        <option value="">-- Odaberite kategoriju --</option>
-                        {categoryOptions.map((key) => (
-                            <option key={key} value={key}>{CATEGORY_META[key]?.label || key}</option>
-                        ))}
-                    </select>
-                </div>
+                <CategorySelect
+                    value={lbCategory}
+                    onChange={loadLeaderboard}
+                    className="flex-1 min-w-[200px]"
+                />
                 {lbCategory && (
                     <button
                         type="button"
@@ -136,11 +121,7 @@ export default function LeaderboardsSection() {
                 )}
             </div>
 
-            {lbMessage && (
-                <div className={`text-sm rounded-lg p-3 mb-4 ${lbMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
-                    {lbMessage.text}
-                </div>
-            )}
+            <AdminMessage message={lbMessage} />
 
             {lbLoading && <p className="text-slate-400 text-sm">Učitavanje...</p>}
 
@@ -183,6 +164,6 @@ export default function LeaderboardsSection() {
                     </div>
                 )
             )}
-        </div>
+        </AdminSection>
     );
 }

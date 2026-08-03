@@ -4,6 +4,7 @@ import {
     updateUserInFirestore,
     deleteUserFromFirestore
 } from '../../services/firebase';
+import AdminSection from './shared/AdminSection';
 import EditUserModal from './EditUserModal';
 
 export default function RegisteredUsersSection() {
@@ -72,11 +73,7 @@ export default function RegisteredUsersSection() {
 
     return (
         <>
-            <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-                <h2 className="text-lg font-semibold text-amber-400 mb-4 flex items-center gap-2">
-                    <span>👥</span> Registrirani Igrači
-                </h2>
-
+            <AdminSection icon="👥" title="Registrirani Igrači">
                 {loading ? (
                     <p className="text-slate-400 text-sm">Učitavanje popisa igrača...</p>
                 ) : users.length === 0 ? (
@@ -136,7 +133,7 @@ export default function RegisteredUsersSection() {
                         </table>
                     </div>
                 )}
-            </div>
+            </AdminSection>
 
             <EditUserModal
                 user={editingUser}

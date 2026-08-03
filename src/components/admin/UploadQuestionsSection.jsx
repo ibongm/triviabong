@@ -1,12 +1,11 @@
 import { useState, useMemo } from 'react';
-import { auth } from '../../services/firebase';
-import { getAllCategories, getRawCategoryQuestions } from '../../data/questionsLoader';
-import { CATEGORY_META } from '../../data/categoryMeta';
+import { getRawCategoryQuestions } from '../../data/questionsLoader';
 import { validateQuestions, detectCategory, mergeQuestions } from '../../utils/questionMerge';
+import AdminSection from './shared/AdminSection';
+import CategorySelect from './shared/CategorySelect';
+import { postQuestionsApi } from './shared/questionsApi';
 
 export default function UploadQuestionsSection() {
-    const categoryOptions = useMemo(() => getAllCategories(), []);
-
     const [uploadFileName, setUploadFileName] = useState('');
     const [parsedEntries, setParsedEntries] = useState(null); // raw parsed JSON array
     const [parseError, setParseError] = useState('');
@@ -68,38 +67,24 @@ export default function UploadQuestionsSection() {
         setUploadResult(null);
         setUploadError('');
 
-        try {
-            const idToken = await auth.currentUser.getIdToken();
-            const res = await fetch('/api/questions', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    Authorization: `Bearer ${idToken}`,
-                },
-                body: JSON.stringify({ category: uploadCategory, questions: parsedEntries }),
-            });
-            const data = await res.json();
-            if (!res.ok) {
-                setUploadError(data.error || 'Slanje nije uspjelo.');
-            } else {
-                setUploadResult(data);
-            }
-        } catch {
-            setUploadError('Greška u mreži prilikom slanja.');
-        } finally {
-            setIsUploading(false);
+        const { ok, data, error } = await postQuestionsApi(
+            { category: uploadCategory, questions: parsedEntries },
+            'Greška u mreži prilikom slanja.'
+        );
+        if (!ok) {
+            setUploadError(error || 'Slanje nije uspjelo.');
+        } else {
+            setUploadResult(data);
         }
+        setIsUploading(false);
     };
 
     return (
-        <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6 mb-8">
-            <h2 className="text-lg font-semibold text-amber-400 mb-1 flex items-center gap-2">
-                <span>📥</span> Dodaj Pitanja
-            </h2>
-            <p className="text-slate-400 text-sm mb-4">
-                Učitajte .json datoteku s pitanjima. Nova pitanja se dodaju uz postojeća - ništa se ne briše, a duplikati (isti tekst pitanja) se preskaču.
-            </p>
-
+        <AdminSection
+            icon="📥"
+            title="Dodaj Pitanja"
+            description="Učitajte .json datoteku s pitanjima. Nova pitanja se dodaju uz postojeća - ništa se ne briše, a duplikati (isti tekst pitanja) se preskaču."
+        >
             <form onSubmit={handleUploadSubmit} className="space-y-4">
                 <div>
                     <input
@@ -119,21 +104,7 @@ export default function UploadQuestionsSection() {
 
                 {parsedEntries && !parseError && (
                     <>
-                        <div>
-                            <label className="block text-slate-300 text-xs mb-1">Kategorija</label>
-                            <select
-                                value={uploadCategory}
-                                onChange={(e) => setUploadCategory(e.target.value)}
-                                className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm"
-                            >
-                                <option value="">-- Odaberite kategoriju --</option>
-                                {categoryOptions.map((key) => (
-                                    <option key={key} value={key}>
-                                        {CATEGORY_META[key]?.label || key}
-                                    </option>
-                                ))}
-                            </select>
-                        </div>
+                        <CategorySelect value={uploadCategory} onChange={setUploadCategory} />
 
                         <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 text-xs text-slate-300 space-y-1">
                             <p>Ispravnih pitanja: <span className="text-emerald-400 font-semibold">{validEntries.length}</span> / {Array.isArray(parsedEntries) ? parsedEntries.length : 0}</p>
@@ -186,6 +157,6 @@ export default function UploadQuestionsSection() {
                     </div>
                 )}
             </form>
-        </div>
+        </AdminSection>
     );
 }
