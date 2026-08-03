@@ -16,10 +16,11 @@
 export const MAX_DISPLAY_NAME_LENGTH = 20;
 
 // Mirrors the achievementCount ceiling in firestore.rules. Deliberately far
-// above the 30 achievements defined in src/constants/achievements.js - the
-// rule used to cap at exactly 30, leaving zero headroom, so adding a 31st
-// achievement would have silently broken every publicProfiles write (the
-// live sync too, not just the backfill). Keep the two in sync.
+// above the 31 achievements defined in src/constants/achievements.js - the
+// rule used to cap at exactly 30, leaving zero headroom, so adding the 31st
+// (the hidden "Svi smo mi Marija") would have silently broken every
+// publicProfiles write (the live sync too, not just the backfill) had the
+// ceiling not been raised first. Keep the two in sync.
 export const MAX_ACHIEVEMENT_COUNT = 100;
 
 /**

@@ -108,6 +108,46 @@ class SoundEngine {
         osc.start(now);
         osc.stop(now + 0.03);
     }
+
+    // Rising arpeggio for a secret achievement unlock. Deliberately longer
+    // and brighter than playCorrect - it plays under an overlay the player
+    // has to dismiss, not under a 1.2s answer transition. Unlike playCorrect
+    // (which shares one gain across two notes), each note gets its own gain
+    // node so it can have its own attack/decay envelope.
+    playFanfare() {
+        this.init();
+        const now = this.ctx.currentTime;
+
+        // D5 - F5 - A5 - D6, the last one held.
+        const notes = [
+            { freq: 587.33, at: 0 },
+            { freq: 698.46, at: 0.12 },
+            { freq: 880.00, at: 0.24 },
+            { freq: 1174.66, at: 0.36 },
+        ];
+
+        notes.forEach(({ freq, at }, i) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            const start = now + at;
+            const duration = i === notes.length - 1 ? 0.9 : 0.3;
+
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, start);
+
+            // exponentialRampToValueAtTime can't target or start from exactly
+            // 0, hence the near-zero endpoints rather than a clean silence.
+            gain.gain.setValueAtTime(0.0001, start);
+            gain.gain.exponentialRampToValueAtTime(0.18, start + 0.02);
+            gain.gain.exponentialRampToValueAtTime(0.001, start + duration);
+
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+
+            osc.start(start);
+            osc.stop(start + duration);
+        });
+    }
 }
 
 export const sound = new SoundEngine();

@@ -63,7 +63,13 @@ function clickFirstAnswer(page) {
   });
 }
 
-const browser = await chromium.launch({ args: ['--no-sandbox'] });
+// CHROMIUM_PATH lets a sandbox/CI image point at a browser Playwright
+// didn't download itself (version-mismatched bundles, offline runners).
+// Unset locally, where Playwright finds its own bundled Chromium.
+const browser = await chromium.launch({
+  args: ['--no-sandbox'],
+  ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
+});
 const ctx = await browser.newContext();
 const page = await ctx.newPage();
 page.on('console', (msg) => consoleLog.push(`[${msg.type()}] ${msg.text()}`));
@@ -136,7 +142,7 @@ try {
   console.log('=== save score ===');
   const nicknameInput = await page.$('input[placeholder="Unesite nadimak (Nickname)"]');
   if (nicknameInput) {
-    await nicknameInput.fill('QA-Test');
+    await nicknameInput.fill('BongBotTest');
     await clickText(page, 'Spremi Rezultat');
     await page.waitForTimeout(1500);
     await ss(page, 'score-saved');

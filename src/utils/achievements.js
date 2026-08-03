@@ -7,7 +7,7 @@
 // false there (numeric comparisons against `undefined` are NaN-comparisons
 // in JS, always false; `undefined === true` is also false), so there's no
 // need for per-predicate presence guards.
-import { ACHIEVEMENTS } from '../constants/achievements';
+import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from '../constants/achievements';
 import { CATEGORY_META } from '../data/categoryMeta';
 
 const MIN_ANSWERED_FOR_MASTERY = 10;
@@ -20,6 +20,34 @@ const isJackOfAllTrades = (stats) => Object.keys(CATEGORY_META).every((key) => {
     const cat = stats.categoryStats?.[key];
     return cat && cat.total >= MIN_ANSWERED_FOR_MASTERY && (cat.correct / cat.total) >= MASTERY_ACCURACY_THRESHOLD;
 });
+
+// Matches the stem, not the phrase "Harry Potter": Croatian declines the
+// surname (Pottera / Potteru / "o Harryju Potteru"), and the literal phrase
+// appears in only 1 of the 7 questions that mention him - matching the full
+// phrase would miss the other 6. Verified zero false positives across all
+// 3542 bundled questions. A future upload about a different Potter (Beatrix,
+// Dennis) would unlock it spuriously; tightening the match would break the
+// declension cases, and a spurious secret trophy is the cheaper failure.
+const HARRY_POTTER_NEEDLE = 'potter';
+
+/**
+ * True if a question mentions Harry Potter anywhere a player could read it.
+ * Tolerates both the bundled snake_case shape and the camelCase/options
+ * shapes App.jsx's getQuestionOptions/checkIsCorrect already accept, so it
+ * can't silently stop matching if a question ever reaches it pre-normalized.
+ */
+export const mentionsHarryPotter = (question) => {
+    if (!question) return false;
+    const parts = [
+        question.question,
+        question.correct_answer,
+        question.correctAnswer,
+        ...(Array.isArray(question.incorrect_answers) ? question.incorrect_answers : []),
+        ...(Array.isArray(question.incorrectAnswers) ? question.incorrectAnswers : []),
+        ...(Array.isArray(question.options) ? question.options : []),
+    ];
+    return parts.some((p) => typeof p === 'string' && p.toLowerCase().includes(HARRY_POTTER_NEEDLE));
+};
 
 export const ACHIEVEMENT_CHECKS = {
     first_blood: (stats) => stats.totalCorrect >= 1,
@@ -57,6 +85,12 @@ export const ACHIEVEMENT_CHECKS = {
     science_whiz: (stats) => categoryCorrect(stats, 'znanost') >= CATEGORY_MASTERY_CORRECT_THRESHOLD,
     pop_culture_icon: (stats) => categoryCorrect(stats, 'pop_kultura') >= CATEGORY_MASTERY_CORRECT_THRESHOLD,
     jack_of_all_trades: (stats) => isJackOfAllTrades(stats),
+
+    // Only ever true from handleAnswer's correct branch, which is the only
+    // caller that puts isPotterQuestion in ctx. App.jsx decides separately
+    // (before the state updater) whether to fire the celebration - the two
+    // conditions must stay equivalent, so change both together.
+    [SVI_SMO_MI_MARIJA_ID]: (stats, ctx) => ctx.isPotterQuestion === true,
 };
 
 /**
