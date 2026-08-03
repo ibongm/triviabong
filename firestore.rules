@@ -108,5 +108,26 @@ service cloud.firestore {
 
       allow delete: if isAdmin();
     }
+
+    // Maintained aggregate for the Rekordi "fastest perfect round" board -
+    // updated transactionally by maybeUpdateFastestPerfectRecord() whenever
+    // a perfect round beats the current top 10, and occasionally rebuilt
+    // wholesale by the admin "Rekonstruiraj rekorde" action. Reading this
+    // instead of scanning every leaderboards/{cat}/scores subcollection is
+    // what keeps Rekordi from being an unbounded read that grows with every
+    // score ever saved. Same trust ceiling as leaderboards/{cat}/scores
+    // above - client-reported, bounded, not authenticated - since this doc
+    // is only ever derived from that same data. Firestore rules can't loop
+    // over an arbitrary-length list to validate each entry, so this only
+    // bounds the doc's shape/size, not each entry's fields.
+    match /records/fastestPerfect {
+      allow read: if true;
+
+      allow create, update: if request.resource.data.keys().hasOnly(['entries', 'updatedAt'])
+        && request.resource.data.entries is list
+        && request.resource.data.entries.size() <= 10;
+
+      allow delete: if isAdmin();
+    }
   }
 }
