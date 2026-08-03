@@ -34,6 +34,18 @@ function clickText(page, text) {
   }, text);
 }
 
+// The header's Statistika access point is now the "Razina" pill (icon +
+// level number, no text label) rather than a labelled button - click by
+// its title attribute instead of visible text.
+function clickByTitle(page, title) {
+  return page.evaluate((t) => {
+    const el = [...document.querySelectorAll('button, a, [role="button"]')].find(e => e.title === t);
+    if (!el) return 'NOT_FOUND';
+    el.click();
+    return 'OK';
+  }, title);
+}
+
 function bodyText(page) {
   return page.evaluate(() => document.body.innerText);
 }
@@ -135,7 +147,7 @@ try {
   }
 
   console.log('=== stats modal shows level/XP progress ===');
-  await clickText(page, 'Statistika');
+  await clickByTitle(page, 'Razina i Statistika');
   await page.waitForTimeout(300);
   const statsText = await bodyText(page);
   step('stats modal shows level/XP progress', /Razina\s+\d+/.test(statsText) && statsText.includes('XP do sljedeće razine'));

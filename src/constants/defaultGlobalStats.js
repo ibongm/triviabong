@@ -14,4 +14,8 @@ export const DEFAULT_GLOBAL_STATS = {
   maxStreak: 0,
   totalScore: 0,
   categoryStats: {},
+  unlockedAchievements: {},
+  lastPlayedDate: null,
+  dayStreak: 0,
+  consecutivePerfectRounds: 0,
 };

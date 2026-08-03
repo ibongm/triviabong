@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, BarChart2
+  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
@@ -26,11 +26,13 @@ import {
   JOKER_COSTS
 } from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
+import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './utils/achievements';
 import { sound } from './utils/sound';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
 import GuideModal from './components/GuideModal';
+import AchievementsModal from './components/AchievementsModal';
 import {
   auth,
   logoutUser,
@@ -99,9 +101,18 @@ export default function App() {
   const [streak, setStreak] = useState(0);
   const [correctInRound, setCorrectInRound] = useState(0);
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_SECONDS);
+  // Round-scoped tracking for achievements only - reset in launchQuizRound.
+  const [roundStartTime, setRoundStartTime] = useState(null);
+  const [fastAnswerStreak, setFastAnswerStreak] = useState(0);
+  const [fiftyFiftyUsedOnIndex, setFiftyFiftyUsedOnIndex] = useState(null);
+  const [skipUsedAtLastLife, setSkipUsedAtLastLife] = useState(false);
   const [globalStats, setGlobalStats] = useState(() => {
     const saved = localStorage.getItem('triviabong_global_stats');
-    return saved ? JSON.parse(saved) : DEFAULT_GLOBAL_STATS;
+    // Merge over defaults (not replace) so a field added to DEFAULT_GLOBAL_STATS
+    // after a player already has saved stats shows up as its real default
+    // instead of undefined - otherwise every new stat field silently breaks
+    // for existing players until they happen to overwrite it.
+    return saved ? { ...DEFAULT_GLOBAL_STATS, ...JSON.parse(saved) } : DEFAULT_GLOBAL_STATS;
   });
 
   const [jokersUsed, setJokersUsed] = useState({ fiftyFifty: false, plusTen: false, skip: false });
@@ -120,6 +131,7 @@ export default function App() {
   const [showAdminPanel, setShowAdminPanel] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showGuideModal, setShowGuideModal] = useState(false);
+  const [showAchievementsModal, setShowAchievementsModal] = useState(false);
 
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
@@ -158,13 +170,18 @@ export default function App() {
       if (user) {
         if (user.displayName) setNickname(user.displayName);
         const cloudStats = await getUserStatsFromFirestore(user.uid);
-        setGlobalStats(prev => ({
-          ...prev,
-          // No existing doc means this account has never saved stats before -
-          // reset every field instead of inheriting whatever the previous
-          // account left in memory.
-          ...(cloudStats || DEFAULT_GLOBAL_STATS)
-        }));
+        setGlobalStats(prev => {
+          const next = {
+            ...prev,
+            // No existing doc means this account has never saved stats before -
+            // reset every field instead of inheriting whatever the previous
+            // account left in memory.
+            ...(cloudStats || DEFAULT_GLOBAL_STATS)
+          };
+          const newlyUnlocked = evaluateAchievements(next, { isSignedIn: true });
+          next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
+          return next;
+        });
         setStatsReadyForUid(user.uid);
       }
 
@@ -245,10 +262,23 @@ export default function App() {
     setScoreSaved(false);
     setGameState('PLAYING');
 
-    setGlobalStats(prev => ({
-      ...prev,
-      totalGames: (prev.totalGames || 0) + 1
-    }));
+    setRoundStartTime(Date.now());
+    setFastAnswerStreak(0);
+    setFiftyFiftyUsedOnIndex(null);
+    setSkipUsedAtLastLife(false);
+
+    setGlobalStats(prev => {
+      const { dayStreak, lastPlayedDate } = computeDayStreakUpdate(prev);
+      const next = {
+        ...prev,
+        totalGames: (prev.totalGames || 0) + 1,
+        dayStreak,
+        lastPlayedDate
+      };
+      const newlyUnlocked = evaluateAchievements(next, {});
+      next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
+      return next;
+    });
   };
 
   const updateCategoryStats = (isCorrect) => {
@@ -257,7 +287,7 @@ export default function App() {
       const prevCat = prev.categoryStats?.[cat] || { total: 0, correct: 0 };
       const newStreak = isCorrect ? streak + 1 : 0;
 
-      return {
+      const next = {
         ...prev,
         totalAnswered: (prev.totalAnswered || 0) + 1,
         totalCorrect: (prev.totalCorrect || 0) + (isCorrect ? 1 : 0),
@@ -271,6 +301,12 @@ export default function App() {
           }
         }
       };
+      // Only cumulative/category-total achievements are checkable here - the
+      // rest need round/answer-scoped context this function doesn't have,
+      // and get evaluated at their own checkpoints instead.
+      const newlyUnlocked = evaluateAchievements(next, {});
+      next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
+      return next;
     });
   };
 
@@ -279,7 +315,16 @@ export default function App() {
   // timeouts, or skips) is only ever true from handleAnswer's own VICTORY
   // path; every other call site passes false, since GAMEOVER, a timeout, or
   // a skip each structurally rule out a perfect round.
-  const applyRoundEndRewards = (isPerfect) => {
+  //
+  // jokersUsedSnapshot/skipUsedAtLastLifeSnapshot are passed in explicitly
+  // rather than read from the jokersUsed/skipUsedAtLastLife state closures
+  // here, because useSkip's own VICTORY call site calls this in the same
+  // tick it also calls setJokersUsed/setSkipUsedAtLastLife - React state
+  // updates aren't visible to a closure until the next render, so reading
+  // the state variables directly at that one call site would see stale
+  // pre-update values. Every other call site can safely pass the state
+  // variables straight through, since they weren't just mutated this tick.
+  const applyRoundEndRewards = (isPerfect, { isVictory = false, finalScore, jokersUsedSnapshot, skipUsedAtLastLifeSnapshot } = {}) => {
     setGlobalStats(prev => {
       const newXp = prev.xp + (isPerfect ? PERFECT_ROUND_XP_BONUS : 0);
       const prevLevel = prev.level || 1;
@@ -290,12 +335,27 @@ export default function App() {
         + (isPerfect ? COIN_PERFECT_ROUND_BONUS : 0)
         + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
 
-      return {
+      const next = {
         ...prev,
         xp: newXp,
         level: newLevel,
-        coins: prev.coins + coinsEarned
+        coins: prev.coins + coinsEarned,
+        consecutivePerfectRounds: isPerfect ? (prev.consecutivePerfectRounds || 0) + 1 : 0
       };
+
+      const jokers = jokersUsedSnapshot || { fiftyFifty: false, plusTen: false, skip: false };
+      const ctx = {
+        isPerfect,
+        finalScore,
+        hour: new Date().getHours(),
+        isVictory,
+        noJokersUsed: !jokers.fiftyFifty && !jokers.plusTen && !jokers.skip,
+        skipUsedAtLastLife: skipUsedAtLastLifeSnapshot,
+        roundElapsedMs: roundStartTime ? Date.now() - roundStartTime : undefined
+      };
+      const newlyUnlocked = evaluateAchievements(next, ctx);
+      next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
+      return next;
     });
   };
 
@@ -309,6 +369,7 @@ export default function App() {
     updateCategoryStats(correct);
 
     let newCorrectInRound = correctInRound;
+    let newScore = score;
 
     if (correct) {
       sound.playCorrect();
@@ -316,12 +377,23 @@ export default function App() {
       const streakMultiplier = 1 + streak * STREAK_MULTIPLIER_STEP;
       const earned = Math.round((BASE_SCORE + speedBonus) * streakMultiplier);
 
-      setScore(s => s + earned);
+      newScore = score + earned;
+      setScore(newScore);
       setStreak(s => s + 1);
       newCorrectInRound = correctInRound + 1;
       setCorrectInRound(newCorrectInRound);
 
       const newStreak = streak + 1;
+      // A fast answer (<3s elapsed, i.e. >17s left on the 20s clock) extends
+      // the achievement run; anything slower breaks it - for Sonic Speed.
+      const newFastAnswerStreak = timeLeft > 17 ? fastAnswerStreak + 1 : 0;
+      setFastAnswerStreak(newFastAnswerStreak);
+
+      const isLastQuestion = currentIndex === questions.length - 1;
+      const isLivingDangerously = isLastQuestion
+        && jokersUsed.fiftyFifty && jokersUsed.plusTen && jokersUsed.skip;
+      const isLifeSaverHit = fiftyFiftyUsedOnIndex === currentIndex;
+
       setGlobalStats(prev => {
         const newXp = prev.xp + XP_PER_CORRECT_ANSWER;
         const prevLevel = prev.level || 1;
@@ -334,21 +406,37 @@ export default function App() {
         const coinsEarned = (newStreak % COIN_STREAK_BONUS_INTERVAL === 0 ? COIN_STREAK_BONUS_AMOUNT : 0)
           + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
 
-        return {
+        const next = {
           ...prev,
           xp: newXp,
           level: newLevel,
           coins: prev.coins + coinsEarned
         };
+
+        const ctx = {
+          timeLeft,
+          newStreak,
+          fastAnswerStreak: newFastAnswerStreak,
+          isLifeSaverHit,
+          isLivingDangerously
+        };
+        const newlyUnlocked = evaluateAchievements(next, ctx);
+        next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
+        return next;
       });
     } else {
       sound.playWrong();
       setStreak(0);
+      setFastAnswerStreak(0);
       const newLives = lives - 1;
       setLives(newLives);
 
       if (newLives <= 0) {
-        applyRoundEndRewards(false);
+        applyRoundEndRewards(false, {
+          isVictory: false,
+          jokersUsedSnapshot: jokersUsed,
+          skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
+        });
         setTimeout(() => setGameState('GAMEOVER'), 1000);
         return;
       }
@@ -364,7 +452,12 @@ export default function App() {
       } else {
         sound.playCorrect();
         confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
-        applyRoundEndRewards(newCorrectInRound === QUESTIONS_PER_ROUND);
+        applyRoundEndRewards(newCorrectInRound === QUESTIONS_PER_ROUND, {
+          isVictory: true,
+          finalScore: newScore,
+          jokersUsedSnapshot: jokersUsed,
+          skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
+        });
         setGameState('VICTORY');
       }
     }, 1200);
@@ -374,12 +467,17 @@ export default function App() {
     sound.playWrong();
     updateCategoryStats(false);
     setStreak(0);
+    setFastAnswerStreak(0);
     const newLives = lives - 1;
     setLives(newLives);
     setSelectedOption('TIMEOUT');
 
     if (newLives <= 0) {
-      applyRoundEndRewards(false);
+      applyRoundEndRewards(false, {
+        isVictory: false,
+        jokersUsedSnapshot: jokersUsed,
+        skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
+      });
       setTimeout(() => setGameState('GAMEOVER'), 1000);
       return;
     }
@@ -391,10 +489,31 @@ export default function App() {
         setCurrentIndex(c => c + 1);
         setTimeLeft(QUESTION_TIME_SECONDS);
       } else {
-        applyRoundEndRewards(false);
+        applyRoundEndRewards(false, {
+          isVictory: true,
+          finalScore: score,
+          jokersUsedSnapshot: jokersUsed,
+          skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
+        });
         setGameState('VICTORY');
       }
     }, 1200);
+  };
+
+  // Checks/merges the Tactician achievement (all 3 jokers used in one round)
+  // right when the state transitions to "all true" - jokersUsedAfter must be
+  // the freshly-computed object, not the jokersUsed state variable, since
+  // every caller here calls this in the same tick it also calls
+  // setJokersUsed (stale-closure trap otherwise).
+  const checkTacticianOnJokerUse = (jokersUsedAfter) => {
+    setGlobalStats(prev => {
+      const ctx = {
+        allJokersUsedThisRound: jokersUsedAfter.fiftyFifty && jokersUsedAfter.plusTen && jokersUsedAfter.skip
+      };
+      const newlyUnlocked = evaluateAchievements(prev, ctx);
+      if (newlyUnlocked.length === 0) return prev;
+      return { ...prev, unlockedAchievements: mergeUnlockedAchievements(prev, newlyUnlocked) };
+    });
   };
 
   const useFiftyFifty = () => {
@@ -407,23 +526,33 @@ export default function App() {
     const toHide = shuffleArray(incorrects).slice(0, 2);
 
     setHiddenOptions(toHide);
-    setJokersUsed(j => ({ ...j, fiftyFifty: true }));
+    const newJokersUsed = { ...jokersUsed, fiftyFifty: true };
+    setJokersUsed(newJokersUsed);
+    setFiftyFiftyUsedOnIndex(currentIndex);
     setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.fiftyFifty }));
+    checkTacticianOnJokerUse(newJokersUsed);
   };
 
   const usePlusTen = () => {
     if (jokersUsed.plusTen || globalStats.coins < JOKER_COSTS.plusTen) return;
     sound.playClick();
     setTimeLeft(t => t + PLUS_TEN_SECONDS);
-    setJokersUsed(j => ({ ...j, plusTen: true }));
+    const newJokersUsed = { ...jokersUsed, plusTen: true };
+    setJokersUsed(newJokersUsed);
     setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.plusTen }));
+    checkTacticianOnJokerUse(newJokersUsed);
   };
 
   const useSkip = () => {
     if (jokersUsed.skip || globalStats.coins < JOKER_COSTS.skip) return;
     sound.playClick();
-    setJokersUsed(j => ({ ...j, skip: true }));
+    const newJokersUsed = { ...jokersUsed, skip: true };
+    const isLastLifeSkip = lives === 1;
+    setJokersUsed(newJokersUsed);
+    if (isLastLifeSkip) setSkipUsedAtLastLife(true);
     setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.skip }));
+    checkTacticianOnJokerUse(newJokersUsed);
+    setFastAnswerStreak(0);
 
     setHiddenOptions([]);
     setSelectedOption(null);
@@ -431,7 +560,12 @@ export default function App() {
       setCurrentIndex(c => c + 1);
       setTimeLeft(QUESTION_TIME_SECONDS);
     } else {
-      applyRoundEndRewards(false);
+      applyRoundEndRewards(false, {
+        isVictory: true,
+        finalScore: score,
+        jokersUsedSnapshot: newJokersUsed,
+        skipUsedAtLastLifeSnapshot: isLastLifeSkip || skipUsedAtLastLife
+      });
       setGameState('VICTORY');
     }
   };
@@ -490,9 +624,29 @@ export default function App() {
         </div>
 
         <div className="flex items-center gap-2.5">
-          <div className="flex items-center gap-1.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400">
-            <Coins className="w-4 h-4 text-amber-400" />
-            <span>{globalStats.coins}</span>
+          <div className="flex items-center gap-1">
+            <button
+              onClick={() => { sound.playClick(); setShowStatsModal(true); }}
+              className="flex items-center gap-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors"
+              title="Razina i Statistika"
+            >
+              <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
+              <span>{globalStats.level || 1}</span>
+            </button>
+
+            <div className="flex items-center gap-1.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400">
+              <Coins className="w-4 h-4 text-amber-400" />
+              <span>{globalStats.coins}</span>
+            </div>
+
+            <button
+              onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
+              className="flex items-center gap-1.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors"
+              title="Trofeji"
+            >
+              <Trophy className="w-4 h-4 text-amber-400" />
+              <span>{Object.keys(globalStats.unlockedAchievements || {}).length}</span>
+            </button>
           </div>
 
           <button
@@ -502,15 +656,6 @@ export default function App() {
           >
             <HelpCircle className="w-4 h-4 text-amber-400" />
             <span className="hidden sm:inline">Vodič</span>
-          </button>
-
-          <button
-            onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
-            title="Statistika i Profil"
-          >
-            <BarChart2 className="w-4 h-4 text-amber-400" />
-            <span className="hidden sm:inline">Statistika</span>
           </button>
 
           {isAdminUser && (
@@ -789,6 +934,13 @@ export default function App() {
       <StatsModal
         isOpen={showStatsModal}
         onClose={() => setShowStatsModal(false)}
+        stats={globalStats}
+      />
+
+      {/* Achievements Modal */}
+      <AchievementsModal
+        isOpen={showAchievementsModal}
+        onClose={() => setShowAchievementsModal(false)}
         stats={globalStats}
       />
 
