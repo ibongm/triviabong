@@ -28,6 +28,7 @@ import {
 import { computeLevelFromXp } from './utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './utils/achievements';
 import { sound } from './utils/sound';
+import { sanitizeDisplayName } from './utils/publicProfile';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
@@ -61,7 +62,9 @@ const isAdminPath = () => {
 // chars - without the slice, a long email local-part (no displayName set)
 // gets silently rejected by the rules ("Missing or insufficient permissions")
 // rather than truncated, so both writes that ever reach Firestore quietly fail.
-const getPlayerDisplayName = (user) => (user.displayName || user.email?.split('@')[0] || 'Igrač').slice(0, 20);
+// Delegates to the shared sanitizer so this and the publicProfiles write path
+// in services/firebase.js can't drift to different bounds.
+const getPlayerDisplayName = (user) => sanitizeDisplayName(user);
 
 const getCategoryDetails = (catKey) => {
   // Resolve through the same alias map getQuestionsByCategory uses, so a

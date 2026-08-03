@@ -27,6 +27,7 @@ import {
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
+import { buildPublicProfileFields } from "../utils/publicProfile";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -202,12 +203,7 @@ export const syncPublicProfile = async (uid, displayName, stats) => {
     try {
         const profileRef = doc(db, "publicProfiles", uid);
         await setDoc(profileRef, {
-            displayName: (displayName && displayName.trim()) || 'Igrač',
-            level: stats.level || 1,
-            xp: stats.xp || 0,
-            maxStreak: stats.maxStreak || 0,
-            dayStreak: stats.dayStreak || 0,
-            achievementCount: Object.keys(stats.unlockedAchievements || {}).length,
+            ...buildPublicProfileFields({ ...stats, displayName }),
             updatedAt: serverTimestamp()
         });
     } catch (error) {
@@ -359,25 +355,45 @@ export const clearAllPublicProfiles = async () => {
 export const backfillPublicProfiles = async () => {
     const users = await getAllRegisteredUsers();
     const BATCH_LIMIT = 500;
-    let count = 0;
+    const failed = [];
+    let succeeded = 0;
+
+    const profilePayload = (user) => ({
+        ...buildPublicProfileFields(user),
+        updatedAt: serverTimestamp()
+    });
+
     for (let i = 0; i < users.length; i += BATCH_LIMIT) {
-        const batch = writeBatch(db);
-        for (const user of users.slice(i, i + BATCH_LIMIT)) {
-            const profileRef = doc(db, "publicProfiles", user.uid);
-            batch.set(profileRef, {
-                displayName: (user.displayName && user.displayName.trim()) || 'Igrač',
-                level: user.level || 1,
-                xp: user.xp || 0,
-                maxStreak: user.maxStreak || 0,
-                dayStreak: user.dayStreak || 0,
-                achievementCount: Object.keys(user.unlockedAchievements || {}).length,
-                updatedAt: serverTimestamp()
-            });
-            count += 1;
+        const chunk = users.slice(i, i + BATCH_LIMIT);
+        try {
+            const batch = writeBatch(db);
+            for (const user of chunk) {
+                batch.set(doc(db, "publicProfiles", user.uid), profilePayload(user));
+            }
+            await batch.commit();
+            succeeded += chunk.length;
+        } catch (error) {
+            // A batch commit is atomic - rules are evaluated per write, but a
+            // single rejected doc rejects the entire commit. That's how one
+            // malformed account (historically a qa-*-<epoch> test user whose
+            // displayName exceeded the rules' 20-char cap) silently blocked
+            // the backfill for every real player. buildPublicProfileFields
+            // should now prevent that, but fall back to individual writes
+            // anyway so a future rule mismatch degrades to "skip the bad one"
+            // instead of "fail everyone", and so we can name the offenders.
+            console.error("Batch backfill rejected, retrying writes individually:", error);
+            for (const user of chunk) {
+                try {
+                    await setDoc(doc(db, "publicProfiles", user.uid), profilePayload(user));
+                    succeeded += 1;
+                } catch (userError) {
+                    console.error(`Backfill failed for ${user.uid}:`, userError);
+                    failed.push({ uid: user.uid, displayName: user.displayName || '' });
+                }
+            }
         }
-        await batch.commit();
     }
-    return count;
+    return { succeeded, failed };
 };
 
 /**

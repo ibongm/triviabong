@@ -424,9 +424,21 @@ export default function AdminPanel({ onClose }) {
         setPpBusy(true);
         setPpMessage(null);
         try {
-            const count = await backfillPublicProfiles();
+            const { succeeded, failed } = await backfillPublicProfiles();
             await loadPublicProfiles();
-            setPpMessage({ type: 'success', text: `Popunjeno ${count} profila.` });
+            if (failed.length === 0) {
+                setPpMessage({ type: 'success', text: `Popunjeno ${succeeded} profila.` });
+            } else {
+                // Name the accounts that were skipped - a generic failure
+                // message here used to leave no way to tell WHICH user was
+                // breaking the backfill.
+                const names = failed.slice(0, 3).map(f => f.displayName || f.uid).join(', ');
+                const more = failed.length > 3 ? ` i još ${failed.length - 3}` : '';
+                setPpMessage({
+                    type: 'error',
+                    text: `Popunjeno ${succeeded} profila, ${failed.length} preskočeno: ${names}${more}.`
+                });
+            }
         } catch (err) {
             console.error('Greška pri popunjavanju javnih profila:', err);
             setPpMessage({ type: 'error', text: 'Popunjavanje nije uspjelo.' });
