@@ -6,6 +6,7 @@ import znanost from './categories/znanost_i_tehnologija.json';
 import opca_znanje from './categories/opca_znanje.json';
 import pop_kultura from './categories/pop_kultura.json';
 import knjizevnost from './categories/knjizevnost_i_umjetnost.json';
+import { resolveCategoryKey } from './categoryKeys';
 
 // Primary category storage mapping
 const categoryPacks = {
@@ -19,41 +20,9 @@ const categoryPacks = {
     knjizevnost: Array.isArray(knjizevnost) ? knjizevnost : [],
 };
 
-// Internal Alias Lookup Map
-// Maps alternate keys, file names, or diacritic variations to the primary categoryPack key
-const CATEGORY_ALIASES = {
-    // Znanost variations
-    znanost: 'znanost',
-    znanost_i_tehnologija: 'znanost',
-    science: 'znanost',
-
-    // Književnost & Umjetnost variations
-    knjizevnost: 'knjizevnost',
-    knjizevnost_i_umjetnost: 'knjizevnost',
-    umjetnost: 'knjizevnost',
-    art: 'knjizevnost',
-
-    // Opće znanje variations
-    opca_znanje: 'opca_znanje',
-    opce_znanje: 'opca_znanje',
-    općeznanje: 'opca_znanje',
-    opceznanje: 'opca_znanje',
-    general_knowledge: 'opca_znanje',
-
-    // Pop kultura variations
-    pop_kultura: 'pop_kultura',
-    popkultura: 'pop_kultura',
-    pop_culture: 'pop_kultura',
-
-    // Standard direct mappings
-    geografija: 'geografija',
-    geography: 'geografija',
-    povijest: 'povijest',
-    history: 'povijest',
-    glazba: 'glazba',
-    music: 'glazba',
-    sport: 'sport',
-};
+// Opće znanje is an aggregate pool - it plays questions from every category
+// (including its own), so questions added anywhere enrich it automatically.
+const AGGREGATE_CATEGORIES = new Set(['opca_znanje']);
 
 /**
  * Resolves any category slug/alias and returns the matching question deck.
@@ -62,11 +31,11 @@ const CATEGORY_ALIASES = {
 export const getQuestionsByCategory = (categoryKey) => {
     if (!categoryKey) return [];
 
-    // Normalize input string (lowercase and trim spaces)
-    const normalizedKey = String(categoryKey).toLowerCase().trim();
+    const targetPackKey = resolveCategoryKey(categoryKey);
 
-    // Resolve alias to target pack key, defaulting to the raw normalized key if not explicitly aliased
-    const targetPackKey = CATEGORY_ALIASES[normalizedKey] || normalizedKey;
+    if (AGGREGATE_CATEGORIES.has(targetPackKey)) {
+        return getAllQuestions();
+    }
 
     return categoryPacks[targetPackKey] || [];
 };
@@ -76,6 +45,18 @@ export const getQuestionsByCategory = (categoryKey) => {
  */
 export const getAllCategories = () => {
     return Object.keys(categoryPacks);
+};
+
+/**
+ * Returns a category's own question pack, bypassing aggregate categories
+ * (e.g. Opće znanje). Gameplay should always use getQuestionsByCategory -
+ * this exists for tooling (the admin question-upload preview) that needs to
+ * know what's actually stored in a single category's file.
+ */
+export const getRawCategoryQuestions = (categoryKey) => {
+    if (!categoryKey) return [];
+    const targetPackKey = resolveCategoryKey(categoryKey);
+    return categoryPacks[targetPackKey] || [];
 };
 
 /**

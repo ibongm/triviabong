@@ -39,6 +39,10 @@ const getCategoryDetails = (catKey) => {
 
 const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
 
+// Time given per question, in seconds. Bumped from 15 to 20 during beta to
+// give testers more room to react or screenshot a bug before it auto-advances.
+const QUESTION_TIME_SECONDS = 20;
+
 const getQuestionOptions = (q) => {
   if (!q) return [];
   if (Array.isArray(q.options)) return q.options;
@@ -73,7 +77,7 @@ export default function App() {
   const [score, setScore] = useState(0);
   const [hp, setHp] = useState(100);
   const [streak, setStreak] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(15);
+  const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_SECONDS);
   const [globalStats, setGlobalStats] = useState(() => {
     const saved = localStorage.getItem('triviabong_global_stats');
     return saved ? JSON.parse(saved) : DEFAULT_GLOBAL_STATS;
@@ -211,7 +215,7 @@ export default function App() {
     setScore(0);
     setHp(100);
     setStreak(0);
-    setTimeLeft(15);
+    setTimeLeft(QUESTION_TIME_SECONDS);
     setJokersUsed({ fiftyFifty: false, plusTen: false, skip: false });
     setHiddenOptions([]);
     setSelectedOption(null);
@@ -299,7 +303,7 @@ export default function App() {
 
       if (currentIndex + 1 < questions.length) {
         setCurrentIndex(c => c + 1);
-        setTimeLeft(15);
+        setTimeLeft(QUESTION_TIME_SECONDS);
       } else {
         sound.playCorrect();
         confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
@@ -326,7 +330,7 @@ export default function App() {
       setHiddenOptions([]);
       if (currentIndex + 1 < questions.length) {
         setCurrentIndex(c => c + 1);
-        setTimeLeft(15);
+        setTimeLeft(QUESTION_TIME_SECONDS);
       } else {
         setGameState('VICTORY');
       }
@@ -365,7 +369,7 @@ export default function App() {
     setSelectedOption(null);
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex(c => c + 1);
-      setTimeLeft(15);
+      setTimeLeft(QUESTION_TIME_SECONDS);
     } else {
       setGameState('VICTORY');
     }
@@ -590,7 +594,10 @@ export default function App() {
 
             <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl space-y-6">
               <div className="flex justify-between items-center text-xs text-slate-400 font-bold">
-                <span className="uppercase tracking-wider">{getCategoryDetails(selectedCategory).label}</span>
+                {/* Opće znanje is an aggregate pool (see questionsLoader.js), so
+                    show each question's real source category rather than the
+                    generic "Opće znanje" label for every question. */}
+                <span className="uppercase tracking-wider">{getCategoryDetails(currentQ.category || selectedCategory).label}</span>
                 <span>{currentIndex + 1} / {questions.length}</span>
               </div>
 
