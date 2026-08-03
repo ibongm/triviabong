@@ -2,16 +2,24 @@
 // level/xp/coins) actually follow an account across devices/browsers.
 //
 // WARNING: like golden-path.mjs, this writes REAL data to the LIVE
-// production Firebase project (triviabong-web) - specifically, a throwaway
-// email/password Auth account plus its Firestore users/{uid} doc. Run this
+// production Firebase project (triviabong-web) - specifically the shared
+// BongBotTest Auth account plus its Firestore users/{uid} doc. Run this
 // manually/on-demand, not in default CI (see SKILL.md).
+//
+// One FIXED account is reused across runs rather than a fresh throwaway per
+// run: per-run accounts accumulated in production forever, and their
+// generated names (qa-sync-<13-digit epoch> = 21 chars) exceeded the 20-char
+// displayName cap in firestore.rules, which silently broke the admin panel's
+// "Popuni sve profile" backfill for every player. "BongBotTest" is 11 chars.
+// Stats accumulating across runs is fine - the assertions below compare
+// context A against context B within a single run, never absolute values.
 //
 // Usage: node cross-device-sync-check.mjs [url]
 import { chromium } from 'playwright';
 
 const URL = process.argv[2] || 'http://localhost:5173';
-const EMAIL = `qa-sync-${Date.now()}@example.com`;
-const PASSWORD = 'QaSyncCheck123!';
+const EMAIL = 'bongbottest@example.com';
+const PASSWORD = 'BongBotTest123!';
 
 function clickText(page, text) {
   return page.evaluate((t) => {
@@ -53,19 +61,39 @@ function step(label, ok) {
   if (!ok) failed = true;
 }
 
+// Signs in as the fixed BongBotTest account, creating it the first time this
+// ever runs against a given Firebase project. Login is attempted first
+// because after run #1 the account always exists - registering first would
+// fail with auth/email-already-in-use on every subsequent run.
+async function signIn(page, label) {
+  await clickText(page, 'Prijava');
+  await page.waitForSelector('input[type="email"]', { timeout: 10000 });
+  await page.fill('input[type="email"]', EMAIL);
+  await page.fill('input[type="password"]', PASSWORD);
+  await clickText(page, 'Prijavi se');
+
+  try {
+    await page.waitForSelector('input[type="email"]', { state: 'detached', timeout: 8000 });
+    console.log(`=== [${label}] logged in as existing ${EMAIL} ===`);
+    return 'logged-in';
+  } catch {
+    // Modal still open - assume the account doesn't exist yet and register.
+    console.log(`=== [${label}] login failed, registering ${EMAIL} ===`);
+    await clickText(page, 'Nemate račun? Registrirajte se');
+    await page.fill('input[type="email"]', EMAIL);
+    await page.fill('input[type="password"]', PASSWORD);
+    await clickText(page, 'Registriraj se');
+    await page.waitForSelector('input[type="email"]', { state: 'detached', timeout: 15000 });
+    return 'registered';
+  }
+}
+
 async function registerAndPlay(page) {
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
 
-  console.log(`=== [A] register ${EMAIL} ===`);
-  await clickText(page, 'Prijava');
-  await page.waitForSelector('input[type="email"]', { timeout: 10000 });
-  await clickText(page, 'Nemate račun? Registrirajte se');
-  await page.fill('input[type="email"]', EMAIL);
-  await page.fill('input[type="password"]', PASSWORD);
-  await clickText(page, 'Registriraj se');
-  await page.waitForSelector('input[type="email"]', { state: 'detached', timeout: 15000 });
-  step('registered and modal closed', true);
+  const how = await signIn(page, 'A');
+  step(`signed in (${how}) and modal closed`, true);
 
   console.log('=== [A] play a partial round ===');
   await clickText(page, 'Geografija');
@@ -94,12 +122,8 @@ async function loginAndCheck(page, expected) {
   console.log(`=== [B] fresh context, login as ${EMAIL} ===`);
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
-  await clickText(page, 'Prijava');
-  await page.waitForSelector('input[type="email"]', { timeout: 10000 });
-  await page.fill('input[type="email"]', EMAIL);
-  await page.fill('input[type="password"]', PASSWORD);
-  await clickText(page, 'Prijavi se');
-  await page.waitForSelector('input[type="email"]', { state: 'detached', timeout: 15000 });
+  // Context A guaranteed the account exists, so this is always a plain login.
+  await signIn(page, 'B');
   step('logged in on fresh context', true);
   await page.waitForTimeout(1000); // onAuthStateChanged's server fetch
 
@@ -110,7 +134,13 @@ async function loginAndCheck(page, expected) {
     remoteSnapshot.categoryAnswered === expected.categoryAnswered);
 }
 
-const browser = await chromium.launch({ args: ['--no-sandbox'] });
+// CHROMIUM_PATH lets a sandbox/CI image point at a browser Playwright
+// didn't download itself (version-mismatched bundles, offline runners).
+// Unset locally, where Playwright finds its own bundled Chromium.
+const browser = await chromium.launch({
+  args: ['--no-sandbox'],
+  ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
+});
 const contextA = await browser.newContext();
 const contextB = await browser.newContext(); // fresh cookie/localStorage jar - simulates a second device
 const pageA = await contextA.newPage();

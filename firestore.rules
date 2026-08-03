@@ -89,6 +89,13 @@ service cloud.firestore {
       // "backfill" action can populate this collection for existing players
       // who registered before it existed (their doc is otherwise only ever
       // created/updated by their own client, next time they sign back in).
+      //
+      // achievementCount's ceiling is deliberately well above the 30
+      // achievements in src/constants/achievements.js. It used to be exactly
+      // 30 - zero headroom - so defining a 31st achievement would have
+      // started rejecting every write here, live sync included, with nothing
+      // but a swallowed permission error to show for it. Mirrored by
+      // MAX_ACHIEVEMENT_COUNT in src/utils/publicProfile.js; keep in sync.
       allow create, update: if (isOwner(uid) || isAdmin())
         && request.resource.data.keys().hasOnly(['displayName', 'level', 'xp', 'maxStreak', 'dayStreak', 'achievementCount', 'updatedAt'])
         && request.resource.data.displayName is string
@@ -104,7 +111,7 @@ service cloud.firestore {
         && request.resource.data.dayStreak >= 0
         && request.resource.data.achievementCount is int
         && request.resource.data.achievementCount >= 0
-        && request.resource.data.achievementCount <= 30;
+        && request.resource.data.achievementCount <= 100;
 
       allow delete: if isAdmin();
     }

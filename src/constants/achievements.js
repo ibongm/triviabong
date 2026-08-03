@@ -4,8 +4,13 @@ import {
     Flame, TrendingUp, CalendarCheck, CalendarDays, Calendar,
     Star, Coins, Medal, Crown, ShieldCheck,
     LifeBuoy, Shield, AlertTriangle, Puzzle, Skull,
-    Globe, History, Atom, Sparkles, GraduationCap
+    Globe, History, Atom, Sparkles, GraduationCap, Wand2
 } from 'lucide-react';
+
+// Hidden achievements are absent from AchievementsModal entirely - row AND
+// "x / y" counter - until earned, then pinned above the tier list. Exported
+// because App.jsx needs the id to decide whether to fire the reveal.
+export const SVI_SMO_MI_MARIJA_ID = 'svi_smo_mi_marija';
 
 // Static catalog only - no logic here. Trigger conditions live in
 // src/utils/achievements.js (ACHIEVEMENT_CHECKS), keyed by the same ids, so
@@ -59,6 +64,13 @@ export const ACHIEVEMENTS = [
     { id: 'science_whiz', tier: 6, nameHr: 'Znanstvenik', descriptionHr: '50 točnih odgovora u kategoriji Znanost i Tehnologija.', icon: Atom },
     { id: 'pop_culture_icon', tier: 6, nameHr: 'Ikona pop kulture', descriptionHr: '50 točnih odgovora u kategoriji Pop kultura.', icon: Sparkles },
     { id: 'jack_of_all_trades', tier: 6, nameHr: 'Majstor svih zanata', descriptionHr: 'Ostvarite 80%+ točnosti u svakoj kategoriji.', icon: GraduationCap },
+
+    // Hidden. `tier: 0` matches none of the TIERS AchievementsModal renders,
+    // which is a second, independent guard on top of the `hidden` flag - it
+    // can't leak into a tier section even if that filter is ever changed.
+    // The description names the trigger openly because it's only ever shown
+    // after the achievement has already been earned.
+    { id: SVI_SMO_MI_MARIJA_ID, tier: 0, hidden: true, nameHr: 'Svi smo mi Marija', descriptionHr: 'Točno ste odgovorili na pitanje o Harryju Potteru.', icon: Wand2 },
 ];
 
 export const ACHIEVEMENT_TIER_LABELS = {
