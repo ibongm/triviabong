@@ -236,6 +236,53 @@ export const getFastestPerfectRounds = async (limitN = 10) => {
 };
 
 /**
+ * Fetches every publicProfiles entry (the public-safe Rekordi summary),
+ * for admin management - unlike getPublicProfileLeaderboard, not capped
+ * and not sorted by a specific ranking field.
+ */
+export const getAllPublicProfiles = async () => {
+    try {
+        const profilesRef = collection(db, "publicProfiles");
+        const q = query(profilesRef, orderBy("updatedAt", "desc"));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(docSnap => ({ uid: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error("Error fetching public profiles:", error);
+        return [];
+    }
+};
+
+/**
+ * Deletes a single publicProfiles entry (removes that player from every
+ * Rekordi ranking board - does not touch their actual account/users doc).
+ */
+export const deletePublicProfile = async (uid) => {
+    const profileRef = doc(db, "publicProfiles", uid);
+    await deleteDoc(profileRef);
+};
+
+/**
+ * Deletes every publicProfiles entry. Same batching approach as
+ * clearLeaderboardForCategory, since Firestore has no client-side
+ * "delete collection" operation. Returns how many were deleted.
+ */
+export const clearAllPublicProfiles = async () => {
+    const profilesRef = collection(db, "publicProfiles");
+    const querySnapshot = await getDocs(profilesRef);
+    const docs = querySnapshot.docs;
+
+    const BATCH_LIMIT = 500;
+    for (let i = 0; i < docs.length; i += BATCH_LIMIT) {
+        const batch = writeBatch(db);
+        for (const docSnap of docs.slice(i, i + BATCH_LIMIT)) {
+            batch.delete(docSnap.ref);
+        }
+        await batch.commit();
+    }
+    return docs.length;
+};
+
+/**
  * Fetches EVERY score for a category (not capped at 10 like
  * getLeaderboardFromFirestore, which is the gameplay-facing top-10 read),
  * including doc ids, for admin management.

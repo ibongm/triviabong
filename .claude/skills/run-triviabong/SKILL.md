@@ -118,8 +118,12 @@ also collects every browser console message and fails the run if any
   goes idle by Playwright's definition, so `networkidle` waits forever
   on any navigation *after* the page has done real Firestore work.
   Use `'domcontentloaded'` plus an explicit `waitForSelector`/poll
-  instead. The very first `page.goto` on a fresh page is usually fine
-  (Firestore isn't touched until something actually queries it).
+  instead. This now includes the very first `page.goto` too: the
+  LOBBY screen fetches the Rekordi ranking boards from Firestore on
+  mount (unconditionally, before any user interaction), so Firestore's
+  persistent connection is established immediately and `networkidle`
+  on the initial nav hangs the same way. `golden-path.mjs` uses
+  `domcontentloaded` for its initial goto for this reason.
 - **A brand-new client's first stats read after login can race a
   concurrent profile write** — see `CLAUDE.md`'s "Stats-read race"
   note and `firebase.js`'s `getUserStatsFromFirestore` comment.

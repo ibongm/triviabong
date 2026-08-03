@@ -77,7 +77,7 @@ function step(label, ok) {
 
 try {
   console.log(`=== nav to ${URL} ===`);
-  await page.goto(URL, { waitUntil: 'networkidle' });
+  await page.goto(URL, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
   await ss(page, 'lobby');
   step('lobby loaded', true);

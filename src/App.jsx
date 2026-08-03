@@ -34,6 +34,7 @@ import StatsModal from './components/StatsModal';
 import GuideModal from './components/GuideModal';
 import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
+import RekordiBoards from './components/RekordiBoards';
 import {
   auth,
   logoutUser,
@@ -41,7 +42,10 @@ import {
   syncUserStatsToFirestore,
   syncPublicProfile,
   saveScoreToFirestore,
-  getLeaderboardFromFirestore
+  getLeaderboardFromFirestore,
+  getPublicProfileLeaderboard,
+  getBestScoresAcrossCategories,
+  getFastestPerfectRounds
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
@@ -135,6 +139,11 @@ export default function App() {
   const [showGuideModal, setShowGuideModal] = useState(false);
   const [showAchievementsModal, setShowAchievementsModal] = useState(false);
   const [showRekordiModal, setShowRekordiModal] = useState(false);
+  // Fetched once (not re-fetched every lobby visit - getFastestPerfectRounds/
+  // getBestScoresAcrossCategories read every category's leaderboard, so
+  // refetching on every mount would be wasteful) and refreshed after a score
+  // save so a player's own new record shows up promptly.
+  const [rekordiData, setRekordiData] = useState(null);
 
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
@@ -214,6 +223,24 @@ export default function App() {
       syncPublicProfile(currentUser.uid, displayName, globalStats);
     }
   }, [globalStats, currentUser, statsReadyForUid]);
+
+  const refreshRekordiData = async () => {
+    const [level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak] = await Promise.all([
+      getPublicProfileLeaderboard('level', 10),
+      getBestScoresAcrossCategories(10),
+      getFastestPerfectRounds(10),
+      getPublicProfileLeaderboard('maxStreak', 10),
+      getPublicProfileLeaderboard('achievementCount', 10),
+      getPublicProfileLeaderboard('dayStreak', 10)
+    ]);
+    setRekordiData({ level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak });
+  };
+
+  useEffect(() => {
+    (async () => {
+      await refreshRekordiData();
+    })();
+  }, []);
 
   // Timer
   useEffect(() => {
@@ -595,6 +622,7 @@ export default function App() {
       await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
       setScoreSaved(true);
       sound.playClick();
+      refreshRekordiData();
     } finally {
       setIsSaving(false);
     }
@@ -753,6 +781,21 @@ export default function App() {
                   </button>
                 );
               })}
+            </div>
+
+            <div className="space-y-3 pt-4">
+              <div className="flex items-center justify-between">
+                <h2 className="text-sm font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+                  <Medal className="w-4 h-4 text-amber-400" /> Rekordi
+                </h2>
+                <button
+                  onClick={() => { sound.playClick(); setShowRekordiModal(true); }}
+                  className="text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors"
+                >
+                  Vidi sve →
+                </button>
+              </div>
+              <RekordiBoards data={rekordiData} limitPerBoard={3} compact />
             </div>
           </div>
         )}
@@ -973,6 +1016,7 @@ export default function App() {
       <RekordiModal
         isOpen={showRekordiModal}
         onClose={() => setShowRekordiModal(false)}
+        data={rekordiData}
       />
 
       {/* Guide Modal */}
