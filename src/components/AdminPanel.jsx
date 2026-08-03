@@ -9,6 +9,7 @@ import {
     getAllPublicProfiles,
     deletePublicProfile,
     clearAllPublicProfiles,
+    backfillPublicProfiles,
     auth
 } from '../services/firebase';
 import { getAllCategories, getRawCategoryQuestions, getAllQuestions } from '../data/questionsLoader';
@@ -391,6 +392,24 @@ export default function AdminPanel({ onClose }) {
         } catch (err) {
             console.error('Greška pri brisanju svih javnih profila:', err);
             setPpMessage({ type: 'error', text: 'Brisanje nije uspjelo.' });
+        } finally {
+            setPpBusy(false);
+        }
+    };
+
+    const handleBackfillPublicProfiles = async () => {
+        if (ppBusy) return;
+        if (!window.confirm('Popuniti javne profile za sve registrirane igrače na temelju njihovih trenutnih podataka? Ovo neće obrisati ništa, samo dodati/ažurirati profile.')) return;
+
+        setPpBusy(true);
+        setPpMessage(null);
+        try {
+            const count = await backfillPublicProfiles();
+            await loadPublicProfiles();
+            setPpMessage({ type: 'success', text: `Popunjeno ${count} profila.` });
+        } catch (err) {
+            console.error('Greška pri popunjavanju javnih profila:', err);
+            setPpMessage({ type: 'error', text: 'Popunjavanje nije uspjelo.' });
         } finally {
             setPpBusy(false);
         }
@@ -855,17 +874,27 @@ export default function AdminPanel({ onClose }) {
                     <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
                         <span>🥇</span> Upravljaj Javnim Profilima
                     </h2>
-                    <button
-                        type="button"
-                        onClick={handleClearAllPublicProfiles}
-                        disabled={ppBusy || ppLoading || ppProfiles.length === 0}
-                        className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
-                    >
-                        Obriši sve profile
-                    </button>
+                    <div className="flex gap-2">
+                        <button
+                            type="button"
+                            onClick={handleBackfillPublicProfiles}
+                            disabled={ppBusy || ppLoading}
+                            className="bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                        >
+                            Popuni sve profile
+                        </button>
+                        <button
+                            type="button"
+                            onClick={handleClearAllPublicProfiles}
+                            disabled={ppBusy || ppLoading || ppProfiles.length === 0}
+                            className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                        >
+                            Obriši sve profile
+                        </button>
+                    </div>
                 </div>
                 <p className="text-slate-400 text-sm mb-4">
-                    Podaci koji hrane Rekordi ljestvice (razina, niz, trofeji, dani zaredom). Brisanje ovdje uklanja igrača sa svih Rekordi ljestvica, ali ne dira njegov račun.
+                    Podaci koji hrane Rekordi ljestvice (razina, niz, trofeji, dani zaredom). "Popuni sve profile" jednokratno kreira/ažurira profile za sve registrirane igrače na temelju njihovih trenutnih podataka (korisno za igrače koji se nisu ponovno prijavili otkad je ova značajka dodana). Brisanje ovdje uklanja igrača sa svih Rekordi ljestvica, ali ne dira njegov račun.
                 </p>
 
                 {ppMessage && (

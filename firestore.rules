@@ -85,7 +85,11 @@ service cloud.firestore {
     match /publicProfiles/{uid} {
       allow read: if true;
 
-      allow create, update: if isOwner(uid)
+      // Admin can also write any uid's doc, specifically so the AdminPanel
+      // "backfill" action can populate this collection for existing players
+      // who registered before it existed (their doc is otherwise only ever
+      // created/updated by their own client, next time they sign back in).
+      allow create, update: if (isOwner(uid) || isAdmin())
         && request.resource.data.keys().hasOnly(['displayName', 'level', 'xp', 'maxStreak', 'dayStreak', 'achievementCount', 'updatedAt'])
         && request.resource.data.displayName is string
         && request.resource.data.displayName.size() > 0

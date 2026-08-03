@@ -694,15 +694,6 @@ export default function App() {
           </div>
 
           <button
-            onClick={() => { sound.playClick(); setShowRekordiModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
-            title="Rekordi"
-          >
-            <Medal className="w-4 h-4 text-amber-400" />
-            <span className="hidden sm:inline">Rekordi</span>
-          </button>
-
-          <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
             className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
             title="Kako Igrati"

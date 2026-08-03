@@ -283,6 +283,40 @@ export const clearAllPublicProfiles = async () => {
 };
 
 /**
+ * One-time admin backfill: creates/updates a publicProfiles doc for every
+ * existing users/{uid} doc, using whatever level/xp/streak/achievement data
+ * that account already has. Needed because publicProfiles didn't exist
+ * before the Rekordi feature shipped - an existing account otherwise only
+ * gets its own doc organically, the next time it signs back in and its
+ * stats re-sync (see syncPublicProfile's call site in App.jsx), so accounts
+ * that haven't logged in since are silently missing from every board. Relies
+ * on the admin-write allowance added to firestore.rules for publicProfiles.
+ */
+export const backfillPublicProfiles = async () => {
+    const users = await getAllRegisteredUsers();
+    const BATCH_LIMIT = 500;
+    let count = 0;
+    for (let i = 0; i < users.length; i += BATCH_LIMIT) {
+        const batch = writeBatch(db);
+        for (const user of users.slice(i, i + BATCH_LIMIT)) {
+            const profileRef = doc(db, "publicProfiles", user.uid);
+            batch.set(profileRef, {
+                displayName: (user.displayName && user.displayName.trim()) || 'Igrač',
+                level: user.level || 1,
+                xp: user.xp || 0,
+                maxStreak: user.maxStreak || 0,
+                dayStreak: user.dayStreak || 0,
+                achievementCount: Object.keys(user.unlockedAchievements || {}).length,
+                updatedAt: serverTimestamp()
+            });
+            count += 1;
+        }
+        await batch.commit();
+    }
+    return count;
+};
+
+/**
  * Fetches EVERY score for a category (not capped at 10 like
  * getLeaderboardFromFirestore, which is the gameplay-facing top-10 read),
  * including doc ids, for admin management.
