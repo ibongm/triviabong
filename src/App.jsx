@@ -17,9 +17,12 @@ import {
   SPEED_BONUS_PER_SECOND,
   STREAK_MULTIPLIER_STEP,
   XP_PER_CORRECT_ANSWER,
-  COIN_PER_CORRECT_ANSWER,
-  COIN_BONUS_STREAK_INTERVAL,
-  COIN_BONUS_AMOUNT,
+  PERFECT_ROUND_XP_BONUS,
+  COIN_STREAK_BONUS_INTERVAL,
+  COIN_STREAK_BONUS_AMOUNT,
+  COIN_PER_ROUND_COMPLETE,
+  COIN_PERFECT_ROUND_BONUS,
+  COIN_LEVEL_UP_BONUS,
   JOKER_COSTS
 } from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
@@ -94,6 +97,7 @@ export default function App() {
   const [score, setScore] = useState(0);
   const [lives, setLives] = useState(MAX_LIVES);
   const [streak, setStreak] = useState(0);
+  const [correctInRound, setCorrectInRound] = useState(0);
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_SECONDS);
   const [globalStats, setGlobalStats] = useState(() => {
     const saved = localStorage.getItem('triviabong_global_stats');
@@ -233,6 +237,7 @@ export default function App() {
     setScore(0);
     setLives(MAX_LIVES);
     setStreak(0);
+    setCorrectInRound(0);
     setTimeLeft(QUESTION_TIME_SECONDS);
     setJokersUsed({ fiftyFifty: false, plusTen: false, skip: false });
     setHiddenOptions([]);
@@ -269,6 +274,31 @@ export default function App() {
     });
   };
 
+  // Round-end coin/XP payout, called once from every place a round can end.
+  // isPerfect (all QUESTIONS_PER_ROUND answered correctly - no wrong answers,
+  // timeouts, or skips) is only ever true from handleAnswer's own VICTORY
+  // path; every other call site passes false, since GAMEOVER, a timeout, or
+  // a skip each structurally rule out a perfect round.
+  const applyRoundEndRewards = (isPerfect) => {
+    setGlobalStats(prev => {
+      const newXp = prev.xp + (isPerfect ? PERFECT_ROUND_XP_BONUS : 0);
+      const prevLevel = prev.level || 1;
+      const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
+      const leveledUp = newLevel > prevLevel;
+
+      const coinsEarned = COIN_PER_ROUND_COMPLETE
+        + (isPerfect ? COIN_PERFECT_ROUND_BONUS : 0)
+        + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
+
+      return {
+        ...prev,
+        xp: newXp,
+        level: newLevel,
+        coins: prev.coins + coinsEarned
+      };
+    });
+  };
+
   const handleAnswer = (option) => {
     if (selectedOption !== null || answerLocked) return;
     setSelectedOption(option);
@@ -278,6 +308,8 @@ export default function App() {
 
     updateCategoryStats(correct);
 
+    let newCorrectInRound = correctInRound;
+
     if (correct) {
       sound.playCorrect();
       const speedBonus = timeLeft * SPEED_BONUS_PER_SECOND;
@@ -286,17 +318,27 @@ export default function App() {
 
       setScore(s => s + earned);
       setStreak(s => s + 1);
+      newCorrectInRound = correctInRound + 1;
+      setCorrectInRound(newCorrectInRound);
 
+      const newStreak = streak + 1;
       setGlobalStats(prev => {
         const newXp = prev.xp + XP_PER_CORRECT_ANSWER;
+        const prevLevel = prev.level || 1;
+        // Only ever moves level up from gameplay, never down - preserves
+        // an admin's manual override (AdminPanel) until the player's own
+        // xp naturally earns a higher level.
+        const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
+        const leveledUp = newLevel > prevLevel;
+
+        const coinsEarned = (newStreak % COIN_STREAK_BONUS_INTERVAL === 0 ? COIN_STREAK_BONUS_AMOUNT : 0)
+          + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
+
         return {
           ...prev,
           xp: newXp,
-          // Only ever moves level up from gameplay, never down - preserves
-          // an admin's manual override (AdminPanel) until the player's own
-          // xp naturally earns a higher level.
-          level: Math.max(prev.level || 1, computeLevelFromXp(newXp)),
-          coins: prev.coins + (streak > 0 && streak % COIN_BONUS_STREAK_INTERVAL === 0 ? COIN_BONUS_AMOUNT : COIN_PER_CORRECT_ANSWER)
+          level: newLevel,
+          coins: prev.coins + coinsEarned
         };
       });
     } else {
@@ -306,6 +348,7 @@ export default function App() {
       setLives(newLives);
 
       if (newLives <= 0) {
+        applyRoundEndRewards(false);
         setTimeout(() => setGameState('GAMEOVER'), 1000);
         return;
       }
@@ -321,6 +364,7 @@ export default function App() {
       } else {
         sound.playCorrect();
         confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
+        applyRoundEndRewards(newCorrectInRound === QUESTIONS_PER_ROUND);
         setGameState('VICTORY');
       }
     }, 1200);
@@ -335,6 +379,7 @@ export default function App() {
     setSelectedOption('TIMEOUT');
 
     if (newLives <= 0) {
+      applyRoundEndRewards(false);
       setTimeout(() => setGameState('GAMEOVER'), 1000);
       return;
     }
@@ -346,6 +391,7 @@ export default function App() {
         setCurrentIndex(c => c + 1);
         setTimeLeft(QUESTION_TIME_SECONDS);
       } else {
+        applyRoundEndRewards(false);
         setGameState('VICTORY');
       }
     }, 1200);
@@ -385,6 +431,7 @@ export default function App() {
       setCurrentIndex(c => c + 1);
       setTimeLeft(QUESTION_TIME_SECONDS);
     } else {
+      applyRoundEndRewards(false);
       setGameState('VICTORY');
     }
   };

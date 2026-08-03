@@ -1,7 +1,7 @@
 import React from 'react';
 import { X, Trophy, Target, Award, Flame, Zap, BarChart2, Star } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
-import { XP_PER_LEVEL } from '../utils/leveling';
+import { xpForLevel } from '../utils/leveling';
 
 export default function StatsModal({ isOpen, onClose, stats }) {
     if (!isOpen) return null;
@@ -13,8 +13,15 @@ export default function StatsModal({ isOpen, onClose, stats }) {
 
     const level = stats?.level || 1;
     const xp = stats?.xp || 0;
-    const xpIntoLevel = xp % XP_PER_LEVEL;
-    const xpProgressPct = Math.round((xpIntoLevel / XP_PER_LEVEL) * 100);
+    // The leveling curve is tiered, not flat, so progress-within-a-level is
+    // measured against this level's own XP window rather than a flat modulo.
+    // Math.max(0, ...) guards an admin-overridden level whose stored xp
+    // hasn't caught up to that level's threshold yet.
+    const currentLevelXp = xpForLevel(level);
+    const nextLevelXp = xpForLevel(level + 1);
+    const xpIntoLevel = Math.max(0, xp - currentLevelXp);
+    const xpNeededForNext = nextLevelXp - currentLevelXp;
+    const xpProgressPct = xpNeededForNext > 0 ? Math.min(100, Math.round((xpIntoLevel / xpNeededForNext) * 100)) : 100;
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm">
@@ -46,7 +53,7 @@ export default function StatsModal({ isOpen, onClose, stats }) {
                             <Star className="w-4 h-4 text-amber-400 fill-amber-400" /> Razina {level}
                         </span>
                         <span className="text-xs font-bold text-slate-400">
-                            {xpIntoLevel} / {XP_PER_LEVEL} XP do sljedeće razine
+                            {xpIntoLevel} / {xpNeededForNext} XP do sljedeće razine
                         </span>
                     </div>
                     <div className="w-full h-2.5 bg-slate-900 rounded-full overflow-hidden border border-slate-800">

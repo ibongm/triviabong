@@ -8,12 +8,15 @@ import {
     SPEED_BONUS_PER_SECOND,
     STREAK_MULTIPLIER_STEP,
     XP_PER_CORRECT_ANSWER,
-    COIN_PER_CORRECT_ANSWER,
-    COIN_BONUS_STREAK_INTERVAL,
-    COIN_BONUS_AMOUNT,
+    PERFECT_ROUND_XP_BONUS,
+    COIN_STREAK_BONUS_INTERVAL,
+    COIN_STREAK_BONUS_AMOUNT,
+    COIN_PER_ROUND_COMPLETE,
+    COIN_PERFECT_ROUND_BONUS,
+    COIN_LEVEL_UP_BONUS,
     JOKER_COSTS
 } from '../constants/gameBalance';
-import { XP_PER_LEVEL } from '../utils/leveling';
+import { xpForLevel } from '../utils/leveling';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
 
 // All numbers below come from constants/gameBalance.js (and leveling.js /
@@ -79,14 +82,20 @@ export default function GuideModal({ isOpen, onClose }) {
                 </Section>
 
                 <Section icon={<Award className="w-4 h-4 text-amber-400" />} title="XP i Razine">
-                    <p>Svaki točan odgovor donosi <b className="text-white">+{XP_PER_CORRECT_ANSWER} XP</b>. Pogrešni odgovori i isticanje vremena ne donose XP.</p>
-                    <p>Za svaku razinu potrebno je <b className="text-white">{XP_PER_LEVEL} XP</b>. Razina se može popeti i usred runde, čim XP pređe sljedeći prag.</p>
+                    <p>Svaki točan odgovor donosi <b className="text-white">+{XP_PER_CORRECT_ANSWER} XP</b>. Savršena runda (svih {QUESTIONS_PER_ROUND} pitanja točno, bez preskakanja) donosi dodatnih <b className="text-white">+{PERFECT_ROUND_XP_BONUS} XP</b>.</p>
+                    <p>Svaka sljedeća razina traži sve više XP-a - a od 5. razine nadalje znatno više nego prije.</p>
+                    <p className="text-slate-500 italic">
+                        Razina 2: {xpForLevel(2)} XP, razina 5: {xpForLevel(5)} XP, razina 10: {xpForLevel(10)} XP.
+                    </p>
+                    <p>Razina se može popeti i usred runde, čim XP pređe sljedeći prag.</p>
                 </Section>
 
                 <Section icon={<Coins className="w-4 h-4 text-amber-400" />} title="Novčići">
                     <p>Novi igrači kreću s <b className="text-white">{DEFAULT_GLOBAL_STATS.coins}</b> novčića.</p>
-                    <p>Točan odgovor donosi <b className="text-white">+{COIN_PER_CORRECT_ANSWER}</b> novčića, a svaki <b className="text-white">{COIN_BONUS_STREAK_INTERVAL}.</b> uzastopni točan odgovor donosi <b className="text-white">+{COIN_BONUS_AMOUNT}</b> umjesto toga.</p>
-                    <p>Novčići se troše na jokere ispod.</p>
+                    <p>Završetak runde (pobjeda ili kraj igre) donosi <b className="text-white">+{COIN_PER_ROUND_COMPLETE}</b> novčić, a savršena runda (svih {QUESTIONS_PER_ROUND} točno) donosi dodatnih <b className="text-white">+{COIN_PERFECT_ROUND_BONUS}</b>.</p>
+                    <p>Svaki <b className="text-white">{COIN_STREAK_BONUS_INTERVAL}.</b> uzastopni točan odgovor donosi <b className="text-white">+{COIN_STREAK_BONUS_AMOUNT}</b> novčić.</p>
+                    <p>Prelazak na novu razinu donosi <b className="text-white">+{COIN_LEVEL_UP_BONUS}</b> novčića.</p>
+                    <p className="text-slate-500 italic">Novčići se troše na jokere ispod.</p>
                 </Section>
 
                 <Section icon={<Scissors className="w-4 h-4 text-amber-400" />} title="Jokeri">
