@@ -5,6 +5,7 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
+import { resolveCategoryKey } from './data/categoryKeys';
 import { CATEGORY_META } from './data/categoryMeta';
 import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
 import { computeLevelFromXp } from './utils/leveling';
@@ -30,9 +31,14 @@ const isAdminPath = () => {
 };
 
 const getCategoryDetails = (catKey) => {
-  const normalizedKey = (catKey || '').toLowerCase();
-  return CATEGORY_META[normalizedKey] || {
-    label: catKey ? catKey.replace('_', ' ') : 'Kategorija',
+  // Resolve through the same alias map getQuestionsByCategory uses, so a
+  // question's raw `category` field (which can be an alias spelling, e.g.
+  // legacy data using the filename-style "znanost_i_tehnologija" instead of
+  // the canonical pack key "znanost") still finds its CATEGORY_META entry
+  // instead of falling through to the raw-string fallback below.
+  const resolvedKey = resolveCategoryKey(catKey);
+  return CATEGORY_META[resolvedKey] || {
+    label: catKey ? catKey.replace(/_/g, ' ') : 'Kategorija',
     icon: HelpCircle
   };
 };
