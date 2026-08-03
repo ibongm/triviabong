@@ -30,7 +30,7 @@ import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate
 import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from './constants/achievements';
 import { sound } from './utils/sound';
 import { sanitizeDisplayName } from './utils/publicProfile';
-import AdminPanel from './components/AdminPanel';
+import AdminPanel from './components/admin/AdminPanel';
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
 import GuideModal from './components/GuideModal';
