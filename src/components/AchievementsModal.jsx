@@ -54,7 +54,7 @@ export default function AchievementsModal({ isOpen, onClose, stats }) {
                                             <p className={`text-sm font-bold ${isUnlocked ? 'text-white' : 'text-slate-500'}`}>{a.nameHr}</p>
                                             <p className={`text-xs ${isUnlocked ? 'text-slate-300' : 'text-slate-600'}`}>{a.descriptionHr}</p>
                                             {isUnlocked && (
-                                                <p className="text-[10px] text-amber-400/80 mt-0.5">
+                                                <p className="text-xs text-amber-400/80 mt-0.5">
                                                     Otključano {new Date(unlockedAt).toLocaleDateString()}
                                                 </p>
                                             )}

@@ -115,7 +115,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
 
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-            <div className="bg-[#121824] border border-slate-800 text-white rounded-2xl w-full max-w-md p-6 shadow-2xl relative">
+            <div className="bg-slate-900 border border-slate-800 text-white rounded-2xl w-full max-w-md p-6 shadow-2xl relative">
                 {/* Close Button */}
                 <button
                     onClick={onClose}

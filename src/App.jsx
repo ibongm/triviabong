@@ -681,7 +681,7 @@ export default function App() {
           <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-slate-950 font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
             TB
           </div>
-          <span className="font-black text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+          <span className="font-black text-xl tracking-tight bg-gradient-to-r from-white to-amber-400 bg-clip-text text-transparent">
             TriviaBong
           </span>
         </div>
@@ -994,7 +994,7 @@ export default function App() {
         )}
 
         {(gameState === 'GAMEOVER' || gameState === 'VICTORY') && (
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl text-center space-y-6">
+          <div className={`bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl text-center space-y-6 ${gameState === 'GAMEOVER' ? 'animate-shake animate-flash-red ring-1 ring-rose-500/40' : 'animate-fade-in'}`}>
             <div className={`inline-flex items-center justify-center p-4 rounded-2xl ${gameState === 'VICTORY' ? 'bg-amber-500/10 border border-amber-500/20 text-amber-400' : 'bg-rose-500/10 border border-rose-500/20 text-rose-400'}`}>
               {gameState === 'VICTORY' ? <Crown className="w-10 h-10" /> : <Flame className="w-10 h-10" />}
             </div>

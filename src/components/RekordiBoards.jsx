@@ -62,7 +62,7 @@ export default function RekordiBoards({ data, limitPerBoard = 10, compact = fals
                             </ol>
                         )}
                         {board.signedInOnly && (
-                            <p className="text-[10px] text-slate-600 italic">Samo prijavljeni igrači.</p>
+                            <p className="text-xs text-slate-600 italic">Samo prijavljeni igrači.</p>
                         )}
                     </div>
                 );

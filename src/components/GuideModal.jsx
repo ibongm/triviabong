@@ -53,7 +53,7 @@ export default function GuideModal({ isOpen, onClose }) {
             <div className="w-full max-w-lg bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-4 relative max-h-[90vh] overflow-y-auto">
 
                 {/* Header */}
-                <div className="flex justify-between items-center border-b border-slate-800 pb-4">
+                <div className="sticky top-0 z-10 bg-slate-900 flex justify-between items-center border-b border-slate-800 pb-4 pt-1 mb-2">
                     <div className="flex items-center gap-2.5">
                         <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400">
                             <HelpCircle className="w-5 h-5" />
