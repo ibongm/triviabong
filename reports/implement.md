@@ -78,7 +78,7 @@ Item 1 (XP/level migration) is *not* a Phase 1 commit — `master-plan.md` itsel
 ## Phase 5 — Polish (2 commits)
 
 1. **`chore: token/copy polish`** *(items 1, 2, 3, 5)* — `AuthModal` background token, sub-11px text sizing, logotype gradient simplification, CLAUDE.md bundle-size/ADMIN_EMAIL refresh. All trivial, no shared lines.
-2. **`chore: remove unused framer-motion dependency`** *(item 4)* — kept isolated from the above so a `package.json`/lockfile change is independently revertable if it turns out something depended on it transitively.
+2. ~~**`chore: remove unused framer-motion dependency`** *(item 4)* — kept isolated from the above so a `package.json`/lockfile change is independently revertable if it turns out something depended on it transitively.~~ ✅ **DONE & COMMITTED** — `9d507d2`. `npm uninstall framer-motion` (also dropped transitive-only `motion-dom`/`motion-utils`); confirmed via grep that `src/` and `api/` had zero imports. Full `npm run build` verification was blocked by the unrelated, pre-existing `App.jsx` `currentQ` duplicate-declaration break from a concurrent in-progress refactor — re-run once that resolves.
 
 ---
 
