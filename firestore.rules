@@ -30,14 +30,23 @@ service cloud.firestore {
       // can't seed itself with privileged fields.
       allow create: if isOwner(uid)
         && request.resource.data.uid == uid
-        && !('role' in request.resource.data);
+        && !('role' in request.resource.data)
+        && (!('level' in request.resource.data) || (request.resource.data.level is int && request.resource.data.level >= 1))
+        && (!('xp' in request.resource.data) || (request.resource.data.xp is int && request.resource.data.xp >= 0))
+        && (!('coins' in request.resource.data) || (request.resource.data.coins is int && request.resource.data.coins >= 0));
 
       // Owner can update their own doc (e.g. syncUserStatsToFirestore
       // merges level/xp/coins) but can never touch `role`. Admin can
       // update anything (AdminPanel's edit form).
       allow update: if isAdmin()
         || (isOwner(uid)
-            && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']));
+            && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role'])
+            && (!('level' in request.resource.data) || (request.resource.data.level is int && request.resource.data.level >= 1))
+            && (!('xp' in request.resource.data) || (request.resource.data.xp is int && request.resource.data.xp >= 0))
+            && (!('coins' in request.resource.data) || (request.resource.data.coins is int && request.resource.data.coins >= 0))
+            && (!('maxStreak' in request.resource.data) || (request.resource.data.maxStreak is int && request.resource.data.maxStreak >= 0))
+            && (!('dayStreak' in request.resource.data) || (request.resource.data.dayStreak is int && request.resource.data.dayStreak >= 0))
+            && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is int && request.resource.data.achievementCount >= 0 && request.resource.data.achievementCount <= 30)));
 
       allow delete: if isAdmin();
     }
@@ -64,6 +73,7 @@ service cloud.firestore {
         && request.resource.data.score is int
         && request.resource.data.score >= 0
         && request.resource.data.score <= 10000
+        && request.resource.data.createdAt == request.time
         && (!('uid' in request.resource.data)
             || request.resource.data.uid == null
             || isOwner(request.resource.data.uid))
