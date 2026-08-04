@@ -70,7 +70,7 @@ Item 1 (XP/level migration) is *not* a Phase 1 commit — `master-plan.md` itsel
 ## Phase 4 — UX / Game Loop (3 commits, grouped by screen for one visual-QA pass each)
 
 1. ~~**`style: playing-screen focus`** *(items 1, 2)*~~ ✅ **DONE & COMMITTED** — `db679e6`. `TimerRing` size/stroke/digit weight bumped; header Razina+Zlatnici merged into one pill, Trofeji moved into `StatsModal`.
-2. **`style: tactile feedback + lobby variety`** *(items 3, 4, 5)* — active-press feedback on all buttons, per-category color tokens, featured/CTA hierarchy on the lobby grid.
+2. ~~**`style: tactile feedback + lobby variety`** *(items 3, 4, 5)*~~ ✅ **DONE & COMMITTED** — `848b17f`. `active:scale`/`active:brightness-95` on all 17 App.jsx buttons; per-category color tokens (icon bg/border/text + literal hover/group-hover variants) in `categoryKeys.js`; Opće znanje promoted to a full-width featured card above the outlined 7-category grid.
 3. **`style: transition & overlay polish`** *(items 6, 7)* — game-over shake/flash, sticky modal headers on `GuideModal`/`StatsModal`/`AuthModal`.
 
 ---
