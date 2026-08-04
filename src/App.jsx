@@ -64,11 +64,14 @@ const isAdminPath = () => {
 
 const getPlayerDisplayName = (user) => (user.displayName || user.email?.split('@')[0] || 'Igrač').slice(0, 20);
 
+const DEFAULT_CATEGORY_COLOR = { bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-400', hoverBorder: 'hover:border-amber-500/50', groupHoverText: 'group-hover:text-amber-400' };
+
 const getCategoryDetails = (catKey) => {
   const resolvedKey = resolveCategoryKey(catKey);
   return CATEGORY_META[resolvedKey] || {
     label: catKey ? catKey.replace(/_/g, ' ') : 'Kategorija',
-    icon: HelpCircle
+    icon: HelpCircle,
+    color: DEFAULT_CATEGORY_COLOR
   };
 };
 
@@ -686,7 +689,7 @@ export default function App() {
         <div className="flex items-center gap-2.5">
           <button
             onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-            className="flex items-center gap-3 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm"
+            className="flex items-center gap-3 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
             title="Razina i Statistika"
           >
             <span className="flex items-center gap-1.5 text-xs font-bold">
@@ -702,7 +705,7 @@ export default function App() {
 
           <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors"
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
             title="Kako Igrati"
           >
             <HelpCircle className="w-4 h-4 text-amber-400" />
@@ -712,7 +715,7 @@ export default function App() {
           {isAdminUser && (
             <button
               onClick={() => setShowAdminPanel(true)}
-              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-3 py-1.5 rounded-xl text-xs font-bold transition-colors"
+              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-3 py-1.5 rounded-xl text-xs font-bold transition-colors active:scale-95 active:brightness-95"
               title="Otvori Admin Panel"
             >
               <ShieldCheck className="w-4 h-4" />
@@ -727,7 +730,7 @@ export default function App() {
               </span>
               <button
                 onClick={handlePlayerLogout}
-                className="text-slate-500 hover:text-rose-400 transition-colors p-0.5"
+                className="text-slate-500 hover:text-rose-400 transition-colors p-0.5 active:scale-90"
                 title="Odjava"
               >
                 <LogOut className="w-3.5 h-3.5" />
@@ -736,7 +739,7 @@ export default function App() {
           ) : (
             <button
               onClick={() => { sound.playClick(); setShowAuthModal(true); }}
-              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10"
+              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10 active:scale-95 active:brightness-95"
             >
               <User className="w-3.5 h-3.5" />
               <span>Prijava</span>
@@ -759,27 +762,60 @@ export default function App() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-              {categoriesList.map(catKey => {
-                const details = getCategoryDetails(catKey);
-                const IconComponent = details.icon;
-                return (
+            {(() => {
+              // Opće znanje draws from every category's questions combined
+              // (see questionsLoader.js AGGREGATE_CATEGORIES) - it's the
+              // biggest, most-replayable pool, so it gets a full-width
+              // featured card above the grid instead of blending into it
+              // as one more same-weight tile.
+              const featuredKey = 'opca_znanje';
+              const featured = getCategoryDetails(featuredKey);
+              const FeaturedIcon = featured.icon;
+              const restCategories = categoriesList.filter(k => k !== featuredKey);
+
+              return (
+                <>
                   <button
-                    key={catKey}
-                    onClick={() => selectCategory(catKey)}
-                    className="flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 hover:border-amber-500/50 rounded-2xl transition-all group shadow-sm hover:shadow-amber-500/5"
+                    onClick={() => selectCategory(featuredKey)}
+                    className="w-full flex items-center justify-between p-5 bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 rounded-2xl transition-all group shadow-lg shadow-amber-500/20 hover:shadow-amber-500/30 hover:brightness-105 active:scale-[0.97] active:brightness-95"
                   >
                     <div className="flex items-center gap-3.5">
-                      <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 group-hover:scale-110 transition-transform">
-                        <IconComponent className="w-5 h-5" />
+                      <div className="p-3 rounded-xl bg-slate-950/10 border border-slate-950/10 group-hover:scale-110 transition-transform">
+                        <FeaturedIcon className="w-6 h-6" />
                       </div>
-                      <span className="font-bold text-slate-200 capitalize text-sm">{details.label}</span>
+                      <div className="text-left">
+                        <span className="font-black text-base block">{featured.label}</span>
+                        <span className="text-xs font-bold text-slate-950/70">Pitanja iz svih kategorija - najveći fond</span>
+                      </div>
                     </div>
-                    <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-amber-400 transition-colors" />
+                    <ChevronRight className="w-5 h-5 text-slate-950/60 group-hover:text-slate-950 transition-colors" />
                   </button>
-                );
-              })}
-            </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                    {restCategories.map(catKey => {
+                      const details = getCategoryDetails(catKey);
+                      const IconComponent = details.icon;
+                      const color = details.color || DEFAULT_CATEGORY_COLOR;
+                      return (
+                        <button
+                          key={catKey}
+                          onClick={() => selectCategory(catKey)}
+                          className={`flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 ${color.hoverBorder} rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95`}
+                        >
+                          <div className="flex items-center gap-3.5">
+                            <div className={`p-3 rounded-xl ${color.bg} border ${color.border} ${color.text} group-hover:scale-110 transition-transform`}>
+                              <IconComponent className="w-5 h-5" />
+                            </div>
+                            <span className="font-bold text-slate-200 capitalize text-sm">{details.label}</span>
+                          </div>
+                          <ChevronRight className={`w-4 h-4 text-slate-600 ${color.groupHoverText} transition-colors`} />
+                        </button>
+                      );
+                    })}
+                  </div>
+                </>
+              );
+            })()}
 
             <div className="space-y-3 pt-4">
               <div className="flex items-center justify-between">
@@ -788,7 +824,7 @@ export default function App() {
                 </h2>
                 <button
                   onClick={() => { sound.playClick(); setShowRekordiModal(true); }}
-                  className="text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors"
+                  className="text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors active:scale-95"
                 >
                   Vidi sve →
                 </button>
@@ -842,13 +878,13 @@ export default function App() {
             <div className="flex gap-3 pt-2">
               <button
                 onClick={returnToLobby}
-                className="flex-1 bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold py-3.5 rounded-2xl transition-colors text-sm"
+                className="flex-1 bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold py-3.5 rounded-2xl transition-colors text-sm active:scale-[0.97] active:brightness-95"
               >
                 Natrag
               </button>
               <button
                 onClick={launchQuizRound}
-                className="flex-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm"
+                className="flex-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm active:scale-[0.97] active:brightness-95"
               >
                 <Play className="w-4 h-4 fill-slate-950" /> Započni Kviz
               </button>
@@ -908,7 +944,7 @@ export default function App() {
                       key={idx}
                       disabled={selectedOption !== null || answerLocked}
                       onClick={() => handleAnswer(option)}
-                      className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all flex justify-between items-center ${btnStyle}`}
+                      className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all flex justify-between items-center active:scale-[0.97] active:brightness-95 ${btnStyle}`}
                     >
                       <span>{option}</span>
                     </button>
@@ -923,7 +959,7 @@ export default function App() {
                     if (fiftyFiftyShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.fiftyFifty}c)`); return; }
                     activateFiftyFifty();
                   }}
-                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 ${!fiftyFiftyLocked && fiftyFiftyShort ? 'opacity-40' : ''}`}
+                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!fiftyFiftyLocked && fiftyFiftyShort ? 'opacity-40' : ''}`}
                 >
                   <Scissors className="w-3.5 h-3.5 text-amber-400" /> 50:50 ({JOKER_COSTS.fiftyFifty}c)
                 </button>
@@ -933,7 +969,7 @@ export default function App() {
                     if (plusTenShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.plusTen}c)`); return; }
                     activatePlusTen();
                   }}
-                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 ${!plusTenLocked && plusTenShort ? 'opacity-40' : ''}`}
+                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!plusTenLocked && plusTenShort ? 'opacity-40' : ''}`}
                 >
                   <Clock className="w-3.5 h-3.5 text-amber-400" /> +{PLUS_TEN_SECONDS}s ({JOKER_COSTS.plusTen}c)
                 </button>
@@ -943,7 +979,7 @@ export default function App() {
                     if (skipShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.skip}c)`); return; }
                     activateSkip();
                   }}
-                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 ${!skipLocked && skipShort ? 'opacity-40' : ''}`}
+                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!skipLocked && skipShort ? 'opacity-40' : ''}`}
                 >
                   <FastForward className="w-3.5 h-3.5 text-amber-400" /> Preskoči ({JOKER_COSTS.skip}c)
                 </button>
@@ -984,7 +1020,7 @@ export default function App() {
                     setAutoSaveFailed(false);
                     saveScore(getPlayerDisplayName(currentUser)).catch(() => setAutoSaveFailed(true));
                   }}
-                  className="w-full bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/30 font-bold py-3 rounded-xl text-sm transition-colors"
+                  className="w-full bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/30 font-bold py-3 rounded-xl text-sm transition-colors active:scale-[0.97] active:brightness-95"
                 >
                   Spremanje nije uspjelo. Pokušaj ponovno.
                 </button>
@@ -1004,7 +1040,7 @@ export default function App() {
                 <button
                   type="submit"
                   disabled={isSaving}
-                  className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-3 rounded-xl text-sm transition-colors shadow-lg shadow-amber-500/20 disabled:opacity-50"
+                  className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-3 rounded-xl text-sm transition-colors shadow-lg shadow-amber-500/20 disabled:opacity-50 active:scale-[0.97] active:brightness-95"
                 >
                   {isSaving ? 'Spremanje...' : 'Spremi Rezultat'}
                 </button>
@@ -1013,7 +1049,7 @@ export default function App() {
 
             <button
               onClick={returnToLobby}
-              className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm"
+              className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm active:scale-[0.97] active:brightness-95"
             >
               <RefreshCw className="w-4 h-4 text-slate-400" /> Povratak u Izbornik
             </button>
