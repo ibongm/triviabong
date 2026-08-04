@@ -10,6 +10,53 @@ import {
     createUserWithEmailAndPassword
 } from 'firebase/auth';
 
+// Firebase groups every failure (network outages, rate limits, bad
+// credentials) behind generic-looking error codes - mapping them here so
+// "the wifi dropped" no longer reads to the player as "wrong password".
+const NETWORK_ERROR_CODES = new Set([
+    'auth/network-request-failed',
+    'auth/timeout',
+]);
+
+function getAuthErrorMessage(err, { isRegister, isGoogle } = {}) {
+    const code = err?.code;
+
+    if (NETWORK_ERROR_CODES.has(code)) {
+        return 'Greška u mreži. Provjerite internetsku vezu i pokušajte ponovno.';
+    }
+    if (code === 'auth/too-many-requests') {
+        return 'Previše pokušaja. Pokušajte ponovno za nekoliko minuta.';
+    }
+    if (code === 'auth/user-disabled') {
+        return 'Ovaj račun je onemogućen.';
+    }
+
+    if (isGoogle) {
+        if (code === 'auth/popup-closed-by-user' || code === 'auth/cancelled-popup-request') {
+            return '';
+        }
+        if (code === 'auth/popup-blocked') {
+            return 'Skočni prozor je blokiran. Omogućite skočne prozore i pokušajte ponovno.';
+        }
+        return 'Greška pri prijavi s Google računom.';
+    }
+
+    if (isRegister) {
+        if (code === 'auth/email-already-in-use') {
+            return 'Ovaj email je već registriran. Pokušajte se prijaviti umjesto toga.';
+        }
+        if (code === 'auth/weak-password') {
+            return 'Lozinka je preslaba (minimalno 6 znakova).';
+        }
+        if (code === 'auth/invalid-email') {
+            return 'Neispravna email adresa.';
+        }
+        return 'Neuspješna registracija. Provjerite podatke.';
+    }
+
+    return 'Pogrešan email ili lozinka.';
+}
+
 export default function AuthModal({ isOpen, onClose, onSuccess }) {
     const [isRegister, setIsRegister] = useState(false);
     const [email, setEmail] = useState('');
@@ -33,7 +80,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
             if (onClose) onClose();
         } catch (err) {
             console.error("Google Auth Error:", err);
-            setErrorMsg("Greška pri prijavi s Google računom.");
+            setErrorMsg(getAuthErrorMessage(err, { isGoogle: true }));
         } finally {
             setLoading(false);
         }
@@ -60,11 +107,7 @@ export default function AuthModal({ isOpen, onClose, onSuccess }) {
             if (onClose) onClose();
         } catch (err) {
             console.error("Email Auth Error:", err);
-            if (isRegister) {
-                setErrorMsg("Neuspješna registracija. Provjerite podatke.");
-            } else {
-                setErrorMsg("Pogrešan email ili lozinka.");
-            }
+            setErrorMsg(getAuthErrorMessage(err, { isRegister }));
         } finally {
             setLoading(false);
         }

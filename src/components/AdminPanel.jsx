@@ -21,7 +21,9 @@ const EMPTY_QUESTION_FORM = { question: '', correct_answer: '', incorrect_answer
 export default function AdminPanel({ onClose }) {
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [usersMessage, setUsersMessage] = useState(null);
     const [editingUser, setEditingUser] = useState(null);
+    const [formError, setFormError] = useState('');
 
     // Form state for editing selected user profile
     const [formData, setFormData] = useState({
@@ -250,6 +252,7 @@ export default function AdminPanel({ onClose }) {
 
     const handleEditClick = (user) => {
         setEditingUser(user);
+        setFormError('');
         setFormData({
             displayName: user.displayName || '',
             level: user.level || 1,
@@ -259,16 +262,35 @@ export default function AdminPanel({ onClose }) {
         });
     };
 
+    const handleCloseEdit = () => {
+        setEditingUser(null);
+        setFormError('');
+    };
+
     const handleSaveUser = async (e) => {
         e.preventDefault();
         if (!editingUser) return;
 
+        const level = Number(formData.level);
+        const xp = Number(formData.xp);
+        const coins = Number(formData.coins);
+
+        if (!Number.isFinite(level) || !Number.isFinite(xp) || !Number.isFinite(coins)) {
+            setFormError('Razina, XP i novčići moraju biti brojevi.');
+            return;
+        }
+        if (level < 1 || xp < 0 || coins < 0) {
+            setFormError('Razina mora biti najmanje 1, a XP i novčići ne mogu biti negativni.');
+            return;
+        }
+
+        setFormError('');
         try {
             await updateUserInFirestore(editingUser.uid, {
                 displayName: formData.displayName,
-                level: Number(formData.level),
-                xp: Number(formData.xp),
-                coins: Number(formData.coins),
+                level: Math.floor(level),
+                xp: Math.floor(xp),
+                coins: Math.floor(coins),
                 role: formData.role
             });
 
@@ -276,14 +298,20 @@ export default function AdminPanel({ onClose }) {
             await fetchUsers();
         } catch (err) {
             console.error("Greška pri spremanju korisnika:", err);
-            alert("Ažuriranje nije uspjelo.");
+            setFormError("Ažuriranje nije uspjelo. Pokušajte ponovno.");
         }
     };
 
     const handleDeleteUser = async (uid) => {
-        if (window.confirm("Jeste li sigurni da želite izbrisati ovog igrača?")) {
+        if (!window.confirm("Jeste li sigurni da želite izbrisati ovog igrača?")) return;
+
+        setUsersMessage(null);
+        try {
             await deleteUserFromFirestore(uid);
             await fetchUsers();
+        } catch (err) {
+            console.error('Greška pri brisanju korisnika:', err);
+            setUsersMessage({ type: 'error', text: 'Brisanje korisnika nije uspjelo.' });
         }
     };
 
@@ -723,6 +751,12 @@ export default function AdminPanel({ onClose }) {
                     <span>👥</span> Registrirani Igrači
                 </h2>
 
+                {usersMessage && (
+                    <div className={`text-sm rounded-lg p-3 mb-4 ${usersMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
+                        {usersMessage.text}
+                    </div>
+                )}
+
                 {loading ? (
                     <p className="text-slate-400 text-sm">Učitavanje popisa igrača...</p>
                 ) : users.length === 0 ? (
@@ -955,6 +989,12 @@ export default function AdminPanel({ onClose }) {
                         </h3>
                         <p className="text-xs text-slate-400 mb-6">{editingUser.email}</p>
 
+                        {formError && (
+                            <div className="text-red-400 text-xs bg-red-500/10 border border-red-500/30 rounded-lg p-2 mb-4">
+                                {formError}
+                            </div>
+                        )}
+
                         <form onSubmit={handleSaveUser} className="space-y-4 text-sm">
                             <div>
                                 <label className="block text-slate-300 text-xs mb-1">Ime / Nadimak</label>
@@ -971,6 +1011,8 @@ export default function AdminPanel({ onClose }) {
                                     <label className="block text-slate-300 text-xs mb-1">Razina (Level)</label>
                                     <input
                                         type="number"
+                                        min="1"
+                                        step="1"
                                         value={formData.level}
                                         onChange={(e) => setFormData({ ...formData, level: e.target.value })}
                                         className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"
@@ -981,6 +1023,8 @@ export default function AdminPanel({ onClose }) {
                                     <label className="block text-slate-300 text-xs mb-1">Iskustvo (XP)</label>
                                     <input
                                         type="number"
+                                        min="0"
+                                        step="1"
                                         value={formData.xp}
                                         onChange={(e) => setFormData({ ...formData, xp: e.target.value })}
                                         className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"
@@ -991,6 +1035,8 @@ export default function AdminPanel({ onClose }) {
                                     <label className="block text-slate-300 text-xs mb-1">Novčići (Coins)</label>
                                     <input
                                         type="number"
+                                        min="0"
+                                        step="1"
                                         value={formData.coins}
                                         onChange={(e) => setFormData({ ...formData, coins: e.target.value })}
                                         className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"
@@ -1013,7 +1059,7 @@ export default function AdminPanel({ onClose }) {
                             <div className="flex justify-end gap-3 pt-4 border-t border-slate-800">
                                 <button
                                     type="button"
-                                    onClick={() => setEditingUser(null)}
+                                    onClick={handleCloseEdit}
                                     className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-lg font-medium"
                                 >
                                     Odustani
