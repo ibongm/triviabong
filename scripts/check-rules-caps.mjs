@@ -1,4 +1,4 @@
-import { ACHIEVEMENTS } from '../src/utils/achievements.js';
+import { ACHIEVEMENTS } from '../src/constants/achievements.js';
 import * as fs from 'node:fs';
 import assert from 'node:assert';
 

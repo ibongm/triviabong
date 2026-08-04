@@ -7,8 +7,8 @@
 // false there (numeric comparisons against `undefined` are NaN-comparisons
 // in JS, always false; `undefined === true` is also false), so there's no
 // need for per-predicate presence guards.
-import { ACHIEVEMENTS } from '../constants/achievements';
-import { CATEGORY_META } from '../data/categoryMeta';
+import { ACHIEVEMENTS } from '../constants/achievements.js';
+import { CATEGORY_META } from '../data/categoryMeta.js';
 
 const MIN_ANSWERED_FOR_MASTERY = 10;
 const CATEGORY_MASTERY_CORRECT_THRESHOLD = 50;
