@@ -59,9 +59,14 @@ export const getRawCategoryQuestions = (categoryKey) => {
     return categoryPacks[targetPackKey] || [];
 };
 
-/**
- * Combines and returns all questions from all loaded category packs
- */
 export const getAllQuestions = () => {
-    return Object.values(categoryPacks).flat();
+    const all = Object.values(categoryPacks).flat();
+    const seen = new Set();
+    return all.filter(q => {
+        if (!q || !q.question) return false;
+        const normalized = q.question.toLowerCase().trim();
+        if (seen.has(normalized)) return false;
+        seen.add(normalized);
+        return true;
+    });
 };

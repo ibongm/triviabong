@@ -3,13 +3,14 @@ import { X, Trophy, Target, Award, Flame, Zap, BarChart2, Star } from 'lucide-re
 import { CATEGORY_META } from '../data/categoryMeta';
 import { xpForLevel } from '../utils/leveling';
 
-export default function StatsModal({ isOpen, onClose, stats }) {
+export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements }) {
     if (!isOpen) return null;
 
     const categoryStats = stats?.categoryStats || {};
     const totalAnswered = stats?.totalAnswered || 0;
     const totalCorrect = stats?.totalCorrect || 0;
     const overallAccuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+    const unlockedTrophiesCount = Object.keys(stats?.unlockedAchievements || {}).length;
 
     const level = stats?.level || 1;
     const xp = stats?.xp || 0;
@@ -61,6 +62,25 @@ export default function StatsModal({ isOpen, onClose, stats }) {
                             className="h-full bg-amber-500 transition-all duration-500 rounded-full"
                             style={{ width: `${xpProgressPct}%` }}
                         />
+                    </div>
+                </div>
+
+                {/* Trofeji Row */}
+                <div className="flex justify-between items-center bg-slate-950/60 border border-slate-800 rounded-2xl p-3.5">
+                    <div className="flex items-center gap-2">
+                        <Trophy className="w-4 h-4 text-amber-400" />
+                        <span className="text-xs font-extrabold text-slate-200">Otključani Trofeji</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <span className="text-xs font-black text-amber-400">{unlockedTrophiesCount} / 30</span>
+                        {onOpenAchievements && (
+                            <button
+                                onClick={() => { onClose(); onOpenAchievements(); }}
+                                className="text-xs font-bold text-amber-400 hover:underline ml-1"
+                            >
+                                Pregled →
+                            </button>
+                        )}
                     </div>
                 </div>
 

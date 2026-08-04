@@ -1,5 +1,5 @@
-const SIZE = 32;
-const STROKE_WIDTH = 3;
+const SIZE = 56;
+const STROKE_WIDTH = 5;
 const RADIUS = (SIZE - STROKE_WIDTH) / 2;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
 
@@ -31,7 +31,7 @@ export default function TimerRing({ timeLeft, totalTime }) {
                     className={`transition-all duration-[900ms] ease-linear ${urgent ? 'stroke-rose-500' : 'stroke-amber-400'}`}
                 />
             </svg>
-            <span className={`absolute inset-0 flex items-center justify-center text-[10px] font-black ${urgent ? 'text-rose-500' : 'text-amber-400'}`}>
+            <span className={`absolute inset-0 flex items-center justify-center text-lg font-black tracking-tighter ${urgent ? 'text-rose-500' : 'text-amber-400'}`}>
                 {timeLeft}
             </span>
         </div>

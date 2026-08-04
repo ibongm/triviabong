@@ -1,7 +1,20 @@
-// Category key resolution, with no JSON imports so this can be shared with
-// api/questions.js (a Vercel serverless function) without pulling ~500KB of
-// question data into its bundle. questionsLoader.js is the only place that
-// actually holds the question packs.
+import { Globe, Trophy, History, BookOpen, Music, Brain, Sparkles, Atom } from 'lucide-react';
+
+export const PRIMARY_CATEGORIES = [
+    { key: 'geografija', label: 'Geografija', icon: Globe },
+    { key: 'povijest', label: 'Povijest', icon: History },
+    { key: 'glazba', label: 'Glazba', icon: Music },
+    { key: 'sport', label: 'Sport', icon: Trophy },
+    { key: 'znanost', label: 'Znanost i Tehnologija', icon: Atom },
+    { key: 'opca_znanje', label: 'Opće znanje', icon: Brain },
+    { key: 'pop_kultura', label: 'Pop kultura', icon: Sparkles },
+    { key: 'knjizevnost', label: 'Književnost i Umjetnost', icon: BookOpen },
+];
+
+export const CATEGORY_META = PRIMARY_CATEGORIES.reduce((acc, cat) => {
+    acc[cat.key] = { label: cat.label, icon: cat.icon };
+    return acc;
+}, {});
 
 // Internal Alias Lookup Map
 // Maps alternate keys, file names, or diacritic variations to the primary categoryPack key

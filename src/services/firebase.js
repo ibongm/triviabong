@@ -4,7 +4,8 @@ import {
     getAuth,
     GoogleAuthProvider,
     signInWithPopup,
-    signOut
+    signOut,
+    connectAuthEmulator
 } from "firebase/auth";
 import {
     getFirestore,
@@ -21,25 +22,31 @@ import {
     deleteDoc,
     serverTimestamp,
     addDoc,
-    writeBatch
+    writeBatch,
+    connectFirestoreEmulator
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
-    authDomain: "triviabong-web.firebaseapp.com",
-    projectId: "triviabong-web",
-    storageBucket: "triviabong-web.firebasestorage.app",
-    messagingSenderId: "769479466909",
-    appId: "1:769479466909:web:20b977025bf3a6374a5974",
-    measurementId: "G-BH18H9H0TC"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "triviabong-web.firebaseapp.com",
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "triviabong-web",
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "triviabong-web.firebasestorage.app",
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "769479466909",
+    appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:769479466909:web:20b977025bf3a6374a5974",
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-BH18H9H0TC"
 };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const googleProvider = new GoogleAuthProvider();
+
+if (import.meta.env.VITE_USE_FIREBASE_EMULATOR === 'true') {
+    connectFirestoreEmulator(db, '127.0.0.1', 8080);
+    connectAuthEmulator(auth, 'http://127.0.0.1:9099');
+}
 
 export const logoutUser = () => signOut(auth);
 export const logoutAdmin = logoutUser;
@@ -105,9 +112,14 @@ export const syncUserStatsToFirestore = async (uid, stats) => {
     if (!uid) return;
     try {
         const userRef = doc(db, "users", uid);
+        const {
+            uid: _uid, email: _email, displayName: _dn, photoURL: _ph,
+            lastLogin: _ll, role: _role, ...cleanStats
+        } = stats || {};
+
         await setDoc(userRef, {
             ...DEFAULT_GLOBAL_STATS,
-            ...stats,
+            ...cleanStats,
             updatedAt: serverTimestamp()
         }, { merge: true });
     } catch (error) {
@@ -228,7 +240,8 @@ export const getFastestPerfectRounds = async (limitN = 10) => {
         const categories = Object.keys(CATEGORY_META);
         const perCategory = await Promise.all(categories.map(async (cat) => {
             const scoresRef = collection(db, "leaderboards", cat, "scores");
-            const querySnapshot = await getDocs(scoresRef);
+            const q = query(scoresRef, orderBy("score", "desc"), limit(50));
+            const querySnapshot = await getDocs(q);
             return querySnapshot.docs
                 .map(docSnap => ({ id: docSnap.id, category: cat, ...docSnap.data() }))
                 .filter(entry => entry.isPerfect === true && typeof entry.elapsedMs === 'number');
@@ -241,14 +254,12 @@ export const getFastestPerfectRounds = async (limitN = 10) => {
 };
 
 /**
- * Fetches every publicProfiles entry (the public-safe Rekordi summary),
- * for admin management - unlike getPublicProfileLeaderboard, not capped
- * and not sorted by a specific ranking field.
+ * Fetches publicProfiles entries up to limitN (default 100), for admin management
  */
-export const getAllPublicProfiles = async () => {
+export const getAllPublicProfiles = async (limitN = 100) => {
     try {
         const profilesRef = collection(db, "publicProfiles");
-        const q = query(profilesRef, orderBy("updatedAt", "desc"));
+        const q = query(profilesRef, orderBy("updatedAt", "desc"), limit(limitN));
         const querySnapshot = await getDocs(q);
         return querySnapshot.docs.map(docSnap => ({ uid: docSnap.id, ...docSnap.data() }));
     } catch (error) {

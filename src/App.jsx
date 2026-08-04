@@ -28,8 +28,9 @@ import {
 import { computeLevelFromXp } from './utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './utils/achievements';
 import { mergeMonotonicStats } from './utils/statsMerge';
+import { loadStats, saveStats, migrateStats, getStorageKey } from './services/statsStore';
 import { sound } from './utils/sound';
-import AdminPanel from './components/AdminPanel';
+const AdminPanel = React.lazy(() => import('./components/AdminPanel'));
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
 import GuideModal from './components/GuideModal';
@@ -37,6 +38,9 @@ import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import RekordiBoards from './components/RekordiBoards';
 import TimerRing from './components/TimerRing';
+import { applyAnswer } from './utils/gameLogic';
+import { useGameRound } from './hooks/useGameRound';
+import { shuffleArray } from './utils/questionUtils';
 import {
   auth,
   logoutUser,
@@ -58,36 +62,14 @@ const isAdminPath = () => {
   return path === '/admin' || path === '/admin/';
 };
 
-// Firestore's leaderboard/publicProfiles rules cap name/displayName at 20
-// chars - without the slice, a long email local-part (no displayName set)
-// gets silently rejected by the rules ("Missing or insufficient permissions")
-// rather than truncated, so both writes that ever reach Firestore quietly fail.
 const getPlayerDisplayName = (user) => (user.displayName || user.email?.split('@')[0] || 'Igrač').slice(0, 20);
 
 const getCategoryDetails = (catKey) => {
-  // Resolve through the same alias map getQuestionsByCategory uses, so a
-  // question's raw `category` field (which can be an alias spelling, e.g.
-  // legacy data using the filename-style "znanost_i_tehnologija" instead of
-  // the canonical pack key "znanost") still finds its CATEGORY_META entry
-  // instead of falling through to the raw-string fallback below.
   const resolvedKey = resolveCategoryKey(catKey);
   return CATEGORY_META[resolvedKey] || {
     label: catKey ? catKey.replace(/_/g, ' ') : 'Kategorija',
     icon: HelpCircle
   };
-};
-
-const shuffleArray = (array) => [...array].sort(() => Math.random() - 0.5);
-
-const getQuestionOptions = (q) => {
-  if (!q) return [];
-  if (Array.isArray(q.options)) return q.options;
-  const correct = q.correct_answer || q.correctAnswer;
-  const incorrects = q.incorrect_answers || q.incorrectAnswers || [];
-  if (correct !== undefined) {
-    return [correct, ...incorrects];
-  }
-  return [];
 };
 
 const checkIsCorrect = (q, option) => {
@@ -99,75 +81,53 @@ const checkIsCorrect = (q, option) => {
 export default function App() {
   const [gameState, setGameState] = useState('LOBBY');
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [questions, setQuestions] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  // Briefly ignored right after a new question mounts, since answer buttons
-  // keep the same DOM node (key={idx}) across the transition - without this,
-  // a duplicate/delayed mobile tap landing as the button re-enables gets
-  // recorded as a real answer to the new question instead of being dropped.
-  const [answerLocked, setAnswerLocked] = useState(true);
 
-  const [currentShuffledOptions, setCurrentShuffledOptions] = useState([]);
+  const {
+    questions,
+    setQuestions,
+    currentIndex,
+    setCurrentIndex,
+    currentQ,
+    currentShuffledOptions,
+    selectedOption,
+    setSelectedOption,
+    answerLocked,
+    score,
+    setScore,
+    lives,
+    setLives,
+    streak,
+    setStreak,
+    correctInRound,
+    setCorrectInRound,
+    timeLeft,
+    setTimeLeft,
+    jokersUsed,
+    setJokersUsed,
+    hiddenOptions,
+    setHiddenOptions,
+    jokerMessage,
+    showJokerMessage,
+    roundStartTime,
+    setRoundStartTime,
+    fastAnswerStreak,
+    setFastAnswerStreak,
+    fiftyFiftyUsedOnIndex,
+    setFiftyFiftyUsedOnIndex,
+    skipUsedAtLastLife,
+    setSkipUsedAtLastLife,
+    clearRoundTransitionTimers,
+    clearJokerMessageTimer,
+    roundTransitionTimerRef,
+    gameOverTimerRef
+  } = useGameRound();
 
-  const [score, setScore] = useState(0);
-  const [lives, setLives] = useState(MAX_LIVES);
-  const [streak, setStreak] = useState(0);
-  const [correctInRound, setCorrectInRound] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_SECONDS);
-  // Round-scoped tracking for achievements only - reset in launchQuizRound.
-  const [roundStartTime, setRoundStartTime] = useState(null);
-  const [fastAnswerStreak, setFastAnswerStreak] = useState(0);
-  const [fiftyFiftyUsedOnIndex, setFiftyFiftyUsedOnIndex] = useState(null);
-  const [skipUsedAtLastLife, setSkipUsedAtLastLife] = useState(false);
-  const [globalStats, setGlobalStats] = useState(() => {
-    const saved = localStorage.getItem('triviabong_global_stats');
-    // Merge over defaults (not replace) so a field added to DEFAULT_GLOBAL_STATS
-    // after a player already has saved stats shows up as its real default
-    // instead of undefined - otherwise every new stat field silently breaks
-    // for existing players until they happen to overwrite it.
-    return saved ? { ...DEFAULT_GLOBAL_STATS, ...JSON.parse(saved) } : DEFAULT_GLOBAL_STATS;
-  });
+  // Bumped on every selectCategory() call so an in-flight fetch from a
+  // superseded call (rapid category switching) can detect it lost the
+  // race instead of overwriting the current category's leaderboard.
+  const categoryFetchIdRef = useRef(0);
 
-  const [jokersUsed, setJokersUsed] = useState({ fiftyFifty: false, plusTen: false, skip: false });
-  const [hiddenOptions, setHiddenOptions] = useState([]);
-  const [jokerMessage, setJokerMessage] = useState(null);
-  const jokerMessageTimer = useRef(null);
-  const showJokerMessage = (text) => {
-    clearTimeout(jokerMessageTimer.current);
-    setJokerMessage(text);
-    jokerMessageTimer.current = setTimeout(() => setJokerMessage(null), 2000);
-  };
-  const clearJokerMessageTimer = () => {
-    clearTimeout(jokerMessageTimer.current);
-    jokerMessageTimer.current = null;
-    setJokerMessage(null);
-  };
-
-  // Tracks the post-answer setTimeout that advances to the next question/
-  // victory, and the one that transitions to GAMEOVER on the last life -
-  // both stored in refs (not fire-and-forget) so a mid-transition escape
-  // to LOBBY (header logo click) can cancel them instead of letting a
-  // stale timer land state changes (or an abandoned round's score save)
-  // against a screen the player already left.
-  const roundTransitionTimerRef = useRef(null);
-  const gameOverTimerRef = useRef(null);
-  const clearRoundTransitionTimers = () => {
-    clearTimeout(roundTransitionTimerRef.current);
-    clearTimeout(gameOverTimerRef.current);
-    roundTransitionTimerRef.current = null;
-    gameOverTimerRef.current = null;
-  };
-
-  // Belt-and-braces cleanup for the timers above on unmount (hot-reload,
-  // StrictMode double-invoke) - the explicit clearRoundTransitionTimers()
-  // calls at each LOBBY transition are what matter in normal use.
-  useEffect(() => {
-    return () => {
-      clearRoundTransitionTimers();
-      clearTimeout(jokerMessageTimer.current);
-    };
-  }, []);
+  const [globalStats, setGlobalStats] = useState(() => loadStats(null));
 
   const [leaderboards, setLeaderboards] = useState(() => {
     const saved = localStorage.getItem('triviabong_leaderboards');
@@ -203,20 +163,6 @@ export default function App() {
   // dropped (the effect it would have triggered a sync from already ran and
   // no-opped while blocked, and nothing re-fires it once ready flips true).
   const [statsReadyForUid, setStatsReadyForUid] = useState(null);
-
-  // Sync options on index change
-  useEffect(() => {
-    setHiddenOptions([]);
-    setSelectedOption(null);
-    setAnswerLocked(true);
-    clearJokerMessageTimer();
-    if (questions[currentIndex]) {
-      const rawOpts = getQuestionOptions(questions[currentIndex]);
-      setCurrentShuffledOptions(shuffleArray(rawOpts));
-    }
-    const unlockTimer = setTimeout(() => setAnswerLocked(false), 300);
-    return () => clearTimeout(unlockTimer);
-  }, [currentIndex, questions]);
 
   // Auth Listener
   useEffect(() => {
@@ -257,12 +203,11 @@ export default function App() {
             ...statsOnly
           } = raw;
 
-          // If there was no existing doc, start from defaults; otherwise
-          // merge fetched stats over defaults so newly-added default
-          // fields don't silently stay undefined for existing players.
-          const next = cloudStats
-            ? { ...DEFAULT_GLOBAL_STATS, ...statsOnly }
-            : { ...DEFAULT_GLOBAL_STATS };
+          const localAccountStats = loadStats(user.uid);
+          const baseStats = cloudStats
+            ? { ...localAccountStats, ...statsOnly }
+            : localAccountStats;
+          const next = migrateStats(baseStats);
 
           const newlyUnlocked = evaluateAchievements(next, { isSignedIn: true });
           next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
@@ -270,10 +215,8 @@ export default function App() {
         });
         setStatsReadyForUid(user.uid);
       } else {
-        // Sign-out: reset globalStats to defaults so the next anonymous
-        // player on a shared device doesn't inherit this account's
-        // coins/level/trophies.
-        setGlobalStats({ ...DEFAULT_GLOBAL_STATS });
+        // Sign-out: load 'anon' stats using account-scoped key
+        setGlobalStats(loadStats(null));
       }
 
       if (isAdminPath()) {
@@ -289,7 +232,6 @@ export default function App() {
     return () => unsubscribe();
   }, []);
 
-  // Save state
   useEffect(() => {
     localStorage.setItem('triviabong_leaderboards', JSON.stringify(leaderboards));
   }, [leaderboards]);
@@ -297,14 +239,14 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('triviabong_global_stats', JSON.stringify(globalStats));
     if (currentUser?.uid && statsReadyForUid === currentUser.uid) {
-      syncUserStatsToFirestore(currentUser.uid, globalStats);
-      syncPublicProfile(currentUser.uid, getPlayerDisplayName(currentUser), globalStats);
+      const syncTimer = setTimeout(() => {
+        syncUserStatsToFirestore(currentUser.uid, globalStats);
+        syncPublicProfile(currentUser.uid, getPlayerDisplayName(currentUser), globalStats);
+      }, 2000);
+      return () => clearTimeout(syncTimer);
     }
   }, [globalStats, currentUser, statsReadyForUid]);
 
-  // Interim multi-tab mitigation: listen for storage events from other tabs
-  // and merge using monotonic max-field checks to prevent last-write-wins data loss.
-  // Note: This interim logic will be superseded by Phase 2 Commit 4 (statsStore.js + atomic increment()).
   useEffect(() => {
     const handleStorageChange = (e) => {
       if (e.key === 'triviabong_global_stats' && e.newValue) {
@@ -333,14 +275,13 @@ export default function App() {
   };
 
   useEffect(() => {
-    (async () => {
-      await refreshRekordiData();
-    })();
-  }, []);
+    if (showRekordiModal && !rekordiData) {
+      refreshRekordiData();
+    }
+  }, [showRekordiModal, rekordiData]);
 
   const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showAuthModal;
 
-  // Timer
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
 
@@ -351,13 +292,16 @@ export default function App() {
 
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
-        if (prev <= 4 && prev > 1) sound.playTick();
-        return prev - 1;
+        const next = prev - 1;
+        if (next <= 4 && next > 0) {
+          sound.playTick();
+        }
+        return Math.max(0, next);
       });
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, gameState, selectedOption, isAnyModalOpen]);
+  }, [gameState, selectedOption, isAnyModalOpen, currentIndex]);
 
   const returnToLobby = () => {
     sound.playClick();
@@ -372,7 +316,14 @@ export default function App() {
     setGameState('LEADERBOARD');
     setIsLoadingLeaderboard(true);
 
+    const fetchId = ++categoryFetchIdRef.current;
     const remoteScores = await getLeaderboardFromFirestore(catKey);
+
+    // A newer selectCategory call (rapid category switching) superseded
+    // this one while the fetch was in flight - drop the stale result
+    // instead of showing the wrong category's scores under the right header.
+    if (fetchId !== categoryFetchIdRef.current) return;
+
     if (remoteScores.length > 0) {
       setActiveCategoryLeaderboard(remoteScores);
     } else {
@@ -408,96 +359,38 @@ export default function App() {
     setSkipUsedAtLastLife(false);
 
     setGlobalStats(prev => {
-      const { dayStreak, lastPlayedDate } = computeDayStreakUpdate(prev);
-      const next = {
-        ...prev,
-        totalGames: (prev.totalGames || 0) + 1,
-        dayStreak,
-        lastPlayedDate
-      };
-      const newlyUnlocked = evaluateAchievements(next, {});
-      next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
-      return next;
+      const { stats } = applyAnswer(prev, {}, { type: 'START_ROUND' });
+      return stats;
     });
   };
 
-  const updateCategoryStats = (isCorrect, pointsEarned = 0) => {
+  const updateCategoryStats = (isCorrect, pointsEarned = 0, newStreak = 0) => {
     const cat = selectedCategory || 'opca_znanje';
     setGlobalStats(prev => {
-      const prevCat = prev.categoryStats?.[cat] || { total: 0, correct: 0 };
-      const newStreak = isCorrect ? streak + 1 : 0;
-
-      const next = {
-        ...prev,
-        totalAnswered: (prev.totalAnswered || 0) + 1,
-        totalCorrect: (prev.totalCorrect || 0) + (isCorrect ? 1 : 0),
-        maxStreak: Math.max(prev.maxStreak || 0, newStreak),
-        // Use the actual points earned this answer instead of the stale
-        // `score` closure, which hadn't been updated yet when this runs.
-        totalScore: (prev.totalScore || 0) + pointsEarned,
-        categoryStats: {
-          ...prev.categoryStats,
-          [cat]: {
-            total: prevCat.total + 1,
-            correct: prevCat.correct + (isCorrect ? 1 : 0)
-          }
-        }
-      };
-      // Only cumulative/category-total achievements are checkable here - the
-      // rest need round/answer-scoped context this function doesn't have,
-      // and get evaluated at their own checkpoints instead.
-      const newlyUnlocked = evaluateAchievements(next, {});
-      next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
-      return next;
+      const { stats } = applyAnswer(prev, {}, {
+        type: 'ANSWER',
+        isCorrect,
+        pointsEarned,
+        category: cat,
+        newStreak
+      });
+      return stats;
     });
   };
 
-  // Round-end coin/XP payout, called once from every place a round can end.
-  // isPerfect (all QUESTIONS_PER_ROUND answered correctly - no wrong answers,
-  // timeouts, or skips) is only ever true from handleAnswer's own VICTORY
-  // path; every other call site passes false, since GAMEOVER, a timeout, or
-  // a skip each structurally rule out a perfect round.
-  //
-  // jokersUsedSnapshot/skipUsedAtLastLifeSnapshot are passed in explicitly
-  // rather than read from the jokersUsed/skipUsedAtLastLife state closures
-  // here, because activateSkip's own VICTORY call site calls this in the same
-  // tick it also calls setJokersUsed/setSkipUsedAtLastLife - React state
-  // updates aren't visible to a closure until the next render, so reading
-  // the state variables directly at that one call site would see stale
-  // pre-update values. Every other call site can safely pass the state
-  // variables straight through, since they weren't just mutated this tick.
   const applyRoundEndRewards = (isPerfect, { isVictory = false, finalScore, jokersUsedSnapshot, skipUsedAtLastLifeSnapshot } = {}) => {
     setGlobalStats(prev => {
-      const newXp = prev.xp + (isPerfect ? PERFECT_ROUND_XP_BONUS : 0);
-      const prevLevel = prev.level || 1;
-      const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
-      const leveledUp = newLevel > prevLevel;
-
-      const coinsEarned = COIN_PER_ROUND_COMPLETE
-        + (isPerfect ? COIN_PERFECT_ROUND_BONUS : 0)
-        + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
-
-      const next = {
-        ...prev,
-        xp: newXp,
-        level: newLevel,
-        coins: prev.coins + coinsEarned,
-        consecutivePerfectRounds: isPerfect ? (prev.consecutivePerfectRounds || 0) + 1 : 0
-      };
-
       const jokers = jokersUsedSnapshot || { fiftyFifty: false, plusTen: false, skip: false };
-      const ctx = {
+      const { stats } = applyAnswer(prev, {}, {
+        type: 'ROUND_END',
         isPerfect,
         finalScore,
-        hour: new Date().getHours(),
-        isVictory,
-        noJokersUsed: !jokers.fiftyFifty && !jokers.plusTen && !jokers.skip,
+        jokersUsed: jokers,
         skipUsedAtLastLife: skipUsedAtLastLifeSnapshot,
-        roundElapsedMs: roundStartTime ? Date.now() - roundStartTime : undefined
-      };
-      const newlyUnlocked = evaluateAchievements(next, ctx);
-      next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
-      return next;
+        roundElapsedMs: roundStartTime ? Date.now() - roundStartTime : undefined,
+        isVictory
+      });
+      return stats;
     });
   };
 
@@ -507,10 +400,6 @@ export default function App() {
 
     const currentQ = questions[currentIndex];
     const correct = checkIsCorrect(currentQ, option);
-
-    // Defer the updateCategoryStats call until after we know the earned
-    // points (computed below for correct answers) so totalScore uses the
-    // actual value instead of the stale `score` state closure.
 
     let newCorrectInRound = correctInRound;
     let newScore = score;
@@ -528,13 +417,8 @@ export default function App() {
       setCorrectInRound(newCorrectInRound);
 
       const newStreak = streak + 1;
-      // A fast answer (<3s elapsed, i.e. >17s left on the 20s clock) extends
-      // the achievement run; anything slower breaks it - for Sonic Speed.
       const newFastAnswerStreak = timeLeft > 17 ? fastAnswerStreak + 1 : 0;
       setFastAnswerStreak(newFastAnswerStreak);
-
-      // Now that we know the earned points, update category stats with them.
-      updateCategoryStats(true, earned);
 
       const isLastQuestion = currentIndex === questions.length - 1;
       const isLivingDangerously = isLastQuestion
@@ -542,41 +426,22 @@ export default function App() {
       const isLifeSaverHit = fiftyFiftyUsedOnIndex === currentIndex;
 
       setGlobalStats(prev => {
-        const newXp = prev.xp + XP_PER_CORRECT_ANSWER;
-        const prevLevel = prev.level || 1;
-        // Only ever moves level up from gameplay, never down - preserves
-        // an admin's manual override (AdminPanel) until the player's own
-        // xp naturally earns a higher level.
-        const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
-        const leveledUp = newLevel > prevLevel;
-
-        const coinsEarned = (newStreak % COIN_STREAK_BONUS_INTERVAL === 0 ? COIN_STREAK_BONUS_AMOUNT : 0)
-          + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
-
-        const next = {
-          ...prev,
-          xp: newXp,
-          level: newLevel,
-          coins: prev.coins + coinsEarned
-        };
-
-        const ctx = {
-          // Cap timeLeft at QUESTION_TIME_SECONDS so the +10s joker can't
-          // inflate speed achievements (e.g. lightning_reflexes checks > 18).
-          timeLeft: Math.min(timeLeft, QUESTION_TIME_SECONDS),
-          newStreak,
-          fastAnswerStreak: newFastAnswerStreak,
+        const { stats } = applyAnswer(prev, {}, {
+          type: 'ANSWER',
+          isCorrect: true,
+          pointsEarned: earned,
+          category: selectedCategory || 'opca_znanje',
+          timeLeft,
+          isLivingDangerously,
           isLifeSaverHit,
-          isLivingDangerously
-        };
-        const newlyUnlocked = evaluateAchievements(next, ctx);
-        next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
-        return next;
+          fastAnswerStreak: newFastAnswerStreak,
+          newStreak
+        });
+        return stats;
       });
     } else {
       sound.playWrong();
-      // Wrong answer earns 0 points.
-      updateCategoryStats(false, 0);
+      updateCategoryStats(false, 0, 0);
       setStreak(0);
       setFastAnswerStreak(0);
       const newLives = lives - 1;
@@ -620,7 +485,7 @@ export default function App() {
 
   const handleAnswerTimeout = () => {
     sound.playWrong();
-    updateCategoryStats(false);
+    updateCategoryStats(false, 0, 0);
     setStreak(0);
     setFastAnswerStreak(0);
     const newLives = lives - 1;
@@ -659,19 +524,14 @@ export default function App() {
     }, 1200);
   };
 
-  // Checks/merges the Tactician achievement (all 3 jokers used in one round)
-  // right when the state transitions to "all true" - jokersUsedAfter must be
-  // the freshly-computed object, not the jokersUsed state variable, since
-  // every caller here calls this in the same tick it also calls
-  // setJokersUsed (stale-closure trap otherwise).
-  const checkTacticianOnJokerUse = (jokersUsedAfter) => {
+  const checkTacticianOnJokerUse = (jokersUsedAfter, cost = 0) => {
     setGlobalStats(prev => {
-      const ctx = {
-        allJokersUsedThisRound: jokersUsedAfter.fiftyFifty && jokersUsedAfter.plusTen && jokersUsedAfter.skip
-      };
-      const newlyUnlocked = evaluateAchievements(prev, ctx);
-      if (newlyUnlocked.length === 0) return prev;
-      return { ...prev, unlockedAchievements: mergeUnlockedAchievements(prev, newlyUnlocked) };
+      const { stats } = applyAnswer(prev, {}, {
+        type: 'USE_JOKER',
+        cost,
+        jokersUsedAfter
+      });
+      return stats;
     });
   };
 
@@ -681,9 +541,6 @@ export default function App() {
 
     sound.playClick();
     const correctAns = currentQ.correct_answer || currentQ.correctAnswer;
-    // Collect indices of incorrect options (not values) so duplicate strings
-    // don't cause all copies to be hidden — fixes the guaranteed-answer exploit
-    // on questions like hr_geo_59 / hr_sport_80 that have duplicate incorrects.
     const incorrectIndices = currentShuffledOptions
       .map((opt, i) => (opt !== correctAns ? i : -1))
       .filter(i => i !== -1);
@@ -693,8 +550,7 @@ export default function App() {
     const newJokersUsed = { ...jokersUsed, fiftyFifty: true };
     setJokersUsed(newJokersUsed);
     setFiftyFiftyUsedOnIndex(currentIndex);
-    setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.fiftyFifty }));
-    checkTacticianOnJokerUse(newJokersUsed);
+    checkTacticianOnJokerUse(newJokersUsed, JOKER_COSTS.fiftyFifty);
   };
 
   const activatePlusTen = () => {
@@ -703,8 +559,7 @@ export default function App() {
     setTimeLeft(t => t + PLUS_TEN_SECONDS);
     const newJokersUsed = { ...jokersUsed, plusTen: true };
     setJokersUsed(newJokersUsed);
-    setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.plusTen }));
-    checkTacticianOnJokerUse(newJokersUsed);
+    checkTacticianOnJokerUse(newJokersUsed, JOKER_COSTS.plusTen);
   };
 
   const activateSkip = () => {
@@ -714,8 +569,7 @@ export default function App() {
     const isLastLifeSkip = lives === 1;
     setJokersUsed(newJokersUsed);
     if (isLastLifeSkip) setSkipUsedAtLastLife(true);
-    setGlobalStats(g => ({ ...g, coins: g.coins - JOKER_COSTS.skip }));
-    checkTacticianOnJokerUse(newJokersUsed);
+    checkTacticianOnJokerUse(newJokersUsed, JOKER_COSTS.skip);
     setFastAnswerStreak(0);
 
     setHiddenOptions([]);
@@ -740,11 +594,15 @@ export default function App() {
 
     const catKey = selectedCategory || 'opca_znanje';
 
-    const currentList = leaderboards[catKey] || [];
-    const newList = [...currentList, { name: entryName, score, date: new Date().toLocaleDateString() }]
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 10);
-    setLeaderboards({ ...leaderboards, [catKey]: newList });
+    let previousLeaderboards;
+    setLeaderboards(prev => {
+      previousLeaderboards = prev;
+      const currentList = prev[catKey] || [];
+      const newList = [...currentList, { name: entryName, score, date: new Date().toLocaleDateString() }]
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+      return { ...prev, [catKey]: newList };
+    });
 
     try {
       const elapsedMs = roundStartTime ? Date.now() - roundStartTime : null;
@@ -754,6 +612,11 @@ export default function App() {
       setScoreSaved(true);
       sound.playClick();
       refreshRekordiData();
+    } catch (err) {
+      if (previousLeaderboards) {
+        setLeaderboards(previousLeaderboards);
+      }
+      console.error('Failed to save score:', err);
     } finally {
       setIsSaving(false);
     }
@@ -789,7 +652,6 @@ export default function App() {
     return getAllCategories();
   }, []);
 
-  const currentQ = questions[currentIndex];
   const isAdminUser = currentUser && currentUser.email === ADMIN_EMAIL;
 
   // Split each joker's "disabled" reason: already used / mid-answer is truly
@@ -822,39 +684,21 @@ export default function App() {
         </div>
 
         <div className="flex items-center gap-2.5">
-          <div className="flex items-center gap-1">
-            <button
-              onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-              className="flex flex-col items-center gap-0.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400 transition-colors"
-              title="Razina i Statistika"
-            >
-              <span className="flex items-center gap-1 text-xs font-bold">
-                <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
-                {globalStats.level || 1}
-              </span>
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Razina</span>
-            </button>
-
-            <div className="flex flex-col items-center gap-0.5 bg-slate-900/80 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400">
-              <span className="flex items-center gap-1 text-xs font-bold">
-                <Coins className="w-4 h-4 text-amber-400" />
-                {globalStats.coins}
-              </span>
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Zlatnici</span>
-            </div>
-
-            <button
-              onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
-              className="flex flex-col items-center gap-0.5 bg-slate-900/80 hover:bg-slate-800 border border-slate-800/80 px-3 py-1 rounded-xl text-amber-400 transition-colors"
-              title="Trofeji"
-            >
-              <span className="flex items-center gap-1 text-xs font-bold">
-                <Trophy className="w-4 h-4 text-amber-400" />
-                {Object.keys(globalStats.unlockedAchievements || {}).length}
-              </span>
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wide leading-none">Trofeji</span>
-            </button>
-          </div>
+          <button
+            onClick={() => { sound.playClick(); setShowStatsModal(true); }}
+            className="flex items-center gap-3 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm"
+            title="Razina i Statistika"
+          >
+            <span className="flex items-center gap-1.5 text-xs font-bold">
+              <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+              <span>Lvl {globalStats.level || 1}</span>
+            </span>
+            <span className="w-px h-3.5 bg-slate-800" />
+            <span className="flex items-center gap-1.5 text-xs font-bold">
+              <Coins className="w-3.5 h-3.5 text-amber-400" />
+              <span>{globalStats.coins}</span>
+            </span>
+          </button>
 
           <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
@@ -1183,6 +1027,7 @@ export default function App() {
         isOpen={showStatsModal}
         onClose={() => setShowStatsModal(false)}
         stats={globalStats}
+        onOpenAchievements={() => setShowAchievementsModal(true)}
       />
 
       {/* Achievements Modal */}
@@ -1220,18 +1065,16 @@ export default function App() {
 
       {/* Admin Panel Gate */}
       {showAdminPanel && isAdminUser && (
-        <AdminPanel
-          globalStats={globalStats}
-          setGlobalStats={setGlobalStats}
-          leaderboards={leaderboards}
-          setLeaderboards={setLeaderboards}
-          onClose={() => {
-            setShowAdminPanel(false);
-            if (isAdminPath()) {
-              window.history.pushState({}, '', '/');
-            }
-          }}
-        />
+        <React.Suspense fallback={null}>
+          <AdminPanel
+            onClose={() => {
+              setShowAdminPanel(false);
+              if (isAdminPath()) {
+                window.history.pushState({}, '', '/');
+              }
+            }}
+          />
+        </React.Suspense>
       )}
 
       <footer className="text-center py-4 text-xs text-slate-600 font-medium">
