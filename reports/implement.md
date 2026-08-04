@@ -71,13 +71,13 @@ Item 1 (XP/level migration) is *not* a Phase 1 commit — `master-plan.md` itsel
 
 1. ~~**`style: playing-screen focus`** *(items 1, 2)*~~ ✅ **DONE & COMMITTED** — `db679e6`. `TimerRing` size/stroke/digit weight bumped; header Razina+Zlatnici merged into one pill, Trofeji moved into `StatsModal`.
 2. ~~**`style: tactile feedback + lobby variety`** *(items 3, 4, 5)*~~ ✅ **DONE & COMMITTED** — `848b17f`. `active:scale`/`active:brightness-95` on all 17 App.jsx buttons; per-category color tokens (icon bg/border/text + literal hover/group-hover variants) in `categoryKeys.js`; Opće znanje promoted to a full-width featured card above the outlined 7-category grid.
-3. **`style: transition & overlay polish`** *(items 6, 7)* — game-over shake/flash, sticky modal headers on `GuideModal`/`StatsModal`/`AuthModal`.
+3. ~~**`style: transition & overlay polish`** *(items 6, 7)*~~ ✅ **DONE & COMMITTED** — `53b9e15`. `@keyframes shake`/`flashRed` in `src/index.css`; GAMEOVER card shakes + flashes red (`ring-1 ring-rose-500/40`), VICTORY gets a plain fade-in; sticky headers (`sticky top-0 z-10 bg-slate-900`) in `GuideModal.jsx`/`StatsModal.jsx`.
 
 ---
 
 ## Phase 5 — Polish (2 commits)
 
-1. **`chore: token/copy polish`** *(items 1, 2, 3, 5)* — `AuthModal` background token, sub-11px text sizing, logotype gradient simplification, CLAUDE.md bundle-size/ADMIN_EMAIL refresh. All trivial, no shared lines.
+1. ~~**`chore: token/copy polish`** *(items 1, 2, 3, 5)*~~ ✅ **DONE & COMMITTED** — `53b9e15`. `AuthModal` background `#121824` → `bg-slate-900`; sub-11px stat/caption text (`text-[10px]`) raised to `text-xs` in `StatsModal`/`RekordiBoards`/`AchievementsModal`; header logotype gradient simplified; `CLAUDE.md` code-splitting section added — corrected before committing, the original draft claimed the initial bundle is "well under 150KB gzipped" but `questionsLoader.js` still statically imports every category JSON file, so `manualChunks` splits it into a separate cacheable file without deferring the ~239KB gzipped load (only `AdminPanel`, ~7KB, is actually lazy) — real initial total is ~489KB gzipped, documented accurately instead.
 2. ~~**`chore: remove unused framer-motion dependency`** *(item 4)* — kept isolated from the above so a `package.json`/lockfile change is independently revertable if it turns out something depended on it transitively.~~ ✅ **DONE & COMMITTED** — `9d507d2`. `npm uninstall framer-motion` (also dropped transitive-only `motion-dom`/`motion-utils`); confirmed via grep that `src/` and `api/` had zero imports. Full `npm run build` verification was blocked by the unrelated, pre-existing `App.jsx` `currentQ` duplicate-declaration break from a concurrent in-progress refactor — re-run once that resolves.
 
 ---
