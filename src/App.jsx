@@ -27,6 +27,7 @@ import {
 } from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './utils/achievements';
+import { mergeMonotonicStats } from './utils/statsMerge';
 import { sound } from './utils/sound';
 import AdminPanel from './components/AdminPanel';
 import AuthModal from './components/AuthModal';
@@ -137,6 +138,36 @@ export default function App() {
     setJokerMessage(text);
     jokerMessageTimer.current = setTimeout(() => setJokerMessage(null), 2000);
   };
+  const clearJokerMessageTimer = () => {
+    clearTimeout(jokerMessageTimer.current);
+    jokerMessageTimer.current = null;
+    setJokerMessage(null);
+  };
+
+  // Tracks the post-answer setTimeout that advances to the next question/
+  // victory, and the one that transitions to GAMEOVER on the last life -
+  // both stored in refs (not fire-and-forget) so a mid-transition escape
+  // to LOBBY (header logo click) can cancel them instead of letting a
+  // stale timer land state changes (or an abandoned round's score save)
+  // against a screen the player already left.
+  const roundTransitionTimerRef = useRef(null);
+  const gameOverTimerRef = useRef(null);
+  const clearRoundTransitionTimers = () => {
+    clearTimeout(roundTransitionTimerRef.current);
+    clearTimeout(gameOverTimerRef.current);
+    roundTransitionTimerRef.current = null;
+    gameOverTimerRef.current = null;
+  };
+
+  // Belt-and-braces cleanup for the timers above on unmount (hot-reload,
+  // StrictMode double-invoke) - the explicit clearRoundTransitionTimers()
+  // calls at each LOBBY transition are what matter in normal use.
+  useEffect(() => {
+    return () => {
+      clearRoundTransitionTimers();
+      clearTimeout(jokerMessageTimer.current);
+    };
+  }, []);
 
   const [leaderboards, setLeaderboards] = useState(() => {
     const saved = localStorage.getItem('triviabong_leaderboards');
@@ -178,6 +209,7 @@ export default function App() {
     setHiddenOptions([]);
     setSelectedOption(null);
     setAnswerLocked(true);
+    clearJokerMessageTimer();
     if (questions[currentIndex]) {
       const rawOpts = getQuestionOptions(questions[currentIndex]);
       setCurrentShuffledOptions(shuffleArray(rawOpts));
@@ -188,28 +220,60 @@ export default function App() {
 
   // Auth Listener
   useEffect(() => {
+    // Guard for the account-switch race: if a new auth event fires while
+    // a previous getUserStatsFromFirestore is still in flight, the stale
+    // fetch must not overwrite the newer account's state or strand
+    // statsReadyForUid on the wrong uid.  Bumping this counter on every
+    // auth event lets the fetch callback detect it was superseded.
+    let authGeneration = 0;
+
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
+      const myGeneration = ++authGeneration;
+
       // Block syncing until this account's own stats have loaded below -
       // otherwise the outgoing account's in-memory globalStats can get
       // written into the new account's profile before the fetch resolves.
       setStatsReadyForUid(null);
       setCurrentUser(user);
+
       if (user) {
         if (user.displayName) setNickname(user.displayName);
         const cloudStats = await getUserStatsFromFirestore(user.uid);
-        setGlobalStats(prev => {
-          const next = {
-            ...prev,
-            // No existing doc means this account has never saved stats before -
-            // reset every field instead of inheriting whatever the previous
-            // account left in memory.
-            ...(cloudStats || DEFAULT_GLOBAL_STATS)
-          };
+
+        // If another auth event fired while we were fetching, this
+        // result is stale — drop it so the newer handler wins.
+        if (myGeneration !== authGeneration) return;
+
+        setGlobalStats(_prev => {
+          // Strip non-stat metadata fields that syncUserProfile writes
+          // into the same users/{uid} doc (uid, email, displayName,
+          // photoURL, lastLogin, updatedAt, role).  Spreading these into
+          // globalStats pollutes it and degrades Firestore Timestamps on
+          // the localStorage round-trip.
+          const raw = cloudStats || {};
+          const {
+            uid: _uid, email: _email, displayName: _dn, photoURL: _ph,
+            lastLogin: _ll, updatedAt: _ua, role: _role,
+            ...statsOnly
+          } = raw;
+
+          // If there was no existing doc, start from defaults; otherwise
+          // merge fetched stats over defaults so newly-added default
+          // fields don't silently stay undefined for existing players.
+          const next = cloudStats
+            ? { ...DEFAULT_GLOBAL_STATS, ...statsOnly }
+            : { ...DEFAULT_GLOBAL_STATS };
+
           const newlyUnlocked = evaluateAchievements(next, { isSignedIn: true });
           next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
           return next;
         });
         setStatsReadyForUid(user.uid);
+      } else {
+        // Sign-out: reset globalStats to defaults so the next anonymous
+        // player on a shared device doesn't inherit this account's
+        // coins/level/trophies.
+        setGlobalStats({ ...DEFAULT_GLOBAL_STATS });
       }
 
       if (isAdminPath()) {
@@ -238,6 +302,24 @@ export default function App() {
     }
   }, [globalStats, currentUser, statsReadyForUid]);
 
+  // Interim multi-tab mitigation: listen for storage events from other tabs
+  // and merge using monotonic max-field checks to prevent last-write-wins data loss.
+  // Note: This interim logic will be superseded by Phase 2 Commit 4 (statsStore.js + atomic increment()).
+  useEffect(() => {
+    const handleStorageChange = (e) => {
+      if (e.key === 'triviabong_global_stats' && e.newValue) {
+        try {
+          const incoming = JSON.parse(e.newValue);
+          setGlobalStats(current => mergeMonotonicStats(current, incoming));
+        } catch (err) {
+          console.error('Error handling storage event for global stats:', err);
+        }
+      }
+    };
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
+  }, []);
+
   const refreshRekordiData = async () => {
     const [level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak] = await Promise.all([
       getPublicProfileLeaderboard('level', 10),
@@ -256,9 +338,11 @@ export default function App() {
     })();
   }, []);
 
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showAuthModal;
+
   // Timer
   useEffect(() => {
-    if (gameState !== 'PLAYING' || selectedOption !== null) return;
+    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
 
     if (timeLeft <= 0) {
       handleAnswerTimeout();
@@ -273,7 +357,14 @@ export default function App() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeLeft, gameState, selectedOption]);
+  }, [timeLeft, gameState, selectedOption, isAnyModalOpen]);
+
+  const returnToLobby = () => {
+    sound.playClick();
+    clearRoundTransitionTimers();
+    clearJokerMessageTimer();
+    setGameState('LOBBY');
+  };
 
   const selectCategory = async (catKey) => {
     sound.playClick();
@@ -292,6 +383,8 @@ export default function App() {
 
   const launchQuizRound = () => {
     sound.playClick();
+    clearRoundTransitionTimers();
+    clearJokerMessageTimer();
     const loadedQuestions = getQuestionsByCategory(selectedCategory);
     const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, QUESTIONS_PER_ROUND);
 
@@ -328,7 +421,7 @@ export default function App() {
     });
   };
 
-  const updateCategoryStats = (isCorrect) => {
+  const updateCategoryStats = (isCorrect, pointsEarned = 0) => {
     const cat = selectedCategory || 'opca_znanje';
     setGlobalStats(prev => {
       const prevCat = prev.categoryStats?.[cat] || { total: 0, correct: 0 };
@@ -339,7 +432,9 @@ export default function App() {
         totalAnswered: (prev.totalAnswered || 0) + 1,
         totalCorrect: (prev.totalCorrect || 0) + (isCorrect ? 1 : 0),
         maxStreak: Math.max(prev.maxStreak || 0, newStreak),
-        totalScore: (prev.totalScore || 0) + (isCorrect ? score : 0),
+        // Use the actual points earned this answer instead of the stale
+        // `score` closure, which hadn't been updated yet when this runs.
+        totalScore: (prev.totalScore || 0) + pointsEarned,
         categoryStats: {
           ...prev.categoryStats,
           [cat]: {
@@ -413,7 +508,9 @@ export default function App() {
     const currentQ = questions[currentIndex];
     const correct = checkIsCorrect(currentQ, option);
 
-    updateCategoryStats(correct);
+    // Defer the updateCategoryStats call until after we know the earned
+    // points (computed below for correct answers) so totalScore uses the
+    // actual value instead of the stale `score` state closure.
 
     let newCorrectInRound = correctInRound;
     let newScore = score;
@@ -435,6 +532,9 @@ export default function App() {
       // the achievement run; anything slower breaks it - for Sonic Speed.
       const newFastAnswerStreak = timeLeft > 17 ? fastAnswerStreak + 1 : 0;
       setFastAnswerStreak(newFastAnswerStreak);
+
+      // Now that we know the earned points, update category stats with them.
+      updateCategoryStats(true, earned);
 
       const isLastQuestion = currentIndex === questions.length - 1;
       const isLivingDangerously = isLastQuestion
@@ -461,7 +561,9 @@ export default function App() {
         };
 
         const ctx = {
-          timeLeft,
+          // Cap timeLeft at QUESTION_TIME_SECONDS so the +10s joker can't
+          // inflate speed achievements (e.g. lightning_reflexes checks > 18).
+          timeLeft: Math.min(timeLeft, QUESTION_TIME_SECONDS),
           newStreak,
           fastAnswerStreak: newFastAnswerStreak,
           isLifeSaverHit,
@@ -473,6 +575,8 @@ export default function App() {
       });
     } else {
       sound.playWrong();
+      // Wrong answer earns 0 points.
+      updateCategoryStats(false, 0);
       setStreak(0);
       setFastAnswerStreak(0);
       const newLives = lives - 1;
@@ -484,12 +588,16 @@ export default function App() {
           jokersUsedSnapshot: jokersUsed,
           skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
         });
-        setTimeout(() => setGameState('GAMEOVER'), 1000);
+        gameOverTimerRef.current = setTimeout(() => {
+          gameOverTimerRef.current = null;
+          setGameState('GAMEOVER');
+        }, 1000);
         return;
       }
     }
 
-    setTimeout(() => {
+    roundTransitionTimerRef.current = setTimeout(() => {
+      roundTransitionTimerRef.current = null;
       setSelectedOption(null);
       setHiddenOptions([]);
 
@@ -525,11 +633,15 @@ export default function App() {
         jokersUsedSnapshot: jokersUsed,
         skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
       });
-      setTimeout(() => setGameState('GAMEOVER'), 1000);
+      gameOverTimerRef.current = setTimeout(() => {
+        gameOverTimerRef.current = null;
+        setGameState('GAMEOVER');
+      }, 1000);
       return;
     }
 
-    setTimeout(() => {
+    roundTransitionTimerRef.current = setTimeout(() => {
+      roundTransitionTimerRef.current = null;
       setSelectedOption(null);
       setHiddenOptions([]);
       if (currentIndex + 1 < questions.length) {
@@ -569,8 +681,13 @@ export default function App() {
 
     sound.playClick();
     const correctAns = currentQ.correct_answer || currentQ.correctAnswer;
-    const incorrects = currentShuffledOptions.filter(opt => opt !== correctAns);
-    const toHide = shuffleArray(incorrects).slice(0, 2);
+    // Collect indices of incorrect options (not values) so duplicate strings
+    // don't cause all copies to be hidden — fixes the guaranteed-answer exploit
+    // on questions like hr_geo_59 / hr_sport_80 that have duplicate incorrects.
+    const incorrectIndices = currentShuffledOptions
+      .map((opt, i) => (opt !== correctAns ? i : -1))
+      .filter(i => i !== -1);
+    const toHide = shuffleArray(incorrectIndices).slice(0, 2);
 
     setHiddenOptions(toHide);
     const newJokersUsed = { ...jokersUsed, fiftyFifty: true };
@@ -693,7 +810,7 @@ export default function App() {
       {/* Header */}
       <header className="w-full max-w-4xl mx-auto px-4 py-4 flex justify-between items-center border-b border-slate-900">
         <div
-          onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
+          onClick={returnToLobby}
           className="flex items-center gap-2 cursor-pointer group"
         >
           <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-slate-950 font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
@@ -880,7 +997,7 @@ export default function App() {
 
             <div className="flex gap-3 pt-2">
               <button
-                onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
+                onClick={returnToLobby}
                 className="flex-1 bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold py-3.5 rounded-2xl transition-colors text-sm"
               >
                 Natrag
@@ -928,7 +1045,7 @@ export default function App() {
 
               <div className="grid grid-cols-1 gap-3">
                 {currentShuffledOptions.map((option, idx) => {
-                  const isHidden = hiddenOptions.includes(option);
+                  const isHidden = hiddenOptions.includes(idx);
                   if (isHidden) return null;
 
                   const isCorrect = checkIsCorrect(currentQ, option);
@@ -1051,7 +1168,7 @@ export default function App() {
             )}
 
             <button
-              onClick={() => { sound.playClick(); setGameState('LOBBY'); }}
+              onClick={returnToLobby}
               className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm"
             >
               <RefreshCw className="w-4 h-4 text-slate-400" /> Povratak u Izbornik
