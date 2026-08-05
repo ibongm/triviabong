@@ -762,60 +762,28 @@ export default function App() {
               </p>
             </div>
 
-            {(() => {
-              // Opće znanje draws from every category's questions combined
-              // (see questionsLoader.js AGGREGATE_CATEGORIES) - it's the
-              // biggest, most-replayable pool, so it gets a full-width
-              // featured card above the grid instead of blending into it
-              // as one more same-weight tile.
-              const featuredKey = 'opca_znanje';
-              const featured = getCategoryDetails(featuredKey);
-              const FeaturedIcon = featured.icon;
-              const restCategories = categoriesList.filter(k => k !== featuredKey);
-
-              return (
-                <>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+              {categoriesList.map(catKey => {
+                const details = getCategoryDetails(catKey);
+                const IconComponent = details.icon;
+                const color = details.color || DEFAULT_CATEGORY_COLOR;
+                return (
                   <button
-                    onClick={() => selectCategory(featuredKey)}
-                    className="w-full flex items-center justify-between p-5 bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 rounded-2xl transition-all group shadow-lg shadow-amber-500/20 hover:shadow-amber-500/30 hover:brightness-105 active:scale-[0.97] active:brightness-95"
+                    key={catKey}
+                    onClick={() => selectCategory(catKey)}
+                    className={`flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 ${color.hoverBorder} rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95`}
                   >
                     <div className="flex items-center gap-3.5">
-                      <div className="p-3 rounded-xl bg-slate-950/10 border border-slate-950/10 group-hover:scale-110 transition-transform">
-                        <FeaturedIcon className="w-6 h-6" />
+                      <div className={`p-3 rounded-xl ${color.bg} border ${color.border} ${color.text} group-hover:scale-110 transition-transform`}>
+                        <IconComponent className="w-5 h-5" />
                       </div>
-                      <div className="text-left">
-                        <span className="font-black text-base block">{featured.label}</span>
-                        <span className="text-xs font-bold text-slate-950/70">Pitanja iz svih kategorija - najveći fond</span>
-                      </div>
+                      <span className="font-bold text-slate-200 capitalize text-sm">{details.label}</span>
                     </div>
-                    <ChevronRight className="w-5 h-5 text-slate-950/60 group-hover:text-slate-950 transition-colors" />
+                    <ChevronRight className={`w-4 h-4 text-slate-600 ${color.groupHoverText} transition-colors`} />
                   </button>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                    {restCategories.map(catKey => {
-                      const details = getCategoryDetails(catKey);
-                      const IconComponent = details.icon;
-                      const color = details.color || DEFAULT_CATEGORY_COLOR;
-                      return (
-                        <button
-                          key={catKey}
-                          onClick={() => selectCategory(catKey)}
-                          className={`flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 ${color.hoverBorder} rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95`}
-                        >
-                          <div className="flex items-center gap-3.5">
-                            <div className={`p-3 rounded-xl ${color.bg} border ${color.border} ${color.text} group-hover:scale-110 transition-transform`}>
-                              <IconComponent className="w-5 h-5" />
-                            </div>
-                            <span className="font-bold text-slate-200 capitalize text-sm">{details.label}</span>
-                          </div>
-                          <ChevronRight className={`w-4 h-4 text-slate-600 ${color.groupHoverText} transition-colors`} />
-                        </button>
-                      );
-                    })}
-                  </div>
-                </>
-              );
-            })()}
+                );
+              })}
+            </div>
 
             <div className="space-y-3 pt-4">
               <div className="flex items-center justify-between">
