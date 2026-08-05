@@ -53,11 +53,17 @@ cd .claude/skills/run-triviabong
 node cross-device-sync-check.mjs
 ```
 
-Registers a throwaway email/password account in one headless browser
-context, plays a partial round, then logs in with the same
+Signs in as the shared **BongBotTest** email/password account in one
+headless browser context (creating it the first time it's ever run
+against a project), plays a partial round, then logs in with the same
 credentials in a second, independent fresh context (simulating a
 second device) and asserts the stats (games played, per-category
-accuracy) match. Requires the Email/Password sign-in provider to be
+accuracy) match. The account is fixed rather than per-run: throwaway
+accounts piled up in production forever, and their generated names
+were long enough to trip the 20-char `displayName` cap in
+`firestore.rules`, which silently broke the admin "Popuni sve
+profile" backfill for everyone. Stats accumulating across runs is
+harmless — the assertions compare the two contexts within one run. Requires the Email/Password sign-in provider to be
 enabled on the `triviabong-web` Firebase project (Console →
 Authentication → Sign-in method) — if it's off you'll see
 `auth/operation-not-allowed` in the script's error output rather than
@@ -109,9 +115,11 @@ also collects every browser console message and fails the run if any
   regression would show up as `permission-denied` here.
 - **A run that reaches "save score" adds a real (harmless, ~few
   hundred point) row to that category's live leaderboard.**
-  `cross-device-sync-check.mjs` similarly creates a real throwaway
-  Firebase Auth user + Firestore doc. Fine for occasional manual
-  verification; don't loop either script unattended.
+  Those rows are saved under the nickname `BongBotTest`, so test data
+  is identifiable and cleanable. `cross-device-sync-check.mjs`
+  similarly writes to the real BongBotTest Auth user + Firestore doc
+  (reused, not recreated). Fine for occasional manual verification;
+  don't loop either script unattended.
 - **`page.reload({ waitUntil: 'networkidle' })` (or `.goto` with the
   same option) can hang indefinitely once Firestore's SDK has
   established its persistent connection** — that connection never

@@ -26,10 +26,12 @@ import {
   JOKER_COSTS
 } from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
-import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './utils/achievements';
+import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate, mentionsHarryPotter } from './utils/achievements';
+import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from './constants/achievements';
 import { mergeMonotonicStats } from './utils/statsMerge';
 import { loadStats, saveStats, migrateStats, getStorageKey } from './services/statsStore';
 import { sound } from './utils/sound';
+import { sanitizeDisplayName } from './utils/publicProfile';
 const AdminPanel = React.lazy(() => import('./components/AdminPanel'));
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
@@ -37,6 +39,7 @@ import GuideModal from './components/GuideModal';
 import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import RekordiBoards from './components/RekordiBoards';
+import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import TimerRing from './components/TimerRing';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
@@ -62,7 +65,17 @@ const isAdminPath = () => {
   return path === '/admin' || path === '/admin/';
 };
 
-const getPlayerDisplayName = (user) => (user.displayName || user.email?.split('@')[0] || 'Igrač').slice(0, 20);
+// Firestore's leaderboard/publicProfiles rules cap name/displayName at 20
+// chars - without the slice, a long email local-part (no displayName set)
+// gets silently rejected by the rules ("Missing or insufficient permissions")
+// rather than truncated, so both writes that ever reach Firestore quietly fail.
+// Delegates to the shared sanitizer so this and the publicProfiles write path
+// in services/firebase.js can't drift to different bounds.
+const getPlayerDisplayName = (user) => sanitizeDisplayName(user);
+
+// Short beat between answering and the secret-achievement overlay, so the
+// green "correct" highlight registers before the overlay covers the board.
+const SECRET_REVEAL_DELAY_MS = 700;
 
 const DEFAULT_CATEGORY_COLOR = { bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-400', hoverBorder: 'hover:border-amber-500/50', groupHoverText: 'group-hover:text-amber-400' };
 
@@ -131,6 +144,19 @@ export default function App() {
   const categoryFetchIdRef = useRef(0);
 
   const [globalStats, setGlobalStats] = useState(() => loadStats(null));
+
+  // Secret-achievement reveal. The round is paused while this is set: the
+  // countdown already stopped when the answer was selected, and the deferred
+  // "advance to next question" work sits in pendingAdvanceRef until the
+  // player dismisses the overlay. secretCelebratedRef is mount-scoped (NOT
+  // reset per round) so the reveal can't replay within a session.
+  const [secretAchievement, setSecretAchievement] = useState(null);
+  const pendingAdvanceRef = useRef(null);
+  const secretCelebratedRef = useRef(false);
+  const secretRevealTimer = useRef(null);
+  const secretPausedAtRef = useRef(null);
+
+  useEffect(() => () => clearTimeout(secretRevealTimer.current), []);
 
   const [leaderboards, setLeaderboards] = useState(() => {
     const saved = localStorage.getItem('triviabong_leaderboards');
@@ -361,6 +387,14 @@ export default function App() {
     setFiftyFiftyUsedOnIndex(null);
     setSkipUsedAtLastLife(false);
 
+    // Drop any reveal left over from an abandoned round (e.g. the header
+    // logo dumping the player back to the lobby mid-overlay). Deliberately
+    // does NOT reset secretCelebratedRef - that's mount-scoped.
+    clearTimeout(secretRevealTimer.current);
+    pendingAdvanceRef.current = null;
+    secretPausedAtRef.current = null;
+    setSecretAchievement(null);
+
     setGlobalStats(prev => {
       const { stats } = applyAnswer(prev, {}, { type: 'START_ROUND' });
       return stats;
@@ -404,6 +438,20 @@ export default function App() {
     const currentQ = questions[currentIndex];
     const correct = checkIsCorrect(currentQ, option);
 
+    // Decided HERE, in the event handler body, rather than inside the
+    // setGlobalStats updater below that actually unlocks it: StrictMode
+    // double-invokes updaters, so firing confetti/sound/setState from in
+    // there would double-fire. This condition is equivalent to what the
+    // updater evaluates (ctx.isPotterQuestion === true, plus
+    // evaluateAchievements skipping ids already in unlockedAchievements) -
+    // keep the two in sync. secretCelebratedRef closes the one remaining
+    // gap: a Firestore stats load landing mid-round for a returning player
+    // who already owns the trophy.
+    const isPotterQuestion = correct && mentionsHarryPotter(currentQ);
+    const revealsSecret = isPotterQuestion
+      && !globalStats.unlockedAchievements?.[SVI_SMO_MI_MARIJA_ID]
+      && !secretCelebratedRef.current;
+
     let newCorrectInRound = correctInRound;
     let newScore = score;
 
@@ -438,7 +486,8 @@ export default function App() {
           isLivingDangerously,
           isLifeSaverHit,
           fastAnswerStreak: newFastAnswerStreak,
-          newStreak
+          newStreak,
+          isPotterQuestion
         });
         return stats;
       });
@@ -464,8 +513,11 @@ export default function App() {
       }
     }
 
-    roundTransitionTimerRef.current = setTimeout(() => {
-      roundTransitionTimerRef.current = null;
+    // Extracted so the secret-achievement path can DEFER it instead of
+    // duplicating it. Defined here (not hoisted) so it captures this
+    // invocation's newCorrectInRound/newScore/currentIndex/joker snapshots -
+    // see applyRoundEndRewards' comment above for why that matters.
+    const advanceOrFinish = () => {
       setSelectedOption(null);
       setHiddenOptions([]);
 
@@ -483,7 +535,44 @@ export default function App() {
         });
         setGameState('VICTORY');
       }
-    }, 1200);
+    };
+
+    if (revealsSecret) {
+      // Hold the round open on the reveal. Nothing else needs pausing: the
+      // countdown interval was already torn down by setSelectedOption, the
+      // answer buttons and all three jokers are disabled while
+      // selectedOption is set, and handleAnswerTimeout can't fire.
+      secretCelebratedRef.current = true;
+      pendingAdvanceRef.current = advanceOrFinish;
+      secretRevealTimer.current = setTimeout(() => {
+        secretPausedAtRef.current = Date.now();
+        setSecretAchievement(ACHIEVEMENTS.find(a => a.id === SVI_SMO_MI_MARIJA_ID));
+      }, SECRET_REVEAL_DELAY_MS);
+    } else {
+      roundTransitionTimerRef.current = setTimeout(() => {
+        roundTransitionTimerRef.current = null;
+        advanceOrFinish();
+      }, 1200);
+    }
+  };
+
+  const dismissSecretAchievement = () => {
+    const advance = pendingAdvanceRef.current;
+    if (!advance) return; // guards a double-tap on "Nastavi"
+    pendingAdvanceRef.current = null;
+    sound.playClick();
+    setSecretAchievement(null);
+
+    // Time spent staring at the overlay isn't time spent answering. Shifting
+    // roundStartTime forward by the paused duration keeps it out of BOTH of
+    // its readers - the speed_demon check and the elapsedMs written to the
+    // Rekordi "fastest perfect round" board - so a pause can't cost the
+    // player that achievement or post a bogus record time.
+    const pausedMs = Date.now() - (secretPausedAtRef.current || Date.now());
+    secretPausedAtRef.current = null;
+    if (pausedMs > 0) setRoundStartTime(t => (t ? t + pausedMs : t));
+
+    advance();
   };
 
   const handleAnswerTimeout = () => {
@@ -1039,6 +1128,15 @@ export default function App() {
         isOpen={showAchievementsModal}
         onClose={() => setShowAchievementsModal(false)}
         stats={globalStats}
+      />
+
+      {/* Secret achievement reveal - pauses the round until dismissed. The
+          gameState check matters: the header logo can drop the player to the
+          lobby mid-overlay, and without it the overlay would follow them. */}
+      <SecretAchievementOverlay
+        isOpen={!!secretAchievement && gameState === 'PLAYING'}
+        achievement={secretAchievement}
+        onClose={dismissSecretAchievement}
       />
 
       {/* Rekordi Modal */}

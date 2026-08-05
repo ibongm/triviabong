@@ -54,7 +54,7 @@ export default function RekordiBoards({ data, limitPerBoard = 10, compact = fals
                         ) : (
                             <ol className="text-xs text-slate-300 space-y-1">
                                 {entries.map((entry, idx) => (
-                                    <li key={entry.id || entry.uid} className="flex gap-2">
+                                    <li key={entry.id || entry.uid || idx} className="flex gap-2">
                                         <span className="text-amber-400 font-bold w-4 shrink-0">{idx + 1}.</span>
                                         <span className="truncate">{formatEntry(board, entry)}</span>
                                     </li>

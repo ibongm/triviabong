@@ -57,7 +57,8 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
         isLivingDangerously = false,
         isLifeSaverHit = false,
         fastAnswerStreak = 0,
-        newStreak = 0
+        newStreak = 0,
+        isPotterQuestion = false
       } = action;
 
       const prevCat = nextStats.categoryStats?.[category] || { total: 0, correct: 0 };
@@ -102,7 +103,8 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
         newStreak,
         fastAnswerStreak,
         isLifeSaverHit,
-        isLivingDangerously
+        isLivingDangerously,
+        isPotterQuestion
       };
 
       const newlyUnlocked = evaluateAchievements(nextStats, ctx);

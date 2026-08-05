@@ -11,6 +11,7 @@ import {
     getFirestore,
     doc,
     setDoc,
+    getDoc,
     getDocFromServer,
     waitForPendingWrites,
     getDocs,
@@ -23,10 +24,12 @@ import {
     serverTimestamp,
     addDoc,
     writeBatch,
-    connectFirestoreEmulator
+    connectFirestoreEmulator,
+    runTransaction
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
+import { buildPublicProfileFields } from "../utils/publicProfile";
 
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -143,10 +146,46 @@ export const saveScoreToFirestore = async (categoryKey, name, score, uid = null,
         if (typeof elapsedMs === 'number') payload.elapsedMs = elapsedMs;
         if (typeof isPerfect === 'boolean') payload.isPerfect = isPerfect;
         await addDoc(scoresRef, payload);
+        if (isPerfect === true && typeof elapsedMs === 'number') {
+            await maybeUpdateFastestPerfectRecord(categoryKey, name, uid, elapsedMs);
+        }
         return true;
     } catch (error) {
         console.error("Error saving score to Firestore:", error);
         return false;
+    }
+};
+
+const FASTEST_PERFECT_DOC_REF = () => doc(db, "records", "fastestPerfect");
+const MAX_FASTEST_PERFECT_ENTRIES = 10;
+
+/**
+ * Keeps records/fastestPerfect (a maintained top-10 of the fastest flawless
+ * rounds across every category) up to date, so getFastestPerfectRounds can
+ * read one bounded doc instead of scanning every leaderboards/{cat}/scores
+ * subcollection - see that function's comment for why the scan existed and
+ * why it had to go. Only writes when the new round actually beats the
+ * current 10th place (or the board isn't full yet); a miss costs one read
+ * and no write. Never throws - a failure here should not fail the
+ * underlying score save it's attached to.
+ */
+const maybeUpdateFastestPerfectRecord = async (categoryKey, name, uid, elapsedMs) => {
+    try {
+        await runTransaction(db, async (tx) => {
+            const ref = FASTEST_PERFECT_DOC_REF();
+            const snap = await tx.get(ref);
+            const entries = snap.exists() ? (snap.data().entries || []) : [];
+            if (entries.length >= MAX_FASTEST_PERFECT_ENTRIES
+                && elapsedMs >= entries[entries.length - 1].elapsedMs) {
+                return;
+            }
+            const updated = [...entries, { category: categoryKey, name, uid: uid || null, elapsedMs, createdAt: Date.now() }]
+                .sort((a, b) => a.elapsedMs - b.elapsedMs)
+                .slice(0, MAX_FASTEST_PERFECT_ENTRIES);
+            tx.set(ref, { entries: updated, updatedAt: serverTimestamp() });
+        });
+    } catch (error) {
+        console.error("Error updating fastest-perfect record:", error);
     }
 };
 
@@ -176,12 +215,7 @@ export const syncPublicProfile = async (uid, displayName, stats) => {
     try {
         const profileRef = doc(db, "publicProfiles", uid);
         await setDoc(profileRef, {
-            displayName: (displayName && displayName.trim()) || 'Igrač',
-            level: stats.level || 1,
-            xp: stats.xp || 0,
-            maxStreak: stats.maxStreak || 0,
-            dayStreak: stats.dayStreak || 0,
-            achievementCount: Object.keys(stats.unlockedAchievements || {}).length,
+            ...buildPublicProfileFields({ ...stats, displayName }),
             updatedAt: serverTimestamp()
         });
     } catch (error) {
@@ -229,24 +263,17 @@ export const getBestScoresAcrossCategories = async (limitN = 10) => {
 
 /**
  * Fastest flawless (10/10) round across every category (Rekordi board).
- * Firestore can't cheaply combine an equality filter (isPerfect) with a
- * sort on a different field (elapsedMs) without a composite index per
- * category, so this fetches each category's full list (same pattern as
- * getAllScoresForCategory) and filters/sorts client-side - fine for an
- * occasionally-opened records screen, not a hot path.
+ * Reads the single maintained records/fastestPerfect doc (kept current by
+ * maybeUpdateFastestPerfectRecord on every perfect-round score save) instead
+ * of scanning every leaderboards/{cat}/scores subcollection - that scan used
+ * to cost one read per score ever saved, on every app load, forever. This
+ * is one bounded read regardless of how many scores exist.
  */
 export const getFastestPerfectRounds = async (limitN = 10) => {
     try {
-        const categories = Object.keys(CATEGORY_META);
-        const perCategory = await Promise.all(categories.map(async (cat) => {
-            const scoresRef = collection(db, "leaderboards", cat, "scores");
-            const q = query(scoresRef, orderBy("score", "desc"), limit(50));
-            const querySnapshot = await getDocs(q);
-            return querySnapshot.docs
-                .map(docSnap => ({ id: docSnap.id, category: cat, ...docSnap.data() }))
-                .filter(entry => entry.isPerfect === true && typeof entry.elapsedMs === 'number');
-        }));
-        return perCategory.flat().sort((a, b) => a.elapsedMs - b.elapsedMs).slice(0, limitN);
+        const snap = await getDoc(FASTEST_PERFECT_DOC_REF());
+        if (!snap.exists()) return [];
+        return (snap.data().entries || []).slice(0, limitN);
     } catch (error) {
         console.error("Error fetching fastest perfect rounds:", error);
         return [];
@@ -254,7 +281,36 @@ export const getFastestPerfectRounds = async (limitN = 10) => {
 };
 
 /**
- * Fetches publicProfiles entries up to limitN (default 100), for admin management
+ * Admin-only escape hatch: rebuilds records/fastestPerfect from scratch by
+ * scanning every leaderboards/{cat}/scores subcollection (the same full
+ * scan getFastestPerfectRounds used to do on every load). Needed because
+ * deleting a score or clearing a category via the Admin Panel can leave the
+ * maintained doc pointing at data that no longer exists - this is the fix
+ * for that drift. Deliberately not run automatically; it's an unbounded
+ * scan, only acceptable as an occasional admin action (same tolerance as
+ * getAllScoresForCategory/clearLeaderboardForCategory below).
+ */
+export const recomputeFastestPerfectRecord = async (limitN = MAX_FASTEST_PERFECT_ENTRIES) => {
+    const categories = Object.keys(CATEGORY_META);
+    const perCategory = await Promise.all(categories.map(async (cat) => {
+        const scoresRef = collection(db, "leaderboards", cat, "scores");
+        const querySnapshot = await getDocs(scoresRef);
+        return querySnapshot.docs
+            .map(docSnap => ({ category: cat, ...docSnap.data() }))
+            .filter(entry => entry.isPerfect === true && typeof entry.elapsedMs === 'number');
+    }));
+    const entries = perCategory.flat()
+        .sort((a, b) => a.elapsedMs - b.elapsedMs)
+        .slice(0, limitN)
+        .map(({ category, name, uid, elapsedMs }) => ({ category, name, uid: uid || null, elapsedMs, createdAt: Date.now() }));
+    await setDoc(FASTEST_PERFECT_DOC_REF(), { entries, updatedAt: serverTimestamp() });
+    return entries.length;
+};
+
+/**
+ * Fetches every publicProfiles entry (the public-safe Rekordi summary),
+ * for admin management - unlike getPublicProfileLeaderboard, not capped
+ * and not sorted by a specific ranking field.
  */
 export const getAllPublicProfiles = async (limitN = 100) => {
     try {
@@ -311,25 +367,45 @@ export const clearAllPublicProfiles = async () => {
 export const backfillPublicProfiles = async () => {
     const users = await getAllRegisteredUsers();
     const BATCH_LIMIT = 500;
-    let count = 0;
+    const failed = [];
+    let succeeded = 0;
+
+    const profilePayload = (user) => ({
+        ...buildPublicProfileFields(user),
+        updatedAt: serverTimestamp()
+    });
+
     for (let i = 0; i < users.length; i += BATCH_LIMIT) {
-        const batch = writeBatch(db);
-        for (const user of users.slice(i, i + BATCH_LIMIT)) {
-            const profileRef = doc(db, "publicProfiles", user.uid);
-            batch.set(profileRef, {
-                displayName: (user.displayName && user.displayName.trim()) || 'Igrač',
-                level: user.level || 1,
-                xp: user.xp || 0,
-                maxStreak: user.maxStreak || 0,
-                dayStreak: user.dayStreak || 0,
-                achievementCount: Object.keys(user.unlockedAchievements || {}).length,
-                updatedAt: serverTimestamp()
-            });
-            count += 1;
+        const chunk = users.slice(i, i + BATCH_LIMIT);
+        try {
+            const batch = writeBatch(db);
+            for (const user of chunk) {
+                batch.set(doc(db, "publicProfiles", user.uid), profilePayload(user));
+            }
+            await batch.commit();
+            succeeded += chunk.length;
+        } catch (error) {
+            // A batch commit is atomic - rules are evaluated per write, but a
+            // single rejected doc rejects the entire commit. That's how one
+            // malformed account (historically a qa-*-<epoch> test user whose
+            // displayName exceeded the rules' 20-char cap) silently blocked
+            // the backfill for every real player. buildPublicProfileFields
+            // should now prevent that, but fall back to individual writes
+            // anyway so a future rule mismatch degrades to "skip the bad one"
+            // instead of "fail everyone", and so we can name the offenders.
+            console.error("Batch backfill rejected, retrying writes individually:", error);
+            for (const user of chunk) {
+                try {
+                    await setDoc(doc(db, "publicProfiles", user.uid), profilePayload(user));
+                    succeeded += 1;
+                } catch (userError) {
+                    console.error(`Backfill failed for ${user.uid}:`, userError);
+                    failed.push({ uid: user.uid, displayName: user.displayName || '' });
+                }
+            }
         }
-        await batch.commit();
     }
-    return count;
+    return { succeeded, failed };
 };
 
 /**
