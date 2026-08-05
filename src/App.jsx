@@ -174,10 +174,13 @@ export default function App() {
   const [showGuideModal, setShowGuideModal] = useState(false);
   const [showAchievementsModal, setShowAchievementsModal] = useState(false);
   const [showRekordiModal, setShowRekordiModal] = useState(false);
-  // Fetched once (not re-fetched every lobby visit - getFastestPerfectRounds/
-  // getBestScoresAcrossCategories read every category's leaderboard, so
-  // refetching on every mount would be wasteful) and refreshed after a score
-  // save so a player's own new record shows up promptly.
+  // Fetched once on app mount (not re-fetched on every LOBBY visit within
+  // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
+  // read every category's leaderboard, so refetching constantly would be
+  // wasteful) and refreshed after a score save so a player's own new record
+  // shows up promptly. Powers both the compact lobby preview and the full
+  // RekordiModal, which is why the fetch can't be deferred until the modal
+  // actually opens.
   const [rekordiData, setRekordiData] = useState(null);
 
   const [currentUser, setCurrentUser] = useState(null);
@@ -303,11 +306,14 @@ export default function App() {
     setRekordiData({ level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak });
   };
 
+  // Fetched once on mount, not per lobby visit or on modal open: the
+  // compact RekordiBoards preview is always visible on the LOBBY screen
+  // (not just inside the modal), so gating this fetch behind opening the
+  // modal left the lobby preview stuck on "Učitavanje..." until the player
+  // saved a score (the only other refreshRekordiData() call site).
   useEffect(() => {
-    if (showRekordiModal && !rekordiData) {
-      refreshRekordiData();
-    }
-  }, [showRekordiModal, rekordiData]);
+    refreshRekordiData();
+  }, []);
 
   const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showAuthModal;
 
@@ -790,6 +796,15 @@ export default function App() {
               <Coins className="w-3.5 h-3.5 text-amber-400" />
               <span>{globalStats.coins}</span>
             </span>
+          </button>
+
+          <button
+            onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
+            className="flex items-center gap-1.5 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
+            title="Trofeji"
+          >
+            <Trophy className="w-3.5 h-3.5 text-amber-400" />
+            <span>{Object.keys(globalStats.unlockedAchievements || {}).length}</span>
           </button>
 
           <button
