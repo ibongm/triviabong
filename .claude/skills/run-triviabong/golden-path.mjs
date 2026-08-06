@@ -50,6 +50,24 @@ function bodyText(page) {
   return page.evaluate(() => document.body.innerText);
 }
 
+// Regression guard for the mobile header-overflow bug (see
+// plans/Phone-header-layout-issues.md) - resizes to a 360px phone
+// viewport, asserts the document never grows wider than the viewport
+// (which is how the original bug surfaced as a document-level horizontal
+// scroll with a white gutter, rather than a contained header overflow),
+// then restores whatever viewport size the page had before.
+async function assertNoMobileOverflow(page, label) {
+  const original = page.viewportSize();
+  await page.setViewportSize({ width: 360, height: 640 });
+  await page.waitForTimeout(200); // let layout settle after resize
+  const { scrollWidth, innerWidth } = await page.evaluate(() => ({
+    scrollWidth: document.documentElement.scrollWidth,
+    innerWidth: window.innerWidth,
+  }));
+  step(`no horizontal overflow at 360px (${label}): scrollWidth=${scrollWidth} innerWidth=${innerWidth}`, scrollWidth <= innerWidth);
+  if (original) await page.setViewportSize(original);
+}
+
 // Quiz answer buttons are shuffled per question - no stable selector. They're
 // the only <button>s with both these Tailwind classes while gameState is
 // 'PLAYING'. Update this filter if App.jsx's markup changes.
@@ -87,6 +105,7 @@ try {
   await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
   await ss(page, 'lobby');
   step('lobby loaded', true);
+  await assertNoMobileOverflow(page, 'lobby');
 
   console.log(`=== pick category: ${CATEGORY} ===`);
   const catClick = await clickText(page, CATEGORY);
@@ -99,6 +118,7 @@ try {
   step(`clicked start quiz (${startClick})`, startClick.startsWith('OK'));
   await page.waitForSelector('text=Bodovi:', { timeout: 10000 });
   await ss(page, 'quiz-q1');
+  await assertNoMobileOverflow(page, 'playing');
 
   console.log('=== answer a few questions ===');
   for (let i = 0; i < 4; i += 1) {

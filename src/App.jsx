@@ -811,31 +811,31 @@ export default function App() {
   const skipShort = globalStats.coins < JOKER_COSTS.skip;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-between font-sans selection:bg-amber-500 selection:text-slate-950">
+    <div className="min-h-screen overflow-x-hidden bg-slate-950 text-slate-100 flex flex-col justify-between font-sans selection:bg-amber-500 selection:text-slate-950">
 
       {/* Header */}
       <header className="w-full max-w-4xl mx-auto px-4 py-4 flex justify-between items-center border-b border-slate-900">
         <div
           onClick={returnToLobby}
-          className="flex items-center gap-2 cursor-pointer group"
+          className="flex items-center gap-2 cursor-pointer group min-w-0"
         >
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-slate-950 font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
+          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-slate-950 font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform shrink-0">
             TB
           </div>
-          <span className="font-black text-xl tracking-tight bg-gradient-to-r from-white to-amber-400 bg-clip-text text-transparent">
+          <span className="hidden sm:inline font-black text-xl tracking-tight bg-gradient-to-r from-white to-amber-400 bg-clip-text text-transparent">
             TriviaBong
           </span>
         </div>
 
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-1.5 min-w-0">
           <button
             onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-            className="flex items-center gap-3 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
+            className="flex items-center gap-2 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
             title="Razina i Statistika"
           >
             <span className="flex items-center gap-1.5 text-xs font-bold">
               <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-              <span>Lvl {globalStats.level || 1}</span>
+              <span><span className="hidden sm:inline">Lvl </span>{globalStats.level || 1}</span>
             </span>
             <span className="w-px h-3.5 bg-slate-800" />
             <span className="flex items-center gap-1.5 text-xs font-bold">
@@ -846,7 +846,7 @@ export default function App() {
 
           <button
             onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
-            className="flex items-center gap-1.5 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
+            className="flex items-center gap-1.5 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
             title="Trofeji"
           >
             <Trophy className="w-3.5 h-3.5 text-amber-400" />
@@ -855,7 +855,7 @@ export default function App() {
 
           <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
             title="Kako Igrati"
           >
             <HelpCircle className="w-4 h-4 text-amber-400" />
@@ -865,17 +865,17 @@ export default function App() {
           {isAdminUser && (
             <button
               onClick={() => setShowAdminPanel(true)}
-              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-3 py-1.5 rounded-xl text-xs font-bold transition-colors active:scale-95 active:brightness-95"
+              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-2 py-1.5 rounded-xl text-xs font-bold transition-colors active:scale-95 active:brightness-95"
               title="Otvori Admin Panel"
             >
               <ShieldCheck className="w-4 h-4" />
-              <span>Admin</span>
+              <span className="hidden sm:inline">Admin</span>
             </button>
           )}
 
           {currentUser ? (
-            <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-xl">
-              <span className="text-xs font-bold text-slate-200 truncate max-w-[100px]">
+            <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-2 py-1.5 rounded-xl">
+              <span className="text-xs font-bold text-slate-200 truncate max-w-[60px]">
                 {currentUser.displayName || currentUser.email.split('@')[0]}
               </span>
               <button
@@ -889,7 +889,7 @@ export default function App() {
           ) : (
             <button
               onClick={() => { sound.playClick(); setShowAuthModal(true); }}
-              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10 active:scale-95 active:brightness-95"
+              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-2 py-1.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10 active:scale-95 active:brightness-95"
             >
               <User className="w-3.5 h-3.5" />
               <span>Prijava</span>

@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* App.jsx's root div carries bg-slate-950, but that div is only as wide as
+   its content - if anything ever overflows the viewport width (see the
+   overflow-x-hidden safety net on that root div), the overscroll/gutter
+   past it would otherwise show the browser's default white. #020617 is
+   Tailwind's slate-950, kept in sync with the root div's class. */
+html, body {
+  background-color: #020617;
+}
+
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   20%, 60% { transform: translateX(-6px); }
