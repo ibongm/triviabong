@@ -35,8 +35,8 @@
     {
         "id": "hr_gen_104",
         "category": "opca_znanje",
-        "question": "Koju plin najviše zastupa u Zemljinoj atmosferi?",
-        "correct_answer": "Dušik (Nitrogen)",
+        "question": "Koji plin je najzastupljeniji u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
         "incorrect_answers": [
             "Kisik",
             "Ugljikov dioksid",
@@ -46,7 +46,7 @@
     {
         "id": "hr_gen_105",
         "category": "opca_znanje",
-        "question": "Koji je najlđi organski element u tablici periodnog sustava (atomski broj 1)?",
+        "question": "Koji je najlakši kemijski element u periodnom sustavu (atomski broj 1)?",
         "correct_answer": "Vodik",
         "incorrect_answers": [
             "Helij",
@@ -134,12 +134,12 @@
     {
         "id": "hr_gen_113",
         "category": "opca_znanje",
-        "question": "Koliko stotina godina čini jedno stoljeće?",
-        "correct_answer": "1 (100 godina)",
+        "question": "Koliko godina ima jedno stoljeće?",
+        "correct_answer": "100",
         "incorrect_answers": [
-            "10 (1000 godina)",
-            "5 (500 godina)",
-            "2 (200 godina)"
+            "1000",
+            "500",
+            "200"
         ]
     },
     {
@@ -161,14 +161,14 @@
         "incorrect_answers": [
             "Afrički slon",
             "Orka",
-            "Spermokit"
+            "Ulješura"
         ]
     },
     {
         "id": "hr_gen_116",
         "category": "opca_znanje",
         "question": "Koja je valuta u Ujedinjenom Kraljevstvu?",
-        "correct_answer": "Britanska funta (GBP)",
+        "correct_answer": "Britanska funta",
         "incorrect_answers": [
             "Euro",
             "Dolar",
@@ -234,7 +234,7 @@
         "id": "hr_gen_122",
         "category": "opca_znanje",
         "question": "Kako se zove tekućina koja kruži stablima i biljkama prenoseći hranjive tvari?",
-        "correct_answer": "Biljni sok (Smola / Sok)",
+        "correct_answer": "Biljni sok",
         "incorrect_answers": [
             "Klorofil",
             "Nektar",
@@ -366,7 +366,7 @@
         "id": "hr_gen_134",
         "category": "opca_znanje",
         "question": "Koji se instrument koristi za mjerenje krvnog tlaka?",
-        "correct_answer": "Tlakomjer (Sfigmomanometar)",
+        "correct_answer": "Tlakomjer",
         "incorrect_answers": [
             "Stetoskop",
             "Termometar",
