@@ -137,6 +137,131 @@ service cloud.firestore {
     // is only ever derived from that same data. Firestore rules can't loop
     // over an arbitrary-length list to validate each entry, so this only
     // bounds the doc's shape/size, not each entry's fields.
+    // Admin-only time-tracking instrumentation (beta insights) - one doc per
+    // browser session, written by the owning client only. Signed-in users
+    // only: anonymous play has no stable identity to correlate across
+    // visits, so there's nothing meaningful to tag a session with. The
+    // client always writes the FULL current gameStateSeconds snapshot
+    // (never deltas/increment()), so there's exactly one writer per doc and
+    // no read-modify-write race to worry about here.
+    function validSessionShape(data) {
+      return data.keys().hasOnly(['uid', 'startedAt', 'lastHeartbeat', 'gameStateSeconds'])
+        && data.uid is string
+        && data.lastHeartbeat == request.time
+        && data.gameStateSeconds is map
+        && data.gameStateSeconds.keys().hasOnly(['LOBBY', 'LEADERBOARD', 'PLAYING', 'GAMEOVER', 'VICTORY'])
+        && (!('LOBBY' in data.gameStateSeconds) || (data.gameStateSeconds.LOBBY is number && data.gameStateSeconds.LOBBY >= 0 && data.gameStateSeconds.LOBBY <= 86400))
+        && (!('LEADERBOARD' in data.gameStateSeconds) || (data.gameStateSeconds.LEADERBOARD is number && data.gameStateSeconds.LEADERBOARD >= 0 && data.gameStateSeconds.LEADERBOARD <= 86400))
+        && (!('PLAYING' in data.gameStateSeconds) || (data.gameStateSeconds.PLAYING is number && data.gameStateSeconds.PLAYING >= 0 && data.gameStateSeconds.PLAYING <= 86400))
+        && (!('GAMEOVER' in data.gameStateSeconds) || (data.gameStateSeconds.GAMEOVER is number && data.gameStateSeconds.GAMEOVER >= 0 && data.gameStateSeconds.GAMEOVER <= 86400))
+        && (!('VICTORY' in data.gameStateSeconds) || (data.gameStateSeconds.VICTORY is number && data.gameStateSeconds.VICTORY >= 0 && data.gameStateSeconds.VICTORY <= 86400));
+    }
+
+    match /sessions/{sessionId} {
+      allow create: if isOwner(request.resource.data.uid)
+        && validSessionShape(request.resource.data)
+        && request.resource.data.startedAt == request.time;
+
+      // Owner can only ever heartbeat-update their own session doc, and
+      // can't backdate/rewrite when it started.
+      allow update: if isOwner(resource.data.uid)
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.startedAt == resource.data.startedAt
+        && validSessionShape(request.resource.data);
+
+      allow get: if isOwner(resource.data.uid) || isAdmin();
+      allow list: if isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Gameplay content-insights event log (question accuracy, category
+    // popularity, win/loss rate - admin dashboard stats, not a per-tester
+    // engagement signal). Unlike sessions/{sessionId} above, these accept
+    // BOTH anonymous and signed-in play: accuracy/popularity are about
+    // content quality, not who's playing, so restricting to signed-in
+    // testers would throw away most of the sample. Bounded/validated the
+    // same way leaderboards/{cat}/scores already is (client-computed,
+    // public, not authenticated - this only bounds the damage). Ceilings
+    // below are derived from constants/gameBalance.js: QUESTION_TIME_SECONDS
+    // (20) + PLUS_TEN_SECONDS (10) = 30 max timeLeft; MAX_LIVES = 3;
+    // QUESTIONS_PER_ROUND = 10; score ceiling matches the leaderboard rule's
+    // own derivation above.
+    match /questionAttempts/{attemptId} {
+      allow create: if request.resource.data.keys().hasOnly(['uid', 'questionId', 'categoryId', 'correct', 'timeLeft', 'livesRemaining', 'createdAt'])
+        && request.resource.data.questionId is string
+        && request.resource.data.questionId.size() > 0
+        && request.resource.data.questionId.size() <= 100
+        && request.resource.data.categoryId is string
+        && request.resource.data.categoryId.size() > 0
+        && request.resource.data.categoryId.size() <= 50
+        && request.resource.data.correct is bool
+        && request.resource.data.createdAt == request.time
+        && (!('uid' in request.resource.data)
+            || request.resource.data.uid == null
+            || isOwner(request.resource.data.uid))
+        && (!('timeLeft' in request.resource.data)
+            || (request.resource.data.timeLeft is number && request.resource.data.timeLeft >= 0 && request.resource.data.timeLeft <= 30))
+        && (!('livesRemaining' in request.resource.data)
+            || (request.resource.data.livesRemaining is int && request.resource.data.livesRemaining >= 0 && request.resource.data.livesRemaining <= 3));
+
+      allow get, list: if isAdmin();
+      allow update, delete: if isAdmin();
+    }
+
+    match /gameResults/{resultId} {
+      allow create: if request.resource.data.keys().hasOnly(['uid', 'outcome', 'category', 'score', 'questionsAnswered', 'correctAnswers', 'durationMs', 'createdAt'])
+        && request.resource.data.outcome in ['VICTORY', 'GAMEOVER']
+        && request.resource.data.category is string
+        && request.resource.data.category.size() > 0
+        && request.resource.data.category.size() <= 50
+        && request.resource.data.score is int
+        && request.resource.data.score >= 0
+        && request.resource.data.score <= 10000
+        && request.resource.data.createdAt == request.time
+        && (!('uid' in request.resource.data)
+            || request.resource.data.uid == null
+            || isOwner(request.resource.data.uid))
+        && (!('questionsAnswered' in request.resource.data)
+            || (request.resource.data.questionsAnswered is int && request.resource.data.questionsAnswered >= 0 && request.resource.data.questionsAnswered <= 10))
+        && (!('correctAnswers' in request.resource.data)
+            || (request.resource.data.correctAnswers is int && request.resource.data.correctAnswers >= 0 && request.resource.data.correctAnswers <= 10))
+        && (!('durationMs' in request.resource.data)
+            || (request.resource.data.durationMs is int && request.resource.data.durationMs >= 0 && request.resource.data.durationMs <= 300000));
+
+      allow get, list: if isAdmin();
+      allow update, delete: if isAdmin();
+    }
+
+    // Player-side "report this question" action + admin Reports queue.
+    // Public bounded create (anonymous+signed-in), same reasoning as
+    // questionAttempts/gameResults above - a bad question is a bad question
+    // regardless of who's signed in. Only admin can read the queue or
+    // change status (resolve/dismiss); a report can never self-resolve.
+    match /reports/{reportId} {
+      allow create: if request.resource.data.keys().hasOnly(['uid', 'questionId', 'categoryId', 'reason', 'note', 'status', 'createdAt'])
+        && request.resource.data.questionId is string
+        && request.resource.data.questionId.size() > 0
+        && request.resource.data.questionId.size() <= 100
+        && request.resource.data.categoryId is string
+        && request.resource.data.categoryId.size() > 0
+        && request.resource.data.categoryId.size() <= 50
+        && request.resource.data.reason in ['wrong_answer', 'unclear', 'typo', 'offensive', 'other']
+        && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time
+        && (!('uid' in request.resource.data)
+            || request.resource.data.uid == null
+            || isOwner(request.resource.data.uid))
+        && (!('note' in request.resource.data)
+            || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+
+      allow get, list: if isAdmin();
+      // Resolve/dismiss only - the queue-defining fields can't be rewritten.
+      allow update: if isAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+        && request.resource.data.status in ['pending', 'resolved', 'dismissed'];
+      allow delete: if isAdmin();
+    }
+
     match /records/fastestPerfect {
       allow read: if true;
 

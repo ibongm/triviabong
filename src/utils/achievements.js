@@ -112,6 +112,31 @@ export const evaluateAchievements = (stats, ctx = {}) => {
     return newlyUnlocked;
 };
 
+/**
+ * Returns the ids of currently-unlocked achievements that no longer satisfy
+ * their condition given `stats` - used by the admin-panel full-sync edit
+ * path (AdminPlayers.jsx) to revoke trophies an edit dropped below
+ * threshold. ONLY considers `statOnly` achievements (see the flag's comment
+ * in constants/achievements.js) - the rest need momentary gameplay context
+ * (time of day, that round's elapsed time, which jokers were used, an
+ * in-progress streak) that a static stat snapshot can't reconstruct, so
+ * re-checking them here with an empty ctx would always evaluate false and
+ * revoke them regardless of whether they're still earned. Never call this
+ * against the full ACHIEVEMENTS list without that filter.
+ */
+export const revokeStaleAchievements = (stats) => {
+    const unlocked = stats.unlockedAchievements || {};
+    const toRevoke = [];
+    for (const { id, statOnly } of ACHIEVEMENTS) {
+        if (!statOnly || !unlocked[id]) continue;
+        const check = ACHIEVEMENT_CHECKS[id];
+        if (check && !check(stats, {})) {
+            toRevoke.push(id);
+        }
+    }
+    return toRevoke;
+};
+
 /** Stamps each newly-unlocked id with the current time; does not mutate. */
 export const mergeUnlockedAchievements = (stats, newIds) => {
     if (!newIds || newIds.length === 0) return stats.unlockedAchievements || {};

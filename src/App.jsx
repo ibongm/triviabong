@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal
+  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal, Flag
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
@@ -40,9 +40,11 @@ import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import RekordiBoards from './components/RekordiBoards';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
+import ReportQuestionModal from './components/ReportQuestionModal';
 import TimerRing from './components/TimerRing';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
+import { useSessionTracking } from './hooks/useSessionTracking';
 import { shuffleArray } from './utils/questionUtils';
 import {
   auth,
@@ -54,7 +56,9 @@ import {
   getLeaderboardFromFirestore,
   getPublicProfileLeaderboard,
   getBestScoresAcrossCategories,
-  getFastestPerfectRounds
+  getFastestPerfectRounds,
+  logQuestionAttempt,
+  logGameResult
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
@@ -174,6 +178,7 @@ export default function App() {
   const [showGuideModal, setShowGuideModal] = useState(false);
   const [showAchievementsModal, setShowAchievementsModal] = useState(false);
   const [showRekordiModal, setShowRekordiModal] = useState(false);
+  const [showReportModal, setShowReportModal] = useState(false);
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
   // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
   // read every category's leaderboard, so refetching constantly would be
@@ -185,6 +190,10 @@ export default function App() {
 
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
+
+  // Admin-only beta-insights instrumentation (see hooks/useSessionTracking.js)
+  // - a no-op while signed out.
+  useSessionTracking(currentUser?.uid, gameState);
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
@@ -315,7 +324,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showAuthModal;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showAuthModal || showReportModal;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -421,7 +430,8 @@ export default function App() {
     });
   };
 
-  const applyRoundEndRewards = (isPerfect, { isVictory = false, finalScore, jokersUsedSnapshot, skipUsedAtLastLifeSnapshot } = {}) => {
+  const applyRoundEndRewards = (isPerfect, { isVictory = false, finalScore, jokersUsedSnapshot, skipUsedAtLastLifeSnapshot, correctCountSnapshot = correctInRound } = {}) => {
+    const roundElapsedMs = roundStartTime ? Date.now() - roundStartTime : undefined;
     setGlobalStats(prev => {
       const jokers = jokersUsedSnapshot || { fiftyFifty: false, plusTen: false, skip: false };
       const { stats } = applyAnswer(prev, {}, {
@@ -430,10 +440,22 @@ export default function App() {
         finalScore,
         jokersUsed: jokers,
         skipUsedAtLastLife: skipUsedAtLastLifeSnapshot,
-        roundElapsedMs: roundStartTime ? Date.now() - roundStartTime : undefined,
+        roundElapsedMs,
         isVictory
       });
       return stats;
+    });
+
+    // Admin-only content-insights logging (question accuracy/category
+    // popularity dashboard) - fire-and-forget, see logGameResult's comment.
+    logGameResult({
+      uid: currentUser?.uid || null,
+      outcome: isVictory ? 'VICTORY' : 'GAMEOVER',
+      category: selectedCategory || 'opca_znanje',
+      score: finalScore ?? score,
+      questionsAnswered: currentIndex + 1,
+      correctAnswers: correctCountSnapshot,
+      durationMs: roundElapsedMs ? Math.round(roundElapsedMs) : undefined,
     });
   };
 
@@ -460,6 +482,19 @@ export default function App() {
 
     let newCorrectInRound = correctInRound;
     let newScore = score;
+
+    // Admin-only content-insights logging (question accuracy/category
+    // popularity dashboard) - fire-and-forget, see logQuestionAttempt's
+    // comment. Uses currentQ's own category (not selectedCategory) since
+    // Opće znanje is an aggregate pool - see getCategoryDetails' comment.
+    logQuestionAttempt({
+      uid: currentUser?.uid || null,
+      questionId: currentQ.id,
+      categoryId: currentQ.category || selectedCategory || 'opca_znanje',
+      correct,
+      timeLeft,
+      livesRemaining: correct ? lives : lives - 1,
+    });
 
     if (correct) {
       sound.playCorrect();
@@ -537,7 +572,8 @@ export default function App() {
           isVictory: true,
           finalScore: newScore,
           jokersUsedSnapshot: jokersUsed,
-          skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
+          skipUsedAtLastLifeSnapshot: skipUsedAtLastLife,
+          correctCountSnapshot: newCorrectInRound
         });
         setGameState('VICTORY');
       }
@@ -589,6 +625,16 @@ export default function App() {
     const newLives = lives - 1;
     setLives(newLives);
     setSelectedOption('TIMEOUT');
+
+    const currentQ = questions[currentIndex];
+    logQuestionAttempt({
+      uid: currentUser?.uid || null,
+      questionId: currentQ.id,
+      categoryId: currentQ.category || selectedCategory || 'opca_znanje',
+      correct: false,
+      timeLeft: 0,
+      livesRemaining: newLives,
+    });
 
     if (newLives <= 0) {
       applyRoundEndRewards(false, {
@@ -988,7 +1034,17 @@ export default function App() {
                     show each question's real source category rather than the
                     generic "Opće znanje" label for every question. */}
                 <span className="uppercase tracking-wider">{getCategoryDetails(currentQ.category || selectedCategory).label}</span>
-                <span>{currentIndex + 1} / {questions.length}</span>
+                <div className="flex items-center gap-2">
+                  <span>{currentIndex + 1} / {questions.length}</span>
+                  <button
+                    type="button"
+                    onClick={() => { sound.playClick(); setShowReportModal(true); }}
+                    className="text-slate-600 hover:text-rose-400 transition-colors p-0.5 active:scale-90"
+                    title="Prijavi pitanje"
+                  >
+                    <Flag className="w-3.5 h-3.5" />
+                  </button>
+                </div>
               </div>
 
               <h2 className="text-xl sm:text-2xl font-black text-white leading-snug">
@@ -1159,6 +1215,15 @@ export default function App() {
         isOpen={showRekordiModal}
         onClose={() => setShowRekordiModal(false)}
         data={rekordiData}
+      />
+
+      {/* Report Question Modal */}
+      <ReportQuestionModal
+        isOpen={showReportModal}
+        onClose={() => setShowReportModal(false)}
+        question={currentQ}
+        categoryId={currentQ?.category || selectedCategory}
+        uid={currentUser?.uid}
       />
 
       {/* Guide Modal */}

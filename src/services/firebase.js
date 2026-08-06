@@ -17,6 +17,7 @@ import {
     getDocs,
     collection,
     query,
+    where,
     orderBy,
     limit,
     updateDoc,
@@ -127,6 +128,204 @@ export const syncUserStatsToFirestore = async (uid, stats) => {
         }, { merge: true });
     } catch (error) {
         console.error("Error syncing stats to Firestore:", error);
+    }
+};
+
+/**
+ * Starts a new admin-only time-tracking session (beta insights - see
+ * firestore.rules' `sessions/{sessionId}` match block). One doc per browser
+ * session/tab; signed-in users only, since anonymous play has no stable
+ * identity to correlate time-spent across visits. Returns the new doc's id
+ * (used by every subsequent heartbeatSession call for this session), or null
+ * if the write failed - callers should treat that as "tracking unavailable
+ * this session" rather than retrying, since a session is only meaningful if
+ * it started successfully.
+ */
+export const startSession = async (uid) => {
+    if (!uid) return null;
+    try {
+        const sessionsRef = collection(db, 'sessions');
+        const docRef = await addDoc(sessionsRef, {
+            uid,
+            startedAt: serverTimestamp(),
+            lastHeartbeat: serverTimestamp(),
+            gameStateSeconds: {},
+        });
+        return docRef.id;
+    } catch (error) {
+        console.error('Error starting session:', error);
+        return null;
+    }
+};
+
+/**
+ * Periodic heartbeat for an in-progress session (see startSession) - writes
+ * the FULL current gameStateSeconds snapshot rather than an incremental
+ * delta, since there's exactly one writer (the owning client) per session
+ * doc and no read-modify-write race to guard against. `uid` must be resent
+ * every heartbeat because firestore.rules' validSessionShape requires it on
+ * every update, not just create.
+ */
+export const heartbeatSession = async (sessionId, uid, gameStateSeconds) => {
+    if (!sessionId || !uid) return;
+    try {
+        const sessionRef = doc(db, 'sessions', sessionId);
+        await updateDoc(sessionRef, {
+            uid,
+            lastHeartbeat: serverTimestamp(),
+            gameStateSeconds,
+        });
+    } catch (error) {
+        console.error('Error sending session heartbeat:', error);
+    }
+};
+
+/**
+ * Logs one question-attempt event (admin-only content-insights dashboard
+ * data - question accuracy, category popularity). Accepts BOTH anonymous
+ * and signed-in play (uid nullable) - see firestore.rules' comment on
+ * `questionAttempts/{attemptId}` for why this differs from session
+ * tracking. Fire-and-forget: never throws, since a logging failure must
+ * never interrupt gameplay.
+ */
+export const logQuestionAttempt = async (attempt) => {
+    try {
+        await addDoc(collection(db, 'questionAttempts'), {
+            ...attempt,
+            createdAt: serverTimestamp(),
+        });
+    } catch (error) {
+        console.error('Error logging question attempt:', error);
+    }
+};
+
+/**
+ * Logs one game-result event (admin-only content-insights dashboard data -
+ * win/loss rate, average score/length). Same anonymous-friendly,
+ * fire-and-forget contract as logQuestionAttempt.
+ */
+export const logGameResult = async (result) => {
+    try {
+        await addDoc(collection(db, 'gameResults'), {
+            ...result,
+            createdAt: serverTimestamp(),
+        });
+    } catch (error) {
+        console.error('Error logging game result:', error);
+    }
+};
+
+/**
+ * Submits a player's "report this question" action. Accepts BOTH anonymous
+ * and signed-in play, same reasoning as logQuestionAttempt/logGameResult.
+ * Fire-and-forget from the caller's perspective (App.jsx shows a thank-you
+ * message regardless), but still surfaces success/failure so a genuinely
+ * offline submit doesn't silently vanish.
+ */
+export const submitQuestionReport = async (report) => {
+    try {
+        await addDoc(collection(db, 'reports'), {
+            ...report,
+            status: 'pending',
+            createdAt: serverTimestamp(),
+        });
+        return true;
+    } catch (error) {
+        console.error('Error submitting question report:', error);
+        return false;
+    }
+};
+
+/**
+ * Fetches every report (admin-only Reports queue).
+ */
+export const getAllReports = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'reports'));
+        return querySnapshot.docs.map(docSnap => ({ id: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error('Error fetching reports:', error);
+        return [];
+    }
+};
+
+/**
+ * Marks every report for one question as resolved/dismissed in one batch -
+ * the admin fixed (or dismissed) the QUESTION, so every report against it
+ * clears together rather than requiring one click per report. `reportIds`
+ * is the caller's already-fetched list for that question (AdminReports
+ * groups by questionId client-side), so this never needs its own query.
+ */
+export const updateReportsStatusForQuestion = async (reportIds, status) => {
+    if (!reportIds || reportIds.length === 0) return;
+    const batch = writeBatch(db);
+    for (const id of reportIds) {
+        batch.update(doc(db, 'reports', id), { status });
+    }
+    await batch.commit();
+};
+
+/**
+ * Fetches every questionAttempts/gameResults doc (admin-only content-
+ * insights dashboard - question accuracy, category popularity). Fine at
+ * beta scale to fetch everything and aggregate client-side at read time,
+ * same pattern as getSessionsForUser/summarizeSessionsByPeriod - no
+ * precomputed counters to keep in sync.
+ */
+export const getAllQuestionAttempts = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'questionAttempts'));
+        return querySnapshot.docs.map(docSnap => docSnap.data());
+    } catch (error) {
+        console.error('Error fetching question attempts:', error);
+        return [];
+    }
+};
+
+export const getAllGameResults = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'gameResults'));
+        return querySnapshot.docs.map(docSnap => docSnap.data());
+    } catch (error) {
+        console.error('Error fetching game results:', error);
+        return [];
+    }
+};
+
+/**
+ * Fetches every session doc across ALL players (admin-only - powers the
+ * player-list "Vrijeme igre" column, unlike getSessionsForUser below which
+ * scopes to one player for the detail-view toggle). Same "fetch everything,
+ * aggregate client-side" tradeoff as getAllQuestionAttempts/
+ * getAllGameResults - fine at beta scale.
+ */
+export const getAllSessions = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'sessions'));
+        return querySnapshot.docs.map(docSnap => docSnap.data());
+    } catch (error) {
+        console.error('Error fetching all sessions:', error);
+        return [];
+    }
+};
+
+/**
+ * Fetches every session doc for one player (admin-only - see
+ * firestore.rules' `sessions/{sessionId}` match block, `allow list: if
+ * isAdmin();`). Returns raw docs; daily/weekly/all-time aggregation happens
+ * client-side at read time (src/utils/sessionStats.js) rather than being
+ * precomputed, per the beta-scale design in the original brainstorm.
+ */
+export const getSessionsForUser = async (uid) => {
+    if (!uid) return [];
+    try {
+        const sessionsRef = collection(db, 'sessions');
+        const q = query(sessionsRef, where('uid', '==', uid));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(docSnap => ({ id: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error('Error fetching sessions for user:', error);
+        return [];
     }
 };
 
