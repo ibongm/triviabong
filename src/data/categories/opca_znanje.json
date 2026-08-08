@@ -1,1102 +1,244 @@
 [
-    {
-        "id": "hr_gen_101",
-        "category": "opca_znanje",
-        "question": "Koji je kemijski simbol za zlato?",
-        "correct_answer": "Au",
-        "incorrect_answers": [
-            "Ag",
-            "Fe",
-            "Pb"
-        ]
-    },
-    {
-        "id": "hr_gen_102",
-        "category": "opca_znanje",
-        "question": "Koliko minuta ima u jednom danu?",
-        "correct_answer": "1440",
-        "incorrect_answers": [
-            "1200",
-            "8640",
-            "1080"
-        ]
-    },
-    {
-        "id": "hr_gen_103",
-        "category": "opca_znanje",
-        "question": "Koja je najtvrđa prirodna tvar na Zemlji?",
-        "correct_answer": "Dijamant",
-        "incorrect_answers": [
-            "Gvožđe",
-            "Kvarc",
-            "Mramor"
-        ]
-    },
-    {
-        "id": "hr_gen_104",
-        "category": "opca_znanje",
-        "question": "Koji plin je najzastupljeniji u Zemljinoj atmosferi?",
-        "correct_answer": "Dušik",
-        "incorrect_answers": [
-            "Kisik",
-            "Ugljikov dioksid",
-            "Argon"
-        ]
-    },
-    {
-        "id": "hr_gen_105",
-        "category": "opca_znanje",
-        "question": "Koji je najlakši kemijski element u periodnom sustavu (atomski broj 1)?",
-        "correct_answer": "Vodik",
-        "incorrect_answers": [
-            "Helij",
-            "Litij",
-            "Ugljik"
-        ]
-    },
-    {
-        "id": "hr_gen_106",
-        "category": "opca_znanje",
-        "question": "Tko je naslikao poznato umjetničko djelo 'Mona Lisa'?",
-        "correct_answer": "Leonardo da Vinci",
-        "incorrect_answers": [
-            "Michelangelo",
-            "Vincent van Gogh",
-            "Pablo Picasso"
-        ]
-    },
-    {
-        "id": "hr_gen_107",
-        "category": "opca_znanje",
-        "question": "Koji je organ u ljudskom tijelu odgovoran za pumpanje krvi kroz krvotok?",
-        "correct_answer": "Srce",
-        "incorrect_answers": [
-            "Pluća",
-            "Jetra",
-            "Bubrezi"
-        ]
-    },
-    {
-        "id": "hr_gen_108",
-        "category": "opca_znanje",
-        "question": "Koja je primarna boja koja u mješavini sa žutom daje zelenu?",
-        "correct_answer": "Plava",
-        "incorrect_answers": [
-            "Crvena",
-            "Ljubičasta",
-            "Narančasta"
-        ]
-    },
-    {
-        "id": "hr_gen_109",
-        "category": "opca_znanje",
-        "question": "Koliko kostiju ima odraslo ljudsko tijelo?",
-        "correct_answer": "206",
-        "incorrect_answers": [
-            "300",
-            "186",
-            "250"
-        ]
-    },
-    {
-        "id": "hr_gen_110",
-        "category": "opca_znanje",
-        "question": "Kako se zove proces kojim biljke pretvaraju sunčevu svjetlost u energiju?",
-        "correct_answer": "Fotosinteza",
-        "incorrect_answers": [
-            "Kondenzacija",
-            "Transpiracija",
-            "Respiracija"
-        ]
-    },
-    {
-        "id": "hr_gen_111",
-        "category": "opca_znanje",
-        "question": "Koji je planet Sunčevog sustava najbliži Suncu?",
-        "correct_answer": "Merkur",
-        "incorrect_answers": [
-            "Venera",
-            "Zemlja",
-            "Mars"
-        ]
-    },
-    {
-        "id": "hr_gen_112",
-        "category": "opca_znanje",
-        "question": "Koji je službeni jezik u Brazilu?",
-        "correct_answer": "Portugalski",
-        "incorrect_answers": [
-            "Španjolski",
-            "Engleski",
-            "Francuski"
-        ]
-    },
-    {
-        "id": "hr_gen_113",
-        "category": "opca_znanje",
-        "question": "Koliko godina ima jedno stoljeće?",
-        "correct_answer": "100",
-        "incorrect_answers": [
-            "1000",
-            "500",
-            "200"
-        ]
-    },
-    {
-        "id": "hr_gen_114",
-        "category": "opca_znanje",
-        "question": "Koji se instrument koristi za mjerenje zemljotresa?",
-        "correct_answer": "Seizmograf",
-        "incorrect_answers": [
-            "Barometar",
-            "Higrometar",
-            "Termometar"
-        ]
-    },
-    {
-        "id": "hr_gen_115",
-        "category": "opca_znanje",
-        "question": "Kako se zove najveći sisavac na svijetu?",
-        "correct_answer": "Plavi kit",
-        "incorrect_answers": [
-            "Afrički slon",
-            "Orka",
-            "Ulješura"
-        ]
-    },
-    {
-        "id": "hr_gen_116",
-        "category": "opca_znanje",
-        "question": "Koja je valuta u Ujedinjenom Kraljevstvu?",
-        "correct_answer": "Britanska funta",
-        "incorrect_answers": [
-            "Euro",
-            "Dolar",
-            "Franak"
-        ]
-    },
-    {
-        "id": "hr_gen_117",
-        "category": "opca_znanje",
-        "question": "Koji pisac je autor drame 'Romeo i Julija'?",
-        "correct_answer": "William Shakespeare",
-        "incorrect_answers": [
-            "Charles Dickens",
-            "Oscar Wilde",
-            "Mark Twain"
-        ]
-    },
-    {
-        "id": "hr_gen_118",
-        "category": "opca_znanje",
-        "question": "Koliko obojenih prstenova ima na službenoj olimpijskoj zastavi?",
-        "correct_answer": "5",
-        "incorrect_answers": [
-            "6",
-            "4",
-            "7"
-        ]
-    },
-    {
-        "id": "hr_gen_119",
-        "category": "opca_znanje",
-        "question": "Koji vitamin ljudsko tijelo prirodno proizvodi izlaganjem sunčevoj svjetlosti?",
-        "correct_answer": "Vitamin D",
-        "incorrect_answers": [
-            "Vitamin C",
-            "Vitamin A",
-            "Vitamin B12"
-        ]
-    },
-    {
-        "id": "hr_gen_120",
-        "category": "opca_znanje",
-        "question": "Koja ptica je poznata po tome što ne može letjeti i živi uglavnom na Antarktici?",
-        "correct_answer": "Pingvin",
-        "incorrect_answers": [
-            "Noj",
-            "Emu",
-            "Kivi"
-        ]
-    },
-    {
-        "id": "hr_gen_121",
-        "category": "opca_znanje",
-        "question": "Koji je planet u Sunčevom sustavu poznat po svojim izraženim prstenovima?",
-        "correct_answer": "Saturn",
-        "incorrect_answers": [
-            "Jupiter",
-            "Uran",
-            "Neptun"
-        ]
-    },
-    {
-        "id": "hr_gen_122",
-        "category": "opca_znanje",
-        "question": "Kako se zove tekućina koja kruži stablima i biljkama prenoseći hranjive tvari?",
-        "correct_answer": "Biljni sok",
-        "incorrect_answers": [
-            "Klorofil",
-            "Nektar",
-            "Lateks"
-        ]
-    },
-    {
-        "id": "hr_gen_123",
-        "category": "opca_znanje",
-        "question": "Koja je točka vrenja vode u Celzijevim stupnjevima na razini mora?",
-        "correct_answer": "100 °C",
-        "incorrect_answers": [
-            "90 °C",
-            "80 °C",
-            "120 °C"
-        ]
-    },
-    {
-        "id": "hr_gen_124",
-        "category": "opca_znanje",
-        "question": "Koji je fizikalni zakon otkrio Sir Isaac Newton promatrajući pad jabuke?",
-        "correct_answer": "Zakon gravitacije",
-        "incorrect_answers": [
-            "Zakon termodinamike",
-            "Arhimedov zakon",
-            "Boyleov zakon"
-        ]
-    },
-    {
-        "id": "hr_gen_125",
-        "category": "opca_znanje",
-        "question": "Koji je najveći organ ljudskog tijela po površini?",
-        "correct_answer": "Koža",
-        "incorrect_answers": [
-            "Jetra",
-            "Pluća",
-            "Debelo crijevo"
-        ]
-    },
-    {
-        "id": "hr_gen_126",
-        "category": "opca_znanje",
-        "question": "Koja zemlja je domovina kave (gdje je biljka kave izvorno otkrivena)?",
-        "correct_answer": "Etiopija",
-        "incorrect_answers": [
-            "Brazil",
-            "Kolumbija",
-            "Jemen"
-        ]
-    },
-    {
-        "id": "hr_gen_127",
-        "category": "opca_znanje",
-        "question": "Koji znanstvenik je razvio opću teoriju relativnosti?",
-        "correct_answer": "Albert Einstein",
-        "incorrect_answers": [
-            "Niels Bohr",
-            "Galileo Galilei",
-            "Nikola Tesla"
-        ]
-    },
-    {
-        "id": "hr_gen_128",
-        "category": "opca_znanje",
-        "question": "Koliko strana ima geometrijski lik heksagon?",
-        "correct_answer": "6",
-        "incorrect_answers": [
-            "5",
-            "8",
-            "7"
-        ]
-    },
-    {
-        "id": "hr_gen_129",
-        "category": "opca_znanje",
-        "question": "Kako se zove bajkoviti lik kojemu naraste nos svaki put kada slaže?",
-        "correct_answer": "Pinokio",
-        "incorrect_answers": [
-            "Petar Pan",
-            "Aladin",
-            "Mali princ"
-        ]
-    },
-    {
-        "id": "hr_gen_130",
-        "category": "opca_znanje",
-        "question": "Koja je životinja poznata kao 'pustinjska lađa'?",
-        "correct_answer": "Deva",
-        "incorrect_answers": [
-            "Konj",
-            "Magarac",
-            "Lama"
-        ]
-    },
-    {
-        "id": "hr_gen_131",
-        "category": "opca_znanje",
-        "question": "Koji plin inhaliraju ljudi prilikom udisanja radi preživljavanja?",
-        "correct_answer": "Kisik",
-        "incorrect_answers": [
-            "Ugljikov dioksid",
-            "Dušik",
-            "Vodikov dioksid"
-        ]
-    },
-    {
-        "id": "hr_gen_132",
-        "category": "opca_znanje",
-        "question": "Koja je matematička konstanta definirana kao omjer opsega i promjera kruga (oko 3,14)?",
-        "correct_answer": "Pi (π)",
-        "incorrect_answers": [
-            "Eulera broj (e)",
-            "Zlatni rez (φ)",
-            "Tau (τ)"
-        ]
-    },
-    {
-        "id": "hr_gen_133",
-        "category": "opca_znanje",
-        "question": "Koji je planet poznat pod nazivom 'Crveni planet'?",
-        "correct_answer": "Mars",
-        "incorrect_answers": [
-            "Venera",
-            "Jupiter",
-            "Merkur"
-        ]
-    },
-    {
-        "id": "hr_gen_134",
-        "category": "opca_znanje",
-        "question": "Koji se instrument koristi za mjerenje krvnog tlaka?",
-        "correct_answer": "Tlakomjer",
-        "incorrect_answers": [
-            "Stetoskop",
-            "Termometar",
-            "Pulsni oksimetar"
-        ]
-    },
-    {
-        "id": "hr_gen_135",
-        "category": "opca_znanje",
-        "question": "Kako se zove kemijski proces pretvaranja šećera u alkohol pomoću kvasca?",
-        "correct_answer": "Fermentacija (Vrenje)",
-        "incorrect_answers": [
-            "Pasterizacija",
-            "Destilacija",
-            "Oksidacija"
-        ]
-    },
-    {
-        "id": "hr_gen_136",
-        "category": "opca_znanje",
-        "question": "Koji je najbrži kopneni sisavac na svijetu?",
-        "correct_answer": "Gepard",
-        "incorrect_answers": [
-            "Lav",
-            "Antilopa",
-            "Sivi hrt"
-        ]
-    },
-    {
-        "id": "hr_gen_137",
-        "category": "opca_znanje",
-        "question": "Koja je najduža kost u ljudskom tijelu?",
-        "correct_answer": "Bedrena kost (Femur)",
-        "incorrect_answers": [
-            "Cjevanica (Tibia)",
-            "Ramena kost (Humerus)",
-            "Kralježnica"
-        ]
-    },
-    {
-        "id": "hr_gen_138",
-        "category": "opca_znanje",
-        "question": "Kako se zove zvijezda koja je u središtu našeg Sunčevog sustava?",
-        "correct_answer": "Sunce",
-        "incorrect_answers": [
-            "Siriuse",
-            "Sjevernjača",
-            "Proxima Centauri"
-        ]
-    },
-    {
-        "id": "hr_gen_139",
-        "category": "opca_znanje",
-        "question": "Koji se plin nalazi unutar balončića u gaziranim pićima?",
-        "correct_answer": "Ugljikov dioksid (CO2)",
-        "incorrect_answers": [
-            "Kisik",
-            "Dušik",
-            "Helij"
-        ]
-    },
-    {
-        "id": "hr_gen_140",
-        "category": "opca_znanje",
-        "question": "Koji je element sa simbolom 'Fe' u kemijskoj tablici?",
-        "correct_answer": "Željezo",
-        "incorrect_answers": [
-            "Fluor",
-            "Francij",
-            "Fosfor"
-        ]
-    },
-    {
-        "id": "hr_gen_141",
-        "category": "opca_znanje",
-        "question": "Koja prirodna nepogoda se mjeri Richterovom ljestvicom?",
-        "correct_answer": "Potres",
-        "incorrect_answers": [
-            "Uragan",
-            "Tornado",
-            "Poplava"
-        ]
-    },
-    {
-        "id": "hr_gen_142",
-        "category": "opca_znanje",
-        "question": "Koliko grama ima u jednom kilogramu?",
-        "correct_answer": "1000",
-        "incorrect_answers": [
-            "100",
-            "10000",
-            "500"
-        ]
-    },
-    {
-        "id": "hr_gen_143",
-        "category": "opca_znanje",
-        "question": "Kako se zove najpoznatija teorija o postanku Svemira iz jedne točke prije oko 13,8 milijardi godina?",
-        "correct_answer": "Veliki prasak (Big Bang)",
-        "incorrect_answers": [
-            "Teorija struna",
-            "Teorija relativnosti",
-            "Stacionarno stanje"
-        ]
-    },
-    {
-        "id": "hr_gen_144",
-        "category": "opca_znanje",
-        "question": "Koji insekt proizvodi med u košnicama?",
-        "correct_answer": "Pčela",
-        "incorrect_answers": [
-            "Osa",
-            "Bumbar",
-            "Mrav"
-        ]
-    },
-    {
-        "id": "hr_gen_145",
-        "category": "opca_znanje",
-        "question": "Kako se zove uređaj koji pretvara mehaničku energiju u električnu?",
-        "correct_answer": "Generator",
-        "incorrect_answers": [
-            "Transformator",
-            "Elektromotor",
-            "Kondenzator"
-        ]
-    },
-    {
-        "id": "hr_gen_146",
-        "category": "opca_znanje",
-        "question": "Koji je osnovni sastojak tradicionalnog meksičkog jela zvanog 'Guacamole'?",
-        "correct_answer": "Avokado",
-        "incorrect_answers": [
-            "Rajčica",
-            "Krastavac",
-            "Slanutak"
-        ]
-    },
-    {
-        "id": "hr_gen_147",
-        "category": "opca_znanje",
-        "question": "Koja kiselina se nalazi u želucu i pomaže pri probavljanju hrane?",
-        "correct_answer": "Solna kiselina (Klorovodična kiselina)",
-        "incorrect_answers": [
-            "Sumporna kiselina",
-            "Octena kiselina",
-            "Limunska kiselina"
-        ]
-    },
-    {
-        "id": "hr_gen_148",
-        "category": "opca_znanje",
-        "question": "Kako se zove najviši građevinski toranj na svijetu smješten u Dubaiju?",
-        "correct_answer": "Burj Khalifa",
-        "incorrect_answers": [
-            "Shanghai Tower",
-            "Abraj Al Bait",
-            "CN Tower"
-        ]
-    },
-    {
-        "id": "hr_gen_149",
-        "category": "opca_znanje",
-        "question": "Koliko pločica sadrži standardni set domina do dvostruke šestice?",
-        "correct_answer": "28 pločica",
-        "incorrect_answers": [
-            "24 pločice",
-            "32 pločice",
-            "20 pločica"
-        ]
-    },
-    {
-        "id": "hr_gen_150",
-        "category": "opca_znanje",
-        "question": "Kako se zove postupak sterilizacije mlijeka nazvan po francuskom znanstveniku koji ga je izumio u 19. stoljeću?",
-        "correct_answer": "Pasterizacija",
-        "incorrect_answers": [
-            "Homogenizacija",
-            "Fermentacija",
-            "Kondenzacija"
-        ]
-    },
-    {
-        "id": "hr_gen_151",
-        "category": "opca_znanje",
-        "question": "Koja je kemijska formula za običnu kuhinjsku sol?",
-        "correct_answer": "NaCl",
-        "incorrect_answers": [
-            "H2O",
-            "CO2",
-            "KCl"
-        ]
-    },
-    {
-        "id": "hr_gen_152",
-        "category": "opca_znanje",
-        "question": "Koji je najveći zglob u ljudskom tijelu?",
-        "correct_answer": "Koljeno",
-        "incorrect_answers": [
-            "Kuk",
-            "Rame",
-            "Lakat"
-        ]
-    },
-    {
-        "id": "hr_gen_153",
-        "category": "opca_znanje",
-        "question": "Kako se zove pojava kada Mjesec prođe točno između Sunca i Zemlje?",
-        "correct_answer": "Pomrčina Sunca",
-        "incorrect_answers": [
-            "Pomrčina Mjeseca",
-            "Ravnodnevnica",
-            "Suncostaj"
-        ]
-    },
-    {
-        "id": "hr_gen_154",
-        "category": "opca_znanje",
-        "question": "Koji prirodni satelit kruži oko planeta Zemlje?",
-        "correct_answer": "Mjesec",
-        "incorrect_answers": [
-            "Fobos",
-            "Deimos",
-            "Europa"
-        ]
-    },
-    {
-        "id": "hr_gen_155",
-        "category": "opca_znanje",
-        "question": "Tko je autor poznate skulpture 'Mislilac'?",
-        "correct_answer": "Auguste Rodin",
-        "incorrect_answers": [
-            "Donatello",
-            "Michelangelo",
-            "Bernini"
-        ]
-    },
-    {
-        "id": "hr_gen_156",
-        "category": "opca_znanje",
-        "question": "Koji je plin odgovoran za karakterističan miris nakon grmljavinskog nevremena?",
-        "correct_answer": "Ozon",
-        "incorrect_answers": [
-            "Metan",
-            "Sumporov dioksid",
-            "Ugljikov monoksid"
-        ]
-    },
-    {
-        "id": "hr_gen_157",
-        "category": "opca_znanje",
-        "question": "Koja životinja je najveći živući gmaz na svijetu?",
-        "correct_answer": "Morski krokodil",
-        "incorrect_answers": [
-            "Komodski varan",
-            "Nilski krokodil",
-            "Galapagoška kornjača"
-        ]
-    },
-    {
-        "id": "hr_gen_158",
-        "category": "opca_znanje",
-        "question": "Kako se zove otvor u središtu šarenice kroz koji svjetlost ulazi u oko?",
-        "correct_answer": "Zjenica",
-        "incorrect_answers": [
-            "Mrežnica",
-            "Rožnica",
-            "Leća"
-        ]
-    },
-    {
-        "id": "hr_gen_159",
-        "category": "opca_znanje",
-        "question": "Koja je glavna komponenta stakla?",
-        "correct_answer": "Kvarcni pijesak (Silicijev dioksid)",
-        "incorrect_answers": [
-            "Vapnenac",
-            "Gips",
-            "Gline"
-        ]
-    },
-    {
-        "id": "hr_gen_160",
-        "category": "opca_znanje",
-        "question": "U kojoj se državi nalazi kosi toranj u Pisi?",
-        "correct_answer": "Italija",
-        "incorrect_answers": [
-            "Francuska",
-            "Španjolska",
-            "Grčka"
-        ]
-    },
-    {
-        "id": "hr_gen_161",
-        "category": "opca_znanje",
-        "question": "Koji je jedini sisavac koji ima sposobnost pravog leta?",
-        "correct_answer": "Šišmiš",
-        "incorrect_answers": [
-            "Leteća vjeverica",
-            "Leteći lemur",
-            "Ptica"
-        ]
-    },
-    {
-        "id": "hr_gen_162",
-        "category": "opca_znanje",
-        "question": "Kako se zove znanost koja proučava fosile i davni život na Zemlji?",
-        "correct_answer": "Paleontologija",
-        "incorrect_answers": [
-            "Arheologija",
-            "Geologija",
-            "Antropologija"
-        ]
-    },
-    {
-        "id": "hr_gen_163",
-        "category": "opca_znanje",
-        "question": "Kako se zove zbirka od 12 horoskopskih znakova u astrologiji?",
-        "correct_answer": "Zodijak",
-        "incorrect_answers": [
-            "Zviježđe",
-            "Galaksija",
-            "Horoskop"
-        ]
-    },
-    {
-        "id": "hr_gen_164",
-        "category": "opca_znanje",
-        "question": "Koji se tip krvi smatra 'univerzalnim darivateljem' u ABO sustavu?",
-        "correct_answer": "O negativna (O-)",
-        "incorrect_answers": [
-            "AB pozitivna (AB+)",
-            "A pozitivna (A+)",
-            "B negativna (B-)"
-        ]
-    },
-    {
-        "id": "hr_gen_165",
-        "category": "opca_znanje",
-        "question": "Kako se zove prirodni fenomen šarenih svjetala na nebu blizu polova (sjeverna ili južna)?",
-        "correct_answer": "Aurora Borealis / Australis",
-        "incorrect_answers": [
-            "Zodijačka svjetlost",
-            "Fata Morgana",
-            "Halos"
-        ]
-    },
-    {
-        "id": "hr_gen_166",
-        "category": "opca_znanje",
-        "question": "Koji je najveći zrakoplov na svijetu po rasponu krila izgrađen za nošenje svemirskih raketa?",
-        "correct_answer": "Stratolaunch Roc",
-        "incorrect_answers": [
-            "Antonov An-225 Mriya",
-            "Airbus A380",
-            "Boeing 747"
-        ]
-    },
-    {
-        "id": "hr_gen_167",
-        "category": "opca_znanje",
-        "question": "Koji je kemijski element najzastupljeniji u ljudskom tijelu po masi?",
-        "correct_answer": "Kisik",
-        "incorrect_answers": [
-            "Ugljik",
-            "Vodik",
-            "Dušik"
-        ]
-    },
-    {
-        "id": "hr_gen_168",
-        "category": "opca_znanje",
-        "question": "Koliko linija stihova ima tradicionalni talijanski sonet?",
-        "correct_answer": "14",
-        "incorrect_answers": [
-            "12",
-            "16",
-            "10"
-        ]
-    },
-    {
-        "id": "hr_gen_169",
-        "category": "opca_znanje",
-        "question": "Kako se zove pojava odbijanja zvuka o čvrstu prepreku natrag do slušatelja?",
-        "correct_answer": "Eho (Jeka)",
-        "incorrect_answers": [
-            "Refrakcija",
-            "Difrakcija",
-            "Resonancija"
-        ]
-    },
-    {
-        "id": "hr_gen_170",
-        "category": "opca_znanje",
-        "question": "Koji je najvrijedniji i najskuplji začin na svijetu po težini?",
-        "correct_answer": "Šafran",
-        "incorrect_answers": [
-            "Vanilija",
-            "Kardamom",
-            "Cimet"
-        ]
-    },
-    {
-        "id": "hr_gen_171",
-        "category": "opca_znanje",
-        "question": "Kako se zove tvar koja daje zelenu boju listovima biljaka i omogućuje fotosintezu?",
-        "correct_answer": "Klorofil",
-        "incorrect_answers": [
-            "Karotenoid",
-            "Ksanotofil",
-            "Antocijanin"
-        ]
-    },
-    {
-        "id": "hr_gen_172",
-        "category": "opca_znanje",
-        "question": "Koji se dio računala često naziva 'mozgom' sustava i izvodi sve instrukcije?",
-        "correct_answer": "CPU (Procesor)",
-        "incorrect_answers": [
-            "RAM (Memorija)",
-            "Matična ploča",
-            "Grafička kartica"
-        ]
-    },
-    {
-        "id": "hr_gen_173",
-        "category": "opca_znanje",
-        "question": "Koji je poznati muzej u Parizu dom slici 'Mona Lisa'?",
-        "correct_answer": "Louvre",
-        "incorrect_answers": [
-            "Musée d'Orsay",
-            "Centre Pompidou",
-            "Prado"
-        ]
-    },
-    {
-        "id": "hr_gen_174",
-        "category": "opca_znanje",
-        "question": "Koji je najčešći tip galaksije u Svemiru kojem pripada i naša Mliječna staza?",
-        "correct_answer": "Spiralna galaksija",
-        "incorrect_answers": [
-            "Eliptična galaksija",
-            "Nepravilna galaksija",
-            "Lentikularna galaksija"
-        ]
-    },
-    {
-        "id": "hr_gen_175",
-        "category": "opca_znanje",
-        "question": "Koliko minuta traje jedna četvrtina u standardnoj hokejaškoj utakmici (period)?",
-        "correct_answer": "20 minuta",
-        "incorrect_answers": [
-            "15 minuta",
-            "12 minuta",
-            "25 minuta"
-        ]
-    },
-    {
-        "id": "hr_gen_176",
-        "category": "opca_znanje",
-        "question": "Koji je metala jedini u tekućem stanju na sobnoj temperaturi?",
-        "correct_answer": "Živa",
-        "incorrect_answers": [
-            "Olovo",
-            "Bakar",
-            "Galij"
-        ]
-    },
-    {
-        "id": "hr_gen_177",
-        "category": "opca_znanje",
-        "question": "Kako se zove mjera za frekvenciju koja izražava broj ciklusa u jednoj sekundi?",
-        "correct_answer": "Herc (Hz)",
-        "incorrect_answers": [
-            "Watt (W)",
-            "Joule (J)",
-            "Volt (V)"
-        ]
-    },
-    {
-        "id": "hr_gen_178",
-        "category": "opca_znanje",
-        "question": "Koji je najvrući planet u našem Sunčevom sustavu zbog jakog efekta staklenika?",
-        "correct_answer": "Venera",
-        "incorrect_answers": [
-            "Merkur",
-            "Mars",
-            "Jupiter"
-        ]
-    },
-    {
-        "id": "hr_gen_179",
-        "category": "opca_znanje",
-        "question": "Kako se zove zrakoplovna crna kutija koja zapravo nije crna već kojeg sjajnog tona radi lakšeg pronalaska?",
-        "correct_answer": "Narančasta",
-        "incorrect_answers": [
-            "Žuta",
-            "Crvena",
-            "Plava"
-        ]
-    },
-    {
-        "id": "hr_gen_180",
-        "category": "opca_znanje",
-        "question": "Kako se zove grčka božica mudrosti i pravednog rata?",
-        "correct_answer": "Atena",
-        "incorrect_answers": [
-            "Afrodita",
-            "Hera",
-            "Artemida"
-        ]
-    },
-    {
-        "id": "hr_gen_181",
-        "category": "opca_znanje",
-        "question": "Kako se zove skala kojom se mjeri kiselost ili lužnatost otopine (od 0 do 14)?",
-        "correct_answer": "pH skala",
-        "incorrect_answers": [
-            "Mohsova skala",
-            "Celsiusova skala",
-            "Kelvinova skala"
-        ]
-    },
-    {
-        "id": "hr_gen_182",
-        "category": "opca_znanje",
-        "question": "Koliko kraka ima standardna morska zvijezda?",
-        "correct_answer": "5",
-        "incorrect_answers": [
-            "6",
-            "8",
-            "10"
-        ]
-    },
-    {
-        "id": "hr_gen_183",
-        "category": "opca_znanje",
-        "question": "Koji je najrašireniji operativni sustav za pametne telefone na svijetu po tržišnom udjelu?",
-        "correct_answer": "Android",
-        "incorrect_answers": [
-            "iOS",
-            "Windows Phone",
-            "Symbian"
-        ]
-    },
-    {
-        "id": "hr_gen_184",
-        "category": "opca_znanje",
-        "question": "Koja je životinja najbrža plivačica na svijetu među ribama?",
-        "correct_answer": "Iglan (Sailfish)",
-        "incorrect_answers": [
-            "Morski pas",
-            "Tuna",
-            "Morski konjic"
-        ]
-    },
-    {
-        "id": "hr_gen_185",
-        "category": "opca_znanje",
-        "question": "U kojoj se državi nalazi drevni kameni spomenik Stonehenge?",
-        "correct_answer": "Engleska (Ujedinjeno Kraljevstvo)",
-        "incorrect_answers": [
-            "Irska",
-            "Škotska",
-            "Francuska"
-        ]
-    },
-    {
-        "id": "hr_gen_186",
-        "category": "opca_znanje",
-        "question": "Kako se zvala rimska božica ljubavi i ljepote (pandan grčkoj Afroditi)?",
-        "correct_answer": "Venera",
-        "incorrect_answers": [
-            "Minerva",
-            "Junona",
-            "Dijana"
-        ]
-    },
-    {
-        "id": "hr_gen_187",
-        "category": "opca_znanje",
-        "question": "Kako se zove proces kojim plinovito stanje tvari prelazi izravno u tekuće?",
-        "correct_answer": "Kondenzacija",
-        "incorrect_answers": [
-            "Sublimacija",
-            "Isparavanje",
-            "Taljenje"
-        ]
-    },
-    {
-        "id": "hr_gen_188",
-        "category": "opca_znanje",
-        "question": "Koji je najveći otok u Sredozemnom moru koji pripada Francuskoj?",
-        "correct_answer": "Korzika",
-        "incorrect_answers": [
-            "Sardinija",
-            "Sicilija",
-            "Mallorca"
-        ]
-    },
-    {
-        "id": "hr_gen_189",
-        "category": "opca_znanje",
-        "question": "Koji je osnovni sastojak tradicionalnog japanskog jela Sushi?",
-        "correct_answer": "Riža (s octom)",
-        "incorrect_answers": [
-            "Sirova riba",
-            "Nori alge",
-            "Tofu"
-        ]
-    },
-    {
-        "id": "hr_gen_190",
-        "category": "opca_znanje",
-        "question": "Koliko dana ima prijestupna godina u gregorijanskom kalendaru?",
-        "correct_answer": "366",
-        "incorrect_answers": [
-            "365",
-            "364",
-            "367"
-        ]
-    },
-    {
-        "id": "hr_gen_191",
-        "category": "opca_znanje",
-        "question": "Koji se znanstveni instrument koristi za promatranje iznimno malih objekata poput stanica ili bakterija?",
-        "correct_answer": "Mikroskop",
-        "incorrect_answers": [
-            "Teleskop",
-            "Periskop",
-            "Endoskop"
-        ]
-    },
-    {
-        "id": "hr_gen_192",
-        "category": "opca_znanje",
-        "question": "Kako se zove boja nastala miješanjem plave i zelene boje na svjetlosnom spektru?",
-        "correct_answer": "Cijan (Cijan plava)",
-        "incorrect_answers": [
-            "Magenta",
-            "Tirkizna",
-            "Indigo"
-        ]
-    },
-    {
-        "id": "hr_gen_193",
-        "category": "opca_znanje",
-        "question": "Koji je poznati znanstvenik otkrio penicilin 1928. godine?",
-        "correct_answer": "Alexander Fleming",
-        "incorrect_answers": [
-            "Louis Pasteur",
-            "Robert Koch",
-            "Edward Jenner"
-        ]
-    },
-    {
-        "id": "hr_gen_194",
-        "category": "opca_znanje",
-        "question": "Kako se zove otrovna tvar u cigaretama koja uzrokuje ovisnost?",
-        "correct_answer": "Nikotin",
-        "incorrect_answers": [
-            "Katran",
-            "Ugljikov monoksid",
-            "Kofein"
-        ]
-    },
-    {
-        "id": "hr_gen_195",
-        "category": "opca_znanje",
-        "question": "Kako se zove teorija koja objašnjava gibanje i pomicanje velikih ploča Zemljine kore?",
-        "correct_answer": "Tektonika ploča",
-        "incorrect_answers": [
-            "Kontinentalni drift",
-            "Erozija",
-            "Vulkanizam"
-        ]
-    },
-    {
-        "id": "hr_gen_196",
-        "category": "opca_znanje",
-        "question": "Koliko mililitara sadrži jedna standardna litra tekućine?",
-        "correct_answer": "1000 ml",
-        "incorrect_answers": [
-            "100 ml",
-            "500 ml",
-            "10000 ml"
-        ]
-    },
-    {
-        "id": "hr_gen_197",
-        "category": "opca_znanje",
-        "question": "Koji je najstariji poznati sustav pisma na svijetu nastao u Sumeru?",
-        "correct_answer": "Klinasto pismo",
-        "incorrect_answers": [
-            "Hijeroglifi",
-            "Feničko pismo",
-            "Sanskrit"
-        ]
-    },
-    {
-        "id": "hr_gen_198",
-        "category": "opca_znanje",
-        "question": "Kako se naziva kut koji iznosi točno 90 stupnjeva?",
-        "correct_answer": "Pravi kut",
-        "incorrect_answers": [
-            "Ostri kut",
-            "Tupi kut",
-            "Ravni kut"
-        ]
-    },
-    {
-        "id": "hr_gen_199",
-        "category": "opca_znanje",
-        "question": "Kako se zvala prva svemirska stanica lansirana u orbitu od strane SSSR-a 1971. godine?",
-        "correct_answer": "Saljut 1",
-        "incorrect_answers": [
-            "Mir",
-            "Skylab",
-            "ISS"
-        ]
-    },
-    {
-        "id": "hr_gen_200",
-        "category": "opca_znanje",
-        "question": "Koji je kemijski simbol za srebro u periodnom sustavu elemenata?",
-        "correct_answer": "Ag",
-        "incorrect_answers": [
-            "Au",
-            "Si",
-            "Sr"
-        ]
-    }
+  {
+    "id": "hr_gen_101",
+    "category": "opca_znanje",
+    "question": "Koja je službena valuta u Ujedinjenom Kraljevstvu?",
+    "correct_answer": "Britanska funta",
+    "incorrect_answers": [
+      "Euro",
+      "Američki dolar",
+      "Švicarski franak"
+    ]
+  },
+  {
+    "id": "hr_gen_102",
+    "category": "opca_znanje",
+    "question": "Kako se zove glavno sjedište Ministarstva obrane SAD-a u obliku peterokuta?",
+    "correct_answer": "Pentagon",
+    "incorrect_answers": [
+      "Bijela kuća",
+      "Kapitol",
+      "FBI"
+    ]
+  },
+  {
+    "id": "hr_gen_103",
+    "category": "opca_znanje",
+    "question": "Koji se plemeniti kovčeg i metal u kemiji označava simbolom 'Au'?",
+    "correct_answer": "Zlato",
+    "incorrect_answers": [
+      "Srebro",
+      "Platina",
+      "Željezo"
+    ]
+  },
+  {
+    "id": "hr_gen_104",
+    "category": "opca_znanje",
+    "question": "Kako se zove prvi radijski valovima upravljani objekt koji je napravio Nikola Tesla u New Yorku 1898.?",
+    "correct_answer": "Model brodića na daljinsko upravljanje",
+    "incorrect_answers": [
+      "Električni automobil",
+      "Radio prijemnik",
+      "Bežična žarulja"
+    ]
+  },
+  {
+    "id": "hr_gen_105",
+    "category": "opca_znanje",
+    "question": "Koliko minuta traje jedna standardna četvrtina u košarkaškim utakmicama NBA lige?",
+    "correct_answer": "12 minuta",
+    "incorrect_answers": [
+      "10 minuta",
+      "15 minuta",
+      "20 minuta"
+    ]
+  },
+  {
+    "id": "hr_gen_106",
+    "category": "opca_znanje",
+    "question": "Koji je najveći organ u ljudskom tijelu?",
+    "correct_answer": "Koža",
+    "incorrect_answers": [
+      "Jetra",
+      "Pluća",
+      "Srce"
+    ]
+  },
+  {
+    "id": "hr_gen_107",
+    "category": "opca_znanje",
+    "question": "U kojem se gradu u Francuskoj nalazi sjedište Europskog parlamenta?",
+    "correct_answer": "Strasbourg",
+    "incorrect_answers": [
+      "Bruxelles",
+      "Pariz",
+      "Lyon"
+    ]
+  },
+  {
+    "id": "hr_gen_108",
+    "category": "opca_znanje",
+    "question": "Koja je država najmnogoljudnija na svijetu po podacima UN-a iz 2023. godine?",
+    "correct_answer": "Indija",
+    "incorrect_answers": [
+      "Kina",
+      "SAD",
+      "Indonezija"
+    ]
+  },
+  {
+    "id": "hr_gen_109",
+    "category": "opca_znanje",
+    "question": "Kako se u šahu naziva situacija kada je kralj napadnut i nema legalnog poteza za bijeg?",
+    "correct_answer": "Šah-mat",
+    "incorrect_answers": [
+      "Pat",
+      "Rokada",
+      "Promocija"
+    ]
+  },
+  {
+    "id": "hr_gen_110",
+    "category": "opca_znanje",
+    "question": "Koja je kemijska oznaka za kuhinjsku sol (natrijev klorid)?",
+    "correct_answer": "NaCl",
+    "incorrect_answers": [
+      "KCl",
+      "NaOH",
+      "HCl"
+    ]
+  },
+  {
+    "id": "hr_gen_111",
+    "category": "opca_znanje",
+    "question": "U kojoj se državi nalaze drevne ruševine i utvrda Machu Picchu?",
+    "correct_answer": "Peru",
+    "incorrect_answers": [
+      "Meksiko",
+      "Bolivija",
+      "Čile"
+    ]
+  },
+  {
+    "id": "hr_gen_112",
+    "category": "opca_znanje",
+    "question": "Koliko struna/žica ima standardna klasična gitara?",
+    "correct_answer": "6",
+    "incorrect_answers": [
+      "4",
+      "5",
+      "8"
+    ]
+  },
+  {
+    "id": "hr_gen_113",
+    "category": "opca_znanje",
+    "question": "Koji je najveći sisavac koji je ikada živio na Zemlji?",
+    "correct_answer": "Plavi kit",
+    "incorrect_answers": [
+      "Afrički slon",
+      "Mamut",
+      "Orka"
+    ]
+  },
+  {
+    "id": "hr_gen_114",
+    "category": "opca_znanje",
+    "question": "Koji se instrument koristi za mjerenje potresa?",
+    "correct_answer": "Seizmograf",
+    "incorrect_answers": [
+      "Barometar",
+      "Anemometar",
+      "Higrometar"
+    ]
+  },
+  {
+    "id": "hr_gen_115",
+    "category": "opca_znanje",
+    "question": "Kako se zove autor serijala knjiga o dječaku čarobnjaku Harryju Potteru?",
+    "correct_answer": "J. K. Rowling",
+    "incorrect_answers": [
+      "J. R. R. Tolkien",
+      "Suzanne Collins",
+      "George R. R. Martin"
+    ]
+  },
+  {
+    "id": "hr_gen_116",
+    "category": "opca_znanje",
+    "question": "Koja je najduža rijeka koja teče isključivo kroz teritorij Europe?",
+    "correct_answer": "Volga",
+    "incorrect_answers": [
+      "Dunav",
+      "Dnjepar",
+      "Rajna"
+    ]
+  },
+  {
+    "id": "hr_gen_117",
+    "category": "opca_znanje",
+    "question": "Koji plin čini najveći udio u sastavu Zemljine atmosfere (oko 78%)?",
+    "correct_answer": "Dušik",
+    "incorrect_answers": [
+      "Kisik",
+      "Argon",
+      "Ugljikov dioksid"
+    ]
+  },
+  {
+    "id": "hr_gen_118",
+    "category": "opca_znanje",
+    "question": "Koje je glavno pravilo u tenisu za izraz 'love' prilikom brojanja bodova?",
+    "correct_answer": "Označava nula bodova",
+    "incorrect_answers": [
+      "Označava izjednačenje",
+      "Označava osvojeni set",
+      "Označava kazneni bod"
+    ]
+  },
+  {
+    "id": "hr_gen_119",
+    "category": "opca_znanje",
+    "question": "Koja se životinja nalazi na službenom grbu Republike Australije uz klokana?",
+    "correct_answer": "Emu",
+    "incorrect_answers": [
+      "Koala",
+      "Wombat",
+      "Kivi"
+    ]
+  },
+  {
+    "id": "hr_gen_120",
+    "category": "opca_znanje",
+    "question": "Koji se znanstvenik smatra ocem moderne fizike i otkrio je tri zakona gibanja?",
+    "correct_answer": "Isaac Newton",
+    "incorrect_answers": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ]
+  },
+  {
+    "id": "hr_gen_121",
+    "category": "opca_znanje",
+    "question": "Kako se zove proces kojim zelene biljke pretvaraju svjetlosnu energiju u kemijsku?",
+    "correct_answer": "Fotosinteza",
+    "incorrect_answers": [
+      "Kondenzacija",
+      "Evaporacija",
+      "Vrenje"
+    ]
+  },
+  {
+    "id": "hr_gen_122",
+    "category": "opca_znanje",
+    "question": "Kako se zove tekućina koja kruži stablima i biljkama prenoseći hranjive tvari?",
+    "correct_answer": "Biljni sok",
+    "incorrect_answers": [
+      "Klorofil",
+      "Nektar",
+      "Lateks"
+    ]
+  }
 ]
