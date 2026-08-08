@@ -46,7 +46,7 @@ service cloud.firestore {
             && (!('coins' in request.resource.data) || (request.resource.data.coins is int && request.resource.data.coins >= 0))
             && (!('maxStreak' in request.resource.data) || (request.resource.data.maxStreak is int && request.resource.data.maxStreak >= 0))
             && (!('dayStreak' in request.resource.data) || (request.resource.data.dayStreak is int && request.resource.data.dayStreak >= 0))
-            && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is int && request.resource.data.achievementCount >= 0 && request.resource.data.achievementCount <= 30)));
+            && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is int && request.resource.data.achievementCount >= 0 && request.resource.data.achievementCount <= 100)));
 
       allow delete: if isAdmin();
     }
