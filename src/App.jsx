@@ -46,6 +46,8 @@ import TimerRing from './components/TimerRing';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
 import { useSessionTracking } from './hooks/useSessionTracking';
+import { usePresence } from './hooks/usePresence';
+import OnlinePlayersList from './components/OnlinePlayersList';
 import { shuffleArray } from './utils/questionUtils';
 import {
   auth,
@@ -64,7 +66,8 @@ import {
   startDailyAttempt,
   submitDailyScore,
   getDailyLeaderboard,
-  getDailyMeta
+  getDailyMeta,
+  deletePresence
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
@@ -230,6 +233,10 @@ export default function App() {
   // Admin-only beta-insights instrumentation (see hooks/useSessionTracking.js)
   // - a no-op while signed out.
   useSessionTracking(currentUser?.uid, gameState);
+
+  // Publicly-visible online-players presence (see hooks/usePresence.js) -
+  // also a no-op while signed out.
+  usePresence(currentUser?.uid, currentUser?.displayName, globalStats.level, gameState);
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
@@ -963,6 +970,9 @@ export default function App() {
   }, [gameState, currentUser, scoreSaved]);
 
   const handlePlayerLogout = async () => {
+    if (currentUser?.uid) {
+      await deletePresence(currentUser.uid);
+    }
     await logoutUser();
     setShowAdminPanel(false);
     sound.playClick();
@@ -1184,6 +1194,8 @@ export default function App() {
               </div>
               <RekordiBoards data={rekordiDataWithDaily} limitPerBoard={3} compact />
             </div>
+
+            {currentUser && <OnlinePlayersList currentUid={currentUser.uid} />}
           </div>
         )}
 

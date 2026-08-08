@@ -174,6 +174,39 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    // Online-players list (lobby) - one publicly-listable doc per online
+    // signed-in player, heartbeat-refreshed the same way as
+    // sessions/{sessionId} above but a different purpose: this is meant to
+    // be read by other players, not just the owner/admin. Read is
+    // signed-in-only rather than fully public (`allow read: if true`) as a
+    // safer default - loosening this later to allow signed-out visitors is
+    // easy, tightening it after launch is not.
+    function validPresenceShape(data) {
+      return data.keys().hasOnly(['uid', 'displayName', 'level', 'status', 'lastHeartbeat'])
+        && data.uid is string
+        && data.displayName is string
+        && data.displayName.size() > 0
+        && data.displayName.size() <= 20
+        && data.level is int
+        && data.level >= 1
+        && data.status in ['lobby', 'playing', 'busy']
+        && data.lastHeartbeat == request.time;
+    }
+
+    match /presence/{uid} {
+      allow read: if isSignedIn();
+
+      allow create: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && validPresenceShape(request.resource.data);
+
+      allow update: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && validPresenceShape(request.resource.data);
+
+      allow delete: if isOwner(uid) || isAdmin();
+    }
+
     // Gameplay content-insights event log (question accuracy, category
     // popularity, win/loss rate - admin dashboard stats, not a per-tester
     // engagement signal). Unlike sessions/{sessionId} above, these accept

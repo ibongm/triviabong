@@ -26,7 +26,8 @@ import {
     addDoc,
     writeBatch,
     connectFirestoreEmulator,
-    runTransaction
+    runTransaction,
+    onSnapshot
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
@@ -788,4 +789,61 @@ export const updateUserInFirestore = async (uid, updatedData) => {
 export const deleteUserFromFirestore = async (uid) => {
     const userRef = doc(db, "users", uid);
     await deleteDoc(userRef);
+};
+
+/**
+ * Creates/updates the caller's presence/{uid} doc (see firestore.rules) -
+ * one publicly-listable doc per signed-in online player, showing status
+ * (lobby/playing/busy), displayName and level. displayName/level are
+ * denormalized here rather than joined from publicProfiles/{uid} on read,
+ * so the online list doesn't need an extra read per newly-visible player on
+ * every heartbeat - see Plan A's data-model notes. Signed-in users only
+ * (no uid, no doc), same reasoning as startSession.
+ */
+export const upsertPresence = async (uid, displayName, level, status) => {
+    if (!uid) return;
+    try {
+        const presenceRef = doc(db, "presence", uid);
+        await setDoc(presenceRef, {
+            uid,
+            displayName: (displayName || 'Igrač').slice(0, 20),
+            level: Number.isInteger(level) && level >= 1 ? level : 1,
+            status,
+            lastHeartbeat: serverTimestamp(),
+        });
+    } catch (error) {
+        console.error('Error updating presence:', error);
+    }
+};
+
+/**
+ * Live-subscribes to every presence/{uid} doc. Filtering by the "online"
+ * threshold (stale heartbeats still linger as docs until the owner logs out
+ * - see deletePresence) happens client-side in the caller, not here, since
+ * "online" is a read-time judgment call (see usePresence) rather than
+ * something worth a composite index for at beta scale. Returns the
+ * onSnapshot unsubscribe function.
+ */
+export const subscribeToOnlinePlayers = (callback) => {
+    const presenceRef = collection(db, "presence");
+    return onSnapshot(presenceRef, (snapshot) => {
+        callback(snapshot.docs.map(docSnap => docSnap.data()));
+    }, (error) => {
+        console.error('Error subscribing to online players:', error);
+    });
+};
+
+/**
+ * Removes the caller's presence doc on explicit logout - a clean signal
+ * instead of waiting out the heartbeat timeout for everyone else's list to
+ * catch up. Never throws: called from handlePlayerLogout, which must not be
+ * blocked by a presence-cleanup failure.
+ */
+export const deletePresence = async (uid) => {
+    if (!uid) return;
+    try {
+        await deleteDoc(doc(db, "presence", uid));
+    } catch (error) {
+        console.error('Error deleting presence:', error);
+    }
 };
