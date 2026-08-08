@@ -5388,5 +5388,82 @@
             "Disprozij",
             "Gadolinij"
         ]
+    },
+    {
+        "id": "hr_sci_499",
+        "category": "znanost",
+        "question": "Koji je francuski fizičar otkrio prirodnu radioaktivnost urana 1896. godine?",
+        "correct_answer": "Henri Becquerel",
+        "incorrect_answers": [
+            "Marie Curie",
+            "Pierre Curie",
+            "Ernest Rutherford"
+        ]
+    },
+    {
+        "id": "hr_sci_500",
+        "category": "znanost",
+        "question": "Koji se novozelandsko-britanski fizičar smatra ocem nuklearne fizike (otkrio atomsku jezgru i proton)?",
+        "correct_answer": "Ernest Rutherford",
+        "incorrect_answers": [
+            "J. J. Thomson",
+            "Niels Bohr",
+            "James Chadwick"
+        ]
+    },
+    {
+        "id": "hr_sci_501",
+        "category": "znanost",
+        "question": "Koji je engleski fizičar otkrio elektron 1897. godine eksperimentirajući s katodnim cijevima?",
+        "correct_answer": "J. J. Thomson",
+        "incorrect_answers": [
+            "Ernest Rutherford",
+            "James Chadwick",
+            "John Dalton"
+        ]
+    },
+    {
+        "id": "hr_sci_502",
+        "category": "znanost",
+        "question": "Koji je engleski fizičar otkrio neutron 1932. godine?",
+        "correct_answer": "James Chadwick",
+        "incorrect_answers": [
+            "Ernest Rutherford",
+            "J. J. Thomson",
+            "Niels Bohr"
+        ]
+    },
+    {
+        "id": "hr_sci_503",
+        "category": "znanost",
+        "question": "Kako se zove njemački fizičar koji se smatra utemeljiteljem kvantne teorije (uvedao kvant akcije h)?",
+        "correct_answer": "Max Planck",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Niels Bohr",
+            "Werner Heisenberg"
+        ]
+    },
+    {
+        "id": "hr_sci_504",
+        "category": "znanost",
+        "question": "Kako se zove njemački fizičar poznat po načelu neodređenosti u kvantnoj mehanici?",
+        "correct_answer": "Werner Heisenberg",
+        "incorrect_answers": [
+            "Erwin Schrödinger",
+            "Max Born",
+            "Wolfgang Pauli"
+        ]
+    },
+    {
+        "id": "hr_sci_505",
+        "category": "znanost",
+        "question": "Kako se zove austrijski fizičar poznat po misaonom pokusu s mačkom u kutiji koja je istovremeno živa i mrtva?",
+        "correct_answer": "Erwin Schrödinger",
+        "incorrect_answers": [
+            "Werner Heisenberg",
+            "Niels Bohr",
+            "Paul Dirac"
+        ]
     }
 ]
