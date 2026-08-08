@@ -5476,5 +5476,1094 @@
             "Niels Bohr",
             "Werner Heisenberg"
         ]
+    },
+    {
+        "id": "hr_sci_507",
+        "category": "znanost",
+        "question": "Koji je programski jezik, nazvan po britanskom komičarskom sastavu, izuzetno popularan u analizi podataka i umjetnoj inteligenciji?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "C++",
+            "Ruby",
+            "Perl"
+        ]
+    },
+    {
+        "id": "hr_sci_508",
+        "category": "znanost",
+        "question": "Kako se zove fizikalni pojam za najdužu valnu duljinu u vidljivom spektru svjetlosti za ljudsko oko?",
+        "correct_answer": "Crvena svjetlost",
+        "incorrect_answers": [
+            "Ljubičasta svjetlost",
+            "Zelena svjetlost",
+            "Plava svjetlost"
+        ]
+    },
+    {
+        "id": "hr_sci_509",
+        "category": "znanost",
+        "question": "Koja je osnovna građevna jedinica proteina?",
+        "correct_answer": "Aminokiselina",
+        "incorrect_answers": [
+            "Monosaharid",
+            "Nukleotid",
+            "Masna kiselina"
+        ]
+    },
+    {
+        "id": "hr_sci_510",
+        "category": "znanost",
+        "question": "Kako se zove kemijski element sa simbolom 'Mg'?",
+        "correct_answer": "Magnezij",
+        "incorrect_answers": [
+            "Mangan",
+            "Magnezijum-dioksid",
+            "Molitden"
+        ]
+    },
+    {
+        "id": "hr_sci_511",
+        "category": "znanost",
+        "question": "Što označava skraćenica 'HTTP' u mrežnim protokolima?",
+        "correct_answer": "Hypertext Transfer Protocol",
+        "incorrect_answers": [
+            "High Transfer Text Protocol",
+            "Hypertext Technical Provider",
+            "Home Transfer Text Protocol"
+        ]
+    },
+    {
+        "id": "hr_sci_512",
+        "category": "znanost",
+        "question": "Kako se zove proces kojim stijene mijenjaju svoj oblik i sastav uslijed visokog tlaka i temperature unutar Zemlje?",
+        "correct_answer": "Metamorfoza (Metamorfizam)",
+        "incorrect_answers": [
+            "Sedimentacija",
+            "Kristalizacija",
+            "Erozija"
+        ]
+    },
+    {
+        "id": "hr_sci_513",
+        "category": "znanost",
+        "question": "Koji je najveći organ u ljudskom dišnom sustavu?",
+        "correct_answer": "Pluća",
+        "incorrect_answers": [
+            "Grkljan",
+            "Dušnik",
+            "Ošit"
+        ]
+    },
+    {
+        "id": "hr_sci_514",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalna veličina koja opisuje tromost tijela pri rotacijskom gibanju?",
+        "correct_answer": "Moment tromosti (inercije)",
+        "incorrect_answers": [
+            "Kinetička energija",
+            "Količina gibanja",
+            "Centripetalna sila"
+        ]
+    },
+    {
+        "id": "hr_sci_515",
+        "category": "znanost",
+        "question": "Koji je prvi čovjek koji je zakoračio na Mjesec 1969. godine?",
+        "correct_answer": "Neil Armstrong",
+        "incorrect_answers": [
+            "Buzz Aldrin",
+            "Yuri Gagarin",
+            "Michael Collins"
+        ]
+    },
+    {
+        "id": "hr_sci_516",
+        "category": "znanost",
+        "question": "Kako se u računalstvu zove tehnologija koja omogućuje izvođenje više operacijskih sustava na jednom fizičkom poslužitelju?",
+        "correct_answer": "Virtualizacija",
+        "incorrect_answers": [
+            "Kompilacija",
+            "Emulacija",
+            "Kontejnerizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_517",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za cink?",
+        "correct_answer": "Zn",
+        "incorrect_answers": [
+            "Ci",
+            "Ck",
+            "Z"
+        ]
+    },
+    {
+        "id": "hr_sci_518",
+        "category": "znanost",
+        "question": "Kako se zove znanstveno područje koje proučava potrese i širenje seizmičkih valova?",
+        "correct_answer": "Seizmologija",
+        "incorrect_answers": [
+            "Vulkanologija",
+            "Tektonika",
+            "Geodezija"
+        ]
+    },
+    {
+        "id": "hr_sci_519",
+        "category": "znanost",
+        "question": "Koji je biljni organ primarno odgovoran za fotosintezu i izmjenu plinova?",
+        "correct_answer": "List",
+        "incorrect_answers": [
+            "Korijen",
+            "Stabljika",
+            "Cvijet"
+        ]
+    },
+    {
+        "id": "hr_sci_520",
+        "category": "znanost",
+        "question": "Koja se jedinica koristi za mjerenje jakosti zvučnog tlaka ili razine zvuka?",
+        "correct_answer": "Decibel (dB)",
+        "incorrect_answers": [
+            "Herc (Hz)",
+            "Lumen (lm)",
+            "Pascal (Pa)"
+        ]
+    },
+    {
+        "id": "hr_sci_521",
+        "category": "znanost",
+        "question": "Koji se plin oslobađa u reakciji kiselina s većinom metala?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Ugljikov dioksid"
+        ]
+    },
+    {
+        "id": "hr_sci_522",
+        "category": "znanost",
+        "question": "Kako se zove pojava spajanja dvaju svjetlosnih valova čime nastaju svijetle i tamne pruge?",
+        "correct_answer": "Interferencija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Polarizacija",
+            "Disperzija"
+        ]
+    },
+    {
+        "id": "hr_sci_523",
+        "category": "znanost",
+        "question": "Što u fizici izražava rad po jedinici vremena?",
+        "correct_answer": "Snaga",
+        "incorrect_answers": [
+            "Energija",
+            "Sila",
+            "Impuls"
+        ]
+    },
+    {
+        "id": "hr_sci_524",
+        "category": "znanost",
+        "question": "Kako se zove računalna struktura podataka u kojoj se novi elementi dodaju i uklanjaju samo s jednog kraja (LIFO)?",
+        "correct_answer": "Stog (Stack)",
+        "incorrect_answers": [
+            "Red (Queue)",
+            "Polje (Array)",
+            "Stablo (Tree)"
+        ]
+    },
+    {
+        "id": "hr_sci_525",
+        "category": "znanost",
+        "question": "Koji je najvrući sloj Sunčeve atmosfere vidljiv tijekom potpune pomrčine Sunca?",
+        "correct_answer": "Korona",
+        "incorrect_answers": [
+            "Fotosfera",
+            "Kromosfera",
+            "Konvektivna zona"
+        ]
+    },
+    {
+        "id": "hr_sci_526",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za silicij?",
+        "correct_answer": "Si",
+        "incorrect_answers": [
+            "S",
+            "Sc",
+            "Sl"
+        ]
+    },
+    {
+        "id": "hr_sci_527",
+        "category": "znanost",
+        "question": "Kako se naziva nauka o uzgoju, strukturi i bolestima šuma?",
+        "correct_answer": "Šumarstvo / Silvikultura",
+        "incorrect_answers": [
+            "Hortikultura",
+            "Agronomija",
+            "Dendrologija"
+        ]
+    },
+    {
+        "id": "hr_sci_528",
+        "category": "znanost",
+        "question": "Kako se u računalstvu zove program koji pretvara viši programski jezik u asemblerski ili strojni kod?",
+        "correct_answer": "Kompajler (Prevoditelj)",
+        "incorrect_answers": [
+            "Interpreter",
+            "Linker",
+            "Debugger"
+        ]
+    },
+    {
+        "id": "hr_sci_529",
+        "category": "znanost",
+        "question": "Koja je leća tanja na sredini nego na rubovima i raspršuje svjetlosne zrake?",
+        "correct_answer": "Udubljena (Konkavna) leća",
+        "incorrect_answers": [
+            "Ispupčena leća",
+            "Sabirna leća",
+            "Bikonveksna leća"
+        ]
+    },
+    {
+        "id": "hr_sci_530",
+        "category": "znanost",
+        "question": "Koja je životinja bila prvi sisavac poslan u orbitu oko Zemlje 1957. godine (pas Laika)?",
+        "correct_answer": "Pas",
+        "incorrect_answers": [
+            "Majmun",
+            "Šimpanza",
+            "Zamorac"
+        ]
+    },
+    {
+        "id": "hr_sci_531",
+        "category": "znanost",
+        "question": "Kako se u anatomiji zove koštana struktura koja štiti srce i pluća u prsnom košu?",
+        "correct_answer": "Rebra i prsna kost",
+        "incorrect_answers": [
+            "Kralježnica",
+            "Zdjelica",
+            "Lopatice"
+        ]
+    },
+    {
+        "id": "hr_sci_532",
+        "category": "znanost",
+        "question": "Koji je kemijski element najzastupljeniji u sastavu atmosfere Marsa (oko 95%)?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Dušik",
+            "Argon",
+            "Kisik"
+        ]
+    },
+    {
+        "id": "hr_sci_533",
+        "category": "znanost",
+        "question": "Kako se naziva proces prijelaza tvari iz tekućeg u plinovito stanje uslijed dostizanja vrelišta?",
+        "correct_answer": "Vrenje (Isplupljivanje)",
+        "incorrect_answers": [
+            "Isparavanje",
+            "Sublimacija",
+            "Kondenzacija"
+        ]
+    },
+    {
+        "id": "hr_sci_534",
+        "category": "znanost",
+        "question": "Koji se uređaj koristi za pretvaranje istosmjerne struje u izmjeničnu struju?",
+        "correct_answer": "Invertor",
+        "incorrect_answers": [
+            "Ispravljač",
+            "Transformator",
+            "Generator"
+        ]
+    },
+    {
+        "id": "hr_sci_535",
+        "category": "znanost",
+        "question": "Kako se zove dio stanice odgovoran za sintezu proteina?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Lizosom",
+            "Peroksizom",
+            "Vakuola"
+        ]
+    },
+    {
+        "id": "hr_sci_536",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za fluor?",
+        "correct_answer": "F",
+        "incorrect_answers": [
+            "Fl",
+            "Fr",
+            "Fo"
+        ]
+    },
+    {
+        "id": "hr_sci_537",
+        "category": "znanost",
+        "question": "Koja je fizikalna veličina definirana kao umnožak sile i puta u smjeru djelovanja sile?",
+        "correct_answer": "Mehanički rad",
+        "incorrect_answers": [
+            "Snaga",
+            "Kinetička energija",
+            "Tlak"
+        ]
+    },
+    {
+        "id": "hr_sci_538",
+        "category": "znanost",
+        "question": "Što u teoriji baza podataka znači 'NoSQL'?",
+        "correct_answer": "Not Only SQL",
+        "incorrect_answers": [
+            "No Structured Language",
+            "Non-Sequential SQL",
+            "New Object SQL"
+        ]
+    },
+    {
+        "id": "hr_sci_539",
+        "category": "znanost",
+        "question": "Kako se zove znanost koja se bavi proučavanjem gljiva?",
+        "correct_answer": "Mikologija",
+        "incorrect_answers": [
+            "Botanika",
+            "Algologija",
+            "Bakteriologija"
+        ]
+    },
+    {
+        "id": "hr_sci_540",
+        "category": "znanost",
+        "question": "Koji je izumitelj izradio prvi komercijalni pisaći stroj te postavio raspored tipki QWERTY?",
+        "correct_answer": "Christopher Latham Sholes",
+        "incorrect_answers": [
+            "Thomas Edison",
+            "Samuel Morse",
+            "Alexander Graham Bell"
+        ]
+    },
+    {
+        "id": "hr_sci_541",
+        "category": "znanost",
+        "question": "Kako se zove pojava pri kojoj tvar emitira svjetlost pod utjecajem prolaska električne struje kroz nju?",
+        "correct_answer": "Elektroluminiscencija",
+        "incorrect_answers": [
+            "Fotoluminiscencija",
+            "Kemoluminiscencija",
+            "Termoluminiscencija"
+        ]
+    },
+    {
+        "id": "hr_sci_542",
+        "category": "znanost",
+        "question": "Koji je najteži stabilni (neradioaktivni) kemijski element u periodnom sustavu s atomskim brojem 82?",
+        "correct_answer": "Olovo (Pb)",
+        "incorrect_answers": [
+            "Bismut (Bi)",
+            "Zlato (Au)",
+            "Uranij (U)"
+        ]
+    },
+    {
+        "id": "hr_sci_543",
+        "category": "znanost",
+        "question": "Kako se zove proces kojim tvari prolaze kroz polupropusnu membranu iz područja niže u područje više koncentracije otopljene tvari?",
+        "correct_answer": "Osmoza",
+        "incorrect_answers": [
+            "Difuzija",
+            "Filtracija",
+            "Dializa"
+        ]
+    },
+    {
+        "id": "hr_sci_544",
+        "category": "znanost",
+        "question": "Što označava skraćenica 'FTP' u računalnim mrežama?",
+        "correct_answer": "File Transfer Protocol",
+        "incorrect_answers": [
+            "Fast Transmission Path",
+            "File Tracking Provider",
+            "Format Text Protocol"
+        ]
+    },
+    {
+        "id": "hr_sci_545",
+        "category": "znanost",
+        "question": "Koji se geološki sloj nalazi izravno ispod litosfere i odlikuje se djelomično rastaljenim stijenama?",
+        "correct_answer": "Astenosfera",
+        "incorrect_answers": [
+            "Mezosfera",
+            "Gornji plašt",
+            "Zemljina jezgra"
+        ]
+    },
+    {
+        "id": "hr_sci_546",
+        "category": "znanost",
+        "question": "Koji se znanstveni zakon odnosi na održanje mase u zatvorenom kemijskom sustavu (Lavoisier)?",
+        "correct_answer": "Zakon o očuvanju mase",
+        "incorrect_answers": [
+            "Zakon o očuvanju energije",
+            "Zakon spojenih posuda",
+            "Avogradrov zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_547",
+        "category": "znanost",
+        "question": "Kako se u informatici zove pogreška u programu koja se javlja prilikom njegovog izvođenja?",
+        "correct_answer": "Runtime error",
+        "incorrect_answers": [
+            "Syntax error",
+            "Compile error",
+            "Logic error"
+        ]
+    },
+    {
+        "id": "hr_sci_548",
+        "category": "znanost",
+        "question": "Koji je otac moderne medicine iz antičke Grčke napisao čuvenu prisegu liječnika?",
+        "correct_answer": "Hipokrat",
+        "incorrect_answers": [
+            "Galen",
+            "Aristotel",
+            "Herofil"
+        ]
+    },
+    {
+        "id": "hr_sci_549",
+        "category": "znanost",
+        "question": "Koji se fizikalni zakon bavi odnosom struje, magnetskog polja i indukcije u elektrodinamici?",
+        "correct_answer": "Faradayev zakon indukcije",
+        "incorrect_answers": [
+            "Ohmov zakon",
+            "Coulombov zakon",
+            "Lenzovo pravilo"
+        ]
+    },
+    {
+        "id": "hr_sci_550",
+        "category": "znanost",
+        "question": "Kako se zvala prva američka svemirska postaja lansirana u orbitu 1973. godine?",
+        "correct_answer": "Skylab",
+        "incorrect_answers": [
+            "Mir",
+            "Sputnjik",
+            "Tianhe"
+        ]
+    },
+    {
+        "id": "hr_sci_551",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za jod?",
+        "correct_answer": "I",
+        "incorrect_answers": [
+            "J",
+            "Io",
+            "Id"
+        ]
+    },
+    {
+        "id": "hr_sci_552",
+        "category": "znanost",
+        "question": "Kako se u biologiji zove razdoblje zimskog sna kod određenih životinja radi uštede energije?",
+        "correct_answer": "Hibernacija",
+        "incorrect_answers": [
+            "Estivacija",
+            "Torpor",
+            "Migracija"
+        ]
+    },
+    {
+        "id": "hr_sci_553",
+        "category": "znanost",
+        "question": "Što u optici predstavlja 'refrakcija'?",
+        "correct_answer": "Lom svjetlosti pri prelasku iz jednog medija u drugi",
+        "incorrect_answers": [
+            "Odbijanje svjetlosti od glatke površine",
+            "Razlaganje svjetlosti na boje",
+            "Upijanje svjetlosti u tvar"
+        ]
+    },
+    {
+        "id": "hr_sci_554",
+        "category": "znanost",
+        "question": "Ako tvari imaju pH vrijednost manju od 7, kakvoga su kemijskog karaktera?",
+        "correct_answer": "Kiseline (Kiselo)",
+        "incorrect_answers": [
+            "Lužine (Bazično)",
+            "Neutralno",
+            "Amfoterno"
+        ]
+    },
+    {
+        "id": "hr_sci_555",
+        "category": "znanost",
+        "question": "Kako se u mrežnoj arhitekturi naziva protokol koji omogućuje siguran udaljeni pristup računalu putem šifriranog kanala?",
+        "correct_answer": "SSH",
+        "incorrect_answers": [
+            "Telnet",
+            "FTP",
+            "SNMP"
+        ]
+    },
+    {
+        "id": "hr_sci_556",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija bijelih krvnih stanica (leukocita) u ljudskom tijelu?",
+        "correct_answer": "Obrana organizma od infekcija",
+        "incorrect_answers": [
+            "Prijenos kisika",
+            "Zgrušavanje krvi",
+            "Prijenos hranjivih tvari"
+        ]
+    },
+    {
+        "id": "hr_sci_557",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za barij?",
+        "correct_answer": "Ba",
+        "incorrect_answers": [
+            "Br",
+            "B",
+            "Be"
+        ]
+    },
+    {
+        "id": "hr_sci_558",
+        "category": "znanost",
+        "question": "Kako se u astronomiji zove točka u kojoj je planet u svojoj orbiti najbliži Suncu?",
+        "correct_answer": "Perihel",
+        "incorrect_answers": [
+            "Afel",
+            "Perigej",
+            "Apogej"
+        ]
+    },
+    {
+        "id": "hr_sci_559",
+        "category": "znanost",
+        "question": "Što u računalstvu znači akronim 'ASCII'?",
+        "correct_answer": "American Standard Code for Information Interchange",
+        "incorrect_answers": [
+            "Automated System Code for Internal Integration",
+            "Advanced Standard Character Interface Index",
+            "American System Code for Information Integration"
+        ]
+    },
+    {
+        "id": "hr_sci_560",
+        "category": "znanost",
+        "question": "Koja vrsta mišićnog tkiva gradi stijenke unutarnjih organa (poput crijeva i želuca) i radi izvan naše volje?",
+        "correct_answer": "Glatko mišićno tkivo",
+        "incorrect_answers": [
+            "Poprečno-prugasto tkivo",
+            "Srčano mišićno tkivo",
+            "Skeletno tkivo"
+        ]
+    },
+    {
+        "id": "hr_sci_561",
+        "category": "znanost",
+        "question": "Kako se u fizici zove jedinica za mjerenje jakosti magnetskog polja u SI sustavu?",
+        "correct_answer": "Amper po metru (A/m)",
+        "incorrect_answers": [
+            "Tesla (T)",
+            "Weber (Wb)",
+            "Henry (H)"
+        ]
+    },
+    {
+        "id": "hr_sci_562",
+        "category": "znanost",
+        "question": "Kako se zove pojava spajanja dviju spolnih stanica (gameta) u jednu oplodnu stanicu (zigotu)?",
+        "correct_answer": "Oplodnja",
+        "incorrect_answers": [
+            "Mejoza",
+            "Partenogeneza",
+            "Gastrulacija"
+        ]
+    },
+    {
+        "id": "hr_sci_563",
+        "category": "znanost",
+        "question": "Što u teoriji računalnih mreža označava kratica 'LAN'?",
+        "correct_answer": "Local Area Network",
+        "incorrect_answers": [
+            "Large Access Network",
+            "Logical Application Node",
+            "Linked Alignment Network"
+        ]
+    },
+    {
+        "id": "hr_sci_564",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za fosfor u periodnom sustavu elemenata?",
+        "correct_answer": "P",
+        "incorrect_answers": [
+            "F",
+            "Po",
+            "K"
+        ]
+    },
+    {
+        "id": "hr_sci_565",
+        "category": "znanost",
+        "question": "Kako se naziva grana biologije koja proučava tkiva živih bića pod mikroskopom?",
+        "correct_answer": "Histologija",
+        "incorrect_answers": [
+            "Citologija",
+            "Anatomija",
+            "Morfologija"
+        ]
+    },
+    {
+        "id": "hr_sci_566",
+        "category": "znanost",
+        "question": "Koja je mjerna jedinica za kutnu brzinu u SI sustavu?",
+        "correct_answer": "Radijan u sekundi (rad/s)",
+        "incorrect_answers": [
+            "Stupanj u sekundi",
+            "Obrtaj u minuti",
+            "Herc (Hz)"
+        ]
+    },
+    {
+        "id": "hr_sci_567",
+        "category": "znanost",
+        "question": "Koji je izumitelj patentirao dinamit 1867. godine?",
+        "correct_answer": "Alfred Nobel",
+        "incorrect_answers": [
+            "Ascanio Sobrero",
+            "Fritz Haber",
+            "Robert Bunsen"
+        ]
+    },
+    {
+        "id": "hr_sci_568",
+        "category": "znanost",
+        "question": "Kako se u računalnom kodiranju zove tehnika skrivanja detalja implementacije i prikazivanja samo bitnih značajki?",
+        "correct_answer": "Apstrakcija",
+        "incorrect_answers": [
+            "Enkapsulacija",
+            "Nasljeđivanje",
+            "Polimorfizam"
+        ]
+    },
+    {
+        "id": "hr_sci_569",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za mangan?",
+        "correct_answer": "Mn",
+        "incorrect_answers": [
+            "Mg",
+            "Ma",
+            "Mo"
+        ]
+    },
+    {
+        "id": "hr_sci_570",
+        "category": "znanost",
+        "question": "Kako se zove zakon termodinamike koji navodi da je energija stvorena ili uništena, nego samo prelazi iz jednog oblika u drugi?",
+        "correct_answer": "Prvi zakon termodinamike",
+        "incorrect_answers": [
+            "Drugi zakon termodinamike",
+            "Treći zakon termodinamike",
+            "Nulti zakon termodinamike"
+        ]
+    },
+    {
+        "id": "hr_sci_571",
+        "category": "znanost",
+        "question": "Koja se životinjska vrsta smatra najbržom kopnenom životinjom na svijetu?",
+        "correct_answer": "Gepard",
+        "incorrect_answers": [
+            "Lav",
+            "Gazela",
+            "Pronghorn"
+        ]
+    },
+    {
+        "id": "hr_sci_572",
+        "category": "znanost",
+        "question": "Što u računalstvu opisuje pojam 'Open Source'?",
+        "correct_answer": "Izvorni kod koji je besplatno dostupan svima za uvid i modificiranje",
+        "incorrect_answers": [
+            "Softver koji radi isključivo bez licencnih ključeva",
+            "Besplatni softver bez prava na izmjenu koda",
+            "Komercijalni softver namijenjen otvorenim mrežama"
+        ]
+    },
+    {
+        "id": "hr_sci_573",
+        "category": "znanost",
+        "question": "Koji je znanstvenik objavio rad o zakonima nasljeđivanja na temelju pokusa s graškom u 19. stoljeću?",
+        "correct_answer": "Gregor Mendel",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Louis Pasteur",
+            "Hugo de Vries"
+        ]
+    },
+    {
+        "id": "hr_sci_574",
+        "category": "znanost",
+        "question": "Ako tvar prelazi iz plinovitog izravno u čvrsto stanje, kako se naziva taj fizikalni proces?",
+        "correct_answer": "Depozicija (Desublimacija)",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kondenzacija",
+            "Skrućivanje"
+        ]
+    },
+    {
+        "id": "hr_sci_575",
+        "category": "znanost",
+        "question": "Koja je najmnogoljudnija skupina (razred) unutar koljena člankonožaca?",
+        "correct_answer": "Kukci (Insecta)",
+        "incorrect_answers": [
+            "Paučnjaci",
+            "Rakovice",
+            "Stogoni"
+        ]
+    },
+    {
+        "id": "hr_sci_576",
+        "category": "znanost",
+        "question": "Što u mrežnoj terminologiji predstavlja skraćenica 'IP'?",
+        "correct_answer": "Internet Protocol",
+        "incorrect_answers": [
+            "Internal Path",
+            "Interactive Provider",
+            "International Port"
+        ]
+    },
+    {
+        "id": "hr_sci_577",
+        "category": "znanost",
+        "question": "Kako se zove pojava prinudnog kružnog gibanja nabijene čestice u homogenom magnetskom polju?",
+        "correct_answer": "Ciklotronsko gibanje",
+        "incorrect_answers": [
+            "Sinkrotronsko zračenje",
+            "Hallov efekt",
+            "Lorentzova rotacija"
+        ]
+    },
+    {
+        "id": "hr_sci_578",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za kositar?",
+        "correct_answer": "Sn",
+        "incorrect_answers": [
+            "Ks",
+            "St",
+            "So"
+        ]
+    },
+    {
+        "id": "hr_sci_579",
+        "category": "znanost",
+        "question": "Kako se zove organ u ljudskom tijelu odgovoran za proizvodnju hormona melatonina?",
+        "correct_answer": "Epifiza (Pinjalna žlijezda)",
+        "incorrect_answers": [
+            "Hipofiza",
+            "Štitnjača",
+            "Nadbubrežna žlijezda"
+        ]
+    },
+    {
+        "id": "hr_sci_580",
+        "category": "znanost",
+        "question": "Koji je naziv za najnižu teoretsku temperaturu u svemiru (0 Kelvin / -273,15 °C)?",
+        "correct_answer": "Apsolutna nula",
+        "incorrect_answers": [
+            "Kritična točka",
+            "Trojna točka",
+            "Termodinamički minimum"
+        ]
+    },
+    {
+        "id": "hr_sci_581",
+        "category": "znanost",
+        "question": "Koji se protokol u računalnim mrežama koristi za slanje elektroničke pošte (e-mail)?",
+        "correct_answer": "SMTP",
+        "incorrect_answers": [
+            "IMAP",
+            "POP3",
+            "HTTP"
+        ]
+    },
+    {
+        "id": "hr_sci_582",
+        "category": "znanost",
+        "question": "Kako se zove sloj plina iznad stratosfere koji proteže od oko 50 do 85 km visine?",
+        "correct_answer": "Mezosfera",
+        "incorrect_answers": [
+            "Troposfera",
+            "Termosfera",
+            "Eksosfera"
+        ]
+    },
+    {
+        "id": "hr_sci_583",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za nikal?",
+        "correct_answer": "Ni",
+        "incorrect_answers": [
+            "Nk",
+            "Na",
+            "Ne"
+        ]
+    },
+    {
+        "id": "hr_sci_584",
+        "category": "znanost",
+        "question": "Kako se zove pojava odbijanja svjetlosti od hrapave površine u svim smjerovima?",
+        "correct_answer": "Difuzno odbijanje (Raspršenje)",
+        "incorrect_answers": [
+            "Spekularno odbijanje",
+            "Refrakcija",
+            "Totalna refleksija"
+        ]
+    },
+    {
+        "id": "hr_sci_585",
+        "category": "znanost",
+        "question": "Koji se organ bavi održavanjem ravnoteže vode i elektrolita u tijelu te izlučivanjem štetnih produkata?",
+        "correct_answer": "Bubrezi",
+        "incorrect_answers": [
+            "Jetra",
+            "Mjehur",
+            "Slezena"
+        ]
+    },
+    {
+        "id": "hr_sci_586",
+        "category": "znanost",
+        "question": "Koja je mjerna jedinica za induktivnost u SI sustavu?",
+        "correct_answer": "Henry (H)",
+        "incorrect_answers": [
+            "Farad (F)",
+            "Weber (Wb)",
+            "Tesla (T)"
+        ]
+    },
+    {
+        "id": "hr_sci_587",
+        "category": "znanost",
+        "question": "Kako se zove najistaknutiji i najveći satelit planeta Saturna koji ima gustu atmosferu?",
+        "correct_answer": "Titan",
+        "incorrect_answers": [
+            "Encelad",
+            "Mimas",
+            "Rhea"
+        ]
+    },
+    {
+        "id": "hr_sci_588",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za olovo u periodnom sustavu?",
+        "correct_answer": "Pb",
+        "incorrect_answers": [
+            "Ol",
+            "Pl",
+            "Po"
+        ]
+    },
+    {
+        "id": "hr_sci_589",
+        "category": "znanost",
+        "question": "Što u računalnom programiranju predstavlja pojam 'Varijabla'?",
+        "correct_answer": "Imenovana memorijska lokacija koja pohranjuje podatak podložan promjeni",
+        "incorrect_answers": [
+            "Konstantna nepromjenjiva vrijednost",
+            "Hardverski utor u memoriji",
+            "Tip datoteke u operacijskom sustavu"
+        ]
+    },
+    {
+        "id": "hr_sci_590",
+        "category": "znanost",
+        "question": "Kako se zove proces kojim bakterije pretvaraju amonijak u nitrite i nitrate u tlu?",
+        "correct_answer": "Nitrifikacija",
+        "incorrect_answers": [
+            "Denitrifikacija",
+            "Fiksacija dušika",
+            "Amonifikacija"
+        ]
+    },
+    {
+        "id": "hr_sci_591",
+        "category": "znanost",
+        "question": "Koji je fizikalni koncept formulirao Blaise Pascal o prenošenju tlaka u tekućinama?",
+        "correct_answer": "Pascalov zakon",
+        "incorrect_answers": [
+            "Arhimedov zakon",
+            "Bernoullijev zakon",
+            "Ohmov zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_592",
+        "category": "znanost",
+        "question": "Što u mikrobiologiji predstavlja 'bakteriofag'?",
+        "correct_answer": "Virus koji inficira i uništava bakterije",
+        "incorrect_answers": [
+            "Bakterija koja konzumira druge bakterije",
+            "Stanica imunološkog sustava",
+            "Gljiva koja parazitira na bakterijama"
+        ]
+    },
+    {
+        "id": "hr_sci_593",
+        "category": "znanost",
+        "question": "Kako se naziva geološka era u kojoj se trenutno nalazimo (započela prije oko 66 milijuna godina)?",
+        "correct_answer": "Kenozoik",
+        "incorrect_answers": [
+            "Mezozoik",
+            "Paleozoik",
+            "Prekambrij"
+        ]
+    },
+    {
+        "id": "hr_sci_594",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za kobalt?",
+        "correct_answer": "Co",
+        "incorrect_answers": [
+            "Cb",
+            "Ct",
+            "Cl"
+        ]
+    },
+    {
+        "id": "hr_sci_595",
+        "category": "znanost",
+        "question": "Što u računalnoj hardverskoj arhitekturi znači skraćenica 'GPU'?",
+        "correct_answer": "Graphics Processing Unit",
+        "incorrect_answers": [
+            "General Processing Unit",
+            "Global Power Unit",
+            "Graphical Performance Utility"
+        ]
+    },
+    {
+        "id": "hr_sci_596",
+        "category": "znanost",
+        "question": "Kako se zove pojava raspadanja svjetlosti na boje prolaskom kroz kišne kapi čime nastaje duga?",
+        "correct_answer": "Disperzija i lom svjetlosti",
+        "incorrect_answers": [
+            "Polarizacija svjetlosti",
+            "Interferencija svjetlosti",
+            "Difrakcija svjetlosti"
+        ]
+    },
+    {
+        "id": "hr_sci_597",
+        "category": "znanost",
+        "question": "Koja se kiselina prirodno nalazi u mravljem ubodu i žarićima koprive?",
+        "correct_answer": "Mravlja kiselina (Metanska kiselina)",
+        "incorrect_answers": [
+            "Octena kiselina",
+            "Limunska kiselina",
+            "Mliječna kiselina"
+        ]
+    },
+    {
+        "id": "hr_sci_598",
+        "category": "znanost",
+        "question": "Koji je naziv za prvi umjetni satelit koji je SAD lansirao u svemir 1958. godine?",
+        "correct_answer": "Explorer 1",
+        "incorrect_answers": [
+            "Vanguard 1",
+            "Telstar 1",
+            "Apollo 1"
+        ]
+    },
+    {
+        "id": "hr_sci_599",
+        "category": "znanost",
+        "question": "Kako se zove proces kojim biljke izbacuju vodu u obliku tekućih kapljica na rubovima listova?",
+        "correct_answer": "Gutacija",
+        "incorrect_answers": [
+            "Transpiracija",
+            "Respiracija",
+            "Kondenzacija"
+        ]
+    },
+    {
+        "id": "hr_sci_600",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za litij?",
+        "correct_answer": "Li",
+        "incorrect_answers": [
+            "Lt",
+            "L",
+            "Lh"
+        ]
+    },
+    {
+        "id": "hr_sci_601",
+        "category": "znanost",
+        "question": "Koja se mjerna jedinica koristi za mjerenje svjetlosnog toka (toka svjetlosti) u SI sustavu?",
+        "correct_answer": "Lumen (lm)",
+        "incorrect_answers": [
+            "Luks (lx)",
+            "Kandela (cd)",
+            "Vat (W)"
+        ]
+    },
+    {
+        "id": "hr_sci_602",
+        "category": "znanost",
+        "question": "Koji je znanstvenik postavio zakon koji povezuje brzinu utjecanja tekućine s visinom stupca tekućine (Torricellijev zakon)?",
+        "correct_answer": "Evangelista Torricelli",
+        "incorrect_answers": [
+            "Daniel Bernoulli",
+            "Blaise Pascal",
+            "Isaac Newton"
+        ]
+    },
+    {
+        "id": "hr_sci_603",
+        "category": "znanost",
+        "question": "Kako se u informatici zove jedinstvena adresa koja identificira mrežni uređaj na fizičkom sloju (sloj 2)?",
+        "correct_answer": "MAC adresa",
+        "incorrect_answers": [
+            "IP adresa",
+            "DNS adresa",
+            "URL adresa"
+        ]
+    },
+    {
+        "id": "hr_sci_604",
+        "category": "znanost",
+        "question": "Koji se hormon luči iz nadbubrežne žlijezdre u situacijama 'bori se ili bježi' radi ubrzanja rada srca i podizanja tlaka?",
+        "correct_answer": "Adrenalin (Epinefrin)",
+        "incorrect_answers": [
+            "Insulin",
+            "Melatonin",
+            "Tiroksin"
+        ]
+    },
+    {
+        "id": "hr_sci_605",
+        "category": "znanost",
+        "question": "Kako se u fizici i geologiji zove strujanje tvari uzrokovano razlicama u gustoći uslijed zagrijavanja (npr. u Zemljinom plaštu)?",
+        "correct_answer": "Konvekcija",
+        "incorrect_answers": [
+            "Kondukcija",
+            "Radijacija",
+            "Subdukcija"
+        ]
     }
 ]
