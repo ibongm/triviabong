@@ -13,7 +13,7 @@
     {
         "id": "hr_geo_2",
         "category": "geografija",
-        "question": "Koja je najduža rijeka na svijetu?",
+        "question": "Koja se rijeka tradicionalno smatra najdužom na svijetu?",
         "correct_answer": "Nil",
         "incorrect_answers": [
             "Amazona",
@@ -1322,7 +1322,7 @@
     {
         "id": "hr_geo_121",
         "category": "geografija",
-        "question": "Koji je glavni grad Alžira?",
+        "question": "Koji je obalni grad na Sredozemnom moru ujedno prijestolnica Alžira i dijeli ime s državom?",
         "correct_answer": "Alžir (Algiers)",
         "incorrect_answers": [
             "Oran",
@@ -1575,18 +1575,18 @@
     {
         "id": "hr_geo_144",
         "category": "geografija",
-        "question": "Koja vulkanska skupina otoka pripada Portugalima i nalazi se u Atlantskom oceanu?",
+        "question": "Koja vulkanska skupina otoka pripada Portugalu i nalazi se u Atlantskom oceanu?",
         "correct_answer": "Azori",
         "incorrect_answers": [
-            "Kanarski otoci",
-            "Madeira",
-            "Zelonortski otoci"
+            "Bermudi",
+            "Galápagos",
+            "Kanari"
         ]
     },
     {
         "id": "hr_geo_145",
         "category": "geografija",
-        "question": "Koji je glavni grad Paname?",
+        "question": "Koji grad smješten na pacifičkom ulazu u Panamski kanal služi kao glavni grad te države?",
         "correct_answer": "Panama City",
         "incorrect_answers": [
             "Colón",
@@ -1806,7 +1806,7 @@
     {
         "id": "hr_geo_165",
         "category": "geografija",
-        "question": "Koji je glavni grad Luksemburga?",
+        "question": "Koji je najmnogoljudniji grad i prijestolnica Velikog Vojvodstva Luksemburga?",
         "correct_answer": "Luxembourg",
         "incorrect_answers": [
             "Esch-sur-Alzette",
@@ -1828,7 +1828,7 @@
     {
         "id": "hr_geo_167",
         "category": "geografija",
-        "question": "Koji je glavni grad Tunisa?",
+        "question": "Koji je obalni grad na sjeveru Afrike prijestolnica Tunisa?",
         "correct_answer": "Tunis",
         "incorrect_answers": [
             "Sfax",
@@ -2445,11 +2445,11 @@
         "id": "hr_geo_223",
         "category": "geografija",
         "question": "Koji je glavni grad Indonezije?",
-        "correct_answer": "Jakarta",
+        "correct_answer": "Nusantara",
         "incorrect_answers": [
+            "Jakarta",
             "Surabaya",
-            "Bandung",
-            "Nusantara"
+            "Bandung"
         ]
     },
     {
@@ -2587,7 +2587,7 @@
     {
         "id": "hr_geo_236",
         "category": "geografija",
-        "question": "Koji je službeni glavni grad Naurua?",
+        "question": "Koji okrug služi kao de facto administrativno središte Naurua?",
         "correct_answer": "Yaren",
         "incorrect_answers": [
             "Denigomodu",
@@ -2598,7 +2598,7 @@
     {
         "id": "hr_geo_237",
         "category": "geografija",
-        "question": "Koji je glavni grad Gvatemale?",
+        "question": "Koji je najmnogoljudniji grad i prijestolnica države Gvatemale u Srednjoj Americi?",
         "correct_answer": "Guatemala City",
         "incorrect_answers": [
             "Antigua Guatemala",
@@ -2620,7 +2620,7 @@
     {
         "id": "hr_geo_239",
         "category": "geografija",
-        "question": "Koji je glavni grad Salvadora?",
+        "question": "Koji je najmnogoljudniji grad i prijestolnica srednjoameričke države El Salvador?",
         "correct_answer": "San Salvador",
         "incorrect_answers": [
             "Santa Ana",
@@ -2807,7 +2807,7 @@
     {
         "id": "hr_geo_256",
         "category": "geografija",
-        "question": "Koji je najviši glavni grad svijeta po nadmorskoj visini, sjedište vlade Bolivije?",
+        "question": "Koji je grad na najvišoj nadmorskoj visini sjedište vlade Bolivije?",
         "correct_answer": "La Paz",
         "incorrect_answers": [
             "Sucre",
@@ -3049,7 +3049,7 @@
     {
         "id": "hr_geo_278",
         "category": "geografija",
-        "question": "Koji je glavni grad Džibutija?",
+        "question": "Koji je obalni grad u Adenskom zaljevu prijestolnica države Džibuti?",
         "correct_answer": "Djibouti",
         "incorrect_answers": [
             "Ali Sabieh",
@@ -3412,7 +3412,7 @@
     {
         "id": "hr_geo_311",
         "category": "geografija",
-        "question": "Koji je glavni grad Svetog Tome i Principa?",
+        "question": "Koji je glavni grad afričke otočne države Sveti Tome i Princip?",
         "correct_answer": "São Tomé",
         "incorrect_answers": [
             "Santo Amaro",
@@ -3547,9 +3547,9 @@
         "question": "Koji se park u Hrvatskoj ističe skradinskim i roškim slapom?",
         "correct_answer": "Nacionalni park Krka",
         "incorrect_answers": [
-            "Kornati",
-            "Brijuni",
-            "Mljet"
+            "Plitvička jezera",
+            "Paklenica",
+            "Risnjak"
         ]
     },
     {
@@ -4655,7 +4655,7 @@
     {
         "id": "hr_geo_424",
         "category": "geografija",
-        "question": "Koju prirodnu prevlaka presijeca Panamski kanal?",
+        "question": "Koju usku kopnenu prevlaku koja spaja Sjevernu i Južnu Ameriku presijeca poznati kanal sagrađen 1914. godine?",
         "correct_answer": "Panamska prevlaka",
         "incorrect_answers": [
             "Sueska prevlaka",
@@ -4666,7 +4666,7 @@
     {
         "id": "hr_geo_425",
         "category": "geografija",
-        "question": "Koju je prirodnu prevlaku presijecao Sueski kanal?",
+        "question": "Koju kopnenu prevlaku između Azije i Afrike presijeca kanal koji spaja Sredozemno i Crveno more?",
         "correct_answer": "Sueska prevlaka",
         "incorrect_answers": [
             "Panamska prevlaka",
@@ -5107,7 +5107,7 @@
         "id": "hr_geo_465",
         "category": "geografija",
         "question": "Koja je najduža rijeka koja u potpunosti teče unutar granica jedne europske države, Francuske?",
-        "correct_answer": "Loire",
+        "correct_answer": "Loara",
         "incorrect_answers": [
             "Rhône",
             "Seine",
@@ -7031,7 +7031,7 @@
     {
         "id": "hr_geo_640",
         "category": "geografija",
-        "question": "Koja se bivša sovjetska republika danas naziva Republika Sjeverna Makedonija nakon spora s Grčkom oko imena?",
+        "question": "Koja se bivša jugoslavenska republika danas naziva Republika Sjeverna Makedonija?",
         "correct_answer": "Makedonija",
         "incorrect_answers": [
             "Kosovo",
@@ -7977,12 +7977,12 @@
     {
         "id": "hr_geo_726",
         "category": "geografija",
-        "question": "Koje dvije države na svijetu imaju zastave identičnog dizajna, osim omjera stranica (Rumunjska i još jedna)?",
-        "correct_answer": "Rumunjska i Čad",
+        "question": "Koja afrička država ima nacionalnu zastavu (plavo-žuto-crvena) čiji je dizajn gotovo identičan zastavi Rumunjske?",
+        "correct_answer": "Čad",
         "incorrect_answers": [
-            "Rumunjska i Moldavija",
-            "Rumunjska i Andora",
-            "Rumunjska i Mali"
+            "Niger",
+            "Mali",
+            "Kamerun"
         ]
     },
     {
@@ -8109,7 +8109,7 @@
     {
         "id": "hr_geo_738",
         "category": "geografija",
-        "question": "U kojoj se njemačkoj saveznoj pokrajini nalazi grad Hamburg, koji je ujedno i sam savezna pokrajina?",
+        "question": "Koji je drugi po veličini grad u Njemačkoj ujedno i samostalna savezna pokrajina smještena na rijeci Elbi?",
         "correct_answer": "Hamburg",
         "incorrect_answers": [
             "Donja Saska",
@@ -8296,7 +8296,7 @@
     {
         "id": "hr_geo_755",
         "category": "geografija",
-        "question": "Koja je službena valuta Sirije?",
+        "question": "Koja je službena novčana jedinica (valuta) koja se koristi u Siriji?",
         "correct_answer": "Sirijska funta",
         "incorrect_answers": [
             "Libanonska funta",
@@ -8307,7 +8307,7 @@
     {
         "id": "hr_geo_756",
         "category": "geografija",
-        "question": "Koja je službena valuta Libanona?",
+        "question": "Koja se službena novčana jedinica (valuta) koristi u Libanonu?",
         "correct_answer": "Libanonska funta",
         "incorrect_answers": [
             "Sirijska funta",

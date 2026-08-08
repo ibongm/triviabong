@@ -209,17 +209,6 @@
         ]
     },
     {
-        "id": "hr_sci_20",
-        "category": "znanost",
-        "question": "Koji je najvrući planet u našem Sunčevom sustavu zbog jakog efekta staklenika?",
-        "correct_answer": "Venera",
-        "incorrect_answers": [
-            "Merkur",
-            "Mars",
-            "Jupiter"
-        ]
-    },
-    {
         "id": "hr_sci_21",
         "category": "znanost",
         "question": "Koji se programski jezik često koristi za razvoj web stranica i izvodi u preglednicima uz HTML i CSS?",
@@ -233,7 +222,7 @@
     {
         "id": "hr_sci_22",
         "category": "znanost",
-        "question": "Kako se naziva proces u kojem tvar iz plinovitog stanja prelazi izravno u tekuće?",
+        "question": "Kako se naziva fizikalni proces prelaska tvari iz plinovitog stanja u tekuće?",
         "correct_answer": "Kondenzacija",
         "incorrect_answers": [
             "Sublimacija",
@@ -429,17 +418,6 @@
         ]
     },
     {
-        "id": "hr_sci_40",
-        "category": "znanost",
-        "question": "Kako se zove uređaj koji pretvara mehaničku energiju u električnu?",
-        "correct_answer": "Generator",
-        "incorrect_answers": [
-            "Elektromotor",
-            "Transformator",
-            "Kondenzator"
-        ]
-    },
-    {
         "id": "hr_sci_41",
         "category": "znanost",
         "question": "Koji se tip zračenja koristi u medicini za snimanje kostiju?",
@@ -508,7 +486,7 @@
     {
         "id": "hr_sci_47",
         "category": "znanost",
-        "question": "Kako se zove tehnologija koja omogućuje bežično povezivanje uređaja na kratkim udaljenostima (imenovana po danskom kralju)?",
+        "question": "Kako se zove bežična tehnologija kratkog dometa za povezivanje uređaja čiji je logo inspiriran nordijskim runama?",
         "correct_answer": "Bluetooth",
         "incorrect_answers": [
             "Wi-Fi",
@@ -893,7 +871,7 @@
     {
         "id": "hr_sci_82",
         "category": "znanost",
-        "question": "Koja kiselina daje karakterističan kiseli okus limunu i agrumima?",
+        "question": "Koja je organska kiselina prisutna u agrumima odgovorna za njihov karakterističan kiseli okus?",
         "correct_answer": "Limunska kiselina",
         "incorrect_answers": [
             "Mravlja kiselina",
@@ -932,17 +910,6 @@
             "Ptice",
             "Pterosauri",
             "Šišmiši"
-        ]
-    },
-    {
-        "id": "hr_sci_86",
-        "category": "znanost",
-        "question": "Koji je kemijski element najzastupljeniji u ljudskom tijelu po masi?",
-        "correct_answer": "Kisik",
-        "incorrect_answers": [
-            "Ugljik",
-            "Vodik",
-            "Dušik"
         ]
     },
     {
@@ -1064,17 +1031,6 @@
             "Patch",
             "Script",
             "Kernel"
-        ]
-    },
-    {
-        "id": "hr_sci_98",
-        "category": "znanost",
-        "question": "Koja je najduža kost u ljudskom tijelu?",
-        "correct_answer": "Bedrena kost (Femur)",
-        "incorrect_answers": [
-            "Cjevanica (Tibia)",
-            "Ramena kost (Humerus)",
-            "Kralježnica"
         ]
     },
     {
@@ -1492,7 +1448,7 @@
         "incorrect_answers": [
             "Germanij",
             "Ugljik",
-            "Galsij"
+            "Galij"
         ]
     },
     {
@@ -1685,7 +1641,7 @@
     {
         "id": "hr_sci_162",
         "category": "znanost",
-        "question": "Kako se u fizici zove masa po jedinici površine na koju djeluje sila usmjerena okomito?",
+        "question": "Kako se u fizici zove okomita sila po jedinici površine na koju djeluje?",
         "correct_answer": "Tlak (Pritisak)",
         "incorrect_answers": [
             "Energija",
@@ -2246,7 +2202,7 @@
     {
         "id": "hr_sci_213",
         "category": "znanost",
-        "question": "Koji je fizikalni zakon otkrio da je uzgon koji djeluje na tijelo uronjeno u tekućinu jednak masi istisnute tekućine?",
+        "question": "Koji je fizikalni zakon otkrio da je uzgon koji djeluje na tijelo uronjeno u tekućinu jednak težini istisnute tekućine?",
         "correct_answer": "Arhimedov zakon",
         "incorrect_answers": [
             "Pascalov zakon",
@@ -2316,7 +2272,7 @@
         "correct_answer": "Zvjezdana rodilišta / Nebula",
         "incorrect_answers": [
             "Galaksija",
-            "Kuster",
+            "Klaster",
             "Asteroidni pojas"
         ]
     },
@@ -2873,12 +2829,12 @@
     {
         "id": "hr_sci_270",
         "category": "znanost",
-        "question": "Koji element s kemijskim simbolom Au ubraja se među najduktilnije (najrastezljivije) metale, toliko da se može razviti u listove tanje od ljudske vlasi?",
-        "correct_answer": "Au",
+        "question": "Koji se kemijski element sa simbolom Au ubraja među najduktilnije metale?",
+        "correct_answer": "Zlato",
         "incorrect_answers": [
-            "Ag",
-            "Al",
-            "Fe"
+            "Srebro",
+            "Bakar",
+            "Platina"
         ]
     },
     {
@@ -3278,17 +3234,6 @@
         ]
     },
     {
-        "id": "hr_sci_307",
-        "category": "znanost",
-        "question": "Koji je najveći zglob u ljudskom tijelu?",
-        "correct_answer": "Zglob koljena",
-        "incorrect_answers": [
-            "Zglob kuka",
-            "Rameni zglob",
-            "Zglob gležnja"
-        ]
-    },
-    {
         "id": "hr_sci_308",
         "category": "znanost",
         "question": "Kako se zove krvna žila koja odvodi krv iz srca prema ostatku tijela pod visokim tlakom?",
@@ -3402,7 +3347,7 @@
         "id": "hr_sci_318",
         "category": "znanost",
         "question": "Kako se naziva zaštitni omotač koji okružuje aksone nekih živčanih stanica i ubrzava prijenos impulsa?",
-        "correct_answer": "Mijelinska kućica",
+        "correct_answer": "Mijelinska ovojnica",
         "incorrect_answers": [
             "Sinapsa",
             "Aksonalni brežuljak",

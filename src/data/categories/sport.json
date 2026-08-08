@@ -68,7 +68,7 @@
     {
         "id": "hr_sport_7",
         "category": "sport",
-        "question": "Koji košarkaški klub ima najviše osvojenih naslova prvaka u NBA ligi (izjednačen s Boston Celticsima)?",
+        "question": "Koji je košarkaški klub drugi po broju osvojenih naslova u NBA ligi (17 naslova, iza Boston Celticsa)?",
         "correct_answer": "Los Angeles Lakers",
         "incorrect_answers": [
             "Chicago Bulls",
@@ -233,7 +233,7 @@
     {
         "id": "hr_sport_22",
         "category": "sport",
-        "question": "Koji je atletski događaj sastavljen od 10 različitih disciplina u muškoj konkurenciji?",
+        "question": "Kako se zove atletsko višebojsko natjecanje u kojem se muški natjecatelji natječu u deset različitih disciplina tijekom dva dana?",
         "correct_answer": "Desetoboj (Decathlon)",
         "incorrect_answers": [
             "Sedmoboj (Heptathlon)",
@@ -442,7 +442,7 @@
     {
         "id": "hr_sport_41",
         "category": "sport",
-        "question": "Kako se zove atletski skok u kojem natjecatelj koristi dugačku savitljivu motku?",
+        "question": "Kako se zove atletsko natjecanje u kojem se skakači pomoću dugačkog savitljivog rekvizita prebacuju preko visoke letvice?",
         "correct_answer": "Skok s motkom",
         "incorrect_answers": [
             "Skok uvis",
@@ -871,7 +871,7 @@
     {
         "id": "hr_sport_80",
         "category": "sport",
-        "question": "Koja igra na ploči ili stolu koristi prozirne i obojene crvene/bijele kuglice, a natjecanje se zove Snooker?",
+        "question": "Kako se zove igra na stolu s obojenim i crvenim kuglama te štapovima, čija se najpoznatija varijanta igra na velikom stolu s 22 kugle?",
         "correct_answer": "Bilijar / Snooker",
         "incorrect_answers": [
             "Karambol",
@@ -904,7 +904,7 @@
     {
         "id": "hr_sport_83",
         "category": "sport",
-        "question": "Koji se sport igra s lopaticama ili reketima na tvrdom terenu koji je opasan staklenim zidovima (puno se igra u parovima)?",
+        "question": "Koji se sport igra s lopaticama ili reketima na tvrdom terenu koji je okružen staklenim zidovima (puno se igra u parovima)?",
         "correct_answer": "Padel",
         "incorrect_answers": [
             "Squash",
@@ -1157,7 +1157,7 @@
     {
         "id": "hr_sport_106",
         "category": "sport",
-        "question": "U kom gradu se svake godine održava teniski Grand Slam turnir Roland Garros?",
+        "question": "U kojem gradu se svake godine održava teniski Grand Slam turnir Roland Garros?",
         "correct_answer": "Pariz",
         "incorrect_answers": [
             "London",
@@ -1202,7 +1202,7 @@
         "id": "hr_sport_110",
         "category": "sport",
         "question": "Koji se trofej dodjeljuje pobjedniku muškog reprezentativnog teniskog natjecanja u Davis Cupu?",
-        "correct_answer": "Salatara (Davis Cup Trophy)",
+        "correct_answer": "Salatara",
         "incorrect_answers": [
             "Pehara pobjednika",
             "Zlatna lopta",
@@ -1432,7 +1432,7 @@
     {
         "id": "hr_sport_131",
         "category": "sport",
-        "question": "Kako se zove najpoznatija etapna biciklistička utrka u Italiji (Giro)?",
+        "question": "Kako se zove najpoznatija etapna biciklistička utrka u Italiji?",
         "correct_answer": "Giro d'Italia",
         "incorrect_answers": [
             "Tour de France",
@@ -1509,7 +1509,7 @@
     {
         "id": "hr_sport_138",
         "category": "sport",
-        "question": "U kom se sportu natjecao legendarni Ayrton Senna?",
+        "question": "U kojem se sportu natjecao legendarni Ayrton Senna?",
         "correct_answer": "Formula 1",
         "incorrect_answers": [
             "MotoGP",
@@ -1597,7 +1597,7 @@
     {
         "id": "hr_sport_146",
         "category": "sport",
-        "question": "U kom gradu se nalazi poznati nogometni stadion San Siro (poznat i kao Giuseppe Meazza)?",
+        "question": "U kojem gradu se nalazi poznati nogometni stadion San Siro (poznat i kao Giuseppe Meazza)?",
         "correct_answer": "Milano",
         "incorrect_answers": [
             "Rim",
@@ -1630,7 +1630,7 @@
     {
         "id": "hr_sport_149",
         "category": "sport",
-        "question": "Koliko iznosi udaljenost između gola i linije s koje se puca sedmerac u rukometu?",
+        "question": "Kolika je udaljenost od gola s koje se u rukometu izvodi kazneni udarac nakon teškog prekršaja u napadu?",
         "correct_answer": "7 metara",
         "incorrect_answers": [
             "6 metara",
@@ -1652,7 +1652,7 @@
     {
         "id": "hr_sport_151",
         "category": "sport",
-        "question": "Kako se zove međunarodno automobilističko natjecanje izdržljivosti koje se održava na stazi u Le Mansu?",
+        "question": "Kako se zove najpoznatija francuska automobilistička utrka izdržljivosti koja traje puni dan i noć na stazi Circuit de la Sarthe?",
         "correct_answer": "24 sata Le Mansa",
         "incorrect_answers": [
             "24 sata Daytona",
@@ -1762,7 +1762,7 @@
     {
         "id": "hr_sport_161",
         "category": "sport",
-        "question": "U kom gradu su održane Ljetne olimpijske igre 2021. godine (odgođene s 2020.)?",
+        "question": "U kojem gradu su održane Ljetne olimpijske igre 2021. godine (odgođene s 2020.)?",
         "correct_answer": "Tokio",
         "incorrect_answers": [
             "Peking",
@@ -1861,7 +1861,7 @@
     {
         "id": "hr_sport_170",
         "category": "sport",
-        "question": "U kom sportu se dodjeljuje nagrada 'Claret Jug' pobjedniku natjecanja The Open Championship?",
+        "question": "U kojem sportu se dodjeljuje nagrada 'Claret Jug' pobjedniku natjecanja The Open Championship?",
         "correct_answer": "Golf",
         "incorrect_answers": [
             "Jedrenje",
@@ -1894,7 +1894,7 @@
     {
         "id": "hr_sport_174",
         "category": "sport",
-        "question": "U kom sportu natjecateljice nastupaju u vodi sinkronizirajući pokrete uz glazbu?",
+        "question": "U kojem sportu natjecateljice nastupaju u vodi sinkronizirajući pokrete uz glazbu?",
         "correct_answer": "Umjetničko plivanje (Sinkronizirano plivanje)",
         "incorrect_answers": [
             "Vaterpolo",
@@ -1927,7 +1927,7 @@
     {
         "id": "hr_sport_177",
         "category": "sport",
-        "question": "Kako se zove teren na kojem se igraji utakmice bejzbola?",
+        "question": "Kako se zove teren na kojem se igraju utakmice bejzbola?",
         "correct_answer": "Bejzbolsko igralište / Dijamant (Diamond)",
         "incorrect_answers": [
             "Rink",
@@ -1993,7 +1993,7 @@
     {
         "id": "hr_sport_183",
         "category": "sport",
-        "question": "Iz koje države dolazi jedriličarska ekipa 'Emirates Team New Zealand'?",
+        "question": "Iz koje pacifičke države dolazi višestruko pobjednički jedriličarski tim koji je osvojio America's Cup s sponzorom Emirates?",
         "correct_answer": "Novi Zeland",
         "incorrect_answers": [
             "Ujedinjeni Arapski Emirati",
@@ -2015,7 +2015,7 @@
     {
         "id": "hr_sport_185",
         "category": "sport",
-        "question": "U kom se sportu natjecala legenda Laila Ali, kći Muhammada Alija?",
+        "question": "U kojem se sportu natjecala legenda Laila Ali, kći Muhammada Alija?",
         "correct_answer": "Boks",
         "incorrect_answers": [
             "Atletika",
@@ -2114,7 +2114,7 @@
     {
         "id": "hr_sport_194",
         "category": "sport",
-        "question": "U kom se gradu održavaju Ljetne olimpijske igre najavljene za 2028. godinu?",
+        "question": "U kojem se gradu održavaju Ljetne olimpijske igre najavljene za 2028. godinu?",
         "correct_answer": "Los Angeles",
         "incorrect_answers": [
             "Brisbane",
@@ -2257,7 +2257,7 @@
     {
         "id": "hr_sport_207",
         "category": "sport",
-        "question": "Koji su hrvatski bračni par/braća veslači osvojili brojne zlatne medalje u dvojcu na pariće i dvojcu bez kormilara?",
+        "question": "Koja su hrvatska braća veslači osvojila višestruke olimpijske i svjetske medalje?",
         "correct_answer": "Braća Sinković (Martin i Valent)",
         "incorrect_answers": [
             "Braća Skelin",
@@ -2268,7 +2268,7 @@
     {
         "id": "hr_sport_208",
         "category": "sport",
-        "question": "Koja je hrvatska nogometna reprezentacija osvojila srebrnu medalju na Svjetskom prvenstvu u Rusiji 2018. godine?",
+        "question": "Koja je nogometna reprezentacija osvojila srebrnu medalju na Svjetskom prvenstvu u Rusiji 2018. godine?",
         "correct_answer": "Hrvatska",
         "incorrect_answers": [
             "Francuska",
@@ -3973,7 +3973,7 @@
     {
         "id": "hr_sport_363",
         "category": "sport",
-        "question": "U kom se švedskom gradu tradicionalno održava najstarija i najduža utrka u skijaškom trčanju 'Vasaloppet' (90 km)?",
+        "question": "U kojem se švedskom gradu tradicionalno održava najstarija i najduža utrka u skijaškom trčanju 'Vasaloppet' (90 km)?",
         "correct_answer": "Mora",
         "incorrect_answers": [
             "Stockholm",
@@ -4688,7 +4688,7 @@
     {
         "id": "hr_sport_428",
         "category": "sport",
-        "question": "U kom se sportu dodjeljuje 'Trofej trofeja' na turnirima u skokovima u vodu s daske od 3m i platforme 10m?",
+        "question": "U kojem se sportu dodjeljuje 'Trofej trofeja' na turnirima u skokovima u vodu s daske od 3m i platforme 10m?",
         "correct_answer": "Skokovi u vodu",
         "incorrect_answers": [
             "Plivanje",
@@ -4908,7 +4908,7 @@
     {
         "id": "hr_sport_448",
         "category": "sport",
-        "question": "U kom se sportu natjecatelji natječu u disciplinama pojedinačno, u parovima i mješovitim parovima udarajući celuloidnu lopticu preko mrežice visine 15,25 cm?",
+        "question": "U kojem se sportu natjecatelji natječu u disciplinama pojedinačno, u parovima i mješovitim parovima udarajući celuloidnu lopticu preko mrežice visine 15,25 cm?",
         "correct_answer": "Stolni tenis",
         "incorrect_answers": [
             "Badminton",
@@ -6195,7 +6195,7 @@
     {
         "id": "hr_sport_565",
         "category": "sport",
-        "question": "Koji je klub osvojio najviše NBA naslova uz Boston Celticse (17)?",
+        "question": "Koji je klub osvojio 17 NBA naslova, odmah iza Boston Celticsa (18)?",
         "correct_answer": "Los Angeles Lakers",
         "incorrect_answers": [
             "Chicago Bulls",
@@ -6283,8 +6283,8 @@
     {
         "id": "hr_sport_573",
         "category": "sport",
-        "question": "Koji je hrvatski gimnastičar osvojio olimpijsko srebro na preči u Pekingu 2008. godine?",
-        "correct_answer": "Filip Ude (konj s hvataljkama) / Filip Ude i Filip Možnik",
+        "question": "Koji je hrvatski gimnastičar osvojio olimpijsko srebro na konju s hvataljkama u Pekingu 2008. godine?",
+        "correct_answer": "Filip Ude",
         "incorrect_answers": [
             "Tin Srbić",
             "Robert Seligman",
@@ -6349,7 +6349,7 @@
     {
         "id": "hr_sport_579",
         "category": "sport",
-        "question": "U kom se njemačkom gradu nalazi sjedište nogometnog giganta Bayern?",
+        "question": "U kojem se njemačkom gradu nalazi sjedište nogometnog giganta Bayern?",
         "correct_answer": "München",
         "incorrect_answers": [
             "Berlin",
@@ -6591,7 +6591,7 @@
     {
         "id": "hr_sport_601",
         "category": "sport",
-        "question": "U kom se sportu proslavio Michael Schumacher osvojivši 7 naslova prvaka?",
+        "question": "U kojem se sportu proslavio Michael Schumacher osvojivši 7 naslova prvaka?",
         "correct_answer": "Formula 1",
         "incorrect_answers": [
             "MotoGP",
@@ -6921,7 +6921,7 @@
     {
         "id": "hr_sport_631",
         "category": "sport",
-        "question": "U kom se sportu proslavio Tom Brady osvojivši rekordnih 7 Super Bowlova?",
+        "question": "U kojem se sportu proslavio Tom Brady osvojivši rekordnih 7 Super Bowlova?",
         "correct_answer": "Američki nogomet (NFL)",
         "incorrect_answers": [
             "Bejzbol",
@@ -7361,7 +7361,7 @@
     {
         "id": "hr_sport_671",
         "category": "sport",
-        "question": "U kom se sportu igraju natjecanja poput Six Nations (Šest nacija)?",
+        "question": "U kojem se sportu igraju natjecanja poput Six Nations (Šest nacija)?",
         "correct_answer": "Ragbi (Rugby Union)",
         "incorrect_answers": [
             "Američki nogomet",
@@ -7900,7 +7900,7 @@
     {
         "id": "hr_sport_720",
         "category": "sport",
-        "question": "Koji je hrvatski plivač osvojio srebrnu olimpijsku medalju na 50m slobodno u Pekingu 2008. u tesnoj završnici s Alainom Bernardom?",
+        "question": "Koji je hrvatski plivač osvojio srebrnu olimpijsku medalju na 50m slobodno u Ateni 2004. u tijesnoj završnici s Garyjem Hallom Jr.?",
         "correct_answer": "Duje Draganja",
         "incorrect_answers": [
             "Gordan Kožulj",
@@ -7955,7 +7955,7 @@
     {
         "id": "hr_sport_725",
         "category": "sport",
-        "question": "U kom se sportu proslavio Ronnie O'Sullivan osvojivši 7 naslova svjetskog prvaka?",
+        "question": "U kojem se sportu proslavio Ronnie O'Sullivan osvojivši 7 naslova svjetskog prvaka?",
         "correct_answer": "Snooker",
         "incorrect_answers": [
             "Biljar (Pool)",
@@ -8076,8 +8076,8 @@
     {
         "id": "hr_sport_736",
         "category": "sport",
-        "question": "Koji je hrvatski veslač u klupskom dvojcu s bratom osvojio zlatnu medalju na ZOI u biatlonu ili skijanju? (Iskusni biatlonac)",
-        "correct_answer": "Jakov Fak (za Sloveniju kasnije)",
+        "question": "Koji je hrvatski biatlonac osvojio brončanu medalju za Hrvatsku na ZOI 2010. u Vancouveru?",
+        "correct_answer": "Jakov Fak",
         "incorrect_answers": [
             "Krešimir Crnković",
             "Dino Smokrović",
@@ -8098,7 +8098,7 @@
     {
         "id": "hr_sport_738",
         "category": "sport",
-        "question": "U kom se sportu spajaju kros-kontri skijanje (skijaško trčanje) i streljaštvo?",
+        "question": "U kojem se sportu spajaju kros-kontri skijanje (skijaško trčanje) i streljaštvo?",
         "correct_answer": "Biatlon",
         "incorrect_answers": [
             "Nordijska kombinacija",
@@ -8109,7 +8109,7 @@
     {
         "id": "hr_sport_739",
         "category": "sport",
-        "question": "U kom se sportu spajaju skijaški skokovi i skijaško trčanje?",
+        "question": "U kojem se sportu spajaju skijaški skokovi i skijaško trčanje?",
         "correct_answer": "Nordijska kombinacija",
         "incorrect_answers": [
             "Biatlon",
@@ -8450,7 +8450,7 @@
     {
         "id": "hr_sport_770",
         "category": "sport",
-        "question": "U kom se sportu proslavio Ronnie O'Sullivan, Stephen Hendry i Judd Trump?",
+        "question": "U kojem se sportu proslavio Ronnie O'Sullivan, Stephen Hendry i Judd Trump?",
         "correct_answer": "Snooker",
         "incorrect_answers": [
             "Pikado",
@@ -8505,7 +8505,7 @@
     {
         "id": "hr_sport_775",
         "category": "sport",
-        "question": "U kom se sportu natjecatelji spuštaju po ledenoj stazi na dasci ležeći na trbuhu s glave prema naprijed?",
+        "question": "U kojem se sportu natjecatelji spuštaju po ledenoj stazi na dasci ležeći na trbuhu s glave prema naprijed?",
         "correct_answer": "Skeleton",
         "incorrect_answers": [
             "Sankanje (Luge)",
@@ -8516,7 +8516,7 @@
     {
         "id": "hr_sport_776",
         "category": "sport",
-        "question": "U kom se sportu natjecatelji spuštaju po ledenoj stazi ležeći na leđima s nogama prema naprijed?",
+        "question": "U kojem se sportu natjecatelji spuštaju po ledenoj stazi ležeći na leđima s nogama prema naprijed?",
         "correct_answer": "Sankanje (Luge)",
         "incorrect_answers": [
             "Skeleton",
@@ -8527,7 +8527,7 @@
     {
         "id": "hr_sport_777",
         "category": "sport",
-        "question": "U kom se zimskom sportu momčad spušta u vođenim aerodinamičnim koritima dvosjeda ili četverosjeda?",
+        "question": "U kojem se zimskom sportu momčad spušta u vođenim aerodinamičnim koritima dvosjeda ili četverosjeda?",
         "correct_answer": "Bob",
         "incorrect_answers": [
             "Skeleton",
@@ -8720,17 +8720,6 @@
             "WNBA",
             "NCAA",
             "G-League"
-        ]
-    },
-    {
-        "id": "hr_sport_795",
-        "category": "sport",
-        "question": "Koji je hrvatski gimnastičar osvojio olimpijsko srebro na konju s hvataljkama u Pekingu 2008. godine?",
-        "correct_answer": "Filip Ude",
-        "incorrect_answers": [
-            "Tin Srbić",
-            "Robert Seligman",
-            "Marijo Možnik"
         ]
     },
     {
@@ -9022,23 +9011,12 @@
     {
         "id": "hr_sport_822",
         "category": "sport",
-        "question": "U kom se sportu igra natjecanje Six Nations (Šest nacija)?",
+        "question": "U kojem se sportu igra natjecanje Six Nations (Šest nacija)?",
         "correct_answer": "Ragbi (Rugby Union)",
         "incorrect_answers": [
             "Američki nogomet",
             "Kriket",
             "Australski nogomet"
-        ]
-    },
-    {
-        "id": "hr_sport_823",
-        "category": "sport",
-        "question": "Kako se zove južnoafrička ragbijaška reprezentacija, višestruki svjetski prvak?",
-        "correct_answer": "Springboks",
-        "incorrect_answers": [
-            "All Blacks",
-            "Wallabies",
-            "Red Dragons"
         ]
     },
     {
@@ -9176,7 +9154,7 @@
     {
         "id": "hr_sport_836",
         "category": "sport",
-        "question": "Koji je hrvatski plivač osvojio srebrnu olimpijsku medalju na 50m slobodno u Pekingu 2008. godine?",
+        "question": "Koji je hrvatski plivač osvojio srebrnu olimpijsku medalju na 50m slobodno u Ateni 2004. godine?",
         "correct_answer": "Duje Draganja",
         "incorrect_answers": [
             "Gordan Kožulj",
@@ -9242,7 +9220,7 @@
     {
         "id": "hr_sport_842",
         "category": "sport",
-        "question": "U kom se sportu spajaju skijaško trčanje i streljaštvo?",
+        "question": "U kojem se sportu spajaju skijaško trčanje i streljaštvo?",
         "correct_answer": "Biatlon",
         "incorrect_answers": [
             "Nordijska kombinacija",
@@ -9385,7 +9363,7 @@
     {
         "id": "hr_sport_855",
         "category": "sport",
-        "question": "U kom se sportu natjecatelji spuštaju po ledenoj stazi na dasci ležeći na trbuhu s glavom prema naprijed?",
+        "question": "U kojem se sportu natjecatelji spuštaju po ledenoj stazi na dasci ležeći na trbuhu s glavom prema naprijed?",
         "correct_answer": "Skeleton",
         "incorrect_answers": [
             "Sankanje (Luge)",
