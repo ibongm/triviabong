@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 .vercel
 .env*
+
+# Firebase Admin SDK service account keys - never commit these.
+*adminsdk*.json
+plans/adminsdkkey.json
