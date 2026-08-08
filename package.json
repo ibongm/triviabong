@@ -12,6 +12,7 @@
   "dependencies": {
     "canvas-confetti": "^1.9.4",
     "firebase": "^12.17.0",
+    "firebase-admin": "^14.2.0",
     "jose": "^6.2.7",
     "lucide-react": "^1.28.0",
     "react": "^19.2.8",

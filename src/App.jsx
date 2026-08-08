@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal, Flag
+  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal, Flag, CalendarDays
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
+import { getDailyChallengeQuestions } from './utils/dailySeed';
 import { resolveCategoryKey } from './data/categoryKeys';
 import { CATEGORY_META } from './data/categoryMeta';
 import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
@@ -23,10 +24,12 @@ import {
   COIN_PER_ROUND_COMPLETE,
   COIN_PERFECT_ROUND_BONUS,
   COIN_LEVEL_UP_BONUS,
-  JOKER_COSTS
+  JOKER_COSTS,
+  DAILY_CHALLENGE_COSTS,
+  DAILY_CHALLENGE_MAX_ATTEMPTS
 } from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
-import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate, mentionsHarryPotter } from './utils/achievements';
+import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate, mentionsHarryPotter, getZagrebDateString } from './utils/achievements';
 import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from './constants/achievements';
 import { mergeMonotonicStats } from './utils/statsMerge';
 import { loadStats, saveStats, migrateStats, getStorageKey } from './services/statsStore';
@@ -58,7 +61,12 @@ import {
   getBestScoresAcrossCategories,
   getFastestPerfectRounds,
   logQuestionAttempt,
-  logGameResult
+  logGameResult,
+  getDailyAttemptStatus,
+  startDailyAttempt,
+  submitDailyScore,
+  getDailyLeaderboard,
+  getDailyMeta
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
@@ -168,6 +176,38 @@ export default function App() {
   });
   const [activeCategoryLeaderboard, setActiveCategoryLeaderboard] = useState([]);
   const [isLoadingLeaderboard, setIsLoadingLeaderboard] = useState(false);
+
+  // Daily Challenge: dailyChallengeMode gates the shared PLAYING/GAMEOVER/
+  // VICTORY render blocks and save-score effect toward the daily submission
+  // path instead of the normal per-category one (selectedCategory stays
+  // null throughout a daily round). dailyAttemptNumber/dailyDateKey are
+  // captured at round start (startDailyAttempt already consumed the
+  // attempt/coin by then) and carried through to submitDailyScore at
+  // round end. dailyAttemptStatus powers the lobby's pre-round "attempts
+  // left / next cost" display; dailySubmitResult is the post-round rank.
+  const [dailyChallengeMode, setDailyChallengeMode] = useState(false);
+  const [dailyAttemptNumber, setDailyAttemptNumber] = useState(null);
+  const [dailyDateKey, setDailyDateKey] = useState(null);
+  const [dailyAttemptStatus, setDailyAttemptStatus] = useState(null);
+  const [dailySubmitResult, setDailySubmitResult] = useState(null);
+  const [dailyLeaderboard, setDailyLeaderboard] = useState([]);
+  // Separate from jokerMessage/showJokerMessage - that one only renders
+  // inside the PLAYING screen, but a blocked daily attempt (cap reached,
+  // insufficient coins) is discovered from the LOBBY, before a round starts.
+  const [dailyLobbyMessage, setDailyLobbyMessage] = useState(null);
+  // "You won yesterday's Daily Challenge" banner - checked once per login
+  // against dailyMeta/{yesterday}, which only api/daily-challenge-payout.js
+  // (Admin SDK) ever writes. Dismissal is tracked in localStorage (keyed by
+  // date+uid) rather than any Firestore write, since it's purely cosmetic -
+  // no server needs to know a player has seen their own win announcement.
+  const [dailyWinAnnouncement, setDailyWinAnnouncement] = useState(null);
+  const dailyLobbyMessageTimer = useRef(null);
+  const showDailyLobbyMessage = (text) => {
+    clearTimeout(dailyLobbyMessageTimer.current);
+    setDailyLobbyMessage(text);
+    dailyLobbyMessageTimer.current = setTimeout(() => setDailyLobbyMessage(null), 3000);
+  };
+  useEffect(() => () => clearTimeout(dailyLobbyMessageTimer.current), []);
 
   const [nickname, setNickname] = useState('');
   const [scoreSaved, setScoreSaved] = useState(false);
@@ -351,8 +391,75 @@ export default function App() {
     sound.playClick();
     clearRoundTransitionTimers();
     clearJokerMessageTimer();
+    setDailyChallengeMode(false);
+    setDailySubmitResult(null);
     setGameState('LOBBY');
   };
+
+  // Refreshes the lobby's Daily Challenge card (attempts used / next cost)
+  // whenever a signed-in player is looking at it - including right after
+  // returning from a round, so the card reflects the attempt that was just
+  // consumed without needing a page reload.
+  useEffect(() => {
+    if (!currentUser || gameState !== 'LOBBY') return;
+    let cancelled = false;
+    (async () => {
+      const status = await getDailyAttemptStatus(currentUser.uid, getZagrebDateString());
+      if (!cancelled) setDailyAttemptStatus(status);
+    })();
+    return () => { cancelled = true; };
+  }, [currentUser, gameState]);
+
+  // Pure Y-M-D calendar-string arithmetic, deliberately not going back
+  // through Intl/timeZone conversion (that's already done once to produce
+  // dateKey) - avoids any risk of a double timezone shift landing on the
+  // wrong day.
+  const getYesterdayDateKey = (dateKey) => {
+    const [y, m, d] = dateKey.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    dt.setUTCDate(dt.getUTCDate() - 1);
+    return dt.toISOString().slice(0, 10);
+  };
+
+  useEffect(() => {
+    if (!currentUser) return;
+    let cancelled = false;
+    (async () => {
+      const yesterday = getYesterdayDateKey(getZagrebDateString());
+      const ackKey = `triviabong_daily_win_ack_${yesterday}_${currentUser.uid}`;
+      if (localStorage.getItem(ackKey)) return;
+
+      const meta = await getDailyMeta(yesterday);
+      if (cancelled || !meta?.payoutProcessed) return;
+
+      const won = (meta.winners || []).some(w => w.uid === currentUser.uid);
+      if (won) setDailyWinAnnouncement({ date: yesterday, prize: meta.prizeEach });
+    })();
+    return () => { cancelled = true; };
+  }, [currentUser]);
+
+  const dismissDailyWinAnnouncement = () => {
+    if (dailyWinAnnouncement && currentUser) {
+      localStorage.setItem(`triviabong_daily_win_ack_${dailyWinAnnouncement.date}_${currentUser.uid}`, '1');
+    }
+    setDailyWinAnnouncement(null);
+  };
+
+  // Refreshes the Rekordi "Dnevni izazov" board whenever the lobby is
+  // visible - public read, no sign-in required to view. Kept as its own
+  // dailyLeaderboard state (not folded into rekordiData) since rekordiData
+  // is only ever fetched once on mount elsewhere; this one needs to reflect
+  // live standings (locked design decision) and stay correct across a
+  // Zagreb midnight rollover without a page reload.
+  useEffect(() => {
+    if (gameState !== 'LOBBY') return;
+    let cancelled = false;
+    (async () => {
+      const board = await getDailyLeaderboard(getZagrebDateString(), 10);
+      if (!cancelled) setDailyLeaderboard(board);
+    })();
+    return () => { cancelled = true; };
+  }, [gameState]);
 
   const selectCategory = async (catKey) => {
     sound.playClick();
@@ -376,14 +483,12 @@ export default function App() {
     setIsLoadingLeaderboard(false);
   };
 
-  const launchQuizRound = () => {
-    sound.playClick();
-    clearRoundTransitionTimers();
-    clearJokerMessageTimer();
-    const loadedQuestions = getQuestionsByCategory(selectedCategory);
-    const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, QUESTIONS_PER_ROUND);
-
-    setQuestions(shuffled);
+  // Shared by launchQuizRound and launchDailyChallengeRound - everything
+  // about starting a round except sourcing the question list, which differs
+  // (category random slice vs. deterministic daily set) and, for daily,
+  // needs an awaited Firestore call (startDailyAttempt) before this can run.
+  const resetRoundState = (loadedQuestions) => {
+    setQuestions(loadedQuestions);
     setCurrentIndex(0);
     setScore(0);
     setLives(MAX_LIVES);
@@ -395,6 +500,7 @@ export default function App() {
     setSelectedOption(null);
     setScoreSaved(false);
     setAutoSaveFailed(false);
+    setDailySubmitResult(null);
     setGameState('PLAYING');
 
     setRoundStartTime(Date.now());
@@ -414,6 +520,51 @@ export default function App() {
       const { stats } = applyAnswer(prev, {}, { type: 'START_ROUND' });
       return stats;
     });
+  };
+
+  const launchQuizRound = () => {
+    sound.playClick();
+    clearRoundTransitionTimers();
+    clearJokerMessageTimer();
+    const loadedQuestions = getQuestionsByCategory(selectedCategory);
+    const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, QUESTIONS_PER_ROUND);
+    setDailyChallengeMode(false);
+    resetRoundState(shuffled);
+  };
+
+  // Daily Challenge entry point: consumes the attempt/coin cost FIRST (via
+  // startDailyAttempt, which re-validates cap/affordability server-side
+  // regardless of what dailyAttemptStatus's stale client read shows), and
+  // only starts the round if that succeeds - consuming on start, not on
+  // submit, per the locked design decision (an abandoned round still costs
+  // the attempt). selectedCategory is deliberately left null/unchanged;
+  // daily rounds aren't tied to a category, and applyRoundEndRewards/
+  // logGameResult already fall back to 'opca_znanje' when it's unset.
+  const launchDailyChallengeRound = async () => {
+    if (!currentUser) {
+      setShowAuthModal(true);
+      return;
+    }
+    sound.playClick();
+    const dateKey = getZagrebDateString();
+    const result = await startDailyAttempt(currentUser.uid, dateKey);
+    if (!result.success) {
+      const message = result.reason === 'cap_reached'
+        ? 'Iskoristio/la si sva 4 pokušaja za danas. Vrati se sutra!'
+        : result.reason === 'insufficient_coins'
+          ? 'Nemaš dovoljno zlatnika za idući pokušaj.'
+          : 'Došlo je do greške, pokušaj ponovno.';
+      showDailyLobbyMessage(message);
+      setDailyAttemptStatus(await getDailyAttemptStatus(currentUser.uid, dateKey));
+      return;
+    }
+
+    clearRoundTransitionTimers();
+    clearJokerMessageTimer();
+    setDailyChallengeMode(true);
+    setDailyAttemptNumber(result.attemptNumber);
+    setDailyDateKey(dateKey);
+    resetRoundState(getDailyChallengeQuestions(dateKey));
   };
 
   const updateCategoryStats = (isCorrect, pointsEarned = 0, newStreak = 0) => {
@@ -681,7 +832,7 @@ export default function App() {
 
   const activateFiftyFifty = () => {
     const currentQ = questions[currentIndex];
-    if (jokersUsed.fiftyFifty || globalStats.coins < JOKER_COSTS.fiftyFifty || !currentQ) return;
+    if (dailyChallengeMode || jokersUsed.fiftyFifty || globalStats.coins < JOKER_COSTS.fiftyFifty || !currentQ) return;
 
     sound.playClick();
     const correctAns = currentQ.correct_answer || currentQ.correctAnswer;
@@ -698,7 +849,7 @@ export default function App() {
   };
 
   const activatePlusTen = () => {
-    if (jokersUsed.plusTen || globalStats.coins < JOKER_COSTS.plusTen) return;
+    if (dailyChallengeMode || jokersUsed.plusTen || globalStats.coins < JOKER_COSTS.plusTen) return;
     sound.playClick();
     setTimeLeft(t => t + PLUS_TEN_SECONDS);
     const newJokersUsed = { ...jokersUsed, plusTen: true };
@@ -707,7 +858,7 @@ export default function App() {
   };
 
   const activateSkip = () => {
-    if (jokersUsed.skip || globalStats.coins < JOKER_COSTS.skip) return;
+    if (dailyChallengeMode || jokersUsed.skip || globalStats.coins < JOKER_COSTS.skip) return;
     sound.playClick();
     const newJokersUsed = { ...jokersUsed, skip: true };
     const isLastLifeSkip = lives === 1;
@@ -732,8 +883,38 @@ export default function App() {
     }
   };
 
+  // Daily Challenge submission requires sign-in (locked design decision -
+  // launchDailyChallengeRound already gates entry on currentUser, so
+  // dailyChallengeMode is only ever true here for a signed-in player), and
+  // writes to dailyLeaderboards/{date}/scores/{uid} instead of the normal
+  // per-category leaderboards collection - see submitDailyScore's rules-side
+  // upsert-on-improvement logic in firestore.rules.
+  const submitDaily = async () => {
+    setIsSaving(true);
+    try {
+      const success = await submitDailyScore(
+        currentUser.uid, dailyDateKey, getPlayerDisplayName(currentUser), score, dailyAttemptNumber
+      );
+      if (!success) throw new Error('Daily score submit failed');
+      setScoreSaved(true);
+      sound.playClick();
+      const board = await getDailyLeaderboard(dailyDateKey, 50);
+      setDailyLeaderboard(board);
+      const rankIdx = board.findIndex(entry => entry.uid === currentUser.uid);
+      setDailySubmitResult({ rank: rankIdx >= 0 ? rankIdx + 1 : null, isTop: rankIdx === 0 });
+    } catch (err) {
+      console.error('Failed to submit daily score:', err);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
   const saveScore = async (entryName) => {
     if (!entryName || scoreSaved || isSaving) return;
+    if (dailyChallengeMode) {
+      await submitDaily();
+      return;
+    }
     setIsSaving(true);
 
     const catKey = selectedCategory || 'opca_znanje';
@@ -796,6 +977,17 @@ export default function App() {
     return getAllCategories();
   }, []);
 
+  // Merges the separately-live-fetched daily board into the once-fetched
+  // rekordiData for RekordiBoards/RekordiModal - see the dailyLeaderboard
+  // effect above for why 'daily' can't just be a key inside rekordiData
+  // itself. Stays null (not a partial object) while rekordiData's own
+  // initial fetch hasn't landed yet, so RekordiBoards' "Učitavanje..."
+  // state still shows instead of every OTHER board looking prematurely empty.
+  const rekordiDataWithDaily = useMemo(
+    () => (rekordiData ? { ...rekordiData, daily: dailyLeaderboard } : null),
+    [rekordiData, dailyLeaderboard]
+  );
+
   const isAdminUser = currentUser && currentUser.email === ADMIN_EMAIL;
 
   // Split each joker's "disabled" reason: already used / mid-answer is truly
@@ -803,11 +995,15 @@ export default function App() {
   // clickable so activateFiftyFifty/activatePlusTen/activateSkip's own click can surface a
   // message instead of just silently dimming - the player might not otherwise
   // know *why* it's greyed out.
-  const fiftyFiftyLocked = jokersUsed.fiftyFifty || selectedOption !== null;
+  // Daily Challenge disables all three jokers outright (native `disabled`,
+  // folded into *Locked* rather than *Short*) - unlike "not enough coins",
+  // it isn't a state a click-to-explain message can help the player
+  // recover from mid-round.
+  const fiftyFiftyLocked = dailyChallengeMode || jokersUsed.fiftyFifty || selectedOption !== null;
   const fiftyFiftyShort = globalStats.coins < JOKER_COSTS.fiftyFifty;
-  const plusTenLocked = jokersUsed.plusTen || selectedOption !== null;
+  const plusTenLocked = dailyChallengeMode || jokersUsed.plusTen || selectedOption !== null;
   const plusTenShort = globalStats.coins < JOKER_COSTS.plusTen;
-  const skipLocked = jokersUsed.skip || selectedOption !== null;
+  const skipLocked = dailyChallengeMode || jokersUsed.skip || selectedOption !== null;
   const skipShort = globalStats.coins < JOKER_COSTS.skip;
 
   return (
@@ -912,6 +1108,52 @@ export default function App() {
               </p>
             </div>
 
+            {dailyWinAnnouncement && (
+              <div className="flex items-center justify-between gap-3 p-4 bg-amber-500/10 border border-amber-500/30 rounded-2xl">
+                <p className="text-sm font-bold text-amber-300 flex items-center gap-2">
+                  <Crown className="w-5 h-5 shrink-0" />
+                  Osvojio/la si jučerašnji Dnevni izazov! +{dailyWinAnnouncement.prize} zlatnika je već na tvom računu.
+                </p>
+                <button
+                  onClick={dismissDailyWinAnnouncement}
+                  className="text-xs font-bold text-amber-400/80 hover:text-amber-300 shrink-0"
+                >
+                  OK
+                </button>
+              </div>
+            )}
+
+            <button
+              onClick={launchDailyChallengeRound}
+              className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-amber-500/15 to-amber-500/5 hover:from-amber-500/25 hover:to-amber-500/10 border border-amber-500/30 rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95"
+            >
+              <div className="flex items-center gap-3.5">
+                <div className="p-3 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-400 group-hover:scale-110 transition-transform">
+                  <CalendarDays className="w-5 h-5" />
+                </div>
+                <div className="text-left">
+                  <span className="font-black text-white text-sm block">Dnevni izazov</span>
+                  <span className="text-xs text-amber-300/80">
+                    {!currentUser
+                      ? 'Prijavi se za igranje'
+                      : !dailyAttemptStatus
+                        ? 'Isti kviz za sve, svaki dan'
+                        : !dailyAttemptStatus.canPlay
+                          ? 'Iskorišteno za danas - vrati se sutra'
+                          : dailyAttemptStatus.nextCost === 0
+                            ? `Pokušaj ${dailyAttemptStatus.attemptsUsed + 1}/${DAILY_CHALLENGE_MAX_ATTEMPTS} - besplatno`
+                            : `Pokušaj ${dailyAttemptStatus.attemptsUsed + 1}/${DAILY_CHALLENGE_MAX_ATTEMPTS} - ${dailyAttemptStatus.nextCost}c`}
+                  </span>
+                </div>
+              </div>
+              <ChevronRight className="w-4 h-4 text-amber-500/60 group-hover:text-amber-400 transition-colors" />
+            </button>
+            {dailyLobbyMessage && (
+              <p className="text-center text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl py-2">
+                {dailyLobbyMessage}
+              </p>
+            )}
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
               {categoriesList.map(catKey => {
                 const details = getCategoryDetails(catKey);
@@ -947,7 +1189,7 @@ export default function App() {
                   Vidi sve →
                 </button>
               </div>
-              <RekordiBoards data={rekordiData} limitPerBoard={3} compact />
+              <RekordiBoards data={rekordiDataWithDaily} limitPerBoard={3} compact />
             </div>
           </div>
         )}
@@ -1136,6 +1378,37 @@ export default function App() {
               </p>
             </div>
 
+            {dailyChallengeMode && scoreSaved && dailySubmitResult && (
+              <div className="space-y-3">
+                <p className={`text-xs font-bold flex items-center justify-center gap-1.5 py-3 rounded-xl border ${dailySubmitResult.isTop ? 'text-amber-300 bg-amber-500/10 border-amber-500/30' : 'text-slate-300 bg-slate-800/60 border-slate-700/60'}`}>
+                  <CalendarDays className="w-4 h-4" />
+                  {dailySubmitResult.isTop
+                    ? 'Trenutno si na 1. mjestu dnevnog izazova!'
+                    : dailySubmitResult.rank
+                      ? `Trenutno si na ${dailySubmitResult.rank}. mjestu dnevnog izazova.`
+                      : 'Rezultat je zabilježen na dnevnoj ljestvici.'}
+                </p>
+                {dailyLeaderboard.length > 0 && (
+                  <div className="bg-slate-950/60 rounded-2xl border border-slate-800 overflow-hidden divide-y divide-slate-800/80 text-left">
+                    {dailyLeaderboard.slice(0, 5).map((entry, idx) => (
+                      <div
+                        key={entry.uid || idx}
+                        className={`flex justify-between items-center p-3 text-sm px-4 ${entry.uid === currentUser?.uid ? 'bg-amber-500/10' : ''}`}
+                      >
+                        <span className="font-semibold text-slate-300 flex items-center gap-3">
+                          <span className={`text-xs font-extrabold w-6 h-6 rounded-lg flex items-center justify-center ${idx === 0 ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}>
+                            #{idx + 1}
+                          </span>
+                          <span>{entry.name}</span>
+                        </span>
+                        <span className="text-amber-400 font-bold">{entry.score} bod.</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
             {scoreSaved ? (
               <p className="text-emerald-400 text-xs font-bold flex items-center justify-center gap-1.5 bg-emerald-500/10 border border-emerald-500/20 py-3 rounded-xl">
                 <Award className="w-4 h-4" /> Rezultat uspješno spremljen!
@@ -1173,6 +1446,16 @@ export default function App() {
                   {isSaving ? 'Spremanje...' : 'Spremi Rezultat'}
                 </button>
               </form>
+            )}
+
+            {dailyChallengeMode && scoreSaved && dailyAttemptNumber < DAILY_CHALLENGE_MAX_ATTEMPTS && (
+              <button
+                onClick={launchDailyChallengeRound}
+                className="w-full bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold py-3 rounded-xl text-sm transition-colors active:scale-[0.97] active:brightness-95 flex justify-center items-center gap-2"
+              >
+                <CalendarDays className="w-4 h-4" />
+                Igraj ponovno ({DAILY_CHALLENGE_COSTS[dailyAttemptNumber]}c)
+              </button>
             )}
 
             <button
@@ -1214,7 +1497,7 @@ export default function App() {
       <RekordiModal
         isOpen={showRekordiModal}
         onClose={() => setShowRekordiModal(false)}
-        data={rekordiData}
+        data={rekordiDataWithDaily}
       />
 
       {/* Report Question Modal */}

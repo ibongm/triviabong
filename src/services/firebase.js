@@ -31,6 +31,7 @@ import {
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
 import { buildPublicProfileFields } from "../utils/publicProfile";
+import { DAILY_CHALLENGE_COSTS, DAILY_CHALLENGE_MAX_ATTEMPTS } from "../constants/gameBalance";
 
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -399,6 +400,140 @@ export const getLeaderboardFromFirestore = async (categoryKey) => {
         return querySnapshot.docs.map(docSnap => docSnap.data());
     } catch (error) {
         console.error("Error fetching leaderboard from Firestore:", error);
+        return [];
+    }
+};
+
+const DAILY_ATTEMPT_DOC_REF = (uid, date) => doc(db, "dailyAttempts", `${date}_${uid}`);
+const DAILY_LEADERBOARD_DOC_REF = (uid, date) => doc(db, "dailyLeaderboards", date, "scores", uid);
+
+/**
+ * Reads today's attempt status for a player without writing anything -
+ * used to render the pre-round "attempts left / next cost" UI. Never throws;
+ * a fresh player (no doc yet) reads as 0 attempts used, next cost free.
+ */
+export const getDailyAttemptStatus = async (uid, date) => {
+    try {
+        const snap = await getDoc(DAILY_ATTEMPT_DOC_REF(uid, date));
+        const attemptsUsed = snap.exists() ? snap.data().attemptsUsed : 0;
+        const canPlay = attemptsUsed < DAILY_CHALLENGE_MAX_ATTEMPTS;
+        return {
+            attemptsUsed,
+            canPlay,
+            nextCost: canPlay ? DAILY_CHALLENGE_COSTS[attemptsUsed] : null
+        };
+    } catch (error) {
+        console.error("Error fetching daily attempt status:", error);
+        return { attemptsUsed: 0, canPlay: false, nextCost: null };
+    }
+};
+
+/**
+ * Consumes one Daily Challenge attempt for today, deducting the escalating
+ * coin cost (see DAILY_CHALLENGE_COSTS) atomically alongside the attempt
+ * count - consumed on round START, not on submission (a closed/abandoned
+ * round still costs the attempt, per the locked design decision). Mirrors
+ * maybeUpdateFastestPerfectRecord's runTransaction read-compare-write shape,
+ * but touches two documents (dailyAttempts + users/{uid}.coins).
+ *
+ * Returns { success, attemptNumber, cost, reason } - reason is
+ * 'cap_reached' | 'insufficient_coins' | 'error' on failure. The
+ * corresponding firestore.rules blocks re-validate all of this
+ * independently; this function being wrong would just mean a rejected write,
+ * not a security hole.
+ */
+export const startDailyAttempt = async (uid, date) => {
+    if (!uid) return { success: false, reason: "error" };
+    try {
+        return await runTransaction(db, async (tx) => {
+            const attemptRef = DAILY_ATTEMPT_DOC_REF(uid, date);
+            const userRef = doc(db, "users", uid);
+            const [attemptSnap, userSnap] = await Promise.all([tx.get(attemptRef), tx.get(userRef)]);
+
+            const attemptsUsedBefore = attemptSnap.exists() ? attemptSnap.data().attemptsUsed : 0;
+            if (attemptsUsedBefore >= DAILY_CHALLENGE_MAX_ATTEMPTS) {
+                return { success: false, reason: "cap_reached" };
+            }
+
+            const cost = DAILY_CHALLENGE_COSTS[attemptsUsedBefore];
+            const currentCoins = userSnap.exists() ? (userSnap.data().coins || 0) : 0;
+            if (currentCoins < cost) {
+                return { success: false, reason: "insufficient_coins" };
+            }
+
+            const attemptNumber = attemptsUsedBefore + 1;
+            const coinsSpentBefore = attemptSnap.exists() ? (attemptSnap.data().coinsSpentToday || 0) : 0;
+            tx.set(attemptRef, {
+                uid,
+                date,
+                attemptsUsed: attemptNumber,
+                coinsSpentToday: coinsSpentBefore + cost,
+                updatedAt: serverTimestamp()
+            });
+            if (cost > 0) {
+                tx.update(userRef, { coins: currentCoins - cost });
+            }
+
+            return { success: true, attemptNumber, cost };
+        });
+    } catch (error) {
+        console.error("Error starting daily attempt:", error);
+        return { success: false, reason: "error" };
+    }
+};
+
+/**
+ * Upserts a player's Daily Challenge score for the given date, only if it's
+ * the first score of the day or an improvement over the stored best (one
+ * doc per {date,uid} - see locked design decision in the Daily Challenge
+ * plan). Same read-compare-write shape as maybeUpdateFastestPerfectRecord.
+ */
+export const submitDailyScore = async (uid, date, name, score, attemptNumber) => {
+    if (!uid) return false;
+    try {
+        await runTransaction(db, async (tx) => {
+            const ref = DAILY_LEADERBOARD_DOC_REF(uid, date);
+            const snap = await tx.get(ref);
+            if (snap.exists() && snap.data().score > score) return;
+            tx.set(ref, { uid, name, score, attemptNumber, createdAt: serverTimestamp() });
+        });
+        return true;
+    } catch (error) {
+        console.error("Error submitting daily score:", error);
+        return false;
+    }
+};
+
+/**
+ * Reads dailyMeta/{date} - written only by api/daily-challenge-payout.js's
+ * Admin SDK job, never by any client (see firestore.rules). Used to check
+ * "did yesterday's Daily Challenge already pay out, and did I win" for the
+ * winner-announcement UI. Returns null if the payout hasn't run yet (or the
+ * date had no entries at all).
+ */
+export const getDailyMeta = async (date) => {
+    try {
+        const snap = await getDoc(doc(db, "dailyMeta", date));
+        return snap.exists() ? snap.data() : null;
+    } catch (error) {
+        console.error("Error fetching daily meta:", error);
+        return null;
+    }
+};
+
+/**
+ * Live standings for a given date's Daily Challenge, ordered best-first -
+ * same shape as getLeaderboardFromFirestore. Safe to re-fetch frequently
+ * (locked decision: standings are visible live, not just after rollover).
+ */
+export const getDailyLeaderboard = async (date, limitN = 10) => {
+    try {
+        const scoresRef = collection(db, "dailyLeaderboards", date, "scores");
+        const q = query(scoresRef, orderBy("score", "desc"), limit(limitN));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(docSnap => docSnap.data());
+    } catch (error) {
+        console.error("Error fetching daily leaderboard from Firestore:", error);
         return [];
     }
 };

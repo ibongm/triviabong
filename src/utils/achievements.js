@@ -154,6 +154,14 @@ export const mergeUnlockedAchievements = (stats, newIds) => {
 // since a local "day" isn't always exactly 86,400,000ms.
 export const getLocalDateString = (date = new Date()) => date.toLocaleDateString('en-CA');
 
+// Zagreb-pinned equivalent of getLocalDateString, for features that need the
+// same calendar date for every player regardless of device timezone (e.g.
+// Daily Challenge). Deliberately a separate function, not a modification of
+// getLocalDateString above - existing day-streak callers depend on
+// device-local dates.
+export const getZagrebDateString = (date = new Date()) =>
+    new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(date);
+
 const parseLocalDateString = (s) => {
     const [y, m, d] = s.split('-').map(Number);
     return Date.UTC(y, m - 1, d);

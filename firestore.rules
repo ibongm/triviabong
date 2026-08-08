@@ -271,5 +271,100 @@ service cloud.firestore {
 
       allow delete: if isAdmin();
     }
+
+    // Daily Challenge: per-{date,uid} attempt/spend tracking. Mirrors
+    // DAILY_CHALLENGE_COSTS = [0, 2, 3, 5] in src/constants/gameBalance.js -
+    // keep in sync manually if that table ever changes. Doc id is
+    // "{date}_{uid}" (date = Europe/Zagreb YYYY-MM-DD).
+    function dailyAttemptCost(attemptsUsedBefore) {
+      return attemptsUsedBefore == 0 ? 0
+        : attemptsUsedBefore == 1 ? 2
+        : attemptsUsedBefore == 2 ? 3
+        : attemptsUsedBefore == 3 ? 5
+        : 999999999; // unreachable for a valid attempt - forces the cap check below to fail closed
+    }
+
+    match /dailyAttempts/{attemptDocId} {
+      allow read: if isOwner(resource.data.uid);
+
+      // First attempt of the day for this uid - free, doc doesn't exist yet.
+      allow create: if isOwner(request.resource.data.uid)
+        && request.resource.data.keys().hasOnly(['uid', 'date', 'attemptsUsed', 'coinsSpentToday', 'updatedAt'])
+        && request.resource.data.attemptsUsed == 1
+        && request.resource.data.coinsSpentToday == 0
+        && request.resource.data.updatedAt == request.time;
+
+      // Attempts 2-4: strictly sequential (+1 each write), hard-capped at 4,
+      // and the recorded spend must match the fixed price table for the
+      // attempt being purchased. The get() below at least rejects starting a
+      // paid attempt with insufficient funds at write time. It does NOT
+      // verify the paired users/{uid} coin deduction happens for the exact
+      // same amount in the same transaction - Firestore rules evaluate each
+      // document's write independently and can't see a sibling document's
+      // in-flight write within one transaction, only committed state via
+      // get(). That gap is trust-based here, same as every other coin spend
+      // in this app today (JOKER_COSTS has zero server-side enforcement) -
+      // not a regression, just not a new guarantee either.
+      allow update: if isOwner(resource.data.uid)
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.date == resource.data.date
+        && request.resource.data.keys().hasOnly(['uid', 'date', 'attemptsUsed', 'coinsSpentToday', 'updatedAt'])
+        && request.resource.data.attemptsUsed == resource.data.attemptsUsed + 1
+        && request.resource.data.attemptsUsed <= 4
+        && request.resource.data.coinsSpentToday == resource.data.coinsSpentToday + dailyAttemptCost(resource.data.attemptsUsed)
+        && request.resource.data.updatedAt == request.time
+        && get(/databases/$(database)/documents/users/$(resource.data.uid)).data.coins >= dailyAttemptCost(resource.data.attemptsUsed);
+
+      allow delete: if isAdmin();
+    }
+
+    // Daily Challenge: one doc per {date,uid} holding only the best score of
+    // the day (locked design decision - not one doc per attempt), so the
+    // collection is directly queryable by orderBy('score','desc') with no
+    // read-time dedup needed. Public read for live standings.
+    match /dailyLeaderboards/{date}/scores/{uid} {
+      allow read: if true;
+
+      allow create, update: if isOwner(uid)
+        && request.resource.data.keys().hasOnly(['uid', 'name', 'score', 'attemptNumber', 'createdAt'])
+        && request.resource.data.uid == uid
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 20
+        && request.resource.data.score is int
+        && request.resource.data.score >= 0
+        && request.resource.data.score <= 10000
+        && request.resource.data.attemptNumber is int
+        && request.resource.data.attemptNumber >= 1
+        && request.resource.data.attemptNumber <= 4
+        && request.resource.data.createdAt == request.time
+        // The write must correspond to an attempt already recorded in
+        // dailyAttempts for this exact date/uid - otherwise nothing stops a
+        // client writing straight to the leaderboard, bypassing the
+        // attempt/cost tracking above entirely. One get(), keeping the
+        // cross-doc read count in this hot path minimal.
+        && get(/databases/$(database)/documents/dailyAttempts/$(date + '_' + uid)).data.attemptsUsed >= request.resource.data.attemptNumber
+        // Only accept the write if it's the first score of the day or an
+        // improvement over the stored best - mirrors
+        // maybeUpdateFastestPerfectRecord's "only write if it beats the
+        // current record" pattern, enforced here in rules since the doc id
+        // is fixed per-uid rather than auto-generated per attempt.
+        && (!exists(/databases/$(database)/documents/dailyLeaderboards/$(date)/scores/$(uid))
+            || request.resource.data.score >= resource.data.score);
+
+      allow delete: if isAdmin();
+    }
+
+    // Daily Challenge: one doc per date, written only by the scheduled
+    // payout job (api/daily-challenge-payout.js) via the Firebase Admin SDK,
+    // which bypasses these rules entirely - this match block exists only to
+    // make client reads possible (e.g. showing "you won yesterday" on next
+    // app open) and to explicitly deny any client write, since paying out
+    // coins to arbitrary uids must never be something a browser client can
+    // trigger itself.
+    match /dailyMeta/{date} {
+      allow read: if true;
+      allow write: if false;
+    }
   }
 }

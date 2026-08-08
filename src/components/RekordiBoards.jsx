@@ -1,7 +1,14 @@
-import { Star, Zap, Medal, Flame, Trophy, CalendarCheck } from 'lucide-react';
+import { Star, Zap, Medal, Flame, Trophy, CalendarCheck, CalendarDays } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
 
 const REKORDI_BOARDS = [
+    // 'daily' is a live, date-scoped board (today's Daily Challenge
+    // standings) - unlike every other board here, it's NOT part of the
+    // once-on-mount fetch in App.jsx's refreshRekordiData, since "today"
+    // can change while the app stays open across a Zagreb midnight
+    // rollover. App.jsx refetches it separately and merges it into the
+    // `data` object passed down here.
+    { key: 'daily', title: 'Dnevni izazov (danas)', icon: CalendarDays, unit: 'dailyScore', signedInOnly: false },
     { key: 'level', title: 'Najviša razina', icon: Star, unit: 'level', signedInOnly: true },
     { key: 'bestScore', title: 'Najbolji rezultat', icon: Zap, unit: 'score', signedInOnly: false },
     { key: 'fastestPerfect', title: 'Najbrža savršena runda', icon: Medal, unit: 'time', signedInOnly: false },
@@ -15,6 +22,8 @@ const formatEntry = (board, entry) => {
     switch (board.unit) {
         case 'score':
             return `${entry.name} — ${entry.score} bodova (${categoryLabel})`;
+        case 'dailyScore':
+            return `${entry.name} — ${entry.score} bodova`;
         case 'time':
             return `${entry.name} — ${(entry.elapsedMs / 1000).toFixed(1)}s (${categoryLabel})`;
         case 'level':
