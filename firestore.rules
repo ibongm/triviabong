@@ -20,6 +20,28 @@ service cloud.firestore {
       return isSignedIn() && request.auth.token.email == 'ivanm.ploce@gmail.com';
     }
 
+    // Plan B (1v1) helpers - shared by the matches/{matchId} update branches
+    // below. isMatchParticipant/matchIsTerminal read `data`/`resource.data`
+    // explicitly (not implicit `resource`) so they work identically whether
+    // called against `resource.data` (pre-write) or a freshly-created doc.
+    function isMatchParticipant(data) {
+      return isSignedIn() && (data.player1Uid == request.auth.uid || data.player2Uid == request.auth.uid);
+    }
+
+    function matchIsTerminal() {
+      return resource.data.status == 'match_over' || resource.data.status == 'forfeited';
+    }
+
+    // Identity/setup fields that must never change after match creation -
+    // every update branch below is diff-based against this, so a malicious
+    // update can't smuggle a change to who's playing, what they're playing,
+    // or what the questions are alongside a legitimate-looking field change.
+    function matchIdentityUnchanged() {
+      return !request.resource.data.diff(resource.data).affectedKeys().hasAny(
+        ['player1Uid', 'player2Uid', 'player1DisplayName', 'player2DisplayName', 'category', 'questionIds', 'createdAt', 'inviteId']
+      );
+    }
+
     match /users/{uid} {
       // Only the owner or an admin can read a specific profile.
       allow get: if isOwner(uid) || isAdmin();
@@ -380,6 +402,253 @@ service cloud.firestore {
     match /dailyMeta/{date} {
       allow read: if true;
       allow write: if false;
+    }
+
+    // Plan B - 1v1 live invite. Short-lived doc that exists only while an
+    // invite awaits a response (accept/decline/60s client-detected expiry).
+    // No admin moderation for v1 (locked decision) - deliberately no
+    // isAdmin() branch here, matching matches/{matchId} below.
+    match /matchInvites/{inviteId} {
+      // Either party can read their own invite - the invitee's client
+      // queries where('toUid','==',myUid) to show the incoming-invite
+      // modal, the inviter's client reads its own sent invite to detect
+      // the accept and create the match.
+      allow read: if isSignedIn()
+        && (resource.data.fromUid == request.auth.uid || resource.data.toUid == request.auth.uid);
+
+      allow create: if isOwner(request.resource.data.fromUid)
+        && request.resource.data.keys().hasOnly(['fromUid', 'fromDisplayName', 'toUid', 'category', 'status', 'createdAt', 'expiresAt'])
+        && request.resource.data.toUid is string
+        && request.resource.data.toUid != request.resource.data.fromUid
+        && request.resource.data.fromDisplayName is string
+        && request.resource.data.fromDisplayName.size() > 0
+        && request.resource.data.fromDisplayName.size() <= 20
+        && request.resource.data.category is string
+        && request.resource.data.category.size() > 0
+        && request.resource.data.category.size() <= 50
+        && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.expiresAt is timestamp;
+
+      // toUid may only accept/decline; fromUid may only mark it expired
+      // (client-detected 60s timeout, see Plan B §6 - there's no server to
+      // do this reliably). Nothing about who/what the invite is for can
+      // ever change, and a resolved invite can never be reopened.
+      allow update: if resource.data.status == 'pending'
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['fromUid', 'fromDisplayName', 'toUid', 'category', 'createdAt', 'expiresAt'])
+        && ((isOwner(resource.data.toUid) && request.resource.data.status in ['accepted', 'declined'])
+            || (isOwner(resource.data.fromUid) && request.resource.data.status == 'expired'));
+
+      allow delete: if isOwner(resource.data.fromUid) || isOwner(resource.data.toUid);
+    }
+
+    // Plan B - 1v1 live invite. The shared, real-time match document both
+    // clients read/write for the duration of a match. No server-side
+    // authority exists (client-only app - see Plan B §6): rules are the
+    // ONLY line of defense for who can write what. No admin moderation for
+    // v1 (locked decision).
+    //
+    // Sudden death: questionIds always holds 11 ids, chosen once at create
+    // time (10 for the fixed round + 1 pre-selected reserve). currentQuestionIndex
+    // reaching 10 means the match is in its sudden-death question - there is
+    // no live re-pick, so no new authority problem is introduced.
+    match /matches/{matchId} {
+      allow read: if isMatchParticipant(resource.data);
+
+      allow create: if isOwner(request.resource.data.player1Uid)
+        && request.resource.data.keys().hasOnly([
+             'player1Uid', 'player2Uid', 'player1DisplayName', 'player2DisplayName',
+             'category', 'questionIds', 'status', 'currentQuestionIndex',
+             'questionStartedAt', 'player1Answer', 'player2Answer',
+             'player1Score', 'player2Score', 'player1Correct', 'player2Correct',
+             'lastActivityAt', 'winnerUid', 'createdAt', 'inviteId'
+           ])
+        && request.resource.data.player2Uid is string
+        && request.resource.data.player2Uid != request.resource.data.player1Uid
+        && request.resource.data.player1DisplayName is string
+        && request.resource.data.player1DisplayName.size() > 0
+        && request.resource.data.player1DisplayName.size() <= 20
+        && request.resource.data.player2DisplayName is string
+        && request.resource.data.player2DisplayName.size() > 0
+        && request.resource.data.player2DisplayName.size() <= 20
+        && request.resource.data.category is string
+        && request.resource.data.category.size() > 0
+        && request.resource.data.category.size() <= 50
+        && request.resource.data.questionIds is list
+        && request.resource.data.questionIds.size() == 11
+        && request.resource.data.status == 'waiting_ready'
+        && request.resource.data.currentQuestionIndex == 0
+        && request.resource.data.questionStartedAt == null
+        && request.resource.data.player1Answer == null
+        && request.resource.data.player2Answer == null
+        && request.resource.data.player1Score == 0
+        && request.resource.data.player2Score == 0
+        && request.resource.data.player1Correct == 0
+        && request.resource.data.player2Correct == 0
+        && request.resource.data.winnerUid == null
+        && request.resource.data.lastActivityAt == request.time
+        && request.resource.data.createdAt == request.time
+        // Must correspond to an invite the invitee actually accepted,
+        // targeting this exact pairing and category - prevents a client
+        // from creating a match against someone who never agreed to it.
+        && request.resource.data.inviteId is string
+        && get(/databases/$(database)/documents/matchInvites/$(request.resource.data.inviteId)).data.status == 'accepted'
+        && get(/databases/$(database)/documents/matchInvites/$(request.resource.data.inviteId)).data.fromUid == request.resource.data.player1Uid
+        && get(/databases/$(database)/documents/matchInvites/$(request.resource.data.inviteId)).data.toUid == request.resource.data.player2Uid
+        && get(/databases/$(database)/documents/matchInvites/$(request.resource.data.inviteId)).data.category == request.resource.data.category;
+
+      allow update: if isMatchParticipant(resource.data)
+        && !matchIsTerminal()
+        && matchIdentityUnchanged()
+        && (
+          // Heartbeat - either participant, any time.
+          (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['lastActivityAt'])
+            && request.resource.data.lastActivityAt == request.time)
+
+          // Start the match: waiting_ready -> question_active.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'lastActivityAt'])
+              && resource.data.status == 'waiting_ready'
+              && request.resource.data.status == 'question_active'
+              && request.resource.data.lastActivityAt == request.time)
+
+          // First client to reach the question sets questionStartedAt -
+          // "first write wins" since it can only ever move null -> set,
+          // never be overwritten (see Plan B §6 on this being a deliberate,
+          // rules-resolved race rather than a server-arbitrated one).
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['questionStartedAt', 'lastActivityAt'])
+              && resource.data.status == 'question_active'
+              && resource.data.questionStartedAt == null
+              && request.resource.data.questionStartedAt == request.time
+              && request.resource.data.lastActivityAt == request.time)
+
+          // player1 answers - own field only, once (null -> set, never
+          // overwritten), and can never see/write player2Answer.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1Answer', 'lastActivityAt'])
+              && isOwner(resource.data.player1Uid)
+              && resource.data.status == 'question_active'
+              && resource.data.player1Answer == null
+              && request.resource.data.player1Answer.keys().hasOnly(['optionIndex', 'answeredAt'])
+              && request.resource.data.player1Answer.optionIndex is int
+              && request.resource.data.player1Answer.optionIndex >= 0
+              && request.resource.data.player1Answer.optionIndex <= 3
+              && request.resource.data.player1Answer.answeredAt == request.time
+              && request.resource.data.lastActivityAt == request.time)
+
+          // player2 answers - symmetric to player1Answer above.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2Answer', 'lastActivityAt'])
+              && isOwner(resource.data.player2Uid)
+              && resource.data.status == 'question_active'
+              && resource.data.player2Answer == null
+              && request.resource.data.player2Answer.keys().hasOnly(['optionIndex', 'answeredAt'])
+              && request.resource.data.player2Answer.optionIndex is int
+              && request.resource.data.player2Answer.optionIndex >= 0
+              && request.resource.data.player2Answer.optionIndex <= 3
+              && request.resource.data.player2Answer.answeredAt == request.time
+              && request.resource.data.lastActivityAt == request.time)
+
+          // player1 self-reports their own running score after answering -
+          // same trust model as leaderboards/{cat}/scores (client-computed,
+          // not authenticated - this only bounds the damage). Monotonic
+          // non-decreasing, at most +1 correct per write, bounded ceiling
+          // (11 questions, no jokers, same formula as solo: max ~6600).
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1Score', 'player1Correct', 'lastActivityAt'])
+              && isOwner(resource.data.player1Uid)
+              && request.resource.data.player1Score is int
+              && request.resource.data.player1Score >= resource.data.player1Score
+              && request.resource.data.player1Score <= 8000
+              && request.resource.data.player1Correct is int
+              && request.resource.data.player1Correct >= resource.data.player1Correct
+              && request.resource.data.player1Correct <= resource.data.player1Correct + 1
+              && request.resource.data.player1Correct <= 11
+              && request.resource.data.lastActivityAt == request.time)
+
+          // player2 self-reports - symmetric to player1Score above.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2Score', 'player2Correct', 'lastActivityAt'])
+              && isOwner(resource.data.player2Uid)
+              && request.resource.data.player2Score is int
+              && request.resource.data.player2Score >= resource.data.player2Score
+              && request.resource.data.player2Score <= 8000
+              && request.resource.data.player2Correct is int
+              && request.resource.data.player2Correct >= resource.data.player2Correct
+              && request.resource.data.player2Correct <= resource.data.player2Correct + 1
+              && request.resource.data.player2Correct <= 11
+              && request.resource.data.lastActivityAt == request.time)
+
+          // Reveal the current question - either participant, no other
+          // field changes (scores are written separately, see above).
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'lastActivityAt'])
+              && resource.data.status == 'question_active'
+              && request.resource.data.status == 'reveal'
+              && request.resource.data.lastActivityAt == request.time)
+
+          // Advance to the next question (also covers entering sudden
+          // death, index 9 -> 10 - same transition shape, just one further
+          // than a normal round would ever reach). Resets the per-question
+          // fields so the next question starts clean.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'currentQuestionIndex', 'questionStartedAt', 'player1Answer', 'player2Answer', 'lastActivityAt'])
+              && resource.data.status == 'reveal'
+              && request.resource.data.status == 'question_active'
+              && request.resource.data.currentQuestionIndex == resource.data.currentQuestionIndex + 1
+              && request.resource.data.currentQuestionIndex <= 10
+              && request.resource.data.questionStartedAt == null
+              && request.resource.data.player1Answer == null
+              && request.resource.data.player2Answer == null
+              && request.resource.data.lastActivityAt == request.time)
+
+          // Finish the match from the last reveal (either the 10th question
+          // with no tie, or the sudden-death 11th question) - becomes
+          // immutable immediately after via matchIsTerminal() above.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'lastActivityAt'])
+              && resource.data.status == 'reveal'
+              && request.resource.data.status == 'match_over'
+              && (request.resource.data.winnerUid == null
+                  || request.resource.data.winnerUid == resource.data.player1Uid
+                  || request.resource.data.winnerUid == resource.data.player2Uid)
+              && request.resource.data.lastActivityAt == request.time)
+
+          // Forfeit - either participant may report the OTHER player as
+          // inactive (never themselves - winnerUid must be their opponent,
+          // not their own uid) from any non-terminal status. No server
+          // exists to verify the 30s inactivity claim independently (see
+          // Plan B §6) - this is a deliberate, documented v1 limit.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'lastActivityAt'])
+              && request.resource.data.status == 'forfeited'
+              && request.resource.data.winnerUid != request.auth.uid
+              && (request.resource.data.winnerUid == resource.data.player1Uid || request.resource.data.winnerUid == resource.data.player2Uid)
+              && request.resource.data.lastActivityAt == request.time)
+        );
+
+      // No client delete - orphaned match cleanup is deferred (see Plan B
+      // §6/CLAUDE.md), same as presence/{uid}'s stale-doc handling.
+      allow delete: if false;
+    }
+
+    // Plan B - 1v1 match history. Each participant writes their OWN summary
+    // of a finished match into their own slice on match_over - owner-only
+    // read, same pattern as users/{uid}. Immutable once written (no update
+    // path) since a finished match's result should never change.
+    match /matchHistory/{uid}/entries/{matchId} {
+      allow read: if isOwner(uid) || isAdmin();
+
+      allow create: if isOwner(uid)
+        && request.resource.data.keys().hasOnly(['opponentUid', 'opponentDisplayName', 'result', 'myScore', 'opponentScore', 'category', 'createdAt'])
+        && request.resource.data.opponentUid is string
+        && request.resource.data.opponentDisplayName is string
+        && request.resource.data.opponentDisplayName.size() > 0
+        && request.resource.data.opponentDisplayName.size() <= 20
+        && request.resource.data.result in ['win', 'loss', 'draw']
+        && request.resource.data.myScore is int
+        && request.resource.data.myScore >= 0
+        && request.resource.data.myScore <= 8000
+        && request.resource.data.opponentScore is int
+        && request.resource.data.opponentScore >= 0
+        && request.resource.data.opponentScore <= 8000
+        && request.resource.data.category is string
+        && request.resource.data.category.size() > 0
+        && request.resource.data.category.size() <= 50
+        && request.resource.data.createdAt == request.time;
+
+      allow update, delete: if isAdmin();
     }
   }
 }
