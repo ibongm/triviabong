@@ -1,4 +1,4 @@
-import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play } from 'lucide-react';
+import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays } from 'lucide-react';
 import {
     MAX_LIVES,
     QUESTIONS_PER_ROUND,
@@ -14,7 +14,8 @@ import {
     COIN_PER_ROUND_COMPLETE,
     COIN_PERFECT_ROUND_BONUS,
     COIN_LEVEL_UP_BONUS,
-    JOKER_COSTS
+    JOKER_COSTS,
+    DAILY_CHALLENGE_WINNER_PRIZE
 } from '../constants/gameBalance';
 import { xpForLevel } from '../utils/leveling';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
@@ -114,6 +115,13 @@ export default function GuideModal({ isOpen, onClose }) {
                     <p>Svaka runda ima <b className="text-white">{QUESTIONS_PER_ROUND}</b> pitanja, po <b className="text-white">{QUESTION_TIME_SECONDS}</b> sekundi svako.</p>
                     <p>Odgovorite na svih {QUESTIONS_PER_ROUND} pitanja bez gubitka svih života za pobjedu (Pobjeda).</p>
                     <p className="text-slate-500 italic">Kategorija "Opće znanje" izvlači pitanja iz svih kategorija zajedno, ne samo svojih.</p>
+                </Section>
+
+                <Section icon={<CalendarDays className="w-4 h-4 text-amber-400" />} title="Dnevni izazov">
+                    <p>Svaki dan svi igrači dobiju <b className="text-white">isti set od {QUESTIONS_PER_ROUND} pitanja</b> - jednom besplatno, jedan pokušaj po danu.</p>
+                    <p>Jokeri nisu dostupni u dnevnom izazovu.</p>
+                    <p>Rezultat se odmah upisuje na dnevnu ljestvicu, koja je vidljiva uživo tijekom cijelog dana.</p>
+                    <p>Tko god bude na <b className="text-white">1. mjestu</b> kad dan završi (u ponoć po zagrebačkom vremenu) osvaja <b className="text-white">+{DAILY_CHALLENGE_WINNER_PRIZE}</b> novčića - u slučaju izjednačenja, nagradu dobivaju svi izjednačeni igrači.</p>
                 </Section>
 
                 {/* Footer */}

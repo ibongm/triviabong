@@ -1274,10 +1274,10 @@ export default function App() {
                   <button
                     type="button"
                     onClick={() => { sound.playClick(); setShowReportModal(true); }}
-                    className="text-slate-600 hover:text-rose-400 transition-colors p-0.5 active:scale-90"
-                    title="Prijavi pitanje"
+                    className="flex items-center gap-1 text-slate-600 hover:text-rose-400 transition-colors px-1 py-0.5 active:scale-90"
                   >
                     <Flag className="w-3.5 h-3.5" />
+                    <span>Prijavi pitanje</span>
                   </button>
                 </div>
               </div>
