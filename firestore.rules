@@ -285,7 +285,18 @@ service cloud.firestore {
     }
 
     match /dailyAttempts/{attemptDocId} {
-      allow read: if isOwner(resource.data.uid);
+      // Deliberately NOT `isOwner(resource.data.uid)` - that expression
+      // errors out (evaluates against a null `resource`) whenever the doc
+      // doesn't exist yet, which Firestore treats as a denied read. Since
+      // this doc is created lazily on a player's FIRST attempt of the day,
+      // that null-resource case is the common case, not an edge case - it
+      // broke every player's very first read/attempt of a new day (both
+      // getDailyAttemptStatus's getDoc() and startDailyAttempt's tx.get()
+      // go through this same rule). Matching the doc id's uid suffix works
+      // whether or not the doc exists yet. Firebase Auth uids are
+      // alphanumeric with no underscores, so a suffix match on "_{uid}" is
+      // unambiguous against the "{date}_{uid}" id shape.
+      allow read: if isSignedIn() && attemptDocId.matches('.*_' + request.auth.uid + '$');
 
       // First attempt of the day for this uid - free, doc doesn't exist yet.
       allow create: if isOwner(request.resource.data.uid)
