@@ -80,7 +80,7 @@
         "id": "hr_sport_8",
         "category": "sport",
         "question": "Koji se sport igra na ledu pomoću metli i teških granitnih kamenova?",
-        "correct_answer": "Kanal / Curling",
+        "correct_answer": "Curling (boćanje na ledu)",
         "incorrect_answers": [
             "Hokej na ledu",
             "Bandy",
@@ -486,7 +486,7 @@
     {
         "id": "hr_sport_45",
         "category": "sport",
-        "question": "Koji je amaterski vozač ili trkaći tim najuspješniji u povijesti utrke 24 sata Le Mansa među proizvođačima?",
+        "question": "Koji je proizvođač najuspješniji u povijesti utrke 24 sata Le Mansa?",
         "correct_answer": "Porsche",
         "incorrect_answers": [
             "Audi",
@@ -985,7 +985,7 @@
         "correct_answer": "Rusija (Dagestan)",
         "incorrect_answers": [
             "SAD",
-            "KAZAKSTAN",
+            "Kazahstan",
             "Brazil"
         ]
     },
@@ -1102,7 +1102,7 @@
     {
         "id": "hr_sport_101",
         "category": "sport",
-        "question": "Koji je norveški zimski sportaš osvojio najviše medalja u povijesti Zimskih olimpijskih igara (15 medalja u biatlonu)?",
+        "question": "Koji je norveški biatlonac najuspješniji muški sportaš u povijesti Zimskih olimpijskih igara, s ukupno 8 zlatnih medalja?",
         "correct_answer": "Ole Einar Bjørndalen",
         "incorrect_answers": [
             "Johannes Thingnes Bø",
@@ -1360,7 +1360,7 @@
         "incorrect_answers": [
             "Sportska gimnastika",
             "Balet",
-            "Umetničko klizanje"
+            "Umjetničko klizanje"
         ]
     },
     {
@@ -1795,7 +1795,7 @@
     {
         "id": "hr_sport_164",
         "category": "sport",
-        "question": "Koja je najpopularniejsza profesionalna liga u bejzbolu na svijetu?",
+        "question": "Koja je najpopularnija profesionalna liga u bejzbolu na svijetu?",
         "correct_answer": "MLB (Major League Baseball)",
         "incorrect_answers": [
             "NPB (Japan)",
@@ -1960,12 +1960,12 @@
     {
         "id": "hr_sport_180",
         "category": "sport",
-        "question": "Koja je duljina staze u utrci na 110 metara s preponama u muškoj atletskoj konkurenciji?",
-        "correct_answer": "110 metara",
+        "question": "Koliko prepona sportaš preskače u utrci na 110 metara s preponama u muškoj atletskoj konkurenciji?",
+        "correct_answer": "10",
         "incorrect_answers": [
-            "100 metara",
-            "400 metara",
-            "200 metara"
+            "8",
+            "12",
+            "9"
         ]
     },
     {
@@ -2092,7 +2092,7 @@
     {
         "id": "hr_sport_192",
         "category": "sport",
-        "question": "Koji je mađarski nogometaš iz 1950-ih bio vođa 'Lake konjice' i po njemu se zove FIFA-ina nagrada za najljepši gol godine?",
+        "question": "Koji je mađarski nogometaš iz 1950-ih bio kapetan legendarnog 'Zlatnog tima' (Aranycsapat) i po njemu se zove FIFA-ina nagrada za najljepši gol godine?",
         "correct_answer": "Ferenc Puskás",
         "incorrect_answers": [
             "Sándor Kocsis",
@@ -2367,7 +2367,7 @@
     {
         "id": "hr_sport_217",
         "category": "sport",
-        "question": "Koji je hrvatski boksač bio prvak Europe u teškoj kategoriji i borio se za naslov svjetskog prvaka protiv Muhammada Alija 1978.?",
+        "question": "Koji je hrvatski boksač 1978. u Milanu osvojio naslov svjetskog prvaka WBC-a u poluteškoj kategoriji pobjedom protiv Miguela Ángela Cuella, postavši prvim profesionalnim svjetskim prvakom iz komunističke zemlje?",
         "correct_answer": "Mate Parlov",
         "incorrect_answers": [
             "Željko Mavrović",
@@ -2686,12 +2686,12 @@
     {
         "id": "hr_sport_246",
         "category": "sport",
-        "question": "Koji je hrvatski skijaš bio specijalist za brze discipline i osvojio srebrnu medalju u kombinaciji na OI u Torinu 2006.?",
+        "question": "Koji je hrvatski skijaš bio specijalist za slalom i kombinaciju te osvojio srebrnu medalju u kombinaciji na OI u Torinu 2006.?",
         "correct_answer": "Ivica Kostelić",
         "incorrect_answers": [
             "Natko Zrnčić-Dim",
             "Filip Zubčić",
-            "Vedran Pavlek"
+            "Janica Kostelić"
         ]
     },
     {
@@ -3478,7 +3478,7 @@
     {
         "id": "hr_sport_318",
         "category": "sport",
-        "question": "Koji je reprezentacija osvojila Europsko prvenstvo u košarci (EuroBasket 2022) pobijedivši Francusku u finalu?",
+        "question": "Koja je reprezentacija osvojila Europsko prvenstvo u košarci (EuroBasket 2022) pobijedivši Francusku u finalu?",
         "correct_answer": "Španjolska",
         "incorrect_answers": [
             "Njemačka",
@@ -3621,7 +3621,7 @@
     {
         "id": "hr_sport_331",
         "category": "sport",
-        "question": "Koji je reprezentacija osvojila zlatnu olimpijsku medalju u košarci za muškarce na OI u Ateni 2004.?",
+        "question": "Koja je reprezentacija osvojila zlatnu olimpijsku medalju u košarci za muškarce na OI u Ateni 2004.?",
         "correct_answer": "Argentina",
         "incorrect_answers": [
             "SAD",
@@ -4039,8 +4039,8 @@
     {
         "id": "hr_sport_369",
         "category": "sport",
-        "question": "Koji je norveški biatlonac osvojio 5 zlatnih medalja na OI u Pekingu 2022. i nosi ime Johannes Thingnes...?",
-        "correct_answer": "Bø (Johannes Thingnes Bø)",
+        "question": "Koji je norveški biatlonac osvojio 4 zlatne medalje na Zimskim olimpijskim igrama u Pekingu 2022.?",
+        "correct_answer": "Johannes Thingnes Bø",
         "incorrect_answers": [
             "Bjørndalen",
             "Svendsen",
@@ -4204,7 +4204,7 @@
     {
         "id": "hr_sport_384",
         "category": "sport",
-        "question": "Koja je jamajčanska sprinterica postavila drugi najbrži rezultat u povijesti na 100m (10,54 s) na OI u Tokiju 2020.?",
+        "question": "Koja je jamajčanska sprinterica postavila drugi najbrži rezultat u povijesti na 100 m (10,54 s) na Diamond League mitingu u Eugeneu 2021.?",
         "correct_answer": "Elaine Thompson-Herah",
         "incorrect_answers": [
             "Shelly-Ann Fraser-Pryce",
@@ -4732,7 +4732,7 @@
     {
         "id": "hr_sport_432",
         "category": "sport",
-        "question": "Koji se teški metalni rekvizit baca na žičanoj sajli s ručkom u jednoj od četiri bacčke discipline u atletici?",
+        "question": "Koji se teški metalni rekvizit baca na žičanoj sajli s ručkom u jednoj od četiri bacačke discipline u atletici?",
         "correct_answer": "Kladivo",
         "incorrect_answers": [
             "Kugla",
@@ -5205,7 +5205,7 @@
     {
         "id": "hr_sport_475",
         "category": "sport",
-        "question": "Koja je država domaćin ljetnih Olimpijskih igara 2008. godine održanih u Pekinga?",
+        "question": "Koja je država domaćin ljetnih Olimpijskih igara 2008. godine održanih u Pekingu?",
         "correct_answer": "Kina",
         "incorrect_answers": [
             "Japan",

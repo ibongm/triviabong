@@ -337,7 +337,7 @@
         "incorrect_answers": [
             "Ugljikov dioksid",
             "Metan",
-            "Vodok"
+            "Vodik"
         ]
     },
     {
@@ -546,7 +546,7 @@
         "incorrect_answers": [
             "Refleksija",
             "Difrakcija",
-            "Dispersion"
+            "Disperzija"
         ]
     },
     {
@@ -567,7 +567,7 @@
         "correct_answer": "Trombociti",
         "incorrect_answers": [
             "Eritrociti",
-            "L Leukociti",
+            "Leukociti",
             "Limfociti"
         ]
     },
@@ -656,7 +656,7 @@
         "incorrect_answers": [
             "RNA (RNK)",
             "Proteini",
-            "Atp"
+            "ATP"
         ]
     },
     {
@@ -706,7 +706,7 @@
     {
         "id": "hr_sci_65",
         "category": "znanost",
-        "question": "Koji znanstveni instrumet mjeri atmosferski tlak?",
+        "question": "Koji znanstveni instrument mjeri atmosferski tlak?",
         "correct_answer": "Barometar",
         "incorrect_answers": [
             "Higrometar",
@@ -1140,14 +1140,14 @@
         "incorrect_answers": [
             "Ca",
             "Co",
-            "CL"
+            "Cl"
         ]
     },
     {
         "id": "hr_sci_105",
         "category": "znanost",
         "question": "Kako se zove pojava u kojoj se tvar pri hlađenju pretvara u kruto stanje?",
-        "correct_answer": "Kristalizacija / Svršćivanje",
+        "correct_answer": "Kristalizacija / Skrućivanje",
         "incorrect_answers": [
             "Kondenzacija",
             "Isparavanje",
@@ -1300,7 +1300,7 @@
     {
         "id": "hr_sci_119",
         "category": "znanost",
-        "question": "Koji se zakon fizike bavi odnosom između tlaka i volumena plina pri stálnoj temperaturi?",
+        "question": "Koji se zakon fizike bavi odnosom između tlaka i volumena plina pri stalnoj temperaturi?",
         "correct_answer": "Boyle-Mariotteov zakon",
         "incorrect_answers": [
             "Charlesov zakon",
@@ -1564,7 +1564,7 @@
     {
         "id": "hr_sci_151",
         "category": "znanost",
-        "question": "Koja je najzastupljenija leća ili zrcalo u reflektorskim teleskopima koje je izumio Isaac Newton?",
+        "question": "Koje je zrcalo najzastupljenije u reflektorskim teleskopima koje je izumio Isaac Newton?",
         "correct_answer": "Udubljeno (Konkavno) primarno zrcalo",
         "incorrect_answers": [
             "Ispupčena leća",
@@ -1818,7 +1818,7 @@
         "id": "hr_sci_174",
         "category": "znanost",
         "question": "Kako se u fizici zove količina gibanja tijela koja je umnožak mase i brzine?",
-        "correct_answer": "Količina gibanja (Linerani impuls)",
+        "correct_answer": "Količina gibanja (Linearni impuls)",
         "incorrect_answers": [
             "Kinetička energija",
             "Sila",
@@ -1909,7 +1909,7 @@
         "correct_answer": "Potpuna (Totalna) refleksija",
         "incorrect_answers": [
             "Lom svjetlosti",
-            "Dispersion",
+            "Disperzija",
             "Polarizacija"
         ]
     },
@@ -1997,7 +1997,7 @@
         "correct_answer": "Klor",
         "incorrect_answers": [
             "Fluor",
-            "Ozón",
+            "Ozon",
             "Dušik"
         ]
     },
@@ -2049,7 +2049,7 @@
         "id": "hr_sci_195",
         "category": "znanost",
         "question": "Kako se zove pojava u kojoj foton visoke energije u blizini jezgre stvara par elektron-pozitron?",
-        "correct_answer": "Tvaranje parova",
+        "correct_answer": "Tvorba parova",
         "incorrect_answers": [
             "Fotoelektrični efekt",
             "Comptonovo raspršenje",
@@ -2129,7 +2129,7 @@
         "correct_answer": "Ganimed",
         "incorrect_answers": [
             "Titan",
-            "Klisto",
+            "Kalisto",
             "Ija"
         ]
     },
@@ -2158,7 +2158,7 @@
     {
         "id": "hr_sci_205",
         "category": "znanost",
-        "question": "Kako se zove pojava u kojoj se frekvencija zvuka ili svjetlosti mijenja zbog gibanja izvora u odnosu na promatrača?",
+        "question": "Kojom metodom astronomi, pomoću pomaka svjetlosti prema crvenom ili plavom kraju spektra, određuju kreće li se zvijezda prema Zemlji ili od nje?",
         "correct_answer": "Dopplerov efekt",
         "incorrect_answers": [
             "Comptonov efekt",
@@ -2235,12 +2235,12 @@
     {
         "id": "hr_sci_212",
         "category": "znanost",
-        "question": "Kako se zove proces kojim zvijezda poput Sunca stvara energiju spajanjem jezgri vodika u helij?",
-        "correct_answer": "Nuklearna fuzija",
+        "question": "Kako se zove tip reaktora (npr. ITER u Francuskoj) koji magnetskim poljem u obliku torusa pokušava postići kontroliranu nuklearnu fuziju?",
+        "correct_answer": "Tokamak",
         "incorrect_answers": [
-            "Nuklearna fisija",
-            "Radioaktivni raspad",
-            "Anihilacija"
+            "Stelarator",
+            "Fisijski reaktor",
+            "Sinkrotron"
         ]
     },
     {
@@ -2488,7 +2488,7 @@
     {
         "id": "hr_sci_235",
         "category": "znanost",
-        "question": "Kako se naziva pojava svijestlećih snopova svjetlosti na polarnim širinama uzrokovana nabijenim česticama Sa Sunca?",
+        "question": "Kako se naziva pojava svijestlećih snopova svjetlosti na polarnim širinama uzrokovana nabijenim česticama sa Sunca?",
         "correct_answer": "Polarna svjetlost (Aurora)",
         "incorrect_answers": [
             "Zodijačka svjetlost",
@@ -2592,7 +2592,7 @@
         "incorrect_answers": [
             "Bernoullijev zakon",
             "Torricellijev zakon",
-            "Archimedesov zakon"
+            "Arhimedov zakon"
         ]
     },
     {
@@ -2807,7 +2807,7 @@
     {
         "id": "hr_sci_264",
         "category": "znanost",
-        "question": "Koji je najjači prirodni otrov i kiselina proizvedena u želucu radi probave hrane (pH oko 1,5–2)?",
+        "question": "Koja se kiselina proizvodi u želucu radi probave hrane (pH oko 1,5–2)?",
         "correct_answer": "Solna kiselina (HCl)",
         "incorrect_answers": [
             "Sumporna kiselina",
@@ -2829,12 +2829,12 @@
     {
         "id": "hr_sci_266",
         "category": "znanost",
-        "question": "Koji se kemijski element označava simbolom 'K' i ključan je elektrolit u ljudskom tijelu?",
-        "correct_answer": "Kalij",
+        "question": "Tko je 1807. godine elektrolizom prvi izolirao kalij i otkrio njegovu žestoku reakciju s vodom?",
+        "correct_answer": "Humphry Davy",
         "incorrect_answers": [
-            "Kalcij",
-            "Klor",
-            "Kripton"
+            "Joseph Priestley",
+            "Antoine Lavoisier",
+            "John Dalton"
         ]
     },
     {
@@ -2873,7 +2873,7 @@
     {
         "id": "hr_sci_270",
         "category": "znanost",
-        "question": "Koji je kemijski simbol za zlato izveden iz latinske riječi 'Aurum'?",
+        "question": "Koji element s kemijskim simbolom Au ubraja se među najduktilnije (najrastezljivije) metale, toliko da se može razviti u listove tanje od ljudske vlasi?",
         "correct_answer": "Au",
         "incorrect_answers": [
             "Ag",
@@ -2977,7 +2977,7 @@
         "incorrect_answers": [
             "Grafit",
             "Dijamant",
-            "Fulerenc"
+            "Fuleren"
         ]
     },
     {
@@ -3104,7 +3104,7 @@
     {
         "id": "hr_sci_291",
         "category": "znanost",
-        "question": "Koji je mineral najtvrdđi na Mohsovoj ljestvici s ocjenom 10?",
+        "question": "Koji je mineral kemijski čist ugljik, poput grafita i grafena, ali s drugačijom kristalnom strukturom?",
         "correct_answer": "Dijamant",
         "incorrect_answers": [
             "Korund",
@@ -3284,7 +3284,7 @@
         "correct_answer": "Zglob koljena",
         "incorrect_answers": [
             "Zglob kuka",
-            "Rrameni zglob",
+            "Rameni zglob",
             "Zglob gležnja"
         ]
     },
@@ -3446,7 +3446,7 @@
         "id": "hr_sci_322",
         "category": "znanost",
         "question": "Kako se zove zglobna čašica i kost koja štiti prednji dio zgloba koljena?",
-        "correct_answer": "Iverak (Patella)",
+        "correct_answer": "Čašica (Patela)",
         "incorrect_answers": [
             "Cjevanica",
             "Lisna kost",
@@ -3621,7 +3621,7 @@
     {
         "id": "hr_sci_338",
         "category": "znanost",
-        "question": "Kako se naziva vanjski vidljivi skup osobina organizma nastal djelovanjem genotipa i okoliša?",
+        "question": "Kako se naziva vanjski vidljivi skup osobina organizma nastao djelovanjem genotipa i okoliša?",
         "correct_answer": "Fenotip",
         "incorrect_answers": [
             "Genotip",
@@ -3654,7 +3654,7 @@
     {
         "id": "hr_sci_341",
         "category": "znanost",
-        "question": "Koji se organ u probavnom sustavu nalazi između jednaka i tankog crijeva te luči pepsine i kiselinu?",
+        "question": "Koji se organ u probavnom sustavu nalazi između jednjaka i tankog crijeva te luči pepsine i kiselinu?",
         "correct_answer": "Želudac",
         "incorrect_answers": [
             "Dvanaesnik",
@@ -4259,12 +4259,12 @@
     {
         "id": "hr_sci_396",
         "category": "znanost",
-        "question": "Kako se zove prva računalna mreža koja je povezivala sveučilišta u SAD-u i poslužila kao temelj interneta?",
-        "correct_answer": "ARPANET",
+        "question": "Koje se godine ARPANET u potpunosti prebacio na TCP/IP protokol, datum koji se često smatra 'rođendanom' modernog interneta?",
+        "correct_answer": "1983.",
         "incorrect_answers": [
-            "NSFNET",
-            "CYCLADES",
-            "ALOHANET"
+            "1969.",
+            "1991.",
+            "1995."
         ]
     },
     {
@@ -4325,10 +4325,10 @@
     {
         "id": "hr_sci_402",
         "category": "znanost",
-        "question": "Kako se naziva mjerna jedinica za frekvenciju zvuka jednaka jednom ciklusu u sekundi?",
-        "correct_answer": "Herc (Hz)",
+        "question": "Koja se mjerna jedinica koristi za izražavanje intenziteta (glasnosti) zvuka?",
+        "correct_answer": "Decibel (dB)",
         "incorrect_answers": [
-            "Decibel",
+            "Herc (Hz)",
             "Mel",
             "Bar"
         ]
@@ -4351,8 +4351,8 @@
         "correct_answer": "Fluorescencija",
         "incorrect_answers": [
             "Fosforescencija",
-            "Luminescence",
-            "Incandescencija"
+            "Luminiscencija",
+            "Inkandescencija"
         ]
     },
     {
@@ -4634,7 +4634,7 @@
         "id": "hr_sci_430",
         "category": "znanost",
         "question": "Kako se naziva uređaj koji pretvara izravno Sunčevu svjetlost u električnu energiju pomoću fotoelektričnog učinka?",
-        "correct_answer": "Fotataponska ćelija",
+        "correct_answer": "Fotonaponska ćelija",
         "incorrect_answers": [
             "Solarni kolektor",
             "Termoelement",
@@ -4924,7 +4924,7 @@
         "incorrect_answers": [
             "Refrakcija",
             "Difrakcija",
-            "Dispersion"
+            "Disperzija"
         ]
     },
     {
@@ -4996,7 +4996,7 @@
     {
         "id": "hr_sci_463",
         "category": "znanost",
-        "question": "Koji je škotski kemičar i fizičar izumio restrcijski proces izolacije plinova te otkrio ugljikov dioksid?",
+        "question": "Koji je škotski kemičar i fizičar precizno vagajući plinove tijekom reakcija otkrio 'fiksni zrak' (ugljikov dioksid)?",
         "correct_answer": "Joseph Black",
         "incorrect_answers": [
             "Daniel Rutherford",
@@ -5067,7 +5067,7 @@
         "incorrect_answers": [
             "Izotermni proces",
             "Izobarni proces",
-            "Izohorci proces"
+            "Izohorni proces"
         ]
     },
     {
@@ -5084,7 +5084,7 @@
     {
         "id": "hr_sci_471",
         "category": "znanost",
-        "question": "Kako se u kemiji zove smjesa dviju tekućina koja ima stálno vrelište i ne može se razdvojiti običnom destilacijom?",
+        "question": "Kako se u kemiji zove smjesa dviju tekućina koja ima stalno vrelište i ne može se razdvojiti običnom destilacijom?",
         "correct_answer": "Azeotropna smjesa",
         "incorrect_answers": [
             "Heterogena smjesa",
@@ -5106,7 +5106,7 @@
     {
         "id": "hr_sci_473",
         "category": "znanost",
-        "question": "Kako se zove pojava usmjeravanja svjetlosnih valova tako da sve električne komponente osciliraju u jednoj ravnini?",
+        "question": "Koja se pojava koristi u polariziranim Sunčanim naočalama i LCD zaslonima za smanjenje odsjaja i prikaz slike?",
         "correct_answer": "Polarizacija",
         "incorrect_answers": [
             "Interferencija",
@@ -5249,7 +5249,7 @@
     {
         "id": "hr_sci_486",
         "category": "znanost",
-        "question": "Koji je kemičar i poduzetnik izumio najlon (Nylon) – prvi potpuno sintetički polimer 1935. godine?",
+        "question": "Koji je kemičar i poduzetnik izumio najlon (Nylon) – prvo potpuno sintetičko vlakno 1935. godine?",
         "correct_answer": "Wallace Carothers",
         "incorrect_answers": [
             "Roy Plunkett",
@@ -5348,7 +5348,7 @@
     {
         "id": "hr_sci_495",
         "category": "znanost",
-        "question": "Kako se u zoologiji zove grupa životinja koje održavaju stálnu unutarnju tjelesnu temperaturu neovisno o okolišu (toplokrvne)?",
+        "question": "Kako se u zoologiji zove grupa životinja koje održavaju stalnu unutarnju tjelesnu temperaturu neovisno o okolišu (toplokrvne)?",
         "correct_answer": "Endotermni organizmi (Homeotermi)",
         "incorrect_answers": [
             "Ektotermni organizmi",
@@ -5359,7 +5359,7 @@
     {
         "id": "hr_sci_496",
         "category": "znanost",
-        "question": "Koji je američki biolog i genetilčar dokazao da se geni nalaze na kromosomima eksperimentirajući s vinskim mušicama (Drosophila)?",
+        "question": "Koji je američki biolog i genetičar dokazao da se geni nalaze na kromosomima eksperimentirajući s vinskim mušicama (Drosophila)?",
         "correct_answer": "Thomas Hunt Morgan",
         "incorrect_answers": [
             "Gregor Mendel",
