@@ -18,4 +18,5 @@ export const DEFAULT_GLOBAL_STATS = {
   lastPlayedDate: null,
   dayStreak: 0,
   consecutivePerfectRounds: 0,
+  total1v1Wins: 0,
 };

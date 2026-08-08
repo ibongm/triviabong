@@ -4,7 +4,8 @@ import {
     Flame, TrendingUp, CalendarCheck, CalendarDays, Calendar,
     Star, Coins, Medal, Crown, ShieldCheck,
     LifeBuoy, Shield, AlertTriangle, Puzzle, Skull,
-    Globe, History, Atom, Sparkles, GraduationCap, Wand2
+    Globe, History, Atom, Sparkles, GraduationCap, Wand2,
+    Swords
 } from 'lucide-react';
 
 // Hidden achievements are absent from AchievementsModal entirely - row AND
@@ -76,6 +77,12 @@ export const ACHIEVEMENTS = [
     { id: 'pop_culture_icon', tier: 6, statOnly: true, nameHr: 'Ikona pop kulture', descriptionHr: '50 točnih odgovora u kategoriji Pop kultura.', icon: Sparkles },
     { id: 'jack_of_all_trades', tier: 6, statOnly: true, nameHr: 'Majstor svih zanata', descriptionHr: 'Ostvarite 80%+ točnosti u svakoj kategoriji.', icon: GraduationCap },
 
+    // Tier 7: 1v1 (Plan B) - statOnly since it only depends on the
+    // total1v1Wins counter (incremented directly in App.jsx's match-over
+    // handler, not via the per-answer handleAnswer pipeline the rest of
+    // this catalog goes through).
+    { id: 'first_1v1_win', tier: 7, statOnly: true, nameHr: 'Prva pobjeda 1v1', descriptionHr: 'Pobijedite u 1v1 dvoboju protiv drugog igrača.', icon: Swords },
+
     // Hidden. `tier: 0` matches none of the TIERS AchievementsModal renders,
     // which is a second, independent guard on top of the `hidden` flag - it
     // can't leak into a tier section even if that filter is ever changed.
@@ -91,4 +98,5 @@ export const ACHIEVEMENT_TIER_LABELS = {
     4: 'Rezultat i savršenstvo',
     5: 'Taktika i jokeri',
     6: 'Majstorstvo kategorija',
+    7: '1v1 Dvoboji',
 };

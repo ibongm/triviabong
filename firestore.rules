@@ -461,7 +461,8 @@ service cloud.firestore {
              'category', 'questionIds', 'status', 'currentQuestionIndex',
              'questionStartedAt', 'player1Answer', 'player2Answer',
              'player1Score', 'player2Score', 'player1Correct', 'player2Correct',
-             'lastActivityAt', 'winnerUid', 'createdAt', 'inviteId'
+             'lastActivityAt', 'player1HeartbeatAt', 'player2HeartbeatAt',
+             'winnerUid', 'createdAt', 'inviteId'
            ])
         && request.resource.data.player2Uid is string
         && request.resource.data.player2Uid != request.resource.data.player1Uid
@@ -487,6 +488,8 @@ service cloud.firestore {
         && request.resource.data.player2Correct == 0
         && request.resource.data.winnerUid == null
         && request.resource.data.lastActivityAt == request.time
+        && request.resource.data.player1HeartbeatAt == request.time
+        && request.resource.data.player2HeartbeatAt == request.time
         && request.resource.data.createdAt == request.time
         // Must correspond to an invite the invitee actually accepted,
         // targeting this exact pairing and category - prevents a client
@@ -501,9 +504,28 @@ service cloud.firestore {
         && !matchIsTerminal()
         && matchIdentityUnchanged()
         && (
-          // Heartbeat - either participant, any time.
+          // General "match still alive" heartbeat - either participant,
+          // any time. Kept alongside the PER-PLAYER heartbeat fields below
+          // (not a replacement) - this one alone can't be used for forfeit
+          // detection since either player heartbeating it keeps it fresh
+          // regardless of whether the OTHER player is still there; it's
+          // just a lightweight generic liveness signal.
           (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['lastActivityAt'])
             && request.resource.data.lastActivityAt == request.time)
+
+          // Per-player heartbeat - each participant may only ever refresh
+          // their OWN field, never the opponent's. This is what forfeit
+          // detection actually reads: if MY opponent's heartbeat field has
+          // gone stale for 30s, I know specifically THEY'VE gone quiet,
+          // not just that "someone" has (which the shared field above
+          // can't distinguish).
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1HeartbeatAt'])
+              && isOwner(resource.data.player1Uid)
+              && request.resource.data.player1HeartbeatAt == request.time)
+
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2HeartbeatAt'])
+              && isOwner(resource.data.player2Uid)
+              && request.resource.data.player2HeartbeatAt == request.time)
 
           // Start the match: waiting_ready -> question_active.
           || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'lastActivityAt'])

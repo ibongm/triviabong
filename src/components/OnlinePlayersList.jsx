@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
-import { Users, Circle, Gamepad2, Clock } from 'lucide-react';
+import { Users, Circle, Gamepad2, Clock, Swords } from 'lucide-react';
 import { subscribeToOnlinePlayers } from '../services/firebase';
+import { getAllCategories } from '../data/questionsLoader';
+import { CATEGORY_META } from '../data/categoryMeta';
 
 // 3x the 30s heartbeat in usePresence.js - tolerates one missed heartbeat
 // (e.g. a brief network hiccup) before a player drops off the list.
@@ -18,9 +20,18 @@ const STATUS_META = {
 // where('lastHeartbeat', '>', ...) query would need a value that keeps
 // moving every render and would need a composite index for no real benefit
 // at beta scale.
-export default function OnlinePlayersList({ currentUid }) {
+//
+// Plan B adds the "Pozovi" (invite) button here, inline rather than a
+// separate modal - only shown for players currently in 'lobby' status
+// (inviting someone mid-round would just sit unseen until they finish).
+export default function OnlinePlayersList({ currentUid, onInvite }) {
     const [players, setPlayers] = useState(null);
     const [now, setNow] = useState(() => Date.now());
+    const [invitingUid, setInvitingUid] = useState(null);
+    const [pickerCategory, setPickerCategory] = useState('');
+    const [sendingTo, setSendingTo] = useState(null);
+
+    const categories = getAllCategories();
 
     useEffect(() => {
         const unsubscribe = subscribeToOnlinePlayers(setPlayers);
@@ -47,6 +58,24 @@ export default function OnlinePlayersList({ currentUid }) {
         })
         .sort((a, b) => (b.level || 0) - (a.level || 0));
 
+    const openPicker = (uid) => {
+        setInvitingUid(uid);
+        setPickerCategory(categories[0] || '');
+    };
+
+    const closePicker = () => {
+        setInvitingUid(null);
+        setPickerCategory('');
+    };
+
+    const confirmInvite = async (toUid) => {
+        if (!pickerCategory || !onInvite) return;
+        setSendingTo(toUid);
+        await onInvite(toUid, pickerCategory);
+        setSendingTo(null);
+        closePicker();
+    };
+
     return (
         <div className="space-y-3 pt-4">
             <h2 className="text-sm font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
@@ -61,21 +90,55 @@ export default function OnlinePlayersList({ currentUid }) {
                 <div className="bg-slate-950/60 border border-slate-800 rounded-2xl divide-y divide-slate-800">
                     {onlinePlayers.map(player => {
                         const meta = STATUS_META[player.status] || STATUS_META.lobby;
+                        const isPicking = invitingUid === player.uid;
                         return (
-                            <div key={player.uid} className="flex items-center justify-between p-3.5">
-                                <div className="flex items-center gap-3">
-                                    <Circle className={`w-2.5 h-2.5 fill-current ${meta.dotClass}`} />
-                                    <div>
-                                        <span className="font-bold text-slate-200 text-sm block">{player.displayName}</span>
-                                        <span className="text-xs text-slate-500">Razina {player.level}</span>
+                            <div key={player.uid} className="p-3.5 space-y-3">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex items-center gap-3">
+                                        <Circle className={`w-2.5 h-2.5 fill-current ${meta.dotClass}`} />
+                                        <div>
+                                            <span className="font-bold text-slate-200 text-sm block">{player.displayName}</span>
+                                            <span className="text-xs text-slate-500">Razina {player.level}</span>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-3">
+                                        <span className="text-xs font-bold text-slate-400 flex items-center gap-1">
+                                            {player.status === 'playing'
+                                                ? <Gamepad2 className="w-3.5 h-3.5" />
+                                                : <Clock className="w-3.5 h-3.5" />}
+                                            {meta.label}
+                                        </span>
+                                        {onInvite && player.status === 'lobby' && (
+                                            <button
+                                                onClick={() => isPicking ? closePicker() : openPicker(player.uid)}
+                                                className="text-xs font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-2.5 py-1.5 transition-colors active:scale-95"
+                                            >
+                                                <Swords className="w-3.5 h-3.5" /> Pozovi
+                                            </button>
+                                        )}
                                     </div>
                                 </div>
-                                <span className="text-xs font-bold text-slate-400 flex items-center gap-1">
-                                    {player.status === 'playing'
-                                        ? <Gamepad2 className="w-3.5 h-3.5" />
-                                        : <Clock className="w-3.5 h-3.5" />}
-                                    {meta.label}
-                                </span>
+
+                                {isPicking && (
+                                    <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 rounded-xl p-2.5">
+                                        <select
+                                            value={pickerCategory}
+                                            onChange={(e) => setPickerCategory(e.target.value)}
+                                            className="flex-1 bg-slate-950 border border-slate-800 rounded-lg text-xs text-slate-200 px-2 py-1.5 capitalize"
+                                        >
+                                            {categories.map(catKey => (
+                                                <option key={catKey} value={catKey}>{CATEGORY_META[catKey]?.label || catKey}</option>
+                                            ))}
+                                        </select>
+                                        <button
+                                            onClick={() => confirmInvite(player.uid)}
+                                            disabled={sendingTo === player.uid}
+                                            className="text-xs font-bold text-slate-950 bg-emerald-500 hover:bg-emerald-400 rounded-lg px-3 py-1.5 disabled:opacity-50 transition-colors"
+                                        >
+                                            {sendingTo === player.uid ? '...' : 'Pošalji'}
+                                        </button>
+                                    </div>
+                                )}
                             </div>
                         );
                     })}

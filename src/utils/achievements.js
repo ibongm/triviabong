@@ -86,6 +86,8 @@ export const ACHIEVEMENT_CHECKS = {
     pop_culture_icon: (stats) => categoryCorrect(stats, 'pop_kultura') >= CATEGORY_MASTERY_CORRECT_THRESHOLD,
     jack_of_all_trades: (stats) => isJackOfAllTrades(stats),
 
+    first_1v1_win: (stats) => (stats.total1v1Wins || 0) >= 1,
+
     // Only ever true from handleAnswer's correct branch, which is the only
     // caller that puts isPotterQuestion in ctx. App.jsx decides separately
     // (before the state updater) whether to fire the celebration - the two

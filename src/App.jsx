@@ -48,6 +48,16 @@ import { useGameRound } from './hooks/useGameRound';
 import { useSessionTracking } from './hooks/useSessionTracking';
 import { usePresence } from './hooks/usePresence';
 import OnlinePlayersList from './components/OnlinePlayersList';
+import MatchInviteModal from './components/MatchInviteModal';
+import MatchView from './components/MatchView';
+import {
+  sendMatchInvite,
+  subscribeToIncomingInvites,
+  subscribeToSentInvite,
+  subscribeToMatchByInviteId,
+  createMatch,
+  writeMatchHistoryEntry,
+} from './services/matches';
 import { shuffleArray } from './utils/questionUtils';
 import {
   auth,
@@ -237,6 +247,93 @@ export default function App() {
   // Publicly-visible online-players presence (see hooks/usePresence.js) -
   // also a no-op while signed out.
   usePresence(currentUser?.uid, currentUser?.displayName, globalStats.level, gameState);
+
+  // --- Plan B: 1v1 live invite state ---
+  // Pending invites addressed to ME (shows MatchInviteModal for the oldest).
+  const [incomingInvites, setIncomingInvites] = useState([]);
+  // The invite I just SENT, while waiting for the other player to respond -
+  // only the sender needs this (to detect 'accepted' and create the match).
+  const [sentInvite, setSentInvite] = useState(null);
+  // The match currently being played, if any - non-null switches the main
+  // render area over to <MatchView>, a fully separate tree from the normal
+  // gameState machine (see Plan B - a new top-level mode, not woven into
+  // the existing single-player state machine).
+  const [activeMatchId, setActiveMatchId] = useState(null);
+  // Guards against creating the match doc twice if subscribeToSentInvite
+  // fires more than once for the same accepted invite (e.g. a reconnect).
+  const matchCreatedForInviteRef = useRef(null);
+
+  useEffect(() => {
+    if (!currentUser?.uid) return;
+    const unsubscribe = subscribeToIncomingInvites(currentUser.uid, setIncomingInvites);
+    // On sign-out (or switching accounts), drop whatever the previous
+    // subscription had loaded rather than leaving a stale invite visible -
+    // done in the cleanup, not the effect body, since a cleanup function is
+    // exactly where an external subscription is meant to be torn down.
+    return () => {
+      unsubscribe();
+      setIncomingInvites([]);
+    };
+  }, [currentUser?.uid]);
+
+  // Sender side: watch the invite I sent. Once it's accepted, create the
+  // match (only the host/player1 may, per firestore.rules) and switch into
+  // it. If declined/expired, just clear it so the "waiting" UI clears too.
+  useEffect(() => {
+    if (!sentInvite?.id) return;
+    const unsubscribe = subscribeToSentInvite(sentInvite.id, async (invite) => {
+      if (!invite) return;
+      if (invite.status === 'accepted' && matchCreatedForInviteRef.current !== invite.id) {
+        matchCreatedForInviteRef.current = invite.id;
+        const matchId = await createMatch(invite);
+        if (matchId) {
+          setActiveMatchId(matchId);
+          setSentInvite(null);
+        }
+      } else if (invite.status === 'declined' || invite.status === 'expired') {
+        setSentInvite(null);
+      }
+    });
+    return unsubscribe;
+  }, [sentInvite?.id]);
+
+  // Invitee side: after I accept, wait for the host's client to create the
+  // match doc referencing the invite I just accepted (see MatchInviteModal).
+  const [acceptedInviteId, setAcceptedInviteId] = useState(null);
+  useEffect(() => {
+    if (!acceptedInviteId || !currentUser?.uid) return;
+    const unsubscribe = subscribeToMatchByInviteId(acceptedInviteId, currentUser.uid, (match) => {
+      if (match) {
+        setActiveMatchId(match.id);
+        setAcceptedInviteId(null);
+      }
+    });
+    return unsubscribe;
+  }, [acceptedInviteId, currentUser?.uid]);
+
+  const handleSendInvite = async (toUid, category) => {
+    if (!currentUser?.uid) return;
+    const inviteId = await sendMatchInvite(currentUser.uid, getPlayerDisplayName(currentUser), toUid, category);
+    if (inviteId) {
+      setSentInvite({ id: inviteId, fromUid: currentUser.uid, toUid, category });
+      matchCreatedForInviteRef.current = null;
+    }
+  };
+
+  const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category }) => {
+    if (!currentUser?.uid) return;
+    writeMatchHistoryEntry(currentUser.uid, activeMatchId, {
+      opponentUid, opponentDisplayName, result, myScore, opponentScore, category,
+    });
+    if (result === 'win') {
+      setGlobalStats(prev => {
+        const next = { ...prev, total1v1Wins: (prev.total1v1Wins || 0) + 1 };
+        const newlyUnlocked = evaluateAchievements(next, {});
+        next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
+        return next;
+      });
+    }
+  };
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
@@ -1102,6 +1199,19 @@ export default function App() {
       {/* Main Content */}
       <main className="w-full max-w-2xl mx-auto px-4 py-8 flex-1 flex flex-col justify-center">
 
+        {activeMatchId && currentUser ? (
+          <MatchView
+            matchId={activeMatchId}
+            currentUid={currentUser.uid}
+            onExit={() => setActiveMatchId(null)}
+            onMatchOver={handleMatchOver}
+            onRematch={(opponentUid, category) => {
+              setActiveMatchId(null);
+              handleSendInvite(opponentUid, category);
+            }}
+          />
+        ) : (
+        <>
         {gameState === 'LOBBY' && (
           <div className="space-y-6">
             <div className="text-center space-y-2">
@@ -1195,7 +1305,7 @@ export default function App() {
               <RekordiBoards data={rekordiDataWithDaily} limitPerBoard={3} compact />
             </div>
 
-            {currentUser && <OnlinePlayersList currentUid={currentUser.uid} />}
+            {currentUser && <OnlinePlayersList currentUid={currentUser.uid} onInvite={handleSendInvite} />}
           </div>
         )}
 
@@ -1461,8 +1571,21 @@ export default function App() {
             </button>
           </div>
         )}
+        </>
+        )}
 
       </main>
+
+      {/* Incoming 1v1 invite - suppressed while already in a match. Only
+          the oldest pending invite is shown; if more than one arrives,
+          declining/accepting the first reveals the next on re-render. */}
+      {!activeMatchId && incomingInvites.length > 0 && (
+        <MatchInviteModal
+          invite={incomingInvites[0]}
+          onAccepted={(invite) => setAcceptedInviteId(invite.id)}
+          onDismiss={() => {}}
+        />
+      )}
 
       {/* Stats Modal */}
       <StatsModal
