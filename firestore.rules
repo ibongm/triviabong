@@ -543,58 +543,62 @@ service cloud.firestore {
               && request.resource.data.questionStartedAt == request.time
               && request.resource.data.lastActivityAt == request.time)
 
-          // player1 answers - own field only, once (null -> set, never
-          // overwritten), and can never see/write player2Answer.
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1Answer', 'lastActivityAt'])
+          // player1 answers AND self-reports score/correct-count in ONE
+          // write (both fields optional-but-validated-if-present, via the
+          // same "!(x in diff) || <check>" pattern as the optional fields
+          // in leaderboards/scores above) - this MUST be a single atomic
+          // write, not two separate ones (submit answer, then separately
+          // update score), because two sequential writes leave a window
+          // where reveal/finish can fire (gated only on both players'
+          // Answer fields being set) BEFORE the second write lands,
+          // finalizing the match with a stale score for whichever player's
+          // score update hadn't arrived yet - caught live via
+          // two-player-match-check.mjs's simultaneous-play run, which
+          // produced two contexts disagreeing on the final score. Answer
+          // itself still only ever moves null -> set, never overwritten,
+          // and player1 can never see/write player2Answer/player2Score.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1Answer', 'player1Score', 'player1Correct', 'lastActivityAt'])
               && isOwner(resource.data.player1Uid)
               && resource.data.status == 'question_active'
-              && resource.data.player1Answer == null
-              && request.resource.data.player1Answer.keys().hasOnly(['optionIndex', 'answeredAt'])
-              && request.resource.data.player1Answer.optionIndex is int
-              && request.resource.data.player1Answer.optionIndex >= 0
-              && request.resource.data.player1Answer.optionIndex <= 3
-              && request.resource.data.player1Answer.answeredAt == request.time
-              && request.resource.data.lastActivityAt == request.time)
+              && request.resource.data.lastActivityAt == request.time
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player1Answer'])
+                  || (resource.data.player1Answer == null
+                      && request.resource.data.player1Answer.keys().hasOnly(['optionIndex', 'answeredAt'])
+                      && request.resource.data.player1Answer.optionIndex is int
+                      && request.resource.data.player1Answer.optionIndex >= 0
+                      && request.resource.data.player1Answer.optionIndex <= 3
+                      && request.resource.data.player1Answer.answeredAt == request.time))
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player1Score'])
+                  || (request.resource.data.player1Score is int
+                      && request.resource.data.player1Score >= resource.data.player1Score
+                      && request.resource.data.player1Score <= 8000))
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player1Correct'])
+                  || (request.resource.data.player1Correct is int
+                      && request.resource.data.player1Correct >= resource.data.player1Correct
+                      && request.resource.data.player1Correct <= resource.data.player1Correct + 1
+                      && request.resource.data.player1Correct <= 11)))
 
-          // player2 answers - symmetric to player1Answer above.
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2Answer', 'lastActivityAt'])
+          // player2 answers/self-reports - symmetric to player1 above.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2Answer', 'player2Score', 'player2Correct', 'lastActivityAt'])
               && isOwner(resource.data.player2Uid)
               && resource.data.status == 'question_active'
-              && resource.data.player2Answer == null
-              && request.resource.data.player2Answer.keys().hasOnly(['optionIndex', 'answeredAt'])
-              && request.resource.data.player2Answer.optionIndex is int
-              && request.resource.data.player2Answer.optionIndex >= 0
-              && request.resource.data.player2Answer.optionIndex <= 3
-              && request.resource.data.player2Answer.answeredAt == request.time
-              && request.resource.data.lastActivityAt == request.time)
-
-          // player1 self-reports their own running score after answering -
-          // same trust model as leaderboards/{cat}/scores (client-computed,
-          // not authenticated - this only bounds the damage). Monotonic
-          // non-decreasing, at most +1 correct per write, bounded ceiling
-          // (11 questions, no jokers, same formula as solo: max ~6600).
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1Score', 'player1Correct', 'lastActivityAt'])
-              && isOwner(resource.data.player1Uid)
-              && request.resource.data.player1Score is int
-              && request.resource.data.player1Score >= resource.data.player1Score
-              && request.resource.data.player1Score <= 8000
-              && request.resource.data.player1Correct is int
-              && request.resource.data.player1Correct >= resource.data.player1Correct
-              && request.resource.data.player1Correct <= resource.data.player1Correct + 1
-              && request.resource.data.player1Correct <= 11
-              && request.resource.data.lastActivityAt == request.time)
-
-          // player2 self-reports - symmetric to player1Score above.
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2Score', 'player2Correct', 'lastActivityAt'])
-              && isOwner(resource.data.player2Uid)
-              && request.resource.data.player2Score is int
-              && request.resource.data.player2Score >= resource.data.player2Score
-              && request.resource.data.player2Score <= 8000
-              && request.resource.data.player2Correct is int
-              && request.resource.data.player2Correct >= resource.data.player2Correct
-              && request.resource.data.player2Correct <= resource.data.player2Correct + 1
-              && request.resource.data.player2Correct <= 11
-              && request.resource.data.lastActivityAt == request.time)
+              && request.resource.data.lastActivityAt == request.time
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player2Answer'])
+                  || (resource.data.player2Answer == null
+                      && request.resource.data.player2Answer.keys().hasOnly(['optionIndex', 'answeredAt'])
+                      && request.resource.data.player2Answer.optionIndex is int
+                      && request.resource.data.player2Answer.optionIndex >= 0
+                      && request.resource.data.player2Answer.optionIndex <= 3
+                      && request.resource.data.player2Answer.answeredAt == request.time))
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player2Score'])
+                  || (request.resource.data.player2Score is int
+                      && request.resource.data.player2Score >= resource.data.player2Score
+                      && request.resource.data.player2Score <= 8000))
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player2Correct'])
+                  || (request.resource.data.player2Correct is int
+                      && request.resource.data.player2Correct >= resource.data.player2Correct
+                      && request.resource.data.player2Correct <= resource.data.player2Correct + 1
+                      && request.resource.data.player2Correct <= 11)))
 
           // Reveal the current question - either participant, no other
           // field changes (scores are written separately, see above).

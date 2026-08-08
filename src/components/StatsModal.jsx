@@ -2,8 +2,10 @@ import React from 'react';
 import { X, Trophy, Target, Award, Flame, Zap, BarChart2, Star } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { xpForLevel } from '../utils/leveling';
+import { ACHIEVEMENTS } from '../constants/achievements';
+import MatchHistoryList from './MatchHistoryList';
 
-export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements }) {
+export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements, uid }) {
     if (!isOpen) return null;
 
     const categoryStats = stats?.categoryStats || {};
@@ -72,7 +74,7 @@ export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements 
                         <span className="text-xs font-extrabold text-slate-200">Otključani Trofeji</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <span className="text-xs font-black text-amber-400">{unlockedTrophiesCount} / 30</span>
+                        <span className="text-xs font-black text-amber-400">{unlockedTrophiesCount} / {ACHIEVEMENTS.length}</span>
                         {onOpenAchievements && (
                             <button
                                 onClick={() => { onClose(); onOpenAchievements(); }}
@@ -157,6 +159,8 @@ export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements 
                         })}
                     </div>
                 </div>
+
+                <MatchHistoryList uid={uid} />
 
                 {/* Footer */}
                 <button

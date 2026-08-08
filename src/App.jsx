@@ -246,7 +246,13 @@ export default function App() {
 
   // Publicly-visible online-players presence (see hooks/usePresence.js) -
   // also a no-op while signed out.
-  usePresence(currentUser?.uid, currentUser?.displayName, globalStats.level, gameState);
+  // getPlayerDisplayName (not raw currentUser.displayName) - an
+  // email/password account with no Google profile has a null Auth
+  // displayName, which would otherwise fall through to upsertPresence's
+  // generic 'Igrač' fallback for every such player, making the online list
+  // useless for telling them apart. Matches the fallback already used for
+  // publicProfiles sync and match invites (email local-part, then 'Igrač').
+  usePresence(currentUser?.uid, getPlayerDisplayName(currentUser), globalStats.level, gameState);
 
   // --- Plan B: 1v1 live invite state ---
   // Pending invites addressed to ME (shows MatchInviteModal for the oldest).
@@ -1593,6 +1599,7 @@ export default function App() {
         onClose={() => setShowStatsModal(false)}
         stats={globalStats}
         onOpenAchievements={() => setShowAchievementsModal(true)}
+        uid={currentUser?.uid}
       />
 
       {/* Achievements Modal */}

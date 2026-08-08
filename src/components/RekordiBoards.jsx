@@ -63,7 +63,14 @@ export default function RekordiBoards({ data, limitPerBoard = 10, compact = fals
                         ) : (
                             <ol className="text-xs text-slate-300 space-y-1">
                                 {entries.map((entry, idx) => (
-                                    <li key={entry.id || entry.uid || idx} className="flex gap-2">
+                                    // idx is always part of the key, not just a last-resort
+                                    // fallback: getBestScoresAcrossCategories/
+                                    // getFastestPerfectRounds merge separate per-category
+                                    // queries, so the SAME uid can legitimately appear more
+                                    // than once in one board's top N (e.g. a player's best
+                                    // score in two different categories) - entry.id/entry.uid
+                                    // alone isn't guaranteed unique within this list.
+                                    <li key={`${entry.id || entry.uid || 'x'}-${idx}`} className="flex gap-2">
                                         <span className="text-amber-400 font-bold w-4 shrink-0">{idx + 1}.</span>
                                         <span className="truncate">{formatEntry(board, entry)}</span>
                                     </li>

@@ -1,6 +1,6 @@
 ---
 name: run-triviabong
-description: Start the TriviaBong Vite dev server and run it end-to-end in headless Chromium (pick a category, play through questions, use jokers, reach game-over/victory, save a score) and/or verify stats sync correctly across devices. Use when asked to run, start, screenshot, or verify TriviaBong's UI works after a change.
+description: Start the TriviaBong Vite dev server and run it end-to-end in headless Chromium (pick a category, play through questions, use jokers, reach game-over/victory, save a score), verify stats sync correctly across devices, and/or verify the 1v1 live-invite match flow with two concurrently active browser contexts. Use when asked to run, start, screenshot, or verify TriviaBong's UI works after a change.
 ---
 
 TriviaBong is a React SPA (Vite dev server, no backend). There's no
@@ -68,6 +68,60 @@ enabled on the `triviabong-web` Firebase project (Console →
 Authentication → Sign-in method) — if it's off you'll see
 `auth/operation-not-allowed` in the script's error output rather than
 a real assertion failure.
+
+## Run the two-player 1v1 match check
+
+```bash
+cd .claude/skills/run-triviabong
+node two-player-match-check.mjs
+```
+
+The one script in this skill that genuinely needs **two distinct
+signed-in uids at once**: signs in as **BongBotTest** (host/player1)
+and **BongBotTest2** (invitee/player2) in two separate, concurrently
+active browser contexts, then drives the full Plan B flow — A invites
+B from the online-players list, B accepts, both click "Spreman!",
+then **both contexts play every question simultaneously** (via
+`Promise.all`, not sequentially — this is what distinguishes it from
+`cross-device-sync-check.mjs`, which only ever has one context active
+at a time) until the match ends. Asserts both contexts land on a
+final screen, agree on the final score (from each one's own point of
+view — A's score must equal what B displays as the opponent's score,
+and vice versa), and land on complementary outcomes (one "Pobjeda!"
++ one "Poraz", or both "Neriješeno!"). Also fails on any console
+error, same as the other two scripts — this is exactly the kind of
+check that would catch a `matches/{matchId}` rules regression, since
+two real uids writing into the same shared doc is the highest-risk
+surface in the whole app.
+
+**Second fixed account.** Same reasoning as `BongBotTest` (see the
+cross-device section above) — `BongBotTest2` (12 characters) is a
+second **permanent**, reused account, not a per-run throwaway.
+Credentials are in the script itself (`bongbottest2@example.com` /
+`BongBotTest2123!`); registered automatically on first run against a
+project, same login-or-register fallback as `BongBotTest`.
+
+**Leaves real, permanent Firestore clutter.** Unlike the other two
+scripts, a run here creates a `matches/{matchId}` document that **can
+never be deleted** by design (`allow delete: if false` in
+`firestore.rules` — see that file's comment on
+`matches/{matchId}`; cleanup is explicitly deferred, same as
+`presence/{uid}`'s stale-doc handling). It also writes one
+`matchInvites` doc (self-deletable, but the script doesn't bother)
+and one `matchHistory` entry per player. Fine for occasional manual
+verification; don't loop this script.
+
+**Timing note:** the moment either context's own write makes
+`match.status` become `'match_over'`/`'forfeited'`, that client
+re-renders immediately from its local Firestore cache — but the
+*opponent's* very last write might still be in flight over the
+network at that exact instant. The script waits ~1.5s after first
+seeing the final screen before reading it, specifically to distinguish
+that harmless rendering lag from an actual stored-data disagreement.
+If you see the symmetric-score assertion fail even after that wait,
+that's a real bug, not a timing artifact — this is exactly how the
+atomic answer+score write fix (see `matches.js`'s `submitMatchAnswer`
+comment) was originally found and confirmed fixed.
 
 ## Stop the dev server
 

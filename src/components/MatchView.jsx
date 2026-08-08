@@ -9,7 +9,6 @@ import {
     setMatchQuestionStarted,
     startMatch,
     submitMatchAnswer,
-    updateMatchScore,
     revealMatchQuestion,
     advanceMatchQuestion,
     finishMatch,
@@ -168,7 +167,6 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         if (myAnswer || timeLeft <= 0 || match.status !== 'question_active') return;
         const isCorrect = isMatchAnswerCorrect(matchId, currentQuestion, optionIndex);
         sound.playClick();
-        await submitMatchAnswer(matchId, isPlayer1, optionIndex);
 
         if (isCorrect) {
             sound.playCorrect();
@@ -178,10 +176,13 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
             streakRef.current += 1;
             const newScore = (myScore || 0) + earned;
             const newCorrect = (isPlayer1 ? match.player1Correct : match.player2Correct) + 1;
-            await updateMatchScore(matchId, isPlayer1, newScore, newCorrect);
+            // Answer + score written atomically - see submitMatchAnswer's
+            // comment for why this can't be two sequential writes.
+            await submitMatchAnswer(matchId, isPlayer1, optionIndex, { score: newScore, correctCount: newCorrect });
         } else {
             sound.playWrong();
             streakRef.current = 0;
+            await submitMatchAnswer(matchId, isPlayer1, optionIndex);
         }
     };
 

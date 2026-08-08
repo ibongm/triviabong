@@ -7,10 +7,13 @@ import {
     doc,
     setDoc,
     getDoc,
+    getDocs,
     addDoc,
     collection,
     query,
     where,
+    orderBy,
+    limit,
     onSnapshot,
     updateDoc,
     serverTimestamp,
@@ -215,34 +218,41 @@ export const setMatchQuestionStarted = async (matchId) => {
     }
 };
 
-export const submitMatchAnswer = async (matchId, isPlayer1, optionIndex) => {
+// Submits the answer AND (when correct) the updated running score/correct-
+// count in ONE atomic write - score/correctCount are optional, passed only
+// when the answer was correct. This MUST be a single write, not two
+// sequential ones: reveal only waits on both players' Answer fields being
+// set, so a separate later score write can race behind a reveal/finish
+// transition and get rejected once the match goes terminal, silently
+// leaving a stale score for that question - caught live via
+// two-player-match-check.mjs's simultaneous-play run (two browser contexts
+// disagreed on the final score until this was fixed). Self-reported score
+// is the same trust model as the existing solo leaderboard (client-
+// computed, rules only bound the damage - see firestore.rules' comment).
+export const submitMatchAnswer = async (matchId, isPlayer1, optionIndex, scoreUpdate = null) => {
     try {
-        await updateDoc(doc(db, 'matches', matchId), {
+        const payload = {
             [isPlayer1 ? 'player1Answer' : 'player2Answer']: {
                 optionIndex,
                 answeredAt: serverTimestamp(),
             },
             lastActivityAt: serverTimestamp(),
-        });
+        };
+        if (scoreUpdate) {
+            payload[isPlayer1 ? 'player1Score' : 'player2Score'] = scoreUpdate.score;
+            payload[isPlayer1 ? 'player1Correct' : 'player2Correct'] = scoreUpdate.correctCount;
+        }
+        await updateDoc(doc(db, 'matches', matchId), payload);
         return true;
-    } catch (error) {
-        console.error('Error submitting match answer:', error);
+    } catch {
+        // Expected/benign in the same way as revealMatchQuestion/
+        // advanceMatchQuestion/finishMatch below: if the opponent's answer
+        // already ended the question (or the whole match) by the time this
+        // write reaches Firestore, rules correctly reject it rather than
+        // let a stale answer land - not a real failure, just this client
+        // losing an inherent, unavoidable race against a concurrently
+        // active opponent. Confirmed benign via two-player-match-check.mjs.
         return false;
-    }
-};
-
-// Self-reported running score/correct-count, same trust model as the
-// existing solo leaderboard (client-computed, rules only bound the
-// damage - see firestore.rules' matches/{matchId} comment).
-export const updateMatchScore = async (matchId, isPlayer1, score, correctCount) => {
-    try {
-        await updateDoc(doc(db, 'matches', matchId), {
-            [isPlayer1 ? 'player1Score' : 'player2Score']: score,
-            [isPlayer1 ? 'player1Correct' : 'player2Correct']: correctCount,
-            lastActivityAt: serverTimestamp(),
-        });
-    } catch (error) {
-        console.error('Error updating match score:', error);
     }
 };
 
@@ -329,5 +339,22 @@ export const writeMatchHistoryEntry = async (uid, matchId, entry) => {
         });
     } catch (error) {
         console.error('Error writing match history entry:', error);
+    }
+};
+
+/**
+ * Fetches the caller's own past 1v1 results, most recent first (owner-only
+ * read - see firestore.rules). Used by MatchHistoryList inside StatsModal.
+ */
+export const getMatchHistory = async (uid, limitN = 20) => {
+    if (!uid) return [];
+    try {
+        const entriesRef = collection(db, 'matchHistory', uid, 'entries');
+        const q = query(entriesRef, orderBy('createdAt', 'desc'), limit(limitN));
+        const snapshot = await getDocs(q);
+        return snapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+    } catch (error) {
+        console.error('Error fetching match history:', error);
+        return [];
     }
 };
