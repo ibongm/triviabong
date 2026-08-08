@@ -24,9 +24,7 @@ import {
   COIN_PER_ROUND_COMPLETE,
   COIN_PERFECT_ROUND_BONUS,
   COIN_LEVEL_UP_BONUS,
-  JOKER_COSTS,
-  DAILY_CHALLENGE_COSTS,
-  DAILY_CHALLENGE_MAX_ATTEMPTS
+  JOKER_COSTS
 } from './constants/gameBalance';
 import { computeLevelFromXp } from './utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate, mentionsHarryPotter, getZagrebDateString } from './utils/achievements';
@@ -180,13 +178,11 @@ export default function App() {
   // Daily Challenge: dailyChallengeMode gates the shared PLAYING/GAMEOVER/
   // VICTORY render blocks and save-score effect toward the daily submission
   // path instead of the normal per-category one (selectedCategory stays
-  // null throughout a daily round). dailyAttemptNumber/dailyDateKey are
-  // captured at round start (startDailyAttempt already consumed the
-  // attempt/coin by then) and carried through to submitDailyScore at
-  // round end. dailyAttemptStatus powers the lobby's pre-round "attempts
-  // left / next cost" display; dailySubmitResult is the post-round rank.
+  // null throughout a daily round). One free attempt per Zagreb calendar
+  // day - dailyDateKey is captured at round start and carried through to
+  // submitDailyScore at round end. dailyAttemptStatus powers the lobby's
+  // "already played today" state; dailySubmitResult is the post-round rank.
   const [dailyChallengeMode, setDailyChallengeMode] = useState(false);
-  const [dailyAttemptNumber, setDailyAttemptNumber] = useState(null);
   const [dailyDateKey, setDailyDateKey] = useState(null);
   const [dailyAttemptStatus, setDailyAttemptStatus] = useState(null);
   const [dailySubmitResult, setDailySubmitResult] = useState(null);
@@ -532,14 +528,15 @@ export default function App() {
     resetRoundState(shuffled);
   };
 
-  // Daily Challenge entry point: consumes the attempt/coin cost FIRST (via
-  // startDailyAttempt, which re-validates cap/affordability server-side
-  // regardless of what dailyAttemptStatus's stale client read shows), and
-  // only starts the round if that succeeds - consuming on start, not on
-  // submit, per the locked design decision (an abandoned round still costs
-  // the attempt). selectedCategory is deliberately left null/unchanged;
-  // daily rounds aren't tied to a category, and applyRoundEndRewards/
-  // logGameResult already fall back to 'opca_znanje' when it's unset.
+  // Daily Challenge entry point: consumes the single daily attempt FIRST
+  // (via startDailyAttempt, which re-validates "already played today"
+  // server-side regardless of what dailyAttemptStatus's stale client read
+  // shows), and only starts the round if that succeeds - consuming on
+  // start, not on submit, per the locked design decision (an abandoned
+  // round still uses up the day's one shot). selectedCategory is
+  // deliberately left null/unchanged; daily rounds aren't tied to a
+  // category, and applyRoundEndRewards/logGameResult already fall back to
+  // 'opca_znanje' when it's unset.
   const launchDailyChallengeRound = async () => {
     if (!currentUser) {
       setShowAuthModal(true);
@@ -549,12 +546,11 @@ export default function App() {
     const dateKey = getZagrebDateString();
     const result = await startDailyAttempt(currentUser.uid, dateKey);
     if (!result.success) {
-      const message = result.reason === 'cap_reached'
-        ? 'Iskoristio/la si sva 4 pokušaja za danas. Vrati se sutra!'
-        : result.reason === 'insufficient_coins'
-          ? 'Nemaš dovoljno zlatnika za idući pokušaj.'
-          : 'Došlo je do greške, pokušaj ponovno.';
-      showDailyLobbyMessage(message);
+      showDailyLobbyMessage(
+        result.reason === 'already_played'
+          ? 'Već si odigrao/la dnevni izazov danas. Vrati se sutra!'
+          : 'Došlo je do greške, pokušaj ponovno.'
+      );
       setDailyAttemptStatus(await getDailyAttemptStatus(currentUser.uid, dateKey));
       return;
     }
@@ -562,7 +558,6 @@ export default function App() {
     clearRoundTransitionTimers();
     clearJokerMessageTimer();
     setDailyChallengeMode(true);
-    setDailyAttemptNumber(result.attemptNumber);
     setDailyDateKey(dateKey);
     resetRoundState(getDailyChallengeQuestions(dateKey));
   };
@@ -893,7 +888,7 @@ export default function App() {
     setIsSaving(true);
     try {
       const success = await submitDailyScore(
-        currentUser.uid, dailyDateKey, getPlayerDisplayName(currentUser), score, dailyAttemptNumber
+        currentUser.uid, dailyDateKey, getPlayerDisplayName(currentUser), score
       );
       if (!success) throw new Error('Daily score submit failed');
       setScoreSaved(true);
@@ -1137,12 +1132,10 @@ export default function App() {
                     {!currentUser
                       ? 'Prijavi se za igranje'
                       : !dailyAttemptStatus
-                        ? 'Isti kviz za sve, svaki dan'
+                        ? 'Isti kviz za sve, jedan besplatan pokušaj dnevno'
                         : !dailyAttemptStatus.canPlay
-                          ? 'Iskorišteno za danas - vrati se sutra'
-                          : dailyAttemptStatus.nextCost === 0
-                            ? `Pokušaj ${dailyAttemptStatus.attemptsUsed + 1}/${DAILY_CHALLENGE_MAX_ATTEMPTS} - besplatno`
-                            : `Pokušaj ${dailyAttemptStatus.attemptsUsed + 1}/${DAILY_CHALLENGE_MAX_ATTEMPTS} - ${dailyAttemptStatus.nextCost}c`}
+                          ? 'Odigrano danas - vrati se sutra'
+                          : 'Besplatno - jedan pokušaj dnevno'}
                   </span>
                 </div>
               </div>
@@ -1446,16 +1439,6 @@ export default function App() {
                   {isSaving ? 'Spremanje...' : 'Spremi Rezultat'}
                 </button>
               </form>
-            )}
-
-            {dailyChallengeMode && scoreSaved && dailyAttemptNumber < DAILY_CHALLENGE_MAX_ATTEMPTS && (
-              <button
-                onClick={launchDailyChallengeRound}
-                className="w-full bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold py-3 rounded-xl text-sm transition-colors active:scale-[0.97] active:brightness-95 flex justify-center items-center gap-2"
-              >
-                <CalendarDays className="w-4 h-4" />
-                Igraj ponovno ({DAILY_CHALLENGE_COSTS[dailyAttemptNumber]}c)
-              </button>
             )}
 
             <button

@@ -272,23 +272,15 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
-    // Daily Challenge: per-{date,uid} attempt/spend tracking. Mirrors
-    // DAILY_CHALLENGE_COSTS = [0, 2, 3, 5] in src/constants/gameBalance.js -
-    // keep in sync manually if that table ever changes. Doc id is
-    // "{date}_{uid}" (date = Europe/Zagreb YYYY-MM-DD).
-    function dailyAttemptCost(attemptsUsedBefore) {
-      return attemptsUsedBefore == 0 ? 0
-        : attemptsUsedBefore == 1 ? 2
-        : attemptsUsedBefore == 2 ? 3
-        : attemptsUsedBefore == 3 ? 5
-        : 999999999; // unreachable for a valid attempt - forces the cap check below to fail closed
-    }
-
+    // Daily Challenge: one free attempt/day per uid, tracked so a client
+    // can't submit more than once to dailyLeaderboards. Doc id is
+    // "{date}_{uid}" (date = Europe/Zagreb YYYY-MM-DD), create-once - there
+    // is no update path since a second attempt is never allowed.
     match /dailyAttempts/{attemptDocId} {
       // Deliberately NOT `isOwner(resource.data.uid)` - that expression
       // errors out (evaluates against a null `resource`) whenever the doc
       // doesn't exist yet, which Firestore treats as a denied read. Since
-      // this doc is created lazily on a player's FIRST attempt of the day,
+      // this doc is created lazily on a player's one attempt of the day,
       // that null-resource case is the common case, not an edge case - it
       // broke every player's very first read/attempt of a new day (both
       // getDailyAttemptStatus's getDoc() and startDailyAttempt's tx.get()
@@ -298,33 +290,15 @@ service cloud.firestore {
       // unambiguous against the "{date}_{uid}" id shape.
       allow read: if isSignedIn() && attemptDocId.matches('.*_' + request.auth.uid + '$');
 
-      // First attempt of the day for this uid - free, doc doesn't exist yet.
+      // The only attempt of the day for this uid - doc doesn't exist yet.
       allow create: if isOwner(request.resource.data.uid)
-        && request.resource.data.keys().hasOnly(['uid', 'date', 'attemptsUsed', 'coinsSpentToday', 'updatedAt'])
+        && request.resource.data.keys().hasOnly(['uid', 'date', 'attemptsUsed', 'updatedAt'])
         && request.resource.data.attemptsUsed == 1
-        && request.resource.data.coinsSpentToday == 0
         && request.resource.data.updatedAt == request.time;
 
-      // Attempts 2-4: strictly sequential (+1 each write), hard-capped at 4,
-      // and the recorded spend must match the fixed price table for the
-      // attempt being purchased. The get() below at least rejects starting a
-      // paid attempt with insufficient funds at write time. It does NOT
-      // verify the paired users/{uid} coin deduction happens for the exact
-      // same amount in the same transaction - Firestore rules evaluate each
-      // document's write independently and can't see a sibling document's
-      // in-flight write within one transaction, only committed state via
-      // get(). That gap is trust-based here, same as every other coin spend
-      // in this app today (JOKER_COSTS has zero server-side enforcement) -
-      // not a regression, just not a new guarantee either.
-      allow update: if isOwner(resource.data.uid)
-        && request.resource.data.uid == resource.data.uid
-        && request.resource.data.date == resource.data.date
-        && request.resource.data.keys().hasOnly(['uid', 'date', 'attemptsUsed', 'coinsSpentToday', 'updatedAt'])
-        && request.resource.data.attemptsUsed == resource.data.attemptsUsed + 1
-        && request.resource.data.attemptsUsed <= 4
-        && request.resource.data.coinsSpentToday == resource.data.coinsSpentToday + dailyAttemptCost(resource.data.attemptsUsed)
-        && request.resource.data.updatedAt == request.time
-        && get(/databases/$(database)/documents/users/$(resource.data.uid)).data.coins >= dailyAttemptCost(resource.data.attemptsUsed);
+      // No update path - once the one daily attempt is recorded, the doc is
+      // immutable (no second attempt, paid or otherwise, to escalate to).
+      allow update: if false;
 
       allow delete: if isAdmin();
     }
@@ -337,7 +311,7 @@ service cloud.firestore {
       allow read: if true;
 
       allow create, update: if isOwner(uid)
-        && request.resource.data.keys().hasOnly(['uid', 'name', 'score', 'attemptNumber', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['uid', 'name', 'score', 'createdAt'])
         && request.resource.data.uid == uid
         && request.resource.data.name is string
         && request.resource.data.name.size() > 0
@@ -345,16 +319,13 @@ service cloud.firestore {
         && request.resource.data.score is int
         && request.resource.data.score >= 0
         && request.resource.data.score <= 10000
-        && request.resource.data.attemptNumber is int
-        && request.resource.data.attemptNumber >= 1
-        && request.resource.data.attemptNumber <= 4
         && request.resource.data.createdAt == request.time
-        // The write must correspond to an attempt already recorded in
-        // dailyAttempts for this exact date/uid - otherwise nothing stops a
-        // client writing straight to the leaderboard, bypassing the
-        // attempt/cost tracking above entirely. One get(), keeping the
-        // cross-doc read count in this hot path minimal.
-        && get(/databases/$(database)/documents/dailyAttempts/$(date + '_' + uid)).data.attemptsUsed >= request.resource.data.attemptNumber
+        // The write must correspond to the one daily attempt already
+        // recorded in dailyAttempts for this exact date/uid - otherwise
+        // nothing stops a client writing straight to the leaderboard,
+        // bypassing the one-attempt tracking above entirely. One get(),
+        // keeping the cross-doc read count in this hot path minimal.
+        && get(/databases/$(database)/documents/dailyAttempts/$(date + '_' + uid)).data.attemptsUsed == 1
         // Only accept the write if it's the first score of the day or an
         // improvement over the stored best - mirrors
         // maybeUpdateFastestPerfectRecord's "only write if it beats the

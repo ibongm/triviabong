@@ -30,8 +30,6 @@ export const COIN_LEVEL_UP_BONUS = 3;
 export const JOKER_COSTS = { fiftyFifty: 3, plusTen: 2, skip: 5 };
 
 // Daily Challenge: same QUESTIONS_PER_ROUND questions for every player each
-// Zagreb calendar day. Coin cost escalates per attempt (index 0 = attempt 1,
-// free); DAILY_CHALLENGE_COSTS.length is the hard cap on attempts/day.
-export const DAILY_CHALLENGE_COSTS = [0, 2, 3, 5];
-export const DAILY_CHALLENGE_MAX_ATTEMPTS = DAILY_CHALLENGE_COSTS.length;
+// Zagreb calendar day. Exactly one free attempt/day - no escalating cost,
+// no replay.
 export const DAILY_CHALLENGE_WINNER_PRIZE = 20;

@@ -31,7 +31,6 @@ import {
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
 import { buildPublicProfileFields } from "../utils/publicProfile";
-import { DAILY_CHALLENGE_COSTS, DAILY_CHALLENGE_MAX_ATTEMPTS } from "../constants/gameBalance";
 
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -408,73 +407,42 @@ const DAILY_ATTEMPT_DOC_REF = (uid, date) => doc(db, "dailyAttempts", `${date}_$
 const DAILY_LEADERBOARD_DOC_REF = (uid, date) => doc(db, "dailyLeaderboards", date, "scores", uid);
 
 /**
- * Reads today's attempt status for a player without writing anything -
- * used to render the pre-round "attempts left / next cost" UI. Never throws;
- * a fresh player (no doc yet) reads as 0 attempts used, next cost free.
+ * Reads today's attempt status for a player without writing anything - used
+ * to render the pre-round lobby card. Never throws; a fresh player (no doc
+ * yet) reads as not-yet-played.
  */
 export const getDailyAttemptStatus = async (uid, date) => {
     try {
         const snap = await getDoc(DAILY_ATTEMPT_DOC_REF(uid, date));
-        const attemptsUsed = snap.exists() ? snap.data().attemptsUsed : 0;
-        const canPlay = attemptsUsed < DAILY_CHALLENGE_MAX_ATTEMPTS;
-        return {
-            attemptsUsed,
-            canPlay,
-            nextCost: canPlay ? DAILY_CHALLENGE_COSTS[attemptsUsed] : null
-        };
+        const alreadyPlayed = snap.exists() && snap.data().attemptsUsed >= 1;
+        return { canPlay: !alreadyPlayed };
     } catch (error) {
         console.error("Error fetching daily attempt status:", error);
-        return { attemptsUsed: 0, canPlay: false, nextCost: null };
+        return { canPlay: false };
     }
 };
 
 /**
- * Consumes one Daily Challenge attempt for today, deducting the escalating
- * coin cost (see DAILY_CHALLENGE_COSTS) atomically alongside the attempt
- * count - consumed on round START, not on submission (a closed/abandoned
- * round still costs the attempt, per the locked design decision). Mirrors
- * maybeUpdateFastestPerfectRecord's runTransaction read-compare-write shape,
- * but touches two documents (dailyAttempts + users/{uid}.coins).
+ * Consumes the single daily free attempt - consumed on round START, not on
+ * submission (a closed/abandoned round still uses up the day's one shot,
+ * per the locked design decision). One free attempt/day, no coin cost.
  *
- * Returns { success, attemptNumber, cost, reason } - reason is
- * 'cap_reached' | 'insufficient_coins' | 'error' on failure. The
- * corresponding firestore.rules blocks re-validate all of this
- * independently; this function being wrong would just mean a rejected write,
- * not a security hole.
+ * Returns { success, reason } - reason is 'already_played' | 'error' on
+ * failure. firestore.rules' dailyAttempts create-once rule re-validates
+ * this independently; this function being wrong would just mean a rejected
+ * write, not a security hole.
  */
 export const startDailyAttempt = async (uid, date) => {
     if (!uid) return { success: false, reason: "error" };
     try {
         return await runTransaction(db, async (tx) => {
             const attemptRef = DAILY_ATTEMPT_DOC_REF(uid, date);
-            const userRef = doc(db, "users", uid);
-            const [attemptSnap, userSnap] = await Promise.all([tx.get(attemptRef), tx.get(userRef)]);
-
-            const attemptsUsedBefore = attemptSnap.exists() ? attemptSnap.data().attemptsUsed : 0;
-            if (attemptsUsedBefore >= DAILY_CHALLENGE_MAX_ATTEMPTS) {
-                return { success: false, reason: "cap_reached" };
+            const attemptSnap = await tx.get(attemptRef);
+            if (attemptSnap.exists() && attemptSnap.data().attemptsUsed >= 1) {
+                return { success: false, reason: "already_played" };
             }
-
-            const cost = DAILY_CHALLENGE_COSTS[attemptsUsedBefore];
-            const currentCoins = userSnap.exists() ? (userSnap.data().coins || 0) : 0;
-            if (currentCoins < cost) {
-                return { success: false, reason: "insufficient_coins" };
-            }
-
-            const attemptNumber = attemptsUsedBefore + 1;
-            const coinsSpentBefore = attemptSnap.exists() ? (attemptSnap.data().coinsSpentToday || 0) : 0;
-            tx.set(attemptRef, {
-                uid,
-                date,
-                attemptsUsed: attemptNumber,
-                coinsSpentToday: coinsSpentBefore + cost,
-                updatedAt: serverTimestamp()
-            });
-            if (cost > 0) {
-                tx.update(userRef, { coins: currentCoins - cost });
-            }
-
-            return { success: true, attemptNumber, cost };
+            tx.set(attemptRef, { uid, date, attemptsUsed: 1, updatedAt: serverTimestamp() });
+            return { success: true };
         });
     } catch (error) {
         console.error("Error starting daily attempt:", error);
@@ -483,19 +451,20 @@ export const startDailyAttempt = async (uid, date) => {
 };
 
 /**
- * Upserts a player's Daily Challenge score for the given date, only if it's
- * the first score of the day or an improvement over the stored best (one
- * doc per {date,uid} - see locked design decision in the Daily Challenge
- * plan). Same read-compare-write shape as maybeUpdateFastestPerfectRecord.
+ * Records a player's Daily Challenge score for the given date - one doc per
+ * {date,uid} (see locked design decision in the Daily Challenge plan). The
+ * score-improvement guard is mostly defensive (a resubmitted/retried write
+ * shouldn't lower an already-recorded score) since startDailyAttempt's
+ * one-attempt cap means there's normally only ever one submission per day.
  */
-export const submitDailyScore = async (uid, date, name, score, attemptNumber) => {
+export const submitDailyScore = async (uid, date, name, score) => {
     if (!uid) return false;
     try {
         await runTransaction(db, async (tx) => {
             const ref = DAILY_LEADERBOARD_DOC_REF(uid, date);
             const snap = await tx.get(ref);
             if (snap.exists() && snap.data().score > score) return;
-            tx.set(ref, { uid, name, score, attemptNumber, createdAt: serverTimestamp() });
+            tx.set(ref, { uid, name, score, createdAt: serverTimestamp() });
         });
         return true;
     } catch (error) {
