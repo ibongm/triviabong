@@ -8,6 +8,16 @@ import { CATEGORY_META } from '../data/categoryMeta';
 // (e.g. a brief network hiccup) before a player drops off the list.
 const ONLINE_THRESHOLD_MS = 90000;
 
+// Shared with the compact lobby CTA (App.jsx), which only needs a count and
+// would otherwise duplicate this exact self-exclusion + staleness filter.
+export const filterOnlinePlayers = (players, currentUid, now) =>
+    (players || [])
+        .filter(p => p.uid !== currentUid)
+        .filter(p => {
+            const heartbeatMs = p.lastHeartbeat?.toMillis?.() ?? 0;
+            return now - heartbeatMs <= ONLINE_THRESHOLD_MS;
+        });
+
 const STATUS_META = {
     lobby: { label: 'Dostupan', dotClass: 'text-emerald-400' },
     playing: { label: 'U igri', dotClass: 'text-amber-400' },
@@ -50,12 +60,7 @@ export default function OnlinePlayersList({ currentUid, onInvite }) {
         return null;
     }
 
-    const onlinePlayers = players
-        .filter(p => p.uid !== currentUid)
-        .filter(p => {
-            const heartbeatMs = p.lastHeartbeat?.toMillis?.() ?? 0;
-            return now - heartbeatMs <= ONLINE_THRESHOLD_MS;
-        })
+    const onlinePlayers = filterOnlinePlayers(players, currentUid, now)
         .sort((a, b) => (b.level || 0) - (a.level || 0));
 
     const openPicker = (uid) => {

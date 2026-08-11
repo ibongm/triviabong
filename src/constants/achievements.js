@@ -91,6 +91,13 @@ export const ACHIEVEMENTS = [
     { id: SVI_SMO_MI_MARIJA_ID, tier: 0, hidden: true, nameHr: 'Svi smo mi Marija', descriptionHr: 'Točno ste odgovorili na pitanje o Harryju Potteru.', icon: Wand2 },
 ];
 
+// Shared by StatsModal (denominator) and AchievementsModal (list + its own
+// denominator) so the two screens can never disagree on how many trophies
+// are "visible" - a hidden achievement is excluded from both until earned,
+// per the comment above ACHIEVEMENTS.
+export const getVisibleAchievements = (unlocked = {}) =>
+    ACHIEVEMENTS.filter((a) => !a.hidden || unlocked[a.id]);
+
 export const ACHIEVEMENT_TIER_LABELS = {
     1: 'Prvi koraci',
     2: 'Brzina i vrijeme',

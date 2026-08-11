@@ -1,7 +1,9 @@
 import { X, Trophy, Lock } from 'lucide-react';
-import { ACHIEVEMENTS, ACHIEVEMENT_TIER_LABELS } from '../constants/achievements';
+import { ACHIEVEMENTS, ACHIEVEMENT_TIER_LABELS, getVisibleAchievements } from '../constants/achievements';
 
-const TIERS = [1, 2, 3, 4, 5, 6];
+// Tier 0 (the hidden achievement) is deliberately excluded - it's rendered
+// separately, pinned above these tiers, only once unlocked.
+const TIERS = [1, 2, 3, 4, 5, 6, 7];
 
 // One row, shared by the pinned secret block and the tier lists, so the two
 // can't drift apart. `pinned` only changes the accent colour.
@@ -45,7 +47,7 @@ export default function AchievementsModal({ isOpen, onClose, stats }) {
     const unlockedCount = Object.keys(unlocked).length;
     // A hidden achievement is absent from the list AND from the denominator
     // until earned - showing "29 / 31" would itself leak that a 31st exists.
-    const visibleAchievements = ACHIEVEMENTS.filter((a) => !a.hidden || unlocked[a.id]);
+    const visibleAchievements = getVisibleAchievements(unlocked);
     const pinnedAchievements = visibleAchievements.filter((a) => a.hidden);
 
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { X, Trophy, Target, Award, Flame, Zap, BarChart2, Star } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { xpForLevel } from '../utils/leveling';
-import { ACHIEVEMENTS } from '../constants/achievements';
+import { getVisibleAchievements } from '../constants/achievements';
 import MatchHistoryList from './MatchHistoryList';
 
 export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements, uid }) {
@@ -12,7 +12,9 @@ export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements,
     const totalAnswered = stats?.totalAnswered || 0;
     const totalCorrect = stats?.totalCorrect || 0;
     const overallAccuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
-    const unlockedTrophiesCount = Object.keys(stats?.unlockedAchievements || {}).length;
+    const unlockedAchievements = stats?.unlockedAchievements || {};
+    const unlockedTrophiesCount = Object.keys(unlockedAchievements).length;
+    const visibleTrophiesCount = getVisibleAchievements(unlockedAchievements).length;
 
     const level = stats?.level || 1;
     const xp = stats?.xp || 0;
@@ -74,7 +76,7 @@ export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements,
                         <span className="text-xs font-extrabold text-slate-200">Otključani Trofeji</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <span className="text-xs font-black text-amber-400">{unlockedTrophiesCount} / {ACHIEVEMENTS.length}</span>
+                        <span className="text-xs font-black text-amber-400">{unlockedTrophiesCount} / {visibleTrophiesCount}</span>
                         {onOpenAchievements && (
                             <button
                                 onClick={() => { onClose(); onOpenAchievements(); }}

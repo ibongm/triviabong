@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
   Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal, Flag, CalendarDays
+  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal, Flag, CalendarDays, Swords
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
@@ -47,7 +47,8 @@ import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
 import { useSessionTracking } from './hooks/useSessionTracking';
 import { usePresence } from './hooks/usePresence';
-import OnlinePlayersList from './components/OnlinePlayersList';
+import { filterOnlinePlayers } from './components/OnlinePlayersList';
+import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
 import MatchView from './components/MatchView';
 import {
@@ -77,7 +78,8 @@ import {
   submitDailyScore,
   getDailyLeaderboard,
   getDailyMeta,
-  deletePresence
+  deletePresence,
+  subscribeToOnlinePlayers
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
@@ -227,6 +229,7 @@ export default function App() {
   const [showGuideModal, setShowGuideModal] = useState(false);
   const [showAchievementsModal, setShowAchievementsModal] = useState(false);
   const [showRekordiModal, setShowRekordiModal] = useState(false);
+  const [showOnlinePlayersModal, setShowOnlinePlayersModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
   // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
@@ -253,6 +256,22 @@ export default function App() {
   // useless for telling them apart. Matches the fallback already used for
   // publicProfiles sync and match invites (email local-part, then 'Igrač').
   usePresence(currentUser?.uid, getPlayerDisplayName(currentUser), globalStats.level, gameState);
+
+  // Lightweight count-only subscription for the lobby's "1v1 Dvoboj" CTA
+  // subtitle - OnlinePlayersList does its own identical subscription for
+  // the full list, but that only mounts once the OnlinePlayersModal is
+  // open, so the CTA needs this separately to show a live count up front.
+  const [onlinePlayersCount, setOnlinePlayersCount] = useState(0);
+  useEffect(() => {
+    if (!currentUser?.uid) return undefined;
+    const unsubscribe = subscribeToOnlinePlayers((players) => {
+      setOnlinePlayersCount(filterOnlinePlayers(players, currentUser.uid, Date.now()).length);
+    });
+    return () => {
+      unsubscribe();
+      setOnlinePlayersCount(0);
+    };
+  }, [currentUser?.uid]);
 
   // --- Plan B: 1v1 live invite state ---
   // Pending invites addressed to ME (shows MatchInviteModal for the oldest).
@@ -476,7 +495,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showAuthModal || showReportModal;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -1250,29 +1269,57 @@ export default function App() {
               </div>
             )}
 
-            <button
-              onClick={launchDailyChallengeRound}
-              className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-amber-500/15 to-amber-500/5 hover:from-amber-500/25 hover:to-amber-500/10 border border-amber-500/30 rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95"
-            >
-              <div className="flex items-center gap-3.5">
-                <div className="p-3 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-400 group-hover:scale-110 transition-transform">
-                  <CalendarDays className="w-5 h-5" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <button
+                onClick={launchDailyChallengeRound}
+                className="flex items-center justify-between p-4 bg-gradient-to-r from-amber-500/15 to-amber-500/5 hover:from-amber-500/25 hover:to-amber-500/10 border border-amber-500/30 rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95"
+              >
+                <div className="flex items-center gap-3.5">
+                  <div className="p-3 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-400 group-hover:scale-110 transition-transform">
+                    <CalendarDays className="w-5 h-5" />
+                  </div>
+                  <div className="text-left">
+                    <span className="font-black text-white text-sm block">Dnevni izazov</span>
+                    <span className="text-xs text-amber-300/80">
+                      {!currentUser
+                        ? 'Prijavi se za igranje'
+                        : !dailyAttemptStatus
+                          ? 'Isti kviz za sve, jedan besplatan pokušaj dnevno'
+                          : !dailyAttemptStatus.canPlay
+                            ? 'Odigrano danas - vrati se sutra'
+                            : 'Besplatno - jedan pokušaj dnevno'}
+                    </span>
+                  </div>
                 </div>
-                <div className="text-left">
-                  <span className="font-black text-white text-sm block">Dnevni izazov</span>
-                  <span className="text-xs text-amber-300/80">
-                    {!currentUser
-                      ? 'Prijavi se za igranje'
-                      : !dailyAttemptStatus
-                        ? 'Isti kviz za sve, jedan besplatan pokušaj dnevno'
-                        : !dailyAttemptStatus.canPlay
-                          ? 'Odigrano danas - vrati se sutra'
-                          : 'Besplatno - jedan pokušaj dnevno'}
-                  </span>
+                <ChevronRight className="w-4 h-4 text-amber-500/60 group-hover:text-amber-400 transition-colors" />
+              </button>
+
+              <button
+                onClick={() => {
+                  if (!currentUser) { setShowAuthModal(true); return; }
+                  sound.playClick();
+                  setShowOnlinePlayersModal(true);
+                }}
+                className="flex items-center justify-between p-4 bg-gradient-to-r from-emerald-500/15 to-emerald-500/5 hover:from-emerald-500/25 hover:to-emerald-500/10 border border-emerald-500/30 rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95"
+              >
+                <div className="flex items-center gap-3.5">
+                  <div className="p-3 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 group-hover:scale-110 transition-transform">
+                    <Swords className="w-5 h-5" />
+                  </div>
+                  <div className="text-left">
+                    <span className="font-black text-white text-sm block">1v1 Dvoboj</span>
+                    <span className="text-xs text-emerald-300/80">
+                      {!currentUser
+                        ? 'Prijavi se da izazoveš druge igrače'
+                        : onlinePlayersCount === 0
+                          ? 'Nitko trenutno nije online'
+                          : `${onlinePlayersCount} ${onlinePlayersCount === 1 ? 'igrač' : 'igrača'} online`}
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <ChevronRight className="w-4 h-4 text-amber-500/60 group-hover:text-amber-400 transition-colors" />
-            </button>
+                <ChevronRight className="w-4 h-4 text-emerald-500/60 group-hover:text-emerald-400 transition-colors" />
+              </button>
+            </div>
             {dailyLobbyMessage && (
               <p className="text-center text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl py-2">
                 {dailyLobbyMessage}
@@ -1316,8 +1363,6 @@ export default function App() {
               </div>
               <RekordiBoards data={rekordiDataWithDaily} limitPerBoard={3} compact />
             </div>
-
-            {currentUser && <OnlinePlayersList currentUid={currentUser.uid} onInvite={handleSendInvite} />}
           </div>
         )}
 
@@ -1634,6 +1679,15 @@ export default function App() {
         onClose={() => setShowRekordiModal(false)}
         data={rekordiDataWithDaily}
       />
+
+      {currentUser && (
+        <OnlinePlayersModal
+          isOpen={showOnlinePlayersModal}
+          onClose={() => setShowOnlinePlayersModal(false)}
+          currentUid={currentUser.uid}
+          onInvite={handleSendInvite}
+        />
+      )}
 
       {/* Report Question Modal */}
       <ReportQuestionModal

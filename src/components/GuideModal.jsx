@@ -1,4 +1,4 @@
-import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays } from 'lucide-react';
+import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays, Swords, Trophy, Medal } from 'lucide-react';
 import {
     MAX_LIVES,
     QUESTIONS_PER_ROUND,
@@ -122,6 +122,23 @@ export default function GuideModal({ isOpen, onClose }) {
                     <p>Jokeri nisu dostupni u dnevnom izazovu.</p>
                     <p>Rezultat se odmah upisuje na dnevnu ljestvicu, koja je vidljiva uživo tijekom cijelog dana.</p>
                     <p>Tko god bude na <b className="text-white">1. mjestu</b> kad dan završi (u ponoć po zagrebačkom vremenu) osvaja <b className="text-white">+{DAILY_CHALLENGE_WINNER_PRIZE}</b> novčića - u slučaju izjednačenja, nagradu dobivaju svi izjednačeni igrači.</p>
+                </Section>
+
+                <Section icon={<Swords className="w-4 h-4 text-emerald-400" />} title="1v1 Dvoboj">
+                    <p>Pozovi bilo kojeg <b className="text-white">online igrača</b> iz predvorja na dvoboj uživo - odaberi kategoriju, pošalji poziv, a on ga prihvaća ili odbija.</p>
+                    <p>Kad oba igrača kliknu <b className="text-white">Spreman</b>, dvoboj počinje istovremeno za oboje nakon kratkog odbrojavanja.</p>
+                    <p>Igra se {QUESTIONS_PER_ROUND} pitanja - ako je nakon toga neriješeno, odlučuje dodatno pitanje (iznenadna smrt). Jokeri nisu dostupni.</p>
+                    <p className="text-slate-500 italic">Ako protivnik ne odgovori i ne javi se dulje vrijeme, možeš prijaviti predaju i pobijediti. Rezultati dvoboja spremaju se u tvoju povijest, a pobjede se broje za trofej.</p>
+                </Section>
+
+                <Section icon={<Trophy className="w-4 h-4 text-amber-400" />} title="Trofeji">
+                    <p>Trofeji se otključavaju automatski dok igraš - za brzinu, nizove, rezultat, korištenje jokera, majstorstvo kategorija i još mnogo toga.</p>
+                    <p className="text-slate-500 italic">Neki trofeji su tajni i ne otkrivaju se dok ih ne osvojiš. Pregled svih trofeja nalazi se u Statistika → Trofeji.</p>
+                </Section>
+
+                <Section icon={<Medal className="w-4 h-4 text-amber-400" />} title="Rekordi">
+                    <p>Predvorje prikazuje globalne ljestvice: dnevni izazov, najviša razina, najbolji rezultat, najbrža savršena runda, najduži niz točnih odgovora, najviše trofeja i najduži niz dana zaredom.</p>
+                    <p className="text-slate-500 italic">Puni pregled svih ljestvica dostupan je klikom na "Vidi sve →" iznad kompaktnog prikaza.</p>
                 </Section>
 
                 {/* Footer */}
