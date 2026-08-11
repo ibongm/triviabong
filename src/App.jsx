@@ -290,11 +290,17 @@ export default function App() {
     const unsubscribe = subscribeToSentInvite(sentInvite.id, async (invite) => {
       if (!invite) return;
       if (invite.status === 'accepted' && matchCreatedForInviteRef.current !== invite.id) {
-        matchCreatedForInviteRef.current = invite.id;
-        const matchId = await createMatch(invite);
+        let matchId = await createMatch(invite);
+        if (!matchId) {
+          await new Promise(r => setTimeout(r, 500));
+          matchId = await createMatch(invite);
+        }
         if (matchId) {
+          matchCreatedForInviteRef.current = invite.id;
           setActiveMatchId(matchId);
           setSentInvite(null);
+        } else {
+          console.error('Failed to create match for accepted invite:', invite);
         }
       } else if (invite.status === 'declined' || invite.status === 'expired') {
         setSentInvite(null);
@@ -326,10 +332,10 @@ export default function App() {
     }
   };
 
-  const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category }) => {
+  const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category, forfeited }) => {
     if (!currentUser?.uid) return;
     writeMatchHistoryEntry(currentUser.uid, activeMatchId, {
-      opponentUid, opponentDisplayName, result, myScore, opponentScore, category,
+      opponentUid, opponentDisplayName, result, myScore, opponentScore, category, forfeited: forfeited || false,
     });
     if (result === 'win') {
       setGlobalStats(prev => {
@@ -1424,9 +1430,13 @@ export default function App() {
                   let btnStyle = "bg-slate-950/60 hover:bg-slate-800 border-slate-800 text-slate-200";
                   if (selectedOption !== null) {
                     if (isCorrect) {
-                      btnStyle = "bg-emerald-500/20 border-emerald-500 text-emerald-300 font-bold";
+                      if (selectedOption === option) {
+                        btnStyle = "bg-emerald-500/30 border-emerald-400 text-emerald-300 font-bold shadow-lg shadow-emerald-500/10";
+                      } else {
+                        btnStyle = "bg-emerald-500/15 border-emerald-500/40 text-emerald-300 font-semibold";
+                      }
                     } else if (option === selectedOption) {
-                      btnStyle = "bg-rose-500/20 border-rose-500 text-rose-300 font-bold";
+                      btnStyle = "bg-rose-500/30 border-rose-500 text-rose-300 font-bold";
                     }
                   }
 

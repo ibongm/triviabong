@@ -1,4 +1,4 @@
-import { getQuestionsByCategory } from '../data/questionsLoader';
+import { getQuestionsByCategory, getAllQuestions } from '../data/questionsLoader';
 import { getQuestionOptions, shuffleArray } from './questionUtils';
 
 // 10 questions for the round + 1 pre-selected reserve for a sudden-death
@@ -11,8 +11,11 @@ import { getQuestionOptions, shuffleArray } from './questionUtils';
 const QUESTIONS_TO_PICK = 11;
 
 export const pickMatchQuestionIds = (categoryKey) => {
-    const pool = getQuestionsByCategory(categoryKey);
-    const shuffled = shuffleArray(pool);
+    const pool = getQuestionsByCategory(categoryKey).filter(q => q && q.id);
+    const fallbackPool = getAllQuestions().filter(q => q && q.id);
+    const combined = [...pool, ...fallbackPool];
+    const uniqueMap = new Map(combined.map(q => [q.id, q]));
+    const shuffled = shuffleArray(Array.from(uniqueMap.values()));
     return shuffled.slice(0, QUESTIONS_TO_PICK).map(q => q.id);
 };
 
@@ -23,7 +26,7 @@ export const pickMatchQuestionIds = (categoryKey) => {
 // category (see CLAUDE.md's aggregate-category note) and a raw category
 // lookup would miss them.
 export const resolveMatchQuestions = (questionIds, categoryKey) => {
-    const pool = getQuestionsByCategory(categoryKey);
+    const pool = getAllQuestions();
     const byId = new Map(pool.map(q => [q.id, q]));
     return questionIds.map(id => byId.get(id)).filter(Boolean);
 };

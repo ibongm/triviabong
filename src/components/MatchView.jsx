@@ -7,6 +7,7 @@ import { resolveMatchQuestions, getMatchQuestionOptions, isMatchAnswerCorrect } 
 import {
     subscribeToMatch,
     setMatchQuestionStarted,
+    setMatchCountdownStarted,
     startMatch,
     submitMatchAnswer,
     revealMatchQuestion,
@@ -19,21 +20,20 @@ import { sound } from '../utils/sound';
 
 const FORFEIT_THRESHOLD_MS = 30000;
 const LAST_QUESTION_INDEX = 10; // 0-9 regular + 10 sudden death
+const REVEAL_DURATION_SECONDS = 3;
+const PRE_MATCH_COUNTDOWN_SECONDS = 5;
 
-// Full-screen container for the entire 1v1 mode - reads/writes
-// matches/{matchId} directly rather than App.jsx's local gameState, since
-// both clients must see the same thing (see Plan B §4 - a new top-level
-// mode alongside, not woven into, the existing single-player state
-// machine).
 export default function MatchView({ matchId, currentUid, onExit, onMatchOver, onRematch }) {
     const [match, setMatch] = useState(null);
     const [now, setNow] = useState(() => Date.now());
+    const [revealTimeLeft, setRevealTimeLeft] = useState(REVEAL_DURATION_SECONDS);
     const streakRef = useRef(0);
     const questionStartedGuardRef = useRef(null); // last index we already tried to start
     const revealGuardRef = useRef(null); // last index we already tried to reveal
     const advanceGuardRef = useRef(null); // last index we already tried to advance from
     const finishGuardRef = useRef(false);
     const matchOverHandledRef = useRef(false);
+    const startGuardRef = useRef(false); // already tried to fire countdown -> question_active
 
     useEffect(() => {
         const unsubscribe = subscribeToMatch(matchId, setMatch);
@@ -44,6 +44,24 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         const interval = setInterval(() => setNow(Date.now()), 1000);
         return () => clearInterval(interval);
     }, []);
+
+    const countdownStartedMs = match?.countdownStartedAt?.toMillis?.() ?? null;
+    const startCountdown = countdownStartedMs
+        ? Math.max(0, PRE_MATCH_COUNTDOWN_SECONDS - Math.floor((now - countdownStartedMs) / 1000))
+        : null;
+
+    // ---- Synced pre-match countdown: first client whose timer hits 0 ----
+    // starts the match. Anchored to the shared countdownStartedAt server
+    // timestamp (set once, first-write-wins, by whoever clicks Spreman
+    // first - see setMatchCountdownStarted) instead of each client's own
+    // click time, so both players see the same countdown regardless of when
+    // they individually clicked.
+    useEffect(() => {
+        if (!match || match.status !== 'countdown' || startCountdown !== 0) return;
+        if (startGuardRef.current) return;
+        startGuardRef.current = true;
+        startMatch(matchId);
+    }, [match, matchId, startCountdown]);
 
     const isPlayer1 = match?.player1Uid === currentUid;
     const myUid = currentUid;
@@ -73,13 +91,28 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         ? Math.max(0, QUESTION_TIME_SECONDS - Math.floor((now - questionStartedMs) / 1000))
         : QUESTION_TIME_SECONDS;
 
-    // ---- Per-player heartbeat (forfeit detection - see firestore.rules
-    // comment on why a single shared field can't distinguish sides) ----
+    // ---- Per-player heartbeat ----
+    // Deliberately NOT keyed on match.status: during fast-paced play the
+    // match transitions status (question_active -> reveal -> question_active
+    // -> ...) far more often than every 8s, and a status-keyed dependency
+    // would tear down and restart this interval on every single transition
+    // before it ever got a chance to fire - meaning the heartbeat would
+    // never actually reach Firestore, and the opponent's stale-heartbeat
+    // check below would eventually forfeit an actively-playing match. Reads
+    // the latest match/isPlayer1 via refs instead so the interval itself
+    // can stay alive for the whole match.
+    const matchRef = useRef(match);
+    matchRef.current = match;
+    const isPlayer1Ref = useRef(isPlayer1);
+    isPlayer1Ref.current = isPlayer1;
     useEffect(() => {
-        if (!match || match.status === 'match_over' || match.status === 'forfeited') return;
-        const interval = setInterval(() => heartbeatMatch(matchId, isPlayer1), 8000);
+        const interval = setInterval(() => {
+            const m = matchRef.current;
+            if (!m || m.status === 'match_over' || m.status === 'forfeited') return;
+            heartbeatMatch(matchId, isPlayer1Ref.current);
+        }, 8000);
         return () => clearInterval(interval);
-    }, [matchId, isPlayer1, match?.status]);
+    }, [matchId]);
 
     useEffect(() => {
         if (!match || match.status === 'match_over' || match.status === 'forfeited') return;
@@ -108,32 +141,43 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         revealMatchQuestion(matchId);
     }, [match, matchId, timeLeft]);
 
-    // ---- From reveal: advance to the next question, enter sudden death,
-    // or finish the match ----
+    // ---- Reveal phase: 3-second delay before advancing to next question ----
     useEffect(() => {
-        if (!match || match.status !== 'reveal') return;
+        if (!match || match.status !== 'reveal') {
+            setRevealTimeLeft(REVEAL_DURATION_SECONDS);
+            return;
+        }
         if (advanceGuardRef.current === match.currentQuestionIndex) return;
+        advanceGuardRef.current = match.currentQuestionIndex;
 
         const isLastRegular = match.currentQuestionIndex === 9;
         const isSuddenDeath = match.currentQuestionIndex === LAST_QUESTION_INDEX;
         const tied = match.player1Score === match.player2Score;
 
-        if (isSuddenDeath || (isLastRegular && !tied)) {
-            if (finishGuardRef.current) return;
-            finishGuardRef.current = true;
-            const winnerUid = match.player1Score === match.player2Score
-                ? null
-                : (match.player1Score > match.player2Score ? match.player1Uid : match.player2Uid);
-            finishMatch(matchId, winnerUid);
-            return;
-        }
+        const countdownInterval = setInterval(() => {
+            setRevealTimeLeft((prev) => Math.max(0, prev - 1));
+        }, 1000);
 
-        advanceGuardRef.current = match.currentQuestionIndex;
-        advanceMatchQuestion(matchId, match.currentQuestionIndex + 1);
-    }, [match, matchId]);
+        const timer = setTimeout(() => {
+            if (isSuddenDeath || (isLastRegular && !tied)) {
+                if (finishGuardRef.current) return;
+                finishGuardRef.current = true;
+                const winnerUid = match.player1Score === match.player2Score
+                    ? null
+                    : (match.player1Score > match.player2Score ? match.player1Uid : match.player2Uid);
+                finishMatch(matchId, winnerUid);
+                return;
+            }
+            advanceMatchQuestion(matchId, match.currentQuestionIndex + 1);
+        }, REVEAL_DURATION_SECONDS * 1000);
 
-    // ---- Write match history + notify parent (achievements/stats) once,
-    // when the match reaches a terminal state ----
+        return () => {
+            clearInterval(countdownInterval);
+            clearTimeout(timer);
+        };
+    }, [match?.status, match?.currentQuestionIndex]);
+
+    // ---- Write match history + notify parent when match completes ----
     useEffect(() => {
         if (!match) return;
         if (match.status !== 'match_over' && match.status !== 'forfeited') return;
@@ -176,8 +220,6 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
             streakRef.current += 1;
             const newScore = (myScore || 0) + earned;
             const newCorrect = (isPlayer1 ? match.player1Correct : match.player2Correct) + 1;
-            // Answer + score written atomically - see submitMatchAnswer's
-            // comment for why this can't be two sequential writes.
             await submitMatchAnswer(matchId, isPlayer1, optionIndex, { score: newScore, correctCount: newCorrect });
         } else {
             sound.playWrong();
@@ -190,8 +232,9 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         forfeitMatch(matchId, oppUid);
     };
 
-    // ---- waiting_ready ----
-    if (match.status === 'waiting_ready') {
+    // ---- waiting_ready / countdown ----
+    if (match.status === 'waiting_ready' || match.status === 'countdown') {
+        const isCounting = match.status === 'countdown';
         return (
             <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl text-center space-y-6">
                 <div className="inline-flex items-center justify-center p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
@@ -204,12 +247,19 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
                     </p>
                     <p className="text-xs text-slate-500 mt-1 capitalize">Kategorija: {categoryLabel} · 10 pitanja</p>
                 </div>
-                <button
-                    onClick={() => startMatch(matchId)}
-                    className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-emerald-500/20 active:scale-[0.97]"
-                >
-                    Spreman!
-                </button>
+                {isCounting ? (
+                    <div className="py-4 space-y-2">
+                        <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Dvoboj počinje za</p>
+                        <div className="text-5xl font-black text-emerald-400 animate-pulse">{startCountdown ?? PRE_MATCH_COUNTDOWN_SECONDS}</div>
+                    </div>
+                ) : (
+                    <button
+                        onClick={() => setMatchCountdownStarted(matchId)}
+                        className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-emerald-500/20 active:scale-[0.97]"
+                    >
+                        Spreman!
+                    </button>
+                )}
                 <button onClick={onExit} className="text-xs text-slate-500 hover:text-slate-300">Napusti dvoboj</button>
             </div>
         );
@@ -300,14 +350,35 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
                 <div className="grid grid-cols-1 gap-3">
                     {options.map((option, idx) => {
+                        const isCorrect = option === correctAnswer;
+                        const iPickedThis = myAnswer?.optionIndex === idx;
+                        const oppPickedThis = oppAnswer?.optionIndex === idx;
+                        // Both players picked the exact same option - correctness
+                        // is necessarily identical for both (it's the same
+                        // physical answer), so there's nothing to split on color;
+                        // instead we render a visible left/right divider so it
+                        // reads as "both of you picked this" rather than the
+                        // single-picker style below.
+                        const bothPickedThis = iPickedThis && oppPickedThis;
+
                         let btnStyle = "bg-slate-950/60 hover:bg-slate-800 border-slate-800 text-slate-200";
                         if (isRevealing) {
-                            if (option === correctAnswer) {
-                                btnStyle = "bg-emerald-500/20 border-emerald-500 text-emerald-300 font-bold";
-                            } else if (idx === myAnswer?.optionIndex) {
-                                btnStyle = "bg-rose-500/20 border-rose-500 text-rose-300 font-bold";
+                            if (bothPickedThis) {
+                                btnStyle = isCorrect
+                                    ? "border-emerald-400 text-emerald-200 font-bold shadow-lg shadow-emerald-500/10"
+                                    : "border-rose-400 text-rose-200 font-bold";
+                            } else if (iPickedThis) {
+                                btnStyle = isCorrect
+                                    ? "bg-emerald-500/30 border-emerald-400 text-emerald-300 font-bold shadow-lg shadow-emerald-500/10"
+                                    : "bg-rose-500/25 border-rose-500 text-rose-300 font-bold";
+                            } else if (oppPickedThis) {
+                                btnStyle = isCorrect
+                                    ? "bg-emerald-500/20 border-emerald-500/50 text-emerald-300 font-semibold"
+                                    : "bg-rose-500/15 border-rose-500/40 text-rose-300 font-semibold";
+                            } else if (isCorrect) {
+                                btnStyle = "bg-emerald-500/15 border-emerald-500/40 text-emerald-300 font-semibold";
                             }
-                        } else if (myAnswer?.optionIndex === idx) {
+                        } else if (iPickedThis) {
                             btnStyle = "bg-slate-700 border-slate-600 text-white font-bold";
                         }
 
@@ -316,11 +387,34 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
                                 key={idx}
                                 disabled={!!myAnswer || isRevealing}
                                 onClick={() => handleAnswer(idx)}
-                                className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all flex justify-between items-center active:scale-[0.97] active:brightness-95 relative ${btnStyle}`}
+                                className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all flex justify-between items-center active:scale-[0.97] active:brightness-95 relative overflow-hidden ${btnStyle}`}
                             >
-                                <span>{option}</span>
-                                {isRevealing && oppAnswer?.optionIndex === idx && (
-                                    <span className="text-[10px] font-bold text-slate-400 bg-slate-950/60 px-1.5 py-0.5 rounded-md">{oppDisplayName}</span>
+                                {isRevealing && bothPickedThis && (
+                                    <>
+                                        <span
+                                            aria-hidden="true"
+                                            className={`absolute inset-y-0 left-0 w-1/2 ${isCorrect ? 'bg-emerald-500/35' : 'bg-rose-500/30'}`}
+                                        />
+                                        <span
+                                            aria-hidden="true"
+                                            className={`absolute inset-y-0 right-0 w-1/2 border-l ${isCorrect ? 'bg-emerald-500/15 border-emerald-400/40' : 'bg-rose-500/15 border-rose-400/40'}`}
+                                        />
+                                    </>
+                                )}
+                                <span className="relative z-10">{option}</span>
+                                {isRevealing && (iPickedThis || oppPickedThis) && (
+                                    <div className="flex items-center gap-1 relative z-10">
+                                        {iPickedThis && (
+                                            <span className="text-[10px] font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-500/30 px-2 py-0.5 rounded-md">
+                                                Ti
+                                            </span>
+                                        )}
+                                        {oppPickedThis && (
+                                            <span className="text-[10px] font-bold text-slate-300 bg-slate-800 border border-slate-700 px-2 py-0.5 rounded-md">
+                                                {oppDisplayName}
+                                            </span>
+                                        )}
+                                    </div>
                                 )}
                             </button>
                         );
@@ -328,9 +422,14 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
                 </div>
 
                 {isRevealing && (
-                    <p className="text-center text-xs text-slate-500">
-                        {myAnswer ? 'Odgovorio/la si' : 'Nisi stigao/la odgovoriti'} · {oppAnswer ? `${oppDisplayName} je odgovorio/la` : `${oppDisplayName} nije stigao/la`}
-                    </p>
+                    <div className="space-y-1 text-center">
+                        <p className="text-xs font-bold text-emerald-400">
+                            Sljedeće pitanje za {revealTimeLeft}s...
+                        </p>
+                        <p className="text-xs text-slate-500">
+                            {myAnswer ? 'Odgovorio/la si' : 'Nisi stigao/la odgovoriti'} · {oppAnswer ? `${oppDisplayName} je odgovorio/la` : `${oppDisplayName} nije stigao/la`}
+                        </p>
+                    </div>
                 )}
             </div>
         </div>

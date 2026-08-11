@@ -90,7 +90,12 @@ async function signIn(page, label, { email, password }) {
 // screen). Both players' loops run concurrently via Promise.all below, not
 // sequentially - that's the whole point of this script over the existing
 // sequential cross-device-sync-check.mjs.
-async function playMatchToEnd(page, label, maxIterations = 60) {
+// 90 iterations * 700ms = ~63s budget: covers the 5s synced pre-match
+// countdown, up to 11 questions each with a 3s reveal pause, plus normal
+// network/render slack - both the countdown and reveal delay are real app
+// behavior (see MatchView.jsx), not script overhead, so this budget has to
+// track them rather than assume near-instant transitions.
+async function playMatchToEnd(page, label, maxIterations = 90) {
   for (let i = 0; i < maxIterations; i += 1) {
     const text = await bodyText(page);
     if (text.includes('Revanš')) {

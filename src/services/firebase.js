@@ -49,8 +49,10 @@ export const db = getFirestore(app);
 export const googleProvider = new GoogleAuthProvider();
 
 if (import.meta.env.VITE_USE_FIREBASE_EMULATOR === 'true') {
-    connectFirestoreEmulator(db, '127.0.0.1', 8080);
-    connectAuthEmulator(auth, 'http://127.0.0.1:9099');
+    const authPort = import.meta.env.VITE_FIREBASE_AUTH_EMULATOR_PORT || '9250';
+    const firestorePort = import.meta.env.VITE_FIREBASE_FIRESTORE_EMULATOR_PORT || '8080';
+    connectFirestoreEmulator(db, '127.0.0.1', Number(firestorePort));
+    connectAuthEmulator(auth, `http://127.0.0.1:${authPort}`);
 }
 
 export const logoutUser = () => signOut(auth);

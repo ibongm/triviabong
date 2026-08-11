@@ -462,7 +462,7 @@ service cloud.firestore {
              'questionStartedAt', 'player1Answer', 'player2Answer',
              'player1Score', 'player2Score', 'player1Correct', 'player2Correct',
              'lastActivityAt', 'player1HeartbeatAt', 'player2HeartbeatAt',
-             'winnerUid', 'createdAt', 'inviteId'
+             'winnerUid', 'createdAt', 'inviteId', 'countdownStartedAt'
            ])
         && request.resource.data.player2Uid is string
         && request.resource.data.player2Uid != request.resource.data.player1Uid
@@ -487,6 +487,7 @@ service cloud.firestore {
         && request.resource.data.player1Correct == 0
         && request.resource.data.player2Correct == 0
         && request.resource.data.winnerUid == null
+        && request.resource.data.countdownStartedAt == null
         && request.resource.data.lastActivityAt == request.time
         && request.resource.data.player1HeartbeatAt == request.time
         && request.resource.data.player2HeartbeatAt == request.time
@@ -527,9 +528,22 @@ service cloud.firestore {
               && isOwner(resource.data.player2Uid)
               && request.resource.data.player2HeartbeatAt == request.time)
 
-          // Start the match: waiting_ready -> question_active.
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'lastActivityAt'])
+          // First Spreman click: waiting_ready -> countdown. First write
+          // wins (countdownStartedAt can only move null -> set), so both
+          // players' 5s pre-match countdowns anchor to the same server
+          // timestamp instead of each client's own click time.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'countdownStartedAt', 'lastActivityAt'])
               && resource.data.status == 'waiting_ready'
+              && resource.data.countdownStartedAt == null
+              && request.resource.data.status == 'countdown'
+              && request.resource.data.countdownStartedAt == request.time
+              && request.resource.data.lastActivityAt == request.time)
+
+          // Start the match once the countdown elapses: countdown ->
+          // question_active. First client whose local 5s timer (anchored to
+          // countdownStartedAt) fires wins this write.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'lastActivityAt'])
+              && resource.data.status == 'countdown'
               && request.resource.data.status == 'question_active'
               && request.resource.data.lastActivityAt == request.time)
 
@@ -657,7 +671,7 @@ service cloud.firestore {
       allow read: if isOwner(uid) || isAdmin();
 
       allow create: if isOwner(uid)
-        && request.resource.data.keys().hasOnly(['opponentUid', 'opponentDisplayName', 'result', 'myScore', 'opponentScore', 'category', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['opponentUid', 'opponentDisplayName', 'result', 'myScore', 'opponentScore', 'category', 'createdAt', 'forfeited'])
         && request.resource.data.opponentUid is string
         && request.resource.data.opponentDisplayName is string
         && request.resource.data.opponentDisplayName.size() > 0
@@ -672,6 +686,7 @@ service cloud.firestore {
         && request.resource.data.category is string
         && request.resource.data.category.size() > 0
         && request.resource.data.category.size() <= 50
+        && (!('forfeited' in request.resource.data) || request.resource.data.forfeited is bool)
         && request.resource.data.createdAt == request.time;
 
       allow update, delete: if isAdmin();

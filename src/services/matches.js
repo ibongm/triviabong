@@ -120,8 +120,15 @@ export const createMatch = async (invite) => {
         // matchInvites only stores fromDisplayName (see firestore.rules) -
         // look the invitee's name up from the public, canonical
         // publicProfiles/{uid} rather than adding it to the invite schema.
-        const toProfileSnap = await getDoc(doc(db, 'publicProfiles', invite.toUid));
-        const player2DisplayName = toProfileSnap.exists() ? toProfileSnap.data().displayName : 'Igrač';
+        let player2DisplayName = 'Igrač';
+        try {
+            const toProfileSnap = await getDoc(doc(db, 'publicProfiles', invite.toUid));
+            if (toProfileSnap.exists()) {
+                player2DisplayName = toProfileSnap.data().displayName || 'Igrač';
+            }
+        } catch {
+            // Safe fallback if public profile snapshot is not available yet
+        }
         const matchRef = await addDoc(collection(db, 'matches'), {
             player1Uid: invite.fromUid,
             player2Uid: invite.toUid,
@@ -138,6 +145,7 @@ export const createMatch = async (invite) => {
             player2Score: 0,
             player1Correct: 0,
             player2Correct: 0,
+            countdownStartedAt: null,
             lastActivityAt: serverTimestamp(),
             player1HeartbeatAt: serverTimestamp(),
             player2HeartbeatAt: serverTimestamp(),
@@ -189,6 +197,24 @@ export const getMatch = async (matchId) => {
     } catch (error) {
         console.error('Error fetching match:', error);
         return null;
+    }
+};
+
+// First client whose Spreman click reaches Firestore "wins" this transition
+// (firestore.rules only allows waiting_ready -> countdown, never a re-set) -
+// same first-write-wins pattern as setMatchQuestionStarted below, so both
+// players' 5s pre-match countdowns anchor to the same countdownStartedAt
+// server timestamp instead of each client's own click time.
+export const setMatchCountdownStarted = async (matchId) => {
+    try {
+        await updateDoc(doc(db, 'matches', matchId), {
+            status: 'countdown',
+            countdownStartedAt: serverTimestamp(),
+            lastActivityAt: serverTimestamp(),
+        });
+    } catch {
+        // Expected/benign if the opponent's client already made this
+        // transition first.
     }
 };
 
