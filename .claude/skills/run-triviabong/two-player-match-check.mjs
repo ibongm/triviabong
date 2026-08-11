@@ -142,6 +142,19 @@ try {
   // each other up before A tries to find B in the online list.
   await pageA.waitForTimeout(3000);
 
+  console.log('=== [A] open the "1v1 Dvoboj" card to reach the online players list ===');
+  // The online players list moved behind a compact lobby CTA card (opens
+  // OnlinePlayersModal) rather than rendering inline - see App.jsx's
+  // "1v1 Dvoboj" button next to "Dnevni izazov".
+  const opened1v1Card = await pageA.evaluate(() => {
+    const buttons = [...document.querySelectorAll('button')].filter(b => b.textContent?.includes('1v1 Dvoboj'));
+    if (buttons.length === 0) return 'NOT_FOUND';
+    buttons[0].click();
+    return 'OK';
+  });
+  step('A opens the 1v1 Dvoboj card', opened1v1Card === 'OK');
+  await pageA.waitForTimeout(500);
+
   console.log('=== [A] find P2 in the online list and send an invite ===');
   const foundRow = await pageA.evaluate(() => {
     const rows = [...document.querySelectorAll('div')].filter(d =>

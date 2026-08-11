@@ -42,6 +42,7 @@ import RekordiModal from './components/RekordiModal';
 import RekordiBoards from './components/RekordiBoards';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import ReportQuestionModal from './components/ReportQuestionModal';
+import ConfirmModal from './components/ConfirmModal';
 import TimerRing from './components/TimerRing';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
@@ -58,6 +59,8 @@ import {
   subscribeToMatchByInviteId,
   createMatch,
   writeMatchHistoryEntry,
+  expireMatchInvite,
+  INVITE_TIMEOUT_MS,
 } from './services/matches';
 import { shuffleArray } from './utils/questionUtils';
 import {
@@ -68,6 +71,7 @@ import {
   syncPublicProfile,
   saveScoreToFirestore,
   getLeaderboardFromFirestore,
+  getPlayerBestScoreForCategory,
   getPublicProfileLeaderboard,
   getBestScoresAcrossCategories,
   getFastestPerfectRounds,
@@ -222,6 +226,9 @@ export default function App() {
 
   const [nickname, setNickname] = useState('');
   const [scoreSaved, setScoreSaved] = useState(false);
+  // Post-round personal-best/rank context for a normal (non-daily) round -
+  // mirrors dailySubmitResult's shape/intent above, computed in saveScore.
+  const [roundHighlight, setRoundHighlight] = useState(null);
   const [isSaving, setIsSaving] = useState(false);
   const [autoSaveFailed, setAutoSaveFailed] = useState(false);
   const [showAdminPanel, setShowAdminPanel] = useState(false);
@@ -231,6 +238,7 @@ export default function App() {
   const [showRekordiModal, setShowRekordiModal] = useState(false);
   const [showOnlinePlayersModal, setShowOnlinePlayersModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
+  const [showDailyConfirm, setShowDailyConfirm] = useState(false);
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
   // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
   // read every category's leaderboard, so refetching constantly would be
@@ -325,7 +333,18 @@ export default function App() {
         setSentInvite(null);
       }
     });
-    return unsubscribe;
+    // Client-detected timeout (see expireMatchInvite's own comment - there's
+    // no server to enforce this, matches.js's INVITE_TIMEOUT_MS is purely a
+    // convention both the invite doc's expiresAt and this timer agree on).
+    // Only the sender's own client ever calls this for its own invite.
+    const timeoutId = setTimeout(() => {
+      expireMatchInvite(sentInvite.id);
+      setSentInvite(null);
+    }, INVITE_TIMEOUT_MS);
+    return () => {
+      unsubscribe();
+      clearTimeout(timeoutId);
+    };
   }, [sentInvite?.id]);
 
   // Invitee side: after I accept, wait for the host's client to create the
@@ -342,13 +361,19 @@ export default function App() {
     return unsubscribe;
   }, [acceptedInviteId, currentUser?.uid]);
 
-  const handleSendInvite = async (toUid, category) => {
+  const handleSendInvite = async (toUid, category, toDisplayName) => {
     if (!currentUser?.uid) return;
     const inviteId = await sendMatchInvite(currentUser.uid, getPlayerDisplayName(currentUser), toUid, category);
     if (inviteId) {
-      setSentInvite({ id: inviteId, fromUid: currentUser.uid, toUid, category });
+      setSentInvite({ id: inviteId, fromUid: currentUser.uid, toUid, toDisplayName, category });
       matchCreatedForInviteRef.current = null;
     }
+  };
+
+  const cancelSentInvite = () => {
+    if (!sentInvite?.id) return;
+    expireMatchInvite(sentInvite.id);
+    setSentInvite(null);
   };
 
   const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category, forfeited }) => {
@@ -495,7 +520,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showDailyConfirm;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -632,6 +657,7 @@ export default function App() {
     setScoreSaved(false);
     setAutoSaveFailed(false);
     setDailySubmitResult(null);
+    setRoundHighlight(null);
     setGameState('PLAYING');
 
     setRoundStartTime(Date.now());
@@ -672,11 +698,7 @@ export default function App() {
   // deliberately left null/unchanged; daily rounds aren't tied to a
   // category, and applyRoundEndRewards/logGameResult already fall back to
   // 'opca_znanje' when it's unset.
-  const launchDailyChallengeRound = async () => {
-    if (!currentUser) {
-      setShowAuthModal(true);
-      return;
-    }
+  const startDailyChallengeAttempt = async () => {
     sound.playClick();
     const dateKey = getZagrebDateString();
     const result = await startDailyAttempt(currentUser.uid, dateKey);
@@ -695,6 +717,26 @@ export default function App() {
     setDailyChallengeMode(true);
     setDailyDateKey(dateKey);
     resetRoundState(getDailyChallengeQuestions(dateKey));
+  };
+
+  // Public entry point (the lobby's "Dnevni izazov" card): gates the actual
+  // attempt-consuming start behind a confirm dialog when a fresh attempt is
+  // genuinely available, since startDailyChallengeAttempt above burns the
+  // day's one shot the instant it's called, before any question is even
+  // shown - an accidental tap or a crashed session otherwise costs the
+  // attempt for nothing. Signed-out and already-played cases are unchanged
+  // (nothing to confirm - there's either no attempt to lose yet, or none
+  // left to warn about).
+  const launchDailyChallengeRound = () => {
+    if (!currentUser) {
+      setShowAuthModal(true);
+      return;
+    }
+    if (dailyAttemptStatus && !dailyAttemptStatus.canPlay) {
+      startDailyChallengeAttempt();
+      return;
+    }
+    setShowDailyConfirm(true);
   };
 
   const updateCategoryStats = (isCorrect, pointsEarned = 0, newStreak = 0) => {
@@ -1062,11 +1104,21 @@ export default function App() {
     try {
       const elapsedMs = roundStartTime ? Date.now() - roundStartTime : null;
       const isPerfect = correctInRound === QUESTIONS_PER_ROUND;
+      // Captured BEFORE the save so it reflects the player's prior best, not
+      // the round just played - null means either signed out or no prior
+      // score in this category, both of which should count as a new best.
+      const previousBest = currentUser?.uid ? await getPlayerBestScoreForCategory(currentUser.uid, catKey) : null;
       const success = await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
       if (!success) throw new Error('Firestore save failed');
       setScoreSaved(true);
       sound.playClick();
       refreshRekordiData();
+      if (currentUser?.uid) {
+        const isNewPersonalBest = previousBest === null || score > previousBest;
+        const board = await getLeaderboardFromFirestore(catKey);
+        const rankIdx = board.findIndex(entry => entry.uid === currentUser.uid && entry.score === score);
+        setRoundHighlight({ isNewPersonalBest, rank: rankIdx >= 0 ? rankIdx + 1 : null });
+      }
     } catch (err) {
       if (previousLeaderboards) {
         setLeaderboards(previousLeaderboards);
@@ -1253,6 +1305,21 @@ export default function App() {
                 Testirajte svoje znanje, skupljajte bodove i penjite se na ljestvicu!
               </p>
             </div>
+
+            {sentInvite && (
+              <div className="flex items-center justify-between gap-3 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl">
+                <p className="text-sm font-bold text-emerald-300 flex items-center gap-2">
+                  <RefreshCw className="w-4 h-4 shrink-0 animate-spin" />
+                  Poziv poslan{sentInvite.toDisplayName ? ` igraču ${sentInvite.toDisplayName}` : ''} - čeka se odgovor...
+                </p>
+                <button
+                  onClick={cancelSentInvite}
+                  className="text-xs font-bold text-emerald-400/80 hover:text-emerald-300 shrink-0"
+                >
+                  Odustani
+                </button>
+              </div>
+            )}
 
             {dailyWinAnnouncement && (
               <div className="flex items-center justify-between gap-3 p-4 bg-amber-500/10 border border-amber-500/30 rounded-2xl">
@@ -1453,7 +1520,7 @@ export default function App() {
                   <button
                     type="button"
                     onClick={() => { sound.playClick(); setShowReportModal(true); }}
-                    className="flex items-center gap-1 text-slate-600 hover:text-rose-400 transition-colors px-1 py-0.5 active:scale-90"
+                    className="flex items-center gap-1 text-slate-500 hover:text-rose-400 border border-slate-800 hover:border-rose-500/30 rounded-lg px-1.5 py-1 transition-colors active:scale-90"
                   >
                     <Flag className="w-3.5 h-3.5" />
                     <span>Prijavi pitanje</span>
@@ -1501,6 +1568,7 @@ export default function App() {
               <div className="flex justify-center gap-2 pt-2 border-t border-slate-800/80">
                 <button
                   disabled={fiftyFiftyLocked}
+                  title={fiftyFiftyShort ? `Cijena: ${JOKER_COSTS.fiftyFifty}c (imaš ${globalStats.coins}c)` : undefined}
                   onClick={() => {
                     if (fiftyFiftyShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.fiftyFifty}c)`); return; }
                     activateFiftyFifty();
@@ -1511,6 +1579,7 @@ export default function App() {
                 </button>
                 <button
                   disabled={plusTenLocked}
+                  title={plusTenShort ? `Cijena: ${JOKER_COSTS.plusTen}c (imaš ${globalStats.coins}c)` : undefined}
                   onClick={() => {
                     if (plusTenShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.plusTen}c)`); return; }
                     activatePlusTen();
@@ -1521,6 +1590,7 @@ export default function App() {
                 </button>
                 <button
                   disabled={skipLocked}
+                  title={skipShort ? `Cijena: ${JOKER_COSTS.skip}c (imaš ${globalStats.coins}c)` : undefined}
                   onClick={() => {
                     if (skipShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.skip}c)`); return; }
                     activateSkip();
@@ -1583,6 +1653,15 @@ export default function App() {
                   </div>
                 )}
               </div>
+            )}
+
+            {!dailyChallengeMode && scoreSaved && roundHighlight && (roundHighlight.isNewPersonalBest || roundHighlight.rank) && (
+              <p className={`text-xs font-bold flex items-center justify-center gap-1.5 py-3 rounded-xl border ${roundHighlight.isNewPersonalBest ? 'text-amber-300 bg-amber-500/10 border-amber-500/30' : 'text-slate-300 bg-slate-800/60 border-slate-700/60'}`}>
+                <Trophy className="w-4 h-4" />
+                {roundHighlight.isNewPersonalBest
+                  ? 'Novi osobni rekord!'
+                  : `Trenutno si na ${roundHighlight.rank}. mjestu za ovu kategoriju!`}
+              </p>
             )}
 
             {scoreSaved ? (
@@ -1696,6 +1775,15 @@ export default function App() {
         question={currentQ}
         categoryId={currentQ?.category || selectedCategory}
         uid={currentUser?.uid}
+      />
+
+      <ConfirmModal
+        isOpen={showDailyConfirm}
+        onClose={() => setShowDailyConfirm(false)}
+        onConfirm={() => { setShowDailyConfirm(false); startDailyChallengeAttempt(); }}
+        title="Pokreni dnevni izazov?"
+        message="Ovo troši tvoj jedini dnevni pokušaj, čak i ako ne završiš rundu. Nastaviti?"
+        confirmLabel="Da, kreni"
       />
 
       {/* Guide Modal */}

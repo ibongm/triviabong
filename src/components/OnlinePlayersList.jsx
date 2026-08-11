@@ -73,10 +73,10 @@ export default function OnlinePlayersList({ currentUid, onInvite }) {
         setPickerCategory('');
     };
 
-    const confirmInvite = async (toUid) => {
+    const confirmInvite = async (toUid, toDisplayName) => {
         if (!pickerCategory || !onInvite) return;
         setSendingTo(toUid);
-        await onInvite(toUid, pickerCategory);
+        await onInvite(toUid, pickerCategory, toDisplayName);
         setSendingTo(null);
         closePicker();
     };
@@ -136,7 +136,7 @@ export default function OnlinePlayersList({ currentUid, onInvite }) {
                                             ))}
                                         </select>
                                         <button
-                                            onClick={() => confirmInvite(player.uid)}
+                                            onClick={() => confirmInvite(player.uid, player.displayName)}
                                             disabled={sendingTo === player.uid}
                                             className="text-xs font-bold text-slate-950 bg-emerald-500 hover:bg-emerald-400 rounded-lg px-3 py-1.5 disabled:opacity-50 transition-colors"
                                         >

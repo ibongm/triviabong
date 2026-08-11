@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Swords, Crown, Handshake, Flag, RotateCcw, Zap } from 'lucide-react';
+import confetti from 'canvas-confetti';
+import { Swords, Crown, Handshake, Flag, RotateCcw, Zap, WifiOff } from 'lucide-react';
 import TimerRing from './TimerRing';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { BASE_SCORE, SPEED_BONUS_PER_SECOND, STREAK_MULTIPLIER_STEP, QUESTION_TIME_SECONDS } from '../constants/gameBalance';
@@ -125,7 +126,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         const oppHeartbeatMs = (isPlayer1 ? match.player2HeartbeatAt : match.player1HeartbeatAt)?.toMillis?.();
         if (!oppHeartbeatMs) return;
         if (now - oppHeartbeatMs > FORFEIT_THRESHOLD_MS) {
-            forfeitMatch(matchId, myUid);
+            forfeitMatch(matchId, myUid, 'timeout');
         }
     }, [now, match, matchId, isPlayer1, myUid]);
 
@@ -191,6 +192,10 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         matchOverHandledRef.current = true;
 
         const result = match.winnerUid === null ? 'draw' : (match.winnerUid === myUid ? 'win' : 'loss');
+        if (result === 'win') {
+            sound.playCorrect();
+            confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
+        }
         onMatchOver?.({
             result,
             myScore: myScore || 0,
@@ -235,7 +240,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
     };
 
     const handleForfeit = () => {
-        forfeitMatch(matchId, oppUid);
+        forfeitMatch(matchId, oppUid, 'manual');
     };
 
     // ---- waiting_ready / countdown ----
@@ -276,14 +281,20 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         const isWin = match.winnerUid === myUid;
         const isDraw = match.winnerUid === null;
         return (
-            <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl text-center space-y-6">
+            <div className={`bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl text-center space-y-6 ${!isWin && !isDraw ? 'animate-shake animate-flash-red ring-1 ring-rose-500/40' : 'animate-fade-in'}`}>
                 <div className={`inline-flex items-center justify-center p-4 rounded-2xl border ${isWin ? 'bg-amber-500/10 border-amber-500/20 text-amber-400' : isDraw ? 'bg-slate-800 border-slate-700 text-slate-300' : 'bg-rose-500/10 border-rose-500/20 text-rose-400'}`}>
-                    {isDraw ? <Handshake className="w-10 h-10" /> : <Crown className="w-10 h-10" />}
+                    {isDraw
+                        ? <Handshake className="w-10 h-10" />
+                        : (match.status === 'forfeited' && isWin && match.forfeitReason === 'timeout')
+                            ? <WifiOff className="w-10 h-10" />
+                            : <Crown className="w-10 h-10" />}
                 </div>
                 <div>
                     <h2 className="text-2xl font-black text-white">
                         {match.status === 'forfeited'
-                            ? (isWin ? 'Protivnik je napustio dvoboj' : 'Napustio/la si dvoboj')
+                            ? (isWin
+                                ? (match.forfeitReason === 'timeout' ? 'Protivnik je izgubio vezu' : 'Protivnik je napustio dvoboj')
+                                : 'Napustio/la si dvoboj')
                             : (isDraw ? 'Neriješeno!' : (isWin ? 'Pobjeda!' : 'Poraz'))}
                     </h2>
                     <p className="text-sm text-slate-400 mt-2">

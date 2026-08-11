@@ -651,10 +651,16 @@ service cloud.firestore {
           // not their own uid) from any non-terminal status. No server
           // exists to verify the 30s inactivity claim independently (see
           // Plan B §6) - this is a deliberate, documented v1 limit.
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'lastActivityAt'])
+          // forfeitReason ('manual' | 'timeout') is optional-but-validated-
+          // if-present (older/other-path writes without it still validate)
+          // so MatchView.jsx can show different copy for a deliberate quit
+          // vs. a stale-heartbeat auto-forfeit.
+          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'forfeitReason', 'lastActivityAt'])
               && request.resource.data.status == 'forfeited'
               && request.resource.data.winnerUid != request.auth.uid
               && (request.resource.data.winnerUid == resource.data.player1Uid || request.resource.data.winnerUid == resource.data.player2Uid)
+              && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['forfeitReason'])
+                  || request.resource.data.forfeitReason in ['manual', 'timeout'])
               && request.resource.data.lastActivityAt == request.time)
         );
 

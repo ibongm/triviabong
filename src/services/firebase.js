@@ -406,6 +406,26 @@ export const getLeaderboardFromFirestore = async (categoryKey) => {
     }
 };
 
+/**
+ * Fetches this player's single highest score ever recorded in a category,
+ * BEFORE the round currently being saved - so the caller can compare a new
+ * score against it to detect a personal best. Returns null if signed out or
+ * the player has no prior score in this category (both cases new score
+ * should count as a personal best).
+ */
+export const getPlayerBestScoreForCategory = async (uid, categoryKey) => {
+    if (!uid) return null;
+    try {
+        const scoresRef = collection(db, "leaderboards", categoryKey, "scores");
+        const q = query(scoresRef, where("uid", "==", uid), orderBy("score", "desc"), limit(1));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.empty ? null : querySnapshot.docs[0].data().score;
+    } catch (error) {
+        console.error("Error fetching player's best score for category:", error);
+        return null;
+    }
+};
+
 const DAILY_ATTEMPT_DOC_REF = (uid, date) => doc(db, "dailyAttempts", `${date}_${uid}`);
 const DAILY_LEADERBOARD_DOC_REF = (uid, date) => doc(db, "dailyLeaderboards", date, "scores", uid);
 

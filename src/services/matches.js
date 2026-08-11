@@ -21,7 +21,9 @@ import {
 import { db } from './firebase';
 import { pickMatchQuestionIds } from '../utils/matchQuestions';
 
-const INVITE_TIMEOUT_MS = 60000;
+// Exported so App.jsx's sender-side waiting UI can drive its own countdown/
+// auto-expiry timer off the exact same value used to compute expiresAt here.
+export const INVITE_TIMEOUT_MS = 60000;
 
 /**
  * Sends a 1v1 invite from the caller to toUid for the given category.
@@ -321,12 +323,16 @@ export const finishMatch = async (matchId, winnerUid) => {
 };
 
 // winnerUid must be the OPPONENT's uid, never the caller's own - enforced
-// both here and (authoritatively) by firestore.rules.
-export const forfeitMatch = async (matchId, opponentUid) => {
+// both here and (authoritatively) by firestore.rules. reason distinguishes
+// a deliberate quit ('manual', the "Napusti dvoboj" button) from a stale-
+// heartbeat auto-forfeit ('timeout'), so the surviving player's screen can
+// show different copy instead of identical text for both cases.
+export const forfeitMatch = async (matchId, opponentUid, reason = 'manual') => {
     try {
         await updateDoc(doc(db, 'matches', matchId), {
             status: 'forfeited',
             winnerUid: opponentUid,
+            forfeitReason: reason,
             lastActivityAt: serverTimestamp(),
         });
     } catch (error) {
