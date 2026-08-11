@@ -47,7 +47,12 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
     const countdownStartedMs = match?.countdownStartedAt?.toMillis?.() ?? null;
     const startCountdown = countdownStartedMs
-        ? Math.max(0, PRE_MATCH_COUNTDOWN_SECONDS - Math.floor((now - countdownStartedMs) / 1000))
+        // Clamped to PRE_MATCH_COUNTDOWN_SECONDS, not just floored at 0: if
+        // the local clock lags the Firestore server clock that stamped
+        // countdownStartedAt, (now - countdownStartedMs) can briefly go
+        // negative, which without this clamp displays 6+ instead of 5 for
+        // the first tick - caught visually while watching a real match.
+        ? Math.min(PRE_MATCH_COUNTDOWN_SECONDS, Math.max(0, PRE_MATCH_COUNTDOWN_SECONDS - Math.floor((now - countdownStartedMs) / 1000)))
         : null;
 
     // ---- Synced pre-match countdown: first client whose timer hits 0 ----
@@ -88,7 +93,8 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
     const questionStartedMs = match?.questionStartedAt?.toMillis?.() ?? null;
     const timeLeft = questionStartedMs
-        ? Math.max(0, QUESTION_TIME_SECONDS - Math.floor((now - questionStartedMs) / 1000))
+        // Same clock-skew clamp as startCountdown above.
+        ? Math.min(QUESTION_TIME_SECONDS, Math.max(0, QUESTION_TIME_SECONDS - Math.floor((now - questionStartedMs) / 1000)))
         : QUESTION_TIME_SECONDS;
 
     // ---- Per-player heartbeat ----
