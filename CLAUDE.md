@@ -17,7 +17,7 @@ The unit suite covers pure logic only — scoring/leveling/achievements math, qu
 
 ## Project overview
 
-TriviaBong is a client-only React SPA (Vite, no backend/server code) — a Croatian-language trivia quiz game. All UI copy and question content is in Croatian. It deploys to Vercel as a static site; there is no traditional backend, so almost everything that looks like "server logic" (stats sync, leaderboards, admin actions) goes directly from the browser to Firebase. The one exception is `api/questions.js`, a single Vercel serverless function used only by the admin question-upload feature (see "Admin question upload" below) — it exists specifically because the browser can't write back to the repo's bundled JSON itself.
+KvizArena is a client-only React SPA (Vite, no backend/server code) — a Croatian-language trivia quiz game. All UI copy and question content is in Croatian. It deploys to Vercel as a static site; there is no traditional backend, so almost everything that looks like "server logic" (stats sync, leaderboards, admin actions) goes directly from the browser to Firebase. The one exception is `api/questions.js`, a single Vercel serverless function used only by the admin question-upload feature (see "Admin question upload" below) — it exists specifically because the browser can't write back to the repo's bundled JSON itself.
 
 ## Architecture
 

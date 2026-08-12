@@ -15,7 +15,7 @@ export default function LeaderboardScreen({
                     <Trophy className="w-8 h-8" />
                 </div>
                 <div className="text-left">
-                    <h2 className="text-2xl font-black text-white">
+                    <h2 className="text-2xl font-display font-black text-white">
                         {getCategoryDetails(selectedCategory).label}
                     </h2>
                     <p className="text-xs font-bold text-amber-400 uppercase tracking-wider">

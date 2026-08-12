@@ -1,6 +1,6 @@
-# TriviaBong
+# KvizArena
 
-TriviaBong is a Croatian-language trivia quiz game — a client-only React SPA (Vite) that deploys to Vercel as a static site, with Firebase (Auth + Firestore) handling everything that looks like "backend logic" (stats sync, leaderboards, 1v1 live matches, admin actions). All UI copy and question content is in Croatian.
+KvizArena is a Croatian-language trivia quiz game — a client-only React SPA (Vite) that deploys to Vercel as a static site, with Firebase (Auth + Firestore) handling everything that looks like "backend logic" (stats sync, leaderboards, 1v1 live matches, admin actions). All UI copy and question content is in Croatian.
 
 For architecture, data flow, and the reasoning behind non-obvious decisions, see [`CLAUDE.md`](./CLAUDE.md) — that's the real docs for this repo.
 

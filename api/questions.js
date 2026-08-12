@@ -1,7 +1,7 @@
 // Admin-only endpoint: adds, edits, or removes questions in the matching
 // src/data/categories/*.json file by committing the change to GitHub, which
 // triggers Vercel's normal auto-deploy on push to main. This exists because
-// TriviaBong is a static client-only SPA - the browser has no way to write
+// KvizArena is a static client-only SPA - the browser has no way to write
 // back to the repo directly, so this function is the write path.
 //
 // Body shape: { action, category, ... } - action is 'add' (default, kept for

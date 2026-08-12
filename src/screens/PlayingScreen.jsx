@@ -68,7 +68,7 @@ export default function PlayingScreen({
                     </div>
                 </div>
 
-                <h2 className="text-xl sm:text-2xl font-black text-white leading-snug">
+                <h2 className="text-xl sm:text-2xl font-display font-black text-white leading-snug">
                     {currentQ.question || currentQ.tekst || currentQ.pitanje}
                 </h2>
 

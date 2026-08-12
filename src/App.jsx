@@ -3,6 +3,7 @@ import {
   Trophy, HelpCircle, Coins, User, LogOut, ShieldCheck, Star, Volume2, VolumeX
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import kvizArenaLogo from './assets/kvizarena-logo.png';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
 import { getDailyChallengeQuestions } from './utils/dailySeed';
 import { checkIsCorrect } from './utils/categoryDisplay';
@@ -959,12 +960,11 @@ export default function App() {
           onClick={returnToLobby}
           className="flex items-center gap-2 cursor-pointer group min-w-0"
         >
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-slate-950 font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform shrink-0">
-            TB
-          </div>
-          <span className="hidden sm:inline font-black text-xl tracking-tight bg-gradient-to-r from-white to-amber-400 bg-clip-text text-transparent">
-            TriviaBong
-          </span>
+          <img
+            src={kvizArenaLogo}
+            alt="KvizArena"
+            className="h-10 w-auto object-contain group-hover:scale-105 transition-transform shrink-0"
+          />
         </div>
 
         <div className="flex items-center gap-1.5 min-w-0">
@@ -998,7 +998,7 @@ export default function App() {
             className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
             title="Kako Igrati"
           >
-            <HelpCircle className="w-4 h-4 text-amber-400" />
+            <HelpCircle className="w-4 h-4 text-blue-400" />
             <span className="hidden sm:inline">Vodič</span>
           </button>
 
@@ -1258,7 +1258,7 @@ export default function App() {
       )}
 
       <footer className="text-center py-4 text-xs text-slate-600 font-medium">
-        TriviaBong &bull; Vibe Coding Web Game
+        KvizArena &bull; Vibe Coding Web Game
       </footer>
 
     </div>
