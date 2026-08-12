@@ -1258,7 +1258,7 @@ export default function App() {
       )}
 
       <footer className="text-center py-4 text-xs text-slate-600 font-medium">
-        KvizArena &bull; Vibe Coding Web Game
+        KvizArena &bull; Powered by Bong
       </footer>
 
     </div>
