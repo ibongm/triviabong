@@ -10,9 +10,13 @@ import { getQuestionOptions, shuffleArray } from './questionUtils';
 // to agree on an identical shuffle seed for no real benefit.
 const QUESTIONS_TO_PICK = 11;
 
-export const pickMatchQuestionIds = (categoryKey) => {
-    const pool = getQuestionsByCategory(categoryKey).filter(q => q && q.id);
-    const fallbackPool = getAllQuestions().filter(q => q && q.id);
+// Async because getQuestionsByCategory/getAllQuestions now lazy-load the
+// question JSON on first call (see questionsLoader.js) - createMatch, the
+// only caller, already awaits this.
+export const pickMatchQuestionIds = async (categoryKey) => {
+    const [rawPool, rawFallback] = await Promise.all([getQuestionsByCategory(categoryKey), getAllQuestions()]);
+    const pool = rawPool.filter(q => q && q.id);
+    const fallbackPool = rawFallback.filter(q => q && q.id);
     const combined = [...pool, ...fallbackPool];
     const uniqueMap = new Map(combined.map(q => [q.id, q]));
     const shuffled = shuffleArray(Array.from(uniqueMap.values()));
@@ -24,9 +28,11 @@ export const pickMatchQuestionIds = (categoryKey) => {
 // Looks up against the full aggregate pool rather than just the match's
 // category, since Opće znanje matches store ids that can come from any
 // category (see CLAUDE.md's aggregate-category note) and a raw category
-// lookup would miss them.
-export const resolveMatchQuestions = (questionIds, categoryKey) => {
-    const pool = getAllQuestions();
+// lookup would miss them. Async for the same reason as pickMatchQuestionIds
+// above - MatchView.jsx awaits this in an effect rather than a render-path
+// useMemo (question data is no longer synchronously available).
+export const resolveMatchQuestions = async (questionIds, categoryKey) => {
+    const pool = await getAllQuestions();
     const byId = new Map(pool.map(q => [q.id, q]));
     return questionIds.map(id => byId.get(id)).filter(Boolean);
 };

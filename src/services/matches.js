@@ -118,7 +118,7 @@ export const expireMatchInvite = async (inviteId) => {
 export const createMatch = async (invite) => {
     if (!invite?.id) return null;
     try {
-        const questionIds = pickMatchQuestionIds(invite.category);
+        const questionIds = await pickMatchQuestionIds(invite.category);
         // matchInvites only stores fromDisplayName (see firestore.rules) -
         // look the invitee's name up from the public, canonical
         // publicProfiles/{uid} rather than adding it to the invite schema.

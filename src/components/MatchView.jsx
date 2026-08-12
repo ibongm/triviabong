@@ -81,9 +81,27 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
     const questionIds = match?.questionIds;
     const category = match?.category;
-    const questions = useMemo(() => {
-        if (!questionIds || !category) return [];
-        return resolveMatchQuestions(questionIds, category);
+    // resolveMatchQuestions is async (question JSON now lazy-loads - see
+    // questionsLoader.js), so this can no longer be a render-path useMemo.
+    // questionIds/category are immutable for a match's whole lifetime
+    // (firestore.rules' matchIdentityUnchanged() enforces it), so resolving
+    // once per match and caching in state is safe - no risk of serving a
+    // stale resolution for a still-active match.
+    const [questions, setQuestions] = useState([]);
+    useEffect(() => {
+        // No explicit reset-to-[] branch needed here: questionIds/category
+        // only ever go from unset to a fixed value (never back), and the
+        // initial useState([]) above already covers the "not loaded yet"
+        // case - an early setState call here would itself violate
+        // react-hooks/set-state-in-effect.
+        if (!questionIds || !category) return undefined;
+        let cancelled = false;
+        resolveMatchQuestions(questionIds, category).then((resolved) => {
+            if (!cancelled) setQuestions(resolved);
+        });
+        return () => {
+            cancelled = true;
+        };
     }, [questionIds, category]);
 
     const currentQuestion = questions[match?.currentQuestionIndex] || null;

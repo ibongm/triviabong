@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { auth } from '../../services/firebase';
-import { getAllCategories, getRawCategoryQuestions, getAllQuestions } from '../../data/questionsLoader';
+import { getAllCategories, getAllCategoryPacks, getAllQuestions } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 import { validateQuestions, detectCategory, mergeQuestions } from '../../utils/questionMerge';
 
@@ -12,6 +12,30 @@ const EMPTY_QUESTION_FORM = { question: '', correct_answer: '', incorrect_answer
 export default function AdminQuestions({ initialFilter, onFilterConsumed } = {}) {
     const categoryOptions = useMemo(() => getAllCategories(), []);
 
+    // Question JSON now lazy-loads (see questionsLoader.js), so this panel -
+    // which genuinely needs every category's contents up front for counts
+    // and per-category browsing/search - loads all packs once on mount
+    // rather than each derived value awaiting the loader separately.
+    const [categoryPacks, setCategoryPacks] = useState(null);
+    const [aggregateTotal, setAggregateTotal] = useState(0);
+    useEffect(() => {
+        let cancelled = false;
+        Promise.all([getAllCategoryPacks(), getAllQuestions()]).then(([packs, allQuestions]) => {
+            if (cancelled) return;
+            setCategoryPacks(packs);
+            // Reuses questionsLoader.js's own dedupe (via getAllQuestions)
+            // rather than re-implementing it here, so this count can never
+            // drift from what getQuestionsByCategory('opca_znanje') actually
+            // serves players.
+            setAggregateTotal(allQuestions.length);
+        });
+        return () => {
+            cancelled = true;
+        };
+    }, []);
+
+    const getRawCategoryQuestions = useCallback((key) => categoryPacks?.[key] || [], [categoryPacks]);
+
     // Counts reflect whatever's in the currently deployed bundle - after an
     // upload lands, these won't move until the site's next redeploy (~1-2
     // min), same as everywhere else questions come from static JSON.
@@ -21,8 +45,7 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
             counts[key] = getRawCategoryQuestions(key).length;
         }
         return counts;
-    }, [categoryOptions]);
-    const aggregateTotal = useMemo(() => getAllQuestions().length, []);
+    }, [categoryOptions, getRawCategoryQuestions]);
 
     // --- Question upload ---
     const [uploadFileName, setUploadFileName] = useState('');
@@ -77,7 +100,7 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
         const existing = getRawCategoryQuestions(uploadCategory);
         const { added, skipped } = mergeQuestions(existing, validEntries, uploadCategory);
         return { existingCount: existing.length, added, skipped };
-    }, [uploadCategory, validEntries]);
+    }, [uploadCategory, validEntries, getRawCategoryQuestions]);
 
     const handleUploadSubmit = async (e) => {
         e.preventDefault();
@@ -144,7 +167,7 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
         const term = manageSearch.trim().toLowerCase();
         if (!term) return pool;
         return pool.filter((q) => q.id.toLowerCase().includes(term) || q.question.toLowerCase().includes(term));
-    }, [manageCategory, manageSearch, manageDeletedIds]);
+    }, [manageCategory, manageSearch, manageDeletedIds, getRawCategoryQuestions]);
 
     const manageVisible = manageMatches.slice(0, 50);
 

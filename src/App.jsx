@@ -1,13 +1,11 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
-  Heart, Trophy, Zap, RefreshCw, Flame, Award, ChevronRight, HelpCircle,
-  Scissors, FastForward, Clock, Crown, Coins, User, LogOut, ShieldCheck, Play, Star, Medal, Flag, CalendarDays, Swords
+  Trophy, HelpCircle, Coins, User, LogOut, ShieldCheck, Star, Volume2, VolumeX
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
 import { getDailyChallengeQuestions } from './utils/dailySeed';
-import { resolveCategoryKey } from './data/categoryKeys';
-import { CATEGORY_META } from './data/categoryMeta';
+import { checkIsCorrect } from './utils/categoryDisplay';
 import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
 import {
   MAX_LIVES,
@@ -36,32 +34,26 @@ import { sanitizeDisplayName } from './utils/publicProfile';
 const AdminPanel = React.lazy(() => import('./components/AdminPanel'));
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
+import LobbyScreen from './screens/LobbyScreen';
+import LeaderboardScreen from './screens/LeaderboardScreen';
+import PlayingScreen from './screens/PlayingScreen';
+import GameOverScreen from './screens/GameOverScreen';
 import GuideModal from './components/GuideModal';
 import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
-import RekordiBoards from './components/RekordiBoards';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import ReportQuestionModal from './components/ReportQuestionModal';
 import ConfirmModal from './components/ConfirmModal';
-import TimerRing from './components/TimerRing';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
 import { useSessionTracking } from './hooks/useSessionTracking';
 import { usePresence } from './hooks/usePresence';
-import { filterOnlinePlayers } from './components/OnlinePlayersList';
+import { useOneVsOne } from './hooks/useOneVsOne';
+import { useDailyChallenge } from './hooks/useDailyChallenge';
+import { useScoreSaving } from './hooks/useScoreSaving';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
 import MatchView from './components/MatchView';
-import {
-  sendMatchInvite,
-  subscribeToIncomingInvites,
-  subscribeToSentInvite,
-  subscribeToMatchByInviteId,
-  createMatch,
-  writeMatchHistoryEntry,
-  expireMatchInvite,
-  INVITE_TIMEOUT_MS,
-} from './services/matches';
 import { shuffleArray } from './utils/questionUtils';
 import {
   auth,
@@ -69,9 +61,7 @@ import {
   getUserStatsFromFirestore,
   syncUserStatsToFirestore,
   syncPublicProfile,
-  saveScoreToFirestore,
   getLeaderboardFromFirestore,
-  getPlayerBestScoreForCategory,
   getPublicProfileLeaderboard,
   getBestScoresAcrossCategories,
   getFastestPerfectRounds,
@@ -79,11 +69,7 @@ import {
   logGameResult,
   getDailyAttemptStatus,
   startDailyAttempt,
-  submitDailyScore,
-  getDailyLeaderboard,
-  getDailyMeta,
-  deletePresence,
-  subscribeToOnlinePlayers
+  deletePresence
 } from './services/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 
@@ -106,26 +92,11 @@ const getPlayerDisplayName = (user) => sanitizeDisplayName(user);
 // green "correct" highlight registers before the overlay covers the board.
 const SECRET_REVEAL_DELAY_MS = 700;
 
-const DEFAULT_CATEGORY_COLOR = { bg: 'bg-amber-500/10', border: 'border-amber-500/20', text: 'text-amber-400', hoverBorder: 'hover:border-amber-500/50', groupHoverText: 'group-hover:text-amber-400' };
-
-const getCategoryDetails = (catKey) => {
-  const resolvedKey = resolveCategoryKey(catKey);
-  return CATEGORY_META[resolvedKey] || {
-    label: catKey ? catKey.replace(/_/g, ' ') : 'Kategorija',
-    icon: HelpCircle,
-    color: DEFAULT_CATEGORY_COLOR
-  };
-};
-
-const checkIsCorrect = (q, option) => {
-  if (!q || option === undefined) return false;
-  const correct = String(q.correct_answer || q.correctAnswer || '').trim().toLowerCase();
-  return String(option).trim().toLowerCase() === correct;
-};
-
 export default function App() {
   const [gameState, setGameState] = useState('LOBBY');
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [isMuted, setIsMuted] = useState(() => sound.muted);
+  const [roundHistory, setRoundHistory] = useState([]);
 
   const {
     questions,
@@ -194,43 +165,8 @@ export default function App() {
   const [activeCategoryLeaderboard, setActiveCategoryLeaderboard] = useState([]);
   const [isLoadingLeaderboard, setIsLoadingLeaderboard] = useState(false);
 
-  // Daily Challenge: dailyChallengeMode gates the shared PLAYING/GAMEOVER/
-  // VICTORY render blocks and save-score effect toward the daily submission
-  // path instead of the normal per-category one (selectedCategory stays
-  // null throughout a daily round). One free attempt per Zagreb calendar
-  // day - dailyDateKey is captured at round start and carried through to
-  // submitDailyScore at round end. dailyAttemptStatus powers the lobby's
-  // "already played today" state; dailySubmitResult is the post-round rank.
-  const [dailyChallengeMode, setDailyChallengeMode] = useState(false);
-  const [dailyDateKey, setDailyDateKey] = useState(null);
-  const [dailyAttemptStatus, setDailyAttemptStatus] = useState(null);
-  const [dailySubmitResult, setDailySubmitResult] = useState(null);
-  const [dailyLeaderboard, setDailyLeaderboard] = useState([]);
-  // Separate from jokerMessage/showJokerMessage - that one only renders
-  // inside the PLAYING screen, but a blocked daily attempt (cap reached,
-  // insufficient coins) is discovered from the LOBBY, before a round starts.
-  const [dailyLobbyMessage, setDailyLobbyMessage] = useState(null);
-  // "You won yesterday's Daily Challenge" banner - checked once per login
-  // against dailyMeta/{yesterday}, which only api/daily-challenge-payout.js
-  // (Admin SDK) ever writes. Dismissal is tracked in localStorage (keyed by
-  // date+uid) rather than any Firestore write, since it's purely cosmetic -
-  // no server needs to know a player has seen their own win announcement.
-  const [dailyWinAnnouncement, setDailyWinAnnouncement] = useState(null);
-  const dailyLobbyMessageTimer = useRef(null);
-  const showDailyLobbyMessage = (text) => {
-    clearTimeout(dailyLobbyMessageTimer.current);
-    setDailyLobbyMessage(text);
-    dailyLobbyMessageTimer.current = setTimeout(() => setDailyLobbyMessage(null), 3000);
-  };
-  useEffect(() => () => clearTimeout(dailyLobbyMessageTimer.current), []);
 
   const [nickname, setNickname] = useState('');
-  const [scoreSaved, setScoreSaved] = useState(false);
-  // Post-round personal-best/rank context for a normal (non-daily) round -
-  // mirrors dailySubmitResult's shape/intent above, computed in saveScore.
-  const [roundHighlight, setRoundHighlight] = useState(null);
-  const [isSaving, setIsSaving] = useState(false);
-  const [autoSaveFailed, setAutoSaveFailed] = useState(false);
   const [showAdminPanel, setShowAdminPanel] = useState(false);
   const [showStatsModal, setShowStatsModal] = useState(false);
   const [showGuideModal, setShowGuideModal] = useState(false);
@@ -251,6 +187,27 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
 
+  // Daily Challenge state/effects - see useDailyChallenge.js. Does not own
+  // startDailyChallengeAttempt/submitDaily/launchDailyChallengeRound, which
+  // stay below since they're shared crossroads with the non-daily round
+  // path (resetRoundState, saveScore).
+  const {
+    dailyChallengeMode,
+    setDailyChallengeMode,
+    dailyDateKey,
+    setDailyDateKey,
+    dailyAttemptStatus,
+    setDailyAttemptStatus,
+    dailySubmitResult,
+    setDailySubmitResult,
+    dailyLeaderboard,
+    setDailyLeaderboard,
+    dailyLobbyMessage,
+    showDailyLobbyMessage,
+    dailyWinAnnouncement,
+    dismissDailyWinAnnouncement,
+  } = useDailyChallenge(currentUser, gameState);
+
   // Admin-only beta-insights instrumentation (see hooks/useSessionTracking.js)
   // - a no-op while signed out.
   useSessionTracking(currentUser?.uid, gameState);
@@ -265,131 +222,20 @@ export default function App() {
   // publicProfiles sync and match invites (email local-part, then 'Igrač').
   usePresence(currentUser?.uid, getPlayerDisplayName(currentUser), globalStats.level, gameState);
 
-  // Lightweight count-only subscription for the lobby's "1v1 Dvoboj" CTA
-  // subtitle - OnlinePlayersList does its own identical subscription for
-  // the full list, but that only mounts once the OnlinePlayersModal is
-  // open, so the CTA needs this separately to show a live count up front.
-  const [onlinePlayersCount, setOnlinePlayersCount] = useState(0);
-  useEffect(() => {
-    if (!currentUser?.uid) return undefined;
-    const unsubscribe = subscribeToOnlinePlayers((players) => {
-      setOnlinePlayersCount(filterOnlinePlayers(players, currentUser.uid, Date.now()).length);
-    });
-    return () => {
-      unsubscribe();
-      setOnlinePlayersCount(0);
-    };
-  }, [currentUser?.uid]);
-
-  // --- Plan B: 1v1 live invite state ---
-  // Pending invites addressed to ME (shows MatchInviteModal for the oldest).
-  const [incomingInvites, setIncomingInvites] = useState([]);
-  // The invite I just SENT, while waiting for the other player to respond -
-  // only the sender needs this (to detect 'accepted' and create the match).
-  const [sentInvite, setSentInvite] = useState(null);
-  // The match currently being played, if any - non-null switches the main
-  // render area over to <MatchView>, a fully separate tree from the normal
-  // gameState machine (see Plan B - a new top-level mode, not woven into
-  // the existing single-player state machine).
-  const [activeMatchId, setActiveMatchId] = useState(null);
-  // Guards against creating the match doc twice if subscribeToSentInvite
-  // fires more than once for the same accepted invite (e.g. a reconnect).
-  const matchCreatedForInviteRef = useRef(null);
-
-  useEffect(() => {
-    if (!currentUser?.uid) return;
-    const unsubscribe = subscribeToIncomingInvites(currentUser.uid, setIncomingInvites);
-    // On sign-out (or switching accounts), drop whatever the previous
-    // subscription had loaded rather than leaving a stale invite visible -
-    // done in the cleanup, not the effect body, since a cleanup function is
-    // exactly where an external subscription is meant to be torn down.
-    return () => {
-      unsubscribe();
-      setIncomingInvites([]);
-    };
-  }, [currentUser?.uid]);
-
-  // Sender side: watch the invite I sent. Once it's accepted, create the
-  // match (only the host/player1 may, per firestore.rules) and switch into
-  // it. If declined/expired, just clear it so the "waiting" UI clears too.
-  useEffect(() => {
-    if (!sentInvite?.id) return;
-    const unsubscribe = subscribeToSentInvite(sentInvite.id, async (invite) => {
-      if (!invite) return;
-      if (invite.status === 'accepted' && matchCreatedForInviteRef.current !== invite.id) {
-        let matchId = await createMatch(invite);
-        if (!matchId) {
-          await new Promise(r => setTimeout(r, 500));
-          matchId = await createMatch(invite);
-        }
-        if (matchId) {
-          matchCreatedForInviteRef.current = invite.id;
-          setActiveMatchId(matchId);
-          setSentInvite(null);
-        } else {
-          console.error('Failed to create match for accepted invite:', invite);
-        }
-      } else if (invite.status === 'declined' || invite.status === 'expired') {
-        setSentInvite(null);
-      }
-    });
-    // Client-detected timeout (see expireMatchInvite's own comment - there's
-    // no server to enforce this, matches.js's INVITE_TIMEOUT_MS is purely a
-    // convention both the invite doc's expiresAt and this timer agree on).
-    // Only the sender's own client ever calls this for its own invite.
-    const timeoutId = setTimeout(() => {
-      expireMatchInvite(sentInvite.id);
-      setSentInvite(null);
-    }, INVITE_TIMEOUT_MS);
-    return () => {
-      unsubscribe();
-      clearTimeout(timeoutId);
-    };
-  }, [sentInvite?.id]);
-
-  // Invitee side: after I accept, wait for the host's client to create the
-  // match doc referencing the invite I just accepted (see MatchInviteModal).
-  const [acceptedInviteId, setAcceptedInviteId] = useState(null);
-  useEffect(() => {
-    if (!acceptedInviteId || !currentUser?.uid) return;
-    const unsubscribe = subscribeToMatchByInviteId(acceptedInviteId, currentUser.uid, (match) => {
-      if (match) {
-        setActiveMatchId(match.id);
-        setAcceptedInviteId(null);
-      }
-    });
-    return unsubscribe;
-  }, [acceptedInviteId, currentUser?.uid]);
-
-  const handleSendInvite = async (toUid, category, toDisplayName) => {
-    if (!currentUser?.uid) return;
-    const inviteId = await sendMatchInvite(currentUser.uid, getPlayerDisplayName(currentUser), toUid, category);
-    if (inviteId) {
-      setSentInvite({ id: inviteId, fromUid: currentUser.uid, toUid, toDisplayName, category });
-      matchCreatedForInviteRef.current = null;
-    }
-  };
-
-  const cancelSentInvite = () => {
-    if (!sentInvite?.id) return;
-    expireMatchInvite(sentInvite.id);
-    setSentInvite(null);
-  };
-
-  const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category, forfeited }) => {
-    if (!currentUser?.uid) return;
-    writeMatchHistoryEntry(currentUser.uid, activeMatchId, {
-      opponentUid, opponentDisplayName, result, myScore, opponentScore, category, forfeited: forfeited || false,
-    });
-    if (result === 'win') {
-      setGlobalStats(prev => {
-        const next = { ...prev, total1v1Wins: (prev.total1v1Wins || 0) + 1 };
-        const newlyUnlocked = evaluateAchievements(next, {});
-        next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
-        return next;
-      });
-    }
-  };
+  // Plan B: 1v1 live invite state - see useOneVsOne.js for the full
+  // subscription/handler set. total1v1Wins stat update on a win is the
+  // one place it reaches into shared globalStats.
+  const {
+    onlinePlayersCount,
+    incomingInvites,
+    sentInvite,
+    activeMatchId,
+    setActiveMatchId,
+    setAcceptedInviteId,
+    handleSendInvite,
+    cancelSentInvite,
+    handleMatchOver,
+  } = useOneVsOne(currentUser, setGlobalStats);
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
@@ -511,6 +357,35 @@ export default function App() {
     setRekordiData({ level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak });
   };
 
+  // Score-saving state/logic - see useScoreSaving.js. Does not own
+  // resetRoundState/handleAnswer, which stay below (shared round-start/
+  // round-end crossroads, not save-only state).
+  const {
+    scoreSaved,
+    setScoreSaved,
+    roundHighlight,
+    setRoundHighlight,
+    isSaving,
+    autoSaveFailed,
+    setAutoSaveFailed,
+    saveScore,
+    handleSaveScore,
+  } = useScoreSaving({
+    gameState,
+    currentUser,
+    dailyChallengeMode,
+    score,
+    selectedCategory,
+    roundStartTime,
+    correctInRound,
+    dailyDateKey,
+    nickname,
+    setLeaderboards,
+    refreshRekordiData,
+    setDailyLeaderboard,
+    setDailySubmitResult,
+  });
+
   // Fetched once on mount, not per lobby visit or on modal open: the
   // compact RekordiBoards preview is always visible on the LOBBY screen
   // (not just inside the modal), so gating this fetch behind opening the
@@ -543,6 +418,29 @@ export default function App() {
     return () => clearInterval(timer);
   }, [gameState, selectedOption, isAnyModalOpen, currentIndex]);
 
+  useEffect(() => {
+    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen || !currentQ) return;
+
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
+
+      let optionIdx = -1;
+      if (['1', 'a', 'A'].includes(e.key)) optionIdx = 0;
+      else if (['2', 'b', 'B'].includes(e.key)) optionIdx = 1;
+      else if (['3', 'c', 'C'].includes(e.key)) optionIdx = 2;
+      else if (['4', 'd', 'D'].includes(e.key)) optionIdx = 3;
+
+      if (optionIdx >= 0 && currentShuffledOptions[optionIdx] !== undefined) {
+        if (!hiddenOptions.includes(optionIdx)) {
+          handleAnswer(currentShuffledOptions[optionIdx]);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [gameState, selectedOption, isAnyModalOpen, currentQ, currentShuffledOptions, hiddenOptions]);
+
   const returnToLobby = () => {
     sound.playClick();
     clearRoundTransitionTimers();
@@ -551,71 +449,6 @@ export default function App() {
     setDailySubmitResult(null);
     setGameState('LOBBY');
   };
-
-  // Refreshes the lobby's Daily Challenge card (attempts used / next cost)
-  // whenever a signed-in player is looking at it - including right after
-  // returning from a round, so the card reflects the attempt that was just
-  // consumed without needing a page reload.
-  useEffect(() => {
-    if (!currentUser || gameState !== 'LOBBY') return;
-    let cancelled = false;
-    (async () => {
-      const status = await getDailyAttemptStatus(currentUser.uid, getZagrebDateString());
-      if (!cancelled) setDailyAttemptStatus(status);
-    })();
-    return () => { cancelled = true; };
-  }, [currentUser, gameState]);
-
-  // Pure Y-M-D calendar-string arithmetic, deliberately not going back
-  // through Intl/timeZone conversion (that's already done once to produce
-  // dateKey) - avoids any risk of a double timezone shift landing on the
-  // wrong day.
-  const getYesterdayDateKey = (dateKey) => {
-    const [y, m, d] = dateKey.split('-').map(Number);
-    const dt = new Date(Date.UTC(y, m - 1, d));
-    dt.setUTCDate(dt.getUTCDate() - 1);
-    return dt.toISOString().slice(0, 10);
-  };
-
-  useEffect(() => {
-    if (!currentUser) return;
-    let cancelled = false;
-    (async () => {
-      const yesterday = getYesterdayDateKey(getZagrebDateString());
-      const ackKey = `triviabong_daily_win_ack_${yesterday}_${currentUser.uid}`;
-      if (localStorage.getItem(ackKey)) return;
-
-      const meta = await getDailyMeta(yesterday);
-      if (cancelled || !meta?.payoutProcessed) return;
-
-      const won = (meta.winners || []).some(w => w.uid === currentUser.uid);
-      if (won) setDailyWinAnnouncement({ date: yesterday, prize: meta.prizeEach });
-    })();
-    return () => { cancelled = true; };
-  }, [currentUser]);
-
-  const dismissDailyWinAnnouncement = () => {
-    if (dailyWinAnnouncement && currentUser) {
-      localStorage.setItem(`triviabong_daily_win_ack_${dailyWinAnnouncement.date}_${currentUser.uid}`, '1');
-    }
-    setDailyWinAnnouncement(null);
-  };
-
-  // Refreshes the Rekordi "Dnevni izazov" board whenever the lobby is
-  // visible - public read, no sign-in required to view. Kept as its own
-  // dailyLeaderboard state (not folded into rekordiData) since rekordiData
-  // is only ever fetched once on mount elsewhere; this one needs to reflect
-  // live standings (locked design decision) and stay correct across a
-  // Zagreb midnight rollover without a page reload.
-  useEffect(() => {
-    if (gameState !== 'LOBBY') return;
-    let cancelled = false;
-    (async () => {
-      const board = await getDailyLeaderboard(getZagrebDateString(), 10);
-      if (!cancelled) setDailyLeaderboard(board);
-    })();
-    return () => { cancelled = true; };
-  }, [gameState]);
 
   const selectCategory = async (catKey) => {
     sound.playClick();
@@ -658,6 +491,7 @@ export default function App() {
     setAutoSaveFailed(false);
     setDailySubmitResult(null);
     setRoundHighlight(null);
+    setRoundHistory([]);
     setGameState('PLAYING');
 
     setRoundStartTime(Date.now());
@@ -679,11 +513,11 @@ export default function App() {
     });
   };
 
-  const launchQuizRound = () => {
+  const launchQuizRound = async () => {
     sound.playClick();
     clearRoundTransitionTimers();
     clearJokerMessageTimer();
-    const loadedQuestions = getQuestionsByCategory(selectedCategory);
+    const loadedQuestions = await getQuestionsByCategory(selectedCategory);
     const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, QUESTIONS_PER_ROUND);
     setDailyChallengeMode(false);
     resetRoundState(shuffled);
@@ -716,7 +550,7 @@ export default function App() {
     clearJokerMessageTimer();
     setDailyChallengeMode(true);
     setDailyDateKey(dateKey);
-    resetRoundState(getDailyChallengeQuestions(dateKey));
+    resetRoundState(await getDailyChallengeQuestions(dateKey));
   };
 
   // Public entry point (the lobby's "Dnevni izazov" card): gates the actual
@@ -788,6 +622,16 @@ export default function App() {
 
     const currentQ = questions[currentIndex];
     const correct = checkIsCorrect(currentQ, option);
+
+    setRoundHistory(prev => [
+      ...prev,
+      {
+        questionText: currentQ.question || currentQ.tekst || currentQ.pitanje,
+        selectedOption: option,
+        isCorrect: correct,
+        correctOption: currentQ.correct_answer || currentQ.correctAnswer,
+      }
+    ]);
 
     // Decided HERE, in the event handler body, rather than inside the
     // setGlobalStats updater below that actually unlocks it: StrictMode
@@ -950,6 +794,15 @@ export default function App() {
     setSelectedOption('TIMEOUT');
 
     const currentQ = questions[currentIndex];
+    setRoundHistory(prev => [
+      ...prev,
+      {
+        questionText: currentQ ? (currentQ.question || currentQ.tekst || currentQ.pitanje) : 'Pitanje',
+        selectedOption: 'TIMEOUT',
+        isCorrect: false,
+        correctOption: currentQ ? (currentQ.correct_answer || currentQ.correctAnswer) : '',
+      }
+    ]);
     logQuestionAttempt({
       uid: currentUser?.uid || null,
       questionId: currentQ.id,
@@ -1055,100 +908,6 @@ export default function App() {
     }
   };
 
-  // Daily Challenge submission requires sign-in (locked design decision -
-  // launchDailyChallengeRound already gates entry on currentUser, so
-  // dailyChallengeMode is only ever true here for a signed-in player), and
-  // writes to dailyLeaderboards/{date}/scores/{uid} instead of the normal
-  // per-category leaderboards collection - see submitDailyScore's rules-side
-  // upsert-on-improvement logic in firestore.rules.
-  const submitDaily = async () => {
-    setIsSaving(true);
-    try {
-      const success = await submitDailyScore(
-        currentUser.uid, dailyDateKey, getPlayerDisplayName(currentUser), score
-      );
-      if (!success) throw new Error('Daily score submit failed');
-      setScoreSaved(true);
-      sound.playClick();
-      const board = await getDailyLeaderboard(dailyDateKey, 50);
-      setDailyLeaderboard(board);
-      const rankIdx = board.findIndex(entry => entry.uid === currentUser.uid);
-      setDailySubmitResult({ rank: rankIdx >= 0 ? rankIdx + 1 : null, isTop: rankIdx === 0 });
-    } catch (err) {
-      console.error('Failed to submit daily score:', err);
-    } finally {
-      setIsSaving(false);
-    }
-  };
-
-  const saveScore = async (entryName) => {
-    if (!entryName || scoreSaved || isSaving) return;
-    if (dailyChallengeMode) {
-      await submitDaily();
-      return;
-    }
-    setIsSaving(true);
-
-    const catKey = selectedCategory || 'opca_znanje';
-
-    let previousLeaderboards;
-    setLeaderboards(prev => {
-      previousLeaderboards = prev;
-      const currentList = prev[catKey] || [];
-      const newList = [...currentList, { name: entryName, score, date: new Date().toLocaleDateString() }]
-        .sort((a, b) => b.score - a.score)
-        .slice(0, 10);
-      return { ...prev, [catKey]: newList };
-    });
-
-    try {
-      const elapsedMs = roundStartTime ? Date.now() - roundStartTime : null;
-      const isPerfect = correctInRound === QUESTIONS_PER_ROUND;
-      // Captured BEFORE the save so it reflects the player's prior best, not
-      // the round just played - null means either signed out or no prior
-      // score in this category, both of which should count as a new best.
-      const previousBest = currentUser?.uid ? await getPlayerBestScoreForCategory(currentUser.uid, catKey) : null;
-      const success = await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
-      if (!success) throw new Error('Firestore save failed');
-      setScoreSaved(true);
-      sound.playClick();
-      refreshRekordiData();
-      if (currentUser?.uid) {
-        const isNewPersonalBest = previousBest === null || score > previousBest;
-        const board = await getLeaderboardFromFirestore(catKey);
-        const rankIdx = board.findIndex(entry => entry.uid === currentUser.uid && entry.score === score);
-        setRoundHighlight({ isNewPersonalBest, rank: rankIdx >= 0 ? rankIdx + 1 : null });
-      }
-    } catch (err) {
-      if (previousLeaderboards) {
-        setLeaderboards(previousLeaderboards);
-      }
-      console.error('Failed to save score:', err);
-    } finally {
-      setIsSaving(false);
-    }
-  };
-
-  const handleSaveScore = (e) => {
-    e.preventDefault();
-    saveScore(nickname.trim()).catch(() => {});
-  };
-
-  // Signed-in players already have a displayName - skip the manual nickname
-  // form and save automatically once a round ends. Only anonymous play still
-  // shows the form (the player has no account-derived name to fall back to).
-  useEffect(() => {
-    if ((gameState === 'GAMEOVER' || gameState === 'VICTORY') && currentUser && !scoreSaved) {
-      (async () => {
-        try {
-          await saveScore(getPlayerDisplayName(currentUser));
-        } catch {
-          setAutoSaveFailed(true);
-        }
-      })();
-    }
-  }, [gameState, currentUser, scoreSaved]);
-
   const handlePlayerLogout = async () => {
     if (currentUser?.uid) {
       await deletePresence(currentUser.uid);
@@ -1243,6 +1002,17 @@ export default function App() {
             <span className="hidden sm:inline">Vodič</span>
           </button>
 
+          <button
+            onClick={() => {
+              const muted = sound.toggleMute();
+              setIsMuted(muted);
+            }}
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
+            title={isMuted ? "Zvuk je isključen (Klikni za uključivanje)" : "Zvuk je uključen (Klikni za isključivanje)"}
+          >
+            {isMuted ? <VolumeX className="w-4 h-4 text-rose-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
+          </button>
+
           {isAdminUser && (
             <button
               onClick={() => setShowAdminPanel(true)}
@@ -1296,420 +1066,88 @@ export default function App() {
         ) : (
         <>
         {gameState === 'LOBBY' && (
-          <div className="space-y-6">
-            <div className="text-center space-y-2">
-              <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-white">
-                Izaberi Kategoriju Kvizova
-              </h1>
-              <p className="text-slate-400 text-sm">
-                Testirajte svoje znanje, skupljajte bodove i penjite se na ljestvicu!
-              </p>
-            </div>
-
-            {sentInvite && (
-              <div className="flex items-center justify-between gap-3 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl">
-                <p className="text-sm font-bold text-emerald-300 flex items-center gap-2">
-                  <RefreshCw className="w-4 h-4 shrink-0 animate-spin" />
-                  Poziv poslan{sentInvite.toDisplayName ? ` igraču ${sentInvite.toDisplayName}` : ''} - čeka se odgovor...
-                </p>
-                <button
-                  onClick={cancelSentInvite}
-                  className="text-xs font-bold text-emerald-400/80 hover:text-emerald-300 shrink-0"
-                >
-                  Odustani
-                </button>
-              </div>
-            )}
-
-            {dailyWinAnnouncement && (
-              <div className="flex items-center justify-between gap-3 p-4 bg-amber-500/10 border border-amber-500/30 rounded-2xl">
-                <p className="text-sm font-bold text-amber-300 flex items-center gap-2">
-                  <Crown className="w-5 h-5 shrink-0" />
-                  Osvojio/la si jučerašnji Dnevni izazov! +{dailyWinAnnouncement.prize} zlatnika je već na tvom računu.
-                </p>
-                <button
-                  onClick={dismissDailyWinAnnouncement}
-                  className="text-xs font-bold text-amber-400/80 hover:text-amber-300 shrink-0"
-                >
-                  OK
-                </button>
-              </div>
-            )}
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <button
-                onClick={launchDailyChallengeRound}
-                className="flex items-center justify-between p-4 bg-gradient-to-r from-amber-500/15 to-amber-500/5 hover:from-amber-500/25 hover:to-amber-500/10 border border-amber-500/30 rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95"
-              >
-                <div className="flex items-center gap-3.5">
-                  <div className="p-3 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-400 group-hover:scale-110 transition-transform">
-                    <CalendarDays className="w-5 h-5" />
-                  </div>
-                  <div className="text-left">
-                    <span className="font-black text-white text-sm block">Dnevni izazov</span>
-                    <span className="text-xs text-amber-300/80">
-                      {!currentUser
-                        ? 'Prijavi se za igranje'
-                        : !dailyAttemptStatus
-                          ? 'Isti kviz za sve, jedan besplatan pokušaj dnevno'
-                          : !dailyAttemptStatus.canPlay
-                            ? 'Odigrano danas - vrati se sutra'
-                            : 'Besplatno - jedan pokušaj dnevno'}
-                    </span>
-                  </div>
-                </div>
-                <ChevronRight className="w-4 h-4 text-amber-500/60 group-hover:text-amber-400 transition-colors" />
-              </button>
-
-              <button
-                onClick={() => {
-                  if (!currentUser) { setShowAuthModal(true); return; }
-                  sound.playClick();
-                  setShowOnlinePlayersModal(true);
-                }}
-                className="flex items-center justify-between p-4 bg-gradient-to-r from-emerald-500/15 to-emerald-500/5 hover:from-emerald-500/25 hover:to-emerald-500/10 border border-emerald-500/30 rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95"
-              >
-                <div className="flex items-center gap-3.5">
-                  <div className="p-3 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 group-hover:scale-110 transition-transform">
-                    <Swords className="w-5 h-5" />
-                  </div>
-                  <div className="text-left">
-                    <span className="font-black text-white text-sm block">1v1 Dvoboj</span>
-                    <span className="text-xs text-emerald-300/80">
-                      {!currentUser
-                        ? 'Prijavi se da izazoveš druge igrače'
-                        : onlinePlayersCount === 0
-                          ? 'Nitko trenutno nije online'
-                          : `${onlinePlayersCount} ${onlinePlayersCount === 1 ? 'igrač' : 'igrača'} online`}
-                    </span>
-                  </div>
-                </div>
-                <ChevronRight className="w-4 h-4 text-emerald-500/60 group-hover:text-emerald-400 transition-colors" />
-              </button>
-            </div>
-            {dailyLobbyMessage && (
-              <p className="text-center text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl py-2">
-                {dailyLobbyMessage}
-              </p>
-            )}
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-              {categoriesList.map(catKey => {
-                const details = getCategoryDetails(catKey);
-                const IconComponent = details.icon;
-                const color = details.color || DEFAULT_CATEGORY_COLOR;
-                return (
-                  <button
-                    key={catKey}
-                    onClick={() => selectCategory(catKey)}
-                    className={`flex items-center justify-between p-4 bg-slate-900/80 hover:bg-slate-900 border border-slate-800 ${color.hoverBorder} rounded-2xl transition-all group shadow-sm active:scale-[0.97] active:brightness-95`}
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <div className={`p-3 rounded-xl ${color.bg} border ${color.border} ${color.text} group-hover:scale-110 transition-transform`}>
-                        <IconComponent className="w-5 h-5" />
-                      </div>
-                      <span className="font-bold text-slate-200 capitalize text-sm">{details.label}</span>
-                    </div>
-                    <ChevronRight className={`w-4 h-4 text-slate-600 ${color.groupHoverText} transition-colors`} />
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="space-y-3 pt-4">
-              <div className="flex items-center justify-between">
-                <h2 className="text-sm font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
-                  <Medal className="w-4 h-4 text-amber-400" /> Rekordi
-                </h2>
-                <button
-                  onClick={() => { sound.playClick(); setShowRekordiModal(true); }}
-                  className="text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors active:scale-95"
-                >
-                  Vidi sve →
-                </button>
-              </div>
-              <RekordiBoards data={rekordiDataWithDaily} limitPerBoard={3} compact />
-            </div>
-          </div>
+          <LobbyScreen
+            sentInvite={sentInvite}
+            onCancelSentInvite={cancelSentInvite}
+            dailyWinAnnouncement={dailyWinAnnouncement}
+            onDismissDailyWinAnnouncement={dismissDailyWinAnnouncement}
+            onLaunchDailyChallenge={launchDailyChallengeRound}
+            currentUser={currentUser}
+            dailyAttemptStatus={dailyAttemptStatus}
+            onShowAuthModal={() => setShowAuthModal(true)}
+            onShowOnlinePlayersModal={() => setShowOnlinePlayersModal(true)}
+            onlinePlayersCount={onlinePlayersCount}
+            dailyLobbyMessage={dailyLobbyMessage}
+            categoriesList={categoriesList}
+            onSelectCategory={selectCategory}
+            onShowRekordiModal={() => setShowRekordiModal(true)}
+            rekordiData={rekordiDataWithDaily}
+          />
         )}
 
         {gameState === 'LEADERBOARD' && (
-          <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl space-y-6 text-center">
-            <div className="flex items-center justify-center gap-3">
-              <div className="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-400">
-                <Trophy className="w-8 h-8" />
-              </div>
-              <div className="text-left">
-                <h2 className="text-2xl font-black text-white">
-                  {getCategoryDetails(selectedCategory).label}
-                </h2>
-                <p className="text-xs font-bold text-amber-400 uppercase tracking-wider">
-                  Najbolji Rezultati
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-slate-950/60 rounded-2xl border border-slate-800 overflow-hidden divide-y divide-slate-800/80 min-h-[160px] flex flex-col justify-center">
-              {isLoadingLeaderboard ? (
-                <div className="p-6 text-slate-400 text-sm animate-pulse flex justify-center items-center gap-2">
-                  <RefreshCw className="w-4 h-4 animate-spin text-amber-400" />
-                  <span>Učitavanje ljestvice...</span>
-                </div>
-              ) : activeCategoryLeaderboard.length > 0 ? (
-                activeCategoryLeaderboard.slice(0, 5).map((entry, idx) => (
-                  <div key={idx} className="flex justify-between items-center p-3.5 text-sm px-5">
-                    <span className="font-semibold text-slate-300 flex items-center gap-3">
-                      <span className={`text-xs font-extrabold w-6 h-6 rounded-lg flex items-center justify-center ${idx === 0 ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}>
-                        #{idx + 1}
-                      </span>
-                      <span>{entry.name}</span>
-                    </span>
-                    <span className="text-amber-400 font-bold">{entry.score} bod.</span>
-                  </div>
-                ))
-              ) : (
-                <div className="p-6 text-slate-500 text-xs">
-                  Još nema zabilježenih rezultata za ovu kategoriju. Budite prvi!
-                </div>
-              )}
-            </div>
-
-            <div className="flex gap-3 pt-2">
-              <button
-                onClick={returnToLobby}
-                className="flex-1 bg-slate-950 hover:bg-slate-800 border border-slate-800 text-slate-300 font-bold py-3.5 rounded-2xl transition-colors text-sm active:scale-[0.97] active:brightness-95"
-              >
-                Natrag
-              </button>
-              <button
-                onClick={launchQuizRound}
-                className="flex-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm active:scale-[0.97] active:brightness-95"
-              >
-                <Play className="w-4 h-4 fill-slate-950" /> Započni Kviz
-              </button>
-            </div>
-          </div>
+          <LeaderboardScreen
+            selectedCategory={selectedCategory}
+            isLoadingLeaderboard={isLoadingLeaderboard}
+            activeCategoryLeaderboard={activeCategoryLeaderboard}
+            onReturnToLobby={returnToLobby}
+            onLaunchQuizRound={launchQuizRound}
+          />
         )}
 
         {gameState === 'PLAYING' && currentQ && (
-          <div className="space-y-6">
-            <div className="flex justify-between items-center bg-slate-900/60 border border-slate-800/80 p-3.5 rounded-2xl text-xs font-bold">
-              <div className="flex items-center gap-1">
-                {Array.from({ length: MAX_LIVES }, (_, i) => (
-                  <Heart
-                    key={i}
-                    className={i < lives ? 'w-4 h-4 text-rose-500 fill-rose-500' : 'w-4 h-4 text-slate-700 fill-none'}
-                  />
-                ))}
-              </div>
-              <TimerRing timeLeft={timeLeft} totalTime={QUESTION_TIME_SECONDS} />
-              <div className="flex items-center gap-1.5 text-slate-300">
-                <Zap className="w-4 h-4 text-amber-400" />
-                <span>Bodovi: {score}</span>
-              </div>
-            </div>
-
-            <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl space-y-6">
-              <div className="flex justify-between items-center text-xs text-slate-400 font-bold">
-                {/* Opće znanje is an aggregate pool (see questionsLoader.js), so
-                    show each question's real source category rather than the
-                    generic "Opće znanje" label for every question. */}
-                <span className="uppercase tracking-wider">{getCategoryDetails(currentQ.category || selectedCategory).label}</span>
-                <div className="flex items-center gap-2">
-                  <span>{currentIndex + 1} / {questions.length}</span>
-                  <button
-                    type="button"
-                    onClick={() => { sound.playClick(); setShowReportModal(true); }}
-                    className="flex items-center gap-1 text-slate-500 hover:text-rose-400 border border-slate-800 hover:border-rose-500/30 rounded-lg px-1.5 py-1 transition-colors active:scale-90"
-                  >
-                    <Flag className="w-3.5 h-3.5" />
-                    <span>Prijavi pitanje</span>
-                  </button>
-                </div>
-              </div>
-
-              <h2 className="text-xl sm:text-2xl font-black text-white leading-snug">
-                {currentQ.question || currentQ.tekst || currentQ.pitanje}
-              </h2>
-
-              <div className="grid grid-cols-1 gap-3">
-                {currentShuffledOptions.map((option, idx) => {
-                  const isHidden = hiddenOptions.includes(idx);
-                  if (isHidden) return null;
-
-                  const isCorrect = checkIsCorrect(currentQ, option);
-
-                  let btnStyle = "bg-slate-950/60 hover:bg-slate-800 border-slate-800 text-slate-200";
-                  if (selectedOption !== null) {
-                    if (isCorrect) {
-                      if (selectedOption === option) {
-                        btnStyle = "bg-emerald-500/30 border-emerald-400 text-emerald-300 font-bold shadow-lg shadow-emerald-500/10";
-                      } else {
-                        btnStyle = "bg-emerald-500/15 border-emerald-500/40 text-emerald-300 font-semibold";
-                      }
-                    } else if (option === selectedOption) {
-                      btnStyle = "bg-rose-500/30 border-rose-500 text-rose-300 font-bold";
-                    }
-                  }
-
-                  return (
-                    <button
-                      key={idx}
-                      disabled={selectedOption !== null || answerLocked}
-                      onClick={() => handleAnswer(option)}
-                      className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all flex justify-between items-center active:scale-[0.97] active:brightness-95 ${btnStyle}`}
-                    >
-                      <span>{option}</span>
-                    </button>
-                  );
-                })}
-              </div>
-
-              <div className="flex justify-center gap-2 pt-2 border-t border-slate-800/80">
-                <button
-                  disabled={fiftyFiftyLocked}
-                  title={fiftyFiftyShort ? `Cijena: ${JOKER_COSTS.fiftyFifty}c (imaš ${globalStats.coins}c)` : undefined}
-                  onClick={() => {
-                    if (fiftyFiftyShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.fiftyFifty}c)`); return; }
-                    activateFiftyFifty();
-                  }}
-                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!fiftyFiftyLocked && fiftyFiftyShort ? 'opacity-40' : ''}`}
-                >
-                  <Scissors className="w-3.5 h-3.5 text-amber-400" /> 50:50 ({JOKER_COSTS.fiftyFifty}c)
-                </button>
-                <button
-                  disabled={plusTenLocked}
-                  title={plusTenShort ? `Cijena: ${JOKER_COSTS.plusTen}c (imaš ${globalStats.coins}c)` : undefined}
-                  onClick={() => {
-                    if (plusTenShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.plusTen}c)`); return; }
-                    activatePlusTen();
-                  }}
-                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!plusTenLocked && plusTenShort ? 'opacity-40' : ''}`}
-                >
-                  <Clock className="w-3.5 h-3.5 text-amber-400" /> +{PLUS_TEN_SECONDS}s ({JOKER_COSTS.plusTen}c)
-                </button>
-                <button
-                  disabled={skipLocked}
-                  title={skipShort ? `Cijena: ${JOKER_COSTS.skip}c (imaš ${globalStats.coins}c)` : undefined}
-                  onClick={() => {
-                    if (skipShort) { showJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.skip}c)`); return; }
-                    activateSkip();
-                  }}
-                  className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!skipLocked && skipShort ? 'opacity-40' : ''}`}
-                >
-                  <FastForward className="w-3.5 h-3.5 text-amber-400" /> Preskoči ({JOKER_COSTS.skip}c)
-                </button>
-              </div>
-              {jokerMessage && (
-                <p className="text-center text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl py-2">
-                  {jokerMessage}
-                </p>
-              )}
-            </div>
-          </div>
+          <PlayingScreen
+            lives={lives}
+            timeLeft={timeLeft}
+            score={score}
+            currentQ={currentQ}
+            selectedCategory={selectedCategory}
+            currentIndex={currentIndex}
+            questionsLength={questions.length}
+            onShowReportModal={() => setShowReportModal(true)}
+            currentShuffledOptions={currentShuffledOptions}
+            hiddenOptions={hiddenOptions}
+            selectedOption={selectedOption}
+            answerLocked={answerLocked}
+            onAnswer={handleAnswer}
+            fiftyFiftyLocked={fiftyFiftyLocked}
+            fiftyFiftyShort={fiftyFiftyShort}
+            plusTenLocked={plusTenLocked}
+            plusTenShort={plusTenShort}
+            skipLocked={skipLocked}
+            skipShort={skipShort}
+            coins={globalStats.coins}
+            onShowJokerMessage={showJokerMessage}
+            onActivateFiftyFifty={activateFiftyFifty}
+            onActivatePlusTen={activatePlusTen}
+            onActivateSkip={activateSkip}
+            jokerMessage={jokerMessage}
+          />
         )}
 
         {(gameState === 'GAMEOVER' || gameState === 'VICTORY') && (
-          <div className={`bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl text-center space-y-6 ${gameState === 'GAMEOVER' ? 'animate-shake animate-flash-red ring-1 ring-rose-500/40' : 'animate-fade-in'}`}>
-            <div className={`inline-flex items-center justify-center p-4 rounded-2xl ${gameState === 'VICTORY' ? 'bg-amber-500/10 border border-amber-500/20 text-amber-400' : 'bg-rose-500/10 border border-rose-500/20 text-rose-400'}`}>
-              {gameState === 'VICTORY' ? <Crown className="w-10 h-10" /> : <Flame className="w-10 h-10" />}
-            </div>
-
-            <div className="space-y-1">
-              <h2 className="text-2xl sm:text-3xl font-black text-white">
-                {gameState === 'VICTORY' ? 'Čestitamo! Pobjeda!' : 'Kraj Igre!'}
-              </h2>
-              <p className="text-slate-400 text-sm">
-                Osvojili ste ukupno <span className="text-amber-400 font-bold">{score}</span> bodova.
-              </p>
-            </div>
-
-            {dailyChallengeMode && scoreSaved && dailySubmitResult && (
-              <div className="space-y-3">
-                <p className={`text-xs font-bold flex items-center justify-center gap-1.5 py-3 rounded-xl border ${dailySubmitResult.isTop ? 'text-amber-300 bg-amber-500/10 border-amber-500/30' : 'text-slate-300 bg-slate-800/60 border-slate-700/60'}`}>
-                  <CalendarDays className="w-4 h-4" />
-                  {dailySubmitResult.isTop
-                    ? 'Trenutno si na 1. mjestu dnevnog izazova!'
-                    : dailySubmitResult.rank
-                      ? `Trenutno si na ${dailySubmitResult.rank}. mjestu dnevnog izazova.`
-                      : 'Rezultat je zabilježen na dnevnoj ljestvici.'}
-                </p>
-                {dailyLeaderboard.length > 0 && (
-                  <div className="bg-slate-950/60 rounded-2xl border border-slate-800 overflow-hidden divide-y divide-slate-800/80 text-left">
-                    {dailyLeaderboard.slice(0, 5).map((entry, idx) => (
-                      <div
-                        key={entry.uid || idx}
-                        className={`flex justify-between items-center p-3 text-sm px-4 ${entry.uid === currentUser?.uid ? 'bg-amber-500/10' : ''}`}
-                      >
-                        <span className="font-semibold text-slate-300 flex items-center gap-3">
-                          <span className={`text-xs font-extrabold w-6 h-6 rounded-lg flex items-center justify-center ${idx === 0 ? 'bg-amber-500 text-slate-950' : 'bg-slate-800 text-slate-400'}`}>
-                            #{idx + 1}
-                          </span>
-                          <span>{entry.name}</span>
-                        </span>
-                        <span className="text-amber-400 font-bold">{entry.score} bod.</span>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            )}
-
-            {!dailyChallengeMode && scoreSaved && roundHighlight && (roundHighlight.isNewPersonalBest || roundHighlight.rank) && (
-              <p className={`text-xs font-bold flex items-center justify-center gap-1.5 py-3 rounded-xl border ${roundHighlight.isNewPersonalBest ? 'text-amber-300 bg-amber-500/10 border-amber-500/30' : 'text-slate-300 bg-slate-800/60 border-slate-700/60'}`}>
-                <Trophy className="w-4 h-4" />
-                {roundHighlight.isNewPersonalBest
-                  ? 'Novi osobni rekord!'
-                  : `Trenutno si na ${roundHighlight.rank}. mjestu za ovu kategoriju!`}
-              </p>
-            )}
-
-            {scoreSaved ? (
-              <p className="text-emerald-400 text-xs font-bold flex items-center justify-center gap-1.5 bg-emerald-500/10 border border-emerald-500/20 py-3 rounded-xl">
-                <Award className="w-4 h-4" /> Rezultat uspješno spremljen!
-              </p>
-            ) : currentUser ? (
-              autoSaveFailed ? (
-                <button
-                  type="button"
-                  onClick={() => {
-                    setAutoSaveFailed(false);
-                    saveScore(getPlayerDisplayName(currentUser)).catch(() => setAutoSaveFailed(true));
-                  }}
-                  className="w-full bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/30 font-bold py-3 rounded-xl text-sm transition-colors active:scale-[0.97] active:brightness-95"
-                >
-                  Spremanje nije uspjelo. Pokušaj ponovno.
-                </button>
-              ) : (
-                <p className="text-slate-400 text-xs font-bold animate-pulse py-3">Spremanje rezultata...</p>
-              )
-            ) : (
-              <form onSubmit={handleSaveScore} className="space-y-3">
-                <input
-                  type="text"
-                  placeholder="Unesite nadimak (Nickname)"
-                  value={nickname}
-                  onChange={(e) => setNickname(e.target.value)}
-                  maxLength={15}
-                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-center text-white font-bold text-sm focus:outline-none focus:border-amber-400"
-                />
-                <button
-                  type="submit"
-                  disabled={isSaving}
-                  className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-3 rounded-xl text-sm transition-colors shadow-lg shadow-amber-500/20 disabled:opacity-50 active:scale-[0.97] active:brightness-95"
-                >
-                  {isSaving ? 'Spremanje...' : 'Spremi Rezultat'}
-                </button>
-              </form>
-            )}
-
-            <button
-              onClick={returnToLobby}
-              className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm active:scale-[0.97] active:brightness-95"
-            >
-              <RefreshCw className="w-4 h-4 text-slate-400" /> Povratak u Izbornik
-            </button>
-          </div>
+          <GameOverScreen
+            gameState={gameState}
+            score={score}
+            dailyChallengeMode={dailyChallengeMode}
+            scoreSaved={scoreSaved}
+            dailySubmitResult={dailySubmitResult}
+            dailyLeaderboard={dailyLeaderboard}
+            currentUser={currentUser}
+            roundHighlight={roundHighlight}
+            autoSaveFailed={autoSaveFailed}
+            onRetrySave={() => {
+              setAutoSaveFailed(false);
+              saveScore(getPlayerDisplayName(currentUser)).catch(() => setAutoSaveFailed(true));
+            }}
+            nickname={nickname}
+            onNicknameChange={setNickname}
+            onSaveScoreSubmit={handleSaveScore}
+            isSaving={isSaving}
+            roundHistory={roundHistory}
+            onPlayAgain={launchQuizRound}
+            onReturnToLobby={returnToLobby}
+          />
         )}
         </>
         )}

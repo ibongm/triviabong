@@ -1,38 +1,36 @@
 import { useEffect, useMemo, useState } from 'react';
 import { getAllQuestionAttempts, getAllGameResults } from '../../services/firebase';
 import { summarizeQuestionAccuracy, summarizeCategoryPopularity } from '../../utils/gameplayInsights';
-import { getAllCategories, getRawCategoryQuestions } from '../../data/questionsLoader';
+import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 
 export default function AdminOverview() {
     const [attempts, setAttempts] = useState([]);
     const [results, setResults] = useState([]);
+    const [questionText, setQuestionText] = useState({});
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         let cancelled = false;
         (async () => {
-            const [a, r] = await Promise.all([getAllQuestionAttempts(), getAllGameResults()]);
-            if (!cancelled) {
-                setAttempts(a);
-                setResults(r);
-                setLoading(false);
+            const [a, r, packs] = await Promise.all([getAllQuestionAttempts(), getAllGameResults(), getAllCategoryPacks()]);
+            if (cancelled) return;
+            setAttempts(a);
+            setResults(r);
+            // id -> question text, built from the raw per-category packs
+            // (not getAllQuestions(), which dedupes by normalized text and
+            // could drop an id if another category's question happens to
+            // read identically).
+            const map = {};
+            for (const pack of Object.values(packs)) {
+                for (const q of pack) {
+                    map[q.id] = q.question;
+                }
             }
+            setQuestionText(map);
+            setLoading(false);
         })();
         return () => { cancelled = true; };
-    }, []);
-
-    // id -> question text, built from the raw per-category files (not
-    // getAllQuestions(), which dedupes by normalized text and could drop an
-    // id if another category's question happens to read identically).
-    const questionText = useMemo(() => {
-        const map = {};
-        for (const key of getAllCategories()) {
-            for (const q of getRawCategoryQuestions(key)) {
-                map[q.id] = q.question;
-            }
-        }
-        return map;
     }, []);
 
     const accuracy = useMemo(() => summarizeQuestionAccuracy(attempts, questionText), [attempts, questionText]);

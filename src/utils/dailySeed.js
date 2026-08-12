@@ -41,10 +41,12 @@ const seededShuffle = (array, rand) => {
 /**
  * Returns the same QUESTIONS_PER_ROUND questions, in the same order, for
  * every caller on a given Zagreb calendar date (dateKey, "YYYY-MM-DD").
- * Pure - relies only on getAllQuestions()'s stable array order.
+ * Deterministic given the same pool - relies only on getAllQuestions()'s
+ * stable array order. Async because getAllQuestions() now lazy-loads the
+ * question JSON on first call (see questionsLoader.js).
  */
-export const getDailyChallengeQuestions = (dateKey) => {
-    const pool = getAllQuestions();
+export const getDailyChallengeQuestions = async (dateKey) => {
+    const pool = await getAllQuestions();
     const rand = mulberry32(hashStringToSeed(dateKey));
     return seededShuffle(pool, rand).slice(0, QUESTIONS_PER_ROUND);
 };

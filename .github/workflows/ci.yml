@@ -22,4 +22,5 @@ jobs:
       # cleaned up separately.
       - run: npm run lint
         continue-on-error: true
+      - run: npm test
       - run: npm run build

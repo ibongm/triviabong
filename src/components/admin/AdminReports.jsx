@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { getAllReports, updateReportsStatusForQuestion } from '../../services/firebase';
-import { getAllCategories, getRawCategoryQuestions } from '../../data/questionsLoader';
+import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 import { reportReasonLabel } from '../../constants/reportReasons';
 
@@ -28,23 +28,32 @@ export default function AdminReports({ onNavigateToQuestion }) {
         setLoading(false);
     };
 
+    const [questionText, setQuestionText] = useState({});
+
     useEffect(() => {
         (async () => {
             await fetchReports();
         })();
     }, []);
 
-    // id -> question text, built from the raw per-category files (same
+    // id -> question text, built from the raw per-category packs (same
     // approach as AdminOverview - not getAllQuestions(), which dedupes by
     // normalized text and could drop an id).
-    const questionText = useMemo(() => {
-        const map = {};
-        for (const key of getAllCategories()) {
-            for (const q of getRawCategoryQuestions(key)) {
-                map[q.id] = q.question;
+    useEffect(() => {
+        let cancelled = false;
+        getAllCategoryPacks().then((packs) => {
+            if (cancelled) return;
+            const map = {};
+            for (const pack of Object.values(packs)) {
+                for (const q of pack) {
+                    map[q.id] = q.question;
+                }
             }
-        }
-        return map;
+            setQuestionText(map);
+        });
+        return () => {
+            cancelled = true;
+        };
     }, []);
 
     // Grouped by question - the admin fixes (or dismisses) the question

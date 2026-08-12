@@ -3,10 +3,22 @@
 class SoundEngine {
     constructor() {
         this.ctx = null;
+        this.muted = localStorage.getItem('triviabong_muted') === 'true';
+    }
+
+    setMuted(muted) {
+        this.muted = !!muted;
+        localStorage.setItem('triviabong_muted', this.muted ? 'true' : 'false');
+    }
+
+    toggleMute() {
+        this.setMuted(!this.muted);
+        return this.muted;
     }
 
     // Lazy-initialize context (browsers block sound until user interacts)
     init() {
+        if (this.muted) return;
         if (!this.ctx) {
             const AudioCtx = window.AudioContext || window.webkitAudioContext;
             this.ctx = new AudioCtx();
@@ -18,6 +30,7 @@ class SoundEngine {
 
     // Play a short UI click
     playClick() {
+        if (this.muted) return;
         this.init();
         const osc = this.ctx.createOscillator();
         const gain = this.ctx.createGain();
@@ -38,6 +51,7 @@ class SoundEngine {
 
     // Play a 2-tone success chime (Correct Answer)
     playCorrect() {
+        if (this.muted) return;
         this.init();
         const now = this.ctx.currentTime;
 
@@ -68,6 +82,7 @@ class SoundEngine {
 
     // Play a low frequency error buzzer (Wrong Answer)
     playWrong() {
+        if (this.muted) return;
         this.init();
         const now = this.ctx.currentTime;
 
@@ -90,6 +105,7 @@ class SoundEngine {
 
     // Play a brief tick sound (Timer running low)
     playTick() {
+        if (this.muted) return;
         this.init();
         const now = this.ctx.currentTime;
 
@@ -115,6 +131,7 @@ class SoundEngine {
     // (which shares one gain across two notes), each note gets its own gain
     // node so it can have its own attack/decay envelope.
     playFanfare() {
+        if (this.muted) return;
         this.init();
         const now = this.ctx.currentTime;
 
