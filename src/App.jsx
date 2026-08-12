@@ -963,7 +963,7 @@ export default function App() {
           <img
             src={kvizArenaLogo}
             alt="KvizArena"
-            className="h-16 w-auto object-contain group-hover:scale-105 transition-transform shrink-0"
+            className="h-20 w-auto object-contain group-hover:scale-105 transition-transform shrink-0"
           />
         </div>
 
