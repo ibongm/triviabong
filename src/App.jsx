@@ -967,7 +967,7 @@ export default function App() {
           />
         </div>
 
-        <div className="flex items-center gap-1.5 min-w-0">
+        <div className="flex items-center flex-wrap justify-end gap-1.5 min-w-0">
           <button
             onClick={() => { sound.playClick(); setShowStatsModal(true); }}
             className="flex items-center gap-2 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
@@ -1026,7 +1026,7 @@ export default function App() {
 
           {currentUser ? (
             <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-2 py-1.5 rounded-xl">
-              <span className="text-xs font-bold text-slate-200 truncate max-w-[60px]">
+              <span className="text-xs font-bold text-slate-200 truncate max-w-[160px]">
                 {currentUser.displayName || currentUser.email.split('@')[0]}
               </span>
               <button
