@@ -6510,5 +6510,555 @@
             "Radijacija",
             "Subdukcija"
         ]
+    },
+    {
+        "id": "hr_sci_606",
+        "category": "znanost",
+        "question": "Koji kemijski element ima simbol Fe?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Fluor",
+            "Fosfor",
+            "Francij"
+        ]
+    },
+    {
+        "id": "hr_sci_607",
+        "category": "znanost",
+        "question": "Koja se čestica smatra nositeljem električnog naboja u strujnom vodiču?",
+        "correct_answer": "Elektron",
+        "incorrect_answers": [
+            "Proton",
+            "Neutron",
+            "Foton"
+        ]
+    },
+    {
+        "id": "hr_sci_608",
+        "category": "znanost",
+        "question": "Koji je planet Sunčevog sustava najveći po promjeru?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Uran",
+            "Neptun"
+        ]
+    },
+    {
+        "id": "hr_sci_609",
+        "category": "znanost",
+        "question": "Koja znanstvenica je dvaput dobila Nobelovu nagradu, u fizici i kemiji?",
+        "correct_answer": "Marie Curie",
+        "incorrect_answers": [
+            "Rosalind Franklin",
+            "Dorothy Hodgkin",
+            "Lise Meitner"
+        ]
+    },
+    {
+        "id": "hr_sci_610",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu proizvodi inzulin?",
+        "correct_answer": "Gušterača",
+        "incorrect_answers": [
+            "Jetra",
+            "Slezena",
+            "Bubreg"
+        ]
+    },
+    {
+        "id": "hr_sci_611",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim biljke pretvaraju svjetlosnu energiju u kemijsku?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Fermentacija",
+            "Transpiracija"
+        ]
+    },
+    {
+        "id": "hr_sci_612",
+        "category": "znanost",
+        "question": "Koji je programski jezik prvotno razvijen za web preglednik Netscape 1995. godine?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "Python",
+            "Ruby",
+            "PHP"
+        ]
+    },
+    {
+        "id": "hr_sci_613",
+        "category": "znanost",
+        "question": "Koja jedinica mjeri električni otpor?",
+        "correct_answer": "Om",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ]
+    },
+    {
+        "id": "hr_sci_614",
+        "category": "znanost",
+        "question": "Koji je najlakši kemijski element u periodnom sustavu?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Berilij"
+        ]
+    },
+    {
+        "id": "hr_sci_615",
+        "category": "znanost",
+        "question": "Tko je autor opće teorije relativnosti objavljene 1915. godine?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Niels Bohr",
+            "Max Planck"
+        ]
+    },
+    {
+        "id": "hr_sci_616",
+        "category": "znanost",
+        "question": "Koja se galaksija smatra domaćom galaksijom Sunčevog sustava?",
+        "correct_answer": "Kravata put",
+        "incorrect_answers": [
+            "Andromeda",
+            "Trokutasta galaksija",
+            "Velika Magellanova oblak"
+        ]
+    },
+    {
+        "id": "hr_sci_617",
+        "category": "znanost",
+        "question": "Kako se naziva osnovna funkcionalna i strukturna jedinica svih živih organizama?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Tkivo",
+            "Organ",
+            "Molekula"
+        ]
+    },
+    {
+        "id": "hr_sci_618",
+        "category": "znanost",
+        "question": "Koji plin biljke najviše apsorbiraju tijekom fotosinteze?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Metan"
+        ]
+    },
+    {
+        "id": "hr_sci_619",
+        "category": "znanost",
+        "question": "Koja je kemijska formula obične kuhinjske soli?",
+        "correct_answer": "NaCl",
+        "incorrect_answers": [
+            "KCl",
+            "CaCl2",
+            "NaOH"
+        ]
+    },
+    {
+        "id": "hr_sci_620",
+        "category": "znanost",
+        "question": "Koji je znanstvenik postavio zakone gibanja i opću teoriju gravitacije u 17. stoljeću?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "René Descartes"
+        ]
+    },
+    {
+        "id": "hr_sci_621",
+        "category": "znanost",
+        "question": "Koliko kostiju ima odrasli ljudski kostur?",
+        "correct_answer": "206",
+        "incorrect_answers": [
+            "186",
+            "216",
+            "256"
+        ]
+    },
+    {
+        "id": "hr_sci_622",
+        "category": "znanost",
+        "question": "Koja tvrtka je razvila operacijski sustav Android?",
+        "correct_answer": "Google",
+        "incorrect_answers": [
+            "Apple",
+            "Microsoft",
+            "Samsung"
+        ]
+    },
+    {
+        "id": "hr_sci_623",
+        "category": "znanost",
+        "question": "Kako se naziva proces dijeljenja atomske jezgre na dva manja dijela uz oslobađanje energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Ionizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_624",
+        "category": "znanost",
+        "question": "Koji je najbrži kopneni sisavac na svijetu?",
+        "correct_answer": "Gepard",
+        "incorrect_answers": [
+            "Lav",
+            "Antilopa gnu",
+            "Konj"
+        ]
+    },
+    {
+        "id": "hr_sci_625",
+        "category": "znanost",
+        "question": "Koja se jedinica koristi za mjerenje frekvencije?",
+        "correct_answer": "Herc",
+        "incorrect_answers": [
+            "Njutn",
+            "Paskal",
+            "Džul"
+        ]
+    },
+    {
+        "id": "hr_sci_626",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za zlato?",
+        "correct_answer": "Au",
+        "incorrect_answers": [
+            "Ag",
+            "Fe",
+            "Gd"
+        ]
+    },
+    {
+        "id": "hr_sci_627",
+        "category": "znanost",
+        "question": "Koja krvna grupa se smatra univerzalnim davateljem krvi?",
+        "correct_answer": "0 negativna",
+        "incorrect_answers": [
+            "AB pozitivna",
+            "A negativna",
+            "B pozitivna"
+        ]
+    },
+    {
+        "id": "hr_sci_628",
+        "category": "znanost",
+        "question": "Koji je najveći organ ljudskog tijela?",
+        "correct_answer": "Koža",
+        "incorrect_answers": [
+            "Jetra",
+            "Pluća",
+            "Crijevo"
+        ]
+    },
+    {
+        "id": "hr_sci_629",
+        "category": "znanost",
+        "question": "Tko je 1928. godine otkrio penicilin?",
+        "correct_answer": "Alexander Fleming",
+        "incorrect_answers": [
+            "Louis Pasteur",
+            "Robert Koch",
+            "Joseph Lister"
+        ]
+    },
+    {
+        "id": "hr_sci_630",
+        "category": "znanost",
+        "question": "Koliko trenutačno priznatih planeta ima Sunčev sustav?",
+        "correct_answer": "Osam",
+        "incorrect_answers": [
+            "Sedam",
+            "Devet",
+            "Deset"
+        ]
+    },
+    {
+        "id": "hr_sci_631",
+        "category": "znanost",
+        "question": "Koja se čestica nalazi u jezgri atoma i ima pozitivan naboj?",
+        "correct_answer": "Proton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Foton"
+        ]
+    },
+    {
+        "id": "hr_sci_632",
+        "category": "znanost",
+        "question": "Koji je programski jezik poznat po tome što ga je razvio Guido van Rossum krajem 1980-ih?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "Perl"
+        ]
+    },
+    {
+        "id": "hr_sci_633",
+        "category": "znanost",
+        "question": "Koja se bolest prenosi ubodom komarca roda Anopheles?",
+        "correct_answer": "Malarija",
+        "incorrect_answers": [
+            "Tuberkuloza",
+            "Kolera",
+            "Tifus"
+        ]
+    },
+    {
+        "id": "hr_sci_634",
+        "category": "znanost",
+        "question": "Koji je kemijski element s atomskim brojem 1?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Dušik"
+        ]
+    },
+    {
+        "id": "hr_sci_635",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja privlači tijela prema središtu Zemlje?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Magnetizam",
+            "Trenje",
+            "Inercija"
+        ]
+    },
+    {
+        "id": "hr_sci_636",
+        "category": "znanost",
+        "question": "Koji je najveći sisavac na svijetu?",
+        "correct_answer": "Plavi kit",
+        "incorrect_answers": [
+            "Slon afrički",
+            "Kit ubojica",
+            "Kit spermet"
+        ]
+    },
+    {
+        "id": "hr_sci_637",
+        "category": "znanost",
+        "question": "Koji uređaj pretvara mehaničku energiju u električnu?",
+        "correct_answer": "Generator",
+        "incorrect_answers": [
+            "Transformator",
+            "Motor",
+            "Akumulator"
+        ]
+    },
+    {
+        "id": "hr_sci_638",
+        "category": "znanost",
+        "question": "Koja se skala koristi za mjerenje jačine potresa?",
+        "correct_answer": "Richterova skala",
+        "incorrect_answers": [
+            "Celzijeva skala",
+            "Beaufortova skala",
+            "Kelvinova skala"
+        ]
+    },
+    {
+        "id": "hr_sci_639",
+        "category": "znanost",
+        "question": "Tko je konstruirao prvi praktični parni stroj koji je pokrenuo industrijsku revoluciju?",
+        "correct_answer": "James Watt",
+        "incorrect_answers": [
+            "Thomas Edison",
+            "Nikola Tesla",
+            "George Stephenson"
+        ]
+    },
+    {
+        "id": "hr_sci_640",
+        "category": "znanost",
+        "question": "Koja se molekula smatra nositeljem genetske informacije u većini organizama?",
+        "correct_answer": "DNK",
+        "incorrect_answers": [
+            "RNK",
+            "ATP",
+            "Protein"
+        ]
+    },
+    {
+        "id": "hr_sci_641",
+        "category": "znanost",
+        "question": "Koji je najmanji planet u Sunčevom sustavu?",
+        "correct_answer": "Merkur",
+        "incorrect_answers": [
+            "Mars",
+            "Venera",
+            "Pluton"
+        ]
+    },
+    {
+        "id": "hr_sci_642",
+        "category": "znanost",
+        "question": "Koja se vrsta stijena stvara skrutnjivanjem magme ili lave?",
+        "correct_answer": "Magmatska stijena",
+        "incorrect_answers": [
+            "Sedimentna stijena",
+            "Metamorfna stijena",
+            "Vapnenačka stijena"
+        ]
+    },
+    {
+        "id": "hr_sci_643",
+        "category": "znanost",
+        "question": "Koji je kemijski element osnovni sastojak dijamanta?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Silicij",
+            "Kisik",
+            "Sumpor"
+        ]
+    },
+    {
+        "id": "hr_sci_644",
+        "category": "znanost",
+        "question": "Koja tvrtka je razvila iPhone?",
+        "correct_answer": "Apple",
+        "incorrect_answers": [
+            "Google",
+            "Microsoft",
+            "Nokia"
+        ]
+    },
+    {
+        "id": "hr_sci_645",
+        "category": "znanost",
+        "question": "Koji je prosječan broj otkucaja srca odrasle osobe u mirovanju u minuti?",
+        "correct_answer": "Oko 70",
+        "incorrect_answers": [
+            "Oko 40",
+            "Oko 120",
+            "Oko 150"
+        ]
+    },
+    {
+        "id": "hr_sci_646",
+        "category": "znanost",
+        "question": "Koja se jedinica koristi za mjerenje jakosti električne struje?",
+        "correct_answer": "Amper",
+        "incorrect_answers": [
+            "Volt",
+            "Om",
+            "Vat"
+        ]
+    },
+    {
+        "id": "hr_sci_647",
+        "category": "znanost",
+        "question": "Koji je najzastupljeniji plin u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ]
+    },
+    {
+        "id": "hr_sci_648",
+        "category": "znanost",
+        "question": "Tko je izumio telefon i patentirao ga 1876. godine?",
+        "correct_answer": "Alexander Graham Bell",
+        "incorrect_answers": [
+            "Thomas Edison",
+            "Guglielmo Marconi",
+            "Nikola Tesla"
+        ]
+    },
+    {
+        "id": "hr_sci_649",
+        "category": "znanost",
+        "question": "Koja se bolest uzrokovana nedostatkom vitamina C naziva?",
+        "correct_answer": "Skorbut",
+        "incorrect_answers": [
+            "Rahitis",
+            "Anemija",
+            "Beriberi"
+        ]
+    },
+    {
+        "id": "hr_sci_650",
+        "category": "znanost",
+        "question": "Koji je kemijski element tekuć na sobnoj temperaturi i koristi se u toplomjerima?",
+        "correct_answer": "Živa",
+        "incorrect_answers": [
+            "Galij",
+            "Cezij",
+            "Brom"
+        ]
+    },
+    {
+        "id": "hr_sci_651",
+        "category": "znanost",
+        "question": "Koja se vrsta memorije u računalu briše gubitkom napajanja?",
+        "correct_answer": "RAM",
+        "incorrect_answers": [
+            "ROM",
+            "SSD",
+            "HDD"
+        ]
+    },
+    {
+        "id": "hr_sci_652",
+        "category": "znanost",
+        "question": "Koji je organ odgovoran za filtriranje krvi i stvaranje mokraće?",
+        "correct_answer": "Bubreg",
+        "incorrect_answers": [
+            "Jetra",
+            "Slezena",
+            "Gušterača"
+        ]
+    },
+    {
+        "id": "hr_sci_653",
+        "category": "znanost",
+        "question": "Koja je prosječna udaljenost Zemlje od Sunca nazvana jedna astronomska jedinica?",
+        "correct_answer": "Oko 150 milijuna kilometara",
+        "incorrect_answers": [
+            "Oko 50 milijuna kilometara",
+            "Oko 384 tisuće kilometara",
+            "Oko 300 milijuna kilometara"
+        ]
+    },
+    {
+        "id": "hr_sci_654",
+        "category": "znanost",
+        "question": "Koji je znanstvenik razvio periodni sustav elemenata 1869. godine?",
+        "correct_answer": "Dmitrij Mendeljejev",
+        "incorrect_answers": [
+            "Antoine Lavoisier",
+            "John Dalton",
+            "Ernest Rutherford"
+        ]
+    },
+    {
+        "id": "hr_sci_655",
+        "category": "znanost",
+        "question": "Koja se pojava odnosi na savijanje svjetlosti prilikom prolaska kroz različite medije?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Disperzija"
+        ]
     }
 ]
