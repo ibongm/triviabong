@@ -1,7 +1,7 @@
 import { X, Swords } from 'lucide-react';
 import OnlinePlayersList from './OnlinePlayersList';
 
-export default function OnlinePlayersModal({ isOpen, onClose, currentUid, onInvite }) {
+export default function OnlinePlayersModal({ isOpen, onClose, currentUid, onInvite, players }) {
     if (!isOpen) return null;
 
     return (
@@ -27,7 +27,7 @@ export default function OnlinePlayersModal({ isOpen, onClose, currentUid, onInvi
                     </button>
                 </div>
 
-                <OnlinePlayersList currentUid={currentUid} onInvite={onInvite} />
+                <OnlinePlayersList currentUid={currentUid} onInvite={onInvite} players={players} />
 
                 {/* Footer */}
                 <button

@@ -1,3 +1,5 @@
+import { MAX_TITLED_LEVEL } from '../constants/levelTitles';
+
 // Single source of truth for the game's leveling curve. Level is derived
 // from lifetime xp (+1 per correct answer only, since the economy rebalance
 // - see constants/gameBalance.js and App.jsx's handleAnswer) and is only
@@ -35,4 +37,22 @@ export const computeLevelFromXp = (xp) => {
 export const getCoinsForLevelUp = (newLevel) => {
     const base = newLevel <= 5 ? 3 : 5 + newLevel;
     return base + (newLevel % 10 === 0 ? 25 : 0);
+};
+
+export const TIER_NAMES = ['Novice', 'Contender', 'Veteran', 'Master', 'Grandmaster', 'Trivia Bong'];
+
+// XP/level is uncapped (see computeLevelFromXp above), but the tier/star
+// visuals only have art for levels 1-MAX_TITLED_LEVEL, same range
+// getTitleForLevel clamps to - so a level past that still resolves to the
+// top ("Trivia Bong") tier instead of an out-of-bounds TIER_NAMES index.
+export const getLevelTierIndex = (level) => {
+    const clamped = Math.max(1, Math.min(level || 1, MAX_TITLED_LEVEL));
+    return clamped === MAX_TITLED_LEVEL ? 5 : Math.floor(clamped / 10);
+};
+
+// Visible micro-progression every 2 levels within a 10-level bracket
+// (e.g. level 20 = 1 star, level 22 = 2 stars, level 28 = 5 stars).
+export const getLevelStarCount = (level) => {
+    const clamped = Math.max(1, Math.min(level || 1, MAX_TITLED_LEVEL));
+    return clamped === MAX_TITLED_LEVEL ? 5 : Math.min(5, Math.floor((clamped % 10) / 2) + 1);
 };

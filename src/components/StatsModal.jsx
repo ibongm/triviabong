@@ -1,9 +1,11 @@
 import React from 'react';
-import { X, Trophy, Target, Award, Flame, Zap, BarChart2, Star } from 'lucide-react';
+import { X, Trophy, Target, Award, Flame, Zap, BarChart2 } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { xpForLevel } from '../utils/leveling';
+import { getTitleForLevel } from '../constants/levelTitles';
 import { getVisibleAchievements } from '../constants/achievements';
 import MatchHistoryList from './MatchHistoryList';
+import LevelBadge from './LevelBadge';
 
 export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements, uid }) {
     if (!isOpen) return null;
@@ -54,8 +56,12 @@ export default function StatsModal({ isOpen, onClose, stats, onOpenAchievements,
                 {/* Level / XP Progress */}
                 <div className="bg-slate-950/60 border border-slate-800 rounded-2xl p-4 space-y-2">
                     <div className="flex justify-between items-center">
-                        <span className="flex items-center gap-1.5 text-sm font-black text-white">
-                            <Star className="w-4 h-4 text-amber-400 fill-amber-400" /> Razina {level}
+                        <span className="flex items-center gap-2 text-sm font-black text-white">
+                            <LevelBadge level={level} size="md" />
+                            <span className="flex flex-col leading-tight">
+                                <span>Razina {level}</span>
+                                <span className="text-xs font-semibold text-amber-400/80">{getTitleForLevel(level)}</span>
+                            </span>
                         </span>
                         <span className="text-xs font-bold text-slate-400">
                             {xpIntoLevel} / {xpNeededForNext} XP do sljedeće razine

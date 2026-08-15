@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import {
-  Trophy, HelpCircle, Coins, User, LogOut, ShieldCheck, Star, Volume2, VolumeX
+  Trophy, HelpCircle, Coins, User, LogOut, ShieldCheck, Volume2, VolumeX
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import kvizArenaLogo from './assets/kvizarena-logo.png';
@@ -30,6 +30,7 @@ import { sanitizeDisplayName } from './utils/publicProfile';
 const AdminPanel = React.lazy(() => import('./components/AdminPanel'));
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
+import LevelBadge from './components/LevelBadge';
 import LobbyScreen from './screens/LobbyScreen';
 import LeaderboardScreen from './screens/LeaderboardScreen';
 import PlayingScreen from './screens/PlayingScreen';
@@ -294,6 +295,7 @@ export default function App() {
   // subscription/handler set. total1v1Wins stat update on a win is the
   // one place it reaches into shared globalStats.
   const {
+    onlinePlayers,
     onlinePlayersCount,
     incomingInvites,
     sentInvite,
@@ -1047,11 +1049,11 @@ export default function App() {
           <button
             onClick={() => { sound.playClick(); setShowStatsModal(true); }}
             className="flex items-center gap-2 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
-            title="Razina i Statistika"
+            title={`Razina i Statistika — ${getTitleForLevel(globalStats.level || 1)}`}
           >
             <span className="flex items-center gap-1.5 text-xs font-bold">
-              <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-              <span><span className="hidden sm:inline">Lvl </span>{globalStats.level || 1}</span>
+              <LevelBadge level={globalStats.level || 1} size="micro" showStars={false} />
+              <span className="hidden sm:inline">Lvl</span>
             </span>
             <span className="w-px h-3.5 bg-slate-800" />
             <span className="flex items-center gap-1.5 text-xs font-bold">
@@ -1277,7 +1279,7 @@ export default function App() {
       {levelUpToast && (
         <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 pointer-events-none">
           <div className="pointer-events-auto flex items-center gap-3 bg-slate-900 border border-amber-500/40 text-white rounded-2xl px-5 py-3 shadow-2xl">
-            <Star className="w-6 h-6 text-amber-400 shrink-0" />
+            <LevelBadge level={levelUpToast.level} size="lg" className="shrink-0" />
             <div>
               <p className="text-sm font-bold text-amber-400">Razina {levelUpToast.level}: {levelUpToast.title}</p>
               <p className="text-xs text-slate-400">+{levelUpToast.coins} novčića</p>
@@ -1306,6 +1308,7 @@ export default function App() {
           onClose={() => setShowOnlinePlayersModal(false)}
           currentUid={currentUser.uid}
           onInvite={handleSendInvite}
+          players={onlinePlayers}
         />
       )}
 

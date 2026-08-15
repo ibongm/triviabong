@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { getSessionsForUser } from '../../services/firebase';
 import { summarizeSessionsByPeriod, formatDuration } from '../../utils/sessionStats';
 import { ACHIEVEMENTS } from '../../constants/achievements';
+import { getTitleForLevel } from '../../constants/levelTitles';
+import LevelBadge from '../LevelBadge';
 
 const PERIODS = [
     { key: 'daily', label: 'Danas' },
@@ -64,7 +66,11 @@ export default function AdminPlayerDetail({ user, onClose, onEdit }) {
                 <div className="grid grid-cols-3 gap-3 mb-6">
                     <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 text-center">
                         <p className="text-slate-500 text-xs mb-1">Razina</p>
-                        <p className="text-amber-400 font-bold text-lg">{user.level || 1}</p>
+                        <div className="flex items-center justify-center gap-2">
+                            <LevelBadge level={user.level || 1} size="sm" />
+                            <p className="text-amber-400 font-bold text-lg">{user.level || 1}</p>
+                        </div>
+                        <p className="text-slate-500 text-xs mt-0.5 truncate">{getTitleForLevel(user.level || 1)}</p>
                     </div>
                     <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 text-center">
                         <p className="text-slate-500 text-xs mb-1">XP</p>

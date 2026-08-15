@@ -1,5 +1,7 @@
 import { Star, Zap, Medal, Flame, Trophy, CalendarCheck, CalendarDays } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
+import { getTitleForLevel } from '../constants/levelTitles';
+import LevelBadge from './LevelBadge';
 
 const REKORDI_BOARDS = [
     // 'daily' is a live, date-scoped board (today's Daily Challenge
@@ -70,9 +72,16 @@ export default function RekordiBoards({ data, limitPerBoard = 10, compact = fals
                                     // than once in one board's top N (e.g. a player's best
                                     // score in two different categories) - entry.id/entry.uid
                                     // alone isn't guaranteed unique within this list.
-                                    <li key={`${entry.id || entry.uid || 'x'}-${idx}`} className="flex gap-2">
+                                    <li key={`${entry.id || entry.uid || 'x'}-${idx}`} className="flex items-center gap-2">
                                         <span className="text-amber-400 font-bold w-4 shrink-0">{idx + 1}.</span>
-                                        <span className="truncate">{formatEntry(board, entry)}</span>
+                                        {board.unit === 'level' ? (
+                                            <span className="flex items-center gap-2 truncate">
+                                                <LevelBadge level={entry.level} size="micro" showStars={false} title={getTitleForLevel(entry.level)} />
+                                                <span className="truncate">{entry.displayName}</span>
+                                            </span>
+                                        ) : (
+                                            <span className="truncate">{formatEntry(board, entry)}</span>
+                                        )}
                                     </li>
                                 ))}
                             </ol>

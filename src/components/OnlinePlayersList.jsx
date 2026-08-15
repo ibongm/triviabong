@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Users, Circle, Gamepad2, Clock, Swords } from 'lucide-react';
-import { subscribeToOnlinePlayers } from '../services/firebase';
 import { getAllCategories } from '../data/questionsLoader';
 import { CATEGORY_META } from '../data/categoryMeta';
+import { getTitleForLevel } from '../constants/levelTitles';
+import LevelBadge from './LevelBadge';
 
 // 3x the 30s heartbeat in usePresence.js - tolerates one missed heartbeat
 // (e.g. a brief network hiccup) before a player drops off the list.
@@ -34,19 +35,19 @@ const STATUS_META = {
 // Plan B adds the "Pozovi" (invite) button here, inline rather than a
 // separate modal - only shown for players currently in 'lobby' status
 // (inviting someone mid-round would just sit unseen until they finish).
-export default function OnlinePlayersList({ currentUid, onInvite }) {
-    const [players, setPlayers] = useState(null);
+//
+// `players` is passed down from useOneVsOne's single shared `presence`
+// subscription (see that hook's comment) rather than subscribed to again
+// here - this component used to open its own identical onSnapshot listener
+// on mount, doubling the read/listener cost for as long as the
+// OnlinePlayersModal stayed open.
+export default function OnlinePlayersList({ currentUid, onInvite, players }) {
     const [now, setNow] = useState(() => Date.now());
     const [invitingUid, setInvitingUid] = useState(null);
     const [pickerCategory, setPickerCategory] = useState('');
     const [sendingTo, setSendingTo] = useState(null);
 
     const categories = getAllCategories();
-
-    useEffect(() => {
-        const unsubscribe = subscribeToOnlinePlayers(setPlayers);
-        return unsubscribe;
-    }, []);
 
     // Re-evaluate the online threshold periodically so a ghost entry
     // (heartbeat stopped, doc not yet deleted) actually disappears instead
@@ -101,6 +102,7 @@ export default function OnlinePlayersList({ currentUid, onInvite }) {
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-3">
                                         <Circle className={`w-2.5 h-2.5 fill-current ${meta.dotClass}`} />
+                                        <LevelBadge level={player.level} size="micro" showStars={false} title={getTitleForLevel(player.level)} />
                                         <div>
                                             <span className="font-bold text-slate-200 text-sm block">{player.displayName}</span>
                                             <span className="text-xs text-slate-500">Razina {player.level}</span>

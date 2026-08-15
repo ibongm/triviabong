@@ -23,18 +23,26 @@ import {
 // update is a self-contained functional updater with no other App.jsx
 // dependency, so a callback indirection would add nothing.
 export function useOneVsOne(currentUser, setGlobalStats, recordMatchComplete) {
-    // Lightweight count-only subscription for the lobby's "1v1 Dvoboj" CTA
-    // subtitle - OnlinePlayersList does its own identical subscription for
-    // the full list, but that only mounts once the OnlinePlayersModal is
-    // open, so the CTA needs this separately to show a live count up front.
+    // The single onSnapshot subscription for the whole `presence` collection,
+    // shared by both the lobby's "1v1 Dvoboj" CTA subtitle (which only needs
+    // a count) and OnlinePlayersList (which needs the full list, passed down
+    // as a prop) - previously each subscribed independently, doubling the
+    // Firestore read/listener cost for as long as the online-players modal
+    // was open.
+    const [onlinePlayers, setOnlinePlayers] = useState(null);
+    // Count is derived inside the snapshot callback (an event handler, not
+    // render) rather than from `onlinePlayers` at render time, specifically
+    // so `Date.now()` isn't called during render (React's purity rule).
     const [onlinePlayersCount, setOnlinePlayersCount] = useState(0);
     useEffect(() => {
         if (!currentUser?.uid) return undefined;
         const unsubscribe = subscribeToOnlinePlayers((players) => {
+            setOnlinePlayers(players);
             setOnlinePlayersCount(filterOnlinePlayers(players, currentUser.uid, Date.now()).length);
         });
         return () => {
             unsubscribe();
+            setOnlinePlayers(null);
             setOnlinePlayersCount(0);
         };
     }, [currentUser?.uid]);
@@ -165,6 +173,7 @@ export function useOneVsOne(currentUser, setGlobalStats, recordMatchComplete) {
     };
 
     return {
+        onlinePlayers,
         onlinePlayersCount,
         incomingInvites,
         sentInvite,
