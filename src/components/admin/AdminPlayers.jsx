@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getAllRegisteredUsers, updateUserInFirestore, deleteUserFromFirestore, getAllSessions } from '../../services/firebase';
+import { getAllRegisteredUsers, updateUserInFirestore, deleteUserFromFirestore, getAllSessions, resetAllPlayerProgression } from '../../services/firebase';
 import { sumSessionsByUid, formatDuration } from '../../utils/sessionStats';
 import { computeLevelFromXp } from '../../utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, revokeStaleAchievements } from '../../utils/achievements';
@@ -203,11 +203,58 @@ export default function AdminPlayers() {
         }
     };
 
+    // One-off maintenance action (economy rebalance, 2026-08-15) - resets
+    // level/xp/achievements/every derived stat counter for EVERY registered
+    // player, coins/identity untouched. Irreversible and affects every real
+    // account, so it's gated behind a type-to-confirm prompt rather than a
+    // plain window.confirm, unlike every other action in this file.
+    const [resetBusy, setResetBusy] = useState(false);
+    const handleResetAllProgression = async () => {
+        if (resetBusy) return;
+        const typed = window.prompt(
+            `Ovo će vratiti razinu, XP i trofeje SVIH ${users.length} registriranih igrača na početak (novčići ostaju netaknuti). Ovo se NE MOŽE poništiti.\n\nUpiši RESET za potvrdu:`
+        );
+        if (typed !== 'RESET') return;
+
+        setResetBusy(true);
+        setUsersMessage(null);
+        try {
+            const { succeeded, failed } = await resetAllPlayerProgression();
+            await fetchUsers();
+            if (failed.length === 0) {
+                setUsersMessage({ type: 'success', text: `Napredak resetiran za ${succeeded} igrača.` });
+            } else {
+                const names = failed.slice(0, 3).map(f => f.displayName || f.uid).join(', ');
+                const more = failed.length > 3 ? ` i još ${failed.length - 3}` : '';
+                setUsersMessage({
+                    type: 'error',
+                    text: `Resetirano ${succeeded}, ${failed.length} preskočeno: ${names}${more}.`
+                });
+            }
+        } catch (err) {
+            console.error('Greška pri resetiranju napretka:', err);
+            setUsersMessage({ type: 'error', text: 'Resetiranje nije uspjelo.' });
+        } finally {
+            setResetBusy(false);
+        }
+    };
+
     return (
         <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6">
-            <h2 className="text-lg font-semibold text-amber-400 mb-4 flex items-center gap-2">
-                <span>👥</span> Registrirani Igrači
-            </h2>
+            <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
+                    <span>👥</span> Registrirani Igrači
+                </h2>
+                <button
+                    type="button"
+                    onClick={handleResetAllProgression}
+                    disabled={resetBusy || loading || users.length === 0}
+                    title="Resetira razinu/XP/trofeje SVIH igrača (novčići ostaju) - koristi samo nakon velike promjene ekonomije"
+                    className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                >
+                    {resetBusy ? 'Resetiranje...' : 'Resetiraj napredak svih igrača'}
+                </button>
+            </div>
 
             {usersMessage && (
                 <div className={`text-sm rounded-lg p-3 mb-4 ${usersMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>

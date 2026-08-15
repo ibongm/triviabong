@@ -835,6 +835,66 @@ export const backfillPublicProfiles = async () => {
 };
 
 /**
+ * One-off admin maintenance action: resets every registered player's
+ * level/xp/achievements and every other derived play-stat counter back to
+ * DEFAULT_GLOBAL_STATS' values, EXCEPT `coins` and identity fields
+ * (uid/email/displayName/photoURL/role/lastLogin), which are left
+ * untouched. Companion to the 2026-08-15 economy rebalance / leaderboard
+ * wipe - see CHANGELOG.md. Same batched-write/individual-retry-on-failure
+ * shape as backfillPublicProfiles, for the same reason (one malformed doc
+ * shouldn't block the reset for everyone else).
+ */
+export const resetAllPlayerProgression = async () => {
+    const users = await getAllRegisteredUsers();
+    const BATCH_LIMIT = 500;
+    const failed = [];
+    let succeeded = 0;
+
+    const resetPayload = () => ({
+        level: 1,
+        xp: 0,
+        totalGames: 0,
+        totalAnswered: 0,
+        totalCorrect: 0,
+        maxStreak: 0,
+        totalScore: 0,
+        categoryStats: {},
+        unlockedAchievements: {},
+        lastPlayedDate: null,
+        dayStreak: 0,
+        consecutivePerfectRounds: 0,
+        total1v1Wins: 0,
+        dailyWinStreak: 0,
+        lastDailyWinDate: null,
+        updatedAt: serverTimestamp(),
+    });
+
+    for (let i = 0; i < users.length; i += BATCH_LIMIT) {
+        const chunk = users.slice(i, i + BATCH_LIMIT);
+        try {
+            const batch = writeBatch(db);
+            for (const user of chunk) {
+                batch.set(doc(db, "users", user.uid), resetPayload(), { merge: true });
+            }
+            await batch.commit();
+            succeeded += chunk.length;
+        } catch (error) {
+            console.error("Batch progression reset rejected, retrying writes individually:", error);
+            for (const user of chunk) {
+                try {
+                    await setDoc(doc(db, "users", user.uid), resetPayload(), { merge: true });
+                    succeeded += 1;
+                } catch (userError) {
+                    console.error(`Progression reset failed for ${user.uid}:`, userError);
+                    failed.push({ uid: user.uid, displayName: user.displayName || '' });
+                }
+            }
+        }
+    }
+    return { succeeded, failed };
+};
+
+/**
  * Fetches EVERY score for a category (not capped at 10 like
  * getLeaderboardFromFirestore, which is the gameplay-facing top-10 read),
  * including doc ids, for admin management.
