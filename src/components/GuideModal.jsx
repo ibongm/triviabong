@@ -1,4 +1,4 @@
-import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays, Swords, Trophy, Medal } from 'lucide-react';
+import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays, Swords, Trophy, Medal, Crown, ListChecks, PenSquare } from 'lucide-react';
 import {
     MAX_LIVES,
     QUESTIONS_PER_ROUND,
@@ -24,6 +24,8 @@ import {
     COMMUNITY_QUESTION_APPROVED_COINS
 } from '../constants/gameBalance';
 import { xpForLevel, getCoinsForLevelUp } from '../utils/leveling';
+import { LEVEL_TITLES, getTitleForLevel, MAX_TITLED_LEVEL } from '../constants/levelTitles';
+import { MISSION_REWARDS } from '../constants/missions';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
 
 // All numbers below come from constants/gameBalance.js (and leveling.js /
@@ -98,6 +100,14 @@ export default function GuideModal({ isOpen, onClose }) {
                     <p>Razina se može popeti i usred runde, čim XP pređe sljedeći prag - svaki uspon nosi svoju titulu i novčani bonus.</p>
                 </Section>
 
+                <Section icon={<Crown className="w-4 h-4 text-amber-400" />} title="Titule">
+                    <p>Svaka razina od 1 do {MAX_TITLED_LEVEL} ima vlastitu hrvatsku titulu koja se prikazuje kad postigneš tu razinu.</p>
+                    <p className="text-slate-500 italic">
+                        Razina 1: "{getTitleForLevel(1)}" · Razina 25: "{getTitleForLevel(25)}" · Razina {MAX_TITLED_LEVEL}: "{getTitleForLevel(MAX_TITLED_LEVEL)}".
+                    </p>
+                    <p className="text-slate-500 italic">Sve {LEVEL_TITLES.length} titule možeš vidjeti kako se otključavaju dok napreduješ.</p>
+                </Section>
+
                 <Section icon={<Coins className="w-4 h-4 text-amber-400" />} title="Novčići">
                     <p>Novi igrači kreću s <b className="text-white">{DEFAULT_GLOBAL_STATS.coins}</b> novčića.</p>
                     <p>Niz točnih odgovora u rundi donosi novčiće na ključnim brojevima: <b className="text-white">{COIN_STREAK_MILESTONES[3]}</b> na 3., <b className="text-white">{COIN_STREAK_MILESTONES[5]}</b> na 5., <b className="text-white">{COIN_STREAK_MILESTONES[10]}</b> na 10. uzastopni točan odgovor.</p>
@@ -139,6 +149,18 @@ export default function GuideModal({ isOpen, onClose }) {
                     <p>Igra se {QUESTIONS_PER_ROUND} pitanja - ako je nakon toga neriješeno, odlučuje dodatno pitanje (iznenadna smrt). Jokeri nisu dostupni.</p>
                     <p>Pobjeda donosi <b className="text-white">+{ONE_VS_ONE_WIN_XP} XP</b> i <b className="text-white">+{ONE_VS_ONE_WIN_COINS}</b> novčića.</p>
                     <p className="text-slate-500 italic">Ako protivnik ne odgovori i ne javi se dulje vrijeme, možeš prijaviti predaju i pobijediti. Rezultati dvoboja spremaju se u tvoju povijest, a pobjede se broje za trofej.</p>
+                </Section>
+
+                <Section icon={<ListChecks className="w-4 h-4 text-amber-400" />} title="Dnevne misije">
+                    <p>Svaki dan dobiješ <b className="text-white">3 misije</b> iz rotirajućeg 7-dnevnog rasporeda - jedna za način igre, jedna za određenu kategoriju, jedna raznovrsna.</p>
+                    <p>Svaka dovršena misija donosi <b className="text-white">+{MISSION_REWARDS.SLOT_COMPLETION}</b> novčića. Dovršiš li sve 3 istog dana, dobivaš dodatnih <b className="text-white">+{MISSION_REWARDS.CLEAN_SWEEP_BONUS}</b> novčića bonus.</p>
+                    <p className="text-slate-500 italic">Misije se resetiraju svaki dan u ponoć po zagrebačkom vremenu - nedovršen napredak se ne prenosi. Zahtijeva prijavu. Otvori "Dnevne misije" u predvorju za današnji raspored i preuzimanje nagrada.</p>
+                </Section>
+
+                <Section icon={<PenSquare className="w-4 h-4 text-amber-400" />} title="Zajednica">
+                    <p>Klikom na "Predloži pitanje" u predvorju možeš predložiti novo pitanje za igru - odaberi kategoriju, upiši pitanje, točan odgovor i 3 netočna.</p>
+                    <p>Svako predloženo pitanje pregledava admin prije nego postane dio igre.</p>
+                    <p>Odobreno pitanje donosi <b className="text-white">+{COMMUNITY_QUESTION_APPROVED_XP} XP</b> i <b className="text-white">+{COMMUNITY_QUESTION_APPROVED_COINS}</b> novčića. Zahtijeva prijavu.</p>
                 </Section>
 
                 <Section icon={<Trophy className="w-4 h-4 text-amber-400" />} title="Trofeji">

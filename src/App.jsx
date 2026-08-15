@@ -35,6 +35,7 @@ import LeaderboardScreen from './screens/LeaderboardScreen';
 import PlayingScreen from './screens/PlayingScreen';
 import GameOverScreen from './screens/GameOverScreen';
 import GuideModal from './components/GuideModal';
+import WhatsNewModal from './components/WhatsNewModal';
 import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
@@ -199,6 +200,35 @@ export default function App() {
   const [showSubmitQuestionModal, setShowSubmitQuestionModal] = useState(false);
   const [showMissionsModal, setShowMissionsModal] = useState(false);
   const [showDailyConfirm, setShowDailyConfirm] = useState(false);
+
+  // One-time "what's new" announcement for the 2026-08-15 economy rebalance
+  // (see WhatsNewModal.jsx) - shown once automatically, gated by a
+  // localStorage flag, same one-time-ack idiom as
+  // triviabong_daily_win_ack_*. Not tied to sign-in - anonymous stats are
+  // migrated too. The lazy useState initializer (not an effect) means the
+  // very first render already knows whether to show it, so there's no
+  // flash of the lobby before the modal pops in.
+  const WHATS_NEW_SEEN_KEY = 'triviabong_seen_economy_v2_announcement';
+  const [showWhatsNewModal, setShowWhatsNewModal] = useState(() => !localStorage.getItem(WHATS_NEW_SEEN_KEY));
+  const dismissWhatsNewModal = () => {
+    localStorage.setItem(WHATS_NEW_SEEN_KEY, '1');
+    setShowWhatsNewModal(false);
+  };
+
+  // Lobby banner reminder of the same announcement, visible for a fixed
+  // window after ship rather than tied to the modal's one-time flag (the
+  // user wants it to keep surfacing as a standing reminder even after the
+  // modal's been dismissed) - independently dismissible via its own flag.
+  const ECONOMY_V2_BANNER_CUTOFF = new Date('2026-08-18T00:00:00');
+  const ECONOMY_V2_BANNER_DISMISSED_KEY = 'triviabong_dismissed_economy_v2_banner';
+  const [economyV2BannerDismissed, setEconomyV2BannerDismissed] = useState(
+    () => !!localStorage.getItem(ECONOMY_V2_BANNER_DISMISSED_KEY)
+  );
+  const showEconomyV2Banner = !economyV2BannerDismissed && new Date() < ECONOMY_V2_BANNER_CUTOFF;
+  const dismissEconomyV2Banner = () => {
+    localStorage.setItem(ECONOMY_V2_BANNER_DISMISSED_KEY, '1');
+    setEconomyV2BannerDismissed(true);
+  };
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
   // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
   // read every category's leaderboard, so refetching constantly would be
@@ -435,7 +465,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showDailyConfirm;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showWhatsNewModal || showDailyConfirm;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -1131,6 +1161,9 @@ export default function App() {
             onShowSubmitQuestionModal={() => setShowSubmitQuestionModal(true)}
             onShowMissionsModal={() => setShowMissionsModal(true)}
             missionState={missionState}
+            showEconomyV2Banner={showEconomyV2Banner}
+            onDismissEconomyV2Banner={dismissEconomyV2Banner}
+            onShowGuideModal={() => setShowGuideModal(true)}
           />
         )}
 
@@ -1301,6 +1334,13 @@ export default function App() {
         missionState={missionState}
         onClaimSlot={claimSlot}
         onClaimCleanSweep={claimCleanSweep}
+      />
+
+      {/* What's New Modal (economy rebalance announcement) */}
+      <WhatsNewModal
+        isOpen={showWhatsNewModal}
+        onClose={dismissWhatsNewModal}
+        onOpenGuide={() => { dismissWhatsNewModal(); setShowGuideModal(true); }}
       />
 
       <ConfirmModal

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks } from 'lucide-react';
+import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks, Sparkles } from 'lucide-react';
 import RekordiBoards from '../components/RekordiBoards';
 import { getCategoryDetails, DEFAULT_CATEGORY_COLOR } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
@@ -47,6 +47,9 @@ export default function LobbyScreen({
     onShowSubmitQuestionModal,
     onShowMissionsModal,
     missionState,
+    showEconomyV2Banner,
+    onDismissEconomyV2Banner,
+    onShowGuideModal,
 }) {
     const [now, setNow] = useState(() => new Date());
     useEffect(() => {
@@ -69,6 +72,29 @@ export default function LobbyScreen({
                     Testirajte svoje znanje, skupljajte bodove i penjite se na ljestvicu!
                 </p>
             </div>
+
+            {showEconomyV2Banner && (
+                <div className="flex items-center justify-between gap-3 p-4 bg-amber-500/10 border border-amber-500/30 rounded-2xl">
+                    <p className="text-sm font-bold text-amber-300 flex items-center gap-2">
+                        <Sparkles className="w-4 h-4 shrink-0" />
+                        Nova ekonomija je uživo - razina i XP su resetirani, novčići ostaju.
+                    </p>
+                    <div className="flex items-center gap-3 shrink-0">
+                        <button
+                            onClick={() => { sound.playClick(); onShowGuideModal(); }}
+                            className="text-xs font-bold text-amber-400 hover:text-amber-300"
+                        >
+                            Vodič
+                        </button>
+                        <button
+                            onClick={onDismissEconomyV2Banner}
+                            className="text-xs font-bold text-amber-400/80 hover:text-amber-300"
+                        >
+                            Zatvori
+                        </button>
+                    </div>
+                </div>
+            )}
 
             {sentInvite && (
                 <div className="flex items-center justify-between gap-3 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl">

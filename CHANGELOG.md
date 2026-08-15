@@ -19,3 +19,6 @@
 
 - **Files Changed**: `api/daily-challenge-payout.js`, `src/hooks/useDailyChallenge.js`, `src/components/GuideModal.jsx`
   **Details**: Daily Challenge payout expanded from single-winner-only to top-3 placement (tiered coins/XP, ties handled per-tier) plus a consecutive-1st-place win-streak coin bonus (`dailyWinStreak`/`lastDailyWinDate` on the user doc). Fixed the "you won yesterday" lobby banner, which read a `prizeEach` field this change removed, to instead compute the rank-1 prize from the new tiered/streak data.
+
+- **Files Changed**: `src/components/GuideModal.jsx`, `src/components/WhatsNewModal.jsx` (new), `src/App.jsx`, `src/screens/LobbyScreen.jsx`
+  **Details**: Filled in Vodič's missing sections for the economy rebalance (Titule, Dnevne misije, Zajednica) using live constants, not hardcoded copy. Added a one-time "Što je novo" modal (localStorage-gated, shown once on next load) explaining the rebalance and explicitly calling out that xp/level were reset while coins were preserved, plus a dismissible Lobby banner reminder visible through 2026-08-18.
