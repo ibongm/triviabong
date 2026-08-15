@@ -29,7 +29,7 @@ export default function GameOverScreen({
             </div>
 
             <div className="space-y-1">
-                <h2 className="text-2xl sm:text-3xl font-display font-black text-white">
+                <h2 className="text-2xl sm:text-3xl font-display font-bold text-white">
                     {isVictory ? 'Čestitamo! Pobjeda!' : 'Kraj Igre!'}
                 </h2>
                 <p className="text-slate-400 text-sm">

@@ -65,7 +65,7 @@ export default function LobbyScreen({
     return (
         <div className="space-y-6">
             <div className="text-center space-y-2">
-                <h1 className="text-3xl sm:text-4xl font-display font-black tracking-tight text-white">
+                <h1 className="text-3xl sm:text-4xl font-display font-bold tracking-tight text-white">
                     Izaberi Kategoriju Kvizova
                 </h1>
                 <p className="text-slate-400 text-sm">
