@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import { auth, getAllQuestionSubmissions, updateQuestionSubmissionStatus } from '../../services/firebase';
+import { auth, getAllQuestionSubmissions, updateQuestionSubmissionStatus, awardCommunityQuestionReward } from '../../services/firebase';
+import { COMMUNITY_QUESTION_APPROVED_XP, COMMUNITY_QUESTION_APPROVED_COINS } from '../../constants/gameBalance';
 import { CATEGORY_META } from '../../data/categoryMeta';
 
 const toMillis = (value) => {
@@ -66,14 +67,17 @@ export default function AdminQuestionSubmissions() {
             }
             // added === 0 means the server-side dedup caught it as a duplicate
             // of an already-existing question - still resolve the queue entry
-            // rather than leaving it stuck pending forever.
+            // rather than leaving it stuck pending forever, but skip the
+            // submitter reward since no new question actually landed.
+            const rewarded = data.added > 0;
+            if (rewarded) await awardCommunityQuestionReward(submission.uid);
             await updateQuestionSubmissionStatus(submission.id, 'approved');
             await fetchSubmissions();
             setMessage({
                 type: 'success',
-                text: data.added > 0
-                    ? `Pitanje dodano u kategoriju ${CATEGORY_META[submission.category]?.label || submission.category}.`
-                    : 'Pitanje je već postojalo (duplikat) - prijava označena kao odobrena.',
+                text: rewarded
+                    ? `Pitanje dodano u kategoriju ${CATEGORY_META[submission.category]?.label || submission.category}. Igrač je nagrađen s +${COMMUNITY_QUESTION_APPROVED_XP} XP / +${COMMUNITY_QUESTION_APPROVED_COINS} novčića.`
+                    : 'Pitanje je već postojalo (duplikat) - prijava označena kao odobrena, bez nagrade.',
                 commitUrl: data.commitUrl,
             });
         } catch {

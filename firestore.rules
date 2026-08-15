@@ -71,6 +71,16 @@ service cloud.firestore {
             && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is int && request.resource.data.achievementCount >= 0 && request.resource.data.achievementCount <= 100)));
 
       allow delete: if isAdmin();
+
+      // Daily micro-missions (7-day rotating schedule, see
+      // src/constants/missions.js) - one doc per Zagreb calendar date under
+      // the owning user, tracking that day's 3 slot progress. Owner-only,
+      // same "signed-in required" gate as Daily Challenge/sessions - there's
+      // no anonymous mission tracking. dateKey format matches
+      // getZagrebDateString()'s YYYY-MM-DD output.
+      match /missions/{dateKey} {
+        allow read, write: if isOwner(uid) && dateKey.matches('[0-9]{4}-[0-9]{2}-[0-9]{2}');
+      }
     }
 
     match /leaderboards/{categoryKey}/scores/{scoreId} {

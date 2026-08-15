@@ -1,6 +1,7 @@
-// Scheduled Vercel Cron endpoint: pays out DAILY_CHALLENGE_WINNER_PRIZE
-// coins to whoever held rank #1 (all ties, in full) on yesterday's Daily
-// Challenge leaderboard, once Zagreb's calendar day has rolled over.
+// Scheduled Vercel Cron endpoint: pays out top-3 placement coins/XP (all
+// ties within a tier, in full) on yesterday's Daily Challenge leaderboard,
+// once Zagreb's calendar day has rolled over, plus a consecutive-days-at-
+// rank-1 win-streak coin bonus for whoever placed 1st.
 //
 // Uses the Firebase Admin SDK (not the client SDK) because crediting coins
 // to an arbitrary uid is something no browser client should ever be able to
@@ -23,7 +24,12 @@
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
 import { getFirestore, FieldValue } from 'firebase-admin/firestore';
 
-const DAILY_CHALLENGE_WINNER_PRIZE = 20; // mirrors src/constants/gameBalance.js - keep in sync manually
+// mirrors src/constants/gameBalance.js - keep in sync manually (see that
+// file's Phase 11 note on why these are inlined rather than imported: this
+// serverless function isn't guaranteed to resolve ESM imports from src/).
+const DAILY_CHALLENGE_TOP3_COINS = { 1: 20, 2: 10, 3: 5 };
+const DAILY_CHALLENGE_TOP3_XP = { 1: 30, 2: 15, 3: 10 };
+const DAILY_CHALLENGE_WIN_STREAK_COINS = { 1: 1, 2: 3, 3: 5, 4: 10, 5: 20, 6: 25, 7: 50 };
 
 const getAdminDb = () => {
     if (getApps().length === 0) {
@@ -51,6 +57,19 @@ const getYesterdayZagrebDateKey = () => {
     return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(zagrebNow);
 };
 
+// Calendar-date arithmetic on a YYYY-MM-DD string, treated as a pure
+// calendar day (UTC-anchored, no timezone conversion) - used only to check
+// "was yesterday's win-streak date the day immediately before today's
+// payout date", which is a calendar comparison, not a timezone one (the
+// Zagreb-vs-UTC conversion already happened once, in
+// getYesterdayZagrebDateKey, when the date string was produced).
+const addDaysToDateKey = (dateKey, delta) => {
+    const [y, m, d] = dateKey.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    dt.setUTCDate(dt.getUTCDate() + delta);
+    return dt.toISOString().slice(0, 10);
+};
+
 export default async function handler(req, res) {
     const authHeader = req.headers.authorization || '';
     if (!process.env.CRON_SECRET || authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
@@ -67,6 +86,7 @@ export default async function handler(req, res) {
     }
 
     const date = getYesterdayZagrebDateKey();
+    const previousDate = addDaysToDateKey(date, -1);
     const metaRef = db.collection('dailyMeta').doc(date);
 
     try {
@@ -76,11 +96,12 @@ export default async function handler(req, res) {
                 return { alreadyProcessed: true, winners: metaSnap.data().winners || [] };
             }
 
-            // Ties are rare but the payout rule ("every tied player gets the
-            // full prize, no split") means we can't just take the single
-            // top doc - fetch a generous window and filter down to the
-            // actual top score. 100 simultaneous #1 ties in one day is not a
-            // realistic scenario for this app's scale.
+            // Ties are rare but the payout rule ("every tied player in a
+            // tier gets that tier's full reward, no split") means we can't
+            // just take the top 3 docs - fetch a generous window and group
+            // by distinct score into up to 3 tiers. 100 players across the
+            // top 3 distinct scores combined is not a realistic scenario for
+            // this app's scale.
             const topSnap = await tx.get(
                 db.collection('dailyLeaderboards').doc(date).collection('scores')
                     .orderBy('score', 'desc')
@@ -91,30 +112,75 @@ export default async function handler(req, res) {
                 tx.set(metaRef, {
                     payoutProcessed: true,
                     winners: [],
-                    prizeEach: DAILY_CHALLENGE_WINNER_PRIZE,
                     processedAt: FieldValue.serverTimestamp()
                 });
                 return { alreadyProcessed: false, winners: [] };
             }
 
-            const topScore = topSnap.docs[0].data().score;
-            const winnerDocs = topSnap.docs.filter(d => d.data().score === topScore);
-            const winners = winnerDocs.map(d => ({ uid: d.data().uid, name: d.data().name }));
-
-            for (const w of winnerDocs) {
-                const userRef = db.collection('users').doc(w.data().uid);
-                // set+merge rather than update: a winner's users/{uid} doc
-                // should always exist (Daily Challenge requires sign-in),
-                // but merge avoids a hard failure on the unlikely case it
-                // doesn't, instead of aborting the whole payout transaction.
-                tx.set(userRef, { coins: FieldValue.increment(DAILY_CHALLENGE_WINNER_PRIZE) }, { merge: true });
+            const tiers = [];
+            for (const doc of topSnap.docs) {
+                const { score, uid, name } = doc.data();
+                let tier = tiers.find(t => t.score === score);
+                if (!tier) {
+                    if (tiers.length >= 3) continue; // already have 3 distinct-score tiers
+                    tier = { rank: tiers.length + 1, score, players: [] };
+                    tiers.push(tier);
+                }
+                tier.players.push({ uid, name });
             }
+
+            // Firestore transactions require every read before any write -
+            // rank-1 players' current win-streak state has to be read here,
+            // before the payout writes below.
+            const rank1 = tiers.find(t => t.rank === 1);
+            const rank1UserSnaps = rank1
+                ? await Promise.all(rank1.players.map(p => tx.get(db.collection('users').doc(p.uid))))
+                : [];
+
+            // Top-3 placement coins/XP - every player in every tier.
+            for (const tier of tiers) {
+                const coins = DAILY_CHALLENGE_TOP3_COINS[tier.rank] || 0;
+                const xp = DAILY_CHALLENGE_TOP3_XP[tier.rank] || 0;
+                for (const p of tier.players) {
+                    const userRef = db.collection('users').doc(p.uid);
+                    // set+merge rather than update: a winner's users/{uid}
+                    // doc should always exist (Daily Challenge requires
+                    // sign-in), but merge avoids a hard failure on the
+                    // unlikely case it doesn't, instead of aborting the
+                    // whole payout transaction.
+                    tx.set(userRef, { coins: FieldValue.increment(coins), xp: FieldValue.increment(xp) }, { merge: true });
+                }
+            }
+
+            // Win-streak bonus - rank-1 only. A streak continues only if
+            // the player's last 1st-place win was exactly yesterday
+            // (relative to this payout's date); any gap resets it to 1.
+            const winStreakAwards = [];
+            if (rank1) {
+                rank1.players.forEach((p, i) => {
+                    const snap = rank1UserSnaps[i];
+                    const prevStreak = snap.exists ? (snap.data().dailyWinStreak || 0) : 0;
+                    const prevWinDate = snap.exists ? snap.data().lastDailyWinDate : null;
+                    const newStreak = prevWinDate === previousDate ? prevStreak + 1 : 1;
+                    const streakCoins = DAILY_CHALLENGE_WIN_STREAK_COINS[Math.min(newStreak, 7)] || 0;
+
+                    const userRef = db.collection('users').doc(p.uid);
+                    tx.set(userRef, {
+                        dailyWinStreak: newStreak,
+                        lastDailyWinDate: date,
+                        coins: FieldValue.increment(streakCoins),
+                    }, { merge: true });
+                    winStreakAwards.push({ uid: p.uid, newStreak, streakCoins });
+                });
+            }
+
+            const winners = tiers.flatMap(t => t.players.map(p => ({ ...p, rank: t.rank })));
 
             tx.set(metaRef, {
                 payoutProcessed: true,
                 winners,
-                topScore,
-                prizeEach: DAILY_CHALLENGE_WINNER_PRIZE,
+                tiers: tiers.map(t => ({ rank: t.rank, score: t.score, count: t.players.length })),
+                winStreakAwards,
                 processedAt: FieldValue.serverTimestamp()
             });
 

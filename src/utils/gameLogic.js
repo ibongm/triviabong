@@ -1,16 +1,48 @@
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
 import {
   XP_PER_CORRECT_ANSWER,
-  COIN_STREAK_BONUS_INTERVAL,
-  COIN_STREAK_BONUS_AMOUNT,
-  COIN_LEVEL_UP_BONUS,
-  COIN_PER_ROUND_COMPLETE,
-  COIN_PERFECT_ROUND_BONUS,
-  PERFECT_ROUND_XP_BONUS,
+  COIN_STREAK_MILESTONES,
+  ACHIEVEMENT_NORMAL_XP,
+  ACHIEVEMENT_NORMAL_COINS,
+  ACHIEVEMENT_HIDDEN_XP,
+  ACHIEVEMENT_HIDDEN_COINS,
   QUESTION_TIME_SECONDS
 } from '../constants/gameBalance';
-import { computeLevelFromXp } from './leveling';
+import { ACHIEVEMENTS } from '../constants/achievements';
+import { computeLevelFromXp, getCoinsForLevelUp } from './leveling';
+import { getTitleForLevel } from '../constants/levelTitles';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './achievements';
+
+/**
+ * Applies the xp/coins reward for a batch of newly-unlocked achievement ids
+ * (normal vs hidden payout, per constants/gameBalance.js) on top of `stats`,
+ * and folds in any level-up(s) the reward xp itself triggers - so an
+ * achievement earned right at a level boundary still pays out the level-up
+ * coin bonus and pushes its own LEVEL_UP event, same as XP from an answer
+ * would. Returns the updated stats plus any LEVEL_UP events to push.
+ */
+const applyAchievementRewards = (stats, newlyUnlockedIds) => {
+  let xp = stats.xp || 0;
+  let coins = stats.coins || 0;
+  let level = stats.level || 1;
+  const levelUpEvents = [];
+
+  for (const id of newlyUnlockedIds) {
+    const isHidden = ACHIEVEMENTS.find((a) => a.id === id)?.hidden === true;
+    xp += isHidden ? ACHIEVEMENT_HIDDEN_XP : ACHIEVEMENT_NORMAL_XP;
+    coins += isHidden ? ACHIEVEMENT_HIDDEN_COINS : ACHIEVEMENT_NORMAL_COINS;
+
+    const computedLevel = computeLevelFromXp(xp);
+    if (computedLevel > level) {
+      const levelCoins = getCoinsForLevelUp(computedLevel);
+      coins += levelCoins;
+      levelUpEvents.push({ type: 'LEVEL_UP', level: computedLevel, coins: levelCoins, title: getTitleForLevel(computedLevel) });
+      level = computedLevel;
+    }
+  }
+
+  return { stats: { ...stats, xp, coins, level }, levelUpEvents };
+};
 
 /**
  * Pure function to apply game state updates to globalStats and round state.
@@ -42,8 +74,10 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
       };
       const newlyUnlocked = evaluateAchievements(nextStats, {});
       if (newlyUnlocked.length > 0) {
-        nextStats.unlockedAchievements = mergeUnlockedAchievements(nextStats, newlyUnlocked);
+        const { stats: rewarded, levelUpEvents } = applyAchievementRewards(nextStats, newlyUnlocked);
+        nextStats = { ...rewarded, unlockedAchievements: mergeUnlockedAchievements(nextStats, newlyUnlocked) };
         events.push({ type: 'ACHIEVEMENTS_UNLOCKED', achievements: newlyUnlocked });
+        events.push(...levelUpEvents);
       }
       break;
     }
@@ -73,11 +107,14 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
         const leveledUp = computedLevel > level;
         level = Math.max(level, computedLevel);
 
-        const streakCoins = (newStreak % COIN_STREAK_BONUS_INTERVAL === 0 ? COIN_STREAK_BONUS_AMOUNT : 0);
-        const levelCoins = leveledUp ? COIN_LEVEL_UP_BONUS : 0;
+        // newStreak increments by exactly 1 each correct answer, so each of
+        // COIN_STREAK_MILESTONES' keys (3/5/10) fires exactly once per round
+        // naturally - no extra tracking needed.
+        const streakCoins = COIN_STREAK_MILESTONES[newStreak] ?? 0;
+        const levelCoins = leveledUp ? getCoinsForLevelUp(level) : 0;
         coins += streakCoins + levelCoins;
 
-        if (leveledUp) events.push({ type: 'LEVEL_UP', level });
+        if (leveledUp) events.push({ type: 'LEVEL_UP', level, coins: levelCoins, title: getTitleForLevel(level) });
       }
 
       nextStats = {
@@ -109,8 +146,10 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
 
       const newlyUnlocked = evaluateAchievements(nextStats, ctx);
       if (newlyUnlocked.length > 0) {
-        nextStats.unlockedAchievements = mergeUnlockedAchievements(nextStats, newlyUnlocked);
+        const { stats: rewarded, levelUpEvents } = applyAchievementRewards(nextStats, newlyUnlocked);
+        nextStats = { ...rewarded, unlockedAchievements: mergeUnlockedAchievements(nextStats, newlyUnlocked) };
         events.push({ type: 'ACHIEVEMENTS_UNLOCKED', achievements: newlyUnlocked });
+        events.push(...levelUpEvents);
       }
       break;
     }
@@ -125,14 +164,18 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
         isVictory = false
       } = action;
 
-      const newXp = (nextStats.xp || 0) + (isPerfect ? PERFECT_ROUND_XP_BONUS : 0);
+      // Round-completion/perfect-round income was cut in the economy
+      // rebalance (2026-08) - xp only grows per-answer now (see the ANSWER
+      // case above), and the only coin source left here is a level-up that
+      // crossed the finish line on the round's last correct answer without
+      // having already fired from the ANSWER case (defensive: ANSWER already
+      // handles the common case, this only covers a stats shape where xp
+      // grew without going through ANSWER, e.g. future non-gameplay callers).
+      const newXp = nextStats.xp || 0;
       const prevLevel = nextStats.level || 1;
       const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
       const leveledUp = newLevel > prevLevel;
-
-      const coinsEarned = COIN_PER_ROUND_COMPLETE
-        + (isPerfect ? COIN_PERFECT_ROUND_BONUS : 0)
-        + (leveledUp ? COIN_LEVEL_UP_BONUS : 0);
+      const coinsEarned = leveledUp ? getCoinsForLevelUp(newLevel) : 0;
 
       nextStats = {
         ...nextStats,
@@ -142,7 +185,7 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
         consecutivePerfectRounds: isPerfect ? (nextStats.consecutivePerfectRounds || 0) + 1 : 0
       };
 
-      if (leveledUp) events.push({ type: 'LEVEL_UP', level: newLevel });
+      if (leveledUp) events.push({ type: 'LEVEL_UP', level: newLevel, coins: coinsEarned, title: getTitleForLevel(newLevel) });
 
       const ctx = {
         isPerfect,
@@ -156,8 +199,10 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
 
       const newlyUnlocked = evaluateAchievements(nextStats, ctx);
       if (newlyUnlocked.length > 0) {
-        nextStats.unlockedAchievements = mergeUnlockedAchievements(nextStats, newlyUnlocked);
+        const { stats: rewarded, levelUpEvents } = applyAchievementRewards(nextStats, newlyUnlocked);
+        nextStats = { ...rewarded, unlockedAchievements: mergeUnlockedAchievements(nextStats, newlyUnlocked) };
         events.push({ type: 'ACHIEVEMENTS_UNLOCKED', achievements: newlyUnlocked });
+        events.push(...levelUpEvents);
       }
       break;
     }
@@ -174,8 +219,10 @@ export function applyAnswer(stats = DEFAULT_GLOBAL_STATS, round = {}, action = {
       };
       const newlyUnlocked = evaluateAchievements(nextStats, ctx);
       if (newlyUnlocked.length > 0) {
-        nextStats.unlockedAchievements = mergeUnlockedAchievements(nextStats, newlyUnlocked);
+        const { stats: rewarded, levelUpEvents } = applyAchievementRewards(nextStats, newlyUnlocked);
+        nextStats = { ...rewarded, unlockedAchievements: mergeUnlockedAchievements(nextStats, newlyUnlocked) };
         events.push({ type: 'ACHIEVEMENTS_UNLOCKED', achievements: newlyUnlocked });
+        events.push(...levelUpEvents);
       }
       break;
     }

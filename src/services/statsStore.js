@@ -1,7 +1,7 @@
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
 import { xpForLevel } from '../utils/leveling';
 
-export const CURRENT_STATS_VERSION = 1;
+export const CURRENT_STATS_VERSION = 2;
 
 /**
  * Account-scoped localStorage key generator.
@@ -27,7 +27,18 @@ export const MIGRATIONS = [
       xp: safeXp,
       statsVersion: 1
     };
-  }
+  },
+  // Migration 1 -> 2: Honest level/XP reset for the economy rebalance's new
+  // XP curve (see leveling.js). Coins are preserved - only xp/level restart
+  // from scratch, since the old curve's XP totals have no honest mapping
+  // onto the new one. Any broader reset (including coins) is a manual admin
+  // action, not something this migration does.
+  (stats) => ({
+    ...stats,
+    xp: 0,
+    level: 1,
+    statsVersion: 2
+  })
 ];
 
 /**

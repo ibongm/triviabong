@@ -27,11 +27,13 @@ import {
     writeBatch,
     connectFirestoreEmulator,
     runTransaction,
-    onSnapshot
+    onSnapshot,
+    increment
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
 import { buildPublicProfileFields } from "../utils/publicProfile";
+import { COMMUNITY_QUESTION_APPROVED_XP, COMMUNITY_QUESTION_APPROVED_COINS } from "../constants/gameBalance";
 
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAlWaXV43v307yaC85OaABp62U6Z7m8OiA",
@@ -310,6 +312,60 @@ export const getAllQuestionSubmissions = async () => {
  */
 export const updateQuestionSubmissionStatus = async (id, status) => {
     await updateDoc(doc(db, 'questionSubmissions', id), { status });
+};
+
+/**
+ * Awards the submitter's community-question-approved xp/coins on their
+ * users/{uid} doc, called by AdminQuestionSubmissions.jsx right after a
+ * successful /api/questions add. Uses increment() rather than a read-modify-
+ * write so a concurrent write (the player playing a round at the same
+ * moment an admin approves) can't clobber either update. Level is NOT
+ * recomputed here - firestore.rules' admin branch allows any update, but
+ * this app has no server-side computeLevelFromXp equivalent; the player's
+ * own client recalculates level from xp the next time they play, same
+ * tradeoff as the Daily Challenge payout cron.
+ */
+export const awardCommunityQuestionReward = async (uid) => {
+    if (!uid) return;
+    try {
+        await updateDoc(doc(db, 'users', uid), {
+            xp: increment(COMMUNITY_QUESTION_APPROVED_XP),
+            coins: increment(COMMUNITY_QUESTION_APPROVED_COINS),
+        });
+    } catch (error) {
+        console.error('Error awarding community question reward:', error);
+    }
+};
+
+/**
+ * Reads today's (or any given date's) daily-missions progress doc for a
+ * signed-in player - users/{uid}/missions/{dateKey}, see firestore.rules.
+ * Returns null if the player hasn't started today's missions yet (or is
+ * signed out) - useDailyMissions.js treats that as "initialize fresh".
+ */
+export const getDailyMissionsState = async (uid, dateKey) => {
+    if (!uid) return null;
+    try {
+        const snap = await getDoc(doc(db, 'users', uid, 'missions', dateKey));
+        return snap.exists() ? snap.data() : null;
+    } catch (error) {
+        console.error('Error fetching daily missions state:', error);
+        return null;
+    }
+};
+
+/**
+ * Write-through save for the daily-missions doc - called after every local
+ * progress/claim update by useDailyMissions.js, same "localStorage first,
+ * Firestore write-through" pattern as the rest of globalStats.
+ */
+export const saveDailyMissionsState = async (uid, dateKey, state) => {
+    if (!uid) return;
+    try {
+        await setDoc(doc(db, 'users', uid, 'missions', dateKey), state);
+    } catch (error) {
+        console.error('Error saving daily missions state:', error);
+    }
 };
 
 /**

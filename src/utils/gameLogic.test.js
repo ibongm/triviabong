@@ -1,9 +1,21 @@
 import { describe, it, expect, vi, afterEach } from 'vitest';
 import { applyAnswer } from './gameLogic';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
-import { XP_PER_CORRECT_ANSWER, COIN_STREAK_BONUS_INTERVAL, COIN_STREAK_BONUS_AMOUNT, COIN_LEVEL_UP_BONUS, COIN_PER_ROUND_COMPLETE, COIN_PERFECT_ROUND_BONUS, PERFECT_ROUND_XP_BONUS } from '../constants/gameBalance';
+import { XP_PER_CORRECT_ANSWER, COIN_STREAK_MILESTONES } from '../constants/gameBalance';
+import { getCoinsForLevelUp } from './leveling';
+import { getTitleForLevel } from '../constants/levelTitles';
+import { ACHIEVEMENTS } from '../constants/achievements';
 
 afterEach(() => vi.useRealTimers());
+
+// Pre-unlocked so evaluateAchievements (called internally by applyAnswer)
+// never fires a real achievement mid-test - achievements now pay real
+// xp/coins (see gameLogic.js's applyAchievementRewards), and several checks
+// here would otherwise spuriously trigger off these tests' fixture values
+// (e.g. first_blood on any totalCorrect >= 1, lightning_reflexes on the
+// default 20s timeLeft, early_bird on the real wall-clock hour) and pollute
+// the exact xp/coin assertions below.
+const ALL_ACHIEVEMENTS_UNLOCKED = Object.fromEntries(ACHIEVEMENTS.map((a) => [a.id, true]));
 
 describe('applyAnswer START_ROUND', () => {
     it('increments totalGames and updates the day streak', () => {
@@ -18,7 +30,7 @@ describe('applyAnswer START_ROUND', () => {
 
 describe('applyAnswer ANSWER', () => {
     it('a correct answer grants XP and increments totalCorrect/totalAnswered', () => {
-        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 0, level: 1, unlockedAchievements: {} };
+        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 0, level: 1, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
         const { stats: next } = applyAnswer(stats, {}, {
             type: 'ANSWER', isCorrect: true, pointsEarned: 150, category: 'sport', newStreak: 1,
         });
@@ -30,7 +42,7 @@ describe('applyAnswer ANSWER', () => {
     });
 
     it('a wrong answer increments totalAnswered but not totalCorrect or xp', () => {
-        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 5, unlockedAchievements: {} };
+        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 5, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
         const { stats: next } = applyAnswer(stats, {}, {
             type: 'ANSWER', isCorrect: false, category: 'sport', newStreak: 0,
         });
@@ -39,26 +51,26 @@ describe('applyAnswer ANSWER', () => {
         expect(next.totalCorrect).toBe(0);
     });
 
-    it('awards a streak-interval coin bonus exactly on the interval, not off by one', () => {
-        const stats = { ...DEFAULT_GLOBAL_STATS, coins: 0, xp: 0, level: 1, unlockedAchievements: {} };
-        const onInterval = applyAnswer(stats, {}, {
-            type: 'ANSWER', isCorrect: true, newStreak: COIN_STREAK_BONUS_INTERVAL,
+    it('awards a streak-milestone coin bonus exactly at 3/5/10, not off by one', () => {
+        const stats = { ...DEFAULT_GLOBAL_STATS, coins: 0, xp: 0, level: 1, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
+        const onMilestone = applyAnswer(stats, {}, {
+            type: 'ANSWER', isCorrect: true, newStreak: 3,
         }).stats;
-        expect(onInterval.coins).toBe(COIN_STREAK_BONUS_AMOUNT);
+        expect(onMilestone.coins).toBe(COIN_STREAK_MILESTONES[3]);
 
-        const offInterval = applyAnswer(stats, {}, {
-            type: 'ANSWER', isCorrect: true, newStreak: COIN_STREAK_BONUS_INTERVAL - 1,
+        const offMilestone = applyAnswer(stats, {}, {
+            type: 'ANSWER', isCorrect: true, newStreak: 4,
         }).stats;
-        expect(offInterval.coins).toBe(0);
+        expect(offMilestone.coins).toBe(0);
     });
 
-    it('awards a level-up coin bonus and a LEVEL_UP event only when xp crosses a level boundary', () => {
-        const stats = { ...DEFAULT_GLOBAL_STATS, coins: 0, xp: 19, level: 1, unlockedAchievements: {} };
+    it('awards a level-up coin bonus and a LEVEL_UP event (with title) only when xp crosses a level boundary', () => {
+        const stats = { ...DEFAULT_GLOBAL_STATS, coins: 0, xp: 24, level: 1, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
         const { stats: next, events } = applyAnswer(stats, {}, { type: 'ANSWER', isCorrect: true, newStreak: 1 });
-        expect(next.xp).toBe(20);
+        expect(next.xp).toBe(25);
         expect(next.level).toBe(2);
-        expect(next.coins).toBe(COIN_LEVEL_UP_BONUS);
-        expect(events).toContainEqual({ type: 'LEVEL_UP', level: 2 });
+        expect(next.coins).toBe(getCoinsForLevelUp(2));
+        expect(events).toContainEqual({ type: 'LEVEL_UP', level: 2, coins: getCoinsForLevelUp(2), title: getTitleForLevel(2) });
     });
 
     it('level never decreases even if xp math would suggest otherwise (Math.max guard)', () => {
@@ -76,18 +88,19 @@ describe('applyAnswer ANSWER', () => {
 });
 
 describe('applyAnswer ROUND_END', () => {
-    it('a perfect round grants the perfect-round XP bonus and coin bonus', () => {
-        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 0, level: 1, coins: 0, unlockedAchievements: {} };
+    it('grants no direct xp/coin income - round-completion/perfect-round payouts were cut', () => {
+        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 0, level: 1, coins: 0, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
         const { stats: next } = applyAnswer(stats, {}, { type: 'ROUND_END', isPerfect: true, finalScore: 1000 });
-        expect(next.xp).toBe(PERFECT_ROUND_XP_BONUS);
-        expect(next.coins).toBe(COIN_PER_ROUND_COMPLETE + COIN_PERFECT_ROUND_BONUS);
+        expect(next.xp).toBe(0);
+        expect(next.coins).toBe(0);
     });
 
-    it('a non-perfect round only grants the base completion coin', () => {
-        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 0, coins: 0, unlockedAchievements: {} };
-        const { stats: next } = applyAnswer(stats, {}, { type: 'ROUND_END', isPerfect: false, finalScore: 100 });
-        expect(next.xp).toBe(0);
-        expect(next.coins).toBe(COIN_PER_ROUND_COMPLETE);
+    it('still awards a level-up coin bonus if xp already crossed a boundary going in', () => {
+        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 25, level: 1, coins: 0, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
+        const { stats: next, events } = applyAnswer(stats, {}, { type: 'ROUND_END', isPerfect: false, finalScore: 100 });
+        expect(next.level).toBe(2);
+        expect(next.coins).toBe(getCoinsForLevelUp(2));
+        expect(events).toContainEqual({ type: 'LEVEL_UP', level: 2, coins: getCoinsForLevelUp(2), title: getTitleForLevel(2) });
     });
 
     it('tracks consecutivePerfectRounds, resetting to 0 on a non-perfect round', () => {

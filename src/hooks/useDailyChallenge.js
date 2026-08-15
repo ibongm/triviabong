@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { getDailyAttemptStatus, getDailyMeta, getDailyLeaderboard } from '../services/firebase';
 import { getZagrebDateString } from '../utils/achievements';
+import { DAILY_CHALLENGE_TOP3_COINS } from '../constants/gameBalance';
 
 // Daily Challenge state/effects, extracted out of App.jsx. Deliberately
 // does NOT own startDailyChallengeAttempt/submitDaily/launchDailyChallengeRound
@@ -78,8 +79,15 @@ export function useDailyChallenge(currentUser, gameState) {
             const meta = await getDailyMeta(yesterday);
             if (cancelled || !meta?.payoutProcessed) return;
 
-            const won = (meta.winners || []).some(w => w.uid === currentUser.uid);
-            if (won) setDailyWinAnnouncement({ date: yesterday, prize: meta.prizeEach });
+            // "Won" means rank 1 specifically - meta.winners now covers all
+            // 3 payout tiers (see api/daily-challenge-payout.js), but this
+            // banner's copy ("Osvojio/la si...") is a 1st-place announcement.
+            const won = (meta.winners || []).some(w => w.uid === currentUser.uid && w.rank === 1);
+            if (won) {
+                const streakAward = (meta.winStreakAwards || []).find(w => w.uid === currentUser.uid);
+                const prize = DAILY_CHALLENGE_TOP3_COINS[1] + (streakAward?.streakCoins || 0);
+                setDailyWinAnnouncement({ date: yesterday, prize });
+            }
         })();
         return () => { cancelled = true; };
     }, [currentUser]);

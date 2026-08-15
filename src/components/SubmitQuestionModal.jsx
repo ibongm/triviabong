@@ -19,7 +19,7 @@ const EMPTY_FORM = {
 // state machine, same modal chrome). Requires sign-in - App.jsx only opens
 // this after LobbyScreen's entry point has already gated on currentUser,
 // same pattern as the 1v1 Dvoboj card.
-export default function SubmitQuestionModal({ isOpen, onClose, uid }) {
+export default function SubmitQuestionModal({ isOpen, onClose, uid, onSubmitted }) {
     const [form, setForm] = useState(EMPTY_FORM);
     const [status, setStatus] = useState('idle'); // idle | sending | sent | error
     const [errorReason, setErrorReason] = useState('');
@@ -52,6 +52,10 @@ export default function SubmitQuestionModal({ isOpen, onClose, uid }) {
         });
         if (ok) {
             setStatus('sent');
+            // Fires the SUBMIT_QUESTION daily-mission slot on successful
+            // submission, not on later admin approval - see useDailyMissions.js
+            // and the locked design decision this mirrors.
+            onSubmitted?.();
         } else {
             setStatus('error');
             setErrorReason('Slanje nije uspjelo. Pokušaj ponovno.');

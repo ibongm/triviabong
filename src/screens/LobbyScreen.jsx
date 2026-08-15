@@ -1,11 +1,33 @@
-import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks } from 'lucide-react';
 import RekordiBoards from '../components/RekordiBoards';
 import { getCategoryDetails, DEFAULT_CATEGORY_COLOR } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
 
-// Props-only extraction of App.jsx's LOBBY render block - no internal
-// state of its own, only what App.jsx already owns. Kept in the same
-// component-per-gameState shape App.jsx's render switch already used.
+// Minutes:seconds remaining until the next Zagreb-local midnight, for the
+// missions widget's reset countdown. Recomputed from wall-clock `now`
+// rather than a fixed target captured once, so it stays correct across a
+// DST transition mid-session (rare, but a fixed-target countdown would
+// silently drift by an hour on the transition day).
+const zagrebMsUntilMidnight = (now) => {
+    const zagrebNowStr = now.toLocaleString('en-US', { timeZone: 'Europe/Zagreb' });
+    const zagrebNow = new Date(zagrebNowStr);
+    const nextMidnight = new Date(zagrebNow);
+    nextMidnight.setHours(24, 0, 0, 0);
+    return nextMidnight.getTime() - zagrebNow.getTime();
+};
+
+const formatCountdown = (ms) => {
+    const totalMinutes = Math.max(0, Math.floor(ms / 60000));
+    const h = Math.floor(totalMinutes / 60);
+    const m = totalMinutes % 60;
+    return `${h}h ${m}m`;
+};
+
+// Props-only extraction of App.jsx's LOBBY render block, plus one small
+// piece of self-contained UI state (the missions countdown ticker) - same
+// pattern MatchView.jsx's `now` ticker uses, not routed through App.jsx
+// since nothing outside this component needs it.
 export default function LobbyScreen({
     sentInvite,
     onCancelSentInvite,
@@ -23,7 +45,20 @@ export default function LobbyScreen({
     onShowRekordiModal,
     rekordiData,
     onShowSubmitQuestionModal,
+    onShowMissionsModal,
+    missionState,
 }) {
+    const [now, setNow] = useState(() => new Date());
+    useEffect(() => {
+        const interval = setInterval(() => setNow(new Date()), 60000);
+        return () => clearInterval(interval);
+    }, []);
+
+    const completedSlots = missionState
+        ? ['slot1', 'slot2', 'slot3'].filter((k) => missionState.slots[k].completed).length
+        : 0;
+    const allDone = completedSlots === 3;
+
     return (
         <div className="space-y-6">
             <div className="text-center space-y-2">
@@ -116,6 +151,29 @@ export default function LobbyScreen({
                     <ChevronRight className="w-4 h-4 text-emerald-500/60 group-hover:text-emerald-400 transition-colors" />
                 </button>
             </div>
+            <button
+                onClick={() => {
+                    if (!currentUser) { onShowAuthModal(); return; }
+                    sound.playClick();
+                    onShowMissionsModal();
+                }}
+                className={`w-full flex items-center justify-between p-3 rounded-2xl border transition-all active:scale-[0.98] ${
+                    allDone
+                        ? 'bg-gradient-to-r from-amber-500/20 to-amber-500/5 border-amber-500/40'
+                        : 'bg-slate-900/60 border-slate-800/80 hover:bg-slate-900'
+                }`}
+            >
+                <div className="flex items-center gap-2.5">
+                    <ListChecks className={`w-4 h-4 ${allDone ? 'text-amber-400' : 'text-slate-400'}`} />
+                    <span className={`text-xs font-bold ${allDone ? 'text-amber-300' : 'text-slate-300'}`}>
+                        {!currentUser ? 'Dnevne misije - prijavi se' : `Dnevne misije: ${completedSlots}/3 gotovo`}
+                    </span>
+                </div>
+                {currentUser && (
+                    <span className="text-xs text-slate-500">Reset za {formatCountdown(zagrebMsUntilMidnight(now))}</span>
+                )}
+            </button>
+
             {dailyLobbyMessage && (
                 <p className="text-center text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl py-2">
                     {dailyLobbyMessage}

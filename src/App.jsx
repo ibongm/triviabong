@@ -17,15 +17,10 @@ import {
   SPEED_BONUS_PER_SECOND,
   STREAK_MULTIPLIER_STEP,
   XP_PER_CORRECT_ANSWER,
-  PERFECT_ROUND_XP_BONUS,
-  COIN_STREAK_BONUS_INTERVAL,
-  COIN_STREAK_BONUS_AMOUNT,
-  COIN_PER_ROUND_COMPLETE,
-  COIN_PERFECT_ROUND_BONUS,
-  COIN_LEVEL_UP_BONUS,
   JOKER_COSTS
 } from './constants/gameBalance';
-import { computeLevelFromXp } from './utils/leveling';
+import { getCoinsForLevelUp } from './utils/leveling';
+import { getTitleForLevel } from './constants/levelTitles';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate, mentionsHarryPotter, getZagrebDateString } from './utils/achievements';
 import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from './constants/achievements';
 import { mergeMonotonicStats } from './utils/statsMerge';
@@ -45,6 +40,7 @@ import RekordiModal from './components/RekordiModal';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import ReportQuestionModal from './components/ReportQuestionModal';
 import SubmitQuestionModal from './components/SubmitQuestionModal';
+import DailyMissionsModal from './components/DailyMissionsModal';
 import ConfirmModal from './components/ConfirmModal';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
@@ -53,6 +49,7 @@ import { usePresence } from './hooks/usePresence';
 import { useOneVsOne } from './hooks/useOneVsOne';
 import { useDailyChallenge } from './hooks/useDailyChallenge';
 import { useScoreSaving } from './hooks/useScoreSaving';
+import { useDailyMissions } from './hooks/useDailyMissions';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
 import MatchView from './components/MatchView';
@@ -160,6 +157,29 @@ export default function App() {
 
   useEffect(() => () => clearTimeout(secretRevealTimer.current), []);
 
+  // Level-up toast. Detected by diffing globalStats.level across commits
+  // (a useEffect keyed on the level value itself) rather than reading the
+  // `events` array applyAnswer returns at each of its call sites - level is
+  // a pure function of the resulting xp, so the toast's content
+  // (title/coins) can be derived straight from the new level with
+  // getTitleForLevel/getCoinsForLevelUp, with no risk of the StrictMode
+  // double-invoked-updater duplication the secret-achievement reveal above
+  // has to guard against with a ref (see its comment) - an effect only
+  // fires once per real commit, not once per updater invocation.
+  const prevLevelRef = useRef(globalStats.level || 1);
+  const [levelUpToast, setLevelUpToast] = useState(null);
+  const levelUpToastTimerRef = useRef(null);
+  useEffect(() => {
+    const level = globalStats.level || 1;
+    if (level > prevLevelRef.current) {
+      setLevelUpToast({ level, coins: getCoinsForLevelUp(level), title: getTitleForLevel(level) });
+      clearTimeout(levelUpToastTimerRef.current);
+      levelUpToastTimerRef.current = setTimeout(() => setLevelUpToast(null), 4000);
+    }
+    prevLevelRef.current = level;
+  }, [globalStats.level]);
+  useEffect(() => () => clearTimeout(levelUpToastTimerRef.current), []);
+
   const [leaderboards, setLeaderboards] = useState(() => {
     const saved = localStorage.getItem('triviabong_leaderboards');
     return saved ? JSON.parse(saved) : {};
@@ -177,6 +197,7 @@ export default function App() {
   const [showOnlinePlayersModal, setShowOnlinePlayersModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
   const [showSubmitQuestionModal, setShowSubmitQuestionModal] = useState(false);
+  const [showMissionsModal, setShowMissionsModal] = useState(false);
   const [showDailyConfirm, setShowDailyConfirm] = useState(false);
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
   // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
@@ -211,6 +232,20 @@ export default function App() {
     dismissDailyWinAnnouncement,
   } = useDailyChallenge(currentUser, gameState);
 
+  // Daily micro-missions (see hooks/useDailyMissions.js) - a no-op while
+  // signed out, same as Daily Challenge itself.
+  const {
+    missionState,
+    missionsToday,
+    recordMatchComplete,
+    recordDailyComplete,
+    recordCorrectCategory,
+    recordStreak,
+    recordQuestionSubmitted,
+    claimSlot,
+    claimCleanSweep,
+  } = useDailyMissions(currentUser?.uid, setGlobalStats);
+
   // Admin-only beta-insights instrumentation (see hooks/useSessionTracking.js)
   // - a no-op while signed out.
   useSessionTracking(currentUser?.uid, gameState);
@@ -238,7 +273,7 @@ export default function App() {
     handleSendInvite,
     cancelSentInvite,
     handleMatchOver,
-  } = useOneVsOne(currentUser, setGlobalStats);
+  } = useOneVsOne(currentUser, setGlobalStats, recordMatchComplete);
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
@@ -387,6 +422,8 @@ export default function App() {
     refreshRekordiData,
     setDailyLeaderboard,
     setDailySubmitResult,
+    recordDailyComplete,
+    setGlobalStats,
   });
 
   // Fetched once on mount, not per lobby visit or on modal open: the
@@ -398,7 +435,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showSubmitQuestionModal || showDailyConfirm;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showDailyConfirm;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -702,6 +739,13 @@ export default function App() {
         });
         return stats;
       });
+
+      // Daily missions: Category Forcer / Streak slots (see
+      // hooks/useDailyMissions.js) - currentQ.category (not selectedCategory)
+      // so an Opće znanje round's per-question origin category still counts,
+      // same reasoning as logQuestionAttempt's categoryId above.
+      recordCorrectCategory(currentQ.category || selectedCategory || 'opca_znanje');
+      recordStreak(newStreak);
     } else {
       sound.playWrong();
       updateCategoryStats(false, 0, 0);
@@ -1085,6 +1129,8 @@ export default function App() {
             onShowRekordiModal={() => setShowRekordiModal(true)}
             rekordiData={rekordiDataWithDaily}
             onShowSubmitQuestionModal={() => setShowSubmitQuestionModal(true)}
+            onShowMissionsModal={() => setShowMissionsModal(true)}
+            missionState={missionState}
           />
         )}
 
@@ -1193,6 +1239,27 @@ export default function App() {
         onClose={dismissSecretAchievement}
       />
 
+      {/* Level-up toast - auto-dismisses (see levelUpToastTimerRef), does not
+          pause the round the way the secret-achievement overlay does. */}
+      {levelUpToast && (
+        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 pointer-events-none">
+          <div className="pointer-events-auto flex items-center gap-3 bg-slate-900 border border-amber-500/40 text-white rounded-2xl px-5 py-3 shadow-2xl">
+            <Star className="w-6 h-6 text-amber-400 shrink-0" />
+            <div>
+              <p className="text-sm font-bold text-amber-400">Razina {levelUpToast.level}: {levelUpToast.title}</p>
+              <p className="text-xs text-slate-400">+{levelUpToast.coins} novčića</p>
+            </div>
+            <button
+              onClick={() => setLevelUpToast(null)}
+              className="text-slate-500 hover:text-slate-300 ml-2"
+              aria-label="Zatvori"
+            >
+              ×
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Rekordi Modal */}
       <RekordiModal
         isOpen={showRekordiModal}
@@ -1223,6 +1290,17 @@ export default function App() {
         isOpen={showSubmitQuestionModal}
         onClose={() => setShowSubmitQuestionModal(false)}
         uid={currentUser?.uid}
+        onSubmitted={recordQuestionSubmitted}
+      />
+
+      {/* Daily Missions Modal */}
+      <DailyMissionsModal
+        isOpen={showMissionsModal}
+        onClose={() => setShowMissionsModal(false)}
+        missionsToday={missionsToday}
+        missionState={missionState}
+        onClaimSlot={claimSlot}
+        onClaimCleanSweep={claimCleanSweep}
       />
 
       <ConfirmModal

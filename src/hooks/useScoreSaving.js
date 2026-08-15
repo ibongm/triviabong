@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { sanitizeDisplayName } from '../utils/publicProfile';
 import { sound } from '../utils/sound';
-import { QUESTIONS_PER_ROUND } from '../constants/gameBalance';
+import { QUESTIONS_PER_ROUND, DAILY_CHALLENGE_PARTICIPATION_XP } from '../constants/gameBalance';
+import { computeLevelFromXp, getCoinsForLevelUp } from '../utils/leveling';
 import {
     saveScoreToFirestore,
     getLeaderboardFromFirestore,
@@ -34,6 +35,8 @@ export function useScoreSaving({
     refreshRekordiData,
     setDailyLeaderboard,
     setDailySubmitResult,
+    recordDailyComplete,
+    setGlobalStats,
 }) {
     const [scoreSaved, setScoreSaved] = useState(false);
     // Post-round personal-best/rank context for a normal (non-daily) round -
@@ -57,10 +60,21 @@ export function useScoreSaving({
             if (!success) throw new Error('Daily score submit failed');
             setScoreSaved(true);
             sound.playClick();
+            // Participation XP - top-3 placement coins/XP are paid separately
+            // by api/daily-challenge-payout.js once the day rolls over, since
+            // rank isn't final until every player's attempt is in.
+            setGlobalStats(prev => {
+                const newXp = (prev.xp || 0) + DAILY_CHALLENGE_PARTICIPATION_XP;
+                const prevLevel = prev.level || 1;
+                const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
+                const levelCoins = newLevel > prevLevel ? getCoinsForLevelUp(newLevel) : 0;
+                return { ...prev, xp: newXp, level: newLevel, coins: (prev.coins || 0) + levelCoins };
+            });
             const board = await getDailyLeaderboard(dailyDateKey, 50);
             setDailyLeaderboard(board);
             const rankIdx = board.findIndex(entry => entry.uid === currentUser.uid);
             setDailySubmitResult({ rank: rankIdx >= 0 ? rankIdx + 1 : null, isTop: rankIdx === 0 });
+            recordDailyComplete?.({ accuracy: Math.round((correctInRound / QUESTIONS_PER_ROUND) * 100) });
         } catch (err) {
             console.error('Failed to submit daily score:', err);
         } finally {

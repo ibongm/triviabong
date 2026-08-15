@@ -8,16 +8,22 @@ import {
     SPEED_BONUS_PER_SECOND,
     STREAK_MULTIPLIER_STEP,
     XP_PER_CORRECT_ANSWER,
-    PERFECT_ROUND_XP_BONUS,
-    COIN_STREAK_BONUS_INTERVAL,
-    COIN_STREAK_BONUS_AMOUNT,
-    COIN_PER_ROUND_COMPLETE,
-    COIN_PERFECT_ROUND_BONUS,
-    COIN_LEVEL_UP_BONUS,
+    COIN_STREAK_MILESTONES,
     JOKER_COSTS,
-    DAILY_CHALLENGE_WINNER_PRIZE
+    DAILY_CHALLENGE_PARTICIPATION_XP,
+    DAILY_CHALLENGE_TOP3_COINS,
+    DAILY_CHALLENGE_TOP3_XP,
+    DAILY_CHALLENGE_WIN_STREAK_COINS,
+    ONE_VS_ONE_WIN_XP,
+    ONE_VS_ONE_WIN_COINS,
+    ACHIEVEMENT_NORMAL_XP,
+    ACHIEVEMENT_NORMAL_COINS,
+    ACHIEVEMENT_HIDDEN_XP,
+    ACHIEVEMENT_HIDDEN_COINS,
+    COMMUNITY_QUESTION_APPROVED_XP,
+    COMMUNITY_QUESTION_APPROVED_COINS
 } from '../constants/gameBalance';
-import { xpForLevel } from '../utils/leveling';
+import { xpForLevel, getCoinsForLevelUp } from '../utils/leveling';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
 
 // All numbers below come from constants/gameBalance.js (and leveling.js /
@@ -83,19 +89,21 @@ export default function GuideModal({ isOpen, onClose }) {
                 </Section>
 
                 <Section icon={<Award className="w-4 h-4 text-amber-400" />} title="XP i Razine">
-                    <p>Svaki točan odgovor donosi <b className="text-white">+{XP_PER_CORRECT_ANSWER} XP</b>. Savršena runda (svih {QUESTIONS_PER_ROUND} pitanja točno, bez preskakanja) donosi dodatnih <b className="text-white">+{PERFECT_ROUND_XP_BONUS} XP</b>.</p>
-                    <p>Svaka sljedeća razina traži sve više XP-a - a od 5. razine nadalje znatno više nego prije.</p>
+                    <p>Svaki točan odgovor donosi <b className="text-white">+{XP_PER_CORRECT_ANSWER} XP</b>.</p>
+                    <p>XP se dodatno zarađuje kroz Dnevni izazov, 1v1 dvoboje, trofeje (<b className="text-white">+{ACHIEVEMENT_NORMAL_XP}</b> obični, <b className="text-white">+{ACHIEVEMENT_HIDDEN_XP}</b> tajni) i odobrena predložena pitanja - vidi odgovarajuće odjeljke ispod.</p>
+                    <p>Svaka sljedeća razina traži sve više XP-a.</p>
                     <p className="text-slate-500 italic">
-                        Razina 2: {xpForLevel(2)} XP, razina 5: {xpForLevel(5)} XP, razina 10: {xpForLevel(10)} XP.
+                        Razina 2: {xpForLevel(2)} XP, razina 10: {xpForLevel(10)} XP, razina 50: {xpForLevel(50)} XP.
                     </p>
-                    <p>Razina se može popeti i usred runde, čim XP pređe sljedeći prag.</p>
+                    <p>Razina se može popeti i usred runde, čim XP pređe sljedeći prag - svaki uspon nosi svoju titulu i novčani bonus.</p>
                 </Section>
 
                 <Section icon={<Coins className="w-4 h-4 text-amber-400" />} title="Novčići">
                     <p>Novi igrači kreću s <b className="text-white">{DEFAULT_GLOBAL_STATS.coins}</b> novčića.</p>
-                    <p>Završetak runde (pobjeda ili kraj igre) donosi <b className="text-white">+{COIN_PER_ROUND_COMPLETE}</b> novčić, a savršena runda (svih {QUESTIONS_PER_ROUND} točno) donosi dodatnih <b className="text-white">+{COIN_PERFECT_ROUND_BONUS}</b>.</p>
-                    <p>Svaki <b className="text-white">{COIN_STREAK_BONUS_INTERVAL}.</b> uzastopni točan odgovor donosi <b className="text-white">+{COIN_STREAK_BONUS_AMOUNT}</b> novčić.</p>
-                    <p>Prelazak na novu razinu donosi <b className="text-white">+{COIN_LEVEL_UP_BONUS}</b> novčića.</p>
+                    <p>Niz točnih odgovora u rundi donosi novčiće na ključnim brojevima: <b className="text-white">{COIN_STREAK_MILESTONES[3]}</b> na 3., <b className="text-white">{COIN_STREAK_MILESTONES[5]}</b> na 5., <b className="text-white">{COIN_STREAK_MILESTONES[10]}</b> na 10. uzastopni točan odgovor.</p>
+                    <p>Prelazak na novu razinu donosi <b className="text-white">{getCoinsForLevelUp(1)}</b> novčića na razinama 1-5, a <b className="text-white">5 + razina</b> novčića od 6. razine nadalje - svaka 10. razina nosi dodatnih <b className="text-white">+25</b> novčića.</p>
+                    <p>Otključani trofej donosi <b className="text-white">+{ACHIEVEMENT_NORMAL_COINS}</b> novčića (obični) ili <b className="text-white">+{ACHIEVEMENT_HIDDEN_COINS}</b> (tajni).</p>
+                    <p>Odobreno predloženo pitanje donosi <b className="text-white">+{COMMUNITY_QUESTION_APPROVED_COINS}</b> novčića i <b className="text-white">+{COMMUNITY_QUESTION_APPROVED_XP}</b> XP.</p>
                     <p className="text-slate-500 italic">Novčići se troše na jokere ispod.</p>
                 </Section>
 
@@ -120,14 +128,16 @@ export default function GuideModal({ isOpen, onClose }) {
                 <Section icon={<CalendarDays className="w-4 h-4 text-amber-400" />} title="Dnevni izazov">
                     <p>Svaki dan svi igrači dobiju <b className="text-white">isti set od {QUESTIONS_PER_ROUND} pitanja</b> - jednom besplatno, jedan pokušaj po danu.</p>
                     <p>Jokeri nisu dostupni u dnevnom izazovu.</p>
-                    <p>Rezultat se odmah upisuje na dnevnu ljestvicu, koja je vidljiva uživo tijekom cijelog dana.</p>
-                    <p>Tko god bude na <b className="text-white">1. mjestu</b> kad dan završi (u ponoć po zagrebačkom vremenu) osvaja <b className="text-white">+{DAILY_CHALLENGE_WINNER_PRIZE}</b> novčića - u slučaju izjednačenja, nagradu dobivaju svi izjednačeni igrači.</p>
+                    <p>Sudjelovanje donosi <b className="text-white">+{DAILY_CHALLENGE_PARTICIPATION_XP} XP</b>. Rezultat se odmah upisuje na dnevnu ljestvicu, koja je vidljiva uživo tijekom cijelog dana.</p>
+                    <p>Kad dan završi (u ponoć po zagrebačkom vremenu), prva tri mjesta osvajaju: <b className="text-white">1.</b> {DAILY_CHALLENGE_TOP3_COINS[1]} novčića / {DAILY_CHALLENGE_TOP3_XP[1]} XP, <b className="text-white">2.</b> {DAILY_CHALLENGE_TOP3_COINS[2]} novčića / {DAILY_CHALLENGE_TOP3_XP[2]} XP, <b className="text-white">3.</b> {DAILY_CHALLENGE_TOP3_COINS[3]} novčića / {DAILY_CHALLENGE_TOP3_XP[3]} XP - u slučaju izjednačenja, nagradu dobivaju svi izjednačeni igrači.</p>
+                    <p className="text-slate-500 italic">Uzastopni dani na 1. mjestu nose rastuću nagradu (od {DAILY_CHALLENGE_WIN_STREAK_COINS[1]} novčića prvi dan do {DAILY_CHALLENGE_WIN_STREAK_COINS[7]} novčića na 7. dan zaredom).</p>
                 </Section>
 
                 <Section icon={<Swords className="w-4 h-4 text-emerald-400" />} title="1v1 Dvoboj">
                     <p>Pozovi bilo kojeg <b className="text-white">online igrača</b> iz predvorja na dvoboj uživo - odaberi kategoriju, pošalji poziv, a on ga prihvaća ili odbija.</p>
                     <p>Kad oba igrača kliknu <b className="text-white">Spreman</b>, dvoboj počinje istovremeno za oboje nakon kratkog odbrojavanja.</p>
                     <p>Igra se {QUESTIONS_PER_ROUND} pitanja - ako je nakon toga neriješeno, odlučuje dodatno pitanje (iznenadna smrt). Jokeri nisu dostupni.</p>
+                    <p>Pobjeda donosi <b className="text-white">+{ONE_VS_ONE_WIN_XP} XP</b> i <b className="text-white">+{ONE_VS_ONE_WIN_COINS}</b> novčića.</p>
                     <p className="text-slate-500 italic">Ako protivnik ne odgovori i ne javi se dulje vrijeme, možeš prijaviti predaju i pobijediti. Rezultati dvoboja spremaju se u tvoju povijest, a pobjede se broje za trofej.</p>
                 </Section>
 

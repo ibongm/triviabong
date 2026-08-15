@@ -3,6 +3,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Workflow & Change Logging
+- **Mandatory File Update**: Whenever you modify, create, or delete any code or config file, immediately log the change in `CHANGELOG.md`.
+- **Log Entry Structure**:
+  - **Date**: YYYY-MM-DD
+  - **Files Changed**: Paths of affected files
+  - **Details**: Specific summary of the logic or UI adjusted
+- **Execution Timing**: Update the log file in the exact same tool execution step or immediately following file edits.
+
 ## Commands
 
 - `npm run dev` — start Vite dev server

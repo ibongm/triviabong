@@ -78,6 +78,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
     const oppScore = isPlayer1 ? match?.player2Score : match?.player1Score;
     const myAnswer = isPlayer1 ? match?.player1Answer : match?.player2Answer;
     const oppAnswer = isPlayer1 ? match?.player2Answer : match?.player1Answer;
+    const myCorrect = isPlayer1 ? match?.player1Correct : match?.player2Correct;
 
     const questionIds = match?.questionIds;
     const category = match?.category;
@@ -214,6 +215,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
             sound.playCorrect();
             confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
         }
+        const totalQuestions = questionIds?.length || 0;
         onMatchOver?.({
             result,
             myScore: myScore || 0,
@@ -222,8 +224,12 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
             opponentDisplayName: oppDisplayName,
             category: match.category,
             forfeited: match.status === 'forfeited',
+            // No jokers are available in 1v1 (see GuideModal's 1v1 section), so
+            // a win is always joker-free - WIN_1V1_NO_JOKER's mission check can
+            // rely on that without needing a jokersUsed field here.
+            accuracy: totalQuestions > 0 ? Math.round(((myCorrect || 0) / totalQuestions) * 100) : 0,
         });
-    }, [match, myUid, myScore, oppScore, oppUid, oppDisplayName, onMatchOver]);
+    }, [match, myUid, myScore, oppScore, oppUid, oppDisplayName, myCorrect, questionIds, onMatchOver]);
 
     if (!match) {
         return (

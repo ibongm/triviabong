@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { sanitizeDisplayName } from '../utils/publicProfile';
 import { evaluateAchievements, mergeUnlockedAchievements } from '../utils/achievements';
+import { ONE_VS_ONE_WIN_XP, ONE_VS_ONE_WIN_COINS } from '../constants/gameBalance';
+import { computeLevelFromXp, getCoinsForLevelUp } from '../utils/leveling';
 import { filterOnlinePlayers } from '../components/OnlinePlayersList';
 import { subscribeToOnlinePlayers } from '../services/firebase';
 import {
@@ -20,7 +22,7 @@ import {
 // in this codebase) rather than an onWin callback - the win-path stat
 // update is a self-contained functional updater with no other App.jsx
 // dependency, so a callback indirection would add nothing.
-export function useOneVsOne(currentUser, setGlobalStats) {
+export function useOneVsOne(currentUser, setGlobalStats, recordMatchComplete) {
     // Lightweight count-only subscription for the lobby's "1v1 Dvoboj" CTA
     // subtitle - OnlinePlayersList does its own identical subscription for
     // the full list, but that only mounts once the OnlinePlayersModal is
@@ -131,19 +133,35 @@ export function useOneVsOne(currentUser, setGlobalStats) {
         setSentInvite(null);
     };
 
-    const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category, forfeited }) => {
+    const handleMatchOver = ({ result, myScore, opponentScore, opponentUid, opponentDisplayName, category, forfeited, accuracy }) => {
         if (!currentUser?.uid) return;
         writeMatchHistoryEntry(currentUser.uid, activeMatchId, {
             opponentUid, opponentDisplayName, result, myScore, opponentScore, category, forfeited: forfeited || false,
         });
         if (result === 'win') {
             setGlobalStats(prev => {
-                const next = { ...prev, total1v1Wins: (prev.total1v1Wins || 0) + 1 };
+                const newXp = (prev.xp || 0) + ONE_VS_ONE_WIN_XP;
+                const prevLevel = prev.level || 1;
+                const newLevel = Math.max(prevLevel, computeLevelFromXp(newXp));
+                const leveledUp = newLevel > prevLevel;
+                const levelCoins = leveledUp ? getCoinsForLevelUp(newLevel) : 0;
+
+                const next = {
+                    ...prev,
+                    total1v1Wins: (prev.total1v1Wins || 0) + 1,
+                    xp: newXp,
+                    level: newLevel,
+                    coins: (prev.coins || 0) + ONE_VS_ONE_WIN_COINS + levelCoins,
+                };
+                // App.jsx's level-up toast picks this up via its
+                // globalStats.level watcher - no separate event needed here,
+                // unlike gameLogic.js's reducer shape.
                 const newlyUnlocked = evaluateAchievements(next, {});
                 next.unlockedAchievements = mergeUnlockedAchievements(next, newlyUnlocked);
                 return next;
             });
         }
+        recordMatchComplete?.({ won: result === 'win', accuracy });
     };
 
     return {
