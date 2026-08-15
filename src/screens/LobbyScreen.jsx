@@ -1,4 +1,4 @@
-import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal } from 'lucide-react';
+import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare } from 'lucide-react';
 import RekordiBoards from '../components/RekordiBoards';
 import { getCategoryDetails, DEFAULT_CATEGORY_COLOR } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
@@ -22,6 +22,7 @@ export default function LobbyScreen({
     onSelectCategory,
     onShowRekordiModal,
     rekordiData,
+    onShowSubmitQuestionModal,
 }) {
     return (
         <div className="space-y-6">
@@ -142,6 +143,19 @@ export default function LobbyScreen({
                         </button>
                     );
                 })}
+            </div>
+
+            <div className="text-center">
+                <button
+                    onClick={() => {
+                        if (!currentUser) { onShowAuthModal(); return; }
+                        sound.playClick();
+                        onShowSubmitQuestionModal();
+                    }}
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-400 hover:text-amber-400 transition-colors active:scale-95"
+                >
+                    <PenSquare className="w-3.5 h-3.5" /> Predloži pitanje
+                </button>
             </div>
 
             <div className="space-y-3 pt-4">

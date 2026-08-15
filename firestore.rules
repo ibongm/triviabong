@@ -317,6 +317,39 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    match /questionSubmissions/{submissionId} {
+      // Player-proposed new questions (Baza pitanja -> Predložena pitanja).
+      // Unlike reports/{reportId}, uid is REQUIRED (submitting requires
+      // sign-in) and content fields are validated to the same shape
+      // validateEntry (src/utils/questionMerge.js) enforces server-side,
+      // since an approved submission is fed straight into that validation.
+      allow create: if isSignedIn()
+        && request.resource.data.keys().hasOnly(['uid', 'category', 'question', 'correct_answer', 'incorrect_answers', 'note', 'status', 'createdAt'])
+        && isOwner(request.resource.data.uid)
+        && request.resource.data.category is string
+        && request.resource.data.category.size() > 0
+        && request.resource.data.category.size() <= 50
+        && request.resource.data.question is string
+        && request.resource.data.question.size() > 0
+        && request.resource.data.question.size() <= 500
+        && request.resource.data.correct_answer is string
+        && request.resource.data.correct_answer.size() > 0
+        && request.resource.data.correct_answer.size() <= 200
+        && request.resource.data.incorrect_answers is list
+        && request.resource.data.incorrect_answers.size() == 3
+        && request.resource.data.status == 'pending'
+        && request.resource.data.createdAt == request.time
+        && (!('note' in request.resource.data)
+            || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+
+      allow get, list: if isAdmin();
+      // Approve/reject only - the submitted content can't be rewritten later.
+      allow update: if isAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+        && request.resource.data.status in ['pending', 'approved', 'rejected'];
+      allow delete: if isAdmin();
+    }
+
     match /records/fastestPerfect {
       allow read: if true;
 

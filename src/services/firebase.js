@@ -269,6 +269,50 @@ export const updateReportsStatusForQuestion = async (reportIds, status) => {
 };
 
 /**
+ * Submits a player-proposed new question for admin review (Baza pitanja ->
+ * Predložena pitanja). Unlike submitQuestionReport, requires a signed-in
+ * uid - firestore.rules ties the create to isOwner(uid), so anonymous play
+ * can't submit. Content fields mirror the shape validateEntry (see
+ * src/utils/questionMerge.js) enforces, since an approved submission is fed
+ * straight into that same validation on the server.
+ */
+export const submitQuestionSubmission = async (submission) => {
+    try {
+        await addDoc(collection(db, 'questionSubmissions'), {
+            ...submission,
+            status: 'pending',
+            createdAt: serverTimestamp(),
+        });
+        return true;
+    } catch (error) {
+        console.error('Error submitting question submission:', error);
+        return false;
+    }
+};
+
+/**
+ * Fetches every question submission (admin-only Predložena pitanja queue).
+ */
+export const getAllQuestionSubmissions = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'questionSubmissions'));
+        return querySnapshot.docs.map(docSnap => ({ id: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error('Error fetching question submissions:', error);
+        return [];
+    }
+};
+
+/**
+ * Marks one question submission as approved/rejected. One doc per action -
+ * unlike updateReportsStatusForQuestion, submissions aren't grouped, so no
+ * batch is needed.
+ */
+export const updateQuestionSubmissionStatus = async (id, status) => {
+    await updateDoc(doc(db, 'questionSubmissions', id), { status });
+};
+
+/**
  * Fetches every questionAttempts/gameResults doc (admin-only content-
  * insights dashboard - question accuracy, category popularity). Fine at
  * beta scale to fetch everything and aggregate client-side at read time,

@@ -44,6 +44,7 @@ import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import ReportQuestionModal from './components/ReportQuestionModal';
+import SubmitQuestionModal from './components/SubmitQuestionModal';
 import ConfirmModal from './components/ConfirmModal';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
@@ -175,6 +176,7 @@ export default function App() {
   const [showRekordiModal, setShowRekordiModal] = useState(false);
   const [showOnlinePlayersModal, setShowOnlinePlayersModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
+  const [showSubmitQuestionModal, setShowSubmitQuestionModal] = useState(false);
   const [showDailyConfirm, setShowDailyConfirm] = useState(false);
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
   // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
@@ -396,7 +398,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showDailyConfirm;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showSubmitQuestionModal || showDailyConfirm;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -1082,6 +1084,7 @@ export default function App() {
             onSelectCategory={selectCategory}
             onShowRekordiModal={() => setShowRekordiModal(true)}
             rekordiData={rekordiDataWithDaily}
+            onShowSubmitQuestionModal={() => setShowSubmitQuestionModal(true)}
           />
         )}
 
@@ -1212,6 +1215,13 @@ export default function App() {
         onClose={() => setShowReportModal(false)}
         question={currentQ}
         categoryId={currentQ?.category || selectedCategory}
+        uid={currentUser?.uid}
+      />
+
+      {/* Submit Question Modal */}
+      <SubmitQuestionModal
+        isOpen={showSubmitQuestionModal}
+        onClose={() => setShowSubmitQuestionModal(false)}
         uid={currentUser?.uid}
       />
 
