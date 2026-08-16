@@ -28,3 +28,10 @@ dist-ssr
 # Firebase Admin SDK service account keys - never commit these.
 *adminsdk*.json
 plans/adminsdkkey.json
+
+# Ad hoc audit reports, planning docs, and other tool-generated scratch
+# output - useful locally, not project source, shouldn't accumulate in git.
+/reports/
+/plans/
+/docs/
+/.adeptly/

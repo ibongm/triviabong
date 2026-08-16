@@ -2,6 +2,9 @@
 
 ## 2026-08-16
 
+- **Files Changed**: `reports/*` (deleted), `plans/*` (deleted), `docs/*` (deleted), `.adeptly/*` (deleted), `ANALIZA_SVIH_KATEGORIJA_EXPORT.md` (deleted), `review-report.md` (deleted), `trofejiexample.txt` (deleted), `.gitignore`
+  **Details**: Removed accumulated audit-report/planning-doc/tool-artifact clutter that had been committed to the repo (`reports/` category-inaccuracy audits and architecture/perf/security/UX reviews, `plans/` implementation plans, `docs/plans/` and `.adeptly/chat-history/` - output from an unrelated tool, plus three top-level stray files). `scripts/` and `.agents/` were left untouched per explicit instruction. Added `/reports/`, `/plans/`, `/docs/`, `/.adeptly/` to `.gitignore` so this kind of scratch output stays local instead of re-accumulating in git.
+
 - **Files Changed**: `.claude/skills/run-triviabong/golden-path.mjs`
   **Details**: Fixed a flaky assertion in the answer-loop step. `clickFirstAnswer` always clicks whichever answer button is first, regardless of correctness; on a lives-based category (e.g. Geografija) three unlucky wrong clicks in a row legitimately ends the round mid-loop, replacing the `Bodovi:` score line with a game-over screen. The check right after the loop only tested for `Bodovi:\s*\d+`, so a round that correctly ended early was scored as a failure ("score updated from answering") even though nothing was actually broken - caught when wiring the E2E suite into `ci.yml` to run on every push surfaced this far more often than the old manual-only `workflow_dispatch` trigger did. Now also accepts `Kraj Igre`/`Pobjeda` (round-ended) as a passing outcome.
 
