@@ -17,7 +17,9 @@ service cloud.firestore {
     // Mirrors ADMIN_EMAIL in src/App.jsx. Keep these two in sync manually —
     // if the admin email ever changes, update it in both places.
     function isAdmin() {
-      return isSignedIn() && request.auth.token.email == 'ivanm.ploce@gmail.com';
+      return isSignedIn()
+        && (request.auth.token.admin == true
+            || (request.auth.token.email == 'ivanm.ploce@gmail.com' && request.auth.token.email_verified == true));
     }
 
     // Plan B (1v1) helpers - shared by the matches/{matchId} update branches

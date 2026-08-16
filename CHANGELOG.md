@@ -1,5 +1,49 @@
 # Changelog
 
+### [2026-08-16] - Remediate Transitive uuid Vulnerability via Overrides (Security Phase 5)
+- **Files Changed**:
+  - `package.json` (Modified)
+  - `package-lock.json` (Modified)
+  - `SECURITY.md` (Modified)
+- **Details**:
+  - Added `"overrides": { "uuid": "^11.1.1" }` to `package.json`, successfully eliminating the transitive `uuid <11.1.1` vulnerabilities across both `firebase-admin` and `firebase-tools` chains (dropping vulnerabilities from 9 down to 3 dev-only).
+
+### [2026-08-16] - Custom Claims Support & Admin Setup Script (Security Phase 4)
+- **Files Changed**:
+  - `scripts/set-admin-claim.mjs` (Created)
+  - `firestore.rules` (Modified)
+  - `api/questions.js` (Modified)
+  - `src/App.jsx` (Modified)
+- **Details**:
+  - Created operational helper `scripts/set-admin-claim.mjs` to assign `{ admin: true }` custom claims via Firebase Admin SDK.
+  - Implemented dual-check admin verification (`request.auth.token.admin == true` or verified admin email fallback) in `firestore.rules` and `api/questions.js`.
+  - Added asynchronous `hasAdminClaim` state and token claims resolution in `App.jsx` with fallback to verified admin email.
+
+### [2026-08-16] - Enforce email_verified on Admin Access Points (Security Phase 3)
+- **Files Changed**:
+  - `firestore.rules` (Modified)
+  - `api/questions.js` (Modified)
+  - `src/App.jsx` (Modified)
+- **Details**:
+  - Enforced `request.auth.token.email_verified == true` in Firestore security rules `isAdmin()` function.
+  - Required `payload.email_verified === true` in `api/questions.js` `verifyAdmin` JWT validation.
+  - Added `user.emailVerified` checks across all 3 client-side admin route/modal evaluation sites in `App.jsx`.
+
+### [2026-08-16] - Remediate nanoid Vulnerability & Document Security Policy (Security Phase 2)
+- **Files Changed**:
+  - `package.json` (Modified)
+  - `package-lock.json` (Modified)
+  - `SECURITY.md` (Created)
+- **Details**:
+  - Bumped `postcss` from `^8.5.25` to `^8.5.26` in `package.json`, resolving the high-severity `nanoid <3.3.18` vulnerability.
+  - Created `SECURITY.md` documenting accepted residual transitive dependencies (`@opentelemetry/core` and `uuid` under `firebase-tools` and `firebase-admin`) and outlining future CSP implementation requirements.
+
+### [2026-08-16] - Add HTTP Security Headers (Security Phase 1)
+- **Files Changed**:
+  - `vercel.json` (Modified)
+- **Details**:
+  - Configured global HTTP security headers for all routes in `vercel.json`: `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `X-XSS-Protection: 1; mode=block`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy: camera=(), microphone=(), geolocation=()`, and `Strict-Transport-Security: max-age=31536000; includeSubDomains; preload`.
+
 ### [2026-08-16] - Cascading-Render set-state-in-effect Refactors (Phase 5)
 - **Files Changed**:
   - `src/hooks/useGameRound.js` (Modified)

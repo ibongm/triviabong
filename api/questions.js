@@ -48,7 +48,7 @@ const verifyAdmin = async (req) => {
         return { ok: false, status: 401, message: 'Token nije valjan ili je istekao.' };
     }
 
-    if (payload.email !== ADMIN_EMAIL) {
+    if (!(payload.admin === true || (payload.email === ADMIN_EMAIL && payload.email_verified === true))) {
         return { ok: false, status: 403, message: 'Nemate administratorska prava.' };
     }
     return { ok: true };

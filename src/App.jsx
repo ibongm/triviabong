@@ -258,7 +258,21 @@ export default function App() {
   const [rekordiData, setRekordiData] = useState(null);
 
   const [currentUser, setCurrentUser] = useState(null);
+  const [hasAdminClaim, setHasAdminClaim] = useState(false);
   const [showAuthModal, setShowAuthModal] = useState(false);
+
+  useEffect(() => {
+    if (!currentUser) return;
+    let cancelled = false;
+    currentUser.getIdTokenResult().then((result) => {
+      if (!cancelled) setHasAdminClaim(result.claims?.admin === true);
+    }).catch(() => {
+      if (!cancelled) setHasAdminClaim(false);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [currentUser]);
 
   // Daily Challenge state/effects - see useDailyChallenge.js. Does not own
   // startDailyChallengeAttempt/submitDaily/launchDailyChallengeRound, which
@@ -393,9 +407,23 @@ export default function App() {
       }
 
       if (isAdminPath()) {
-        if (user && user.email === ADMIN_EMAIL) {
+        const isVerifiedAdminEmail = user && user.email === ADMIN_EMAIL && user.emailVerified;
+        if (isVerifiedAdminEmail) {
           setShowAdminPanel(true);
           setShowAuthModal(false);
+        } else if (user) {
+          user.getIdTokenResult().then((result) => {
+            if (result.claims?.admin === true) {
+              setShowAdminPanel(true);
+              setShowAuthModal(false);
+            } else {
+              setShowAdminPanel(false);
+              setShowAuthModal(true);
+            }
+          }).catch(() => {
+            setShowAdminPanel(false);
+            setShowAuthModal(true);
+          });
         } else {
           setShowAdminPanel(false);
           setShowAuthModal(true);
@@ -1044,7 +1072,7 @@ export default function App() {
     [rekordiData, dailyLeaderboard]
   );
 
-  const isAdminUser = currentUser && currentUser.email === ADMIN_EMAIL;
+  const isAdminUser = currentUser && (hasAdminClaim || (currentUser.email === ADMIN_EMAIL && currentUser.emailVerified));
 
   // Split each joker's "disabled" reason: already used / mid-answer is truly
   // inert (native disabled, nothing to explain), but "not enough coins" stays
@@ -1419,8 +1447,16 @@ export default function App() {
         onSuccess={(user) => {
           setCurrentUser(user);
           if (user.displayName) setNickname(user.displayName);
-          if (user.email === ADMIN_EMAIL && isAdminPath()) {
-            setShowAdminPanel(true);
+          if (isAdminPath()) {
+            if (user.email === ADMIN_EMAIL && user.emailVerified) {
+              setShowAdminPanel(true);
+            } else {
+              user.getIdTokenResult().then((result) => {
+                if (result.claims?.admin === true) {
+                  setShowAdminPanel(true);
+                }
+              }).catch(() => {});
+            }
           }
         }}
       />
