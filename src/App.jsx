@@ -116,6 +116,7 @@ export default function App() {
     selectedOption,
     setSelectedOption,
     answerLocked,
+    lockAnswersBriefly,
     score,
     setScore,
     lives,
@@ -470,6 +471,7 @@ export default function App() {
     correctInRound,
     dailyDateKey,
     nickname,
+    leaderboards,
     setLeaderboards,
     refreshRekordiData,
     setDailyLeaderboard,
@@ -586,6 +588,7 @@ export default function App() {
     setJokersUsed({ fiftyFifty: false, plusTen: false, skip: false });
     setHiddenOptions([]);
     setSelectedOption(null);
+    lockAnswersBriefly();
     setScoreSaved(false);
     setAutoSaveFailed(false);
     setDailySubmitResult(null);
@@ -837,6 +840,7 @@ export default function App() {
 
       if (currentIndex + 1 < questions.length) {
         setCurrentIndex(c => c + 1);
+        lockAnswersBriefly();
         setTimeLeft(QUESTION_TIME_SECONDS);
       } else {
         sound.playCorrect();
@@ -937,6 +941,7 @@ export default function App() {
       setHiddenOptions([]);
       if (currentIndex + 1 < questions.length) {
         setCurrentIndex(c => c + 1);
+        lockAnswersBriefly();
         setTimeLeft(QUESTION_TIME_SECONDS);
       } else {
         applyRoundEndRewards(false, {
@@ -1002,6 +1007,7 @@ export default function App() {
     setSelectedOption(null);
     if (currentIndex + 1 < questions.length) {
       setCurrentIndex(c => c + 1);
+      lockAnswersBriefly();
       setTimeLeft(QUESTION_TIME_SECONDS);
     } else {
       applyRoundEndRewards(false, {

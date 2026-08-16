@@ -47,7 +47,7 @@ const getAdminDb = () => {
 // payout date", which is a calendar comparison, not a timezone one (the
 // Zagreb-vs-UTC conversion already happened once, in
 // getYesterdayZagrebDateKey, when the date string was produced).
-const addDaysToDateKey = (dateKey, delta) => {
+export const addDaysToDateKey = (dateKey, delta) => {
     const [y, m, d] = dateKey.split('-').map(Number);
     const dt = new Date(Date.UTC(y, m - 1, d));
     dt.setUTCDate(dt.getUTCDate() + delta);
@@ -63,10 +63,10 @@ const addDaysToDateKey = (dateKey, delta) => {
 // Intl.DateTimeFormat-based "what is yesterday in Zagreb right now" check
 // is always correct at execution time, even though the cron itself fires
 // 10-70 minutes later than midnight depending on the season.
-const getYesterdayZagrebDateKey = () => {
+export const getYesterdayZagrebDateKey = (now = new Date()) => {
     // Convert now -> Zagreb calendar date exactly once, then step back one
     // calendar day as a pure string operation (no second timezone conversion).
-    const todayZagreb = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(new Date());
+    const todayZagreb = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(now);
     return addDaysToDateKey(todayZagreb, -1);
 };
 

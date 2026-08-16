@@ -33,6 +33,7 @@ export function useGameRound() {
   const jokerMessageTimer = useRef(null);
   const roundTransitionTimerRef = useRef(null);
   const gameOverTimerRef = useRef(null);
+  const answerLockTimerRef = useRef(null);
 
   const clearJokerMessageTimer = useCallback(() => {
     clearTimeout(jokerMessageTimer.current);
@@ -47,28 +48,29 @@ export function useGameRound() {
     gameOverTimerRef.current = null;
   }, []);
 
+  const lockAnswersBriefly = useCallback((ms = 300) => {
+    clearTimeout(answerLockTimerRef.current);
+    setAnswerLocked(true);
+    answerLockTimerRef.current = setTimeout(() => {
+      setAnswerLocked(false);
+      answerLockTimerRef.current = null;
+    }, ms);
+  }, []);
+
   // Synchronously derive shuffled options for current question using useMemo
   // to eliminate the 1-frame stale options flash on question advance.
   const currentQ = questions[currentIndex] || null;
   const currentShuffledOptions = useMemo(() => {
     if (!currentQ) return [];
     return shuffleArray(getQuestionOptions(currentQ));
-  }, [currentIndex, currentQ]);
-
-  // Lock answers briefly on question advance to prevent accidental double-taps
-  useEffect(() => {
-    setHiddenOptions([]);
-    setSelectedOption(null);
-    setAnswerLocked(true);
-    const unlockTimer = setTimeout(() => setAnswerLocked(false), 300);
-    return () => clearTimeout(unlockTimer);
-  }, [currentIndex, questions]);
+  }, [currentQ]);
 
   // Cleanup timers on unmount
   useEffect(() => {
     return () => {
       clearRoundTransitionTimers();
       clearJokerMessageTimer();
+      clearTimeout(answerLockTimerRef.current);
     };
   }, [clearRoundTransitionTimers, clearJokerMessageTimer]);
 
@@ -89,6 +91,7 @@ export function useGameRound() {
     setSelectedOption,
     answerLocked,
     setAnswerLocked,
+    lockAnswersBriefly,
     score,
     setScore,
     lives,

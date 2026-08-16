@@ -1,5 +1,34 @@
 # Changelog
 
+### [2026-08-16] - Cascading-Render set-state-in-effect Refactors (Phase 5)
+- **Files Changed**:
+  - `src/hooks/useGameRound.js` (Modified)
+  - `src/components/MatchView.jsx` (Modified)
+  - `src/App.jsx` (Modified)
+- **Details**:
+  - Removed cascading `useEffect` in `useGameRound.js` that previously called `setHiddenOptions`, `setSelectedOption`, and `setAnswerLocked` on `[currentIndex, questions]`.
+  - Added reusable `lockAnswersBriefly(ms = 300)` helper in `useGameRound.js` and invoked it explicitly at all question transition points in `App.jsx` (`resetRoundState`, `advanceOrFinish`, `handleAnswerTimeout`, `activateSkip`).
+  - Fixed unnecessary `currentIndex` dependency in `currentShuffledOptions` `useMemo`.
+  - In `MatchView.jsx`, eliminated synchronous `setRevealTimeLeft` early-return call within the reveal effect by resetting `revealTimeLeft` in effect cleanup, resolving the `react-hooks/set-state-in-effect` error.
+
+### [2026-08-16] - Add Regression Tests for Timer Timeout & Zagreb Date Calculations (Phase 7)
+- **Files Changed**:
+  - `api/daily-challenge-payout.js` (Modified)
+  - `src/utils/dailyChallengePayout.test.js` (Created)
+  - `src/utils/gameLogic.test.js` (Modified)
+- **Details**:
+  - Exported `addDaysToDateKey` and `getYesterdayZagrebDateKey` from `api/daily-challenge-payout.js` for automated testing.
+  - Created `src/utils/dailyChallengePayout.test.js` testing day subtractions across month boundaries, leap years, year rollovers, and Zagreb winter (CET)/summer (CEST) cron times.
+  - Added unit test in `src/utils/gameLogic.test.js` asserting timeout (`timeLeft === 0`) stat updates.
+
+### [2026-08-16] - useScoreSaving Optimistic Rollback Closure Cleanup (Phase 6)
+- **Files Changed**:
+  - `src/hooks/useScoreSaving.js` (Modified)
+  - `src/App.jsx` (Modified)
+- **Details**:
+  - Passed `leaderboards` state from `App.jsx` into `useScoreSaving` hook.
+  - Replaced mutable closure assignment of `previousLeaderboards` inside `setLeaderboards` functional updater with `const previousLeaderboards = leaderboards` captured before the async try/catch block, keeping state updaters pure.
+
 ### [2026-08-16] - Fix Timezone Double-Offset in Daily Challenge Payout Cron (Phase 4)
 - **Files Changed**:
   - `api/daily-challenge-payout.js` (Modified)

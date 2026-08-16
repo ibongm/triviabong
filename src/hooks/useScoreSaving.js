@@ -31,6 +31,7 @@ export function useScoreSaving({
     correctInRound,
     dailyDateKey,
     nickname,
+    leaderboards,
     setLeaderboards,
     refreshRekordiData,
     setDailyLeaderboard,
@@ -92,9 +93,8 @@ export function useScoreSaving({
 
         const catKey = selectedCategory || 'opca_znanje';
 
-        let previousLeaderboards;
+        const previousLeaderboards = leaderboards;
         setLeaderboards(prev => {
-            previousLeaderboards = prev;
             const currentList = prev[catKey] || [];
             const newList = [...currentList, { name: entryName, score, date: new Date().toLocaleDateString() }]
                 .sort((a, b) => b.score - a.score)

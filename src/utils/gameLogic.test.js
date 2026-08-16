@@ -51,6 +51,17 @@ describe('applyAnswer ANSWER', () => {
         expect(next.totalCorrect).toBe(0);
     });
 
+    it('a question timeout (timeLeft: 0) behaves as an incorrect answer without granting xp or incrementing totalCorrect', () => {
+        const stats = { ...DEFAULT_GLOBAL_STATS, xp: 10, totalAnswered: 3, totalCorrect: 2, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
+        const { stats: next } = applyAnswer(stats, {}, {
+            type: 'ANSWER', isCorrect: false, category: 'film', timeLeft: 0, newStreak: 0,
+        });
+        expect(next.xp).toBe(10);
+        expect(next.totalAnswered).toBe(4);
+        expect(next.totalCorrect).toBe(2);
+        expect(next.categoryStats.film).toEqual({ total: 1, correct: 0 });
+    });
+
     it('awards a streak-milestone coin bonus exactly at 3/5/10, not off by one', () => {
         const stats = { ...DEFAULT_GLOBAL_STATS, coins: 0, xp: 0, level: 1, unlockedAchievements: ALL_ACHIEVEMENTS_UNLOCKED };
         const onMilestone = applyAnswer(stats, {}, {

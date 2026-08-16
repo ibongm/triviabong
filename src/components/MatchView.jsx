@@ -176,10 +176,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
     // ---- Reveal phase: 3-second delay before advancing to next question ----
     useEffect(() => {
-        if (!match || match.status !== 'reveal') {
-            setRevealTimeLeft(REVEAL_DURATION_SECONDS);
-            return;
-        }
+        if (!match || match.status !== 'reveal') return;
         if (advanceGuardRef.current === match.currentQuestionIndex) return;
         advanceGuardRef.current = match.currentQuestionIndex;
 
@@ -207,6 +204,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         return () => {
             clearInterval(countdownInterval);
             clearTimeout(timer);
+            setRevealTimeLeft(REVEAL_DURATION_SECONDS);
         };
     }, [match?.status, match?.currentQuestionIndex]);
 
