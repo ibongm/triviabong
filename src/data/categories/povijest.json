@@ -9326,5 +9326,555 @@
             "Raúl Castro",
             "Camilo Cienfuegos"
         ]
+    },
+    {
+        "id": "hr_hist_849",
+        "category": "povijest",
+        "question": "Koji je vladar osnovao Akadsko Carstvo, jedno od prvih poznatih carstava u povijesti?",
+        "correct_answer": "Sargon Akadski",
+        "incorrect_answers": [
+            "Hamurabi",
+            "Nabukodonozor II.",
+            "Gilgameš"
+        ]
+    },
+    {
+        "id": "hr_hist_850",
+        "category": "povijest",
+        "question": "Koji je grad bio prijestolnica Asirskog Carstva na vrhuncu njegove moći?",
+        "correct_answer": "Niniva",
+        "incorrect_answers": [
+            "Babilon",
+            "Ur",
+            "Uruk"
+        ]
+    },
+    {
+        "id": "hr_hist_851",
+        "category": "povijest",
+        "question": "Koji je asirski kralj u 7. stoljeću pr. Kr. sakupio veliku knjižnicu glinenih pločica u svojoj prijestolnici?",
+        "correct_answer": "Ašurbanipal",
+        "incorrect_answers": [
+            "Sargon II.",
+            "Sanherib",
+            "Tiglat-Pileser III."
+        ]
+    },
+    {
+        "id": "hr_hist_852",
+        "category": "povijest",
+        "question": "Tko je osnovao Mauryansko Carstvo u Indiji, djed kasnijeg vladara Ašoke?",
+        "correct_answer": "Čandragupta Maurja",
+        "incorrect_answers": [
+            "Ašoka",
+            "Akbar Veliki",
+            "Babur"
+        ]
+    },
+    {
+        "id": "hr_hist_853",
+        "category": "povijest",
+        "question": "U kojoj je bitci Aleksandar Veliki prvi put osobno porazio perzijskog kralja Darija III.?",
+        "correct_answer": "Bitka kod Isa",
+        "incorrect_answers": [
+            "Bitka kod Gaugamele",
+            "Bitka kod Maratona",
+            "Bitka kod Salamine"
+        ]
+    },
+    {
+        "id": "hr_hist_854",
+        "category": "povijest",
+        "question": "U kojem je gradu umro Aleksandar Veliki 323. g. pr. Kr.?",
+        "correct_answer": "U Babilonu",
+        "incorrect_answers": [
+            "U Ateni",
+            "U Perzepolisu",
+            "U Aleksandriji"
+        ]
+    },
+    {
+        "id": "hr_hist_855",
+        "category": "povijest",
+        "question": "Koja su trojica rimskih vođa 43. g. pr. Kr. sklopila Drugi trijumvirat?",
+        "correct_answer": "Oktavijan, Marko Antonije i Lepid",
+        "incorrect_answers": [
+            "Cezar, Pompej i Kras",
+            "Sula, Marije i Cinna",
+            "August, Agripa i Mecena"
+        ]
+    },
+    {
+        "id": "hr_hist_856",
+        "category": "povijest",
+        "question": "Koji je rimski vojskovođa prvi u rimskoj povijesti maršem na Rim silom preuzeo diktatorsku vlast početkom 1. stoljeća pr. Kr.?",
+        "correct_answer": "Lucije Kornelije Sula",
+        "incorrect_answers": [
+            "Gaj Marije",
+            "Julije Cezar",
+            "Gnej Pompej"
+        ]
+    },
+    {
+        "id": "hr_hist_857",
+        "category": "povijest",
+        "question": "Koji je rimski vladar 46. g. pr. Kr. proveo reformu kalendara uvodeći kalendar koji nosi njegovo ime?",
+        "correct_answer": "Julije Cezar",
+        "incorrect_answers": [
+            "August",
+            "Numa Pompilije",
+            "Konstantin Veliki"
+        ]
+    },
+    {
+        "id": "hr_hist_858",
+        "category": "povijest",
+        "question": "Kako se naziva razorna pandemija kuge koja je u 6. stoljeću pogodila Bizantsko Carstvo za vrijeme cara Justinijana I.?",
+        "correct_answer": "Justinijanova kuga",
+        "incorrect_answers": [
+            "Crna smrt",
+            "Antoninska kuga",
+            "Kiprijanova kuga"
+        ]
+    },
+    {
+        "id": "hr_hist_859",
+        "category": "povijest",
+        "question": "Kako se zvao kastiljski plemić i vojskovođa, poznat pod nadimkom 'El Cid', koji se istaknuo u borbama protiv Maura u Španjolskoj?",
+        "correct_answer": "Rodrigo Díaz de Vivar",
+        "incorrect_answers": [
+            "Ferdinand II. Aragonski",
+            "Alfonso VI. Kastiljski",
+            "Pelayo od Asturije"
+        ]
+    },
+    {
+        "id": "hr_hist_860",
+        "category": "povijest",
+        "question": "Koji je nordijski istraživač prema sagama prvi od Europljana doplovio do sjeverne Amerike oko 1000. godine?",
+        "correct_answer": "Leif Eriksson",
+        "incorrect_answers": [
+            "Erik Crveni",
+            "Björn Ironside",
+            "Ragnar Lothbrok"
+        ]
+    },
+    {
+        "id": "hr_hist_861",
+        "category": "povijest",
+        "question": "Napad na koji je samostan u Engleskoj 793. godine tradicionalno obilježio početak doba vikinških pohoda?",
+        "correct_answer": "Samostan Lindisfarne",
+        "incorrect_answers": [
+            "Samostan Iona",
+            "Canterburyjska katedrala",
+            "Winchesterska katedrala"
+        ]
+    },
+    {
+        "id": "hr_hist_862",
+        "category": "povijest",
+        "question": "U kojoj je bitci 1176. godine Lombardska liga talijanskih gradova porazila cara Fridrika I. Barbarossu?",
+        "correct_answer": "Bitka kod Legnana",
+        "incorrect_answers": [
+            "Bitka kod Legnice",
+            "Bitka kod Bouvinesa",
+            "Bitka kod Hastingsa"
+        ]
+    },
+    {
+        "id": "hr_hist_863",
+        "category": "povijest",
+        "question": "U kojoj su bitci 1396. godine osmanske snage porazile veliku okupljenu križarsku vojsku europskih vladara na Dunavu?",
+        "correct_answer": "Bitka kod Nikopolja",
+        "incorrect_answers": [
+            "Bitka na Kosovu polju",
+            "Bitka kod Varne",
+            "Bitka kod Ankare"
+        ]
+    },
+    {
+        "id": "hr_hist_864",
+        "category": "povijest",
+        "question": "Koji je hrvatski kralj krunjen 1075. godine uz papinsko izaslanstvo, a poznat je i po kasnijoj legendi o prokletstvu?",
+        "correct_answer": "Dmitar Zvonimir",
+        "incorrect_answers": [
+            "Petar Krešimir IV.",
+            "Tomislav",
+            "Stjepan II."
+        ]
+    },
+    {
+        "id": "hr_hist_865",
+        "category": "povijest",
+        "question": "Koji je hrvatski grad nakon gotovo tromjesečne opsade pao pod srpsko-jugoslavensku vojsku u studenom 1991. godine?",
+        "correct_answer": "Vukovar",
+        "incorrect_answers": [
+            "Osijek",
+            "Vinkovci",
+            "Dubrovnik"
+        ]
+    },
+    {
+        "id": "hr_hist_866",
+        "category": "povijest",
+        "question": "Tko je predsjedavao Jugoslavenskim odborom osnovanim u Londonu tijekom Prvog svjetskog rata radi zastupanja južnoslavenskih naroda?",
+        "correct_answer": "Ante Trumbić",
+        "incorrect_answers": [
+            "Stjepan Radić",
+            "Frano Supilo",
+            "Ivan Meštrović"
+        ]
+    },
+    {
+        "id": "hr_hist_867",
+        "category": "povijest",
+        "question": "Kojim je mirovnim ugovorom iz ožujka 1918. godine Sovjetska Rusija izašla iz Prvog svjetskog rata?",
+        "correct_answer": "Brest-litovski mir",
+        "incorrect_answers": [
+            "Versajski ugovor",
+            "Rapalski ugovor",
+            "Ugovor u Trianonu"
+        ]
+    },
+    {
+        "id": "hr_hist_868",
+        "category": "povijest",
+        "question": "U kojoj je bitci u kolovozu 1914. godine njemačka vojska teško porazila rusku vojsku na Istočnom bojištu?",
+        "correct_answer": "Bitka kod Tannenberga (1914.)",
+        "incorrect_answers": [
+            "Bitka na Marni",
+            "Bitka kod Verduna",
+            "Bitka na Somi"
+        ]
+    },
+    {
+        "id": "hr_hist_869",
+        "category": "povijest",
+        "question": "Kako se naziva neslužbeni prekid vatre između njemačkih i britanskih vojnika na Zapadnom bojištu za Božić 1914. godine?",
+        "correct_answer": "Božićno primirje",
+        "incorrect_answers": [
+            "Uskrsno primirje",
+            "Primirje u Compiègneu",
+            "Vojnički mir"
+        ]
+    },
+    {
+        "id": "hr_hist_870",
+        "category": "povijest",
+        "question": "Kako se naziva sustavno progonstvo i istrebljenje armenskog naroda koje je Osmansko Carstvo provelo od 1915. godine?",
+        "correct_answer": "Armenski genocid",
+        "incorrect_answers": [
+            "Grčki genocid",
+            "Asirski genocid",
+            "Pontski genocid"
+        ]
+    },
+    {
+        "id": "hr_hist_871",
+        "category": "povijest",
+        "question": "U kojoj je bitci u veljači i ožujku 1945. godine američka vojska osvojila strateški važan japanski otok, uz podizanje zastave na planini Suribachi?",
+        "correct_answer": "Bitka za Iwo Jimu",
+        "incorrect_answers": [
+            "Bitka za Okinawu",
+            "Bitka kod Midwaya",
+            "Bitka u zaljevu Leyte"
+        ]
+    },
+    {
+        "id": "hr_hist_872",
+        "category": "povijest",
+        "question": "U kojoj je bitci 1944. godine saveznička vojska nakon dugotrajnih borbi zauzela strateški važan benediktinski samostan u Italiji?",
+        "correct_answer": "Bitka kod Monte Cassina",
+        "incorrect_answers": [
+            "Bitka za Anzio",
+            "Bitka za Rim",
+            "Bitka na Siciliji"
+        ]
+    },
+    {
+        "id": "hr_hist_873",
+        "category": "povijest",
+        "question": "Kako se naziva ustanak poljskog pokreta otpora protiv njemačke okupacije u glavnom gradu Poljske u kolovozu 1944. godine?",
+        "correct_answer": "Varšavski ustanak",
+        "incorrect_answers": [
+            "Ustanak u varšavskom getu",
+            "Poznanski ustanak",
+            "Krakovski ustanak"
+        ]
+    },
+    {
+        "id": "hr_hist_874",
+        "category": "povijest",
+        "question": "Koji je britanski matematičar bio ključan u dešifriranju njemačkog stroja Enigma tijekom Drugog svjetskog rata?",
+        "correct_answer": "Alan Turing",
+        "incorrect_answers": [
+            "Winston Churchill",
+            "Bernard Montgomery",
+            "J. Robert Oppenheimer"
+        ]
+    },
+    {
+        "id": "hr_hist_875",
+        "category": "povijest",
+        "question": "Tko je 1963. godine postala prva žena u svemiru?",
+        "correct_answer": "Valentina Tereškova",
+        "incorrect_answers": [
+            "Sally Ride",
+            "Svetlana Savicka",
+            "Jelena Kondakova"
+        ]
+    },
+    {
+        "id": "hr_hist_876",
+        "category": "povijest",
+        "question": "Tko je 1961. godine postao prvi čovjek koji je poletio u svemir?",
+        "correct_answer": "Jurij Gagarin",
+        "incorrect_answers": [
+            "Neil Armstrong",
+            "German Titov",
+            "Alan Shepard"
+        ]
+    },
+    {
+        "id": "hr_hist_877",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik 1972. godine posjetio Narodnu Republiku Kinu i time započeo normalizaciju odnosa dviju zemalja?",
+        "correct_answer": "Richard Nixon",
+        "incorrect_answers": [
+            "Jimmy Carter",
+            "Gerald Ford",
+            "Ronald Reagan"
+        ]
+    },
+    {
+        "id": "hr_hist_878",
+        "category": "povijest",
+        "question": "Koje je godine podjelom Britanske Indije nastala neovisna Indija te Pakistan?",
+        "correct_answer": "1947.",
+        "incorrect_answers": [
+            "1945.",
+            "1950.",
+            "1952."
+        ]
+    },
+    {
+        "id": "hr_hist_879",
+        "category": "povijest",
+        "question": "Kako se naziva srednjovjekovno kameno naselje i civilizacija u južnoj Africi po kojoj je današnja država dobila ime?",
+        "correct_answer": "Veliki Zimbabve",
+        "incorrect_answers": [
+            "Mapungubwe",
+            "Timbuktu",
+            "Aksum"
+        ]
+    },
+    {
+        "id": "hr_hist_880",
+        "category": "povijest",
+        "question": "Koji je astečki vladar bio na vlasti u trenutku dolaska španjolskog konkvistadora Hernána Cortésa?",
+        "correct_answer": "Moctezuma II.",
+        "incorrect_answers": [
+            "Cuauhtémoc",
+            "Atahualpa",
+            "Montezuma I."
+        ]
+    },
+    {
+        "id": "hr_hist_881",
+        "category": "povijest",
+        "question": "Koji je grad bio prijestolnica Carstva Inka u Andama?",
+        "correct_answer": "Cuzco",
+        "incorrect_answers": [
+            "Machu Picchu",
+            "Quito",
+            "La Paz"
+        ]
+    },
+    {
+        "id": "hr_hist_882",
+        "category": "povijest",
+        "question": "Koje je godine kastiljski kralj Alfonso VI. osvojio grad Toledo od Maura, značajnu prekretnicu Reconquiste?",
+        "correct_answer": "1085.",
+        "incorrect_answers": [
+            "1212.",
+            "1492.",
+            "1031."
+        ]
+    },
+    {
+        "id": "hr_hist_883",
+        "category": "povijest",
+        "question": "Kako se zvala staleška skupština francuskog kraljevstva koju je kralj Luj XVI. sazvao 1789. godine neposredno prije izbijanja revolucije?",
+        "correct_answer": "Generalni staleži (États généraux)",
+        "incorrect_answers": [
+            "Nacionalna skupština",
+            "Konvent",
+            "Direktorij"
+        ]
+    },
+    {
+        "id": "hr_hist_884",
+        "category": "povijest",
+        "question": "Kako se naziva neuspjeli pokušaj bijega francuskog kralja Luja XVI. i njegove obitelji iz Pariza 1791. godine?",
+        "correct_answer": "Bijeg u Varennes",
+        "incorrect_answers": [
+            "Marš na Versailles",
+            "Pad Bastille",
+            "Termidorska reakcija"
+        ]
+    },
+    {
+        "id": "hr_hist_885",
+        "category": "povijest",
+        "question": "Kako se naziva pohod fašističkih crnokošuljaša na Rim 1922. godine kojim je Benito Mussolini došao na vlast?",
+        "correct_answer": "Marš na Rim",
+        "incorrect_answers": [
+            "Pohod tisuće",
+            "Pivnički puč",
+            "Noć dugih noževa"
+        ]
+    },
+    {
+        "id": "hr_hist_886",
+        "category": "povijest",
+        "question": "Koje je godine osmanski sultan Sulejman Veličanstveni osvojio otok Rodos od Vitezova sv. Ivana?",
+        "correct_answer": "1522.",
+        "incorrect_answers": [
+            "1453.",
+            "1571.",
+            "1683."
+        ]
+    },
+    {
+        "id": "hr_hist_887",
+        "category": "povijest",
+        "question": "Koji je portugalski princ u 15. stoljeću poticao i financirao pomorske ekspedicije duž zapadne obale Afrike?",
+        "correct_answer": "Henrik Moreplovac",
+        "incorrect_answers": [
+            "Vasco da Gama",
+            "Bartolomeu Dias",
+            "Pedro Álvares Cabral"
+        ]
+    },
+    {
+        "id": "hr_hist_888",
+        "category": "povijest",
+        "question": "Tko je predvodio nizozemsku pobunu protiv španjolske vlasti krajem 16. stoljeća i smatra se 'ocem domovine' u Nizozemskoj?",
+        "correct_answer": "Vilim I. Oranski (Vilim Šutljivi)",
+        "incorrect_answers": [
+            "Filip II.",
+            "Alessandro Farnese",
+            "Maurice Nassauski"
+        ]
+    },
+    {
+        "id": "hr_hist_889",
+        "category": "povijest",
+        "question": "Kako se naziva prisilno preseljenje američkih Indijanaca s njihovih zemalja tijekom 1830-ih godina za vrijeme predsjednika Andrewa Jacksona?",
+        "correct_answer": "Staza suza",
+        "incorrect_answers": [
+            "Podzemna željeznica",
+            "Zakon o domaćinstvu",
+            "Marš na Washington"
+        ]
+    },
+    {
+        "id": "hr_hist_890",
+        "category": "povijest",
+        "question": "Tko je bio vođa seljačkog ustanka u južnom Meksiku tijekom Meksičke revolucije, poznat po geslu 'Zemlja i sloboda'?",
+        "correct_answer": "Emiliano Zapata",
+        "incorrect_answers": [
+            "Pancho Villa",
+            "Porfirio Díaz",
+            "Francisco Madero"
+        ]
+    },
+    {
+        "id": "hr_hist_891",
+        "category": "povijest",
+        "question": "Koji je kralj u 19. stoljeću ujedinio zulu plemena i stvorio moćno Zulu Kraljevstvo u južnoj Africi?",
+        "correct_answer": "Shaka Zulu",
+        "incorrect_answers": [
+            "Cetshwayo",
+            "Dingaan",
+            "Moshoeshoe I."
+        ]
+    },
+    {
+        "id": "hr_hist_892",
+        "category": "povijest",
+        "question": "Koji je američki komodor 1853. godine doplovio u Japan i pridonio njegovom prisilnom otvaranju prema Zapadu?",
+        "correct_answer": "Matthew Perry",
+        "incorrect_answers": [
+            "George Dewey",
+            "Robert Peary",
+            "David Farragut"
+        ]
+    },
+    {
+        "id": "hr_hist_893",
+        "category": "povijest",
+        "question": "Kojim je ugovorom iz 1842. godine Kina, nakon poraza u Prvom opijumskom ratu, ustupila Hong Kong Britaniji?",
+        "correct_answer": "Nankinški ugovor",
+        "incorrect_answers": [
+            "Šimonoseski ugovor",
+            "Ugovor iz Tientsina",
+            "Bokserski protokol"
+        ]
+    },
+    {
+        "id": "hr_hist_894",
+        "category": "povijest",
+        "question": "Koja je moćna bankarska obitelj u doba renesanse vladala Firencom i bila velik pokrovitelj umjetnosti?",
+        "correct_answer": "Obitelj Medici",
+        "incorrect_answers": [
+            "Obitelj Borgia",
+            "Obitelj Sforza",
+            "Obitelj Visconti"
+        ]
+    },
+    {
+        "id": "hr_hist_895",
+        "category": "povijest",
+        "question": "Po kojem je talijanskom istraživaču i kartografu nazvan kontinent Amerika?",
+        "correct_answer": "Amerigo Vespucci",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Vasco da Gama",
+            "John Cabot"
+        ]
+    },
+    {
+        "id": "hr_hist_896",
+        "category": "povijest",
+        "question": "Kako se naziva masakr mirnih demonstranata pred Zimskim dvorcem u Sankt Peterburgu 1905. godine koji je pokrenuo rusku revoluciju te godine?",
+        "correct_answer": "Krvava nedjelja",
+        "incorrect_answers": [
+            "Oktobarska revolucija",
+            "Veljačka revolucija",
+            "Praško proljeće"
+        ]
+    },
+    {
+        "id": "hr_hist_897",
+        "category": "povijest",
+        "question": "Koja je revolucija u veljači 1917. godine dovela do abdikacije ruskog cara Nikole II.?",
+        "correct_answer": "Veljačka revolucija",
+        "incorrect_answers": [
+            "Oktobarska revolucija",
+            "Krvava nedjelja",
+            "Dekabristički ustanak"
+        ]
+    },
+    {
+        "id": "hr_hist_898",
+        "category": "povijest",
+        "question": "Kako se naziva niz pregovora i sporazuma između SAD-a i SSSR-a o ograničenju strateškog nuklearnog naoružanja, započetih 1969. godine?",
+        "correct_answer": "SALT (Sporazumi o ograničenju strateškog naoružanja)",
+        "incorrect_answers": [
+            "START",
+            "Pakt Molotov-Ribbentrop",
+            "Sporazum iz Reykjavika"
+        ]
     }
 ]
