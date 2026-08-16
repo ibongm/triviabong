@@ -1,5 +1,24 @@
 # Changelog
 
+### [2026-08-16] - Reduce Firestore Quota: Heartbeat Intervals & Scoped Presence Listener
+- **Files Changed**:
+  - `src/hooks/usePresence.js` (Modified)
+  - `src/components/OnlinePlayersList.jsx` (Modified)
+  - `src/hooks/useSessionTracking.js` (Modified)
+  - `src/hooks/useOneVsOne.js` (Modified)
+  - `src/App.jsx` (Modified)
+- **Details**:
+  - Reduced Firestore write quota burn by bumping `HEARTBEAT_INTERVAL_MS` from 30s to 60s in `usePresence.js` (cutting presence writes by 50%) and from 30s to 90s in `useSessionTracking.js` (cutting admin session writes by 66%).
+  - Adjusted `ONLINE_THRESHOLD_MS` in `OnlinePlayersList.jsx` from 90s to 180s to maintain the 3x heartbeat interval ratio and tolerate single missed beats.
+  - Scoped the `subscribeToOnlinePlayers` `onSnapshot` listener in `useOneVsOne.js` to only run when `gameState === 'LOBBY'` and `!activeMatchId`, unsubscribing during active gameplay, leaderboards, and 1v1 matches to eliminate broadcast read fan-out during rounds.
+  - Passed `gameState` to `useOneVsOne` in `App.jsx`.
+
+### [2026-08-16] - Install Antigravity Workflows
+- **Files Changed**:
+  - `.agent/workflows/*` (Created)
+- **Details**:
+  - Installed all 45 Antigravity development, testing, database, deployment, and AI workflows into `.agent/workflows/` via `npx antigravity-workflows install --all`.
+
 ## 2026-08-16
 
 - **Files Changed**: `reports/*` (deleted), `plans/*` (deleted), `docs/*` (deleted), `.adeptly/*` (deleted), `ANALIZA_SVIH_KATEGORIJA_EXPORT.md` (deleted), `review-report.md` (deleted), `trofejiexample.txt` (deleted), `.gitignore`

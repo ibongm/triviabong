@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { startSession, heartbeatSession } from '../services/firebase';
 
-const HEARTBEAT_INTERVAL_MS = 30000;
+const HEARTBEAT_INTERVAL_MS = 90000;
 
 // Admin-only time-tracking instrumentation (beta insights) - accumulates
 // wall-clock time spent in each gameState for the current browser session
-// and flushes the full snapshot to Firestore every 30s, pausing while the
+// and flushes the full snapshot to Firestore every 90s, pausing while the
 // tab is backgrounded (Page Visibility API) so an abandoned open tab doesn't
 // inflate the numbers. Signed-in users only - see startSession's comment
 // (services/firebase.js) for why anonymous play is out of scope. There's no
@@ -78,7 +78,7 @@ export const useSessionTracking = (uid, gameState) => {
         return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
     }, [uid]);
 
-    // Heartbeat: flush + write the full snapshot every 30s while signed in.
+    // Heartbeat: flush + write the full snapshot every 90s while signed in.
     useEffect(() => {
         if (!uid) return;
         const interval = setInterval(() => {

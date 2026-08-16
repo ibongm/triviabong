@@ -5,9 +5,9 @@ import { CATEGORY_META } from '../data/categoryMeta';
 import { getTitleForLevel } from '../constants/levelTitles';
 import LevelBadge from './LevelBadge';
 
-// 3x the 30s heartbeat in usePresence.js - tolerates one missed heartbeat
+// 3x the 60s heartbeat in usePresence.js - tolerates one missed heartbeat
 // (e.g. a brief network hiccup) before a player drops off the list.
-const ONLINE_THRESHOLD_MS = 90000;
+const ONLINE_THRESHOLD_MS = 180000;
 
 // Shared with the compact lobby CTA (App.jsx), which only needs a count and
 // would otherwise duplicate this exact self-exclusion + staleness filter.

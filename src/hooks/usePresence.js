@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { upsertPresence } from '../services/firebase';
 
-const HEARTBEAT_INTERVAL_MS = 30000;
+const HEARTBEAT_INTERVAL_MS = 60000;
 
 // Maps the single-player gameState machine onto presence's public status.
 // 'busy' isn't reachable through this mapping yet - it's reserved for
@@ -15,7 +15,7 @@ const statusForGameState = (gameState) => {
 
 // Publicly-visible counterpart to useSessionTracking: writes presence/{uid}
 // (see firestore.rules) so other signed-in players can see who's online and
-// what they're doing. Same 30s heartbeat + Page Visibility pausing pattern,
+// what they're doing. Same 60s heartbeat + Page Visibility pausing pattern,
 // but there's no per-gameState bucket to accumulate - each write is just the
 // current status, so an immediate write on status change (not just the
 // heartbeat tick) keeps the list responsive when someone starts a round.
@@ -33,7 +33,7 @@ export const usePresence = (uid, displayName, level, gameState) => {
         upsertPresence(uid, dn, lvl, status);
     }, [uid, displayName, level, gameState]);
 
-    // Heartbeat: re-send the current snapshot every 30s while the tab is
+    // Heartbeat: re-send the current snapshot every 60s while the tab is
     // visible, so lastHeartbeat keeps advancing and the doc doesn't go
     // stale in other clients' online-threshold filtering.
     useEffect(() => {

@@ -22,20 +22,26 @@ import {
 // in this codebase) rather than an onWin callback - the win-path stat
 // update is a self-contained functional updater with no other App.jsx
 // dependency, so a callback indirection would add nothing.
-export function useOneVsOne(currentUser, setGlobalStats, recordMatchComplete) {
+export function useOneVsOne(currentUser, setGlobalStats, recordMatchComplete, gameState) {
+    // The match currently being played, if any - non-null switches the main
+    // render area over to <MatchView>, a fully separate tree from the normal
+    // gameState machine (see Plan B - a new top-level mode, not woven into
+    // the existing single-player state machine).
+    const [activeMatchId, setActiveMatchId] = useState(null);
+
     // The single onSnapshot subscription for the whole `presence` collection,
     // shared by both the lobby's "1v1 Dvoboj" CTA subtitle (which only needs
     // a count) and OnlinePlayersList (which needs the full list, passed down
-    // as a prop) - previously each subscribed independently, doubling the
-    // Firestore read/listener cost for as long as the online-players modal
-    // was open.
+    // as a prop). Scoped strictly to Lobby mode (gameState === 'LOBBY' and
+    // !activeMatchId) so that active quiz rounds and 1v1 matches don't incur
+    // fan-out read costs for online presence updates.
     const [onlinePlayers, setOnlinePlayers] = useState(null);
     // Count is derived inside the snapshot callback (an event handler, not
     // render) rather than from `onlinePlayers` at render time, specifically
     // so `Date.now()` isn't called during render (React's purity rule).
     const [onlinePlayersCount, setOnlinePlayersCount] = useState(0);
     useEffect(() => {
-        if (!currentUser?.uid) return undefined;
+        if (!currentUser?.uid || gameState !== 'LOBBY' || activeMatchId) return undefined;
         const unsubscribe = subscribeToOnlinePlayers((players) => {
             setOnlinePlayers(players);
             setOnlinePlayersCount(filterOnlinePlayers(players, currentUser.uid, Date.now()).length);
@@ -45,18 +51,13 @@ export function useOneVsOne(currentUser, setGlobalStats, recordMatchComplete) {
             setOnlinePlayers(null);
             setOnlinePlayersCount(0);
         };
-    }, [currentUser?.uid]);
+    }, [currentUser?.uid, gameState, activeMatchId]);
 
     // Pending invites addressed to ME (shows MatchInviteModal for the oldest).
     const [incomingInvites, setIncomingInvites] = useState([]);
     // The invite I just SENT, while waiting for the other player to respond -
     // only the sender needs this (to detect 'accepted' and create the match).
     const [sentInvite, setSentInvite] = useState(null);
-    // The match currently being played, if any - non-null switches the main
-    // render area over to <MatchView>, a fully separate tree from the normal
-    // gameState machine (see Plan B - a new top-level mode, not woven into
-    // the existing single-player state machine).
-    const [activeMatchId, setActiveMatchId] = useState(null);
     // Guards against creating the match doc twice if subscribeToSentInvite
     // fires more than once for the same accepted invite (e.g. a reconnect).
     const matchCreatedForInviteRef = useRef(null);

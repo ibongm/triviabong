@@ -322,7 +322,7 @@ export default function App() {
     handleSendInvite,
     cancelSentInvite,
     handleMatchOver,
-  } = useOneVsOne(currentUser, setGlobalStats, recordMatchComplete);
+  } = useOneVsOne(currentUser, setGlobalStats, recordMatchComplete, gameState);
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
