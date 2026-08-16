@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-08-16
+
+- **Files Changed**: `src/App.jsx`
+  **Details**: Fixed a false "Razina 2" level-up toast firing on every fresh page load for signed-in accounts. The level-up diff effect compared `globalStats.level` against a `prevLevelRef` baseline seeded from the anonymous placeholder state (`level: 1`) present before auth resolves; when the real account's stats (`level: 2`) hydrated in, the effect saw `2 > 1` and treated it as a genuine level-up. Added a `hydratingStatsRef` flag, set immediately before each of the three `setGlobalStats` calls that hydrate state from storage/network rather than gameplay (auth resolve, sign-out, cross-tab `storage` merge) - the diff effect now checks this flag first and, when set, silently adopts the incoming level as the new baseline instead of showing the toast, then clears it. Gameplay `setGlobalStats` call sites (round answers, daily missions, 1v1 match completion) are untouched and still toast normally.
+
 ## 2026-08-15
 
 - **Files Changed**: `src/index.css`, `index.html`, `src/assets/fonts/inter-latin.woff2` (new), `src/assets/fonts/inter-latin-ext.woff2` (new), `src/assets/fonts/space-grotesk-latin.woff2` (new), `src/assets/fonts/space-grotesk-latin-ext.woff2` (new), `src/screens/GameOverScreen.jsx`, `src/screens/LeaderboardScreen.jsx`, `src/screens/LobbyScreen.jsx`, `src/screens/PlayingScreen.jsx`
