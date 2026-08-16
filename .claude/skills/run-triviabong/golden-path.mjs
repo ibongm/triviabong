@@ -36,14 +36,18 @@ function clickText(page, text) {
 
 // The header's Statistika access point is now the "Razina" pill (icon +
 // level number, no text label) rather than a labelled button - click by
-// its title attribute instead of visible text.
-function clickByTitle(page, title) {
+// its title attribute instead of visible text. Matched as a PREFIX, not
+// exact equality: the title also has the player's current level title
+// appended (e.g. "Razina i Statistika — Slučajni Prolaznik"), which varies
+// by level, so an exact match would break the moment a fresh test account
+// isn't level 1 anymore.
+function clickByTitle(page, titlePrefix) {
   return page.evaluate((t) => {
-    const el = [...document.querySelectorAll('button, a, [role="button"]')].find(e => e.title === t);
+    const el = [...document.querySelectorAll('button, a, [role="button"]')].find(e => e.title?.startsWith(t));
     if (!el) return 'NOT_FOUND';
     el.click();
     return 'OK';
-  }, title);
+  }, titlePrefix);
 }
 
 function bodyText(page) {

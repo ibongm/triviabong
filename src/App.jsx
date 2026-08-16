@@ -27,7 +27,19 @@ import { mergeMonotonicStats } from './utils/statsMerge';
 import { loadStats, saveStats, migrateStats, getStorageKey } from './services/statsStore';
 import { sound } from './utils/sound';
 import { sanitizeDisplayName } from './utils/publicProfile';
+// Lazily loaded: each is rendered unconditionally in JSX but self-gates via
+// an `isOpen` prop, so the surrounding render call is also changed to
+// {showX && (<Suspense><LazyX/></Suspense>)} - without that, React would
+// still mount (and download the chunk for) the lazy component on first
+// render regardless of isOpen, defeating the point.
 const AdminPanel = React.lazy(() => import('./components/AdminPanel'));
+const GuideModal = React.lazy(() => import('./components/GuideModal'));
+const WhatsNewModal = React.lazy(() => import('./components/WhatsNewModal'));
+const AchievementsModal = React.lazy(() => import('./components/AchievementsModal'));
+const DailyMissionsModal = React.lazy(() => import('./components/DailyMissionsModal'));
+// MatchView is already conditionally rendered (activeMatchId && currentUser
+// ? <MatchView/> : ...), so lazy-loading it is a plain import swap.
+const MatchView = React.lazy(() => import('./components/MatchView'));
 import AuthModal from './components/AuthModal';
 import StatsModal from './components/StatsModal';
 import LevelBadge from './components/LevelBadge';
@@ -35,14 +47,10 @@ import LobbyScreen from './screens/LobbyScreen';
 import LeaderboardScreen from './screens/LeaderboardScreen';
 import PlayingScreen from './screens/PlayingScreen';
 import GameOverScreen from './screens/GameOverScreen';
-import GuideModal from './components/GuideModal';
-import WhatsNewModal from './components/WhatsNewModal';
-import AchievementsModal from './components/AchievementsModal';
 import RekordiModal from './components/RekordiModal';
 import SecretAchievementOverlay from './components/SecretAchievementOverlay';
 import ReportQuestionModal from './components/ReportQuestionModal';
 import SubmitQuestionModal from './components/SubmitQuestionModal';
-import DailyMissionsModal from './components/DailyMissionsModal';
 import ConfirmModal from './components/ConfirmModal';
 import { applyAnswer } from './utils/gameLogic';
 import { useGameRound } from './hooks/useGameRound';
@@ -54,7 +62,6 @@ import { useScoreSaving } from './hooks/useScoreSaving';
 import { useDailyMissions } from './hooks/useDailyMissions';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
-import MatchView from './components/MatchView';
 import { shuffleArray } from './utils/questionUtils';
 import {
   auth,
@@ -1131,16 +1138,18 @@ export default function App() {
       <main className="w-full max-w-2xl mx-auto px-4 py-8 flex-1 flex flex-col justify-center">
 
         {activeMatchId && currentUser ? (
-          <MatchView
-            matchId={activeMatchId}
-            currentUid={currentUser.uid}
-            onExit={() => setActiveMatchId(null)}
-            onMatchOver={handleMatchOver}
-            onRematch={(opponentUid, category) => {
-              setActiveMatchId(null);
-              handleSendInvite(opponentUid, category);
-            }}
-          />
+          <React.Suspense fallback={null}>
+            <MatchView
+              matchId={activeMatchId}
+              currentUid={currentUser.uid}
+              onExit={() => setActiveMatchId(null)}
+              onMatchOver={handleMatchOver}
+              onRematch={(opponentUid, category) => {
+                setActiveMatchId(null);
+                handleSendInvite(opponentUid, category);
+              }}
+            />
+          </React.Suspense>
         ) : (
         <>
         {gameState === 'LOBBY' && (
@@ -1259,11 +1268,15 @@ export default function App() {
       />
 
       {/* Achievements Modal */}
-      <AchievementsModal
-        isOpen={showAchievementsModal}
-        onClose={() => setShowAchievementsModal(false)}
-        stats={globalStats}
-      />
+      {showAchievementsModal && (
+        <React.Suspense fallback={null}>
+          <AchievementsModal
+            isOpen={showAchievementsModal}
+            onClose={() => setShowAchievementsModal(false)}
+            stats={globalStats}
+          />
+        </React.Suspense>
+      )}
 
       {/* Secret achievement reveal - pauses the round until dismissed. The
           gameState check matters: the header logo can drop the player to the
@@ -1330,21 +1343,29 @@ export default function App() {
       />
 
       {/* Daily Missions Modal */}
-      <DailyMissionsModal
-        isOpen={showMissionsModal}
-        onClose={() => setShowMissionsModal(false)}
-        missionsToday={missionsToday}
-        missionState={missionState}
-        onClaimSlot={claimSlot}
-        onClaimCleanSweep={claimCleanSweep}
-      />
+      {showMissionsModal && (
+        <React.Suspense fallback={null}>
+          <DailyMissionsModal
+            isOpen={showMissionsModal}
+            onClose={() => setShowMissionsModal(false)}
+            missionsToday={missionsToday}
+            missionState={missionState}
+            onClaimSlot={claimSlot}
+            onClaimCleanSweep={claimCleanSweep}
+          />
+        </React.Suspense>
+      )}
 
       {/* What's New Modal (economy rebalance announcement) */}
-      <WhatsNewModal
-        isOpen={showWhatsNewModal}
-        onClose={dismissWhatsNewModal}
-        onOpenGuide={() => { dismissWhatsNewModal(); setShowGuideModal(true); }}
-      />
+      {showWhatsNewModal && (
+        <React.Suspense fallback={null}>
+          <WhatsNewModal
+            isOpen={showWhatsNewModal}
+            onClose={dismissWhatsNewModal}
+            onOpenGuide={() => { dismissWhatsNewModal(); setShowGuideModal(true); }}
+          />
+        </React.Suspense>
+      )}
 
       <ConfirmModal
         isOpen={showDailyConfirm}
@@ -1356,10 +1377,14 @@ export default function App() {
       />
 
       {/* Guide Modal */}
-      <GuideModal
-        isOpen={showGuideModal}
-        onClose={() => setShowGuideModal(false)}
-      />
+      {showGuideModal && (
+        <React.Suspense fallback={null}>
+          <GuideModal
+            isOpen={showGuideModal}
+            onClose={() => setShowGuideModal(false)}
+          />
+        </React.Suspense>
+      )}
 
       {/* Auth Modal */}
       <AuthModal
