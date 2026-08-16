@@ -6,12 +6,18 @@
 // (both players answering around the same moment, both self-reporting
 // score, the questionStartedAt/reveal/advance races).
 //
-// WARNING: like the other scripts in this skill, this writes REAL data to
-// the LIVE production Firebase project (triviabong-web) - a real
-// matchInvites doc, a real matches doc (which can never be deleted by
-// design - see firestore.rules' comment on matches/{matchId} - accepted
-// clutter, same as golden-path.mjs's leaderboard rows), and both players'
-// matchHistory entries. Run manually/on-demand, not in a loop.
+// Drives the app purely through the browser (no Firebase SDK import here),
+// so it transparently follows wherever the app's own firebase.js is
+// pointed. Run with VITE_USE_FIREBASE_EMULATOR=true set before `npm run
+// dev` (see SKILL.md) to target the local Firebase Emulator Suite instead
+// of live production - the recommended default, safe to loop/automate.
+//
+// Without that env var, this writes REAL data to the LIVE production
+// Firebase project (triviabong-web) - a real matchInvites doc, a real
+// matches doc (which can never be deleted by design - see firestore.rules'
+// comment on matches/{matchId} - accepted clutter, same as golden-path.mjs's
+// leaderboard rows), and both players' matchHistory entries. Only run that
+// way manually/on-demand, never in a loop.
 //
 // TWO fixed accounts, not one: this is the one script in the skill that
 // genuinely needs two distinct uids. Reuses the same "fixed account, not a
@@ -60,6 +66,18 @@ let failed = false;
 function step(label, ok, extra = '') {
   console.log(`${ok ? 'PASS' : 'FAIL'} - ${label}${extra ? ' - ' + extra : ''}`);
   if (!ok) failed = true;
+}
+
+// The login-probe-then-register fallback below deliberately triggers a
+// Firebase SDK-internal console.error("auth/user-not-found") (plus the
+// underlying failed request's "Failed to load resource: ... 400" line) on
+// first-ever run - expected and self-healing (registration immediately
+// follows), not a real failure. Filtered out of consoleErrors below via
+// isExpectedAuthProbeError so it doesn't fail every emulator-mode run,
+// where "first-ever run" is the norm (emulator state doesn't persist
+// between sessions) rather than the rare case it was against prod.
+function isExpectedAuthProbeError(text) {
+  return text.includes('auth/user-not-found') || text.includes('Failed to load resource');
 }
 
 // Login-or-register, same pattern as cross-device-sync-check.mjs's signIn.
@@ -130,8 +148,8 @@ const contextB = await browser.newContext();
 const pageA = await contextA.newPage();
 const pageB = await contextB.newPage();
 const consoleErrors = [];
-pageA.on('console', (msg) => { if (msg.type() === 'error') consoleErrors.push(`[A/host] ${msg.text()}`); });
-pageB.on('console', (msg) => { if (msg.type() === 'error') consoleErrors.push(`[B/invitee] ${msg.text()}`); });
+pageA.on('console', (msg) => { if (msg.type() === 'error' && !isExpectedAuthProbeError(msg.text())) consoleErrors.push(`[A/host] ${msg.text()}`); });
+pageB.on('console', (msg) => { if (msg.type() === 'error' && !isExpectedAuthProbeError(msg.text())) consoleErrors.push(`[B/invitee] ${msg.text()}`); });
 
 try {
   console.log('=== sign in both contexts (concurrently) ===');

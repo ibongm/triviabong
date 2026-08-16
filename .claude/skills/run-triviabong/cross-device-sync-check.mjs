@@ -1,10 +1,16 @@
 // Verifies stats (totalGames/totalAnswered/categoryStats/etc, not just
 // level/xp/coins) actually follow an account across devices/browsers.
 //
-// WARNING: like golden-path.mjs, this writes REAL data to the LIVE
-// production Firebase project (triviabong-web) - specifically the shared
-// BongBotTest Auth account plus its Firestore users/{uid} doc. Run this
-// manually/on-demand, not in default CI (see SKILL.md).
+// Drives the app purely through the browser (no Firebase SDK import here),
+// so it transparently follows wherever the app's own firebase.js is
+// pointed. Run with VITE_USE_FIREBASE_EMULATOR=true set before `npm run
+// dev` (see SKILL.md) to target the local Firebase Emulator Suite instead
+// of live production - the recommended default, safe to loop/automate.
+//
+// Without that env var, this writes REAL data to the LIVE production
+// Firebase project (triviabong-web) - specifically the shared BongBotTest
+// Auth account plus its Firestore users/{uid} doc. Only run that way
+// manually/on-demand, never in a loop (see SKILL.md).
 //
 // One FIXED account is reused across runs rather than a fresh throwaway per
 // run: per-run accounts accumulated in production forever, and their
@@ -31,6 +37,20 @@ function clickText(page, text) {
   }, text);
 }
 
+// The header's Statistika access point is now the "Razina" pill (icon +
+// level number, no text label) rather than a labelled button - click by
+// its title attribute instead of visible text (see golden-path.mjs, which
+// already made this change). Matched as a PREFIX: the title also has the
+// player's current level title appended, which varies by level.
+function clickByTitle(page, titlePrefix) {
+  return page.evaluate((t) => {
+    const el = [...document.querySelectorAll('button, a, [role="button"]')].find(e => e.title?.startsWith(t));
+    if (!el) return 'NOT_FOUND';
+    el.click();
+    return 'OK';
+  }, titlePrefix);
+}
+
 function bodyText(page) {
   return page.evaluate(() => document.body.innerText);
 }
@@ -46,7 +66,7 @@ function clickFirstAnswer(page) {
 }
 
 async function readStats(page) {
-  await clickText(page, 'Statistika');
+  await clickByTitle(page, 'Razina i Statistika');
   await page.waitForTimeout(300);
   const text = await bodyText(page);
   const totalGames = text.match(/(\d+)\s*\n?\s*ODIGRANO/)?.[1];
@@ -62,9 +82,24 @@ function step(label, ok) {
 }
 
 // Signs in as the fixed BongBotTest account, creating it the first time this
-// ever runs against a given Firebase project. Login is attempted first
-// because after run #1 the account always exists - registering first would
-// fail with auth/email-already-in-use on every subsequent run.
+// ever runs against a given Firebase project (which, against the Firebase
+// Emulator Suite, is *every* run unless emulator state was explicitly
+// exported/imported - emulator data doesn't persist between sessions).
+// Login is attempted first because once the account exists, registering
+// first would fail with auth/email-already-in-use.
+//
+// The login-probe-then-register fallback below deliberately triggers a
+// Firebase SDK-internal console.error("auth/user-not-found") (plus the
+// underlying failed request's "Failed to load resource: ... 400" line) on
+// first-ever run - expected and self-healing (registration immediately
+// follows), not a real failure. Filtered out of consoleErrors below via
+// isExpectedAuthProbeError so it doesn't fail every emulator-mode run,
+// where "first-ever run" is the norm (emulator state doesn't persist
+// between sessions) rather than the rare case it was against prod.
+function isExpectedAuthProbeError(text) {
+  return text.includes('auth/user-not-found') || text.includes('Failed to load resource');
+}
+
 async function signIn(page, label) {
   await clickText(page, 'Prijava');
   await page.waitForSelector('input[type="email"]', { timeout: 10000 });
@@ -146,8 +181,8 @@ const contextB = await browser.newContext(); // fresh cookie/localStorage jar - 
 const pageA = await contextA.newPage();
 const pageB = await contextB.newPage();
 const consoleErrors = [];
-pageA.on('console', (msg) => { if (msg.type() === 'error') consoleErrors.push(`[A] ${msg.text()}`); });
-pageB.on('console', (msg) => { if (msg.type() === 'error') consoleErrors.push(`[B] ${msg.text()}`); });
+pageA.on('console', (msg) => { if (msg.type() === 'error' && !isExpectedAuthProbeError(msg.text())) consoleErrors.push(`[A] ${msg.text()}`); });
+pageB.on('console', (msg) => { if (msg.type() === 'error' && !isExpectedAuthProbeError(msg.text())) consoleErrors.push(`[B] ${msg.text()}`); });
 
 try {
   const expected = await registerAndPlay(pageA);

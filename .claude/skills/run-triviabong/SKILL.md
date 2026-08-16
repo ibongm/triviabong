@@ -16,17 +16,40 @@ All paths below are relative to the repo root unless noted.
 ## Prerequisites (one-time)
 
 ```bash
-npm install                                             # repo root - app deps
+npm install                                             # repo root - app deps (includes firebase-tools)
 cd .claude/skills/run-triviabong && npm install         # script's own deps (playwright)
 npx playwright install chromium                          # downloads the browser binary (~115MB)
 ```
 
-## Start the dev server
+## Start the Firebase emulators, then the dev server
+
+All three scripts drive the app purely through the browser (no direct
+Firebase SDK import), so they transparently follow wherever the app's
+own `firebase.js` is pointed. Point it at the local Firebase Emulator
+Suite instead of live production by starting the emulators first and
+setting `VITE_USE_FIREBASE_EMULATOR=true` before starting the dev
+server — this is now the recommended way to run this skill, since it
+means no run touches production data (see Gotchas).
 
 ```bash
-npm run dev &
+npx firebase emulators:start --only firestore,auth &
+timeout 30 bash -c 'until curl -sf http://127.0.0.1:8080 >/dev/null; do sleep 1; done'
+timeout 30 bash -c 'until curl -sf http://127.0.0.1:9250 >/dev/null; do sleep 1; done'
+
+VITE_USE_FIREBASE_EMULATOR=true npm run dev &
 timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done'
 ```
+
+Emulator UI (inspect what got written) is at `http://127.0.0.1:4000`.
+Emulator state doesn't persist between runs, so each session starts
+from an empty project — all three scripts already handle this via
+their login-or-register fallback for `BongBotTest`/`BongBotTest2`, no
+seeding needed.
+
+Omitting `VITE_USE_FIREBASE_EMULATOR` (or starting the dev server
+without the emulators running) still works exactly as before — the
+app falls back to live production `triviabong-web`. Only reach for
+that when you specifically need to verify against real prod data.
 
 ## Run the golden-path check
 
@@ -63,9 +86,12 @@ accounts piled up in production forever, and their generated names
 were long enough to trip the 20-char `displayName` cap in
 `firestore.rules`, which silently broke the admin "Popuni sve
 profile" backfill for everyone. Stats accumulating across runs is
-harmless — the assertions compare the two contexts within one run. Requires the Email/Password sign-in provider to be
-enabled on the `triviabong-web` Firebase project (Console →
-Authentication → Sign-in method) — if it's off you'll see
+harmless — the assertions compare the two contexts within one run.
+Against the emulator, both accounts auto-register fresh each session
+(emulator state doesn't persist), so no provider setup is needed.
+Against live production, this requires the Email/Password sign-in
+provider to be enabled on the `triviabong-web` Firebase project
+(Console → Authentication → Sign-in method) — if it's off you'll see
 `auth/operation-not-allowed` in the script's error output rather than
 a real assertion failure.
 
@@ -101,15 +127,18 @@ Credentials are in the script itself (`bongbottest2@example.com` /
 `BongBotTest2123!`); registered automatically on first run against a
 project, same login-or-register fallback as `BongBotTest`.
 
-**Leaves real, permanent Firestore clutter.** Unlike the other two
-scripts, a run here creates a `matches/{matchId}` document that **can
-never be deleted** by design (`allow delete: if false` in
-`firestore.rules` — see that file's comment on
-`matches/{matchId}`; cleanup is explicitly deferred, same as
-`presence/{uid}`'s stale-doc handling). It also writes one
-`matchInvites` doc (self-deletable, but the script doesn't bother)
-and one `matchHistory` entry per player. Fine for occasional manual
-verification; don't loop this script.
+**Leaves real, permanent Firestore clutter — if run against production.**
+A run creates a `matches/{matchId}` document that **can never be
+deleted** by design (`allow delete: if false` in `firestore.rules` —
+see that file's comment on `matches/{matchId}`; cleanup is explicitly
+deferred, same as `presence/{uid}`'s stale-doc handling). It also
+writes one `matchInvites` doc (self-deletable, but the script doesn't
+bother) and one `matchHistory` entry per player. Against the
+emulator this is a non-issue (emulator state doesn't persist between
+sessions), which is why running with `VITE_USE_FIREBASE_EMULATOR=true`
+is now the recommended default — loop or automate freely there. Only
+avoid looping this script when deliberately pointed at live
+production.
 
 **Timing note:** the moment either context's own write makes
 `match.status` become `'match_over'`/`'forfeited'`, that client
@@ -161,19 +190,22 @@ also collects every browser console message and fails the run if any
 - **The app auto-advances ~1.2–1.5s after an answer click**
   (`setTimeout` in `App.jsx`) — the script always waits 1500ms after
   clicking an answer before reading the next state.
-- **Firestore calls hit the real `triviabong-web` project, even in
-  local dev** — there's no emulator wired into the dev server.
-  Saving a score or loading a leaderboard is a real write/read
-  against the deployed `firestore.rules` at the repo root. That's
-  exactly why the script fails on any console error: a rules
-  regression would show up as `permission-denied` here.
-- **A run that reaches "save score" adds a real (harmless, ~few
-  hundred point) row to that category's live leaderboard.**
-  Those rows are saved under the nickname `BongBotTest`, so test data
-  is identifiable and cleanable. `cross-device-sync-check.mjs`
-  similarly writes to the real BongBotTest Auth user + Firestore doc
-  (reused, not recreated). Fine for occasional manual verification;
-  don't loop either script unattended.
+- **Firestore calls follow wherever `firebase.js` is pointed** — the
+  emulator when `VITE_USE_FIREBASE_EMULATOR=true` was set before
+  `npm run dev` started (see "Start the Firebase emulators" above),
+  otherwise the real `triviabong-web` project. Either way it's a real
+  write/read against the same `firestore.rules` at the repo root
+  (the emulator loads the identical rules file), so the script still
+  fails on any console error: a rules regression shows up as
+  `permission-denied` in both modes.
+- **Against live production**, a run that reaches "save score" adds a
+  real (harmless, ~few hundred point) row to that category's live
+  leaderboard, under the nickname `BongBotTest`, and
+  `cross-device-sync-check.mjs`/`two-player-match-check.mjs` write to
+  the real BongBotTest/BongBotTest2 Auth users + Firestore docs.
+  Fine for occasional manual verification; don't loop any of the
+  three scripts unattended in this mode. Against the emulator, none
+  of this applies — loop freely.
 - **`page.reload({ waitUntil: 'networkidle' })` (or `.goto` with the
   same option) can hang indefinitely once Firestore's SDK has
   established its persistent connection** — that connection never

@@ -1,0 +1,44 @@
+name: E2E (emulator)
+
+# Manual only, for now - not yet wired to run on every push/PR even though
+# it's safe to (writes only hit the local Firebase Emulator Suite, never
+# live production). Run this on-demand from the Actions tab.
+on:
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Install driver deps
+        working-directory: .claude/skills/run-triviabong
+        run: npm ci
+      - name: Install Playwright Chromium
+        working-directory: .claude/skills/run-triviabong
+        run: npx playwright install --with-deps chromium
+      - name: Start Firebase emulators
+        run: |
+          npx firebase emulators:start --only firestore,auth &
+          timeout 30 bash -c 'until curl -sf http://127.0.0.1:8080 >/dev/null; do sleep 1; done'
+          timeout 30 bash -c 'until curl -sf http://127.0.0.1:9250 >/dev/null; do sleep 1; done'
+      - name: Start dev server against the emulator
+        env:
+          VITE_USE_FIREBASE_EMULATOR: "true"
+        run: |
+          npm run dev &
+          timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done'
+      - name: Run golden-path check
+        working-directory: .claude/skills/run-triviabong
+        run: node golden-path.mjs
+      - name: Run cross-device sync check
+        working-directory: .claude/skills/run-triviabong
+        run: node cross-device-sync-check.mjs
+      - name: Run two-player match check
+        working-directory: .claude/skills/run-triviabong
+        run: node two-player-match-check.mjs
