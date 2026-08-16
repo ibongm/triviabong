@@ -8787,5 +8787,555 @@
             "Brunej",
             "Filipini"
         ]
+    },
+    {
+        "id": "hr_geo_800",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Moskvu?",
+        "correct_answer": "Moskva",
+        "incorrect_answers": [
+            "Volga",
+            "Don",
+            "Neva"
+        ]
+    },
+    {
+        "id": "hr_geo_801",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Sankt Peterburg?",
+        "correct_answer": "Neva",
+        "incorrect_answers": [
+            "Volga",
+            "Don",
+            "Dnjepar"
+        ]
+    },
+    {
+        "id": "hr_geo_802",
+        "category": "geografija",
+        "question": "Koje je najveće jezero na Balkanskom poluotoku po površini?",
+        "correct_answer": "Skadarsko jezero",
+        "incorrect_answers": [
+            "Ohridsko jezero",
+            "Prespansko jezero",
+            "Plitvička jezera"
+        ]
+    },
+    {
+        "id": "hr_geo_803",
+        "category": "geografija",
+        "question": "Koje jezero dijele Sjeverna Makedonija i Albanija, poznato kao jedno od najstarijih jezera u Europi?",
+        "correct_answer": "Ohridsko jezero",
+        "incorrect_answers": [
+            "Skadarsko jezero",
+            "Prespansko jezero",
+            "Bodensko jezero"
+        ]
+    },
+    {
+        "id": "hr_geo_804",
+        "category": "geografija",
+        "question": "Koji planinski masiv je najviši u Novom Zelandu?",
+        "correct_answer": "Južni Alpi",
+        "incorrect_answers": [
+            "Sjeverni Alpi",
+            "Karakoram",
+            "Stjenjak"
+        ]
+    },
+    {
+        "id": "hr_geo_805",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Novog Zelanda?",
+        "correct_answer": "Aoraki / Mount Cook",
+        "incorrect_answers": [
+            "Mount Kosciuszko",
+            "Mount Taranaki",
+            "Mount Ruapehu"
+        ]
+    },
+    {
+        "id": "hr_geo_806",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Budimpeštu?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Tisa",
+            "Sava",
+            "Drava"
+        ]
+    },
+    {
+        "id": "hr_geo_807",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Varšavu?",
+        "correct_answer": "Visla",
+        "incorrect_answers": [
+            "Odra",
+            "Bug",
+            "Dunav"
+        ]
+    },
+    {
+        "id": "hr_geo_808",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Poljskoj?",
+        "correct_answer": "Visla",
+        "incorrect_answers": [
+            "Odra",
+            "Bug",
+            "Warta"
+        ]
+    },
+    {
+        "id": "hr_geo_809",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Beograd, spajajući se ondje s Dunavom?",
+        "correct_answer": "Sava",
+        "incorrect_answers": [
+            "Drava",
+            "Tisa",
+            "Morava"
+        ]
+    },
+    {
+        "id": "hr_geo_810",
+        "category": "geografija",
+        "question": "Koje more se nalazi između Korzike i talijanskog i francuskog kopna?",
+        "correct_answer": "Ligursko more",
+        "incorrect_answers": [
+            "Tirensko more",
+            "Jonsko more",
+            "Egejsko more"
+        ]
+    },
+    {
+        "id": "hr_geo_811",
+        "category": "geografija",
+        "question": "Koje more se nalazi između Italije i Grčke, južno od Jadranskog mora?",
+        "correct_answer": "Jonsko more",
+        "incorrect_answers": [
+            "Tirensko more",
+            "Egejsko more",
+            "Ligursko more"
+        ]
+    },
+    {
+        "id": "hr_geo_812",
+        "category": "geografija",
+        "question": "Koja je najveća pokrajina Kanade po površini?",
+        "correct_answer": "Nunavut",
+        "incorrect_answers": [
+            "Ontario",
+            "Quebec",
+            "Britanska Kolumbija"
+        ]
+    },
+    {
+        "id": "hr_geo_813",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija talijanska regija?",
+        "correct_answer": "Lombardija",
+        "incorrect_answers": [
+            "Kampanija",
+            "Lacij",
+            "Sicilija"
+        ]
+    },
+    {
+        "id": "hr_geo_814",
+        "category": "geografija",
+        "question": "U kojoj se talijanskoj regiji nalazi grad Bari?",
+        "correct_answer": "Apulija",
+        "incorrect_answers": [
+            "Kalabrija",
+            "Kampanija",
+            "Molise"
+        ]
+    },
+    {
+        "id": "hr_geo_815",
+        "category": "geografija",
+        "question": "Koja je najsjevernija prijestolnica u Europskoj uniji?",
+        "correct_answer": "Helsinki",
+        "incorrect_answers": [
+            "Stockholm",
+            "Talin",
+            "Riga"
+        ]
+    },
+    {
+        "id": "hr_geo_816",
+        "category": "geografija",
+        "question": "Koji je glavni grad autonomne pokrajine Grenland prije nego što se zvao Nuuk?",
+        "correct_answer": "Godthåb",
+        "incorrect_answers": [
+            "Ilulissat",
+            "Sisimiut",
+            "Qaqortoq"
+        ]
+    },
+    {
+        "id": "hr_geo_817",
+        "category": "geografija",
+        "question": "Koje otočje u Atlantskom oceanu čini samostalnu državu smještenu zapadno od Portugala, poznatu po vulkanskim otocima?",
+        "correct_answer": "Azori",
+        "incorrect_answers": [
+            "Kanarski otoci",
+            "Madeira",
+            "Farski otoci"
+        ]
+    },
+    {
+        "id": "hr_geo_818",
+        "category": "geografija",
+        "question": "Kojoj državi pripada otočje Madeira?",
+        "correct_answer": "Portugal",
+        "incorrect_answers": [
+            "Španjolska",
+            "Maroko",
+            "Francuska"
+        ]
+    },
+    {
+        "id": "hr_geo_819",
+        "category": "geografija",
+        "question": "Koji je glavni grad turske sjeverne trećine Cipra, priznate samo od Turske?",
+        "correct_answer": "Sjeverna Nikozija",
+        "incorrect_answers": [
+            "Famagusta",
+            "Kirenija",
+            "Larnaka"
+        ]
+    },
+    {
+        "id": "hr_geo_820",
+        "category": "geografija",
+        "question": "Koja je najveća regija Njemačke po broju stanovnika, u kojoj se nalazi grad Köln?",
+        "correct_answer": "Sjeverna Rajna-Vestfalija",
+        "incorrect_answers": [
+            "Bavarska",
+            "Hessen",
+            "Saska"
+        ]
+    },
+    {
+        "id": "hr_geo_821",
+        "category": "geografija",
+        "question": "Koji je glavni grad autonomne pokrajine Vojvodine u Srbiji?",
+        "correct_answer": "Novi Sad",
+        "incorrect_answers": [
+            "Subotica",
+            "Zrenjanin",
+            "Pančevo"
+        ]
+    },
+    {
+        "id": "hr_geo_822",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Ljubljanu?",
+        "correct_answer": "Ljubljanica",
+        "incorrect_answers": [
+            "Sava",
+            "Drava",
+            "Soča"
+        ]
+    },
+    {
+        "id": "hr_geo_823",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Zagreb?",
+        "correct_answer": "Sava",
+        "incorrect_answers": [
+            "Drava",
+            "Kupa",
+            "Mura"
+        ]
+    },
+    {
+        "id": "hr_geo_824",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka koja teče kroz Sloveniju prema Jadranskom moru?",
+        "correct_answer": "Soča",
+        "incorrect_answers": [
+            "Sava",
+            "Drava",
+            "Ljubljanica"
+        ]
+    },
+    {
+        "id": "hr_geo_825",
+        "category": "geografija",
+        "question": "Koje je more koje zapljuskuje zapadnu obalu Meksika, između poluotoka Baja California i kopna?",
+        "correct_answer": "Kalifornijski zaljev",
+        "incorrect_answers": [
+            "Meksički zaljev",
+            "Karipsko more",
+            "Tihi ocean uz Panamu"
+        ]
+    },
+    {
+        "id": "hr_geo_826",
+        "category": "geografija",
+        "question": "Koji je glavni grad indijske savezne države Maharashtra, ujedno i financijsko središte Indije?",
+        "correct_answer": "Mumbai",
+        "incorrect_answers": [
+            "Delhi",
+            "Bengaluru",
+            "Chennai"
+        ]
+    },
+    {
+        "id": "hr_geo_827",
+        "category": "geografija",
+        "question": "Koji indijski grad je poznat kao 'IT prijestolnica Indije' i glavni je grad savezne države Karnataka?",
+        "correct_answer": "Bengaluru",
+        "incorrect_answers": [
+            "Hyderabad",
+            "Chennai",
+            "Pune"
+        ]
+    },
+    {
+        "id": "hr_geo_828",
+        "category": "geografija",
+        "question": "Koja kineska pokrajina graniči s Hong Kongom i u njoj se nalazi grad Shenzhen?",
+        "correct_answer": "Guangdong",
+        "incorrect_answers": [
+            "Fujian",
+            "Jiangsu",
+            "Zhejiang"
+        ]
+    },
+    {
+        "id": "hr_geo_829",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Kini po broju stanovnika unutar gradskih granica?",
+        "correct_answer": "Šangaj",
+        "incorrect_answers": [
+            "Peking",
+            "Guangzhou",
+            "Shenzhen"
+        ]
+    },
+    {
+        "id": "hr_geo_830",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Šangaj i ulijeva se u Istočnokinesko more?",
+        "correct_answer": "Jangce",
+        "incorrect_answers": [
+            "Huang He",
+            "Pearl River (Zhu Jiang)",
+            "Amur"
+        ]
+    },
+    {
+        "id": "hr_geo_831",
+        "category": "geografija",
+        "question": "Koje se more nalazi uz istočnu obalu Kine, između kopnene Kine i Tajvana?",
+        "correct_answer": "Istočnokinesko more",
+        "incorrect_answers": [
+            "Južnokinesko more",
+            "Žuto more",
+            "Japansko more"
+        ]
+    },
+    {
+        "id": "hr_geo_832",
+        "category": "geografija",
+        "question": "Koje se more nalazi južno od Kine, omeđeno Vijetnamom, Filipinima i Malezijom?",
+        "correct_answer": "Južnokinesko more",
+        "incorrect_answers": [
+            "Istočnokinesko more",
+            "Žuto more",
+            "Andamansko more"
+        ]
+    },
+    {
+        "id": "hr_geo_833",
+        "category": "geografija",
+        "question": "Koje se more nalazi između Mjanmara, Tajlanda i Andamanskih otoka?",
+        "correct_answer": "Andamansko more",
+        "incorrect_answers": [
+            "Južnokinesko more",
+            "Arapsko more",
+            "Bengalski zaljev"
+        ]
+    },
+    {
+        "id": "hr_geo_834",
+        "category": "geografija",
+        "question": "Koji planinski lanac tvori granicu između Argentine i Čilea gotovo cijelom njihovom dužinom?",
+        "correct_answer": "Ande",
+        "incorrect_answers": [
+            "Sijera Madre",
+            "Apalači",
+            "Atlas"
+        ]
+    },
+    {
+        "id": "hr_geo_835",
+        "category": "geografija",
+        "question": "Koji planinski lanac se proteže duž zapadne obale Sjeverne Amerike i uključuje vrh Denali?",
+        "correct_answer": "Aljaski lanac",
+        "incorrect_answers": [
+            "Stjenjak",
+            "Kaskadno gorje",
+            "Sijera Nevada"
+        ]
+    },
+    {
+        "id": "hr_geo_836",
+        "category": "geografija",
+        "question": "Koje se gorje proteže duž zapadne obale SAD-a kroz Kaliforniju, Oregon i Washington, poznato po vulkanima poput Mount Rainiera?",
+        "correct_answer": "Kaskadno gorje",
+        "incorrect_answers": [
+            "Stjenjak",
+            "Sijera Nevada",
+            "Apalači"
+        ]
+    },
+    {
+        "id": "hr_geo_837",
+        "category": "geografija",
+        "question": "Koji je najveći grad savezne države Washington u SAD-u?",
+        "correct_answer": "Seattle",
+        "incorrect_answers": [
+            "Portland",
+            "Tacoma",
+            "Spokane"
+        ]
+    },
+    {
+        "id": "hr_geo_838",
+        "category": "geografija",
+        "question": "Koja rijeka tvori dio granice između američkih saveznih država Iowe i Illinoisa?",
+        "correct_answer": "Mississippi",
+        "incorrect_answers": [
+            "Missouri",
+            "Ohio",
+            "Illinois"
+        ]
+    },
+    {
+        "id": "hr_geo_839",
+        "category": "geografija",
+        "question": "Iz kojeg jezera voda rijeke Niagare pada u Niagarine slapove prema jezeru Ontario?",
+        "correct_answer": "Jezero Erie",
+        "incorrect_answers": [
+            "Jezero Michigan",
+            "Jezero Huron",
+            "Jezero Superior"
+        ]
+    },
+    {
+        "id": "hr_geo_840",
+        "category": "geografija",
+        "question": "Koji poluotok u Kanadi i SAD-u odvaja jezero Erie od jezera Huron i jezera Michigan?",
+        "correct_answer": "Poluotok Michigan",
+        "incorrect_answers": [
+            "Poluotok Florida",
+            "Poluotok Labrador",
+            "Niagarski poluotok"
+        ]
+    },
+    {
+        "id": "hr_geo_841",
+        "category": "geografija",
+        "question": "Koja rijeka izvire u planinama Sijera Madre i tvori estuarij kod grada Guayaquila u Ekvadoru?",
+        "correct_answer": "Guayas",
+        "incorrect_answers": [
+            "Magdalena",
+            "Orinoko",
+            "Amazona"
+        ]
+    },
+    {
+        "id": "hr_geo_842",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Kolumbiji, koja teče kroz glavninu zemlje prema sjeveru?",
+        "correct_answer": "Magdalena",
+        "incorrect_answers": [
+            "Cauca",
+            "Orinoko",
+            "Putumayo"
+        ]
+    },
+    {
+        "id": "hr_geo_843",
+        "category": "geografija",
+        "question": "Koje je najveće jezero u Meksiku po površini?",
+        "correct_answer": "Jezero Chapala",
+        "incorrect_answers": [
+            "Jezero Pátzcuaro",
+            "Jezero Texcoco",
+            "Jezero Cuitzeo"
+        ]
+    },
+    {
+        "id": "hr_geo_844",
+        "category": "geografija",
+        "question": "Koji je najveći grad u kanadskoj pokrajini Nova Škotska?",
+        "correct_answer": "Halifax",
+        "incorrect_answers": [
+            "Moncton",
+            "Fredericton",
+            "Charlottetown"
+        ]
+    },
+    {
+        "id": "hr_geo_845",
+        "category": "geografija",
+        "question": "Koji je glavni grad kanadske pokrajine Otok Princa Edwarda?",
+        "correct_answer": "Charlottetown",
+        "incorrect_answers": [
+            "Halifax",
+            "Fredericton",
+            "St. John's"
+        ]
+    },
+    {
+        "id": "hr_geo_846",
+        "category": "geografija",
+        "question": "Koji je glavni grad kanadske pokrajine Newfoundland i Labrador?",
+        "correct_answer": "St. John's",
+        "incorrect_answers": [
+            "Halifax",
+            "Charlottetown",
+            "Gander"
+        ]
+    },
+    {
+        "id": "hr_geo_847",
+        "category": "geografija",
+        "question": "Koja rijeka tvori kanjon smatran drugim najvećim kanjonom na svijetu, smješten u južnoj Namibiji?",
+        "correct_answer": "Fish River",
+        "incorrect_answers": [
+            "Orange River",
+            "Okavango",
+            "Zambezi"
+        ]
+    },
+    {
+        "id": "hr_geo_848",
+        "category": "geografija",
+        "question": "Koja rijeka tvori granicu između Južnoafričke Republike i Namibije na velikom dijelu toka?",
+        "correct_answer": "Orange River (Oranje)",
+        "incorrect_answers": [
+            "Limpopo",
+            "Zambezi",
+            "Fish River"
+        ]
+    },
+    {
+        "id": "hr_geo_849",
+        "category": "geografija",
+        "question": "Koja rijeka tvori granicu između Južnoafričke Republike i Zimbabvea/Mozambika na sjeveru zemlje?",
+        "correct_answer": "Limpopo",
+        "incorrect_answers": [
+            "Orange River",
+            "Zambezi",
+            "Vaal"
+        ]
     }
 ]
