@@ -134,7 +134,11 @@ try {
     await page.waitForTimeout(1500); // app auto-advances ~1.2-1.5s after an answer
   }
   const afterAnswers = await bodyText(page);
-  step('score updated from answering', /Bodovi:\s*\d+/.test(afterAnswers));
+  // A round can legitimately end mid-loop (lives run out from wrong answers),
+  // which replaces the "Bodovi:" score line with a game-over/victory screen -
+  // that's a pass, not a stalled round, so accept either outcome.
+  const roundEnded = afterAnswers.includes('Kraj Igre') || afterAnswers.includes('Pobjeda');
+  step('score updated from answering', /Bodovi:\s*\d+/.test(afterAnswers) || roundEnded);
   await ss(page, 'after-answers');
 
   console.log('=== joker buttons ===');

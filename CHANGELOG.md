@@ -2,6 +2,9 @@
 
 ## 2026-08-16
 
+- **Files Changed**: `.claude/skills/run-triviabong/golden-path.mjs`
+  **Details**: Fixed a flaky assertion in the answer-loop step. `clickFirstAnswer` always clicks whichever answer button is first, regardless of correctness; on a lives-based category (e.g. Geografija) three unlucky wrong clicks in a row legitimately ends the round mid-loop, replacing the `Bodovi:` score line with a game-over screen. The check right after the loop only tested for `Bodovi:\s*\d+`, so a round that correctly ended early was scored as a failure ("score updated from answering") even though nothing was actually broken - caught when wiring the E2E suite into `ci.yml` to run on every push surfaced this far more often than the old manual-only `workflow_dispatch` trigger did. Now also accepts `Kraj Igre`/`Pobjeda` (round-ended) as a passing outcome.
+
 - **Files Changed**: `.github/workflows/ci.yml`, `CLAUDE.md`
   **Details**: Wired the three emulator-based E2E scripts into `ci.yml` as a new `e2e` job (alongside the existing `lint-and-build` job) so they run on every push/PR, not just on manual `workflow_dispatch`. The job duplicates `e2e-emulator.yml`'s steps (JDK 21 setup, start Firestore+Auth emulators, `VITE_USE_FIREBASE_EMULATOR=true` dev server, run all three scripts) rather than replacing that file, since `e2e-emulator.yml` is kept around for ad hoc runs against an arbitrary branch from the Actions tab. Updated `CLAUDE.md`'s CI paragraph, which previously stated the E2E scripts were deliberately excluded from `ci.yml`, to match.
 
