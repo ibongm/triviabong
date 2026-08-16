@@ -128,9 +128,16 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
     // the latest match/isPlayer1 via refs instead so the interval itself
     // can stay alive for the whole match.
     const matchRef = useRef(match);
-    matchRef.current = match;
     const isPlayer1Ref = useRef(isPlayer1);
-    isPlayer1Ref.current = isPlayer1;
+
+    // Keep the heartbeat interval's refs current without writing during render
+    // (react-hooks/refs). The interval below is intentionally keyed only on
+    // matchId so it survives the frequent status transitions during play.
+    useEffect(() => {
+        matchRef.current = match;
+        isPlayer1Ref.current = isPlayer1;
+    }, [match, isPlayer1]);
+
     useEffect(() => {
         const interval = setInterval(() => {
             const m = matchRef.current;

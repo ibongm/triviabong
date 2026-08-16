@@ -1,5 +1,44 @@
 # Changelog
 
+### [2026-08-16] - Fix Timezone Double-Offset in Daily Challenge Payout Cron (Phase 4)
+- **Files Changed**:
+  - `api/daily-challenge-payout.js` (Modified)
+- **Details**:
+  - Fixed double timezone offset in `getYesterdayZagrebDateKey` by formatting today's date in `Europe/Zagreb` exactly once via `Intl.DateTimeFormat('en-CA', ...)` and stepping back one day using `addDaysToDateKey`.
+
+### [2026-08-16] - ESLint Debt Cleanup: Unused Vars & Fast-Refresh Decoupling (Phase 3)
+- **Files Changed**:
+  - `eslint.config.js` (Modified)
+  - `src/hooks/useGameRound.js` (Modified)
+  - `src/components/AchievementsModal.jsx` (Modified)
+  - `src/components/AuthModal.jsx` (Modified)
+  - `src/components/QuestionReview.jsx` (Modified)
+  - `src/components/StatsModal.jsx` (Modified)
+  - `src/utils/matchQuestions.js` (Modified)
+  - `src/utils/presenceUtils.js` (Created)
+  - `src/components/OnlinePlayersList.jsx` (Modified)
+  - `src/hooks/useOneVsOne.js` (Modified)
+- **Details**:
+  - Added `no-unused-vars` ignore pattern (`varsIgnorePattern: '^_', argsIgnorePattern: '^_'`) to `eslint.config.js` for `src` files to legitimise intentional underscore-prefixed destructuring in `src/services/firebase.js`.
+  - Removed unused named imports from `useGameRound.js` and `AchievementsModal.jsx`.
+  - Removed redundant `import React` statements from `AuthModal.jsx`, `QuestionReview.jsx`, and `StatsModal.jsx`.
+  - Renamed unused `categoryKey` parameter in `resolveMatchQuestions` to `_categoryKey` in `matchQuestions.js`.
+  - Extracted `ONLINE_THRESHOLD_MS` and `filterOnlinePlayers` into `src/utils/presenceUtils.js` to satisfy `react-refresh/only-export-components` in `OnlinePlayersList.jsx` and updated `useOneVsOne.js`.
+
+### [2026-08-16] - Fix Ref Mutation During Render in MatchView (Phase 2)
+- **Files Changed**:
+  - `src/components/MatchView.jsx` (Modified)
+- **Details**:
+  - Moved `matchRef.current` and `isPlayer1Ref.current` assignments into a dedicated `useEffect([match, isPlayer1])` hook, eliminating 2 `react-hooks/refs` ESLint errors while preserving the stable 8-second heartbeat interval.
+
+### [2026-08-16] - Fix Single-Player Timer Hang at 0s (Phase 1)
+- **Files Changed**:
+  - `src/App.jsx` (Modified)
+- **Details**:
+  - Added a dedicated `useEffect` keyed on `[timeLeft, gameState, selectedOption, isAnyModalOpen]` to trigger `handleAnswerTimeout()` when the countdown hits zero.
+  - Removed the dead `timeLeft <= 0` guard from the top of the interval effect whose dependency array intentionally omitted `timeLeft`.
+
+
 ### [2026-08-16] - Reduce Firestore Quota: Heartbeat Intervals & Scoped Presence Listener
 - **Files Changed**:
   - `src/hooks/usePresence.js` (Modified)

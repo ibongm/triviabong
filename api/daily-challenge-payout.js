@@ -41,22 +41,6 @@ const getAdminDb = () => {
     return getFirestore();
 };
 
-// Yesterday's Zagreb calendar date - the day that just fully rolled over by
-// the time this cron fires. vercel.json schedules this at 23:10 UTC, which
-// is always AFTER actual Zagreb midnight regardless of DST (CET midnight =
-// 23:00 UTC in winter, CEST midnight = 22:00 UTC in summer) - a fixed UTC
-// cron can't track the DST-shifting local midnight exactly, but scheduling
-// after the latest-possible boundary means this function's own
-// Intl.DateTimeFormat-based "what is yesterday in Zagreb right now" check
-// is always correct at execution time, even though the cron itself fires
-// 10-70 minutes later than midnight depending on the season.
-const getYesterdayZagrebDateKey = () => {
-    const now = new Date();
-    const zagrebNow = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Zagreb' }));
-    zagrebNow.setDate(zagrebNow.getDate() - 1);
-    return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(zagrebNow);
-};
-
 // Calendar-date arithmetic on a YYYY-MM-DD string, treated as a pure
 // calendar day (UTC-anchored, no timezone conversion) - used only to check
 // "was yesterday's win-streak date the day immediately before today's
@@ -68,6 +52,22 @@ const addDaysToDateKey = (dateKey, delta) => {
     const dt = new Date(Date.UTC(y, m - 1, d));
     dt.setUTCDate(dt.getUTCDate() + delta);
     return dt.toISOString().slice(0, 10);
+};
+
+// Yesterday's Zagreb calendar date - the day that just fully rolled over by
+// the time this cron fires. vercel.json schedules this at 23:10 UTC, which
+// is always AFTER actual Zagreb midnight regardless of DST (CET midnight =
+// 23:00 UTC in winter, CEST midnight = 22:00 UTC in summer) - a fixed UTC
+// cron can't track the DST-shifting local midnight exactly, but scheduling
+// after the latest-possible boundary means this function's own
+// Intl.DateTimeFormat-based "what is yesterday in Zagreb right now" check
+// is always correct at execution time, even though the cron itself fires
+// 10-70 minutes later than midnight depending on the season.
+const getYesterdayZagrebDateKey = () => {
+    // Convert now -> Zagreb calendar date exactly once, then step back one
+    // calendar day as a pure string operation (no second timezone conversion).
+    const todayZagreb = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(new Date());
+    return addDaysToDateKey(todayZagreb, -1);
 };
 
 export default async function handler(req, res) {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { X, Trophy, Target, Award, Flame, Zap, BarChart2 } from 'lucide-react';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { xpForLevel } from '../utils/leveling';

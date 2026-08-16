@@ -1,5 +1,5 @@
 import { X, Trophy, Lock } from 'lucide-react';
-import { ACHIEVEMENTS, ACHIEVEMENT_TIER_LABELS, getVisibleAchievements } from '../constants/achievements';
+import { ACHIEVEMENT_TIER_LABELS, getVisibleAchievements } from '../constants/achievements';
 
 // Tier 0 (the hidden achievement) is deliberately excluded - it's rendered
 // separately, pinned above these tiers, only once unlocked.

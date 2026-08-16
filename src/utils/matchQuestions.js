@@ -31,7 +31,7 @@ export const pickMatchQuestionIds = async (categoryKey) => {
 // lookup would miss them. Async for the same reason as pickMatchQuestionIds
 // above - MatchView.jsx awaits this in an effect rather than a render-path
 // useMemo (question data is no longer synchronously available).
-export const resolveMatchQuestions = async (questionIds, categoryKey) => {
+export const resolveMatchQuestions = async (questionIds, _categoryKey) => {
     const pool = await getAllQuestions();
     const byId = new Map(pool.map(q => [q.id, q]));
     return questionIds.map(id => byId.get(id)).filter(Boolean);

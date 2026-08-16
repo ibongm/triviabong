@@ -3,7 +3,7 @@ import { sanitizeDisplayName } from '../utils/publicProfile';
 import { evaluateAchievements, mergeUnlockedAchievements } from '../utils/achievements';
 import { ONE_VS_ONE_WIN_XP, ONE_VS_ONE_WIN_COINS } from '../constants/gameBalance';
 import { computeLevelFromXp, getCoinsForLevelUp } from '../utils/leveling';
-import { filterOnlinePlayers } from '../components/OnlinePlayersList';
+import { filterOnlinePlayers } from '../utils/presenceUtils';
 import { subscribeToOnlinePlayers } from '../services/firebase';
 import {
     sendMatchInvite,

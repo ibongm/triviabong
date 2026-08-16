@@ -492,11 +492,6 @@ export default function App() {
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
 
-    if (timeLeft <= 0) {
-      handleAnswerTimeout();
-      return;
-    }
-
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
         const next = prev - 1;
@@ -509,6 +504,18 @@ export default function App() {
 
     return () => clearInterval(timer);
   }, [gameState, selectedOption, isAnyModalOpen, currentIndex]);
+
+  // Fire the timeout exactly once when the countdown reaches 0. This lives in
+  // its own effect (keyed on timeLeft) because the interval effect above is
+  // intentionally NOT keyed on timeLeft and therefore can't observe the tick
+  // that hits zero. handleAnswerTimeout() sets selectedOption ('TIMEOUT'),
+  // which flips the guard below and prevents any re-fire.
+  useEffect(() => {
+    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
+    if (timeLeft <= 0) {
+      handleAnswerTimeout();
+    }
+  }, [timeLeft, gameState, selectedOption, isAnyModalOpen]);
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen || !currentQ) return;

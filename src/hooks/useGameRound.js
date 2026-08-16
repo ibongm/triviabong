@@ -1,13 +1,7 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import {
-  QUESTIONS_PER_ROUND,
   MAX_LIVES,
-  QUESTION_TIME_SECONDS,
-  PLUS_TEN_SECONDS,
-  JOKER_COSTS,
-  BASE_SCORE,
-  SPEED_BONUS_PER_SECOND,
-  STREAK_MULTIPLIER_STEP
+  QUESTION_TIME_SECONDS
 } from '../constants/gameBalance';
 import { getQuestionOptions, shuffleArray } from '../utils/questionUtils';
 

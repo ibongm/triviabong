@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronDown, ChevronUp, CheckCircle2, XCircle, HelpCircle } from 'lucide-react';
 
 export default function QuestionReview({ history }) {
