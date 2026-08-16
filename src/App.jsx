@@ -178,9 +178,19 @@ export default function App() {
   const prevLevelRef = useRef(globalStats.level || 1);
   const [levelUpToast, setLevelUpToast] = useState(null);
   const levelUpToastTimerRef = useRef(null);
+  // Set to true immediately before a setGlobalStats call that's hydrating
+  // state from storage/network (auth resolve, sign-out, cross-tab merge)
+  // rather than producing it from gameplay - the diff effect below reads
+  // this to adopt the incoming level as the new baseline silently instead
+  // of treating a placeholder -> real-account (or cross-tab) jump as a
+  // level-up. Effects run after commit, so the flag set just before the
+  // triggering setGlobalStats call is guaranteed readable here.
+  const hydratingStatsRef = useRef(false);
   useEffect(() => {
     const level = globalStats.level || 1;
-    if (level > prevLevelRef.current) {
+    if (hydratingStatsRef.current) {
+      hydratingStatsRef.current = false;
+    } else if (level > prevLevelRef.current) {
       setLevelUpToast({ level, coins: getCoinsForLevelUp(level), title: getTitleForLevel(level) });
       clearTimeout(levelUpToastTimerRef.current);
       levelUpToastTimerRef.current = setTimeout(() => setLevelUpToast(null), 4000);
@@ -350,6 +360,7 @@ export default function App() {
         // result is stale — drop it so the newer handler wins.
         if (myGeneration !== authGeneration) return;
 
+        hydratingStatsRef.current = true;
         setGlobalStats(_prev => {
           // Strip non-stat metadata fields that syncUserProfile writes
           // into the same users/{uid} doc (uid, email, displayName,
@@ -376,6 +387,7 @@ export default function App() {
         setStatsReadyForUid(user.uid);
       } else {
         // Sign-out: load 'anon' stats using account-scoped key
+        hydratingStatsRef.current = true;
         setGlobalStats(loadStats(null));
       }
 
@@ -412,6 +424,7 @@ export default function App() {
       if (e.key === 'triviabong_global_stats' && e.newValue) {
         try {
           const incoming = JSON.parse(e.newValue);
+          hydratingStatsRef.current = true;
           setGlobalStats(current => mergeMonotonicStats(current, incoming));
         } catch (err) {
           console.error('Error handling storage event for global stats:', err);
