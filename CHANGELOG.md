@@ -2,6 +2,9 @@
 
 ## 2026-08-16
 
+- **Files Changed**: `.github/workflows/ci.yml`, `CLAUDE.md`
+  **Details**: Wired the three emulator-based E2E scripts into `ci.yml` as a new `e2e` job (alongside the existing `lint-and-build` job) so they run on every push/PR, not just on manual `workflow_dispatch`. The job duplicates `e2e-emulator.yml`'s steps (JDK 21 setup, start Firestore+Auth emulators, `VITE_USE_FIREBASE_EMULATOR=true` dev server, run all three scripts) rather than replacing that file, since `e2e-emulator.yml` is kept around for ad hoc runs against an arbitrary branch from the Actions tab. Updated `CLAUDE.md`'s CI paragraph, which previously stated the E2E scripts were deliberately excluded from `ci.yml`, to match.
+
 - **Files Changed**: `.github/workflows/e2e-emulator.yml`
   **Details**: First `workflow_dispatch` run of the emulator-based E2E workflow failed at "Start Firebase emulators" (exit 124, timeout) - the Firestore/Auth emulators need JDK 21+ and `ubuntu-latest`'s default Java was older, so `firebase-tools` errored immediately ("no longer supports Java version before 21") and the port-wait loop just timed out waiting on a process that had already exited. Added an `actions/setup-java@v4` step (Temurin, Java 21) before `actions/setup-node@v4`.
 
