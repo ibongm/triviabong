@@ -9931,5 +9931,555 @@
             "Drugo mjesto",
             "Četvrto mjesto"
         ]
+    },
+    {
+        "id": "hr_sport_907",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila Europsko nogometno prvenstvo 1996. godine održano u Engleskoj?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Češka",
+            "Engleska",
+            "Nizozemska"
+        ]
+    },
+    {
+        "id": "hr_sport_908",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila Europsko nogometno prvenstvo 1988. godine održano u Zapadnoj Njemačkoj?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Sovjetski Savez",
+            "Zapadna Njemačka",
+            "Italija"
+        ]
+    },
+    {
+        "id": "hr_sport_909",
+        "category": "sport",
+        "question": "Koji nogometni klub drži rekord po broju osvojenih naslova prvaka talijanske Serie A?",
+        "correct_answer": "Juventus",
+        "incorrect_answers": [
+            "Inter Milan",
+            "AC Milan",
+            "AS Roma"
+        ]
+    },
+    {
+        "id": "hr_sport_910",
+        "category": "sport",
+        "question": "Koji nogometni klub drži rekord po broju osvojenih naslova prvaka španjolske La Lige?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "FC Barcelona",
+            "Atlético Madrid",
+            "Valencia"
+        ]
+    },
+    {
+        "id": "hr_sport_911",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila najviše naslova prvaka Europe u košarci (EuroBasket) u povijesti?",
+        "correct_answer": "Sovjetski Savez",
+        "incorrect_answers": [
+            "Jugoslavija",
+            "Španjolska",
+            "Grčka"
+        ]
+    },
+    {
+        "id": "hr_sport_912",
+        "category": "sport",
+        "question": "Koji je tenisač prvi u povijesti muškog tenisa osvojio takozvani 'Career Golden Slam' (sva četiri Grand Slam turnira i olimpijsko zlato)?",
+        "correct_answer": "Andre Agassi",
+        "incorrect_answers": [
+            "Rafael Nadal",
+            "Novak Đoković",
+            "Pete Sampras"
+        ]
+    },
+    {
+        "id": "hr_sport_913",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila prvo Europsko nogometno prvenstvo održano 1960. godine?",
+        "correct_answer": "Sovjetski Savez",
+        "incorrect_answers": [
+            "Jugoslavija",
+            "Francuska",
+            "Čehoslovačka"
+        ]
+    },
+    {
+        "id": "hr_sport_914",
+        "category": "sport",
+        "question": "Kako se zajedničkim nazivom nazivaju tri najveće trotjedne etapne biciklističke utrke - Tour de France, Giro d'Italia i Vuelta a España?",
+        "correct_answer": "Grand Tour (Velike ture)",
+        "incorrect_answers": [
+            "Monumenti",
+            "Klasici",
+            "Kup nacija"
+        ]
+    },
+    {
+        "id": "hr_sport_915",
+        "category": "sport",
+        "question": "Kako se zove tradicionalna veslačka utrka između sveučilišta Oxford i Cambridge koja se vozi na rijeci Temzi?",
+        "correct_answer": "The Boat Race",
+        "incorrect_answers": [
+            "Henley Royal Regatta",
+            "Head of the River Race",
+            "Oxford Cup"
+        ]
+    },
+    {
+        "id": "hr_sport_916",
+        "category": "sport",
+        "question": "Koji se maraton smatra jednim od najbržih na svijetu zbog svoje ravne staze, na kojoj su oboreni brojni svjetski rekordi?",
+        "correct_answer": "Berlinski maraton",
+        "incorrect_answers": [
+            "Bostonski maraton",
+            "Njujorški maraton",
+            "Londonski maraton"
+        ]
+    },
+    {
+        "id": "hr_sport_917",
+        "category": "sport",
+        "question": "Koje dvije discipline čine natjecanje u olimpijskom dizanju utega?",
+        "correct_answer": "Trzaj i nabačaj",
+        "incorrect_answers": [
+            "Potisak i čučanj",
+            "Mrtvo dizanje i trzaj",
+            "Guranje i vučenje"
+        ]
+    },
+    {
+        "id": "hr_sport_918",
+        "category": "sport",
+        "question": "Koliko iznosi natjecateljska udaljenost gađanja u olimpijskom streličarstvu (Recurve), jednaka za muškarce i žene?",
+        "correct_answer": "70 metara",
+        "incorrect_answers": [
+            "50 metara",
+            "90 metara",
+            "30 metara"
+        ]
+    },
+    {
+        "id": "hr_sport_919",
+        "category": "sport",
+        "question": "Kako se zove streljačka disciplina u kojoj natjecatelji gađaju glinene mete koje lete unakrsnim putanjama iz dvije kućice, visoke i niske?",
+        "correct_answer": "Skeet",
+        "incorrect_answers": [
+            "Trap",
+            "Biatlon",
+            "Field target"
+        ]
+    },
+    {
+        "id": "hr_sport_920",
+        "category": "sport",
+        "question": "Kako se zove disciplina biciklizma na pisti u kojoj se parovi vozača smjenjuju bacanjem, a naziv je dobila po njujorškoj dvorani?",
+        "correct_answer": "Madison",
+        "incorrect_answers": [
+            "Keirin",
+            "Omnium",
+            "Scratch race"
+        ]
+    },
+    {
+        "id": "hr_sport_921",
+        "category": "sport",
+        "question": "Kako se zove poznata cestovna motociklistička utrka koja se od 1907. godine održava na britanskom otoku u Irskom moru?",
+        "correct_answer": "Isle of Man TT",
+        "incorrect_answers": [
+            "North West 200",
+            "Ulster Grand Prix",
+            "Macau Grand Prix"
+        ]
+    },
+    {
+        "id": "hr_sport_922",
+        "category": "sport",
+        "question": "Koliko igrača broji jedna momčad u sportu curlingu na ledu?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "id": "hr_sport_923",
+        "category": "sport",
+        "question": "Koliki je promjer službene loptice koja se koristi u stolnom tenisu?",
+        "correct_answer": "40 mm",
+        "incorrect_answers": [
+            "38 mm",
+            "44 mm",
+            "34 mm"
+        ]
+    },
+    {
+        "id": "hr_sport_924",
+        "category": "sport",
+        "question": "Kolika je duljina terena između dvije gol-linije u američkom nogometu (NFL), izražena u jardima?",
+        "correct_answer": "100 jardi",
+        "incorrect_answers": [
+            "90 jardi",
+            "110 jardi",
+            "120 jardi"
+        ]
+    },
+    {
+        "id": "hr_sport_925",
+        "category": "sport",
+        "question": "Koliko traje jedna trećina (period) u profesionalnoj utakmici hokeja na ledu (NHL)?",
+        "correct_answer": "20 minuta",
+        "incorrect_answers": [
+            "15 minuta",
+            "12 minuta",
+            "25 minuta"
+        ]
+    },
+    {
+        "id": "hr_sport_926",
+        "category": "sport",
+        "question": "Koje su dvije države bile suorganizatorice prvog Svjetskog prvenstva u ragbiju 1987. godine?",
+        "correct_answer": "Novi Zeland i Australija",
+        "incorrect_answers": [
+            "Engleska i Wales",
+            "Južnoafrička Republika i Francuska",
+            "Argentina i Urugvaj"
+        ]
+    },
+    {
+        "id": "hr_sport_927",
+        "category": "sport",
+        "question": "Tko je bio dugogodišnji predsjednik Hrvatskog nogometnog saveza od 1990-ih sve do svoje smrti 2012. godine?",
+        "correct_answer": "Vlatko Marković",
+        "incorrect_answers": [
+            "Davor Šuker",
+            "Zdravko Mamić",
+            "Slaven Bilić"
+        ]
+    },
+    {
+        "id": "hr_sport_928",
+        "category": "sport",
+        "question": "Koja je hrvatska tenisačica osvojila Roland Garros u ženskoj pojedinačnoj konkurenciji 1997. godine?",
+        "correct_answer": "Iva Majoli",
+        "incorrect_answers": [
+            "Mirjana Lučić",
+            "Silvija Talaja",
+            "Darija Jurak"
+        ]
+    },
+    {
+        "id": "hr_sport_929",
+        "category": "sport",
+        "question": "Na kojoj je visini postavljen koš u košarci prema standardnim pravilima?",
+        "correct_answer": "3,05 m",
+        "incorrect_answers": [
+            "2,90 m",
+            "3,20 m",
+            "2,75 m"
+        ]
+    },
+    {
+        "id": "hr_sport_930",
+        "category": "sport",
+        "question": "Kolika je visina teniske mreže u sredini terena?",
+        "correct_answer": "0,914 m",
+        "incorrect_answers": [
+            "1,07 m",
+            "0,80 m",
+            "1,20 m"
+        ]
+    },
+    {
+        "id": "hr_sport_931",
+        "category": "sport",
+        "question": "Kolika je propisana visina mreže u muškoj dvoranskoj odbojci?",
+        "correct_answer": "2,43 m",
+        "incorrect_answers": [
+            "2,24 m",
+            "2,50 m",
+            "2,35 m"
+        ]
+    },
+    {
+        "id": "hr_sport_932",
+        "category": "sport",
+        "question": "Kolika je propisana visina mreže u ženskoj dvoranskoj odbojci?",
+        "correct_answer": "2,24 m",
+        "incorrect_answers": [
+            "2,43 m",
+            "2,15 m",
+            "2,30 m"
+        ]
+    },
+    {
+        "id": "hr_sport_933",
+        "category": "sport",
+        "question": "Koliko poena je potrebno osvojiti za pobjedu u jednom setu badmintona?",
+        "correct_answer": "21",
+        "incorrect_answers": [
+            "15",
+            "25",
+            "11"
+        ]
+    },
+    {
+        "id": "hr_sport_934",
+        "category": "sport",
+        "question": "Koliko palica igrač smije nositi u svojoj torbi tijekom jedne runde golfa prema pravilima?",
+        "correct_answer": "14",
+        "incorrect_answers": [
+            "12",
+            "16",
+            "10"
+        ]
+    },
+    {
+        "id": "hr_sport_935",
+        "category": "sport",
+        "question": "Koliko dana može trajati jedna test utakmica u kriketu, najduži format te igre?",
+        "correct_answer": "5 dana",
+        "incorrect_answers": [
+            "3 dana",
+            "7 dana",
+            "4 dana"
+        ]
+    },
+    {
+        "id": "hr_sport_936",
+        "category": "sport",
+        "question": "Koje je godine osnovan Hrvatski olimpijski odbor?",
+        "correct_answer": "1991.",
+        "incorrect_answers": [
+            "1990.",
+            "1992.",
+            "1994."
+        ]
+    },
+    {
+        "id": "hr_sport_937",
+        "category": "sport",
+        "question": "Koje je godine osnovana profesionalna košarkaška liga koja je kasnije preimenovana u NBA?",
+        "correct_answer": "1946.",
+        "incorrect_answers": [
+            "1949.",
+            "1954.",
+            "1939."
+        ]
+    },
+    {
+        "id": "hr_sport_938",
+        "category": "sport",
+        "question": "Koje je godine osnovan svjetski nogometni savez FIFA?",
+        "correct_answer": "1904.",
+        "incorrect_answers": [
+            "1894.",
+            "1919.",
+            "1930."
+        ]
+    },
+    {
+        "id": "hr_sport_939",
+        "category": "sport",
+        "question": "Koje je godine osnovan Međunarodni olimpijski odbor (MOO)?",
+        "correct_answer": "1894.",
+        "incorrect_answers": [
+            "1896.",
+            "1900.",
+            "1908."
+        ]
+    },
+    {
+        "id": "hr_sport_940",
+        "category": "sport",
+        "question": "Koje je godine osnovan Europski nogometni savez UEFA?",
+        "correct_answer": "1954.",
+        "incorrect_answers": [
+            "1946.",
+            "1960.",
+            "1966."
+        ]
+    },
+    {
+        "id": "hr_sport_941",
+        "category": "sport",
+        "question": "Tko se smatra izumiteljem košarke, kanadski profesor tjelesnog odgoja koji je 1891. godine osmislio igru u SAD-u?",
+        "correct_answer": "James Naismith",
+        "incorrect_answers": [
+            "William G. Morgan",
+            "Walter Camp",
+            "Abner Doubleday"
+        ]
+    },
+    {
+        "id": "hr_sport_942",
+        "category": "sport",
+        "question": "Tko se smatra izumiteljem odbojke, američki instruktor tjelesnog odgoja koji je igru osmislio 1895. godine?",
+        "correct_answer": "William G. Morgan",
+        "incorrect_answers": [
+            "James Naismith",
+            "Walter Camp",
+            "George Fisher"
+        ]
+    },
+    {
+        "id": "hr_sport_943",
+        "category": "sport",
+        "question": "Prema tradicionalnoj legendi, u kojoj je engleskoj školi navodno nastao ragbi kada je učenik uzeo loptu u ruke tijekom nogometne igre?",
+        "correct_answer": "Rugby School",
+        "incorrect_answers": [
+            "Eton College",
+            "Harrow School",
+            "Sveučilište Cambridge"
+        ]
+    },
+    {
+        "id": "hr_sport_944",
+        "category": "sport",
+        "question": "Koje su se godine muškarci prvi put natjecali u košarci na programu Ljetnih olimpijskih igara?",
+        "correct_answer": "1936.",
+        "incorrect_answers": [
+            "1928.",
+            "1948.",
+            "1952."
+        ]
+    },
+    {
+        "id": "hr_sport_945",
+        "category": "sport",
+        "question": "Koliko momčadi trenutačno broji profesionalna košarkaška liga NBA?",
+        "correct_answer": "30",
+        "incorrect_answers": [
+            "28",
+            "32",
+            "29"
+        ]
+    },
+    {
+        "id": "hr_sport_946",
+        "category": "sport",
+        "question": "Koje je godine osnovana engleska Premier liga u svom modernom obliku?",
+        "correct_answer": "1992.",
+        "incorrect_answers": [
+            "1988.",
+            "1995.",
+            "1985."
+        ]
+    },
+    {
+        "id": "hr_sport_947",
+        "category": "sport",
+        "question": "U kojem su gradu žene prvi put sudjelovale na Olimpijskim igrama, održanim 1900. godine?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Atena",
+            "London",
+            "St. Louis"
+        ]
+    },
+    {
+        "id": "hr_sport_948",
+        "category": "sport",
+        "question": "Koje je godine u NBA ligi uvedeno pravilo o 24-sekundnom napadu (shot clock)?",
+        "correct_answer": "1954.",
+        "incorrect_answers": [
+            "1949.",
+            "1960.",
+            "1946."
+        ]
+    },
+    {
+        "id": "hr_sport_949",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila najviše naslova na Afričkom kupu nacija u nogometu?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Kamerun",
+            "Nigerija",
+            "Gana"
+        ]
+    },
+    {
+        "id": "hr_sport_950",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila najviše naslova na Svjetskom prvenstvu u kriketu (ODI World Cup)?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indija",
+            "Engleska",
+            "Zapadna Indija"
+        ]
+    },
+    {
+        "id": "hr_sport_951",
+        "category": "sport",
+        "question": "Koji klub drži rekord po broju osvojenih naslova u bejzbolskoj MLB ligi (World Series)?",
+        "correct_answer": "New York Yankees",
+        "incorrect_answers": [
+            "Boston Red Sox",
+            "Los Angeles Dodgers",
+            "St. Louis Cardinals"
+        ]
+    },
+    {
+        "id": "hr_sport_952",
+        "category": "sport",
+        "question": "Koji je grad prvi u povijesti bio domaćin Ljetnih olimpijskih igara tri puta - 1908., 1948. i 2012. godine?",
+        "correct_answer": "London",
+        "incorrect_answers": [
+            "Pariz",
+            "Atena",
+            "Los Angeles"
+        ]
+    },
+    {
+        "id": "hr_sport_953",
+        "category": "sport",
+        "question": "Koje se dvije kontinentalne momčadi natječu u golfskom natjecanju Ryder Cup?",
+        "correct_answer": "Europa i SAD",
+        "incorrect_answers": [
+            "SAD i Azija",
+            "Europa i Australija",
+            "SAD i Velika Britanija"
+        ]
+    },
+    {
+        "id": "hr_sport_954",
+        "category": "sport",
+        "question": "Koji je vozač Formule 1 postao najmlađi svjetski prvak u povijesti kada je 2010. godine osvojio naslov u dobi od 23 godine?",
+        "correct_answer": "Sebastian Vettel",
+        "incorrect_answers": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Fernando Alonso"
+        ]
+    },
+    {
+        "id": "hr_sport_955",
+        "category": "sport",
+        "question": "Koje je godine osnovana ženska profesionalna košarkaška liga WNBA u SAD-u?",
+        "correct_answer": "1996.",
+        "incorrect_answers": [
+            "1990.",
+            "2000.",
+            "1985."
+        ]
+    },
+    {
+        "id": "hr_sport_956",
+        "category": "sport",
+        "question": "Koji je sport prvi put uveden u olimpijski program na OI u Tokiju, a uključuje discipline boulderinga, brzinskog penjanja i penjanja na težinu?",
+        "correct_answer": "Sportsko penjanje",
+        "incorrect_answers": [
+            "Skateboarding",
+            "Surfing",
+            "Karate"
+        ]
     }
 ]
