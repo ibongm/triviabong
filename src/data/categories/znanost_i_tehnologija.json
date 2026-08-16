@@ -7060,5 +7060,555 @@
             "Difrakcija",
             "Disperzija"
         ]
+    },
+    {
+        "id": "hr_sci_656",
+        "category": "znanost",
+        "question": "Koja se bolest javlja zbog nedostatka vitamina D i uzrokuje omekšavanje i deformaciju kostiju u djece?",
+        "correct_answer": "Rahitis",
+        "incorrect_answers": [
+            "Osteoporoza",
+            "Skorbut",
+            "Anemija"
+        ]
+    },
+    {
+        "id": "hr_sci_657",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se dva atoma istog elementa spajaju vodikovom vezom, a temeljni je za strukturu leda?",
+        "correct_answer": "Vodikova veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Van der Waalsova sila"
+        ]
+    },
+    {
+        "id": "hr_sci_658",
+        "category": "znanost",
+        "question": "Koji matematičar je razvio infinitezimalni račun (diferencijalni i integralni) neovisno o Newtonu i uveo današnju notaciju za derivacije?",
+        "correct_answer": "Gottfried Wilhelm Leibniz",
+        "incorrect_answers": [
+            "Leonhard Euler",
+            "Carl Friedrich Gauss",
+            "Blaise Pascal"
+        ]
+    },
+    {
+        "id": "hr_sci_659",
+        "category": "znanost",
+        "question": "Kako se naziva matematička konstanta približne vrijednosti 2,71828, temeljna za eksponencijalne funkcije?",
+        "correct_answer": "Eulerov broj (e)",
+        "incorrect_answers": [
+            "Zlatni rez",
+            "Pi (π)",
+            "Avogadrova konstanta"
+        ]
+    },
+    {
+        "id": "hr_sci_660",
+        "category": "znanost",
+        "question": "Koji niz brojeva, u kojem je svaki idući broj zbroj prethodna dva, često se pojavljuje u rasporedu latica cvijeta i sjemenki suncokreta?",
+        "correct_answer": "Fibonaccijev niz",
+        "incorrect_answers": [
+            "Prosti brojevi",
+            "Pascalov trokut",
+            "Trokutasti brojevi"
+        ]
+    },
+    {
+        "id": "hr_sci_661",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta šećera koja se nalazi u molekuli RNA, za razliku od deoksiriboze u DNA?",
+        "correct_answer": "Riboza",
+        "incorrect_answers": [
+            "Glukoza",
+            "Fruktoza",
+            "Galaktoza"
+        ]
+    },
+    {
+        "id": "hr_sci_662",
+        "category": "znanost",
+        "question": "Koji se enzim u stanicama koristi za produljivanje krajeva kromosoma (telomera) i sprječava njihovo skraćivanje?",
+        "correct_answer": "Telomeraza",
+        "incorrect_answers": [
+            "Helikaza",
+            "Ligaza",
+            "Polimeraza"
+        ]
+    },
+    {
+        "id": "hr_sci_663",
+        "category": "znanost",
+        "question": "Kako se naziva grana medicine koja proučava bolesti i poremećaje kože?",
+        "correct_answer": "Dermatologija",
+        "incorrect_answers": [
+            "Kardiologija",
+            "Endokrinologija",
+            "Nefrologija"
+        ]
+    },
+    {
+        "id": "hr_sci_664",
+        "category": "znanost",
+        "question": "Koji plemeniti plin se koristi za punjenje balona i cepelina zbog svoje niske gustoće i nezapaljivosti?",
+        "correct_answer": "Helij",
+        "incorrect_answers": [
+            "Argon",
+            "Neon",
+            "Kripton"
+        ]
+    },
+    {
+        "id": "hr_sci_665",
+        "category": "znanost",
+        "question": "Kako se naziva postupak u genetičkom inženjerstvu kojim se pomoću molekularnih 'škara' precizno reže i mijenja DNA slijed?",
+        "correct_answer": "CRISPR",
+        "incorrect_answers": [
+            "PCR",
+            "Sekvenciranje",
+            "Elektroforeza"
+        ]
+    },
+    {
+        "id": "hr_sci_666",
+        "category": "znanost",
+        "question": "Koja se metoda umnožavanja DNA u laboratoriju temelji na ponavljanim ciklusima zagrijavanja i hlađenja uz posebni enzim polimerazu?",
+        "correct_answer": "Lančana reakcija polimerazom (PCR)",
+        "incorrect_answers": [
+            "Elektroforeza",
+            "CRISPR tehnika",
+            "Kloniranje"
+        ]
+    },
+    {
+        "id": "hr_sci_667",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj tijelo teleskopa promatra objekte koji su toliko udaljeni da njihova svjetlost putuje milijunima godina, pa ih vidimo onakve kakvi su bili u prošlosti?",
+        "correct_answer": "Gledanje u prošlost (Look-back time)",
+        "incorrect_answers": [
+            "Crveni pomak",
+            "Paralaksa",
+            "Gravitacijsko lećanje"
+        ]
+    },
+    {
+        "id": "hr_sci_668",
+        "category": "znanost",
+        "question": "Koja se pojava u astronomiji odnosi na prividno savijanje svjetlosti udaljenih objekata uslijed gravitacije masivnog tijela između njih i promatrača?",
+        "correct_answer": "Gravitacijsko lećanje",
+        "incorrect_answers": [
+            "Crveni pomak",
+            "Dopplerov efekt",
+            "Paralaksa"
+        ]
+    },
+    {
+        "id": "hr_sci_669",
+        "category": "znanost",
+        "question": "Kako se naziva zvijezda koja je iscrpila gorivo za fuziju i urušila se u iznimno gustu, vruću i malu zvijezdu veličine otprilike Zemlje?",
+        "correct_answer": "Bijeli patuljak",
+        "incorrect_answers": [
+            "Crveni div",
+            "Neutronska zvijezda",
+            "Pulsar"
+        ]
+    },
+    {
+        "id": "hr_sci_670",
+        "category": "znanost",
+        "question": "Koji plin čini najveći udio atmosfere planeta Venere i uzrokuje snažan efekt staklenika na toj planeti?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Dušik",
+            "Metan",
+            "Sumporov dioksid"
+        ]
+    },
+    {
+        "id": "hr_sci_671",
+        "category": "znanost",
+        "question": "Kako se naziva pojas u Sunčevom sustavu smješten između orbita Marsa i Jupitera u kojem se nalazi mnoštvo asteroida?",
+        "correct_answer": "Glavni pojas asteroida",
+        "incorrect_answers": [
+            "Kuiperov pojas",
+            "Oortov oblak",
+            "Van Allenov pojas"
+        ]
+    },
+    {
+        "id": "hr_sci_672",
+        "category": "znanost",
+        "question": "Kako se naziva hipotetski oblak leda i kometarnih tijela koji okružuje Sunčev sustav na njegovom najudaljenijem rubu?",
+        "correct_answer": "Oortov oblak",
+        "incorrect_answers": [
+            "Kuiperov pojas",
+            "Glavni pojas asteroida",
+            "Van Allenov pojas"
+        ]
+    },
+    {
+        "id": "hr_sci_673",
+        "category": "znanost",
+        "question": "Koji programski koncept omogućuje da više različitih klasa u objektno-orijentiranom programiranju reagiraju na isti poziv metode na svoj vlastiti način?",
+        "correct_answer": "Polimorfizam",
+        "incorrect_answers": [
+            "Nasljeđivanje",
+            "Inkapsulacija",
+            "Apstrakcija"
+        ]
+    },
+    {
+        "id": "hr_sci_674",
+        "category": "znanost",
+        "question": "Kako se naziva programski koncept u kojem se podaci i metode koje na njima rade objedinjuju unutar jedne cjeline te se dio detalja skriva od vanjskog pristupa?",
+        "correct_answer": "Inkapsulacija",
+        "incorrect_answers": [
+            "Nasljeđivanje",
+            "Polimorfizam",
+            "Rekurzija"
+        ]
+    },
+    {
+        "id": "hr_sci_675",
+        "category": "znanost",
+        "question": "Koji algoritam sortiranja radi tako da uzastopno dijeli niz na dva dijela oko odabranog elementa (pivota) i zatim ih rekurzivno sortira?",
+        "correct_answer": "Brzo sortiranje (Quicksort)",
+        "incorrect_answers": [
+            "Sortiranje mjehurićima (Bubble sort)",
+            "Sortiranje umetanjem (Insertion sort)",
+            "Sortiranje odabirom (Selection sort)"
+        ]
+    },
+    {
+        "id": "hr_sci_676",
+        "category": "znanost",
+        "question": "Kako se naziva struktura podataka u kojoj su elementi organizirani hijerarhijski preko čvorova i grana bez ciklusa?",
+        "correct_answer": "Stablo",
+        "incorrect_answers": [
+            "Graf",
+            "Red (Queue)",
+            "Popis (Lista)"
+        ]
+    },
+    {
+        "id": "hr_sci_677",
+        "category": "znanost",
+        "question": "Koja se metoda strojnog učenja temelji na umjetnim neuronskim mrežama s više skrivenih slojeva koji omogućuju prepoznavanje složenih uzoraka?",
+        "correct_answer": "Duboko učenje (Deep learning)",
+        "incorrect_answers": [
+            "Stablo odluke (Decision tree)",
+            "Linearna regresija",
+            "Klasterska analiza"
+        ]
+    },
+    {
+        "id": "hr_sci_678",
+        "category": "znanost",
+        "question": "Kako se naziva praksa u kojoj programeri kontinuirano spajaju svoje izmjene koda u zajedničku granu uz automatsko testiranje, poznata pod kraticom 'CI'?",
+        "correct_answer": "Kontinuirana integracija",
+        "incorrect_answers": [
+            "Kontinuirana isporuka",
+            "Agilna metodologija",
+            "Verzioniranje koda"
+        ]
+    },
+    {
+        "id": "hr_sci_679",
+        "category": "znanost",
+        "question": "Koji se britanski matematičar smatra teoretskim ocem računalstva zbog opisa univerzalnog stroja koji može simulirati bilo koji algoritam?",
+        "correct_answer": "Alan Turing",
+        "incorrect_answers": [
+            "Charles Babbage",
+            "John von Neumann",
+            "Claude Shannon"
+        ]
+    },
+    {
+        "id": "hr_sci_680",
+        "category": "znanost",
+        "question": "Koji se američki matematičar i inženjer smatra ocem teorije informacija zbog svog rada o matematičkoj teoriji komunikacije 1948. godine?",
+        "correct_answer": "Claude Shannon",
+        "incorrect_answers": [
+            "Alan Turing",
+            "Norbert Wiener",
+            "John von Neumann"
+        ]
+    },
+    {
+        "id": "hr_sci_681",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kod polprovodnika u kojoj se dodavanjem malih količina nečistoća namjerno mijenjaju njihova električna svojstva?",
+        "correct_answer": "Dopiranje",
+        "incorrect_answers": [
+            "Ionizacija",
+            "Elektroliza",
+            "Katalizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_682",
+        "category": "znanost",
+        "question": "Koji je organ osjetila u ljudskom tijelu odgovoran za osjet mirisa smješten u gornjem dijelu nosne šupljine?",
+        "correct_answer": "Olfaktorni epitel (Njušni epitel)",
+        "incorrect_answers": [
+            "Nepčana sluznica",
+            "Grkljan",
+            "Trepetljikasti epitel dušnika"
+        ]
+    },
+    {
+        "id": "hr_sci_683",
+        "category": "znanost",
+        "question": "Kako se naziva medicinska grana koja se bavi proučavanjem i liječenjem malignih tumora (raka)?",
+        "correct_answer": "Onkologija",
+        "incorrect_answers": [
+            "Hematologija",
+            "Imunologija",
+            "Patologija"
+        ]
+    },
+    {
+        "id": "hr_sci_684",
+        "category": "znanost",
+        "question": "Koji tip cijepljenja koristi male dijelove genetskog materijala (mRNA) koji upute stanice tijela da same proizvedu bezopasni virusni protein?",
+        "correct_answer": "mRNA cjepivo",
+        "incorrect_answers": [
+            "Cjepivo s oslabljenim virusom",
+            "Cjepivo s inaktiviranim virusom",
+            "Podjedinično cjepivo"
+        ]
+    },
+    {
+        "id": "hr_sci_685",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim organizam razvija otpornost na patogen nakon što je bio izložen njegovim antigenima, bilo bolešću ili cijepljenjem?",
+        "correct_answer": "Stečeni (adaptivni) imunitet",
+        "incorrect_answers": [
+            "Urođeni imunitet",
+            "Autoimunitet",
+            "Alergijska reakcija"
+        ]
+    },
+    {
+        "id": "hr_sci_686",
+        "category": "znanost",
+        "question": "Koja se vrsta gljivica koristi u proizvodnji piva i kruha zahvaljujući svojoj sposobnosti fermentacije šećera?",
+        "correct_answer": "Kvasac (Saccharomyces cerevisiae)",
+        "incorrect_answers": [
+            "Plijesan (Penicillium)",
+            "Gljiva vrganj",
+            "Kvasac Candida"
+        ]
+    },
+    {
+        "id": "hr_sci_687",
+        "category": "znanost",
+        "question": "Kako se naziva odnos u ekologiji u kojem jedna vrsta ima korist, a druga trpi štetu, poput odnosa parazita i domaćina?",
+        "correct_answer": "Parazitizam",
+        "incorrect_answers": [
+            "Mutualizam",
+            "Komenzalizam",
+            "Kompeticija"
+        ]
+    },
+    {
+        "id": "hr_sci_688",
+        "category": "znanost",
+        "question": "Kako se naziva ekološki odnos u kojem jedna vrsta ima korist, a druga nema ni koristi ni štete, poput ptice koja gnijezdi na drvetu?",
+        "correct_answer": "Komenzalizam",
+        "incorrect_answers": [
+            "Mutualizam",
+            "Parazitizam",
+            "Predacija"
+        ]
+    },
+    {
+        "id": "hr_sci_689",
+        "category": "znanost",
+        "question": "Koja se pojava odnosi na postupno smanjenje biološke raznolikosti unutar staništa uslijed čovjekovog djelovanja ili prirodnih promjena?",
+        "correct_answer": "Gubitak biološke raznolikosti",
+        "incorrect_answers": [
+            "Eutrofikacija",
+            "Desertifikacija",
+            "Bioakumulacija"
+        ]
+    },
+    {
+        "id": "hr_sci_690",
+        "category": "znanost",
+        "question": "Kako se naziva pojava prekomjernog nakupljanja hranjivih tvari (najčešće dušika i fosfora) u vodi koja uzrokuje bujanje algi i smanjenje kisika?",
+        "correct_answer": "Eutrofikacija",
+        "incorrect_answers": [
+            "Bioakumulacija",
+            "Desertifikacija",
+            "Salinizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_691",
+        "category": "znanost",
+        "question": "Koja se skupina kemijskih spojeva, nekad korištena u hladnjacima i sprejevima, pokazala odgovornom za oštećenje ozonskog omotača?",
+        "correct_answer": "Klorofluorougljici (CFC)",
+        "incorrect_answers": [
+            "Ugljikovodici",
+            "Sumporni oksidi",
+            "Dušikovi oksidi"
+        ]
+    },
+    {
+        "id": "hr_sci_692",
+        "category": "znanost",
+        "question": "Kako se naziva postupak u metalurgiji kojim se sirovo željezo pretvara u čelik uklanjanjem viška ugljika i nečistoća?",
+        "correct_answer": "Rafinacija (pretvaranje u čelik)",
+        "incorrect_answers": [
+            "Galvanizacija",
+            "Kaljenje",
+            "Legiranje"
+        ]
+    },
+    {
+        "id": "hr_sci_693",
+        "category": "znanost",
+        "question": "Koja se legura, sastavljena uglavnom od bakra i kositra, koristila još u brončanom dobu za izradu alata i oružja?",
+        "correct_answer": "Bronca",
+        "incorrect_answers": [
+            "Mjed (Mesing)",
+            "Čelik",
+            "Duraluminij"
+        ]
+    },
+    {
+        "id": "hr_sci_694",
+        "category": "znanost",
+        "question": "Kako se naziva legura bakra i cinka koja se često koristi za izradu glazbenih instrumenata i vodovodnih armatura?",
+        "correct_answer": "Mjed (Mesing)",
+        "incorrect_answers": [
+            "Bronca",
+            "Čelik",
+            "Invar"
+        ]
+    },
+    {
+        "id": "hr_sci_695",
+        "category": "znanost",
+        "question": "Koji je proces u fizici odgovoran za nastanak duge u atmosferi kada svjetlost prolazi kroz kapljice vode?",
+        "correct_answer": "Lom i unutarnja refleksija svjetlosti u kapljicama vode",
+        "incorrect_answers": [
+            "Difrakcija svjetlosti na oblacima",
+            "Polarizacija sunčeve svjetlosti",
+            "Raspršenje na česticama prašine"
+        ]
+    },
+    {
+        "id": "hr_sci_696",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalna pojava zbog koje nebo tijekom dana izgleda plavo, jer se kraće valne duljine svjetlosti više raspršuju u atmosferi?",
+        "correct_answer": "Rayleighevo raspršenje",
+        "incorrect_answers": [
+            "Comptonovo raspršenje",
+            "Ramanovo raspršenje",
+            "Miejevo raspršenje"
+        ]
+    },
+    {
+        "id": "hr_sci_697",
+        "category": "znanost",
+        "question": "Koji uređaj u elektrotehnici pohranjuje električnu energiju u obliku električnog polja između dvije vodljive ploče?",
+        "correct_answer": "Kondenzator",
+        "incorrect_answers": [
+            "Otpornik",
+            "Zavojnica",
+            "Transformator"
+        ]
+    },
+    {
+        "id": "hr_sci_698",
+        "category": "znanost",
+        "question": "Kako se naziva elektronička komponenta sastavljena od žice namotane u zavojnice koja se opire promjeni jakosti struje pohranjujući energiju u magnetskom polju?",
+        "correct_answer": "Zavojnica (Induktor)",
+        "incorrect_answers": [
+            "Kondenzator",
+            "Otpornik",
+            "Dioda"
+        ]
+    },
+    {
+        "id": "hr_sci_699",
+        "category": "znanost",
+        "question": "Koji je poluvodički element koji se, uz silicij, koristi u proizvodnji brzih tranzistora i optoelektroničkih uređaja, a njegov spoj s galijem daje GaAs?",
+        "correct_answer": "Arsen",
+        "incorrect_answers": [
+            "Germanij",
+            "Selenij",
+            "Antimon"
+        ]
+    },
+    {
+        "id": "hr_sci_700",
+        "category": "znanost",
+        "question": "Kako se naziva prvi umjetno stvoreni polprovodički element koji se koristio u tranzistorima prije nego što ga je zamijenio silicij?",
+        "correct_answer": "Germanij",
+        "incorrect_answers": [
+            "Arsen",
+            "Galij",
+            "Antimon"
+        ]
+    },
+    {
+        "id": "hr_sci_701",
+        "category": "znanost",
+        "question": "Koji fizikalni fenomen omogućuje laseru da proizvodi vrlo usku, koherentnu i intenzivnu zraku svjetlosti pojačavanjem putem stimuliranog zračenja?",
+        "correct_answer": "Stimulirana emisija zračenja",
+        "incorrect_answers": [
+            "Spontana emisija",
+            "Fotoelektrični efekt",
+            "Fluorescencija"
+        ]
+    },
+    {
+        "id": "hr_sci_702",
+        "category": "znanost",
+        "question": "Kako se naziva tanko staklo ili plastika koja prenosi podatke u obliku svjetlosnih impulsa koristeći princip potpune unutarnje refleksije?",
+        "correct_answer": "Optičko vlakno",
+        "incorrect_answers": [
+            "Koaksijalni kabel",
+            "Bakrena parica",
+            "Valovod (Waveguide)"
+        ]
+    },
+    {
+        "id": "hr_sci_703",
+        "category": "znanost",
+        "question": "Koji je matematičar starog vijeka izračunao opseg Zemlje mjereći kutove sjena u dva grada te se smatra ocem geografije?",
+        "correct_answer": "Eratosten",
+        "incorrect_answers": [
+            "Pitagora",
+            "Arhimed",
+            "Euklid"
+        ]
+    },
+    {
+        "id": "hr_sci_704",
+        "category": "znanost",
+        "question": "Koji je starogrčki matematičar napisao djelo 'Elementi' koje je stoljećima bilo temeljni udžbenik geometrije?",
+        "correct_answer": "Euklid",
+        "incorrect_answers": [
+            "Pitagora",
+            "Arhimed",
+            "Eratosten"
+        ]
+    },
+    {
+        "id": "hr_sci_705",
+        "category": "znanost",
+        "question": "Kako se naziva grana kemije koja proučava spojeve ugljika, posebice one povezane sa živim organizmima?",
+        "correct_answer": "Organska kemija",
+        "incorrect_answers": [
+            "Anorganska kemija",
+            "Fizikalna kemija",
+            "Biokemija"
+        ]
     }
 ]
