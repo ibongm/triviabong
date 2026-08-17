@@ -11,6 +11,10 @@ import {
 } from '../../services/firebase';
 import { getAllCategories } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
+import { getCachedAdminData, setCachedAdminData } from '../../utils/adminDataCache';
+
+const PROFILES_CACHE_KEY = 'leaderboards.publicProfiles';
+const scoresCacheKey = (category) => `leaderboards.scores.${category}`;
 
 export default function AdminLeaderboardsProfiles() {
     const categoryOptions = getAllCategories();
@@ -24,15 +28,27 @@ export default function AdminLeaderboardsProfiles() {
     const [rbBusy, setRbBusy] = useState(false);
     const [rbMessage, setRbMessage] = useState(null);
 
-    const loadLeaderboard = async (key) => {
+    // Cached per-category so flipping the dropdown back to an already-viewed
+    // category is a cache hit, not a re-scan - previously every selection
+    // change re-ran getAllScoresForCategory with no reuse at all.
+    const loadLeaderboard = async (key, { forceRefresh = false } = {}) => {
         setLbCategory(key);
         setLbMessage(null);
+        if (!key) {
+            setLbScores([]);
+            return;
+        }
+        const cached = !forceRefresh && getCachedAdminData(scoresCacheKey(key));
+        if (cached) {
+            setLbScores(cached);
+            return;
+        }
         setLbScores([]);
-        if (!key) return;
         setLbLoading(true);
         const scores = await getAllScoresForCategory(key);
         setLbScores(scores);
         setLbLoading(false);
+        setCachedAdminData(scoresCacheKey(key), scores);
     };
 
     const handleDeleteScore = async (score) => {
@@ -43,7 +59,9 @@ export default function AdminLeaderboardsProfiles() {
         setLbMessage(null);
         try {
             await deleteScoreFromFirestore(lbCategory, score.id);
-            setLbScores(prev => prev.filter(s => s.id !== score.id));
+            const updated = lbScores.filter(s => s.id !== score.id);
+            setLbScores(updated);
+            setCachedAdminData(scoresCacheKey(lbCategory), updated);
             setLbMessage({ type: 'success', text: 'Rezultat obrisan.' });
         } catch (err) {
             console.error('Greška pri brisanju rezultata:', err);
@@ -63,6 +81,7 @@ export default function AdminLeaderboardsProfiles() {
         try {
             const count = await clearLeaderboardForCategory(lbCategory);
             setLbScores([]);
+            setCachedAdminData(scoresCacheKey(lbCategory), []);
             setLbMessage({ type: 'success', text: `Izbrisano ${count} rezultata.` });
         } catch (err) {
             console.error('Greška pri brisanju ljestvice:', err);
@@ -90,22 +109,33 @@ export default function AdminLeaderboardsProfiles() {
     };
 
     // --- Manage public profiles (Rekordi ranking boards) ---
-    const [ppProfiles, setPpProfiles] = useState([]);
-    const [ppLoading, setPpLoading] = useState(true);
+    const cachedProfiles = getCachedAdminData(PROFILES_CACHE_KEY);
+    const [ppProfiles, setPpProfiles] = useState(cachedProfiles ?? []);
+    const [ppLoading, setPpLoading] = useState(!cachedProfiles);
     const [ppBusy, setPpBusy] = useState(false);
     const [ppMessage, setPpMessage] = useState(null);
 
+    // Always hits Firestore fresh and refreshes the cache - called both for
+    // the initial (cache-miss) load and after backfill, where showing stale
+    // data would hide the admin's own just-made change.
     const loadPublicProfiles = async () => {
         setPpLoading(true);
         const profiles = await getAllPublicProfiles();
         setPpProfiles(profiles);
         setPpLoading(false);
+        setCachedAdminData(PROFILES_CACHE_KEY, profiles);
     };
 
     useEffect(() => {
+        // Skip the re-fetch if this section was already loaded once this
+        // admin session - AdminPanel unmounts/remounts sections on every tab
+        // switch, so without this a revisit re-scans publicProfiles from
+        // scratch every time (state above is already seeded from the cache).
+        if (cachedProfiles) return;
         (async () => {
             await loadPublicProfiles();
         })();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleDeletePublicProfile = async (profile) => {
@@ -116,7 +146,9 @@ export default function AdminLeaderboardsProfiles() {
         setPpMessage(null);
         try {
             await deletePublicProfile(profile.uid);
-            setPpProfiles(prev => prev.filter(p => p.uid !== profile.uid));
+            const updated = ppProfiles.filter(p => p.uid !== profile.uid);
+            setPpProfiles(updated);
+            setCachedAdminData(PROFILES_CACHE_KEY, updated);
             setPpMessage({ type: 'success', text: 'Profil obrisan.' });
         } catch (err) {
             console.error('Greška pri brisanju javnog profila:', err);
@@ -135,6 +167,7 @@ export default function AdminLeaderboardsProfiles() {
         try {
             const count = await clearAllPublicProfiles();
             setPpProfiles([]);
+            setCachedAdminData(PROFILES_CACHE_KEY, []);
             setPpMessage({ type: 'success', text: `Izbrisano ${count} profila.` });
         } catch (err) {
             console.error('Greška pri brisanju svih javnih profila:', err);
@@ -219,6 +252,16 @@ export default function AdminLeaderboardsProfiles() {
                     {lbCategory && (
                         <button
                             type="button"
+                            onClick={() => loadLeaderboard(lbCategory, { forceRefresh: true })}
+                            disabled={lbLoading}
+                            className="text-xs text-slate-400 hover:text-amber-400 border border-slate-800 hover:border-amber-500/40 rounded-lg px-3 py-2"
+                        >
+                            🔄 Osvježi
+                        </button>
+                    )}
+                    {lbCategory && (
+                        <button
+                            type="button"
                             onClick={handleClearLeaderboard}
                             disabled={lbBusy || lbLoading || lbScores.length === 0}
                             className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
@@ -284,6 +327,14 @@ export default function AdminLeaderboardsProfiles() {
                         <span>🥇</span> Upravljaj Javnim Profilima
                     </h2>
                     <div className="flex gap-2">
+                        <button
+                            type="button"
+                            onClick={loadPublicProfiles}
+                            disabled={ppLoading}
+                            className="text-xs text-slate-400 hover:text-amber-400 border border-slate-800 hover:border-amber-500/40 rounded-lg px-3 py-1.5"
+                        >
+                            🔄 Osvježi
+                        </button>
                         <button
                             type="button"
                             onClick={handleBackfillPublicProfiles}

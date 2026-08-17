@@ -506,7 +506,7 @@ service cloud.firestore {
              'category', 'questionIds', 'status', 'currentQuestionIndex',
              'questionStartedAt', 'player1Answer', 'player2Answer',
              'player1Score', 'player2Score', 'player1Correct', 'player2Correct',
-             'lastActivityAt', 'player1HeartbeatAt', 'player2HeartbeatAt',
+             'lastActivityAt',
              'winnerUid', 'createdAt', 'inviteId', 'countdownStartedAt'
            ])
         && request.resource.data.player2Uid is string
@@ -534,8 +534,6 @@ service cloud.firestore {
         && request.resource.data.winnerUid == null
         && request.resource.data.countdownStartedAt == null
         && request.resource.data.lastActivityAt == request.time
-        && request.resource.data.player1HeartbeatAt == request.time
-        && request.resource.data.player2HeartbeatAt == request.time
         && request.resource.data.createdAt == request.time
         // Must correspond to an invite the invitee actually accepted,
         // targeting this exact pairing and category - prevents a client
@@ -558,20 +556,6 @@ service cloud.firestore {
           // just a lightweight generic liveness signal.
           (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['lastActivityAt'])
             && request.resource.data.lastActivityAt == request.time)
-
-          // Per-player heartbeat - each participant may only ever refresh
-          // their OWN field, never the opponent's. This is what forfeit
-          // detection actually reads: if MY opponent's heartbeat field has
-          // gone stale for 30s, I know specifically THEY'VE gone quiet,
-          // not just that "someone" has (which the shared field above
-          // can't distinguish).
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player1HeartbeatAt'])
-              && isOwner(resource.data.player1Uid)
-              && request.resource.data.player1HeartbeatAt == request.time)
-
-          || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['player2HeartbeatAt'])
-              && isOwner(resource.data.player2Uid)
-              && request.resource.data.player2HeartbeatAt == request.time)
 
           // First Spreman click: waiting_ready -> countdown. First write
           // wins (countdownStartedAt can only move null -> set), so both
@@ -712,6 +696,37 @@ service cloud.firestore {
       // No client delete - orphaned match cleanup is deferred (see Plan B
       // §6/CLAUDE.md), same as presence/{uid}'s stale-doc handling.
       allow delete: if false;
+
+      // Per-player heartbeat, split into its own subcollection (one doc per
+      // participant) rather than fields on the match doc itself - Firestore
+      // onSnapshot re-fires on ANY field change to a listened document, so
+      // colocating a ~15s heartbeat write with the doc both players'
+      // gameplay listeners watch (subscribeToMatch) doubled the read cost of
+      // every heartbeat for no gameplay-relevant information. This is what
+      // forfeit detection reads: if the OPPONENT's heartbeat doc has gone
+      // stale, I know specifically THEY'VE gone quiet (see the general
+      // lastActivityAt heartbeat above for why a shared signal alone can't
+      // distinguish that).
+      //
+      // Deliberately NOT cross-checked against the parent match doc via
+      // get() here (unlike matches/{matchId}'s own create rule) - a get()
+      // call in rules bills as an extra document read on every single
+      // evaluation, which on a ~15s write interval would silently re-add
+      // most of the read cost this split is meant to remove. matchId is an
+      // unguessable Firestore auto-id, so a non-participant would need to
+      // already know it to read/write here; the worst case of skipping the
+      // cross-check is a stray, inert heartbeat doc under a match id the
+      // writer isn't actually part of, which no opponent ever subscribes to
+      // (MatchView only subscribes to the real oppUid it read off the
+      // match doc). Same trust-model tradeoff as the app's other
+      // self-reported, rules-bounded-not-rules-verified fields.
+      match /heartbeats/{uid} {
+        allow read: if isSignedIn();
+        allow write: if isOwner(uid)
+          && request.resource.data.keys().hasOnly(['heartbeatAt'])
+          && request.resource.data.heartbeatAt == request.time;
+        allow delete: if false;
+      }
     }
 
     // Plan B - 1v1 match history. Each participant writes their OWN summary

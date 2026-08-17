@@ -149,8 +149,6 @@ export const createMatch = async (invite) => {
             player2Correct: 0,
             countdownStartedAt: null,
             lastActivityAt: serverTimestamp(),
-            player1HeartbeatAt: serverTimestamp(),
-            player2HeartbeatAt: serverTimestamp(),
             winnerUid: null,
             createdAt: serverTimestamp(),
             inviteId: invite.id,
@@ -189,6 +187,23 @@ export const subscribeToMatch = (matchId, callback) => {
         callback(snap.exists() ? { id: snap.id, ...snap.data() } : null);
     }, (error) => {
         console.error('Error subscribing to match:', error);
+    });
+};
+
+// Live-subscribes to ONE opponent's heartbeat doc (matches/{matchId}/
+// heartbeats/{opponentUid}) - deliberately split out of the matches/{matchId}
+// doc itself (see heartbeatMatch below) so the frequent heartbeat write
+// doesn't also re-fire the gameplay-state listener (subscribeToMatch above)
+// on both clients every tick. Only ever subscribe to the OPPONENT's doc, not
+// your own - you already know when you last wrote your own heartbeat.
+// callback receives the raw heartbeatAt Timestamp (or null if the doc
+// doesn't exist yet, e.g. the opponent hasn't heartbeated for the first time
+// since match creation).
+export const subscribeToOpponentHeartbeat = (matchId, opponentUid, callback) => {
+    return onSnapshot(doc(db, 'matches', matchId, 'heartbeats', opponentUid), (snap) => {
+        callback(snap.exists() ? snap.data().heartbeatAt : null);
+    }, (error) => {
+        console.error('Error subscribing to opponent heartbeat:', error);
     });
 };
 
@@ -340,16 +355,23 @@ export const forfeitMatch = async (matchId, opponentUid, reason = 'manual') => {
     }
 };
 
-// Refreshes ONLY the caller's own per-player heartbeat field (see
-// firestore.rules - each participant may only ever touch their own). This
-// is what the opponent's client actually reads for forfeit detection -
-// see the general lastActivityAt heartbeat's comment for why a shared
-// field alone can't be used for that.
-export const heartbeatMatch = async (matchId, isPlayer1) => {
+// Refreshes the caller's own heartbeat doc at matches/{matchId}/heartbeats/
+// {uid} (see firestore.rules - each participant may only ever touch their
+// own). This is what the opponent's client actually reads for forfeit
+// detection - see the general lastActivityAt heartbeat's comment for why a
+// shared field alone can't be used for that. Deliberately a SEPARATE
+// document from matches/{matchId} itself (rather than a per-player field on
+// it, as before) - Firestore onSnapshot re-fires on ANY field change to a
+// listened document, so colocating a ~10s heartbeat write with the doc both
+// players' gameplay listeners watch was doubling the read cost of every
+// heartbeat for zero gameplay-relevant information. Using set() with merge
+// (not updateDoc) since the doc may not exist yet on a player's very first
+// heartbeat.
+export const heartbeatMatch = async (matchId, uid) => {
     try {
-        await updateDoc(doc(db, 'matches', matchId), {
-            [isPlayer1 ? 'player1HeartbeatAt' : 'player2HeartbeatAt']: serverTimestamp(),
-        });
+        await setDoc(doc(db, 'matches', matchId, 'heartbeats', uid), {
+            heartbeatAt: serverTimestamp(),
+        }, { merge: true });
     } catch {
         // Non-critical - a missed heartbeat just risks a false-positive
         // forfeit read by the opponent, not a broken match.

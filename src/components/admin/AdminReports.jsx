@@ -3,6 +3,9 @@ import { getAllReports, updateReportsStatusForQuestion } from '../../services/fi
 import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 import { reportReasonLabel } from '../../constants/reportReasons';
+import { getCachedAdminData, setCachedAdminData } from '../../utils/adminDataCache';
+
+const CACHE_KEY = 'reports';
 
 const toMillis = (value) => {
     if (!value) return 0;
@@ -15,25 +18,37 @@ const toMillis = (value) => {
 // shell) - clicking a report jumps straight to that question, ready to
 // edit or delete, per the original plan's cross-section requirement.
 export default function AdminReports({ onNavigateToQuestion }) {
-    const [reports, setReports] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const cachedReports = getCachedAdminData(CACHE_KEY);
+    const [reports, setReports] = useState(cachedReports ?? []);
+    const [loading, setLoading] = useState(!cachedReports);
     const [showAll, setShowAll] = useState(false);
     const [busyQuestionId, setBusyQuestionId] = useState(null);
     const [message, setMessage] = useState(null);
 
+    // Always hits Firestore fresh and refreshes the cache - called both for
+    // the initial (cache-miss) load and after a real mutation
+    // (handleResolve below), where showing stale data would hide the admin's
+    // own just-made change.
     const fetchReports = async () => {
         setLoading(true);
         const data = await getAllReports();
         setReports(data);
         setLoading(false);
+        setCachedAdminData(CACHE_KEY, data);
     };
 
     const [questionText, setQuestionText] = useState({});
 
     useEffect(() => {
+        // Skip the re-fetch if this section was already loaded once this
+        // admin session - AdminPanel unmounts/remounts sections on every tab
+        // switch, so without this a revisit re-scans the reports collection
+        // from scratch every time.
+        if (cachedReports) return;
         (async () => {
             await fetchReports();
         })();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // id -> question text, built from the raw per-category packs (same
@@ -106,13 +121,22 @@ export default function AdminReports({ onNavigateToQuestion }) {
                 <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
                     <span>🚩</span> Prijave
                 </h2>
-                <button
-                    type="button"
-                    onClick={() => setShowAll((s) => !s)}
-                    className="bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-medium"
-                >
-                    {showAll ? 'Prikaži samo na čekanju' : 'Prikaži sve'}
-                </button>
+                <div className="flex items-center gap-2">
+                    <button
+                        type="button"
+                        onClick={fetchReports}
+                        className="text-xs text-slate-400 hover:text-amber-400 border border-slate-800 hover:border-amber-500/40 rounded-lg px-3 py-1.5"
+                    >
+                        🔄 Osvježi
+                    </button>
+                    <button
+                        type="button"
+                        onClick={() => setShowAll((s) => !s)}
+                        className="bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-medium"
+                    >
+                        {showAll ? 'Prikaži samo na čekanju' : 'Prikaži sve'}
+                    </button>
+                </div>
             </div>
             <p className="text-slate-400 text-sm mb-4">
                 Prijave pitanja od igrača, grupirane po pitanju. Pitanje s niskom preciznošću (vidi Pregled) i prijavama zajedno je najjači signal da je pitanje loše.

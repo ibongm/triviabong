@@ -3,35 +3,52 @@ import { getAllQuestionAttempts, getAllGameResults } from '../../services/fireba
 import { summarizeQuestionAccuracy, summarizeCategoryPopularity } from '../../utils/gameplayInsights';
 import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
+import { getCachedAdminData, setCachedAdminData, clearCachedAdminData } from '../../utils/adminDataCache';
+
+const CACHE_KEY = 'overview';
 
 export default function AdminOverview() {
-    const [attempts, setAttempts] = useState([]);
-    const [results, setResults] = useState([]);
-    const [questionText, setQuestionText] = useState({});
-    const [loading, setLoading] = useState(true);
+    const cached = getCachedAdminData(CACHE_KEY);
+    const [attempts, setAttempts] = useState(cached?.attempts ?? []);
+    const [results, setResults] = useState(cached?.results ?? []);
+    const [questionText, setQuestionText] = useState(cached?.questionText ?? {});
+    const [loading, setLoading] = useState(!cached);
+
+    const fetchData = async (cancelledRef) => {
+        const [a, r, packs] = await Promise.all([getAllQuestionAttempts(), getAllGameResults(), getAllCategoryPacks()]);
+        if (cancelledRef?.current) return;
+        // id -> question text, built from the raw per-category packs (not
+        // getAllQuestions(), which dedupes by normalized text and could drop
+        // an id if another category's question happens to read identically).
+        const map = {};
+        for (const pack of Object.values(packs)) {
+            for (const q of pack) {
+                map[q.id] = q.question;
+            }
+        }
+        setAttempts(a);
+        setResults(r);
+        setQuestionText(map);
+        setLoading(false);
+        setCachedAdminData(CACHE_KEY, { attempts: a, results: r, questionText: map });
+    };
 
     useEffect(() => {
-        let cancelled = false;
-        (async () => {
-            const [a, r, packs] = await Promise.all([getAllQuestionAttempts(), getAllGameResults(), getAllCategoryPacks()]);
-            if (cancelled) return;
-            setAttempts(a);
-            setResults(r);
-            // id -> question text, built from the raw per-category packs
-            // (not getAllQuestions(), which dedupes by normalized text and
-            // could drop an id if another category's question happens to
-            // read identically).
-            const map = {};
-            for (const pack of Object.values(packs)) {
-                for (const q of pack) {
-                    map[q.id] = q.question;
-                }
-            }
-            setQuestionText(map);
-            setLoading(false);
-        })();
-        return () => { cancelled = true; };
+        // Skip the re-fetch entirely if this section was already loaded once
+        // this admin session - AdminPanel unmounts/remounts sections on every
+        // tab switch, so without this a revisit re-scans questionAttempts/
+        // gameResults from scratch every time.
+        if (getCachedAdminData(CACHE_KEY)) return;
+        const cancelledRef = { current: false };
+        fetchData(cancelledRef);
+        return () => { cancelledRef.current = true; };
     }, []);
+
+    const handleRefresh = () => {
+        clearCachedAdminData(CACHE_KEY);
+        setLoading(true);
+        fetchData();
+    };
 
     const accuracy = useMemo(() => summarizeQuestionAccuracy(attempts, questionText), [attempts, questionText]);
     const popularity = useMemo(() => summarizeCategoryPopularity(results), [results]);
@@ -48,6 +65,15 @@ export default function AdminOverview() {
 
     return (
         <div className="space-y-8">
+            <div className="flex justify-end">
+                <button
+                    type="button"
+                    onClick={handleRefresh}
+                    className="text-xs text-slate-400 hover:text-amber-400 border border-slate-800 hover:border-amber-500/40 rounded-lg px-3 py-1.5"
+                >
+                    🔄 Osvježi
+                </button>
+            </div>
             {/* Category popularity */}
             <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6">
                 <h2 className="text-lg font-semibold text-amber-400 mb-1 flex items-center gap-2">

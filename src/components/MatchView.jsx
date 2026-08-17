@@ -7,6 +7,7 @@ import { BASE_SCORE, SPEED_BONUS_PER_SECOND, STREAK_MULTIPLIER_STEP, QUESTION_TI
 import { resolveMatchQuestions, getMatchQuestionOptions, isMatchAnswerCorrect } from '../utils/matchQuestions';
 import {
     subscribeToMatch,
+    subscribeToOpponentHeartbeat,
     setMatchQuestionStarted,
     setMatchCountdownStarted,
     startMatch,
@@ -19,7 +20,11 @@ import {
 } from '../services/matches';
 import { sound } from '../utils/sound';
 
-const FORFEIT_THRESHOLD_MS = 30000;
+const HEARTBEAT_INTERVAL_MS = 15000;
+// ~3x HEARTBEAT_INTERVAL_MS, same safety-margin ratio as before (30s was
+// ~3.75x the old 8s interval) - tolerates one missed heartbeat before
+// declaring the opponent gone.
+const FORFEIT_THRESHOLD_MS = 45000;
 const LAST_QUESTION_INDEX = 10; // 0-9 regular + 10 sudden death
 const REVEAL_DURATION_SECONDS = 3;
 const PRE_MATCH_COUNTDOWN_SECONDS = 5;
@@ -118,43 +123,56 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         : QUESTION_TIME_SECONDS;
 
     // ---- Per-player heartbeat ----
+    // Written to matches/{matchId}/heartbeats/{uid}, a SEPARATE document from
+    // the gameplay match doc (see heartbeatMatch's comment in matches.js) -
+    // otherwise every heartbeat write would also re-fire subscribeToMatch's
+    // listener on both clients for zero gameplay-relevant information.
+    //
     // Deliberately NOT keyed on match.status: during fast-paced play the
     // match transitions status (question_active -> reveal -> question_active
-    // -> ...) far more often than every 8s, and a status-keyed dependency
+    // -> ...) far more often than every 15s, and a status-keyed dependency
     // would tear down and restart this interval on every single transition
     // before it ever got a chance to fire - meaning the heartbeat would
     // never actually reach Firestore, and the opponent's stale-heartbeat
     // check below would eventually forfeit an actively-playing match. Reads
-    // the latest match/isPlayer1 via refs instead so the interval itself
-    // can stay alive for the whole match.
+    // the latest match via a ref instead so the interval itself can stay
+    // alive for the whole match; myUid is a stable prop for the match's
+    // lifetime so it doesn't need the same ref treatment.
     const matchRef = useRef(match);
-    const isPlayer1Ref = useRef(isPlayer1);
 
-    // Keep the heartbeat interval's refs current without writing during render
+    // Keep the heartbeat interval's ref current without writing during render
     // (react-hooks/refs). The interval below is intentionally keyed only on
-    // matchId so it survives the frequent status transitions during play.
+    // matchId/myUid so it survives the frequent status transitions during play.
     useEffect(() => {
         matchRef.current = match;
-        isPlayer1Ref.current = isPlayer1;
-    }, [match, isPlayer1]);
+    }, [match]);
 
     useEffect(() => {
         const interval = setInterval(() => {
             const m = matchRef.current;
             if (!m || m.status === 'match_over' || m.status === 'forfeited') return;
-            heartbeatMatch(matchId, isPlayer1Ref.current);
-        }, 8000);
+            heartbeatMatch(matchId, myUid);
+        }, HEARTBEAT_INTERVAL_MS);
         return () => clearInterval(interval);
-    }, [matchId]);
+    }, [matchId, myUid]);
+
+    // ---- Opponent's heartbeat, for stale-heartbeat forfeit detection ----
+    // Only ever subscribes to the OPPONENT's heartbeat doc, never our own.
+    const [oppHeartbeatAt, setOppHeartbeatAt] = useState(null);
+    useEffect(() => {
+        if (!matchId || !oppUid) return undefined;
+        const unsubscribe = subscribeToOpponentHeartbeat(matchId, oppUid, setOppHeartbeatAt);
+        return unsubscribe;
+    }, [matchId, oppUid]);
 
     useEffect(() => {
         if (!match || match.status === 'match_over' || match.status === 'forfeited') return;
-        const oppHeartbeatMs = (isPlayer1 ? match.player2HeartbeatAt : match.player1HeartbeatAt)?.toMillis?.();
+        const oppHeartbeatMs = oppHeartbeatAt?.toMillis?.();
         if (!oppHeartbeatMs) return;
         if (now - oppHeartbeatMs > FORFEIT_THRESHOLD_MS) {
             forfeitMatch(matchId, myUid, 'timeout');
         }
-    }, [now, match, matchId, isPlayer1, myUid]);
+    }, [now, match, matchId, oppHeartbeatAt, myUid]);
 
     // ---- First client to arrive at a fresh question starts the clock ----
     useEffect(() => {

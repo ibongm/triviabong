@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { upsertPresence } from '../services/firebase';
 
-const HEARTBEAT_INTERVAL_MS = 60000;
+const HEARTBEAT_INTERVAL_MS = 180000;
 
 // Maps the single-player gameState machine onto presence's public status.
 // 'busy' isn't reachable through this mapping yet - it's reserved for
@@ -33,9 +33,14 @@ export const usePresence = (uid, displayName, level, gameState) => {
         upsertPresence(uid, dn, lvl, status);
     }, [uid, displayName, level, gameState]);
 
-    // Heartbeat: re-send the current snapshot every 60s while the tab is
+    // Heartbeat: re-send the current snapshot every 3min while the tab is
     // visible, so lastHeartbeat keeps advancing and the doc doesn't go
-    // stale in other clients' online-threshold filtering.
+    // stale in other clients' online-threshold filtering. Widened from 60s
+    // (see presenceUtils.js's ONLINE_THRESHOLD_MS, kept at 3x this value) to
+    // cut steady-state onSnapshot fan-out reads - every heartbeat write is
+    // billed as a read to every other client subscribed to the presence
+    // list, so cost scales with concurrent lobby traffic, not just heartbeat
+    // frequency.
     useEffect(() => {
         if (!uid) return;
         const interval = setInterval(() => {

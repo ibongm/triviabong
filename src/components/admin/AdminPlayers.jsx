@@ -5,6 +5,14 @@ import { computeLevelFromXp } from '../../utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, revokeStaleAchievements } from '../../utils/achievements';
 import { ACHIEVEMENTS } from '../../constants/achievements';
 import AdminPlayerDetail from './AdminPlayerDetail';
+import { getCachedAdminData, setCachedAdminData } from '../../utils/adminDataCache';
+
+const USERS_CACHE_KEY = 'players.users';
+// sessions is the single fastest-growing, most expensive full-collection
+// scan in the admin panel (every heartbeat writes to it - see
+// useSessionTracking.js) - caching it here is the near-term fix; see
+// CHANGELOG.md for the longer-term pagination/aggregation follow-up.
+const SESSIONS_CACHE_KEY = 'players.totalTimeByUid';
 
 const toMillis = (value) => {
     if (!value) return 0;
@@ -26,13 +34,15 @@ const COLUMNS = [
 ];
 
 export default function AdminPlayers() {
-    const [users, setUsers] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const cachedUsers = getCachedAdminData(USERS_CACHE_KEY);
+    const cachedTotalTime = getCachedAdminData(SESSIONS_CACHE_KEY);
+    const [users, setUsers] = useState(cachedUsers ?? []);
+    const [loading, setLoading] = useState(!cachedUsers);
     const [usersMessage, setUsersMessage] = useState(null);
     const [editingUser, setEditingUser] = useState(null);
     const [formError, setFormError] = useState('');
     const [detailUser, setDetailUser] = useState(null);
-    const [totalTimeByUid, setTotalTimeByUid] = useState({});
+    const [totalTimeByUid, setTotalTimeByUid] = useState(cachedTotalTime ?? {});
     const [sortKey, setSortKey] = useState('displayName');
     const [sortDirection, setSortDirection] = useState('asc');
 
@@ -45,28 +55,46 @@ export default function AdminPlayers() {
         unlockedAchievements: {}
     });
 
+    // Always hits Firestore fresh and refreshes the cache - called both for
+    // the initial (cache-miss) load and after edit/delete/reset mutations,
+    // where showing stale data would hide the admin's own just-made change.
     const fetchUsers = async () => {
         setLoading(true);
         const userList = await getAllRegisteredUsers();
         setUsers(userList);
         setLoading(false);
+        setCachedAdminData(USERS_CACHE_KEY, userList);
     };
-
-    useEffect(() => {
-        (async () => {
-            await fetchUsers();
-        })();
-    }, []);
 
     // Powers the "Vrijeme igre" column - all-time total across every
     // session, grouped by uid. The per-player Daily/Weekly toggle lives in
     // AdminPlayerDetail instead, since a list column can only show one number.
+    const fetchTotalTime = async () => {
+        const sessions = await getAllSessions();
+        const totals = sumSessionsByUid(sessions);
+        setTotalTimeByUid(totals);
+        setCachedAdminData(SESSIONS_CACHE_KEY, totals);
+    };
+
     useEffect(() => {
+        // Skip re-fetching either dataset if this section was already loaded
+        // once this admin session - AdminPanel unmounts/remounts sections on
+        // every tab switch, so without this a revisit re-scans BOTH the
+        // users and sessions collections from scratch every time (two
+        // separate unbounded full-collection reads).
         (async () => {
-            const sessions = await getAllSessions();
-            setTotalTimeByUid(sumSessionsByUid(sessions));
+            if (!cachedUsers) await fetchUsers();
         })();
+        (async () => {
+            if (!cachedTotalTime) await fetchTotalTime();
+        })();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
+
+    const handleRefresh = () => {
+        fetchUsers();
+        fetchTotalTime();
+    };
 
     const handleSort = (key) => {
         if (key === sortKey) {
@@ -245,15 +273,24 @@ export default function AdminPlayers() {
                 <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
                     <span>👥</span> Registrirani Igrači
                 </h2>
-                <button
-                    type="button"
-                    onClick={handleResetAllProgression}
-                    disabled={resetBusy || loading || users.length === 0}
-                    title="Resetira razinu/XP/trofeje SVIH igrača (novčići ostaju) - koristi samo nakon velike promjene ekonomije"
-                    className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
-                >
-                    {resetBusy ? 'Resetiranje...' : 'Resetiraj napredak svih igrača'}
-                </button>
+                <div className="flex items-center gap-2">
+                    <button
+                        type="button"
+                        onClick={handleRefresh}
+                        className="text-xs text-slate-400 hover:text-amber-400 border border-slate-800 hover:border-amber-500/40 rounded-lg px-3 py-1.5"
+                    >
+                        🔄 Osvježi
+                    </button>
+                    <button
+                        type="button"
+                        onClick={handleResetAllProgression}
+                        disabled={resetBusy || loading || users.length === 0}
+                        title="Resetira razinu/XP/trofeje SVIH igrača (novčići ostaju) - koristi samo nakon velike promjene ekonomije"
+                        className="bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                    >
+                        {resetBusy ? 'Resetiranje...' : 'Resetiraj napredak svih igrača'}
+                    </button>
+                </div>
             </div>
 
             {usersMessage && (

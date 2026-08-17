@@ -1,5 +1,24 @@
 # Changelog
 
+### [2026-08-17] - Reduce Firestore read quota: presence heartbeat, 1v1 match heartbeat, admin panel caching
+- **Files Changed**:
+  - `src/hooks/usePresence.js` (Modified)
+  - `src/utils/presenceUtils.js` (Modified)
+  - `src/services/matches.js` (Modified)
+  - `src/components/MatchView.jsx` (Modified)
+  - `firestore.rules` (Modified)
+  - `src/utils/adminDataCache.js` (Created)
+  - `src/components/admin/AdminOverview.jsx` (Modified)
+  - `src/components/admin/AdminReports.jsx` (Modified)
+  - `src/components/admin/AdminQuestionSubmissions.jsx` (Modified)
+  - `src/components/admin/AdminPlayers.jsx` (Modified)
+  - `src/components/admin/AdminLeaderboardsProfiles.jsx` (Modified)
+- **Details**:
+  - Widened the `presence` collection heartbeat from 60s to 180s (`usePresence.js`), with `presenceUtils.js`'s online-threshold bumped in lockstep to keep the documented 3x-heartbeat safety margin - cuts steady-state `onSnapshot` fan-out reads, which scale as writer-count x listener-count among concurrently lobby-idle players.
+  - Split 1v1 match heartbeats out of the `matches/{matchId}` document into a new `matches/{matchId}/heartbeats/{uid}` subcollection (`matches.js`'s `heartbeatMatch`/new `subscribeToOpponentHeartbeat`, wired into `MatchView.jsx`), since Firestore's `onSnapshot` re-fires on any field change - colocating the heartbeat with gameplay state was doubling the read cost of every heartbeat for zero gameplay-relevant information. Also widened the heartbeat interval 8s -> 15s and the forfeit threshold 30s -> 45s. Added/updated `firestore.rules` accordingly (new `heartbeats/{uid}` rule block, deliberately without a `get()` cross-check to avoid billing an extra read on every heartbeat write).
+  - Added `src/utils/adminDataCache.js`, a simple in-memory cache for AdminPanel's per-section Firestore reads, since `AdminPanel.jsx` unmounts/remounts each section on every tab switch with no caching by design - every tab revisit was re-running its full `getAllX()` collection scan from scratch. Wired into `AdminOverview`, `AdminReports`, `AdminQuestionSubmissions`, `AdminPlayers` (both its `users` and `sessions` scans), and `AdminLeaderboardsProfiles` (both `publicProfiles` and per-category `getAllScoresForCategory`), each with a manual refresh action; existing post-mutation refetches now also refresh the cache.
+  - Verified via an ad hoc Firestore rules test against the emulator (new `heartbeats` subcollection rules) and `golden-path.mjs`/`two-player-match-check.mjs` against the emulator (zero console errors; two-player check exercises the new heartbeat subcollection and rules end-to-end).
+
 ### [2026-08-16] - Remediate Transitive uuid Vulnerability via Overrides (Security Phase 5)
 - **Files Changed**:
   - `package.json` (Modified)

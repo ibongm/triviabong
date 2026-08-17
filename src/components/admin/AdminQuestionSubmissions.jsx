@@ -2,6 +2,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { auth, getAllQuestionSubmissions, updateQuestionSubmissionStatus, awardCommunityQuestionReward } from '../../services/firebase';
 import { COMMUNITY_QUESTION_APPROVED_XP, COMMUNITY_QUESTION_APPROVED_COINS } from '../../constants/gameBalance';
 import { CATEGORY_META } from '../../data/categoryMeta';
+import { getCachedAdminData, setCachedAdminData } from '../../utils/adminDataCache';
+
+const CACHE_KEY = 'submissions';
 
 const toMillis = (value) => {
     if (!value) return 0;
@@ -17,23 +20,34 @@ const toMillis = (value) => {
 // array) - no server changes needed, since that endpoint already does
 // admin-auth, re-validation, GitHub-commit merge, and dedup.
 export default function AdminQuestionSubmissions() {
-    const [submissions, setSubmissions] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const cachedSubmissions = getCachedAdminData(CACHE_KEY);
+    const [submissions, setSubmissions] = useState(cachedSubmissions ?? []);
+    const [loading, setLoading] = useState(!cachedSubmissions);
     const [showAll, setShowAll] = useState(false);
     const [busyId, setBusyId] = useState(null);
     const [message, setMessage] = useState(null);
 
+    // Always hits Firestore fresh and refreshes the cache - called both for
+    // the initial (cache-miss) load and after approve/reject, where showing
+    // stale data would hide the admin's own just-made change.
     const fetchSubmissions = async () => {
         setLoading(true);
         const data = await getAllQuestionSubmissions();
         setSubmissions(data);
         setLoading(false);
+        setCachedAdminData(CACHE_KEY, data);
     };
 
     useEffect(() => {
+        // Skip the re-fetch if this section was already loaded once this
+        // admin session - AdminPanel unmounts/remounts sections on every tab
+        // switch, so without this a revisit re-scans the submissions
+        // collection from scratch every time.
+        if (cachedSubmissions) return;
         (async () => {
             await fetchSubmissions();
         })();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const visible = useMemo(() => {
@@ -107,13 +121,22 @@ export default function AdminQuestionSubmissions() {
                 <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
                     <span>📝</span> Predložena pitanja
                 </h2>
-                <button
-                    type="button"
-                    onClick={() => setShowAll((s) => !s)}
-                    className="bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-medium"
-                >
-                    {showAll ? 'Prikaži samo na čekanju' : 'Prikaži sve'}
-                </button>
+                <div className="flex items-center gap-2">
+                    <button
+                        type="button"
+                        onClick={fetchSubmissions}
+                        className="text-xs text-slate-400 hover:text-amber-400 border border-slate-800 hover:border-amber-500/40 rounded-lg px-3 py-1.5"
+                    >
+                        🔄 Osvježi
+                    </button>
+                    <button
+                        type="button"
+                        onClick={() => setShowAll((s) => !s)}
+                        className="bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg text-xs font-medium"
+                    >
+                        {showAll ? 'Prikaži samo na čekanju' : 'Prikaži sve'}
+                    </button>
+                </div>
             </div>
             <p className="text-slate-400 text-sm mb-4">
                 Pitanja koja su predložili igrači. Odobravanje ih odmah šalje u kategorijsku JSON datoteku (isti tok kao Dodaj Pitanja).
