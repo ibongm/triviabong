@@ -1,5 +1,19 @@
 # Changelog
 
+### [2026-08-20] - Move Rekordi leaderboards to a shared server-side maintained doc
+- **Files Changed**:
+  - `firestore.rules` (Modified)
+  - `src/services/firebase.js` (Modified)
+  - `src/App.jsx` (Modified)
+  - `src/components/RekordiBoards.jsx` (Modified, comments only)
+  - `src/components/admin/AdminLeaderboardsProfiles.jsx` (Modified)
+- **Details**:
+  - The 2026-08-20 `rekordiCache.js` localStorage TTL cache (previous entry) turned out to only cap re-fetches from the *same browser*; it does nothing to bound aggregate reads across many distinct visitors, so the underlying per-pageview 6-query/up-to-121-read fan-out was still live for every unique visit and could still blow the 50k/day Spark quota under real traffic (confirmed via the Firebase Console: reads climbed from ~7.5K to 59K within hours on 2026-08-20, well after the cache fix had already deployed).
+  - Added `records/rekordiSummary`, a single maintained Firestore doc holding the top-10 for the `level`/`maxStreak`/`achievementCount`/`dayStreak`/`bestScore` boards - same pattern the existing `records/fastestPerfect` doc already used. It's kept current incrementally: `maybeUpdateRekordiProfileBoards` (called from `syncPublicProfile`, one transaction covering all 4 profile-based boards) and `maybeUpdateRekordiBestScore` (called from `saveScoreToFirestore` on every score save) upsert/re-sort/truncate the relevant array in a single read+write transaction, rather than recomputing anything at read time.
+  - `App.jsx`'s `refreshRekordiData` now calls the new `getRekordiSummary()` (1 bounded read) alongside the existing `getFastestPerfectRounds()` (1 bounded read) - 2 reads per uncached page load instead of up to 121, regardless of how many unique visitors hit it.
+  - `getPublicProfileLeaderboard`/`getBestScoresAcrossCategories` (the old unbounded-scan functions) are no longer called from the page-load path; they're kept as the internals of a new admin-only `recomputeRekordiSummary()` escape hatch (wired to a "Rekonstruiraj sažetak" button in the Admin Panel next to the existing fastestPerfect one) that rebuilds `records/rekordiSummary` from scratch, for the case where editing a player directly in the Admin Panel or running "Popuni sve profile" bypasses the incremental update and leaves it stale.
+  - `firestore.rules` adds a `records/rekordiSummary` rule mirroring `records/fastestPerfect`'s (`allow read: if true`; `create`/`update` validated by key allowlist + each board capped at 10 entries; `delete` admin-only). **Requires `firebase deploy --only firestore:rules` to take effect in production** - not yet deployed as part of this change.
+
 ### [2026-08-20] - Cache Rekordi data to stop unbounded per-pageview Firestore reads
 - **Files Changed**:
   - `src/utils/rekordiCache.js` (Created)

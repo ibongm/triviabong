@@ -451,6 +451,7 @@ export const saveScoreToFirestore = async (categoryKey, name, score, uid = null,
         if (typeof elapsedMs === 'number') payload.elapsedMs = elapsedMs;
         if (typeof isPerfect === 'boolean') payload.isPerfect = isPerfect;
         await addDoc(scoresRef, payload);
+        await maybeUpdateRekordiBestScore(categoryKey, name, uid, score);
         if (isPerfect === true && typeof elapsedMs === 'number') {
             await maybeUpdateFastestPerfectRecord(categoryKey, name, uid, elapsedMs);
         }
@@ -459,6 +460,126 @@ export const saveScoreToFirestore = async (categoryKey, name, score, uid = null,
         console.error("Error saving score to Firestore:", error);
         return false;
     }
+};
+
+const REKORDI_SUMMARY_DOC_REF = () => doc(db, "records", "rekordiSummary");
+const MAX_REKORDI_ENTRIES = 10;
+const REKORDI_PROFILE_FIELDS = ["level", "maxStreak", "achievementCount", "dayStreak"];
+
+/**
+ * Keeps records/rekordiSummary's bestScore board (top-10 single-round score
+ * across every category) up to date, mirroring maybeUpdateFastestPerfectRecord
+ * below - see that function's comment for the transaction pattern. Called on
+ * every score save, not just perfect rounds, since any round can be a top
+ * score.
+ */
+const maybeUpdateRekordiBestScore = async (categoryKey, name, uid, score) => {
+    try {
+        await runTransaction(db, async (tx) => {
+            const ref = REKORDI_SUMMARY_DOC_REF();
+            const snap = await tx.get(ref);
+            const entries = snap.exists() ? (snap.data().bestScore || []) : [];
+            if (entries.length >= MAX_REKORDI_ENTRIES && score <= entries[entries.length - 1].score) {
+                return;
+            }
+            const updated = [...entries, { category: categoryKey, name, uid: uid || null, score }]
+                .sort((a, b) => b.score - a.score)
+                .slice(0, MAX_REKORDI_ENTRIES);
+            tx.set(ref, { bestScore: updated, updatedAt: serverTimestamp() }, { merge: true });
+        });
+    } catch (error) {
+        console.error("Error updating rekordi best-score board:", error);
+    }
+};
+
+/**
+ * Replaces (or inserts) `uid`'s entry in a per-field top-10 array, then
+ * re-sorts/truncates. Unlike bestScore/fastestPerfect's per-round entries,
+ * these boards are per-user - a returning player's stale entry must be
+ * removed, not just appended alongside their new one.
+ */
+const upsertRekordiProfileField = (entries, uid, displayName, field, value) => {
+    const filtered = (entries || []).filter(e => e.uid !== uid);
+    filtered.push({ uid, displayName, [field]: value });
+    return filtered.sort((a, b) => b[field] - a[field]).slice(0, MAX_REKORDI_ENTRIES);
+};
+
+/**
+ * Keeps records/rekordiSummary's level/maxStreak/achievementCount/dayStreak
+ * boards up to date from one publicProfiles sync, in a single transaction
+ * (one read, one write) rather than one transaction per field. Called from
+ * syncPublicProfile right after that write.
+ */
+const maybeUpdateRekordiProfileBoards = async (uid, displayName, fields) => {
+    try {
+        await runTransaction(db, async (tx) => {
+            const ref = REKORDI_SUMMARY_DOC_REF();
+            const snap = await tx.get(ref);
+            const current = snap.exists() ? snap.data() : {};
+            const updates = {};
+            for (const field of REKORDI_PROFILE_FIELDS) {
+                updates[field] = upsertRekordiProfileField(current[field], uid, displayName, field, fields[field]);
+            }
+            tx.set(ref, { ...updates, updatedAt: serverTimestamp() }, { merge: true });
+        });
+    } catch (error) {
+        console.error("Error updating rekordi profile boards:", error);
+    }
+};
+
+/**
+ * Reads the maintained records/rekordiSummary doc - one bounded read for all
+ * 5 boards it covers, replacing the old per-page-load fan-out of
+ * getBestScoresAcrossCategories + 4x getPublicProfileLeaderboard (up to 80
+ * reads for bestScore alone, an 8-way per-category scan). fastestPerfect
+ * stays a separate maintained doc (see getFastestPerfectRounds) - callers
+ * combine both.
+ */
+export const getRekordiSummary = async () => {
+    try {
+        const snap = await getDoc(REKORDI_SUMMARY_DOC_REF());
+        const data = snap.exists() ? snap.data() : {};
+        return {
+            level: data.level || [],
+            maxStreak: data.maxStreak || [],
+            achievementCount: data.achievementCount || [],
+            dayStreak: data.dayStreak || [],
+            bestScore: data.bestScore || [],
+        };
+    } catch (error) {
+        console.error("Error fetching rekordi summary:", error);
+        return { level: [], maxStreak: [], achievementCount: [], dayStreak: [], bestScore: [] };
+    }
+};
+
+/**
+ * Admin-only escape hatch: rebuilds records/rekordiSummary from scratch via
+ * the same unbounded scans (getPublicProfileLeaderboard x4,
+ * getBestScoresAcrossCategories) that used to run on every page load, before
+ * the incremental maybeUpdateRekordiProfileBoards/maybeUpdateRekordiBestScore
+ * approach replaced them. Needed because editing a user directly in the
+ * Admin Panel or running backfillPublicProfiles bypasses syncPublicProfile,
+ * which can leave rekordiSummary stale - same drift this fixes for
+ * records/fastestPerfect via recomputeFastestPerfectRecord. Deliberately not
+ * run automatically; only acceptable as an occasional admin action.
+ */
+export const recomputeRekordiSummary = async () => {
+    const [level, maxStreak, achievementCount, dayStreak, bestScore] = await Promise.all([
+        getPublicProfileLeaderboard('level', MAX_REKORDI_ENTRIES),
+        getPublicProfileLeaderboard('maxStreak', MAX_REKORDI_ENTRIES),
+        getPublicProfileLeaderboard('achievementCount', MAX_REKORDI_ENTRIES),
+        getPublicProfileLeaderboard('dayStreak', MAX_REKORDI_ENTRIES),
+        getBestScoresAcrossCategories(MAX_REKORDI_ENTRIES),
+    ]);
+    const summary = {
+        level: level.map(({ uid, displayName, level: v }) => ({ uid, displayName, level: v })),
+        maxStreak: maxStreak.map(({ uid, displayName, maxStreak: v }) => ({ uid, displayName, maxStreak: v })),
+        achievementCount: achievementCount.map(({ uid, displayName, achievementCount: v }) => ({ uid, displayName, achievementCount: v })),
+        dayStreak: dayStreak.map(({ uid, displayName, dayStreak: v }) => ({ uid, displayName, dayStreak: v })),
+        bestScore: bestScore.map(({ category, name, uid, score }) => ({ category, name, uid: uid || null, score })),
+    };
+    await setDoc(REKORDI_SUMMARY_DOC_REF(), { ...summary, updatedAt: serverTimestamp() });
+    return summary;
 };
 
 const FASTEST_PERFECT_DOC_REF = () => doc(db, "records", "fastestPerfect");
@@ -643,10 +764,12 @@ export const syncPublicProfile = async (uid, displayName, stats) => {
     if (!uid) return;
     try {
         const profileRef = doc(db, "publicProfiles", uid);
+        const fields = buildPublicProfileFields({ ...stats, displayName });
         await setDoc(profileRef, {
-            ...buildPublicProfileFields({ ...stats, displayName }),
+            ...fields,
             updatedAt: serverTimestamp()
         });
+        await maybeUpdateRekordiProfileBoards(uid, fields.displayName, fields);
     } catch (error) {
         console.error("Error syncing public profile to Firestore:", error);
     }
@@ -654,7 +777,9 @@ export const syncPublicProfile = async (uid, displayName, stats) => {
 
 /**
  * Top players ranked by a single publicProfiles field (level, maxStreak,
- * dayStreak, or achievementCount) - reused for 4 of the Rekordi boards.
+ * dayStreak, or achievementCount) - an unbounded-scan alternative to reading
+ * records/rekordiSummary, only used now by recomputeRekordiSummary's
+ * admin-triggered rebuild (see that function's comment for why it exists).
  */
 export const getPublicProfileLeaderboard = async (field, limitN = 10) => {
     try {
@@ -672,7 +797,9 @@ export const getPublicProfileLeaderboard = async (field, limitN = 10) => {
  * Best single-round score across every category (Rekordi board) - fetches
  * the top limitN from each of the 8 category leaderboards (not just the
  * single best from each, since the true overall top N could plausibly all
- * come from one category) and re-sorts the merged set.
+ * come from one category) and re-sorts the merged set. An unbounded-scan
+ * alternative to reading records/rekordiSummary, only used now by
+ * recomputeRekordiSummary's admin-triggered rebuild.
  */
 export const getBestScoresAcrossCategories = async (limitN = 10) => {
     try {

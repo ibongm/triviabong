@@ -42,9 +42,8 @@ const formatEntry = (board, entry) => {
 };
 
 // Pure presentational - data is fetched once in App.jsx (not re-fetched every
-// time this mounts) since getFastestPerfectRounds/getBestScoresAcrossCategories
-// read every category's leaderboard; refetching on every lobby visit would be
-// wasteful. `data` is null while that initial fetch is still in flight.
+// time this mounts), see refreshRekordiData's comment there. `data` is null
+// while that initial fetch is still in flight.
 export default function RekordiBoards({ data, limitPerBoard = 10, compact = false }) {
     if (data === null) {
         return <p className="text-slate-400 text-sm text-center py-4">Učitavanje...</p>;

@@ -4,6 +4,7 @@ import {
     deleteScoreFromFirestore,
     clearLeaderboardForCategory,
     recomputeFastestPerfectRecord,
+    recomputeRekordiSummary,
     getAllPublicProfiles,
     deletePublicProfile,
     clearAllPublicProfiles,
@@ -105,6 +106,26 @@ export default function AdminLeaderboardsProfiles() {
             setRbMessage({ type: 'error', text: 'Obnova nije uspjela.' });
         } finally {
             setRbBusy(false);
+        }
+    };
+
+    const [rsBusy, setRsBusy] = useState(false);
+    const [rsMessage, setRsMessage] = useState(null);
+
+    const handleRecomputeRekordiSummary = async () => {
+        if (rsBusy) return;
+        if (!window.confirm('Ponovno izgraditi Rekordi sažetak (razina/niz/trofeji/najbolji rezultat) skeniranjem svih profila i ljestvica? Koristite ovo samo ako su te ljestvice zastarjele nakon izravne izmjene igrača ili "Popuni sve profile".')) return;
+
+        setRsBusy(true);
+        setRsMessage(null);
+        try {
+            await recomputeRekordiSummary();
+            setRsMessage({ type: 'success', text: 'Rekordi sažetak obnovljen.' });
+        } catch (err) {
+            console.error('Greška pri obnovi Rekordi sažetka:', err);
+            setRsMessage({ type: 'error', text: 'Obnova nije uspjela.' });
+        } finally {
+            setRsBusy(false);
         }
     };
 
@@ -215,15 +236,26 @@ export default function AdminLeaderboardsProfiles() {
                     <h2 className="text-lg font-semibold text-amber-400 flex items-center gap-2">
                         <span>🏆</span> Upravljaj Ljestvicama
                     </h2>
-                    <button
-                        type="button"
-                        onClick={handleRecomputeFastestPerfect}
-                        disabled={rbBusy}
-                        title="Ponovno izgradi Rekordi zapis najbržeg savršenog kruga (koristi nakon brisanja rezultata)"
-                        className="bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
-                    >
-                        Rekonstruiraj rekorde
-                    </button>
+                    <div className="flex gap-2">
+                        <button
+                            type="button"
+                            onClick={handleRecomputeFastestPerfect}
+                            disabled={rbBusy}
+                            title="Ponovno izgradi Rekordi zapis najbržeg savršenog kruga (koristi nakon brisanja rezultata)"
+                            className="bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                        >
+                            Rekonstruiraj rekorde
+                        </button>
+                        <button
+                            type="button"
+                            onClick={handleRecomputeRekordiSummary}
+                            disabled={rsBusy}
+                            title="Ponovno izgradi Rekordi sažetak (razina/niz/trofeji/najbolji rezultat) skeniranjem svih profila i ljestvica"
+                            className="bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                        >
+                            Rekonstruiraj sažetak
+                        </button>
+                    </div>
                 </div>
                 <p className="text-slate-400 text-sm mb-4">
                     Pregledajte i brišite rezultate na ljestvici po kategoriji - uključujući sve rezultate, ne samo top 10 prikazan igračima.
@@ -232,6 +264,11 @@ export default function AdminLeaderboardsProfiles() {
                 {rbMessage && (
                     <div className={`text-sm rounded-lg p-3 mb-4 ${rbMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
                         {rbMessage.text}
+                    </div>
+                )}
+                {rsMessage && (
+                    <div className={`text-sm rounded-lg p-3 mb-4 ${rsMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
+                        {rsMessage.text}
                     </div>
                 )}
 

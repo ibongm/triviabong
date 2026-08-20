@@ -72,8 +72,7 @@ import {
   syncUserStatsToFirestore,
   syncPublicProfile,
   getLeaderboardFromFirestore,
-  getPublicProfileLeaderboard,
-  getBestScoresAcrossCategories,
+  getRekordiSummary,
   getFastestPerfectRounds,
   logQuestionAttempt,
   logGameResult,
@@ -251,12 +250,10 @@ export default function App() {
     setEconomyV2BannerDismissed(true);
   };
   // Fetched once on app mount (not re-fetched on every LOBBY visit within
-  // the same session - getFastestPerfectRounds/getBestScoresAcrossCategories
-  // read every category's leaderboard, so refetching constantly would be
-  // wasteful) and refreshed after a score save so a player's own new record
-  // shows up promptly. Powers both the compact lobby preview and the full
-  // RekordiModal, which is why the fetch can't be deferred until the modal
-  // actually opens.
+  // the same session - see refreshRekordiData's comment) and refreshed
+  // after a score save so a player's own new record shows up promptly.
+  // Powers both the compact lobby preview and the full RekordiModal, which
+  // is why the fetch can't be deferred until the modal actually opens.
   const [rekordiData, setRekordiData] = useState(null);
 
   const [currentUser, setCurrentUser] = useState(null);
@@ -469,8 +466,11 @@ export default function App() {
 
   // force=true (score-save call site) always re-fetches and refreshes the
   // cache; force=false (mount effect) serves the cached result within
-  // REKORDI_CACHE_TTL_MS instead of re-running all 6 Firestore calls on
-  // every single page load - see rekordiCache.js.
+  // REKORDI_CACHE_TTL_MS instead of re-fetching on every single page load -
+  // see rekordiCache.js. The fetch itself is now 2 bounded reads (one
+  // maintained doc each for the 5 profile/score boards, one for
+  // fastestPerfect) rather than the 6-query, up-to-121-read fan-out this
+  // replaced - see getRekordiSummary's comment in services/firebase.js.
   const refreshRekordiData = async (force = false) => {
     if (!force) {
       const cached = loadCachedRekordi();
@@ -479,15 +479,11 @@ export default function App() {
         return;
       }
     }
-    const [level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak] = await Promise.all([
-      getPublicProfileLeaderboard('level', 10),
-      getBestScoresAcrossCategories(10),
-      getFastestPerfectRounds(10),
-      getPublicProfileLeaderboard('maxStreak', 10),
-      getPublicProfileLeaderboard('achievementCount', 10),
-      getPublicProfileLeaderboard('dayStreak', 10)
+    const [summary, fastestPerfect] = await Promise.all([
+      getRekordiSummary(),
+      getFastestPerfectRounds(10)
     ]);
-    const data = { level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak };
+    const data = { ...summary, fastestPerfect };
     setRekordiData(data);
     saveCachedRekordi(data);
   };

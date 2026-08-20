@@ -372,6 +372,26 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    // Maintained top-10 boards for the Rekordi lobby view (level, maxStreak,
+    // achievementCount, dayStreak, bestScore) - kept current incrementally
+    // by maybeUpdateRekordiProfileBoards (on every publicProfiles sync) and
+    // maybeUpdateRekordiBestScore (on every score save), same pattern as
+    // records/fastestPerfect above. Lets every client read one bounded doc
+    // instead of the 6-query, up-to-121-read fan-out this replaced.
+    match /records/rekordiSummary {
+      allow read: if true;
+
+      allow create, update: if request.resource.data.keys().hasOnly(
+          ['level', 'maxStreak', 'achievementCount', 'dayStreak', 'bestScore', 'updatedAt'])
+        && (!('level' in request.resource.data) || (request.resource.data.level is list && request.resource.data.level.size() <= 10))
+        && (!('maxStreak' in request.resource.data) || (request.resource.data.maxStreak is list && request.resource.data.maxStreak.size() <= 10))
+        && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is list && request.resource.data.achievementCount.size() <= 10))
+        && (!('dayStreak' in request.resource.data) || (request.resource.data.dayStreak is list && request.resource.data.dayStreak.size() <= 10))
+        && (!('bestScore' in request.resource.data) || (request.resource.data.bestScore is list && request.resource.data.bestScore.size() <= 10));
+
+      allow delete: if isAdmin();
+    }
+
     // Daily Challenge: one free attempt/day per uid, tracked so a client
     // can't submit more than once to dailyLeaderboards. Doc id is
     // "{date}_{uid}" (date = Europe/Zagreb YYYY-MM-DD), create-once - there
