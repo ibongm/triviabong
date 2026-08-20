@@ -1,5 +1,20 @@
 # Changelog
 
+### [2026-08-20] - Cache Admin Overview insights to stop unbounded per-reload Firestore reads
+- **Files Changed**:
+  - `src/utils/adminOverviewCache.js` (Created)
+  - `src/components/admin/AdminOverview.jsx` (Modified)
+- **Details**:
+  - Traced a ~46k Firestore read spike to a debugging session's handful of full page reloads, each of which opened the Admin Panel's default "Pregled" tab. `AdminOverview.jsx` calls `getAllQuestionAttempts()`/`getAllGameResults()` on mount, and both are unbounded `getDocs(collection(...))` scans (`firebase.js:381-399`) - one doc per question ever answered / game ever played, across all players. The only cache in front of them, `adminDataCache.js`, is a module-level in-memory `Map` that's wiped on every full page reload, so each reload re-ran both full-collection scans from scratch.
+  - Added `adminOverviewCache.js`, a `localStorage`-backed 15-minute TTL cache mirroring `rekordiCache.js`'s pattern (same "45k reads" failure shape as that fix, see entry below) - but caching the *computed* `{ popularity, accuracy }` summary rather than the raw `attempts`/`results` arrays, since the summary is bounded by question/category count (~1492 questions, 8 categories) while the raw collections grow forever. `AdminOverview.jsx` now checks this cache before touching Firestore at all; a hit skips `getAllQuestionAttempts`/`getAllGameResults`/`getAllCategoryPacks` entirely. The existing in-memory cache is untouched and still handles same-page-load tab-switch reuse; "🔄 Osvježi" bypasses both.
+
+### [2026-08-20] - Note confirm-dialog blocking behavior on the Rekordi summary rebuild button
+- **Files Changed**:
+  - `src/components/admin/AdminLeaderboardsProfiles.jsx` (Modified, comment only)
+- **Details**:
+  - Investigated a report of the Rekordi boards being mostly empty on production: caused by the same-day `records/rekordiSummary` migration (see entry below) never being backfilled, not a code bug. Fixed live by running the existing "Rekonstruiraj sažetak" admin button.
+  - While doing that fix via browser automation, the button's `window.confirm()` call froze the page (and the attached CDP session) until a human manually clicked through the native dialog - twice, since two rebuild attempts were needed. Added a comment on `handleRecomputeRekordiSummary` noting this blocking behavior for future admin/automation use.
+
 ### [2026-08-20] - Move Rekordi leaderboards to a shared server-side maintained doc
 - **Files Changed**:
   - `firestore.rules` (Modified)

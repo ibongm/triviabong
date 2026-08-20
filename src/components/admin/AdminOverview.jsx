@@ -1,22 +1,30 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getAllQuestionAttempts, getAllGameResults } from '../../services/firebase';
 import { summarizeQuestionAccuracy, summarizeCategoryPopularity } from '../../utils/gameplayInsights';
 import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 import { getCachedAdminData, setCachedAdminData, clearCachedAdminData } from '../../utils/adminDataCache';
+import { loadCachedAdminOverview, saveCachedAdminOverview } from '../../utils/adminOverviewCache';
 
 const CACHE_KEY = 'overview';
 
 export default function AdminOverview() {
     const cached = getCachedAdminData(CACHE_KEY);
-    const [attempts, setAttempts] = useState(cached?.attempts ?? []);
-    const [results, setResults] = useState(cached?.results ?? []);
-    const [questionText, setQuestionText] = useState(cached?.questionText ?? {});
-    const [loading, setLoading] = useState(!cached);
+    // Read (and, on a hit, mirror into the in-memory cache) synchronously
+    // during render rather than in the effect below, so a cache hit never
+    // needs a setState call inside the effect - see that effect's comment.
+    const localCached = !cached ? loadCachedAdminOverview() : null;
+    if (localCached && !cached) setCachedAdminData(CACHE_KEY, localCached);
+    const initialData = cached ?? localCached;
+    const [popularity, setPopularity] = useState(initialData?.popularity ?? []);
+    const [accuracy, setAccuracy] = useState(initialData?.accuracy ?? []);
+    const [loading, setLoading] = useState(!initialData);
 
-    const fetchData = async (cancelledRef) => {
-        const [a, r, packs] = await Promise.all([getAllQuestionAttempts(), getAllGameResults(), getAllCategoryPacks()]);
-        if (cancelledRef?.current) return;
+    // Computes the summarized (bounded) accuracy/popularity from the raw
+    // fetch, stores it in both caches, and updates state - kept separate
+    // from fetchData so a localStorage cache hit can populate state without
+    // ever calling Firestore.
+    const computeAndStore = (attempts, results, packs) => {
         // id -> question text, built from the raw per-category packs (not
         // getAllQuestions(), which dedupes by normalized text and could drop
         // an id if another category's question happens to read identically).
@@ -26,22 +34,39 @@ export default function AdminOverview() {
                 map[q.id] = q.question;
             }
         }
-        setAttempts(a);
-        setResults(r);
-        setQuestionText(map);
+        const acc = summarizeQuestionAccuracy(attempts, map);
+        const pop = summarizeCategoryPopularity(results);
+        setAccuracy(acc);
+        setPopularity(pop);
         setLoading(false);
-        setCachedAdminData(CACHE_KEY, { attempts: a, results: r, questionText: map });
+        setCachedAdminData(CACHE_KEY, { popularity: pop, accuracy: acc });
+        saveCachedAdminOverview({ popularity: pop, accuracy: acc });
+    };
+
+    const fetchData = async (cancelledRef) => {
+        const [a, r, packs] = await Promise.all([getAllQuestionAttempts(), getAllGameResults(), getAllCategoryPacks()]);
+        if (cancelledRef?.current) return;
+        computeAndStore(a, r, packs);
     };
 
     useEffect(() => {
-        // Skip the re-fetch entirely if this section was already loaded once
-        // this admin session - AdminPanel unmounts/remounts sections on every
-        // tab switch, so without this a revisit re-scans questionAttempts/
-        // gameResults from scratch every time.
-        if (getCachedAdminData(CACHE_KEY)) return;
+        // Skip the fetch entirely if this section was already loaded once
+        // this admin session (in-memory cache) or within the last 15 minutes
+        // on this device (localStorage cache) - both already seeded this
+        // component's initial state above, so there's nothing left to do
+        // here. AdminPanel unmounts/remounts sections on every tab switch,
+        // and questionAttempts/gameResults are unbounded, ever-growing
+        // collections (one doc per question answered / game played, across
+        // all players), so without these two caches every revisit - whether
+        // a tab switch or a full page reload - would re-scan both
+        // collections from scratch. A single debugging session with a
+        // handful of page reloads drove a ~46k read spike this way; see
+        // CHANGELOG.md's 2026-08-20 admin-overview entry.
+        if (initialData) return;
         const cancelledRef = { current: false };
         fetchData(cancelledRef);
         return () => { cancelledRef.current = true; };
+        // eslint-disable-next-line react-hooks/exhaustive-deps -- run once on mount only, mirroring the pre-existing effect this replaces
     }, []);
 
     const handleRefresh = () => {
@@ -49,9 +74,6 @@ export default function AdminOverview() {
         setLoading(true);
         fetchData();
     };
-
-    const accuracy = useMemo(() => summarizeQuestionAccuracy(attempts, questionText), [attempts, questionText]);
-    const popularity = useMemo(() => summarizeCategoryPopularity(results), [results]);
 
     const categoryLabel = (key) => CATEGORY_META[key]?.label || key;
 

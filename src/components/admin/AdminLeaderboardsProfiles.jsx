@@ -114,6 +114,10 @@ export default function AdminLeaderboardsProfiles() {
 
     const handleRecomputeRekordiSummary = async () => {
         if (rsBusy) return;
+        // window.confirm blocks the page (and any CDP/browser-automation session
+        // attached to it) until a human dismisses it - if this is ever driven by
+        // an automated admin script, that call will hang until someone clicks
+        // through the native dialog by hand.
         if (!window.confirm('Ponovno izgraditi Rekordi sažetak (razina/niz/trofeji/najbolji rezultat) skeniranjem svih profila i ljestvica? Koristite ovo samo ako su te ljestvice zastarjele nakon izravne izmjene igrača ili "Popuni sve profile".')) return;
 
         setRsBusy(true);
