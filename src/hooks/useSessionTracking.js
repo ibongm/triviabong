@@ -2,17 +2,25 @@ import { useEffect, useRef } from 'react';
 import { startSession, heartbeatSession } from '../services/firebase';
 
 const HEARTBEAT_INTERVAL_MS = 90000;
+// Generous slack over the heartbeat cadence: a normal flush (90s heartbeat,
+// gameState change, or visibility toggle) is never clamped, but a
+// multi-hour OS-sleep/backgrounded-but-visible gap gets truncated instead of
+// fully credited as active time.
+const MAX_FLUSH_SECONDS = 300;
 
 // Admin-only time-tracking instrumentation (beta insights) - accumulates
 // wall-clock time spent in each gameState for the current browser session
 // and flushes the full snapshot to Firestore every 90s, pausing while the
 // tab is backgrounded (Page Visibility API) so an abandoned open tab doesn't
-// inflate the numbers. Signed-in users only - see startSession's comment
-// (services/firebase.js) for why anonymous play is out of scope. There's no
-// reliable "session end"/unload event in a browser (especially on mobile),
-// so this relies entirely on periodic heartbeats rather than a final write
-// on unmount - a session that never gets a second heartbeat just reads as a
-// short one later, an acceptable failure mode at beta scale.
+// inflate the numbers. Each flush is capped at MAX_FLUSH_SECONDS so a gap
+// visibilitychange doesn't catch (e.g. OS sleep/suspend while the tab stays
+// "visible") can't get credited in full. Signed-in users only - see
+// startSession's comment (services/firebase.js) for why anonymous play is
+// out of scope. There's no reliable "session end"/unload event in a browser
+// (especially on mobile), so this relies entirely on periodic heartbeats
+// rather than a final write on unmount - a session that never gets a second
+// heartbeat just reads as a short one later, an acceptable failure mode at
+// beta scale.
 export const useSessionTracking = (uid, gameState) => {
     const sessionIdRef = useRef(null);
     const secondsRef = useRef({});
@@ -26,7 +34,7 @@ export const useSessionTracking = (uid, gameState) => {
     const flushElapsed = () => {
         if (activeSinceRef.current === null) return;
         const now = Date.now();
-        const elapsedSeconds = (now - activeSinceRef.current) / 1000;
+        const elapsedSeconds = Math.min((now - activeSinceRef.current) / 1000, MAX_FLUSH_SECONDS);
         const state = gameStateRef.current;
         secondsRef.current[state] = (secondsRef.current[state] || 0) + elapsedSeconds;
         activeSinceRef.current = now;

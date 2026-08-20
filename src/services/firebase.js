@@ -67,7 +67,10 @@ export const loginWithGoogle = async () => {
 };
 
 /**
- * Syncs player profile metadata to Firestore on login
+ * Syncs player profile metadata to Firestore. Called on every auth-state
+ * resolution (explicit login AND a restored/persisted session on page load,
+ * via App.jsx's onAuthStateChanged) so lastLogin reflects actual last visit,
+ * not just the last time the sign-in button was clicked.
  */
 export const syncUserProfile = async (user) => {
     if (!user) return;

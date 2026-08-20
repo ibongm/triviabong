@@ -1,5 +1,15 @@
 # Changelog
 
+### [2026-08-20] - Fix stale "Zadnja aktivnost" and inflated "Vrijeme igre" in admin panel
+- **Files Changed**:
+  - `src/App.jsx` (Modified)
+  - `src/services/firebase.js` (Modified)
+  - `src/hooks/useSessionTracking.js` (Modified)
+- **Details**:
+  - `lastLogin` (the field behind AdminPlayers.jsx's "Zadnja aktivnost" column) was only ever written by `syncUserProfile()` from explicit interactive sign-in flows, so a returning player whose Firebase Auth session simply persisted across visits never got it refreshed - the column effectively showed "date of last login-button click," not last activity. `App.jsx`'s `onAuthStateChanged` handler now also calls `syncUserProfile(user)` for a restored/persisted session, not just explicit login, so `lastLogin` reflects the actual last visit.
+  - `useSessionTracking.js`'s `flushElapsed()` credited elapsed wall-clock time to the current gameState bucket with no ceiling, so a gap `visibilitychange` didn't catch (e.g. OS sleep/suspend while the tab stayed "visible") got fully credited as active playtime on the next flush - a plausible source of implausible "Vrijeme igre" totals like "17h 46min". Added a `MAX_FLUSH_SECONDS = 300` clamp in `flushElapsed()` so a normal 90s-cadence flush is unaffected while a multi-hour gap gets truncated instead of fully credited.
+  - Verified: existing traces of both root causes confirmed against current code (exact line numbers checked directly, not just from a prior transcript); manual verification plan documented (Firestore emulator session-restore check for `lastLogin`, `golden-path.mjs` regression check for normal-session `gameStateSeconds` totals).
+
 ### [2026-08-17] - Reduce Firestore read quota: presence heartbeat, 1v1 match heartbeat, admin panel caching
 - **Files Changed**:
   - `src/hooks/usePresence.js` (Modified)

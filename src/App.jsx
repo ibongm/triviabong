@@ -67,6 +67,7 @@ import {
   auth,
   logoutUser,
   getUserStatsFromFirestore,
+  syncUserProfile,
   syncUserStatsToFirestore,
   syncPublicProfile,
   getLeaderboardFromFirestore,
@@ -369,6 +370,7 @@ export default function App() {
 
       if (user) {
         if (user.displayName) setNickname(user.displayName);
+        syncUserProfile(user); // refresh lastLogin on restored sessions too, not just explicit logins
         const cloudStats = await getUserStatsFromFirestore(user.uid);
 
         // If another auth event fired while we were fetching, this
