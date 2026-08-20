@@ -27,6 +27,7 @@ import { mergeMonotonicStats } from './utils/statsMerge';
 import { loadStats, saveStats, migrateStats, getStorageKey } from './services/statsStore';
 import { sound } from './utils/sound';
 import { sanitizeDisplayName } from './utils/publicProfile';
+import { loadCachedRekordi, saveCachedRekordi } from './utils/rekordiCache';
 // Lazily loaded: each is rendered unconditionally in JSX but self-gates via
 // an `isOpen` prop, so the surrounding render call is also changed to
 // {showX && (<Suspense><LazyX/></Suspense>)} - without that, React would
@@ -466,7 +467,18 @@ export default function App() {
     return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
 
-  const refreshRekordiData = async () => {
+  // force=true (score-save call site) always re-fetches and refreshes the
+  // cache; force=false (mount effect) serves the cached result within
+  // REKORDI_CACHE_TTL_MS instead of re-running all 6 Firestore calls on
+  // every single page load - see rekordiCache.js.
+  const refreshRekordiData = async (force = false) => {
+    if (!force) {
+      const cached = loadCachedRekordi();
+      if (cached) {
+        setRekordiData(cached);
+        return;
+      }
+    }
     const [level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak] = await Promise.all([
       getPublicProfileLeaderboard('level', 10),
       getBestScoresAcrossCategories(10),
@@ -475,7 +487,9 @@ export default function App() {
       getPublicProfileLeaderboard('achievementCount', 10),
       getPublicProfileLeaderboard('dayStreak', 10)
     ]);
-    setRekordiData({ level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak });
+    const data = { level, bestScore, fastestPerfect, maxStreak, achievementCount, dayStreak };
+    setRekordiData(data);
+    saveCachedRekordi(data);
   };
 
   // Score-saving state/logic - see useScoreSaving.js. Does not own

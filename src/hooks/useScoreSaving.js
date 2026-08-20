@@ -113,7 +113,7 @@ export function useScoreSaving({
             if (!success) throw new Error('Firestore save failed');
             setScoreSaved(true);
             sound.playClick();
-            refreshRekordiData();
+            refreshRekordiData(true); // bypass the cache so the just-saved score shows up now
             if (currentUser?.uid) {
                 const isNewPersonalBest = previousBest === null || score > previousBest;
                 const board = await getLeaderboardFromFirestore(catKey);

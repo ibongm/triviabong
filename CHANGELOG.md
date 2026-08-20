@@ -1,5 +1,15 @@
 # Changelog
 
+### [2026-08-20] - Cache Rekordi data to stop unbounded per-pageview Firestore reads
+- **Files Changed**:
+  - `src/utils/rekordiCache.js` (Created)
+  - `src/App.jsx` (Modified)
+  - `src/hooks/useScoreSaving.js` (Modified)
+- **Details**:
+  - Cloud Monitoring showed 45,238 Firestore document reads in a 3-hour window (~90% of the Spark plan's daily 50k budget), in isolated bursts unrelated to any deploy. Traced to `refreshRekordiData()` in `App.jsx`, which fired 6 parallel Firestore calls (worst case ~121 document reads, dominated by `getBestScoresAcrossCategories`'s 8-way per-category fan-out) unconditionally on every single page load, with no caching - so its cost scaled with raw pageviews, making it cheap for a bot/reload-loop to exhaust the whole daily quota.
+  - Added `rekordiCache.js`, a 15-minute localStorage TTL cache (`loadCachedRekordi`/`saveCachedRekordi`). `refreshRekordiData` now takes a `force` param: the on-mount call (`force=false`, default) serves the cached result within the TTL window instead of re-fetching; `useScoreSaving.js`'s post-save call (`force=true`) always bypasses the cache so the player's own just-saved score shows up immediately, and its fresh fetch also refreshes the cache for subsequent visitors.
+  - No Firestore schema/rules changes - pure client-side change. `RekordiBoards.jsx` already treats the data as safe to reuse across visits per its own existing comment, so this doesn't change its freshness contract, only extends it across page reloads.
+
 ### [2026-08-20] - Show Danas/Tjedan/Ukupno play-time columns in admin player list
 - **Files Changed**:
   - `src/utils/sessionStats.js` (Modified)
