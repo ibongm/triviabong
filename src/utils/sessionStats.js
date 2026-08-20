@@ -56,15 +56,17 @@ export const summarizeSessionsByPeriod = (sessions, period, now = new Date()) =>
 };
 
 /**
- * Sums total time-in-app across ALL sessions, grouped by owning uid -
- * powers the "Vrijeme igre" player-list column (all-time total; the
- * per-player Daily/Weekly toggle lives in AdminPlayerDetail instead, since
- * a list column can only show one number).
+ * Sums total time-in-app across sessions in the given period, grouped by
+ * owning uid - powers AdminPlayers.jsx's Danas/Tjedan/Ukupno list columns
+ * (period defaults to 'all' for the all-time total). Filters with the same
+ * isInPeriod scoping summarizeSessionsByPeriod uses, so a player's daily
+ * total is always <= their weekly total <= their all-time total.
  */
-export const sumSessionsByUid = (sessions) => {
+export const sumSessionsByUid = (sessions, period = 'all', now = new Date()) => {
     const byUid = {};
     for (const session of sessions || []) {
         if (!session.uid) continue;
+        if (!isInPeriod(toDate(session.startedAt), period, now)) continue;
         byUid[session.uid] = (byUid[session.uid] || 0) + totalSessionSeconds(session);
     }
     return byUid;

@@ -28,7 +28,9 @@ const COLUMNS = [
     { key: 'xp', label: 'XP' },
     { key: 'coins', label: 'Novčići' },
     { key: 'trophyCount', label: 'Trofeji' },
-    { key: 'totalTimeSeconds', label: 'Vrijeme igre' },
+    { key: 'dailyTimeSeconds', label: 'Danas' },
+    { key: 'weeklyTimeSeconds', label: 'Tjedan' },
+    { key: 'totalTimeSeconds', label: 'Ukupno vrijeme' },
     { key: 'lastActiveMs', label: 'Zadnja aktivnost' },
     { key: 'role', label: 'Uloga' },
 ];
@@ -66,12 +68,16 @@ export default function AdminPlayers() {
         setCachedAdminData(USERS_CACHE_KEY, userList);
     };
 
-    // Powers the "Vrijeme igre" column - all-time total across every
-    // session, grouped by uid. The per-player Daily/Weekly toggle lives in
-    // AdminPlayerDetail instead, since a list column can only show one number.
+    // Powers the Danas/Tjedan/Ukupno columns - one getAllSessions() fetch,
+    // filtered three ways in-memory (no extra Firestore reads) via
+    // sumSessionsByUid's period arg, grouped by uid.
     const fetchTotalTime = async () => {
         const sessions = await getAllSessions();
-        const totals = sumSessionsByUid(sessions);
+        const totals = {
+            daily: sumSessionsByUid(sessions, 'daily'),
+            weekly: sumSessionsByUid(sessions, 'weekly'),
+            all: sumSessionsByUid(sessions, 'all'),
+        };
         setTotalTimeByUid(totals);
         setCachedAdminData(SESSIONS_CACHE_KEY, totals);
     };
@@ -109,7 +115,9 @@ export default function AdminPlayers() {
         const rows = users.map((u) => ({
             ...u,
             trophyCount: Object.keys(u.unlockedAchievements || {}).length,
-            totalTimeSeconds: totalTimeByUid[u.uid] || 0,
+            dailyTimeSeconds: totalTimeByUid.daily?.[u.uid] || 0,
+            weeklyTimeSeconds: totalTimeByUid.weekly?.[u.uid] || 0,
+            totalTimeSeconds: totalTimeByUid.all?.[u.uid] || 0,
             lastActiveMs: toMillis(u.lastLogin),
         }));
         rows.sort((a, b) => {
@@ -339,6 +347,8 @@ export default function AdminPlayers() {
                                     <td className="py-3 px-2 text-slate-300">{u.xp || 0}</td>
                                     <td className="py-3 px-2 text-yellow-400 font-semibold">{u.coins || 0}</td>
                                     <td className="py-3 px-2 text-slate-300">{u.trophyCount}</td>
+                                    <td className="py-3 px-2 text-slate-300">{formatDuration(u.dailyTimeSeconds)}</td>
+                                    <td className="py-3 px-2 text-slate-300">{formatDuration(u.weeklyTimeSeconds)}</td>
                                     <td className="py-3 px-2 text-slate-300">{formatDuration(u.totalTimeSeconds)}</td>
                                     <td className="py-3 px-2 text-slate-400 text-xs">
                                         {u.lastActiveMs ? new Date(u.lastActiveMs).toLocaleDateString() : '—'}

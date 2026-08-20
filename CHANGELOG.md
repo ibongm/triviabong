@@ -1,5 +1,13 @@
 # Changelog
 
+### [2026-08-20] - Show Danas/Tjedan/Ukupno play-time columns in admin player list
+- **Files Changed**:
+  - `src/utils/sessionStats.js` (Modified)
+  - `src/components/admin/AdminPlayers.jsx` (Modified)
+- **Details**:
+  - `sumSessionsByUid` now accepts an optional `period` arg (`'daily' | 'weekly' | 'all'`, defaulting to `'all'` for backward compatibility) and filters with the same `isInPeriod` scoping `summarizeSessionsByPeriod` already used for the per-player Daily/Weekly toggle in `AdminPlayerDetail.jsx`.
+  - `AdminPlayers.jsx`'s single all-time "Vrijeme igre" column is now three sortable columns - "Danas", "Tjedan", "Ukupno vrijeme" - computed from the same one `getAllSessions()` fetch filtered three ways in-memory, so no additional Firestore reads. Each new column reuses the existing generic click-to-sort/ascending-descending mechanism (`COLUMNS`/`handleSort`/`sortedUsers`) with no changes to that logic.
+
 ### [2026-08-20] - Fix stale "Zadnja aktivnost" and inflated "Vrijeme igre" in admin panel
 - **Files Changed**:
   - `src/App.jsx` (Modified)
