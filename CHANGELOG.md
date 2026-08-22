@@ -1,5 +1,17 @@
 # Changelog
 
+### [2026-08-22] - Feed 1v1 duels into the admin content-insights
+- **Files Changed**:
+  - `src/components/MatchView.jsx` (Modified)
+- **Details**:
+  - 1v1 was **entirely invisible** to the admin Pregled: `logQuestionAttempt`/`logGameResult` were only ever called from `App.jsx`'s solo round path, so duel category choices never reached Popularnost Kategorija and no duel answer ever reached Preciznost Pitanja. Found by playing three production duels (Geografija/Sport/Glazba) and observing `categoryStats` unchanged when read live from Firestore.
+  - `MatchView` now logs its own side on both paths: answered questions from `handleAnswer`, and **timed-out questions from the reveal effect**. The timeout case matters - without it 1v1 accuracy would be systematically inflated on exactly the hard questions players give up on, which is the signal that table exists to surface. A new `attemptLoggedGuardRef` keeps the two paths (and re-renders) from double-logging one question.
+  - Each client logs only its own side, so a duel counts as **two plays and two attempts per question** - correct, since two players really did choose that category and answer that question, and it keeps `avgScore` a per-player figure.
+  - Attributes each attempt to the **question's own** `category`, not the match category - same reasoning as solo, since Opće znanje is an aggregate pool.
+  - `questionsAnswered`/`correctAnswers` are deliberately omitted from `logGameResult`: a match runs up to 11 questions (0-9 plus sudden death) but `firestore.rules` caps both at 10, so sending them would get the whole write **rejected**. Both are optional in that rule and unused by the insights tables. Score is clamped to the same 0-10000 ceiling the rules enforce.
+  - Caveat: duel wins now blend into Popularnost Kategorija's "Postotak pobjeda" alongside solo victories, which mean different things (finishing a round vs beating an opponent). Accuracy and plays are unaffected.
+  - Verified on the emulator from empty counters, with no solo rounds played: one duel produced `categoryStats/geografija` **plays=2, totalScore=2640** (= the reported 1320 x 2), **victories=0** (it was a draw), and **11 questionStats docs / 22 attempts** (11 questions x 2 players) with **0** `wrong == total - correct` violations. 186 unit tests pass; no new lint problems.
+
 ### [2026-08-22] - Rebuild play-time history from sessions (repairs the admin Danas/Tjedan/Ukupno columns)
 - **Files Changed**:
   - `src/utils/sessionStats.js` (Modified)

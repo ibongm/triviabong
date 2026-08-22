@@ -18,6 +18,7 @@ import {
     forfeitMatch,
     heartbeatMatch,
 } from '../services/matches';
+import { logQuestionAttempt, logGameResult } from '../services/firebase';
 import { sound } from '../utils/sound';
 
 const HEARTBEAT_INTERVAL_MS = 15000;
@@ -39,6 +40,10 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
     const advanceGuardRef = useRef(null); // last index we already tried to advance from
     const finishGuardRef = useRef(false);
     const matchOverHandledRef = useRef(false);
+    // Last question index already logged to questionAttempts by THIS client -
+    // stops the answered path and the timed-out path both firing for one
+    // question, and stops re-renders re-logging it.
+    const attemptLoggedGuardRef = useRef(null);
     const startGuardRef = useRef(false); // already tried to fire countdown -> question_active
 
     useEffect(() => {
@@ -87,6 +92,25 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
     const questionIds = match?.questionIds;
     const category = match?.category;
+
+    // Logs one duel answer to questionAttempts (and so to the questionStats
+    // counters the admin Pregled reads). Declared here, above the effects that
+    // call it, so it isn't referenced before initialization.
+    //
+    // Uses the QUESTION's own category, not the match category, for the same
+    // reason solo does: Opće znanje is an aggregate pool, so the deck a player
+    // picked isn't necessarily where the question came from.
+    // Fire-and-forget - logQuestionAttempt never throws.
+    const logMatchQuestionAttempt = (question, correct, secondsLeft) => {
+        if (!question?.id || !myUid) return;
+        logQuestionAttempt({
+            uid: myUid,
+            questionId: question.id,
+            categoryId: question.category || category || 'opca_znanje',
+            correct,
+            timeLeft: Math.max(0, Math.min(Math.round(secondsLeft || 0), QUESTION_TIME_SECONDS)),
+        });
+    };
     // resolveMatchQuestions is async (question JSON now lazy-loads - see
     // questionsLoader.js), so this can no longer be a render-path useMemo.
     // questionIds/category are immutable for a match's whole lifetime
@@ -187,10 +211,24 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         if (!match || match.status !== 'question_active') return;
         const bothAnswered = match.player1Answer && match.player2Answer;
         if (!bothAnswered && timeLeft > 0) return;
+
+        // A question this player let time out is logged here as an incorrect
+        // attempt, mirroring solo's handleAnswerTimeout. Without it 1v1
+        // accuracy would be systematically inflated on exactly the hard
+        // questions - the ones players give up on rather than guess - which is
+        // the signal the admin Preciznost Pitanja table exists to surface.
+        // Answered questions are logged in handleAnswer instead; myAnswer is
+        // set in that case, so the two paths can't both fire for one question.
+        if (!myAnswer && attemptLoggedGuardRef.current !== match.currentQuestionIndex) {
+            attemptLoggedGuardRef.current = match.currentQuestionIndex;
+            logMatchQuestionAttempt(currentQuestion, false, 0);
+        }
+
         if (revealGuardRef.current === match.currentQuestionIndex) return;
         revealGuardRef.current = match.currentQuestionIndex;
         revealMatchQuestion(matchId);
-    }, [match, matchId, timeLeft]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps -- logMatchQuestionAttempt/currentQuestion are read through refs+derived state; adding them would re-run the reveal on every render
+    }, [match, matchId, timeLeft, myAnswer]);
 
     // ---- Reveal phase: 3-second delay before advancing to next question ----
     useEffect(() => {
@@ -234,6 +272,27 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         matchOverHandledRef.current = true;
 
         const result = match.winnerUid === null ? 'draw' : (match.winnerUid === myUid ? 'win' : 'loss');
+
+        // Feed the admin content-insights. Until now 1v1 was invisible there:
+        // logGameResult/logQuestionAttempt were only ever called from App.jsx's
+        // solo round path, so duel category choices never reached Popularnost
+        // Kategorija and duel answers never reached Preciznost Pitanja.
+        //
+        // Each client logs its own side, so a duel counts as two plays - one per
+        // player - consistent with solo, where one player's round is one play,
+        // and it keeps avgScore a per-player figure.
+        //
+        // questionsAnswered/correctAnswers are deliberately omitted: a match runs
+        // up to 11 questions (0-9 plus sudden death) but firestore.rules caps
+        // both fields at 10, so sending them would get the whole write rejected.
+        // They're optional in that rule and unused by the insights tables.
+        // Score is clamped to the same 0-10000 ceiling the rules enforce.
+        logGameResult({
+            uid: myUid,
+            outcome: result === 'win' ? 'VICTORY' : 'GAMEOVER',
+            category: match.category,
+            score: Math.max(0, Math.min(Math.round(myScore || 0), 10000)),
+        });
         if (result === 'win') {
             sound.playCorrect();
             confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
@@ -269,6 +328,12 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
         if (myAnswer || timeLeft <= 0 || match.status !== 'question_active') return;
         const isCorrect = isMatchAnswerCorrect(matchId, currentQuestion, optionIndex);
         sound.playClick();
+
+        // Feed the admin content-insights, same as solo's handleAnswer. Each
+        // client logs only its OWN answer, so a duel contributes two attempts
+        // per question - which is correct: two players really did answer it.
+        attemptLoggedGuardRef.current = match.currentQuestionIndex;
+        logMatchQuestionAttempt(currentQuestion, isCorrect, timeLeft);
 
         if (isCorrect) {
             sound.playCorrect();
