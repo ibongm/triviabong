@@ -1,5 +1,26 @@
 # Changelog
 
+### [2026-08-22] - Filter presence reads, move play-time onto user docs, TTL the transient collections
+- **Files Changed**:
+  - `src/services/firebase.js` (Modified)
+  - `src/hooks/useSessionTracking.js` (Modified)
+  - `src/utils/sessionStats.js` (Modified)
+  - `src/utils/sessionStats.test.js` (Modified)
+  - `src/components/admin/AdminPlayers.jsx` (Modified)
+  - `src/App.jsx` (Modified)
+  - `firestore.rules` (Modified)
+  - `scripts/firestore-rules-playtime.test.mjs` (Created)
+- **Details**:
+  - **Presence reads are now filtered server-side.** `subscribeToOnlinePlayers` subscribed to the *unfiltered* `presence` collection and filtered client-side, so every lobby entry paid an initial snapshot over every doc - and because `deletePresence` only runs on explicit logout (there is no reliable unload event), each closed tab leaks a doc permanently: production held 11, of which ~9 were stale, the oldest from the previous evening. Now `where('lastHeartbeat', '>=', now - ONLINE_THRESHOLD_MS)`; single-field range filter, so Firestore's automatic indexes serve it and no `firestore.indexes.json` is needed. The client-side `filterOnlinePlayers` pass stays and stays authoritative - the cutoff is fixed at subscribe time, so players going stale mid-session still need it.
+  - **Correction to an earlier claim in this session:** the presence listener was described as re-reading the whole collection on every change. It doesn't - Firestore bills a listener's initial snapshot plus one read per *changed* document. The cost was the snapshot size, not a repeated full read.
+  - **Play-time moved off the sessions scan.** Added `playTime: { total, days: { 'YYYY-MM-DD': seconds } }` to `users/{uid}`, incremented from `useSessionTracking`'s existing 90s heartbeat via `addPlayTime` (dotted-path `increment()`, so concurrent tabs can't clobber each other). `AdminPlayers` already fetches every user, so the Danas/Tjedan/Ukupno columns now cost **zero extra reads** and `getAllSessions()` - by its own comment the most expensive read in the panel, growing with every session ever - is gone from the admin path. `sessions` and `getSessionsForUser` are **kept**: AdminPlayerDetail still needs the per-gameState breakdown and that query is already uid-scoped.
+  - Day buckets are pruned to `PLAY_TIME_DAYS_KEPT` (9) by `pruneUserPlayTimeDays`, called from the login path that already reads the user doc - so pruning costs no extra read. `all` comes from the running `total`, not a sum of retained buckets, so trimming never rewrites history.
+  - `AdminPlayers` derives the totals with `useMemo` over the already-fetched `users` and a `now` captured in a lazy `useState` initializer. First attempt used an effect + `setState`, which the repo's `react-hooks/set-state-in-effect` rule correctly rejected.
+  - **TTL policies, scoped deliberately narrowly.** Added `expiresAt` to `sessions` (90d) and `presence` (24h, refreshed every heartbeat so an active player never expires). Both `hasOnly` allowlists in `firestore.rules` were extended to permit it. **Deliberately NOT applied to `questionAttempts`/`gameResults`**: those are what `recomputeContentInsightStats()` rebuilds the counters from using absolute `setDoc`, so expiring them would make a later rebuild silently *shrink* the counters rather than merely cap storage - a data-loss footgun, not a saving. Verified in the Cloud console that TTL is available on this project; TTL deletes count against the daily delete quota (20k/day, currently 0 used) and lag up to 24h.
+  - `playTimeDelta` extracted from the hook and unit-tested: session docs hold *cumulative* totals and are rewritten whole each heartbeat, while `playTime` is increment-based, so a heartbeat must send only the new seconds. Sending the cumulative figure would re-add the whole session every 90s - the same inflation class as the flush bug fixed in `a56f6a8`.
+  - `firestore.rules` bounds `playTime.total` as a non-negative int that can only ever increase. Rules cannot validate the delta of a nested map field, so the per-write cap (`MAX_PLAY_TIME_DELTA_SECONDS`) necessarily lives client-side; the rule bounds direction, the client bounds magnitude.
+  - Verification: **178 unit tests** (+19); `scripts/firestore-rules-playtime.test.mjs` (12 assertions - owner may increment, may not decrease/negate/pass a non-int, another player is denied, `role` still protected, `expiresAt` accepted and type-checked on sessions/presence, unknown fields still rejected) and the existing counters suite (21) both green on the emulator; `golden-path.mjs` and `cross-device-sync-check.mjs` both pass against the emulator with **0 console errors** - the latter specifically confirming the new prune call on the login path didn't disturb the cross-device stats race. Emulator docs inspected directly: `sessions.expiresAt` ~90d out, `presence.expiresAt` ~24h out. `playTime` itself is not exercised by the E2E scripts, whose rounds are shorter than the 90s heartbeat - hence the extracted, unit-tested delta helper.
+
 ### [2026-08-22] - Fix /admin 404, bound the Pregled read cost for real, correct the question-count figure
 - **Files Changed**:
   - `vercel.json` (Modified)

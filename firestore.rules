@@ -70,7 +70,21 @@ service cloud.firestore {
             && (!('coins' in request.resource.data) || (request.resource.data.coins is int && request.resource.data.coins >= 0))
             && (!('maxStreak' in request.resource.data) || (request.resource.data.maxStreak is int && request.resource.data.maxStreak >= 0))
             && (!('dayStreak' in request.resource.data) || (request.resource.data.dayStreak is int && request.resource.data.dayStreak >= 0))
-            && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is int && request.resource.data.achievementCount >= 0 && request.resource.data.achievementCount <= 100)));
+            && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is int && request.resource.data.achievementCount >= 0 && request.resource.data.achievementCount <= 100))
+            // playTime: running time-in-app counters (see addPlayTime),
+            // incremented from useSessionTracking's 90s heartbeat so the admin
+            // player list can show Danas/Tjedan/Ukupno without scanning the
+            // sessions collection. Monotonic and non-negative: a client may
+            // only ever add. That bounds tampering to inflation, which the
+            // client also clamps per write (MAX_PLAY_TIME_DELTA_SECONDS) - the
+            // same failure mode the 2026-08-22 session-flush clamp addressed.
+            // Rules can't validate the delta of a nested map field, so the cap
+            // on how MUCH it can grow per write lives client-side by necessity.
+            && (!('playTime' in request.resource.data)
+                || (request.resource.data.playTime.total is int
+                    && request.resource.data.playTime.total >= 0
+                    && (!('playTime' in resource.data)
+                        || request.resource.data.playTime.total >= resource.data.playTime.total))));
 
       allow delete: if isAdmin();
 
@@ -179,9 +193,18 @@ service cloud.firestore {
     // (never deltas/increment()), so there's exactly one writer per doc and
     // no read-modify-write race to worry about here.
     function validSessionShape(data) {
-      return data.keys().hasOnly(['uid', 'startedAt', 'lastHeartbeat', 'gameStateSeconds'])
+      // expiresAt drives the Firestore TTL policy on this collection. Safe to
+      // expire because, since playTime counters moved onto users/{uid}, nothing
+      // aggregates across sessions any more - only AdminPlayerDetail's
+      // uid-scoped query reads them, and only for recent activity.
+      // Deliberately NOT applied to questionAttempts/gameResults: those are the
+      // source recomputeContentInsightStats() rebuilds from with absolute
+      // values, so expiring them would make a later rebuild silently shrink the
+      // counters rather than merely cap storage.
+      return data.keys().hasOnly(['uid', 'startedAt', 'lastHeartbeat', 'gameStateSeconds', 'expiresAt'])
         && data.uid is string
         && data.lastHeartbeat == request.time
+        && (!('expiresAt' in data) || data.expiresAt is timestamp)
         && data.gameStateSeconds is map
         && data.gameStateSeconds.keys().hasOnly(['LOBBY', 'LEADERBOARD', 'PLAYING', 'GAMEOVER', 'VICTORY'])
         && (!('LOBBY' in data.gameStateSeconds) || (data.gameStateSeconds.LOBBY is number && data.gameStateSeconds.LOBBY >= 0 && data.gameStateSeconds.LOBBY <= 86400))
@@ -216,7 +239,13 @@ service cloud.firestore {
     // safer default - loosening this later to allow signed-out visitors is
     // easy, tightening it after launch is not.
     function validPresenceShape(data) {
-      return data.keys().hasOnly(['uid', 'displayName', 'level', 'status', 'lastHeartbeat'])
+      // expiresAt drives a TTL policy that garbage-collects leaked presence
+      // docs. deletePresence only runs on explicit logout, so a closed tab
+      // leaves its doc behind forever; production had 11 docs of which ~9 were
+      // stale. subscribeToOnlinePlayers already filters them out of reads, so
+      // this is storage hygiene rather than a read saving.
+      return data.keys().hasOnly(['uid', 'displayName', 'level', 'status', 'lastHeartbeat', 'expiresAt'])
+        && (!('expiresAt' in data) || data.expiresAt is timestamp)
         && data.uid is string
         && data.displayName is string
         && data.displayName.size() > 0

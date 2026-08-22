@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
-import { startSession, heartbeatSession } from '../services/firebase';
+import { startSession, heartbeatSession, addPlayTime } from '../services/firebase';
+import { playTimeDayKey, playTimeDelta } from '../utils/sessionStats';
 
 const HEARTBEAT_INTERVAL_MS = 90000;
 // Generous slack over the heartbeat cadence: a normal flush (90s heartbeat,
@@ -26,6 +27,12 @@ export const useSessionTracking = (uid, gameState) => {
     const secondsRef = useRef({});
     const activeSinceRef = useRef(null); // null while backgrounded/no session
     const gameStateRef = useRef(gameState);
+    // How much of this session's elapsed time has already been added to the
+    // users/{uid}.playTime running counters. secondsRef holds cumulative
+    // session totals (the session doc is rewritten whole each heartbeat), but
+    // playTime is increment-based, so each write must send only the delta -
+    // otherwise every heartbeat would re-add the entire session so far.
+    const playTimeWrittenRef = useRef(0);
 
     // Credits elapsed time (since activeSinceRef) to the CURRENT gameState
     // bucket, then resets activeSinceRef to "now" if still active. Shared by
@@ -51,6 +58,7 @@ export const useSessionTracking = (uid, gameState) => {
 
         let cancelled = false;
         secondsRef.current = {};
+        playTimeWrittenRef.current = 0;
         activeSinceRef.current = document.visibilityState === 'visible' ? Date.now() : null;
 
         (async () => {
@@ -93,6 +101,16 @@ export const useSessionTracking = (uid, gameState) => {
             flushElapsed();
             if (sessionIdRef.current) {
                 heartbeatSession(sessionIdRef.current, uid, { ...secondsRef.current });
+            }
+            // Mirror the same elapsed time into the users/{uid} running
+            // counters as a delta. Done regardless of sessionIdRef so a failed
+            // startSession doesn't also lose the play-time totals; bucketed by
+            // the day the heartbeat lands on, so a session crossing midnight
+            // splits across days rather than all landing on its start date.
+            const { elapsed, delta } = playTimeDelta(secondsRef.current, playTimeWrittenRef.current);
+            if (delta > 0) {
+                playTimeWrittenRef.current = elapsed;
+                addPlayTime(uid, delta, playTimeDayKey());
             }
         }, HEARTBEAT_INTERVAL_MS);
         return () => clearInterval(interval);

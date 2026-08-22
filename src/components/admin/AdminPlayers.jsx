@@ -1,19 +1,13 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getAllRegisteredUsers, updateUserInFirestore, deleteUserFromFirestore, getAllSessions, resetAllPlayerProgression } from '../../services/firebase';
-import { sumSessionsByUid, formatDuration } from '../../utils/sessionStats';
+import { getAllRegisteredUsers, updateUserInFirestore, deleteUserFromFirestore, resetAllPlayerProgression } from '../../services/firebase';
+import { summarizePlayTimeByUid, formatDuration } from '../../utils/sessionStats';
 import { computeLevelFromXp } from '../../utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, revokeStaleAchievements } from '../../utils/achievements';
 import { ACHIEVEMENTS } from '../../constants/achievements';
 import AdminPlayerDetail from './AdminPlayerDetail';
 import { getCachedAdminData, setCachedAdminData } from '../../utils/adminDataCache';
-import { loadCachedAdminSection, saveCachedAdminSection, clearCachedAdminSection } from '../../utils/adminSectionCache';
 
 const USERS_CACHE_KEY = 'players.users';
-// sessions is the single fastest-growing, most expensive full-collection
-// scan in the admin panel (every heartbeat writes to it - see
-// useSessionTracking.js) - caching it here is the near-term fix; see
-// CHANGELOG.md for the longer-term pagination/aggregation follow-up.
-const SESSIONS_CACHE_KEY = 'players.totalTimeByUid';
 
 const toMillis = (value) => {
     if (!value) return 0;
@@ -44,24 +38,12 @@ export default function AdminPlayers() {
     // the "Zadnja aktivnost" column would silently sort and render as "—".
     // Not worth normalizing for a scan this cheap.
     const cachedUsers = getCachedAdminData(USERS_CACHE_KEY);
-    // sessions IS worth persisting across reloads: it's the fastest-growing,
-    // most expensive scan in the panel (one doc per play session, forever),
-    // and what's cached is the already-summarized { daily, weekly, all } map
-    // of uid -> seconds - plain numbers, so it survives the JSON round-trip
-    // cleanly. Read and mirror into the in-memory cache synchronously during
-    // render (same pattern as AdminOverview) so a hit never needs a setState
-    // inside the effect.
-    const memoTotalTime = getCachedAdminData(SESSIONS_CACHE_KEY);
-    const persistedTotalTime = !memoTotalTime ? loadCachedAdminSection(SESSIONS_CACHE_KEY) : null;
-    if (persistedTotalTime && !memoTotalTime) setCachedAdminData(SESSIONS_CACHE_KEY, persistedTotalTime);
-    const cachedTotalTime = memoTotalTime ?? persistedTotalTime;
     const [users, setUsers] = useState(cachedUsers ?? []);
     const [loading, setLoading] = useState(!cachedUsers);
     const [usersMessage, setUsersMessage] = useState(null);
     const [editingUser, setEditingUser] = useState(null);
     const [formError, setFormError] = useState('');
     const [detailUser, setDetailUser] = useState(null);
-    const [totalTimeByUid, setTotalTimeByUid] = useState(cachedTotalTime ?? {});
     const [sortKey, setSortKey] = useState('displayName');
     const [sortDirection, setSortDirection] = useState('asc');
 
@@ -85,46 +67,37 @@ export default function AdminPlayers() {
         setCachedAdminData(USERS_CACHE_KEY, userList);
     };
 
-    // Powers the Danas/Tjedan/Ukupno columns - one getAllSessions() fetch,
-    // filtered three ways in-memory (no extra Firestore reads) via
-    // sumSessionsByUid's period arg, grouped by uid.
-    const fetchTotalTime = async () => {
-        const sessions = await getAllSessions();
-        const totals = {
-            daily: sumSessionsByUid(sessions, 'daily'),
-            weekly: sumSessionsByUid(sessions, 'weekly'),
-            all: sumSessionsByUid(sessions, 'all'),
-        };
-        setTotalTimeByUid(totals);
-        setCachedAdminData(SESSIONS_CACHE_KEY, totals);
-        // Persisted with a 15-min TTL, so just after midnight the "Danas"
-        // column can briefly still show yesterday's figure; "🔄 Osvježi"
-        // clears it on demand.
-        saveCachedAdminSection(SESSIONS_CACHE_KEY, totals);
-    };
+    // Danas/Tjedan/Ukupno now come from the playTime counters maintained on
+    // each user doc (see addPlayTime in services/firebase.js), derived from
+    // `users` which this component already fetched - so these columns cost
+    // ZERO extra reads. They previously came from getAllSessions(), an
+    // unbounded scan over every session doc ever written and, by its own
+    // comment, the most expensive read in the panel.
+    //
+    // summarizePlayTimeByUid needs a "now" to pick today's/this week's
+    // buckets. Captured once via a lazy useState initializer rather than read
+    // during render, so the derivation stays pure across re-renders (React's
+    // purity rule - same concern as useOneVsOne's online-count comment) without
+    // calling setState from an effect. Freezing it at mount matches the old
+    // behaviour, where totals were computed once per fetch.
+    const [derivedAt] = useState(() => new Date());
+    const totalTimeByUid = useMemo(
+        () => summarizePlayTimeByUid(users, derivedAt),
+        [users, derivedAt],
+    );
 
     useEffect(() => {
-        // Skip re-fetching either dataset if this section was already loaded
-        // once this admin session - AdminPanel unmounts/remounts sections on
-        // every tab switch, so without this a revisit re-scans BOTH the
-        // users and sessions collections from scratch every time (two
-        // separate unbounded full-collection reads).
+        // Skip the re-fetch if this section was already loaded once this admin
+        // session - AdminPanel unmounts/remounts sections on every tab switch,
+        // so without this a revisit re-scans the users collection every time.
         (async () => {
             if (!cachedUsers) await fetchUsers();
-        })();
-        (async () => {
-            if (!cachedTotalTime) await fetchTotalTime();
         })();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleRefresh = () => {
-        // Drop the persisted sessions entry first: fetchTotalTime overwrites
-        // it on success, but a failed fetch must not leave behind the stale
-        // value the admin just asked to replace.
-        clearCachedAdminSection(SESSIONS_CACHE_KEY);
         fetchUsers();
-        fetchTotalTime();
     };
 
     const handleSort = (key) => {

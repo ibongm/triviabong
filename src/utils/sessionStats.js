@@ -72,6 +72,77 @@ export const sumSessionsByUid = (sessions, period = 'all', now = new Date()) => 
     return byUid;
 };
 
+/**
+ * How many seconds of this session's elapsed time still need adding to the
+ * users/{uid}.playTime running counters.
+ *
+ * The session doc holds CUMULATIVE per-gameState totals and is rewritten whole
+ * on each heartbeat, but playTime is increment-based - so each heartbeat must
+ * send only what's new since the last successful playTime write. Getting this
+ * wrong would re-add the whole session every 90s and inflate the totals, the
+ * same class of bug as the session-flush inflation fixed in a56f6a8. Extracted
+ * from useSessionTracking so it's directly testable.
+ */
+export const playTimeDelta = (gameStateSeconds, alreadyWritten = 0) => {
+    const elapsed = Object.values(gameStateSeconds || {})
+        .reduce((sum, v) => sum + (typeof v === 'number' && v > 0 ? v : 0), 0);
+    const delta = elapsed - (alreadyWritten > 0 ? alreadyWritten : 0);
+    return { elapsed, delta: delta > 0 ? delta : 0 };
+};
+
+/** Local-calendar YYYY-MM-DD key, matching the buckets written to users/{uid}.playTime.days. */
+export const playTimeDayKey = (date = new Date()) => {
+    const d = new Date(date);
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
+    return `${d.getFullYear()}-${mm}-${dd}`;
+};
+
+/** How many day buckets to retain per user - just over a week, so the weekly window is always covered. */
+export const PLAY_TIME_DAYS_KEPT = 9;
+
+/** Day keys older than the retention window, for pruning (see pruneUserPlayTimeDays). */
+export const stalePlayTimeDayKeys = (days, now = new Date()) => {
+    const cutoff = playTimeDayKey(new Date(startOfDay(now).getTime() - (PLAY_TIME_DAYS_KEPT - 1) * 86400000));
+    return Object.keys(days || {}).filter((k) => k < cutoff);
+};
+
+/**
+ * Same { daily, weekly, all } shape as sumSessionsByUid, but derived from the
+ * playTime map maintained on each users/{uid} doc instead of from a scan over
+ * every session doc ever written.
+ *
+ * AdminPlayers already fetches every user for its table, so this costs zero
+ * extra reads - it replaces getAllSessions(), by its own comment the
+ * fastest-growing scan in the admin panel. `all` is the running total rather
+ * than a sum of the retained day buckets, so trimming old buckets never
+ * rewrites history. Uses the same local start-of-day / Monday-start ISO week
+ * boundaries as isInPeriod above, so daily <= weekly <= all still holds.
+ */
+export const summarizePlayTimeByUid = (users, now = new Date()) => {
+    const daily = {};
+    const weekly = {};
+    const all = {};
+    const todayKey = playTimeDayKey(now);
+    const weekStartKey = playTimeDayKey(startOfIsoWeek(now));
+
+    for (const user of users || []) {
+        const uid = user?.uid;
+        if (!uid) continue;
+        const playTime = user.playTime || {};
+        const days = playTime.days || {};
+        const num = (v) => (typeof v === 'number' && v > 0 ? v : 0);
+
+        all[uid] = num(playTime.total);
+        daily[uid] = num(days[todayKey]);
+        weekly[uid] = Object.entries(days).reduce(
+            (sum, [key, value]) => (key >= weekStartKey ? sum + num(value) : sum),
+            0,
+        );
+    }
+    return { daily, weekly, all };
+};
+
 /** Formats a seconds count as e.g. "2 h 15 min", "45 min", "Manje od minute". */
 export const formatDuration = (totalSecondsValue) => {
     const seconds = Math.max(0, Math.round(totalSecondsValue || 0));

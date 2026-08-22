@@ -1,5 +1,15 @@
 import { describe, it, expect } from 'vitest';
-import { totalSessionSeconds, summarizeSessionsByPeriod, sumSessionsByUid, formatDuration } from './sessionStats';
+import {
+    totalSessionSeconds,
+    summarizeSessionsByPeriod,
+    sumSessionsByUid,
+    formatDuration,
+    summarizePlayTimeByUid,
+    playTimeDayKey,
+    stalePlayTimeDayKeys,
+    PLAY_TIME_DAYS_KEPT,
+    playTimeDelta,
+} from './sessionStats';
 
 // Fixed "now": Wednesday 2026-08-19 12:00 local time - ISO week starts Monday 2026-08-17.
 const NOW = new Date(2026, 7, 19, 12, 0, 0);
@@ -71,5 +81,144 @@ describe('formatDuration', () => {
     it('formats sub-minute as "Manje od minute"', () => {
         expect(formatDuration(30)).toBe('Manje od minute');
         expect(formatDuration(0)).toBe('Manje od minute');
+    });
+});
+
+// playTime counters on users/{uid} - the zero-extra-read replacement for the
+// getAllSessions() scan that used to power the admin Danas/Tjedan/Ukupno
+// columns. NOW is Wednesday 2026-08-19; the ISO week starts Monday 2026-08-17.
+describe('playTimeDayKey', () => {
+    it('formats a local calendar date, zero-padded', () => {
+        expect(playTimeDayKey(new Date(2026, 7, 9))).toBe('2026-08-09');
+        expect(playTimeDayKey(new Date(2026, 11, 25))).toBe('2026-12-25');
+    });
+
+    it('sorts lexicographically in chronological order', () => {
+        const keys = [new Date(2026, 7, 9), new Date(2026, 6, 31), new Date(2026, 11, 1)]
+            .map(playTimeDayKey);
+        expect([...keys].sort()).toEqual(['2026-07-31', '2026-08-09', '2026-12-01']);
+    });
+});
+
+describe('summarizePlayTimeByUid', () => {
+    const users = [
+        {
+            uid: 'a',
+            playTime: {
+                total: 5000,
+                days: { '2026-08-19': 100, '2026-08-18': 200, '2026-08-17': 300, '2026-08-16': 400 },
+            },
+        },
+        { uid: 'b', playTime: { total: 60, days: { '2026-08-19': 60 } } },
+        { uid: 'c' },
+    ];
+
+    it('reads today from the matching day bucket', () => {
+        const { daily } = summarizePlayTimeByUid(users, NOW);
+        expect(daily).toEqual({ a: 100, b: 60, c: 0 });
+    });
+
+    it('sums only days inside the ISO week, excluding the preceding Sunday', () => {
+        const { weekly } = summarizePlayTimeByUid(users, NOW);
+        // 2026-08-16 is the Sunday before the week start and must not count.
+        expect(weekly.a).toBe(600);
+        expect(weekly.b).toBe(60);
+    });
+
+    it('takes all-time from the running total, not the retained buckets', () => {
+        const { all } = summarizePlayTimeByUid(users, NOW);
+        expect(all.a).toBe(5000);
+    });
+
+    it('keeps daily <= weekly <= all', () => {
+        const { daily, weekly, all } = summarizePlayTimeByUid(users, NOW);
+        for (const uid of ['a', 'b', 'c']) {
+            expect(daily[uid]).toBeLessThanOrEqual(weekly[uid]);
+            expect(weekly[uid]).toBeLessThanOrEqual(all[uid]);
+        }
+    });
+
+    it('treats a user with no playTime as zero rather than throwing', () => {
+        const { daily, weekly, all } = summarizePlayTimeByUid([{ uid: 'c' }], NOW);
+        expect([daily.c, weekly.c, all.c]).toEqual([0, 0, 0]);
+    });
+
+    it('ignores negative or non-numeric bucket values', () => {
+        const { daily, all } = summarizePlayTimeByUid(
+            [{ uid: 'x', playTime: { total: -5, days: { '2026-08-19': 'lots' } } }],
+            NOW,
+        );
+        expect(daily.x).toBe(0);
+        expect(all.x).toBe(0);
+    });
+
+    it('skips entries with no uid and handles empty input', () => {
+        expect(summarizePlayTimeByUid([{ playTime: { total: 1 } }], NOW).all).toEqual({});
+        expect(summarizePlayTimeByUid(undefined, NOW).all).toEqual({});
+    });
+});
+
+describe('stalePlayTimeDayKeys', () => {
+    it('keeps the retention window and returns only what falls outside it', () => {
+        const days = {};
+        for (let i = 0; i < 20; i++) {
+            days[playTimeDayKey(new Date(NOW.getTime() - i * 86400000))] = 60;
+        }
+        const stale = stalePlayTimeDayKeys(days, NOW);
+        expect(Object.keys(days).length - stale.length).toBe(PLAY_TIME_DAYS_KEPT);
+        expect(stale).not.toContain(playTimeDayKey(NOW));
+    });
+
+    it('returns nothing when every bucket is inside the window', () => {
+        const days = { '2026-08-19': 60, '2026-08-18': 60 };
+        expect(stalePlayTimeDayKeys(days, NOW)).toEqual([]);
+    });
+
+    it('handles a missing map', () => {
+        expect(stalePlayTimeDayKeys(undefined, NOW)).toEqual([]);
+    });
+});
+
+// Guards the increment/cumulative mismatch: session docs hold cumulative
+// totals, playTime is increment-based, so a heartbeat must send only the new
+// seconds. Sending the cumulative figure would re-add the whole session every
+// 90s - the same inflation class as the flush bug fixed in a56f6a8.
+describe('playTimeDelta', () => {
+    it('sends the whole elapsed total on the first write', () => {
+        expect(playTimeDelta({ LOBBY: 30, PLAYING: 60 }, 0)).toEqual({ elapsed: 90, delta: 90 });
+    });
+
+    it('sends only what is new on subsequent writes', () => {
+        expect(playTimeDelta({ LOBBY: 30, PLAYING: 120 }, 90)).toEqual({ elapsed: 150, delta: 60 });
+    });
+
+    it('sends nothing when no time has accrued since the last write', () => {
+        expect(playTimeDelta({ LOBBY: 30, PLAYING: 60 }, 90).delta).toBe(0);
+    });
+
+    it('never sends a negative delta if the session counters reset', () => {
+        expect(playTimeDelta({ LOBBY: 10 }, 500).delta).toBe(0);
+    });
+
+    it('accumulating repeated heartbeats equals the final elapsed total', () => {
+        const snapshots = [{ LOBBY: 30 }, { LOBBY: 60 }, { LOBBY: 60, PLAYING: 45 }];
+        let written = 0;
+        let sent = 0;
+        for (const snap of snapshots) {
+            const { elapsed, delta } = playTimeDelta(snap, written);
+            sent += delta;
+            written = elapsed;
+        }
+        expect(sent).toBe(105);
+        expect(written).toBe(105);
+    });
+
+    it('ignores non-numeric and negative buckets', () => {
+        expect(playTimeDelta({ LOBBY: 'x', PLAYING: -20, VICTORY: 10 }, 0))
+            .toEqual({ elapsed: 10, delta: 10 });
+    });
+
+    it('handles a missing map', () => {
+        expect(playTimeDelta(undefined, 0)).toEqual({ elapsed: 0, delta: 0 });
     });
 });

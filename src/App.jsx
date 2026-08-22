@@ -68,6 +68,7 @@ import {
   auth,
   logoutUser,
   getUserStatsFromFirestore,
+  pruneUserPlayTimeDays,
   syncUserProfile,
   syncUserStatsToFirestore,
   syncPublicProfile,
@@ -374,6 +375,11 @@ export default function App() {
         // If another auth event fired while we were fetching, this
         // result is stale — drop it so the newer handler wins.
         if (myGeneration !== authGeneration) return;
+
+        // Trim playTime day buckets outside the retention window. Piggybacks
+        // on the read above rather than doing its own, so pruning is free;
+        // fire-and-forget, since a failure just leaves extra map keys.
+        pruneUserPlayTimeDays(user.uid, cloudStats);
 
         hydratingStatsRef.current = true;
         setGlobalStats(_prev => {

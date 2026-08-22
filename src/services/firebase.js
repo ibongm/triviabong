@@ -28,11 +28,14 @@ import {
     connectFirestoreEmulator,
     runTransaction,
     onSnapshot,
-    increment
+    increment,
+    deleteField
 } from "firebase/firestore";
 import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
 import { buildPublicProfileFields } from "../utils/publicProfile";
+import { ONLINE_THRESHOLD_MS } from "../utils/presenceUtils";
+import { stalePlayTimeDayKeys } from "../utils/sessionStats";
 import { COMMUNITY_QUESTION_APPROVED_XP, COMMUNITY_QUESTION_APPROVED_COINS } from "../constants/gameBalance";
 
 const firebaseConfig = {
@@ -116,6 +119,75 @@ export const getUserStatsFromFirestore = async (uid) => {
     return null;
 };
 
+// Ceiling on a single playTime increment. useSessionTracking already clamps
+// each flush to MAX_FLUSH_SECONDS (300) and writes every 90s, so a legitimate
+// delta is far below this; the cap is a second line of defence mirroring the
+// clamp added when session-flush inflation was fixed (see CHANGELOG 2026-08-22
+// / commit a56f6a8), and matches the bound firestore.rules enforces.
+export const MAX_PLAY_TIME_DELTA_SECONDS = 600;
+
+// Retention windows backing the Firestore TTL policies (Firestore > TTL in the
+// Cloud console, keyed on each collection's `expiresAt` field). TTL deletion
+// lags up to 24h after expiry and counts against the daily delete quota
+// (20k/day free, currently unused), so both windows are generous.
+//
+// sessions: only AdminPlayerDetail reads these now, uid-scoped, and only for
+// recent activity - the aggregate Danas/Tjedan/Ukupno columns moved to the
+// playTime counters on users/{uid}. NOT applied to questionAttempts or
+// gameResults: those are what recomputeContentInsightStats() rebuilds the
+// counters from with absolute values, so expiring them would make a later
+// rebuild silently shrink the numbers instead of just capping storage.
+const SESSION_RETENTION_MS = 90 * 24 * 60 * 60 * 1000;
+// presence: refreshed on every heartbeat, so this only ever fires for docs a
+// closed tab left behind (deletePresence runs on explicit logout only).
+const PRESENCE_RETENTION_MS = 24 * 60 * 60 * 1000;
+
+/**
+ * Adds elapsed play time to the running counters on users/{uid}, so the admin
+ * player list can show Danas/Tjedan/Ukupno without scanning the sessions
+ * collection - it already fetches every user doc, making these columns free.
+ *
+ * Increment-only with dotted field paths (updateDoc, not setDoc - dotted paths
+ * are an updateDoc feature), so concurrent tabs can't clobber each other. The
+ * raw sessions collection is still written alongside this: AdminPlayerDetail
+ * needs the per-gameState breakdown, and that read is already uid-scoped.
+ *
+ * Fire-and-forget, same contract as the logging writes: instrumentation must
+ * never throw into gameplay. updateDoc requires the doc to exist, which it
+ * does by this point (syncUserProfile creates it on login).
+ */
+export const addPlayTime = async (uid, seconds, dayKey) => {
+    if (!uid || !dayKey || !(seconds > 0)) return;
+    const delta = Math.min(Math.round(seconds), MAX_PLAY_TIME_DELTA_SECONDS);
+    if (delta <= 0) return;
+    try {
+        await updateDoc(doc(db, "users", uid), {
+            'playTime.total': increment(delta),
+            [`playTime.days.${dayKey}`]: increment(delta),
+        });
+    } catch (error) {
+        console.error('Error adding play time:', error);
+    }
+};
+
+/**
+ * Drops playTime day buckets outside the retention window. Called from the
+ * login path that already reads the user doc, so pruning costs no extra read -
+ * without it the map would grow by one key per active day forever.
+ */
+export const pruneUserPlayTimeDays = async (uid, stats) => {
+    if (!uid) return;
+    const staleKeys = stalePlayTimeDayKeys(stats?.playTime?.days);
+    if (!staleKeys.length) return;
+    try {
+        const updates = {};
+        for (const key of staleKeys) updates[`playTime.days.${key}`] = deleteField();
+        await updateDoc(doc(db, "users", uid), updates);
+    } catch (error) {
+        console.error('Error pruning play time days:', error);
+    }
+};
+
 /**
  * Syncs the player's full stats (level, xp, coins, totals, per-category
  * accuracy) to Firestore, so they follow the account across devices.
@@ -158,6 +230,7 @@ export const startSession = async (uid) => {
             startedAt: serverTimestamp(),
             lastHeartbeat: serverTimestamp(),
             gameStateSeconds: {},
+            expiresAt: new Date(Date.now() + SESSION_RETENTION_MS),
         });
         return docRef.id;
     } catch (error) {
@@ -1256,6 +1329,12 @@ export const upsertPresence = async (uid, displayName, level, status) => {
             level: Number.isInteger(level) && level >= 1 ? level : 1,
             status,
             lastHeartbeat: serverTimestamp(),
+            // Drives the presence TTL policy - garbage-collects docs left
+            // behind by tabs that closed without an explicit logout. Refreshed
+            // on every heartbeat, so an active player's doc never expires.
+            // Well beyond ONLINE_THRESHOLD_MS, since TTL deletion lags up to
+            // 24h and must never race the online-list filtering.
+            expiresAt: new Date(Date.now() + PRESENCE_RETENTION_MS),
         });
     } catch (error) {
         console.error('Error updating presence:', error);
@@ -1263,16 +1342,33 @@ export const upsertPresence = async (uid, displayName, level, status) => {
 };
 
 /**
- * Live-subscribes to every presence/{uid} doc. Filtering by the "online"
- * threshold (stale heartbeats still linger as docs until the owner logs out
- * - see deletePresence) happens client-side in the caller, not here, since
- * "online" is a read-time judgment call (see usePresence) rather than
- * something worth a composite index for at beta scale. Returns the
- * onSnapshot unsubscribe function.
+ * Live-subscribes to the presence docs that are plausibly online, filtered
+ * server-side by lastHeartbeat.
+ *
+ * This used to subscribe to the unfiltered collection and filter entirely
+ * client-side. Because deletePresence only runs on an explicit logout (there
+ * is no reliable unload event - see useSessionTracking's comment), every
+ * closed tab leaks a presence doc permanently: production had 11 docs of
+ * which ~9 were stale, the oldest from the previous evening. A listener is
+ * billed for its initial snapshot, so every lobby entry paid for all of them.
+ *
+ * The cutoff is fixed at subscribe time, so a player going stale *during* a
+ * lobby session still won't drop out of this query - the caller's
+ * filterOnlinePlayers pass is still required and still authoritative for
+ * display. This only stops us paying to read the long-dead ones.
+ *
+ * Single-field range filter, so it's served by Firestore's automatic indexes;
+ * no firestore.indexes.json entry needed. `presence` rules allow read to any
+ * signed-in user without referencing resource.data, so the filtered list is
+ * permitted.
+ *
+ * Returns the onSnapshot unsubscribe function.
  */
 export const subscribeToOnlinePlayers = (callback) => {
     const presenceRef = collection(db, "presence");
-    return onSnapshot(presenceRef, (snapshot) => {
+    const cutoff = new Date(Date.now() - ONLINE_THRESHOLD_MS);
+    const q = query(presenceRef, where("lastHeartbeat", ">=", cutoff));
+    return onSnapshot(q, (snapshot) => {
         callback(snapshot.docs.map(docSnap => docSnap.data()));
     }, (error) => {
         console.error('Error subscribing to online players:', error);
