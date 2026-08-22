@@ -13,14 +13,32 @@ const QUESTIONS_TO_PICK = 11;
 // Async because getQuestionsByCategory/getAllQuestions now lazy-load the
 // question JSON on first call (see questionsLoader.js) - createMatch, the
 // only caller, already awaits this.
+//
+// The chosen category is the pool; the full question set is only a FALLBACK,
+// used to top up if that category somehow holds fewer than QUESTIONS_TO_PICK.
+// This previously concatenated the two and shuffled the whole thing, which
+// diluted the category into the ~5,900-question aggregate - a "Geografija"
+// duel served roughly 14% Geografija questions and the rest from everywhere
+// else. Caught on 2026-08-22 when a Geografija match logged hr_hist_* ids into
+// the new per-question insight counters.
+//
+// Opće znanje needs no special case: getQuestionsByCategory already returns
+// the whole aggregate pool for it (see AGGREGATE_CATEGORIES in
+// questionsLoader.js), so the top-up simply never triggers.
 export const pickMatchQuestionIds = async (categoryKey) => {
     const [rawPool, rawFallback] = await Promise.all([getQuestionsByCategory(categoryKey), getAllQuestions()]);
-    const pool = rawPool.filter(q => q && q.id);
-    const fallbackPool = rawFallback.filter(q => q && q.id);
-    const combined = [...pool, ...fallbackPool];
-    const uniqueMap = new Map(combined.map(q => [q.id, q]));
-    const shuffled = shuffleArray(Array.from(uniqueMap.values()));
-    return shuffled.slice(0, QUESTIONS_TO_PICK).map(q => q.id);
+    const pool = shuffleArray(rawPool.filter(q => q && q.id));
+    const picked = pool.slice(0, QUESTIONS_TO_PICK);
+
+    if (picked.length < QUESTIONS_TO_PICK) {
+        const alreadyPicked = new Set(picked.map(q => q.id));
+        const topUp = shuffleArray(
+            rawFallback.filter(q => q && q.id && !alreadyPicked.has(q.id)),
+        ).slice(0, QUESTIONS_TO_PICK - picked.length);
+        picked.push(...topUp);
+    }
+
+    return picked.map(q => q.id);
 };
 
 // Resolves a match's stored question ids back to full question objects

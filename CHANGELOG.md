@@ -1,5 +1,16 @@
 # Changelog
 
+### [2026-08-22] - Fix 1v1 duels ignoring the chosen category
+- **Files Changed**:
+  - `src/utils/matchQuestions.js` (Modified)
+  - `src/utils/matchQuestions.test.js` (Modified)
+- **Details**:
+  - `pickMatchQuestionIds` concatenated the chosen category's pool with the **full** question set and shuffled the two together, then took 11. Because the aggregate pool is ~5,949 questions and a category holds only a few hundred, the category was diluted to noise: a "Geografija" duel served roughly **14%** Geografija questions and the rest from everywhere else. Players picking a category for a duel were effectively getting random questions.
+  - The local was already named `fallbackPool`, so the intent was clearly "top up only if this category is short" - the concatenation was an implementation slip, not a design choice.
+  - Now the category pool is shuffled and sliced on its own, and the wider set is consulted **only** when that category holds fewer than the 11 needed, excluding ids already picked so a top-up can't duplicate one. Opće znanje needs no special case: `getQuestionsByCategory` already returns the whole aggregate pool for it (`AGGREGATE_CATEGORIES`), so the top-up never triggers.
+  - Found via the same-day 1v1 insights work: a Geografija match logged `hr_hist_*` ids into the new per-question counters, which is only visible now that duels feed those counters at all.
+  - Verified end-to-end on the emulator - a Sport duel produced **11 questionStats docs, all `hr_sport_*`, `{"sport": 11}`**, against the mixed `hr_geo_*`/`hr_hist_*` spread the same check showed before the fix. Plus 8 new unit tests (194 total) using a mocked loader: asserts across 20 runs that every pick comes from the chosen category, that picks never repeat within a match, that results vary between matches, and that a short category tops up to 11 without duplicating.
+
 ### [2026-08-22] - Feed 1v1 duels into the admin content-insights
 - **Files Changed**:
   - `src/components/MatchView.jsx` (Modified)
