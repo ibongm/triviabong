@@ -35,7 +35,7 @@ import { DEFAULT_GLOBAL_STATS } from "../constants/defaultGlobalStats";
 import { CATEGORY_META } from "../data/categoryMeta";
 import { buildPublicProfileFields } from "../utils/publicProfile";
 import { ONLINE_THRESHOLD_MS } from "../utils/presenceUtils";
-import { stalePlayTimeDayKeys } from "../utils/sessionStats";
+import { stalePlayTimeDayKeys, buildPlayTimeFromSessions } from "../utils/sessionStats";
 import { COMMUNITY_QUESTION_APPROVED_XP, COMMUNITY_QUESTION_APPROVED_COINS } from "../constants/gameBalance";
 
 const firebaseConfig = {
@@ -197,6 +197,47 @@ export const pruneUserPlayTimeDays = async (uid, stats) => {
     } catch (error) {
         console.error('Error pruning play time days:', error);
     }
+};
+
+/**
+ * Admin-only escape hatch: rebuilds every player's users/{uid}.playTime from
+ * the raw sessions collection.
+ *
+ * The playTime counters started at zero when they shipped, so the admin list's
+ * Danas/Tjedan/Ukupno columns read ~0 for everyone until this runs once - the
+ * history was never lost, just no longer read (the per-player Detalji view
+ * still reads sessions directly and was always correct).
+ *
+ * Deliberately manual and expensive: it runs the same full getAllSessions()
+ * scan that moving to counters removed from the admin read path, so it's a
+ * one-off repair, not something to call routinely. Same pattern and rationale
+ * as recomputeContentInsightStats.
+ *
+ * Writes the whole playTime map with updateDoc (absolute, not increment) so a
+ * rerun corrects drift instead of compounding it. Batched under writeBatch's
+ * 500-op cap. No rules change needed: users/{uid} already allows unconditional
+ * admin updates.
+ *
+ * Caveat worth knowing: a client with a live session open when this runs still
+ * holds its own "already written" marker, so its current session can be counted
+ * twice until that tab reloads. Harmless for a one-off repair, and it settles
+ * itself - but prefer running it when nobody is mid-session.
+ */
+export const recomputePlayTimeFromSessions = async () => {
+    const sessions = await getAllSessions();
+    const byUid = buildPlayTimeFromSessions(sessions);
+
+    const entries = Object.entries(byUid);
+    let written = 0;
+    for (let i = 0; i < entries.length; i += 400) {
+        const batch = writeBatch(db);
+        for (const [uid, playTime] of entries.slice(i, i + 400)) {
+            batch.update(doc(db, "users", uid), { playTime });
+        }
+        await batch.commit();
+        written += Math.min(400, entries.length - i);
+    }
+    return { players: written, sessions: sessions.length };
 };
 
 /**

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getAllRegisteredUsers, updateUserInFirestore, deleteUserFromFirestore, resetAllPlayerProgression } from '../../services/firebase';
+import { getAllRegisteredUsers, updateUserInFirestore, deleteUserFromFirestore, resetAllPlayerProgression, recomputePlayTimeFromSessions } from '../../services/firebase';
 import { summarizePlayTimeByUid, formatDuration } from '../../utils/sessionStats';
 import { computeLevelFromXp } from '../../utils/leveling';
 import { evaluateAchievements, mergeUnlockedAchievements, revokeStaleAchievements } from '../../utils/achievements';
@@ -98,6 +98,35 @@ export default function AdminPlayers() {
 
     const handleRefresh = () => {
         fetchUsers();
+    };
+
+    // One-off repair for the Danas/Tjedan/Ukupno columns. The playTime counters
+    // those columns read started at zero when they shipped, so every player
+    // reads ~0 until this rebuilds them from the sessions collection, where the
+    // history has been all along. Confirm-gated and deliberately manual: it runs
+    // the same full sessions scan that moving to counters removed from the read
+    // path. Mirrors AdminOverview's "Rekonstruiraj statistiku", including that
+    // window.confirm blocks the page (and any attached automation) until
+    // dismissed by hand.
+    const [playTimeBusy, setPlayTimeBusy] = useState(false);
+    const [playTimeMessage, setPlayTimeMessage] = useState(null);
+
+    const handleRebuildPlayTime = async () => {
+        if (playTimeBusy) return;
+        if (!window.confirm('Ponovno izračunati vrijeme igre za sve igrače na temelju svih zabilježenih sesija? Ovo je skupa operacija - koristite je jednom, za popunjavanje povijesti.')) return;
+
+        setPlayTimeBusy(true);
+        setPlayTimeMessage(null);
+        try {
+            const { players, sessions } = await recomputePlayTimeFromSessions();
+            await fetchUsers();
+            setPlayTimeMessage({ type: 'success', text: `Vrijeme igre obnovljeno (${players} igrača iz ${sessions} sesija).` });
+        } catch (err) {
+            console.error('Greška pri obnovi vremena igre:', err);
+            setPlayTimeMessage({ type: 'error', text: 'Obnova nije uspjela.' });
+        } finally {
+            setPlayTimeBusy(false);
+        }
     };
 
     const handleSort = (key) => {
@@ -289,6 +318,15 @@ export default function AdminPlayers() {
                     </button>
                     <button
                         type="button"
+                        onClick={handleRebuildPlayTime}
+                        disabled={playTimeBusy}
+                        title="Ponovno izračunaj Danas/Tjedan/Ukupno vrijeme igre iz svih zabilježenih sesija (jednokratno, za popunjavanje povijesti)"
+                        className="bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-2 rounded-lg text-xs font-bold disabled:opacity-40"
+                    >
+                        {playTimeBusy ? 'Obnavljanje...' : 'Obnovi vrijeme igre'}
+                    </button>
+                    <button
+                        type="button"
                         onClick={handleResetAllProgression}
                         disabled={resetBusy || loading || users.length === 0}
                         title="Resetira razinu/XP/trofeje SVIH igrača (novčići ostaju) - koristi samo nakon velike promjene ekonomije"
@@ -302,6 +340,12 @@ export default function AdminPlayers() {
             {usersMessage && (
                 <div className={`text-sm rounded-lg p-3 mb-4 ${usersMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
                     {usersMessage.text}
+                </div>
+            )}
+
+            {playTimeMessage && (
+                <div className={`text-sm rounded-lg p-3 mb-4 ${playTimeMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
+                    {playTimeMessage.text}
                 </div>
             )}
 

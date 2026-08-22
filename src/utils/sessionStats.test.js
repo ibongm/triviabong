@@ -9,6 +9,7 @@ import {
     stalePlayTimeDayKeys,
     PLAY_TIME_DAYS_KEPT,
     playTimeDelta,
+    buildPlayTimeFromSessions,
 } from './sessionStats';
 
 // Fixed "now": Wednesday 2026-08-19 12:00 local time - ISO week starts Monday 2026-08-17.
@@ -220,5 +221,85 @@ describe('playTimeDelta', () => {
 
     it('handles a missing map', () => {
         expect(playTimeDelta(undefined, 0)).toEqual({ elapsed: 0, delta: 0 });
+    });
+});
+
+// One-off repair path: the playTime counters started at zero when they
+// shipped, so the admin list read ~0 for everyone until rebuilt from the
+// sessions collection, which had the history all along.
+describe('buildPlayTimeFromSessions', () => {
+    const s = (uid, startedAt, seconds) => ({
+        uid, startedAt, gameStateSeconds: { PLAYING: seconds },
+    });
+
+    it('sums every session into total, regardless of age', () => {
+        const out = buildPlayTimeFromSessions([
+            s('a', new Date(2026, 7, 19), 100),
+            s('a', new Date(2025, 0, 1), 900),
+        ], NOW);
+        expect(out.a.total).toBe(1000);
+    });
+
+    it('keeps only in-window day buckets while total stays all-time', () => {
+        const out = buildPlayTimeFromSessions([
+            s('a', new Date(2026, 7, 19), 100),
+            s('a', new Date(2025, 0, 1), 900),
+        ], NOW);
+        expect(out.a.days).toEqual({ '2026-08-19': 100 });
+        expect(out.a.total).toBe(1000);
+    });
+
+    it('merges multiple sessions on the same day into one bucket', () => {
+        const out = buildPlayTimeFromSessions([
+            s('a', new Date(2026, 7, 19, 9), 60),
+            s('a', new Date(2026, 7, 19, 20), 30),
+        ], NOW);
+        expect(out.a.days['2026-08-19']).toBe(90);
+        expect(out.a.total).toBe(90);
+    });
+
+    it('separates players', () => {
+        const out = buildPlayTimeFromSessions([
+            s('a', new Date(2026, 7, 19), 60),
+            s('b', new Date(2026, 7, 19), 120),
+        ], NOW);
+        expect(out.a.total).toBe(60);
+        expect(out.b.total).toBe(120);
+    });
+
+    it('skips sessions with no uid or no recorded time', () => {
+        const out = buildPlayTimeFromSessions([
+            { startedAt: new Date(2026, 7, 19), gameStateSeconds: { PLAYING: 60 } },
+            s('a', new Date(2026, 7, 19), 0),
+        ], NOW);
+        expect(out).toEqual({});
+    });
+
+    it('still counts time toward total when startedAt is missing', () => {
+        const out = buildPlayTimeFromSessions([
+            { uid: 'a', gameStateSeconds: { PLAYING: 45 } },
+        ], NOW);
+        expect(out.a.total).toBe(45);
+        expect(out.a.days).toEqual({});
+    });
+
+    it('produces buckets summarizePlayTimeByUid can read back correctly', () => {
+        const rebuilt = buildPlayTimeFromSessions([
+            s('a', new Date(2026, 7, 19), 100),  // today
+            s('a', new Date(2026, 7, 17), 200),  // Monday, same ISO week
+            s('a', new Date(2026, 7, 16), 400),  // Sunday before - outside week
+            s('a', new Date(2025, 0, 1), 900),   // ancient, total only
+        ], NOW);
+        const { daily, weekly, all } = summarizePlayTimeByUid(
+            [{ uid: 'a', playTime: rebuilt.a }], NOW,
+        );
+        expect(daily.a).toBe(100);
+        expect(weekly.a).toBe(300);
+        expect(all.a).toBe(1600);
+    });
+
+    it('handles empty input', () => {
+        expect(buildPlayTimeFromSessions([], NOW)).toEqual({});
+        expect(buildPlayTimeFromSessions(undefined, NOW)).toEqual({});
     });
 });

@@ -108,6 +108,44 @@ export const stalePlayTimeDayKeys = (days, now = new Date()) => {
 };
 
 /**
+ * Rebuilds each player's playTime map from raw session docs - the shape
+ * addPlayTime maintains incrementally, but computed from history.
+ *
+ * Needed because the playTime counters started at zero when they shipped
+ * (2026-08-22), so the admin list's Danas/Tjedan/Ukupno columns read as ~0 for
+ * everyone even though the sessions collection still held the real history.
+ * The per-player Detalji view was unaffected - it reads sessions directly.
+ *
+ * `total` sums EVERY session (that's the all-time figure), while `days` keeps
+ * only the retention window, matching what addPlayTime/pruneUserPlayTimeDays
+ * maintain going forward. Buckets by the day a session STARTED, the same
+ * approximation sumSessionsByUid already makes - a session crossing midnight
+ * counts wholly toward the day it began.
+ */
+export const buildPlayTimeFromSessions = (sessions, now = new Date()) => {
+    const byUid = {};
+    const keepFrom = playTimeDayKey(
+        new Date(startOfDay(now).getTime() - (PLAY_TIME_DAYS_KEPT - 1) * 86400000),
+    );
+
+    for (const session of sessions || []) {
+        const uid = session?.uid;
+        if (!uid) continue;
+        const seconds = Math.round(totalSessionSeconds(session));
+        if (seconds <= 0) continue;
+
+        const entry = byUid[uid] || (byUid[uid] = { total: 0, days: {} });
+        entry.total += seconds;
+
+        const startedAt = toDate(session.startedAt);
+        if (!startedAt) continue;
+        const key = playTimeDayKey(startedAt);
+        if (key >= keepFrom) entry.days[key] = (entry.days[key] || 0) + seconds;
+    }
+    return byUid;
+};
+
+/**
  * Same { daily, weekly, all } shape as sumSessionsByUid, but derived from the
  * playTime map maintained on each users/{uid} doc instead of from a scan over
  * every session doc ever written.

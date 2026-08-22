@@ -1,5 +1,18 @@
 # Changelog
 
+### [2026-08-22] - Rebuild play-time history from sessions (repairs the admin Danas/Tjedan/Ukupno columns)
+- **Files Changed**:
+  - `src/utils/sessionStats.js` (Modified)
+  - `src/utils/sessionStats.test.js` (Modified)
+  - `src/services/firebase.js` (Modified)
+  - `src/components/admin/AdminPlayers.jsx` (Modified)
+- **Details**:
+  - Fallout from moving play-time onto `users/{uid}.playTime` earlier today: those counters started at **zero**, so the admin player list showed "Manje od minute" for every player - including long-standing ones - even though the `sessions` collection still held the full history. Spotted while walking the live admin panel. The per-player **Detalji** view was never affected: it reads `getSessionsForUser` directly and still showed real figures (verified live: Andrej Lekic, Ukupno = 2 min). Only the list columns lost history.
+  - Added `buildPlayTimeFromSessions` (pure, in `sessionStats.js`) and the admin-only `recomputePlayTimeFromSessions()`, wired to a confirm-gated **"Obnovi vrijeme igre"** button in `AdminPlayers`. `total` sums every session ever; `days` keeps only the retention window, matching what `addPlayTime`/`pruneUserPlayTimeDays` maintain going forward. Buckets by session start date - the same approximation `sumSessionsByUid` already made.
+  - Writes the whole `playTime` map with `updateDoc` (absolute, not `increment`) so a rerun corrects drift rather than compounding it; batched under `writeBatch`'s 500-op cap. **No rules change or deploy needed** - `users/{uid}` already allows unconditional admin updates.
+  - Deliberately manual and expensive: it runs the very `getAllSessions()` scan that moving to counters removed from the admin read path. One-off repair, not routine. Documented caveat: a client with a live session open when it runs still holds its own "already written" marker, so that session can be double-counted until the tab reloads - prefer running it when nobody is mid-session.
+  - 8 new tests (186 total), including a round-trip asserting the rebuilt buckets read back correctly through `summarizePlayTimeByUid` (daily/weekly/all-time), that ancient sessions count toward `total` but not `days`, and that same-day sessions merge into one bucket.
+
 ### [2026-08-22] - Move E2E account passwords out of the public repo, and refuse to guess them
 - **Files Changed**:
   - `.claude/skills/run-triviabong/e2eCredentials.mjs` (Created)
