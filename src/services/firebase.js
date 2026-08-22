@@ -100,6 +100,17 @@ export const syncUserProfile = async (user) => {
  * synced - waiting to check pending-writes state upfront doesn't help since
  * the write isn't pending yet at that point (classic TOCTOU). Instead,
  * check hasPendingWrites AFTER fetching and only then wait + refetch.
+ *
+ * Revisited 2026-08-22 while hunting read reductions: this is the only read on
+ * the page-load path that can never be served from cache, costing 1 (rarely 2)
+ * reads per signed-in load. Left as-is deliberately. Serving it cache-first is
+ * not a tuning knob, it IS the bug this guards - a returning device would show
+ * stats another device has since moved on from, and on a brand-new device the
+ * cache is empty so Firestore goes to the server anyway. The second read is
+ * already conditional on hasPendingWrites rather than unconditional, and
+ * App.jsx calls this once per auth resolution (onAuthStateChanged, which token
+ * refreshes don't trigger). Small, bounded, and buying real correctness -
+ * don't "optimise" it without cross-device-sync-check.mjs green either side.
  */
 export const getUserStatsFromFirestore = async (uid) => {
     if (!uid) return null;
