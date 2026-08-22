@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAllQuestionStats, getAllCategoryStats, recomputeContentInsightStats } from '../../services/firebase';
+import { getWorstQuestionStats, getAllCategoryStats, recomputeContentInsightStats } from '../../services/firebase';
 import { summarizeQuestionAccuracyFromStats, summarizeCategoryPopularityFromStats } from '../../utils/gameplayInsights';
 import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
@@ -44,7 +44,7 @@ export default function AdminOverview() {
     };
 
     const fetchData = async (cancelledRef) => {
-        const [a, r, packs] = await Promise.all([getAllQuestionStats(), getAllCategoryStats(), getAllCategoryPacks()]);
+        const [a, r, packs] = await Promise.all([getWorstQuestionStats(), getAllCategoryStats(), getAllCategoryPacks()]);
         if (cancelledRef?.current) return;
         computeAndStore(a, r, packs);
     };
@@ -57,12 +57,13 @@ export default function AdminOverview() {
         // here. AdminPanel unmounts/remounts sections on every tab switch, so
         // without these two caches every revisit - a tab switch or a full page
         // reload - would re-read from scratch.
-        // These now read the maintained questionStats/categoryStats counters,
-        // bounded by question count (~1492) and category count (8), NOT the
-        // unbounded questionAttempts/gameResults scans that drove the ~46k
-        // spike in CHANGELOG.md's 2026-08-20 entry and the 6,474 one on
-        // 2026-08-22. The caches therefore now save a bounded cost rather than
-        // being the only thing between an admin refresh and the daily quota.
+        // These read the maintained counters, not the unbounded
+        // questionAttempts/gameResults scans that drove the ~46k spike in
+        // CHANGELOG.md's 2026-08-20 entry and the 6,474 one on 2026-08-22:
+        // a fixed ~100 worst questions (see getWorstQuestionStats) plus 8
+        // category docs, regardless of how much the game is played. The
+        // caches therefore now save a small, fixed cost rather than being the
+        // only thing between an admin refresh and the daily quota.
         if (initialData) return;
         const cancelledRef = { current: false };
         fetchData(cancelledRef);

@@ -200,7 +200,7 @@ export const logQuestionAttempt = async (attempt) => {
     // Two writes on purpose. The raw questionAttempts doc stays the audit
     // trail and the source recomputeQuestionStats() rebuilds from; the
     // questionStats counter is what the admin Pregled actually reads, so that
-    // view costs one bounded doc per question (~1492 ceiling) instead of a
+    // view costs a fixed top-N query (see getWorstQuestionStats) instead of a
     // scan over every attempt ever logged. allSettled, not all: one failing
     // must not suppress the other, and neither may ever throw into gameplay.
     const results = await Promise.allSettled([
@@ -442,16 +442,31 @@ export const getAllGameResults = async () => {
     }
 };
 
+export const WORST_QUESTIONS_LIMIT = 100;
+
 /**
- * Reads the maintained questionStats counters - the admin Pregled's actual
- * read path, replacing getAllQuestionAttempts above. Bounded by the number of
- * questions that have ever been answered (hard ceiling ~1492, the question
- * count) rather than by how many times they were answered, so unlike the raw
- * scan this does not grow with playtime.
+ * Reads the worst-performing questions for the admin Pregled - the top N by
+ * absolute wrong-answer count, NOT the whole questionStats collection.
+ *
+ * Reading every counter doc was measured at ~2,900 reads per cold admin load
+ * on 2026-08-22 (2,852 docs), because the collection is bounded by the number
+ * of DISTINCT QUESTIONS ANSWERED - and this app has 5,949 questions, not the
+ * ~1,492 stated in CLAUDE.md. So the original bound was real but weak: roughly
+ * 2x better than the raw-attempt scan it replaced, drifting worse as coverage
+ * grows. Ordering by the denormalized `wrong` field (already stored so
+ * firestore.rules can verify wrong == total - correct) makes this a bounded
+ * ~100 reads regardless of how many questions exist or how often they're played.
+ *
+ * Tradeoff: this surfaces the questions causing the most total wrong answers,
+ * then the caller re-sorts those by accuracy for display. A question answered
+ * twice at 0% accuracy can therefore fall outside the window - deliberate,
+ * since two attempts isn't evidence a question is bad, whereas the raw scan
+ * used to float exactly that noise to the top of the table.
  */
-export const getAllQuestionStats = async () => {
+export const getWorstQuestionStats = async (limitN = WORST_QUESTIONS_LIMIT) => {
     try {
-        const querySnapshot = await getDocs(collection(db, 'questionStats'));
+        const q = query(collection(db, 'questionStats'), orderBy('wrong', 'desc'), limit(limitN));
+        const querySnapshot = await getDocs(q);
         return querySnapshot.docs.map(docSnap => ({ questionId: docSnap.id, ...docSnap.data() }));
     } catch (error) {
         console.error('Error fetching question stats:', error);

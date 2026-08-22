@@ -5,6 +5,10 @@
       "schedule": "10 23 * * *"
     }
   ],
+  "_comment_rewrites": "SPA fallback. App.jsx routes client-side (isAdminPath() opens the Admin Panel on /admin), but there is no /admin file on disk, so without this a direct visit or refresh returned Vercel's own 404 instead of the app - confirmed live on 2026-08-22. Vercel checks the filesystem BEFORE applying rewrites, so /assets/* still resolve normally; /api/ is excluded explicitly so a missing function returns a real 404 rather than silently serving HTML to a fetch().",
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",

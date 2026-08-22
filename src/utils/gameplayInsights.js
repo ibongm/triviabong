@@ -7,8 +7,12 @@
 //     answered / game ever played), so these are no longer on the admin read
 //     path - they now serve only the admin-only recompute* rebuilds.
 //   - *FromStats below read the maintained questionStats/categoryStats
-//     counters instead, which are bounded by question count (~1492) and
-//     category count (8) and never grow with playtime.
+//     counters instead. The caller fetches only the top ~100 questions by
+//     wrong-answer count (getWorstQuestionStats) plus the 8 category docs, so
+//     the admin read cost is fixed no matter how much the game is played.
+//     Note the counter collection itself is bounded only by the number of
+//     distinct questions answered - 5,949 questions exist, so reading it whole
+//     was ~2,900 reads in practice; hence the top-N query rather than a scan.
 // Both emit identical field names so AdminOverview's tables are agnostic to
 // which one produced them. See CHANGELOG's 2026-08-22 Phase 2 entry.
 
