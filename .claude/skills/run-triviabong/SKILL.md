@@ -147,6 +147,13 @@ public.** They come from `E2E_PASSWORD` and `E2E_PASSWORD_2`.
   account, the exact accumulation problem the fixed accounts exist to
   avoid.
 
+**Rotating these passwords.** The Firebase console can't do it: its only
+option is "Reset password", which emails a link, and `@example.com` is a
+reserved domain that accepts no mail. Use
+`node scripts/rotate-e2e-passwords.mjs` instead — it signs in with the
+current password and calls `updatePassword`, so it needs no
+service-account key. See that file's header for usage.
+
 **Leaves real, permanent Firestore clutter — if run against production.**
 A run creates a `matches/{matchId}` document that **can never be
 deleted** by design (`allow delete: if false` in `firestore.rules` —
