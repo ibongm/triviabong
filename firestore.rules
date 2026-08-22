@@ -275,6 +275,79 @@ service cloud.firestore {
       allow update, delete: if isAdmin();
     }
 
+    // Maintained per-question counters powering the admin Pregled's accuracy
+    // table, kept current incrementally by bumpQuestionStats() on every
+    // logQuestionAttempt. Replaces scanning the whole questionAttempts
+    // collection at read time (one doc per attempt ever, unbounded) with one
+    // bounded doc per question - see CHANGELOG's 2026-08-22 Phase 2 entry.
+    //
+    // Writable by anyone, signed in or not, exactly like questionAttempts
+    // above: the game logs attempts for anonymous play too. The rules below
+    // pin every write to a single +1, and pin wrong == total - correct so a
+    // caller can't desync the pair. That is the ceiling rules can enforce -
+    // a determined caller can still spam *valid* +1 writes to skew a
+    // question's stats or burn write quota, exactly as they can spam
+    // addDoc(questionAttempts) today. App Check is the mitigation for that,
+    // not these rules.
+    match /questionStats/{questionId} {
+      // Public read: the admin panel reads it, and unlike questionAttempts
+      // there is nothing per-player in here - only aggregate counts.
+      allow get, list: if true;
+
+      // isAdmin() bypass: recomputeContentInsightStats() rebuilds these from
+      // the raw questionAttempts collection with absolute values (setDoc, not
+      // increment) so a rebuild corrects drift instead of compounding it -
+      // which by definition can't satisfy the +1 delta rules below.
+      allow create: if isAdmin() || request.resource.data.keys().hasOnly(['categoryId', 'total', 'correct', 'wrong'])
+        && request.resource.data.categoryId is string
+        && request.resource.data.categoryId.size() > 0
+        && request.resource.data.categoryId.size() <= 50
+        && request.resource.data.total == 1
+        && request.resource.data.correct is int
+        && request.resource.data.wrong is int
+        && request.resource.data.correct >= 0
+        && request.resource.data.wrong >= 0
+        && request.resource.data.correct + request.resource.data.wrong == 1;
+
+      allow update: if isAdmin() || request.resource.data.keys().hasOnly(['categoryId', 'total', 'correct', 'wrong'])
+        && request.resource.data.categoryId == resource.data.categoryId
+        && request.resource.data.total == resource.data.total + 1
+        && (request.resource.data.correct == resource.data.correct + 1
+            || request.resource.data.correct == resource.data.correct)
+        && request.resource.data.wrong == request.resource.data.total - request.resource.data.correct;
+
+      allow delete: if isAdmin();
+    }
+
+    // Maintained per-category counters powering the admin Pregled's
+    // popularity table - 8 docs, one per category key, kept current by
+    // bumpCategoryStats() on every logGameResult. Same anonymous-write
+    // reasoning and the same App Check caveat as questionStats above.
+    // totalScore moves by the game's own score, so it's bounded by the same
+    // 0..10000 range gameResults.score already validates.
+    match /categoryStats/{categoryId} {
+      allow get, list: if true;
+
+      // Same isAdmin() rebuild bypass as questionStats above.
+      allow create: if isAdmin() || request.resource.data.keys().hasOnly(['plays', 'totalScore', 'victories'])
+        && request.resource.data.plays == 1
+        && request.resource.data.totalScore is int
+        && request.resource.data.totalScore >= 0
+        && request.resource.data.totalScore <= 10000
+        && request.resource.data.victories is int
+        && request.resource.data.victories >= 0
+        && request.resource.data.victories <= 1;
+
+      allow update: if isAdmin() || request.resource.data.keys().hasOnly(['plays', 'totalScore', 'victories'])
+        && request.resource.data.plays == resource.data.plays + 1
+        && request.resource.data.totalScore >= resource.data.totalScore
+        && request.resource.data.totalScore <= resource.data.totalScore + 10000
+        && (request.resource.data.victories == resource.data.victories + 1
+            || request.resource.data.victories == resource.data.victories);
+
+      allow delete: if isAdmin();
+    }
+
     match /gameResults/{resultId} {
       allow create: if request.resource.data.keys().hasOnly(['uid', 'outcome', 'category', 'score', 'questionsAnswered', 'correctAnswers', 'durationMs', 'createdAt'])
         && request.resource.data.outcome in ['VICTORY', 'GAMEOVER']

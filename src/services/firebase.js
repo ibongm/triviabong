@@ -197,14 +197,39 @@ export const heartbeatSession = async (sessionId, uid, gameStateSeconds) => {
  * never interrupt gameplay.
  */
 export const logQuestionAttempt = async (attempt) => {
-    try {
-        await addDoc(collection(db, 'questionAttempts'), {
+    // Two writes on purpose. The raw questionAttempts doc stays the audit
+    // trail and the source recomputeQuestionStats() rebuilds from; the
+    // questionStats counter is what the admin Pregled actually reads, so that
+    // view costs one bounded doc per question (~1492 ceiling) instead of a
+    // scan over every attempt ever logged. allSettled, not all: one failing
+    // must not suppress the other, and neither may ever throw into gameplay.
+    const results = await Promise.allSettled([
+        addDoc(collection(db, 'questionAttempts'), {
             ...attempt,
             createdAt: serverTimestamp(),
-        });
-    } catch (error) {
-        console.error('Error logging question attempt:', error);
+        }),
+        bumpQuestionStats(attempt),
+    ]);
+    for (const r of results) {
+        if (r.status === 'rejected') console.error('Error logging question attempt:', r.reason);
     }
+};
+
+/**
+ * Increments the maintained questionStats/{questionId} counter. `wrong` is
+ * stored alongside `correct` rather than derived at read time so firestore.rules
+ * can verify the invariant (wrong == total - correct) on every write with plain
+ * integer arithmetic - see that file's questionStats block.
+ */
+const bumpQuestionStats = (attempt) => {
+    if (!attempt?.questionId) return Promise.resolve();
+    const correct = attempt.correct === true;
+    return setDoc(doc(db, 'questionStats', attempt.questionId), {
+        categoryId: attempt.categoryId || 'opca_znanje',
+        total: increment(1),
+        correct: increment(correct ? 1 : 0),
+        wrong: increment(correct ? 0 : 1),
+    }, { merge: true });
 };
 
 /**
@@ -213,14 +238,33 @@ export const logQuestionAttempt = async (attempt) => {
  * fire-and-forget contract as logQuestionAttempt.
  */
 export const logGameResult = async (result) => {
-    try {
-        await addDoc(collection(db, 'gameResults'), {
+    // Same raw-doc + maintained-counter pairing as logQuestionAttempt above.
+    const settled = await Promise.allSettled([
+        addDoc(collection(db, 'gameResults'), {
             ...result,
             createdAt: serverTimestamp(),
-        });
-    } catch (error) {
-        console.error('Error logging game result:', error);
+        }),
+        bumpCategoryStats(result),
+    ]);
+    for (const r of settled) {
+        if (r.status === 'rejected') console.error('Error logging game result:', r.reason);
     }
+};
+
+/**
+ * Increments the maintained categoryStats/{categoryId} counter - 8 docs, one
+ * per category key, replacing the whole gameResults scan on the admin read
+ * path. totalScore accumulates so avgScore stays derivable without keeping
+ * per-game rows.
+ */
+const bumpCategoryStats = (result) => {
+    if (!result?.category) return Promise.resolve();
+    const score = typeof result.score === 'number' ? result.score : 0;
+    return setDoc(doc(db, 'categoryStats', result.category), {
+        plays: increment(1),
+        totalScore: increment(score),
+        victories: increment(result.outcome === 'VICTORY' ? 1 : 0),
+    }, { merge: true });
 };
 
 /**
@@ -396,6 +440,81 @@ export const getAllGameResults = async () => {
         console.error('Error fetching game results:', error);
         return [];
     }
+};
+
+/**
+ * Reads the maintained questionStats counters - the admin Pregled's actual
+ * read path, replacing getAllQuestionAttempts above. Bounded by the number of
+ * questions that have ever been answered (hard ceiling ~1492, the question
+ * count) rather than by how many times they were answered, so unlike the raw
+ * scan this does not grow with playtime.
+ */
+export const getAllQuestionStats = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'questionStats'));
+        return querySnapshot.docs.map(docSnap => ({ questionId: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error('Error fetching question stats:', error);
+        return [];
+    }
+};
+
+/** Reads the maintained categoryStats counters - 8 docs, one per category. */
+export const getAllCategoryStats = async () => {
+    try {
+        const querySnapshot = await getDocs(collection(db, 'categoryStats'));
+        return querySnapshot.docs.map(docSnap => ({ category: docSnap.id, ...docSnap.data() }));
+    } catch (error) {
+        console.error('Error fetching category stats:', error);
+        return [];
+    }
+};
+
+/**
+ * Admin-only escape hatch: rebuilds questionStats/categoryStats from the raw
+ * questionAttempts/gameResults collections via the same unbounded scans that
+ * used to run on every admin page load. Same pattern and rationale as
+ * recomputeRekordiSummary - needed once to backfill history that predates the
+ * counters, and afterwards whenever drift is suspected (a failed counter write
+ * whose raw doc succeeded, or vice versa). Deliberately never automatic.
+ *
+ * Writes with setDoc (absolute values, not increment) so a rebuild corrects
+ * drift rather than compounding it. Batched in chunks of 400 - under
+ * writeBatch's 500-op cap, with headroom.
+ */
+export const recomputeContentInsightStats = async () => {
+    const [attempts, results] = await Promise.all([getAllQuestionAttempts(), getAllGameResults()]);
+
+    const byQuestion = {};
+    for (const a of attempts) {
+        if (!a.questionId) continue;
+        const e = byQuestion[a.questionId] || { categoryId: a.categoryId || 'opca_znanje', total: 0, correct: 0, wrong: 0 };
+        e.total += 1;
+        if (a.correct) e.correct += 1; else e.wrong += 1;
+        byQuestion[a.questionId] = e;
+    }
+
+    const byCategory = {};
+    for (const r of results) {
+        if (!r.category) continue;
+        const e = byCategory[r.category] || { plays: 0, totalScore: 0, victories: 0 };
+        e.plays += 1;
+        e.totalScore += typeof r.score === 'number' ? r.score : 0;
+        if (r.outcome === 'VICTORY') e.victories += 1;
+        byCategory[r.category] = e;
+    }
+
+    const ops = [
+        ...Object.entries(byQuestion).map(([id, data]) => [doc(db, 'questionStats', id), data]),
+        ...Object.entries(byCategory).map(([id, data]) => [doc(db, 'categoryStats', id), data]),
+    ];
+    for (let i = 0; i < ops.length; i += 400) {
+        const batch = writeBatch(db);
+        for (const [ref, data] of ops.slice(i, i + 400)) batch.set(ref, data);
+        await batch.commit();
+    }
+
+    return { questions: Object.keys(byQuestion).length, categories: Object.keys(byCategory).length };
 };
 
 /**

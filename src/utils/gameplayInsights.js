@@ -1,9 +1,16 @@
 // Pure aggregation logic for the admin Pregled/Overview content-insights
 // tables - no Firebase/React imports, mirrors sessionStats.js's separation.
-// Aggregates at READ time over every questionAttempts/gameResults doc
-// (fetched via getAllQuestionAttempts/getAllGameResults), consistent with
-// the beta-scale "no precomputed counters" design used throughout this
-// feature set.
+//
+// Two paths into the same output shape:
+//   - summarizeQuestionAccuracy / summarizeCategoryPopularity fold the RAW
+//     questionAttempts/gameResults docs. Unbounded (one doc per question ever
+//     answered / game ever played), so these are no longer on the admin read
+//     path - they now serve only the admin-only recompute* rebuilds.
+//   - *FromStats below read the maintained questionStats/categoryStats
+//     counters instead, which are bounded by question count (~1492) and
+//     category count (8) and never grow with playtime.
+// Both emit identical field names so AdminOverview's tables are agnostic to
+// which one produced them. See CHANGELOG's 2026-08-22 Phase 2 entry.
 
 /**
  * Per-question accuracy, sorted worst-first (ascending accuracy) so the
@@ -54,3 +61,43 @@ export const summarizeCategoryPopularity = (gameResults) => {
         }))
         .sort((a, b) => b.plays - a.plays);
 };
+
+/**
+ * Same output as summarizeQuestionAccuracy, but from maintained
+ * questionStats/{questionId} counter docs ({ categoryId, total, correct,
+ * wrong }) rather than raw attempt rows. Questions with total === 0 are
+ * dropped rather than shown as 0% - a counter doc can exist at zero after a
+ * recompute over an empty range, and "0% correct, 0 attempts" would read as a
+ * broken question rather than an unplayed one.
+ */
+export const summarizeQuestionAccuracyFromStats = (stats, questionText = {}) =>
+    (stats || [])
+        .filter((s) => s && s.questionId && (s.total || 0) > 0)
+        .map((s) => ({
+            questionId: s.questionId,
+            categoryId: s.categoryId,
+            totalAttempts: s.total,
+            correctCount: s.correct || 0,
+            question: questionText[s.questionId] || s.questionId,
+            accuracy: (s.correct || 0) / s.total,
+        }))
+        .sort((a, b) => a.accuracy - b.accuracy);
+
+/**
+ * Same output as summarizeCategoryPopularity, but from maintained
+ * categoryStats/{categoryId} counter docs ({ plays, totalScore, victories }).
+ * The doc id is the category key, so callers pass it through as `category` to
+ * match the raw-path field name the table renders.
+ */
+export const summarizeCategoryPopularityFromStats = (stats) =>
+    (stats || [])
+        .filter((s) => s && s.category && (s.plays || 0) > 0)
+        .map((s) => ({
+            category: s.category,
+            plays: s.plays,
+            totalScore: s.totalScore || 0,
+            victories: s.victories || 0,
+            avgScore: Math.round((s.totalScore || 0) / s.plays),
+            winRate: (s.victories || 0) / s.plays,
+        }))
+        .sort((a, b) => b.plays - a.plays);

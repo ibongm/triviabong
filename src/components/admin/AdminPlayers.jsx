@@ -6,6 +6,7 @@ import { evaluateAchievements, mergeUnlockedAchievements, revokeStaleAchievement
 import { ACHIEVEMENTS } from '../../constants/achievements';
 import AdminPlayerDetail from './AdminPlayerDetail';
 import { getCachedAdminData, setCachedAdminData } from '../../utils/adminDataCache';
+import { loadCachedAdminSection, saveCachedAdminSection, clearCachedAdminSection } from '../../utils/adminSectionCache';
 
 const USERS_CACHE_KEY = 'players.users';
 // sessions is the single fastest-growing, most expensive full-collection
@@ -36,8 +37,24 @@ const COLUMNS = [
 ];
 
 export default function AdminPlayers() {
+    // users stays in-memory-cached only, deliberately: it's bounded by
+    // registered-player count (tens), and its docs carry Firestore Timestamps
+    // (lastLogin, read through toMillis below) which JSON.stringify turns into
+    // plain { seconds, nanoseconds } - toMillis would then read them as 0 and
+    // the "Zadnja aktivnost" column would silently sort and render as "—".
+    // Not worth normalizing for a scan this cheap.
     const cachedUsers = getCachedAdminData(USERS_CACHE_KEY);
-    const cachedTotalTime = getCachedAdminData(SESSIONS_CACHE_KEY);
+    // sessions IS worth persisting across reloads: it's the fastest-growing,
+    // most expensive scan in the panel (one doc per play session, forever),
+    // and what's cached is the already-summarized { daily, weekly, all } map
+    // of uid -> seconds - plain numbers, so it survives the JSON round-trip
+    // cleanly. Read and mirror into the in-memory cache synchronously during
+    // render (same pattern as AdminOverview) so a hit never needs a setState
+    // inside the effect.
+    const memoTotalTime = getCachedAdminData(SESSIONS_CACHE_KEY);
+    const persistedTotalTime = !memoTotalTime ? loadCachedAdminSection(SESSIONS_CACHE_KEY) : null;
+    if (persistedTotalTime && !memoTotalTime) setCachedAdminData(SESSIONS_CACHE_KEY, persistedTotalTime);
+    const cachedTotalTime = memoTotalTime ?? persistedTotalTime;
     const [users, setUsers] = useState(cachedUsers ?? []);
     const [loading, setLoading] = useState(!cachedUsers);
     const [usersMessage, setUsersMessage] = useState(null);
@@ -80,6 +97,10 @@ export default function AdminPlayers() {
         };
         setTotalTimeByUid(totals);
         setCachedAdminData(SESSIONS_CACHE_KEY, totals);
+        // Persisted with a 15-min TTL, so just after midnight the "Danas"
+        // column can briefly still show yesterday's figure; "🔄 Osvježi"
+        // clears it on demand.
+        saveCachedAdminSection(SESSIONS_CACHE_KEY, totals);
     };
 
     useEffect(() => {
@@ -98,6 +119,10 @@ export default function AdminPlayers() {
     }, []);
 
     const handleRefresh = () => {
+        // Drop the persisted sessions entry first: fetchTotalTime overwrites
+        // it on success, but a failed fetch must not leave behind the stale
+        // value the admin just asked to replace.
+        clearCachedAdminSection(SESSIONS_CACHE_KEY);
         fetchUsers();
         fetchTotalTime();
     };

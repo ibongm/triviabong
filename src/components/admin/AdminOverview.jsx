@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { getAllQuestionAttempts, getAllGameResults } from '../../services/firebase';
-import { summarizeQuestionAccuracy, summarizeCategoryPopularity } from '../../utils/gameplayInsights';
+import { getAllQuestionStats, getAllCategoryStats, recomputeContentInsightStats } from '../../services/firebase';
+import { summarizeQuestionAccuracyFromStats, summarizeCategoryPopularityFromStats } from '../../utils/gameplayInsights';
 import { getAllCategoryPacks } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 import { getCachedAdminData, setCachedAdminData, clearCachedAdminData } from '../../utils/adminDataCache';
-import { loadCachedAdminOverview, saveCachedAdminOverview } from '../../utils/adminOverviewCache';
+import { loadCachedAdminSection, saveCachedAdminSection, clearCachedAdminSection } from '../../utils/adminSectionCache';
 
 const CACHE_KEY = 'overview';
 
@@ -13,7 +13,7 @@ export default function AdminOverview() {
     // Read (and, on a hit, mirror into the in-memory cache) synchronously
     // during render rather than in the effect below, so a cache hit never
     // needs a setState call inside the effect - see that effect's comment.
-    const localCached = !cached ? loadCachedAdminOverview() : null;
+    const localCached = !cached ? loadCachedAdminSection(CACHE_KEY) : null;
     if (localCached && !cached) setCachedAdminData(CACHE_KEY, localCached);
     const initialData = cached ?? localCached;
     const [popularity, setPopularity] = useState(initialData?.popularity ?? []);
@@ -24,7 +24,7 @@ export default function AdminOverview() {
     // fetch, stores it in both caches, and updates state - kept separate
     // from fetchData so a localStorage cache hit can populate state without
     // ever calling Firestore.
-    const computeAndStore = (attempts, results, packs) => {
+    const computeAndStore = (questionStats, categoryStats, packs) => {
         // id -> question text, built from the raw per-category packs (not
         // getAllQuestions(), which dedupes by normalized text and could drop
         // an id if another category's question happens to read identically).
@@ -34,17 +34,17 @@ export default function AdminOverview() {
                 map[q.id] = q.question;
             }
         }
-        const acc = summarizeQuestionAccuracy(attempts, map);
-        const pop = summarizeCategoryPopularity(results);
+        const acc = summarizeQuestionAccuracyFromStats(questionStats, map);
+        const pop = summarizeCategoryPopularityFromStats(categoryStats);
         setAccuracy(acc);
         setPopularity(pop);
         setLoading(false);
         setCachedAdminData(CACHE_KEY, { popularity: pop, accuracy: acc });
-        saveCachedAdminOverview({ popularity: pop, accuracy: acc });
+        saveCachedAdminSection(CACHE_KEY, { popularity: pop, accuracy: acc });
     };
 
     const fetchData = async (cancelledRef) => {
-        const [a, r, packs] = await Promise.all([getAllQuestionAttempts(), getAllGameResults(), getAllCategoryPacks()]);
+        const [a, r, packs] = await Promise.all([getAllQuestionStats(), getAllCategoryStats(), getAllCategoryPacks()]);
         if (cancelledRef?.current) return;
         computeAndStore(a, r, packs);
     };
@@ -54,14 +54,15 @@ export default function AdminOverview() {
         // this admin session (in-memory cache) or within the last 15 minutes
         // on this device (localStorage cache) - both already seeded this
         // component's initial state above, so there's nothing left to do
-        // here. AdminPanel unmounts/remounts sections on every tab switch,
-        // and questionAttempts/gameResults are unbounded, ever-growing
-        // collections (one doc per question answered / game played, across
-        // all players), so without these two caches every revisit - whether
-        // a tab switch or a full page reload - would re-scan both
-        // collections from scratch. A single debugging session with a
-        // handful of page reloads drove a ~46k read spike this way; see
-        // CHANGELOG.md's 2026-08-20 admin-overview entry.
+        // here. AdminPanel unmounts/remounts sections on every tab switch, so
+        // without these two caches every revisit - a tab switch or a full page
+        // reload - would re-read from scratch.
+        // These now read the maintained questionStats/categoryStats counters,
+        // bounded by question count (~1492) and category count (8), NOT the
+        // unbounded questionAttempts/gameResults scans that drove the ~46k
+        // spike in CHANGELOG.md's 2026-08-20 entry and the 6,474 one on
+        // 2026-08-22. The caches therefore now save a bounded cost rather than
+        // being the only thing between an admin refresh and the daily quota.
         if (initialData) return;
         const cancelledRef = { current: false };
         fetchData(cancelledRef);
@@ -70,9 +71,45 @@ export default function AdminOverview() {
     }, []);
 
     const handleRefresh = () => {
+        // Clear BOTH caches, not just the in-memory one - fetchData() does
+        // overwrite both on success, but if it throws (offline, rules error)
+        // a stale persisted entry would otherwise survive the refresh the
+        // admin just asked for.
         clearCachedAdminData(CACHE_KEY);
+        clearCachedAdminSection(CACHE_KEY);
         setLoading(true);
         fetchData();
+    };
+
+    // Rebuild the maintained counters from the raw questionAttempts/gameResults
+    // collections. Deliberately manual and confirm-gated: it runs exactly the
+    // unbounded scans this whole change exists to keep off the read path, so
+    // it's for backfilling history that predates the counters, or correcting
+    // drift - never routine. Mirrors handleRecomputeRekordiSummary in
+    // AdminLeaderboardsProfiles, including that window.confirm blocks the page
+    // (and any attached browser-automation session) until dismissed by hand.
+    const [rebuildBusy, setRebuildBusy] = useState(false);
+    const [rebuildMessage, setRebuildMessage] = useState(null);
+
+    const handleRebuildStats = async () => {
+        if (rebuildBusy) return;
+        if (!window.confirm('Ponovno izgraditi statistiku pitanja i kategorija skeniranjem svih zabilježenih pokušaja i partija? Ovo je skupa operacija - koristite je samo za prvo popunjavanje ili ako brojači odstupaju.')) return;
+
+        setRebuildBusy(true);
+        setRebuildMessage(null);
+        try {
+            const { questions, categories } = await recomputeContentInsightStats();
+            clearCachedAdminData(CACHE_KEY);
+            clearCachedAdminSection(CACHE_KEY);
+            setLoading(true);
+            await fetchData();
+            setRebuildMessage({ type: 'success', text: `Statistika obnovljena (${questions} pitanja, ${categories} kategorija).` });
+        } catch (err) {
+            console.error('Greška pri obnovi statistike:', err);
+            setRebuildMessage({ type: 'error', text: 'Obnova nije uspjela.' });
+        } finally {
+            setRebuildBusy(false);
+        }
     };
 
     const categoryLabel = (key) => CATEGORY_META[key]?.label || key;
@@ -87,7 +124,16 @@ export default function AdminOverview() {
 
     return (
         <div className="space-y-8">
-            <div className="flex justify-end">
+            <div className="flex justify-end gap-2">
+                <button
+                    type="button"
+                    onClick={handleRebuildStats}
+                    disabled={rebuildBusy}
+                    title="Ponovno izgradi brojače statistike skeniranjem svih zabilježenih pokušaja i partija (skupo - samo za popunjavanje ili ispravak odstupanja)"
+                    className="text-xs text-emerald-400 hover:text-emerald-300 border border-emerald-500/30 hover:border-emerald-500/50 rounded-lg px-3 py-1.5 disabled:opacity-40"
+                >
+                    {rebuildBusy ? 'Obnavljanje...' : 'Rekonstruiraj statistiku'}
+                </button>
                 <button
                     type="button"
                     onClick={handleRefresh}
@@ -96,6 +142,11 @@ export default function AdminOverview() {
                     🔄 Osvježi
                 </button>
             </div>
+            {rebuildMessage && (
+                <div className={`text-sm rounded-lg p-3 ${rebuildMessage.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
+                    {rebuildMessage.text}
+                </div>
+            )}
             {/* Category popularity */}
             <div className="bg-[#121824] border border-slate-800 rounded-2xl p-6">
                 <h2 className="text-lg font-semibold text-amber-400 mb-1 flex items-center gap-2">
