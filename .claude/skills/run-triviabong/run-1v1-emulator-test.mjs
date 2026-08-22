@@ -10,6 +10,10 @@ if (!fs.existsSync(VIDEO_DIR)) {
 }
 
 const id = Date.now().toString().slice(-6);
+// Exempt from e2eCredentials.mjs on purpose: these emails are generated fresh
+// per run and only ever exist inside the emulator, so there's no real account
+// and nothing to keep out of the repo. Routing them through the shared
+// resolver would imply a secret that doesn't exist.
 const P1 = { email: `p1_${id}@test.com`, password: 'Password123!' };
 const P2 = { email: `p2_${id}@test.com`, password: 'Password123!' };
 

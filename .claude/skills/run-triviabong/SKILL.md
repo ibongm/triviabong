@@ -121,11 +121,31 @@ two real uids writing into the same shared doc is the highest-risk
 surface in the whole app.
 
 **Second fixed account.** Same reasoning as `BongBotTest` (see the
-cross-device section above) — `BongBotTest2` (12 characters) is a
-second **permanent**, reused account, not a per-run throwaway.
-Credentials are in the script itself (`bongbottest2@example.com` /
-`BongBotTest2123!`); registered automatically on first run against a
-project, same login-or-register fallback as `BongBotTest`.
+cross-device section above) — `BongBotTest2` (`bongbottest2@example.com`,
+12 characters) is a second **permanent**, reused account, not a per-run
+throwaway. Registered automatically on first run against a project, same
+login-or-register fallback as `BongBotTest`.
+
+## Credentials
+
+Emails live in `e2eCredentials.mjs`; **passwords do not — this repo is
+public.** They come from `E2E_PASSWORD` and `E2E_PASSWORD_2`.
+
+- **Emulator runs need no configuration.** With no URL argument (the CI
+  path) the scripts target `localhost` and fall back to a dummy password.
+  Emulator state is wiped between runs, so the register-on-first-use path
+  handles it.
+- **Against a real project, both vars are required:**
+
+  ```bash
+  E2E_PASSWORD=... E2E_PASSWORD_2=... node two-player-match-check.mjs https://triviabong.vercel.app
+  ```
+
+  Without them the script **exits before opening a browser**. That guard
+  is deliberate: `signIn()` is login-*or-register*, so a missing password
+  against production wouldn't fail — it would quietly create a junk
+  account, the exact accumulation problem the fixed accounts exist to
+  avoid.
 
 **Leaves real, permanent Firestore clutter — if run against production.**
 A run creates a `matches/{matchId}` document that **can never be

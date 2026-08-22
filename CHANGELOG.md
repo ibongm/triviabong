@@ -1,5 +1,20 @@
 # Changelog
 
+### [2026-08-22] - Move E2E account passwords out of the public repo, and refuse to guess them
+- **Files Changed**:
+  - `.claude/skills/run-triviabong/e2eCredentials.mjs` (Created)
+  - `.claude/skills/run-triviabong/two-player-match-check.mjs` (Modified)
+  - `.claude/skills/run-triviabong/cross-device-sync-check.mjs` (Modified)
+  - `.claude/skills/run-triviabong/run-1v1-emulator-test.mjs` (Modified, comment only)
+  - `.claude/skills/run-triviabong/SKILL.md` (Modified)
+- **Details**:
+  - This repo is **public** (`githubRepoVisibility: public`), and the passwords for the two shared E2E accounts on live Firebase Auth were committed in plaintext in both driver scripts and spelled out in `SKILL.md`. Passwords now come from `E2E_PASSWORD` / `E2E_PASSWORD_2`; the emails stay in source, since they're `@example.com` identifiers the scripts assert on rather than secrets.
+  - **The guard matters more than the move.** `signIn()` is login-*or-register*: against a real project a wrong or missing password doesn't fail, it quietly creates a new account - precisely the junk-account accumulation CLAUDE.md already records (generated names breaching the 20-char `displayName` cap and silently breaking the admin "Popuni sve profile" backfill). `e2eCredentials.mjs` therefore **throws before a browser is opened** when the target isn't localhost and the vars are unset, naming the missing one.
+  - **CI and emulator runs stay zero-config.** Both workflows invoke the scripts with no URL argument, so they default to `http://localhost:5173`; a localhost target with no env vars falls back to an obviously-fake constant, and since emulator state is wiped per run the existing register-on-first-use path handles it. No GitHub secret needed.
+  - `run-1v1-emulator-test.mjs` is deliberately exempt and now says why: its emails are generated per run and only ever exist in the emulator, so routing them through the resolver would imply a secret that doesn't exist.
+  - **Still requires the user:** rotating both passwords in Firebase Auth. Moving them out of the repo achieves nothing while the old ones still work, and the old values remain in git history regardless - rewriting history on a public repo is disruptive and incomplete (forks, caches, GitHub's own copies), so **rotation is the remedy, not scrubbing**.
+  - Verification: guard confirmed - both scripts exit 1 immediately against `https://triviabong.vercel.app` with no env vars, without launching a browser or touching production. Zero-config emulator path re-run end to end: `cross-device-sync-check` and `two-player-match-check` both **ALL PASSED** with 0 console errors, the latter with both clients agreeing on the final score (960—960) and complementary outcomes. `grep` confirms zero occurrences of either old password anywhere in the repo. 178 unit tests pass; lint unchanged at its pre-existing baseline (no app code touched).
+
 ### [2026-08-22] - Filter presence reads, move play-time onto user docs, TTL the transient collections
 - **Files Changed**:
   - `src/services/firebase.js` (Modified)

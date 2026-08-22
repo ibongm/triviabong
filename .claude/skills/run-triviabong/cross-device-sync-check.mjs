@@ -22,10 +22,13 @@
 //
 // Usage: node cross-device-sync-check.mjs [url]
 import { chromium } from 'playwright';
+import { resolvePrimaryCredentials } from './e2eCredentials.mjs';
 
 const URL = process.argv[2] || 'http://localhost:5173';
-const EMAIL = 'bongbottest@example.com';
-const PASSWORD = 'BongBotTest123!';
+// Resolved after URL so the guard can see the target: a non-local run without
+// E2E_PASSWORD throws here, before a browser is opened, rather than letting the
+// register fallback below mint a junk production account.
+const { email: EMAIL, password: PASSWORD } = resolvePrimaryCredentials(URL);
 
 function clickText(page, text) {
   return page.evaluate((t) => {

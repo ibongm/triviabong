@@ -27,12 +27,15 @@
 //
 // Usage: node two-player-match-check.mjs [url] [category]
 import { chromium } from 'playwright';
+import { resolveBothCredentials } from './e2eCredentials.mjs';
 
 const URL = process.argv[2] || 'http://localhost:5173';
 const CATEGORY_LABEL = process.argv[3] || 'Geografija';
 
-const P1 = { email: 'bongbottest@example.com', password: 'BongBotTest123!' };
-const P2 = { email: 'bongbottest2@example.com', password: 'BongBotTest2123!' };
+// Resolved after URL so the guard can see the target: a non-local run without
+// E2E_PASSWORD/E2E_PASSWORD_2 throws here, before a browser is opened, rather
+// than letting signIn()'s register fallback mint a junk production account.
+const { p1: P1, p2: P2 } = resolveBothCredentials(URL);
 
 function clickText(page, text) {
   return page.evaluate((t) => {
