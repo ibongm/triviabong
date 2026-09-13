@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.triviabong.twa",
+        "sha256_cert_fingerprints": ["90:3C:91:85:28:99:86:D7:10:4A:10:70:3D:70:21:B1:71:77:35:80:3C:46:20:93:E1:76:E6:FE:4B:CE:4F:A6"]
+      }
+    }]

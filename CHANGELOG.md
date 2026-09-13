@@ -1,5 +1,23 @@
 # Changelog
 
+### [2026-09-13] - Add PWA support and update favicon
+- **Files Changed**:
+  - `index.html` (Modified)
+  - `public/manifest.json` (Created)
+  - `public/icon-192.png` (Created)
+  - `public/icon-512.png` (Created)
+  - `public/screenshot-desktop.png` (Created)
+  - `public/screenshot-mobile .png` (Created)
+  - `Plan1.txt` (Created)
+  - `.gitignore` (Modified)
+- **Details**:
+  - Switched favicon from SVG to PNG (`icon-192.png`) and added `<link rel="manifest">` to `index.html`
+  - Added `public/manifest.json` for PWA configuration
+  - Added 192×192 and 512×512 PWA icons
+  - Added desktop and mobile PWA screenshots
+  - Added `Plan1.txt` planning document
+  - Updated `.gitignore` to exclude `/.agent/`, `/.agents/`, and `/scratch/` directories from version control
+
 ### [2026-08-22] - Fix 1v1 duels ignoring the chosen category
 - **Files Changed**:
   - `src/utils/matchQuestions.js` (Modified)
