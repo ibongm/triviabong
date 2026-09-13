@@ -1,0 +1,252 @@
+
+● Based on what's actually in the code, here's where your Firebase quota goes
+  and what you can cut:
+
+  Biggest ongoing cost — presence & session heartbeats (writes, continuous, per 
+  active user):
+  - usePresence.js writes to presence/{uid} every 30s for every signed-in tab
+  with document.visibilityState === 'visible' (src/hooks/usePresence.js:41-45),
+  plus an extra write on every status change.
+  - useSessionTracking.js does the same — a separate 30s heartbeat write per
+  signed-in user (src/hooks/useSessionTracking.js:82-91).
+  - That's 2 writes/minute per active player, all day, whether or not anyone's
+  watching the online list.
+
+  Read multiplier — the presence listener:
+  - OnlinePlayersList.jsx and useOneVsOne.js subscribe with onSnapshot to the
+  entire presence collection. Every heartbeat write from any online player fans
+  out as a read to every other client currently viewing that list. With even a
+  handful of concurrent users this compounds fast (N writers × M listeners).
+
+  Options, roughly by effort:
+  1. Lengthen the heartbeat interval (30s → 60-120s) in both usePresence.js and
+  useSessionTracking.js — quota drops proportionally, "online" just looks
+  slightly less real-time.
+  2. Only mount usePresence/useSessionTracking when a feature actually needs 
+  them — e.g. skip presence entirely for anonymous/guest sessions if presence is
+  only meant for signed-in social features, and don't run the presence listener
+  (OnlinePlayersList) unless the lobby's online-players UI is actually
+  visible/expanded, instead of subscribing globally whenever any signed-in user
+  is present.
+  3. Merge the two heartbeats into one — presence and session-tracking are
+  separate 30s writes to separate documents from the same client; combining them
+  into a single write (or driving session tracking off the presence write
+  instead of its own timer) halves this cost.
+  4. Scope the presence query instead of listening to the whole collection —
+  e.g. only fetch/listen to presence docs updated within the last N minutes (a
+  Firestore query with a where('lastHeartbeat', '>', ...) bound), so stale/idle
+  docs don't get re-read on every snapshot.
+  5. Not code — Firestore usage dashboard (Firebase Console → Usage) will show
+  you which collection is actually driving reads/writes so you're not guessing;
+  presence/session are my best read of the code, but worth confirming against
+  real numbers before optimizing.
+
+  If you want, I can turn any of these (interval bump is the safest low-risk
+  one) into an actual implementation plan.
+
+✻ Churned for 56s
+
+❯ /model                                                                        
+  ⎿  Set model to Sonnet 5 and saved as your default for new sessions
+
+❯ Write a plan for 2, 3, 4 and 5                                                
+
+  Searched for 4 patterns, read 4 files (ctrl+o to expand)
+
+● User answered Claude's questions:
+  ⎿  · Digging into the code, item 3 ("merge the two heartbeats") doesn't hold 
+     up as I framed it: presence and session-tracking write to different 
+     Firestore documents for different consumers (public online-list vs 
+     admin-only analytics), so combining them into one write isn't really 
+     possible - the only real lever for those two is raising both intervals 
+     (e.g. 30s → 60-90s), which cuts write volume proportionally without 
+     literally merging anything. Want that instead? → First explain me how it 
+     would affect players if we raise both heartbeats?
+     · For item 4 (scoping the presence query to reduce reads): the code already
+     has a comment explaining the team deliberately rejected a 
+     where('lastHeartbeat', '>', ...) query filter as "no real benefit at beta 
+     scale" - the moving-threshold value would need a composite index and 
+     client-side filtering already does the job cheaply at current player 
+     counts. Still want this built now, or hold off? → Hold off - not worth it 
+     yet (Recommended)
+
+● Two different heartbeats, two different player-facing effects:
+
+  Presence heartbeat (usePresence.js) — affects the "online players" list others
+  see:
+  - The keep-alive write itself is invisible to players — it's just "I'm still
+  here."
+  - What players do notice: OnlinePlayersList.jsx has ONLINE_THRESHOLD_MS = 
+  90000 (hardcoded 3× the current 30s interval — explicitly "tolerates one
+  missed heartbeat before a player drops off the list"). If I bump the interval
+  to, say, 60s without also raising this threshold, a still-active player could
+  flicker to "offline" between heartbeats (90s window < 2×60s). So the two have
+  to move together — e.g. 60s heartbeat + 180s threshold, or 90s heartbeat +
+  270s threshold.
+  - Net effect: a player who closes the tab or goes idle takes longer to
+  disappear from other players' online list — up to ~3 minutes of "ghost"
+  presence instead of ~1.5 minutes today. Nothing worse than that; it's purely
+  cosmetic staleness in a list.
+  - Important: this does not affect responsiveness of a status change (e.g.
+  going from "lobby" to "playing" when someone starts a round) — usePresence.js
+  fires an immediate write on every status change, independent of the heartbeat
+  timer. So starting a match still shows up instantly for everyone else; only
+  the "did they vanish" detection gets slower.
+  - No effect at all on 1v1 invites — those use a separate, dedicated
+  subscribeToIncomingInvites listener, not presence.
+
+  Session-tracking heartbeat (useSessionTracking.js) — admin-only, zero 
+  player-visible effect:
+  - Purely feeds an internal beta-insights dashboard (time spent per game
+  state). Players never see this.
+  - The only downside of a longer interval: if a tab crashes ungracefully (not a
+  normal close — visibilitychange already flushes on tab-hide/backgrounding,
+  which covers the common case) between heartbeats, up to one interval's worth
+  of that session's elapsed-time data is lost from the admin dashboard. A longer
+  interval just widens that already-narrow crash window slightly. Nothing a
+  player would ever notice.
+
+  So: presence has a real (small, cosmetic) trade-off — staler "who's online"
+  detection; session-tracking has essentially none. Want me to go with something
+  like 60s presence / 90s session (roughly doubling both), or a different
+  number?
+
+✻ Crunched for 1m 54s
+
+※ recap: You've been reducing Firebase quota usage in triviabong. I explained the tradeoffs of raising presence/session heartbeat intervals; next I need your call on specific interval values (e.g. 60s/90s) before writing the plan. (disable recaps in /config)
+
+❯ Plan as you suggested                                                         
+
+  Searched for 2 patterns, read 1 file (ctrl+o to expand)
+
+● Updated plan
+  ⎿  /plan to preview  ⎿  User rejected Claude's plan:
+     ╭─────────────────────────────────────────────────────────────────────────╮
+     │ Reduce Firebase quota usage: heartbeat intervals + scoped presence      │
+     │ listener                                                                │
+     │                                                                         │
+     │ Context                                                                 │
+     │                                                                         │
+     │ The user is watching Firestore quota usage (Spark/free-plan concerns    │
+     │ noted                                                                   │
+     │ elsewhere in the project). Investigation found two continuous per-user  │
+     │ write                                                                   │
+     │ loops and one read-heavy listener that runs more broadly than it needs  │
+     │ to:                                                                     │
+     │                                                                         │
+     │ - usePresence.js writes presence/{uid} every 30s for every signed-in    │
+     │ tab                                                                     │
+     │ (plus on every status change) — powers the public "online players"      │
+     │ list.                                                                   │
+     │ - useSessionTracking.js writes a sessions/{sessionId} heartbeat every   │
+     │ 30s                                                                     │
+     │ for every signed-in user — admin-only beta-insights time tracking,      │
+     │ never                                                                   │
+     │ seen by players.                                                        │
+     │ - useOneVsOne.js opens a single shared onSnapshot listener on the       │
+     │ entire                                                                  │
+     │ presence collection for the whole time a user is signed in, even though │
+     │ both of its consumers (LobbyScreen's online-count CTA and               │
+     │ OnlinePlayersModal) are only reachable from the Lobby screen —          │
+     │ confirmed                                                               │
+     │ via grep: onlinePlayersCount/onlinePlayers are read only in             │
+     │ LobbyScreen.jsx and the OnlinePlayersModal that LobbyScreen opens.      │
+     │                                                                         │
+     │ Two other ideas from the earlier discussion were explicitly ruled out   │
+     │ for                                                                     │
+     │ now: query-scoping the presence read (where('lastHeartbeat', '>', ...)) │
+     │ —                                                                       │
+     │ the code already documents why this was rejected ("no real benefit at   │
+     │ beta                                                                    │
+     │ scale", needs a composite index) — and a literal "merge" of the two     │
+     │ heartbeats, which isn't possible since they write different documents   │
+     │ for                                                                     │
+     │ different consumers; raising both intervals is the real lever there.    │
+     │                                                                         │
+     │ Player-facing trade-off (already discussed and accepted): a             │
+     │ departed/idle                                                           │
+     │ player will take longer to drop off other players' online list (~3 min  │
+     │ instead of ~1.5 min with the chosen numbers below). Status changes      │
+     │ (e.g.                                                                   │
+     │ going "playing") still write immediately, unaffected by heartbeat       │
+     │ cadence.                                                                │
+     │ Session-tracking has no player-visible effect at all.                   │
+     │                                                                         │
+     │ Changes                                                                 │
+     │                                                                         │
+     │ 1. src/hooks/usePresence.js                                             │
+     │ - Bump HEARTBEAT_INTERVAL_MS from 30000 to 60000.                       │
+     │                                                                         │
+     │ 2. src/components/OnlinePlayersList.jsx                                 │
+     │ - Bump ONLINE_THRESHOLD_MS from 90000 to 180000, keeping the existing   │
+     │ "3× the heartbeat interval, tolerates one missed beat" comment/ratio in │
+     │ sync with the new 60s presence interval.                                │
+     │                                                                         │
+     │ 3. src/hooks/useSessionTracking.js                                      │
+     │ - Bump HEARTBEAT_INTERVAL_MS from 30000 to 90000. No player-visible     │
+     │ effect (admin-only); can move further than presence since the only cost │
+     │ is                                                                      │
+     │ slightly coarser admin dashboard data on an ungraceful tab crash.       │
+     │                                                                         │
+     │ 4. src/hooks/useOneVsOne.js                                             │
+     │ - Add a gameState parameter to useOneVsOne(currentUser, setGlobalStats, │
+     │ recordMatchComplete, gameState).                                        │
+     │ - Change the subscribeToOnlinePlayers effect's condition from           │
+     │ if (!currentUser?.uid) return undefined; to also require                │
+     │ gameState === 'LOBBY', and add gameState to its dependency array, so    │
+     │ the listener subscribes only while the player is actually on the Lobby  │
+     │ screen and unsubscribes (existing cleanup already resets onlinePlayers  │
+     │ to null/count to 0) the moment they navigate away — mirroring the       │
+     │ cleanup that already runs on sign-out.                                  │
+     │ - Update the hook's leading comment block (currently describes the      │
+     │ subscription as shared/single but not screen-scoped) to note the new    │
+     │ Lobby-only condition.                                                   │
+     │                                                                         │
+     │ 5. src/App.jsx                                                          │
+     │ - Update the call site (useOneVsOne(currentUser, setGlobalStats,        │
+     │ recordMatchComplete)                                                    │
+     │ around line 325) to pass gameState (already defined at line 104, well   │
+     │ before this call) as the new fourth argument.                           │
+     │                                                                         │
+     │ 6. CHANGELOG.md                                                         │
+     │ - Log the change per the project's mandatory changelog convention       │
+     │ (files                                                                  │
+     │ touched, why, and the accepted player-facing staleness trade-off).      │
+     │                                                                         │
+     │ Out of scope (explicitly deferred per discussion)                       │
+     │                                                                         │
+     │ - Query-filtering the presence collection read (where('lastHeartbeat',  │
+     │ '>', ...)).                                                             │
+     │ - Anything for matches.js's in-match heartbeat (heartbeatMatch, 1s tick │
+     │ in                                                                      │
+     │ MatchView.jsx) — that's an active 1v1 match in progress, a different    │
+     │ cost/benefit than idle-lobby presence, and wasn't part of this          │
+     │ discussion.                                                             │
+     │                                                                         │
+     │ Verification                                                            │
+     │                                                                         │
+     │ - npm run dev, sign in as one account, confirm the app still            │
+     │ loads/plays                                                             │
+     │ normally (presence write still happens on sign-in/status change,        │
+     │ unaffected                                                              │
+     │ by the interval bump).                                                  │
+     │ - Open two browser profiles/sessions signed in as different accounts;   │
+     │ on the                                                                  │
+     │ Lobby screen, confirm each sees the other in the "Online igrači" list   │
+     │ and                                                                     │
+     │ the CTA count on LobbyScreen. Navigate one away from Lobby (e.g. into a │
+     │ category leaderboard or a round) and confirm the other account's        │
+     │ listener                                                                │
+     │ is unaffected (it's still on Lobby) — this exercises the new gating     │
+     │ without                                                                 │
+     │ needing to wait out a full heartbeat cycle.                             │
+     │ - Run .claude/skills/run-triviabong/two-player-match-check.mjs (via the │
+     │ run-triviabong skill, against the Firebase Emulator Suite per           │
+     │ CLAUDE.md) to confirm the 1v1 invite/match flow — which depends on      │
+     │ presence status showing 'lobby' correctly — still passes with the       │
+     │ longer                                                                  │
+     │ heartbeat interval.                                                     │
+     │ - npm test and npm run lint (existing suite; no logic under test here,  │
+     │ just confirms nothing else broke).                                      │
+     ╰─────────────────────────────────────────────────────────────────────────╯
+
