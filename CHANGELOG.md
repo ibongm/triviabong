@@ -1,5 +1,12 @@
 # Changelog
 
+### [2026-10-02] - Surface failed score saves + auto-retry
+- **Files Changed**:
+  - `src/hooks/useScoreSaving.js` (Modified)
+- **Details**:
+  - `saveScore` and `submitDaily` now rethrow after logging/rolling back, instead of swallowing the error. Previously a failed save left GameOverScreen on "Spremanje rezultata..." forever, because the auto-save effect's `catch` (which sets `autoSaveFailed`) and the retry button's `.catch` never fired. Found after a 10/10 Geografija victory (5132) never reached the leaderboard.
+  - Added one automatic retry (after `SAVE_RETRY_DELAY_MS` = 1500ms) of the leaderboard write before reporting failure.
+
 ### [2026-09-13] - Add PWA support and update favicon
 - **Files Changed**:
   - `index.html` (Modified)

@@ -11,6 +11,8 @@ import {
     getDailyLeaderboard,
 } from '../services/firebase';
 
+const SAVE_RETRY_DELAY_MS = 1500;
+
 // Score-saving state/logic, extracted out of App.jsx: scoreSaved/isSaving/
 // autoSaveFailed/roundHighlight, saveScore (+ its daily-mode dispatch to
 // submitDaily), handleSaveScore, and the sign-in auto-save effect.
@@ -78,6 +80,9 @@ export function useScoreSaving({
             recordDailyComplete?.({ accuracy: Math.round((correctInRound / QUESTIONS_PER_ROUND) * 100) });
         } catch (err) {
             console.error('Failed to submit daily score:', err);
+            // Rethrown so the auto-save effect / retry button can surface
+            // autoSaveFailed instead of leaving the screen on "Spremanje...".
+            throw err;
         } finally {
             setIsSaving(false);
         }
@@ -109,7 +114,14 @@ export function useScoreSaving({
             // the round just played - null means either signed out or no prior
             // score in this category, both of which should count as a new best.
             const previousBest = currentUser?.uid ? await getPlayerBestScoreForCategory(currentUser.uid, catKey) : null;
-            const success = await saveScoreToFirestore(catKey, entryName, score, currentUser?.uid || null, elapsedMs, isPerfect);
+            const uid = currentUser?.uid || null;
+            let success = await saveScoreToFirestore(catKey, entryName, score, uid, elapsedMs, isPerfect);
+            if (!success) {
+                // One automatic retry for transient network blips before
+                // surfacing the failure to the player.
+                await new Promise(resolve => setTimeout(resolve, SAVE_RETRY_DELAY_MS));
+                success = await saveScoreToFirestore(catKey, entryName, score, uid, elapsedMs, isPerfect);
+            }
             if (!success) throw new Error('Firestore save failed');
             setScoreSaved(true);
             sound.playClick();
@@ -125,6 +137,10 @@ export function useScoreSaving({
                 setLeaderboards(previousLeaderboards);
             }
             console.error('Failed to save score:', err);
+            // Rethrown (after rolling back the optimistic leaderboard) so
+            // callers can set autoSaveFailed - swallowing it here previously
+            // meant a failed save showed "Spremanje..." forever with no retry.
+            throw err;
         } finally {
             setIsSaving(false);
         }
