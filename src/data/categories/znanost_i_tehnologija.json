@@ -11020,5 +11020,605 @@
             "Apsorpcija",
             "Difrakcija"
         ]
+    },
+    {
+        "id": "hr_sci_1016",
+        "category": "znanost",
+        "question": "Koji kemijski proces uključuje spajanje malih molekula (monomera) u dugi lanac (polimer)?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Destilacija",
+            "Fermentacija"
+        ],
+        "explanation": "Polimerizacija je reakcija u kojoj se monomerni spojevi kemijski spajaju u makromolekularne lance, tvoreći polimere. To je temelj za proizvodnju plastike i drugih sintetičkih materijala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1017",
+        "category": "znanost",
+        "question": "Kako se zove prva sonda koja je uspješno sletjela na Mars 1976. godine?",
+        "correct_answer": "Viking 1",
+        "incorrect_answers": [
+            "Voyager 1",
+            "Pioneer 10",
+            "Curiosity"
+        ],
+        "explanation": "Viking 1 je bila NASA-ina misija koja je uspješno sletjela na Mars i poslala prve fotografije površine Marsa na Zemlju. Njezin je glavni cilj bio traženje znakova života.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1018",
+        "category": "znanost",
+        "question": "Koji se termin koristi za granu umjetne inteligencije koja omogućuje računalnim sustavima da uče iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Dekriptiranje podataka",
+            "Kvantno računanje",
+            "Biometrija"
+        ],
+        "explanation": "Strojno učenje je metoda umjetne inteligencije koja omogućuje sustavima učenje iz podataka, prepoznavanje uzoraka i donošenje odluka s minimalnom ljudskom intervencijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1019",
+        "category": "znanost",
+        "question": "Koja stanična organela je odgovorna za sintezu proteina?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Golgi-jev aparat",
+            "Lizosom",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Ribosomi su stanične strukture odgovorne za prevođenje genetskih informacija iz mRNA u proteinske lance putem procesa translacije, ključnog za funkcioniranje stanice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1020",
+        "category": "znanost",
+        "question": "Koju fizikalnu pojavu opisuje Faradayev zakon elektromagnetske indukcije?",
+        "correct_answer": "Proizvodnju električne struje promjenom magnetskog toka",
+        "incorrect_answers": [
+            "Otpornost materijala na električnu struju",
+            "Kretanje elektrona u supravodičima",
+            "Privlačnu silu između naboja"
+        ],
+        "explanation": "Faradayev zakon opisuje kako se u električnom vodiču inducira elektromotorna sila (napetost) kada se mijenja magnetski tok kroz taj vodič. To je temelj za rad generatora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1021",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska veza nastala privlačenjem između pozitivnih iona metala i delokaliziranih elektrona?",
+        "correct_answer": "Metalna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Kovalentna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Metalna veza je tip kemijske veze koja drži atome metala zajedno, formirana privlačenjem između pozitivnih jezgri i 'mora' delokaliziranih elektrona, dajući im specifična svojstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1022",
+        "category": "znanost",
+        "question": "Koji izvor obnovljive energije koristi razliku u temperaturi morske vode između površine i dubine za proizvodnju električne energije?",
+        "correct_answer": "Oceanotermalna energija",
+        "incorrect_answers": [
+            "Geotermalna energija",
+            "Energija plime i oseke",
+            "Energija valova"
+        ],
+        "explanation": "Oceanotermalna energija (OTEC) iskorištava temperaturnu razliku između tople površinske i hladne duboke morske vode za pogon generatora. To je obećavajući izvor čiste energije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1023",
+        "category": "znanost",
+        "question": "Koja medicinska dijagnostička metoda koristi zvučne valove visoke frekvencije za stvaranje slika unutarnjih organa?",
+        "correct_answer": "Ultrazvuk",
+        "incorrect_answers": [
+            "Magnetska rezonancija",
+            "Rendgensko snimanje",
+            "Kompjutorizirana tomografija"
+        ],
+        "explanation": "Ultrazvuk je neinvazivna dijagnostička tehnika koja koristi visokofrekventne zvučne valove za vizualizaciju mekih tkiva i organa unutar tijela. Široko se koristi u medicini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1024",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta računalne memorije koja zadržava svoj sadržaj čak i kada je napajanje isključeno?",
+        "correct_answer": "Nehlapljiva memorija",
+        "incorrect_answers": [
+            "Hlapljiva memorija",
+            "Cache memorija",
+            "Virtualna memorija"
+        ],
+        "explanation": "Nehlapljiva memorija, poput flash memorije ili tvrdog diska, čuva podatke trajno, za razliku od hlapljive memorije (RAM) koja gubi podatke bez napajanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1025",
+        "category": "znanost",
+        "question": "Kako se naziva faza zvjezdane evolucije u kojoj zvijezda slična Suncu potroši vodikovo gorivo u jezgri i počne se širiti, postajući veća i hladnija?",
+        "correct_answer": "Crveni div",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Neutronka zvijezda",
+            "Crna rupa"
+        ],
+        "explanation": "Crveni div je evolucijska faza zvijezde u kojoj se, nakon iscrpljivanja vodika u jezgri, vanjski slojevi zvijezde šire i hlade. To je sljedeća faza Sunca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1026",
+        "category": "znanost",
+        "question": "Koji princip kvantne mehanike navodi da je nemoguće istovremeno precizno odrediti položaj i zamah subatomskih čestica?",
+        "correct_answer": "Heisenbergovo načelo neodređenosti",
+        "incorrect_answers": [
+            "Paulijevo načelo isključenja",
+            "Planckov zakon zračenja",
+            "Einsteinova teorija relativnosti"
+        ],
+        "explanation": "Heisenbergovo načelo neodređenosti temeljni je princip kvantne mehanike koji postavlja granice preciznosti istovremenog mjerenja određenih parova fizikalnih veličina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1027",
+        "category": "znanost",
+        "question": "Što je CRISPR tehnologija?",
+        "correct_answer": "Tehnika za precizno uređivanje gena",
+        "incorrect_answers": [
+            "Vrsta računalnog virusa",
+            "Novi oblik goriva",
+            "Metode dekontaminacije okoliša"
+        ],
+        "explanation": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) je moćna genetička inženjerska tehnika koja omogućuje znanstvenicima precizno mijenjanje DNA u živim organizmima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1028",
+        "category": "znanost",
+        "question": "Koji element ima najveću elektronegativnost na Paulingovoj skali?",
+        "correct_answer": "Fluor",
+        "incorrect_answers": [
+            "Kisik",
+            "Klor",
+            "Litij"
+        ],
+        "explanation": "Fluor je najelektronegativniji element, što znači da najjače privlači elektrone u kemijskoj vezi, s vrijednošću 3.98 na Paulingovoj skali, te je vrlo reaktivan.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1029",
+        "category": "znanost",
+        "question": "Kako se naziva sustav koji nadzire i filtrira dolazni i odlazni mrežni promet na temelju prethodno definiranih sigurnosnih pravila?",
+        "correct_answer": "Vatrozid (Firewall)",
+        "incorrect_answers": [
+            "Antivirusni program",
+            "Proxy server",
+            "Virtualna privatna mreža (VPN)"
+        ],
+        "explanation": "Vatrozid je sigurnosni sustav koji uspostavlja barijeru između sigurne, kontrolirane interne mreže i nepouzdane vanjske mreže, filtrirajući promet kako bi spriječio neovlašteni pristup.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1030",
+        "category": "znanost",
+        "question": "Koji se optički fenomen događa kada se svjetlost savija prilikom prolaska iz jednog medija u drugi (npr. iz zraka u vodu)?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Apsorpcija",
+            "Disperzija"
+        ],
+        "explanation": "Refrakcija je promjena smjera širenja valova (poput svjetlosti) kada prolaze kroz granicu između dva različita medija pod kutom. Uzrokuje prividno savijanje objekata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1031",
+        "category": "znanost",
+        "question": "Koji je najveći organ u ljudskom tijelu?",
+        "correct_answer": "Koža",
+        "incorrect_answers": [
+            "Jetra",
+            "Mozak",
+            "Pluća"
+        ],
+        "explanation": "Koža je najveći organ u ljudskom tijelu, prekriva cijelu vanjsku površinu tijela i štiti ga od vanjskih utjecaja, regulira temperaturu i osjetilo je dodira.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1032",
+        "category": "znanost",
+        "question": "Kako se naziva maleno, zaleđeno nebesko tijelo koje, približavajući se Suncu, razvija sjajan rep od plina i prašine?",
+        "correct_answer": "Komet",
+        "incorrect_answers": [
+            "Asteroid",
+            "Meteorit",
+            "Plutoid"
+        ],
+        "explanation": "Kometi su smrznuti objekti s jezgrom od leda i prašine koji, prolazeći blizu Sunca, zagrijavanjem stvaraju uočljivu komu i rep. Neki su vidljivi golim okom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1033",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija jezgre (kernela) operacijskog sustava?",
+        "correct_answer": "Upravljanje resursima hardvera i softvera",
+        "incorrect_answers": [
+            "Kreiranje grafičkog korisničkog sučelja",
+            "Izvršavanje aplikacijskih programa",
+            "Pohranjivanje korisničkih podataka"
+        ],
+        "explanation": "Jezgra (kernel) je središnji dio operacijskog sustava, odgovoran za upravljanje sustavskim resursima, komunikaciju između hardvera i softvera, i dodjelu zadataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1034",
+        "category": "znanost",
+        "question": "Koja je funkcionalna skupina karakteristična za alkohole?",
+        "correct_answer": "Hidroksilna (-OH)",
+        "incorrect_answers": [
+            "Karbonilna (-C=O)",
+            "Amino (-NH2)",
+            "Karboksilna (-COOH)"
+        ],
+        "explanation": "Hidroksilna skupina (-OH) je funkcionalna skupina koja se sastoji od atoma kisika vezanog za atom vodika, a karakteristična je za alkohole. Ona određuje mnoga svojstva alkohola.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1035",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se toplina prenosi direktnim kontaktom između čestica bez prijenosa tvari?",
+        "correct_answer": "Kondukcija (provođenje)",
+        "incorrect_answers": [
+            "Konvekcija (strujanje)",
+            "Radijacija (zračenje)",
+            "Advekcija"
+        ],
+        "explanation": "Kondukcija je prijenos topline kroz materijal izravnim kontaktom čestica, pri čemu se energija prenosi vibracijama s čestice na česticu. Najčešća je u krutinama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1036",
+        "category": "znanost",
+        "question": "Koji je taksonomski rang neposredno viši od obitelji (familije) u biološkoj klasifikaciji?",
+        "correct_answer": "Red (ordo)",
+        "incorrect_answers": [
+            "Razred (classis)",
+            "Rod (genus)",
+            "Vrsta (species)"
+        ],
+        "explanation": "Hijerarhija klasifikacije je: domena, kraljevstvo, koljeno, razred, red, obitelj, rod, vrsta. Red je taksonomski rang iznad obitelji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1037",
+        "category": "znanost",
+        "question": "Koji programski koncept omogućuje objektu da preuzme više oblika ili ima različita ponašanja ovisno o kontekstu poziva?",
+        "correct_answer": "Polimorfizam",
+        "incorrect_answers": [
+            "Enkapsulacija",
+            "Nasljeđivanje",
+            "Apstrakcija"
+        ],
+        "explanation": "Polimorfizam je načelo objektno orijentiranog programiranja koje omogućuje da se objekt različitih klasa tretira kao objekt zajedničke klase. Pomaže u pisanju fleksibilnijeg koda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1038",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada crna rupa ispušta snažne mlazove plazme velike brzine iz svojih polova?",
+        "correct_answer": "Astrofizički mlaz (jet)",
+        "incorrect_answers": [
+            "Akrecijski disk",
+            "Singularitet",
+            "Event Horizon"
+        ],
+        "explanation": "Astrofizički mlazovi su visokoenergijske struje plazme koje se emitiraju iz područja oko masivnih objekata poput crnih rupa ili neutronskih zvijezda. Nastaju uslijed akrecije materijala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1039",
+        "category": "znanost",
+        "question": "Koji se proces koristi u nuklearnim elektranama za proizvodnju energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Beta raspad"
+        ],
+        "explanation": "Nuklearna fisija je proces cijepanja jezgre atoma na manje jezgre, pri čemu se oslobađa velika količina energije, što se koristi u elektranama za grijanje vode i proizvodnju pare.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1040",
+        "category": "znanost",
+        "question": "Koja je definicija Lewisove baze?",
+        "correct_answer": "Donator elektronskog para",
+        "incorrect_answers": [
+            "Akceptor elektronskog para",
+            "Donator protona",
+            "Akceptor protona"
+        ],
+        "explanation": "Lewisova baza je kemijska vrsta koja može donirati par elektrona za stvaranje kovalentne veze, dok Lewisova kiselina prihvaća taj par. Ova definicija je općenitija od Arrheniusove ili Brønsted-Lowryjeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1041",
+        "category": "znanost",
+        "question": "Koja je osnovna razlika između bakterija i virusa?",
+        "correct_answer": "Virusi ne mogu samostalno reproducirati bez stanice domaćina",
+        "incorrect_answers": [
+            "Bakterije su uvijek štetne",
+            "Virusi imaju staničnu stijenku",
+            "Bakterije su manji od virusa"
+        ],
+        "explanation": "Virusi su obvezni unutarstanični paraziti jer nemaju vlastiti stanični mehanizam za razmnožavanje, već koriste strojeve stanice domaćina, dok se bakterije samostalno razmnožavaju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1042",
+        "category": "znanost",
+        "question": "Koji se hardverski komponent koristi za pretvaranje digitalnih signala u analogne (i obrnuto) kako bi računalo moglo komunicirati preko telefonske linije?",
+        "correct_answer": "Modem",
+        "incorrect_answers": [
+            "Ruter",
+            "Switch",
+            "Ethernet kartica"
+        ],
+        "explanation": "Modem (modulator-demodulator) pretvara digitalne podatke u analogne signale za prijenos preko telefonske linije i obrnuto. To omogućuje pristup internetu preko telefonskih mreža.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1043",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za električni otpor?",
+        "correct_answer": "Om (Ohm)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ],
+        "explanation": "Om (Ω) je izvedena SI jedinica za električni otpor, nazvana po njemačkom fizičaru Georgu Simonu Ohmu. Električni otpor mjeri koliko se materijal protivi protoku električne struje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1044",
+        "category": "znanost",
+        "question": "Koji je svemirski teleskop, lansiran 1990. godine, revolucionirao naše razumijevanje svemira zahvaljujući svojim jasnim slikama izvan Zemljine atmosfere?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Keplerov teleskop",
+            "Spitzer svemirski teleskop"
+        ],
+        "explanation": "Hubbleov svemirski teleskop je ključni alat za istraživanje svemira, pružajući dosad neviđene poglede na udaljene galaksije i nebeske objekte. Njegova pozicija izvan atmosfere omogućava iznimnu jasnoću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1045",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem dvije ili više vrsta evoluiraju zajedno, međusobno utječući na adaptacije jedna druge?",
+        "correct_answer": "Koevolucija",
+        "incorrect_answers": [
+            "Divergentna evolucija",
+            "Konvergentna evolucija",
+            "Mutacija"
+        ],
+        "explanation": "Koevolucija je proces uzajamnog evolucijskog utjecaja između dviju ili više vrsta koje su u bliskoj ekološkoj interakciji. Primjeri su grabežljivac-plijen ili cvijet-oprašivač.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1046",
+        "category": "znanost",
+        "question": "Koje je četvrto agregatno stanje tvari, koje se sastoji od ioniziranog plina s slobodnim elektronima i ionima?",
+        "correct_answer": "Plazma",
+        "incorrect_answers": [
+            "Bose-Einsteinov kondenzat",
+            "Superfluid",
+            "Čvrsto stanje"
+        ],
+        "explanation": "Plazma je ionizirani plin, često nazivan četvrtim agregatnim stanjem tvari, gdje su elektroni odvojeni od atoma. Čini većinu vidljive materije u svemiru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1047",
+        "category": "znanost",
+        "question": "Koji algoritam za sortiranje radi tako da više puta prolazi kroz listu, uspoređuje susjedne elemente i zamjenjuje ih ako su u pogrešnom redoslijedu?",
+        "correct_answer": "Bubble sort (mjehuričasto sortiranje)",
+        "incorrect_answers": [
+            "Quick sort",
+            "Merge sort",
+            "Selection sort"
+        ],
+        "explanation": "Bubble sort je jednostavan algoritam za sortiranje koji uzastopno prolazi kroz listu, uspoređujući svaki par susjednih elemenata i zamjenjujući ih ako su u krivom redoslijedu. Nije učinkovit za velike liste.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1048",
+        "category": "znanost",
+        "question": "Koja je najmanja temeljna sila u prirodi, odgovorna za radioaktivni beta raspad?",
+        "correct_answer": "Slaba nuklearna sila",
+        "incorrect_answers": [
+            "Jaka nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ],
+        "explanation": "Slaba nuklearna sila je jedna od četiri temeljne sile prirode, odgovorna za procese poput beta raspada i radioaktivnosti, pretvarajući kvarkove jedne vrste u drugu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1049",
+        "category": "znanost",
+        "question": "Gdje se u kloroplastima odvija svjetlosna faza fotosinteze?",
+        "correct_answer": "Tilakoidne membrane",
+        "incorrect_answers": [
+            "Stroma",
+            "Unutarnja membrana",
+            "Mitohondrij"
+        ],
+        "explanation": "Svjetlosne reakcije fotosinteze odvijaju se na tilakoidnim membranama unutar kloroplasta, gdje se energija sunca pretvara u kemijsku energiju (ATP i NADPH).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1050",
+        "category": "znanost",
+        "question": "Koja se jedinica koristi za mjerenje razine ozona u atmosferi?",
+        "correct_answer": "Dobsonova jedinica",
+        "incorrect_answers": [
+            "Becquerel",
+            "Sievert",
+            "Pascal"
+        ],
+        "explanation": "Dobsonova jedinica (DU) je mjerna jedinica za ukupnu količinu ozona u vertikalnom stupcu atmosfere. Jedna Dobsonova jedinica odgovara sloju ozona debljine 0.01 mm pri standardnim uvjetima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1051",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za asinkronu komunikaciju između web preglednika i poslužitelja, omogućujući ažuriranje dijelova web stranice bez potpunog ponovnog učitavanja?",
+        "correct_answer": "AJAX (Asynchronous JavaScript and XML)",
+        "incorrect_answers": [
+            "HTML5",
+            "CSS3",
+            "SQL"
+        ],
+        "explanation": "AJAX omogućuje web stranicama asinkronu komunikaciju s poslužiteljem u pozadini, bez ometanja trenutnog prikaza stranice. To poboljšava korisničko iskustvo i brzinu web aplikacija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1052",
+        "category": "znanost",
+        "question": "Koji se metoda koristi za detekciju egzoplaneta promatranjem periodičnog smanjenja svjetlosti zvijezde dok planet prolazi ispred nje?",
+        "correct_answer": "Metoda tranzita",
+        "incorrect_answers": [
+            "Radialna brzina",
+            "Direktno snimanje",
+            "Gravitacijska leća"
+        ],
+        "explanation": "Metoda tranzita detektira egzoplanete mjerenjem malih, periodičnih padova svjetlosti zvijezde kada planet prolazi između nje i promatrača. Mnogi egzoplaneti su otkriveni ovom metodom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1053",
+        "category": "znanost",
+        "question": "Koja je kemijska tvar primarni sastojak mramora i školjaka?",
+        "correct_answer": "Kalcijev karbonat",
+        "incorrect_answers": [
+            "Silicijev dioksid",
+            "Natrijev bikarbonat",
+            "Magnezijev sulfat"
+        ],
+        "explanation": "Kalcijev karbonat (CaCO3) je uobičajena kemijska tvar koja je glavni sastojak stijena poput mramora i vapnenca, kao i školjaka morskih organizama. Važan je u geologiji i biologiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1054",
+        "category": "znanost",
+        "question": "Kako se naziva elektronička komponenta koja regulira struju u krugu i najčešće se koristi za pojačavanje ili prebacivanje elektroničkih signala?",
+        "correct_answer": "Tranzistor",
+        "incorrect_answers": [
+            "Kondenzator",
+            "Otpornik",
+            "Induktor"
+        ],
+        "explanation": "Tranzistor je poluvodički uređaj koji se koristi za pojačavanje ili prebacivanje elektroničkih signala i električne energije. On je osnovni građevni blok moderne elektronike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1055",
+        "category": "znanost",
+        "question": "Koji hormon regulira razinu šećera (glukoze) u krvi tako što potiče stanice da je apsorbiraju?",
+        "correct_answer": "Inzulin",
+        "incorrect_answers": [
+            "Glukagon",
+            "Adrenalin",
+            "Tiroksin"
+        ],
+        "explanation": "Inzulin, hormon koji proizvodi gušterača, ključan je za regulaciju razine glukoze u krvi, potičući njen ulazak u stanice radi pohrane ili korištenja energije. Nedostatak uzrokuje dijabetes.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
     }
 ]
