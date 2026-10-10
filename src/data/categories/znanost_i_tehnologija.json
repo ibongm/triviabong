@@ -10140,5 +10140,445 @@
             "Formiranje crnih rupa",
             "Neutronske zvijezde"
         ]
+    },
+    {
+        "id": "hr_sci_936",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je mjerna jedinica za električni naboj?",
+        "correct_answer": "Kulon",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Ohm"
+        ]
+    },
+    {
+        "id": "hr_sci_937",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je kemijski simbol za zlato?",
+        "correct_answer": "Au",
+        "incorrect_answers": [
+            "Ag",
+            "Fe",
+            "Gd"
+        ]
+    },
+    {
+        "id": "hr_sci_938",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji dio mozga je odgovoran za ravnotežu i koordinaciju pokreta?",
+        "correct_answer": "Mali mozak",
+        "incorrect_answers": [
+            "Veliki mozak",
+            "Moždano deblo",
+            "Hipotalamus"
+        ]
+    },
+    {
+        "id": "hr_sci_939",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se zove galaksija najbliža Mliječnoj stazi koja je u putanji sudara s njom?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut",
+            "Magelanovi oblaci",
+            "Sombrero"
+        ]
+    },
+    {
+        "id": "hr_sci_940",
+        "category": "znanost_i_tehnologija",
+        "question": "Što znači kratica CPU u računalstvu?",
+        "correct_answer": "Centralna procesorska jedinica",
+        "incorrect_answers": [
+            "Centralna programska jedinica",
+            "Kompjuterska procesorska jedinica",
+            "Kontrolna pogonska jedinica"
+        ]
+    },
+    {
+        "id": "hr_sci_941",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji zakon opisuje odnos između sile, mase i ubrzanja?",
+        "correct_answer": "Drugi Newtonov zakon",
+        "incorrect_answers": [
+            "Prvi Newtonov zakon",
+            "Treći Newtonov zakon",
+            "Zakon očuvanja energije"
+        ]
+    },
+    {
+        "id": "hr_sci_942",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je najzastupljeniji plin u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ]
+    },
+    {
+        "id": "hr_sci_943",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je primarna funkcija crvenih krvnih zrnaca (eritrocita)?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Zgrušavanje krvi",
+            "Borba protiv infekcija",
+            "Regulacija tjelesne temperature"
+        ]
+    },
+    {
+        "id": "hr_sci_944",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je planet poznat kao 'Crveni planet'?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ]
+    },
+    {
+        "id": "hr_sci_945",
+        "category": "znanost_i_tehnologija",
+        "question": "Što je algoritam u računarstvu?",
+        "correct_answer": "Skup jasno definiranih koraka za rješavanje problema",
+        "incorrect_answers": [
+            "Vrsta računalnog virusa",
+            "Programski jezik",
+            "Hardverska komponenta"
+        ]
+    },
+    {
+        "id": "hr_sci_946",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja pojava uzrokuje nastanak duge?",
+        "correct_answer": "Raspršenje svjetlosti (disperzija)",
+        "incorrect_answers": [
+            "Apsorpcija svjetlosti",
+            "Polarizacija svjetlosti",
+            "Difrakcija svjetlosti"
+        ]
+    },
+    {
+        "id": "hr_sci_947",
+        "category": "znanost_i_tehnologija",
+        "question": "Kolika je pH vrijednost neutralne otopine pri 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ]
+    },
+    {
+        "id": "hr_sci_948",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta organizama proizvodi vlastitu hranu putem fotosinteze?",
+        "correct_answer": "Autotrofi",
+        "incorrect_answers": [
+            "Heterotrofi",
+            "Saprofiti",
+            "Paraziti"
+        ]
+    },
+    {
+        "id": "hr_sci_949",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva nebesko tijelo koje kruži oko zvijezde, ali nije dovoljno veliko da očisti svoju orbitu od drugih objekata?",
+        "correct_answer": "Patuljasti planet",
+        "incorrect_answers": [
+            "Asteroid",
+            "Komet",
+            "Mjesec"
+        ]
+    },
+    {
+        "id": "hr_sci_950",
+        "category": "znanost_i_tehnologija",
+        "question": "Što znači kratica HTML?",
+        "correct_answer": "HyperText Markup Language",
+        "incorrect_answers": [
+            "High-Tech Machine Language",
+            "Home Tool Management Language",
+            "Hyperlink and Text Management"
+        ]
+    },
+    {
+        "id": "hr_sci_951",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je mjerna jedinica za snagu?",
+        "correct_answer": "Vat",
+        "incorrect_answers": [
+            "Džul",
+            "Njuto",
+            "Volt"
+        ]
+    },
+    {
+        "id": "hr_sci_952",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces pretvaranja tvari iz krutog izravno u plinovito stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Taljenje",
+            "Isparavanje"
+        ]
+    },
+    {
+        "id": "hr_sci_953",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je organela odgovorna za sintezu proteina?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Golgi-jev aparat",
+            "Endoplazmatski retikulum"
+        ]
+    },
+    {
+        "id": "hr_sci_954",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se zove zvijezda u središtu našeg Sunčevog sustava?",
+        "correct_answer": "Sunce",
+        "incorrect_answers": [
+            "Alfa Centauri",
+            "Sirius",
+            "Polaris"
+        ]
+    },
+    {
+        "id": "hr_sci_955",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je glavna svrha operacijskog sustava?",
+        "correct_answer": "Upravljanje računalnim resursima i softverom",
+        "incorrect_answers": [
+            "Pisanje programa",
+            "Povezivanje na internet",
+            "Spremanje datoteka"
+        ]
+    },
+    {
+        "id": "hr_sci_956",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta energije je pohranjena u nategnutoj opruzi?",
+        "correct_answer": "Potencijalna energija",
+        "incorrect_answers": [
+            "Kinetička energija",
+            "Toplinska energija",
+            "Kemijska energija"
+        ]
+    },
+    {
+        "id": "hr_sci_957",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je kemijska formula za vodu?",
+        "correct_answer": "H2O",
+        "incorrect_answers": [
+            "CO2",
+            "O2",
+            "NaCl"
+        ]
+    },
+    {
+        "id": "hr_sci_958",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces kojim biljke ispuštaju vodenu paru u atmosferu?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Disanje",
+            "Guttacija"
+        ]
+    },
+    {
+        "id": "hr_sci_959",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva eksplozija masivne zvijezde na kraju njenog životnog ciklusa?",
+        "correct_answer": "Supernova",
+        "incorrect_answers": [
+            "Nova",
+            "Kometarni udar",
+            "Pulsar"
+        ]
+    },
+    {
+        "id": "hr_sci_960",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je glavna karakteristika softvera otvorenog koda (open-source)?",
+        "correct_answer": "Njegov izvorni kod je javno dostupan i može se mijenjati",
+        "incorrect_answers": [
+            "Ne može se koristiti bez plaćanja licence",
+            "Kompatibilan je samo s jednim operacijskim sustavom",
+            "Uvijek je razvijen od strane velike korporacije"
+        ]
+    },
+    {
+        "id": "hr_sci_961",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je približna brzina svjetlosti u vakuumu?",
+        "correct_answer": "300.000 kilometara u sekundi",
+        "incorrect_answers": [
+            "30.000 km/s",
+            "3.000.000 km/s",
+            "300 km/s"
+        ]
+    },
+    {
+        "id": "hr_sci_962",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je element osnova cjelokupne organske kemije?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ]
+    },
+    {
+        "id": "hr_sci_963",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je funkcija antitijela u imunološkom sustavu?",
+        "correct_answer": "Prepoznavanje i neutraliziranje stranih tvari",
+        "incorrect_answers": [
+            "Transport kisika",
+            "Regulacija šećera u krvi",
+            "Proizvodnja hormona"
+        ]
+    },
+    {
+        "id": "hr_sci_964",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva pojava u kojoj se čini da se planet kreće unatrag u svojoj orbiti iz perspektive Zemlje?",
+        "correct_answer": "Retrogradno gibanje",
+        "incorrect_answers": [
+            "Direktno gibanje",
+            "Perigee",
+            "Apogee"
+        ]
+    },
+    {
+        "id": "hr_sci_965",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je primarna funkcija RAM-a u računalu?",
+        "correct_answer": "Privremena pohrana za aktivne programe i podatke",
+        "incorrect_answers": [
+            "Trajna pohrana svih podataka",
+            "Izvršavanje grafičkih operacija",
+            "Povezivanje na internet"
+        ]
+    },
+    {
+        "id": "hr_sci_966",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je sila koja se protivi gibanju između dviju dodirnih površina?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Centrifugalna sila",
+            "Magnetska sila"
+        ]
+    },
+    {
+        "id": "hr_sci_967",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta kemijske veze uključuje dijeljenje parova elektrona između atoma?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ]
+    },
+    {
+        "id": "hr_sci_968",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je osnovna jedinica nasljeđa?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Nukleotid",
+            "Stanica"
+        ]
+    },
+    {
+        "id": "hr_sci_969",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva putanja koju objekt slijedi kružeći oko drugog objekta u svemiru?",
+        "correct_answer": "Orbita",
+        "incorrect_answers": [
+            "Trajektorija",
+            "Putanja bijega",
+            "Elipsa"
+        ]
+    },
+    {
+        "id": "hr_sci_970",
+        "category": "znanost_i_tehnologija",
+        "question": "Što znači kratica URL?",
+        "correct_answer": "Uniform Resource Locator",
+        "incorrect_answers": [
+            "Universal Remote Link",
+            "Unified Resource Login",
+            "User Request Line"
+        ]
+    },
+    {
+        "id": "hr_sci_971",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je pojava kada se zvučni valovi odbijaju od površine?",
+        "correct_answer": "Jeka",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Difrakcija",
+            "Rezonancija"
+        ]
+    },
+    {
+        "id": "hr_sci_972",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je uobičajeni naziv za natrijev klorid?",
+        "correct_answer": "Kuhinjska sol",
+        "incorrect_answers": [
+            "Soda bikarbona",
+            "Šećer",
+            "Limunska kiselina"
+        ]
+    },
+    {
+        "id": "hr_sci_973",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je znanstvenik poznat po razvoju teorije evolucije prirodnom selekcijom?",
+        "correct_answer": "Charles Darwin",
+        "incorrect_answers": [
+            "Gregor Mendel",
+            "Louis Pasteur",
+            "Albert Einstein"
+        ]
+    },
+    {
+        "id": "hr_sci_974",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je kolektivni naziv za mala stjenovita ili metalna tijela koja kruže oko Sunca, uglavnom smještena između Marsa i Jupitera?",
+        "correct_answer": "Asteroidi",
+        "incorrect_answers": [
+            "Kometi",
+            "Meteoroidi",
+            "Patuljasti planeti"
+        ]
+    },
+    {
+        "id": "hr_sci_975",
+        "category": "znanost_i_tehnologija",
+        "question": "Što je kriptografija?",
+        "correct_answer": "Znanost o sigurnoj komunikaciji u prisutnosti protivnika",
+        "incorrect_answers": [
+            "Grana medicine",
+            "Proučavanje drevnih spisa",
+            "Vrsta računalne grafike"
+        ]
     }
 ]
