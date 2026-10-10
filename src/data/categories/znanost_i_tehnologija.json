@@ -8710,5 +8710,445 @@
             "Kvarc",
             "Keramika"
         ]
+    },
+    {
+        "id": "hr_sci_806",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva mjerna jedinica za električnu snagu?",
+        "correct_answer": "Watt",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Ohm"
+        ]
+    },
+    {
+        "id": "hr_sci_807",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je fizikalni princip na kojem se temelji levitacija vlakova maglev?",
+        "correct_answer": "Magnetska repulzija i supravodljivost",
+        "incorrect_answers": [
+            "Aerodinamički uzgon",
+            "Hidraulički tlak",
+            "Centrifugalna sila"
+        ]
+    },
+    {
+        "id": "hr_sci_808",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta elektromagnetskog zračenja ima najkraću valnu duljinu i najveću energiju?",
+        "correct_answer": "Gama zračenje",
+        "incorrect_answers": [
+            "Radio valovi",
+            "Mikrovalovi",
+            "Infracrveno zračenje"
+        ]
+    },
+    {
+        "id": "hr_sci_809",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva optički fenomen u kojem se svjetlost savija prilikom prolaska iz jednog medija u drugi?",
+        "correct_answer": "Lom svjetlosti (Refrakcija)",
+        "incorrect_answers": [
+            "Odbijanje svjetlosti (Refleksija)",
+            "Raspršenje svjetlosti",
+            "Polarizacija svjetlosti"
+        ]
+    },
+    {
+        "id": "hr_sci_810",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se fizikalni zakon odnosi na to da se tlak u zatvorenoj tekućini širi jednako u svim smjerovima?",
+        "correct_answer": "Pascalov zakon",
+        "incorrect_answers": [
+            "Arhimedov zakon",
+            "Bernoullijev princip",
+            "Torricellijev zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_811",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je približna brzina zvuka u zraku pri normalnim uvjetima (na 20°C)?",
+        "correct_answer": "343 m/s",
+        "incorrect_answers": [
+            "1200 km/h",
+            "300.000 km/s",
+            "1500 m/s"
+        ]
+    },
+    {
+        "id": "hr_sci_812",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva najmanja čestica koja zadržava kemijska svojstva elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Kvart"
+        ]
+    },
+    {
+        "id": "hr_sci_813",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta kemijske reakcije oslobađa energiju u obliku topline?",
+        "correct_answer": "Egzotermna reakcija",
+        "incorrect_answers": [
+            "Endotermna reakcija",
+            "Katalitička reakcija",
+            "Supstitucijska reakcija"
+        ]
+    },
+    {
+        "id": "hr_sci_814",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je proces prijelaza iz plinovitog u tekuće stanje?",
+        "correct_answer": "Kondenzacija",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Vrelište",
+            "Fuzija"
+        ]
+    },
+    {
+        "id": "hr_sci_815",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se plin najviše koristi u neonskim reklamama za proizvodnju svjetlosti?",
+        "correct_answer": "Neon",
+        "incorrect_answers": [
+            "Argon",
+            "Ksenon",
+            "Kripton"
+        ]
+    },
+    {
+        "id": "hr_sci_816",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva pH vrijednost otopine koja je veća od 7?",
+        "correct_answer": "Alkalna (Bazična)",
+        "incorrect_answers": [
+            "Kisela",
+            "Neutralna",
+            "Amfoterna"
+        ]
+    },
+    {
+        "id": "hr_sci_817",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je kemijski element ključan sastojak u svim organskim spojevima?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ]
+    },
+    {
+        "id": "hr_sci_818",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je najstabilnija molekula na Zemlji i čini oko 78% Zemljine atmosfere?",
+        "correct_answer": "Dušik (N₂)",
+        "incorrect_answers": [
+            "Kisik (O₂)",
+            "Argon (Ar)",
+            "Ugljikov dioksid (CO₂)"
+        ]
+    },
+    {
+        "id": "hr_sci_819",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je osnovna strukturna i funkcionalna jedinica svih živih organizama?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Organ",
+            "Tkivo",
+            "Molekula"
+        ]
+    },
+    {
+        "id": "hr_sci_820",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji organ služi kao pumpa za cirkulaciju krvi kroz tijelo?",
+        "correct_answer": "Srce",
+        "incorrect_answers": [
+            "Pluća",
+            "Jetra",
+            "Bubreg"
+        ]
+    },
+    {
+        "id": "hr_sci_821",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva dio DNA molekule koji nosi upute za sintezu specifičnog proteina?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Ribosom",
+            "Enzim"
+        ]
+    },
+    {
+        "id": "hr_sci_822",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je funkcija klorofila u biljkama?",
+        "correct_answer": "Apsorpcija svjetlosne energije za fotosintezu",
+        "incorrect_answers": [
+            "Davanje zelene boje cvjetovima",
+            "Transport vode",
+            "Zaštita od štetnika"
+        ]
+    },
+    {
+        "id": "hr_sci_823",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je proces probave hrane u ustima započet djelovanjem enzima amilaze?",
+        "correct_answer": "Razgradnja škroba",
+        "incorrect_answers": [
+            "Razgradnja proteina",
+            "Apsorpcija masti",
+            "Stvaranje želučane kiseline"
+        ]
+    },
+    {
+        "id": "hr_sci_824",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva organizam koji se hrani drugim organizmima jer ne može sam proizvoditi hranu?",
+        "correct_answer": "Heterotrof",
+        "incorrect_answers": [
+            "Autotrof",
+            "Proizvođač",
+            "Reducent"
+        ]
+    },
+    {
+        "id": "hr_sci_825",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta tkiva prekriva vanjsku površinu tijela i oblaže unutarnje organe?",
+        "correct_answer": "Epitelno tkivo",
+        "incorrect_answers": [
+            "Mišićno tkivo",
+            "Vezivno tkivo",
+            "Živčano tkivo"
+        ]
+    },
+    {
+        "id": "hr_sci_826",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je planet najbliži Zemlji po veličini i masi?",
+        "correct_answer": "Venera",
+        "incorrect_answers": [
+            "Mars",
+            "Merkur",
+            "Jupiter"
+        ]
+    },
+    {
+        "id": "hr_sci_827",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva područje oko crne rupe iz kojeg ništa, pa ni svjetlost, ne može pobjeći?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Akrecijski disk",
+            "Ergoreferencijalna površina"
+        ]
+    },
+    {
+        "id": "hr_sci_828",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je planeta u Sunčevom sustavu poznata po svojoj Velikoj crvenoj pjegi?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Mars",
+            "Saturn",
+            "Neptun"
+        ]
+    },
+    {
+        "id": "hr_sci_829",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se zove pojava kada se nebesko tijelo, obično meteoroid, zagrije i izgori pri ulasku u Zemljinu atmosferu, stvarajući svjetlosni trag?",
+        "correct_answer": "Meteor",
+        "incorrect_answers": [
+            "Meteorit",
+            "Komet",
+            "Asteroid"
+        ]
+    },
+    {
+        "id": "hr_sci_830",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji plin čini većinu atmosfere Jupitera i Saturna?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Metan",
+            "Amonijak"
+        ]
+    },
+    {
+        "id": "hr_sci_831",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva optički instrument koji se koristi za promatranje udaljenih objekata, posebno nebeskih, prikupljajući i fokusirajući svjetlost?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kaleidoskop"
+        ]
+    },
+    {
+        "id": "hr_sci_832",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se oblik galaksije najčešće sreće u svemiru, a naša Mliječna staza je primjer?",
+        "correct_answer": "Spiralna galaksija",
+        "incorrect_answers": [
+            "Eliptična galaksija",
+            "Nepravilna galaksija",
+            "Lećasta galaksija"
+        ]
+    },
+    {
+        "id": "hr_sci_833",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je binarni sustav brojeva osnova rada računala?",
+        "correct_answer": "Sustav s bazom 2",
+        "incorrect_answers": [
+            "Sustav s bazom 10",
+            "Heksadecimalni sustav",
+            "Oktalni sustav"
+        ]
+    },
+    {
+        "id": "hr_sci_834",
+        "category": "znanost_i_tehnologija",
+        "question": "Što je algoritam u računarstvu?",
+        "correct_answer": "Skup točno definiranih koraka za rješavanje problema",
+        "incorrect_answers": [
+            "Vrsta programskog jezika",
+            "Dio računalne memorije",
+            "Hardverska komponenta"
+        ]
+    },
+    {
+        "id": "hr_sci_835",
+        "category": "znanost_i_tehnologija",
+        "question": "Koju vrstu memorije računalo koristi za trajno pohranjivanje podataka, čak i kada je isključeno?",
+        "correct_answer": "ROM (Read-Only Memory)",
+        "incorrect_answers": [
+            "RAM (Random Access Memory)",
+            "Cache memorija",
+            "Virtualna memorija"
+        ]
+    },
+    {
+        "id": "hr_sci_836",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces pretvaranja analognog signala (npr. zvuka ili slike) u digitalni format?",
+        "correct_answer": "Digitalizacija",
+        "incorrect_answers": [
+            "Enkripcija",
+            "Kompresija",
+            "Virtualizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_837",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je najpopularniji operativni sustav za osobna računala u svijetu?",
+        "correct_answer": "Microsoft Windows",
+        "incorrect_answers": [
+            "macOS",
+            "Linux",
+            "Chrome OS"
+        ]
+    },
+    {
+        "id": "hr_sci_838",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva računalna mreža koja pokriva malo geografsko područje, poput ureda ili kuće?",
+        "correct_answer": "LAN (Lokalna računalna mreža)",
+        "incorrect_answers": [
+            "WAN (Širokopojasna mreža)",
+            "MAN (Metropolitanska mreža)",
+            "VPN (Virtualna privatna mreža)"
+        ]
+    },
+    {
+        "id": "hr_sci_839",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je standardni protokol za pristup web stranicama na internetu?",
+        "correct_answer": "HTTP (Hypertext Transfer Protocol)",
+        "incorrect_answers": [
+            "FTP (File Transfer Protocol)",
+            "SMTP (Simple Mail Transfer Protocol)",
+            "TCP/IP (Transmission Control Protocol/Internet Protocol)"
+        ]
+    },
+    {
+        "id": "hr_sci_840",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je metal poznat po svojoj iznimnoj čvrstoći, lakoći i otpornosti na koroziju, često se koristi u zrakoplovstvu?",
+        "correct_answer": "Titan",
+        "incorrect_answers": [
+            "Željezo",
+            "Bakar",
+            "Olovo"
+        ]
+    },
+    {
+        "id": "hr_sci_841",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces kombiniranja dvaju ili više metala kako bi se stvorila nova tvar s poboljšanim svojstvima?",
+        "correct_answer": "Legiranje",
+        "incorrect_answers": [
+            "Varenje",
+            "Kaljenje",
+            "Taljenje"
+        ]
+    },
+    {
+        "id": "hr_sci_842",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja se tehnologija koristi za stvaranje trodimenzionalnih objekata sloj po sloj iz digitalnog dizajna?",
+        "correct_answer": "3D ispis (Aditivna proizvodnja)",
+        "incorrect_answers": [
+            "CNC obrada",
+            "Lasersko rezanje",
+            "Kovanje"
+        ]
+    },
+    {
+        "id": "hr_sci_843",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je drugi najzastupljeniji metal u Zemljinoj kori i koristi se za izradu laganih konstrukcija i ambalaže?",
+        "correct_answer": "Aluminij",
+        "incorrect_answers": [
+            "Željezo",
+            "Bakar",
+            "Zlato"
+        ]
+    },
+    {
+        "id": "hr_sci_844",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces premazivanja metala zaštitnim slojem cinka kako bi se spriječila korozija?",
+        "correct_answer": "Pocinčavanje (Galvanizacija)",
+        "incorrect_answers": [
+            "Kromiranje",
+            "Niklanje",
+            "Anodizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_845",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji sustav koristi geolokacijske podatke iz satelita za navigaciju i kartiranje diljem svijeta?",
+        "correct_answer": "GPS (Global Positioning System)",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Bluetooth",
+            "NFC"
+        ]
     }
 ]
