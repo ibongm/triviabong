@@ -9700,5 +9700,445 @@
             "Bakar",
             "Aluminij"
         ]
+    },
+    {
+        "id": "hr_sci_896",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva princip prema kojem povećanje brzine fluida rezultira smanjenjem tlaka unutar tog fluida?",
+        "correct_answer": "Bernoullijev princip",
+        "incorrect_answers": [
+            "Archimedesov princip",
+            "Pascalov zakon",
+            "Newtonov zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_897",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je mjerna jedinica koja izražava kiselost ili lužnatost otopine?",
+        "correct_answer": "pH vrijednost",
+        "incorrect_answers": [
+            "Koncentracija molarnosti",
+            "Gustoća",
+            "Viskoznost"
+        ]
+    },
+    {
+        "id": "hr_sci_898",
+        "category": "znanost_i_tehnologija",
+        "question": "U kojoj se staničnoj organeli odvija proces fotosinteze u biljkama?",
+        "correct_answer": "Kloroplastu",
+        "incorrect_answers": [
+            "Mitohondriju",
+            "Jezgri",
+            "Ribosomu"
+        ]
+    },
+    {
+        "id": "hr_sci_899",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je udaljenost koju svjetlost prijeđe u vakuumu tijekom jedne Zemaljske godine?",
+        "correct_answer": "Svjetlosna godina",
+        "incorrect_answers": [
+            "Astronomska jedinica",
+            "Parsek",
+            "Milijarda kilometara"
+        ]
+    },
+    {
+        "id": "hr_sci_900",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se HTTP statusni kod koristi za označavanje uspješnog odgovora na zahtjev preglednika?",
+        "correct_answer": "200 OK",
+        "incorrect_answers": [
+            "404 Not Found",
+            "500 Internal Server Error",
+            "301 Moved Permanently"
+        ]
+    },
+    {
+        "id": "hr_sci_901",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je materijal, poznat kao najtanji i najjači materijal na svijetu, sastavljen od jednog sloja atoma ugljika?",
+        "correct_answer": "Grafen",
+        "incorrect_answers": [
+            "Dijamant",
+            "Kevlar",
+            "Titanij"
+        ]
+    },
+    {
+        "id": "hr_sci_902",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji zakon povezuje napon, struju i otpor u električnom krugu?",
+        "correct_answer": "Ohmov zakon",
+        "incorrect_answers": [
+            "Faradayev zakon",
+            "Coulombov zakon",
+            "Ampereov zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_903",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji su znanstvenici dobili Nobelovu nagradu za otkriće strukture DNA u obliku dvostruke spirale?",
+        "correct_answer": "James Watson i Francis Crick",
+        "incorrect_answers": [
+            "Marie Curie i Pierre Curie",
+            "Albert Einstein i Max Planck",
+            "Stephen Hawking i Roger Penrose"
+        ]
+    },
+    {
+        "id": "hr_sci_904",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se tip baze podataka oslanja na strukturirani jezik upita (SQL) za upravljanje podacima?",
+        "correct_answer": "Relacijska baza podataka",
+        "incorrect_answers": [
+            "NoSQL baza podataka",
+            "Grafička baza podataka",
+            "Objektno orijentirana baza podataka"
+        ]
+    },
+    {
+        "id": "hr_sci_905",
+        "category": "znanost_i_tehnologija",
+        "question": "Koju zajedničku osobinu imaju plemeniti plinovi poput helija, neona i argona?",
+        "correct_answer": "Kemijski su nereaktivni",
+        "incorrect_answers": [
+            "Vrlo su zapaljivi",
+            "Lako stvaraju ionske veze",
+            "Imaju obojene pare"
+        ]
+    },
+    {
+        "id": "hr_sci_906",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je planet najveći u našem Sunčevom sustavu?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Uran",
+            "Neptun"
+        ]
+    },
+    {
+        "id": "hr_sci_907",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva subatomska čestica koja daje masu drugim elementarnim česticama, a otkrivena je u CERN-u?",
+        "correct_answer": "Higgsov bozon",
+        "incorrect_answers": [
+            "Foton",
+            "Elektron",
+            "Neutrino"
+        ]
+    },
+    {
+        "id": "hr_sci_908",
+        "category": "znanost_i_tehnologija",
+        "question": "Koje biološke molekule djeluju kao katalizatori u biokemijskim reakcijama u živim organizmima?",
+        "correct_answer": "Enzimi",
+        "incorrect_answers": [
+            "Hormoni",
+            "Vitamini",
+            "Lipidi"
+        ]
+    },
+    {
+        "id": "hr_sci_909",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva osnovni dio operacijskog sustava koji upravlja resursima računala i komunicira s hardverom?",
+        "correct_answer": "Jezgra (Kernel)",
+        "incorrect_answers": [
+            "Grafičko sučelje",
+            "Aplikacijski sloj",
+            "Upravljački program"
+        ]
+    },
+    {
+        "id": "hr_sci_910",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja se vrsta kemijske veze formira prijenosom elektrona između atoma?",
+        "correct_answer": "Ionske veze",
+        "incorrect_answers": [
+            "Kovalentne veze",
+            "Metalne veze",
+            "Vodikove veze"
+        ]
+    },
+    {
+        "id": "hr_sci_911",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva grana inženjerstva koja se bavi dizajnom, konstrukcijom, radom i primjenom robota?",
+        "correct_answer": "Robotika",
+        "incorrect_answers": [
+            "Mehanika fluida",
+            "Termodinamika",
+            "Elektrotehnika"
+        ]
+    },
+    {
+        "id": "hr_sci_912",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva svojstvo materijala koje označava količinu topline potrebnu za promjenu temperature jedinične mase tog materijala za jedan stupanj?",
+        "correct_answer": "Specifični toplinski kapacitet",
+        "incorrect_answers": [
+            "Toplinska vodljivost",
+            "Latentna toplina",
+            "Entalpija"
+        ]
+    },
+    {
+        "id": "hr_sci_913",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji proces opisuje prijenos genetske informacije od DNA do RNA, a zatim od RNA do proteina?",
+        "correct_answer": "Centralna dogma molekularne biologije",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Stanično disanje",
+            "Osmoza"
+        ]
+    },
+    {
+        "id": "hr_sci_914",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva model isporuke računalnih usluga (servera, pohrane, baza podataka, mreža, softvera, analitike) putem interneta?",
+        "correct_answer": "Računarstvo u oblaku (Cloud Computing)",
+        "incorrect_answers": [
+            "Lokalno računarstvo",
+            "Mrežni poslužitelj",
+            "Distribuirano procesiranje"
+        ]
+    },
+    {
+        "id": "hr_sci_915",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces u kemiji u kojem tvar gubi elektrone?",
+        "correct_answer": "Oksidacija",
+        "incorrect_answers": [
+            "Redukcija",
+            "Hidroliza",
+            "Polimerizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_916",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je najbliža velika spiralna galaksija našoj Mliječnoj stazi?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut galaksija",
+            "Veliki Magelanov oblak",
+            "Messier 82"
+        ]
+    },
+    {
+        "id": "hr_sci_917",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva fenomen u kojem neki materijali gube sav električni otpor kada se ohlade ispod kritične temperature?",
+        "correct_answer": "Supravodljivost",
+        "incorrect_answers": [
+            "Poluvodljivost",
+            "Dielektričnost",
+            "Feromagnetizam"
+        ]
+    },
+    {
+        "id": "hr_sci_918",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva biološki pripravak koji pruža aktivno stečenu imunost na određenu zaraznu bolest?",
+        "correct_answer": "Cjepivo",
+        "incorrect_answers": [
+            "Antibiotik",
+            "Analgetik",
+            "Hormon"
+        ]
+    },
+    {
+        "id": "hr_sci_919",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je tehnologija temelj kriptovaluta poput Bitcoina, a karakterizira je distribuirana, nepromjenjiva knjiga zapisa?",
+        "correct_answer": "Blockchain",
+        "incorrect_answers": [
+            "Enkripcija",
+            "Kvantno računarstvo",
+            "Biometrija"
+        ]
+    },
+    {
+        "id": "hr_sci_920",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se kemijski proces koristi za industrijsku sintezu amonijaka iz dušika i vodika?",
+        "correct_answer": "Haber-Boschov proces",
+        "incorrect_answers": [
+            "Ostwaldov proces",
+            "Solvayev proces",
+            "Kontaktni proces"
+        ]
+    },
+    {
+        "id": "hr_sci_921",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva područje prostor-vremena iz kojeg ništa, pa čak ni svjetlost, ne može pobjeći zbog izuzetno jake gravitacije?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Neutronka zvijezda",
+            "Bijeli patuljak",
+            "Kvazar"
+        ]
+    },
+    {
+        "id": "hr_sci_922",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva pojava emitiranja elektrona iz materijala kada ga obasja svjetlost, a koju je objasnio Albert Einstein?",
+        "correct_answer": "Fotoelektrični efekt",
+        "incorrect_answers": [
+            "Comptonov efekt",
+            "Zeemanov efekt",
+            "Starkov efekt"
+        ]
+    },
+    {
+        "id": "hr_sci_923",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja se tehnologija koristi za precizno uređivanje genoma, poznata kao \"molekularne škare\"?",
+        "correct_answer": "CRISPR",
+        "incorrect_answers": [
+            "PCR",
+            "Elektroforeza",
+            "Kromatografija"
+        ]
+    },
+    {
+        "id": "hr_sci_924",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva mrežni sigurnosni sustav koji nadzire i kontrolira dolazni i odlazni mrežni promet na temelju unaprijed definiranih sigurnosnih pravila?",
+        "correct_answer": "Vatrozid (Firewall)",
+        "incorrect_answers": [
+            "Ruter",
+            "Modem",
+            "Prekidač (Switch)"
+        ]
+    },
+    {
+        "id": "hr_sci_925",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je alotrop ugljika izuzetno tvrd i provodi struju, a sastoji se od ugljikovih atoma raspoređenih u šesterokutne rešetke?",
+        "correct_answer": "Grafit",
+        "incorrect_answers": [
+            "Fuleren",
+            "Dijamant",
+            "Amorfni ugljik"
+        ]
+    },
+    {
+        "id": "hr_sci_926",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva planet koji kruži oko zvijezde izvan našeg Sunčevog sustava?",
+        "correct_answer": "Egzoplanet",
+        "incorrect_answers": [
+            "Patuljasti planet",
+            "Asteroid",
+            "Komet"
+        ]
+    },
+    {
+        "id": "hr_sci_927",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je temeljna posljedica Einsteinove posebne teorije relativnosti koja kaže da se događaji koji su istovremeni za jednog promatrača možda neće činiti istovremenima za drugog promatrača u relativnom gibanju?",
+        "correct_answer": "Relativnost istodobnosti",
+        "incorrect_answers": [
+            "Gravitacijsko crvenilo",
+            "Zakrivljenost prostor-vremena",
+            "Dilatacija vremena"
+        ]
+    },
+    {
+        "id": "hr_sci_928",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je glavni produkt staničnog disanja koji služi kao primarni nositelj energije u stanici?",
+        "correct_answer": "ATP (adenozin trifosfat)",
+        "incorrect_answers": [
+            "Glukoza",
+            "Kisik",
+            "Ugljikov dioksid"
+        ]
+    },
+    {
+        "id": "hr_sci_929",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva simulirano iskustvo koje može biti slično stvarnom svijetu ili potpuno drugačije, obično se doživljava putem specijalnih naočala?",
+        "correct_answer": "Virtualna stvarnost",
+        "incorrect_answers": [
+            "Proširena stvarnost",
+            "Mješovita stvarnost",
+            "Hologram"
+        ]
+    },
+    {
+        "id": "hr_sci_930",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se nazivaju atomi istog kemijskog elementa koji imaju različit broj neutrona, a time i različitu atomsku masu?",
+        "correct_answer": "Izotopi",
+        "incorrect_answers": [
+            "Izomeri",
+            "Alotropi",
+            "Ioni"
+        ]
+    },
+    {
+        "id": "hr_sci_931",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva tehnika kojom se mijenja genetski materijal organizma pomoću biotehnoloških metoda?",
+        "correct_answer": "Genetski inženjering",
+        "incorrect_answers": [
+            "Kloniranje",
+            "Umjetna selekcija",
+            "Transkripcija"
+        ]
+    },
+    {
+        "id": "hr_sci_932",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji kvantnomehanički princip navodi da je nemoguće istovremeno točno znati i položaj i impuls neke čestice?",
+        "correct_answer": "Heisenbergovo načelo neodređenosti",
+        "incorrect_answers": [
+            "Paulijev princip isključenja",
+            "Planckova konstanta",
+            "Schrödingereva jednadžba"
+        ]
+    },
+    {
+        "id": "hr_sci_933",
+        "category": "znanost_i_tehnologija",
+        "question": "Koje su glavne sirovine koje biljke koriste za proces fotosinteze?",
+        "correct_answer": "Ugljikov dioksid i voda",
+        "incorrect_answers": [
+            "Kisik i glukoza",
+            "Dušik i vodik",
+            "Sumpor i metan"
+        ]
+    },
+    {
+        "id": "hr_sci_934",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva podkategorija umjetne inteligencije koja omogućuje računalnim sustavima učenje iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Obrada prirodnog jezika",
+            "Računalni vid",
+            "Robotika"
+        ]
+    },
+    {
+        "id": "hr_sci_935",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji astronomski fenomen podržava teoriju Velikog praska i objašnjava da se sve galaksije udaljavaju jedna od druge?",
+        "correct_answer": "Hubblovo širenje svemira",
+        "incorrect_answers": [
+            "Nastanak zvijezda",
+            "Formiranje crnih rupa",
+            "Neutronske zvijezde"
+        ]
     }
 ]
