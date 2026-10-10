@@ -97,6 +97,24 @@ service cloud.firestore {
       match /missions/{dateKey} {
         allow read, write: if isOwner(uid) && dateKey.matches('[0-9]{4}-[0-9]{2}-[0-9]{2}');
       }
+
+      // Private leagues (engagement plan Phase 6): the player's own index of
+      // the leagues they belong to - a cache of name/emoji so the "Lige" list
+      // is one small query instead of a collection-group query. Owner-only.
+      // It is NOT proof of membership (the league's members/{uid} doc is);
+      // the 5-leagues-per-player limit is client-enforced.
+      match /leagues/{leagueId} {
+        allow read, delete: if isOwner(uid);
+        allow create, update: if isOwner(uid)
+          && request.resource.data.keys().hasOnly(['name', 'emoji', 'joinedAt'])
+          && request.resource.data.name is string
+          && request.resource.data.name.size() > 0
+          && request.resource.data.name.size() <= 30
+          && request.resource.data.emoji is string
+          && request.resource.data.emoji.size() > 0
+          && request.resource.data.emoji.size() <= 8
+          && request.resource.data.joinedAt is timestamp;
+      }
     }
 
     match /leaderboards/{categoryKey}/scores/{scoreId} {
@@ -1165,6 +1183,213 @@ service cloud.firestore {
     match /badges/{uid} {
       allow read: if true;
       allow write: if false;
+    }
+
+    // ------------------------------------------------------------------
+    // Private leagues (engagement plan Phase 6).
+    //
+    // leagues/{leagueId}                 name, emoji, ownerUid, code,
+    //                                    memberCount, createdAt - readable by
+    //                                    members only
+    // leagues/{leagueId}/members/{uid}   name, joinedAt, code (the code used
+    //                                    to join; checked against the
+    //                                    league's CURRENT code, so rotating
+    //                                    the code locks out old links)
+    // leagueCodes/{code}                 { leagueId, name, emoji } - `get` for
+    //                                    signed-in users, `list` denied, so
+    //                                    codes can't be enumerated. name/emoji
+    //                                    are copied here (and kept in sync by
+    //                                    the owner) so a joiner can see which
+    //                                    league they're joining without read
+    //                                    access to it.
+    //
+    // Every multi-doc change is ONE client batch and these rules tie the
+    // docs together with get()/getAfter()/existsAfter():
+    //  - create league: league (memberCount 1) + owner's member doc + code doc
+    //  - join:   member doc + league memberCount +1 (<= 50)
+    //  - leave:  member doc delete + memberCount -1 (the owner also hands
+    //            ownerUid to another member in the same update; the last
+    //            member deletes the league, its code doc and own member doc)
+    //  - kick:   owner deletes a member doc + memberCount -1
+    // memberCount can therefore only go up by joining (with the right code)
+    // and only go down by the leaver's own member doc disappearing or by the
+    // owner. The owner is trusted about their own league's count.
+    // Not enforced: the 5-leagues-per-player cap (client-side; the index doc
+    // under users/{uid} is a cache, not an authority) and name content (no
+    // profanity filter - the admin can delete a league).
+    // ------------------------------------------------------------------
+    function leagueMemberShapeOk(d) {
+      return d.keys().hasOnly(['name', 'joinedAt', 'code'])
+        && d.name is string
+        && d.name.size() > 0
+        && d.name.size() <= 20
+        && d.code is string
+        && d.code.matches('^[A-HJ-NP-Z2-9]{6}$')
+        && d.joinedAt == request.time;
+    }
+
+    match /leagues/{leagueId} {
+      // Helpers return booleans / data maps (not paths) - the plainest form
+      // of get()/exists() helper the rules language documents.
+      function leagueExists() {
+        return exists(/databases/$(database)/documents/leagues/$(leagueId));
+      }
+      function leagueBefore() {
+        return get(/databases/$(database)/documents/leagues/$(leagueId)).data;
+      }
+      function leagueAfter() {
+        return getAfter(/databases/$(database)/documents/leagues/$(leagueId)).data;
+      }
+      function hasMember(memberUid) {
+        return exists(/databases/$(database)/documents/leagues/$(leagueId)/members/$(memberUid));
+      }
+      function hasMemberAfter(memberUid) {
+        return existsAfter(/databases/$(database)/documents/leagues/$(leagueId)/members/$(memberUid));
+      }
+      function leagueShapeOk(d) {
+        return d.keys().hasOnly(['name', 'emoji', 'ownerUid', 'code', 'memberCount', 'createdAt'])
+          && d.name is string
+          && d.name.size() > 0
+          && d.name.size() <= 30
+          && d.emoji is string
+          && d.emoji.size() > 0
+          && d.emoji.size() <= 8
+          && d.ownerUid is string
+          && d.code is string
+          && d.code.matches('^[A-HJ-NP-Z2-9]{6}$')
+          && d.memberCount is int
+          && d.memberCount >= 0
+          && d.memberCount <= 50;
+      }
+      function leagueChangedKeys() {
+        return request.resource.data.diff(resource.data).affectedKeys();
+      }
+      // Owner edits name/emoji/code, hands the league over (to an existing
+      // member), or lowers memberCount by one (kick / leaving).
+      function leagueOwnerEditOk() {
+        return isOwner(resource.data.ownerUid)
+          && leagueChangedKeys().hasOnly(['name', 'emoji', 'code', 'ownerUid', 'memberCount'])
+          && (request.resource.data.ownerUid == resource.data.ownerUid
+              || hasMember(request.resource.data.ownerUid))
+          && (request.resource.data.memberCount == resource.data.memberCount
+              || request.resource.data.memberCount == resource.data.memberCount - 1);
+      }
+      // A newcomer: their member doc is created in the same batch and the
+      // count rises by exactly one, never past 50.
+      function leagueJoinOk() {
+        return isSignedIn()
+          && leagueChangedKeys().hasOnly(['memberCount'])
+          && request.resource.data.memberCount == resource.data.memberCount + 1
+          && !hasMember(request.auth.uid)
+          && hasMemberAfter(request.auth.uid);
+      }
+      // A member leaving: their own member doc is deleted in the same batch.
+      function leagueSelfLeaveOk() {
+        return isSignedIn()
+          && leagueChangedKeys().hasOnly(['memberCount'])
+          && request.resource.data.memberCount == resource.data.memberCount - 1
+          && hasMember(request.auth.uid)
+          && !hasMemberAfter(request.auth.uid);
+      }
+
+      // Members only. `get` only: a non-admin can't list leagues (the app
+      // reaches a league through the player's own users/{uid}/leagues index).
+      allow get: if isAdmin()
+        || (isSignedIn() && hasMember(request.auth.uid));
+      allow list: if isAdmin();
+
+      allow create: if isSignedIn()
+        && leagueShapeOk(request.resource.data)
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.memberCount == 1
+        && request.resource.data.createdAt == request.time
+        && hasMemberAfter(request.auth.uid);
+
+      allow update: if isAdmin()
+        || (leagueShapeOk(request.resource.data)
+            && (leagueOwnerEditOk() || leagueJoinOk() || leagueSelfLeaveOk()));
+
+      // The owner can only delete an (effectively) empty league - i.e. the
+      // last member leaving. Admin can delete any (moderation).
+      allow delete: if isAdmin()
+        || (isOwner(resource.data.ownerUid) && resource.data.memberCount <= 1);
+
+      match /members/{memberUid} {
+        allow read: if isAdmin()
+          || (isSignedIn() && hasMember(request.auth.uid));
+
+        allow create: if isOwner(memberUid)
+          && leagueMemberShapeOk(request.resource.data)
+          && (
+            // Joining an existing league with its current code.
+            (leagueExists()
+              && request.resource.data.code == leagueBefore().code
+              && leagueAfter().memberCount == leagueBefore().memberCount + 1
+              && leagueAfter().memberCount <= 50)
+            ||
+            // The owner's own member doc, created in the batch that creates the league.
+            (!leagueExists()
+              && leagueAfter().ownerUid == request.auth.uid
+              && request.resource.data.code == leagueAfter().code)
+          );
+
+        // A member doc never changes after creation.
+        allow update: if false;
+
+        // Leave (self), kick (owner), moderation (admin).
+        allow delete: if isOwner(memberUid)
+          || isAdmin()
+          || (isSignedIn() && leagueBefore().ownerUid == request.auth.uid);
+      }
+    }
+
+    match /leagueCodes/{code} {
+      function leagueBeforeOf(id) {
+        return get(/databases/$(database)/documents/leagues/$(id)).data;
+      }
+      function leagueAfterOf(id) {
+        return getAfter(/databases/$(database)/documents/leagues/$(id)).data;
+      }
+      // The league as it will be once the batch lands - so the owner can
+      // create the code doc in the same batch as the league (or a new code
+      // doc in the batch that rotates the league's code).
+      function leagueCodeShapeOk(d) {
+        return d.keys().hasOnly(['leagueId', 'name', 'emoji'])
+          && d.leagueId is string
+          && d.name is string
+          && d.name.size() > 0
+          && d.name.size() <= 30
+          && d.emoji is string
+          && d.emoji.size() > 0
+          && d.emoji.size() <= 8;
+      }
+      function leagueCodeMatchesLeague(d) {
+        return leagueAfterOf(d.leagueId).ownerUid == request.auth.uid
+          && leagueAfterOf(d.leagueId).code == code
+          && leagueAfterOf(d.leagueId).name == d.name
+          && leagueAfterOf(d.leagueId).emoji == d.emoji;
+      }
+
+      // One code at a time, never a listing: codes are unguessable only
+      // because they can't be enumerated.
+      allow get: if isSignedIn();
+      allow list: if false;
+
+      allow create: if isSignedIn()
+        && code.matches('^[A-HJ-NP-Z2-9]{6}$')
+        && leagueCodeShapeOk(request.resource.data)
+        && leagueCodeMatchesLeague(request.resource.data);
+
+      // Rename/emoji sync by the league's owner. A create that collides with
+      // an existing code of ANOTHER league lands here and fails the
+      // leagueId check - the client then draws a new code.
+      allow update: if isSignedIn()
+        && leagueCodeShapeOk(request.resource.data)
+        && request.resource.data.leagueId == resource.data.leagueId
+        && leagueCodeMatchesLeague(request.resource.data);
+
+      allow delete: if isAdmin()
+        || (isSignedIn() && leagueBeforeOf(resource.data.leagueId).ownerUid == request.auth.uid);
     }
 
     // Plan B - 1v1 match history. Each participant writes their OWN summary

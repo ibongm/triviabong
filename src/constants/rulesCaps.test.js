@@ -6,6 +6,7 @@ import { ACHIEVEMENTS } from './achievements';
 import { MAX_ROUND_ELAPSED_MS } from './gameBalance';
 import { EXPLANATION_MAX_LENGTH } from '../utils/questionMerge';
 import { SEASONS, BEST_ROUNDS_PER_WEEK, MAX_SEASON_WEEKS_STORED } from './seasons';
+import { MAX_LEAGUE_MEMBERS, LEAGUE_NAME_MAX, LEAGUE_EMOJI_MAX, LEAGUE_CODE_PATTERN, LEAGUE_EMOJIS } from '../utils/league';
 import { MAX_DUEL_SCORE, MAX_DUEL_TOTAL_TIME_MS, DUEL_QUESTION_COUNT, DUEL_TTL_MS } from '../utils/asyncDuel';
 
 // Ported from the orphaned scripts/check-rules-caps.mjs (never wired into
@@ -52,5 +53,17 @@ describe('firestore.rules caps stay in sync with the app', () => {
         }
         expect(rulesText).toContain("seasonId.matches('^s[0-9]{1,3}$')");
         expect(rulesText).toContain("weekKey.matches('^[0-9]{4}-W[0-9]{2}$')");
+    });
+
+    it('league caps and the code alphabet match firestore.rules', () => {
+        expect(rulesText).toContain(`d.memberCount <= ${MAX_LEAGUE_MEMBERS}`);
+        expect(rulesText).toContain(`leagueAfter().memberCount <= ${MAX_LEAGUE_MEMBERS}`);
+        expect(rulesText).toContain(`d.name.size() <= ${LEAGUE_NAME_MAX}`);
+        expect(rulesText).toContain(`d.emoji.size() <= ${LEAGUE_EMOJI_MAX}`);
+        // The code pattern is written out in the rules several times; it must be the app's.
+        const rulesPattern = "'^[A-HJ-NP-Z2-9]{6}$'";
+        expect(LEAGUE_CODE_PATTERN.source).toBe('^[A-HJ-NP-Z2-9]{6}$');
+        expect(rulesText.split(rulesPattern).length - 1).toBeGreaterThanOrEqual(3);
+        for (const e of LEAGUE_EMOJIS) expect(e.length).toBeLessThanOrEqual(LEAGUE_EMOJI_MAX);
     });
 });

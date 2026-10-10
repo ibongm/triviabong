@@ -5,6 +5,7 @@ import AdminQuestions from './admin/AdminQuestions';
 import AdminLeaderboardsProfiles from './admin/AdminLeaderboardsProfiles';
 import AdminReports from './admin/AdminReports';
 import AdminQuestionSubmissions from './admin/AdminQuestionSubmissions';
+import AdminLeagues from './admin/AdminLeagues';
 
 // Thin shell: owns section navigation plus the one piece of cross-section
 // state the original plan called for - a report clicked in Prijave must
@@ -20,6 +21,7 @@ const SECTIONS = [
     { key: 'submissions', label: 'Predložena pitanja', icon: '📝' },
     { key: 'leaderboards', label: 'Ljestvice / Profili', icon: '🏆' },
     { key: 'reports', label: 'Prijave', icon: '🚩' },
+    { key: 'leagues', label: 'Lige', icon: '👥' },
 ];
 
 export default function AdminPanel({ onClose }) {
@@ -79,6 +81,7 @@ export default function AdminPanel({ onClose }) {
             {activeSection === 'submissions' && <AdminQuestionSubmissions />}
             {activeSection === 'leaderboards' && <AdminLeaderboardsProfiles />}
             {activeSection === 'reports' && <AdminReports onNavigateToQuestion={navigateToQuestion} />}
+            {activeSection === 'leagues' && <AdminLeagues />}
         </div>
     );
 }

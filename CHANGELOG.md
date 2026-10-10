@@ -1,5 +1,24 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 6: private leagues (dark)
+- **Files Changed**:
+  - `src/utils/league.js` (Created), `src/utils/league.test.js` (Created), `src/constants/rulesCaps.test.js` (Modified)
+  - `src/services/leagues.js` (Created), `src/hooks/useLeagues.js` (Created)
+  - `src/components/LeaguesModal.jsx` (Created), `src/components/LeaguePage.jsx` (Created)
+  - `src/components/admin/AdminLeagues.jsx` (Created), `src/components/AdminPanel.jsx` (Modified)
+  - `src/screens/LobbyScreen.jsx` (Modified), `src/App.jsx` (Modified)
+  - `firestore.rules` (Modified), `scripts/firestore-rules-leagues.test.mjs` (Created)
+  - `.github/workflows/ci.yml` (Modified), `.github/workflows/e2e-emulator.yml` (Modified)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Private leagues (dark, `FEATURES.LEAGUES = false`).** Create a league (name + emoji), share a 6-character code or `/liga/CODE` link, up to 50 members, weekly table built from Phase 5's `weeklyBoards` data, daily mini-ranking, crown for last week's winner, challenge a member via the existing async-duel flow. Accounts required; no coins/XP.
+  - **Rules.** New `leagues/{id}` (+ `members`), `leagueCodes/{code}` (get only, no list) and `users/{uid}/leagues/{id}` index. Create/join/leave/kick/hand-over are single `writeBatch`es tied together with `getAfter`/`existsAfter`; join uses `increment(1)` on `memberCount` because a joiner can't read the league; join requires the league's current code (regenerating locks out old links); last member leaving deletes the league. Rules NOT executed locally (no emulator in the sandbox); `scripts/firestore-rules-leagues.test.mjs` runs in both e2e workflows.
+  - **Invite link.** `/liga/CODE` parsed once on load, kept in `sessionStorage`, removed from the address bar; modal opens after auth settles; signed-out visitors are asked to sign in first; invalid codes are ignored.
+  - **Plan deviations.** `leagueCodes` carries `name`/`emoji` for the join preview; code/link visible to all members; member docs immutable (name = join-time name); 5-leagues-per-player cap is client-only.
+  - **Admin.** Read-only "Lige" section with delete.
+  - **Not done:** Playwright E2E for leagues, league achievement.
+  - Verification: unit suite passes (395 tests, incl. 24 new league tests and the rules-cap tie); build passes; lint unchanged at the 12 pre-existing problems; headless-browser smoke test with the flag temporarily on (signed-out lobby row → sign-in prompt, `/liga/ABC234` stores the code, strips the URL and shows the sign-in-to-join prompt, `/liga/ABC230` ignored, no page errors), flag reverted afterwards. Signed-in flows and the rules are verified only by CI / Bong's emulator run.
+
 ### [2026-10-10] - Engagement plan Phase 5: weekly and seasonal leaderboards (dark)
 - **Files Changed**:
   - `src/utils/periods.js` (Created), `src/utils/periods.test.js` (Created)

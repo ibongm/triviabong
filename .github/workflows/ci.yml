@@ -53,6 +53,8 @@ jobs:
         run: node scripts/firestore-rules-async-duels.test.mjs
       - name: Run weekly-board Firestore rules tests
         run: node scripts/firestore-rules-weekly-boards.test.mjs
+      - name: Run league Firestore rules tests
+        run: node scripts/firestore-rules-leagues.test.mjs
       - name: Start dev server against the emulator
         env:
           VITE_USE_FIREBASE_EMULATOR: "true"
