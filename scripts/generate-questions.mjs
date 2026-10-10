@@ -27,6 +27,7 @@ import {
   EXPLANATION_MAX_LENGTH,
 } from '../src/utils/questionMerge.js';
 import { resolveCategoryKey } from '../src/data/categoryKeys.js';
+import { isDifficultyLevel } from '../src/utils/difficulty.js';
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
@@ -88,6 +89,7 @@ Uvjeti:
 - 'correct_answer' mora biti točan i nedvosmislen odgovor.
 - 'incorrect_answers' mora sadržavati točno 3 uvjerljiva netočna odgovora.
 - 'explanation': 1-2 kratke rečenice (najviše ${EXPLANATION_MAX_LENGTH} znakova) koje objašnjavaju ZAŠTO je točan odgovor točan. Bez ponavljanja pitanja, bez dodatnih zanimljivosti koje ne podupiru odgovor. Ako se činjenica s vremenom mijenja (rekordi, nositelji titula, brojke), navedi godinu stanja, npr. "(stanje 2024.)".
+- 'difficulty_guess': tvoja procjena težine za prosječnog hrvatskog igrača: "easy" (većina zna, ~75%+ točnih), "medium" ili "hard" (većina griješi, ispod ~45% točnih). Budi realan; otprilike 30% easy, 40% medium, 30% hard.
 - Nemoj ponavljati niti postavljati varijacije ovih postojećih pitanja:
 - ${sampledRecent}
 `;
@@ -112,8 +114,9 @@ async function run() {
               items: { type: 'STRING' },
             },
             explanation: { type: 'STRING' },
+            difficulty_guess: { type: 'STRING', enum: ['easy', 'medium', 'hard'] },
           },
-          required: ['question', 'correct_answer', 'incorrect_answers', 'explanation'],
+          required: ['question', 'correct_answer', 'incorrect_answers', 'explanation', 'difficulty_guess'],
         },
       },
     },
@@ -133,6 +136,10 @@ async function run() {
     // An over-long or empty explanation shouldn't cost us an otherwise good
     // question: drop the explanation (logged) and keep the question.
     ...(typeof item?.explanation === 'string' && item.explanation.trim() ? { explanation: item.explanation.trim() } : {}),
+    // Stored as `difficulty` (source 'guess' is stamped by mergeQuestions);
+    // scripts/compute-difficulty.mjs replaces it once real stats exist.
+    // An unusable value is simply dropped - it never costs the question.
+    ...(isDifficultyLevel(item?.difficulty_guess) ? { difficulty: item.difficulty_guess } : {}),
   })).map((entry, i) => {
     if (entry.explanation && entry.explanation.length > EXPLANATION_MAX_LENGTH) {
       console.warn(`  Dropped over-long explanation on #${i + 1} (${entry.explanation.length} chars).`);

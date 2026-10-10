@@ -1,5 +1,7 @@
 import { getQuestionsByCategory, getAllQuestions } from '../data/questionsLoader';
 import { getQuestionOptions, shuffleArray } from './questionUtils';
+import { composeRound } from './roundComposer';
+import { isFeatureEnabled } from '../constants/features';
 
 // 10 questions for the round + 1 pre-selected reserve for a sudden-death
 // tiebreak (see firestore.rules' matches/{matchId} comment) - chosen ONCE
@@ -27,8 +29,20 @@ const QUESTIONS_TO_PICK = 11;
 // questionsLoader.js), so the top-up simply never triggers.
 export const pickMatchQuestionIds = async (categoryKey) => {
     const [rawPool, rawFallback] = await Promise.all([getQuestionsByCategory(categoryKey), getAllQuestions()]);
-    const pool = shuffleArray(rawPool.filter(q => q && q.id));
-    const picked = pool.slice(0, QUESTIONS_TO_PICK);
+    const validPool = rawPool.filter(q => q && q.id);
+    // FEATURES.DIFFICULTY: the 10 played questions follow the round curve
+    // (3 easy / 4 medium / 3 hard, easy -> hard); the 11th, the sudden-death
+    // reserve, is a random leftover. This is the one place a live 1v1 match
+    // is touched, and both clients still just read the stored id list.
+    let picked;
+    if (isFeatureEnabled('DIFFICULTY') && validPool.length >= QUESTIONS_TO_PICK) {
+        const round = composeRound(validPool, { count: QUESTIONS_TO_PICK - 1 });
+        const used = new Set(round.map(q => q.id));
+        const reserve = shuffleArray(validPool.filter(q => !used.has(q.id))).slice(0, 1);
+        picked = [...round, ...reserve];
+    } else {
+        picked = shuffleArray(validPool).slice(0, QUESTIONS_TO_PICK);
+    }
 
     if (picked.length < QUESTIONS_TO_PICK) {
         const alreadyPicked = new Set(picked.map(q => q.id));
