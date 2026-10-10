@@ -2,20 +2,19 @@ import fs from 'fs';
 import path from 'path';
 import { GoogleGenAI } from '@google/genai';
 
-const project = process.env.GCP_PROJECT_ID;
-const location = process.env.GCP_REGION || 'us-central1';
+const project = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID;
+const location = process.env.GOOGLE_CLOUD_LOCATION || 'us-central1';
 
 if (!project) {
-  console.error('Error: GCP_PROJECT_ID is not set.');
+  console.error('Error: Project ID is not set.');
   process.exit(1);
 }
 
-// Initialize using Vertex AI mode via the new unified GenAI SDK
+// Initialize explicitly in Vertex AI mode
 const ai = new GoogleGenAI({
-  vertexAI: {
-    project,
-    location,
-  },
+  vertexAI: true,
+  project,
+  location,
 });
 
 const PREFIX_MAP = {
@@ -40,7 +39,7 @@ if (!fs.existsSync(filePath)) {
 
 const existingQuestions = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-// Determine the starting ID index
+// Determine next ID
 const prefix = PREFIX_MAP[category] || `hr_${category.substring(0, 3)}`;
 let highestIndex = 0;
 for (const q of existingQuestions) {
@@ -68,7 +67,7 @@ Uvjeti:
 `;
 
 async function run() {
-  console.log(`Generating ${count} questions for category: "${category}" (current max ID: ${highestIndex})...`);
+  console.log(`Generating ${count} questions for category: "${category}" (starting from ID: ${highestIndex + 1})...`);
 
   const response = await ai.models.generateContent({
     model: 'gemini-2.5-flash',
