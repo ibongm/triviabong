@@ -62,5 +62,5 @@ jobs:
             Automatically generated via Vertex AI Gemini 2.5 Flash.
             Category: `${{ inputs.category }}`
             Please review the diff before merging into main.
-          branch: "ai-questions-${{ inputs.category }}"
+          branch: "ai-questions-${{ inputs.category }}-${{ github.run_id }}"
           delete-branch: true
