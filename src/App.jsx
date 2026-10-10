@@ -63,6 +63,9 @@ import { useScoreSaving } from './hooks/useScoreSaving';
 import { useDailyMissions } from './hooks/useDailyMissions';
 import { useAsyncDuels } from './hooks/useAsyncDuels';
 import { usePreviousWeekSummary } from './hooks/usePreviousWeekSummary';
+import { useLeagues } from './hooks/useLeagues';
+import LeaguesModal from './components/LeaguesModal';
+import { ANY_CATEGORY } from './utils/asyncDuel';
 import AsyncDuelScreen from './screens/AsyncDuelScreen';
 import AsyncDuelsModal from './components/AsyncDuelsModal';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
@@ -253,6 +256,7 @@ export default function App() {
   const [showRekordiModal, setShowRekordiModal] = useState(false);
   const [showOnlinePlayersModal, setShowOnlinePlayersModal] = useState(false);
   const [showAsyncDuelsModal, setShowAsyncDuelsModal] = useState(false);
+  const [showLeaguesModal, setShowLeaguesModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
   const [showSubmitQuestionModal, setShowSubmitQuestionModal] = useState(false);
   const [showMissionsModal, setShowMissionsModal] = useState(false);
@@ -433,6 +437,35 @@ export default function App() {
       setShowAsyncDuelsModal(false);
       await playDuelById(duelId);
     }
+  };
+
+  // Private leagues (FEATURES.LEAGUES, plan Phase 6) - see hooks/useLeagues.js.
+  // A /liga/CODE invite link opens the modal on "join" once auth has settled.
+  const {
+    enabled: leaguesEnabled,
+    leagues: myLeagues,
+    loading: leaguesLoading,
+    refresh: refreshLeagues,
+    pendingCode: pendingLeagueCode,
+    clearPendingCode: clearPendingLeagueCode,
+    linkReady: leagueLinkReady,
+  } = useLeagues(currentUser);
+  const leaguesModalOpen = leaguesEnabled && (showLeaguesModal || leagueLinkReady);
+  const openLeaguesModal = () => {
+    if (!currentUser) { setShowAuthModal(true); return; }
+    setShowLeaguesModal(true);
+    refreshLeagues();
+  };
+  const closeLeaguesModal = () => {
+    setShowLeaguesModal(false);
+    clearPendingLeagueCode();
+  };
+  // "Izazovi" next to a league member: a direct async duel (any category), then play it.
+  const handleChallengeLeagueMember = async (member) => {
+    closeLeaguesModal();
+    const duelId = await challengePlayer(member, ANY_CATEGORY);
+    if (duelId) await playDuelById(duelId);
+    else setShowAsyncDuelsModal(true); // surfaces the reason (e.g. too many open challenges)
   };
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
@@ -631,7 +664,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAsyncDuelsModal || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showWhatsNewModal || showDailyConfirm;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAsyncDuelsModal || leaguesModalOpen || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showWhatsNewModal || showDailyConfirm;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -1409,6 +1442,8 @@ export default function App() {
             asyncDuelsEnabled={asyncDuelsEnabled}
             pendingChallengeCount={pendingChallengeCount}
             onShowAsyncDuelsModal={() => { setShowAsyncDuelsModal(true); refreshAsyncDuels(); }}
+            leaguesEnabled={leaguesEnabled}
+            onShowLeaguesModal={openLeaguesModal}
           />
         )}
 
@@ -1592,6 +1627,23 @@ export default function App() {
           onOpenDuel={handleOpenAsyncDuel}
           onChallenge={handleChallengePlayer}
           onPlayRandom={handlePlayRandomOpponent}
+        />
+      )}
+
+      {leaguesEnabled && (
+        <LeaguesModal
+          isOpen={leaguesModalOpen}
+          onClose={closeLeaguesModal}
+          currentUser={currentUser}
+          myName={currentUser ? getPlayerDisplayName(currentUser) : ''}
+          leagues={myLeagues}
+          loading={leaguesLoading}
+          onRefresh={refreshLeagues}
+          pendingCode={pendingLeagueCode}
+          onClearPendingCode={clearPendingLeagueCode}
+          onShowAuthModal={() => setShowAuthModal(true)}
+          canChallenge={asyncDuelsEnabled}
+          onChallengeMember={handleChallengeLeagueMember}
         />
       )}
 

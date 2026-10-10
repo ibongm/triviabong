@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks, Sparkles, Trophy } from 'lucide-react';
+import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks, Sparkles, Trophy, Users } from 'lucide-react';
 import RekordiBoards from '../components/RekordiBoards';
 import { getCategoryDetails, DEFAULT_CATEGORY_COLOR } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
@@ -55,6 +55,8 @@ export default function LobbyScreen({
     asyncDuelsEnabled = false,
     pendingChallengeCount = 0,
     onShowAsyncDuelsModal,
+    leaguesEnabled = false,
+    onShowLeaguesModal,
 }) {
     const [now, setNow] = useState(() => new Date());
     useEffect(() => {
@@ -225,6 +227,20 @@ export default function LobbyScreen({
                     ) : (
                         <ChevronRight className="w-4 h-4 text-emerald-500/60" />
                     )}
+                </button>
+            )}
+            {leaguesEnabled && (
+                <button
+                    onClick={() => { sound.playClick(); onShowLeaguesModal(); }}
+                    className="w-full flex items-center justify-between p-3.5 rounded-2xl border border-sky-500/25 bg-sky-500/5 hover:bg-sky-500/10 transition-all active:scale-[0.98]"
+                >
+                    <div className="flex items-center gap-2.5">
+                        <Users className="w-4 h-4 text-sky-400" />
+                        <span className="text-sm font-bold text-slate-200">
+                            {currentUser ? 'Lige — ljestvica za tvoju ekipu' : 'Lige — prijavi se i natječi s prijateljima'}
+                        </span>
+                    </div>
+                    <ChevronRight className="w-4 h-4 text-sky-500/60" />
                 </button>
             )}
             <button
