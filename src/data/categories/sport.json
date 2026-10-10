@@ -11031,5 +11031,445 @@
             "10",
             "11"
         ]
+    },
+    {
+        "id": "hr_spo_1007",
+        "category": "sport",
+        "question": "Koji je sport poznat kao 'kralj sportova'?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Gimnastika"
+        ]
+    },
+    {
+        "id": "hr_spo_1008",
+        "category": "sport",
+        "question": "Kako se naziva početni udarac u tenisu?",
+        "correct_answer": "Servis",
+        "incorrect_answers": [
+            "Smeč",
+            "Volej",
+            "Dropshot"
+        ]
+    },
+    {
+        "id": "hr_spo_1009",
+        "category": "sport",
+        "question": "Koji plivački stil ne zahtijeva da plivač izroni glavu iz vode za disanje?",
+        "correct_answer": "Leđno",
+        "incorrect_answers": [
+            "Kraul",
+            "Prsno",
+            "Delfin"
+        ]
+    },
+    {
+        "id": "hr_spo_1010",
+        "category": "sport",
+        "question": "Koji je najpoznatiji godišnji biciklistički događaj?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ]
+    },
+    {
+        "id": "hr_spo_1011",
+        "category": "sport",
+        "question": "Koliko rupa ima standardno golf igralište?",
+        "correct_answer": "18",
+        "incorrect_answers": [
+            "9",
+            "12",
+            "24"
+        ]
+    },
+    {
+        "id": "hr_spo_1012",
+        "category": "sport",
+        "question": "Koji borilački sport potječe iz Japana i naglašava bacanja i poluge?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Boks"
+        ]
+    },
+    {
+        "id": "hr_spo_1013",
+        "category": "sport",
+        "question": "Koja je boja zastave koja se u Formuli 1 koristi za označavanje opasnosti na stazi i obvezuje vozače na usporavanje?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Plava"
+        ]
+    },
+    {
+        "id": "hr_spo_1014",
+        "category": "sport",
+        "question": "Koji se sport igra na ledu s palicama i pakom?",
+        "correct_answer": "Hokej na ledu",
+        "incorrect_answers": [
+            "Curling",
+            "Brzo klizanje",
+            "Umjetničko klizanje"
+        ]
+    },
+    {
+        "id": "hr_spo_1015",
+        "category": "sport",
+        "question": "Koliko rundi obično traje profesionalni boksački meč za naslov svjetskog prvaka?",
+        "correct_answer": "12",
+        "incorrect_answers": [
+            "10",
+            "15",
+            "8"
+        ]
+    },
+    {
+        "id": "hr_spo_1016",
+        "category": "sport",
+        "question": "Koji se sport često naziva 'šahom na vodi'?",
+        "correct_answer": "Vaterpolo",
+        "incorrect_answers": [
+            "Plivanje",
+            "Veslanje",
+            "Jedrenje"
+        ]
+    },
+    {
+        "id": "hr_spo_1017",
+        "category": "sport",
+        "question": "Koji je sport osnovao James Naismith 1891. godine?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Odbojka",
+            "Rukomet",
+            "Bejzbol"
+        ]
+    },
+    {
+        "id": "hr_spo_1018",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz zaleđenu stazu na sanjkama, glavom naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Luge",
+            "Nordijska kombinacija"
+        ]
+    },
+    {
+        "id": "hr_spo_1019",
+        "category": "sport",
+        "question": "Koja je zemlja poznata po razvijenom sustavu sumo hrvanja?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Koreja",
+            "Mongolija"
+        ]
+    },
+    {
+        "id": "hr_spo_1020",
+        "category": "sport",
+        "question": "Koji je legendarni američki plivač osvojio najviše olimpijskih medalja u povijesti?",
+        "correct_answer": "Michael Phelps",
+        "incorrect_answers": [
+            "Mark Spitz",
+            "Ian Thorpe",
+            "Matt Biondi"
+        ]
+    },
+    {
+        "id": "hr_spo_1021",
+        "category": "sport",
+        "question": "Kako se zove međunarodna nogometna organizacija koja organizira Svjetsko prvenstvo?",
+        "correct_answer": "FIFA",
+        "incorrect_answers": [
+            "UEFA",
+            "CONMEBOL",
+            "CAF"
+        ]
+    },
+    {
+        "id": "hr_spo_1022",
+        "category": "sport",
+        "question": "Koji se sport igra s pernatom lopticom (košarkom) preko mreže?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Tenis",
+            "Odbojka",
+            "Stolni tenis"
+        ]
+    },
+    {
+        "id": "hr_spo_1023",
+        "category": "sport",
+        "question": "Koji je brazilski nogometaš poznat pod nadimkom 'Fenomen'?",
+        "correct_answer": "Ronaldo Nazário",
+        "incorrect_answers": [
+            "Pelé",
+            "Ronaldinho",
+            "Neymar"
+        ]
+    },
+    {
+        "id": "hr_spo_1024",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad u odbojci na pijesku?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "6"
+        ]
+    },
+    {
+        "id": "hr_spo_1025",
+        "category": "sport",
+        "question": "Prije uvođenja otvorenog sustava bodovanja, koja je bila maksimalna ocjena u gimnastici?",
+        "correct_answer": "10.0",
+        "incorrect_answers": [
+            "9.5",
+            "10.5",
+            "11.0"
+        ]
+    },
+    {
+        "id": "hr_spo_1026",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra na 'zelenom platnu' (snookeru)?",
+        "correct_answer": "Biljar",
+        "incorrect_answers": [
+            "Kuglanje",
+            "Curling",
+            "Golf"
+        ]
+    },
+    {
+        "id": "hr_spo_1027",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji utrkuju kajacima ili kanuima po bijesnim vodama (brzacima)?",
+        "correct_answer": "Kanu slalom",
+        "incorrect_answers": [
+            "Veslanje na mirnim vodama",
+            "Jedrenje",
+            "Sinkronizirano plivanje"
+        ]
+    },
+    {
+        "id": "hr_spo_1028",
+        "category": "sport",
+        "question": "Koja je zemlja domaćin Olimpijskih igara u Parizu 2024. godine?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Ujedinjeno Kraljevstvo",
+            "Njemačka",
+            "Italija"
+        ]
+    },
+    {
+        "id": "hr_spo_1029",
+        "category": "sport",
+        "question": "Koji je legendarni košarkaš poznat po tome što je osvojio šest NBA prvenstava s Chicago Bullsima?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": [
+            "LeBron James",
+            "Kobe Bryant",
+            "Magic Johnson"
+        ]
+    },
+    {
+        "id": "hr_spo_1030",
+        "category": "sport",
+        "question": "Kako se naziva dio nogometnog terena unutar kojeg vratar smije rukom igrati loptu?",
+        "correct_answer": "Kazneni prostor",
+        "incorrect_answers": [
+            "Centar igrališta",
+            "Gol-linija",
+            "Aut-linija"
+        ]
+    },
+    {
+        "id": "hr_spo_1031",
+        "category": "sport",
+        "question": "Koji je sport poznat po skakanju s visokih platformi ili daske u vodu?",
+        "correct_answer": "Skokovi u vodu",
+        "incorrect_answers": [
+            "Plivanje",
+            "Veslanje",
+            "Vaterpolo"
+        ]
+    },
+    {
+        "id": "hr_spo_1032",
+        "category": "sport",
+        "question": "Koja je najviša planina koju je alpinist trebao osvojiti da bi se smatrao osvajačem 'Sedam vrhova'?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Mont Blanc",
+            "Kilimanjaro"
+        ]
+    },
+    {
+        "id": "hr_spo_1033",
+        "category": "sport",
+        "question": "Koji se sport tradicionalno igra na konjima, s palicama za udaranje lopte?",
+        "correct_answer": "Polo",
+        "incorrect_answers": [
+            "Konjički skokovi",
+            "Dresura",
+            "Utrke konja"
+        ]
+    },
+    {
+        "id": "hr_spo_1034",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u atletici gdje se natjecatelji natječu tko će najdalje baciti tešku kuglu?",
+        "correct_answer": "Bacanje kugle",
+        "incorrect_answers": [
+            "Bacanje diska",
+            "Bacanje koplja",
+            "Bacanje kladiva"
+        ]
+    },
+    {
+        "id": "hr_spo_1035",
+        "category": "sport",
+        "question": "Koja je država bila domaćin prvih modernih Olimpijskih igara 1896. godine?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Francuska",
+            "Italija",
+            "Ujedinjeno Kraljevstvo"
+        ]
+    },
+    {
+        "id": "hr_spo_1036",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome da se igra s lopticom i reketima na stolu podijeljenom mrežom?",
+        "correct_answer": "Stolni tenis",
+        "incorrect_answers": [
+            "Tenis",
+            "Badminton",
+            "Squash"
+        ]
+    },
+    {
+        "id": "hr_spo_1037",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome da uključuje pet disciplina: mačevanje, plivanje, jahanje, streljaštvo i trčanje?",
+        "correct_answer": "Moderni petoboj",
+        "incorrect_answers": [
+            "Triatlon",
+            "Desetoboj",
+            "Sedmoboj"
+        ]
+    },
+    {
+        "id": "hr_spo_1038",
+        "category": "sport",
+        "question": "Koji je legendarni američki boksač poznat pod nadimkom 'Najveći' (The Greatest)?",
+        "correct_answer": "Muhammad Ali",
+        "incorrect_answers": [
+            "Mike Tyson",
+            "Joe Frazier",
+            "George Foreman"
+        ]
+    },
+    {
+        "id": "hr_spo_1039",
+        "category": "sport",
+        "question": "Koja je boja kartona u nogometu za isključenje igrača iz igre?",
+        "correct_answer": "Crveni karton",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Zeleni karton",
+            "Plavi karton"
+        ]
+    },
+    {
+        "id": "hr_spo_1040",
+        "category": "sport",
+        "question": "Koji je sport poznat po 'jamama s pijeskom' (bunkers) i vodenim preprekama?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kriket",
+            "Bejzbol",
+            "Kuglanje"
+        ]
+    },
+    {
+        "id": "hr_spo_1041",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometni klub osvojio Kup velesajamskih gradova 1967. godine?",
+        "correct_answer": "Dinamo Zagreb",
+        "incorrect_answers": [
+            "Hajduk Split",
+            "Rijeka",
+            "Osijek"
+        ]
+    },
+    {
+        "id": "hr_spo_1042",
+        "category": "sport",
+        "question": "Koliko traje jedna četvrtina u košarkaškoj NBA ligi?",
+        "correct_answer": "12 minuta",
+        "incorrect_answers": [
+            "10 minuta",
+            "8 minuta",
+            "15 minuta"
+        ]
+    },
+    {
+        "id": "hr_spo_1043",
+        "category": "sport",
+        "question": "Koji je sport poznat po disciplinama kao što su 'preskok', 'ruče', 'parter' i 'greda'?",
+        "correct_answer": "Sportska gimnastika",
+        "incorrect_answers": [
+            "Ritmička gimnastika",
+            "Akrobatski rock'n'roll",
+            "Ples"
+        ]
+    },
+    {
+        "id": "hr_spo_1044",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz planinu na dasci?",
+        "correct_answer": "Snowboarding",
+        "incorrect_answers": [
+            "Skijanje",
+            "Sankanje",
+            "Bob"
+        ]
+    },
+    {
+        "id": "hr_spo_1045",
+        "category": "sport",
+        "question": "Koji je sport poznat po 'hat-tricku', tj. tri pogotka istog igrača u jednoj utakmici?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Rukomet",
+            "Vaterpolo"
+        ]
+    },
+    {
+        "id": "hr_spo_1046",
+        "category": "sport",
+        "question": "Koji je hrvatski skijaš bio dvostruki osvajač Svjetskog kupa u ukupnom poretku?",
+        "correct_answer": "Ivica Kostelić",
+        "incorrect_answers": [
+            "Janica Kostelić",
+            "Filip Zubčić",
+            "Natko Zrnčić-Dim"
+        ]
     }
 ]
