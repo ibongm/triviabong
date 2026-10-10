@@ -10,6 +10,11 @@ export const QUESTIONS_PER_ROUND = 10;
 export const QUESTION_TIME_SECONDS = 20;
 export const PLUS_TEN_SECONDS = 10;
 
+// Upper bound firestore.rules accepts for a leaderboard entry's elapsedMs
+// (10 questions at the 20s timer, with headroom). A value above it gets the
+// WHOLE score write rejected, so useScoreSaving omits elapsedMs instead.
+export const MAX_ROUND_ELAPSED_MS = 200000;
+
 export const BASE_SCORE = 100;
 export const SPEED_BONUS_PER_SECOND = 10;
 export const STREAK_MULTIPLIER_STEP = 0.2;

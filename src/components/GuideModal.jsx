@@ -1,4 +1,4 @@
-import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays, Swords, Trophy, Medal, Crown, ListChecks, PenSquare } from 'lucide-react';
+import { X, HelpCircle, Zap, Award, Coins, Scissors, Clock, FastForward, Heart, Play, CalendarDays, Swords, Trophy, Medal, Crown, ListChecks, PenSquare, Info } from 'lucide-react';
 import {
     MAX_LIVES,
     QUESTIONS_PER_ROUND,
@@ -90,6 +90,13 @@ export default function GuideModal({ isOpen, onClose }) {
                         ({BASE_SCORE} + {EXAMPLE_TIME_LEFT}×{SPEED_BONUS_PER_SECOND}) × {EXAMPLE_MULTIPLIER.toFixed(1)} = <b>{EXAMPLE_SCORE} bodova</b>.
                     </p>
                 </Section>
+
+                {isFeatureEnabled('EXPLANATIONS') && (
+                    <Section icon={<Info className="w-4 h-4 text-amber-400" />} title="Objašnjenja">
+                        <p>Nakon odgovora na pitanje koje ima objašnjenje, runda se zaustavlja i prikazuje kratko objašnjenje točnog odgovora - nastavi gumbom <b className="text-white">Dalje</b> (ili tipkom Enter). Vrijeme čitanja ne računa se u vrijeme runde.</p>
+                        <p className="text-slate-500 italic">U Dnevnom izazovu i 1v1 dvobojima objašnjenja su vidljiva tek u pregledu odgovora na kraju, kako bi svi igrali istim tempom. Ako je objašnjenje netočno, prijavi pitanje.</p>
+                    </Section>
+                )}
 
                 <Section icon={<Award className="w-4 h-4 text-amber-400" />} title="XP i Razine">
                     <p>Svaki točan odgovor donosi <b className="text-white">+{XP_PER_CORRECT_ANSWER} XP</b>.</p>

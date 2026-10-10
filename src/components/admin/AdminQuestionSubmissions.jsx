@@ -71,6 +71,7 @@ export default function AdminQuestionSubmissions() {
                         question: submission.question,
                         correct_answer: submission.correct_answer,
                         incorrect_answers: submission.incorrect_answers,
+                        ...(submission.explanation ? { explanation: submission.explanation } : {}),
                     }],
                 }),
             });
@@ -176,6 +177,7 @@ export default function AdminQuestionSubmissions() {
                                     <p className="text-slate-200 text-sm">{s.question}</p>
                                     <p className="text-emerald-400 text-xs mt-1">✓ {s.correct_answer}</p>
                                     <p className="text-slate-500 text-xs">✗ {(s.incorrect_answers || []).join(' · ')}</p>
+                                    {s.explanation && <p className="text-sky-300/80 text-xs mt-1">ℹ {s.explanation}</p>}
                                     {s.note && <p className="text-slate-500 text-xs mt-1 italic">{s.note}</p>}
                                 </div>
                                 {s.status === 'pending' && (

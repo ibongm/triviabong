@@ -414,14 +414,21 @@ service cloud.firestore {
         && request.resource.data.categoryId is string
         && request.resource.data.categoryId.size() > 0
         && request.resource.data.categoryId.size() <= 50
-        && request.resource.data.reason in ['wrong_answer', 'unclear', 'typo', 'offensive', 'other']
+        // wrong_explanation: engagement plan Phase 2 (answer explanations).
+        && request.resource.data.reason in ['wrong_answer', 'unclear', 'typo', 'offensive', 'wrong_explanation', 'other']
         && request.resource.data.status == 'pending'
         && request.resource.data.createdAt == request.time
         && (!('uid' in request.resource.data)
             || request.resource.data.uid == null
             || isOwner(request.resource.data.uid))
         && (!('note' in request.resource.data)
-            || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+            || (request.resource.data.note is string && request.resource.data.note.size() <= 500))
+        // Optional answer explanation (engagement plan Phase 2). 220 mirrors
+        // EXPLANATION_MAX_LENGTH in src/utils/questionMerge.js - keep equal.
+        && (!('explanation' in request.resource.data)
+            || (request.resource.data.explanation is string
+                && request.resource.data.explanation.size() > 0
+                && request.resource.data.explanation.size() <= 220));
 
       allow get, list: if isAdmin();
       // Resolve/dismiss only - the queue-defining fields can't be rewritten.
@@ -438,7 +445,7 @@ service cloud.firestore {
       // validateEntry (src/utils/questionMerge.js) enforces server-side,
       // since an approved submission is fed straight into that validation.
       allow create: if isSignedIn()
-        && request.resource.data.keys().hasOnly(['uid', 'category', 'question', 'correct_answer', 'incorrect_answers', 'note', 'status', 'createdAt'])
+        && request.resource.data.keys().hasOnly(['uid', 'category', 'question', 'correct_answer', 'incorrect_answers', 'note', 'explanation', 'status', 'createdAt'])
         && isOwner(request.resource.data.uid)
         && request.resource.data.category is string
         && request.resource.data.category.size() > 0
@@ -454,7 +461,13 @@ service cloud.firestore {
         && request.resource.data.status == 'pending'
         && request.resource.data.createdAt == request.time
         && (!('note' in request.resource.data)
-            || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+            || (request.resource.data.note is string && request.resource.data.note.size() <= 500))
+        // Optional answer explanation (engagement plan Phase 2). 220 mirrors
+        // EXPLANATION_MAX_LENGTH in src/utils/questionMerge.js - keep equal.
+        && (!('explanation' in request.resource.data)
+            || (request.resource.data.explanation is string
+                && request.resource.data.explanation.size() > 0
+                && request.resource.data.explanation.size() <= 220));
 
       allow get, list: if isAdmin();
       // Approve/reject only - the submitted content can't be rewritten later.

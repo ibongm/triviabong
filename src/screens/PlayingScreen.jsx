@@ -1,4 +1,4 @@
-import { Heart, Zap, Flag, Scissors, Clock, FastForward } from 'lucide-react';
+import { Heart, Zap, Flag, Scissors, Clock, FastForward, Info, ChevronRight } from 'lucide-react';
 import TimerRing from '../components/TimerRing';
 import { getCategoryDetails, checkIsCorrect } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
@@ -30,6 +30,9 @@ export default function PlayingScreen({
     onActivatePlusTen,
     onActivateSkip,
     jokerMessage,
+    explanation = null,
+    explanationPaused = false,
+    onContinueAfterExplanation,
 }) {
     return (
         <div className="space-y-6">
@@ -109,6 +112,25 @@ export default function PlayingScreen({
                         );
                     })}
                 </div>
+
+                {explanation && (
+                    <div className="rounded-2xl border border-sky-500/25 bg-sky-500/10 p-3.5 space-y-3" role="status" aria-live="polite">
+                        <p className="text-sm text-slate-200 leading-relaxed flex gap-2">
+                            <Info className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" aria-hidden="true" />
+                            <span>{explanation}</span>
+                        </p>
+                        {explanationPaused && (
+                            <button
+                                type="button"
+                                autoFocus
+                                onClick={onContinueAfterExplanation}
+                                className="w-full flex items-center justify-center gap-1 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold py-2.5 rounded-xl text-sm active:scale-[0.98]"
+                            >
+                                Dalje <ChevronRight className="w-4 h-4" aria-hidden="true" />
+                            </button>
+                        )}
+                    </div>
+                )}
 
                 <div className="flex justify-center gap-2 pt-2 border-t border-slate-800/80">
                     <button

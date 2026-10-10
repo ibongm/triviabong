@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { PenSquare, X } from 'lucide-react';
 import { PRIMARY_CATEGORIES } from '../data/categoryKeys';
-import { validateEntry } from '../utils/questionMerge';
+import { validateEntry, EXPLANATION_MAX_LENGTH } from '../utils/questionMerge';
+import { isFeatureEnabled } from '../constants/features';
 import { submitQuestionSubmission } from '../services/firebase';
 
 const EMPTY_FORM = {
@@ -12,6 +13,7 @@ const EMPTY_FORM = {
     incorrect_answer_2: '',
     incorrect_answer_3: '',
     note: '',
+    explanation: '',
 };
 
 // Player-facing "propose a new question" form, modeled on
@@ -19,6 +21,8 @@ const EMPTY_FORM = {
 // state machine, same modal chrome). Requires sign-in - App.jsx only opens
 // this after LobbyScreen's entry point has already gated on currentUser,
 // same pattern as the 1v1 Dvoboj card.
+const explanationsOn = isFeatureEnabled('EXPLANATIONS');
+
 export default function SubmitQuestionModal({ isOpen, onClose, uid, onSubmitted }) {
     const [form, setForm] = useState(EMPTY_FORM);
     const [status, setStatus] = useState('idle'); // idle | sending | sent | error
@@ -34,6 +38,10 @@ export default function SubmitQuestionModal({ isOpen, onClose, uid, onSubmitted 
             question: form.question.trim(),
             correct_answer: form.correct_answer.trim(),
             incorrect_answers: [form.incorrect_answer_1, form.incorrect_answer_2, form.incorrect_answer_3].map((a) => a.trim()),
+            // Only sent while EXPLANATIONS is on: the questionSubmissions rule
+            // that allows the field must be deployed before the flag flips,
+            // otherwise every submission carrying it would be rejected.
+            ...(explanationsOn && form.explanation.trim() ? { explanation: form.explanation.trim() } : {}),
         };
 
         const result = validateEntry(entry);
@@ -148,6 +156,22 @@ export default function SubmitQuestionModal({ isOpen, onClose, uid, onSubmitted 
                                 ))}
                             </div>
                         </div>
+
+                        {explanationsOn && (
+                            <div>
+                                <label className="block text-xs text-slate-400 mb-1">
+                                    Objašnjenje točnog odgovora (neobavezno) · {form.explanation.trim().length}/{EXPLANATION_MAX_LENGTH}
+                                </label>
+                                <textarea
+                                    value={form.explanation}
+                                    onChange={update('explanation')}
+                                    maxLength={EXPLANATION_MAX_LENGTH}
+                                    rows={2}
+                                    placeholder="Jedna-dvije rečenice zašto je odgovor točan"
+                                    className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-sm text-white resize-none focus:outline-none focus:border-amber-400"
+                                />
+                            </div>
+                        )}
 
                         <div>
                             <label className="block text-xs text-slate-400 mb-1">Izvor / napomena (neobavezno)</label>

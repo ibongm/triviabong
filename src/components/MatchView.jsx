@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import confetti from 'canvas-confetti';
-import { Swords, Crown, Handshake, Flag, RotateCcw, Zap, WifiOff } from 'lucide-react';
+import { Swords, Crown, Handshake, Flag, RotateCcw, Zap, WifiOff, Info } from 'lucide-react';
 import TimerRing from './TimerRing';
 import { CATEGORY_META } from '../data/categoryMeta';
 import { BASE_SCORE, SPEED_BONUS_PER_SECOND, STREAK_MULTIPLIER_STEP, QUESTION_TIME_SECONDS } from '../constants/gameBalance';
 import { resolveMatchQuestions, getMatchQuestionOptions, isMatchAnswerCorrect } from '../utils/matchQuestions';
+import { isFeatureEnabled } from '../constants/features';
 import {
     subscribeToMatch,
     subscribeToOpponentHeartbeat,
@@ -20,6 +21,8 @@ import {
 } from '../services/matches';
 import { logQuestionAttempt, logGameResult } from '../services/firebase';
 import { sound } from '../utils/sound';
+
+const explanationsOn = isFeatureEnabled('EXPLANATIONS');
 
 const HEARTBEAT_INTERVAL_MS = 15000;
 // ~3x HEARTBEAT_INTERVAL_MS, same safety-margin ratio as before (30s was
@@ -390,6 +393,11 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
     // ---- match_over / forfeited ----
     if (match.status === 'match_over' || match.status === 'forfeited') {
+        // Explanations (FEATURES.EXPLANATIONS) only appear here, after the
+        // match - never between questions, so both players keep the same pace.
+        const playedWithExplanations = questions
+            .slice(0, (match.currentQuestionIndex ?? 0) + 1)
+            .filter((q) => q?.explanation);
         const isWin = match.winnerUid === myUid;
         const isDraw = match.winnerUid === null;
         return (
@@ -413,6 +421,23 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
                         {myDisplayName} <span className="font-black text-white">{myScore}</span> — <span className="font-black text-white">{oppScore}</span> {oppDisplayName}
                     </p>
                 </div>
+                {explanationsOn && playedWithExplanations.length > 0 && (
+                    <details className="text-left bg-slate-950/60 border border-slate-800 rounded-2xl">
+                        <summary className="cursor-pointer p-4 text-sm font-bold text-white">Pregled pitanja s objašnjenjima</summary>
+                        <div className="border-t border-slate-800 divide-y divide-slate-800/60 max-h-72 overflow-y-auto">
+                            {playedWithExplanations.map((q, i) => (
+                                <div key={q.id || i} className="p-3 space-y-1 text-xs">
+                                    <p className="font-bold text-slate-200">{q.question}</p>
+                                    <p className="text-emerald-400"><span className="text-slate-500">Točan odgovor: </span>{q.correct_answer}</p>
+                                    <p className="text-slate-300 flex gap-1.5">
+                                        <Info className="w-3.5 h-3.5 text-sky-400 shrink-0 mt-0.5" aria-hidden="true" />
+                                        <span>{q.explanation}</span>
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </details>
+                )}
                 <div className="flex gap-3">
                     <button
                         onClick={onExit}

@@ -24,6 +24,7 @@ import {
   buildQuestionTextIndex,
   CATEGORY_FILES,
   getZagrebDateKey,
+  EXPLANATION_MAX_LENGTH,
 } from '../src/utils/questionMerge.js';
 import { resolveCategoryKey } from '../src/data/categoryKeys.js';
 
@@ -86,6 +87,7 @@ Uvjeti:
 - Pitanja moraju biti na prirodnom i gramatički ispravnom hrvatskom jeziku.
 - 'correct_answer' mora biti točan i nedvosmislen odgovor.
 - 'incorrect_answers' mora sadržavati točno 3 uvjerljiva netočna odgovora.
+- 'explanation': 1-2 kratke rečenice (najviše ${EXPLANATION_MAX_LENGTH} znakova) koje objašnjavaju ZAŠTO je točan odgovor točan. Bez ponavljanja pitanja, bez dodatnih zanimljivosti koje ne podupiru odgovor. Ako se činjenica s vremenom mijenja (rekordi, nositelji titula, brojke), navedi godinu stanja, npr. "(stanje 2024.)".
 - Nemoj ponavljati niti postavljati varijacije ovih postojećih pitanja:
 - ${sampledRecent}
 `;
@@ -109,8 +111,9 @@ async function run() {
               type: 'ARRAY',
               items: { type: 'STRING' },
             },
+            explanation: { type: 'STRING' },
           },
-          required: ['question', 'correct_answer', 'incorrect_answers'],
+          required: ['question', 'correct_answer', 'incorrect_answers', 'explanation'],
         },
       },
     },
@@ -127,7 +130,18 @@ async function run() {
     incorrect_answers: Array.isArray(item?.incorrect_answers)
       ? item.incorrect_answers.map((a) => String(a ?? '').trim())
       : item?.incorrect_answers,
-  }));
+    // An over-long or empty explanation shouldn't cost us an otherwise good
+    // question: drop the explanation (logged) and keep the question.
+    ...(typeof item?.explanation === 'string' && item.explanation.trim() ? { explanation: item.explanation.trim() } : {}),
+  })).map((entry, i) => {
+    if (entry.explanation && entry.explanation.length > EXPLANATION_MAX_LENGTH) {
+      console.warn(`  Dropped over-long explanation on #${i + 1} (${entry.explanation.length} chars).`);
+      const rest = { ...entry };
+      delete rest.explanation;
+      return rest;
+    }
+    return entry;
+  });
 
   const valid = [];
   trimmed.forEach((entry, i) => {

@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { ChevronDown, ChevronUp, CheckCircle2, XCircle, HelpCircle } from 'lucide-react';
+import { ChevronDown, ChevronUp, CheckCircle2, XCircle, HelpCircle, Info } from 'lucide-react';
+import { isFeatureEnabled } from '../constants/features';
 
 export default function QuestionReview({ history }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,6 +70,12 @@ export default function QuestionReview({ history }) {
                     <span className="text-slate-500">Točan odgovor: </span>
                     <span className="font-semibold">{item.correctOption}</span>
                   </p>
+                  {item.explanation && isFeatureEnabled('EXPLANATIONS') && (
+                    <p className="text-slate-300 flex gap-1.5 pt-0.5 leading-relaxed">
+                      <Info className="w-3.5 h-3.5 text-sky-400 shrink-0 mt-0.5" aria-hidden="true" />
+                      <span>{item.explanation}</span>
+                    </p>
+                  )}
                 </div>
               </div>
             );

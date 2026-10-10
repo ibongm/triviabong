@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { validateEntry, validateQuestions, detectCategory, mergeQuestions, removeQuestionById, editQuestionById, getZagrebDateKey, buildQuestionTextIndex } from './questionMerge';
+import { validateEntry, validateQuestions, detectCategory, mergeQuestions, removeQuestionById, editQuestionById, getZagrebDateKey, buildQuestionTextIndex, EXPLANATION_MAX_LENGTH, applyExplanationsToPack } from './questionMerge';
 
 const validEntry = () => ({
     question: 'Koji je glavni grad Hrvatske?',
@@ -250,5 +250,76 @@ describe('getZagrebDateKey', () => {
         expect(getZagrebDateKey(new Date('2026-10-09T23:30:00Z'))).toBe('2026-10-10');
         // 22:30 UTC on 9 Jan (winter time) is 23:30 on 9 Jan in Zagreb.
         expect(getZagrebDateKey(new Date('2026-01-09T22:30:00Z'))).toBe('2026-01-09');
+    });
+});
+
+describe('explanations', () => {
+    it('validateEntry accepts an entry without an explanation', () => {
+        expect(validateEntry(validEntry()).valid).toBe(true);
+    });
+
+    it('validateEntry accepts an explanation up to the max length', () => {
+        expect(validateEntry({ ...validEntry(), explanation: 'a'.repeat(EXPLANATION_MAX_LENGTH) }).valid).toBe(true);
+    });
+
+    it('validateEntry rejects an over-long or empty explanation', () => {
+        expect(validateEntry({ ...validEntry(), explanation: 'a'.repeat(EXPLANATION_MAX_LENGTH + 1) }).valid).toBe(false);
+        expect(validateEntry({ ...validEntry(), explanation: '   ' }).valid).toBe(false);
+        expect(validateEntry({ ...validEntry(), explanation: 42 }).valid).toBe(false);
+    });
+
+    it('mergeQuestions carries a trimmed explanation onto the new entry', () => {
+        const { merged } = mergeQuestions([], [{ ...validEntry(), explanation: '  Zato.  ' }], 'geografija', { addedOn: '2026-10-10' });
+        expect(merged[0].explanation).toBe('Zato.');
+    });
+
+    it('mergeQuestions omits the field when there is no explanation', () => {
+        const { merged } = mergeQuestions([], [validEntry()], 'geografija', { addedOn: '2026-10-10' });
+        expect('explanation' in merged[0]).toBe(false);
+    });
+
+    const pack = [
+        { id: 'hr_geo_1', category: 'geografija', question: 'Q1?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'] },
+        { id: 'hr_geo_2', category: 'geografija', question: 'Q2?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'], explanation: 'Staro.' },
+    ];
+
+    it('editQuestionById sets, keeps or removes the explanation', () => {
+        const set = editQuestionById(pack, 'hr_geo_1', { question: 'Q1?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'], explanation: ' Novo. ' });
+        expect(set.merged[0].explanation).toBe('Novo.');
+        const keep = editQuestionById(pack, 'hr_geo_2', { question: 'Q2 izmijenjeno?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'] });
+        expect(keep.merged[1].explanation).toBe('Staro.');
+        const remove = editQuestionById(pack, 'hr_geo_2', { question: 'Q2?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'], explanation: '' });
+        expect('explanation' in remove.merged[1]).toBe(false);
+    });
+
+    it('editQuestionById rejects an over-long explanation', () => {
+        const res = editQuestionById(pack, 'hr_geo_1', { question: 'Q1?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'], explanation: 'x'.repeat(EXPLANATION_MAX_LENGTH + 1) });
+        expect(res.edited).toBe(false);
+    });
+
+    it('applyExplanationsToPack applies new ones and never overwrites without force', () => {
+        const entries = [
+            { id: 'hr_geo_1', explanation: ' Prvo. ' },
+            { id: 'hr_geo_2', explanation: 'Novo.' },
+            { id: 'hr_sport_9', explanation: 'Druga kategorija.' },
+        ];
+        const res = applyExplanationsToPack(pack, entries);
+        expect(res.applied).toEqual(['hr_geo_1']);
+        expect(res.merged[0].explanation).toBe('Prvo.');
+        expect(res.merged[1].explanation).toBe('Staro.');
+        expect(res.skipped).toEqual([{ id: 'hr_geo_2', reason: 'already has one' }]);
+        expect(pack[0].explanation).toBeUndefined(); // input not mutated
+
+        const forced = applyExplanationsToPack(pack, entries, { force: true });
+        expect(forced.merged[1].explanation).toBe('Novo.');
+    });
+
+    it('applyExplanationsToPack skips empty and over-long texts', () => {
+        const res = applyExplanationsToPack(pack, [
+            { id: 'hr_geo_1', explanation: '' },
+            { id: 'hr_geo_1', explanation: 'x'.repeat(EXPLANATION_MAX_LENGTH + 1) },
+        ]);
+        expect(res.applied).toEqual([]);
+        expect(res.skipped.map((s) => s.reason)).toEqual(['empty', `too long (${EXPLANATION_MAX_LENGTH + 1})`]);
     });
 });

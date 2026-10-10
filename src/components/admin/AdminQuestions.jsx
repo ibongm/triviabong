@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { auth } from '../../services/firebase';
 import { getAllCategories, getAllCategoryPacks, getAllQuestions } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
-import { validateQuestions, detectCategory, mergeQuestions } from '../../utils/questionMerge';
+import { validateQuestions, detectCategory, mergeQuestions, EXPLANATION_MAX_LENGTH } from '../../utils/questionMerge';
 
 const EMPTY_QUESTION_FORM = { question: '', correct_answer: '', incorrect_answers: ['', '', ''] };
 
@@ -180,6 +180,7 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
             question: current.question,
             correct_answer: current.correct_answer,
             incorrect_answers: [...current.incorrect_answers],
+            explanation: current.explanation || '',
         });
         setManageMessage(null);
     };
@@ -408,6 +409,18 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
                                                             />
                                                         </div>
                                                     ))}
+                                                </div>
+                                                <div>
+                                                    <label className="block text-slate-400 text-xs mb-1">
+                                                        Objašnjenje (neobavezno) · {(manageEditForm.explanation || '').trim().length}/{EXPLANATION_MAX_LENGTH}
+                                                    </label>
+                                                    <textarea
+                                                        rows={2}
+                                                        maxLength={EXPLANATION_MAX_LENGTH}
+                                                        value={manageEditForm.explanation || ''}
+                                                        onChange={(e) => setManageEditForm((prev) => ({ ...prev, explanation: e.target.value }))}
+                                                        className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-white text-sm resize-none"
+                                                    />
                                                 </div>
                                                 <div className="flex justify-end gap-2 pt-1">
                                                     <button

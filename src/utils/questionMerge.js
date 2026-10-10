@@ -65,6 +65,12 @@ export const buildQuestionTextIndex = (...packs) => {
 
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
 
+// Answer explanations (engagement plan Phase 2): optional, 1-2 sentences
+// shown after the answer is revealed. Capped so it fits under the answer
+// buttons on a phone without scrolling. Mirrored by the
+// questionSubmissions rule in firestore.rules - keep the two equal.
+export const EXPLANATION_MAX_LENGTH = 220;
+
 /**
  * Validates a single question entry against the shape used across
  * src/data/categories/*.json: { question, correct_answer, incorrect_answers[3] }.
@@ -92,6 +98,14 @@ export const validateEntry = (entry) => {
     const allAnswers = [entry.correct_answer, ...entry.incorrect_answers].map(normalizeText);
     if (new Set(allAnswers).size !== allAnswers.length) {
         return { valid: false, reason: 'Točan i netočni odgovori se preklapaju (duplikat unutar iste stavke).' };
+    }
+    if (entry.explanation !== undefined && entry.explanation !== null) {
+        if (!isNonEmptyString(entry.explanation)) {
+            return { valid: false, reason: 'Polje "explanation" mora biti neprazan tekst (ili ga izostavi).' };
+        }
+        if (entry.explanation.trim().length > EXPLANATION_MAX_LENGTH) {
+            return { valid: false, reason: `Objašnjenje smije imati najviše ${EXPLANATION_MAX_LENGTH} znakova.` };
+        }
     }
     return { valid: true };
 };
@@ -205,6 +219,7 @@ export const mergeQuestions = (existing, incoming, packKey, options = {}) => {
             question: entry.question,
             correct_answer: entry.correct_answer,
             incorrect_answers: entry.incorrect_answers,
+            ...(isNonEmptyString(entry.explanation) ? { explanation: entry.explanation.trim() } : {}),
             addedOn,
         };
 
@@ -239,7 +254,7 @@ export const removeQuestionById = (existing, id) => {
  * question already in the pack.
  * @param {object[]} existing - the category's current question array
  * @param {string} id
- * @param {{ question: string, correct_answer: string, incorrect_answers: string[] }} updatedFields
+ * @param {{ question: string, correct_answer: string, incorrect_answers: string[], explanation?: string }} updatedFields
  * @returns {{ merged: object[], edited: boolean, reason?: string }}
  */
 export const editQuestionById = (existing, id, updatedFields) => {
@@ -253,6 +268,11 @@ export const editQuestionById = (existing, id, updatedFields) => {
         correct_answer: updatedFields.correct_answer,
         incorrect_answers: updatedFields.incorrect_answers,
     };
+    // `explanation` is optional in an edit: absent = leave as is, empty
+    // string = remove it, text = set it (validated like everything else).
+    const touchesExplanation = Object.prototype.hasOwnProperty.call(updatedFields, 'explanation');
+    const newExplanation = touchesExplanation ? String(updatedFields.explanation ?? '').trim() : null;
+    if (touchesExplanation && newExplanation) candidate.explanation = newExplanation;
 
     const result = validateEntry(candidate);
     if (!result.valid) {
@@ -268,7 +288,7 @@ export const editQuestionById = (existing, id, updatedFields) => {
     }
 
     const merged = [...existing];
-    merged[index] = {
+    const next = {
         ...existing[index],
         id: existing[index].id,
         category: existing[index].category,
@@ -276,6 +296,40 @@ export const editQuestionById = (existing, id, updatedFields) => {
         correct_answer: candidate.correct_answer,
         incorrect_answers: candidate.incorrect_answers,
     };
+    if (touchesExplanation) {
+        if (newExplanation) next.explanation = newExplanation;
+        else delete next.explanation;
+    }
+    merged[index] = next;
 
     return { merged, edited: true };
+};
+
+/**
+ * Applies reviewed explanations ({ id, explanation }[]) to one category pack.
+ * Used by scripts/apply-explanations.mjs after Bong has reviewed a backfill
+ * file. Never overwrites an existing explanation unless `force` is set, and
+ * skips (with a reason) anything invalid, so a bad line can't break a pack.
+ * @param {object[]} pack - the category's question array (not mutated)
+ * @param {{ id: string, explanation: string }[]} entries
+ * @param {{ force?: boolean }} [options]
+ * @returns {{ merged: object[], applied: string[], skipped: { id: string, reason: string }[] }}
+ */
+export const applyExplanationsToPack = (pack, entries, options = {}) => {
+    const byId = new Map(pack.map((q, i) => [q.id, i]));
+    const merged = [...pack];
+    const applied = [];
+    const skipped = [];
+    for (const entry of entries || []) {
+        const id = entry?.id;
+        const text = typeof entry?.explanation === 'string' ? entry.explanation.trim() : '';
+        if (!byId.has(id)) continue; // belongs to another pack
+        const idx = byId.get(id);
+        if (!text) { skipped.push({ id, reason: 'empty' }); continue; }
+        if (text.length > EXPLANATION_MAX_LENGTH) { skipped.push({ id, reason: `too long (${text.length})` }); continue; }
+        if (merged[idx].explanation && !options.force) { skipped.push({ id, reason: 'already has one' }); continue; }
+        merged[idx] = { ...merged[idx], explanation: text };
+        applied.push(id);
+    }
+    return { merged, applied, skipped };
 };
