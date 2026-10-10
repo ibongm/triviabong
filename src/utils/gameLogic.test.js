@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, afterEach } from 'vitest';
-import { applyAnswer } from './gameLogic';
+import { applyAnswer, computeDuelAnswerScore } from './gameLogic';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
 import { XP_PER_CORRECT_ANSWER, COIN_STREAK_MILESTONES } from '../constants/gameBalance';
 import { getCoinsForLevelUp } from './leveling';
@@ -143,5 +143,21 @@ describe('applyAnswer default/unknown action', () => {
         const { stats: next, events } = applyAnswer(stats, {}, { type: 'NOT_A_REAL_ACTION' });
         expect(next).toEqual(stats);
         expect(events).toEqual([]);
+    });
+});
+
+describe('computeDuelAnswerScore (extracted from MatchView - numbers pinned to the old inline formula)', () => {
+    it('matches the live 1v1 scoring examples', () => {
+        expect(computeDuelAnswerScore(20, 0)).toBe(300); // (100 + 20*10) * 1
+        expect(computeDuelAnswerScore(5, 0)).toBe(150); // (100 + 5*10) * 1
+        expect(computeDuelAnswerScore(20, 3)).toBe(480); // 300 * 1.6
+        expect(computeDuelAnswerScore(0, 9)).toBe(280); // 100 * 2.8
+        expect(computeDuelAnswerScore(13, 2)).toBe(Math.round(230 * 1.4));
+    });
+    it('a perfect, instant ten-question run stays under the 8000 history cap', () => {
+        let total = 0;
+        for (let streak = 0; streak < 10; streak++) total += computeDuelAnswerScore(20, streak);
+        expect(total).toBe(5700);
+        expect(total).toBeLessThanOrEqual(8000);
     });
 });

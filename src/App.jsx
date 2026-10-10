@@ -61,6 +61,9 @@ import { useOneVsOne } from './hooks/useOneVsOne';
 import { useDailyChallenge } from './hooks/useDailyChallenge';
 import { useScoreSaving } from './hooks/useScoreSaving';
 import { useDailyMissions } from './hooks/useDailyMissions';
+import { useAsyncDuels } from './hooks/useAsyncDuels';
+import AsyncDuelScreen from './screens/AsyncDuelScreen';
+import AsyncDuelsModal from './components/AsyncDuelsModal';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
 import { shuffleArray } from './utils/questionUtils';
@@ -248,6 +251,7 @@ export default function App() {
   const [showAchievementsModal, setShowAchievementsModal] = useState(false);
   const [showRekordiModal, setShowRekordiModal] = useState(false);
   const [showOnlinePlayersModal, setShowOnlinePlayersModal] = useState(false);
+  const [showAsyncDuelsModal, setShowAsyncDuelsModal] = useState(false);
   const [showReportModal, setShowReportModal] = useState(false);
   const [showSubmitQuestionModal, setShowSubmitQuestionModal] = useState(false);
   const [showMissionsModal, setShowMissionsModal] = useState(false);
@@ -332,6 +336,8 @@ export default function App() {
     missionState,
     missionsToday,
     recordMatchComplete,
+    recordAsyncDuelPlayed,
+    recordAsyncDuelResolved,
     recordDailyComplete,
     recordCorrectCategory,
     recordStreak,
@@ -371,6 +377,59 @@ export default function App() {
     cancelSentInvite,
     handleMatchOver,
   } = useOneVsOne(currentUser, setGlobalStats, recordMatchComplete, gameState);
+
+  // Async duels (FEATURES.ASYNC_DUELS, plan Phase 4): a separate subsystem from
+  // live 1v1 above - see hooks/useAsyncDuels.js. ASYNC_DUELS_ADMIN_PREVIEW
+  // lets only the verified admin account see it while the flag is still off
+  // (the real boundary is firestore.rules, this just hides the UI).
+  const asyncDuelsEnabled = isFeatureEnabled('ASYNC_DUELS')
+    || (isFeatureEnabled('ASYNC_DUELS_ADMIN_PREVIEW') && !!currentUser && currentUser.email === ADMIN_EMAIL && !!currentUser.emailVerified);
+  const {
+    duels: asyncDuels,
+    myResults: asyncMyResults,
+    isLoading: asyncDuelsLoading,
+    busy: asyncDuelsBusy,
+    message: asyncDuelsMessage,
+    pendingChallengeCount,
+    challengeLimitReached: asyncChallengeLimitReached,
+    activeDuel,
+    summary: duelSummary,
+    refresh: refreshAsyncDuels,
+    openDuel,
+    playDuelById,
+    saveProgress: saveDuelProgress,
+    finishActiveDuel,
+    exitDuelScreen,
+    challengePlayer,
+    playRandomOpponent,
+  } = useAsyncDuels({
+    currentUser,
+    enabled: asyncDuelsEnabled,
+    gameState,
+    setGameState,
+    setGlobalStats,
+    recordAsyncDuelPlayed,
+    recordAsyncDuelResolved,
+  });
+
+  const handleOpenAsyncDuel = async (duel) => {
+    setShowAsyncDuelsModal(false);
+    await openDuel(duel);
+  };
+  const handleChallengePlayer = async (player, category) => {
+    const duelId = await challengePlayer(player, category);
+    if (duelId) {
+      setShowAsyncDuelsModal(false);
+      await playDuelById(duelId);
+    }
+  };
+  const handlePlayRandomOpponent = async (category) => {
+    const duelId = await playRandomOpponent(category);
+    if (duelId) {
+      setShowAsyncDuelsModal(false);
+      await playDuelById(duelId);
+    }
+  };
 
   // Tracks which uid the in-memory globalStats has actually been loaded for.
   // Firestore sync is gated on this so a still-loading account switch can't
@@ -568,7 +627,7 @@ export default function App() {
     refreshRekordiData();
   }, []);
 
-  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showWhatsNewModal || showDailyConfirm;
+  const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAsyncDuelsModal || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showWhatsNewModal || showDailyConfirm;
 
   useEffect(() => {
     if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
@@ -1341,6 +1400,20 @@ export default function App() {
             showEconomyV2Banner={showEconomyV2Banner}
             onDismissEconomyV2Banner={dismissEconomyV2Banner}
             onShowGuideModal={() => setShowGuideModal(true)}
+            asyncDuelsEnabled={asyncDuelsEnabled}
+            pendingChallengeCount={pendingChallengeCount}
+            onShowAsyncDuelsModal={() => { setShowAsyncDuelsModal(true); refreshAsyncDuels(); }}
+          />
+        )}
+
+        {gameState === 'ASYNC_DUEL' && currentUser && (
+          <AsyncDuelScreen
+            activeDuel={activeDuel}
+            summary={duelSummary}
+            currentUid={currentUser.uid}
+            onProgress={saveDuelProgress}
+            onFinish={finishActiveDuel}
+            onExit={exitDuelScreen}
           />
         )}
 
@@ -1493,6 +1566,25 @@ export default function App() {
           currentUid={currentUser.uid}
           onInvite={handleSendInvite}
           players={onlinePlayers}
+        />
+      )}
+
+      {currentUser && asyncDuelsEnabled && (
+        <AsyncDuelsModal
+          isOpen={showAsyncDuelsModal}
+          onClose={() => setShowAsyncDuelsModal(false)}
+          currentUid={currentUser.uid}
+          onlinePlayers={onlinePlayers}
+          duels={asyncDuels}
+          myResults={asyncMyResults}
+          isLoading={asyncDuelsLoading}
+          busy={asyncDuelsBusy}
+          message={asyncDuelsMessage}
+          challengeLimitReached={asyncChallengeLimitReached}
+          onRefresh={refreshAsyncDuels}
+          onOpenDuel={handleOpenAsyncDuel}
+          onChallenge={handleChallengePlayer}
+          onPlayRandom={handlePlayRandomOpponent}
         />
       )}
 

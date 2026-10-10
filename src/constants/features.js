@@ -13,6 +13,9 @@ export const FEATURES = Object.freeze({
     DIFFICULTY: false,
     DIFFICULTY_BADGE: false,
     ASYNC_DUELS: false,
+    // Gate 4: lets only the signed-in admin account see async duels while
+    // ASYNC_DUELS is still false, to try them on production before release.
+    ASYNC_DUELS_ADMIN_PREVIEW: false,
     WEEKLY_BOARDS: false,
     LEAGUES: false,
 });

@@ -50,6 +50,9 @@ export default function LobbyScreen({
     showEconomyV2Banner,
     onDismissEconomyV2Banner,
     onShowGuideModal,
+    asyncDuelsEnabled = false,
+    pendingChallengeCount = 0,
+    onShowAsyncDuelsModal,
 }) {
     const [now, setNow] = useState(() => new Date());
     useEffect(() => {
@@ -177,6 +180,24 @@ export default function LobbyScreen({
                     <ChevronRight className="w-4 h-4 text-emerald-500/60 group-hover:text-emerald-400 transition-colors" />
                 </button>
             </div>
+            {asyncDuelsEnabled && currentUser && (
+                <button
+                    onClick={() => { sound.playClick(); onShowAsyncDuelsModal(); }}
+                    className="w-full flex items-center justify-between p-3.5 rounded-2xl border border-emerald-500/25 bg-emerald-500/5 hover:bg-emerald-500/10 transition-all active:scale-[0.98]"
+                >
+                    <div className="flex items-center gap-2.5">
+                        <Swords className="w-4 h-4 text-emerald-400" />
+                        <span className="text-sm font-bold text-slate-200">Izazovi — dvoboj bez čekanja</span>
+                    </div>
+                    {pendingChallengeCount > 0 ? (
+                        <span className="text-xs font-black text-slate-950 bg-emerald-400 rounded-full px-2.5 py-0.5">
+                            Imaš {pendingChallengeCount} {pendingChallengeCount === 1 ? 'izazov' : 'izazova'}
+                        </span>
+                    ) : (
+                        <ChevronRight className="w-4 h-4 text-emerald-500/60" />
+                    )}
+                </button>
+            )}
             <button
                 onClick={() => {
                     if (!currentUser) { onShowAuthModal(); return; }
