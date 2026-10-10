@@ -9260,5 +9260,445 @@
             "Javna objava",
             "Empirijska analiza"
         ]
+    },
+    {
+        "id": "hr_sci_856",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je fizičar formulirao teoriju relativnosti, uključujući posebnu i opću relativnost?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Stephen Hawking"
+        ]
+    },
+    {
+        "id": "hr_sci_857",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva zakon koji kaže da se energija ne može stvoriti ni uništiti, već samo pretvoriti iz jednog oblika u drugi?",
+        "correct_answer": "Zakon očuvanja energije",
+        "incorrect_answers": [
+            "Zakon očuvanja mase",
+            "Zakon entropije",
+            "Hookeov zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_858",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je osnovna jedinica električnog naboja?",
+        "correct_answer": "Kulon (Coulomb)",
+        "incorrect_answers": [
+            "Amper",
+            "Volt",
+            "Om"
+        ]
+    },
+    {
+        "id": "hr_sci_859",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva najmanji kvant svjetlosti?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ]
+    },
+    {
+        "id": "hr_sci_860",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja sila drži planete u orbiti oko Sunca?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Centrifugalna sila",
+            "Magnetska sila",
+            "Nuklearna sila"
+        ]
+    },
+    {
+        "id": "hr_sci_861",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se tip vala ne može širiti kroz vakuum?",
+        "correct_answer": "Zvučni val",
+        "incorrect_answers": [
+            "Svjetlosni val",
+            "Radio val",
+            "X-zrake"
+        ]
+    },
+    {
+        "id": "hr_sci_862",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva fenomen promjene frekvencije ili valne duljine vala u odnosu na promatrača koji se giba?",
+        "correct_answer": "Dopplerov efekt",
+        "incorrect_answers": [
+            "Huygensov princip",
+            "Zakon loma",
+            "Youngov eksperiment"
+        ]
+    },
+    {
+        "id": "hr_sci_863",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je osnovna čestica koja nosi pozitivni naboj unutar jezgre atoma?",
+        "correct_answer": "Proton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Foton"
+        ]
+    },
+    {
+        "id": "hr_sci_864",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva mjerna jedinica za magnetsku indukciju?",
+        "correct_answer": "Tesla",
+        "incorrect_answers": [
+            "Weber",
+            "Henry",
+            "Farad"
+        ]
+    },
+    {
+        "id": "hr_sci_865",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji planet je poznat kao \"Crveni planet\" zbog prisutnosti željeznog oksida na svojoj površini?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ]
+    },
+    {
+        "id": "hr_sci_866",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je tip zvijezde naše Sunce?",
+        "correct_answer": "Žuti patuljak",
+        "incorrect_answers": [
+            "Crveni div",
+            "Bijeli patuljak",
+            "Neutron-zvijezda"
+        ]
+    },
+    {
+        "id": "hr_sci_867",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces spajanja lakih atomskih jezgri u teže jezgre, uz oslobađanje velike količine energije?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Ionizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_868",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji element ima atomski broj 1 i najlakši je element u periodnom sustavu?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Kisik"
+        ]
+    },
+    {
+        "id": "hr_sci_869",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva veza koja nastaje dijeljenjem elektronskih parova između atoma?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ]
+    },
+    {
+        "id": "hr_sci_870",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja se kiselina obično naziva \"solna kiselina\"?",
+        "correct_answer": "Klorovodična kiselina (HCl)",
+        "incorrect_answers": [
+            "Sumporna kiselina",
+            "Dušična kiselina",
+            "Octena kiselina"
+        ]
+    },
+    {
+        "id": "hr_sci_871",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je proces kemijska promjena u kojoj se tvar spaja s kisikom, obično uz oslobađanje topline i svjetlosti?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Otapanje",
+            "Sublimacija",
+            "Kristalizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_872",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva kemijski spoj koji se sastoji samo od ugljika i vodika?",
+        "correct_answer": "Ugljikovodik",
+        "incorrect_answers": [
+            "Alkohol",
+            "Keton",
+            "Ester"
+        ]
+    },
+    {
+        "id": "hr_sci_873",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja se grana kemije bavi proučavanjem spojeva koji sadrže ugljik?",
+        "correct_answer": "Organska kemija",
+        "incorrect_answers": [
+            "Anorganska kemija",
+            "Fizikalna kemija",
+            "Biokemija"
+        ]
+    },
+    {
+        "id": "hr_sci_874",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je formula za vodu?",
+        "correct_answer": "H2O",
+        "incorrect_answers": [
+            "CO2",
+            "O2",
+            "CH4"
+        ]
+    },
+    {
+        "id": "hr_sci_875",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji plemeniti plin se koristi za punjenje balona jer je lakši od zraka i nije zapaljiv?",
+        "correct_answer": "Helij",
+        "incorrect_answers": [
+            "Neon",
+            "Argon",
+            "Kripton"
+        ]
+    },
+    {
+        "id": "hr_sci_876",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva pojava da isti kemijski element može postojati u različitim strukturnim oblicima?",
+        "correct_answer": "Alotropija",
+        "incorrect_answers": [
+            "Izomerija",
+            "Polimerizacija",
+            "Enantiomerija"
+        ]
+    },
+    {
+        "id": "hr_sci_877",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se organ u ljudskom tijelu naziva \"moćna kuća\" stanice zbog proizvodnje ATP-a?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Jezgra",
+            "Endoplazmatski retikulum",
+            "Golgijev aparat"
+        ]
+    },
+    {
+        "id": "hr_sci_878",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je proces disperzije molekula iz područja veće koncentracije u područje niže koncentracije?",
+        "correct_answer": "Difuzija",
+        "incorrect_answers": [
+            "Osmoza",
+            "Aktivni transport",
+            "Fagocitoza"
+        ]
+    },
+    {
+        "id": "hr_sci_879",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva znanstvena disciplina koja proučava nasljeđe i varijacije živih organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Anatomija"
+        ]
+    },
+    {
+        "id": "hr_sci_880",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se vitamin proizvodi u koži pod utjecajem sunčeve svjetlosti?",
+        "correct_answer": "Vitamin D",
+        "incorrect_answers": [
+            "Vitamin C",
+            "Vitamin A",
+            "Vitamin K"
+        ]
+    },
+    {
+        "id": "hr_sci_881",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je najdulja kost u ljudskom tijelu?",
+        "correct_answer": "Bedrena kost (femur)",
+        "incorrect_answers": [
+            "Tibia",
+            "Humerus",
+            "Kralježak"
+        ]
+    },
+    {
+        "id": "hr_sci_882",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva složeni ugljikohidrat koji služi kao glavna strukturna komponenta staničnih stijenki biljaka?",
+        "correct_answer": "Celuloza",
+        "incorrect_answers": [
+            "Glikogen",
+            "Škrob",
+            "Saharoza"
+        ]
+    },
+    {
+        "id": "hr_sci_883",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je glavni produkt fotosinteze, a oslobađa se u atmosferu?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Ugljikov dioksid",
+            "Vodena para",
+            "Dušik"
+        ]
+    },
+    {
+        "id": "hr_sci_884",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva grana biologije koja se bavi proučavanjem odnosa između živih organizama i njihovog okoliša?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Citologija",
+            "Histologija",
+            "Embriologija"
+        ]
+    },
+    {
+        "id": "hr_sci_885",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva najniža razina računalnog jezika, koja se sastoji od binarnih znamenki (0 i 1)?",
+        "correct_answer": "Strojni kod (mašinski kod)",
+        "incorrect_answers": [
+            "Asemblerski jezik",
+            "Visokorazinski jezik",
+            "Skriptni jezik"
+        ]
+    },
+    {
+        "id": "hr_sci_886",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je izumitelj poznat kao \"otac interneta\"?",
+        "correct_answer": "Vinton Cerf",
+        "incorrect_answers": [
+            "Bill Gates",
+            "Steve Jobs",
+            "Mark Zuckerberg"
+        ]
+    },
+    {
+        "id": "hr_sci_887",
+        "category": "znanost_i_tehnologija",
+        "question": "Što je GPU u računalstvu?",
+        "correct_answer": "Grafička procesorska jedinica",
+        "incorrect_answers": [
+            "Glavna procesorska jedinica",
+            "Globalna programska jedinica",
+            "Generička protokolska jedinica"
+        ]
+    },
+    {
+        "id": "hr_sci_888",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva vrsta softvera koja štiti računalo od zlonamjernih programa (virusa, crva, trojanaca)?",
+        "correct_answer": "Antivirusni program",
+        "incorrect_answers": [
+            "Operativni sustav",
+            "Preglednik",
+            "Tekstualni procesor"
+        ]
+    },
+    {
+        "id": "hr_sci_889",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je popularni programski jezik, poznat po svojoj svestranosti i čitljivosti, često korišten u umjetnoj inteligenciji i znanstvenim računalima?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "Ruby"
+        ]
+    },
+    {
+        "id": "hr_sci_890",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces pretvaranja ljudski čitljivog koda u izvršni strojni kod?",
+        "correct_answer": "Kompilacija",
+        "incorrect_answers": [
+            "Interpretacija",
+            "Debagiranje",
+            "Optimizacija"
+        ]
+    },
+    {
+        "id": "hr_sci_891",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je standardni port za siguran prijenos hiperteksta preko mreže (HTTPS)?",
+        "correct_answer": "443",
+        "incorrect_answers": [
+            "80",
+            "21",
+            "25"
+        ]
+    },
+    {
+        "id": "hr_sci_892",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva tehnologija koja omogućuje bežično povezivanje uređaja na kratke udaljenosti, koristeći radio valove?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "LTE"
+        ]
+    },
+    {
+        "id": "hr_sci_893",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je izumitelj poznat po razvoju prve uspješne žarulje sa žarnom niti?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Nikola Tesla",
+            "James Watt",
+            "Marie Curie"
+        ]
+    },
+    {
+        "id": "hr_sci_894",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva tehnologija koja koristi sunčevu svjetlost za proizvodnju električne energije?",
+        "correct_answer": "Fotonaponska tehnologija (Solarne ćelije)",
+        "incorrect_answers": [
+            "Geotermalna energija",
+            "Hidroenergija",
+            "Energija vjetra"
+        ]
+    },
+    {
+        "id": "hr_sci_895",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se materijal najčešće koristi kao poluvodič u elektronici, posebno u proizvodnji računalnih čipova?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Germanij",
+            "Bakar",
+            "Aluminij"
+        ]
     }
 ]
