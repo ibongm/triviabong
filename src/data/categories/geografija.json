@@ -12197,5 +12197,425 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1090",
+        "category": "geografija",
+        "question": "Koji se ocean nalazi između Afrike i Australije?",
+        "correct_answer": "Indijski ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Tihi ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Indijski ocean treći je po veličini ocean na Zemlji, smješten između ova dva kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1091",
+        "category": "geografija",
+        "question": "Koji je najduži riječni sustav u Aziji?",
+        "correct_answer": "Jangce",
+        "incorrect_answers": [
+            "Ob",
+            "Žuta rijeka",
+            "Mekong"
+        ],
+        "explanation": "Jangce je najduža rijeka u Aziji i treća najduža na svijetu, protječe kroz Kinu do Istočnog kineskog mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1092",
+        "category": "geografija",
+        "question": "Koji planinski lanac tvori prirodnu granicu između Francuske i Španjolske?",
+        "correct_answer": "Pireneji",
+        "incorrect_answers": [
+            "Alpe",
+            "Apenini",
+            "Karpati"
+        ],
+        "explanation": "Pireneji su planinski lanac koji odvaja Iberijski poluotok od ostatka Europe, prolazeći kroz Francusku i Španjolsku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1093",
+        "category": "geografija",
+        "question": "Koja je država poznata po tulipanima, vjetrenjačama i kanalima?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska je usko povezana s kulturom tulipana, karakterističnim vjetrenjačama i razvijenom mrežom kanala.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1094",
+        "category": "geografija",
+        "question": "Koji je najveći tropski kišni šuma na svijetu?",
+        "correct_answer": "Amazonska prašuma",
+        "incorrect_answers": [
+            "Konžanska prašuma",
+            "Bornejska prašuma",
+            "Novogvinejska prašuma"
+        ],
+        "explanation": "Amazonska prašuma prostire se preko devet južnoameričkih zemalja i najveća je na svijetu po površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1095",
+        "category": "geografija",
+        "question": "Koji se tjesnac nalazi između Južne Amerike i Antarktike?",
+        "correct_answer": "Drakeov prolaz",
+        "incorrect_answers": [
+            "Magellanov prolaz",
+            "Beringov prolaz",
+            "Gibraltar"
+        ],
+        "explanation": "Drakeov prolaz spaja Atlantski i Tihi ocean, a poznat je po svojim burnim vodama i snažnim vjetrovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1096",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po Fjordovima i jezerima kao što je jezero Loch Ness?",
+        "correct_answer": "Škotska",
+        "incorrect_answers": [
+            "Norveška",
+            "Irska",
+            "Švedska"
+        ],
+        "explanation": "Škotska, dio Ujedinjenog Kraljevstva, ima brojne fjordove (ovdje zvane \"firthevi\" ili \"lochs\") i poznato jezero Loch Ness.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1097",
+        "category": "geografija",
+        "question": "Koja je najniža točka u Africi?",
+        "correct_answer": "Jezero Assal",
+        "incorrect_answers": [
+            "Depresija Danakil",
+            "Mrtvo more",
+            "Jezero Eyre"
+        ],
+        "explanation": "Jezero Assal u Džibutiju je slano jezero i najniža točka u Africi s -155 m ispod razine mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1098",
+        "category": "geografija",
+        "question": "Koji se poluotok nalazi između Sjevernog i Baltičkog mora?",
+        "correct_answer": "Jutland (Jylland)",
+        "incorrect_answers": [
+            "Skandinavski poluotok",
+            "Iberijski poluotok",
+            "Balkanski poluotok"
+        ],
+        "explanation": "Poluotok Jutland obuhvaća veći dio Danske i manji dio Njemačke, te odvaja Sjeverno i Baltičko more.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1099",
+        "category": "geografija",
+        "question": "Koji je najveći kanjon na svijetu?",
+        "correct_answer": "Veliki kanjon",
+        "incorrect_answers": [
+            "Fiskalni kanjon",
+            "Kanadi kanjon",
+            "Koloradski kanjon"
+        ],
+        "explanation": "Veliki kanjon u Arizoni, SAD, jedan je od najpoznatijih i najvećih kanjona na svijetu, poznat po geološkoj povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1100",
+        "category": "geografija",
+        "question": "Koja država ima najviše vremenskih zona?",
+        "correct_answer": "Francuska (uključujući prekomorske teritorije)",
+        "incorrect_answers": [
+            "Rusija",
+            "SAD",
+            "Kina"
+        ],
+        "explanation": "Francuska, uključujući svoje prekomorske teritorije, ima najviše vremenskih zona na svijetu (12 ili 13, ovisno o računanju).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1101",
+        "category": "geografija",
+        "question": "Koja je najveća pješčana pustinja u Aziji?",
+        "correct_answer": "Rub' al Khali",
+        "incorrect_answers": [
+            "Gobi",
+            "Karakum",
+            "Takla Makan"
+        ],
+        "explanation": "Rub' al Khali, što znači \"Prazna četvrt\", najveća je pješčana pustinja na svijetu, smještena na Arapskom poluotoku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1102",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po \"Plavoj rupi\", velikoj podmorskoj vrtači?",
+        "correct_answer": "Belize",
+        "incorrect_answers": [
+            "Australija",
+            "Filipini",
+            "Egipat"
+        ],
+        "explanation": "Velika Plava rupa je poznata podmorska vrtača smještena uz obalu Belizea, popularna destinacija za ronjenje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1103",
+        "category": "geografija",
+        "question": "Koja je rijeka poznata po slapovima Iguazu, smještenim na granici Argentine i Brazila?",
+        "correct_answer": "Iguazu",
+        "incorrect_answers": [
+            "Parana",
+            "Urugvaj",
+            "Rio Negro"
+        ],
+        "explanation": "Rijeka Iguazu, pritoka Parane, teče duž granice Brazila i Argentine i tvori impresivne slapove Iguazu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1104",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planine Stare Planine (Balkan Mountains)?",
+        "correct_answer": "Botev",
+        "incorrect_answers": [
+            "Musala",
+            "Olimp",
+            "Triglav"
+        ],
+        "explanation": "Botev je najviši vrh Stare planine, smješten u središnjem dijelu Bugarske, s visinom od 2.376 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1105",
+        "category": "geografija",
+        "question": "Koja država ima najviše vulkana?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Japan",
+            "SAD",
+            "Rusija"
+        ],
+        "explanation": "Indonezija se nalazi na \"Vatrenom prstenu Pacifika\" i ima više od 130 aktivnih vulkana, više nego bilo koja druga zemlja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1106",
+        "category": "geografija",
+        "question": "Koji je najveći otok u Karibima?",
+        "correct_answer": "Kuba",
+        "incorrect_answers": [
+            "Jamajka",
+            "Haiti",
+            "Portoriko"
+        ],
+        "explanation": "Kuba je najveći otok u karipskom moru, smještena južno od Floride.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1107",
+        "category": "geografija",
+        "question": "Koji je jedini kontinent koji je u potpunosti istočno od nultog meridijana?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Azija",
+            "Afrika",
+            "Europa"
+        ],
+        "explanation": "Iako dijelovi Azije, Afrike i Europe leže istočno od nultog meridijana, Australija je jedini kontinent u cijelosti istočno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1108",
+        "category": "geografija",
+        "question": "Koja je država poznata po Maču Pičuu?",
+        "correct_answer": "Peru",
+        "incorrect_answers": [
+            "Meksiko",
+            "Bolivija",
+            "Ekvador"
+        ],
+        "explanation": "Maču Piču je drevni grad Inka smješten u Andama u Peruu, UNESCO-va svjetska baština.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1109",
+        "category": "geografija",
+        "question": "Koji je najveći otok u Africi?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Zanzibar",
+            "Mauricijus",
+            "Komori"
+        ],
+        "explanation": "Madagaskar je otočna država u Indijskom oceanu, istočno od Afrike, i najveći je afrički otok.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1110",
+        "category": "geografija",
+        "question": "Koje je najveće jezero u Hrvatskoj?",
+        "correct_answer": "Vransko jezero (kod Biograda)",
+        "incorrect_answers": [
+            "Plitvička jezera",
+            "Perućko jezero",
+            "Prokljansko jezero"
+        ],
+        "explanation": "Vransko jezero kod Biograda na Moru najveće je prirodno jezero u Hrvatskoj, poznato po statusu parka prirode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1111",
+        "category": "geografija",
+        "question": "Koja je država poznata po gejziru Old Faithful i Nacionalnom parku Yellowstone?",
+        "correct_answer": "SAD",
+        "incorrect_answers": [
+            "Island",
+            "Novi Zeland",
+            "Kanada"
+        ],
+        "explanation": "Nacionalni park Yellowstone, smješten uglavnom u Wyomingu, SAD, prvi je nacionalni park na svijetu i dom je gejzira Old Faithful.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1112",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Alpa?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Matterhorn",
+            "Grossglockner",
+            "Zugspitze"
+        ],
+        "explanation": "Mont Blanc je najviši vrh Alpa i zapadne Europe, smješten na granici Francuske i Italije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1113",
+        "category": "geografija",
+        "question": "Koja zemlja ima najdužu kopnenu granicu na svijetu?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Rusija",
+            "Kanada",
+            "SAD"
+        ],
+        "explanation": "Kina ima 14 susjednih zemalja i najdužu kopnenu granicu na svijetu, protežući se tisućama kilometara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1114",
+        "category": "geografija",
+        "question": "Koja je pustinja poznata po svojim crvenim pješčanim dinama i nalazi se u Australiji?",
+        "correct_answer": "Simpsonova pustinja",
+        "incorrect_answers": [
+            "Velika Viktorijina pustinja",
+            "Gibsonova pustinja",
+            "Tanami pustinja"
+        ],
+        "explanation": "Simpsonova pustinja u središnjoj Australiji poznata je po svojim dugim, paralelnim crvenim pješčanim dinama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1115",
+        "category": "geografija",
+        "question": "Koja je država poznata po \"Zlatnom mostu\" (Golden Gate Bridge)?",
+        "correct_answer": "SAD",
+        "incorrect_answers": [
+            "Kanada",
+            "Australija",
+            "Ujedinjeno Kraljevstvo"
+        ],
+        "explanation": "Golden Gate Bridge je jedan od najpoznatijih simbola San Francisca, grada u saveznoj državi Kalifornija, SAD.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1116",
+        "category": "geografija",
+        "question": "Koja rijeka tvori prirodnu granicu između Meksika i SAD-a?",
+        "correct_answer": "Rio Grande",
+        "incorrect_answers": [
+            "Colorado",
+            "Mississippi",
+            "Sacramento"
+        ],
+        "explanation": "Rio Grande služi kao prirodna granica između teksaškog dijela SAD-a i Meksika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1117",
+        "category": "geografija",
+        "question": "Koji kontinent nema nijednu državu koja se nalazi na južnoj hemisferi?",
+        "correct_answer": "Europa",
+        "incorrect_answers": [
+            "Azija",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Sve države Europe u potpunosti se nalaze na sjevernoj hemisferi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
