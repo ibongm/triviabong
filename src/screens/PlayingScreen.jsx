@@ -4,6 +4,13 @@ import { getCategoryDetails, checkIsCorrect } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
 import { MAX_LIVES, QUESTION_TIME_SECONDS, PLUS_TEN_SECONDS, JOKER_COSTS } from '../constants/gameBalance';
 
+const DIFFICULTY_LABELS = { easy: 'Lako', medium: 'Srednje', hard: 'Teško' };
+const DIFFICULTY_BADGE_STYLES = {
+    easy: 'text-emerald-300 border-emerald-500/30 bg-emerald-500/10',
+    medium: 'text-amber-300 border-amber-500/30 bg-amber-500/10',
+    hard: 'text-rose-300 border-rose-500/30 bg-rose-500/10',
+};
+
 export default function PlayingScreen({
     lives,
     timeLeft,
@@ -33,6 +40,8 @@ export default function PlayingScreen({
     explanation = null,
     explanationPaused = false,
     onContinueAfterExplanation,
+    difficultyTier = null,
+    accuracyPercent = null,
 }) {
     return (
         <div className="space-y-6">
@@ -58,6 +67,14 @@ export default function PlayingScreen({
                         show each question's real source category rather than the
                         generic "Opće znanje" label for every question. */}
                     <span className="uppercase tracking-wider">{getCategoryDetails(currentQ.category || selectedCategory).label}</span>
+                    {difficultyTier && (
+                        <span
+                            className={`px-2 py-0.5 rounded-md border text-[10px] uppercase tracking-wider ${DIFFICULTY_BADGE_STYLES[difficultyTier]}`}
+                            data-testid="difficulty-badge"
+                        >
+                            {DIFFICULTY_LABELS[difficultyTier]}
+                        </span>
+                    )}
                     <div className="flex items-center gap-2">
                         <span>{currentIndex + 1} / {questionsLength}</span>
                         <button
@@ -112,6 +129,12 @@ export default function PlayingScreen({
                         );
                     })}
                 </div>
+
+                {accuracyPercent !== null && (
+                    <p className="text-xs text-slate-400 text-center" data-testid="difficulty-accuracy">
+                        Točno je odgovorilo {accuracyPercent}% igrača
+                    </p>
+                )}
 
                 {explanation && (
                     <div className="rounded-2xl border border-sky-500/25 bg-sky-500/10 p-3.5 space-y-3" role="status" aria-live="polite">

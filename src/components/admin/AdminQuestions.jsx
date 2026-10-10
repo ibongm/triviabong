@@ -3,6 +3,18 @@ import { auth } from '../../services/firebase';
 import { getAllCategories, getAllCategoryPacks, getAllQuestions } from '../../data/questionsLoader';
 import { CATEGORY_META } from '../../data/categoryMeta';
 import { validateQuestions, detectCategory, mergeQuestions, EXPLANATION_MAX_LENGTH } from '../../utils/questionMerge';
+import { isDifficultyLevel, measuredAccuracyPercent, SUSPECT_ACCURACY } from '../../utils/difficulty';
+
+const TIER_LABELS = { easy: 'Lako', medium: 'Srednje', hard: 'Teško' };
+
+// Admin list filter on a question's difficulty data. 'suspect' = measured
+// and under SUSPECT_ACCURACY correct, i.e. likely a wrong answer key.
+const matchesTierFilter = (q, filter) => {
+    if (!filter) return true;
+    if (filter === 'suspect') return q.difficultySource === 'stats' && q.difficultyAccuracy < SUSPECT_ACCURACY;
+    if (filter === 'untiered') return !isDifficultyLevel(q.difficulty);
+    return q.difficulty === filter;
+};
 
 const EMPTY_QUESTION_FORM = { question: '', correct_answer: '', incorrect_answers: ['', '', ''] };
 
@@ -135,6 +147,7 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
     // --- Manage (search/edit/delete) individual questions ---
     const [manageCategory, setManageCategory] = useState('');
     const [manageSearch, setManageSearch] = useState('');
+    const [manageTierFilter, setManageTierFilter] = useState('');
     // ids removed/edited this session but not yet reflected in the bundled
     // JSON (that only updates on the next redeploy) - applied on top of
     // getRawCategoryQuestions() so the list doesn't show stale rows/text.
@@ -163,11 +176,13 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
 
     const manageMatches = useMemo(() => {
         if (!manageCategory) return [];
-        const pool = getRawCategoryQuestions(manageCategory).filter((q) => !manageDeletedIds.has(q.id));
+        const pool = getRawCategoryQuestions(manageCategory)
+            .filter((q) => !manageDeletedIds.has(q.id))
+            .filter((q) => matchesTierFilter(q, manageTierFilter));
         const term = manageSearch.trim().toLowerCase();
         if (!term) return pool;
         return pool.filter((q) => q.id.toLowerCase().includes(term) || q.question.toLowerCase().includes(term));
-    }, [manageCategory, manageSearch, manageDeletedIds, getRawCategoryQuestions]);
+    }, [manageCategory, manageSearch, manageTierFilter, manageDeletedIds, getRawCategoryQuestions]);
 
     const manageVisible = manageMatches.slice(0, 50);
 
@@ -298,7 +313,7 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
                     Pronađite pitanje po kategoriji i tekstu/ID-u, pa ga uredite ili obrišite.
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
                     <div>
                         <label className="block text-slate-300 text-xs mb-1">Kategorija</label>
                         <select
@@ -322,6 +337,22 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
                             placeholder="npr. Hajduk ili hr_sport_142"
                             className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm disabled:opacity-40"
                         />
+                    </div>
+                    <div>
+                        <label className="block text-slate-300 text-xs mb-1">Težina</label>
+                        <select
+                            value={manageTierFilter}
+                            onChange={(e) => setManageTierFilter(e.target.value)}
+                            disabled={!manageCategory}
+                            className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm disabled:opacity-40"
+                        >
+                            <option value="">Sve</option>
+                            <option value="suspect">Sumnjiva (&lt;15% točnih)</option>
+                            <option value="easy">Lako</option>
+                            <option value="medium">Srednje</option>
+                            <option value="hard">Teško</option>
+                            <option value="untiered">Bez razine</option>
+                        </select>
                     </div>
                 </div>
 
@@ -356,6 +387,16 @@ export default function AdminQuestions({ initialFilter, onFilterConsumed } = {})
                                     <div key={q.id} className="bg-slate-950/60 border border-slate-800 rounded-xl p-3">
                                         <div className="flex items-center gap-3">
                                             <span className="text-slate-500 text-xs font-mono shrink-0">{q.id}</span>
+                                            {isDifficultyLevel(q.difficulty) && (
+                                                <span
+                                                    className="text-[10px] uppercase tracking-wider text-slate-400 border border-slate-700 rounded px-1.5 py-0.5 shrink-0"
+                                                    title={q.difficultySource === 'stats' ? 'Izmjereno iz odgovora igrača' : 'Procjena generatora'}
+                                                >
+                                                    {TIER_LABELS[q.difficulty]}
+                                                    {measuredAccuracyPercent(q) !== null && ` · ${measuredAccuracyPercent(q)}%`}
+                                                    {q.difficultySource === 'guess' && ' ?'}
+                                                </span>
+                                            )}
                                             <span className="text-slate-200 text-sm truncate flex-1" title={display.question}>
                                                 {display.question}
                                             </span>

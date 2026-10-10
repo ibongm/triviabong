@@ -8,6 +8,7 @@
 // which - unlike Vite's bundler for the browser build - does not auto-resolve
 // extensionless relative imports.
 import { resolveCategoryKey } from '../data/categoryKeys.js';
+import { isDifficultyLevel } from './difficulty.js';
 
 // id prefix convention already used in each src/data/categories/*.json file.
 export const ID_PREFIXES = {
@@ -106,6 +107,9 @@ export const validateEntry = (entry) => {
         if (entry.explanation.trim().length > EXPLANATION_MAX_LENGTH) {
             return { valid: false, reason: `Objašnjenje smije imati najviše ${EXPLANATION_MAX_LENGTH} znakova.` };
         }
+    }
+    if (entry.difficulty !== undefined && entry.difficulty !== null && !isDifficultyLevel(entry.difficulty)) {
+        return { valid: false, reason: 'Polje "difficulty" mora biti "easy", "medium" ili "hard" (ili ga izostavi).' };
     }
     return { valid: true };
 };
@@ -220,6 +224,9 @@ export const mergeQuestions = (existing, incoming, packKey, options = {}) => {
             correct_answer: entry.correct_answer,
             incorrect_answers: entry.incorrect_answers,
             ...(isNonEmptyString(entry.explanation) ? { explanation: entry.explanation.trim() } : {}),
+            // A tier supplied with an upload/generator run is only ever a
+            // guess; 'stats' is written solely by scripts/compute-difficulty.mjs.
+            ...(isDifficultyLevel(entry.difficulty) ? { difficulty: entry.difficulty, difficultySource: 'guess' } : {}),
             addedOn,
         };
 

@@ -64,6 +64,8 @@ import { useDailyMissions } from './hooks/useDailyMissions';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
 import { shuffleArray } from './utils/questionUtils';
+import { composeRound } from './utils/roundComposer';
+import { effectiveTier, measuredAccuracyPercent } from './utils/difficulty';
 import { isFeatureEnabled } from './constants/features';
 import {
   auth,
@@ -187,6 +189,11 @@ export default function App() {
   // deferred advance sits in explanationAdvanceRef - until the player taps
   // "Dalje". Never in the Daily Challenge (equal pacing for everyone).
   const explanationsEnabled = isFeatureEnabled('EXPLANATIONS');
+  // Difficulty tiers (FEATURES.DIFFICULTY, plan Phase 3): shape the round
+  // (3 easy / 4 medium / 3 hard, easy -> hard) and show the "N% got this
+  // right" line; FEATURES.DIFFICULTY_BADGE adds the tier chip on top.
+  const difficultyEnabled = isFeatureEnabled('DIFFICULTY');
+  const difficultyBadgeEnabled = difficultyEnabled && isFeatureEnabled('DIFFICULTY_BADGE');
   const [explanationPaused, setExplanationPaused] = useState(false);
   const explanationAdvanceRef = useRef(null);
   const explanationPausedAtRef = useRef(null);
@@ -700,7 +707,10 @@ export default function App() {
     clearRoundTransitionTimers();
     clearJokerMessageTimer();
     const loadedQuestions = await getQuestionsByCategory(selectedCategory);
-    const shuffled = shuffleArray(loadedQuestions).slice(0, QUESTIONS_PER_ROUND);
+    // With the flag off this is exactly the old uniform random slice.
+    const shuffled = difficultyEnabled
+      ? composeRound(loadedQuestions, { count: QUESTIONS_PER_ROUND })
+      : shuffleArray(loadedQuestions).slice(0, QUESTIONS_PER_ROUND);
     setDailyChallengeMode(false);
     resetRoundState(shuffled);
   };
@@ -1374,6 +1384,8 @@ export default function App() {
             explanation={explanationsEnabled && !dailyChallengeMode && selectedOption !== null ? (currentQ?.explanation || null) : null}
             explanationPaused={explanationPaused}
             onContinueAfterExplanation={continueAfterExplanation}
+            difficultyTier={difficultyBadgeEnabled && currentQ ? effectiveTier(currentQ) : null}
+            accuracyPercent={difficultyEnabled && selectedOption !== null && currentQ ? measuredAccuracyPercent(currentQ) : null}
           />
         )}
 

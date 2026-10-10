@@ -1,5 +1,25 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 3: difficulty tiers (dark)
+- **Files Changed**:
+  - `src/utils/difficulty.js` (Created), `src/utils/difficulty.test.js` (Created)
+  - `src/utils/roundComposer.js` (Created), `src/utils/roundComposer.test.js` (Created)
+  - `src/utils/questionMerge.js` (Modified), `src/utils/questionMerge.test.js` (Modified)
+  - `src/utils/matchQuestions.js` (Modified), `src/utils/matchQuestions.test.js` (Modified)
+  - `src/App.jsx` (Modified), `src/screens/PlayingScreen.jsx` (Modified)
+  - `src/components/admin/AdminQuestions.jsx` (Modified)
+  - `scripts/compute-difficulty.mjs` (Created), `.github/workflows/compute-difficulty.yml` (Created)
+  - `scripts/generate-questions.mjs` (Modified)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Tiers (dark, `FEATURES.DIFFICULTY` / `DIFFICULTY_BADGE` = false).** Optional `difficulty`, `difficultyAccuracy`, `difficultySource` on questions. `validateEntry` accepts an optional valid `difficulty`; `mergeQuestions` carries it but always as source `guess` (only the compute script writes `stats`); `editQuestionById` already preserves the fields.
+  - **Measuring.** `scripts/compute-difficulty.mjs` reads public `questionStats` via Firestore REST and tiers every question with >= 15 attempts (easy >= 75% correct, hard < 45%); under-15%-correct questions go to `reports/suspect_questions_<date>.md` for manual review. Manual workflow `compute-difficulty.yml` pushes to a new `difficulty/<run>` branch, never main. Dry-run and real write verified against fake stats; diff touched only the three new fields.
+  - **Round shape.** `composeRound`: 3 easy / 4 medium / 3 hard, easy -> hard, uniform shuffle within tiers, untiered = medium, short tiers topped up from the rest. Used by `launchQuizRound` and by `pickMatchQuestionIds` for the 10 played 1v1 questions (reserve stays random). Flag off = byte-for-byte the old selection paths.
+  - **UI.** Reveal line "Točno je odgovorilo N% igrača" (measured questions only) and an optional tier chip in `PlayingScreen`; admin Pitanja list shows tier/accuracy and has a tier filter incl. "Sumnjiva (<15% točnih)".
+  - **Generator.** Gemini now returns `difficulty_guess`, stored as `difficulty` with source `guess`.
+  - **Deliberately not done:** Daily Challenge reordering (a mid-day tier recompute would change the order for later players); score weighting by tier (D1).
+  - Verification: 285 unit tests pass (+23); build passes; lint unchanged at the 12 pre-existing problems.
+
 ### [2026-10-10] - Engagement plan Phase 2: answer explanations (dark) + elapsedMs save fix
 - **Files Changed**:
   - `src/utils/questionMerge.js` (Modified), `src/utils/questionMerge.test.js` (Modified)

@@ -323,3 +323,31 @@ describe('explanations', () => {
         expect(res.skipped.map((s) => s.reason)).toEqual(['empty', `too long (${EXPLANATION_MAX_LENGTH + 1})`]);
     });
 });
+
+describe('difficulty field', () => {
+    it('accepts the three tiers and rejects anything else', () => {
+        for (const d of ['easy', 'medium', 'hard']) expect(validateEntry({ ...validEntry(), difficulty: d }).valid).toBe(true);
+        expect(validateEntry({ ...validEntry(), difficulty: 'impossible' }).valid).toBe(false);
+        expect(validateEntry({ ...validEntry(), difficulty: 3 }).valid).toBe(false);
+        expect(validateEntry({ ...validEntry(), difficulty: null }).valid).toBe(true);
+    });
+
+    it('mergeQuestions carries a tier as a guess, never as a measurement', () => {
+        const { merged } = mergeQuestions([], [{ ...validEntry(), difficulty: 'hard', difficultySource: 'stats', difficultyAccuracy: 0.1 }], 'geografija');
+        expect(merged[0]).toMatchObject({ difficulty: 'hard', difficultySource: 'guess' });
+        expect(merged[0].difficultyAccuracy).toBeUndefined();
+    });
+
+    it('mergeQuestions adds no difficulty fields when none was supplied', () => {
+        const { merged } = mergeQuestions([], [validEntry()], 'geografija');
+        expect(merged[0].difficulty).toBeUndefined();
+        expect(merged[0].difficultySource).toBeUndefined();
+    });
+
+    it('editQuestionById keeps the measured difficulty fields', () => {
+        const existing = [{ id: 'hr_geo_1', category: 'geografija', ...validEntry(), difficulty: 'easy', difficultyAccuracy: 0.9, difficultySource: 'stats' }];
+        const { merged, edited } = editQuestionById(existing, 'hr_geo_1', { ...validEntry(), question: 'Koji je glavni grad RH?' });
+        expect(edited).toBe(true);
+        expect(merged[0]).toMatchObject({ difficulty: 'easy', difficultyAccuracy: 0.9, difficultySource: 'stats' });
+    });
+});

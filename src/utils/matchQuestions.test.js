@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { getMatchQuestionOptions, isMatchAnswerCorrect, pickMatchQuestionIds } from './matchQuestions';
 
 // Fabricated question - deliberately doesn't touch questionsLoader.js (and
@@ -59,10 +59,14 @@ describe('isMatchAnswerCorrect', () => {
 // pickMatchQuestionIds reaches into questionsLoader (which lazily imports the
 // real ~5,900-question JSON), so the loader is mocked to keep this a pure
 // logic test with a pool small enough to assert on exactly.
-const pools = vi.hoisted(() => ({ category: [], all: [] }));
+const pools = vi.hoisted(() => ({ category: [], all: [], difficulty: false }));
 vi.mock('../data/questionsLoader', () => ({
     getQuestionsByCategory: async () => pools.category,
     getAllQuestions: async () => pools.all,
+}));
+
+vi.mock('../constants/features', () => ({
+    isFeatureEnabled: (name) => name === 'DIFFICULTY' && pools.difficulty,
 }));
 
 const q = (id, category) => ({ id, category });
@@ -136,5 +140,34 @@ describe('pickMatchQuestionIds', () => {
         const ids = await pickMatchQuestionIds('geografija');
         expect(ids).not.toContain(undefined);
         expect(ids).toContain('geo_0');
+    });
+});
+
+
+describe('pickMatchQuestionIds with FEATURES.DIFFICULTY on', () => {
+    beforeEach(() => {
+        pools.difficulty = true;
+        const tiers = ['easy', 'medium', 'hard'];
+        pools.category = Array.from({ length: 60 }, (_, i) => ({ id: `geo_${i}`, category: 'geografija', difficulty: tiers[i % 3] }));
+        pools.all = pools.category;
+    });
+    afterEach(() => { pools.difficulty = false; });
+
+    it('still returns 11 distinct ids from the category', async () => {
+        for (let run = 0; run < 20; run++) {
+            const ids = await pickMatchQuestionIds('geografija');
+            expect(ids).toHaveLength(11);
+            expect(new Set(ids).size).toBe(11);
+            expect(ids.every(id => id.startsWith('geo_'))).toBe(true);
+        }
+    });
+
+    it('plays 3 easy / 4 medium / 3 hard easy-first, with the reserve last', async () => {
+        const tierOf = (id) => pools.category.find(x => x.id === id).difficulty;
+        for (let run = 0; run < 20; run++) {
+            const ids = await pickMatchQuestionIds('geografija');
+            const played = ids.slice(0, 10).map(tierOf);
+            expect(played).toEqual(['easy', 'easy', 'easy', 'medium', 'medium', 'medium', 'medium', 'hard', 'hard', 'hard']);
+        }
     });
 });

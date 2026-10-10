@@ -1,0 +1,42 @@
+name: Compute Question Difficulty
+
+# Reads real play data (public questionStats counters) and writes difficulty
+# tiers into the category JSON files, plus a report of suspect questions
+# (< 15% correct, likely a wrong answer key). Pushes to a NEW branch - never
+# to main - so the tier changes and the suspect list get a look before they
+# deploy. Open a PR from the branch, review reports/suspect_questions_*.md,
+# fix or delete the flagged questions, merge.
+on:
+  workflow_dispatch:
+
+jobs:
+  compute:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Compute difficulty tiers
+        run: node scripts/compute-difficulty.mjs
+
+      - name: Push result to a new branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No tier changes."
+            exit 0
+          fi
+          BRANCH="difficulty/${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git add src/data/categories reports/
+          git commit -m "chore(difficulty): recompute question difficulty tiers from play data"
+          git push origin "$BRANCH"
+          echo "Pushed branch $BRANCH - open a PR and review reports/suspect_questions_*.md"
