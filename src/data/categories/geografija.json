@@ -11807,5 +11807,395 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1064",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Africi po broju stanovnika (urbanog područja, stanje 2023.)?",
+        "correct_answer": "Lagos",
+        "incorrect_answers": [
+            "Kairo",
+            "Kinshasa",
+            "Johanesburg"
+        ],
+        "explanation": "Lagos u Nigeriji, s preko 15 milijuna stanovnika, najveći je grad u Africi po broju stanovnika (stanje 2023.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1065",
+        "category": "geografija",
+        "question": "Koji je drugi najveći ocean na svijetu?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Arktički ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Atlantski ocean je drugi po veličini, pokrivajući oko petinu Zemljine površine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1066",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi planina Fuji?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Tajvan"
+        ],
+        "explanation": "Planina Fuji, aktivni stratovulkan, najviši je vrh Japana i sveta planina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1067",
+        "category": "geografija",
+        "question": "Koja je najniža točka na kopnu na Zemlji?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Dolina smrti",
+            "Kaspijska depresija",
+            "Jezero Assal"
+        ],
+        "explanation": "Mrtvo more, smješteno između Izraela i Jordana, nalazi se na oko 430 metara ispod razine mora (stanje 2023.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1068",
+        "category": "geografija",
+        "question": "Koji se planinski lanac proteže kroz sedam europskih zemalja, od Francuske do Slovenije?",
+        "correct_answer": "Alpe",
+        "incorrect_answers": [
+            "Pireneji",
+            "Karpati",
+            "Apenini"
+        ],
+        "explanation": "Alpe su najviši i najprostraniji planinski lanac u Europi, koji se prostire kroz osam zemalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1069",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka koja teče isključivo unutar Rusije?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Ob",
+            "Jenisej"
+        ],
+        "explanation": "Volga je najduža rijeka u Europi, u cijelosti smještena unutar Rusije, s duljinom od oko 3.530 kilometara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1070",
+        "category": "geografija",
+        "question": "Koja država se prostire na dva kontinenta, Europi i Aziji, a glavni grad joj je Ankara?",
+        "correct_answer": "Turska",
+        "incorrect_answers": [
+            "Rusija",
+            "Kazahstan",
+            "Egipat"
+        ],
+        "explanation": "Turska je transkontinentalna država čiji se veći dio nalazi u Aziji, a manji dio u Europi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1071",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija država u Africi (stanje 2023.)?",
+        "correct_answer": "Nigerija",
+        "incorrect_answers": [
+            "Egipat",
+            "Etiopija",
+            "Južnoafrička Republika"
+        ],
+        "explanation": "Nigerija ima procijenjeno više od 220 milijuna stanovnika (stanje 2023.), što je čini najmnogoljudnijom u Africi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1072",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni jezero po volumenu na svijetu?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Gornje jezero",
+            "Jezero Tanganjika",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru, Rusija, sadrži oko 20% svjetske nezaleđene slatke vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1073",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po 'aurora borealis' (polarnoj svjetlosti) i nalazi se na sjeveru Europe?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Finska",
+            "Švedska",
+            "Island"
+        ],
+        "explanation": "Norveška, posebno njeni sjeverni dijelovi, jedno je od najboljih mjesta za promatranje polarne svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1074",
+        "category": "geografija",
+        "question": "Koja država ima najdužu obalnu crtu na svijetu?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Indonezija",
+            "Rusija",
+            "Kina"
+        ],
+        "explanation": "Kanada ima najdužu obalnu crtu na svijetu, koja iznosi oko 243.042 kilometra, uključujući otoke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1075",
+        "category": "geografija",
+        "question": "Koja je najgušće naseljena država na svijetu (stanje 2023.)?",
+        "correct_answer": "Monako",
+        "incorrect_answers": [
+            "Singapur",
+            "Bangladeš",
+            "Vatikan"
+        ],
+        "explanation": "Monako, grad-država na Francuskoj rivijeri, najgušće je naseljena suverena država na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1076",
+        "category": "geografija",
+        "question": "Koji kontinent nema aktivnih vulkana?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Afrika",
+            "Europa"
+        ],
+        "explanation": "Kontinent Australija je tektonski stabilan i nema aktivnih vulkana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1077",
+        "category": "geografija",
+        "question": "Koji tjesnac dijeli Afriku i Europu?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac spaja Atlantski ocean sa Sredozemnim morem i razdvaja Španjolsku od Maroka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1078",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po terasama riže u Banaue, UNESCO-voj svjetskoj baštini?",
+        "correct_answer": "Filipini",
+        "incorrect_answers": [
+            "Vijetnam",
+            "Indonezija",
+            "Tajland"
+        ],
+        "explanation": "Terase riže u Banaueu, izgrađene prije 2.000 godina, nalaze se na Filipinima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1079",
+        "category": "geografija",
+        "question": "Koji kontinent se nalazi na svim četirima hemisferama (sjeverna, južna, istočna, zapadna)?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Oceanija"
+        ],
+        "explanation": "Afrika je jedini kontinent koji se prostire na sve četiri hemisfere zbog svoje geografske pozicije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1080",
+        "category": "geografija",
+        "question": "Koji je najveći grad na svijetu po broju stanovnika (urbanog područja, stanje 2023.)?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Delhi",
+            "Šangaj",
+            "New York"
+        ],
+        "explanation": "Tokio, glavni grad Japana, najveći je grad na svijetu po broju stanovnika u urbanom području (preko 37 milijuna).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1081",
+        "category": "geografija",
+        "question": "Koja je valuta Južne Koreje?",
+        "correct_answer": "Južnokorejski won",
+        "incorrect_answers": [
+            "Yen",
+            "Yuan",
+            "Baht"
+        ],
+        "explanation": "Južnokorejski won je službena valuta Republike Koreje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1082",
+        "category": "geografija",
+        "question": "Koji je najveći umjetni kanal na svijetu, koji spaja Sredozemno i Crveno more?",
+        "correct_answer": "Sueski kanal",
+        "incorrect_answers": [
+            "Panamski kanal",
+            "Kielski kanal",
+            "Korintski kanal"
+        ],
+        "explanation": "Sueski kanal je važan plovni put koji omogućava brodovima iz Europe da dođu do Azije bez zaobilaženja Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1083",
+        "category": "geografija",
+        "question": "Koja je najstarija pustinja na svijetu, poznata po visokim crvenim dinama?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Kalahari",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Namib u južnoj Africi procjenjuje se da postoji 55-80 milijuna godina i poznata je po svojim slikovitim crvenim dinama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1084",
+        "category": "geografija",
+        "question": "Koji je najveći grad Turske po broju stanovnika?",
+        "correct_answer": "Istanbul",
+        "incorrect_answers": [
+            "Ankara",
+            "Izmir",
+            "Antalya"
+        ],
+        "explanation": "Istanbul je najveći grad Turske, dok je Ankara njen glavni grad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1085",
+        "category": "geografija",
+        "question": "Koja europska rijeka protječe kroz Beč, Budimpeštu i Beograd?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Laba",
+            "Visla"
+        ],
+        "explanation": "Dunav je druga najduža rijeka u Europi i protječe kroz mnoge glavne gradove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1086",
+        "category": "geografija",
+        "question": "Koja je najveća država u Južnoj Americi po površini?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Brazil je s površinom od preko 8,5 milijuna km² najveća država Južne Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1087",
+        "category": "geografija",
+        "question": "Koji se pustinja smatra najvećom hladnom pustinjom na svijetu?",
+        "correct_answer": "Gobi",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Velika slana pustinja"
+        ],
+        "explanation": "Pustinja Gobi u Aziji je najveća hladna pustinja na svijetu, karakterizirana velikim temperaturnim oscilacijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1088",
+        "category": "geografija",
+        "question": "Koja država ima najviše jezera na svijetu?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Rusija",
+            "Sjedinjene Američke Države",
+            "Finska"
+        ],
+        "explanation": "Kanada ima više jezera nego sve druge zemlje zajedno, s procijenjenih 31.752 velika jezera.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1089",
+        "category": "geografija",
+        "question": "Koja je država poznata po rijekama Nil i Sueskom kanalu?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Sudan",
+            "Etiopija",
+            "Izrael"
+        ],
+        "explanation": "Egipat je smješten duž rijeke Nil i kontrolira Sueski kanal, ključan plovni put.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
     }
 ]
