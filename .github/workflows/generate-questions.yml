@@ -36,8 +36,12 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install Google Gen AI Client
-        run: npm install --no-save @google/genai
+      # npm ci first: the generator now imports src/utils/questionMerge.js,
+      # whose import chain needs the project's own dependencies.
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm install --no-save @google/genai
 
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
@@ -49,14 +53,27 @@ jobs:
           GOOGLE_GENAI_USE_VERTEXAI: 'true'
           GOOGLE_CLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
           GOOGLE_CLOUD_LOCATION: 'us-central1'
-        run: node scripts/generate-questions.mjs "${{ inputs.category }}" "${{ inputs.count }}"
+          # Passed via env rather than interpolated into the script, so a
+          # free-text input can't inject shell commands.
+          INPUT_CATEGORY: ${{ inputs.category }}
+          INPUT_COUNT: ${{ inputs.count }}
+        run: node scripts/generate-questions.mjs "$INPUT_CATEGORY" "$INPUT_COUNT"
 
       - name: Commit and Push to Main
+        env:
+          INPUT_CATEGORY: ${{ inputs.category }}
+          INPUT_COUNT: ${{ inputs.count }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/categories/
-          git commit -m "feat(data): auto-generate ${{ inputs.count }} questions in ${{ inputs.category }}"
+          # The generator now skips duplicates/invalid entries, so a run can
+          # legitimately add nothing - don't fail the job on an empty commit.
+          if git diff --cached --quiet; then
+            echo "No new questions to commit."
+            exit 0
+          fi
+          git commit -m "feat(data): auto-generate questions in $INPUT_CATEGORY (requested $INPUT_COUNT)"
           git stash --include-untracked
           git pull --rebase origin main
           git push origin main

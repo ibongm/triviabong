@@ -56,8 +56,8 @@ export const resolveMatchQuestions = async (questionIds, _categoryKey) => {
 };
 
 // Deterministic string -> 32-bit int hash (djb2 variant) + mulberry32 PRNG,
-// same construction as dailySeed.js's getDailyChallengeQuestions - reused
-// here (not imported, since dailySeed.js doesn't export the pieces) for a
+// same construction dailySeed.js originally used for the Daily Challenge -
+// kept local here (dailySeed.js no longer has a PRNG) for a
 // different problem: shuffleArray's Math.random() ordering would let each
 // client see the SAME question's answer options in a DIFFERENT order, so
 // the optionIndex (0-3) each client writes to matches/{matchId} wouldn't

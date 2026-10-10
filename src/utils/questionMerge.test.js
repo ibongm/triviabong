@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { validateEntry, validateQuestions, detectCategory, mergeQuestions, removeQuestionById, editQuestionById } from './questionMerge';
+import { validateEntry, validateQuestions, detectCategory, mergeQuestions, removeQuestionById, editQuestionById, getZagrebDateKey, buildQuestionTextIndex } from './questionMerge';
 
 const validEntry = () => ({
     question: 'Koji je glavni grad Hrvatske?',
@@ -207,5 +207,48 @@ describe('editQuestionById', () => {
             incorrect_answers: ['B', 'C', 'D'],
         });
         expect(edited).toBe(true);
+    });
+});
+
+describe('addedOn stamping and cross-bank dedupe', () => {
+    const existing = [
+        { id: 'hr_sport_1', category: 'sport', question: 'Postojeće pitanje?', correct_answer: 'A', incorrect_answers: ['B', 'C', 'D'] },
+    ];
+    const incoming = [{ question: 'Novo pitanje?', correct_answer: 'X', incorrect_answers: ['Y', 'Z', 'W'] }];
+
+    it('stamps the given addedOn on every added question and leaves existing ones alone', () => {
+        const { merged } = mergeQuestions(existing, incoming, 'sport', { addedOn: '2026-10-10' });
+        expect(merged[1].addedOn).toBe('2026-10-10');
+        expect(merged[0].addedOn).toBeUndefined();
+    });
+
+    it('defaults addedOn to today in Zagreb', () => {
+        const { merged } = mergeQuestions(existing, incoming, 'sport');
+        expect(merged[1].addedOn).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    });
+
+    it('skips an entry that duplicates a question from another category', () => {
+        const otherPack = [{ id: 'hr_geo_9', question: 'Novo   PITANJE?', correct_answer: 'Q', incorrect_answers: ['R', 'S', 'T'] }];
+        const { added, skipped } = mergeQuestions(existing, incoming, 'sport', { otherQuestionTexts: buildQuestionTextIndex(otherPack) });
+        expect(added).toBe(0);
+        expect(skipped).toBe(1);
+    });
+
+    it('editQuestionById keeps fields beyond the five core ones (addedOn etc.)', () => {
+        const withExtras = [{ ...existing[0], addedOn: '2026-09-01', explanation: 'Zato.' }];
+        const { merged, edited } = editQuestionById(withExtras, 'hr_sport_1', validEntry());
+        expect(edited).toBe(true);
+        expect(merged[0].addedOn).toBe('2026-09-01');
+        expect(merged[0].explanation).toBe('Zato.');
+        expect(merged[0].question).toBe(validEntry().question);
+    });
+});
+
+describe('getZagrebDateKey', () => {
+    it('uses the Zagreb calendar day, not UTC', () => {
+        // 23:30 UTC on 9 Oct (summer time) is already 01:30 on 10 Oct in Zagreb.
+        expect(getZagrebDateKey(new Date('2026-10-09T23:30:00Z'))).toBe('2026-10-10');
+        // 22:30 UTC on 9 Jan (winter time) is 23:30 on 9 Jan in Zagreb.
+        expect(getZagrebDateKey(new Date('2026-01-09T22:30:00Z'))).toBe('2026-01-09');
     });
 });

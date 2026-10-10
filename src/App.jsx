@@ -666,7 +666,7 @@ export default function App() {
     clearRoundTransitionTimers();
     clearJokerMessageTimer();
     const loadedQuestions = await getQuestionsByCategory(selectedCategory);
-    const shuffled = [...loadedQuestions].sort(() => 0.5 - Math.random()).slice(0, QUESTIONS_PER_ROUND);
+    const shuffled = shuffleArray(loadedQuestions).slice(0, QUESTIONS_PER_ROUND);
     setDailyChallengeMode(false);
     resetRoundState(shuffled);
   };
