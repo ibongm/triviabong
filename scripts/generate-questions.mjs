@@ -5,7 +5,7 @@ import pkg from '@google-cloud/vertexai';
 const { VertexAI } = pkg;
 
 const project = process.env.GCP_PROJECT_ID;
-const location = process.env.GCP_REGION || 'europe-west1';
+const location = process.env.GCP_REGION || 'us-central1';
 
 if (!project) {
   console.error('Error: GCP_PROJECT_ID is not set.');
