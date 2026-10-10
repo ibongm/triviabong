@@ -11372,5 +11372,440 @@
             "Peru",
             "Čile"
         ]
+    },
+    {
+        "id": "hr_geo_1035",
+        "category": "geografija",
+        "question": "Koja država ima najviše stanovnika na svijetu?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "SAD",
+            "Indonezija"
+        ],
+        "explanation": "Indija je u travnju 2023. godine pretekla Kinu i postala najnaseljenija država na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1036",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu (isključujući kontinente)?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Borneo",
+            "Madagaskar",
+            "Nova Gvineja"
+        ],
+        "explanation": "Grenland je autonomno područje Danske i najveći otok na svijetu, s površinom od preko 2,1 milijuna četvornih kilometara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1037",
+        "category": "geografija",
+        "question": "Koja je najviša planina na svijetu?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kangchendzonga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest je najviša planina na Zemlji, smještena u Himalaji na granici Nepala i Kine, s vrhom na 8.848,86 metara nadmorske visine (stanje 2020.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1038",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Južne Amerike?",
+        "correct_answer": "Aconcagua",
+        "incorrect_answers": [
+            "Huascarán",
+            "Chimborazo",
+            "Cotopaxi"
+        ],
+        "explanation": "Aconcagua je najviši vrh u Andama i u Južnoj Americi, s nadmorskom visinom od 6.960,8 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1039",
+        "category": "geografija",
+        "question": "Koji je najveći kontinent po površini?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najveći kontinent po površini i broju stanovnika, pokrivajući približno 30% Zemljine kopnene površine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1040",
+        "category": "geografija",
+        "question": "Koja država je poznata po Velikom koraljnom grebenu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Belize"
+        ],
+        "explanation": "Veliki koraljni greben nalazi se uz obalu Queenslanda u Australiji i najveći je koraljni sustav na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1041",
+        "category": "geografija",
+        "question": "Koji se tjesnac nalazi između Sjeverne i Južne Amerike i dijeli ih na užem dijelu Panamskog kanala?",
+        "correct_answer": "Panamski tjesnac",
+        "incorrect_answers": [
+            "Beringov tjesnac",
+            "Gibraltar",
+            "Magellanov tjesnac"
+        ],
+        "explanation": "Panamski tjesnac je geografski pojam za uski kopneni most koji spaja Sjevernu i Južnu Ameriku, gdje je prokopan i Panamski kanal.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1042",
+        "category": "geografija",
+        "question": "Koja je valuta Japana?",
+        "correct_answer": "Jen",
+        "incorrect_answers": [
+            "Yuan",
+            "Won",
+            "Bath"
+        ],
+        "explanation": "Japanski jen je službena valuta Japana, treća najtrgovanija valuta na deviznom tržištu, nakon dolara i eura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1043",
+        "category": "geografija",
+        "question": "Koji se poluotok nalazi između Crnog i Azovskog mora?",
+        "correct_answer": "Krim",
+        "incorrect_answers": [
+            "Balkan",
+            "Apeninski",
+            "Skandinavski"
+        ],
+        "explanation": "Krim je poluotok u istočnoj Europi, smješten na sjevernoj obali Crnog mora, s uskom prevlakom koja ga spaja s kopnom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1044",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po fjordu Geirangerfjord, dijelu UNESCO-ve svjetske baštine?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Island",
+            "Finska"
+        ],
+        "explanation": "Geirangerfjord je jedan od najpoznatijih norveških fjordova, smješten u regiji Sunnmøre i poznat po strmim liticama i slapovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1045",
+        "category": "geografija",
+        "question": "Koja je jedina država koja graniči s Portugalom?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Francuska",
+            "Italija",
+            "Maroko"
+        ],
+        "explanation": "Španjolska je jedina država koja ima kopnenu granicu s Portugalom, smještenim na Iberijskom poluotoku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1046",
+        "category": "geografija",
+        "question": "Koji je drugi najviši vrh svijeta?",
+        "correct_answer": "K2 (Godwin Austen)",
+        "incorrect_answers": [
+            "Kangchendzonga",
+            "Lhotse",
+            "Makalu"
+        ],
+        "explanation": "K2, poznat i kao Godwin Austen, drugi je najviši planinski vrh na Zemlji, smješten u planinskom lancu Karakorum, na granici Pakistana i Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1047",
+        "category": "geografija",
+        "question": "Koja je država poznata po otoku Siciliji?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Turska"
+        ],
+        "explanation": "Sicilija je najveći otok u Sredozemnom moru i autonomna regija Italije, poznata po Etni i bogatoj povijesti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1048",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po gejzirima i termalnim izvorima, poput Plave lagune?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Japan",
+            "Norveška"
+        ],
+        "explanation": "Island je geološki vrlo aktivan otok s brojnim gejzirima, vulkanima i termalnim izvorima zbog smještaja na Srednjoatlantskom hrbatu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1049",
+        "category": "geografija",
+        "question": "Koja država se nalazi na jugu Afrike i poznata je po Rtu dobre nade?",
+        "correct_answer": "Južnoafrička Republika",
+        "incorrect_answers": [
+            "Namibija",
+            "Angola",
+            "Zimbabve"
+        ],
+        "explanation": "Južnoafrička Republika je zemlja na najjužnijem vrhu Afrike, s dugom obalom koja se proteže duž Atlantskog i Indijskog oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1050",
+        "category": "geografija",
+        "question": "Koji planinski lanac razdvaja Europu i Aziju?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Alpe",
+            "Karpati"
+        ],
+        "explanation": "Planina Ural tradicionalno se smatra prirodnom granicom između Europe i Azije, protežući se od Arktičkog oceana do Kazahstana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1051",
+        "category": "geografija",
+        "question": "Koje je najveće jezero u Južnoj Americi po površini?",
+        "correct_answer": "Jezero Titicaca",
+        "incorrect_answers": [
+            "Jezero Maracaibo",
+            "Jezero Poopó",
+            "Jezero Buenos Aires"
+        ],
+        "explanation": "Jezero Titicaca je najveće jezero u Južnoj Americi po površini (8.372 km²) i najviše plovno jezero na svijetu, smješteno u Andama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1052",
+        "category": "geografija",
+        "question": "Koja je država poznata po piramidama u Gizi?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Sudan",
+            "Meksiko",
+            "Irak"
+        ],
+        "explanation": "Piramide u Gizi, uključujući Veliku piramidu, nalaze se u Egiptu i jedino su preostalo čudo starog svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1053",
+        "category": "geografija",
+        "question": "Koji je najveći arhipelag na svijetu?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Filipini",
+            "Japan",
+            "Karibi"
+        ],
+        "explanation": "Indonezija je najveći arhipelag na svijetu, sastoji se od preko 17.500 otoka, uključujući Sumatru, Javu i Borneo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1054",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planinskog lanca Atlas?",
+        "correct_answer": "Toubkal",
+        "incorrect_answers": [
+            "Jbel Ayachi",
+            "M'Goun",
+            "Jbel Sirwa"
+        ],
+        "explanation": "Toubkal je najviši vrh planinskog lanca Atlas u Maroku i u cijeloj Sjevernoj Africi, s visinom od 4.167 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1055",
+        "category": "geografija",
+        "question": "Koja je najmanja država na svijetu po površini?",
+        "correct_answer": "Vatikan",
+        "incorrect_answers": [
+            "Monako",
+            "Nauru",
+            "San Marino"
+        ],
+        "explanation": "Vatikan je najmanja neovisna država na svijetu, enklava unutar Rima, s površinom od samo 0,44 km².",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1056",
+        "category": "geografija",
+        "question": "Koji je najjužniji kontinent?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Južna Amerika",
+            "Afrika"
+        ],
+        "explanation": "Antarktika je najjužniji kontinent Zemlje, u potpunosti pokriven ledom, okružen Južnim oceanom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1057",
+        "category": "geografija",
+        "question": "Koji je najduži planinski lanac na svijetu (kopneni)?",
+        "correct_answer": "Andi",
+        "incorrect_answers": [
+            "Himalaja",
+            "Stjenjak",
+            "Veliki razvodni lanac"
+        ],
+        "explanation": "Andi su najduži kontinentalni planinski lanac na svijetu, protežu se duž zapadne obale Južne Amerike na više od 7.000 km.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1058",
+        "category": "geografija",
+        "question": "Koja država je poznata po Taj Mahalu?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Iran",
+            "Pakistan"
+        ],
+        "explanation": "Taj Mahal je veličanstveni mauzolej smješten u Agri, Indija, sagrađen od bijelog mramora, jedno je od sedam svjetskih čuda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1059",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Njemačke?",
+        "correct_answer": "Zugspitze",
+        "incorrect_answers": [
+            "Feldberg",
+            "Brocken",
+            "Watzmann"
+        ],
+        "explanation": "Zugspitze je najviši vrh Njemačke, smješten u Bavarskim Alpama, s visinom od 2.962 metra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1060",
+        "category": "geografija",
+        "question": "Koji tjesnac dijeli Aljasku (SAD) od Rusije?",
+        "correct_answer": "Beringov tjesnac",
+        "incorrect_answers": [
+            "Drakeov prolaz",
+            "Gibraltarski tjesnac",
+            "Bospor"
+        ],
+        "explanation": "Beringov tjesnac je vodeni prolaz koji razdvaja najistočniju točku Azije (Rusija) od najzapadnije točke Sjeverne Amerike (Aljaska, SAD).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1061",
+        "category": "geografija",
+        "question": "Koji je najveći riječni sustav u Sjevernoj Americi?",
+        "correct_answer": "Mississippi-Missouri",
+        "incorrect_answers": [
+            "Mackenzie",
+            "Yukon",
+            "Kolorado"
+        ],
+        "explanation": "Mississippi-Missouri je najduži i najveći riječni sustav u Sjevernoj Americi, s golemim slivom koji pokriva veći dio SAD-a.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1062",
+        "category": "geografija",
+        "question": "Koji je najviši vrh u Australiji i Oceaniji?",
+        "correct_answer": "Puncak Jaya",
+        "incorrect_answers": [
+            "Mount Kosciuszko",
+            "Aoraki/Mount Cook",
+            "Mauna Kea"
+        ],
+        "explanation": "Puncak Jaya (Carstensz Pyramid) je najviši vrh Oceanije, smješten na otoku Novoj Gvineji, u indonezijskoj provinciji Papua, s visinom od 4.884 m.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_geo_1063",
+        "category": "geografija",
+        "question": "Koji grad je poznat kao \"Venecija Istoka\" zbog svoje mreže kanala?",
+        "correct_answer": "Bangkok",
+        "incorrect_answers": [
+            "Šangaj",
+            "Kyoto",
+            "Hong Kong"
+        ],
+        "explanation": "Bangkok, glavni grad Tajlanda, često se naziva \"Venecijom Istoka\" zbog mnogih kanala (\"khlongs\") koji su nekad bili primarni prometni putovi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
     }
 ]
