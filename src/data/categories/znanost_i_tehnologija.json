@@ -178,7 +178,7 @@
     {
         "id": "hr_sci_17",
         "category": "znanost",
-        "question": "Koji se znanstvenik smatra ocem moderne genetike zahvaljujući radu s graškom?",
+        "question": "Koji se znanstvenik smatra ocem moderne genetike zbog svojih pionirskih istraživanja nasljeđivanja?",
         "correct_answer": "Gregor Mendel",
         "incorrect_answers": [
             "Charles Darwin",
@@ -299,7 +299,7 @@
     {
         "id": "hr_sci_29",
         "category": "znanost",
-        "question": "Koji se protokol koristi za siguran prijenos hiperteksta na internetu (kriptirani web promet)?",
+        "question": "Koji se protokol koristi za siguran prijenos hiperteksta na internetu?",
         "correct_answer": "HTTPS",
         "incorrect_answers": [
             "HTTP",
@@ -530,7 +530,7 @@
     {
         "id": "hr_sci_51",
         "category": "znanost",
-        "question": "Koja je tehnološka tvrtka razvila popularni jezik Python 1991. godine (autor Guido van Rossum)?",
+        "question": "U kojoj je instituciji Guido van Rossum razvio popularni programski jezik Python 1991. godine?",
         "correct_answer": "CWI (Centrum Wiskunde & Informatica)",
         "incorrect_answers": [
             "Sun Microsystems",
@@ -563,7 +563,7 @@
     {
         "id": "hr_sci_54",
         "category": "znanost",
-        "question": "Što u računalnom mrežnom mjerilu predstavlja 'IP' adresa?",
+        "question": "Što označava kratica 'IP' u pojmu 'IP adresa'?",
         "correct_answer": "Internet Protocol",
         "incorrect_answers": [
             "Internal Path",
@@ -608,7 +608,7 @@
         "id": "hr_sci_58",
         "category": "znanost",
         "question": "Koji je prvi čovjek koji je boravio u svemiru 1961. godine?",
-        "correct_answer": "Juri Gagarin",
+        "correct_answer": "Jurij Gagarin",
         "incorrect_answers": [
             "Neil Armstrong",
             "Buzz Aldrin",
@@ -662,7 +662,7 @@
     {
         "id": "hr_sci_63",
         "category": "znanost",
-        "question": "Koja je tehnološka tvrtka proizvela prvi kućni micro-računalni komplet 'Altair 8800'?",
+        "question": "Koja je tvrtka proizvela prvi kućni mikroračunalni komplet 'Altair 8800'?",
         "correct_answer": "MITS",
         "incorrect_answers": [
             "Apple",
@@ -871,7 +871,7 @@
     {
         "id": "hr_sci_82",
         "category": "znanost",
-        "question": "Koja organska kiselina daje karakterističan kiselkasti okus agrumima poput grejpa i limuna?",
+        "question": "Koja organska kiselina daje karakterističan kiselkasti okus mnogim vrstama voća, uključujući agrume?",
         "correct_answer": "Limunska kiselina",
         "incorrect_answers": [
             "Mravlja kiselina",
@@ -894,10 +894,10 @@
         "id": "hr_sci_84",
         "category": "znanost",
         "question": "Što u matematici i računalstvu predstavlja pojam 'algoritam'?",
-        "correct_answer": "Konačan slijed jasnih koraka za rješavanje zadatka",
+        "correct_answer": "Konačan slijed koraka za rješavanje zadatka",
         "incorrect_answers": [
             "Hardverski čip u procesoru",
-            "Pogrješka u programskom kodu",
+            "Pogreška u programskom kodu",
             "Tip podatkovne tablice"
         ]
     },
@@ -1107,7 +1107,7 @@
         "incorrect_answers": [
             "Kondenzacija",
             "Isparavanje",
-            "Depozicija"
+            "Sublimacija"
         ]
     },
     {
@@ -1204,7 +1204,7 @@
         "question": "Koji se metalni element koristi kao gorivo u većini komercijalnih nuklearnih elektrana?",
         "correct_answer": "Uranij",
         "incorrect_answers": [
-            "Plutorij",
+            "Plutonij",
             "Torij",
             "Radij"
         ]
@@ -1245,7 +1245,7 @@
     {
         "id": "hr_sci_118",
         "category": "znanost",
-        "question": "Tko je izumio prvu uspješnu cjepivu protiv dječje paralize (polio) 1950-ih godina?",
+        "question": "Tko je izumio prvo uspješno cjepivo protiv dječje paralize (polio) 1950-ih godina?",
         "correct_answer": "Jonas Salk",
         "incorrect_answers": [
             "Albert Sabin",
@@ -1336,9 +1336,9 @@
         "question": "Što u informatici predstavlja pojam 'Open Source' softver?",
         "correct_answer": "Softver čiji je izvorni kod javno dostupan za pregled i izmjenu",
         "incorrect_answers": [
-            "Softver koji se može koristiti samo bez internetske veze",
-            "Besplatni softver bez ikakve licence",
-            "Softver namijenjen isključivo obrazovnim ustanovama"
+            "Softver koji se može koristiti samo offline i ne zahtijeva aktivnu internetsku vezu za rad",
+            "Potpuno besplatan softver koji se distribuira bez ikakvih uvjeta licence ili autorskih prava",
+            "Softver razvijen i distribuiran isključivo za potrebe školstva i znanstvenih istraživanja"
         ]
     },
     {
@@ -1399,7 +1399,7 @@
     {
         "id": "hr_sci_140",
         "category": "znanost",
-        "question": "Koji je prvi računalni virusni crv lansiran preko Interneta 1988. godine (kreirao ga je Robert Tappan Morris)?",
+        "question": "Koji je prvi računalni crv lansiran preko Interneta 1988. godine?",
         "correct_answer": "Morrisov crv (Morris Worm)",
         "incorrect_answers": [
             "ILOVEYOU",
@@ -1433,7 +1433,7 @@
         "id": "hr_sci_143",
         "category": "znanost",
         "question": "Što u računalnom kodiranju predstavlja 'Boolean' tip podatka?",
-        "correct_answer": "Logička vrijednost koja može biti samo Istina (True) ili Laž (False)",
+        "correct_answer": "Logička vrijednost (Istina/Laž)",
         "incorrect_answers": [
             "Cijeli broj bez decimala",
             "Niz znakova ili tekst",
@@ -1521,7 +1521,7 @@
         "id": "hr_sci_151",
         "category": "znanost",
         "question": "Koje je zrcalo najzastupljenije u reflektorskim teleskopima koje je izumio Isaac Newton?",
-        "correct_answer": "Udubljeno (Konkavno) primarno zrcalo",
+        "correct_answer": "Udubljeno (konkavno) zrcalo",
         "incorrect_answers": [
             "Ispupčena leća",
             "Ravna staklena ploča",
@@ -1531,7 +1531,7 @@
     {
         "id": "hr_sci_152",
         "category": "znanost",
-        "question": "Kako se zove skupina biljaka koja ne proizvodi cvjetove i sjemenke, već se razmnožava sporama (npr. paprat)?",
+        "question": "Kako se zove skupina biljaka koja ne proizvodi cvjetove i sjemenke, već se razmnožava sporama?",
         "correct_answer": "Papratnjače (Pteridophyta)",
         "incorrect_answers": [
             "Kritosjemenjače",
@@ -1646,7 +1646,7 @@
         "incorrect_answers": [
             "Energija",
             "Rad",
-            "Momenta"
+            "Količina gibanja"
         ]
     },
     {
@@ -1983,10 +1983,10 @@
         "id": "hr_sci_193",
         "category": "znanost",
         "question": "Koji se dio kostura u tijelu koristi za zaštitu mozga od mehaničkih ozljeda?",
-        "correct_answer": "Lubanja (Cranium)",
+        "correct_answer": "Lubanja",
         "incorrect_answers": [
             "Kralježnica",
-            "Kardinalna kost",
+            "Zdjelica",
             "Grudni koš"
         ]
     },
@@ -2081,7 +2081,7 @@
     {
         "id": "hr_sci_202",
         "category": "znanost",
-        "question": "Koji je najveći prirodni satelit u našem Sunčevom sustavu (kruži oko Jupitera)?",
+        "question": "Koji je najveći prirodni satelit u našem Sunčevom sustavu?",
         "correct_answer": "Ganimed",
         "incorrect_answers": [
             "Titan",
@@ -2269,7 +2269,7 @@
         "id": "hr_sci_219",
         "category": "znanost",
         "question": "Kako se naziva maglica sastavljena od međuzvjezdanog plina i prašine u kojoj nastaju nove zvijezde?",
-        "correct_answer": "Zvjezdana rodilišta / Nebula",
+        "correct_answer": "Maglica",
         "incorrect_answers": [
             "Galaksija",
             "Klaster",
@@ -2356,7 +2356,7 @@
     {
         "id": "hr_sci_227",
         "category": "znanost",
-        "question": "Kako se zove pojava prelamanja zvuka ili svjetlosti pri prelasku iz toplijeg u hladniji sloj zraka?",
+        "question": "Kako se zove pojava prelamanja svjetlosti pri prelasku iz toplijeg u hladniji sloj zraka?",
         "correct_answer": "Fata morgana",
         "incorrect_answers": [
             "Lom svjetlosti",
@@ -2378,7 +2378,7 @@
     {
         "id": "hr_sci_229",
         "category": "znanost",
-        "question": "Kako se naziva razdoblje u kojem se polovina jezgri radioaktivnog elementa raspadne u stabilnije elemente?",
+        "question": "Kako se naziva karakteristično vrijeme potrebno da se početni broj radioaktivnih jezgri smanji na pola?",
         "correct_answer": "Vrijeme poluraspada",
         "incorrect_answers": [
             "Radioaktivna konstanta",
@@ -2488,7 +2488,7 @@
     {
         "id": "hr_sci_239",
         "category": "znanost",
-        "question": "Koji je škotski fizičar formulirao sklop četiriju jednadžbi koje objedinju elektricitet, magnetizam i svjetlost?",
+        "question": "Koji je škotski fizičar formulirao sklop četiriju jednadžbi koje objedinjuju elektricitet, magnetizam i svjetlost?",
         "correct_answer": "James Clerk Maxwell",
         "incorrect_answers": [
             "Lord Kelvin",
@@ -2543,7 +2543,7 @@
     {
         "id": "hr_sci_244",
         "category": "znanost",
-        "question": "Kako se naziva fizikalni zakon koji definira da je tlak u tekućini ili plinu u zatvorenom posudi jednak u svim smjerovima?",
+        "question": "Kako se naziva fizikalni zakon koji definira da je tlak u tekućini ili plinu u zatvorenoj posudi jednak u svim smjerovima?",
         "correct_answer": "Pascalov zakon",
         "incorrect_answers": [
             "Bernoullijev zakon",
@@ -2587,7 +2587,7 @@
     {
         "id": "hr_sci_248",
         "category": "znanost",
-        "question": "Ako tijelo izbacimo u vertikalni hitac uvis, kolika je njegova brzina u najvišoj točki putanje?",
+        "question": "Ako tijelo bacimo vertikalno uvis, kolika je njegova brzina u najvišoj točki putanje?",
         "correct_answer": "0 m/s",
         "incorrect_answers": [
             "9,81 m/s",
@@ -2665,7 +2665,7 @@
         "id": "hr_sci_255",
         "category": "znanost",
         "question": "Kako se naziva ljestvica koja mjeri jačinu potresa na temelju oslobođene energije u hipocentru?",
-        "correct_answer": "Richterova ljestvica",
+        "correct_answer": "Momentna magnitudna ljestvica",
         "incorrect_answers": [
             "Mercallijeva ljestvica",
             "Mohsova ljestvica",
@@ -2675,7 +2675,7 @@
     {
         "id": "hr_sci_256",
         "category": "znanost",
-        "question": "Koji je plemeniti plin bez boje i mirisa najteži među stabilnim plemenitim plinovima (atomski broj 54)?",
+        "question": "Koji je plemeniti plin bez boje i mirisa najteži među stabilnim plemenitim plinovima?",
         "correct_answer": "Ksenon (Xe)",
         "incorrect_answers": [
             "Kripton (Kr)",
@@ -2734,7 +2734,7 @@
         "correct_answer": "Pangea",
         "incorrect_answers": [
             "Rodinija",
-            "Evolucija",
+            "Panotija",
             "Gondwana"
         ]
     },
@@ -2907,7 +2907,7 @@
         "id": "hr_sci_277",
         "category": "znanost",
         "question": "Kako se zove sloj unutar Zemlje smješten između kore i vanjske jezgre?",
-        "correct_answer": "Plašt (Mantle)",
+        "correct_answer": "Plašt",
         "incorrect_answers": [
             "Litosfera",
             "Astenosfera",
@@ -2972,7 +2972,7 @@
     {
         "id": "hr_sci_283",
         "category": "znanost",
-        "question": "Kako se zove proces stvaranja stijena taloženjem, zbijanjem i cementiranjem čestica?",
+        "question": "Kako se u geologiji naziva proces taloženja čestica (sedimenata), koji je prvi korak u formiranju sedimentnih stijena?",
         "correct_answer": "Sedimentacija",
         "incorrect_answers": [
             "Metamorfoza",
@@ -2994,7 +2994,7 @@
     {
         "id": "hr_sci_285",
         "category": "znanost",
-        "question": "Kako se zove ljestvica koja mjeri eksplozivnost vulkanskih erupcija (skraćeno VEI)?",
+        "question": "Kako se zove ljestvica koja mjeri eksplozivnost vulkanskih erupcija?",
         "correct_answer": "Indeks vulkanske eksplozivnosti",
         "incorrect_answers": [
             "Mohsova ljestvica",
@@ -3097,8 +3097,8 @@
         "correct_answer": "Panthalassa",
         "incorrect_answers": [
             "Tethys",
-            "Iapetus",
-            "Istočni ocean"
+            "Reički ocean",
+            "Mirovijski ocean"
         ]
     },
     {
@@ -3148,7 +3148,7 @@
     {
         "id": "hr_sci_299",
         "category": "znanost",
-        "question": "Koja se dužinska jedinica unutar gena sastoji od tri uzastopna nukleotida koji šifriraju jednu aminokiselinu?",
+        "question": "Koja se sekvenca unutar gena sastoji od tri uzastopna nukleotida koji šifriraju jednu aminokiselinu?",
         "correct_answer": "Kodon (Triplet)",
         "incorrect_answers": [
             "Antikodon",
@@ -3302,7 +3302,7 @@
     {
         "id": "hr_sci_314",
         "category": "znanost",
-        "question": "Kako se nazivaju dušične baze koje čine parove u molekuli DNA uz adenin?",
+        "question": "Osim adenina, koje su dušične baze prisutne u molekuli DNA i čine parove?",
         "correct_answer": "Timin, Citozin, Guanin",
         "incorrect_answers": [
             "Uracil, Citozin, Guanin",
@@ -3324,11 +3324,11 @@
     {
         "id": "hr_sci_316",
         "category": "znanost",
-        "question": "Kako se zove spoj koji služi kao glavna energetska valuta u svim živim stanicama (ATP)?",
+        "question": "Kako se zove spoj koji služi kao glavna energetska valuta u svim živim stanicama?",
         "correct_answer": "Adenozin trifosfat",
         "incorrect_answers": [
             "Adenozin difosfat",
-            "Gukoza",
+            "Glukoza",
             "Nukleotid"
         ]
     },
@@ -3358,7 +3358,7 @@
         "id": "hr_sci_319",
         "category": "znanost",
         "question": "Koji se tip RNA koristi za prijenos genetske poruke iz DNA u jezgri do ribosoma u citoplazmi?",
-        "correct_answer": "Glasnička RNA (mRNA)",
+        "correct_answer": "Glasnička RNA",
         "incorrect_answers": [
             "Transportna RNA (tRNA)",
             "Ribosomska RNA (rRNA)",
@@ -3368,12 +3368,12 @@
     {
         "id": "hr_sci_320",
         "category": "znanost",
-        "question": "Kako se zove proces kojim se organizmi prilagođavaju okolišu i preživljavaju oni s povoljnijim osobinama (Darwin)?",
+        "question": "Kako se zove proces kojim se organizmi prilagođavaju okolišu i preživljavaju oni s povoljnijim osobinama?",
         "correct_answer": "Prirodna selekcija",
         "incorrect_answers": [
             "Genetski drift",
             "Mutacija",
-            "Aptacija"
+            "Umjetna selekcija"
         ]
     },
     {
@@ -3412,7 +3412,7 @@
     {
         "id": "hr_sci_324",
         "category": "znanost",
-        "question": "Kako se zvala metoda sterilizacije toplinom kojom se uništavaju štetni mikroorganizmi u mlijeku i hrani?",
+        "question": "Kako se zove metoda sterilizacije toplinom kojom se uništavaju štetni mikroorganizmi u mlijeku i hrani?",
         "correct_answer": "Pasterizacija",
         "incorrect_answers": [
             "Sterilizacija",
@@ -3456,7 +3456,7 @@
     {
         "id": "hr_sci_328",
         "category": "znanost",
-        "question": "Kako se zove pojava u kojoj se jedinka razvija iz neoplodđene jajne stanice?",
+        "question": "Kako se zove pojava u kojoj se jedinka razvija iz neoplođene jajne stanice?",
         "correct_answer": "Partenogeneza",
         "incorrect_answers": [
             "Pupoljenje",
@@ -3467,7 +3467,7 @@
     {
         "id": "hr_sci_329",
         "category": "znanost",
-        "question": "Koji se dio uha sastoji od pužnice (Cochlea) i odgovoran je za pretvaranje zvučnih valova u živčane impulse?",
+        "question": "Koji se dio uha sastoji od pužnice i odgovoran je za pretvaranje zvučnih valova u živčane impulse?",
         "correct_answer": "Unutarnje uho",
         "incorrect_answers": [
             "Srednje uho",
@@ -3765,11 +3765,11 @@
         "id": "hr_sci_356",
         "category": "znanost",
         "question": "Što u računalstvu označava pojam 'RAM' u usporedbi s 'ROM' memorijom?",
-        "correct_answer": "Privremena radna memorija koja gubi podatke gašenjem",
+        "correct_answer": "Privremena memorija koja gubi podatke gašenjem računala",
         "incorrect_answers": [
             "Trajna memorija za pohranu sustava",
-            "Memorija koja se ne može brisati",
-            "Memorija namijenjena grafici"
+            "Memorija koja čuva podatke bez napajanja",
+            "Posebna memorija isključivo za grafiku"
         ]
     },
     {
@@ -4083,7 +4083,7 @@
     {
         "id": "hr_sci_385",
         "category": "znanost",
-        "question": "Koji je programski jezik razvio Google 2009. godine (poznat i kao Golang)?",
+        "question": "Koji je programski jezik razvio Google 2009. godine?",
         "correct_answer": "Go",
         "incorrect_answers": [
             "Rust",
@@ -4108,9 +4108,9 @@
         "question": "Što u kontekstu baza podataka označava akronim 'ACID' za pouzdanost transakcija?",
         "correct_answer": "Atomicity, Consistency, Isolation, Durability",
         "incorrect_answers": [
-            "Access, Control, Integration, Data",
-            "Automated, Correct, Isolated, Direct",
-            "Allocation, Consistency, Indexing, Disk"
+            "Access, Control, Integrity, Definition",
+            "Availability, Concurrency, Indexing, Distribution",
+            "Aggregation, Conflation, Information, Data"
         ]
     },
     {
@@ -4185,9 +4185,9 @@
         "question": "Što u računalstvu označava pojam 'Kernel' operativnog sustava?",
         "correct_answer": "Jezgra operativnog sustava koja upravlja hardverom",
         "incorrect_answers": [
-            "Korisničko sučelje za unos naredbi",
-            "Program za instalaciju aplikacija",
-            "Datotečni sustav za pohranu"
+            "Korisničko sučelje za interakciju s korisnikom",
+            "Modul za instalaciju novih aplikacija",
+            "Sustav za organizaciju i pohranu datoteka"
         ]
     },
     {
@@ -4248,7 +4248,7 @@
     {
         "id": "hr_sci_400",
         "category": "znanost",
-        "question": "Kako se u znanosti zove teorija koja tvrdi da se svemirska tijela udaljavaju jedni od drugih te da se Svemir širi?",
+        "question": "Kako se zove zakon koji opisuje da se svemirska tijela udaljavaju jedni od drugih te da se Svemir širi?",
         "correct_answer": "Hubbleov zakon",
         "incorrect_answers": [
             "Stacionarno stanje",
@@ -4281,7 +4281,7 @@
     {
         "id": "hr_sci_403",
         "category": "znanost",
-        "question": "Koji je kemičar i farmaceut izumio šumeće tablete i Coca-Colu 1886. godine u Atlanti?",
+        "question": "Koji je kemičar i farmaceut izumio Coca-Colu 1886. godine u Atlanti?",
         "correct_answer": "John Pemberton",
         "incorrect_answers": [
             "Caleb Bradham",
@@ -4292,7 +4292,7 @@
     {
         "id": "hr_sci_404",
         "category": "znanost",
-        "question": "Kako se zove pojava u kojoj tvar emitira svjetlost nakon što apsorbira elektromagnetsko zračenje?",
+        "question": "Kako se zove pojava u kojoj tvar emitira svjetlost gotovo trenutno nakon što apsorbira elektromagnetsko zračenje?",
         "correct_answer": "Fluorescencija",
         "incorrect_answers": [
             "Fosforescencija",
@@ -4396,7 +4396,7 @@
         "incorrect_answers": [
             "Barometar",
             "Anemometar",
-            "Pyrometar"
+            "Pirometar"
         ]
     },
     {
@@ -4545,7 +4545,7 @@
     {
         "id": "hr_sci_427",
         "category": "znanost",
-        "question": "Koji je britanski inženjer izumio beskontaktni postupak masovne proizvodnje čelika iz sirovog željeza?",
+        "question": "Koji je britanski inženjer izumio prvi učinkoviti postupak masovne proizvodnje čelika iz sirovog željeza?",
         "correct_answer": "Henry Bessemer",
         "incorrect_answers": [
             "Andrew Carnegie",
@@ -4699,7 +4699,7 @@
     {
         "id": "hr_sci_441",
         "category": "znanost",
-        "question": "Koji je švedski kemičar u 18. stoljeću izumio Celzijusovu temperaturnu ljestvicu?",
+        "question": "Koji je švedski astronom i fizičar u 18. stoljeću osmislio temperaturnu ljestvicu na kojoj je 0°C točka ledišta, a 100°C točka vrelišta vode?",
         "correct_answer": "Anders Celsius",
         "incorrect_answers": [
             "Daniel Gabriel Fahrenheit",
@@ -4732,8 +4732,8 @@
     {
         "id": "hr_sci_444",
         "category": "znanost",
-        "question": "Kako se u organskoj kemiji zove benzenov prsten sa šest ugljikovih atoma spojenih izmjeničnim dvostrukim vezama?",
-        "correct_answer": "Benzenski prsten",
+        "question": "Kako se u organskoj kemiji zove aromatska molekula sa šest ugljikovih atoma u prstenu s delokaliziranim pi-elektronima?",
+        "correct_answer": "Benzen",
         "incorrect_answers": [
             "Cikloheksan",
             "Alifatski lanac",
@@ -4802,7 +4802,7 @@
         "correct_answer": "Alkoholi",
         "incorrect_answers": [
             "Esteri",
-            "Karteri",
+            "Ketoni",
             "Aldehidi"
         ]
     },
@@ -4985,7 +4985,7 @@
     {
         "id": "hr_sci_467",
         "category": "znanost",
-        "question": "Koji je engleski kemičar prvi izolirao natrij, kalij, kalcij, barij, magnezij i bor pomoću elektrolize?",
+        "question": "Koji je engleski kemičar prvi izolirao natrij, kalij, kalcij, barij i magnezij pomoću elektrolize?",
         "correct_answer": "Humphry Davy",
         "incorrect_answers": [
             "Michael Faraday",
@@ -5018,7 +5018,7 @@
     {
         "id": "hr_sci_470",
         "category": "znanost",
-        "question": "Koji je austrijski fizičar definirao Boltzmannovu konstantu i dao statističko tumačenje drugog zakona termodinamike?",
+        "question": "Koji je austrijski fizičar dao statističko tumačenje drugog zakona termodinamike i po kojem je nazvana konstanta koja povezuje temperaturu s kinetičkom energijom čestica?",
         "correct_answer": "Ludwig Boltzmann",
         "incorrect_answers": [
             "Max Planck",
@@ -5051,7 +5051,7 @@
     {
         "id": "hr_sci_473",
         "category": "znanost",
-        "question": "Koja se pojava koristi u polariziranim Sunčanim naočalama i LCD zaslonima za smanjenje odsjaja i prikaz slike?",
+        "question": "Koja se optička pojava koristi u zaslonima i određenim naočalama za smanjenje odsjaja i kontrolu svjetlosti?",
         "correct_answer": "Polarizacija",
         "incorrect_answers": [
             "Interferencija",
@@ -5238,7 +5238,7 @@
     {
         "id": "hr_sci_490",
         "category": "znanost",
-        "question": "Koji je britanski kemičar otkrio plemenite plinove argon, helij, neonski plin, kripton i ksenon te dobio Nobelovu nagradu 1904.?",
+        "question": "Koji je britanski kemičar otkrio plemenite plinove argon, helij, neon, kripton i ksenon te dobio Nobelovu nagradu za kemiju 1904. godine?",
         "correct_answer": "William Ramsay",
         "incorrect_answers": [
             "Lord Rayleigh",
@@ -5260,7 +5260,7 @@
     {
         "id": "hr_sci_492",
         "category": "znanost",
-        "question": "Koji se kemijski element označava simbolom 'W' iz latinskog/njemačkog naziva Wolfram?",
+        "question": "Koji se kemijski element, čiji simbol 'W' dolazi od naziva 'Wolfram', naziva na hrvatskom jeziku?",
         "correct_answer": "Volfram",
         "incorrect_answers": [
             "Vandij",
@@ -5293,7 +5293,7 @@
     {
         "id": "hr_sci_495",
         "category": "znanost",
-        "question": "Kako se u zoologiji zove grupa životinja koje održavaju stalnu unutarnju tjelesnu temperaturu neovisno o okolišu (toplokrvne)?",
+        "question": "Kako se u zoologiji zove skupina organizama koji održavaju stalnu unutarnju tjelesnu temperaturu neovisno o okolišu?",
         "correct_answer": "Endotermni organizmi (Homeotermi)",
         "incorrect_answers": [
             "Ektotermni organizmi",
@@ -5326,7 +5326,7 @@
     {
         "id": "hr_sci_498",
         "category": "znanost",
-        "question": "Koji se kemijski element koristi u izradi najsnažnijih stalnih magneta današnjice (NdFeB magneti - neodimijski magneti)?",
+        "question": "Koji se kemijski element koristi u izradi najsnažnijih stalnih magneta današnjice (npr. NdFeB magneti)?",
         "correct_answer": "Neodimij (Nd)",
         "incorrect_answers": [
             "Smarij",
@@ -5381,7 +5381,7 @@
     {
         "id": "hr_sci_503",
         "category": "znanost",
-        "question": "Kako se zove njemački fizičar koji se smatra utemeljiteljem kvantne teorije (uveo kvant akcije h)?",
+        "question": "Kako se zove njemački fizičar koji se smatra utemeljiteljem kvantne teorije, uvevši koncept kvanta energije?",
         "correct_answer": "Max Planck",
         "incorrect_answers": [
             "Albert Einstein",
@@ -5462,8 +5462,8 @@
         "correct_answer": "Magnezij",
         "incorrect_answers": [
             "Mangan",
-            "Magnezijum-dioksid",
-            "Molitden"
+            "Molibden",
+            "Živa"
         ]
     },
     {
@@ -5678,7 +5678,7 @@
     {
         "id": "hr_sci_530",
         "category": "znanost",
-        "question": "Koja je životinja bila prvi sisavac poslan u orbitu oko Zemlje 1957. godine (pas Laika)?",
+        "question": "Koja je životinja bila prvi sisavac poslan u orbitu oko Zemlje 1957. godine?",
         "correct_answer": "Pas",
         "incorrect_answers": [
             "Majmun",
@@ -5821,7 +5821,7 @@
     {
         "id": "hr_sci_543",
         "category": "znanost",
-        "question": "Kako se zove proces kojim tvari prolaze kroz polupropusnu membranu iz područja niže u područje više koncentracije otopljene tvari?",
+        "question": "Kako se zove proces kojim molekule otapala (npr. vode) prolaze kroz polupropusnu membranu iz područja niže u područje više koncentracije otopljene tvari?",
         "correct_answer": "Osmoza",
         "incorrect_answers": [
             "Difuzija",
@@ -5859,18 +5859,18 @@
         "incorrect_answers": [
             "Zakon o očuvanju energije",
             "Zakon spojenih posuda",
-            "Avogradrov zakon"
+            "Avogadrov zakon"
         ]
     },
     {
         "id": "hr_sci_547",
         "category": "znanost",
         "question": "Kako se u informatici zove pogreška u programu koja se javlja prilikom njegovog izvođenja?",
-        "correct_answer": "Runtime error",
+        "correct_answer": "Pogreška pri izvođenju",
         "incorrect_answers": [
-            "Syntax error",
-            "Compile error",
-            "Logic error"
+            "Sintaksna pogreška",
+            "Pogreška pri kompiliranju",
+            "Logička pogreška"
         ]
     },
     {
@@ -5932,11 +5932,11 @@
         "id": "hr_sci_553",
         "category": "znanost",
         "question": "Što u optici predstavlja 'refrakcija'?",
-        "correct_answer": "Lom svjetlosti pri prelasku iz jednog medija u drugi",
+        "correct_answer": "Promjena smjera svjetlosti pri prijelazu u drugi medij",
         "incorrect_answers": [
-            "Odbijanje svjetlosti od glatke površine",
-            "Razlaganje svjetlosti na boje",
-            "Upijanje svjetlosti u tvar"
+            "Odbijanje i povratak svjetlosti od glatke površine",
+            "Razdvajanje bijele svjetlosti na komponente duginih boja",
+            "Apsorpcija svjetlosti unutar prozirne ili neprozirne tvari"
         ]
     },
     {
@@ -6177,7 +6177,7 @@
         "correct_answer": "Kukci (Insecta)",
         "incorrect_answers": [
             "Paučnjaci",
-            "Rakovice",
+            "Rakovi",
             "Stogoni"
         ]
     },
@@ -6349,7 +6349,7 @@
     {
         "id": "hr_sci_591",
         "category": "znanost",
-        "question": "Koji je fizikalni koncept formulirao Blaise Pascal o prenošenju tlaka u tekućinama?",
+        "question": "Kako se naziva fizikalni zakon koji opisuje prenošenje tlaka u tekućinama?",
         "correct_answer": "Pascalov zakon",
         "incorrect_answers": [
             "Arhimedov zakon",
@@ -6470,7 +6470,7 @@
     {
         "id": "hr_sci_602",
         "category": "znanost",
-        "question": "Koji je znanstvenik postavio zakon koji povezuje brzinu utjecanja tekućine s visinom stupca tekućine (Torricellijev zakon)?",
+        "question": "Koji je znanstvenik postavio zakon koji povezuje brzinu istjecanja tekućine iz posude s visinom stupca tekućine iznad otvora?",
         "correct_answer": "Evangelista Torricelli",
         "incorrect_answers": [
             "Daniel Bernoulli",
@@ -6492,7 +6492,7 @@
     {
         "id": "hr_sci_604",
         "category": "znanost",
-        "question": "Koji se hormon luči iz nadbubrežne žlijezdre u situacijama 'bori se ili bježi' radi ubrzanja rada srca i podizanja tlaka?",
+        "question": "Koji se hormon luči iz nadbubrežne žlijezde u situacijama 'bori se ili bježi' radi ubrzanja rada srca i podizanja tlaka?",
         "correct_answer": "Adrenalin (Epinefrin)",
         "incorrect_answers": [
             "Insulin",
@@ -6503,7 +6503,7 @@
     {
         "id": "hr_sci_605",
         "category": "znanost",
-        "question": "Kako se u fizici i geologiji zove strujanje tvari uzrokovano razlicama u gustoći uslijed zagrijavanja (npr. u Zemljinom plaštu)?",
+        "question": "Kako se u fizici i geologiji zove strujanje tvari uzrokovano razlikama u gustoći uslijed zagrijavanja (npr. u Zemljinom plaštu)?",
         "correct_answer": "Konvekcija",
         "incorrect_answers": [
             "Kondukcija",
@@ -7175,7 +7175,7 @@
         "id": "hr_sci_666",
         "category": "znanost",
         "question": "Koja se metoda umnožavanja DNA u laboratoriju temelji na ponavljanim ciklusima zagrijavanja i hlađenja uz posebni enzim polimerazu?",
-        "correct_answer": "Lančana reakcija polimerazom (PCR)",
+        "correct_answer": "PCR",
         "incorrect_answers": [
             "Elektroforeza",
             "CRISPR tehnika",
@@ -7186,7 +7186,7 @@
         "id": "hr_sci_667",
         "category": "znanost",
         "question": "Kako se naziva pojava u kojoj tijelo teleskopa promatra objekte koji su toliko udaljeni da njihova svjetlost putuje milijunima godina, pa ih vidimo onakve kakvi su bili u prošlosti?",
-        "correct_answer": "Gledanje u prošlost (Look-back time)",
+        "correct_answer": "Gledanje u prošlost",
         "incorrect_answers": [
             "Crveni pomak",
             "Paralaksa",
@@ -7306,7 +7306,7 @@
     {
         "id": "hr_sci_678",
         "category": "znanost",
-        "question": "Kako se naziva praksa u kojoj programeri kontinuirano spajaju svoje izmjene koda u zajedničku granu uz automatsko testiranje, poznata pod kraticom 'CI'?",
+        "question": "Kako se naziva praksa u kojoj programeri kontinuirano spajaju svoje izmjene koda u zajedničku granu uz automatsko testiranje?",
         "correct_answer": "Kontinuirana integracija",
         "incorrect_answers": [
             "Kontinuirana isporuka",
@@ -7351,7 +7351,7 @@
         "id": "hr_sci_682",
         "category": "znanost",
         "question": "Koji je organ osjetila u ljudskom tijelu odgovoran za osjet mirisa smješten u gornjem dijelu nosne šupljine?",
-        "correct_answer": "Olfaktorni epitel (Njušni epitel)",
+        "correct_answer": "Olfaktorni epitel",
         "incorrect_answers": [
             "Nepčana sluznica",
             "Grkljan",
@@ -7372,7 +7372,7 @@
     {
         "id": "hr_sci_684",
         "category": "znanost",
-        "question": "Koji tip cijepljenja koristi male dijelove genetskog materijala (mRNA) koji upute stanice tijela da same proizvedu bezopasni virusni protein?",
+        "question": "Koji tip cijepljenja koristi male dijelove genetskog materijala koji upute stanice tijela da same proizvedu bezopasni virusni protein?",
         "correct_answer": "mRNA cjepivo",
         "incorrect_answers": [
             "Cjepivo s oslabljenim virusom",
@@ -7384,7 +7384,7 @@
         "id": "hr_sci_685",
         "category": "znanost",
         "question": "Kako se naziva proces kojim organizam razvija otpornost na patogen nakon što je bio izložen njegovim antigenima, bilo bolešću ili cijepljenjem?",
-        "correct_answer": "Stečeni (adaptivni) imunitet",
+        "correct_answer": "Stečeni imunitet",
         "incorrect_answers": [
             "Urođeni imunitet",
             "Autoimunitet",
@@ -7395,17 +7395,17 @@
         "id": "hr_sci_686",
         "category": "znanost",
         "question": "Koja se vrsta gljivica koristi u proizvodnji piva i kruha zahvaljujući svojoj sposobnosti fermentacije šećera?",
-        "correct_answer": "Kvasac (Saccharomyces cerevisiae)",
+        "correct_answer": "Kvasac",
         "incorrect_answers": [
             "Plijesan (Penicillium)",
             "Gljiva vrganj",
-            "Kvasac Candida"
+            "Šampinjon"
         ]
     },
     {
         "id": "hr_sci_687",
         "category": "znanost",
-        "question": "Kako se naziva odnos u ekologiji u kojem jedna vrsta ima korist, a druga trpi štetu, poput odnosa parazita i domaćina?",
+        "question": "Kako se naziva odnos u ekologiji u kojem jedna vrsta ima korist, a druga trpi štetu?",
         "correct_answer": "Parazitizam",
         "incorrect_answers": [
             "Mutualizam",
@@ -7461,7 +7461,7 @@
         "id": "hr_sci_692",
         "category": "znanost",
         "question": "Kako se naziva postupak u metalurgiji kojim se sirovo željezo pretvara u čelik uklanjanjem viška ugljika i nečistoća?",
-        "correct_answer": "Rafinacija (pretvaranje u čelik)",
+        "correct_answer": "Čeličenje",
         "incorrect_answers": [
             "Galvanizacija",
             "Kaljenje",
@@ -7494,7 +7494,7 @@
         "id": "hr_sci_695",
         "category": "znanost",
         "question": "Koji je proces u fizici odgovoran za nastanak duge u atmosferi kada svjetlost prolazi kroz kapljice vode?",
-        "correct_answer": "Lom i unutarnja refleksija svjetlosti u kapljicama vode",
+        "correct_answer": "Lom i unutarnja refleksija svjetlosti",
         "incorrect_answers": [
             "Difrakcija svjetlosti na oblacima",
             "Polarizacija sunčeve svjetlosti",
@@ -7504,7 +7504,7 @@
     {
         "id": "hr_sci_696",
         "category": "znanost",
-        "question": "Kako se naziva fizikalna pojava zbog koje nebo tijekom dana izgleda plavo, jer se kraće valne duljine svjetlosti više raspršuju u atmosferi?",
+        "question": "Kako se naziva fizikalna pojava raspršenja svjetlosti u atmosferi koja je odgovorna za plavu boju neba tijekom dana?",
         "correct_answer": "Rayleighevo raspršenje",
         "incorrect_answers": [
             "Comptonovo raspršenje",
@@ -7526,8 +7526,8 @@
     {
         "id": "hr_sci_698",
         "category": "znanost",
-        "question": "Kako se naziva elektronička komponenta sastavljena od žice namotane u zavojnice koja se opire promjeni jakosti struje pohranjujući energiju u magnetskom polju?",
-        "correct_answer": "Zavojnica (Induktor)",
+        "question": "Kako se naziva elektronička komponenta koja se opire promjeni jakosti struje pohranjujući energiju u magnetskom polju?",
+        "correct_answer": "Induktor",
         "incorrect_answers": [
             "Kondenzator",
             "Otpornik",
@@ -7537,7 +7537,7 @@
     {
         "id": "hr_sci_699",
         "category": "znanost",
-        "question": "Koji je poluvodički element koji se, uz silicij, koristi u proizvodnji brzih tranzistora i optoelektroničkih uređaja, a njegov spoj s galijem daje GaAs?",
+        "question": "Koji je poluvodički element koji se, uz silicij, koristi u proizvodnji brzih tranzistora i optoelektroničkih uređaja, a poznat je po tome što s galijem tvori važan poluvodički spoj?",
         "correct_answer": "Arsen",
         "incorrect_answers": [
             "Germanij",
@@ -7548,7 +7548,7 @@
     {
         "id": "hr_sci_700",
         "category": "znanost",
-        "question": "Koji je poluvodički kemijski element (atomski broj 32) bio ključan materijal u prvim tranzistorima prije nego što ga je zamijenio silicij?",
+        "question": "Koji je poluvodički kemijski element bio ključan materijal u prvim tranzistorima prije nego što ga je zamijenio silicij?",
         "correct_answer": "Germanij",
         "incorrect_answers": [
             "Arsen",
@@ -7559,7 +7559,7 @@
     {
         "id": "hr_sci_701",
         "category": "znanost",
-        "question": "Koji fizikalni fenomen omogućuje laseru da proizvodi vrlo usku, koherentnu i intenzivnu zraku svjetlosti pojačavanjem putem stimuliranog zračenja?",
+        "question": "Koji fizikalni fenomen omogućuje laseru da proizvodi vrlo usku, koherentnu i intenzivnu zraku svjetlosti?",
         "correct_answer": "Stimulirana emisija zračenja",
         "incorrect_answers": [
             "Spontana emisija",
@@ -7647,7 +7647,7 @@
     {
         "id": "hr_sci_709",
         "category": "znanost",
-        "question": "Koji britanski znanstvenik i njegova suradnica su 1953. godine, koristeći rendgensku difrakcijsku sliku, prvi opisali dvostruku uzvojnicu DNA?",
+        "question": "Koja su dva znanstvenika 1953. godine, koristeći se podacima rendgenske difrakcije, prva opisala strukturu dvostruke uzvojnice DNA?",
         "correct_answer": "James Watson i Francis Crick",
         "incorrect_answers": [
             "Frederick Sanger i Paul Berg",
@@ -7713,7 +7713,7 @@
     {
         "id": "hr_sci_715",
         "category": "znanost",
-        "question": "Koji je drugi najlakši kemijski element u periodnom sustavu, s atomskim brojem 2?",
+        "question": "Koji je drugi najlakši kemijski element u periodnom sustavu?",
         "correct_answer": "Helij",
         "incorrect_answers": [
             "Vodik",
@@ -7724,7 +7724,7 @@
     {
         "id": "hr_sci_716",
         "category": "znanost",
-        "question": "Kako se naziva mjerna jedinica za kiselost odnosno lužnatost neke otopine?",
+        "question": "Kako se naziva mjera za kiselost odnosno lužnatost neke otopine?",
         "correct_answer": "pH vrijednost",
         "incorrect_answers": [
             "Molarnost",
@@ -7768,7 +7768,7 @@
     {
         "id": "hr_sci_720",
         "category": "znanost",
-        "question": "Kako se naziva pojava spektralnog pomaka svjetlosti udaljenih galaksija prema crvenom dijelu spektra, koja upućuje na širenje svemira?",
+        "question": "Kako se naziva pojava spektralnog pomaka svjetlosti udaljenih galaksija, koja upućuje na širenje svemira?",
         "correct_answer": "Crveni pomak",
         "incorrect_answers": [
             "Plavi pomak",
@@ -7835,7 +7835,7 @@
         "id": "hr_sci_726",
         "category": "znanost",
         "question": "Koji tip strojnog učenja koristi umjetne neuronske mreže s više slojeva za obradu velikih količina podataka?",
-        "correct_answer": "Duboko učenje (deep learning)",
+        "correct_answer": "Duboko učenje",
         "incorrect_answers": [
             "Nadzirano stablo odlučivanja",
             "Genetski algoritam",
@@ -7846,7 +7846,7 @@
         "id": "hr_sci_727",
         "category": "znanost",
         "question": "Kako se naziva osnovna jedinica kvantnog računala, analogna klasičnom bitu?",
-        "correct_answer": "Kubit (qubit)",
+        "correct_answer": "Kubit",
         "incorrect_answers": [
             "Bajt",
             "Registar",
@@ -7856,7 +7856,7 @@
     {
         "id": "hr_sci_728",
         "category": "znanost",
-        "question": "Koji je hrvatski znanstvenik u 19. stoljeću konstruirao prvi hidroelektrični sustav izmjenične struje za rasvjetu grada Šibenika?",
+        "question": "Koji je hrvatski znanstvenik razvio sustav izmjenične struje koji je korišten za prvu hidroelektranu koja je rasvijetlila grad Šibenik 1895. godine?",
         "correct_answer": "Nikola Tesla",
         "incorrect_answers": [
             "Ruđer Bošković",
@@ -8153,7 +8153,7 @@
     {
         "id": "hr_sci_755",
         "category": "znanost",
-        "question": "Kako se naziva stanje tvari pri iznimno niskim temperaturama u kojem tekućina teče bez trenja, poznato kao suprafluidnost, prvi put opaženo kod tekućeg helija?",
+        "question": "Kako se naziva stanje tvari pri iznimno niskim temperaturama u kojem tekućina teče bez trenja, prvi put opaženo kod tekućeg helija?",
         "correct_answer": "Supratekućina",
         "incorrect_answers": [
             "Bose-Einsteinov kondenzat",
@@ -8256,14 +8256,14 @@
         "correct_answer": "Crveni div",
         "incorrect_answers": [
             "Bijeli patuljak",
-            "Neutronka zvijezda",
+            "Neutronska zvijezda",
             "Crna rupa"
         ]
     },
     {
         "id": "hr_sci_765",
         "category": "znanost_i_tehnologija",
-        "question": "Koji operativni sustav, razvijen od strane Linux Foundationa, je najrasprostranjeniji na mobilnim uređajima diljem svijeta?",
+        "question": "Koji je operativni sustav, izgrađen na Linux kernelu, najrasprostranjeniji na mobilnim uređajima diljem svijeta?",
         "correct_answer": "Android",
         "incorrect_answers": [
             "iOS",
@@ -8285,7 +8285,7 @@
     {
         "id": "hr_sci_767",
         "category": "znanost_i_tehnologija",
-        "question": "Koja vrsta organskih spojeva sadrži samo atome ugljika i vodika?",
+        "question": "Koja je osnovna skupina organskih spojeva koja u svojoj strukturi sadrži isključivo atome ugljika i vodika?",
         "correct_answer": "Ugljikovodici",
         "incorrect_answers": [
             "Alkoholi",
@@ -8318,7 +8318,7 @@
     {
         "id": "hr_sci_770",
         "category": "znanost_i_tehnologija",
-        "question": "Kako se naziva grana umjetne inteligencije koja se bavi stvaranjem sustava koji uče iz podataka bez eksplicitnog programiranja?",
+        "question": "Kako se naziva grana umjetne inteligencije koja se bavi stvaranjem sustava koji uče iz podataka bez izričitog programiranja?",
         "correct_answer": "Strojno učenje",
         "incorrect_answers": [
             "Računalni vid",
@@ -8538,7 +8538,7 @@
     {
         "id": "hr_sci_790",
         "category": "znanost_i_tehnologija",
-        "question": "Kako se zovu skupina pravila ponašanja za robote, popularizirana u znanstvenoj fantastici, a koja je formulirao Isaac Asimov?",
+        "question": "Kako se zovu skupina pravila ponašanja za robote, popularizirana u znanstvenoj fantastici, a koja je formulirao jedan poznati pisac?",
         "correct_answer": "Asimovljevi zakoni robotike",
         "incorrect_answers": [
             "Newtonovi zakoni robotike",
@@ -8553,7 +8553,7 @@
         "correct_answer": "Jeka",
         "incorrect_answers": [
             "Reverb",
-            "Odjek",
+            "Rezonancija",
             "Vibracija"
         ]
     },
