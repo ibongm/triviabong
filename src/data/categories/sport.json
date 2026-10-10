@@ -12351,5 +12351,605 @@
             "Crvena zastava",
             "Plava zastava"
         ]
+    },
+    {
+        "id": "hr_sport_1127",
+        "category": "sport",
+        "question": "Koja boja kartona se koristi u nogometu za privremeno isključenje igrača iz igre?",
+        "correct_answer": "Žuti karton",
+        "incorrect_answers": [
+            "Crveni karton",
+            "Zeleni karton",
+            "Plavi karton"
+        ],
+        "explanation": "Žuti karton je opomena za manje prekršaje, dok se crveni karton koristi za trajno isključenje igrača iz utakmice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1128",
+        "category": "sport",
+        "question": "Koliko je standardno trajanje jedne utakmice u nogometu (bez produžetaka)?",
+        "correct_answer": "90 minuta",
+        "incorrect_answers": [
+            "60 minuta",
+            "45 minuta",
+            "120 minuta"
+        ],
+        "explanation": "Nogometna utakmica se sastoji od dva poluvremena po 45 minuta, što ukupno čini 90 minuta igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1129",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz rijeku u čamcu na napuhavanje, savladavajući brzace?",
+        "correct_answer": "Rafting",
+        "incorrect_answers": [
+            "Kajakaštvo",
+            "Kanuing",
+            "Veslanje"
+        ],
+        "explanation": "Rafting je rekreacijski sport koji uključuje spuštanje niz rijeke brzim tokovima u posebnim gumenim čamcima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1130",
+        "category": "sport",
+        "question": "Koji se rekvizit koristi za udaranje loptice u baseballu?",
+        "correct_answer": "Palica (bat)",
+        "incorrect_answers": [
+            "Reket",
+            "Štap",
+            "Hokejska palica"
+        ],
+        "explanation": "U baseballu se koristi drvena ili metalna palica za udaranje lopte koju baca bacač, s ciljem postizanja home runa ili base runa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1131",
+        "category": "sport",
+        "question": "Koji legendarni košarkaš NBA lige je poznat po nadimku 'His Airness' i broju 23 na dresu?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": [
+            "LeBron James",
+            "Kobe Bryant",
+            "Magic Johnson"
+        ],
+        "explanation": "Michael Jordan je jedan od najvećih košarkaša svih vremena, legendarni igrač Chicago Bullsa s nadimkom 'His Airness' zbog svojih akrobacija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1132",
+        "category": "sport",
+        "question": "U kojem sportu se koristi izraz 'hole-in-one'?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kuglanje",
+            "Pikado",
+            "Biljar"
+        ],
+        "explanation": "'Hole-in-one' u golfu označava kada igrač ubaci lopticu u rupu iz prvog udarca s početnog udarca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1133",
+        "category": "sport",
+        "question": "Koja je država osvojila najviše zlatnih medalja u povijesti zimskih olimpijskih igara? (stanje 2022.)",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Njemačka",
+            "Rusija"
+        ],
+        "explanation": "Norveška ima impresivan broj od 148 zlatnih medalja, čineći je najuspješnijom nacijom na Zimskim olimpijskim igrama (stanje 2022.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1134",
+        "category": "sport",
+        "question": "Kako se naziva početni udarac u tenisu koji nije vraćen i rezultira osvajanjem boda?",
+        "correct_answer": "As",
+        "incorrect_answers": [
+            "Volley",
+            "Smash",
+            "Forehand"
+        ],
+        "explanation": "As je servis u tenisu koji protivnik ne uspijeva dotaknuti, direktno donoseći poen serveru, bez mogućnosti povratka loptice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1135",
+        "category": "sport",
+        "question": "Koji je najviši rang u judu, označen bojom pojasa?",
+        "correct_answer": "Crni pojas",
+        "incorrect_answers": [
+            "Bijeli pojas",
+            "Crveni pojas",
+            "Žuti pojas"
+        ],
+        "explanation": "Crni pojas je najviši pojas koji se može postići u judu, simbolizirajući majstorstvo i dugogodišnje iskustvo u borilačkoj vještini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1136",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u hokeju na ledu (uključujući golmana)?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "4"
+        ],
+        "explanation": "U hokeju na ledu svaka momčad ima šest igrača na ledu istovremeno: jednog golmana i pet igrača u polju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1137",
+        "category": "sport",
+        "question": "Koja se država smatra domovinom snookera?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Ujedinjeno Kraljevstvo",
+            "Kina",
+            "Sjedinjene Američke Države"
+        ],
+        "explanation": "Snooker je nastao među britanskim časnicima stacioniranim u Indiji krajem 19. stoljeća, gdje su modificirali bilijar.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1138",
+        "category": "sport",
+        "question": "Koji je cilj igre u košarci?",
+        "correct_answer": "Ubaciti loptu kroz obruč protivnika",
+        "incorrect_answers": [
+            "Prenijeti loptu preko sredine terena",
+            "Udariti loptu glavom u gol",
+            "Zadržati loptu što duže"
+        ],
+        "explanation": "Glavni cilj košarke je ubaciti loptu u koš protivničke ekipe kako bi se osvojili poeni, nastojeći postići više bodova od protivnika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1139",
+        "category": "sport",
+        "question": "Kako se naziva disciplina gimnastike u kojoj natjecatelji izvode koreografiju na tlu, uz glazbu?",
+        "correct_answer": "Vježbe na tlu (parter)",
+        "incorrect_answers": [
+            "Preskok",
+            "Razboj",
+            "Greda"
+        ],
+        "explanation": "Vježbe na tlu su atletska i umjetnička disciplina gdje gimnastičari izvode rutinu na podu površine 12x12 metara uz glazbu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1140",
+        "category": "sport",
+        "question": "Koja je duljina bazena u kojem se održavaju olimpijska plivačka natjecanja?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "100 metara",
+            "33 metra"
+        ],
+        "explanation": "Olimpijski bazeni, poznati kao dugi bazeni, dugi su 50 metara, dok su kratki bazeni duljine 25 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1141",
+        "category": "sport",
+        "question": "Koji legendarni vozač Formule 1 drži rekord po broju osvojenih svjetskih naslova (izjednačeno, stanje 2024.)?",
+        "correct_answer": "Michael Schumacher (i Lewis Hamilton)",
+        "incorrect_answers": [
+            "Ayrton Senna",
+            "Juan Manuel Fangio",
+            "Alain Prost"
+        ],
+        "explanation": "Michael Schumacher i Lewis Hamilton dijele rekord sa sedam osvojenih naslova svjetskog prvaka u Formuli 1 (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1142",
+        "category": "sport",
+        "question": "Koji se sport igra s lopticama i reketima na stolu podijeljenom mrežom?",
+        "correct_answer": "Stolni tenis",
+        "incorrect_answers": [
+            "Tenis",
+            "Badminton",
+            "Odbojka"
+        ],
+        "explanation": "Stolni tenis, poznat i kao ping-pong, igra se reketima i laganom lopticom preko mreže na stolu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1143",
+        "category": "sport",
+        "question": "Kako se naziva kazneni udarac u nogometu s udaljenosti od 11 metara od gola?",
+        "correct_answer": "Jedanaesterac (penal)",
+        "incorrect_answers": [
+            "Slobodni udarac",
+            "Korner",
+            "Aut"
+        ],
+        "explanation": "Jedanaesterac je udarac na gol iz jedanaest metara, dodijeljen za prekršaj unutar kaznenog prostora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1144",
+        "category": "sport",
+        "question": "Koja se disciplina atletike smatra najstarijom poznatom sportskom disciplinom?",
+        "correct_answer": "Trčanje",
+        "incorrect_answers": [
+            "Bacanje koplja",
+            "Skok u dalj",
+            "Hrvanje"
+        ],
+        "explanation": "Trčanje je osnovna ljudska aktivnost i najstarija dokumentirana atletska disciplina, prisutna od samih početaka Olimpijskih igara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1145",
+        "category": "sport",
+        "question": "Koji se sport najčešće povezuje s pojmom 'touchdown'?",
+        "correct_answer": "Američki nogomet",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Ragbi"
+        ],
+        "explanation": "'Touchdown' je glavni način osvajanja bodova u američkom nogometu, postiže se unošenjem lopte u protivničku end zonu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1146",
+        "category": "sport",
+        "question": "Kako se naziva poznata godišnja biciklistička utrka kroz Francusku?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "L'Etape du Tour"
+        ],
+        "explanation": "Tour de France je najprestižnija svjetska biciklistička cestovna utrka koja se svake godine održava u Francuskoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1147",
+        "category": "sport",
+        "question": "Koliko bodova osvaja momčad za pobjedu u regularnom dijelu utakmice NHL lige (hokej na ledu)?",
+        "correct_answer": "2 boda",
+        "incorrect_answers": [
+            "3 boda",
+            "1 bod",
+            "0 bodova"
+        ],
+        "explanation": "U NHL-u, pobjeda u regularnom dijelu utakmice donosi 2 boda, dok pobjeda u produžetku ili raspucavanju također donosi 2 boda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1148",
+        "category": "sport",
+        "question": "Koja je maksimalna težina kugle za kuglanje (bowling) izražena u kilogramima?",
+        "correct_answer": "7.26 kg (16 funti)",
+        "incorrect_answers": [
+            "5 kg",
+            "8.5 kg",
+            "6.8 kg"
+        ],
+        "explanation": "Maksimalna dopuštena težina kugle za kuglanje je 16 funti, što je približno 7.26 kilograma, kako bi se osigurala ravnopravnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1149",
+        "category": "sport",
+        "question": "Koji se sport igra na konju, a uključuje preskakanje prepreka?",
+        "correct_answer": "Preponsko jahanje",
+        "incorrect_answers": [
+            "Polo",
+            "Dresura",
+            "Galop utrke"
+        ],
+        "explanation": "Preponsko jahanje je konjički sport u kojem jahač i konj moraju u određenom redoslijedu preskočiti seriju prepreka bez rušenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1150",
+        "category": "sport",
+        "question": "Koji je sport poznat kao 'kraljica sportova' zbog svoje raznolikosti disciplina?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Gimnastika",
+            "Plivanje",
+            "Nogomet"
+        ],
+        "explanation": "Atletika se naziva 'kraljicom sportova' jer obuhvaća širok spektar disciplina poput trčanja, skakanja i bacanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1151",
+        "category": "sport",
+        "question": "U kojem se sportu natjecatelji spuštaju niz planinu na dasci, izvodeći akrobatske figure?",
+        "correct_answer": "Snowboarding",
+        "incorrect_answers": [
+            "Skijanje",
+            "Bob",
+            "Skeleton"
+        ],
+        "explanation": "Snowboarding je zimski sport koji uključuje spuštanje niz snježne padine na posebnoj dasci, često uz izvođenje skokova i trikova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1152",
+        "category": "sport",
+        "question": "Koja zemlja dominira u sportu kriket, s obzirom na popularnost i uspjehe?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Njemačka",
+            "Brazil"
+        ],
+        "explanation": "Kriket je izuzetno popularan i gotovo religiozno praćen sport u Indiji, s velikim brojem navijača i uspjesima na međunarodnoj sceni.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1153",
+        "category": "sport",
+        "question": "Koje su dvije osnovne discipline u biatlonu?",
+        "correct_answer": "Skijaško trčanje i streljaštvo",
+        "incorrect_answers": [
+            "Skijaški skokovi i trčanje",
+            "Alpsko skijanje i streljaštvo",
+            "Brzo klizanje i streljaštvo"
+        ],
+        "explanation": "Biatlon je zimski sport koji kombinira izdržljivost skijaškog trčanja s preciznošću streljaštva, gdje se natjecatelji izmjenjuju u disciplinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1154",
+        "category": "sport",
+        "question": "Koliko metara iznosi prosječna udaljenost koju golman u nogometu pretrči tijekom utakmice?",
+        "correct_answer": "Oko 4-6 kilometara",
+        "incorrect_answers": [
+            "Oko 1-2 kilometra",
+            "Oko 8-10 kilometara",
+            "Oko 12-14 kilometara"
+        ],
+        "explanation": "Iako se čini da golmani stoje mirno, oni ipak pretrče značajnu udaljenost, često oko 4-6 km po utakmici zbog pozicioniranja i reakcija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1155",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se dvoje ljudi zajedno klizaju na ledu izvodeći sinkronizirane pokrete i skokove?",
+        "correct_answer": "Umjetničko klizanje u parovima",
+        "incorrect_answers": [
+            "Brzo klizanje",
+            "Hokej na ledu",
+            "Curling"
+        ],
+        "explanation": "Umjetničko klizanje u parovima je disciplina u kojoj dva klizača izvode složene elemente u harmoniji, uključujući dizanja i bacanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1156",
+        "category": "sport",
+        "question": "Koja je specifičnost terena za squash u usporedbi s tenisom?",
+        "correct_answer": "Igra se u zatvorenoj prostoriji s četiri zida",
+        "incorrect_answers": [
+            "Teren je veći i otvoren",
+            "Koristi se mreža u sredini terena",
+            "Igra se na travi"
+        ],
+        "explanation": "Squash se igra u zatvorenoj prostoriji gdje igrači udaraju lopticu o zidove, a ne preko mreže kao u tenisu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1157",
+        "category": "sport",
+        "question": "Koja se tehnika koristi za disanje u sinkroniziranom plivanju pod vodom?",
+        "correct_answer": "Ne postoji posebna tehnika, zadržava se dah",
+        "incorrect_answers": [
+            "Koriste se male boce s kisikom",
+            "Postoji poseban sustav ventilacije",
+            "Diše se kroz nos"
+        ],
+        "explanation": "Sinkronizirane plivačice moraju zadržavati dah pod vodom tijekom izvođenja figura, što zahtijeva iznimnu kontrolu disanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1158",
+        "category": "sport",
+        "question": "Koja je najčešća oprema za glavu koju nosi biciklist radi sigurnosti?",
+        "correct_answer": "Kaciga",
+        "incorrect_answers": [
+            "Kapa",
+            "Šešir",
+            "Marama"
+        ],
+        "explanation": "Kaciga je ključna zaštitna oprema za bicikliste, pružajući zaštitu glave u slučaju pada ili sudara na cesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1159",
+        "category": "sport",
+        "question": "Kako se naziva početna pozicija u hrvanju u kojoj se dva hrvača drže za ruke i ramena?",
+        "correct_answer": "Clinch",
+        "incorrect_answers": [
+            "Takedown",
+            "Pin",
+            "Submission"
+        ],
+        "explanation": "Clinch je pozicija u hrvanju i drugim borilačkim sportovima gdje se protivnici drže međusobno kako bi kontrolirali ili bacili jedan drugoga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1160",
+        "category": "sport",
+        "question": "Koja je boja loptice koja se tradicionalno koristi u snookeru, a vrijedi 1 poen?",
+        "correct_answer": "Crvena",
+        "incorrect_answers": [
+            "Žuta",
+            "Zelena",
+            "Crna"
+        ],
+        "explanation": "U snookeru se igrači izmjenjuju udarajući crvene kugle (1 bod) i zatim kugle u boji s različitim bodovnim vrijednostima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1161",
+        "category": "sport",
+        "question": "Koji je sport poznat po korištenju čunjeva i kugli?",
+        "correct_answer": "Kuglanje",
+        "incorrect_answers": [
+            "Biljar",
+            "Boćanje",
+            "Pikado"
+        ],
+        "explanation": "Kuglanje je sport u kojem se kugla kotrlja po stazi s ciljem obaranja deset čunjeva postavljenih u trokut na kraju staze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1162",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji natječu u bacanju diska, kugle i koplja?",
+        "correct_answer": "Bacačke discipline (atletike)",
+        "incorrect_answers": [
+            "Skakačke discipline",
+            "Trkačke discipline",
+            "Višeboj"
+        ],
+        "explanation": "Bacačke discipline u atletici obuhvaćaju bacanje kugle, diska, koplja i kladiva, gdje se mjeri udaljenost bačenog predmeta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1163",
+        "category": "sport",
+        "question": "Koja je jedina zemlja koja je sudjelovala na svim izdanjima ljetnih olimpijskih igara od 1896. godine, a da nikada nije bojkotirala nijedno?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Velika Britanija",
+            "Francuska",
+            "Švicarska"
+        ],
+        "explanation": "Grčka, domovina Olimpijskih igara, jedina je zemlja koja je sudjelovala na svim izdanjima Ljetnih olimpijskih igara bez bojkota.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1164",
+        "category": "sport",
+        "question": "Koja je svrha mreže u odbojci?",
+        "correct_answer": "Dijeli teren na dva dijela i postavlja granicu za prebacivanje lopte",
+        "incorrect_answers": [
+            "Omogućuje igračima da se popnu",
+            "Služi kao prepreka za igrače",
+            "Označava središnji krug terena"
+        ],
+        "explanation": "Mreža u odbojci služi za razdvajanje terena između dvije ekipe i zahtijeva prebacivanje lopte iznad nje kako bi se osvojio poen.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1165",
+        "category": "sport",
+        "question": "Kako se naziva start u atletici gdje natjecatelji kreću s koljena, koristeći startni blok?",
+        "correct_answer": "Niski start",
+        "incorrect_answers": [
+            "Visoki start",
+            "Leteći start",
+            "Stojeći start"
+        ],
+        "explanation": "Niski start se koristi u kratkim sprinterskim utrkama kako bi se postigao što eksplozivniji početak uz pomoć startnih blokova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1166",
+        "category": "sport",
+        "question": "Koja je točna službena težina diska koji bacaju muškarci u atletici?",
+        "correct_answer": "2 kilograma",
+        "incorrect_answers": [
+            "1.5 kilograma",
+            "2.5 kilograma",
+            "3 kilograma"
+        ],
+        "explanation": "Muškarci u atletici bacaju disk težine 2 kg, dok žene bacaju disk težine 1 kg, prema pravilima atletskih federacija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
     }
 ]
