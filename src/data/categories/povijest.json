@@ -12506,5 +12506,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_hist_1109",
+        "category": "povijest",
+        "question": "Koji je grčki povjesničar poznat kao 'Otac povijesti'?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Ksenofont",
+            "Plutarh"
+        ],
+        "explanation": "Herodot je bio grčki povjesničar iz 5. st. pr. Kr. čije se djelo 'Povijesti' smatra prvim sustavnim povijesnim djelom na Zapadu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1110",
+        "category": "povijest",
+        "question": "Koja je civilizacija prva razvila sustav hijeroglifskog pisma?",
+        "correct_answer": "Drevni Egipat",
+        "incorrect_answers": [
+            "Mezopotamija",
+            "Drevna Kina",
+            "Maje"
+        ],
+        "explanation": "Drevni Egipćani su razvili hijeroglifsko pismo oko 3200. godine pr. Kr. za religijske i službene svrhe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1111",
+        "category": "povijest",
+        "question": "Tko je bio osnivač budizma?",
+        "correct_answer": "Siddhartha Gautama",
+        "incorrect_answers": [
+            "Laozi",
+            "Konfucije",
+            "Zaratustra"
+        ],
+        "explanation": "Siddhartha Gautama, poznat kao Buda, bio je princ iz Nepala koji je napustio svjetovni život kako bi pronašao prosvjetljenje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1112",
+        "category": "povijest",
+        "question": "U kojem je gradu bila smještena slavna Aleksandrijska knjižnica?",
+        "correct_answer": "Aleksandrija",
+        "incorrect_answers": [
+            "Atena",
+            "Rim",
+            "Babilon"
+        ],
+        "explanation": "Aleksandrijska knjižnica bila je jedna od najvećih i najznačajnijih knjižnica antičkog svijeta, smještena u Aleksandriji u Egiptu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1113",
+        "category": "povijest",
+        "question": "Tko je bio kralj Perzije koji je vladao tijekom perzijskih ratova protiv grčkih gradova-država?",
+        "correct_answer": "Kserkso I.",
+        "incorrect_answers": [
+            "Kir Veliki",
+            "Darije I.",
+            "Kambiz II."
+        ],
+        "explanation": "Kserkso I. je predvodio drugu perzijsku invaziju na Grčku koja je kulminirala bitkama kod Termopila i Salamine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1114",
+        "category": "povijest",
+        "question": "Koja je rimska božica bila boginja ljubavi i ljepote, ekvivalent grčkoj Afroditi?",
+        "correct_answer": "Venera",
+        "incorrect_answers": [
+            "Junona",
+            "Minerva",
+            "Dijana"
+        ],
+        "explanation": "Venera je bila jedna od najvažnijih rimskih božica, štovana kao majka Eneje, pretka rimskog naroda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1115",
+        "category": "povijest",
+        "question": "Koji je papa 1054. godine izopćio carigradskog patrijarha, što je dovelo do Velikog raskola?",
+        "correct_answer": "Lav IX.",
+        "incorrect_answers": [
+            "Grgur VII.",
+            "Urban II.",
+            "Inocent III."
+        ],
+        "explanation": "Papa Lav IX. poslao je izaslanike u Carigrad, što je rezultiralo uzajamnim ekskomunikacijama i konačnim razdvajanjem kršćanstva na istočno i zapadno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1116",
+        "category": "povijest",
+        "question": "Koji je mongolski vođa stvorio najveće kopneno carstvo u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Kublaj-kan",
+            "Atila",
+            "Timur"
+        ],
+        "explanation": "Džingis-kan je u 13. stoljeću ujedinio mongolska plemena i započeo ekspanziju koja je stvorila golemo Mongolsko Carstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1117",
+        "category": "povijest",
+        "question": "U kojoj se bitki 1389. godine srpska vojska sukobila s Osmanlijama, što je dovelo do dugotrajne osmanske dominacije na Balkanu?",
+        "correct_answer": "Bitka na Kosovskom polju",
+        "incorrect_answers": [
+            "Bitka kod Nikopolja",
+            "Bitka kod Varne",
+            "Bitka kod Siska"
+        ],
+        "explanation": "Bitka na Kosovskom polju bila je ključni sukob između osmanskih snaga i srpske vojske, s trajnim posljedicama za regiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1118",
+        "category": "povijest",
+        "question": "Koji je engleski kralj poznat po tome što je osnovao dinastiju Plantagenet i reformirao engleski pravni sustav u 12. stoljeću?",
+        "correct_answer": "Henrik II.",
+        "incorrect_answers": [
+            "Rikard I. Lavljeg Srca",
+            "Ivan Bez Zemlje",
+            "Edvard I."
+        ],
+        "explanation": "Henrik II. je započeo dinastiju Plantagenet i proveo značajne pravne reforme, uključujući uvođenje porote i zajedničkog prava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1119",
+        "category": "povijest",
+        "question": "Koja je renesansna obitelj bila moćna bankarska i politička dinastija u Firenci, poznata po pokroviteljstvu umjetnosti?",
+        "correct_answer": "Medici",
+        "incorrect_answers": [
+            "Borgia",
+            "Sforza",
+            "Visconti"
+        ],
+        "explanation": "Obitelj Medici bila je jedna od najutjecajnijih u Firenci od 15. do 18. stoljeća, podupirući umjetnike poput Michelangela i Leonarda da Vincija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1120",
+        "category": "povijest",
+        "question": "Koji je portugalski istraživač prvi oplovio Afriku i stigao do Indije 1498. godine?",
+        "correct_answer": "Vasco da Gama",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Ferdinand Magellan",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Vasco da Gama je otvorio pomorski put prema Indiji, što je imalo golem utjecaj na trgovinu i geopolitiku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1121",
+        "category": "povijest",
+        "question": "Tko je 1517. godine objavio '95 teza' i pokrenuo Reformaciju?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Ulrich Zwingli",
+            "John Wycliffe"
+        ],
+        "explanation": "Martin Luther je izložio svoje teze protiv indulgencija, što je dovelo do podjele zapadnog kršćanstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1122",
+        "category": "povijest",
+        "question": "Koja se bitka iz 1571. godine smatra jednom od najvećih pomorskih bitaka u povijesti, gdje je Sveta liga porazila Osmansku mornaricu?",
+        "correct_answer": "Bitka kod Lepanta",
+        "incorrect_answers": [
+            "Bitka kod Trafalgara",
+            "Bitka kod Siska",
+            "Bitka kod Agincourta"
+        ],
+        "explanation": "U bitki kod Lepanta kršćanska je koalicija ostvarila veliku pobjedu nad Osmanskim Carstvom, zaustavivši njihovu ekspanziju na Mediteranu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1123",
+        "category": "povijest",
+        "question": "Koji je engleski kralj 1534. godine osnovao Anglikansku crkvu, odvojivši se od Papinske vlasti?",
+        "correct_answer": "Henrik VIII.",
+        "incorrect_answers": [
+            "Karlo I.",
+            "Edvard VI.",
+            "Elizabeta I."
+        ],
+        "explanation": "Henrik VIII. je Poveljom o supremaciji proglasio sebe vrhovnim poglavarom Crkve Engleske, uglavnom zbog razloga nasljeđivanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1124",
+        "category": "povijest",
+        "question": "Koje je godine započeo Tridesetogodišnji rat, jedan od najrazornijih sukoba u europskoj povijesti?",
+        "correct_answer": "1618.",
+        "incorrect_answers": [
+            "1648.",
+            "1598.",
+            "1701."
+        ],
+        "explanation": "Tridesetogodišnji rat počeo je 1618. godine 'Praškom defenestracijom' i trajao do Vestfalskog mira 1648. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1125",
+        "category": "povijest",
+        "question": "Koja je francuska kraljica pogubljena tijekom Francuske revolucije zajedno sa svojim suprugom Lujem XVI.?",
+        "correct_answer": "Marija Antoaneta",
+        "incorrect_answers": [
+            "Katarina Medici",
+            "Josipa",
+            "Izabela"
+        ],
+        "explanation": "Marija Antoaneta, supruga Luja XVI., postala je simbol razuzdanosti monarhije i pogubljena je giljotinom 1793. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1126",
+        "category": "povijest",
+        "question": "Koje je godine Napoleon Bonaparte okrunjen za cara Francuza?",
+        "correct_answer": "1804.",
+        "incorrect_answers": [
+            "1799.",
+            "1800.",
+            "1815."
+        ],
+        "explanation": "Napoleon se okrunio za cara Francuza u katedrali Notre Dame, označivši kraj Prve Francuske Republike i početak Prvog Francuskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1127",
+        "category": "povijest",
+        "question": "Koji je političar bio glavni arhitekt ujedinjenja Italije u 19. stoljeću?",
+        "correct_answer": "Camillo Cavour",
+        "incorrect_answers": [
+            "Giuseppe Garibaldi",
+            "Giuseppe Mazzini",
+            "Viktor Emanuel II."
+        ],
+        "explanation": "Camillo Cavour, premijer Pijemonta-Sardinije, diplomatskim je putem i strateškim savezima ujedinio Italiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1128",
+        "category": "povijest",
+        "question": "Koji je pruski kancelar odigrao ključnu ulogu u ujedinjenju Njemačke u 19. stoljeću, poznat po politici 'krv i željezo'?",
+        "correct_answer": "Otto von Bismarck",
+        "incorrect_answers": [
+            "Wilhelm I.",
+            "Friedrich Barbarossa",
+            "Heinrich Himmler"
+        ],
+        "explanation": "Otto von Bismarck je strateškim ratovima i diplomacijom ujedinio njemačke države pod pruskim vodstvom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1129",
+        "category": "povijest",
+        "question": "Koja je bitka iz 1815. godine označila konačni poraz Napoleona Bonapartea?",
+        "correct_answer": "Bitka kod Waterlooa",
+        "incorrect_answers": [
+            "Bitka kod Leipziga",
+            "Bitka kod Austerlitza",
+            "Bitka kod Borodina"
+        ],
+        "explanation": "Bitka kod Waterlooa bila je odlučujući poraz Napoleona, nakon čega je abdicirao i prognan na Svetu Helenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1130",
+        "category": "povijest",
+        "question": "Koje je godine ukinuto ropstvo u Sjedinjenim Američkim Državama?",
+        "correct_answer": "1865.",
+        "incorrect_answers": [
+            "1861.",
+            "1877.",
+            "1850."
+        ],
+        "explanation": "Ropstvo je u SAD-u ukinuto donošenjem 13. amandmana na Ustav, nakon završetka Građanskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1131",
+        "category": "povijest",
+        "question": "Koja se od navedenih zemalja pridružila Centralnim silama u Prvom svjetskom ratu, uz Njemačku i Austro-Ugarsku?",
+        "correct_answer": "Osmansko Carstvo",
+        "incorrect_answers": [
+            "Italija",
+            "Rusija",
+            "Francuska"
+        ],
+        "explanation": "Osmansko Carstvo se pridružilo Centralnim silama u Prvom svjetskom ratu, otvarajući bojišta na Kavkazu i Bliskom istoku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1132",
+        "category": "povijest",
+        "question": "Koji je bio datum potpisivanja primirja kojim je završio Prvi svjetski rat?",
+        "correct_answer": "11. studenog 1918.",
+        "incorrect_answers": [
+            "28. lipnja 1919.",
+            "1. rujna 1939.",
+            "8. svibnja 1945."
+        ],
+        "explanation": "Prvi svjetski rat je završen potpisivanjem primirja između Saveznika i Njemačke u željezničkom vagonu kod Compiègnea.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1133",
+        "category": "povijest",
+        "question": "Tko je bio vođa boljševičke revolucije u Rusiji 1917. godine?",
+        "correct_answer": "Vladimir Lenjin",
+        "incorrect_answers": [
+            "Lav Trocki",
+            "Josif Staljin",
+            "Aleksandar Kerenski"
+        ],
+        "explanation": "Vladimir Lenjin je vodio boljševike u preuzimanju vlasti u Rusiji, uspostavivši prvu komunističku državu na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1134",
+        "category": "povijest",
+        "question": "Koje je godine započela Velika depresija u Sjedinjenim Američkim Državama, sa slomom burze na Wall Streetu?",
+        "correct_answer": "1929.",
+        "incorrect_answers": [
+            "1925.",
+            "1933.",
+            "1939."
+        ],
+        "explanation": "Velika depresija je započela slomom burze 24. listopada 1929. godine ('Crni četvrtak') i postala globalna ekonomska kriza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1135",
+        "category": "povijest",
+        "question": "Koji je bio naziv za politički režim u Italiji pod Benitom Mussolinijem?",
+        "correct_answer": "Fašizam",
+        "incorrect_answers": [
+            "Nacizam",
+            "Komunizam",
+            "Anarhizam"
+        ],
+        "explanation": "Fašizam je bio totalitarna ideologija i politički pokret koji je vladao Italijom od 1922. do 1943. godine pod vodstvom Benita Mussolinija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1136",
+        "category": "povijest",
+        "question": "Tko je bio predsjednik Sjedinjenih Američkih Država tijekom većeg dijela Drugog svjetskog rata?",
+        "correct_answer": "Franklin D. Roosevelt",
+        "incorrect_answers": [
+            "Harry S. Truman",
+            "Herbert Hoover",
+            "Dwight D. Eisenhower"
+        ],
+        "explanation": "Franklin D. Roosevelt je bio jedini američki predsjednik koji je služio više od dva mandata, vodeći SAD kroz Veliku depresiju i većinu Drugog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1137",
+        "category": "povijest",
+        "question": "Koji je datum saveznici izveli iskrcavanje u Normandiji, otvarajući zapadnu frontu u Drugom svjetskom ratu?",
+        "correct_answer": "6. lipnja 1944.",
+        "incorrect_answers": [
+            "1. rujna 1939.",
+            "7. prosinca 1941.",
+            "8. svibnja 1945."
+        ],
+        "explanation": "Operacija Overlord, poznata kao Dan D, bilo je masovno iskrcavanje savezničkih snaga na obale Normandije u Francuskoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1138",
+        "category": "povijest",
+        "question": "Koji je hrvatski knez primio pismo pape Ivana VIII. 879. godine, u kojem ga Papa naziva 'knezom Hrvata' i priznaje neovisnost Hrvatske?",
+        "correct_answer": "Knez Branimir",
+        "incorrect_answers": [
+            "Knez Trpimir",
+            "Knez Mislav",
+            "Knez Borna"
+        ],
+        "explanation": "Pismo pape Ivana VIII. knezu Branimiru 879. godine smatra se prvim međunarodnim priznanjem hrvatske države.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1139",
+        "category": "povijest",
+        "question": "Koji je hrvatski velikaš, zajedno s Franom Krstom Frankopanom, predvodio Zrinsko-frankopansku urotu protiv habsburškog cara u 17. stoljeću?",
+        "correct_answer": "Petar Zrinski",
+        "incorrect_answers": [
+            "Nikola Šubić Zrinski",
+            "Juraj V. Zrinski",
+            "Stjepan Frankopan"
+        ],
+        "explanation": "Petar Zrinski i Fran Krsto Frankopan bili su vođe urote kojom su se pokušali suprotstaviti apsolutizmu i centralizaciji Habsburgovaca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1140",
+        "category": "povijest",
+        "question": "Koje je godine Hrvatski sabor donio odluku o raskidu svih državnopravnih veza s Austro-Ugarskom Monarhijom?",
+        "correct_answer": "1918.",
+        "incorrect_answers": [
+            "1914.",
+            "1921.",
+            "1941."
+        ],
+        "explanation": "Hrvatski sabor je 29. listopada 1918. godine proglasio raskid državnopravnih veza s Austro-Ugarskom i proglasio Državu SHS.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1141",
+        "category": "povijest",
+        "question": "Koji je hrvatski skladatelj i dirigent autor glazbe za himnu 'Lijepa naša domovino'?",
+        "correct_answer": "Josip Runjanin",
+        "incorrect_answers": [
+            "Ivan Zajc",
+            "Vatroslav Lisinski",
+            "Jakov Gotovac"
+        ],
+        "explanation": "Josip Runjanin je skladao glazbu za hrvatsku himnu, čiji su stihovi djelo Antuna Mihanovića.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1142",
+        "category": "povijest",
+        "question": "Koje je godine održana Splitska rezolucija kojom se tražilo ujedinjenje Dalmacije s Banskom Hrvatskom?",
+        "correct_answer": "1918.",
+        "incorrect_answers": [
+            "1903.",
+            "1921.",
+            "1848."
+        ],
+        "explanation": "Splitska rezolucija, donesena u listopadu 1918., bila je izraz volje hrvatskog naroda za ujedinjenjem svih hrvatskih zemalja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1143",
+        "category": "povijest",
+        "question": "Koji je povijesni naziv za razdoblje u Hrvatskoj (1848.-1860.) nakon banovanja Josipa Jelačića, obilježeno apsolutističkom vladavinom Beča?",
+        "correct_answer": "Bachov apsolutizam",
+        "incorrect_answers": [
+            "Ilirski pokret",
+            "Mađarizacija",
+            "Hrvatski narodni preporod"
+        ],
+        "explanation": "Bachov apsolutizam je naziv za razdoblje neoapsolutističke uprave u Habsburškoj Monarhiji, nazvano po ministru Aleksandru Bachu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1144",
+        "category": "povijest",
+        "question": "Koji je danski astronom iz 16. stoljeća poznat po preciznim mjerenjima nebeskih tijela bez teleskopa?",
+        "correct_answer": "Tycho Brahe",
+        "incorrect_answers": [
+            "Johannes Kepler",
+            "Nikola Kopernik",
+            "Galileo Galilei"
+        ],
+        "explanation": "Tycho Brahe je proveo desetljeća promatrajući planete i zvijezde, što je kasnije poslužilo Kepleru za formuliranje zakona planetarnog gibanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1145",
+        "category": "povijest",
+        "question": "Koji je dokument, donesen 1689. godine u Engleskoj, značajno ograničio moć monarha i ojačao parlament?",
+        "correct_answer": "Bill of Rights (Povelja o pravima)",
+        "incorrect_answers": [
+            "Magna Carta",
+            "Akt o uniji",
+            "Habeas Corpus akt"
+        ],
+        "explanation": "Engleski Bill of Rights je uspostavio parlamentarnu supremaciju i niz individualnih prava, temelj moderne konstitucionalne monarhije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1146",
+        "category": "povijest",
+        "question": "Koji je povijesni događaj u Berlinu 1884.-1885. godine doveo do podjele Afrike među europskim silama?",
+        "correct_answer": "Berlinska konferencija",
+        "incorrect_answers": [
+            "Bečki kongres",
+            "Kongres u Aix-la-Chapelleu",
+            "Konferencija u Jalti"
+        ],
+        "explanation": "Berlinska konferencija je formalizirala podjelu Afrike, definirajući granice kolonijalnih posjeda bez sudjelovanja afričkih naroda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1147",
+        "category": "povijest",
+        "question": "Koja se njemačka ofenziva u prosincu 1944. godine, poznata po iznenadnom protunapadu kroz Ardene, smatra posljednjim velikim pokušajem Nacističke Njemačke da preokrene tijek Drugog svjetskog rata?",
+        "correct_answer": "Bitka u Ardenima (Ardenska ofenziva)",
+        "incorrect_answers": [
+            "Bitka za Staljingrad",
+            "Bitka za Kursk",
+            "Operacija Barbarossa"
+        ],
+        "explanation": "Ardenska ofenziva bila je iznenadni njemački napad na zapadnoj fronti, s ciljem razdvajanja savezničkih snaga i zauzimanja Antwerpena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
