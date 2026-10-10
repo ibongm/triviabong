@@ -10580,5 +10580,445 @@
             "Proučavanje drevnih spisa",
             "Vrsta računalne grafike"
         ]
+    },
+    {
+        "id": "hr_sci_976",
+        "category": "znanost_i_tehnologija",
+        "question": "Tko je formulirao zakone gibanja i univerzalni zakon gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ]
+    },
+    {
+        "id": "hr_sci_977",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je osnovna čestica koja nosi pozitivni naboj u atomskoj jezgri?",
+        "correct_answer": "Proton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Foton"
+        ]
+    },
+    {
+        "id": "hr_sci_978",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva mjerna jedinica za frekvenciju?",
+        "correct_answer": "Herc (Hz)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Om"
+        ]
+    },
+    {
+        "id": "hr_sci_979",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji fizički princip objašnjava zašto brodovi plutaju?",
+        "correct_answer": "Arhimedov princip",
+        "incorrect_answers": [
+            "Bernoullijev princip",
+            "Pascalov zakon",
+            "Hookeov zakon"
+        ]
+    },
+    {
+        "id": "hr_sci_980",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za najmanju količinu energije koju atom ili molekula može emitirati ili apsorbirati?",
+        "correct_answer": "Kvant",
+        "incorrect_answers": [
+            "Val",
+            "Proton",
+            "Elektron"
+        ]
+    },
+    {
+        "id": "hr_sci_981",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se zove sila koja drži jezgru atoma zajedno?",
+        "correct_answer": "Jaka nuklearna sila",
+        "incorrect_answers": [
+            "Slaba nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ]
+    },
+    {
+        "id": "hr_sci_982",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji element ima atomski broj 1?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ]
+    },
+    {
+        "id": "hr_sci_983",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva kemijska reakcija u kojoj se spojevi razlažu na jednostavnije tvari?",
+        "correct_answer": "Razgradnja",
+        "incorrect_answers": [
+            "Sinteza",
+            "Supstitucija",
+            "Oksidacija"
+        ]
+    },
+    {
+        "id": "hr_sci_984",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je skupina elemenata poznata po svojoj nereaktivnosti i punoj vanjskoj ljusci elektrona?",
+        "correct_answer": "Plemeniti plinovi",
+        "incorrect_answers": [
+            "Alkalijski metali",
+            "Halogeni",
+            "Zemnoalkalijski metali"
+        ]
+    },
+    {
+        "id": "hr_sci_985",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces u kojem se tekućina pretvara u plin na temperaturi vrelišta?",
+        "correct_answer": "Vrenje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Taljenje",
+            "Smrzavanje"
+        ]
+    },
+    {
+        "id": "hr_sci_986",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja vrsta tvari mijenja boju lakmus papira u crveno i ima pH manji od 7?",
+        "correct_answer": "Kiselina",
+        "incorrect_answers": [
+            "Baza",
+            "Sol",
+            "Otapalo"
+        ]
+    },
+    {
+        "id": "hr_sci_987",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji kemijski spoj uzrokuje kiselost otopina?",
+        "correct_answer": "Vodikov ion (H+)",
+        "incorrect_answers": [
+            "Hidroksidni ion (OH-)",
+            "Natrijev ion (Na+)",
+            "Kloridni ion (Cl-)"
+        ]
+    },
+    {
+        "id": "hr_sci_988",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za proces kojim biljke pretvaraju sunčevu energiju u kemijsku energiju?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Disanje",
+            "Transpiracija",
+            "Fermentacija"
+        ]
+    },
+    {
+        "id": "hr_sci_989",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je temeljna jedinica živih organizama?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Molekula",
+            "Organ",
+            "Tkivo"
+        ]
+    },
+    {
+        "id": "hr_sci_990",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za strukturu unutar stanice koja je odgovorna za proizvodnju energije kroz stanično disanje?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Jezgra",
+            "Ribosom",
+            "Kloroplast"
+        ]
+    },
+    {
+        "id": "hr_sci_991",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se proces događa kada se genetski materijal kopira iz DNA u RNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Replikacija",
+            "Translacija",
+            "Mutacija"
+        ]
+    },
+    {
+        "id": "hr_sci_992",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva grana biologije koja proučava nasljeđivanje i varijaciju živih organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Anatomija"
+        ]
+    },
+    {
+        "id": "hr_sci_993",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za skupinu organizama koji mogu međusobno imati plodno potomstvo?",
+        "correct_answer": "Vrsta",
+        "incorrect_answers": [
+            "Rod",
+            "Obitelj",
+            "Red"
+        ]
+    },
+    {
+        "id": "hr_sci_994",
+        "category": "znanost_i_tehnologija",
+        "question": "Što je ROM u računarstvu?",
+        "correct_answer": "Read-Only Memory",
+        "incorrect_answers": [
+            "Random Access Memory",
+            "Remote Online Module",
+            "Rapid Operating Mechanism"
+        ]
+    },
+    {
+        "id": "hr_sci_995",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je programski jezik često korišten za razvoj web sučelja (frontend)?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "C#",
+            "Swift",
+            "Ruby"
+        ]
+    },
+    {
+        "id": "hr_sci_996",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva mreža koja pokriva malo geografsko područje, poput ureda ili kuće?",
+        "correct_answer": "LAN (Local Area Network)",
+        "incorrect_answers": [
+            "WAN",
+            "MAN",
+            "VPN"
+        ]
+    },
+    {
+        "id": "hr_sci_997",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je standardni protokol za slanje e-pošte?",
+        "correct_answer": "SMTP (Simple Mail Transfer Protocol)",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "TCP"
+        ]
+    },
+    {
+        "id": "hr_sci_998",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva zlonamjerni softver dizajniran za oštećenje, iskorištavanje ili neovlašteni pristup računalnom sustavu?",
+        "correct_answer": "Malware",
+        "incorrect_answers": [
+            "Firmware",
+            "Shareware",
+            "Freeware"
+        ]
+    },
+    {
+        "id": "hr_sci_999",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji uređaj povezuje više računalnih mreža i prosljeđuje pakete podataka između njih?",
+        "correct_answer": "Router",
+        "incorrect_answers": [
+            "Switch",
+            "Modem",
+            "Hub"
+        ]
+    },
+    {
+        "id": "hr_sci_1000",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je najveći planet u našem Sunčevom sustavu?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Zemlja",
+            "Mars"
+        ]
+    },
+    {
+        "id": "hr_sci_1001",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva sloj Sunčeve atmosfere koji je vidljiv tijekom pomrčine Sunca?",
+        "correct_answer": "Korona",
+        "incorrect_answers": [
+            "Kromosfera",
+            "Fotosfera",
+            "Sunčeva pjega"
+        ]
+    },
+    {
+        "id": "hr_sci_1002",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je faza Mjeseca kada je cijela osvijetljena i vidljiva sa Zemlje?",
+        "correct_answer": "Pun Mjesec",
+        "incorrect_answers": [
+            "Mladi Mjesec",
+            "Prva četvrt",
+            "Posljednja četvrt"
+        ]
+    },
+    {
+        "id": "hr_sci_1003",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva skupina zvijezda koje čine prepoznatljiv uzorak na nebu?",
+        "correct_answer": "Konstelacija",
+        "incorrect_answers": [
+            "Galaksija",
+            "Maglica",
+            "Komet"
+        ]
+    },
+    {
+        "id": "hr_sci_1004",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za veliku skupinu zvijezda, plina i prašine koju drži zajedno gravitacija?",
+        "correct_answer": "Galaksija",
+        "incorrect_answers": [
+            "Planetarni sustav",
+            "Maglica",
+            "Zvjezdani skup"
+        ]
+    },
+    {
+        "id": "hr_sci_1005",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva pojava kada se svjetlost zvijezde savija oko masivnog objekta, stvarajući više slika ili prstenova?",
+        "correct_answer": "Gravitacijsko leće",
+        "incorrect_answers": [
+            "Crvena pomaka",
+            "Dopplerov efekt",
+            "Kvantna zapletenost"
+        ]
+    },
+    {
+        "id": "hr_sci_1006",
+        "category": "znanost_i_tehnologija",
+        "question": "Kako se naziva proces u kojem se svjetlost raspršuje na kapljicama vode, stvarajući različite boje?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Interferencija",
+            "Refleksija"
+        ]
+    },
+    {
+        "id": "hr_sci_1007",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je glavni plin odgovoran za efekt staklenika na Zemlji?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Argon"
+        ]
+    },
+    {
+        "id": "hr_sci_1008",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za uređaj koji pretvara kemijsku energiju u električnu energiju?",
+        "correct_answer": "Baterija",
+        "incorrect_answers": [
+            "Generator",
+            "Transformator",
+            "Motor"
+        ]
+    },
+    {
+        "id": "hr_sci_1009",
+        "category": "znanost_i_tehnologija",
+        "question": "Koja je najniža moguća temperatura, poznata kao apsolutna nula?",
+        "correct_answer": "-273.15 °C",
+        "incorrect_answers": [
+            "0 °C",
+            "-100 °C",
+            "-459.67 °F"
+        ]
+    },
+    {
+        "id": "hr_sci_1010",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za znanost koja proučava tlo?",
+        "correct_answer": "Pedologija",
+        "incorrect_answers": [
+            "Geologija",
+            "Meteorologija",
+            "Oceanografija"
+        ]
+    },
+    {
+        "id": "hr_sci_1011",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji se materijal najčešće koristi kao poluvodič u elektronici?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Bakar",
+            "Aluminij",
+            "Zlato"
+        ]
+    },
+    {
+        "id": "hr_sci_1012",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je glavni cilj projekta SETI?",
+        "correct_answer": "Potraga za izvanzemaljskim inteligentnim životom",
+        "incorrect_answers": [
+            "Istraživanje Sunčevog sustava",
+            "Mapiranje galaksija",
+            "Razvoj svemirskih letjelica"
+        ]
+    },
+    {
+        "id": "hr_sci_1013",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je termin za neobnovljivi izvor energije nastao iz ostataka drevnih živih organizama?",
+        "correct_answer": "Fosilno gorivo",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Geotermalna energija",
+            "Energija vjetra"
+        ]
+    },
+    {
+        "id": "hr_sci_1014",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je znanstvenik poznat po otkriću penicilina?",
+        "correct_answer": "Alexander Fleming",
+        "incorrect_answers": [
+            "Louis Pasteur",
+            "Marie Curie",
+            "Gregor Mendel"
+        ]
+    },
+    {
+        "id": "hr_sci_1015",
+        "category": "znanost_i_tehnologija",
+        "question": "Koji je naziv za proces kada se svjetlost ili zvuk odbija od površine?",
+        "correct_answer": "Refleksija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Apsorpcija",
+            "Difrakcija"
+        ]
     }
 ]
