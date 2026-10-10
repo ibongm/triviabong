@@ -1,5 +1,12 @@
 # Changelog
 
+### [2026-10-10] - Fix Generate Category Questions failing to push
+- **Files Changed**:
+  - `.github/workflows/generate-questions.yml` (Modified)
+- **Details**:
+  - Every run failed in "Commit and Push to Main" with `cannot pull with rebase: You have unstaged changes` (exit 128), so generated questions were committed on the runner and then discarded. Cause: `npm install @google/genai` (not a listed dependency) rewrote the tracked `package.json` and `package-lock.json`, and those unstaged edits blocked `git pull --rebase`.
+  - Install step now uses `npm install --no-save @google/genai`, and the commit step runs `git stash --include-untracked` before the pull - the same fix already applied to `audit-category.yml`.
+
 ### [2026-10-02] - Surface failed score saves + auto-retry
 - **Files Changed**:
   - `src/hooks/useScoreSaving.js` (Modified)
