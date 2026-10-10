@@ -586,9 +586,9 @@
         "id": "hr_geo_54",
         "category": "geografija",
         "question": "Koji tjesnac dijeli Veliku Britaniju od europskog kopna (Francuske)?",
-        "correct_answer": "Doverski tjesnac (La Manche)",
+        "correct_answer": "Doverski tjesnac",
         "incorrect_answers": [
-            "Kategat",
+            "Kattegat",
             "Skagerrak",
             "Sveti Juraj"
         ]
@@ -1139,7 +1139,7 @@
         "correct_answer": "Grampijansko gorje",
         "incorrect_answers": [
             "Penini",
-            "Cambrian gorje",
+            "Kambrijsko gorje",
             "Cheviot"
         ]
     },
@@ -1587,7 +1587,7 @@
         "id": "hr_geo_145",
         "category": "geografija",
         "question": "Koji grad smješten na pacifičkom ulazu u Panamski kanal služi kao glavni grad te države?",
-        "correct_answer": "Panama City",
+        "correct_answer": "Panama",
         "incorrect_answers": [
             "Colón",
             "David",
@@ -1597,7 +1597,7 @@
     {
         "id": "hr_geo_146",
         "category": "geografija",
-        "question": "Koji je najviši planinski vrh na australskom kontinentu?",
+        "question": "Koji je najviši planinski vrh na australskom kopnu?",
         "correct_answer": "Mount Kosciuszko",
         "incorrect_answers": [
             "Mount Bogong",
@@ -1623,7 +1623,7 @@
         "correct_answer": "Egejsko more",
         "incorrect_answers": [
             "Jonsko more",
-            "Mramorno more",
+            "Jadransko more",
             "Levantsko more"
         ]
     },
@@ -1818,7 +1818,7 @@
         "id": "hr_geo_166",
         "category": "geografija",
         "question": "Koji tjesnac dijeli otok Sumatru od Malajskog poluotoka?",
-        "correct_answer": "Malajski tjesnac",
+        "correct_answer": "Prolaz Malacca",
         "incorrect_answers": [
             "Sundski tjesnac",
             "Lombok tjesnac",
@@ -1993,7 +1993,7 @@
     {
         "id": "hr_geo_182",
         "category": "geografija",
-        "question": "Koji planinski vrh je najviši u Sjevernoj i Južnoj Americi (zajedno)?",
+        "question": "Koji je najviši planinski vrh na američkim kontinentima?",
         "correct_answer": "Aconcagua",
         "incorrect_answers": [
             "Ojos del Salado",
@@ -2064,7 +2064,7 @@
         "incorrect_answers": [
             "Krimml slapovi (Austrija)",
             "Rajnski slapovi (Švicarska)",
-            "Marmore (Italija)"
+            "Cascata delle Marmore (Italija)"
         ]
     },
     {
@@ -2326,7 +2326,7 @@
         "question": "Koji je glavni grad Sjeverne Koreje?",
         "correct_answer": "Pjongjang",
         "incorrect_answers": [
-            "Hambung",
+            "Hamhung",
             "Kaesong",
             "Nampo"
         ]
@@ -2620,7 +2620,7 @@
     {
         "id": "hr_geo_239",
         "category": "geografija",
-        "question": "Koji je najveći grad i glavni grad države El Salvador, smješten podno istoimenog vulkana?",
+        "question": "Koji je najveći grad i glavni grad države El Salvador?",
         "correct_answer": "San Salvador",
         "incorrect_answers": [
             "Santa Ana",
@@ -2811,8 +2811,8 @@
         "correct_answer": "La Paz",
         "incorrect_answers": [
             "Sucre",
-            "Quito",
-            "Thimphu"
+            "Potosí",
+            "Santa Cruz"
         ]
     },
     {
@@ -3852,7 +3852,7 @@
     {
         "id": "hr_geo_351",
         "category": "geografija",
-        "question": "Koja rijeka protječe kroz Frankfurt na Majni?",
+        "question": "Koja rijeka protječe kroz njemački grad Frankfurt?",
         "correct_answer": "Majna",
         "incorrect_answers": [
             "Neckar",
@@ -4176,7 +4176,7 @@
         "incorrect_answers": [
             "Gobi",
             "Karakum",
-            "Cholistan"
+            "Dasht-e Kavir"
         ]
     },
     {
@@ -4185,9 +4185,9 @@
         "question": "Kako se zove ogromna pješčana pustinja koja pokriva južnu trećinu Arapskog poluotoka?",
         "correct_answer": "Rub' al Khali",
         "incorrect_answers": [
-            "An Nafud",
+            "Sirijska pustinja",
             "Negev",
-            "Dahna"
+            "Danakilska pustinja"
         ]
     },
     {
@@ -4263,7 +4263,7 @@
         "correct_answer": "Sahaljin",
         "incorrect_answers": [
             "Kamčatka",
-            "Kurilski otoci",
+            "Vrangelov otok",
             "Nova Zemlja"
         ]
     },
@@ -4285,7 +4285,7 @@
         "correct_answer": "Palkov tjesnac",
         "incorrect_answers": [
             "Malajski tjesnac",
-            "Sonda tjesnac",
+            "Sundski tjesnac",
             "Ormuški tjesnac"
         ]
     },
@@ -4372,7 +4372,7 @@
         "question": "Koji prolaz dijeli Sjeverni i Južni otok Novog Zelanda?",
         "correct_answer": "Cookov prolaz",
         "incorrect_answers": [
-            "Foveauxov prolaz",
+            "Magellanov prolaz",
             "Bassov prolaz",
             "Torresov prolaz"
         ]
@@ -4702,15 +4702,15 @@
         "question": "Koji je najveći koraljni greben na svijetu smješten uz obalu Australije?",
         "correct_answer": "Veliki koraljni greben",
         "incorrect_answers": [
-            "Mesoamerički koraljni greben",
-            "NovoKaledonski koraljni greben",
-            "Crveno more greben"
+            "Mezoamerički koraljni greben",
+            "Novokaledonski koraljni greben",
+            "Greben Florida Keys"
         ]
     },
     {
         "id": "hr_geo_429",
         "category": "geografija",
-        "question": "Kako se zove područje u Središnjoj Africi gdje rijeka Okavango utječe u pustinju Kalahari?",
+        "question": "Kako se zove područje u središnjoj Africi gdje rijeka Okavango utječe u pustinju Kalahari?",
         "correct_answer": "Delta Okavanga",
         "incorrect_answers": [
             "Okavango bazen",
@@ -4809,7 +4809,7 @@
     {
         "id": "hr_geo_438",
         "category": "geografija",
-        "question": "Kako se zove sezonski vjetar u Južnoj Aziji koji donosi obilne ljetne kiše?",
+        "question": "Kako se zove sezonski vjetar u južnoj Aziji koji donosi obilne ljetne kiše?",
         "correct_answer": "Monsun",
         "incorrect_answers": [
             "Pasat",
@@ -4875,7 +4875,7 @@
     {
         "id": "hr_geo_444",
         "category": "geografija",
-        "question": "U kojoj se američkoj saveznoj državi nalazi većina Nacionalnog parka Yellowstone?",
+        "question": "U kojoj se američkoj saveznoj državi nalazi većina nacionalnog parka Yellowstone?",
         "correct_answer": "Wyoming",
         "incorrect_answers": [
             "Montana",
@@ -4886,7 +4886,7 @@
     {
         "id": "hr_geo_445",
         "category": "geografija",
-        "question": "U kojoj se američkoj saveznoj državi nalazi Nacionalni park Yosemite?",
+        "question": "U kojoj se američkoj saveznoj državi nalazi nacionalni park Yosemite?",
         "correct_answer": "Kalifornija",
         "incorrect_answers": [
             "Nevada",
@@ -4897,7 +4897,7 @@
     {
         "id": "hr_geo_446",
         "category": "geografija",
-        "question": "U kojoj se afričkoj državi nalazi poznati Nacionalni park Serengeti?",
+        "question": "U kojoj se afričkoj državi nalazi poznati nacionalni park Serengeti?",
         "correct_answer": "Tanzanija",
         "incorrect_answers": [
             "Kenija",
@@ -4908,7 +4908,7 @@
     {
         "id": "hr_geo_447",
         "category": "geografija",
-        "question": "U kojoj se afričkoj državi nalazi poznati Nacionalni park Kruger?",
+        "question": "U kojoj se afričkoj državi nalazi poznati nacionalni park Kruger?",
         "correct_answer": "Južna Afrika",
         "incorrect_answers": [
             "Namibija",
@@ -4919,7 +4919,7 @@
     {
         "id": "hr_geo_448",
         "category": "geografija",
-        "question": "Koja je najduži špiljski sustav na svijetu smješten u Kentuckyju?",
+        "question": "Koja je najdulji špiljski sustav na svijetu smješten u Kentuckyju?",
         "correct_answer": "Mamutska špilja",
         "incorrect_answers": [
             "Postojnska jama",
@@ -4930,7 +4930,7 @@
     {
         "id": "hr_geo_449",
         "category": "geografija",
-        "question": "Koja je najdublja poznata pećina na svijetu smještena u Gruziji?",
+        "question": "Koja je najdublja poznata špilja na svijetu smještena u Gruziji?",
         "correct_answer": "Špilja Veryovkina",
         "incorrect_answers": [
             "Mamutska špilja",
@@ -5175,9 +5175,9 @@
         "question": "Koje dvije rijeke se spajaju u Kartumu i tvore glavni tok Nila?",
         "correct_answer": "Plavi Nil i Bijeli Nil",
         "incorrect_answers": [
-            "Crveni Nil i Zeleni Nil",
-            "Gornji Nil i Donji Nil",
-            "Istočni Nil i Zapadni Nil"
+            "Sobat i Atbara",
+            "Nil i Kagera",
+            "Gornji Nil i Donji Nil"
         ]
     },
     {
@@ -5238,10 +5238,10 @@
     {
         "id": "hr_geo_477",
         "category": "geografija",
-        "question": "Kako se zove najveće jezero u Južnoj Americi po površini?",
-        "correct_answer": "Maracaibo",
+        "question": "Kako se zove najveće slatkovodno jezero u Južnoj Americi po površini?",
+        "correct_answer": "Titicaca",
         "incorrect_answers": [
-            "Titicaca",
+            "Maracaibo",
             "Poopó",
             "Nahuel Huapi"
         ]
@@ -5282,7 +5282,7 @@
     {
         "id": "hr_geo_481",
         "category": "geografija",
-        "question": "Kako se zove veliko slano jezero u državi Utah u SAD-u?",
+        "question": "Koje je najveće jezero u državi Utah u SAD-u, poznato po visokom salinitetu?",
         "correct_answer": "Veliko slano jezero",
         "incorrect_answers": [
             "Jezero Tahoe",
@@ -5293,7 +5293,7 @@
     {
         "id": "hr_geo_482",
         "category": "geografija",
-        "question": "Koje afričko jezero dijele Malavi, Mozambik i Tanzanija?",
+        "question": "Koje se afričko jezero nalazi na granici Mozambika i Tanzanije, te je treće po veličini u Africi?",
         "correct_answer": "Jezero Malavi",
         "incorrect_answers": [
             "Jezero Tanganjika",
@@ -5403,7 +5403,7 @@
     {
         "id": "hr_geo_492",
         "category": "geografija",
-        "question": "U kojoj se državi nalazi planina Olimp, u grčkoj mitologiji dom bogova?",
+        "question": "U kojoj se državi nalazi planina Olimp, poznata po impresivnoj visini i značaju u drevnim pričama?",
         "correct_answer": "Grčka",
         "incorrect_answers": [
             "Turska",
@@ -5832,7 +5832,7 @@
     {
         "id": "hr_geo_531",
         "category": "geografija",
-        "question": "Koja je najgušće naseljena veća država na svijetu, isključujući mikrodržave i gradove-države?",
+        "question": "Koja je najgušće naseljena velika država na svijetu, isključujući mikrodržave i gradove-države?",
         "correct_answer": "Bangladeš",
         "incorrect_answers": [
             "Indija",
@@ -5887,7 +5887,7 @@
     {
         "id": "hr_geo_536",
         "category": "geografija",
-        "question": "Koja je jedina zemlja Južne Amerike koja graniči i s Karipskim morem i s Tihim oceanom?",
+        "question": "Koja je jedina država Južne Amerike koja graniči i s Karipskim morem i s Tihim oceanom?",
         "correct_answer": "Kolumbija",
         "incorrect_answers": [
             "Venecuela",
@@ -5953,7 +5953,7 @@
     {
         "id": "hr_geo_542",
         "category": "geografija",
-        "question": "Koji grad je najveći po broju stanovnika u Africi?",
+        "question": "Koji je grad s najvećim metropolitanskim područjem po broju stanovnika u Africi?",
         "correct_answer": "Kairo",
         "incorrect_answers": [
             "Lagos",
@@ -6090,7 +6090,7 @@
         "incorrect_answers": [
             "Jen",
             "Won",
-            "Juan"
+            "Yuan"
         ]
     },
     {
@@ -6100,7 +6100,7 @@
         "correct_answer": "Won",
         "incorrect_answers": [
             "Jen",
-            "Juan",
+            "Yuan",
             "Ringgit"
         ]
     },
@@ -6657,7 +6657,7 @@
     {
         "id": "hr_geo_606",
         "category": "geografija",
-        "question": "Koji je službeni jezik Novog Zelanda uz engleski?",
+        "question": "Koji je autohtoni službeni jezik Novog Zelanda uz engleski?",
         "correct_answer": "Maorski",
         "incorrect_answers": [
             "Havajski",
@@ -6679,7 +6679,7 @@
     {
         "id": "hr_geo_608",
         "category": "geografija",
-        "question": "Koji je službeni jezik Perua uz španjolski?",
+        "question": "Koji je najrašireniji autohtoni službeni jezik Perua uz španjolski?",
         "correct_answer": "Kečua",
         "incorrect_answers": [
             "Gvarani",
@@ -6734,7 +6734,7 @@
     {
         "id": "hr_geo_613",
         "category": "geografija",
-        "question": "Koja europska država ima na svojoj zastavi dvoglavog orla?",
+        "question": "Koja europska država na svojoj zastavi ima crnog dvoglavog orla na crvenoj pozadini?",
         "correct_answer": "Albanija",
         "incorrect_answers": [
             "Grčka",
@@ -6935,7 +6935,7 @@
         "question": "Koja se ruska eksklava nalazi na obali Baltičkog mora, između Litve i Poljske?",
         "correct_answer": "Kalinjingradska oblast",
         "incorrect_answers": [
-            "Bjelorusija",
+            "Murmanska oblast",
             "Karelija",
             "Pskovska oblast"
         ]
@@ -7179,7 +7179,7 @@
         "incorrect_answers": [
             "Jidiš",
             "Aramejski",
-            "Arapski"
+            "Engleski"
         ]
     },
     {
@@ -7211,8 +7211,8 @@
         "correct_answer": "Nizozemski",
         "incorrect_answers": [
             "Njemački",
-            "Flamanski",
-            "Danski"
+            "Danski",
+            "Švedski"
         ]
     },
     {
@@ -7408,9 +7408,9 @@
         "question": "Koja je službena valuta Bosne i Hercegovine?",
         "correct_answer": "Konvertibilna marka",
         "incorrect_answers": [
-            "Dinar",
-            "Kuna",
-            "Forinta"
+            "Bosanski dinar",
+            "Hrvatska kuna",
+            "Mađarska forinta"
         ]
     },
     {
@@ -7438,18 +7438,18 @@
     {
         "id": "hr_geo_677",
         "category": "geografija",
-        "question": "Koji je grad bio glavni grad Pakistana prije nego što je to postao Islamabad?",
+        "question": "Koji je grad bio glavni grad Pakistana prije nego što je glavni grad premješten u Islamabad?",
         "correct_answer": "Karachi",
         "incorrect_answers": [
             "Lahore",
             "Peshawar",
-            "Rawalpindi"
+            "Faisalabad"
         ]
     },
     {
         "id": "hr_geo_678",
         "category": "geografija",
-        "question": "Koji je grad bio glavni grad Kazahstana prije nego što je to postala Astana 1997. godine?",
+        "question": "Koji je grad bio glavni grad Kazahstana prije nego što je Astana postala glavni grad 1997. godine?",
         "correct_answer": "Almaty",
         "incorrect_answers": [
             "Šimkent",
@@ -7460,8 +7460,8 @@
     {
         "id": "hr_geo_679",
         "category": "geografija",
-        "question": "Koji je grad bio glavni grad Mjanmara prije nego što je to postao Naypyidaw 2005. godine?",
-        "correct_answer": "Yangon (Rangoon)",
+        "question": "Koji je grad bio glavni grad Mjanmara prije nego što je Naypyidaw postao glavni grad 2005. godine?",
+        "correct_answer": "Yangon",
         "incorrect_answers": [
             "Mandalay",
             "Bagan",
@@ -7471,7 +7471,7 @@
     {
         "id": "hr_geo_680",
         "category": "geografija",
-        "question": "Koji je grad bio glavni grad Tanzanije prije nego što je to službeno postala Dodoma?",
+        "question": "Koji je grad bio glavni grad Tanzanije prije nego što je Dodoma službeno postala glavni grad?",
         "correct_answer": "Dar es Salaam",
         "incorrect_answers": [
             "Zanzibar",
@@ -7482,7 +7482,7 @@
     {
         "id": "hr_geo_681",
         "category": "geografija",
-        "question": "Koji je grad bio glavni grad Obale Bjelokosti prije nego što je to službeno postao Yamoussoukro?",
+        "question": "Koji je grad bio glavni grad Obale Bjelokosti prije nego što je Yamoussoukro službeno postao glavni grad?",
         "correct_answer": "Abidjan",
         "incorrect_answers": [
             "Bouaké",
@@ -7515,7 +7515,7 @@
     {
         "id": "hr_geo_684",
         "category": "geografija",
-        "question": "Koje se naselje (ili grad) smatra najvišim trajnim naseljem na svijetu, smješteno u peruanskim Andama?",
+        "question": "Koje se naselje smatra najvišim trajnim naseljem na svijetu, smješteno u peruanskim Andama?",
         "correct_answer": "La Rinconada",
         "incorrect_answers": [
             "Cusco",
@@ -7526,7 +7526,7 @@
     {
         "id": "hr_geo_685",
         "category": "geografija",
-        "question": "Koja je najveća administrativno-teritorijalna jedinica (savezna republika) na svijetu po površini, veća od većine svjetskih država?",
+        "question": "Koja je po površini najveća administrativno-teritorijalna jedinica na svijetu, veća od većine svjetskih država?",
         "correct_answer": "Republika Saha (Jakutija) u Rusiji",
         "incorrect_answers": [
             "Sibirski savezni okrug",
@@ -8296,7 +8296,7 @@
     {
         "id": "hr_geo_755",
         "category": "geografija",
-        "question": "Koja je službena novčana jedinica (valuta) koja se koristi u Siriji?",
+        "question": "Koja je službena valuta Sirije?",
         "correct_answer": "Sirijska funta",
         "incorrect_answers": [
             "Libanonska funta",
@@ -8307,7 +8307,7 @@
     {
         "id": "hr_geo_756",
         "category": "geografija",
-        "question": "Koja se službena novčana jedinica (valuta) koristi u Libanonu?",
+        "question": "Koja je službena valuta Libanona?",
         "correct_answer": "Libanonska funta",
         "incorrect_answers": [
             "Sirijska funta",
@@ -8406,7 +8406,7 @@
     {
         "id": "hr_geo_765",
         "category": "geografija",
-        "question": "Koje more odvaja Europu od Afrike na najužem dijelu Gibraltarskog tjesnaca?",
+        "question": "Koji dio Sredozemnog mora, smješten neposredno istočno od Gibraltarskog tjesnaca, odvaja obale Europe i Afrike?",
         "correct_answer": "Alboransko more",
         "incorrect_answers": [
             "Jonsko more",
@@ -8648,7 +8648,7 @@
     {
         "id": "hr_geo_787",
         "category": "geografija",
-        "question": "Koje otočje u Tihom oceanu čini američku saveznu državu Havaji?",
+        "question": "Koje je otočje, smješteno u Tihom oceanu, postalo 50. savezna država SAD-a?",
         "correct_answer": "Havajsko otočje",
         "incorrect_answers": [
             "Aleutsko otočje",
@@ -8692,7 +8692,7 @@
     {
         "id": "hr_geo_791",
         "category": "geografija",
-        "question": "Koja zemlja se prostire na dva kontinenta, Europu i Aziju, dijeljena Bosporom?",
+        "question": "Koja se zemlja prostire na dva kontinenta, Europu i Aziju, podijeljena Bosporom?",
         "correct_answer": "Turska",
         "incorrect_answers": [
             "Gruzija",
@@ -8718,8 +8718,8 @@
         "correct_answer": "Na granici Argentine i Brazila",
         "incorrect_answers": [
             "Na granici Brazila i Paragvaja",
-            "Na granici Čilea i Argentine",
-            "U Boliviji"
+            "Na granici Kolumbije i Venezuele",
+            "Na granici Ekvadora i Perua"
         ]
     },
     {
@@ -8791,7 +8791,7 @@
     {
         "id": "hr_geo_800",
         "category": "geografija",
-        "question": "Koja rijeka protječe kroz Moskvu?",
+        "question": "Koja je rijeka dala ime ruskom glavnom gradu?",
         "correct_answer": "Moskva",
         "incorrect_answers": [
             "Volga",
@@ -8923,7 +8923,7 @@
     {
         "id": "hr_geo_812",
         "category": "geografija",
-        "question": "Koja je po površini najveća kanadska savezna jedinica (teritorij)?",
+        "question": "Koji je po površini najveći kanadski teritorij?",
         "correct_answer": "Nunavut",
         "incorrect_answers": [
             "Ontario",
@@ -9000,7 +9000,7 @@
     {
         "id": "hr_geo_819",
         "category": "geografija",
-        "question": "Koji je glavni grad turske sjeverne trećine Cipra, priznate samo od Turske?",
+        "question": "Koji je glavni grad Sjevernog Cipra, političkog entiteta priznatog samo od Turske?",
         "correct_answer": "Sjeverna Nikozija",
         "incorrect_answers": [
             "Famagusta",
@@ -9176,7 +9176,7 @@
     {
         "id": "hr_geo_835",
         "category": "geografija",
-        "question": "Koji planinski lanac se proteže duž zapadne obale Sjeverne Amerike i uključuje vrh Denali?",
+        "question": "Koji planinski lanac na Sjevernoameričkom kontinentu uključuje vrh Denali?",
         "correct_answer": "Aljaski lanac",
         "incorrect_answers": [
             "Stjenjak",
@@ -9231,7 +9231,7 @@
     {
         "id": "hr_geo_840",
         "category": "geografija",
-        "question": "Koji poluotok u Velikim jezerima odvaja jezero Huron i zaljev Georgian Bay od jezera Erie?",
+        "question": "Koji poluotok u Velikim jezerima odvaja jezero Huron od jezera Michigan?",
         "correct_answer": "Poluotok Michigan",
         "incorrect_answers": [
             "Poluotok Florida",
@@ -9364,9 +9364,9 @@
         "id": "hr_geo_852",
         "category": "geografija",
         "question": "U kojoj se državi nalazi veći dio pustinje Gobi?",
-        "correct_answer": "Kina",
+        "correct_answer": "Mongolija",
         "incorrect_answers": [
-            "Mongolija",
+            "Kina",
             "Kazahstan",
             "Uzbekistan"
         ]
@@ -9385,7 +9385,7 @@
     {
         "id": "hr_geo_854",
         "category": "geografija",
-        "question": "Koje more je najslanije na svijetu?",
+        "question": "Koje jezero je najslanije na svijetu?",
         "correct_answer": "Mrtvo more",
         "incorrect_answers": [
             "Crveno more",
@@ -9506,7 +9506,7 @@
     {
         "id": "hr_geo_865",
         "category": "geografija",
-        "question": "Koja je najsjevernija prijestolnica na svijetu?",
+        "question": "Koja je najsjevernija prijestolnica suverene države na svijetu?",
         "correct_answer": "Reykjavík",
         "incorrect_answers": [
             "Oslo",
@@ -9737,7 +9737,7 @@
     {
         "id": "hr_geo_886",
         "category": "geografija",
-        "question": "Koja rijeka je najduža u sjevernoj Africi izvan toka Nila i teče kroz Maroko?",
+        "question": "Koja je najduža rijeka Maroka?",
         "correct_answer": "Draa",
         "incorrect_answers": [
             "Moulouya",

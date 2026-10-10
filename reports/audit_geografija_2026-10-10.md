@@ -1,1088 +1,788 @@
 # KvizArena Audit Izvještaj: GEOGRAFIJA
 
-- **Datum revizije:** 10. 10. 2026. 07:36:16
+- **Datum revizije:** 10. 10. 2026. 09:43:42
 - **Ukupno pregledano:** 904 pitanja
-- **Broj ispravljenih pitanja:** 90
+- **Broj ispravljenih pitanja:** 65
 
 ---
 
-### Pitanje `hr_geo_8`
+### Pitanje `hr_geo_54`
 
-**Razlog promjene:** *Uklonjena zagrada s engleskim nazivom radi dosljednosti i izbjegavanja 'length bias'-a.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji ocean ima najveću površinu? | **Koji ocean ima najveću površinu?** |
-| **Točan odgovor** | Tihi ocean (Pacifik) | **Tihi ocean** |
-| **Netočni odgovori** | Atlantski ocean // Indijski ocean // Arktički ocean | Atlantski ocean // Indijski ocean // Arktički ocean |
-
----
-
-### Pitanje `hr_geo_91`
-
-**Razlog promjene:** *Pravopisna greška (ispravljeno 'Venecuele' u 'Venezuele').*
+**Razlog promjene:** *Netočan naziv tjesnaca u originalnom točnom odgovoru i pogrešno napisan distaktor. 'Doverski tjesnac' je precizniji, a 'La Manche' je naziv za cijeli kanal. Ispravljen pravopis distaktora 'Kattegat'.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Venecuele? | **Koji je glavni grad Venezuele?** |
-| **Točan odgovor** | Caracas | **Caracas** |
-| **Netočni odgovori** | Maracaibo // Valencia // Barquisimeto | Maracaibo // Valencia // Barquisimeto |
-
----
-
-### Pitanje `hr_geo_103`
-
-**Razlog promjene:** *Pitanje je preopširno, uklonjen je nepotreban dio 'susjedne države Mađarske'.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Ukrajine, susjedne države Mađarske? | **Koji je glavni grad Ukrajine?** |
-| **Točan odgovor** | Kijev | **Kijev** |
-| **Netočni odgovori** | Lviv // Odesa // Harkiv | Lviv // Odesa // Harkiv |
+| **Pitanje** | Koji tjesnac dijeli Veliku Britaniju od europskog kopna (Francuske)? | **Koji tjesnac dijeli Veliku Britaniju od europskog kopna (Francuske)?** |
+| **Točan odgovor** | Doverski tjesnac (La Manche) | **Doverski tjesnac** |
+| **Netočni odgovori** | Kategat // Skagerrak // Sveti Juraj | Kattegat // Skagerrak // Sveti Juraj |
 
 ---
 
 ### Pitanje `hr_geo_104`
 
-**Razlog promjene:** *Ispravljen točan odgovor radi preciznosti; 'Highlands' je šira regija, a ne specifično gorje.*
+**Razlog promjene:** *Ispravljen pravopisni naziv 'Cambrian gorje' u 'Kambrijsko gorje' radi dosljednosti s hrvatskim toponimima.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
 | **Pitanje** | Kako se zove glavno gorje u sjevernom dijelu Velike Britanije (Škotskoj)? | **Kako se zove glavno gorje u sjevernom dijelu Velike Britanije (Škotskoj)?** |
-| **Točan odgovor** | Grampijansko gorje (Highlands) | **Grampijansko gorje** |
-| **Netočni odgovori** | Penini // Cambrian gorje // Cheviot | Penini // Cambrian gorje // Cheviot |
+| **Točan odgovor** | Grampijansko gorje | **Grampijansko gorje** |
+| **Netočni odgovori** | Penini // Cambrian gorje // Cheviot | Penini // Kambrijsko gorje // Cheviot |
 
 ---
 
-### Pitanje `hr_geo_119`
+### Pitanje `hr_geo_145`
 
-**Razlog promjene:** *Pitanje je preopširno i neizravno. Preformulirano je radi jasnoće i sažetosti.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Finskog susjeda Estonije? | **Koji je glavni grad Estonije?** |
-| **Točan odgovor** | Tallinn | **Tallinn** |
-| **Netočni odgovori** | Riga // Vilnius // Tartu | Riga // Vilnius // Tartu |
-
----
-
-### Pitanje `hr_geo_121`
-
-**Razlog promjene:** *Pitanje je sadržavalo jasan trag (spoiler) jer je naziv države odgovarao nazivu glavnog grada. Preformulirano je kako bi se uklonio trag.*
+**Razlog promjene:** *Anglicizam u nazivu glavnog grada. Pravilnije je koristiti hrvatski naziv ili jednostavno 'Panama'.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najveći grad i prijestolnica države Alžir smješten na obali Sredozemnog mora? | **Koji je najveći grad i prijestolnica sjevernoafričke države smješten na obali Sredozemnog mora?** |
-| **Točan odgovor** | Alžir (Algiers) | **Alžir (Algiers)** |
-| **Netočni odgovori** | Oran // Constantine // Annaba | Oran // Constantine // Annaba |
-
----
-
-### Pitanje `hr_geo_124`
-
-**Razlog promjene:** *Činjenična netočnost: Baffinov otok je drugi, a ne treći po veličini u Sjevernoj Americi.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je otok najveći u Kanadskom arhipelagu i treći po veličini u Sjevernoj Americi? | **Koji je otok najveći u Kanadskom arhipelagu i drugi po veličini u Sjevernoj Americi?** |
-| **Točan odgovor** | Baffinov otok | **Baffinov otok** |
-| **Netočni odgovori** | Otok Viktorija // Otok Ellesmere // Newfoundland | Otok Viktorija // Otok Ellesmere // Newfoundland |
+| **Pitanje** | Koji grad smješten na pacifičkom ulazu u Panamski kanal služi kao glavni grad te države? | **Koji grad smješten na pacifičkom ulazu u Panamski kanal služi kao glavni grad te države?** |
+| **Točan odgovor** | Panama City | **Panama** |
+| **Netočni odgovori** | Colón // David // San José | Colón // David // San José |
 
 ---
 
 ### Pitanje `hr_geo_146`
 
-**Razlog promjene:** *Pitanje je preformulirano radi veće preciznosti kako bi se jasno odnosilo na kontinent, isključujući vanjske teritorije gdje se nalaze viši vrhovi (npr. Mawson Peak).*
+**Razlog promjene:** *Za preciznost, pitanje je preformulirano da se odnosi na najviši vrh na australskom kopnu, s obzirom da je Mawson Peak, iako viši, na udaljenom otoku.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najviši planinski vrh u Australiji? | **Koji je najviši planinski vrh na australskom kontinentu?** |
+| **Pitanje** | Koji je najviši planinski vrh na australskom kontinentu? | **Koji je najviši planinski vrh na australskom kopnu?** |
 | **Točan odgovor** | Mount Kosciuszko | **Mount Kosciuszko** |
 | **Netočni odgovori** | Mount Bogong // Mount Feathertop // Mawson Peak | Mount Bogong // Mount Feathertop // Mawson Peak |
 
 ---
 
+### Pitanje `hr_geo_148`
+
+**Razlog promjene:** *Mramorno more, iako se nalazi u blizini, nije primarno more 'između' Grčke i Turske na isti način kao Egejsko more; može dovesti do zabune. Zamijenjen je distraktor.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koje se more nalazi između Grčke i Turske? | **Koje se more nalazi između Grčke i Turske?** |
+| **Točan odgovor** | Egejsko more | **Egejsko more** |
+| **Netočni odgovori** | Jonsko more // Mramorno more // Levantsko more | Jonsko more // Jadransko more // Levantsko more |
+
+---
+
 ### Pitanje `hr_geo_166`
 
-**Razlog promjene:** *Uklonjen engleski naziv u zagradi radi jezične dosljednosti.*
+**Razlog promjene:** *Netočan naziv tjesnaca. Ispravan naziv je Prolaz Malacca.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
 | **Pitanje** | Koji tjesnac dijeli otok Sumatru od Malajskog poluotoka? | **Koji tjesnac dijeli otok Sumatru od Malajskog poluotoka?** |
-| **Točan odgovor** | Malajski tjesnac (Malacca) | **Malajski tjesnac** |
+| **Točan odgovor** | Malajski tjesnac | **Prolaz Malacca** |
 | **Netočni odgovori** | Sundski tjesnac // Lombok tjesnac // Makasarski tjesnac | Sundski tjesnac // Lombok tjesnac // Makasarski tjesnac |
 
 ---
 
-### Pitanje `hr_geo_184`
+### Pitanje `hr_geo_182`
 
-**Razlog promjene:** *Jezero Assal u Džibutiju ima veću koncentraciju soli od Mrtvog mora, stoga je ono najslanije.*
+**Razlog promjene:** *Jezična korekcija za bolju jasnoću pitanja.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje je najslanije vodeno tijelo na svijetu u kojem ljudi bez problema plutaju? | **Koje je najslanije vodeno tijelo na svijetu u kojem ljudi bez problema plutaju?** |
-| **Točan odgovor** | Mrtvo more | **Jezero Assal** |
-| **Netočni odgovori** | Crveno more // Veliko slano jezero // Jezero Assal | Mrtvo more // Crveno more // Veliko slano jezero |
+| **Pitanje** | Koji planinski vrh je najviši u Sjevernoj i Južnoj Americi (zajedno)? | **Koji je najviši planinski vrh na američkim kontinentima?** |
+| **Točan odgovor** | Aconcagua | **Aconcagua** |
+| **Netočni odgovori** | Ojos del Salado // Denali // Mount Logan | Ojos del Salado // Denali // Mount Logan |
 
 ---
 
-### Pitanje `hr_geo_199`
+### Pitanje `hr_geo_188`
 
-**Razlog promjene:** *Status Jeruzalema kao glavnog grada Izraela je međunarodno sporan; pitanje je preformulirano kako bi se izbjegla faktografska netočnost, navodeći da ga Izrael proglašava glavnim gradom.*
+**Razlog promjene:** *Uravnoteženje duljine odgovora i dodavanje punog naziva vodopada radi konzistentnosti.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Siriji susjedne države Izrael? | **Koji je grad Izrael proglasio svojim glavnim gradom?** |
-| **Točan odgovor** | Jeruzalem | **Jeruzalem** |
-| **Netočni odgovori** | Tel Aviv // Haifa // Eilat | Tel Aviv // Haifa // Eilat |
+| **Pitanje** | Koji je najviši vodopad u Europi? | **Koji je najviši vodopad u Europi?** |
+| **Točan odgovor** | Vinnufossen (Norveška) | **Vinnufossen (Norveška)** |
+| **Netočni odgovori** | Krimml slapovi (Austrija) // Rajnski slapovi (Švicarska) // Marmore (Italija) | Krimml slapovi (Austrija) // Rajnski slapovi (Švicarska) // Cascata delle Marmore (Italija) |
 
 ---
 
-### Pitanje `hr_geo_223`
+### Pitanje `hr_geo_212`
 
-**Razlog promjene:** *Nusantara je budući glavni grad Indonezije smješten na Borneu, dok je Jakarta povijesni i dugogodišnji glavni grad smješten na Javi. Pitanje je korigirano za činjeničnu točnost.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je povijesni i dugogodišnji glavni grad Indonezije smješten na otoku Javi? | **Koji je povijesni i dugogodišnji glavni grad Indonezije smješten na otoku Javi?** |
-| **Točan odgovor** | Nusantara | **Jakarta** |
-| **Netočni odgovori** | Surabaya // Bandung // Medan | Surabaya // Bandung // Medan |
-
----
-
-### Pitanje `hr_geo_237`
-
-**Razlog promjene:** *Ispravljena formulacija 'istoimene' jer grad i država nemaju potpuno isto ime; 'prijestolnica' zamijenjena s 'glavni grad'.*
+**Razlog promjene:** *Pravopisna pogreška u jednom od ponuđenih netočnih odgovora ('Hambung' ispravljeno u 'Hamhung').*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najveći grad i prijestolnica istoimene srednjoameričke države majačke baštine? | **Koji je najveći grad i glavni grad države Gvatemale, poznate po bogatoj baštini naroda Maja?** |
-| **Točan odgovor** | Guatemala City | **Guatemala City** |
-| **Netočni odgovori** | Antigua Guatemala // Quetzaltenango // Escuintla | Antigua Guatemala // Quetzaltenango // Escuintla |
+| **Pitanje** | Koji je glavni grad Sjeverne Koreje? | **Koji je glavni grad Sjeverne Koreje?** |
+| **Točan odgovor** | Pjongjang | **Pjongjang** |
+| **Netočni odgovori** | Hambung // Kaesong // Nampo | Hamhung // Kaesong // Nampo |
 
 ---
 
 ### Pitanje `hr_geo_239`
 
-**Razlog promjene:** *'Prijestolnica' zamijenjena s 'glavni grad' i uklonjena suvišna 'srednjoameričke države'.*
+**Razlog promjene:** *Uklonjen opis koji previše navodi na točan odgovor (smješten podno istoimenog vulkana).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najveći grad i prijestolnica srednjoameričke države El Salvador smješten podno istoimenog vulkana? | **Koji je najveći grad i glavni grad države El Salvador, smješten podno istoimenog vulkana?** |
+| **Pitanje** | Koji je najveći grad i glavni grad države El Salvador, smješten podno istoimenog vulkana? | **Koji je najveći grad i glavni grad države El Salvador?** |
 | **Točan odgovor** | San Salvador | **San Salvador** |
 | **Netočni odgovori** | Santa Ana // San Miguel // Soyapango | Santa Ana // San Miguel // Soyapango |
 
 ---
 
-### Pitanje `hr_geo_261`
+### Pitanje `hr_geo_256`
 
-**Razlog promjene:** *Pitanje je neprecizno jer Jezero Maracaibo nije uvijek klasificirano kao pravo jezero zbog slane vode i veze s morem. Dodana je odrednica "po površini" kako bi odgovor bio nedvosmisleno točan, s obzirom na to da je Maracaibo najveće po površini.*
+**Razlog promjene:** *Distraktori 'Quito' i 'Thimphu' nisu zemljopisno relevantni za Boliviju; zamijenjeni su relevantnijim bolivijskim gradovima.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje je najveće jezero u Južnoj Americi, smješteno u Venecueli? | **Koje je jezero po površini najveće u Južnoj Americi, smješteno u Venezueli?** |
-| **Točan odgovor** | Jezero Maracaibo | **Jezero Maracaibo** |
-| **Netočni odgovori** | Jezero Titicaca // Jezero Poopó // Jezero Buenos Aires | Jezero Titicaca // Jezero Poopó // Jezero Buenos Aires |
+| **Pitanje** | Koji je grad na najvišoj nadmorskoj visini sjedište vlade Bolivije? | **Koji je grad na najvišoj nadmorskoj visini sjedište vlade Bolivije?** |
+| **Točan odgovor** | La Paz | **La Paz** |
+| **Netočni odgovori** | Sucre // Quito // Thimphu | Sucre // Potosí // Santa Cruz |
 
 ---
 
-### Pitanje `hr_geo_272`
+### Pitanje `hr_geo_351`
 
-**Razlog promjene:** *Pitanje je preformulirano radi veće preciznosti i uklanjanja potencijalne faktografske netočnosti zbog postojanja Puerto Williamsa u Čileu. Naglašena je lokacija u Argentini.*
+**Razlog promjene:** *Pitanje je sadržavalo preočiti trag točnog odgovora (spoiler).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najjužniji grad na svijetu smješten na Ognjenoj zemlji u Argentini? | **Koji je najjužniji grad smješten u Argentini na Ognjenoj zemlji?** |
-| **Točan odgovor** | Ushuaia | **Ushuaia** |
-| **Netočni odgovori** | Punta Arenas // Puerto Williams // Comodoro Rivadavia | Punta Arenas // Puerto Williams // Comodoro Rivadavia |
+| **Pitanje** | Koja rijeka protječe kroz Frankfurt na Majni? | **Koja rijeka protječe kroz njemački grad Frankfurt?** |
+| **Točan odgovor** | Majna | **Majna** |
+| **Netočni odgovori** | Neckar // Moselle // Ruhr | Neckar // Moselle // Ruhr |
 
 ---
 
-### Pitanje `hr_geo_278`
+### Pitanje `hr_geo_380`
 
-**Razlog promjene:** *Pitanje sadrži preočit trag (spojler) zbog izraza 'istoimene države'.*
+**Razlog promjene:** *Distraktor 'Cholistan' je dio pustinje Thar, što ga čini prebliskim točnom odgovoru. Zamijenjen je drugim distaktorom.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je lučki grad na Rogu Afrike prijestolnica istoimene države u Adenskom zaljevu? | **Koji je lučki grad na Rogu Afrike prijestolnica države u Adenskom zaljevu?** |
-| **Točan odgovor** | Djibouti | **Djibouti** |
-| **Netočni odgovori** | Ali Sabieh // Tadjoura // Dikhil | Ali Sabieh // Tadjoura // Dikhil |
+| **Pitanje** | Kako se zove velika pustinja na sjeverozapadu Indijskog potkontinenta? | **Kako se zove velika pustinja na sjeverozapadu Indijskog potkontinenta?** |
+| **Točan odgovor** | Thar | **Thar** |
+| **Netočni odgovori** | Gobi // Karakum // Cholistan | Gobi // Karakum // Dasht-e Kavir |
 
 ---
 
-### Pitanje `hr_geo_292`
+### Pitanje `hr_geo_381`
 
-**Razlog promjene:** *Distraktor 'Ciudad de la Paz' je budući (planirani) glavni grad, što ga čini djelomično točnim odgovorom. Zamijenjen je drugim gradom.*
+**Razlog promjene:** *Distraktori 'An Nafud' i 'Dahna' su pustinje na istom poluotoku i prebliski su točnom odgovoru.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Ekvatorske Gvineje? | **Koji je glavni grad Ekvatorske Gvineje?** |
-| **Točan odgovor** | Malabo | **Malabo** |
-| **Netočni odgovori** | Bata // Ciudad de la Paz // Ebebiyín | Bata // Mongomo // Ebebiyín |
+| **Pitanje** | Kako se zove ogromna pješčana pustinja koja pokriva južnu trećinu Arapskog poluotoka? | **Kako se zove ogromna pješčana pustinja koja pokriva južnu trećinu Arapskog poluotoka?** |
+| **Točan odgovor** | Rub' al Khali | **Rub' al Khali** |
+| **Netočni odgovori** | An Nafud // Negev // Dahna | Sirijska pustinja // Negev // Danakilska pustinja |
 
 ---
 
-### Pitanje `hr_geo_311`
+### Pitanje `hr_geo_388`
 
-**Razlog promjene:** *Uklonjen spojler u pitanju ('nazvane po apostolu Tomi i princu') jer previše očito navodi na točan odgovor.*
+**Razlog promjene:** *Distraktor 'Kurilski otoci' je geografski preblizu točnom odgovoru i također se nalazi sjeverno od Japana.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najveći grad i prijestolnica otočne države u Gvinejskom zaljevu nazvane po apostolu Tomi i princu? | **Koji je najveći grad i prijestolnica otočne države u Gvinejskom zaljevu?** |
-| **Točan odgovor** | São Tomé | **São Tomé** |
-| **Netočni odgovori** | Santo Amaro // Neves // Trindade | Santo Amaro // Neves // Trindade |
+| **Pitanje** | Koji je otok u Rusiji smješten sjeverno od Japana? | **Koji je otok u Rusiji smješten sjeverno od Japana?** |
+| **Točan odgovor** | Sahaljin | **Sahaljin** |
+| **Netočni odgovori** | Kamčatka // Kurilski otoci // Nova Zemlja | Kamčatka // Vrangelov otok // Nova Zemlja |
 
 ---
 
-### Pitanje `hr_geo_312`
+### Pitanje `hr_geo_390`
 
-**Razlog promjene:** *Uklonjen spojler u pitanju ('smješten na planini Dinari') jer previše očito navodi na točan odgovor.*
+**Razlog promjene:** *Ujednačavanje naziva tjesnaca u distraktrorima ('Sonda tjesnac' u 'Sundski tjesnac').*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je najviši planinski vrh u Hrvatskim Dinaridima smješten na planini Dinari? | **Koji je najviši planinski vrh u Hrvatskoj?** |
-| **Točan odgovor** | Sinjal | **Sinjal** |
-| **Netočni odgovori** | Sveto brdo // Vaganski vrh // Vojak | Sveto brdo // Vaganski vrh // Vojak |
+| **Pitanje** | Koji tjesnac dijeli otok Šri Lanku od Indije? | **Koji tjesnac dijeli otok Šri Lanku od Indije?** |
+| **Točan odgovor** | Palkov tjesnac | **Palkov tjesnac** |
+| **Netočni odgovori** | Malajski tjesnac // Sonda tjesnac // Ormuški tjesnac | Malajski tjesnac // Sundski tjesnac // Ormuški tjesnac |
 
 ---
 
-### Pitanje `hr_geo_315`
+### Pitanje `hr_geo_398`
 
-**Razlog promjene:** *Uklonjen spojler u pitanju ('smješten na Braču') jer previše očito navodi na točan odgovor.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je najviši planinski vrh na hrvatskim otocima smješten na Braču? | **Koji je najviši planinski vrh na hrvatskim otocima?** |
-| **Točan odgovor** | Vidova gora | **Vidova gora** |
-| **Netočni odgovori** | Vojak // Kamenjak // Televrin | Vojak // Kamenjak // Televrin |
-
----
-
-### Pitanje `hr_geo_320`
-
-**Razlog promjene:** *Pitanje je preformulirano radi veće preciznosti, uklanjajući nejasnoću oko formulacije 'spaja s još tri rijeke'.*
+**Razlog promjene:** *Distraktor 'Foveauxov prolaz' je preblizu točnom odgovoru jer se također nalazi na Novom Zelandu.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja rijeka protječe kroz Karlovac te se spaja s još tri rijeke? | **Koja od navedenih rijeka protječe kroz Karlovac, grad poznat po svoje četiri rijeke?** |
-| **Točan odgovor** | Kupa | **Kupa** |
-| **Netočni odgovori** | Sava // Drava // Una | Sava // Drava // Una |
-
----
-
-### Pitanje `hr_geo_330`
-
-**Razlog promjene:** *Pojasniti 'pirinejsko kopno'; Mulhacén je najviši vrh kontinentalne Španjolske, ali nije u Pirinejima.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je najviši planinski vrh na pirinejskom kopnu u Španjolskoj? | **Koji je najviši planinski vrh na kopnenom dijelu Španjolske?** |
-| **Točan odgovor** | Mulhacén | **Mulhacén** |
-| **Netočni odgovori** | Teide // Aneto // Pico Veleta | Teide // Aneto // Pico Veleta |
-
----
-
-### Pitanje `hr_geo_339`
-
-**Razlog promjene:** *Jedan od netočnih odgovora ('North Channel') također je tjesnac između Velike Britanije i Irske, što ga čini djelomično točnim distaktorom. Zamijenjen je.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Kako se zove tjesnac koji dijeli otok Veliku Britaniju od Otoka Irske? | **Kako se zove tjesnac koji dijeli otok Veliku Britaniju od Otoka Irske?** |
-| **Točan odgovor** | Sveti Juraj | **Sveti Juraj** |
-| **Netočni odgovori** | La Manche // North Channel // Calais | La Manche // Doverski tjesnac // Bristolski kanal |
-
----
-
-### Pitanje `hr_geo_344`
-
-**Razlog promjene:** *Etna je također aktivni otočni vulkan u Italiji. Pitanje je preformulirano kako bi se preciznije opisao Stromboli po kojem je poznat.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je jedini aktivni otočni vulkan u Italiji poznat po neprekidnim malim erupcijama? | **Koji je talijanski otočni vulkan poznat po neprekidnim malim erupcijama, zbog čega ga zovu i 'svjetionik Sredozemlja'?** |
-| **Točan odgovor** | Stromboli | **Stromboli** |
-| **Netočni odgovori** | Etna // Vezuv // Vulcano | Etna // Vezuv // Vulcano |
-
----
-
-### Pitanje `hr_geo_349`
-
-**Razlog promjene:** *Weser nije najduža rijeka u Njemačkoj. Pitanje je preformulirano da se fokusira na njen specifični ušće i nastanak.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je najduža rijeka u Njemačkoj koja se ulijeva u Sjeverno more kod Bremerhavena? | **Koja se rijeka, formirana spajanjem Werre i Fulde, ulijeva u Sjeverno more kod Bremerhavena?** |
-| **Točan odgovor** | Weser | **Weser** |
-| **Netočni odgovori** | Rajna // Laba // Dunav | Rajna // Laba // Dunav |
-
----
-
-### Pitanje `hr_geo_359`
-
-**Razlog promjene:** *Distraktor 'Kebnekaise južni' je preblizu točnom odgovoru i zbunjujući, s obzirom na to da se visina južnog vrha mijenja zbog otapanja ledenjaka, a sjeverni vrh je sada često viši. Zamijenjen je drugim planinskim vrhom.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je najviši vrh Švedske smješten u Laponskoj? | **Koji je najviši vrh Švedske smješten u Laponskoj?** |
-| **Točan odgovor** | Kebnekaise | **Kebnekaise** |
-| **Netočni odgovori** | Sarektjåkkå // Kebnekaise južni // Galdhøpiggen | Sarektjåkkå // Store Kaskasatjåkka // Galdhøpiggen |
-
----
-
-### Pitanje `hr_geo_364`
-
-**Razlog promjene:** *Tvrdnja da je Ganges 'najduža rijeka Indijskog potkontinenta' je netočna; Brahmaputra i Ind su duže. Izbačen je dio o duljini.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je najvažnija i najduža rijeka Indijskog potkontinenta, sveta u hinduizmu? | **Koja je najvažnija rijeka Indijskog potkontinenta, sveta u hinduizmu?** |
-| **Točan odgovor** | Ganges | **Ganges** |
-| **Netočni odgovori** | Ind // Brahmaputra // Yamuna | Ind // Brahmaputra // Yamuna |
-
----
-
-### Pitanje `hr_geo_370`
-
-**Razlog promjene:** *Pitanje je bilo nejasno; 'Jenisej' se najčešće odnosi na riječni sustav Jenisej-Angara-Selenga, koji je najduži, ali sama rijeka Jenisej nije najduža rijeka u Sibiru. Precizirano je da se radi o riječnom sustavu.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je najduža rijeka u Sibiru koja se ulijeva u Sjeverno ledeno more? | **Koji je najduži riječni sustav u Sibiru koji se ulijeva u Sjeverno ledeno more?** |
-| **Točan odgovor** | Jenisej | **Jenisej** |
-| **Netočni odgovori** | Ob // Lena // Amur | Ob // Lena // Amur |
-
----
-
-### Pitanje `hr_geo_386`
-
-**Razlog promjene:** *Distraktor 'Visayas' odnosi se na otočnu skupinu, a ne na pojedinačni otok; zamijenjen je otokom Samar.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je najveći otok u Filipinskom arhipelagu na kojem se nalazi Manila? | **Koji je najveći otok u Filipinskom arhipelagu na kojem se nalazi Manila?** |
-| **Točan odgovor** | Luzon | **Luzon** |
-| **Netočni odgovori** | Mindanao // Visayas // Palawan | Mindanao // Samar // Palawan |
-
----
-
-### Pitanje `hr_geo_401`
-
-**Razlog promjene:** *Reformulacija pitanja za bolji stil i prirodniji hrvatski izraz.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je najveći zaljev u Kanadi uvučen duboko u sjevernoameričko kopno? | **Koji je najveći zaljev u Kanadi, duboko uvučen u kopno Sjeverne Amerike?** |
-| **Točan odgovor** | Hudsonov zaljev | **Hudsonov zaljev** |
-| **Netočni odgovori** | Zaljev St. Lawrence // Baffinov zaljev // Meksički zaljev | Zaljev St. Lawrence // Baffinov zaljev // Meksički zaljev |
-
----
-
-### Pitanje `hr_geo_402`
-
-**Razlog promjene:** *Ispravljen gramatički oblik netočne opcije 'Aden zaljev' u 'Adenski zaljev'.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji zaljev u Atlantskom oceanu zapljuskuje zapadnu obalu Afrike oko ekvatora? | **Koji zaljev u Atlantskom oceanu zapljuskuje zapadnu obalu Afrike oko ekvatora?** |
-| **Točan odgovor** | Gvinejski zaljev | **Gvinejski zaljev** |
-| **Netočni odgovori** | Bengalski zaljev // Meksički zaljev // Aden zaljev | Bengalski zaljev // Meksički zaljev // Adenski zaljev |
-
----
-
-### Pitanje `hr_geo_405`
-
-**Razlog promjene:** *Ispravljen gramatički oblik netočne opcije 'Benin zaljev' u 'Beninski zaljev'.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Kako se zove široki morski prolaz između otoka Madagaskara i kopna Afrike? | **Kako se zove široki morski prolaz između otoka Madagaskara i kopna Afrike?** |
-| **Točan odgovor** | Mozambički kanal | **Mozambički kanal** |
-| **Netočni odgovori** | Bab-el-Mandeb // Hormuški tjesnac // Benin zaljev | Bab-el-Mandeb // Hormuški tjesnac // Beninski zaljev |
-
----
-
-### Pitanje `hr_geo_417`
-
-**Razlog promjene:** *Uklonjeno navođenje (spoiler) u pitanju preformulacijom, kako bi se izbjeglo davanje lokacije najdublje točke.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Kako se zove najdublja točka na površini Zemljine kore smještena u Marijanskoj brazdi? | **Kako se naziva najdublja poznata točka na Zemlji?** |
-| **Točan odgovor** | Depresija Challenger | **Depresija Challenger** |
-| **Netočni odgovori** | Java Deep // Puerto Rico Trench // Milwaukee Deep | Java Deep // Puerto Rico Trench // Milwaukee Deep |
-
----
-
-### Pitanje `hr_geo_421`
-
-**Razlog promjene:** *Zamijenjen distaktor 'Danakil' s 'Jezero Turkana' jer je 'Danakil' preopćenit i preblizu točnom odgovoru ('Jezero Assal' je dio Danakilske depresije).*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je najniža točka na kopnu Afrike smještena u Džibutiju? | **Koja je najniža točka na kopnu Afrike smještena u Džibutiju?** |
-| **Točan odgovor** | Jezero Assal | **Jezero Assal** |
-| **Netočni odgovori** | Depresija Qattara // Danakil // Okavango | Depresija Qattara // Jezero Turkana // Okavango |
-
----
-
-### Pitanje `hr_geo_424`
-
-**Razlog promjene:** *Zamijenjen distaktor 'Krajinski istmus' s 'Korintska prevlaka' jer 'Krajinski istmus' nije standardni geografski pojam, a 'istmus' je angliziran izraz za prevlaku.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koju usku kopnenu prevlaku koja spaja Sjevernu i Južnu Ameriku presijeca poznati kanal sagrađen 1914. godine? | **Koju usku kopnenu prevlaku koja spaja Sjevernu i Južnu Ameriku presijeca poznati kanal sagrađen 1914. godine?** |
-| **Točan odgovor** | Panamska prevlaka | **Panamska prevlaka** |
-| **Netočni odgovori** | Sueska prevlaka // Tehuantepec // Krajinski istmus | Sueska prevlaka // Tehuantepec // Korintska prevlaka |
-
----
-
-### Pitanje `hr_geo_425`
-
-**Razlog promjene:** *Zamijenjen distaktor 'Kranjska prevlaka' s 'Perekopska prevlaka' jer 'Kranjska prevlaka' nije standardni geografski pojam.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koju kopnenu prevlaku između Azije i Afrike presijeca kanal koji spaja Sredozemno i Crveno more? | **Koju kopnenu prevlaku između Azije i Afrike presijeca kanal koji spaja Sredozemno i Crveno more?** |
-| **Točan odgovor** | Sueska prevlaka | **Sueska prevlaka** |
-| **Netočni odgovori** | Panamska prevlaka // Korintska prevlaka // Kranjska prevlaka | Panamska prevlaka // Korintska prevlaka // Perekopska prevlaka |
+| **Pitanje** | Koji prolaz dijeli Sjeverni i Južni otok Novog Zelanda? | **Koji prolaz dijeli Sjeverni i Južni otok Novog Zelanda?** |
+| **Točan odgovor** | Cookov prolaz | **Cookov prolaz** |
+| **Netočni odgovori** | Foveauxov prolaz // Bassov prolaz // Torresov prolaz | Magellanov prolaz // Bassov prolaz // Torresov prolaz |
 
 ---
 
 ### Pitanje `hr_geo_428`
 
-**Razlog promjene:** *Uravnotežena duljina distraktora i zamijenjeni nepostojeći/preuski distraktori.*
+**Razlog promjene:** *Ispravljen pravopis u jednom distaktoru i preformuliran distaktor koji nije bio standardiziran.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
 | **Pitanje** | Koji je najveći koraljni greben na svijetu smješten uz obalu Australije? | **Koji je najveći koraljni greben na svijetu smješten uz obalu Australije?** |
 | **Točan odgovor** | Veliki koraljni greben | **Veliki koraljni greben** |
-| **Netočni odgovori** | Mesoamerički greben // Belize reef // Acapulco reef | Mesoamerički koraljni greben // NovoKaledonski koraljni greben // Crveno more greben |
+| **Netočni odgovori** | Mesoamerički koraljni greben // NovoKaledonski koraljni greben // Crveno more greben | Mezoamerički koraljni greben // Novokaledonski koraljni greben // Greben Florida Keys |
 
 ---
 
-### Pitanje `hr_geo_433`
+### Pitanje `hr_geo_429`
 
-**Razlog promjene:** *Pojednostavljen točan odgovor za bolju uravnoteženost duljine.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Kako se zove pojava spuštanja i podizanja razine mora uzrokovana djelovanjem Mjeseca i Sunca? | **Kako se zove pojava spuštanja i podizanja razine mora uzrokovana djelovanjem Mjeseca i Sunca?** |
-| **Točan odgovor** | Morske mijene (Plima i oseka) | **Morske mijene** |
-| **Netočni odgovori** | Morske struje // Tsunami // Valovi | Morske struje // Tsunami // Valovi |
-
----
-
-### Pitanje `hr_geo_435`
-
-**Razlog promjene:** *Ispravljen anglicizam i nekonzistentnost u nazivima struja u distractorima.*
+**Razlog promjene:** *Ispravljen pravopis u pitanju (veliko/malo slovo).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Kako se zove hladna morska struja koja teče uz zapadnu obalu Južne Amerike? | **Kako se zove hladna morska struja koja teče uz zapadnu obalu Južne Amerike?** |
-| **Točan odgovor** | Humboldtova struja | **Humboldtova struja** |
-| **Netočni odgovori** | Golfska struja // Kuroshio // Canary struja | Golfska struja // Kuroshio struja // Kanarska struja |
+| **Pitanje** | Kako se zove područje u Središnjoj Africi gdje rijeka Okavango utječe u pustinju Kalahari? | **Kako se zove područje u središnjoj Africi gdje rijeka Okavango utječe u pustinju Kalahari?** |
+| **Točan odgovor** | Delta Okavanga | **Delta Okavanga** |
+| **Netočni odgovori** | Okavango bazen // Sudd // Makgadikgadi | Okavango bazen // Sudd // Makgadikgadi |
 
 ---
 
 ### Pitanje `hr_geo_438`
 
-**Razlog promjene:** *Ispravljena pravopisna pogreška (anglicizam/ne-hrvatski oblik) u distraktoru.*
+**Razlog promjene:** *Ispravljen pravopis u pitanju (veliko/malo slovo).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Kako se zove sezonski vjetar u Južnoj Aziji koji donosi obilne ljetne kiše? | **Kako se zove sezonski vjetar u Južnoj Aziji koji donosi obilne ljetne kiše?** |
+| **Pitanje** | Kako se zove sezonski vjetar u Južnoj Aziji koji donosi obilne ljetne kiše? | **Kako se zove sezonski vjetar u južnoj Aziji koji donosi obilne ljetne kiše?** |
 | **Točan odgovor** | Monsun | **Monsun** |
-| **Netočni odgovori** | Pasat // Bura // Siroko | Pasat // Bura // Široko |
+| **Netočni odgovori** | Pasat // Bura // Široko | Pasat // Bura // Široko |
 
 ---
 
-### Pitanje `hr_geo_443`
+### Pitanje `hr_geo_444`
 
-**Razlog promjene:** *Pojednostavljen točan odgovor radi uravnoteženosti duljine s distractorima.*
+**Razlog promjene:** *Ispravljen pravopis u pitanju (veliko/malo slovo).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Kako se zove najstariji nacionalni park na svijetu proglašen 1872. godine u SAD-u? | **Kako se zove najstariji nacionalni park na svijetu proglašen 1872. godine u SAD-u?** |
-| **Točan odgovor** | Nacionalni park Yellowstone | **Yellowstone** |
-| **Netočni odgovori** | Yosemite // Grand Canyon // Zion | Yosemite // Grand Canyon // Zion |
+| **Pitanje** | U kojoj se američkoj saveznoj državi nalazi većina Nacionalnog parka Yellowstone? | **U kojoj se američkoj saveznoj državi nalazi većina nacionalnog parka Yellowstone?** |
+| **Točan odgovor** | Wyoming | **Wyoming** |
+| **Netočni odgovori** | Montana // Idaho // Colorado | Montana // Idaho // Colorado |
+
+---
+
+### Pitanje `hr_geo_445`
+
+**Razlog promjene:** *Ispravljen pravopis u pitanju (veliko/malo slovo).*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | U kojoj se američkoj saveznoj državi nalazi Nacionalni park Yosemite? | **U kojoj se američkoj saveznoj državi nalazi nacionalni park Yosemite?** |
+| **Točan odgovor** | Kalifornija | **Kalifornija** |
+| **Netočni odgovori** | Nevada // Oregon // Washington | Nevada // Oregon // Washington |
+
+---
+
+### Pitanje `hr_geo_446`
+
+**Razlog promjene:** *Ispravljen pravopis u pitanju (veliko/malo slovo).*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | U kojoj se afričkoj državi nalazi poznati Nacionalni park Serengeti? | **U kojoj se afričkoj državi nalazi poznati nacionalni park Serengeti?** |
+| **Točan odgovor** | Tanzanija | **Tanzanija** |
+| **Netočni odgovori** | Kenija // Uganda // Bocvana | Kenija // Uganda // Bocvana |
 
 ---
 
 ### Pitanje `hr_geo_447`
 
-**Razlog promjene:** *Pojednostavljen točan odgovor radi uravnoteženosti duljine s distractorima.*
+**Razlog promjene:** *Ispravljen pravopis u pitanju (veliko/malo slovo).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | U kojoj se afričkoj državi nalazi poznati Nacionalni park Kruger? | **U kojoj se afričkoj državi nalazi poznati Nacionalni park Kruger?** |
-| **Točan odgovor** | Južnoafrička Republika | **Južna Afrika** |
+| **Pitanje** | U kojoj se afričkoj državi nalazi poznati Nacionalni park Kruger? | **U kojoj se afričkoj državi nalazi poznati nacionalni park Kruger?** |
+| **Točan odgovor** | Južna Afrika | **Južna Afrika** |
 | **Netočni odgovori** | Namibija // Zimbabve // Zambija | Namibija // Zimbabve // Zambija |
 
 ---
 
 ### Pitanje `hr_geo_448`
 
-**Razlog promjene:** *Preciznija terminologija u pitanju ('špiljski sustav' umjesto 'planinska pećina / špiljski sustav').*
+**Razlog promjene:** *Ispravljen pravopis u pitanju ('najduži' u 'najdulji').*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja je najduža planinska pećina / špiljski sustav na svijetu smješten u Kentuckyju? | **Koja je najduži špiljski sustav na svijetu smješten u Kentuckyju?** |
+| **Pitanje** | Koja je najduži špiljski sustav na svijetu smješten u Kentuckyju? | **Koja je najdulji špiljski sustav na svijetu smješten u Kentuckyju?** |
 | **Točan odgovor** | Mamutska špilja | **Mamutska špilja** |
 | **Netočni odgovori** | Postojnska jama // Špilja Krubera // Son Doong | Postojnska jama // Špilja Krubera // Son Doong |
 
 ---
 
-### Pitanje `hr_geo_459`
+### Pitanje `hr_geo_449`
 
-**Razlog promjene:** *Distraktor 'Deception Island' je također aktivan vulkan, što stvara dvosmislenost. Zamijenjen je s 'Mount Siple' koji je ugasli vulkan.*
+**Razlog promjene:** *Usklađena terminologija ('pećina' u 'špilja') radi dosljednosti i preciznosti.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji se aktivan vulkan nalazi na Antarktici? | **Koji se aktivan vulkan nalazi na Antarktici?** |
-| **Točan odgovor** | Mount Erebus | **Mount Erebus** |
-| **Netočni odgovori** | Mount Vinson // Mount Terror // Deception Island | Mount Vinson // Mount Terror // Mount Siple |
+| **Pitanje** | Koja je najdublja poznata pećina na svijetu smještena u Gruziji? | **Koja je najdublja poznata špilja na svijetu smještena u Gruziji?** |
+| **Točan odgovor** | Špilja Veryovkina | **Špilja Veryovkina** |
+| **Netočni odgovori** | Mamutska špilja // Postojnska jama // Eisriesenwelt | Mamutska špilja // Postojnska jama // Eisriesenwelt |
 
 ---
 
-### Pitanje `hr_geo_467`
+### Pitanje `hr_geo_471`
 
-**Razlog promjene:** *Distraktor 'Nysa' (Lužička Nisa) također čini dio granice između Poljske i Njemačke (linija Odra-Nisa), pa je djelomično točan. Zamijenjen je s 'Warta'.*
+**Razlog promjene:** *Distraktori su bili preočito netočni ili potpuno izmišljeni. Zamijenjeni su vjerodostojnijim, ali netočnim, nazivima rijeka ili pojmova vezanih uz Nil.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja rijeka tvori dio prirodne granice između Poljske i Njemačke? | **Koja rijeka tvori dio prirodne granice između Poljske i Njemačke?** |
-| **Točan odgovor** | Odra | **Odra** |
-| **Netočni odgovori** | Wisła (Visla) // Elba // Nysa | Wisła (Visla) // Elba // Warta |
+| **Pitanje** | Koje dvije rijeke se spajaju u Kartumu i tvore glavni tok Nila? | **Koje dvije rijeke se spajaju u Kartumu i tvore glavni tok Nila?** |
+| **Točan odgovor** | Plavi Nil i Bijeli Nil | **Plavi Nil i Bijeli Nil** |
+| **Netočni odgovori** | Crveni Nil i Zeleni Nil // Gornji Nil i Donji Nil // Istočni Nil i Zapadni Nil | Sobat i Atbara // Nil i Kagera // Gornji Nil i Donji Nil |
 
 ---
 
-### Pitanje `hr_geo_473`
+### Pitanje `hr_geo_477`
 
-**Razlog promjene:** *Pitanje 'Koja je najduža rijeka u Sjevernoj Americi?' je dvoznamenkasto jer duljina rijeke može ovisiti o mjerenju glavnog toka ili cijelog riječnog sustava. Preformulirano je kako bi odgovor 'Missouri' bio nedvosmisleno točan kao rijeka s najduljim glavnim tokom (prije ušća u Mississippi).*
+**Razlog promjene:** *Jezero Maracaibo tehnički je zaljev ili laguna povezana s morem, a ne 'pravo' jezero. Titicaca je najveće slatkovodno jezero po površini u Južnoj Americi. Pitanje je preformulirano kako bi se izbjegle dvosmislenosti.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja je najduža rijeka u Sjevernoj Americi? | **Koja rijeka ima najdulji glavni tok u Sjevernoj Americi?** |
-| **Točan odgovor** | Missouri | **Missouri** |
-| **Netočni odgovori** | Mississippi // Rio Grande // Yukon | Mississippi // Rio Grande // Yukon |
+| **Pitanje** | Kako se zove najveće jezero u Južnoj Americi po površini? | **Kako se zove najveće slatkovodno jezero u Južnoj Americi po površini?** |
+| **Točan odgovor** | Maracaibo | **Titicaca** |
+| **Netočni odgovori** | Titicaca // Poopó // Nahuel Huapi | Maracaibo // Poopó // Nahuel Huapi |
 
 ---
 
 ### Pitanje `hr_geo_481`
 
-**Razlog promjene:** *Uklanjanje engleskog naziva iz točnog odgovora radi uravnoteženja duljine i čistoće hrvatskog jezika.*
+**Razlog promjene:** *Tekst pitanja sadržavao je preočit trag ka točnom odgovoru. Pitanje je preformulirano.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Kako se zove veliko slano jezero u državi Utah u SAD-u? | **Kako se zove veliko slano jezero u državi Utah u SAD-u?** |
-| **Točan odgovor** | Veliko slano jezero (Great Salt Lake) | **Veliko slano jezero** |
+| **Pitanje** | Kako se zove veliko slano jezero u državi Utah u SAD-u? | **Koje je najveće jezero u državi Utah u SAD-u, poznato po visokom salinitetu?** |
+| **Točan odgovor** | Veliko slano jezero | **Veliko slano jezero** |
 | **Netočni odgovori** | Jezero Tahoe // Jezero Mead // Jezero Powell | Jezero Tahoe // Jezero Mead // Jezero Powell |
 
 ---
 
 ### Pitanje `hr_geo_482`
 
-**Razlog promjene:** *Uklanjanje alternativnog imena iz točnog odgovora radi uravnoteženja duljine i veće fokusiranosti na primarni hrvatski naziv.*
+**Razlog promjene:** *Tekst pitanja sadržavao je preočit trag ka točnom odgovoru ('Malavi'). Pitanje je preformulirano da ne spominje državu s istim korijenom imena kao jezero.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje afričko jezero dijele Malavi, Mozambik i Tanzanija? | **Koje afričko jezero dijele Malavi, Mozambik i Tanzanija?** |
-| **Točan odgovor** | Jezero Malavi (Nyasa) | **Jezero Malavi** |
+| **Pitanje** | Koje afričko jezero dijele Malavi, Mozambik i Tanzanija? | **Koje se afričko jezero nalazi na granici Mozambika i Tanzanije, te je treće po veličini u Africi?** |
+| **Točan odgovor** | Jezero Malavi | **Jezero Malavi** |
 | **Netočni odgovori** | Jezero Tanganjika // Jezero Viktorija // Jezero Turkana | Jezero Tanganjika // Jezero Viktorija // Jezero Turkana |
 
 ---
 
-### Pitanje `hr_geo_486`
+### Pitanje `hr_geo_492`
 
-**Razlog promjene:** *Uklanjanje engleskih naziva iz odgovora radi uravnoteženja duljine i čistoće hrvatskog jezika.*
+**Razlog promjene:** *Tekst pitanja sadržavao je preočit trag ka točnom odgovoru ('grčkoj mitologiji'). Pitanje je preformulirano.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje jezero u Kanadi je najveće koje se u potpunosti nalazi unutar njezinih granica? | **Koje je jezero u Kanadi najveće koje se u potpunosti nalazi unutar njezinih granica?** |
-| **Točan odgovor** | Medvjeđe jezero (Great Bear Lake) | **Medvjeđe jezero** |
-| **Netočni odgovori** | Jezero Winnipeg // Robovsko jezero (Great Slave Lake) // Jezero Ontario | Jezero Winnipeg // Robovsko jezero // Jezero Ontario |
+| **Pitanje** | U kojoj se državi nalazi planina Olimp, u grčkoj mitologiji dom bogova? | **U kojoj se državi nalazi planina Olimp, poznata po impresivnoj visini i značaju u drevnim pričama?** |
+| **Točan odgovor** | Grčka | **Grčka** |
+| **Netočni odgovori** | Turska // Albanija // Sjeverna Makedonija | Turska // Albanija // Sjeverna Makedonija |
 
 ---
 
-### Pitanje `hr_geo_489`
+### Pitanje `hr_geo_531`
 
-**Razlog promjene:** *Pitanje netočno opisuje lokaciju Stjenjaka kao 'duž zapadne obale' i pogrešno navodi opseg. Preformulirano je radi preciznosti i uklonjen je engleski naziv iz točnog odgovora.*
+**Razlog promjene:** *Bolja formulacija pitanja.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje gorje se proteže duž zapadne obale Sjeverne Amerike od Aljaske do Meksika? | **Koje se veliko gorje proteže kroz zapadni dio Sjeverne Amerike?** |
-| **Točan odgovor** | Stjenjak (Rocky Mountains) | **Stjenjak** |
-| **Netočni odgovori** | Apalači // Sierra Nevada // Cascade Range | Apalači // Sierra Nevada // Cascade Range |
+| **Pitanje** | Koja je najgušće naseljena veća država na svijetu, isključujući mikrodržave i gradove-države? | **Koja je najgušće naseljena velika država na svijetu, isključujući mikrodržave i gradove-države?** |
+| **Točan odgovor** | Bangladeš | **Bangladeš** |
+| **Netočni odgovori** | Indija // Nizozemska // Južna Koreja | Indija // Nizozemska // Južna Koreja |
 
 ---
 
-### Pitanje `hr_geo_496`
+### Pitanje `hr_geo_536`
 
-**Razlog promjene:** *Pitanje sadrži korijen točnog odgovora ('Namib') što je preočita подскаска. Preformulirano je da se izbjegne navođenje.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | U kojoj se državi nalazi pustinja Namib, jedna od najstarijih pustinja na svijetu? | **U kojoj se državi nalazi jedna od najstarijih pustinja na svijetu, poznata po impresivnim pješčanim dinama duž obale jugozapadne Afrike?** |
-| **Točan odgovor** | Namibija | **Namibija** |
-| **Netočni odgovori** | Angola // Bocvana // Južnoafrička Republika | Angola // Bocvana // Južnoafrička Republika |
-
----
-
-### Pitanje `hr_geo_497`
-
-**Razlog promjene:** *Pitanje sadrži preočiti trag ('Velika') koji upućuje na točan odgovor. Preformulirano je kako bi se uklonilo navođenje.*
+**Razlog promjene:** *Preciznija terminologija (država umjesto zemlja).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja pustinja pokriva velik dio unutrašnjosti Australije i naziva se 'Velika'? | **Koja velika pustinja pokriva značajan dio sjeverozapadne unutrašnjosti Australije?** |
-| **Točan odgovor** | Velika pješčana pustinja | **Velika pješčana pustinja** |
-| **Netočni odgovori** | Kalahari // Sonoran // Mojave | Kalahari // Sonoran // Mojave |
-
----
-
-### Pitanje `hr_geo_510`
-
-**Razlog promjene:** *Navođenje (spoiler) u pitanju. Uklonjen dio o 'Panamskoj prevlaci'.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji kanal povezuje Atlantski i Tihi ocean, presijecajući Panamsku prevlaku? | **Koji kanal povezuje Atlantski i Tihi ocean?** |
-| **Točan odgovor** | Panamski kanal | **Panamski kanal** |
-| **Netočni odgovori** | Sueski kanal // Kielski kanal // Korintski kanal | Sueski kanal // Kielski kanal // Korintski kanal |
-
----
-
-### Pitanje `hr_geo_516`
-
-**Razlog promjene:** *Navođenje (spoiler) u pitanju. Preformulirano da ne sadrži korijen točnog odgovora.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji umjetni kanal u Grčkoj presijeca Korintsku prevlaku? | **Koji umjetni kanal u Grčkoj povezuje Jonsko i Egejsko more?** |
-| **Točan odgovor** | Korintski kanal | **Korintski kanal** |
-| **Netočni odgovori** | Kielski kanal // Sueski kanal // Panamski kanal | Kielski kanal // Sueski kanal // Panamski kanal |
-
----
-
-### Pitanje `hr_geo_520`
-
-**Razlog promjene:** *Pravopisna točnost / Terminologija. Ispravan naziv tjesnaca je Malajski tjesnac (Strait of Malacca), 'Malaka' je grad.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji tjesnac odvaja Malajski poluotok od otoka Sumatre? | **Koji tjesnac odvaja Malajski poluotok od otoka Sumatre?** |
-| **Točan odgovor** | Malaka | **Malajski tjesnac** |
-| **Netočni odgovori** | Sunda // Lombok // Makassar | Sunda // Lombok // Makassar |
-
----
-
-### Pitanje `hr_geo_538`
-
-**Razlog promjene:** *Rusija ima veći udio teritorija i stanovništva u Europi nego Turska, stoga bolje odgovara opisu 'velik dio stanovništva i teritorija na dva kontinenta'.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja euroazijska država ima velik dio stanovništva i teritorija na dva kontinenta, Europi i Aziji? | **Koja euroazijska država ima velik dio stanovništva i teritorija na dva kontinenta, Europi i Aziji?** |
-| **Točan odgovor** | Turska | **Rusija** |
-| **Netočni odgovori** | Rusija // Egipat // Kazahstan | Turska // Egipat // Kazahstan |
+| **Pitanje** | Koja je jedina zemlja Južne Amerike koja graniči i s Karipskim morem i s Tihim oceanom? | **Koja je jedina država Južne Amerike koja graniči i s Karipskim morem i s Tihim oceanom?** |
+| **Točan odgovor** | Kolumbija | **Kolumbija** |
+| **Netočni odgovori** | Venecuela // Panama // Ekvador | Venecuela // Panama // Ekvador |
 
 ---
 
 ### Pitanje `hr_geo_542`
 
-**Razlog promjene:** *Prema novijim procjenama (urbana aglomeracija), Kairo je najveći grad u Africi po broju stanovnika. Lagos je sporan i često manji.*
+**Razlog promjene:** *Pitanje je dvoznačno zbog različitih definicija 'grada'. Preciznije je navesti 'metropolitansko područje' kako bi odgovor bio nedvosmislen.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji grad je najveći po broju stanovnika u Africi? | **Koji grad je najveći po broju stanovnika u Africi?** |
-| **Točan odgovor** | Lagos | **Kairo** |
-| **Netočni odgovori** | Kairo // Kinshasa // Johannesburg | Lagos // Kinshasa // Johannesburg |
-
----
-
-### Pitanje `hr_geo_550`
-
-**Razlog promjene:** *Točnije geografsko pozicioniranje Islanda, koji se nalazi u sjevernom Atlantiku, a ne izravno u Sjevernom ledenom oceanu.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji otok u Sjevernom ledenom oceanu poznat je po vulkanskoj i geotermalnoj aktivnosti te gejzirima? | **Koji otok, smješten na sjevernom Atlantiku blizu Arktičkog kruga, poznat je po vulkanskoj i geotermalnoj aktivnosti te gejzirima?** |
-| **Točan odgovor** | Island | **Island** |
-| **Netočni odgovori** | Grenland // Svalbard // Farski otoci | Grenland // Svalbard // Farski otoci |
+| **Pitanje** | Koji grad je najveći po broju stanovnika u Africi? | **Koji je grad s najvećim metropolitanskim područjem po broju stanovnika u Africi?** |
+| **Točan odgovor** | Kairo | **Kairo** |
+| **Netočni odgovori** | Lagos // Kinshasa // Johannesburg | Lagos // Kinshasa // Johannesburg |
 
 ---
 
 ### Pitanje `hr_geo_554`
 
-**Razlog promjene:** *Točniji naziv službene valute Kine je Renminbi. 'Juan' je obračunska jedinica, a ne naziv valute.*
+**Razlog promjene:** *Distaktor 'Juan' je pogrešno napisan i nema smisla. Zamijenjen je s 'Yuan' koji je jedinica kineske valute i česta zabuna.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
 | **Pitanje** | Koja je službena valuta Kine? | **Koja je službena valuta Kine?** |
-| **Točan odgovor** | Juan (renminbi) | **Renminbi** |
-| **Netočni odgovori** | Jen // Won // Dolar | Jen // Won // Juan |
+| **Točan odgovor** | Renminbi | **Renminbi** |
+| **Netočni odgovori** | Jen // Won // Juan | Jen // Won // Yuan |
 
 ---
 
-### Pitanje `hr_geo_592`
+### Pitanje `hr_geo_555`
 
-**Razlog promjene:** *Preformulacija pitanja radi veće jasnoće i preciznosti, uklanjajući dvosmislenost s referencom na euro.*
+**Razlog promjene:** *Distaktor 'Juan' je pogrešno napisan. Zamijenjen je s 'Yuan'.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje se dvije države, uz euro, mogu spomenuti kao korisnice švicarskog franka? | **Koje su dvije države čija je službena valuta švicarski franak?** |
-| **Točan odgovor** | Švicarska i Lihtenštajn | **Švicarska i Lihtenštajn** |
-| **Netočni odgovori** | Švicarska i Austrija // Švicarska i Njemačka // Švicarska i Francuska | Švicarska i Austrija // Švicarska i Njemačka // Švicarska i Francuska |
+| **Pitanje** | Koja je službena valuta Južne Koreje? | **Koja je službena valuta Južne Koreje?** |
+| **Točan odgovor** | Won | **Won** |
+| **Netočni odgovori** | Jen // Juan // Ringgit | Jen // Yuan // Ringgit |
 
 ---
 
 ### Pitanje `hr_geo_606`
 
-**Razlog promjene:** *Uklonjen je izravni spoiler u pitanju ('jezik urođeničkog naroda Maora') jer odgovor sadrži korijen te riječi.*
+**Razlog promjene:** *Pitanje je preformulirano kako bi se preciziralo da se traži autohtoni službeni jezik, budući da Novi Zeland ima više službenih jezika osim engleskog (maorski i novozelandski znakovni jezik).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je službeni jezik Novog Zelanda uz engleski, jezik urođeničkog naroda Maora? | **Koji je službeni jezik Novog Zelanda uz engleski?** |
+| **Pitanje** | Koji je službeni jezik Novog Zelanda uz engleski? | **Koji je autohtoni službeni jezik Novog Zelanda uz engleski?** |
 | **Točan odgovor** | Maorski | **Maorski** |
 | **Netočni odgovori** | Havajski // Fidžijski // Samoanski | Havajski // Fidžijski // Samoanski |
 
 ---
 
-### Pitanje `hr_geo_607`
+### Pitanje `hr_geo_608`
 
-**Razlog promjene:** *Uklonjen opisni dio pitanja ('jezik urođeničkog naroda') jer može služiti kao blagi trag.*
+**Razlog promjene:** *Pitanje je preformulirano kako bi se preciziralo da se traži najrašireniji autohtoni službeni jezik, budući da Peru ima više autohtonih službenih jezika osim španjolskog (npr. kečua i ajmara).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je službeni jezik Paragvaja uz španjolski, jezik urođeničkog naroda? | **Koji je službeni jezik Paragvaja uz španjolski?** |
-| **Točan odgovor** | Gvarani | **Gvarani** |
-| **Netočni odgovori** | Kečua // Ajmara // Mapuče | Kečua // Ajmara // Mapuče |
+| **Pitanje** | Koji je službeni jezik Perua uz španjolski? | **Koji je najrašireniji autohtoni službeni jezik Perua uz španjolski?** |
+| **Točan odgovor** | Kečua | **Kečua** |
+| **Netočni odgovori** | Gvarani // Ajmara // Mapuče | Gvarani // Ajmara // Mapuče |
+
+---
+
+### Pitanje `hr_geo_613`
+
+**Razlog promjene:** *Pitanje je preformulirano kako bi se preciznije opisala albanska zastava i jasno razlikovala od zastava drugih zemalja koje također sadrže simbol dvoglavog orla (npr. Srbija, Crna Gora) unutar grba.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koja europska država ima na svojoj zastavi dvoglavog orla? | **Koja europska država na svojoj zastavi ima crnog dvoglavog orla na crvenoj pozadini?** |
+| **Točan odgovor** | Albanija | **Albanija** |
+| **Netočni odgovori** | Grčka // Srbija // Crna Gora | Grčka // Srbija // Crna Gora |
 
 ---
 
 ### Pitanje `hr_geo_631`
 
-**Razlog promjene:** *Preformulirano pitanje radi veće geografske preciznosti i ispravljanja naziva (nije 'država' nego 'oblast').*
+**Razlog promjene:** *Bjelorusija nije ruska eksklava.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja se država nalazi između Rusije i tri baltičke države, poznata kao ruska eksklava? | **Koja se ruska eksklava nalazi na obali Baltičkog mora, između Litve i Poljske?** |
+| **Pitanje** | Koja se ruska eksklava nalazi na obali Baltičkog mora, između Litve i Poljske? | **Koja se ruska eksklava nalazi na obali Baltičkog mora, između Litve i Poljske?** |
 | **Točan odgovor** | Kalinjingradska oblast | **Kalinjingradska oblast** |
-| **Netočni odgovori** | Bjelorusija // Karelija // Pskovska oblast | Bjelorusija // Karelija // Pskovska oblast |
-
----
-
-### Pitanje `hr_geo_636`
-
-**Razlog promjene:** *Distraktor 'Kraljevina SHS' je previše povezan s točnim odgovorom ('Jugoslavija'), zamijenjen je jasnijim distaktorom.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Kako se zvala savezna država koja je prethodila današnjoj Srbiji, Crnoj Gori i drugim balkanskim državama? | **Kako se zvala savezna država koja je prethodila današnjoj Srbiji, Crnoj Gori i drugim balkanskim državama?** |
-| **Točan odgovor** | Jugoslavija | **Jugoslavija** |
-| **Netočni odgovori** | Otomansko Carstvo // Austro-Ugarska // Kraljevina SHS | Otomansko Carstvo // Austro-Ugarska // Bizantsko Carstvo |
-
----
-
-### Pitanje `hr_geo_643`
-
-**Razlog promjene:** *Skraćen točan odgovor radi izbjegavanja ponavljanja i duljinske pristranosti.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je bivša španjolska valuta zamijenjena eurom 2002. godine? | **Koja je bivša španjolska valuta zamijenjena eurom 2002. godine?** |
-| **Točan odgovor** | Španjolska pezeta | **Pezeta** |
-| **Netočni odgovori** | Escudo // Lira // Franak | Escudo // Lira // Franak |
-
----
-
-### Pitanje `hr_geo_646`
-
-**Razlog promjene:** *Skraćen točan odgovor radi izbjegavanja ponavljanja i duljinske pristranosti.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je službena valuta Iraka? | **Koja je službena valuta Iraka?** |
-| **Točan odgovor** | Irački dinar | **Dinar** |
-| **Netočni odgovori** | Rijal // Dirham // Funta | Rijal // Dirham // Funta |
-
----
-
-### Pitanje `hr_geo_647`
-
-**Razlog promjene:** *Skraćen točan odgovor radi izbjegavanja ponavljanja i duljinske pristranosti.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je službena valuta Jordana? | **Koja je službena valuta Jordana?** |
-| **Točan odgovor** | Jordanski dinar | **Dinar** |
-| **Netočni odgovori** | Rijal // Dirham // Funta | Rijal // Dirham // Funta |
+| **Netočni odgovori** | Bjelorusija // Karelija // Pskovska oblast | Murmanska oblast // Karelija // Pskovska oblast |
 
 ---
 
 ### Pitanje `hr_geo_653`
 
-**Razlog promjene:** *Činjenična točnost. Od 2018. hebrejski je jedini službeni jezik Izraela, dok arapski ima poseban status. Pitanje je preformulirano kako bi to odražavalo.*
+**Razlog promjene:** *Distraktor 'Arapski' je previše sličan informaciji u pitanju o statusu arapskog jezika, što ga čini zbunjujućim netočnim odgovorom. Zamijenjen je s 'Engleski'.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je službeni jezik Izraela uz arapski, koji se koristi u svakodnevnom životu? | **Koji je službeni jezik Izraela, dok arapski ima poseban status?** |
+| **Pitanje** | Koji je službeni jezik Izraela, dok arapski ima poseban status? | **Koji je službeni jezik Izraela, dok arapski ima poseban status?** |
 | **Točan odgovor** | Hebrejski | **Hebrejski** |
-| **Netočni odgovori** | Jidiš // Aramejski // Arapski | Jidiš // Aramejski // Arapski |
+| **Netočni odgovori** | Jidiš // Aramejski // Arapski | Jidiš // Aramejski // Engleski |
 
 ---
 
-### Pitanje `hr_geo_654`
+### Pitanje `hr_geo_656`
 
-**Razlog promjene:** *Činjenična netočnost u formulaciji pitanja ('većine zemalja bivše Jugoslavije'). Pitanje je preformulirano da bude preciznije.*
+**Razlog promjene:** *Distraktor 'Flamanski' je previše sličan ili podvrsta nizozemskog jezika, što ga čini zbunjujućim. Zamijenjen je s 'Švedski'.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je službeni jezik većine zemalja bivše Jugoslavije, poput Srbije? | **Koji je službeni jezik Srbije?** |
-| **Točan odgovor** | Srpski | **Srpski** |
-| **Netočni odgovori** | Ruski // Bugarski // Rumunjski | Ruski // Bugarski // Rumunjski |
+| **Pitanje** | Koji je službeni jezik Nizozemske? | **Koji je službeni jezik Nizozemske?** |
+| **Točan odgovor** | Nizozemski | **Nizozemski** |
+| **Netočni odgovori** | Njemački // Flamanski // Danski | Njemački // Danski // Švedski |
 
 ---
 
-### Pitanje `hr_geo_668`
+### Pitanje `hr_geo_674`
 
-**Razlog promjene:** *Činjenična netočnost i nepreciznost. 'Renminbi' je naziv valute, a 'juan' je njezina osnovna jedinica. Pitanje je preformulirano kako bi se tražila osnovna jedinica valute.*
+**Razlog promjene:** *Ispravljena neravnoteža u duljini točnog i netočnih odgovora radi usklađenosti s kriterijima. Netočni odgovori su prošireni kako bi bili sličnije duljine točnom odgovoru.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja je službena valuta Kine, poznata i pod imenom 'renminbi'? | **Kako se naziva osnovna jedinica kineske valute, koja je službeno poznata kao renminbi?** |
-| **Točan odgovor** | Juan | **Juan** |
-| **Netočni odgovori** | Jen // Won // Dong | Jen // Won // Dong |
+| **Pitanje** | Koja je službena valuta Bosne i Hercegovine? | **Koja je službena valuta Bosne i Hercegovine?** |
+| **Točan odgovor** | Konvertibilna marka | **Konvertibilna marka** |
+| **Netočni odgovori** | Dinar // Kuna // Forinta | Bosanski dinar // Hrvatska kuna // Mađarska forinta |
 
 ---
 
-### Pitanje `hr_geo_683`
+### Pitanje `hr_geo_677`
 
-**Razlog promjene:** *Blago preformulirana rečenica radi boljeg hrvatskog izraza.*
+**Razlog promjene:** *Preformulirano pitanje za bolji protok i zamijenjen distraktor (Rawalpindi je bio privremeni glavni grad, što ga čini zbunjujućim distaktorom).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja državna granica se smatra najduljom na svijetu kada se zbroje svi njezini dijelovi, uključujući granicu s Aljaskom? | **Koja državna granica se smatra najduljom na svijetu kada se uzmu u obzir svi njezini dijelovi, uključujući granicu s Aljaskom?** |
-| **Točan odgovor** | Granica između SAD-a i Kanade | **Granica između SAD-a i Kanade** |
-| **Netočni odgovori** | Granica između Rusije i Kazahstana // Granica između Kine i Mongolije // Granica između Argentine i Čilea | Granica između Rusije i Kazahstana // Granica između Kine i Mongolije // Granica između Argentine i Čilea |
+| **Pitanje** | Koji je grad bio glavni grad Pakistana prije nego što je to postao Islamabad? | **Koji je grad bio glavni grad Pakistana prije nego što je glavni grad premješten u Islamabad?** |
+| **Točan odgovor** | Karachi | **Karachi** |
+| **Netočni odgovori** | Lahore // Peshawar // Rawalpindi | Lahore // Peshawar // Faisalabad |
+
+---
+
+### Pitanje `hr_geo_678`
+
+**Razlog promjene:** *Preformulirano pitanje za bolji protok i jasnoću.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji je grad bio glavni grad Kazahstana prije nego što je to postala Astana 1997. godine? | **Koji je grad bio glavni grad Kazahstana prije nego što je Astana postala glavni grad 1997. godine?** |
+| **Točan odgovor** | Almaty | **Almaty** |
+| **Netočni odgovori** | Šimkent // Karaganda // Aktobe | Šimkent // Karaganda // Aktobe |
+
+---
+
+### Pitanje `hr_geo_679`
+
+**Razlog promjene:** *Preformulirano pitanje za bolji protok i uklonjen anglizirani naziv 'Rangoon' iz točnog odgovora radi dosljednosti s hrvatskim jezikom.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji je grad bio glavni grad Mjanmara prije nego što je to postao Naypyidaw 2005. godine? | **Koji je grad bio glavni grad Mjanmara prije nego što je Naypyidaw postao glavni grad 2005. godine?** |
+| **Točan odgovor** | Yangon (Rangoon) | **Yangon** |
+| **Netočni odgovori** | Mandalay // Bagan // Taunggyi | Mandalay // Bagan // Taunggyi |
+
+---
+
+### Pitanje `hr_geo_680`
+
+**Razlog promjene:** *Preformulirano pitanje za bolji protok.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji je grad bio glavni grad Tanzanije prije nego što je to službeno postala Dodoma? | **Koji je grad bio glavni grad Tanzanije prije nego što je Dodoma službeno postala glavni grad?** |
+| **Točan odgovor** | Dar es Salaam | **Dar es Salaam** |
+| **Netočni odgovori** | Zanzibar // Arusha // Mwanza | Zanzibar // Arusha // Mwanza |
+
+---
+
+### Pitanje `hr_geo_681`
+
+**Razlog promjene:** *Preformulirano pitanje za bolji protok.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji je grad bio glavni grad Obale Bjelokosti prije nego što je to službeno postao Yamoussoukro? | **Koji je grad bio glavni grad Obale Bjelokosti prije nego što je Yamoussoukro službeno postao glavni grad?** |
+| **Točan odgovor** | Abidjan | **Abidjan** |
+| **Netočni odgovori** | Bouaké // San Pedro // Korhogo | Bouaké // San Pedro // Korhogo |
 
 ---
 
 ### Pitanje `hr_geo_684`
 
-**Razlog promjene:** *Preformulirano pitanje i izmijenjeni distraktori radi bolje činjenične točnosti (populacija La Rinconade nije uvijek iznad 100.000, a La Paz i Potosí nisu u Peruu).*
+**Razlog promjene:** *Uklonjena suvišna fraza '(ili grad)' iz pitanja radi sažetosti.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji grad se smatra jednim od najviših gradova na svijetu s više od 100.000 stanovnika, smješten u peruanskim Andama? | **Koje se naselje (ili grad) smatra najvišim trajnim naseljem na svijetu, smješteno u peruanskim Andama?** |
+| **Pitanje** | Koje se naselje (ili grad) smatra najvišim trajnim naseljem na svijetu, smješteno u peruanskim Andama? | **Koje se naselje smatra najvišim trajnim naseljem na svijetu, smješteno u peruanskim Andama?** |
 | **Točan odgovor** | La Rinconada | **La Rinconada** |
-| **Netočni odgovori** | Cusco // La Paz // Potosí | Cusco // Juliaca // Puno |
+| **Netočni odgovori** | Cusco // Juliaca // Puno | Cusco // Juliaca // Puno |
 
 ---
 
 ### Pitanje `hr_geo_685`
 
-**Razlog promjene:** *"Tijelo" zamijenjeno s "jedinica" radi boljeg jezičnog izraza.*
+**Razlog promjene:** *Preformulirano pitanje za bolji protok i preciznost.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje je najveće administrativno-teritorijalno tijelo (savezna republika) na svijetu po površini, veće od većine svjetskih država? | **Koja je najveća administrativno-teritorijalna jedinica (savezna republika) na svijetu po površini, veća od većine svjetskih država?** |
+| **Pitanje** | Koja je najveća administrativno-teritorijalna jedinica (savezna republika) na svijetu po površini, veća od većine svjetskih država? | **Koja je po površini najveća administrativno-teritorijalna jedinica na svijetu, veća od većine svjetskih država?** |
 | **Točan odgovor** | Republika Saha (Jakutija) u Rusiji | **Republika Saha (Jakutija) u Rusiji** |
 | **Netočni odgovori** | Sibirski savezni okrug // Kvebek // Zapadna Australija | Sibirski savezni okrug // Kvebek // Zapadna Australija |
 
 ---
 
-### Pitanje `hr_geo_698`
+### Pitanje `hr_geo_755`
 
-**Razlog promjene:** *Uklonjeno navođenje (spoiler) iz pitanja kako bi se povećala težina i izbjeglo preklapanje s idućim pitanjem.*
+**Razlog promjene:** *Preformulacija pitanja za bolji hrvatski izričaj (uklonjeno suvišno 'novčana jedinica').*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je službeni jezik Mađarske, koji ne pripada slavenskoj ni germanskoj jezičnoj skupini? | **Koji je službeni jezik Mađarske?** |
-| **Točan odgovor** | Mađarski | **Mađarski** |
-| **Netočni odgovori** | Rumunjski // Slovenski // Hrvatski | Rumunjski // Slovenski // Hrvatski |
+| **Pitanje** | Koja je službena novčana jedinica (valuta) koja se koristi u Siriji? | **Koja je službena valuta Sirije?** |
+| **Točan odgovor** | Sirijska funta | **Sirijska funta** |
+| **Netočni odgovori** | Libanonska funta // Jordanski dinar // Irački dinar | Libanonska funta // Jordanski dinar // Irački dinar |
 
 ---
 
-### Pitanje `hr_geo_732`
+### Pitanje `hr_geo_756`
 
-**Razlog promjene:** *Uklonjena je zagrada iz točnog odgovora kako bi se uravnotežila duljina odgovora. Opis je već u pitanju.*
+**Razlog promjene:** *Preformulacija pitanja za bolji hrvatski izričaj (uklonjeno suvišno 'novčana jedinica').*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je službeni jezik Indonezije, umjetno stvoren standardizirani jezik? | **Koji je službeni jezik Indonezije, umjetno stvoren standardizirani jezik?** |
-| **Točan odgovor** | Indonezijski (bahasa Indonesia) | **Indonezijski** |
-| **Netočni odgovori** | Malajski // Javanski // Balijski | Malajski // Javanski // Balijski |
+| **Pitanje** | Koja se službena novčana jedinica (valuta) koristi u Libanonu? | **Koja je službena valuta Libanona?** |
+| **Točan odgovor** | Libanonska funta | **Libanonska funta** |
+| **Netočni odgovori** | Sirijska funta // Jordanski dinar // Egipatska funta | Sirijska funta // Jordanski dinar // Egipatska funta |
 
 ---
 
-### Pitanje `hr_geo_738`
+### Pitanje `hr_geo_765`
 
-**Razlog promjene:** *Netočan odgovor 'Bremen' je zbunjujuć jer je i on grad-država, a pitanje traži grad-državu 'uz Berlin i Bremen'. Zamijenjeno prikladnijim distaktorom.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji njemački lučki grad ima status samostalne savezne pokrajine (grad-država) uz Berlin i Bremen? | **Koji njemački lučki grad ima status samostalne savezne pokrajine (grad-država) uz Berlin i Bremen?** |
-| **Točan odgovor** | Hamburg | **Hamburg** |
-| **Netočni odgovori** | Donja Saska // Bremen // Schleswig-Holstein | Donja Saska // Saska // Schleswig-Holstein |
-
----
-
-### Pitanje `hr_geo_742`
-
-**Razlog promjene:** *Skraćen je točan odgovor radi uravnoteženja duljine s netočnim odgovorima.*
+**Razlog promjene:** *Preformulacija pitanja radi veće preciznosti i jasnoće, budući da Gibraltarski tjesnac sam po sebi odvaja kontinente i povezuje Atlantik sa Sredozemnim morem.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja je službena valuta Trinidada i Tobaga? | **Koja je službena valuta Trinidada i Tobaga?** |
-| **Točan odgovor** | Trinidadski i tobagoanski dolar | **Trinidadski dolar** |
-| **Netočni odgovori** | Jamajčanski dolar // Istočnokaripski dolar // Bahamski dolar | Jamajčanski dolar // Istočnokaripski dolar // Bahamski dolar |
-
----
-
-### Pitanje `hr_geo_773`
-
-**Razlog promjene:** *Distraktor 'Rusija' je također točan odgovor jer Rusija graniči s istim brojem država (14) kao i Kina. Zamijenjen je s Indijom.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja zemlja graniči s najvećim brojem drugih zemalja na svijetu? | **Koja zemlja graniči s najvećim brojem drugih zemalja na svijetu?** |
-| **Točan odgovor** | Kina | **Kina** |
-| **Netočni odgovori** | Rusija // Brazil // Njemačka | Indija // Brazil // Njemačka |
+| **Pitanje** | Koje more odvaja Europu od Afrike na najužem dijelu Gibraltarskog tjesnaca? | **Koji dio Sredozemnog mora, smješten neposredno istočno od Gibraltarskog tjesnaca, odvaja obale Europe i Afrike?** |
+| **Točan odgovor** | Alboransko more | **Alboransko more** |
+| **Netočni odgovori** | Jonsko more // Tirensko more // Egejsko more | Jonsko more // Tirensko more // Egejsko more |
 
 ---
 
 ### Pitanje `hr_geo_787`
 
-**Razlog promjene:** *Loša formulacija pitanja.*
+**Razlog promjene:** *Pitanje sadrži naziv točnog odgovora (Havaji/Havajsko).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji arhipelag u Tihom oceanu čini Havaji dio Sjedinjenih Američkih Država? | **Koje otočje u Tihom oceanu čini američku saveznu državu Havaji?** |
+| **Pitanje** | Koje otočje u Tihom oceanu čini američku saveznu državu Havaji? | **Koje je otočje, smješteno u Tihom oceanu, postalo 50. savezna država SAD-a?** |
 | **Točan odgovor** | Havajsko otočje | **Havajsko otočje** |
 | **Netočni odgovori** | Aleutsko otočje // Marijansko otočje // Samoansko otočje | Aleutsko otočje // Marijansko otočje // Samoansko otočje |
 
 ---
 
-### Pitanje `hr_geo_817`
+### Pitanje `hr_geo_791`
 
-**Razlog promjene:** *Madeira je također vulkansko otočje i autonomna regija Portugala, što ju je činilo netočnim distaktorom. Zamijenjen je distaktor.*
+**Razlog promjene:** *Jezična ispravka ("dijeljena" u "podijeljena").*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje vulkansko otočje u sjevernom Atlantiku ima status autonomne regije Portugala? | **Koje vulkansko otočje u sjevernom Atlantiku ima status autonomne regije Portugala?** |
-| **Točan odgovor** | Azori | **Azori** |
-| **Netočni odgovori** | Kanarski otoci // Madeira // Farski otoci | Kanarski otoci // Zeleni rt // Farski otoci |
+| **Pitanje** | Koja zemlja se prostire na dva kontinenta, Europu i Aziju, dijeljena Bosporom? | **Koja se zemlja prostire na dva kontinenta, Europu i Aziju, podijeljena Bosporom?** |
+| **Točan odgovor** | Turska | **Turska** |
+| **Netočni odgovori** | Gruzija // Azerbajdžan // Rusija | Gruzija // Azerbajdžan // Rusija |
 
 ---
 
-### Pitanje `hr_geo_822`
+### Pitanje `hr_geo_793`
 
-**Razlog promjene:** *Rijeka Sava također protječe kroz područje Ljubljane, što je čini djelomično točnim distaktorom. Zamijenjen je distaktor.*
+**Razlog promjene:** *Ispravljen bias u duljini odgovora i ujednačen format distraktora.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja rijeka protječe kroz Ljubljanu? | **Koja rijeka protječe kroz Ljubljanu?** |
-| **Točan odgovor** | Ljubljanica | **Ljubljanica** |
-| **Netočni odgovori** | Sava // Drava // Soča | Mura // Drava // Soča |
+| **Pitanje** | U kojoj se državi nalazi vodopad Iguazu? | **U kojoj se državi nalazi vodopad Iguazu?** |
+| **Točan odgovor** | Na granici Argentine i Brazila | **Na granici Argentine i Brazila** |
+| **Netočni odgovori** | Na granici Brazila i Paragvaja // Na granici Čilea i Argentine // U Boliviji | Na granici Brazila i Paragvaja // Na granici Kolumbije i Venezuele // Na granici Ekvadora i Perua |
 
 ---
 
-### Pitanje `hr_geo_841`
+### Pitanje `hr_geo_800`
 
-**Razlog promjene:** *Pitanje je preformulirano jer je originalno sadržavalo preočit trag u imenu grada 'Guayaquil' za odgovor 'Guayas'.*
+**Razlog promjene:** *Pitanje sadrži korijen točnog odgovora (Moskva).*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja rijeka izvire u Andama i tvori estuarij kod grada Guayaquila u Ekvadoru? | **Koja južnoamerička rijeka, čije vode potječu iz Anda, tvori estuarij blizu najvećeg grada Ekvadora?** |
-| **Točan odgovor** | Guayas | **Guayas** |
-| **Netočni odgovori** | Magdalena // Orinoko // Amazona | Magdalena // Orinoko // Amazona |
+| **Pitanje** | Koja rijeka protječe kroz Moskvu? | **Koja je rijeka dala ime ruskom glavnom gradu?** |
+| **Točan odgovor** | Moskva | **Moskva** |
+| **Netočni odgovori** | Volga // Don // Neva | Volga // Don // Neva |
+
+---
+
+### Pitanje `hr_geo_812`
+
+**Razlog promjene:** *Jasnije formulirano pitanje, izbjegavajući potencijalnu dvosmislenost izraza 'savezna jedinica'.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koja je po površini najveća kanadska savezna jedinica (teritorij)? | **Koji je po površini najveći kanadski teritorij?** |
+| **Točan odgovor** | Nunavut | **Nunavut** |
+| **Netočni odgovori** | Ontario // Quebec // Britanska Kolumbija | Ontario // Quebec // Britanska Kolumbija |
+
+---
+
+### Pitanje `hr_geo_819`
+
+**Razlog promjene:** *Jasnije i preciznije formulirano pitanje.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji je glavni grad turske sjeverne trećine Cipra, priznate samo od Turske? | **Koji je glavni grad Sjevernog Cipra, političkog entiteta priznatog samo od Turske?** |
+| **Točan odgovor** | Sjeverna Nikozija | **Sjeverna Nikozija** |
+| **Netočni odgovori** | Famagusta // Kirenija // Larnaka | Famagusta // Kirenija // Larnaka |
+
+---
+
+### Pitanje `hr_geo_835`
+
+**Razlog promjene:** *Pitanje je preformulirano radi veće preciznosti opisa lokacije planinskog lanca. Izbjegnuta je moguća dvosmislenost izraza 'zapadna obala'.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji planinski lanac se proteže duž zapadne obale Sjeverne Amerike i uključuje vrh Denali? | **Koji planinski lanac na Sjevernoameričkom kontinentu uključuje vrh Denali?** |
+| **Točan odgovor** | Aljaski lanac | **Aljaski lanac** |
+| **Netočni odgovori** | Stjenjak // Kaskadno gorje // Sijera Nevada | Stjenjak // Kaskadno gorje // Sijera Nevada |
+
+---
+
+### Pitanje `hr_geo_840`
+
+**Razlog promjene:** *Pitanje je bilo činjenično netočno; Poluotok Michigan odvaja jezero Huron od jezera Michigan, a ne od jezera Erie. Pitanje je preformulirano kako bi bilo točno.*
+
+| Polje | Prije | Poslije |
+| :--- | :--- | :--- |
+| **Pitanje** | Koji poluotok u Velikim jezerima odvaja jezero Huron i zaljev Georgian Bay od jezera Erie? | **Koji poluotok u Velikim jezerima odvaja jezero Huron od jezera Michigan?** |
+| **Točan odgovor** | Poluotok Michigan | **Poluotok Michigan** |
+| **Netočni odgovori** | Poluotok Florida // Poluotok Labrador // Niagarski poluotok | Poluotok Florida // Poluotok Labrador // Niagarski poluotok |
 
 ---
 
 ### Pitanje `hr_geo_852`
 
-**Razlog promjene:** *Činjenična netočnost; veći dio pustinje Gobi nalazi se u Kini.*
+**Razlog promjene:** *Veći dio pustinje Gobi nalazi se u Mongoliji, a ne u Kini.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | U kojoj se državi nalazi najveći dio pustinje Gobi? | **U kojoj se državi nalazi veći dio pustinje Gobi?** |
-| **Točan odgovor** | Mongolija | **Kina** |
-| **Netočni odgovori** | Kina // Kazahstan // Uzbekistan | Mongolija // Kazahstan // Uzbekistan |
+| **Pitanje** | U kojoj se državi nalazi veći dio pustinje Gobi? | **U kojoj se državi nalazi veći dio pustinje Gobi?** |
+| **Točan odgovor** | Kina | **Mongolija** |
+| **Netočni odgovori** | Mongolija // Kazahstan // Uzbekistan | Kina // Kazahstan // Uzbekistan |
 
 ---
 
 ### Pitanje `hr_geo_854`
 
-**Razlog promjene:** *Činjenična netočnost; Mrtvo more je daleko najslanije more/jezero na svijetu, ne Crveno more.*
+**Razlog promjene:** *Mrtvo more je jezero, a ne more. Pitanje je preformulirano radi preciznosti.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koje more je najslanije na svijetu? | **Koje more je najslanije na svijetu?** |
-| **Točan odgovor** | Crveno more | **Mrtvo more** |
-| **Netočni odgovori** | Mrtvo more // Sredozemno more // Egejsko more | Crveno more // Sredozemno more // Egejsko more |
+| **Pitanje** | Koje more je najslanije na svijetu? | **Koje jezero je najslanije na svijetu?** |
+| **Točan odgovor** | Mrtvo more | **Mrtvo more** |
+| **Netočni odgovori** | Crveno more // Sredozemno more // Egejsko more | Crveno more // Sredozemno more // Egejsko more |
 
 ---
 
-### Pitanje `hr_geo_860`
+### Pitanje `hr_geo_865`
 
-**Razlog promjene:** *Nema idealnog rješenja za duljinu, ali ovakva imena su specifična. Zadržano je originalno rješenje jer su pokušaji 'umjetnog' produljenja netočnih odgovora narušavali kvalitetu.*
+**Razlog promjene:** *Nuuk je sjevernije od Reykjavíka, ali je glavni grad autonomnog teritorija, ne suverene države. Pitanje je precizirano.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Šri Lanke po sjedištu parlamenta? | **Koji je glavni grad Šri Lanke po sjedištu parlamenta?** |
-| **Točan odgovor** | Sri Jayawardenepura Kotte | **Sri Jayawardenepura Kotte** |
-| **Netočni odgovori** | Colombo // Kandy // Galle | Colombo // Kandy // Galle |
+| **Pitanje** | Koja je najsjevernija prijestolnica na svijetu? | **Koja je najsjevernija prijestolnica suverene države na svijetu?** |
+| **Točan odgovor** | Reykjavík | **Reykjavík** |
+| **Netočni odgovori** | Oslo // Helsinki // Nuuk | Oslo // Helsinki // Nuuk |
 
 ---
 
-### Pitanje `hr_geo_861`
+### Pitanje `hr_geo_886`
 
-**Razlog promjene:** *Činjenična i gramatička netočnost. San Marino je okružen Italijom, ne obratno. Također, Vatikan je također okružen Italijom. Dodana je specifikacija 'republika' kako bi San Marino bio jedinstven točan odgovor.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koja je jedina država na svijetu čiji teritorij u potpunosti okružuje drugu državu, Italiju? | **Koja je jedina suverena republika čiji je teritorij u potpunosti okružen Italijom?** |
-| **Točan odgovor** | San Marino | **San Marino** |
-| **Netočni odgovori** | Vatikan // Monako // Lihtenštajn | Vatikan // Monako // Lihtenštajn |
-
----
-
-### Pitanje `hr_geo_864`
-
-**Razlog promjene:** *Činjenična netočnost; Kina dijeli titulu najvećeg broja kopnenih susjeda s Rusijom (obje imaju po 14), ne s Brazilom (koji ima 10).*
+**Razlog promjene:** *Činjenična točnost i preciznost. Draa je najduža rijeka u Maroku, no tvrdnja da je najduža u sjevernoj Africi izvan Nila može biti sporna zbog njezine efemerne prirode. Preformulirano za veću preciznost.*
 
 | Polje | Prije | Poslije |
 | :--- | :--- | :--- |
-| **Pitanje** | Koja država ima najveći broj kopnenih susjeda na svijetu, dijeleći tu titulu s Brazilom? | **Koja država ima najveći broj kopnenih susjeda na svijetu, dijeleći tu titulu s Rusijom?** |
-| **Točan odgovor** | Kina | **Kina** |
-| **Netočni odgovori** | Rusija // Indija // Njemačka | Rusija // Indija // Njemačka |
-
----
-
-### Pitanje `hr_geo_885`
-
-**Razlog promjene:** *Vrh Mont Blanc dijele samo Francuska i Italija, a ne i Švicarska. Pitanje i odgovori su preformulirani radi točnosti.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koje tri države dijele vrh Mont Blanc na svojim granicama, iako se najviša točka nalazi u Francuskoj? | **Na granici kojih dviju država se nalazi vrh Mont Blanc?** |
-| **Točan odgovor** | Francuska, Italija i Švicarska | **Francuska i Italija** |
-| **Netočni odgovori** | Francuska, Švicarska i Njemačka // Italija, Austrija i Švicarska // Francuska, Italija i Austrija | Francuska i Švicarska // Italija i Austrija // Švicarska i Njemačka |
-
----
-
-### Pitanje `hr_geo_894`
-
-**Razlog promjene:** *Naziv države 'Congo-Brazzaville' u pitanju sadrži točan odgovor, što je preočito navođenje.*
-
-| Polje | Prije | Poslije |
-| :--- | :--- | :--- |
-| **Pitanje** | Koji je glavni grad Republike Konga (Congo-Brazzaville)? | **Koji je glavni grad Republike Kongo?** |
-| **Točan odgovor** | Brazzaville | **Brazzaville** |
-| **Netočni odgovori** | Kinshasa // Pointe-Noire // Dolisie | Kinshasa // Pointe-Noire // Dolisie |
+| **Pitanje** | Koja rijeka je najduža u sjevernoj Africi izvan toka Nila i teče kroz Maroko? | **Koja je najduža rijeka Maroka?** |
+| **Točan odgovor** | Draa | **Draa** |
+| **Netočni odgovori** | Moulouya // Sebou // Oum Er-Rbia | Moulouya // Sebou // Oum Er-Rbia |
 
 ---
 
