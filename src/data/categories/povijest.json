@@ -10426,5 +10426,445 @@
             "Kolonijalizam",
             "Protektorat"
         ]
+    },
+    {
+        "id": "hr_his_949",
+        "category": "povijest",
+        "question": "Koji je grčki povjesničar poznat kao \"otac povijesti\"?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Ksenofont",
+            "Plutarh"
+        ]
+    },
+    {
+        "id": "hr_his_950",
+        "category": "povijest",
+        "question": "Koji je rimski car legalizirao kršćanstvo Milanskim ediktom 313. godine?",
+        "correct_answer": "Konstantin Veliki",
+        "incorrect_answers": [
+            "Dioklecijan",
+            "Neron",
+            "August"
+        ]
+    },
+    {
+        "id": "hr_his_951",
+        "category": "povijest",
+        "question": "Koja je božica mudrosti i rata bila zaštitnica grada Atene?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Hera",
+            "Artemida",
+            "Afrodita"
+        ]
+    },
+    {
+        "id": "hr_his_952",
+        "category": "povijest",
+        "question": "Kako se naziva rimska građevina u obliku amfiteatra, poznata po gladijatorskim borbama?",
+        "correct_answer": "Kolosej",
+        "incorrect_answers": [
+            "Panteon",
+            "Forum Romanum",
+            "Akvadukt"
+        ]
+    },
+    {
+        "id": "hr_his_953",
+        "category": "povijest",
+        "question": "Koji je legendarni grčki kralj vodio Ahajce u Trojanskom ratu?",
+        "correct_answer": "Agamemnon",
+        "incorrect_answers": [
+            "Odisej",
+            "Ahilej",
+            "Hektor"
+        ]
+    },
+    {
+        "id": "hr_his_954",
+        "category": "povijest",
+        "question": "Kada je započela bitka kod Hastingsa, ključna bitka u osvajanju Engleske od strane Normana?",
+        "correct_answer": "1066.",
+        "incorrect_answers": [
+            "1042.",
+            "1100.",
+            "1088."
+        ]
+    },
+    {
+        "id": "hr_his_955",
+        "category": "povijest",
+        "question": "Tko je bio osnivač islamske vjere?",
+        "correct_answer": "Muhamed",
+        "incorrect_answers": [
+            "Ali",
+            "Abraham",
+            "Isus"
+        ]
+    },
+    {
+        "id": "hr_his_956",
+        "category": "povijest",
+        "question": "Koja je katedrala u Parizu poznata po gotičkoj arhitekturi i stradala u požaru 2019. godine?",
+        "correct_answer": "Notre Dame",
+        "incorrect_answers": [
+            "Sacre-Cœur",
+            "Chartres",
+            "Reims"
+        ]
+    },
+    {
+        "id": "hr_his_957",
+        "category": "povijest",
+        "question": "Koji je vojskovođa vodio Mongole u osvajanjima Azije i Europe u 13. stoljeću?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Tamerlan",
+            "Kublaj-kan",
+            "Atila"
+        ]
+    },
+    {
+        "id": "hr_his_958",
+        "category": "povijest",
+        "question": "Koji je engleski kralj poznat po legendi o Robinu Hoodu i bio je križar?",
+        "correct_answer": "Rikard Lavljeg Srca",
+        "incorrect_answers": [
+            "Ivan Bez Zemlje",
+            "Henrik II.",
+            "Eduard I."
+        ]
+    },
+    {
+        "id": "hr_his_959",
+        "category": "povijest",
+        "question": "Tko je autor djela \"Devet teza\" kojima je započela Protestantska reformacija?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Kalvin",
+            "Zwingli",
+            "Erasmo Rotterdamski"
+        ]
+    },
+    {
+        "id": "hr_his_960",
+        "category": "povijest",
+        "question": "Koji je poznati astronom prvi put predložio heliocentrični model Sunčevog sustava?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ]
+    },
+    {
+        "id": "hr_his_961",
+        "category": "povijest",
+        "question": "Koja je engleska kraljica, kćerka Henrika VIII., vladala Engleskom duže od 40 godina i nikada se nije udala?",
+        "correct_answer": "Elizabeta I.",
+        "incorrect_answers": [
+            "Marija I. Tudor",
+            "Viktorija",
+            "Ana Boleyn"
+        ]
+    },
+    {
+        "id": "hr_his_962",
+        "category": "povijest",
+        "question": "Tko je bio autor djela \"Princ\", rasprave o političkoj filozofiji?",
+        "correct_answer": "Niccolò Machiavelli",
+        "incorrect_answers": [
+            "Thomas More",
+            "Jean Bodin",
+            "Francisco Suárez"
+        ]
+    },
+    {
+        "id": "hr_his_963",
+        "category": "povijest",
+        "question": "Tko je bio autor \"Mona Lise\" i \"Posljednje večere\"?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Donatello"
+        ]
+    },
+    {
+        "id": "hr_his_964",
+        "category": "povijest",
+        "question": "Koji je francuski filozof poznat po izjavi \"Mislim, dakle jesam\"?",
+        "correct_answer": "René Descartes",
+        "incorrect_answers": [
+            "Voltaire",
+            "Jean-Jacques Rousseau",
+            "Blaise Pascal"
+        ]
+    },
+    {
+        "id": "hr_his_965",
+        "category": "povijest",
+        "question": "Koja je enciklopedija, izdana u Francuskoj u 18. stoljeću, postala simbol Prosvjetiteljstva?",
+        "correct_answer": "Enciklopedija Diderota i d'Alemberta",
+        "incorrect_answers": [
+            "Voltaireova Filozofska pisma",
+            "Rousseauov Društveni ugovor",
+            "Montesquieuov Duh zakona"
+        ]
+    },
+    {
+        "id": "hr_his_966",
+        "category": "povijest",
+        "question": "Koji je francuski general postao car Francuske i osvojio veći dio Europe početkom 19. stoljeća?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Louis XIV",
+            "Charles de Gaulle",
+            "Georges Danton"
+        ]
+    },
+    {
+        "id": "hr_his_967",
+        "category": "povijest",
+        "question": "Koja je pomorska bitka 1805. godine, kod rta Trafalgar, osigurala pomorsku nadmoć Britanije nad Francuskom?",
+        "correct_answer": "Bitka kod Trafalgara",
+        "incorrect_answers": [
+            "Bitka kod Waterlooa",
+            "Bitka kod Austerlitza",
+            "Bitka kod Nila"
+        ]
+    },
+    {
+        "id": "hr_his_968",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik proglasio doktrinu koja je zabranjivala daljnju europsku kolonizaciju Amerika?",
+        "correct_answer": "James Monroe",
+        "incorrect_answers": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Andrew Jackson"
+        ]
+    },
+    {
+        "id": "hr_his_969",
+        "category": "povijest",
+        "question": "Koje je godine započeo Prvi svjetski rat?",
+        "correct_answer": "1914.",
+        "incorrect_answers": [
+            "1905.",
+            "1917.",
+            "1918."
+        ]
+    },
+    {
+        "id": "hr_his_970",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik proglasio plan od \"Četrnaest točaka\" za mir nakon Prvog svjetskog rata?",
+        "correct_answer": "Woodrow Wilson",
+        "incorrect_answers": [
+            "Franklin D. Roosevelt",
+            "Theodore Roosevelt",
+            "Harry S. Truman"
+        ]
+    },
+    {
+        "id": "hr_his_971",
+        "category": "povijest",
+        "question": "Koja je međunarodna organizacija osnovana nakon Prvog svjetskog rata s ciljem održavanja mira?",
+        "correct_answer": "Liga naroda",
+        "incorrect_answers": [
+            "Ujedinjeni narodi",
+            "NATO",
+            "Crveni križ"
+        ]
+    },
+    {
+        "id": "hr_his_972",
+        "category": "povijest",
+        "question": "Koji je događaj 7. prosinca 1941. godine izazvao ulazak Sjedinjenih Američkih Država u Drugi svjetski rat?",
+        "correct_answer": "Napad na Pearl Harbor",
+        "incorrect_answers": [
+            "Napad na Varšavu",
+            "Invazija na Poljsku",
+            "Pad Pariza"
+        ]
+    },
+    {
+        "id": "hr_his_973",
+        "category": "povijest",
+        "question": "Koji je datum iskrcavanja Saveznika u Normandiji tijekom Drugog svjetskog rata, poznat kao \"Dan D\"?",
+        "correct_answer": "6. lipnja 1944.",
+        "incorrect_answers": [
+            "1. rujna 1939.",
+            "7. prosinca 1941.",
+            "8. svibnja 1945."
+        ]
+    },
+    {
+        "id": "hr_his_974",
+        "category": "povijest",
+        "question": "Koji je njemački grad bio podijeljen zidom od 1961. do 1989. godine?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "München",
+            "Hamburg",
+            "Frankfurt"
+        ]
+    },
+    {
+        "id": "hr_his_975",
+        "category": "povijest",
+        "question": "Koji je politički zatvorenik postao simbol borbe protiv apartheida u Južnoafričkoj Republici?",
+        "correct_answer": "Nelson Mandela",
+        "incorrect_answers": [
+            "Desmond Tutu",
+            "Steve Biko",
+            "Thabo Mbeki"
+        ]
+    },
+    {
+        "id": "hr_his_976",
+        "category": "povijest",
+        "question": "Koji je sovjetski vođa pokrenuo reforme \"Glasnost\" i \"Perestrojka\" krajem 1980-ih?",
+        "correct_answer": "Mihail Gorbačov",
+        "incorrect_answers": [
+            "Leonid Brežnjev",
+            "Nikita Hruščov",
+            "Josif Staljin"
+        ]
+    },
+    {
+        "id": "hr_his_977",
+        "category": "povijest",
+        "question": "Koje je godine došlo do raspada Sovjetskog Saveza?",
+        "correct_answer": "1991.",
+        "incorrect_answers": [
+            "1989.",
+            "1990.",
+            "1992."
+        ]
+    },
+    {
+        "id": "hr_his_978",
+        "category": "povijest",
+        "question": "Koja je zemlja prva lansirala satelit u svemir 1957. godine?",
+        "correct_answer": "Sovjetski Savez",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Kina",
+            "Njemačka"
+        ]
+    },
+    {
+        "id": "hr_his_979",
+        "category": "povijest",
+        "question": "Koji je hrvatski knez primio priznanje od pape Ivana VIII. i formalno potvrdio suverenitet Hrvatske?",
+        "correct_answer": "Branimir",
+        "incorrect_answers": [
+            "Trpimir",
+            "Mislav",
+            "Tomislav"
+        ]
+    },
+    {
+        "id": "hr_his_980",
+        "category": "povijest",
+        "question": "Koji je hrvatski kralj okrunjen u Biogradu na Moru 1102. godine, čime je nastala Personalna unija s Ugarskom?",
+        "correct_answer": "Koloman",
+        "incorrect_answers": [
+            "Petar Svačić",
+            "Zvonimir",
+            "Ladislav I."
+        ]
+    },
+    {
+        "id": "hr_his_981",
+        "category": "povijest",
+        "question": "Koji je hrvatski ban u 16. stoljeću proslavljen po obrani Sigeta od Osmanlija?",
+        "correct_answer": "Nikola Šubić Zrinski",
+        "incorrect_answers": [
+            "Petar Zrinski",
+            "Fran Krsto Frankopan",
+            "Toma Bakač"
+        ]
+    },
+    {
+        "id": "hr_his_982",
+        "category": "povijest",
+        "question": "Koje su godine Austrija i Ugarska potpisale Hrvatsko-ugarsku nagodbu kojom je definiran status Hrvatske unutar Austro-Ugarske Monarhije?",
+        "correct_answer": "1868.",
+        "incorrect_answers": [
+            "1848.",
+            "1871.",
+            "1918."
+        ]
+    },
+    {
+        "id": "hr_his_983",
+        "category": "povijest",
+        "question": "Koji je političar utemeljio stranku HSP (Hrvatska stranka prava) i zalagao se za samostalnu Hrvatsku u 19. stoljeću?",
+        "correct_answer": "Ante Starčević",
+        "incorrect_answers": [
+            "Josip Juraj Strossmayer",
+            "Ivan Mažuranić",
+            "Eugen Kvaternik"
+        ]
+    },
+    {
+        "id": "hr_his_984",
+        "category": "povijest",
+        "question": "Za kojeg je faraona izgrađena Velika piramida u Gizi?",
+        "correct_answer": "Keops (Khufu)",
+        "incorrect_answers": [
+            "Kefren",
+            "Mikerin",
+            "Tutankamon"
+        ]
+    },
+    {
+        "id": "hr_his_985",
+        "category": "povijest",
+        "question": "Koja je kineska dinastija započela izgradnju Velikog zida Kine, iako su ga kasnije dinastije značajno proširivale?",
+        "correct_answer": "Dinastija Qin",
+        "incorrect_answers": [
+            "Dinastija Han",
+            "Dinastija Ming",
+            "Dinastija Zhou"
+        ]
+    },
+    {
+        "id": "hr_his_986",
+        "category": "povijest",
+        "question": "Koji je rat 1898. godine rezultirao time da su SAD stekle kontrolu nad Kubom, Portorikom i Filipinima?",
+        "correct_answer": "Španjolsko-američki rat",
+        "incorrect_answers": [
+            "Američki građanski rat",
+            "Meksičko-američki rat",
+            "Prvi svjetski rat"
+        ]
+    },
+    {
+        "id": "hr_his_987",
+        "category": "povijest",
+        "question": "Koja je carska obitelj vladala Rusijom od 1613. do 1917. godine?",
+        "correct_answer": "Romanovi",
+        "incorrect_answers": [
+            "Rurikovci",
+            "Gorecki",
+            "Jagiellonci"
+        ]
+    },
+    {
+        "id": "hr_his_988",
+        "category": "povijest",
+        "question": "Koji je izum u 15. stoljeću u Europi, pripisan Johannu Gutenbergu, revolucionirao širenje znanja?",
+        "correct_answer": "Tiskarski stroj",
+        "incorrect_answers": [
+            "Teleskop",
+            "Kompas",
+            "Parni stroj"
+        ]
     }
 ]
