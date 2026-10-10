@@ -1,9 +1,26 @@
 import { X, ListChecks, Check, Gift } from 'lucide-react';
 import { MISSION_REWARDS } from '../constants/missions';
+import { pathProgress } from '../utils/missionProgress';
 
+function ProgressBar({ pct, done, muted }) {
+    return (
+        <div className={`${muted ? 'h-1.5' : 'h-2'} bg-slate-800 rounded-full overflow-hidden`}>
+            <div
+                className={`h-full rounded-full transition-all ${done ? 'bg-emerald-500' : muted ? 'bg-sky-500' : 'bg-amber-500'}`}
+                style={{ width: `${pct}%` }}
+            />
+        </div>
+    );
+}
+
+// One slot: the primary mission and, when the day's slot has one (mission
+// fallbacks), its solo alternative underneath. Either path completes the
+// slot; the two bars track their own progress and never add up.
 function SlotCard({ mission, slotState, onClaim }) {
-    const pct = Math.min(100, Math.round((slotState.progress / mission.target) * 100));
     const claimable = slotState.completed && !slotState.claimed;
+    const primary = pathProgress(slotState, mission, 'primary');
+    const alt = mission.alt ? pathProgress(slotState, mission, 'alt') : null;
+    const doneViaAlt = slotState.completed && slotState.completedVia === 'alt';
 
     return (
         <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 space-y-2">
@@ -11,14 +28,22 @@ function SlotCard({ mission, slotState, onClaim }) {
                 <p className="text-sm text-slate-200">{mission.descriptionHr}</p>
                 {slotState.claimed && <Check className="w-4 h-4 text-emerald-400 shrink-0" />}
             </div>
-            <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
-                <div
-                    className={`h-full rounded-full transition-all ${slotState.completed ? 'bg-emerald-500' : 'bg-amber-500'}`}
-                    style={{ width: `${pct}%` }}
-                />
-            </div>
+            <ProgressBar pct={slotState.completed && !doneViaAlt ? 100 : primary.pct} done={slotState.completed && !doneViaAlt} />
+            {alt && (
+                <div className="space-y-1.5 pt-0.5">
+                    <p className="text-xs text-slate-400">
+                        <span className="text-slate-500">ili: </span>{mission.alt.descriptionHr}
+                        <span className="text-slate-600"> · {alt.value} / {alt.target}</span>
+                    </p>
+                    <ProgressBar pct={doneViaAlt ? 100 : alt.pct} done={doneViaAlt} muted />
+                </div>
+            )}
             <div className="flex items-center justify-between">
-                <p className="text-xs text-slate-500">{Math.min(slotState.progress, mission.target)} / {mission.target}</p>
+                <p className="text-xs text-slate-500">
+                    {slotState.completed
+                        ? (doneViaAlt ? 'Riješeno alternativom' : 'Riješeno')
+                        : `${primary.value} / ${primary.target}`}
+                </p>
                 {claimable ? (
                     <button
                         type="button"

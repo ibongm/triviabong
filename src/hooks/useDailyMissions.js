@@ -1,7 +1,9 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { getZagrebDateString } from '../utils/achievements';
 import { getMissionsForDateKey, MISSION_TYPES, MISSION_REWARDS, EMPTY_MISSION_SLOT_STATE } from '../constants/missions';
 import { getDailyMissionsState, saveDailyMissionsState } from '../services/firebase';
+import { applyMissionEvent, applyHybridHalf, categoryMatches, withoutAlts } from '../utils/missionProgress';
+import { isFeatureEnabled } from '../constants/features';
 
 const localStorageKey = (uid, dateKey) => `triviabong_missions:${uid}:${dateKey}`;
 
@@ -34,33 +36,6 @@ const saveLocal = (uid, dateKey, state) => {
 };
 
 /**
- * Marks `slotKey` complete once its target is reached and applies `delta`
- * to its progress - additive for every mission type except STREAK, which
- * tracks a running peak (the longest streak reached that day) rather than
- * a count of events, since "hit a streak of N" isn't cumulative across
- * separate streaks. No-ops once a slot is already completed, so a mission
- * can't be double-progressed past its target.
- */
-const applyProgress = (state, slotKey, mission, delta) => {
-    const slot = state.slots[slotKey];
-    if (!mission || slot.completed) return state;
-
-    const newProgress = mission.type === MISSION_TYPES.STREAK
-        ? Math.max(slot.progress, delta)
-        : slot.progress + delta;
-    const target = mission.target;
-    const completed = newProgress >= target;
-
-    return {
-        ...state,
-        slots: {
-            ...state.slots,
-            [slotKey]: { ...slot, progress: Math.min(newProgress, target), completed },
-        },
-    };
-};
-
-/**
  * Daily micro-missions (see src/constants/missions.js for the 7-day
  * schedule). Firestore path users/{uid}/missions/{dateKey} - loads from
  * localStorage first for instant render, write-through to Firestore on
@@ -70,7 +45,26 @@ const applyProgress = (state, slotKey, mission, delta) => {
 export function useDailyMissions(uid, setGlobalStats) {
     const [dateKey, setDateKey] = useState(() => getZagrebDateString());
     const [state, setState] = useState(() => (uid ? (loadLocal(uid, dateKey) || freshMissionState(dateKey)) : null));
-    const missionsToday = getMissionsForDateKey(dateKey);
+    // With MISSION_FALLBACKS off, every slot's `alt` is stripped, so the
+    // progress logic and the modal behave exactly as before the feature.
+    const missionsToday = useMemo(() => {
+        const set = getMissionsForDateKey(dateKey);
+        return isFeatureEnabled('MISSION_FALLBACKS') ? set : withoutAlts(set);
+    }, [dateKey]);
+    // Latest state, readable synchronously. Several record* calls can fire in
+    // ONE event handler (handleAnswer calls recordCorrectCategory and then
+    // recordStreak; a finished solo round records up to four events). With
+    // only the `state` closure, each call started from the same stale value
+    // and the last persist() overwrote the earlier ones - e.g. on days with
+    // both a category slot and a streak slot, every correct answer's
+    // category progress was clobbered by the streak write. Reading and
+    // advancing this ref makes back-to-back events compose.
+    // persist() advances it synchronously; this effect re-syncs it after
+    // the other ways `state` changes (sign-in/date reset, Firestore load).
+    const stateRef = useRef(state);
+    useEffect(() => {
+        stateRef.current = state;
+    }, [state]);
     const loadedForRef = useRef(null); // `${uid}:${dateKey}` already fetched from Firestore
 
     // Re-initialize on sign-in/out or date change - adjusted during render
@@ -117,44 +111,28 @@ export function useDailyMissions(uid, setGlobalStats) {
     }, []);
 
     const persist = useCallback((next) => {
+        stateRef.current = next;
         setState(next);
         if (!uid) return;
         saveLocal(uid, dateKey, next);
         saveDailyMissionsState(uid, dateKey, next);
     }, [uid, dateKey]);
 
-    // Finds which slot (if any) today's schedule assigns to `type`, and
-    // applies `delta` (or the hybrid-flag updater) if a match filter passes.
-    const record = useCallback((type, delta, matches = () => true) => {
-        if (!uid || !state) return;
-        let next = state;
-        for (const slotKey of ['slot1', 'slot2', 'slot3']) {
-            const mission = missionsToday[slotKey];
-            if (mission?.type === type && matches(mission)) {
-                next = applyProgress(next, slotKey, mission, delta);
-            }
-        }
-        if (next !== state) persist(next);
-    }, [uid, state, missionsToday, persist]);
+    // Applies one event to whichever slot (primary or alt) today's schedule
+    // assigns to `type` - see utils/missionProgress.js.
+    const record = useCallback((type, delta, matches) => {
+        const current = stateRef.current;
+        if (!uid || !current) return;
+        const next = applyMissionEvent(current, missionsToday, type, delta, matches);
+        if (next !== current) persist(next);
+    }, [uid, missionsToday, persist]);
 
-    // HYBRID_DAILY_1V1 needs one Daily Challenge completion AND one 1v1
-    // match completion on the same day - tracked via two extra boolean
-    // flags on the slot rather than a numeric progress count, since
-    // "progress" here means "which half is done", not an accumulating tally.
     const recordHybridHalf = useCallback((half) => {
-        if (!uid || !state) return;
-        let next = state;
-        for (const slotKey of ['slot1', 'slot2', 'slot3']) {
-            const mission = missionsToday[slotKey];
-            if (mission?.type !== MISSION_TYPES.HYBRID_DAILY_1V1) continue;
-            const slot = next.slots[slotKey];
-            if (slot.completed) continue;
-            const updated = { ...slot, [half]: true };
-            const completed = !!(updated.dailyDone && updated.matchDone);
-            next = { ...next, slots: { ...next.slots, [slotKey]: { ...updated, progress: completed ? mission.target : 0, completed } } };
-        }
-        if (next !== state) persist(next);
-    }, [uid, state, missionsToday, persist]);
+        const current = stateRef.current;
+        if (!uid || !current) return;
+        const next = applyHybridHalf(current, missionsToday, half);
+        if (next !== current) persist(next);
+    }, [uid, missionsToday, persist]);
 
     const recordMatchComplete = useCallback(({ won, accuracy = 0 } = {}) => {
         record(MISSION_TYPES.PLAY_1V1, 1);
@@ -170,12 +148,12 @@ export function useDailyMissions(uid, setGlobalStats) {
 
     const recordDailyComplete = useCallback(({ accuracy = 0 } = {}) => {
         record(MISSION_TYPES.PLAY_DAILY, 1);
-        record(MISSION_TYPES.DAILY_ACCURACY, 1, (m) => accuracy >= m.target);
+        record(MISSION_TYPES.DAILY_ACCURACY, 1, (m) => accuracy >= (m.accuracy || 0));
         recordHybridHalf('dailyDone');
     }, [record, recordHybridHalf]);
 
     const recordCorrectCategory = useCallback((categoryKey) => {
-        record(MISSION_TYPES.CATEGORY_CORRECT, 1, (m) => m.category === categoryKey);
+        record(MISSION_TYPES.CATEGORY_CORRECT, 1, (m) => categoryMatches(m, categoryKey));
     }, [record]);
 
     const recordStreak = useCallback((streakLength) => {
@@ -186,26 +164,44 @@ export function useDailyMissions(uid, setGlobalStats) {
         record(MISSION_TYPES.SUBMIT_QUESTION, 1);
     }, [record]);
 
+    // Mission-fallback events. No-ops on days/slots without a matching alt
+    // (and always when MISSION_FALLBACKS is off, since alts are stripped).
+    // Called once per FINISHED non-daily solo round (victory or game over).
+    const recordSoloRoundComplete = useCallback(({ correct = 0, jokersUsed = false } = {}) => {
+        record(MISSION_TYPES.SOLO_ROUND_COMPLETE, 1);
+        record(MISSION_TYPES.SOLO_ROUND_MIN_CORRECT, 1, (m) => correct >= (m.minCorrect || 0));
+        if (!jokersUsed) record(MISSION_TYPES.SOLO_ROUND_NO_JOKER, 1);
+        recordHybridHalf('soloDone');
+    }, [record, recordHybridHalf]);
+
+    const recordQuestionReported = useCallback(() => {
+        record(MISSION_TYPES.REPORT_QUESTION, 1);
+    }, [record]);
+
     // Both claim* functions credit coins directly via setGlobalStats (same
     // "hand back raw setters, let this hook use them" convention useOneVsOne
     // follows) rather than returning the reward amount for a caller to
     // apply - there's no level-up path here (coins only, no xp), so no
     // level-up toast concern to route through gameLogic.js for.
+    // Both read stateRef rather than the render's `state`, so a quick double
+    // tap can't see the slot as unclaimed twice and credit the coins twice.
     const claimSlot = useCallback((slotKey) => {
-        if (!state) return;
-        const slot = state.slots[slotKey];
-        if (!slot.completed || slot.claimed) return;
-        persist({ ...state, slots: { ...state.slots, [slotKey]: { ...slot, claimed: true } } });
+        const current = stateRef.current;
+        if (!current) return;
+        const slot = current.slots[slotKey];
+        if (!slot?.completed || slot.claimed) return;
+        persist({ ...current, slots: { ...current.slots, [slotKey]: { ...slot, claimed: true } } });
         setGlobalStats(prev => ({ ...prev, coins: (prev.coins || 0) + MISSION_REWARDS.SLOT_COMPLETION }));
-    }, [state, persist, setGlobalStats]);
+    }, [persist, setGlobalStats]);
 
     const claimCleanSweep = useCallback(() => {
-        if (!state || state.cleanSweepClaimed) return;
-        const allClaimed = ['slot1', 'slot2', 'slot3'].every((k) => state.slots[k].claimed);
+        const current = stateRef.current;
+        if (!current || current.cleanSweepClaimed) return;
+        const allClaimed = ['slot1', 'slot2', 'slot3'].every((k) => current.slots[k]?.claimed);
         if (!allClaimed) return;
-        persist({ ...state, cleanSweepClaimed: true });
+        persist({ ...current, cleanSweepClaimed: true });
         setGlobalStats(prev => ({ ...prev, coins: (prev.coins || 0) + MISSION_REWARDS.CLEAN_SWEEP_BONUS }));
-    }, [state, persist, setGlobalStats]);
+    }, [persist, setGlobalStats]);
 
     return {
         dateKey,
@@ -216,6 +212,8 @@ export function useDailyMissions(uid, setGlobalStats) {
         recordCorrectCategory,
         recordStreak,
         recordQuestionSubmitted,
+        recordSoloRoundComplete,
+        recordQuestionReported,
         claimSlot,
         claimCleanSweep,
     };

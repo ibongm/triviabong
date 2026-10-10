@@ -305,6 +305,8 @@ export default function App() {
     recordCorrectCategory,
     recordStreak,
     recordQuestionSubmitted,
+    recordSoloRoundComplete,
+    recordQuestionReported,
     claimSlot,
     claimCleanSweep,
   } = useDailyMissions(currentUser?.uid, setGlobalStats);
@@ -762,6 +764,20 @@ export default function App() {
       correctAnswers: correctCountSnapshot,
       durationMs: roundElapsedMs ? Math.round(roundElapsedMs) : undefined,
     });
+
+    // Mission fallbacks: a FINISHED solo round (victory or game over - this
+    // function only runs at round end, never on quitting) feeds the solo
+    // alt paths. Daily Challenge rounds have their own mission events
+    // (recordDailyComplete) and don't count as solo rounds. Called from the
+    // function body, not inside a setState updater, so StrictMode can't
+    // double-fire it.
+    if (!dailyChallengeMode) {
+      const jokers = jokersUsedSnapshot || {};
+      recordSoloRoundComplete({
+        correct: correctCountSnapshot,
+        jokersUsed: !!(jokers.fiftyFifty || jokers.plusTen || jokers.skip),
+      });
+    }
   };
 
   const handleAnswer = (option) => {
@@ -1404,6 +1420,7 @@ export default function App() {
         question={currentQ}
         categoryId={currentQ?.category || selectedCategory}
         uid={currentUser?.uid}
+        onReported={recordQuestionReported}
       />
 
       {/* Submit Question Modal */}
