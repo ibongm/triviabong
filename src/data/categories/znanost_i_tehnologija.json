@@ -12205,5 +12205,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1095",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za električni naboj?",
+        "correct_answer": "Coulomb",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Ohm"
+        ],
+        "explanation": "Coulomb (C) je SI jedinica za mjerenje količine električnog naboja. Ime je dobio po francuskom fizičaru Charles-Augustinu de Coulombu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1096",
+        "category": "znanost",
+        "question": "Koji enzim je odgovoran za sintezu novih lanaca DNA tijekom replikacije, koristeći postojeći lanac kao predložak?",
+        "correct_answer": "DNA polimeraza",
+        "incorrect_answers": [
+            "RNA ligaza",
+            "Helikaza",
+            "Restrikcijska endonukleaza"
+        ],
+        "explanation": "DNA polimeraza dodaje nukleotide i stvara nove DNA lance, osiguravajući točno kopiranje genetske informacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1097",
+        "category": "znanost",
+        "question": "Kako se naziva primarna memorija računala koja privremeno pohranjuje podatke i programe koje CPU trenutno koristi?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "ROM",
+            "SSD",
+            "HDD"
+        ],
+        "explanation": "RAM omogućuje brz pristup podacima koji se aktivno koriste, a sadržaj mu se briše kad se računalo isključi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1098",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje prijenosom elektrona s jednog atoma na drugi, stvarajući ione suprotnog naboja?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza se formira između metala i nemetala, gdje jedan atom gubi, a drugi dobiva elektrone.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1099",
+        "category": "znanost",
+        "question": "Koji je najveći planet u Sunčevom sustavu?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Zemlja",
+            "Mars"
+        ],
+        "explanation": "Jupiter je plinoviti div i daleko je najveći planet u našem Sunčevom sustavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1100",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalni fenomen kada se dva vala susretnu i kombiniraju, rezultirajući valom veće ili manje amplitude?",
+        "correct_answer": "Interferencija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Difrakcija",
+            "Polarizacija"
+        ],
+        "explanation": "Interferencija je pojava preklapanja valova, što može dovesti do konstruktivnog ili destruktivnog pojačavanja/poništavanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1101",
+        "category": "znanost",
+        "question": "Koji tip bijelih krvnih stanica proizvodi antitijela?",
+        "correct_answer": "B limfociti (B stanice)",
+        "incorrect_answers": [
+            "T limfociti",
+            "Makrofagi",
+            "Neutrofili"
+        ],
+        "explanation": "B limfociti su ključni za humoralni imunitet, jer prepoznaju antigene i proizvode specifična antitijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1102",
+        "category": "znanost",
+        "question": "Koji je skup pravila i postupaka koji omogućuje komunikaciju između različitih uređaja u računalnoj mreži?",
+        "correct_answer": "Protokol",
+        "incorrect_answers": [
+            "Algoritam",
+            "Firewall",
+            "Ruter"
+        ],
+        "explanation": "Protokoli definiraju format i redoslijed slanja i primanja podataka, osiguravajući uspješnu komunikaciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1103",
+        "category": "znanost",
+        "question": "Koji kemijski element ima simbol 'O'?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Zlato",
+            "Osmij",
+            "Olovo"
+        ],
+        "explanation": "Kisik je ne-metalni element i vitalan je za život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1104",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada promjenjivo magnetsko polje inducira električnu struju u vodiču?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Elektrostatska indukcija",
+            "Magnetska rezonancija",
+            "Peltierov efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je princip rada generatora i transformatora, otkrio ju je Michael Faraday.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1105",
+        "category": "znanost",
+        "question": "Koji je naziv za teoriju koja objašnjava stvaranje svemira iz ekstremno guste i vruće točke prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija multiverzuma",
+            "Teorija puzajućeg stanja"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji opisuje rani razvoj Svemira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1106",
+        "category": "znanost",
+        "question": "Koja je funkcija mijelinske ovojnice oko aksona živčanih stanica?",
+        "correct_answer": "Ubrzavanje prijenosa živčanih impulsa",
+        "incorrect_answers": [
+            "Pružanje hranjivih tvari",
+            "Proizvodnja neurotransmitera",
+            "Zaštita od toksina"
+        ],
+        "explanation": "Mijelinska ovojnica djeluje kao izolator, omogućujući brži i učinkovitiji skokoviti prijenos signala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1107",
+        "category": "znanost",
+        "question": "Što je 'bug' u kontekstu računalnog programiranja?",
+        "correct_answer": "Pogreška u kodu programa",
+        "incorrect_answers": [
+            "Vrsta računalnog virusa",
+            "Hardverski problem",
+            "Mrežni protokol"
+        ],
+        "explanation": "Bug je greška ili nedostatak u softveru koja uzrokuje neočekivano ponašanje ili rušenje programa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1108",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se jednostavni molekuli (monomeri) spajaju u duge lance (polimere)?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Fermentacija",
+            "Oksidacija"
+        ],
+        "explanation": "Polimerizacija je ključan proces za stvaranje plastike, proteina i drugih makromolekula.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1109",
+        "category": "znanost",
+        "question": "Kako se naziva vanjski sloj Zemlje, sastavljen od tektonskih ploča?",
+        "correct_answer": "Litosfera",
+        "incorrect_answers": [
+            "Astenosfera",
+            "Mezosfera",
+            "Barisfera"
+        ],
+        "explanation": "Litosfera obuhvaća koru i najgornji dio plašta, a podijeljena je na velike tektonske ploče.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1110",
+        "category": "znanost",
+        "question": "Koji je princip u kvantnoj mehanici koji kaže da ne možemo istovremeno točno znati i položaj i impuls čestice?",
+        "correct_answer": "Heisenbergov princip neodređenosti",
+        "incorrect_answers": [
+            "Paulijev princip isključenja",
+            "Planckov zakon zračenja",
+            "De Broglieva hipoteza"
+        ],
+        "explanation": "Princip neodređenosti je temeljni koncept kvantne mehanike koji postavlja granice našem znanju o subatomskim česticama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1111",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke i neki drugi organizmi pretvaraju svjetlosnu energiju u kemijsku energiju?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Kemosinteza",
+            "Respiracija",
+            "Fermentacija"
+        ],
+        "explanation": "Fotosinteza je vitalna za život na Zemlji, proizvodi kisik i organske tvari iz ugljikovog dioksida i vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1112",
+        "category": "znanost",
+        "question": "Koju strukturu podataka karakterizira 'Last In, First Out' (LIFO) princip?",
+        "correct_answer": "Stog (Stack)",
+        "incorrect_answers": [
+            "Red (Queue)",
+            "Povezana lista",
+            "Binarno stablo"
+        ],
+        "explanation": "Kod stoga, zadnji dodani element je prvi koji se uklanja, poput hrpe tanjura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1113",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se krutina izravno pretvara u plin, preskačući tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Taljenje",
+            "Isparavanje"
+        ],
+        "explanation": "Sublimacija je primjerice vidljiva kod suhog leda (smrznuti CO2) koji isparava na sobnoj temperaturi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1114",
+        "category": "znanost",
+        "question": "Koji je svemirski teleskop, lansiran 2021. godine, nasljednik Hubblea, optimiziran za promatranje u infracrvenom spektru?",
+        "correct_answer": "James Webb Space Telescope (JWST)",
+        "incorrect_answers": [
+            "Kepler Space Telescope",
+            "Chandra X-ray Observatory",
+            "Spitzer Space Telescope"
+        ],
+        "explanation": "JWST ima veće ogledalo i naprednije instrumente za proučavanje ranog svemira i egzoplaneta u infracrvenom svjetlu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1115",
+        "category": "znanost",
+        "question": "Koja je uloga bubrega u ljudskom tijelu?",
+        "correct_answer": "Filtracija krvi i regulacija ravnoteže tekućina",
+        "incorrect_answers": [
+            "Proizvodnja žuči",
+            "Hormonska regulacija rasta",
+            "Probava masti"
+        ],
+        "explanation": "Bubrezi uklanjaju otpadne tvari iz krvi, održavaju elektrolitnu ravnotežu i reguliraju krvni tlak.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1116",
+        "category": "znanost",
+        "question": "Koja je globalna mreža računalnih mreža koja omogućuje razmjenu informacija diljem svijeta?",
+        "correct_answer": "Internet",
+        "incorrect_answers": [
+            "Intranet",
+            "Ekstranet",
+            "LAN"
+        ],
+        "explanation": "Internet je najveća svjetska računalna mreža, omogućujući pristup web stranicama, e-pošti i drugim uslugama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1117",
+        "category": "znanost",
+        "question": "Koji oblik energije posjeduje objekt zbog svog gibanja?",
+        "correct_answer": "Kinetička energija",
+        "incorrect_answers": [
+            "Potencijalna energija",
+            "Toplinska energija",
+            "Kemijska energija"
+        ],
+        "explanation": "Kinetička energija ovisi o masi objekta i brzini kojom se giba (formula Ek = 0.5 * m * v^2).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1118",
+        "category": "znanost",
+        "question": "Koja je definicija Arrheniusove kiseline?",
+        "correct_answer": "Tvar koja u vodenoj otopini disocira oslobađajući H+ ione",
+        "incorrect_answers": [
+            "Akceptor elektronskih parova",
+            "Donator elektronskih parova",
+            "Tvar koja oslobađa OH- ione"
+        ],
+        "explanation": "Arrheniusova definicija kiseline i baze je najstarija i odnosi se na njihovo ponašanje u vodi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1119",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim organizmi s povoljnijim osobinama preživljavaju i razmnožavaju se učinkovitije, prenoseći te osobine na potomstvo?",
+        "correct_answer": "Prirodna selekcija",
+        "incorrect_answers": [
+            "Genetski drift",
+            "Mutacija",
+            "Umjetna selekcija"
+        ],
+        "explanation": "Prirodna selekcija, ključni mehanizam evolucije, dovodi do adaptacije vrsta na njihovo okruženje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1120",
+        "category": "znanost",
+        "question": "Što je 'varijabla' u programiranju?",
+        "correct_answer": "Imenovano mjesto za pohranu vrijednosti u memoriji",
+        "incorrect_answers": [
+            "Vrsta petlje",
+            "Naredba za ispis teksta",
+            "Funkcija za matematičke operacije"
+        ],
+        "explanation": "Varijable omogućuju programerima da pohranjuju i manipuliraju podacima tijekom izvođenja programa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1121",
+        "category": "znanost",
+        "question": "Koji zakon termodinamike kaže da entropija izoliranog sustava uvijek teži povećanju?",
+        "correct_answer": "Drugi zakon termodinamike",
+        "incorrect_answers": [
+            "Prvi zakon termodinamike",
+            "Nulti zakon termodinamike",
+            "Treći zakon termodinamike"
+        ],
+        "explanation": "Drugi zakon termodinamike objašnjava smjer prirodnih procesa i nezaustavljivo povećanje nereda u sustavu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1122",
+        "category": "znanost",
+        "question": "Kako se naziva ostatak zvijezde koji je previše masivan da bi postao bijeli patuljak, ali nedovoljno masivan da se uruši u crnu rupu?",
+        "correct_answer": "Neutronska zvijezda",
+        "incorrect_answers": [
+            "Crveni div",
+            "Kvazar",
+            "Smeđi patuljak"
+        ],
+        "explanation": "Neutronske zvijezde su ekstremno guste, s materijom stisnutom tako da se elektroni i protoni spoje u neutrone.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1123",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija mitohondrija u eukariotskoj stanici?",
+        "correct_answer": "Proizvodnja energije (ATP)",
+        "incorrect_answers": [
+            "Sinteza proteina",
+            "Pohrana genetskog materijala",
+            "Provedba fotosinteze"
+        ],
+        "explanation": "Mitohondriji su 'elektrane' stanice, odgovorne za stanično disanje i stvaranje adenozin trifosfata (ATP).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1124",
+        "category": "znanost",
+        "question": "Koji je primarni zadatak operacijskog sustava?",
+        "correct_answer": "Upravljanje hardverskim resursima i pružanje usluga aplikacijama",
+        "incorrect_answers": [
+            "Kreiranje web stranica",
+            "Analiza podataka",
+            "Izrada grafičkog dizajna"
+        ],
+        "explanation": "Operacijski sustav upravlja memorijom, procesorom, ulazno/izlaznim uređajima i omogućuje rad softvera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1125",
+        "category": "znanost",
+        "question": "Kako se naziva smjesa u kojoj su jedna ili više tvari (otopine) jednolično raspoređene u drugoj tvari (otapalu)?",
+        "correct_answer": "Otopina",
+        "incorrect_answers": [
+            "Suspenzija",
+            "Koloid",
+            "Emulzija"
+        ],
+        "explanation": "Otopine su homogena smjesa, npr. šećer otopljen u vodi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1126",
+        "category": "znanost",
+        "question": "Koji je koncept u općoj relativnosti koji opisuje gravitaciju kao zakrivljenost prostor-vremena uzrokovanu masom i energijom?",
+        "correct_answer": "Zakrivljenost prostor-vremena",
+        "incorrect_answers": [
+            "Gravitacijski valovi",
+            "Kvadratični zakon",
+            "Kozmička inflacija"
+        ],
+        "explanation": "Einsteinova teorija opće relativnosti redefinirala je gravitaciju kao geometrijsko svojstvo prostora i vremena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1127",
+        "category": "znanost",
+        "question": "Gdje se u biljnim stanicama odvija stanično disanje?",
+        "correct_answer": "Mitohondriji",
+        "incorrect_answers": [
+            "Kloroplasti",
+            "Vakuole",
+            "Stanična stijenka"
+        ],
+        "explanation": "Mitohondriji su odgovorni za pretvaranje glukoze i kisika u ATP, ugljikov dioksid i vodu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1128",
+        "category": "znanost",
+        "question": "Koji se jezik koristi za stiliziranje izgleda web stranica (boje, fontovi, raspored)?",
+        "correct_answer": "CSS (Cascading Style Sheets)",
+        "incorrect_answers": [
+            "HTML",
+            "JavaScript",
+            "Python"
+        ],
+        "explanation": "CSS se koristi za vizualno oblikovanje HTML sadržaja, odvajajući strukturu od prezentacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1129",
+        "category": "znanost",
+        "question": "Koji element pripada grupi plemenitih plinova i poznat je po svojoj nereaktivnosti?",
+        "correct_answer": "Neon",
+        "incorrect_answers": [
+            "Natrij",
+            "Klor",
+            "Ugljik"
+        ],
+        "explanation": "Plemeniti plinovi poput neona imaju punu vanjsku ljusku elektrona, što ih čini vrlo stabilnima i nereaktivnima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1130",
+        "category": "znanost",
+        "question": "Koji je naziv za metodu detekcije egzoplaneta koja mjeri male promjene u radijalnoj brzini zvijezde uzrokovane gravitacijskim povlačenjem planeta?",
+        "correct_answer": "Metoda radijalne brzine (Dopplerova metoda)",
+        "incorrect_answers": [
+            "Tranzitna metoda",
+            "Mikroleća",
+            "Izravno snimanje"
+        ],
+        "explanation": "Dopplerova metoda je bila jedna od prvih uspješnih tehnika za otkrivanje egzoplaneta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1131",
+        "category": "znanost",
+        "question": "Od čega se primarno sastoji virus?",
+        "correct_answer": "Genetski materijal (DNA ili RNA) omotan proteinskom ovojnicom",
+        "incorrect_answers": [
+            "Cjelovita stanica s organelama",
+            "Samo proteinska ovojnica",
+            "Samo genetski materijal"
+        ],
+        "explanation": "Virusi su acellularni paraziti koji za razmnožavanje koriste staničnu mašineriju domaćina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1132",
+        "category": "znanost",
+        "question": "Koji se uređaj za pohranu koristi za dugotrajno spremanje podataka i programa, čak i kada je računalo isključeno?",
+        "correct_answer": "SSD (Solid State Drive)",
+        "incorrect_answers": [
+            "RAM",
+            "Cache memorija",
+            "CPU"
+        ],
+        "explanation": "SSD-ovi i HDD-ovi su nepostojana memorija, što znači da zadržavaju podatke bez stalnog napajanja električnom energijom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1133",
+        "category": "znanost",
+        "question": "Koji fenomen objašnjava zašto se bijelo svjetlo razlaže na dugine boje kada prolazi kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Apsorpcija",
+            "Refleksija",
+            "Polarizacija"
+        ],
+        "explanation": "Disperzija nastaje jer se različite valne duljine svjetlosti (boje) lome pod različitim kutovima pri prolasku kroz medij.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1134",
+        "category": "znanost",
+        "question": "Kako se naziva područje umjetne inteligencije koje se fokusira na omogućavanje robotima i sustavima da 'uče' iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje (Machine Learning)",
+        "incorrect_answers": [
+            "Ekspertni sustavi",
+            "Računalna vizija",
+            "Prirodna obrada jezika (NLP)"
+        ],
+        "explanation": "Strojno učenje je podskup AI-a gdje algoritmi poboljšavaju svoje performanse iz iskustva s podacima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
