@@ -12951,5 +12951,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1167",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu nogometnu momčad na terenu tijekom službene utakmice?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka nogometna momčad započinje utakmicu s jedanaest igrača na terenu, uključujući i golmana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1168",
+        "category": "sport",
+        "question": "Koliko bodova donosi pogodak iz slobodnog bacanja u košarci?",
+        "correct_answer": "1 bod",
+        "incorrect_answers": [
+            "2 boda",
+            "3 boda",
+            "0 bodova"
+        ],
+        "explanation": "Slobodno bacanje u košarci, dosuđeno nakon prekršaja, uvijek vrijedi jedan bod ako je uspješno izvedeno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1169",
+        "category": "sport",
+        "question": "Kako se zove najstariji i najprestižniji teniski turnir na svijetu, poznat po travnatoj podlozi?",
+        "correct_answer": "Wimbledon",
+        "incorrect_answers": [
+            "Roland Garros",
+            "US Open",
+            "Australian Open"
+        ],
+        "explanation": "Wimbledon je najstariji teniski turnir, osnovan 1877. godine, i jedini Grand Slam koji se igra na travi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1170",
+        "category": "sport",
+        "question": "Kolika je standardna visina prepona u utrci na 110 metara s preponama za muškarce?",
+        "correct_answer": "1.067 metara",
+        "incorrect_answers": [
+            "0.914 metara",
+            "1.100 metara",
+            "1.000 metara"
+        ],
+        "explanation": "Standardna visina prepona za mušku utrku na 110 metara s preponama iznosi 1.067 metara, odnosno 42 inča.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1171",
+        "category": "sport",
+        "question": "Kako se naziva stil plivanja u kojem plivač leži na leđima i pokreće se rukama i nogama naizmjenično?",
+        "correct_answer": "Leđno",
+        "incorrect_answers": [
+            "Kraul",
+            "Prsno",
+            "Leptir"
+        ],
+        "explanation": "Leđno plivanje je jedini stil u kojem se plivač nalazi na leđima, s licem okrenutim prema gore, što omogućuje lakše disanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1172",
+        "category": "sport",
+        "question": "Kako se naziva oprema koja se veže za cipele i omogućuje klizanje po snijegu?",
+        "correct_answer": "Skije",
+        "incorrect_answers": [
+            "Daske",
+            "Sanjke",
+            "Klizaljke"
+        ],
+        "explanation": "Skije su dugačke uske ploče koje se pričvršćuju za obuću i koriste za kretanje po snijegu, bilo spuštanjem ili hodanjem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1173",
+        "category": "sport",
+        "question": "Koja je najpoznatija disciplina borilačkog sporta u kojoj se koriste isključivo šake?",
+        "correct_answer": "Boks",
+        "incorrect_answers": [
+            "Kickboxing",
+            "Judo",
+            "Hrvanje"
+        ],
+        "explanation": "Boks je borilački sport u kojem se protivnici bore isključivo šakama, noseći zaštitne rukavice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1174",
+        "category": "sport",
+        "question": "Koji se rekvizit koristi za vožnju bicikla, a služi za okretanje kotača?",
+        "correct_answer": "Pedale",
+        "incorrect_answers": [
+            "Volan",
+            "Sjedalo",
+            "Kočnice"
+        ],
+        "explanation": "Pedale su dijelovi bicikla na koje vozač stavlja noge i okreće ih kako bi pokrenuo lanac i kotače.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1175",
+        "category": "sport",
+        "question": "Koji se automobilistički sport smatra kraljevskom disciplinom zbog brzine i tehnologije bolida?",
+        "correct_answer": "Formula 1",
+        "incorrect_answers": [
+            "Rally",
+            "NASCAR",
+            "IndyCar"
+        ],
+        "explanation": "Formula 1 je najviša klasa međunarodnih automobilističkih utrka, poznata po naprednoj tehnologiji i iznimnim brzinama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1176",
+        "category": "sport",
+        "question": "Koji se sport izvodi na dasci s jedrom, koristeći vjetar za pogon?",
+        "correct_answer": "Jedrenje na dasci (Windsurfing)",
+        "incorrect_answers": [
+            "Kajak",
+            "Veslanje",
+            "Surfanje"
+        ],
+        "explanation": "Jedrenje na dasci kombinira elemente surfanja i jedrenja, gdje sportaš stoji na dasci i upravlja jedrom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1177",
+        "category": "sport",
+        "question": "Koji sport igraju dvije ekipe, svaka s po šest igrača, na terenu podijeljenom mrežom preko koje se prebacuje lopta?",
+        "correct_answer": "Odbojka",
+        "incorrect_answers": [
+            "Rukomet",
+            "Košarka",
+            "Nogomet"
+        ],
+        "explanation": "Odbojka je timski sport u kojem dvije ekipe od po šest igrača pokušavaju prebaciti loptu preko mreže kako bi je suparnik ne bi mogao vratiti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1178",
+        "category": "sport",
+        "question": "Kako se naziva oprema koju strijelci koriste za izbacivanje strijela prema meti?",
+        "correct_answer": "Luk i strijela",
+        "incorrect_answers": [
+            "Puška i metak",
+            "Samostrel i strelica",
+            "Praćka i kamen"
+        ],
+        "explanation": "U streličarstvu se koristi luk za napinjanje i ispaljivanje strijela, koje lete prema meti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1179",
+        "category": "sport",
+        "question": "Koja je jedina zemlja koja je osvojila svjetsko prvenstvo u nogometu na tri različita kontinenta?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je osvojio svjetska prvenstva u Švedskoj (Europa), Čileu (Južna Amerika), Meksiku i SAD-u (Sjeverna Amerika) te Japanu/Južnoj Koreji (Azija).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1180",
+        "category": "sport",
+        "question": "Koji europski klub drži rekord po broju osvojenih naslova prvaka Eurolige (stanje 2024.)?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "CSKA Moskva",
+            "Panathinaikos",
+            "Maccabi Tel Aviv"
+        ],
+        "explanation": "Real Madrid je najuspješniji klub u povijesti Eurolige s rekordnih jedanaest naslova prvaka (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1181",
+        "category": "sport",
+        "question": "Koja tenisačica drži rekord po broju osvojenih Grand Slam naslova u pojedinačnoj konkurenciji u Open eri (stanje 2024.)?",
+        "correct_answer": "Serena Williams",
+        "incorrect_answers": [
+            "Margaret Court",
+            "Steffi Graf",
+            "Chris Evert"
+        ],
+        "explanation": "Serena Williams ima 23 Grand Slam naslova u pojedinačnoj konkurenciji, najviše u Open eri. Margaret Court ima ukupno 24, ali većinu prije Open ere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1182",
+        "category": "sport",
+        "question": "Koji je sportaš prvi pretrčao 1 milju za manje od 4 minute?",
+        "correct_answer": "Roger Bannister",
+        "incorrect_answers": [
+            "Paavo Nurmi",
+            "Emil Zátopek",
+            "Hicham El Guerrouj"
+        ],
+        "explanation": "Roger Bannister je 6. svibnja 1954. godine postao prvi čovjek koji je pretrčao milju (1609 metara) za manje od četiri minute.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1183",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše olimpijskih medalja u sinkroniziranom plivanju (umjetničkom plivanju) (stanje 2024.)?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Japan"
+        ],
+        "explanation": "Rusija je dominirala sinkroniziranim plivanjem na Olimpijskim igrama, osvojivši najveći broj zlatnih medalja u ovom sportu (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1184",
+        "category": "sport",
+        "question": "Koji je zimski sport poznat po brzim spustovima i vratima koja se moraju proći u što kraćem vremenu?",
+        "correct_answer": "Alpsko skijanje",
+        "incorrect_answers": [
+            "Skijaško trčanje",
+            "Skijaški skokovi",
+            "Snowboard"
+        ],
+        "explanation": "Alpsko skijanje obuhvaća discipline poput slaloma, veleslaloma i spusta, gdje je cilj što brže proći zadanu stazu s vratima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1185",
+        "category": "sport",
+        "question": "Kako se naziva zaštitna oprema koju boksači nose na rukama tijekom borbe?",
+        "correct_answer": "Boksačke rukavice",
+        "incorrect_answers": [
+            "Bandaže",
+            "Štitnici za ruke",
+            "Trakice"
+        ],
+        "explanation": "Boksačke rukavice su neophodne za zaštitu ruku boksača i smanjenje udarne sile, štiteći tako oba borca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1186",
+        "category": "sport",
+        "question": "Koliko je etapa tradicionalno dugačka utrka Tour de France?",
+        "correct_answer": "Oko 21 etapa",
+        "incorrect_answers": [
+            "Oko 15 etapa",
+            "Oko 25 etapa",
+            "Oko 10 etapa"
+        ],
+        "explanation": "Tour de France se obično sastoji od otprilike 21 etape koje se voze tijekom 23 dana, s dva dana odmora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1187",
+        "category": "sport",
+        "question": "Koliko je bodova dobio pobjednik utrke Formule 1 od sezone 2010. do danas (stanje 2024.)?",
+        "correct_answer": "25 bodova",
+        "incorrect_answers": [
+            "10 bodova",
+            "15 bodova",
+            "20 bodova"
+        ],
+        "explanation": "Od sezone 2010., pobjednik svake utrke Formule 1 osvaja 25 bodova za svjetsko prvenstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1188",
+        "category": "sport",
+        "question": "Koji se naziv koristi za mali, uski čamac koji se pokreće jednim ili više veslača pomoću vesala s jednim listom?",
+        "correct_answer": "Kajak",
+        "incorrect_answers": [
+            "Kanu",
+            "Šajka",
+            "Gondola"
+        ],
+        "explanation": "Kajak je uski čamac u kojem veslač sjedi okrenut prema naprijed i koristi veslo s dva lista, za razliku od kanua koji koristi veslo s jednim listom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1189",
+        "category": "sport",
+        "question": "Koliko iznosi visina mreže za muškarce u profesionalnoj odbojci (stanje 2024.)?",
+        "correct_answer": "2.43 metra",
+        "incorrect_answers": [
+            "2.24 metra",
+            "2.50 metara",
+            "2.35 metara"
+        ],
+        "explanation": "Visina gornjeg ruba mreže u odbojci za muškarce iznosi točno 2.43 metra, mjereno od sredine igrališta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1190",
+        "category": "sport",
+        "question": "Koja je maksimalna udaljenost na koju se gađa meta u streličarstvu na Olimpijskim igrama?",
+        "correct_answer": "70 metara",
+        "incorrect_answers": [
+            "50 metara",
+            "90 metara",
+            "100 metara"
+        ],
+        "explanation": "U olimpijskom streličarstvu, strijelci gađaju mete postavljene na udaljenosti od 70 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1191",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička sprava koja se sastoji od dviju paralelnih šipki na različitim visinama?",
+        "correct_answer": "Dvovisinske ruče",
+        "incorrect_answers": [
+            "Paralelne ruče",
+            "Greda",
+            "Razboj"
+        ],
+        "explanation": "Dvovisinske ruče su sprava u ženskoj sportskoj gimnastici, gdje se izvode vježbe na dvije šipke različitih visina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1192",
+        "category": "sport",
+        "question": "Koji se sport igra na dasci s kotačićima, a uključuje izvođenje trikova i skokova?",
+        "correct_answer": "Skateboarding",
+        "incorrect_answers": [
+            "BMX",
+            "Rolanje",
+            "Snowboarding"
+        ],
+        "explanation": "Skateboarding je sport u kojem se na dasci s kotačima izvode različiti trikovi, skokovi i vožnje po rampama ili ulicama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1193",
+        "category": "sport",
+        "question": "Koji sport uključuje jahanje konja u ritmu glazbe, gdje konj i jahač izvode serije unaprijed određenih pokreta?",
+        "correct_answer": "Dresurno jahanje",
+        "incorrect_answers": [
+            "Preponsko jahanje",
+            "Galopiranje",
+            "Western jahanje"
+        ],
+        "explanation": "Dresurno jahanje je konjički sport u kojem se konj i jahač usklađeno kreću izvodeći niz preciznih figura u ritmu glazbe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1194",
+        "category": "sport",
+        "question": "Koji je nogometaš prvi osvojio Svjetsko prvenstvo kao igrač i kao trener?",
+        "correct_answer": "Mário Zagallo",
+        "incorrect_answers": [
+            "Franz Beckenbauer",
+            "Didier Deschamps",
+            "Pelé"
+        ],
+        "explanation": "Brazilac Mário Zagallo bio je prvi koji je osvojio Svjetsko prvenstvo kao igrač (1958., 1962.) i kao trener (1970.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1195",
+        "category": "sport",
+        "question": "Koja država nikada nije osvojila Davis Cup, unatoč tome što je bila u finalu više puta?",
+        "correct_answer": "Belgija",
+        "incorrect_answers": [
+            "Švedska",
+            "Švicarska",
+            "Češka"
+        ],
+        "explanation": "Belgija je četiri puta igrala u finalu Davis Cupa (1904., 2015., 2017.) i svaki put je izgubila, nikada ne osvojivši trofej.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1196",
+        "category": "sport",
+        "question": "Koja je atletska disciplina nekada bila poznata kao 'bacanje klatna'?",
+        "correct_answer": "Bacanje kladiva",
+        "incorrect_answers": [
+            "Bacanje diska",
+            "Bacanje kugle",
+            "Bacanje koplja"
+        ],
+        "explanation": "Disciplina bacanja kladiva izvorno se razvila iz bacanja kovačkog čekića, a zbog rotacije podsjeća na klatno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1197",
+        "category": "sport",
+        "question": "Koji je jedini plivački stil koji se izvodi s objema rukama koje istovremeno izlaze iz vode iznad glave i istovremeno ulaze u vodu?",
+        "correct_answer": "Leptir",
+        "incorrect_answers": [
+            "Kraul",
+            "Prsno",
+            "Leđno"
+        ],
+        "explanation": "Stil leptir karakterizira istovremeno izbacivanje i ulazak obje ruke u vodu iznad glave, praćen valovitim pokretom tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1198",
+        "category": "sport",
+        "question": "Tko je najuspješniji sportaš u povijesti zimskih olimpijskih igara po broju medalja (stanje 2024.)?",
+        "correct_answer": "Marit Bjørgen",
+        "incorrect_answers": [
+            "Ole Einar Bjørndalen",
+            "Bjørn Dæhlie",
+            "Larisa Latynina"
+        ],
+        "explanation": "Norveška skijašica Marit Bjørgen osvojila je ukupno 15 olimpijskih medalja (8 zlatnih, 4 srebrne, 3 brončane), što je najviše u povijesti ZOI.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1199",
+        "category": "sport",
+        "question": "Koji je brazilski borilački sport razvijen iz jiu-jitsua, fokusiran na borbu na tlu i zahvate poluga?",
+        "correct_answer": "Brazilski jiu-jitsu",
+        "incorrect_answers": [
+            "Capoeira",
+            "Luta Livre",
+            "Vale Tudo"
+        ],
+        "explanation": "Brazilski jiu-jitsu je borilačka vještina koja se fokusira na borbu na tlu, koristeći zahvate gušenja i poluge za kontrolu i prisiljavanje protivnika na predaju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1200",
+        "category": "sport",
+        "question": "Koja je boja majice namijenjena lideru u ukupnom poretku na utrci Giro d'Italia?",
+        "correct_answer": "Ružičasta (Maglia Rosa)",
+        "incorrect_answers": [
+            "Žuta (Maillot Jaune)",
+            "Zelena",
+            "Bijela"
+        ],
+        "explanation": "Vodeći biciklist na utrci Giro d'Italia nosi ružičastu majicu, poznatu kao 'Maglia Rosa'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1201",
+        "category": "sport",
+        "question": "Kako se naziva najprestižnija utrka izdržljivosti sportskih automobila, koja traje 24 sata?",
+        "correct_answer": "24 sata Le Mansa",
+        "incorrect_answers": [
+            "Daytona 500",
+            "Monaco Grand Prix",
+            "Indianapolis 500"
+        ],
+        "explanation": "24 sata Le Mansa je najpoznatija svjetska utrka izdržljivosti, održava se u Francuskoj i zahtijeva od timova da voze neprekidno 24 sata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1202",
+        "category": "sport",
+        "question": "Koja se disciplina jedrenja smatra najbržom, s katamaranima koji doslovno 'lete' iznad vode?",
+        "correct_answer": "Hydrofoil jedrenje (Jedrenje na hidrokrilcima)",
+        "incorrect_answers": [
+            "Match race jedrenje",
+            "Offshore jedrenje",
+            "Regatno jedrenje"
+        ],
+        "explanation": "Hydrofoil jedrilice koriste podvodna krila (hidrokrilca) koja ih podižu iz vode, smanjujući otpor i omogućujući ekstremne brzine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1203",
+        "category": "sport",
+        "question": "Koji je timski sport porijeklom iz Irske, a igra se s palicama i malom loptom na velikom travnatom terenu, kombinirajući elemente hokeja i nogometa?",
+        "correct_answer": "Hurling",
+        "incorrect_answers": [
+            "Ragbi",
+            "Kriket",
+            "Hokej na travi"
+        ],
+        "explanation": "Hurling je drevni irski timski sport u kojem igrači koriste drvene palice (hurleys) za udaranje male lopte (sliotar) kroz gol ili preko prečke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1204",
+        "category": "sport",
+        "question": "Koji sport, poznat kao 'kraljevska igra' u drevnoj Perziji, uključuje jahanje konja i udaranje lopte maljem?",
+        "correct_answer": "Polo",
+        "incorrect_answers": [
+            "Preponsko jahanje",
+            "Dresurno jahanje",
+            "Konjske utrke"
+        ],
+        "explanation": "Polo je timski sport koji se igra na konjima, gdje igrači koriste drvene maljeve za udaranje lopte s ciljem postizanja pogotka u protivnički gol.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1205",
+        "category": "sport",
+        "question": "Koja država tradicionalno dominira muškom sportskom gimnastikom na Olimpijskim igrama (stanje 2024.)?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Kina",
+            "Rusija"
+        ],
+        "explanation": "Japan ima dugu povijest uspjeha u muškoj gimnastici, često osvajajući medalje u ekipnoj i pojedinačnoj konkurenciji na Olimpijskim igrama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sport_1206",
+        "category": "sport",
+        "question": "Koji je jedini sport u povijesti Olimpijskih igara koji je održan i na ljetnim i na zimskim igrama?",
+        "correct_answer": "Umjetničko klizanje",
+        "incorrect_answers": [
+            "Hokej na ledu",
+            "Biatlon",
+            "Curling"
+        ],
+        "explanation": "Umjetničko klizanje bilo je dio Ljetnih olimpijskih igara 1908. i 1920. godine prije nego što je postalo stalni dio Zimskih olimpijskih igara od 1924.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
     }
 ]
