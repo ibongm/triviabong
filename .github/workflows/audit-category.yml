@@ -36,8 +36,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install Google Gen AI Client
-        run: npm install @google/genai
+     - name: Install Google Gen AI Client
+        run: npm install --no-save @google/genai
 
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
@@ -59,6 +59,7 @@ jobs:
           git add -f reports/
           git diff --staged --quiet || (
             git commit -m "fix(data): automated audit & fixes for ${{ inputs.category }}" &&
+            git reset --hard HEAD &&
             git pull --rebase origin main &&
             git push origin main
           )
