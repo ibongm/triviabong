@@ -11620,5 +11620,590 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1056",
+        "category": "znanost",
+        "question": "Koji je primarni jezik za razvoj web stranica koji definira strukturu i sadržaj?",
+        "correct_answer": "HTML",
+        "incorrect_answers": [
+            "CSS",
+            "JavaScript",
+            "Python"
+        ],
+        "explanation": "HTML (HyperText Markup Language) je temeljni jezik interneta koji se koristi za stvaranje strukture web stranica pomoću oznaka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1057",
+        "category": "znanost",
+        "question": "Koji je temeljni zakon koji opisuje odnos između sile, mase i ubrzanja?",
+        "correct_answer": "Drugi Newtonov zakon gibanja",
+        "incorrect_answers": [
+            "Prvi Newtonov zakon gibanja",
+            "Treći Newtonov zakon gibanja",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Drugi Newtonov zakon navodi da je sila jednaka umnošku mase tijela i njegovog ubrzanja (F=ma).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1058",
+        "category": "znanost",
+        "question": "Koji se kemijski element simbolizira s 'Au'?",
+        "correct_answer": "Zlato",
+        "incorrect_answers": [
+            "Srebro",
+            "Aluminij",
+            "Bakar"
+        ],
+        "explanation": "'Au' je kemijski simbol za zlato, dolazi od latinskog naziva \"aurum\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1059",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica nasljeđa u živim organizmima?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Molekula",
+            "Stanica",
+            "Organ"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđa koja prenosi genetske informacije s roditelja na potomstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1060",
+        "category": "znanost",
+        "question": "Koji se fenomen događa kada Mjesec prođe između Sunca i Zemlje, bacajući sjenu na Zemlju?",
+        "correct_answer": "Pomrčina Sunca",
+        "incorrect_answers": [
+            "Pomrčina Mjeseca",
+            "Pomrčina planeta",
+            "Zvjezdana kiša"
+        ],
+        "explanation": "Pomrčina Sunca nastaje kada Mjesec blokira svjetlost Sunca, djelomično ili potpuno prekrivajući Sunce s Zemljine perspektive.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1061",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za bežičnu komunikaciju kratkog dometa, često za povezivanje slušalica, zvučnika ili tipkovnica?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "LTE"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija koja omogućuje kratkodometnu razmjenu podataka između uređaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1062",
+        "category": "znanost",
+        "question": "Koja vrsta zračenja ima najkraću valnu duljinu i najveću energiju u elektromagnetskom spektru?",
+        "correct_answer": "Gama zrake",
+        "incorrect_answers": [
+            "Radio valovi",
+            "Mikrovalovi",
+            "UV zrake"
+        ],
+        "explanation": "Gama zrake nastaju tijekom nuklearnih raspada i imaju najkraću valnu duljinu i najveću energiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1063",
+        "category": "znanost",
+        "question": "Koji dio ljudskog mozga je primarno odgovoran za ravnotežu i koordinaciju pokreta?",
+        "correct_answer": "Mali mozak (cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak (cerebrum)",
+            "Moždano deblo",
+            "Hipotalamus"
+        ],
+        "explanation": "Mali mozak se nalazi na stražnjem dijelu mozga i igra ključnu ulogu u motoričkoj kontroli, ravnoteži i koordinaciji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1064",
+        "category": "znanost",
+        "question": "Koji je drugi naziv za 'jutarnju zvijezdu' ili 'večernju zvijezdu', što je zapravo planet?",
+        "correct_answer": "Venera",
+        "incorrect_answers": [
+            "Mars",
+            "Jupiter",
+            "Merkur"
+        ],
+        "explanation": "Venera je drugi planet od Sunca i često je najsjajniji objekt na nebu nakon Mjeseca, vidljiv ujutro ili navečer.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1065",
+        "category": "znanost",
+        "question": "Koji programski jezik, poznat po svojoj sintaksi sličnoj engleskom jeziku, često se koristi za analizu podataka, umjetnu inteligenciju i web razvoj?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "Ruby"
+        ],
+        "explanation": "Python je visokorazinski, interpretirani programski jezik popularan zbog svoje jednostavnosti i široke primjene u raznim domenama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1066",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje da se više virtualnih operacijskih sustava pokreće na jednom fizičkom hardverskom sustavu?",
+        "correct_answer": "Virtualizacija",
+        "incorrect_answers": [
+            "Emulacija",
+            "Kontejnerizacija",
+            "Klasteriranje"
+        ],
+        "explanation": "Virtualizacija stvara virtualnu verziju nečega, poput operacijskog sustava, poslužitelja ili mrežnih resursa, na jednom fizičkom hardveru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1067",
+        "category": "znanost",
+        "question": "Koji je naziv za silu koja se suprotstavlja gibanju između dviju površina koje su u kontaktu?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Centrifugalna sila",
+            "Normalna sila"
+        ],
+        "explanation": "Trenje je sila koja djeluje između dvije površine koje su u kontaktu i suprotstavlja se njihovom relativnom gibanju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1068",
+        "category": "znanost",
+        "question": "Koji se proces koristi za razdvajanje smjesa na temelju razlika u točkama vrelišta?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Kristalizacija",
+            "Sedimentacija"
+        ],
+        "explanation": "Destilacija je metoda razdvajanja tekućina s različitim točkama vrelišta pomoću isparavanja i kondenzacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1069",
+        "category": "znanost",
+        "question": "Kako se naziva biljni organel odgovoran za provođenje fotosinteze?",
+        "correct_answer": "Kloroplast",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Vakuola",
+            "Stanična stijenka"
+        ],
+        "explanation": "Kloroplasti su organeli u biljnim stanicama koji sadrže klorofil i mjesto su gdje se odvija fotosinteza.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1070",
+        "category": "znanost",
+        "question": "Koji je naziv za putanju po kojoj jedno nebesko tijelo kruži oko drugog?",
+        "correct_answer": "Orbita",
+        "incorrect_answers": [
+            "Trajektorija",
+            "Ekliptika",
+            "Apogej"
+        ],
+        "explanation": "Orbita je zakrivljena putanja nebeskog tijela ili satelita oko zvijezde, planeta ili drugog tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1071",
+        "category": "znanost",
+        "question": "Koji je sustav namijenjen za pohranu i dohvaćanje podataka, strukturiran u tablice s redcima i stupcima?",
+        "correct_answer": "Relacijska baza podataka",
+        "incorrect_answers": [
+            "Dokumentna baza podataka",
+            "Grafovska baza podataka",
+            "Objektna baza podataka"
+        ],
+        "explanation": "Relacijske baze podataka organiziraju podatke u tablice s povezanim podacima, čime se omogućuje učinkovito pretraživanje i upravljanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1072",
+        "category": "znanost",
+        "question": "Koji se princip koristi u GPS (Global Positioning System) tehnologiji za određivanje lokacije na Zemlji?",
+        "correct_answer": "Triangulacija",
+        "incorrect_answers": [
+            "Kvadratura",
+            "Saturacija",
+            "Diferencijacija"
+        ],
+        "explanation": "GPS koristi triangulaciju signala s najmanje tri satelita kako bi precizno odredio geografski položaj prijamnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1073",
+        "category": "znanost",
+        "question": "Koji je naziv za pretvaranje toplinske energije u mehaničku energiju?",
+        "correct_answer": "Toplinski motor",
+        "incorrect_answers": [
+            "Električni generator",
+            "Solarni panel",
+            "Goriva ćelija"
+        ],
+        "explanation": "Toplinski motori su strojevi koji pretvaraju toplinsku energiju, obično izgaranjem goriva, u mehanički rad.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1074",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze uključuje dijeljenje elektrona između atoma?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalentna veza nastaje kada atomi dijele parove elektrona kako bi postigli stabilnu elektronsku konfiguraciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1075",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke gube vodu kroz svoje listove u obliku vodene pare?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je ispuštanje vodene pare iz biljaka u atmosferu, uglavnom kroz sitne pore na listovima zvane puči.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1076",
+        "category": "znanost",
+        "question": "Koji se objekt u Sunčevom sustavu ističe po svojim prominentnim prstenovima, sastavljenim uglavnom od leda i stijena?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je šesti planet od Sunca, najpoznatiji po svom složenom sustavu prstenova koji su vidljivi čak i malim teleskopima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1077",
+        "category": "znanost",
+        "question": "Koji je naziv za zbirku uputa napisanih u programskom jeziku koje računalo može izvršiti?",
+        "correct_answer": "Kod",
+        "incorrect_answers": [
+            "Algoritam",
+            "Datoteka",
+            "Protokol"
+        ],
+        "explanation": "Kod je skup instrukcija koje programeri pišu kako bi računalo izvodilo određene zadatke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1078",
+        "category": "znanost",
+        "question": "Koji je materijal, poznat po svojoj snazi i laganoj težini, često korišten u zrakoplovnoj industriji i za sportske opreme?",
+        "correct_answer": "Ugljična vlakna",
+        "incorrect_answers": [
+            "Čelik",
+            "Aluminij",
+            "Titan"
+        ],
+        "explanation": "Ugljična vlakna su izuzetno čvrst i lagan materijal, često jači od čelika, a lakši od aluminija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1079",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada valovi mijenjaju smjer pri prolasku oko prepreke ili kroz otvor?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Refrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Difrakcija je pojava savijanja valova (svjetlosti, zvuka, vode) kada naiđu na prepreku ili prođu kroz uski otvor.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1080",
+        "category": "znanost",
+        "question": "Koja je najkiselija vrijednost pH skale?",
+        "correct_answer": "0",
+        "incorrect_answers": [
+            "7",
+            "14",
+            "-1"
+        ],
+        "explanation": "pH skala se obično kreće od 0 do 14, pri čemu su vrijednosti ispod 7 kisele, 7 neutralne, a iznad 7 bazične. Najkiselija je 0.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1081",
+        "category": "znanost",
+        "question": "Koja je funkcija crvenih krvnih stanica u ljudskom tijelu?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Regulacija temperature"
+        ],
+        "explanation": "Crvene krvne stanice (eritrociti) sadrže hemoglobin, protein koji veže kisik i transportira ga po tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1082",
+        "category": "znanost",
+        "question": "Koji je naziv za područje oko zvijezde gdje temperature omogućuju postojanje tekuće vode na površini planeta?",
+        "correct_answer": "Nastanjiva zona (Goldilocks zona)",
+        "incorrect_answers": [
+            "Zona sublimacije",
+            "Zona smrzavanja",
+            "Zona izgaranja"
+        ],
+        "explanation": "Nastanjiva zona je idealna udaljenost od zvijezde gdje planet može imati tekuću vodu, ključni element za život.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1083",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta napada u kojem napadač pokušava preplaviti poslužitelj ili mrežu prometom kako bi ga učinio nedostupnim legitimnim korisnicima?",
+        "correct_answer": "DDoS napad (Distributed Denial-of-Service)",
+        "incorrect_answers": [
+            "Phishing",
+            "Ransomware",
+            "Brute-force napad"
+        ],
+        "explanation": "DDoS napad koristi više izvora za generiranje ogromne količine prometa, preopterećujući ciljni sustav i sprječavajući normalno funkcioniranje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1084",
+        "category": "znanost",
+        "question": "Koji tip 3D ispisa koristi lasersku zraku za skrućivanje tekuće fotopolimerne smole?",
+        "correct_answer": "Stereolitografija (SLA)",
+        "incorrect_answers": [
+            "FDM (Fused Deposition Modeling)",
+            "SLS (Selective Laser Sintering)",
+            "DLP (Digital Light Processing)"
+        ],
+        "explanation": "SLA je tehnologija 3D ispisa gdje se UV laserom selektivno stvrdnjava tanki sloj tekuće smole, sloj po sloj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1085",
+        "category": "znanost",
+        "question": "Koja fizikalna konstanta predstavlja brzinu svjetlosti u vakuumu?",
+        "correct_answer": "c (oko 299.792.458 m/s)",
+        "incorrect_answers": [
+            "G (gravitacijska konstanta)",
+            "h (Planckova konstanta)",
+            "k (Boltzmannova konstanta)"
+        ],
+        "explanation": "Brzina svjetlosti u vakuumu, označena s 'c', temeljna je fizička konstanta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1086",
+        "category": "znanost",
+        "question": "Koji se element nalazi u središtu hemoglobinske molekule i odgovoran je za vezivanje kisika?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Bakar",
+            "Cink",
+            "Magnezij"
+        ],
+        "explanation": "Atom željeza je ključna komponenta hema u hemoglobinu, gdje reverzibilno veže molekule kisika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1087",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja novih vrsta iz postojeće vrste putem evolucijskih promjena?",
+        "correct_answer": "Specijacija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Adaptacija",
+            "Selekcija"
+        ],
+        "explanation": "Specijacija je evolucijski proces u kojem se populacije razilaze i razvijaju reproduktivnu izolaciju, što rezultira stvaranjem novih vrsta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1088",
+        "category": "znanost",
+        "question": "Koja je primarna zvijezda u sustavu Alfa Centauri, najbližem zvjezdanom sustavu našem Suncu?",
+        "correct_answer": "Alfa Centauri A",
+        "incorrect_answers": [
+            "Proxima Centauri",
+            "Alfa Centauri B",
+            "Bernardova zvijezda"
+        ],
+        "explanation": "Alfa Centauri je trostruki zvjezdani sustav; Alfa Centauri A i B su slične Suncu, dok je Proxima Centauri manji crveni patuljak (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1089",
+        "category": "znanost",
+        "question": "Koji je naziv za sustav koji koristi umjetnu inteligenciju za prepoznavanje uzoraka u slikama ili videu, često oponašajući ljudski vid?",
+        "correct_answer": "Računalni vid",
+        "incorrect_answers": [
+            "Strojno učenje",
+            "Prirodni jezik",
+            "Robotika"
+        ],
+        "explanation": "Računalni vid omogućuje računalima da \"vide\" i obrađuju vizualne informacije iz stvarnog svijeta, prepoznajući objekte i uzorke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1090",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje autonomnim vozilima da \"vide\" svoju okolinu pomoću laserskih impulsa?",
+        "correct_answer": "LiDAR (Light Detection and Ranging)",
+        "incorrect_answers": [
+            "Radar",
+            "Sonar",
+            "Kamera"
+        ],
+        "explanation": "LiDAR koristi laserske impulse za mjerenje udaljenosti do objekata, stvarajući detaljne 3D karte okoline.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1091",
+        "category": "znanost",
+        "question": "Koji je temeljni princip koji navodi da se energija ne može stvoriti ni uništiti, već samo transformirati iz jednog oblika u drugi?",
+        "correct_answer": "Zakon očuvanja energije",
+        "incorrect_answers": [
+            "Zakon očuvanja mase",
+            "Zakon očuvanja gibanja",
+            "Termodinamički zakon"
+        ],
+        "explanation": "Zakon očuvanja energije jedan je od temeljnih zakona fizike koji opisuje kako se ukupna energija izoliranog sustava održava konstantnom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1092",
+        "category": "znanost",
+        "question": "Koji se element često koristi kao reagens u kemijskim reakcijama i kao dezinficijens za vodu?",
+        "correct_answer": "Klor",
+        "incorrect_answers": [
+            "Sumpor",
+            "Natrij",
+            "Ugljik"
+        ],
+        "explanation": "Klor je vrlo reaktivan element koji se koristi u proizvodnji mnogih industrijskih kemikalija i za pročišćavanje vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1093",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija ljudskog bubrega?",
+        "correct_answer": "Filtracija krvi i izlučivanje otpada",
+        "incorrect_answers": [
+            "Proizvodnja hormona",
+            "Probava hrane",
+            "Regulacija tjelesne temperature"
+        ],
+        "explanation": "Bubrezi filtriraju otpadne tvari iz krvi, reguliraju ravnotežu tekućine i elektrolita te proizvode urin.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
+    },
+    {
+        "id": "hr_sci_1094",
+        "category": "znanost",
+        "question": "Kako se naziva supernova koja se javlja kada bijeli patuljak akumulira materijal od zvijezde pratioca i prelazi Chandrasekharovu granicu mase?",
+        "correct_answer": "Supernova tipa Ia",
+        "incorrect_answers": [
+            "Supernova tipa II",
+            "Hipernova",
+            "Nova"
+        ],
+        "explanation": "Supernove tipa Ia nastaju u binarnim sustavima kada bijeli patuljak dosegne kritičnu masu, što dovodi do nekontrolirane fuzije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-10"
     }
 ]
