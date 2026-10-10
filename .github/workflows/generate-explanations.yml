@@ -1,0 +1,79 @@
+name: Draft Answer Explanations
+
+# Drafts explanations for questions that don't have one into a review file
+# (reports/explanations_<category>_<date>.json) and pushes it to a NEW
+# branch - never to main. Review/edit the file on that branch, then apply it
+# with `node scripts/apply-explanations.mjs <file>` and merge via a PR.
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Choose category'
+        required: true
+        default: 'geografija'
+        type: choice
+        options:
+          - 'geografija'
+          - 'glazba'
+          - 'knjizevnost_i_umjetnost'
+          - 'opca_znanje'
+          - 'pop_kultura'
+          - 'povijest'
+          - 'sport'
+          - 'znanost_i_tehnologija'
+      limit:
+        description: 'How many questions without an explanation to draft (1-1000)'
+        required: true
+        default: '100'
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm install --no-save @google/genai
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Draft explanations
+        env:
+          GOOGLE_GENAI_USE_VERTEXAI: 'true'
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_CLOUD_LOCATION: 'us-central1'
+          INPUT_CATEGORY: ${{ inputs.category }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+        run: node scripts/generate-explanations.mjs "$INPUT_CATEGORY" "$INPUT_LIMIT"
+
+      - name: Push review file to a new branch
+        env:
+          INPUT_CATEGORY: ${{ inputs.category }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git stash --include-untracked
+          BRANCH="explanations/${INPUT_CATEGORY}-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git stash pop
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No drafts produced."
+            exit 0
+          fi
+          git commit -m "chore(explanations): draft explanations for $INPUT_CATEGORY (needs review)"
+          git push origin "$BRANCH"
+          echo "Review file pushed to branch $BRANCH"

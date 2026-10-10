@@ -85,6 +85,16 @@ function clickFirstAnswer(page) {
   });
 }
 
+// With FEATURES.EXPLANATIONS on, answering a question that has an
+// explanation holds the round on a "Dalje" button instead of auto-advancing
+// (answer buttons stay disabled meanwhile). Click through it when present;
+// a no-op when the flag is off or the question has no explanation.
+async function continuePastExplanation(page) {
+  const r = await clickText(page, 'Dalje');
+  if (r.startsWith('OK')) await page.waitForTimeout(400);
+  return r;
+}
+
 // CHROMIUM_PATH lets a sandbox/CI image point at a browser Playwright
 // didn't download itself (version-mismatched bundles, offline runners).
 // Unset locally, where Playwright finds its own bundled Chromium.
@@ -132,6 +142,7 @@ try {
     const clicked = await clickFirstAnswer(page);
     console.log(`Q${i + 1}: score-before=${scoreBefore} ${clicked}`);
     await page.waitForTimeout(1500); // app auto-advances ~1.2-1.5s after an answer
+    await continuePastExplanation(page);
   }
   const afterAnswers = await bodyText(page);
   // A round can legitimately end mid-loop (lives run out from wrong answers),
@@ -161,6 +172,7 @@ try {
     const clicked = await clickFirstAnswer(page);
     if (clicked === 'NO_OPTIONS') break;
     await page.waitForTimeout(1500);
+    await continuePastExplanation(page);
   }
   const finalText = await bodyText(page);
   const reachedEnd = finalText.includes('Kraj Igre') || finalText.includes('Pobjeda');

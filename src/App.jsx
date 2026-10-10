@@ -64,6 +64,7 @@ import { useDailyMissions } from './hooks/useDailyMissions';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
 import MatchInviteModal from './components/MatchInviteModal';
 import { shuffleArray } from './utils/questionUtils';
+import { isFeatureEnabled } from './constants/features';
 import {
   auth,
   logoutUser,
@@ -166,6 +167,29 @@ export default function App() {
   const secretCelebratedRef = useRef(false);
   const secretRevealTimer = useRef(null);
   const secretPausedAtRef = useRef(null);
+
+  // Total time this round spent paused (secret-achievement overlay, answer
+  // explanations). Subtracted from the round's elapsed time so reading
+  // doesn't count as answering - for the speed_demon achievement and the
+  // Rekordi fastest-perfect elapsedMs. A ref, not a roundStartTime shift:
+  // the deferred advance callbacks close over an older render's
+  // roundStartTime, so a state shift never reached applyRoundEndRewards.
+  const pausedMsRef = useRef(0);
+  // The round's active-play duration, captured once at round end. The score
+  // save used to compute Date.now() - roundStartTime at SAVE time, which also
+  // counted time on the game-over screen - e.g. playing signed out and
+  // signing in to save minutes later could exceed the rules' elapsedMs cap
+  // and get the whole leaderboard write rejected.
+  const [finalRoundElapsedMs, setFinalRoundElapsedMs] = useState(null);
+
+  // Answer explanations (FEATURES.EXPLANATIONS, plan Phase 2). After an
+  // answer to a question that has an explanation, the round holds - the
+  // deferred advance sits in explanationAdvanceRef - until the player taps
+  // "Dalje". Never in the Daily Challenge (equal pacing for everyone).
+  const explanationsEnabled = isFeatureEnabled('EXPLANATIONS');
+  const [explanationPaused, setExplanationPaused] = useState(false);
+  const explanationAdvanceRef = useRef(null);
+  const explanationPausedAtRef = useRef(null);
 
   useEffect(() => () => clearTimeout(secretRevealTimer.current), []);
 
@@ -515,7 +539,7 @@ export default function App() {
     dailyChallengeMode,
     score,
     selectedCategory,
-    roundStartTime,
+    roundElapsedMs: finalRoundElapsedMs,
     correctInRound,
     dailyDateKey,
     nickname,
@@ -593,6 +617,9 @@ export default function App() {
   const returnToLobby = () => {
     sound.playClick();
     clearRoundTransitionTimers();
+    explanationAdvanceRef.current = null;
+    explanationPausedAtRef.current = null;
+    setExplanationPaused(false);
     clearJokerMessageTimer();
     setDailyChallengeMode(false);
     setDailySubmitResult(null);
@@ -645,6 +672,11 @@ export default function App() {
     setGameState('PLAYING');
 
     setRoundStartTime(Date.now());
+    pausedMsRef.current = 0;
+    setFinalRoundElapsedMs(null);
+    explanationAdvanceRef.current = null;
+    explanationPausedAtRef.current = null;
+    setExplanationPaused(false);
     setFastAnswerStreak(0);
     setFiftyFiftyUsedOnIndex(null);
     setSkipUsedAtLastLife(false);
@@ -738,7 +770,8 @@ export default function App() {
   };
 
   const applyRoundEndRewards = (isPerfect, { isVictory = false, finalScore, jokersUsedSnapshot, skipUsedAtLastLifeSnapshot, correctCountSnapshot = correctInRound } = {}) => {
-    const roundElapsedMs = roundStartTime ? Date.now() - roundStartTime : undefined;
+    const roundElapsedMs = roundStartTime ? Math.max(0, Date.now() - roundStartTime - pausedMsRef.current) : undefined;
+    setFinalRoundElapsedMs(roundElapsedMs ?? null);
     setGlobalStats(prev => {
       const jokers = jokersUsedSnapshot || { fiftyFifty: false, plusTen: false, skip: false };
       const { stats } = applyAnswer(prev, {}, {
@@ -780,6 +813,50 @@ export default function App() {
     }
   };
 
+  // Schedules the post-answer transition. When the answered question has an
+  // explanation (and the feature is on, outside the Daily Challenge), the
+  // transition is held until continueAfterExplanation instead of firing on
+  // the usual timer - the player reads at their own pace.
+  const scheduleAfterAnswer = (question, timerRef, delayMs, fn) => {
+    if (explanationsEnabled && !dailyChallengeMode && question?.explanation) {
+      explanationAdvanceRef.current = fn;
+      explanationPausedAtRef.current = Date.now();
+      setExplanationPaused(true);
+      return;
+    }
+    timerRef.current = setTimeout(() => {
+      timerRef.current = null;
+      fn();
+    }, delayMs);
+  };
+
+  const continueAfterExplanation = () => {
+    const advance = explanationAdvanceRef.current;
+    if (!advance) return; // guards a double-tap on "Dalje"
+    explanationAdvanceRef.current = null;
+    sound.playClick();
+    const pausedMs = Date.now() - (explanationPausedAtRef.current || Date.now());
+    explanationPausedAtRef.current = null;
+    if (pausedMs > 0) pausedMsRef.current += pausedMs;
+    setExplanationPaused(false);
+    advance();
+  };
+
+  // Enter/Space continues past an answer explanation (mirrors the 1-4/A-D
+  // answer shortcuts above).
+  useEffect(() => {
+    if (!explanationPaused || gameState !== 'PLAYING' || isAnyModalOpen) return;
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        continueAfterExplanation();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  });
+
   const handleAnswer = (option) => {
     if (selectedOption !== null || answerLocked) return;
     setSelectedOption(option);
@@ -790,10 +867,12 @@ export default function App() {
     setRoundHistory(prev => [
       ...prev,
       {
+        questionId: currentQ.id,
         questionText: currentQ.question || currentQ.tekst || currentQ.pitanje,
         selectedOption: option,
         isCorrect: correct,
         correctOption: currentQ.correct_answer || currentQ.correctAnswer,
+        explanation: currentQ.explanation || null,
       }
     ]);
 
@@ -884,10 +963,7 @@ export default function App() {
           jokersUsedSnapshot: jokersUsed,
           skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
         });
-        gameOverTimerRef.current = setTimeout(() => {
-          gameOverTimerRef.current = null;
-          setGameState('GAMEOVER');
-        }, 1000);
+        scheduleAfterAnswer(currentQ, gameOverTimerRef, 1000, () => setGameState('GAMEOVER'));
         return;
       }
     }
@@ -930,10 +1006,7 @@ export default function App() {
         setSecretAchievement(ACHIEVEMENTS.find(a => a.id === SVI_SMO_MI_MARIJA_ID));
       }, SECRET_REVEAL_DELAY_MS);
     } else {
-      roundTransitionTimerRef.current = setTimeout(() => {
-        roundTransitionTimerRef.current = null;
-        advanceOrFinish();
-      }, 1200);
+      scheduleAfterAnswer(currentQ, roundTransitionTimerRef, 1200, advanceOrFinish);
     }
   };
 
@@ -944,14 +1017,11 @@ export default function App() {
     sound.playClick();
     setSecretAchievement(null);
 
-    // Time spent staring at the overlay isn't time spent answering. Shifting
-    // roundStartTime forward by the paused duration keeps it out of BOTH of
-    // its readers - the speed_demon check and the elapsedMs written to the
-    // Rekordi "fastest perfect round" board - so a pause can't cost the
-    // player that achievement or post a bogus record time.
+    // Time spent staring at the overlay isn't time spent answering - see
+    // pausedMsRef for why this is a ref rather than a roundStartTime shift.
     const pausedMs = Date.now() - (secretPausedAtRef.current || Date.now());
     secretPausedAtRef.current = null;
-    if (pausedMs > 0) setRoundStartTime(t => (t ? t + pausedMs : t));
+    if (pausedMs > 0) pausedMsRef.current += pausedMs;
 
     advance();
   };
@@ -969,10 +1039,12 @@ export default function App() {
     setRoundHistory(prev => [
       ...prev,
       {
+        questionId: currentQ?.id || null,
         questionText: currentQ ? (currentQ.question || currentQ.tekst || currentQ.pitanje) : 'Pitanje',
         selectedOption: 'TIMEOUT',
         isCorrect: false,
         correctOption: currentQ ? (currentQ.correct_answer || currentQ.correctAnswer) : '',
+        explanation: currentQ?.explanation || null,
       }
     ]);
     logQuestionAttempt({
@@ -990,15 +1062,11 @@ export default function App() {
         jokersUsedSnapshot: jokersUsed,
         skipUsedAtLastLifeSnapshot: skipUsedAtLastLife
       });
-      gameOverTimerRef.current = setTimeout(() => {
-        gameOverTimerRef.current = null;
-        setGameState('GAMEOVER');
-      }, 1000);
+      scheduleAfterAnswer(currentQ, gameOverTimerRef, 1000, () => setGameState('GAMEOVER'));
       return;
     }
 
-    roundTransitionTimerRef.current = setTimeout(() => {
-      roundTransitionTimerRef.current = null;
+    scheduleAfterAnswer(currentQ, roundTransitionTimerRef, 1200, () => {
       setSelectedOption(null);
       setHiddenOptions([]);
       if (currentIndex + 1 < questions.length) {
@@ -1014,7 +1082,7 @@ export default function App() {
         });
         setGameState('VICTORY');
       }
-    }, 1200);
+    });
   };
 
   const checkTacticianOnJokerUse = (jokersUsedAfter, cost = 0) => {
@@ -1303,6 +1371,9 @@ export default function App() {
             onActivatePlusTen={activatePlusTen}
             onActivateSkip={activateSkip}
             jokerMessage={jokerMessage}
+            explanation={explanationsEnabled && !dailyChallengeMode && selectedOption !== null ? (currentQ?.explanation || null) : null}
+            explanationPaused={explanationPaused}
+            onContinueAfterExplanation={continueAfterExplanation}
           />
         )}
 

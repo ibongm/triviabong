@@ -1,5 +1,27 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 2: answer explanations (dark) + elapsedMs save fix
+- **Files Changed**:
+  - `src/utils/questionMerge.js` (Modified), `src/utils/questionMerge.test.js` (Modified)
+  - `src/App.jsx` (Modified), `src/screens/PlayingScreen.jsx` (Modified)
+  - `src/components/QuestionReview.jsx` (Modified), `src/components/MatchView.jsx` (Modified)
+  - `src/components/SubmitQuestionModal.jsx` (Modified), `src/components/admin/AdminQuestionSubmissions.jsx` (Modified), `src/components/admin/AdminQuestions.jsx` (Modified)
+  - `src/components/ReportQuestionModal.jsx` (Modified), `src/constants/reportReasons.js` (Modified), `src/constants/reportReasons.test.js` (Created)
+  - `src/components/GuideModal.jsx` (Modified)
+  - `src/hooks/useScoreSaving.js` (Modified), `src/constants/gameBalance.js` (Modified), `src/constants/rulesCaps.test.js` (Modified)
+  - `firestore.rules` (Modified), `scripts/firestore-rules-explanations.test.mjs` (Created)
+  - `scripts/generate-questions.mjs` (Modified), `scripts/generate-explanations.mjs` (Created), `scripts/apply-explanations.mjs` (Created), `.github/workflows/generate-explanations.yml` (Created)
+  - `.claude/skills/run-triviabong/golden-path.mjs` (Modified)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Explanations (dark, `FEATURES.EXPLANATIONS = false`).** Optional `explanation` (<= 220 chars) on questions. Per decision D5, solo rounds pause after EVERY answer or timeout on a question that has one: the explanation appears under the answers with a "Dalje" button (Enter/Space also works); jokers stay disabled; the report button works, so a wrong explanation can be reported on the spot. Questions without one keep the 1.2s auto-advance. Daily Challenge never pauses (explanations only in its end review). 1v1 shows a collapsible "Pregled pitanja s objašnjenjima" on the match-over screen only. `QuestionReview` shows explanations under each answer.
+  - Paused time is excluded from the round's duration via `pausedMsRef` (the secret-achievement overlay now uses it too; its old `roundStartTime` shift never reached `applyRoundEndRewards`, whose deferred callbacks close over the earlier value).
+  - **Bug fix (live, not flag-gated): score saves could be rejected for `elapsedMs`.** `saveScore` computed `Date.now() - roundStartTime` at SAVE time, so time spent on the game-over screen counted - a player who finished signed out and signed in later to save could exceed the rules' `elapsedMs <= 200000`, which rejects the whole leaderboard entry. Now the active duration is captured once at round end (`finalRoundElapsedMs`) and sent only when within the cap (`MAX_ROUND_ELAPSED_MS`), otherwise omitted (the field is optional). Possibly related to the 2026-10-02 report of a 10/10 victory that never reached the leaderboard.
+  - **Content tooling:** `validateEntry` checks the field; `mergeQuestions` carries it; `editQuestionById` can set/keep/remove it (admin edit form gets a textarea with a counter). Generator now requires an explanation from Gemini (over-long ones are dropped, the question kept). New `generate-explanations.mjs` drafts explanations for existing questions into a review file pushed to a NEW branch by the workflow (never to main), and writes questions the model believes have a wrong answer to a separate `_PROVJERITI.json`. New `apply-explanations.mjs` applies a reviewed file by id across all category files, never overwriting without `--force`; output formatting verified identical to the existing files.
+  - **Submissions & reports (need the rules deploy before flipping the flag):** players can add an optional explanation when suggesting a question (field only shown/sent while the flag is on); approval passes it through to the bank. New report reason "Objašnjenje je netočno" (`wrong_explanation`), offered only for questions that have an explanation. `firestore.rules`: `questionSubmissions` allows optional `explanation` (1-220 chars); `reports.reason` enum gains `wrong_explanation`.
+  - **E2E:** `golden-path.mjs` clicks "Dalje" when present, so it keeps working once the flag is on.
+  - Verification: 262 unit tests pass (+17). Throwaway server-render smoke test (not committed) confirmed the explanation box and "Dalje" render only when expected. Generator/backfill/apply scripts exercised end to end with a stubbed Gemini response (category files restored afterwards). Lint unchanged at the pre-existing 12. Build passes; questions chunk unchanged in size until explanations are actually added. **Not run here:** `scripts/firestore-rules-explanations.test.mjs` (the emulator JAR download is blocked in this environment) and the E2E suite (no browser) - run both before deploying rules.
+
 ### [2026-10-10] - Engagement plan Phase 1: mission fallbacks + four mission bug fixes
 - **Files Changed**:
   - `src/constants/missions.js` (Modified)

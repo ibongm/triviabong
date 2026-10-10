@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Flag, X } from 'lucide-react';
-import { REPORT_REASONS } from '../constants/reportReasons';
+import { REPORT_REASONS, availableReportReasons } from '../constants/reportReasons';
+import { isFeatureEnabled } from '../constants/features';
 import { submitQuestionReport } from '../services/firebase';
 
 // Lightweight player-facing "report this question" action (the one
@@ -63,7 +64,7 @@ export default function ReportQuestionModal({ isOpen, onClose, question, categor
                 ) : (
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div className="space-y-2">
-                            {REPORT_REASONS.map((r) => (
+                            {availableReportReasons(question, isFeatureEnabled('EXPLANATIONS')).map((r) => (
                                 <label key={r.id} className="flex items-center gap-2 text-sm text-slate-300 cursor-pointer">
                                     <input
                                         type="radio"

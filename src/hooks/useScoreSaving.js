@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { sanitizeDisplayName } from '../utils/publicProfile';
 import { sound } from '../utils/sound';
-import { QUESTIONS_PER_ROUND, DAILY_CHALLENGE_PARTICIPATION_XP } from '../constants/gameBalance';
+import { QUESTIONS_PER_ROUND, DAILY_CHALLENGE_PARTICIPATION_XP, MAX_ROUND_ELAPSED_MS } from '../constants/gameBalance';
 import { computeLevelFromXp, getCoinsForLevelUp } from '../utils/leveling';
 import {
     saveScoreToFirestore,
@@ -29,7 +29,7 @@ export function useScoreSaving({
     dailyChallengeMode,
     score,
     selectedCategory,
-    roundStartTime,
+    roundElapsedMs,
     correctInRound,
     dailyDateKey,
     nickname,
@@ -108,7 +108,13 @@ export function useScoreSaving({
         });
 
         try {
-            const elapsedMs = roundStartTime ? Date.now() - roundStartTime : null;
+            // Active-play time captured at round end (pauses excluded), not
+            // "now minus round start" - see App.jsx's finalRoundElapsedMs.
+            // Omitted rather than sent when out of range, since the rules
+            // reject the whole entry for an elapsedMs above the cap.
+            const elapsedMs = Number.isFinite(roundElapsedMs) && roundElapsedMs >= 0 && roundElapsedMs <= MAX_ROUND_ELAPSED_MS
+                ? Math.round(roundElapsedMs)
+                : null;
             const isPerfect = correctInRound === QUESTIONS_PER_ROUND;
             // Captured BEFORE the save so it reflects the player's prior best, not
             // the round just played - null means either signed out or no prior
