@@ -322,22 +322,25 @@ export const heartbeatSession = async (sessionId, uid, gameStateSeconds) => {
  * never interrupt gameplay.
  */
 export const logQuestionAttempt = async (attempt) => {
-    // Two writes on purpose. The raw questionAttempts doc stays the audit
-    // trail and the source recomputeQuestionStats() rebuilds from; the
-    // questionStats counter is what the admin Pregled actually reads, so that
-    // view costs a fixed top-N query (see getWorstQuestionStats) instead of a
-    // scan over every attempt ever logged. allSettled, not all: one failing
-    // must not suppress the other, and neither may ever throw into gameplay.
-    const results = await Promise.allSettled([
-        addDoc(collection(db, 'questionAttempts'), {
-            ...attempt,
-            createdAt: serverTimestamp(),
-        }),
-        bumpQuestionStats(attempt),
-    ]);
-    for (const r of results) {
-        if (r.status === 'rejected') console.error('Error logging question attempt:', r.reason);
-    }
+  // Two writes on purpose. The raw questionAttempts doc stays the audit
+  // trail and the source recomputeQuestionStats() rebuilds from; the
+  // questionStats counter is what the admin Pregled actually reads, so that
+  // view costs a fixed top-N query (see getWorstQuestionStats) instead of a
+  // scan over every attempt ever logged. allSettled, not all: one failing
+  // must not suppress the other, and neither may ever throw into gameplay.
+  const attemptId = `${attempt?.uid || 'anon'}_${attempt?.questionId || 'q'}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+
+  const results = await Promise.allSettled([
+    setDoc(doc(db, 'questionAttempts', attemptId), {
+      ...attempt,
+      createdAt: serverTimestamp(),
+    }),
+    bumpQuestionStats(attempt),
+  ]);
+
+  for (const r of results) {
+    if (r.status === 'rejected') console.error('Error logging question attempt:', r.reason);
+  }
 };
 
 /**
