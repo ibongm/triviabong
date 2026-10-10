@@ -260,7 +260,7 @@
         "incorrect_answers": [
             "Tokio i Osaka",
             "Kyoto i Yokohama",
-            "Kobe i Hirošima"
+            "Nagoya i Sapporo"
         ]
     },
     {
@@ -343,7 +343,7 @@
     {
         "id": "hr_hist_32",
         "category": "povijest",
-        "question": "Koje je godine započeo Američki rat za neovisnost proglašenjem Deklaracije neovisnosti?",
+        "question": "Koje je godine proglašena Američka deklaracija neovisnosti?",
         "correct_answer": "1776.",
         "incorrect_answers": [
             "1789.",
@@ -366,9 +366,9 @@
         "id": "hr_hist_34",
         "category": "povijest",
         "question": "Tko je bio car Svetog Rimskog Carstva i kralj Španjolske pod čijom se vlašću govorilo da 'sunce nikada ne zalazi'?",
-        "correct_answer": "Karlo V.",
+        "correct_answer": "Filip II.",
         "incorrect_answers": [
-            "Filip II.",
+            "Karlo V.",
             "Maksimilijan I.",
             "Ferdinand I."
         ]
@@ -530,7 +530,7 @@
     {
         "id": "hr_hist_49",
         "category": "povijest",
-        "question": "U kojem je gradu 1911. godine srušeno Kinesko Carstvo i proglašena Republika Kina?",
+        "question": "U kojem je gradu 1911. godine započela pobuna koja je izravno dovela do rušenja Kineskog Carstva?",
         "correct_answer": "Wuchang (Wuhan)",
         "incorrect_answers": [
             "Peking",
@@ -588,7 +588,7 @@
         "question": "Kojeg je njemačkog kancelara 1890. godine razrješio dužnosti car Vilim II.?",
         "correct_answer": "Otto von Bismarck",
         "incorrect_answers": [
-            "Kajzer Vilim I.",
+            "Car Vilim I.",
             "Klemens von Metternich",
             "Friedrich Ebert"
         ]
@@ -739,7 +739,7 @@
     {
         "id": "hr_hist_68",
         "category": "povijest",
-        "question": "Koji je izumiteljski izum Johannesa Gutenberga oko 1440. godine revolucionarizirao širenje znanja u Europi?",
+        "question": "Koji je izum Johannesa Gutenberga oko 1440. godine revolucionarizirao širenje znanja u Europi?",
         "correct_answer": "Tiskarski stroj s pomičnim slovima",
         "incorrect_answers": [
             "Parni stroj",
@@ -875,7 +875,7 @@
         "correct_answer": "Schlieffenov plan",
         "incorrect_answers": [
             "Plan Barbarossa",
-            "Moltkeov plan",
+            "Plan Siegfried",
             "Hindenburgov plan"
         ]
     },
@@ -926,12 +926,12 @@
     {
         "id": "hr_hist_85",
         "category": "povijest",
-        "question": "Kako se zvao njemački dešifrirajući stroj koji su Saveznici uspjeli razbiti tijekom Drugog svjetskog rata?",
+        "question": "Kako se zvao njemački stroj za šifriranje koji su Saveznici uspjeli razbiti tijekom Drugog svjetskog rata?",
         "correct_answer": "Enigma",
         "incorrect_answers": [
-            "Lorenz",
-            "Purple",
-            "Triton"
+            "V-2",
+            "Panzerfaust",
+            "Bismarck"
         ]
     },
     {
@@ -949,7 +949,7 @@
         "id": "hr_hist_87",
         "category": "povijest",
         "question": "Koji je dokument 1863. godine formalno oslobodio robove na područjima pod kontrolom Konfederacije tijekom Američkog građanskog rata?",
-        "correct_answer": "Proklamacija o emancipaciji (Emancipation Proclamation)",
+        "correct_answer": "Proklamacija o emancipaciji",
         "incorrect_answers": [
             "Deklaracija nezavisnosti",
             "Ustav SAD-a",
@@ -1081,11 +1081,11 @@
         "id": "hr_hist_99",
         "category": "povijest",
         "question": "Koji je ruski car ukinuo kmetstvo 1861. godine i proveo značajne pravosudne reforme?",
-        "correct_answer": "Shah Jahan",
+        "correct_answer": "Aleksandar II.",
         "incorrect_answers": [
-            "Akbar Veliki",
-            "Babur",
-            "Aurangzeb"
+            "Nikola I.",
+            "Petar Veliki",
+            "Katarina Velika"
         ]
     },
     {
@@ -1172,7 +1172,7 @@
         "correct_answer": "Konstantin I.",
         "incorrect_answers": [
             "Galerije",
-            "Licinije",
+            "Dioklecijan",
             "Valerijan"
         ]
     },
@@ -1267,7 +1267,7 @@
     {
         "id": "hr_hist_116",
         "category": "povijest",
-        "question": "Koja je država stvorena Balfour i Deklaracijom 1917. te konačno utemeljena 1948. godine?",
+        "question": "Koja je država stvorena Balfourovom deklaracijom 1917. te konačno utemeljena 1948. godine?",
         "correct_answer": "Izrael",
         "incorrect_answers": [
             "Jordan",
@@ -1278,7 +1278,7 @@
     {
         "id": "hr_hist_117",
         "category": "povijest",
-        "question": "Koji se saveznički sastanak 1945. godine održao radi dogovora o posleratnom uređenju Europe (Churchill, Roosevelt, Staljin)?",
+        "question": "Koji se saveznički sastanak 1945. godine održao radi dogovora o poslijeratnom uređenju Europe (Churchill, Roosevelt, Staljin)?",
         "correct_answer": "Konferencija na Jalti",
         "incorrect_answers": [
             "Potsdamska konferencija",
@@ -1410,7 +1410,7 @@
     {
         "id": "hr_hist_129",
         "category": "povijest",
-        "question": "Koja se bitka u Prvom svjetskom ratu 1916. godine pamti po najdužem i najkrvavijem sukobu na Zapadnom bojištu?",
+        "question": "Koja se bitka u Prvom svjetskom ratu 1916. godine pamti po najdužem sukobu na Zapadnom bojištu?",
         "correct_answer": "Bitka kod Verduna",
         "incorrect_answers": [
             "Bitka na Sommi",
@@ -1466,7 +1466,7 @@
         "id": "hr_hist_134",
         "category": "povijest",
         "question": "Koji je osmanski sultan predvodio opsadu Sigeta 1566. godine u kojoj je poginuo?",
-        "correct_answer": "Sulejman I. Veličanstveni",
+        "correct_answer": "Sulejman Veličanstveni",
         "incorrect_answers": [
             "Selim II.",
             "Mehmed III.",
@@ -1531,7 +1531,7 @@
     {
         "id": "hr_hist_140",
         "category": "povijest",
-        "question": "Kako se zvao prvi službeni pravni zakonik Babilona, poznat po načelu 'oko za oko, zub za zub'?",
+        "question": "Koji je slavni pravni zakonik iz Babilona poznat po načelu 'oko za oko, zub za zub'?",
         "correct_answer": "Hamurabijev zakonik",
         "incorrect_answers": [
             "Ur-Nammu zakonik",
@@ -1542,7 +1542,7 @@
     {
         "id": "hr_hist_141",
         "category": "povijest",
-        "question": "Koje je godine započeo Španski građanski rat pod vodstvom generala Francisca Franca?",
+        "question": "Koje je godine započeo Španjolski građanski rat pod vodstvom generala Francisca Franca?",
         "correct_answer": "1936.",
         "incorrect_answers": [
             "1939.",
@@ -1608,7 +1608,7 @@
     {
         "id": "hr_hist_147",
         "category": "povijest",
-        "question": "Koji je bizantski car doneo sveobuhvatni zakonik 'Corpus Juris Civilis' u 6. stoljeću?",
+        "question": "Koji je bizantski car donio sveobuhvatni zakonik 'Corpus Juris Civilis' u 6. stoljeću?",
         "correct_answer": "Justinijan I.",
         "incorrect_answers": [
             "Heraklije",
@@ -1630,7 +1630,7 @@
     {
         "id": "hr_hist_149",
         "category": "povijest",
-        "question": "Koja je civilizacija stvorila napredne gradove Mohendžo Daro i Harappu u dolini rijeke Ind?",
+        "question": "Koja je drevna civilizacija stvorila napredne gradove Mohendžo Daro i Harappu?",
         "correct_answer": "Civilizacija doline Inda",
         "incorrect_answers": [
             "Arijci",
@@ -1685,10 +1685,10 @@
     {
         "id": "hr_hist_154",
         "category": "povijest",
-        "question": "Tko je bio vođa Ruske revolucije i zapovjednik Crvene armije u Ruskom građanskom ratu?",
-        "correct_answer": "Lav Trocki",
+        "question": "Tko je bio glavni vođa Ruske revolucije i zapovjednik Crvene armije u Ruskom građanskom ratu?",
+        "correct_answer": "Vladimir Lenjin",
         "incorrect_answers": [
-            "Vladimir Lenjin",
+            "Lav Trocki",
             "Josif Staljin",
             "Nikolaj Buharin"
         ]
@@ -1696,7 +1696,7 @@
     {
         "id": "hr_hist_155",
         "category": "povijest",
-        "question": "Koja je zapadnoeuropska organizacija stvorena 1949. radi vojne zaštite od potencijalne sovjetske agresije?",
+        "question": "Koja je transatlantska vojna organizacija stvorena 1949. radi kolektivne obrane od potencijalne sovjetske agresije?",
         "correct_answer": "NATO",
         "incorrect_answers": [
             "Varšavski pakt",
@@ -1741,7 +1741,7 @@
         "id": "hr_hist_159",
         "category": "povijest",
         "question": "Ako se ne uzme u obzir antika, koji se događaj 1215. godine smatra temeljnim korakom ka ustavnoj monarhiji u Engleskoj?",
-        "correct_answer": "Potpisanje Magna Carte",
+        "correct_answer": "Magna Carta",
         "incorrect_answers": [
             "Slavna revolucija",
             "Sazivanje Prvog parlamenta",
@@ -1751,7 +1751,7 @@
     {
         "id": "hr_hist_160",
         "category": "povijest",
-        "question": "Koji je posljednji maorski ugovor s britanskom krunom potpisan u Novom Zelandu 1840. godine?",
+        "question": "Koji je najznačajniji maorski ugovor s britanskom krunom potpisan u Novom Zelandu 1840. godine?",
         "correct_answer": "Ugovor iz Waitangija",
         "incorrect_answers": [
             "Ugovor iz Aucklanda",
@@ -1773,8 +1773,8 @@
     {
         "id": "hr_hist_162",
         "category": "povijest",
-        "question": "Kako se zvao rimski car koji je uzeo nadimak 'Caligula' ('Čizmica')?",
-        "correct_answer": "Gaj Julije Cezar Germanik",
+        "question": "Koji je rimski car bio poznat pod nadimkom 'Kaligula' ('Čizmica')?",
+        "correct_answer": "Kaligula",
         "incorrect_answers": [
             "Tiberije",
             "Neron",
@@ -1872,7 +1872,7 @@
     {
         "id": "hr_hist_171",
         "category": "povijest",
-        "question": "Ako izuzmemo Doba terora, tko je bio kralj Francuske pogubljen na giljotini 1793. godine?",
+        "question": "Tko je bio kralj Francuske pogubljen na giljotini 1793. godine?",
         "correct_answer": "Luj XVI.",
         "incorrect_answers": [
             "Luj XIV.",
@@ -1909,7 +1909,7 @@
         "correct_answer": "Osmansko Carstvo",
         "incorrect_answers": [
             "Seldžučko Carstvo",
-            "Sutlanat Rum",
+            "Sultanat Rum",
             "Safavidsko Carstvo"
         ]
     },
@@ -2005,7 +2005,7 @@
         "id": "hr_hist_183",
         "category": "povijest",
         "question": "Gdje su se 1904. – 1905. vodile glavne kopnene i pomorske bitke u ratu koji je završio neočekivanim porazom Ruskog Carstva?",
-        "correct_answer": "U Mandžuriji i na moru (Rusko-japanski rat)",
+        "correct_answer": "U Mandžuriji i na moru",
         "incorrect_answers": [
             "U Sibiru i Mongoliji",
             "U središnjoj Kini",
@@ -2126,7 +2126,7 @@
         "id": "hr_hist_194",
         "category": "povijest",
         "question": "Kako se zove proces kojim su europske sile podijelile afrički kontinent krajem 19. stoljeća (nakon Berlinske konferencije)?",
-        "correct_answer": "Jagma za Afriku (Scramble for Africa)",
+        "correct_answer": "Jagma za Afriku",
         "incorrect_answers": [
             "Kolonizacija Afrike",
             "Afrička dekolonizacija",
@@ -2147,7 +2147,7 @@
     {
         "id": "hr_hist_196",
         "category": "povijest",
-        "question": "Tko je bio vođa revolucije u Etiopiji ili car koji je pobijedio Talijane kod Adve 1896. godine?",
+        "question": "Tko je bio etiopski car koji je pobijedio Talijane kod Adve 1896. godine?",
         "correct_answer": "Menelik II.",
         "incorrect_answers": [
             "Haile Selasije",
@@ -2170,7 +2170,7 @@
         "id": "hr_hist_198",
         "category": "povijest",
         "question": "Koji je kineski revolucionar 1911. godine predvodio Sinhajsku revoluciju koja je okončala vladavinu dinastije Qing?",
-        "correct_answer": "Sun Jat-sen (Sun Yat-sen)",
+        "correct_answer": "Sun Jat-sen",
         "incorrect_answers": [
             "Čang Kai-šek",
             "Mao Ce-tung",
@@ -2192,7 +2192,7 @@
         "id": "hr_hist_200",
         "category": "povijest",
         "question": "Koji je car bio na čelu Japana tijekom Drugog svjetskog rata i objavio kapitulaciju 1945. godine?",
-        "correct_answer": "Hirohito (car Showa)",
+        "correct_answer": "Hirohito",
         "incorrect_answers": [
             "Yoshihito (car Taisho)",
             "Mutsuhito (car Meiji)",
@@ -2224,7 +2224,7 @@
     {
         "id": "hr_hist_203",
         "category": "povijest",
-        "question": "Kako se zove dokument iz 1102. godine kojim je stvorena personalna unija između Hrvatske i Ugarske?",
+        "question": "Koji se dokument tradicionalno povezuje sa stvaranjem personalne unije između Hrvatske i Ugarske oko 1102. godine?",
         "correct_answer": "Pacta conventa",
         "incorrect_answers": [
             "Bašćanska ploča",
@@ -2400,7 +2400,7 @@
     {
         "id": "hr_hist_219",
         "category": "povijest",
-        "question": "Koji je dubrovački diplomat i pjesnik pogubljen u Bečkom Novom Mjestu 1671. godine zajedno s Petrom Zrinskim?",
+        "question": "Koji je hrvatski plemić, general i pjesnik pogubljen u Bečkom Novom Mjestu 1671. godine zajedno s Petrom Zrinskim?",
         "correct_answer": "Fran Krsto Frankopan",
         "incorrect_answers": [
             "Petar Zrinski",
@@ -2510,7 +2510,7 @@
     {
         "id": "hr_hist_229",
         "category": "povijest",
-        "question": "Kako se zvao pokret hrvatskih proljećara za veću autonomiju Hrvatske unutar SFRJ početkom 1970-ih?",
+        "question": "Kako se zvao politički pokret za veću autonomiju Hrvatske unutar SFRJ početkom 1970-ih?",
         "correct_answer": "Hrvatsko proljeće",
         "incorrect_answers": [
             "Ilirski pokret",
@@ -2543,7 +2543,7 @@
     {
         "id": "hr_hist_232",
         "category": "povijest",
-        "question": "Kako se zove dokument iz 1527. u Cetingradu kojim je hrvatsko plemstvo izabralo Ferdinanda Habsburškog za hrvatskog kralja?",
+        "question": "Kako se zove dokument iz 1527. godine kojim je hrvatsko plemstvo izabralo Ferdinanda Habsburškog za hrvatskog kralja?",
         "correct_answer": "Cetingradski sabor (Cetingradska povelja)",
         "incorrect_answers": [
             "Pacta conventa",
@@ -2610,9 +2610,9 @@
         "id": "hr_hist_238",
         "category": "povijest",
         "question": "Kako se zvala mletačko-osmanska granica utvrđena nakon Karlovačkog mira 1699. godine u Hrvatskoj?",
-        "correct_answer": "Linea Nani",
+        "correct_answer": "Linea Grimani",
         "incorrect_answers": [
-            "Linea Grimani",
+            "Linea Nani",
             "Linea Mocenigo",
             "Vojna krajina"
         ]
@@ -2742,7 +2742,7 @@
         "id": "hr_hist_250",
         "category": "povijest",
         "question": "Koje je godine u Zagrebu utemeljena prva tiskara koju je vodio biskup Petar Petretić u 17. stoljeću?",
-        "correct_answer": "1664.",
+        "correct_answer": "1663.",
         "incorrect_answers": [
             "1527.",
             "1789.",
@@ -2873,7 +2873,7 @@
     {
         "id": "hr_hist_262",
         "category": "povijest",
-        "question": "Kako se zvala mitska utvrda i palača mikenske kulture koju je otkrio Heinrich Schliemann u Grčkoj?",
+        "question": "Kako se zvala mitska utvrda i palača koju je Heinrich Schliemann otkrio u Grčkoj, značajna za grčko brončano doba?",
         "correct_answer": "Mikena",
         "incorrect_answers": [
             "Tirint",
@@ -2953,7 +2953,7 @@
         "question": "Kako se zvao sustav učenja i propisa u Rimu koji je označavao stogodišnji mir unutar carstva od Augusta nadalje?",
         "correct_answer": "Pax Romana",
         "incorrect_answers": [
-            "Pax Augusta",
+            "Principatus",
             "Mos Maiorum",
             "Imperium"
         ]
@@ -3005,7 +3005,7 @@
     {
         "id": "hr_hist_274",
         "category": "povijest",
-        "question": "Koji je mačevalac i grčki vojskovođa ostao zapamćen po 'Pirovoj pobjedi' nad Rimljanima kod Herakleje?",
+        "question": "Koji je grčki vojskovođa ostao zapamćen po pobjedi nad Rimljanima kod Herakleje, koja je bila toliko skupa da je skovao izraz 'Pirova pobjeda'?",
         "correct_answer": "Pir",
         "incorrect_answers": [
             "Aleksandar Veliki",
@@ -3038,7 +3038,7 @@
     {
         "id": "hr_hist_277",
         "category": "povijest",
-        "question": "Kako se zove čuvena katedrala i hram božici Ateni na atenskoj Akropoli izgrađen u 5. stoljeću pr. Kr.?",
+        "question": "Kako se zove čuveni hram božici Ateni na atenskoj Akropoli izgrađen u 5. stoljeću pr. Kr.?",
         "correct_answer": "Partenon",
         "incorrect_answers": [
             "Erehtejon",
@@ -3082,7 +3082,7 @@
     {
         "id": "hr_hist_281",
         "category": "povijest",
-        "question": "Kako se zove pismo pronađeno na Cipru i Kreti koje je dešifrirao Michael Ventris 1952. godine?",
+        "question": "Kako se zove pismo pronađeno na Kreti i kontinentalnoj Grčkoj koje je dešifrirao Michael Ventris 1952. godine?",
         "correct_answer": "Linear B",
         "incorrect_answers": [
             "Linear A",
@@ -3105,17 +3105,17 @@
         "id": "hr_hist_283",
         "category": "povijest",
         "question": "Koji je vulkan erupcijom 79. godine uništio rimske gradove Pompeje i Herkulanej?",
-        "correct_answer": "Erupcija Vezuva",
+        "correct_answer": "Vezuv",
         "incorrect_answers": [
-            "Erupcija Etne",
-            "Erupcija Santorinija",
-            "Erupcija Strombolija"
+            "Etna",
+            "Santorini",
+            "Stromboli"
         ]
     },
     {
         "id": "hr_hist_284",
         "category": "povijest",
-        "question": "Koji je grčki otok bio središte kretske civilizacije s velikom palačom u Knososu?",
+        "question": "Koji je grčki otok bio središte minojske civilizacije s velikom palačom u Knososu?",
         "correct_answer": "Kreta",
         "incorrect_answers": [
             "Rodos",
@@ -3137,7 +3137,7 @@
     {
         "id": "hr_hist_286",
         "category": "povijest",
-        "question": "Koji je persijski car započeo gradnju monumentalnog grada Persepolisa u 6. st. pr. Kr.?",
+        "question": "Koji je perzijski car započeo gradnju monumentalnog grada Persepolisa u 6. st. pr. Kr.?",
         "correct_answer": "Darije I. Veliki",
         "incorrect_answers": [
             "Kir Veliki",
@@ -3148,7 +3148,7 @@
     {
         "id": "hr_hist_287",
         "category": "povijest",
-        "question": "Kako se zove rimska utvrda i palača u Engleskoj sagrađena za zaštitu od škotskih plemena?",
+        "question": "Kako se zove rimska utvrda (zid) u Engleskoj sagrađena za zaštitu od plemena sa sjevera?",
         "correct_answer": "Hadrijanov zid",
         "incorrect_answers": [
             "Antoninov zid",
@@ -3159,7 +3159,7 @@
     {
         "id": "hr_hist_288",
         "category": "povijest",
-        "question": "Koji je egipatski nećak i faraon otkriven u netaknutoj grobnici u Dolini kraljeva od strane Howarda Cartera 1922.?",
+        "question": "Koji je egipatski faraon otkriven u netaknutoj grobnici u Dolini kraljeva od strane Howarda Cartera 1922.?",
         "correct_answer": "Tutankamon",
         "incorrect_answers": [
             "Akhenaton",
@@ -3181,7 +3181,7 @@
     {
         "id": "hr_hist_290",
         "category": "povijest",
-        "question": "Koji se sukob u rimskoj povijesti dogodio između braće Grakho i patricija oko agrarne reforme u 2. st. pr. Kr.?",
+        "question": "Kako se naziva razdoblje političkih i socijalnih reformi u rimskoj povijesti koje je dovelo do sukoba između plebejskih tribuna i patricija u 2. st. pr. Kr.?",
         "correct_answer": "Reforme braće Grakho",
         "incorrect_answers": [
             "Galski rat",
@@ -3214,7 +3214,7 @@
     {
         "id": "hr_hist_293",
         "category": "povijest",
-        "question": "Kako se zove spomenik u Rimu sagrađen u čast pobjede cara Konstantina u Bitki kod Milvijskog mosta 312. godine?",
+        "question": "Kako se zove slavoluk u Rimu sagrađen u čast pobjede u Bitki kod Milvijskog mosta 312. godine?",
         "correct_answer": "Konstantinov slavoluk",
         "incorrect_answers": [
             "Trajanov stup",
@@ -3225,7 +3225,7 @@
     {
         "id": "hr_hist_294",
         "category": "povijest",
-        "question": "Koji je rimski car dao progoniti kršćane u najvećem i najtežem valom progona (303. – 311.)?",
+        "question": "Koji je rimski car naredio najveći i najteži val progona kršćana (303. – 311.)?",
         "correct_answer": "Dioklecijan",
         "incorrect_answers": [
             "Neron",
@@ -3269,7 +3269,7 @@
     {
         "id": "hr_hist_298",
         "category": "povijest",
-        "question": "Koji je hetitski grad bio prijestolnica Hetitiskog Carstva u Anatoliji?",
+        "question": "Koji je hetitski grad bio prijestolnica Hetitskog Carstva u Anatoliji?",
         "correct_answer": "Hatuša",
         "incorrect_answers": [
             "Kadeš",
@@ -3456,7 +3456,7 @@
     {
         "id": "hr_hist_315",
         "category": "povijest",
-        "question": "Koji je ruski knez pobijedio Šveđane na rijeci Nevi 1240. i Teutonske viteže na Čudskom jezeru 1242.?",
+        "question": "Koji je ruski knez poznat po pobjedama nad Šveđanima 1240. i Teutonskim vitezovima na Čudskom jezeru 1242. godine?",
         "correct_answer": "Aleksandar Nevski",
         "incorrect_answers": [
             "Jevpatij Kolovrat",
@@ -3489,7 +3489,7 @@
     {
         "id": "hr_hist_318",
         "category": "povijest",
-        "question": "Kako se zove katedrala i hram u Parizu smješten na otoku Île de la Cité čija je gradnja započela u 12. stoljeću u stilu gotike?",
+        "question": "Kako se zove katedrala u Parizu smještena na otoku Île de la Cité čija je gradnja započela u 12. stoljeću u stilu gotike?",
         "correct_answer": "Notre-Dame u Parizu",
         "incorrect_answers": [
             "Sainte-Chapelle",
@@ -3500,12 +3500,12 @@
     {
         "id": "hr_hist_319",
         "category": "povijest",
-        "question": "Koji je rimsko-njemački car sazvao Prvi koncili u Constanzu (1414. – 1418.) gdje je osuđen i spaljen Jan Hus?",
+        "question": "Koji je rimsko-njemački car sazvao Koncil u Konstanzi (1414. – 1418.) gdje je osuđen i spaljen Jan Hus?",
         "correct_answer": "Žigmund Luksemburški",
         "incorrect_answers": [
             "Karlo IV.",
-            "Rupreht",
-            "Rupert"
+            "Vjenceslav IV.",
+            "Ludovik IV."
         ]
     },
     {
@@ -3522,18 +3522,18 @@
     {
         "id": "hr_hist_321",
         "category": "povijest",
-        "question": "Koji je normanski vladar osvojio Siciliju od Arapa u 11. stoljeću i utemeljio Sicilijansko Kraljevstvo?",
-        "correct_answer": "Ruđer II. (Roger II.)",
+        "question": "Koji je normanski vladar u 12. stoljeću utemeljio Sicilijansko Kraljevstvo?",
+        "correct_answer": "Ruđer II.",
         "incorrect_answers": [
             "Robert Guiscard",
-            "Tancred",
+            "Ruđer I.",
             "Bohemond"
         ]
     },
     {
         "id": "hr_hist_322",
         "category": "povijest",
-        "question": "Kako se zvala prva poljsko-litavska unija stvorena sporazumom u Krevi 1385. godine?",
+        "question": "Kako se naziva prva personalna unija između Poljske i Litve sklopljena sporazumom iz 1385. godine?",
         "correct_answer": "Unija u Krevi",
         "incorrect_answers": [
             "Lublinska unija",
@@ -3588,7 +3588,7 @@
     {
         "id": "hr_hist_327",
         "category": "povijest",
-        "question": "Koji je francuski kralj iz dinastije Kapeta ostao zapamćen po nadimku 'Sveti' (Luj IX.) i sudjelovanju u dva križarska rata?",
+        "question": "Koji je francuski kralj iz dinastije Kapeta ostao zapamćen po nadimku 'Sveti' i sudjelovanju u dva križarska rata?",
         "correct_answer": "Luj IX. Sveti",
         "incorrect_answers": [
             "Luj VII.",
@@ -3632,7 +3632,7 @@
     {
         "id": "hr_hist_331",
         "category": "povijest",
-        "question": "Koji je ugarsko-hrvatski kralj iz dinastije Anžuvinaca izdao Zlatnu bulu 1222. godine ograničavajući kraljevsku vlast?",
+        "question": "Koji je ugarsko-hrvatski kralj iz dinastije Arpadovića izdao Zlatnu bulu 1222. godine ograničavajući kraljevsku vlast?",
         "correct_answer": "Andrija II.",
         "incorrect_answers": [
             "Bela IV.",
@@ -3690,7 +3690,7 @@
         "question": "Kako se zove ustanak u Carigradu 532. godine za vrijeme cara Justinijana I. koji je umalo srušio njegovu vlast?",
         "correct_answer": "Ustanak Nika",
         "incorrect_answers": [
-            "Ustanak zelenih",
+            "Ustanak seljaka",
             "Pobuna u varošu",
             "Pobuna ikonoklasta"
         ]
@@ -3720,7 +3720,7 @@
     {
         "id": "hr_hist_339",
         "category": "povijest",
-        "question": "Koji je vizantijski redovnik i prosvjetitelj uz brata Metoda stvorio glagoljicu i prevodio crkvene knjige na slavenski jezik u 9. stoljeću?",
+        "question": "Koji je bizantski redovnik i prosvjetitelj uz brata Metoda stvorio glagoljicu i prevodio crkvene knjige na slavenski jezik u 9. stoljeću?",
         "correct_answer": "Sveti Ćiril (Konstantin)",
         "incorrect_answers": [
             "Sveti Naum",
@@ -3962,7 +3962,7 @@
     {
         "id": "hr_hist_361",
         "category": "povijest",
-        "question": "Koji je vijetnamski komunistički vođa predvodio borbu protiv francuske i američke vojske te po njemu nosi ime bivši Saigon?",
+        "question": "Koji je vijetnamski komunistički vođa predvodio borbu protiv francuske i američke vojske?",
         "correct_answer": "Ho Chi Minh",
         "incorrect_answers": [
             "Ngo Dinh Diem",
@@ -4061,12 +4061,12 @@
     {
         "id": "hr_hist_370",
         "category": "povijest",
-        "question": "Kako se zove sovjetska vojna intervencija iz 1968. godine kojom jeugušen reformski pokret 'Praško proljeće' u Čehoslovačkoj?",
-        "correct_answer": "Invazija Varšavskog pakta na Čehoslovačku",
+        "question": "Kako se zove sovjetska vojna intervencija iz 1968. godine kojom je ugušen reformski pokret 'Praško proljeće' u Čehoslovačkoj?",
+        "correct_answer": "Operacija Dunav",
         "incorrect_answers": [
-            "Operacija Dunav",
-            "Praški ustanak",
-            "Prosinac u Pragu"
+            "Operacija Vihor",
+            "Operacija Iskra",
+            "Operacija Grom"
         ]
     },
     {
@@ -4094,7 +4094,7 @@
     {
         "id": "hr_hist_373",
         "category": "povijest",
-        "question": "Koji je jugoslavenski političar i disident napisao knjigu 'Novi klas' kritikujući komunistički sustav?",
+        "question": "Koji je jugoslavenski političar i disident napisao knjigu 'Novi klas' kritizirajući komunistički sustav?",
         "correct_answer": "Milovan Đilas",
         "incorrect_answers": [
             "Aleksandar Ranković",
@@ -4116,7 +4116,7 @@
     {
         "id": "hr_hist_375",
         "category": "povijest",
-        "question": "Koji se tajni nuklearni incident dogodio u travanj 1986. godine u nuklearne elektrane u Ukrajini (SSSR)?",
+        "question": "Koji se tajni nuklearni incident dogodio u travnju 1986. godine u nuklearnoj elektrani u Ukrajini (SSSR)?",
         "correct_answer": "Černobilska nesreća",
         "incorrect_answers": [
             "Incident u Kyshtymu",
@@ -4171,7 +4171,7 @@
     {
         "id": "hr_hist_380",
         "category": "povijest",
-        "question": "Kako se zove mirovna konferencija 1943. u kojoj su se prvi put uživo sastali Roosevelt, Churchill i Staljin?",
+        "question": "Kako se zove mirovna konferencija 1943. u kojoj su se prvi put osobno sastali Roosevelt, Churchill i Staljin?",
         "correct_answer": "Teheranska konferencija",
         "incorrect_answers": [
             "Konferencija na Jalti",
@@ -4196,7 +4196,7 @@
         "question": "Kako se zvala kriza 1956. uzrokovana napadom Izraela, Britanije i Francuske na Egipat nakon nacionalizacije kanala?",
         "correct_answer": "Sueska kriza",
         "incorrect_answers": [
-            "Shesnodnevni rat",
+            "Šestodnevni rat",
             "Jomkipurski rat",
             "Kriza u Aqabi"
         ]
@@ -4204,7 +4204,7 @@
     {
         "id": "hr_hist_383",
         "category": "povijest",
-        "question": "Koji se rat između Arapskih država i Izraela vodio u listopadu 1973. godine na blagdan Yom Kippur?",
+        "question": "Kako se naziva rat koji se između Arapskih država i Izraela vodio u listopadu 1973. godine, započet na židovski blagdan?",
         "correct_answer": "Jomkipurski rat",
         "incorrect_answers": [
             "Šestodnevni rat",
@@ -4391,7 +4391,7 @@
     {
         "id": "hr_hist_400",
         "category": "povijest",
-        "question": "Kako se zove mirna i bezprolivena smjena komunističke vlasti u Čehoslovačkoj u studenom 1989. godine?",
+        "question": "Kako se zove mirna i beskrvna smjena komunističke vlasti u Čehoslovačkoj u studenom 1989. godine?",
         "correct_answer": "Baršunasta revolucija",
         "incorrect_answers": [
             "Praško proljeće",
@@ -4414,7 +4414,7 @@
         "id": "hr_hist_402",
         "category": "povijest",
         "question": "Kako se zvao dokument iz 1689. godine kojim je engleski parlament ograničio monarhijsku vlast u korist parlamenta?",
-        "correct_answer": "Bill of Rights",
+        "correct_answer": "Bill of Rights (Povelja o pravima)",
         "incorrect_answers": [
             "Magna Carta",
             "Habeas Corpus",
@@ -4468,7 +4468,7 @@
     {
         "id": "hr_hist_407",
         "category": "povijest",
-        "question": "Koji je pruski kralj iz 18. stoljeća bio poznat kao 'Veliki' te razvio vojnu moć Pruske i bio mecenom umjetnosti?",
+        "question": "Koji je pruski kralj iz 18. stoljeća bio poznat kao 'Veliki', razvio je vojnu moć Pruske i bio mecena umjetnosti?",
         "correct_answer": "Fridrik II. Veliki",
         "incorrect_answers": [
             "Fridrik Vilim I.",
@@ -4484,7 +4484,7 @@
         "incorrect_answers": [
             "Vestfalski mir",
             "Aachenski mir",
-            "Mir u Rastattu"
+            "Mir u Rijswijku"
         ]
     },
     {
@@ -4523,12 +4523,12 @@
     {
         "id": "hr_hist_412",
         "category": "povijest",
-        "question": "Kako se zove pomorski sukob 1588. godine u kojem je engleska flota porazila španjolsku Invencibilnu armadu?",
-        "correct_answer": "Bitka protiv Španjolske armade",
+        "question": "Kako se naziva pomorski pohod 1588. godine u kojem je engleska flota porazila španjolsku Invencibilnu armadu?",
+        "correct_answer": "Pohod Španjolske armade",
         "incorrect_answers": [
             "Bitka kod Lepanta",
             "Bitka kod Trafalgara",
-            "Bitka kod Gravelinesa"
+            "Bitka kod Sluysa"
         ]
     },
     {
@@ -4545,11 +4545,11 @@
     {
         "id": "hr_hist_414",
         "category": "povijest",
-        "question": "Kako se zove pomorska bitka iz 1704. u kojoj su Britanci zauzeli stratešku utvrdu Gibraltar?",
+        "question": "Kako se zove događaj iz 1704. godine u kojem su Britanci zauzeli stratešku utvrdu Gibraltar?",
         "correct_answer": "Zauzimanje Gibraltara",
         "incorrect_answers": [
             "Bitka kod Trafalgara",
-            "Bitka kod Malpage",
+            "Opsada Cadiza",
             "Bitka kod Vigo Baya"
         ]
     },
@@ -4666,7 +4666,7 @@
     {
         "id": "hr_hist_425",
         "category": "povijest",
-        "question": "Koji se sukob u Sjevernoj Americi vodio između SAD-a i Velike Britanije od 1812. do 1815. godine?",
+        "question": "Kako se naziva sukob u Sjevernoj Americi koji se vodio između SAD-a i Velike Britanije u razdoblju od 1812. do 1815. godine?",
         "correct_answer": "Rat iz 1812.",
         "incorrect_answers": [
             "Američki građanski rat",
@@ -4787,11 +4787,11 @@
     {
         "id": "hr_hist_436",
         "category": "povijest",
-        "question": "Kako se zvala ustanak kineskih seljaka i tajnog društva 'Pravedne i složne šake' protiv stranih sila u Kina 1899. – 1901.?",
+        "question": "Kako se zvao ustanak kineskih seljaka i tajnih društava protiv stranih sila u Kini, koji se odvijao od 1899. do 1901. godine?",
         "correct_answer": "Bokserski ustanak",
         "incorrect_answers": [
             "Taiping ustanak",
-            "Sintajski ustanak",
+            "Ustanak Nian",
             "Ustanak Crvenih obrva"
         ]
     },
@@ -4857,7 +4857,7 @@
         "correct_answer": "Bitka za Fort Sumter",
         "incorrect_answers": [
             "Bitka kod Bull Runa",
-            "Bitka kod Gettysburgu",
+            "Bitka kod Gettysburga",
             "Bitka kod Antietama"
         ]
     },
@@ -4941,11 +4941,11 @@
     {
         "id": "hr_hist_450",
         "category": "povijest",
-        "question": "Kako se zove proglas iz 1804. godine kojim se Napoleon Bonaparte krunio za cara Francuza u katedrali Notre-Dame?",
-        "correct_answer": "Carski dekret iz 1804.",
+        "question": "Kako se zove ustavni akt iz 1804. godine kojim se Napoleon Bonaparte proglasio carem Francuza, prije krunidbe u katedrali Notre-Dame?",
+        "correct_answer": "Ustav godine XII.",
         "incorrect_answers": [
             "Zakonik Napoleona",
-            "Ustav godine XII.",
+            "Senatski dekret",
             "Krunidbena povelja"
         ]
     },
@@ -4963,7 +4963,7 @@
     {
         "id": "hr_hist_452",
         "category": "povijest",
-        "question": "Kako se zvala posljednja kineska carska dinastija pod podrijetlom Mandžuraca koja je vladala od 1644. do 1912. godine?",
+        "question": "Kako se zvala posljednja kineska carska dinastija mandžurskog podrijetla koja je vladala od 1644. do 1912. godine?",
         "correct_answer": "Dinastija Qing",
         "incorrect_answers": [
             "Dinastija Ming",
@@ -4979,7 +4979,7 @@
         "incorrect_answers": [
             "Kamakura šogunat",
             "Ashikaga šogunat",
-            "Oda šogunat"
+            "Fujiwara šogunat"
         ]
     },
     {
@@ -4996,7 +4996,7 @@
     {
         "id": "hr_hist_455",
         "category": "povijest",
-        "question": "Koji se tajni trgovački i karavanski put protezao od Kine do Sredozemlja prenoseći svilu, začine i papir?",
+        "question": "Koji se trgovački i karavanski put protezao od Kine do Sredozemlja prenoseći svilu, začine i papir?",
         "correct_answer": "Put svile",
         "incorrect_answers": [
             "Put tamjana",
@@ -5106,7 +5106,7 @@
     {
         "id": "hr_hist_465",
         "category": "povijest",
-        "question": "Koji je ruski car vladao tijekom Krimskog rata i ukinuo kmetstvo u Rusiji 1861. godine?",
+        "question": "Koji je ruski car preuzeo prijestolje tijekom Krimskog rata i ukinuo kmetstvo u Rusiji 1861. godine?",
         "correct_answer": "Aleksandar II.",
         "incorrect_answers": [
             "Nikola I.",
@@ -5198,7 +5198,7 @@
         "correct_answer": "Rusko-japanski rat",
         "incorrect_answers": [
             "Sino-japanski rat",
-            "Kineski rat",
+            "Bokserski ustanak",
             "Korejski rat"
         ]
     },
@@ -5216,7 +5216,7 @@
     {
         "id": "hr_hist_475",
         "category": "povijest",
-        "question": "Koji je posljednji kineski car abdicirao 1912. godine čime je ukinuto 2000 godina carstva u Kina?",
+        "question": "Koji je posljednji kineski car abdicirao 1912. godine čime je ukinuto 2000 godina carstva u Kini?",
         "correct_answer": "Puyi",
         "incorrect_answers": [
             "Guangxu",
@@ -5315,7 +5315,7 @@
     {
         "id": "hr_hist_484",
         "category": "povijest",
-        "question": "Kako se zvala pobuna mau-mau seljaka protiv britanske vlasti u Keniji tijekom 1950-ih?",
+        "question": "Kako se zvala pobuna seljaka protiv britanske vlasti u Keniji tijekom 1950-ih?",
         "correct_answer": "Ustanak Mau-Mau",
         "incorrect_answers": [
             "Pobuna Maji-Maji",
@@ -5326,7 +5326,7 @@
     {
         "id": "hr_hist_485",
         "category": "povijest",
-        "question": "Koji je prvi demokratski izabrani predsjednik Konga ubijen u atentatu uz potporu stranih sila 1961. godine?",
+        "question": "Koji je prvi demokratski izabrani premijer Konga ubijen u atentatu uz potporu stranih sila 1961. godine?",
         "correct_answer": "Patrice Lumumba",
         "incorrect_answers": [
             "Joseph Kasa-Vubu",
@@ -5352,7 +5352,7 @@
         "correct_answer": "FLN (Front narodnog oslobođenja)",
         "incorrect_answers": [
             "OAS",
-            "ALN",
+            "UNITA",
             "FIS"
         ]
     },
@@ -5425,7 +5425,7 @@
     {
         "id": "hr_hist_494",
         "category": "povijest",
-        "question": "Kako se zove dokument iz 1620. kojim su hodočasnici (Pilgrims) s broda Mayflower dogovorili samoupravu prije iskrcavanja u Plymouthu?",
+        "question": "Kako se zove dokument iz 1620. kojim su hodočasnici (Pilgrims) dogovorili samoupravu prije iskrcavanja u Plymouthu?",
         "correct_answer": "Mayflower Compact",
         "incorrect_answers": [
             "Fundamental Orders",
@@ -5458,7 +5458,7 @@
     {
         "id": "hr_hist_497",
         "category": "povijest",
-        "question": "Koji je američki državnik i izumitelj izradio nacrt za Deklaraciju o neovisnosti uz Jeffersona i bio prvi veleposlanik u Francuskoj?",
+        "question": "Koji je američki državnik, izumitelj i diplomat sudjelovao u izradi Deklaracije o neovisnosti i bio prvi veleposlanik u Francuskoj?",
         "correct_answer": "Benjamin Franklin",
         "incorrect_answers": [
             "Alexander Hamilton",
@@ -5546,7 +5546,7 @@
     {
         "id": "hr_hist_505",
         "category": "povijest",
-        "question": "Koje je godine Christopher Kolumbo stigao do Amerike?",
+        "question": "Koje je godine Kristofor Kolumbo stigao do Amerike?",
         "correct_answer": "1492.",
         "incorrect_answers": [
             "1498.",
@@ -5733,7 +5733,7 @@
     {
         "id": "hr_hist_522",
         "category": "povijest",
-        "question": "Kako se zvala mirovna konferencija kojom je iza 1648. završio Tridesetogodišnji rat?",
+        "question": "Kako se zvao mirovni ugovor kojim je 1648. godine završen Tridesetogodišnji rat?",
         "correct_answer": "Vestfalski mir",
         "incorrect_answers": [
             "Bečki kongres",
@@ -6107,7 +6107,7 @@
     {
         "id": "hr_hist_556",
         "category": "povijest",
-        "question": "Koji je sporazum iz 1938. dopustio Hitlera pripajanje Sudetske oblasti u Čehoslovačkoj?",
+        "question": "Koji je sporazum iz 1938. dopustio Hitleru pripajanje Sudetske oblasti u Čehoslovačkoj?",
         "correct_answer": "Minhenski sporazum",
         "incorrect_answers": [
             "Pakt Ribbentrop-Molotov",
@@ -6188,7 +6188,7 @@
         "correct_answer": "Marshallov plan",
         "incorrect_answers": [
             "Trumanova doktrina",
-            "Mlad plan",
+            "Youngov plan",
             "Dawesov plan"
         ]
     },
@@ -6261,7 +6261,7 @@
     {
         "id": "hr_hist_570",
         "category": "povijest",
-        "question": "U kojem je gradu bio sjedište papinstva od 1309. do 1377. godine ('Avignonsko sužanjstvo')?",
+        "question": "U kojem se gradu nalazilo sjedište papinstva od 1309. do 1377. godine?",
         "correct_answer": "Avignon",
         "incorrect_answers": [
             "Rim",
@@ -6305,7 +6305,7 @@
     {
         "id": "hr_hist_574",
         "category": "povijest",
-        "question": "Koji je kralj ujedinio Aragoniju i Kastilju vjenčanjem s Izabelom I. stvoriši temelje moderne Španjolske?",
+        "question": "Koji je kralj ujedinio Aragoniju i Kastilju vjenčanjem s Izabelom I., stvorivši temelje moderne Španjolske?",
         "correct_answer": "Ferdinand II. Aragonski",
         "incorrect_answers": [
             "Filip II.",
@@ -6438,7 +6438,7 @@
         "id": "hr_hist_586",
         "category": "povijest",
         "question": "Koja je ruska carica vladala u 18. stoljeću proširivši carstvo na Krim i ukinuvši Poljsku kroz diobe?",
-        "correct_answer": "Katarina Velika (Katarina II.)",
+        "correct_answer": "Katarina Velika",
         "incorrect_answers": [
             "Ana Ivanovna",
             "Elizabeta Petrovna",
@@ -6547,7 +6547,7 @@
     {
         "id": "hr_hist_596",
         "category": "povijest",
-        "question": "U kojem se gradu u dvorani ogledala u Versaillesu 1871. godine proglasilo Njemačko Carstvo?",
+        "question": "U kojem se gradu održala ceremonija proglašenja Njemačkog Carstva 1871. godine?",
         "correct_answer": "Versailles",
         "incorrect_answers": [
             "Berlin",
@@ -6592,7 +6592,7 @@
         "id": "hr_hist_600",
         "category": "povijest",
         "question": "Kako se zvala kineska dinastija koja je bila posljednja carska dinastija u Kini (do 1912.)?",
-        "correct_answer": "Qing (Mančurska)",
+        "correct_answer": "Qing",
         "incorrect_answers": [
             "Ming",
             "Tang",
@@ -6657,12 +6657,12 @@
     {
         "id": "hr_hist_606",
         "category": "povijest",
-        "question": "U kojem se gradu u Belgiji održala izložba i konferencija 1884. - 1885. gdje su europske sile podijelile Afriku?",
-        "correct_answer": "Berlinska konferencija",
+        "question": "U kojem se gradu održala konferencija 1884. - 1885. gdje su europske sile podijelile Afriku?",
+        "correct_answer": "Berlin",
         "incorrect_answers": [
-            "Briselska konferencija",
-            "Pariška konferencija",
-            "Bečka konferencija"
+            "Brisel",
+            "Pariz",
+            "Beč"
         ]
     },
     {
@@ -6690,7 +6690,7 @@
     {
         "id": "hr_hist_609",
         "category": "povijest",
-        "question": "Koje je godine započeo Ilirski pokret pod vodstvom Ljudevita Gaja?",
+        "question": "Koje je godine Ljudevit Gaj počeo izdavati 'Novine horvatske' i 'Danicu horvatsku', čime je Ilirski pokret dobio svoje javno glasilo?",
         "correct_answer": "1835.",
         "incorrect_answers": [
             "1848.",
@@ -6706,7 +6706,7 @@
         "incorrect_answers": [
             "Zora dalmatinska",
             "Kolo",
-            "Danica"
+            "Vijenac"
         ]
     },
     {
@@ -6823,7 +6823,7 @@
         "id": "hr_hist_621",
         "category": "povijest",
         "question": "Kako se zvala kvislinška država proglašena u Hrvatskoj 10. travnja 1941. godine?",
-        "correct_answer": "Nezavisna Država Hrvatska (NDH)",
+        "correct_answer": "Nezavisna Država Hrvatska",
         "incorrect_answers": [
             "Republika Hrvatska",
             "Banovina Hrvatska",
@@ -6845,7 +6845,7 @@
         "id": "hr_hist_623",
         "category": "povijest",
         "question": "Koji se događaj 22. lipnja 1941. kraj Siska obilježava kao početak organizirane antifašističke borbe u Hrvatskoj?",
-        "correct_answer": "Osnivanje Prvog sisačkog partizanskog odreda",
+        "correct_answer": "Osnivanje Sisačkog partizanskog odreda",
         "incorrect_answers": [
             "Ustanak u Srbu",
             "Osnivanje ZAVNOH-a",
@@ -6900,7 +6900,7 @@
         "id": "hr_hist_628",
         "category": "povijest",
         "question": "Kako se zvao hrvatski nacionalno-politički pokret početkom 1970-ih godina tražeći veću autonomiju Hrvatske u SFRJ?",
-        "correct_answer": "Hrvatsko proljeće (Maspok)",
+        "correct_answer": "Hrvatsko proljeće",
         "incorrect_answers": [
             "Praško proljeće",
             "Ilirski pokret",
@@ -6910,7 +6910,7 @@
     {
         "id": "hr_hist_629",
         "category": "povijest",
-        "question": "Koji je ustav SFRJ iz 1974. dao veću autonomiju republikama i pokrajinama?",
+        "question": "Koji je ustav SFRJ iz '70-ih godina dao veću autonomiju republikama i pokrajinama?",
         "correct_answer": "Ustav iz 1974.",
         "incorrect_answers": [
             "Ustav iz 1963.",
@@ -6954,7 +6954,7 @@
     {
         "id": "hr_hist_633",
         "category": "povijest",
-        "question": "Koji se datum u Hrvatskoj slavi kao Dan državnosti (u spomen na odluku Sabora o samostalnosti 1991.)?",
+        "question": "Koji se datum u Hrvatskoj slavi kao Dan državnosti (u spomen na konstituiranje prvog demokratski izabranog višestranačkog Sabora 1990.)?",
         "correct_answer": "30. svibnja",
         "incorrect_answers": [
             "25. lipnja",
@@ -6987,7 +6987,7 @@
     {
         "id": "hr_hist_636",
         "category": "povijest",
-        "question": "Koje je godine Hrvatska ula u vojno-politički savez NATO?",
+        "question": "Koje je godine Hrvatska ušla u vojno-politički savez NATO?",
         "correct_answer": "2009.",
         "incorrect_answers": [
             "2004.",
@@ -7174,7 +7174,7 @@
     {
         "id": "hr_hist_653",
         "category": "povijest",
-        "question": "Koji je fizicar bio znanstveni voditelj Projekta Manhattan?",
+        "question": "Koji je fizičar bio znanstveni voditelj Projekta Manhattan?",
         "correct_answer": "J. Robert Oppenheimer",
         "incorrect_answers": [
             "Albert Einstein",
@@ -7185,7 +7185,7 @@
     {
         "id": "hr_hist_654",
         "category": "povijest",
-        "question": "U kojem su njemačkom gradu održana suđenja glavnim nacističkim ratnim zločincima nakon 2. svj. rata?",
+        "question": "U kojem su njemačkom gradu održana suđenja glavnim nacističkim ratnim zločincima nakon Drugoga svjetskog rata?",
         "correct_answer": "Nürnberg",
         "incorrect_answers": [
             "Berlin",
@@ -7273,11 +7273,11 @@
     {
         "id": "hr_hist_662",
         "category": "povijest",
-        "question": "Kako se zvao sustav institucionalizirane rasne segregacije u Južnoj Africi trajao do 1990-ih?",
+        "question": "Kako se zvao sustav institucionalizirane rasne segregacije u Južnoj Africi koji je trajao do 1990-ih?",
         "correct_answer": "Apartheid",
         "incorrect_answers": [
             "Jim Crow",
-            "Bantustan",
+            "Kolonijalizam",
             "Segregacionizam"
         ]
     },
@@ -7306,7 +7306,7 @@
     {
         "id": "hr_hist_665",
         "category": "povijest",
-        "question": "Kako se zvala vojna kampanja i evakuacija kineskih komunista predvodjena Mao Zedongom 1934. - 1935.?",
+        "question": "Kako se zvala vojna kampanja i evakuacija kineskih komunista predvođena Mao Zedongom 1934. – 1935.?",
         "correct_answer": "Dugi marš",
         "incorrect_answers": [
             "Veliki skok naprijed",
@@ -7317,7 +7317,7 @@
     {
         "id": "hr_hist_666",
         "category": "povijest",
-        "question": "U kojem se gradu nalazilo sjedište Papinske Države do njenog ujedinjenja s Kraljevinom Italijom 1870.?",
+        "question": "U kojem se gradu nalazilo sjedište Papinske Države do njezina ujedinjenja s Kraljevinom Italijom 1870.?",
         "correct_answer": "Rim",
         "incorrect_answers": [
             "Firenca",
@@ -7328,12 +7328,12 @@
     {
         "id": "hr_hist_667",
         "category": "povijest",
-        "question": "Kako se zove dokument iz 1929. kojim su fašistička Italija i Papinstvo riješili 'Rimsko pitanje' stvoriši Vatikan?",
+        "question": "Kako se zove dokument iz 1929. kojim su fašistička Italija i Papinstvo riješili 'Rimsko pitanje' stvorivši Vatikan?",
         "correct_answer": "Lateranski ugovori",
         "incorrect_answers": [
             "Rimski sporazum",
             "Konkordat iz Wormsa",
-            "Vatikanski ugovor"
+            "Pariški ugovori"
         ]
     },
     {
@@ -7520,7 +7520,7 @@
         "incorrect_answers": [
             "Bitka kod Yorktowna",
             "Bitka kod Lexingtona",
-            "Bitka kod Princeton-a"
+            "Bitka kod Princetona"
         ]
     },
     {
@@ -7713,7 +7713,7 @@
     {
         "id": "hr_hist_702",
         "category": "povijest",
-        "question": "Kako se zvao njemački ratni plan brzog poraza Francuske preko Belgije prije napada na Rusiju u WWI?",
+        "question": "Kako se zvao njemački ratni plan brzog poraza Francuske preko Belgije prije napada na Rusiju u Prvom svjetskom ratu?",
         "correct_answer": "Schlieffenov plan",
         "incorrect_answers": [
             "Moltkeov plan",
@@ -7724,7 +7724,7 @@
     {
         "id": "hr_hist_703",
         "category": "povijest",
-        "question": "U kojoj se bitci u rujnu 1914. godine zaustavilo njemačko napredovanje prema Parizu na rijeci Marni?",
+        "question": "U kojoj se bitci u rujnu 1914. godine zaustavilo njemačko napredovanje prema Parizu?",
         "correct_answer": "Prva bitka na Marni",
         "incorrect_answers": [
             "Bitka kod Verduna",
@@ -7779,7 +7779,7 @@
     {
         "id": "hr_hist_708",
         "category": "povijest",
-        "question": "Koji je tajni telegram njemačkog ministra vanjskih poslova Meksiku bio povod ulaska SAD-a u WWI 1917.?",
+        "question": "Koji je tajni telegram njemačkog ministra vanjskih poslova Meksiku bio povod ulaska SAD-a u Prvi svjetski rat 1917.?",
         "correct_answer": "Zimmermannov telegram",
         "incorrect_answers": [
             "Balfourova deklaracija",
@@ -7834,7 +7834,7 @@
     {
         "id": "hr_hist_713",
         "category": "povijest",
-        "question": "Kako se zvala međunarodna organizacija osnovana nakon WWI na prijedlog Woodrowa Wilsona radi očuvanja mira?",
+        "question": "Kako se zvala međunarodna organizacija osnovana nakon Prvog svjetskog rata na prijedlog Woodrowa Wilsona radi očuvanja mira?",
         "correct_answer": "Liga naroda (Društvo naroda)",
         "incorrect_answers": [
             "Ujedinjeni narodi",
@@ -7845,12 +7845,12 @@
     {
         "id": "hr_hist_714",
         "category": "povijest",
-        "question": "Kako se zvala njemačka republika uspostavljena nakon WWI koja je trajala do dolaska Hitlera na vlast 1933.?",
+        "question": "Kako se zvala njemačka republika uspostavljena nakon Prvog svjetskog rata koja je trajala do dolaska Hitlera na vlast 1933.?",
         "correct_answer": "Vajmarska Republika",
         "incorrect_answers": [
             "Bavarska Sovjetska Republika",
             "Treći Reich",
-            "Nemačka Konfederacija"
+            "Njemačka Konfederacija"
         ]
     },
     {
@@ -7966,7 +7966,7 @@
     {
         "id": "hr_hist_725",
         "category": "povijest",
-        "question": "Kako se zvala francuska utvrđena linija obrambenih objekata građena na granici s Njemačkom prije WWII?",
+        "question": "Kako se zvala francuska utvrđena linija obrambenih objekata građena na granici s Njemačkom prije Drugog svjetskog rata?",
         "correct_answer": "Maginotova linija",
         "incorrect_answers": [
             "Siegfriedova linija",
@@ -7977,7 +7977,7 @@
     {
         "id": "hr_hist_726",
         "category": "povijest",
-        "question": "U kojem se francuskom gradu 1940. dogodila masovna evakuacija savezničkih snaga preko English Channela (Operacija Dynamo)?",
+        "question": "U kojem se francuskom gradu 1940. godine dogodila masovna evakuacija savezničkih snaga preko Engleskog kanala (Operacija Dynamo)?",
         "correct_answer": "Dunkirk (Dunkerque)",
         "incorrect_answers": [
             "Calais",
@@ -8047,14 +8047,14 @@
         "correct_answer": "Bitka kod Kurska",
         "incorrect_answers": [
             "Bitka za Staljingrad",
-            "Bitka za Tenkove kod Prokhorovke",
+            "Bitka kod Kijeva",
             "Bitka kod Harkova"
         ]
     },
     {
         "id": "hr_hist_733",
         "category": "povijest",
-        "question": "U kojem je njemačkom gradu u blizini Berlina 1942. na konferenciji razrađen plan za 'Konačno rješenje židovskog pitanja'?",
+        "question": "U kojem se dijelu Berlina 1942. godine na konferenciji razrađen plan za 'Konačno rješenje židovskog pitanja'?",
         "correct_answer": "Wannsee",
         "incorrect_answers": [
             "Potsdam",
@@ -8076,7 +8076,7 @@
     {
         "id": "hr_hist_735",
         "category": "povijest",
-        "question": "Koja su trojica lidera činio 'Veliku trojicu' na Yaltinskoj konferenciji u veljači 1945.?",
+        "question": "Koja su trojica lidera činila 'Veliku trojicu' na Jaltinskoj konferenciji u veljači 1945.?",
         "correct_answer": "Roosevelt, Churchill i Staljin",
         "incorrect_answers": [
             "Truman, Attlee i Staljin",
@@ -8098,7 +8098,7 @@
     {
         "id": "hr_hist_737",
         "category": "povijest",
-        "question": "Koji se tajni zračni most uspostavio 1948. - 1949. kako bi se opskrbio zapadni dio Berlina pod sovjetskom blokadom?",
+        "question": "Koji se zračni most uspostavio 1948. - 1949. godine kako bi se opskrbio zapadni dio Berlina pod sovjetskom blokadom?",
         "correct_answer": "Berlinski zračni most",
         "incorrect_answers": [
             "Operacija Manna",
@@ -8120,7 +8120,7 @@
     {
         "id": "hr_hist_739",
         "category": "povijest",
-        "question": "Koji se ustanak u jednoj od članica Varšavskog pakta dogodio 1956. prije nego je krvavo ugušen od strane SSSR-a?",
+        "question": "Koji se ustanak u jednoj od članica Varšavskog pakta dogodio 1956. godine prije nego ga je krvavo ugušio SSSR?",
         "correct_answer": "Mađarska revolucija",
         "incorrect_answers": [
             "Praško proljeće",
@@ -8230,7 +8230,7 @@
     {
         "id": "hr_hist_749",
         "category": "povijest",
-        "question": "Koji se rat izmedu Sjedinjenih Američkih Država i Sjevernog Vijetnama vodio do savjetničkog i vojnog povlačenja 1973./1975.?",
+        "question": "Koji se rat između Sjedinjenih Američkih Država i Sjevernog Vijetnama vodio do savjetničkog i vojnog povlačenja 1973./1975.?",
         "correct_answer": "Vijetnamski rat",
         "incorrect_answers": [
             "Prvi rat u Indokini",
@@ -8363,7 +8363,7 @@
         "id": "hr_hist_761",
         "category": "povijest",
         "question": "Kako se zvala revolucija 1979. kojom je svrgnut šah Muhamed Reza Pahlavi i uspostavljena Islamska Republika Iran?",
-        "correct_answer": "Iranska revolucija (Islamska revolucija)",
+        "correct_answer": "Iranska revolucija",
         "incorrect_answers": [
             "Bijela revolucija",
             "Zeleni pokret",
@@ -8407,7 +8407,7 @@
         "id": "hr_hist_765",
         "category": "povijest",
         "question": "Kako se zvala vojna operacija međunarodne koalicije predvođene SAD-om za oslobađanje Kuvajta 1991. godine?",
-        "correct_answer": "Pustinjska oluja (Zaljevski rat)",
+        "correct_answer": "Pustinjska oluja",
         "incorrect_answers": [
             "Iračka sloboda",
             "Pustinjski štit",
@@ -8517,7 +8517,7 @@
         "id": "hr_hist_775",
         "category": "povijest",
         "question": "Koji je engleski kralj 1066. godine poražen u bitci kod Hastingsa od strane Vilima Osvajača?",
-        "correct_answer": "Harold Godwinson (Harold II.)",
+        "correct_answer": "Harold Godwinson",
         "incorrect_answers": [
             "Edward Ispovjednik",
             "Alfred Veliki",
@@ -8539,7 +8539,7 @@
         "id": "hr_hist_777",
         "category": "povijest",
         "question": "Kako se zvala velika popisno-porezna knjiga sastavljena po nalogu Vilima Osvajača 1086. godine?",
-        "correct_answer": "Domesday Book",
+        "correct_answer": "Knjiga Sudnjeg dana",
         "incorrect_answers": [
             "Magna Carta",
             "Liber Censuum",
@@ -8640,7 +8640,7 @@
         "question": "Kako se zvala pobuna u Carigradu 532. godine koja je zamalo svrgnula cara Justinijana I.?",
         "correct_answer": "Pobuna Nika",
         "incorrect_answers": [
-            "Zeleno-plava buna",
+            "Ustanak Buike",
             "Ikonoklastička buna",
             "Pobuna Varde Sklera"
         ]
@@ -8681,7 +8681,7 @@
     {
         "id": "hr_hist_790",
         "category": "povijest",
-        "question": "U kojem su se Trećem križarskom ratu borili engleski kralj Rikard Lavljeg Srca i muslimanski vođa Saladin?",
+        "question": "U kojem su se križarskom ratu borili engleski kralj Rikard Lavljeg Srca i muslimanski vođa Saladin?",
         "correct_answer": "Treći križarski rat",
         "incorrect_answers": [
             "Prvi križarski rat",
@@ -8706,7 +8706,7 @@
         "question": "Koji je muslimanski vođa ponovno osvojio Jeruzalem 1187. godine nakon bitke kod Hattina?",
         "correct_answer": "Saladin (Salah ad-Din)",
         "incorrect_answers": [
-            "Nabal",
+            "Zengi",
             "Baibars",
             "Nur ad-Din"
         ]
@@ -8718,7 +8718,7 @@
         "correct_answer": "Akra (Akkon)",
         "incorrect_answers": [
             "Tripoli",
-            "Antiohij",
+            "Antiohija",
             "Tir"
         ]
     },
@@ -8747,7 +8747,7 @@
     {
         "id": "hr_hist_796",
         "category": "povijest",
-        "question": "Koje se godine dogodio Veliki crkveni raskol (Shizma) između Katoličke i Pravoslavne crkve?",
+        "question": "Koje se godine dogodio Veliki raskol između Katoličke i Pravoslavne crkve?",
         "correct_answer": "1054.",
         "incorrect_answers": [
             "800.",
@@ -8758,7 +8758,7 @@
     {
         "id": "hr_hist_797",
         "category": "povijest",
-        "question": "Tko su bili caristički i crkveni poglavari u trenutku Velike shizme 1054. godine?",
+        "question": "Tko su bili papa i carigradski patrijarh u trenutku Velikog raskola 1054. godine?",
         "correct_answer": "Papa Lav IX. i patrijarh Mihajlo Cerularije",
         "incorrect_answers": [
             "Papa Urban II. i patrijarh Fotije",
@@ -8814,7 +8814,7 @@
         "id": "hr_hist_802",
         "category": "povijest",
         "question": "Koji su povijesni procesi i pregovori 1102. godine u Biogradu doveli do stupanja Kolomana na hrvatsko prijestolje?",
-        "correct_answer": "Sklapanje sporazuma Pacta conventa",
+        "correct_answer": "Pacta conventa",
         "incorrect_answers": [
             "Bitka na Gvozdu",
             "Bitka kod Cresa",
@@ -8935,7 +8935,7 @@
         "id": "hr_hist_813",
         "category": "povijest",
         "question": "Koje je carstvo pobijedila Otomanska vojska u bitci na Kosovu polju 1389. godine?",
-        "correct_answer": "Srpsko kraljevstvo",
+        "correct_answer": "Srpska vojska",
         "incorrect_answers": [
             "Bizantsko Carstvo",
             "Bugarsko Carstvo",
@@ -9330,7 +9330,7 @@
     {
         "id": "hr_hist_849",
         "category": "povijest",
-        "question": "Koji je vladar osnovao Akadsko Carstvo, jedno od prvih poznatih carstava u povijesti?",
+        "question": "Tko je bio osnivač Akadskog Carstva, jednog od prvih poznatih carstava u povijesti?",
         "correct_answer": "Sargon Akadski",
         "incorrect_answers": [
             "Hamurabi",
@@ -9705,7 +9705,7 @@
         "id": "hr_hist_883",
         "category": "povijest",
         "question": "Kako se zvala staleška skupština francuskog kraljevstva koju je kralj Luj XVI. sazvao 1789. godine neposredno prije izbijanja revolucije?",
-        "correct_answer": "Generalni staleži (États généraux)",
+        "correct_answer": "Generalni staleži",
         "incorrect_answers": [
             "Nacionalna skupština",
             "Konvent",
@@ -9760,7 +9760,7 @@
         "id": "hr_hist_888",
         "category": "povijest",
         "question": "Tko je predvodio nizozemsku pobunu protiv španjolske vlasti krajem 16. stoljeća i smatra se 'ocem domovine' u Nizozemskoj?",
-        "correct_answer": "Vilim I. Oranski (Vilim Šutljivi)",
+        "correct_answer": "Vilim Šutljivi",
         "incorrect_answers": [
             "Filip II.",
             "Alessandro Farnese",
@@ -9870,7 +9870,7 @@
         "id": "hr_hist_898",
         "category": "povijest",
         "question": "Kako se naziva niz pregovora i sporazuma između SAD-a i SSSR-a o ograničenju strateškog nuklearnog naoružanja, započetih 1969. godine?",
-        "correct_answer": "SALT (Sporazumi o ograničenju strateškog naoružanja)",
+        "correct_answer": "SALT",
         "incorrect_answers": [
             "START",
             "Pakt Molotov-Ribbentrop",
@@ -9880,8 +9880,8 @@
     {
         "id": "hr_hist_899",
         "category": "povijest",
-        "question": "Koja je bila glavna biljka za izradu papirusa u starom Egiptu, po kojoj je materijal dobio ime?",
-        "correct_answer": "Papirusova trska (Cyperus papyrus)",
+        "question": "Koja je biljka u starom Egiptu korištena za izradu papira?",
+        "correct_answer": "Papirusova trska",
         "incorrect_answers": [
             "Lotos",
             "Bambus",
@@ -10235,7 +10235,7 @@
         "question": "Koji je ustanak 1857. – 1858. indijskih vojnika protiv Britanske istočnoindijske kompanije obilježio kraj njezine vlasti?",
         "correct_answer": "Sipajska pobuna",
         "incorrect_answers": [
-            "Pobuna u Bengalu",
+            "Pobuna Santhala",
             "Rat u Pandžabu",
             "Anglo-mahratski rat"
         ]
@@ -10400,9 +10400,9 @@
         "question": "Koji je kubanski revolucionar zajedno s Fidelom Castrom svrgnuo diktatora Fulgencia Batistu 1959. godine?",
         "correct_answer": "Che Guevara",
         "incorrect_answers": [
-            "Raúl Castro",
-            "Camilo Cienfuegos",
-            "Huber Matos"
+            "Juan Almeida Bosque",
+            "Frank País",
+            "Manuel Urrutia Lleó"
         ]
     },
     {
@@ -10422,7 +10422,7 @@
         "question": "Koji je južnoafrički politički sustav rasne segregacije ukinut početkom 1990-ih?",
         "correct_answer": "Aparthejd",
         "incorrect_answers": [
-            "Segregacija",
+            "Rasna diskriminacija",
             "Kolonijalizam",
             "Protektorat"
         ]
