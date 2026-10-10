@@ -8,7 +8,7 @@ import { submitQuestionReport } from '../services/firebase';
 // is admin-only). Fire-and-forget in spirit: minimal interruption, no
 // blocking of the round beyond the same pause every other modal already
 // causes via App.jsx's isAnyModalOpen gate.
-export default function ReportQuestionModal({ isOpen, onClose, question, categoryId, uid }) {
+export default function ReportQuestionModal({ isOpen, onClose, question, categoryId, uid, onReported }) {
     const [reason, setReason] = useState(REPORT_REASONS[0].id);
     const [note, setNote] = useState('');
     const [status, setStatus] = useState('idle'); // idle | sending | sent | error
@@ -26,6 +26,9 @@ export default function ReportQuestionModal({ isOpen, onClose, question, categor
             ...(note.trim() ? { note: note.trim().slice(0, 500) } : {}),
         });
         setStatus(ok ? 'sent' : 'error');
+        // Counts toward the "Prijavi 1 pitanje" mission fallback - only on a
+        // write that actually succeeded.
+        if (ok) onReported?.();
     };
 
     const handleClose = () => {

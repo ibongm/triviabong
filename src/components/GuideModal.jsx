@@ -27,6 +27,7 @@ import { xpForLevel, getCoinsForLevelUp } from '../utils/leveling';
 import { LEVEL_TITLES, getTitleForLevel, MAX_TITLED_LEVEL } from '../constants/levelTitles';
 import { MISSION_REWARDS } from '../constants/missions';
 import { DEFAULT_GLOBAL_STATS } from '../constants/defaultGlobalStats';
+import { isFeatureEnabled } from '../constants/features';
 
 // All numbers below come from constants/gameBalance.js (and leveling.js /
 // defaultGlobalStats.js) rather than being typed in as literals, so this
@@ -154,6 +155,9 @@ export default function GuideModal({ isOpen, onClose }) {
                 <Section icon={<ListChecks className="w-4 h-4 text-amber-400" />} title="Dnevne misije">
                     <p>Svaki dan dobiješ <b className="text-white">3 misije</b> iz rotirajućeg 7-dnevnog rasporeda - jedna za način igre, jedna za određenu kategoriju, jedna raznovrsna.</p>
                     <p>Svaka dovršena misija donosi <b className="text-white">+{MISSION_REWARDS.SLOT_COMPLETION}</b> novčića. Dovršiš li sve 3 istog dana, dobivaš dodatnih <b className="text-white">+{MISSION_REWARDS.CLEAN_SWEEP_BONUS}</b> novčića bonus.</p>
+                    {isFeatureEnabled('MISSION_FALLBACKS') && (
+                        <p>Misije za dvoboje i prijedloge pitanja imaju i <b className="text-white">alternativu</b> (npr. solo runde ili prijava pitanja s greškom) - dovoljno je ispuniti jedno od dvoje, pa svaku misiju možeš riješiti i kad nitko drugi nije online.</p>
+                    )}
                     <p className="text-slate-500 italic">Misije se resetiraju svaki dan u ponoć po zagrebačkom vremenu - nedovršen napredak se ne prenosi. Zahtijeva prijavu. Otvori "Dnevne misije" u predvorju za današnji raspored i preuzimanje nagrada.</p>
                 </Section>
 

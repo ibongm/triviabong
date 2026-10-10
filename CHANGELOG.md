@@ -1,5 +1,28 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 1: mission fallbacks + four mission bug fixes
+- **Files Changed**:
+  - `src/constants/missions.js` (Modified)
+  - `src/utils/missionProgress.js` (Created)
+  - `src/utils/missionProgress.test.js` (Created)
+  - `src/hooks/useDailyMissions.js` (Modified)
+  - `src/components/DailyMissionsModal.jsx` (Modified)
+  - `src/components/ReportQuestionModal.jsx` (Modified)
+  - `src/components/GuideModal.jsx` (Modified)
+  - `src/App.jsx` (Modified)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Mission fallbacks (dark, `FEATURES.MISSION_FALLBACKS = false`).** Every slot that needs another player or a question submission gets an `alt`: Mon/Fri "play N duels" → finish 3/4 solo rounds; Wed/Sat "win N duels" → finish 2/3 rounds with 7+ correct; Wed "win without jokers" → finish a solo round without jokers; Thu hybrid → Daily Challenge + 1 solo round; Sun "2 wins with 80%+" → 2 rounds with 9+ correct; Mon/Thu "suggest a question" → report a question with an error. A slot completes when either path reaches its own target; `progress`/`altProgress` never add up; `completedVia` records which path. Old mission docs without `altProgress` read as 0. Rewards unchanged.
+  - New events: `recordSoloRoundComplete` (called once from `applyRoundEndRewards`, non-daily rounds only, outside any setState updater) and `recordQuestionReported` (from `ReportQuestionModal`, only after a successful write). With the flag off, the hook strips all alts, so behavior is identical to before.
+  - `DailyMissionsModal`: second "ili: ..." line with its own thinner bar per slot; status shows "Riješeno alternativom" when done that way. `GuideModal` gets one flag-gated paragraph.
+  - Progress logic extracted to pure `src/utils/missionProgress.js`.
+  - **Bug fix (live immediately, not flag-gated): category progress clobbered by streak writes.** `handleAnswer` calls `recordCorrectCategory` then `recordStreak` in the same handler; each `record` started from the same closure `state`, and the STREAK update always returned a new object, so its write overwrote the category increment. On Tuesday (Znanost + streak 5) and Saturday (Sport + streak 10) the category slot couldn't advance until the streak slot was completed. The hook now reads and advances a `stateRef`.
+  - **Bug fix: long-form category tags never counted.** `CATEGORY_CORRECT` compared `m.category === categoryKey`, but 220 Znanost questions are tagged `znanost_i_tehnologija` and 200 Književnost questions `knjizevnost_i_umjetnost` (the mission says `znanost`/`knjizevnost`). Now both sides go through `resolveCategoryKey`.
+  - **Bug fix: Friday's "75%+ in the Daily Challenge" was impossible.** It had `target: 75` with +1 per qualifying run. Now `target: 1, accuracy: 75`, matching `WIN_1V1_ACCURACY`'s shape; the matcher reads `m.accuracy`.
+  - **Bug fix: double-tap could claim a slot twice.** `claimSlot`/`claimCleanSweep` checked the render's `state`; they now check `stateRef`, so a second tap sees the slot as already claimed.
+  - No Firestore rules change needed (`users/{uid}/missions/{dateKey}` has no field validation).
+  - Verification: 245 unit tests pass (+22: both paths alone, no summing, completed slots frozen, clamping, STREAK peak, old docs, composed back-to-back events, minCorrect filter on alts, both category spellings, hybrid via match/solo, schedule invariant that every social slot has an alt, Friday accuracy completable). Lint unchanged at the pre-existing 12 (untouched parts of `App.jsx`). Build passes. E2E not run locally (no browser here); runs in CI on the PR.
+
 ### [2026-10-10] - Engagement plan Phase 0: stable Daily Challenge, generator validation, uniform shuffles, flags
 - **Files Changed**:
   - `src/utils/dailySeed.js` (Modified)
