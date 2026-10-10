@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks, Sparkles } from 'lucide-react';
+import { RefreshCw, Crown, ChevronRight, CalendarDays, Swords, Medal, PenSquare, ListChecks, Sparkles, Trophy } from 'lucide-react';
 import RekordiBoards from '../components/RekordiBoards';
 import { getCategoryDetails, DEFAULT_CATEGORY_COLOR } from '../utils/categoryDisplay';
 import { sound } from '../utils/sound';
@@ -33,6 +33,8 @@ export default function LobbyScreen({
     onCancelSentInvite,
     dailyWinAnnouncement,
     onDismissDailyWinAnnouncement,
+    previousWeekSummary = null,
+    onDismissPreviousWeekSummary,
     onLaunchDailyChallenge,
     currentUser,
     dailyAttemptStatus,
@@ -122,6 +124,33 @@ export default function LobbyScreen({
                     </p>
                     <button
                         onClick={onDismissDailyWinAnnouncement}
+                        className="text-xs font-bold text-amber-400/80 hover:text-amber-300 shrink-0"
+                    >
+                        OK
+                    </button>
+                </div>
+            )}
+
+            {previousWeekSummary && (
+                <div className="flex items-center justify-between gap-3 p-4 bg-slate-900 border border-amber-500/30 rounded-2xl">
+                    <p className="text-sm font-bold text-amber-300 flex items-center gap-2">
+                        <Trophy className="w-5 h-5 shrink-0" />
+                        <span>
+                            Prošli tjedan: {previousWeekSummary.rank}. mjesto ({previousWeekSummary.total} bod.)
+                            {previousWeekSummary.prize && (
+                                <span className="block text-xs font-semibold text-amber-200/80">
+                                    +{previousWeekSummary.prize.coins} zlatnika i +{previousWeekSummary.prize.xp} XP je već na tvom računu.
+                                </span>
+                            )}
+                            {previousWeekSummary.prizePending && (
+                                <span className="block text-xs font-semibold text-amber-200/80">
+                                    Nagrada za postolje stiže uskoro.
+                                </span>
+                            )}
+                        </span>
+                    </p>
+                    <button
+                        onClick={onDismissPreviousWeekSummary}
                         className="text-xs font-bold text-amber-400/80 hover:text-amber-300 shrink-0"
                     >
                         OK
