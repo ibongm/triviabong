@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: 22
 
-     - name: Install Google Gen AI Client
+      - name: Install Google Gen AI Client
         run: npm install --no-save @google/genai
 
       - name: Authenticate to Google Cloud
