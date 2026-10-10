@@ -1,0 +1,59 @@
+name: Audit and Fix Questions
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Choose category to audit'
+        required: true
+        default: 'geografija'
+        type: choice
+        options:
+          - 'geografija'
+          - 'glazba'
+          - 'knjizevnost_i_umjetnost'
+          - 'opca_znanje'
+          - 'pop_kultura'
+          - 'povijest'
+          - 'sport'
+          - 'znanost_i_tehnologija'
+      count:
+        description: 'Number of questions to audit (0 = full file)'
+        required: true
+        default: '50'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Google Gen AI Client
+        run: npm install @google/genai
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Run Question Auditor
+        env:
+          GOOGLE_GENAI_USE_VERTEXAI: 'true'
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_CLOUD_LOCATION: 'us-central1'
+        run: node scripts/audit-category.mjs "${{ inputs.category }}" "${{ inputs.count }}"
+
+      - name: Commit and Push Fixes & Report
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/categories/ reports/
+          git diff --staged --quiet || (git commit -m "fix(data): automated audit & fixes for ${{ inputs.category }}" && git push origin main)
