@@ -44,7 +44,7 @@ export default function MatchHistoryList({ uid }) {
                     {entries.map(entry => {
                         const meta = RESULT_META[entry.result] || RESULT_META.draw;
                         const Icon = meta.icon;
-                        const categoryLabel = CATEGORY_META[entry.category]?.label || entry.category;
+                        const categoryLabel = entry.category === 'any' ? 'Bilo koja kategorija' : (CATEGORY_META[entry.category]?.label || entry.category);
                         return (
                             <div key={entry.id} className="flex items-center justify-between p-3 text-xs">
                                 <div className="flex items-center gap-2">
@@ -53,7 +53,7 @@ export default function MatchHistoryList({ uid }) {
                                         <span className="font-bold text-slate-200 block">
                                             protiv {entry.opponentDisplayName}
                                         </span>
-                                        <span className="text-slate-500 capitalize">{categoryLabel}</span>
+                                        <span className="text-slate-500 capitalize">{categoryLabel}{entry.async ? ' · izazov' : ''}</span>
                                     </div>
                                 </div>
                                 <div className="text-right">

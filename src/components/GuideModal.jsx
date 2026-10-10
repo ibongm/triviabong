@@ -159,6 +159,15 @@ export default function GuideModal({ isOpen, onClose }) {
                     <p className="text-slate-500 italic">Ako protivnik ne odgovori i ne javi se dulje vrijeme, možeš prijaviti predaju i pobijediti. Rezultati dvoboja spremaju se u tvoju povijest, a pobjede se broje za trofej.</p>
                 </Section>
 
+                {isFeatureEnabled('ASYNC_DUELS') && (
+                    <Section icon={<Swords className="w-4 h-4 text-emerald-400" />} title="Izazovi (dvoboj bez čekanja)">
+                        <p>Izazovi bilo kojeg igrača ili odaberi <b className="text-white">nasumičnog protivnika</b>. Oboje igrate iste {QUESTIONS_PER_ROUND} pitanja, ali svatko kad mu odgovara - protivnik ima <b className="text-white">48 sati</b>.</p>
+                        <p>Pravila su kao u 1v1 uživo: bez jokera, bodovanje po brzini i nizu točnih odgovora. Pobjednik je tko ima više bodova, a pri izjednačenju brži. Protivnikov rezultat vidiš tek kad i sam odigraš.</p>
+                        <p>Pobjeda donosi isto kao 1v1 dvoboj uživo (<b className="text-white">+{ONE_VS_ONE_WIN_XP} XP</b>, <b className="text-white">+{ONE_VS_ONE_WIN_COINS}</b> novčića) i broji se kao 1v1 pobjeda. Ako protivnik ne odigra u 48 sati, dvoboj istječe bez pobjednika i bez nagrade.</p>
+                        <p className="text-slate-500 italic">Pokrenuta runda se ne može ponoviti - ako odustaneš, neodgovorena pitanja računaju se kao netočna. Možeš imati najviše 5 otvorenih izazova.</p>
+                    </Section>
+                )}
+
                 <Section icon={<ListChecks className="w-4 h-4 text-amber-400" />} title="Dnevne misije">
                     <p>Svaki dan dobiješ <b className="text-white">3 misije</b> iz rotirajućeg 7-dnevnog rasporeda - jedna za način igre, jedna za određenu kategoriju, jedna raznovrsna.</p>
                     <p>Svaka dovršena misija donosi <b className="text-white">+{MISSION_REWARDS.SLOT_COMPLETION}</b> novčića. Dovršiš li sve 3 istog dana, dobivaš dodatnih <b className="text-white">+{MISSION_REWARDS.CLEAN_SWEEP_BONUS}</b> novčića bonus.</p>

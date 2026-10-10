@@ -49,6 +49,8 @@ jobs:
           npx firebase emulators:start --only firestore,auth &
           timeout 30 bash -c 'until curl -sf http://127.0.0.1:8080 >/dev/null; do sleep 1; done'
           timeout 30 bash -c 'until curl -sf http://127.0.0.1:9250 >/dev/null; do sleep 1; done'
+      - name: Run async-duel Firestore rules tests
+        run: node scripts/firestore-rules-async-duels.test.mjs
       - name: Start dev server against the emulator
         env:
           VITE_USE_FIREBASE_EMULATOR: "true"

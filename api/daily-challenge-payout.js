@@ -22,7 +22,7 @@
 //                 invocations once this env var exists, so this doubles as
 //                 both the Vercel-side and our-side check.
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
-import { getFirestore, FieldValue } from 'firebase-admin/firestore';
+import { getFirestore, FieldValue, Timestamp } from 'firebase-admin/firestore';
 
 // mirrors src/constants/gameBalance.js - keep in sync manually (see that
 // file's Phase 11 note on why these are inlined rather than imported: this
@@ -68,6 +68,36 @@ export const getYesterdayZagrebDateKey = (now = new Date()) => {
     // calendar day as a pure string operation (no second timezone conversion).
     const todayZagreb = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(now);
     return addDaysToDateKey(todayZagreb, -1);
+};
+
+// Async-duel expiry sweep (engagement plan Phase 4, decision D2): marks duels
+// whose 48 h window has passed and that nobody decided as `expired` - no
+// winner, no rewards. Clients also expire duels they happen to look at; this
+// catches the ones nobody opens again (notably unclaimed random duels, which
+// otherwise sit in the pool until someone's query skips them).
+//
+// Bounded (SWEEP_LIMIT per run - the next night's run takes the rest), uses
+// the (status, expiresAt) composite index from firestore.indexes.async-duels.json,
+// and NEVER throws: it runs independently of the Daily Challenge payout so a
+// failure here (missing index, quota) can't block or fail the payout.
+const SWEEP_LIMIT = 500;
+export const sweepExpiredDuels = async (db, nowMs = Date.now()) => {
+    try {
+        const snap = await db.collection('asyncDuels')
+            .where('status', 'in', ['open', 'awaiting_opponent'])
+            .where('expiresAt', '<', Timestamp.fromMillis(nowMs))
+            .orderBy('expiresAt')
+            .limit(SWEEP_LIMIT)
+            .get();
+        if (snap.empty) return { expired: 0 };
+        const batch = db.batch();
+        snap.docs.forEach((d) => batch.update(d.ref, { status: 'expired' }));
+        await batch.commit();
+        return { expired: snap.size };
+    } catch (error) {
+        console.error('Async duel expiry sweep failed:', error);
+        return { expired: 0, error: error.message };
+    }
 };
 
 export default async function handler(req, res) {
@@ -187,9 +217,11 @@ export default async function handler(req, res) {
             return { alreadyProcessed: false, winners };
         });
 
-        res.status(200).json({ date, ...result });
+        const duelSweep = await sweepExpiredDuels(db);
+        res.status(200).json({ date, ...result, duelSweep });
     } catch (error) {
         console.error('Daily challenge payout failed:', error);
-        res.status(500).json({ error: 'Payout failed.', details: error.message });
+        const duelSweep = await sweepExpiredDuels(db);
+        res.status(500).json({ error: 'Payout failed.', details: error.message, duelSweep });
     }
 }

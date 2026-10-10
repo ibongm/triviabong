@@ -6,12 +6,30 @@ import {
   ACHIEVEMENT_NORMAL_COINS,
   ACHIEVEMENT_HIDDEN_XP,
   ACHIEVEMENT_HIDDEN_COINS,
-  QUESTION_TIME_SECONDS
+  QUESTION_TIME_SECONDS,
+  BASE_SCORE,
+  SPEED_BONUS_PER_SECOND,
+  STREAK_MULTIPLIER_STEP
 } from '../constants/gameBalance';
 import { ACHIEVEMENTS } from '../constants/achievements';
 import { computeLevelFromXp, getCoinsForLevelUp } from './leveling';
 import { getTitleForLevel } from '../constants/levelTitles';
 import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate } from './achievements';
+
+/**
+ * Points for ONE correct answer in a duel (live 1v1 and async duels):
+ * (BASE_SCORE + secondsLeft x SPEED_BONUS_PER_SECOND) x (1 + streak x
+ * STREAK_MULTIPLIER_STEP), rounded. `streak` is the number of correct answers
+ * in a row BEFORE this one. Extracted verbatim from MatchView.jsx so live and
+ * async duels share one formula - gameLogic.test.js pins the numbers.
+ * @param {number} secondsLeft
+ * @param {number} streak
+ */
+export const computeDuelAnswerScore = (secondsLeft, streak) => {
+  const speedBonus = secondsLeft * SPEED_BONUS_PER_SECOND;
+  const streakMultiplier = 1 + streak * STREAK_MULTIPLIER_STEP;
+  return Math.round((BASE_SCORE + speedBonus) * streakMultiplier);
+};
 
 /**
  * Applies the xp/coins reward for a batch of newly-unlocked achievement ids

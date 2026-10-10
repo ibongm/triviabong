@@ -146,6 +146,22 @@ export function useDailyMissions(uid, setGlobalStats) {
         }
     }, [record, recordHybridHalf]);
 
+    // Async duels (FEATURES.ASYNC_DUELS) split the live-match event in two:
+    // finishing MY side counts as playing a duel today, while the win-based
+    // missions are credited on the day the duel RESOLVES (when the reward is
+    // claimed) - a win can't be known before the opponent has played.
+    const recordAsyncDuelPlayed = useCallback(() => {
+        record(MISSION_TYPES.PLAY_1V1, 1);
+    }, [record]);
+
+    const recordAsyncDuelResolved = useCallback(({ won, accuracy = 0 } = {}) => {
+        if (!won) return;
+        record(MISSION_TYPES.WIN_1V1, 1);
+        record(MISSION_TYPES.WIN_1V1_NO_JOKER, 1);
+        record(MISSION_TYPES.WIN_1V1_ACCURACY, 1, (m) => accuracy >= (m.accuracy || 0));
+        recordHybridHalf('matchDone');
+    }, [record, recordHybridHalf]);
+
     const recordDailyComplete = useCallback(({ accuracy = 0 } = {}) => {
         record(MISSION_TYPES.PLAY_DAILY, 1);
         record(MISSION_TYPES.DAILY_ACCURACY, 1, (m) => accuracy >= (m.accuracy || 0));
@@ -208,6 +224,8 @@ export function useDailyMissions(uid, setGlobalStats) {
         missionsToday,
         missionState: state,
         recordMatchComplete,
+        recordAsyncDuelPlayed,
+        recordAsyncDuelResolved,
         recordDailyComplete,
         recordCorrectCategory,
         recordStreak,

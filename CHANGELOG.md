@@ -1,5 +1,29 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 4: async duels (dark)
+- **Files Changed**:
+  - `src/utils/asyncDuel.js` (Created), `src/utils/asyncDuel.test.js` (Created)
+  - `src/utils/duelProgress.js` (Created), `src/utils/duelLabels.js` (Created)
+  - `src/utils/oneVsOneReward.js` (Created), `src/utils/oneVsOneReward.test.js` (Created)
+  - `src/utils/gameLogic.js` (Modified), `src/utils/gameLogic.test.js` (Modified), `src/components/MatchView.jsx` (Modified)
+  - `src/services/asyncDuels.js` (Created), `src/hooks/useAsyncDuels.js` (Created)
+  - `src/screens/AsyncDuelScreen.jsx` (Created), `src/components/AsyncDuelsModal.jsx` (Created)
+  - `src/App.jsx` (Modified), `src/screens/LobbyScreen.jsx` (Modified), `src/components/MatchHistoryList.jsx` (Modified), `src/components/GuideModal.jsx` (Modified)
+  - `src/hooks/useDailyMissions.js` (Modified), `src/constants/features.js` (Modified), `src/constants/rulesCaps.test.js` (Modified)
+  - `firestore.rules` (Modified), `scripts/firestore-rules-async-duels.test.mjs` (Created), `firestore.indexes.async-duels.json` (Created)
+  - `api/daily-challenge-payout.js` (Modified)
+  - `.github/workflows/ci.yml` (Modified), `.github/workflows/e2e-emulator.yml` (Modified)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Async duels (dark, `FEATURES.ASYNC_DUELS = false`; `ASYNC_DUELS_ADMIN_PREVIEW` shows the UI to the verified admin only).** Ten questions per player, answered at different times within 48 h. Direct challenge or random-opponent pool (per category or "any", D8); 5 open duels as challenger (client-enforced); no `onSnapshot` listeners - inbox is fetched on lobby entry / tab return / refresh (30 s throttle). Live 1v1 files are untouched except `MatchView` calling the extracted `computeDuelAnswerScore` (same numbers, pinned by tests).
+  - **Rules.** New `asyncDuels/{id}` and `results/{uid}` blocks: create/claim/complete/expire transitions, one result per player created `in_progress` before the first question, finish only `in_progress -> done` with capped numbers, the winner on `complete` must match the stored results (`getAfter`), reward claim once. `matchHistory` create accepts an optional boolean `async`. **Deviation from the plan:** the other player's result becomes readable once the reader's own run is `done` (not once the duel is `complete`), because the latter deadlocks if the finishing client dies before writing the winner; the plan's "finishedAt - startedAt <= 230 s" bound was dropped because it contradicts finalizing abandoned runs later. Rules are NOT yet executed - the emulator JAR can't be downloaded in the build sandbox; `scripts/firestore-rules-async-duels.test.mjs` (about 60 cases incl. every negative case in the plan) is now a step in both e2e workflows.
+  - **Play/finish/rewards.** Answers kept in localStorage and written once; abandoned runs (>10 min) finalized with what was answered; `finishRun` = write my result, then complete the parent if the other side is done (`reconcileDuel` repairs a crash in between). Rewards: flag first, credit second; win = `applyOneVsOneWin` (+15 XP, +3 coins, `total1v1Wins`, achievements) per D7; `matchHistory` entry with `async: true`. Missions: `PLAY_1V1` when my side finishes, win-based missions + hybrid `matchDone` when the result resolves.
+  - **UI.** Lobby "Izazovi" row with an "Imaš N izazova" badge (challenger name/category only, never a score); "Izazovi" modal (category incl. "Bilo koja kategorija", random opponent, online players + recent opponents, "Moji dvoboji"); play screen (20 s timer, no jokers); end screen / review with side-by-side correctness, plus explanation and "% igrača" lines when those flags are on. Guide section behind the flag.
+  - **Expiry sweep.** `sweepExpiredDuels` in the nightly cron, independent of the payout, never throws, 500 per run.
+  - **Indexes:** `firestore.indexes.async-duels.json` (4 composite indexes) - not wired into `firebase.json` on purpose; see CLAUDE.md.
+  - **Not done:** the Playwright `async-duel-check.mjs` (can't be validated without the emulator + a browser here).
+  - Verification: 313 unit tests pass (+28); build passes; lint unchanged at the 12 pre-existing problems; throwaway server-render check of the play, summary and modal screens passed.
+
 ### [2026-10-10] - Engagement plan Phase 3: difficulty tiers (dark)
 - **Files Changed**:
   - `src/utils/difficulty.js` (Created), `src/utils/difficulty.test.js` (Created)

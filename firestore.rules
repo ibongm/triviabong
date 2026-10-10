@@ -864,6 +864,184 @@ service cloud.firestore {
       }
     }
 
+    // ---------------------------------------------------------------------
+    // Async duels (engagement plan Phase 4) - a SEPARATE subsystem from the
+    // live matches/ collection above. Ten questions, answered by each player
+    // at a different time, within 48 h of creation.
+    //
+    //   asyncDuels/{duelId}               parent: who, what, status, winner
+    //   asyncDuels/{duelId}/results/{uid} one per player: their run
+    //
+    // Status flow: open (random, unclaimed) -> awaiting_opponent -> complete
+    // | expired. A random duel is created `open` and claimed by the first
+    // other player to play it (opponentUid null -> that uid).
+    //
+    // Hiding the first player's score from the second is the core of the
+    // design: a result doc is readable by its owner, and by the OTHER player
+    // only once that other player has `done` their own run. (The plan first
+    // said "once the parent is complete", but that deadlocks if the client
+    // that finished second dies before writing `complete` - nobody could
+    // read the numbers needed to write the winner. Gating on "my own run is
+    // done" hides the score exactly as long, and lets any participant
+    // reconcile.)
+    //
+    // Scores are client-computed - the same trust level as solo leaderboards
+    // and live 1v1 - but the winner can't be forged: the `complete` update
+    // must carry the winner the two stored results imply (getAfter() sees
+    // the result write in the same batch).
+    // ---------------------------------------------------------------------
+    function isDuelParticipant(d) {
+      return isSignedIn() && (d.challengerUid == request.auth.uid || d.opponentUid == request.auth.uid);
+    }
+
+    function duelResultPath(duelId, uid) {
+      return /databases/$(database)/documents/asyncDuels/$(duelId)/results/$(uid);
+    }
+
+    // Winner implied by two `done` results: higher score; tie -> lower
+    // totalTimeMs; exact tie -> null (a draw). Mirrors decideWinner() in
+    // src/utils/asyncDuel.js.
+    function expectedDuelWinner(d, a, b) {
+      return a.score > b.score ? d.challengerUid
+        : b.score > a.score ? d.opponentUid
+        : a.totalTimeMs < b.totalTimeMs ? d.challengerUid
+        : b.totalTimeMs < a.totalTimeMs ? d.opponentUid
+        : null;
+    }
+
+    match /asyncDuels/{duelId} {
+      // Participants read their duels. Unclaimed random duels are readable by
+      // any signed-in user (the pool query) - they carry no score.
+      allow get, list: if isAdmin()
+        || isDuelParticipant(resource.data)
+        || (isSignedIn() && resource.data.status == 'open');
+
+      allow create: if isSignedIn()
+        && request.resource.data.keys().hasOnly(['mode', 'challengerUid', 'challengerName', 'opponentUid', 'opponentName', 'category', 'questionIds', 'status', 'createdAt', 'expiresAt'])
+        && request.resource.data.challengerUid == request.auth.uid
+        && request.resource.data.challengerName is string
+        && request.resource.data.challengerName.size() > 0
+        && request.resource.data.challengerName.size() <= 20
+        && request.resource.data.category is string
+        && request.resource.data.category.size() > 0
+        && request.resource.data.category.size() <= 50
+        && request.resource.data.questionIds is list
+        && request.resource.data.questionIds.size() == 10
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.expiresAt is timestamp
+        && request.resource.data.expiresAt >= request.time + duration.value(48, 'h') - duration.value(1, 'm')
+        && request.resource.data.expiresAt <= request.time + duration.value(48, 'h') + duration.value(1, 'm')
+        && (
+          (request.resource.data.mode == 'direct'
+            && request.resource.data.status == 'awaiting_opponent'
+            && request.resource.data.opponentUid is string
+            && request.resource.data.opponentUid != request.auth.uid
+            && request.resource.data.opponentName is string
+            && request.resource.data.opponentName.size() > 0
+            && request.resource.data.opponentName.size() <= 20)
+          ||
+          (request.resource.data.mode == 'random'
+            && request.resource.data.status == 'open'
+            && request.resource.data.opponentUid == null
+            && request.resource.data.opponentName == null)
+        );
+
+      allow update: if isSignedIn() && (
+        // Claim an unclaimed random duel: only the opponent slot and status
+        // change, the claimer is not the challenger, and it isn't expired.
+        (resource.data.status == 'open'
+          && resource.data.opponentUid == null
+          && request.auth.uid != resource.data.challengerUid
+          && request.time < resource.data.expiresAt
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['opponentUid', 'opponentName', 'status'])
+          && request.resource.data.opponentUid == request.auth.uid
+          && request.resource.data.opponentName is string
+          && request.resource.data.opponentName.size() > 0
+          && request.resource.data.opponentName.size() <= 20
+          && request.resource.data.status == 'awaiting_opponent')
+        ||
+        // Complete: a participant, with both results `done` once this write
+        // lands (getAfter), and the stored winner matching the numbers.
+        (isDuelParticipant(resource.data)
+          && resource.data.status == 'awaiting_opponent'
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'completedAt'])
+          && request.resource.data.status == 'complete'
+          && request.resource.data.completedAt == request.time
+          && getAfter(duelResultPath(duelId, resource.data.challengerUid)).data.state == 'done'
+          && getAfter(duelResultPath(duelId, resource.data.opponentUid)).data.state == 'done'
+          && request.resource.data.winnerUid == expectedDuelWinner(
+               resource.data,
+               getAfter(duelResultPath(duelId, resource.data.challengerUid)).data,
+               getAfter(duelResultPath(duelId, resource.data.opponentUid)).data))
+        ||
+        // Expire: a participant, only after expiresAt, never a finished duel.
+        (isDuelParticipant(resource.data)
+          && (resource.data.status == 'open' || resource.data.status == 'awaiting_opponent')
+          && request.time > resource.data.expiresAt
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+          && request.resource.data.status == 'expired')
+      );
+
+      // Admin cleanup only (the cron sweep uses the Admin SDK and bypasses rules).
+      allow delete: if isAdmin();
+
+      match /results/{resultUid} {
+        // Owner always; the other player only after finishing their OWN run.
+        allow get: if isAdmin()
+          || isOwner(resultUid)
+          || (isSignedIn()
+              && exists(duelResultPath(duelId, request.auth.uid))
+              && get(duelResultPath(duelId, request.auth.uid)).data.state == 'done');
+        allow list: if false;
+
+        // Start a run: once per player (a second create is an update, which
+        // the rules below only allow in_progress -> done), only for a duel
+        // the caller is in and that hasn't expired. Created BEFORE the first
+        // question is shown, so abandoning still consumes the attempt.
+        allow create: if isOwner(resultUid)
+          && request.resource.data.keys().hasOnly(['state', 'startedAt', 'score', 'correct', 'totalTimeMs', 'answers', 'rewardClaimed'])
+          && request.resource.data.state == 'in_progress'
+          && request.resource.data.startedAt == request.time
+          && request.resource.data.score == 0
+          && request.resource.data.correct == 0
+          && request.resource.data.totalTimeMs == 0
+          && request.resource.data.answers == []
+          && request.resource.data.rewardClaimed == false
+          && isDuelParticipant(get(/databases/$(database)/documents/asyncDuels/$(duelId)).data)
+          && (get(/databases/$(database)/documents/asyncDuels/$(duelId)).data.status == 'open'
+              || get(/databases/$(database)/documents/asyncDuels/$(duelId)).data.status == 'awaiting_opponent')
+          && request.time < get(/databases/$(database)/documents/asyncDuels/$(duelId)).data.expiresAt;
+
+        allow update: if isOwner(resultUid) && (
+          // Finish: in_progress -> done, once, with plausible final numbers.
+          (resource.data.state == 'in_progress'
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['state', 'finishedAt', 'score', 'correct', 'totalTimeMs', 'answers'])
+            && request.resource.data.state == 'done'
+            && request.resource.data.finishedAt == request.time
+            && request.resource.data.score is int
+            && request.resource.data.score >= 0
+            && request.resource.data.score <= 10000
+            && request.resource.data.correct is int
+            && request.resource.data.correct >= 0
+            && request.resource.data.correct <= 10
+            && request.resource.data.totalTimeMs is int
+            && request.resource.data.totalTimeMs >= 0
+            && request.resource.data.totalTimeMs <= 200000
+            && request.resource.data.answers is list
+            && request.resource.data.answers.size() == 10)
+          ||
+          // Claim the reward: only after the duel is complete, false -> true, once.
+          (resource.data.state == 'done'
+            && resource.data.rewardClaimed == false
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['rewardClaimed'])
+            && request.resource.data.rewardClaimed == true
+            && get(/databases/$(database)/documents/asyncDuels/$(duelId)).data.status == 'complete')
+        );
+
+        allow delete: if isAdmin();
+      }
+    }
+
     // Plan B - 1v1 match history. Each participant writes their OWN summary
     // of a finished match into their own slice on match_over - owner-only
     // read, same pattern as users/{uid}. Immutable once written (no update
@@ -872,7 +1050,7 @@ service cloud.firestore {
       allow read: if isOwner(uid) || isAdmin();
 
       allow create: if isOwner(uid)
-        && request.resource.data.keys().hasOnly(['opponentUid', 'opponentDisplayName', 'result', 'myScore', 'opponentScore', 'category', 'createdAt', 'forfeited'])
+        && request.resource.data.keys().hasOnly(['opponentUid', 'opponentDisplayName', 'result', 'myScore', 'opponentScore', 'category', 'createdAt', 'forfeited', 'async'])
         && request.resource.data.opponentUid is string
         && request.resource.data.opponentDisplayName is string
         && request.resource.data.opponentDisplayName.size() > 0
@@ -888,6 +1066,7 @@ service cloud.firestore {
         && request.resource.data.category.size() > 0
         && request.resource.data.category.size() <= 50
         && (!('forfeited' in request.resource.data) || request.resource.data.forfeited is bool)
+        && (!('async' in request.resource.data) || request.resource.data.async is bool)
         && request.resource.data.createdAt == request.time;
 
       allow update, delete: if isAdmin();

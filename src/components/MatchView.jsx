@@ -3,7 +3,8 @@ import confetti from 'canvas-confetti';
 import { Swords, Crown, Handshake, Flag, RotateCcw, Zap, WifiOff, Info } from 'lucide-react';
 import TimerRing from './TimerRing';
 import { CATEGORY_META } from '../data/categoryMeta';
-import { BASE_SCORE, SPEED_BONUS_PER_SECOND, STREAK_MULTIPLIER_STEP, QUESTION_TIME_SECONDS } from '../constants/gameBalance';
+import { QUESTION_TIME_SECONDS } from '../constants/gameBalance';
+import { computeDuelAnswerScore } from '../utils/gameLogic';
 import { resolveMatchQuestions, getMatchQuestionOptions, isMatchAnswerCorrect } from '../utils/matchQuestions';
 import { isFeatureEnabled } from '../constants/features';
 import {
@@ -340,9 +341,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
 
         if (isCorrect) {
             sound.playCorrect();
-            const speedBonus = timeLeft * SPEED_BONUS_PER_SECOND;
-            const streakMultiplier = 1 + streakRef.current * STREAK_MULTIPLIER_STEP;
-            const earned = Math.round((BASE_SCORE + speedBonus) * streakMultiplier);
+            const earned = computeDuelAnswerScore(timeLeft, streakRef.current);
             streakRef.current += 1;
             const newScore = (myScore || 0) + earned;
             const newCorrect = (isPlayer1 ? match.player1Correct : match.player2Correct) + 1;
