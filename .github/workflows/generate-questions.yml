@@ -34,8 +34,8 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install Vertex AI Client
-        run: npm install @google-cloud/vertexai
+      - name: Install Google Gen AI Client
+        run: npm install @google/genai
 
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
@@ -54,7 +54,7 @@ jobs:
           commit-message: "feat(data): auto-generate ${{ inputs.count }} questions in${{ inputs.category }}"
           title: "Quiz Generator: +${{ inputs.count }} questions in${{ inputs.category }}"
           body: |
-            Automatically generated via Vertex AI Gemini Flash.
+            Automatically generated via Vertex AI Gemini 2.5 Flash.
             Category: `${{ inputs.category }}`
             Please review the diff before merging into main.
           branch: "ai-questions-${{ inputs.category }}"
