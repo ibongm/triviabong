@@ -1,8 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import pkg from '@google-cloud/vertexai';
-
-const { VertexAI } = pkg;
+import { GoogleGenAI } from '@google/genai';
 
 const project = process.env.GCP_PROJECT_ID;
 const location = process.env.GCP_REGION || 'us-central1';
@@ -12,32 +10,14 @@ if (!project) {
   process.exit(1);
 }
 
-const vertexAI = new VertexAI({ project, location });
-const model = vertexAI.getGenerativeModel({
-  model: 'gemini-1.5-flash',
-  generationConfig: {
-    responseMimeType: 'application/json',
-    responseSchema: {
-      type: 'ARRAY',
-      items: {
-        type: 'OBJECT',
-        properties: {
-          question: { type: 'STRING' },
-          correct_answer: { type: 'STRING' },
-          incorrect_answers: {
-            type: 'ARRAY',
-            items: { type: 'STRING' },
-            minItems: 3,
-            maxItems: 3,
-          },
-        },
-        required: ['question', 'correct_answer', 'incorrect_answers'],
-      },
-    },
+// Initialize using Vertex AI mode via the new unified GenAI SDK
+const ai = new GoogleGenAI({
+  vertexAI: {
+    project,
+    location,
   },
 });
 
-// Category slug mapping to short ID prefix
 const PREFIX_MAP = {
   geografija: 'hr_geo',
   glazba: 'hr_mus',
@@ -89,8 +69,31 @@ Uvjeti:
 
 async function run() {
   console.log(`Generating ${count} questions for category: "${category}" (current max ID: ${highestIndex})...`);
-  const response = await model.generateContent(prompt);
-  const rawData = JSON.parse(response.response.candidates[0].content.parts[0].text);
+
+  const response = await ai.models.generateContent({
+    model: 'gemini-2.5-flash',
+    contents: prompt,
+    config: {
+      responseMimeType: 'application/json',
+      responseSchema: {
+        type: 'ARRAY',
+        items: {
+          type: 'OBJECT',
+          properties: {
+            question: { type: 'STRING' },
+            correct_answer: { type: 'STRING' },
+            incorrect_answers: {
+              type: 'ARRAY',
+              items: { type: 'STRING' },
+            },
+          },
+          required: ['question', 'correct_answer', 'incorrect_answers'],
+        },
+      },
+    },
+  });
+
+  const rawData = JSON.parse(response.text);
 
   const formattedQuestions = rawData.map((item) => {
     highestIndex += 1;
