@@ -33,6 +33,8 @@ jobs:
           timeout 30 bash -c 'until curl -sf http://127.0.0.1:9250 >/dev/null; do sleep 1; done'
       - name: Run async-duel Firestore rules tests
         run: node scripts/firestore-rules-async-duels.test.mjs
+      - name: Run weekly-board Firestore rules tests
+        run: node scripts/firestore-rules-weekly-boards.test.mjs
       - name: Start dev server against the emulator
         env:
           VITE_USE_FIREBASE_EMULATOR: "true"

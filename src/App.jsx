@@ -62,6 +62,7 @@ import { useDailyChallenge } from './hooks/useDailyChallenge';
 import { useScoreSaving } from './hooks/useScoreSaving';
 import { useDailyMissions } from './hooks/useDailyMissions';
 import { useAsyncDuels } from './hooks/useAsyncDuels';
+import { usePreviousWeekSummary } from './hooks/usePreviousWeekSummary';
 import AsyncDuelScreen from './screens/AsyncDuelScreen';
 import AsyncDuelsModal from './components/AsyncDuelsModal';
 import OnlinePlayersModal from './components/OnlinePlayersModal';
@@ -329,6 +330,9 @@ export default function App() {
     dailyWinAnnouncement,
     dismissDailyWinAnnouncement,
   } = useDailyChallenge(currentUser, gameState);
+
+  // One-time "Prošli tjedan" lobby card (weekly boards, behind WEEKLY_BOARDS).
+  const { summary: previousWeekSummary, dismiss: dismissPreviousWeekSummary } = usePreviousWeekSummary(currentUser);
 
   // Daily micro-missions (see hooks/useDailyMissions.js) - a no-op while
   // signed out, same as Daily Challenge itself.
@@ -1383,6 +1387,8 @@ export default function App() {
             onCancelSentInvite={cancelSentInvite}
             dailyWinAnnouncement={dailyWinAnnouncement}
             onDismissDailyWinAnnouncement={dismissDailyWinAnnouncement}
+            previousWeekSummary={previousWeekSummary}
+            onDismissPreviousWeekSummary={dismissPreviousWeekSummary}
             onLaunchDailyChallenge={launchDailyChallengeRound}
             currentUser={currentUser}
             dailyAttemptStatus={dailyAttemptStatus}
@@ -1557,6 +1563,7 @@ export default function App() {
         isOpen={showRekordiModal}
         onClose={() => setShowRekordiModal(false)}
         data={rekordiDataWithDaily}
+        currentUser={currentUser}
       />
 
       {currentUser && (

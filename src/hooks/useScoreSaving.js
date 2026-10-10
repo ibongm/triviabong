@@ -3,6 +3,8 @@ import { sanitizeDisplayName } from '../utils/publicProfile';
 import { sound } from '../utils/sound';
 import { QUESTIONS_PER_ROUND, DAILY_CHALLENGE_PARTICIPATION_XP, MAX_ROUND_ELAPSED_MS } from '../constants/gameBalance';
 import { computeLevelFromXp, getCoinsForLevelUp } from '../utils/leveling';
+import { isFeatureEnabled } from '../constants/features';
+import { recordPeriodScore } from '../services/periodBoards';
 import {
     saveScoreToFirestore,
     getLeaderboardFromFirestore,
@@ -12,6 +14,16 @@ import {
 } from '../services/firebase';
 
 const SAVE_RETRY_DELAY_MS = 1500;
+
+// Weekly / seasonal boards (engagement plan Phase 5): after a round's own
+// save has SUCCEEDED, record it on the signed-in player's weekly + season
+// docs. Deliberately fire-and-forget with its own error handling
+// (recordPeriodScore never throws): it must not delay, fail or retry the
+// main save, which is the thing the player is waiting on.
+const recordOnPeriodBoards = (currentUser, name, roundScore) => {
+    if (!isFeatureEnabled('WEEKLY_BOARDS') || !currentUser?.uid || !name) return;
+    recordPeriodScore({ uid: currentUser.uid, name, score: roundScore }).catch(() => {});
+};
 
 // Score-saving state/logic, extracted out of App.jsx: scoreSaved/isSaving/
 // autoSaveFailed/roundHighlight, saveScore (+ its daily-mode dispatch to
@@ -62,6 +74,7 @@ export function useScoreSaving({
             );
             if (!success) throw new Error('Daily score submit failed');
             setScoreSaved(true);
+            recordOnPeriodBoards(currentUser, sanitizeDisplayName(currentUser), score);
             sound.playClick();
             // Participation XP - top-3 placement coins/XP are paid separately
             // by api/daily-challenge-payout.js once the day rolls over, since
@@ -130,6 +143,7 @@ export function useScoreSaving({
             }
             if (!success) throw new Error('Firestore save failed');
             setScoreSaved(true);
+            recordOnPeriodBoards(currentUser, entryName, score);
             sound.playClick();
             refreshRekordiData(true); // bypass the cache so the just-saved score shows up now
             if (currentUser?.uid) {

@@ -5,6 +5,7 @@ import { dirname, resolve } from 'node:path';
 import { ACHIEVEMENTS } from './achievements';
 import { MAX_ROUND_ELAPSED_MS } from './gameBalance';
 import { EXPLANATION_MAX_LENGTH } from '../utils/questionMerge';
+import { SEASONS, BEST_ROUNDS_PER_WEEK, MAX_SEASON_WEEKS_STORED } from './seasons';
 import { MAX_DUEL_SCORE, MAX_DUEL_TOTAL_TIME_MS, DUEL_QUESTION_COUNT, DUEL_TTL_MS } from '../utils/asyncDuel';
 
 // Ported from the orphaned scripts/check-rules-caps.mjs (never wired into
@@ -37,5 +38,19 @@ describe('firestore.rules caps stay in sync with the app', () => {
         expect(rulesText).toContain(`request.resource.data.answers.size() == ${DUEL_QUESTION_COUNT}`);
         expect(DUEL_TTL_MS).toBe(48 * 3600 * 1000);
         expect(rulesText).toContain("duration.value(48, 'h')");
+    });
+
+    it('weekly / season board caps match the numbers firestore.rules enforces', () => {
+        expect(BEST_ROUNDS_PER_WEEK).toBe(5); // s1..s5 are spelled out in the rules
+        expect(rulesText).toContain('d.s1 <= 10000');
+        expect(rulesText).toContain('d.total == d.s1 + d.s2 + d.s3 + d.s4 + d.s5');
+        expect(rulesText).toContain('request.resource.data.total - resource.data.total <= 10000');
+        expect(rulesText).toContain(`d.weeks.size() <= ${MAX_SEASON_WEEKS_STORED}`);
+        for (const season of SEASONS) {
+            expect(season.weekCount).toBeLessThanOrEqual(MAX_SEASON_WEEKS_STORED);
+            expect(season.id).toMatch(/^s[0-9]{1,3}$/); // the rules' season-id pattern
+        }
+        expect(rulesText).toContain("seasonId.matches('^s[0-9]{1,3}$')");
+        expect(rulesText).toContain("weekKey.matches('^[0-9]{4}-W[0-9]{2}$')");
     });
 });

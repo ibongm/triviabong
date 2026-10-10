@@ -3,6 +3,11 @@
 // once Zagreb's calendar day has rolled over, plus a consecutive-days-at-
 // rank-1 win-streak coin bonus for whoever placed 1st.
 //
+// The same run also settles the WEEKLY board (top-3 coins/XP) once an ISO week
+// has ended and awards SEASON badges when a season's last week has ended - see
+// runPeriodPayouts below (engagement plan Phase 5). Those two steps are
+// independent of the daily payout: they never throw and can't fail it.
+//
 // Uses the Firebase Admin SDK (not the client SDK) because crediting coins
 // to an arbitrary uid is something no browser client should ever be able to
 // do - firestore.rules' `users/{uid}` rule intentionally only lets the
@@ -30,6 +35,172 @@ import { getFirestore, FieldValue, Timestamp } from 'firebase-admin/firestore';
 const DAILY_CHALLENGE_TOP3_COINS = { 1: 20, 2: 10, 3: 5 };
 const DAILY_CHALLENGE_TOP3_XP = { 1: 30, 2: 15, 3: 10 };
 const DAILY_CHALLENGE_WIN_STREAK_COINS = { 1: 1, 2: 3, 3: 5, 4: 10, 5: 20, 6: 25, 7: 50 };
+
+// --- Weekly / seasonal boards (engagement plan Phase 5) ---------------------
+// Everything in this block is an INLINED COPY of src/constants/seasons.js and
+// src/utils/{periods,periodBoards}.js (same reason as the constants above:
+// this function isn't guaranteed to resolve imports from src/). Keep in sync -
+// src/utils/periodPayout.test.js pins the copies against the originals.
+export const WEEKLY_TOP3_COINS = { 1: 30, 2: 15, 3: 10 };
+export const WEEKLY_TOP3_XP = { 1: 30, 2: 15, 3: 10 };
+export const SEASONS = [{ id: 's1', name: 'Sezona 1', startWeek: '2026-W44', weekCount: 8 }];
+export const SEASON_TOP_BADGE_COUNT = 10;
+const MAX_BADGES_PER_PLAYER = 50;
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
+const parseDateKeyMs = (dateKey) => {
+    const [y, m, d] = dateKey.split('-').map(Number);
+    return Date.UTC(y, m - 1, d);
+};
+
+export const weekKeyForDateKey = (dateKey) => {
+    const ms = parseDateKeyMs(dateKey);
+    const day = new Date(ms).getUTCDay() || 7;
+    const thursday = ms + (4 - day) * MS_PER_DAY;
+    const weekYear = new Date(thursday).getUTCFullYear();
+    const jan1 = Date.UTC(weekYear, 0, 1);
+    const week = Math.ceil(((thursday - jan1) / MS_PER_DAY + 1) / 7);
+    return `${weekYear}-W${String(week).padStart(2, '0')}`;
+};
+
+export const weekStartDateKey = (weekKey) => {
+    const year = Number(weekKey.slice(0, 4));
+    const week = Number(weekKey.slice(6));
+    const jan4 = Date.UTC(year, 0, 4);
+    const jan4Day = new Date(jan4).getUTCDay() || 7;
+    const week1Monday = jan4 - (jan4Day - 1) * MS_PER_DAY;
+    return new Date(week1Monday + (week - 1) * 7 * MS_PER_DAY).toISOString().slice(0, 10);
+};
+
+export const addWeeks = (weekKey, delta) =>
+    weekKeyForDateKey(new Date(parseDateKeyMs(weekStartDateKey(weekKey)) + delta * 7 * MS_PER_DAY).toISOString().slice(0, 10));
+
+export const seasonEndWeek = (season) => addWeeks(season.startWeek, season.weekCount - 1);
+
+// The most recent ISO week that is completely over as of `dateKey` being
+// "yesterday". On a Sunday's run that is the week that just ended; on any
+// other day it is the week before the one containing yesterday - which is what
+// lets a missed Sunday-night run be caught up on the following days (the
+// payout itself is idempotent).
+export const lastEndedWeek = (dateKey) => {
+    const isSunday = new Date(parseDateKeyMs(dateKey)).getUTCDay() === 0;
+    const week = weekKeyForDateKey(dateKey);
+    return isSunday ? week : addWeeks(week, -1);
+};
+
+// Rows must be sorted best-first. Ties share a tier and are paid in full;
+// zero totals are never ranked.
+export const groupIntoTiers = (rows, maxTiers = 3) => {
+    const tiers = [];
+    for (const row of rows) {
+        if (!(row.total > 0)) continue;
+        let tier = tiers.find((t) => t.value === row.total);
+        if (!tier) {
+            if (tiers.length >= maxTiers) continue;
+            tier = { rank: tiers.length + 1, value: row.total, players: [] };
+            tiers.push(tier);
+        }
+        tier.players.push(row);
+    }
+    return tiers;
+};
+
+export const planWeeklyPayout = (rows) => {
+    const tiers = groupIntoTiers(rows, 3);
+    const winners = tiers.flatMap((t) => t.players.map((p) => ({ uid: p.uid, name: p.name || '', rank: t.rank })));
+    const awards = winners.map((w) => ({ uid: w.uid, coins: WEEKLY_TOP3_COINS[w.rank] || 0, xp: WEEKLY_TOP3_XP[w.rank] || 0 }));
+    return { tiers: tiers.map((t) => ({ rank: t.rank, total: t.value, count: t.players.length })), winners, awards };
+};
+
+const MEDALS = { 1: 'gold', 2: 'silver', 3: 'bronze' };
+export const planSeasonBadges = (seasonId, rows, topCount = SEASON_TOP_BADGE_COUNT) => {
+    const ranked = rows.filter((r) => r.total > 0);
+    const badges = {};
+    const give = (uid, id) => { (badges[uid] ||= []).push(id); };
+    for (const tier of groupIntoTiers(ranked, 3)) {
+        for (const p of tier.players) give(p.uid, `${seasonId}_${MEDALS[tier.rank]}`);
+    }
+    const cutoff = ranked[topCount - 1]?.total ?? ranked[ranked.length - 1]?.total ?? 0;
+    for (const r of ranked) {
+        if (cutoff > 0 && r.total >= cutoff) give(r.uid, `${seasonId}_top10`);
+    }
+    return badges;
+};
+
+// Pays a finished week's podium exactly once. The meta doc weeklyBoards/{weekKey}
+// (`paidAt`) is read INSIDE the transaction, so two overlapping runs can't both
+// pay: the second one sees paidAt and does nothing.
+export const payoutWeek = async (db, weekKey) => {
+    const metaRef = db.collection('weeklyBoards').doc(weekKey);
+    return db.runTransaction(async (tx) => {
+        const metaSnap = await tx.get(metaRef);
+        if (metaSnap.exists && metaSnap.data().paidAt) return { weekKey, alreadyPaid: true };
+
+        const topSnap = await tx.get(metaRef.collection('players').orderBy('total', 'desc').limit(100));
+        const rows = topSnap.docs.map((d) => ({ uid: d.id, ...d.data() }));
+        const plan = planWeeklyPayout(rows);
+
+        for (const award of plan.awards) {
+            tx.set(db.collection('users').doc(award.uid), {
+                coins: FieldValue.increment(award.coins),
+                xp: FieldValue.increment(award.xp),
+            }, { merge: true });
+        }
+        tx.set(metaRef, { paidAt: FieldValue.serverTimestamp(), tiers: plan.tiers, winners: plan.winners });
+        return { weekKey, alreadyPaid: false, winners: plan.winners.length };
+    });
+};
+
+// Awards a finished season's badges exactly once (seasonBoards/{id}.paidAt).
+// Badges are arrayUnion'd into badges/{uid}, which only this Admin-SDK code
+// can write (firestore.rules denies every client write), so a re-run could
+// never duplicate one anyway; the meta doc just avoids redoing the reads.
+export const awardSeasonBadges = async (db, season) => {
+    const metaRef = db.collection('seasonBoards').doc(season.id);
+    const metaSnap = await metaRef.get();
+    if (metaSnap.exists && metaSnap.data().paidAt) return { seasonId: season.id, alreadyAwarded: true };
+
+    const topSnap = await metaRef.collection('players').orderBy('total', 'desc').limit(200).get();
+    const rows = topSnap.docs.map((d) => ({ uid: d.id, ...d.data() }));
+    const badges = planSeasonBadges(season.id, rows);
+
+    const batch = db.batch();
+    for (const [uid, ids] of Object.entries(badges)) {
+        batch.set(db.collection('badges').doc(uid), { items: FieldValue.arrayUnion(...ids.slice(0, MAX_BADGES_PER_PLAYER)) }, { merge: true });
+    }
+    batch.set(metaRef, {
+        paidAt: FieldValue.serverTimestamp(),
+        winners: Object.entries(badges).map(([uid, ids]) => ({ uid, badges: ids })),
+    });
+    await batch.commit();
+    return { seasonId: season.id, alreadyAwarded: false, badged: Object.keys(badges).length };
+};
+
+// Settles the last fully finished week (and, if it was a season's final week,
+// that season). Independent of the daily payout and NEVER throws: a missing
+// board, a quota error or a rules/index problem is reported in the response
+// and tried again on the next night's run.
+export const runPeriodPayouts = async (db, dateKey) => {
+    const result = { weekKey: null, weekly: null, seasons: [] };
+    try {
+        const weekKey = lastEndedWeek(dateKey);
+        result.weekKey = weekKey;
+        result.weekly = await payoutWeek(db, weekKey);
+        for (const season of SEASONS) {
+            if (seasonEndWeek(season) !== weekKey) continue;
+            try {
+                result.seasons.push(await awardSeasonBadges(db, season));
+            } catch (error) {
+                console.error(`Season ${season.id} badge award failed:`, error);
+                result.seasons.push({ seasonId: season.id, error: error.message });
+            }
+        }
+    } catch (error) {
+        console.error('Weekly payout failed:', error);
+        result.error = error.message;
+    }
+    return result;
+};
 
 const getAdminDb = () => {
     if (getApps().length === 0) {
@@ -218,10 +389,12 @@ export default async function handler(req, res) {
         });
 
         const duelSweep = await sweepExpiredDuels(db);
-        res.status(200).json({ date, ...result, duelSweep });
+        const periodPayouts = await runPeriodPayouts(db, date);
+        res.status(200).json({ date, ...result, duelSweep, periodPayouts });
     } catch (error) {
         console.error('Daily challenge payout failed:', error);
         const duelSweep = await sweepExpiredDuels(db);
-        res.status(500).json({ error: 'Payout failed.', details: error.message, duelSweep });
+        const periodPayouts = await runPeriodPayouts(db, date);
+        res.status(500).json({ error: 'Payout failed.', details: error.message, duelSweep, periodPayouts });
     }
 }

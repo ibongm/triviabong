@@ -1,5 +1,28 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 5: weekly and seasonal leaderboards (dark)
+- **Files Changed**:
+  - `src/utils/periods.js` (Created), `src/utils/periods.test.js` (Created)
+  - `src/utils/periodBoards.js` (Created), `src/utils/periodBoards.test.js` (Created), `src/utils/periodPayout.test.js` (Created)
+  - `src/constants/seasons.js` (Created), `src/constants/rulesCaps.test.js` (Modified)
+  - `src/services/periodBoards.js` (Created), `src/hooks/useScoreSaving.js` (Modified)
+  - `src/hooks/usePreviousWeekSummary.js` (Created), `src/components/PeriodBoards.jsx` (Created)
+  - `src/components/RekordiModal.jsx` (Modified), `src/screens/LobbyScreen.jsx` (Modified), `src/App.jsx` (Modified)
+  - `firestore.rules` (Modified), `scripts/firestore-rules-weekly-boards.test.mjs` (Created)
+  - `api/daily-challenge-payout.js` (Modified)
+  - `.github/workflows/ci.yml` (Modified), `.github/workflows/e2e-emulator.yml` (Modified)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Weekly / seasonal boards (dark, `FEATURES.WEEKLY_BOARDS = false`).** Weekly rank = sum of a player's 5 best rounds that ISO week (Zagreb calendar); season rank = sum of their 5 best weekly totals. Solo and Daily Challenge rounds of signed-in players count; duels don't. Season 1 is provisional: 8 weeks from Monday 2026-10-26 (`2026-W44`), set in `src/constants/seasons.js`.
+  - **Calendar helpers.** `periods.js`: ISO week key from a Zagreb date, week start/end, week arithmetic across year ends (2026 has 53 weeks), season lookup, exact countdown to Monday 00:00 Zagreb (correct across DST changes). Tests cover DST weekends, year boundaries, leap years and a 13-year round trip.
+  - **Write path.** `recordPeriodScore` runs after the round's own save succeeded, fire-and-forget, in one transaction over the weekly and season docs; writes nothing for a round that doesn't raise the weekly total; never throws, never delays `SAVE_RETRY_DELAY_MS` flow.
+  - **Rules.** New `weeklyBoards/{week}/players/{uid}`, `seasonBoards/{season}/players/{uid}` (owner-only; a weekly doc starts as one round and every update must be a single top-5 insertion with total growth <= 10000; season total can only rise, <= 10000 per write) and `badges/{uid}` (no client writes). Parent `weeklyBoards/{week}` / `seasonBoards/{season}` docs are payout metadata, Admin SDK only. Rules NOT executed locally (no emulator in the sandbox); `scripts/firestore-rules-weekly-boards.test.mjs` (58 cases incl. forged total, unsorted slots, someone else's doc, a client granting itself a badge, a forged half of the two-doc transaction) runs in both e2e workflows.
+  - **Plan deviations.** No `rounds` counter on the weekly doc; season doc holds a `weeks` map instead of `w1..w5` (see CLAUDE.md for why).
+  - **UI.** Rekordi modal gets tabs Tjedno | Sezona | Svih vremena when the flag is on (all-time view untouched); countdown, top 20, own row pinned with exact rank via count aggregation, season badges next to names, "no active season" state; 60 s in-memory cache. Lobby shows a one-time "Prošli tjedan: N. mjesto" card per week (acknowledgment in localStorage).
+  - **Payouts and badges.** `runPeriodPayouts` in the nightly cron (independent of the daily payout, never throws): pays the last finished week's top 3 once (30/15/10 coins + 30/15/10 XP, ties in full, `paidAt` checked inside the transaction); when that week ends a season, awards `sN_gold/silver/bronze` and `sN_top10` badges once. Runs every night so a missed Sunday is caught up. Mirrors of the week/season/tier logic and reward constants are inlined in the cron and pinned by `periodPayout.test.js`, which also checks payout idempotency against an in-memory fake.
+  - **Not done:** divisions (plan 5.7, deferred), "Tjedni pobjednik" / "Sezona: Top 10" achievements, a public-profile screen for badges (none exists in the client), a Playwright check for the boards.
+  - Verification: unit suite passes (370 tests); build passes; lint unchanged at the 12 pre-existing problems; headless-browser smoke test with the flag temporarily on (tabs render, countdown matches the clock, "no active season" state, all-time tab unchanged), flag reverted afterwards.
+
 ### [2026-10-10] - Engagement plan Phase 4: async duels (dark)
 - **Files Changed**:
   - `src/utils/asyncDuel.js` (Created), `src/utils/asyncDuel.test.js` (Created)
