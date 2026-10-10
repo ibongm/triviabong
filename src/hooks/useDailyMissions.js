@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { getZagrebDateString } from '../utils/achievements';
-import { getMissionsForDate, MISSION_TYPES, MISSION_REWARDS, EMPTY_MISSION_SLOT_STATE } from '../constants/missions';
+import { getMissionsForDateKey, MISSION_TYPES, MISSION_REWARDS, EMPTY_MISSION_SLOT_STATE } from '../constants/missions';
 import { getDailyMissionsState, saveDailyMissionsState } from '../services/firebase';
 
 const localStorageKey = (uid, dateKey) => `triviabong_missions:${uid}:${dateKey}`;
@@ -70,7 +70,7 @@ const applyProgress = (state, slotKey, mission, delta) => {
 export function useDailyMissions(uid, setGlobalStats) {
     const [dateKey, setDateKey] = useState(() => getZagrebDateString());
     const [state, setState] = useState(() => (uid ? (loadLocal(uid, dateKey) || freshMissionState(dateKey)) : null));
-    const missionsToday = getMissionsForDate(new Date());
+    const missionsToday = getMissionsForDateKey(dateKey);
     const loadedForRef = useRef(null); // `${uid}:${dateKey}` already fetched from Firestore
 
     // Re-initialize on sign-in/out or date change - adjusted during render

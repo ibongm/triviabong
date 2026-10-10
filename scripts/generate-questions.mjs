@@ -1,6 +1,65 @@
+// Generates new questions for one category with Gemini (Vertex AI) and
+// merges them into src/data/categories/<file>.json.
+//
+// Usage: node scripts/generate-questions.mjs <category-file-stem> <count> [--dry-run]
+//   e.g. node scripts/generate-questions.mjs znanost_i_tehnologija 20
+//
+// Every generated entry goes through the SAME validation and merge logic as
+// the admin upload (src/utils/questionMerge.js) - this script used to write
+// straight to the file, which let in entries the upload path would reject,
+// used its own id prefixes (hr_his_/hr_spo_ instead of hr_hist_/hr_sport_),
+// and only deduped via the prompt. Now:
+//   - validateEntry rejects malformed entries (logged with the reason);
+//   - mergeQuestions assigns ids from ID_PREFIXES and stamps `addedOn`
+//     (today in Zagreb), which keeps today's Daily Challenge set stable;
+//   - duplicates are skipped against the WHOLE bank (every category), not
+//     just the target file.
+// --dry-run prints what would be added without writing the file.
 import fs from 'fs';
 import path from 'path';
 import { GoogleGenAI } from '@google/genai';
+import {
+  validateEntry,
+  mergeQuestions,
+  buildQuestionTextIndex,
+  CATEGORY_FILES,
+  getZagrebDateKey,
+} from '../src/utils/questionMerge.js';
+import { resolveCategoryKey } from '../src/data/categoryKeys.js';
+
+const args = process.argv.slice(2);
+const dryRun = args.includes('--dry-run');
+const positional = args.filter((a) => !a.startsWith('--'));
+const categoryStem = positional[0] || 'geografija';
+const count = parseInt(positional[1] || '10', 10);
+
+const packKey = resolveCategoryKey(categoryStem);
+if (!packKey || !CATEGORY_FILES[packKey]) {
+  console.error(`Unknown category: "${categoryStem}"`);
+  process.exit(1);
+}
+if (!Number.isInteger(count) || count < 1 || count > 200) {
+  console.error(`Count must be an integer between 1 and 200 (got "${positional[1]}").`);
+  process.exit(1);
+}
+
+const categoriesDir = path.resolve('src/data/categories');
+const filePath = path.join(categoriesDir, CATEGORY_FILES[packKey]);
+if (!fs.existsSync(filePath)) {
+  console.error(`File not found: ${filePath}`);
+  process.exit(1);
+}
+
+const readPack = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
+const existingQuestions = readPack(filePath);
+
+// Normalized texts of every OTHER category, for cross-bank dedupe.
+const otherPacks = Object.values(CATEGORY_FILES)
+  .filter((file) => file !== CATEGORY_FILES[packKey])
+  .map((file) => path.join(categoriesDir, file))
+  .filter((p) => fs.existsSync(p))
+  .map(readPack);
+const otherQuestionTexts = buildQuestionTextIndex(...otherPacks);
 
 const project = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID;
 const location = process.env.GOOGLE_CLOUD_LOCATION || 'us-central1';
@@ -10,54 +69,19 @@ if (!project) {
   process.exit(1);
 }
 
-// Initialize explicitly in Vertex AI mode
 const ai = new GoogleGenAI({
   vertexAI: true,
   project,
   location,
 });
 
-const PREFIX_MAP = {
-  geografija: 'hr_geo',
-  glazba: 'hr_mus',
-  knjizevnost_i_umjetnost: 'hr_art',
-  opca_znanje: 'hr_gen',
-  pop_kultura: 'hr_pop',
-  povijest: 'hr_his',
-  sport: 'hr_spo',
-  znanost_i_tehnologija: 'hr_sci',
-};
-
-const category = process.argv[2] || 'geografija';
-const count = parseInt(process.argv[3] || '10', 10);
-const filePath = path.resolve(`src/data/categories/${category}.json`);
-
-if (!fs.existsSync(filePath)) {
-  console.error(`File not found: ${filePath}`);
-  process.exit(1);
-}
-
-const existingQuestions = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-
-// Determine next ID
-const prefix = PREFIX_MAP[category] || `hr_${category.substring(0, 3)}`;
-let highestIndex = 0;
-for (const q of existingQuestions) {
-  const match = q.id?.match(/_(\d+)$/);
-  if (match) {
-    const num = parseInt(match[1], 10);
-    if (num > highestIndex) highestIndex = num;
-  }
-}
-
-// Sample recent questions to prevent duplicates
 const sampledRecent = existingQuestions
   .slice(-60)
   .map((q) => q.question)
   .join('\n- ');
 
 const prompt = `
-Generiraj točno ${count} unikatnih, provjerenih i točnih kviz pitanja na hrvatskom jeziku za kategoriju "${category}".
+Generiraj točno ${count} unikatnih, provjerenih i točnih kviz pitanja na hrvatskom jeziku za kategoriju "${categoryStem}".
 Uvjeti:
 - Pitanja moraju biti na prirodnom i gramatički ispravnom hrvatskom jeziku.
 - 'correct_answer' mora biti točan i nedvosmislen odgovor.
@@ -67,7 +91,7 @@ Uvjeti:
 `;
 
 async function run() {
-  console.log(`Generating ${count} questions for category: "${category}" (starting from ID: ${highestIndex + 1})...`);
+  console.log(`Generating ${count} questions for category "${categoryStem}" (pack "${packKey}")${dryRun ? ' [dry run]' : ''}...`);
 
   const response = await ai.models.generateContent({
     model: 'gemini-2.5-flash',
@@ -93,22 +117,48 @@ async function run() {
   });
 
   const rawData = JSON.parse(response.text);
+  if (!Array.isArray(rawData)) {
+    throw new Error('Model response was not a JSON array.');
+  }
 
-  const formattedQuestions = rawData.map((item) => {
-    highestIndex += 1;
-    return {
-      id: `${prefix}_${highestIndex}`,
-      category,
-      question: item.question.trim(),
-      correct_answer: item.correct_answer.trim(),
-      incorrect_answers: item.incorrect_answers.map((a) => a.trim()),
-    };
+  const trimmed = rawData.map((item) => ({
+    question: String(item?.question ?? '').trim(),
+    correct_answer: String(item?.correct_answer ?? '').trim(),
+    incorrect_answers: Array.isArray(item?.incorrect_answers)
+      ? item.incorrect_answers.map((a) => String(a ?? '').trim())
+      : item?.incorrect_answers,
+  }));
+
+  const valid = [];
+  trimmed.forEach((entry, i) => {
+    const result = validateEntry(entry);
+    if (result.valid) {
+      valid.push(entry);
+    } else {
+      console.warn(`  Rejected #${i + 1}: ${result.reason} - "${entry.question}"`);
+    }
   });
 
-  const updatedDatabase = [...existingQuestions, ...formattedQuestions];
-  fs.writeFileSync(filePath, JSON.stringify(updatedDatabase, null, 4) + '\n', 'utf8');
+  const addedOn = getZagrebDateKey();
+  const { merged, added, skipped } = mergeQuestions(existingQuestions, valid, packKey, {
+    addedOn,
+    otherQuestionTexts,
+  });
 
-  console.log(`Successfully appended ${formattedQuestions.length} questions to ${filePath}!`);
+  console.log(`Generated ${rawData.length}: ${valid.length} valid, ${added} new, ${skipped} duplicate(s) skipped, ${rawData.length - valid.length} rejected.`);
+
+  if (added === 0) {
+    console.log('Nothing new to write.');
+    return;
+  }
+
+  if (dryRun) {
+    merged.slice(-added).forEach((q) => console.log(`  + ${q.id}: ${q.question}`));
+    return;
+  }
+
+  fs.writeFileSync(filePath, JSON.stringify(merged, null, 4) + '\n', 'utf8');
+  console.log(`Appended ${added} questions to ${filePath} (addedOn ${addedOn}).`);
 }
 
 run().catch((err) => {

@@ -1,5 +1,36 @@
 # Changelog
 
+### [2026-10-10] - Engagement plan Phase 0: stable Daily Challenge, generator validation, uniform shuffles, flags
+- **Files Changed**:
+  - `src/utils/dailySeed.js` (Modified)
+  - `src/utils/dailySeed.test.js` (Created)
+  - `src/utils/questionMerge.js` (Modified)
+  - `src/utils/questionMerge.test.js` (Modified)
+  - `scripts/generate-questions.mjs` (Modified)
+  - `.github/workflows/generate-questions.yml` (Modified)
+  - `scripts/report-duplicate-questions.mjs` (Created)
+  - `src/utils/questionUtils.js` (Modified)
+  - `src/utils/questionUtils.test.js` (Created)
+  - `src/App.jsx` (Modified)
+  - `src/utils/matchQuestions.js` (Modified, comment only)
+  - `src/constants/missions.js` (Modified)
+  - `src/constants/missions.test.js` (Created)
+  - `src/hooks/useDailyMissions.js` (Modified)
+  - `src/constants/features.js` (Created)
+  - `CLAUDE.md` (Modified)
+- **Details**:
+  - **Daily Challenge set no longer changes mid-day.** `getDailyChallengeQuestions` seeded-shuffled the whole question pool, so any question added anywhere changed the pool length and reshuffled the entire day's set - and the generator workflow commits (auto-deploys) several times a day. Players before and after a deploy got different questions on one shared leaderboard/payout. New pure `selectDailyQuestions` ranks each question by a murmur-finalized hash of `(dateKey, id)` and takes the lowest 10; questions with `addedOn >= dateKey` are ineligible. Adding/removing unrelated questions can't alter a day's set. The set for the deploy day itself changes once, at deploy.
+  - **`addedOn` stamping.** `mergeQuestions` now stamps `addedOn` (Zagreb date, new `getZagrebDateKey`) on every added question - covers both the admin upload (`api/questions.js` and its preview, which share the function) and the generator. Optional `otherQuestionTexts` (built with new `buildQuestionTextIndex`) adds cross-category dedupe. `editQuestionById` now spreads the original entry so admin edits no longer strip non-core fields.
+  - **Generator goes through shared validation.** `generate-questions.mjs` previously wrote Gemini output straight to the file: no `validateEntry`, prompt-only dedupe (last 60 questions), and its own prefixes (`hr_his_`/`hr_spo_` instead of `hr_hist_`/`hr_sport_` - 120 such ids exist now and are deliberately left unchanged). It now validates each entry (rejections logged), merges via `mergeQuestions` with whole-bank dedupe and `ID_PREFIXES`, rejects unknown categories and counts outside 1-200, and supports `--dry-run`. Verified with a stubbed Gemini response: a cross-category duplicate was skipped, two malformed entries rejected, the new id was `hr_hist_1029`, and the file was untouched in dry-run.
+  - **Workflow:** installs project deps (`npm ci`) since the script now imports `src/utils/questionMerge.js`; passes inputs via env instead of interpolating them into the shell; exits cleanly when a run adds nothing instead of failing on an empty commit.
+  - **Duplicate report:** new read-only `report-duplicate-questions.mjs`. Current bank: 57 duplicate groups / 62 removable copies, 50 of them within a single file (the generator's prompt-only dedupe), 4 groups with conflicting correct answers.
+  - **Uniform shuffles.** `shuffleArray` used `sort(() => Math.random() - 0.5)`; measured over 200k runs it put the first option - always the correct answer, per `getQuestionOptions` - in position A 35.8% and D 31.1% of the time (vs 25%). Now Fisher-Yates (optional PRNG param). `launchQuizRound` uses it instead of its own sort-based shuffle. Live 1v1 option order is unaffected (it has its own seeded shuffle).
+  - **Missions weekday from the Zagreb date.** `getMissionsForDate(new Date())` used the device's local weekday while the progress doc is keyed by the Zagreb date; replaced with `getMissionsForDateKey(dateKey)` + `weekdayOfDateKey`.
+  - **Feature flags:** `src/constants/features.js`, all `false`, for the upcoming phases.
+  - **Deviation from the plan:** `firestore.indexes.json` was NOT created. Composite indexes currently exist only in the Firebase console (e.g. `getPlayerBestScoreForCategory` needs one), and deploying an incomplete indexes file offers to delete everything missing from it. Documented in CLAUDE.md: export the live set first (`firebase firestore:indexes > firestore.indexes.json`); deferred to Phase 4, the first phase that needs a new index.
+  - `CLAUDE.md`: fixed the stale flat-500-XP leveling description and the dangling "1v1 live match" reference; documented daily selection, `addedOn`, the generator, shuffling, flags and indexes.
+  - Verification: 223 unit tests pass (+29: daily selection incl. "adding same-day questions leaves the set unchanged", merge stamping/cross-bank dedupe/edit preservation, Zagreb date edges, shuffle uniformity within 23-27% per position, mission weekdays incl. DST and year boundary). Lint unchanged at the pre-existing 12 problems (all in untouched parts of `App.jsx`). Build passes. E2E not run locally (no browser available in this environment) - CI's emulator e2e job runs on the branch push.
+
 ### [2026-10-10] - Fix Generate Category Questions failing to push
 - **Files Changed**:
   - `.github/workflows/generate-questions.yml` (Modified)

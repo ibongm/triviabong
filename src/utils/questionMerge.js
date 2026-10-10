@@ -35,7 +35,33 @@ export const CATEGORY_FILES = {
     knjizevnost: 'knjizevnost_i_umjetnost.json',
 };
 
-const normalizeText = (s) => String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+export const normalizeText = (s) => String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+
+/**
+ * Today's date in Europe/Zagreb as "YYYY-MM-DD" - the same calendar the
+ * Daily Challenge uses. Stamped onto every newly merged question as
+ * `addedOn`, which dailySeed.js reads so a question added today can't
+ * change today's Daily Challenge set. Plain Intl, no app imports, so the
+ * serverless function and the Node generator script can use it too.
+ * @param {Date} [now]
+ */
+export const getZagrebDateKey = (now = new Date()) =>
+    new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb' }).format(now);
+
+/**
+ * Normalized-text index over any number of question arrays - lets callers
+ * that can see the whole bank (the generator script) dedupe across
+ * categories, not just within the target file.
+ * @param {...object[]} packs
+ * @returns {Set<string>}
+ */
+export const buildQuestionTextIndex = (...packs) => {
+    const index = new Set();
+    for (const pack of packs) {
+        for (const q of pack || []) index.add(normalizeText(q?.question));
+    }
+    return index;
+};
 
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim().length > 0;
 
@@ -134,16 +160,24 @@ export const detectCategory = (entries, filename) => {
  * @param {object[]} existing - the category's current question array
  * @param {object[]} incoming - validated entries (see validateQuestions)
  * @param {string} packKey - a key of ID_PREFIXES, e.g. 'sport'
+ * @param {{ addedOn?: string, otherQuestionTexts?: Set<string> }} [options]
+ *   `addedOn` - date stamped on each added question (defaults to today in
+ *   Zagreb, see getZagrebDateKey). `otherQuestionTexts` - normalized texts
+ *   from OTHER categories (see buildQuestionTextIndex); an incoming entry
+ *   matching one is skipped like an in-pack duplicate. Callers that only
+ *   hold the target file (api/questions.js) simply omit it.
  * @returns {{ merged: object[], added: number, skipped: number }}
  */
-export const mergeQuestions = (existing, incoming, packKey) => {
+export const mergeQuestions = (existing, incoming, packKey, options = {}) => {
     const prefix = ID_PREFIXES[packKey];
     if (!prefix) {
         throw new Error(`Unknown category pack key: ${packKey}`);
     }
+    const addedOn = options.addedOn || getZagrebDateKey();
 
     const seenIds = new Set(existing.map((q) => q.id));
     const seenText = new Set(existing.map((q) => normalizeText(q.question)));
+    for (const t of options.otherQuestionTexts || []) seenText.add(t);
 
     let nextNum = existing.reduce((max, q) => {
         const match = String(q.id || '').match(/([0-9]+)$/);
@@ -171,6 +205,7 @@ export const mergeQuestions = (existing, incoming, packKey) => {
             question: entry.question,
             correct_answer: entry.correct_answer,
             incorrect_answers: entry.incorrect_answers,
+            addedOn,
         };
 
         added.push(newEntry);
@@ -196,6 +231,9 @@ export const removeQuestionById = (existing, id) => {
 /**
  * Edits a single question's text/answers in place. The id and category are
  * immutable - only question/correct_answer/incorrect_answers can change.
+ * Every other field already on the entry (addedOn, and later explanation/
+ * difficulty) is carried over untouched - rebuilding the object from the
+ * five core fields would silently strip them on every admin edit.
  * Rejects the edit (rather than committing a broken or duplicate entry) if
  * the resulting shape is invalid, or if it would exactly match another
  * question already in the pack.
@@ -231,6 +269,7 @@ export const editQuestionById = (existing, id, updatedFields) => {
 
     const merged = [...existing];
     merged[index] = {
+        ...existing[index],
         id: existing[index].id,
         category: existing[index].category,
         question: candidate.question,

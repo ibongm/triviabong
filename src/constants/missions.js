@@ -64,9 +64,25 @@ export const WEEKLY_MISSION_SCHEDULE = {
 };
 
 /**
- * Today's (or a given date's) 3-slot mission set, keyed by weekday.
- * @param {Date} [date]
+ * Weekday (0 = Sunday ... 6 = Saturday) of a "YYYY-MM-DD" calendar date.
+ * Computed from the date string itself (UTC-anchored, pure calendar
+ * arithmetic) rather than a Date's local getDay(), so it can't disagree with
+ * the Zagreb date key the mission doc is stored under.
+ * @param {string} dateKey
  */
-export const getMissionsForDate = (date = new Date()) => WEEKLY_MISSION_SCHEDULE[date.getDay()];
+export const weekdayOfDateKey = (dateKey) => {
+    const [y, m, d] = String(dateKey).split('-').map(Number);
+    return new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+};
+
+/**
+ * The 3-slot mission set for a Zagreb calendar date ("YYYY-MM-DD", as
+ * produced by getZagrebDateString()). Previously keyed off the DEVICE's
+ * local weekday (`new Date().getDay()`) while the progress doc was keyed by
+ * the Zagreb date, so a device in another timezone could show one day's
+ * missions against another day's progress around midnight.
+ * @param {string} dateKey
+ */
+export const getMissionsForDateKey = (dateKey) => WEEKLY_MISSION_SCHEDULE[weekdayOfDateKey(dateKey)];
 
 export const EMPTY_MISSION_SLOT_STATE = { progress: 0, completed: false, claimed: false };
