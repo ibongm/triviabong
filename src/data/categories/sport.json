@@ -14736,5 +14736,755 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1286",
+        "category": "sport",
+        "question": "Koji sport se često naziva \"kraljem sportova\"?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Tenis",
+            "Atletika"
+        ],
+        "explanation": "Nogomet je globalno najpopularniji sport s najvećim brojem navijača i igrača diljem svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1287",
+        "category": "sport",
+        "question": "Koja se boja kartona u nogometu koristi za isključenje igrača s utakmice?",
+        "correct_answer": "Crveni karton",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Zeleni karton",
+            "Plavi karton"
+        ],
+        "explanation": "Crveni karton označava teži prekršaj i rezultira trajnim isključenjem igrača s terena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1288",
+        "category": "sport",
+        "question": "Koliko je ukupno bodova potrebno za pobjedu u setu u odbojci, ako protivnik ima manje od 24 boda?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "21",
+            "23",
+            "20"
+        ],
+        "explanation": "U odbojci se set osvaja s najmanje 25 bodova uz razliku od minimalno dva boda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1289",
+        "category": "sport",
+        "question": "Kako se naziva glavni sudac u boksu koji nadgleda borbu unutar ringa?",
+        "correct_answer": "Ringovni sudac",
+        "incorrect_answers": [
+            "Linijski sudac",
+            "Bodovni sudac",
+            "Tehnički delegat"
+        ],
+        "explanation": "Ringovni sudac je odgovoran za provođenje pravila, sigurnost boraca i donošenje odluka tijekom meča.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1290",
+        "category": "sport",
+        "question": "Koja je zemlja domaćin Olimpijskih igara 2024. godine?",
+        "correct_answer": "Francuska (Pariz)",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Japan",
+            "Australija"
+        ],
+        "explanation": "Pariz u Francuskoj domaćin je Ljetnih olimpijskih igara 2024. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1291",
+        "category": "sport",
+        "question": "Koja je najpoznatija godišnja biciklistička utrka koja se održava u Francuskoj?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Pariz-Roubaix"
+        ],
+        "explanation": "Tour de France je najprestižnija i najpoznatija etapna utrka u cestovnom biciklizmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1292",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu ekipu na terenu u vaterpolu?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "5",
+            "8"
+        ],
+        "explanation": "Svaka vaterpolska ekipa ima šest igrača u polju i jednog vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1293",
+        "category": "sport",
+        "question": "Kako se naziva startni postupak u plivanju kada natjecatelj skače s bloka u vodu?",
+        "correct_answer": "Startni skok",
+        "incorrect_answers": [
+            "Zaron",
+            "Uron",
+            "Početni gnjurac"
+        ],
+        "explanation": "Plivači počinju većinu utrka skokom s platforme, osim u leđnom stilu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1294",
+        "category": "sport",
+        "question": "Koji se sport igra na terenu s rupama, a cilj je lopticu ugurati u rupu s što manje udaraca?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kriket",
+            "Polo",
+            "Kroket"
+        ],
+        "explanation": "Golf je precizan sport gdje se igrači natječu u guranju loptice u rupe na terenu, koristeći različite palice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1295",
+        "category": "sport",
+        "question": "Koji se termin koristi u košarci za prekršaj kada igrač drži loptu i napravi više od dva koraka bez driblinga?",
+        "correct_answer": "Koraci",
+        "incorrect_answers": [
+            "Dvostruka",
+            "Nosena lopta",
+            "Prekršaj u napadu"
+        ],
+        "explanation": "\"Koraci\" (traveling) je prekršaj u košarci kada igrač prekrši pravila kretanja s loptom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1296",
+        "category": "sport",
+        "question": "Tko je izumio košarku?",
+        "correct_answer": "James Naismith",
+        "incorrect_answers": [
+            "William Morgan",
+            "Alexander Cartwright",
+            "Abner Doubleday"
+        ],
+        "explanation": "James Naismith, kanadski profesor tjelesnog odgoja, izumio je košarku 1891. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1297",
+        "category": "sport",
+        "question": "Koja se ženska teniska reprezentativna nagrada dodjeljuje pobjedničkoj ekipi u međunarodnom natjecanju koje se održava od 1963. godine?",
+        "correct_answer": "Billie Jean King Cup (prethodno Fed Cup)",
+        "incorrect_answers": [
+            "Hopman Cup",
+            "Laver Cup",
+            "Davis Cup"
+        ],
+        "explanation": "Billie Jean King Cup (ranije Fed Cup) je glavno međunarodno ekipno natjecanje u ženskom tenisu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1298",
+        "category": "sport",
+        "question": "Koja je standardna visina košarkaškog obruča od poda?",
+        "correct_answer": "3.05 metara",
+        "incorrect_answers": [
+            "2.95 metara",
+            "3.15 metara",
+            "2.85 metara"
+        ],
+        "explanation": "Standardna visina obruča u košarci, kako je propisana FIBA-om i NBA-om, iznosi 3.05 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1299",
+        "category": "sport",
+        "question": "Koji je bio službeni naziv za Istočnu Njemačku, državu koja je bila jedna od najuspješnijih na Olimpijskim igrama u povijesti (do 1990.)?",
+        "correct_answer": "Njemačka Demokratska Republika (DDR)",
+        "incorrect_answers": [
+            "Savezna Republika Njemačka (SRN)",
+            "Treći Reich",
+            "Njemački Reich"
+        ],
+        "explanation": "Njemačka Demokratska Republika (DDR) je bila izrazito uspješna u sportu prije ujedinjenja Njemačke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1300",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u hokeju na ledu kada igrač gurne protivnika s leđa u ogradu ili prema golu?",
+        "correct_answer": "Guranje s leđa (Checking from behind)",
+        "incorrect_answers": [
+            "Visoki štap",
+            "Hooking",
+            "Tripping"
+        ],
+        "explanation": "Guranje s leđa je opasan prekršaj koji može rezultirati teškim ozljedama i strogo se kažnjava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1301",
+        "category": "sport",
+        "question": "Koja je najviša svjetska organizacija za automobilizam koja regulira Formulu 1?",
+        "correct_answer": "FIA (Fédération Internationale de l'Automobile)",
+        "incorrect_answers": [
+            "FIM",
+            "UCI",
+            "IOC"
+        ],
+        "explanation": "FIA je krovno tijelo za globalni motosport i upravlja Formulom 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1302",
+        "category": "sport",
+        "question": "Koliko medalja je osvojila Hrvatska na Ljetnim olimpijskim igrama u Tokiju 2020. (održanim 2021.)?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "10",
+            "7",
+            "9"
+        ],
+        "explanation": "Hrvatska je na Ljetnim olimpijskim igrama u Tokiju 2020. osvojila ukupno 8 medalja (3 zlata, 3 srebra, 2 bronce).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1303",
+        "category": "sport",
+        "question": "Kako se naziva proces u gimnastici kada natjecatelj izvodi vježbe na parteru bez glazbe?",
+        "correct_answer": "Muški parter",
+        "incorrect_answers": [
+            "Ženski parter",
+            "Preskok",
+            "Grede"
+        ],
+        "explanation": "U muškoj sportskoj gimnastici vježbe na parteru se izvode bez glazbe, za razliku od ženske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1304",
+        "category": "sport",
+        "question": "Koja se država smatra domovinom bejzbola?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Kanada",
+            "Engleska",
+            "Australija"
+        ],
+        "explanation": "Bejzbol je razvijen u Sjedinjenim Američkim Državama i postao je jedan od njihovih nacionalnih sportova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1305",
+        "category": "sport",
+        "question": "Koji sport uključuje jahanje konja preko prepreka na specifičnom terenu?",
+        "correct_answer": "Konjički preponski sport",
+        "incorrect_answers": [
+            "Drezura",
+            "Galop utrke",
+            "Polo"
+        ],
+        "explanation": "Konjički preponski sport zahtijeva da konj i jahač preskaču niz prepreka bez rušenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1306",
+        "category": "sport",
+        "question": "Kako se naziva nogometna taktika u kojoj se momčad fokusira na visoki presing i brzo vraćanje posjeda lopte nakon što ga izgubi?",
+        "correct_answer": "Gegenpressing",
+        "incorrect_answers": [
+            "Catenaccio",
+            "Tiki-taka",
+            "Totalni nogomet"
+        ],
+        "explanation": "Gegenpressing je taktika popularizirana od strane njemačkih trenera, uključujući Jürgena Kloppa i Ralfa Rangnicka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1307",
+        "category": "sport",
+        "question": "Koje godine je održano prvo Svjetsko prvenstvo u rukometu za muškarce?",
+        "correct_answer": "1938.",
+        "incorrect_answers": [
+            "1954.",
+            "1961.",
+            "1970."
+        ],
+        "explanation": "Prvo Svjetsko prvenstvo u rukometu za muškarce održano je u Njemačkoj 1938. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1308",
+        "category": "sport",
+        "question": "Kako se naziva specifičan udarac u odbojci koji ima za cilj otežati protivniku prijem lopte i razvijanje napada, često s velikom rotacijom?",
+        "correct_answer": "Flot servis",
+        "incorrect_answers": [
+            "Spikes",
+            "Smeč",
+            "Blok"
+        ],
+        "explanation": "Flot servis je udarac bez rotacije koji lopti daje nepredvidivu putanju i otežava prijem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1309",
+        "category": "sport",
+        "question": "Koliko iznosi standardna širina gola u hokeju na ledu?",
+        "correct_answer": "1.83 metra (6 stopa)",
+        "incorrect_answers": [
+            "2.00 metra",
+            "1.50 metara",
+            "2.44 metra"
+        ],
+        "explanation": "Standardna širina gola u hokeju na ledu iznosi 1.83 metra, odnosno 6 stopa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1310",
+        "category": "sport",
+        "question": "Koliko natjecatelja istovremeno starta u disciplini \"masovni start\" u biatlonu?",
+        "correct_answer": "30",
+        "incorrect_answers": [
+            "20",
+            "40",
+            "50"
+        ],
+        "explanation": "U biatlonskom masovnom startu, 30 natjecatelja kreće istovremeno u utrku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1311",
+        "category": "sport",
+        "question": "Koja se atletska disciplina odvija na stazi s preponama i vodenom preprekom?",
+        "correct_answer": "3000 metara prepreke (steeplechase)",
+        "incorrect_answers": [
+            "110 metara prepone",
+            "400 metara prepone",
+            "Hodanje"
+        ],
+        "explanation": "Utrka na 3000 metara prepreke uključuje skakanje preko fiksnih prepreka i jedne vodene barijere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1312",
+        "category": "sport",
+        "question": "Koja je država prva osvojila Svjetsko prvenstvo u košarci za muškarce?",
+        "correct_answer": "Argentina",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Sovjetski Savez",
+            "Brazil"
+        ],
+        "explanation": "Argentina je bila domaćin i pobjednik prvog Svjetskog prvenstva u košarci 1950. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1313",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz stazu na malim sanjkama ležeći na trbuhu, glavom naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Sanjkanje (Luge)",
+            "Skijanje"
+        ],
+        "explanation": "Skeleton je zimska olimpijska disciplina u kojoj se sportaši spuštaju niz ledenu stazu na sanjkama, glavom naprijed.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1314",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome da koristi \"treće poluvrijeme\" kao dio svoje tradicije, gdje se igrači obje ekipe druže nakon utakmice?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Hokej na ledu"
+        ],
+        "explanation": "\"Treće poluvrijeme\" je ragbijaška tradicija druženja igrača i trenera obje momčadi nakon završetka utakmice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1315",
+        "category": "sport",
+        "question": "Kako se naziva udarac u tenisu koji se izvodi iznad glave, obično s velikom snagom, često kao odgovor na lob?",
+        "correct_answer": "Smash",
+        "incorrect_answers": [
+            "Forehand",
+            "Backhand",
+            "Volley"
+        ],
+        "explanation": "Smash je snažan udarac iznad glave, često korišten za završavanje poena kada protivnik podbaci loptu visoko.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1316",
+        "category": "sport",
+        "question": "Koji se termin koristi u Formuli 1 kada se vozač povuče iz utrke zbog mehaničkog kvara ili sudara?",
+        "correct_answer": "DNF (Did Not Finish)",
+        "incorrect_answers": [
+            "DQ (Disqualified)",
+            "DNS (Did Not Start)",
+            "DFL (Did Finish Last)"
+        ],
+        "explanation": "DNF je kratica za \"Did Not Finish\", što znači da vozač nije završio utrku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1317",
+        "category": "sport",
+        "question": "Koja se država najviše puta plasirala u finale Svjetskog prvenstva u nogometu za muškarce, a da nikada nije osvojila naslov (stanje 2024.)?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Švedska",
+            "Portugal"
+        ],
+        "explanation": "Nizozemska je tri puta igrala u finalu Svjetskog prvenstva (1974., 1978., 2010.) i sva tri puta izgubila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1318",
+        "category": "sport",
+        "question": "Kako se zove specifična tehnika u streljaštvu gdje strijelac puca na mete koje su postavljene na različitim udaljenostima i kutovima?",
+        "correct_answer": "Field Target",
+        "incorrect_answers": [
+            "Trap",
+            "Skeet",
+            "Biatlon"
+        ],
+        "explanation": "Field Target je vrsta preciznog streljaštva na otvorenom terenu, s metama različitih udaljenosti i veličina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1319",
+        "category": "sport",
+        "question": "Koji je bio prvi sport u kojem su žene smjele sudjelovati na Ljetnim olimpijskim igrama, davne 1900. godine?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Atletika",
+            "Plivanje",
+            "Gimnastika"
+        ],
+        "explanation": "Na Olimpijskim igrama u Parizu 1900. godine, žene su se prvi put natjecale u golfu i tenisu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1320",
+        "category": "sport",
+        "question": "Koliko \"innga\" se obično igra u bejzbol utakmici?",
+        "correct_answer": "9",
+        "incorrect_answers": [
+            "7",
+            "5",
+            "11"
+        ],
+        "explanation": "Standardna bejzbol utakmica sastoji se od devet \"innga\", s obje momčadi koje su imale priliku napadati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1321",
+        "category": "sport",
+        "question": "Kako se naziva sportska disciplina gdje se natjecatelji penju po umjetnim ili prirodnim stijenama, koristeći samo svoje tijelo i minimalnu opremu za sigurnost?",
+        "correct_answer": "Sportsko penjanje",
+        "incorrect_answers": [
+            "Alpinizam",
+            "Speleologija",
+            "Via Ferrata"
+        ],
+        "explanation": "Sportsko penjanje je disciplina koja se fokusira na penjanje stijena, često na osiguranim rutama, s naglaskom na vještinu i snagu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1322",
+        "category": "sport",
+        "question": "Koji je sport u SAD-u poznat po godišnjem \"draftu\", gdje se profesionalni timovi natječu za prava na sveučilišne igrače?",
+        "correct_answer": "Američki nogomet",
+        "incorrect_answers": [
+            "Ragbi",
+            "Kriket",
+            "Polo"
+        ],
+        "explanation": "NFL Draft je jedan od najpraćenijih sportskih događaja u SAD-u, gdje se biraju buduće zvijezde američkog nogometa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1323",
+        "category": "sport",
+        "question": "Koja je minimalna težina lopte za stolni tenis?",
+        "correct_answer": "2.7 grama",
+        "incorrect_answers": [
+            "2.5 grama",
+            "2.9 grama",
+            "3.0 grama"
+        ],
+        "explanation": "Prema ITTF pravilima, lopta za stolni tenis mora imati promjer 40 mm i težinu 2.7 grama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1324",
+        "category": "sport",
+        "question": "Koji se izraz koristi u veslanju za idealnu usklađenost i ritam cijele posade koja vesla zajedno?",
+        "correct_answer": "Swing",
+        "incorrect_answers": [
+            "Propulzija",
+            "Momentum",
+            "Sinkronizacija"
+        ],
+        "explanation": "\"Swing\" je osjećaj kada svi veslači rade zajedno u savršenom ritmu, optimizirajući brzinu čamca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1325",
+        "category": "sport",
+        "question": "Koja je najviša ženska sportska nagrada u Hrvatskoj koja se dodjeljuje za izuzetna sportska dostignuća?",
+        "correct_answer": "Nagrada Franjo Bučar (kategorija žena)",
+        "incorrect_answers": [
+            "Državna nagrada za sport",
+            "Nagrada za životno djelo",
+            "Sportska žena godine"
+        ],
+        "explanation": "Državna nagrada za sport \"Franjo Bučar\" dodjeljuje se svake godine za izvanredna dostignuća u hrvatskom sportu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1326",
+        "category": "sport",
+        "question": "Koji sport uključuje \"end zone\" i \"touchdown\"?",
+        "correct_answer": "Američki nogomet",
+        "incorrect_answers": [
+            "Ragbi",
+            "Australski nogomet",
+            "Kanadski nogomet"
+        ],
+        "explanation": "\"End zone\" je područje na kraju igrališta, a \"touchdown\" je glavni način osvajanja bodova u američkom nogometu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1327",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u nogometu kada igrač, osim golmana, namjerno dotakne loptu rukom?",
+        "correct_answer": "Igranje rukom",
+        "incorrect_answers": [
+            "Prekršaj",
+            "Ofsajd",
+            "Simuliranje"
+        ],
+        "explanation": "Igranje rukom (handball) je prekršaj koji se sankcionira slobodnim udarcem ili jedanaestercem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1328",
+        "category": "sport",
+        "question": "Koja je osnovna svrha \"pit stopa\" u Formuli 1?",
+        "correct_answer": "Promjena guma i manje prilagodbe",
+        "incorrect_answers": [
+            "Dopunjavanje goriva",
+            "Zamjena vozača",
+            "Čišćenje bolida"
+        ],
+        "explanation": "Tijekom pit stopa, momčadi brzo mijenjaju gume i ponekad vrše sitne prilagodbe na bolidu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1329",
+        "category": "sport",
+        "question": "Koji plivački stil se izvodi na leđima?",
+        "correct_answer": "Leđno",
+        "incorrect_answers": [
+            "Prsno",
+            "Slobodno",
+            "Delfin"
+        ],
+        "explanation": "Leđno plivanje je stil u kojem plivač pliva na leđima, s licem okrenutim prema gore.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1330",
+        "category": "sport",
+        "question": "Kako se naziva borilačka vještina koja uključuje bacanja, držanja i zahvate, a ne udarce?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Boks"
+        ],
+        "explanation": "Judo se fokusira na tehnike bacanja, kontrole i gušenja, za razliku od udaraca rukama i nogama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1331",
+        "category": "sport",
+        "question": "Koliko je standardnih kugli (bez bijele i crne) na stolu na početku igre bilijara (pool)?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "18"
+        ],
+        "explanation": "Standardna igra bilijara (osim snookera) počinje s 15 obojenih kugli i jednom bijelom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1332",
+        "category": "sport",
+        "question": "Kako se naziva specifična disciplina u atletici gdje natjecatelj s dalekim zaletom baca koplje?",
+        "correct_answer": "Bacanje koplja",
+        "incorrect_answers": [
+            "Bacanje kugle",
+            "Bacanje kladiva",
+            "Bacanje diska"
+        ],
+        "explanation": "Bacanje koplja je atletska bacačka disciplina u kojoj se koplje baca s posebnim zaletom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1333",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što koristi \"match point\" za označavanje situacije kada je jedan igrač ili tim na korak od pobjede u meču?",
+        "correct_answer": "Tenis",
+        "incorrect_answers": [
+            "Badminton",
+            "Odbojka",
+            "Košarka"
+        ],
+        "explanation": "\"Match point\" se koristi u tenisu (i sličnim sportovima) kada je jedna strana udaljena samo jedan poen od pobjede.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1334",
+        "category": "sport",
+        "question": "Koji je najstariji Grand Slam turnir u tenisu?",
+        "correct_answer": "Wimbledon",
+        "incorrect_answers": [
+            "Australian Open",
+            "French Open",
+            "US Open"
+        ],
+        "explanation": "Wimbledon se prvi put održao 1877. godine i najstariji je teniski turnir na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1335",
+        "category": "sport",
+        "question": "Kako se naziva faza u košarci kada se momčad brani od brzog napada protivnika nakon osvojene lopte?",
+        "correct_answer": "Tranzicijska obrana",
+        "incorrect_answers": [
+            "Zonska obrana",
+            "Čovjek na čovjeka",
+            "Presing"
+        ],
+        "explanation": "Tranzicijska obrana je ključna za zaustavljanje brzih napada i kontranapada protivnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
