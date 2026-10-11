@@ -88,10 +88,10 @@ function DuelPlay({ activeDuel, onProgress, onFinish, onExit }) {
 
     return (
         <div className="space-y-5">
-            <div className="flex justify-between items-center bg-slate-900/60 border border-slate-800/80 p-3.5 rounded-2xl text-xs font-bold">
-                <span className="text-slate-400 uppercase tracking-wider">{duel.challengerName} · {categoryLabelFor(duel.category)}</span>
+            <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 bg-slate-900/60 border border-slate-800/80 p-3 sm:p-3.5 rounded-2xl text-xs font-bold">
+                <span className="min-w-0 truncate text-slate-400 uppercase tracking-wider">{categoryLabelFor(duel.category)}</span>
                 <TimerRing timeLeft={timeLeft} totalTime={QUESTION_TIME_SECONDS} />
-                <span className="text-slate-300">{Math.min(index + 1, DUEL_QUESTION_COUNT)} / {DUEL_QUESTION_COUNT}</span>
+                <span className="text-right text-slate-300 tabular-nums">{Math.min(index + 1, DUEL_QUESTION_COUNT)} / {DUEL_QUESTION_COUNT}</span>
             </div>
 
             <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-xl space-y-6">
@@ -111,7 +111,7 @@ function DuelPlay({ activeDuel, onProgress, onFinish, onExit }) {
                                 onClick={() => handleAnswer(idx)}
                                 className={`w-full p-4 rounded-2xl border text-left font-semibold text-sm transition-all active:scale-[0.97] ${style}`}
                             >
-                                <span className="truncate block">{option}</span>
+                                <span className="block whitespace-normal break-words">{option}</span>
                             </button>
                         );
                     })}
@@ -178,21 +178,42 @@ function DuelSummary({ summary, myUid, onExit }) {
                         const theirs = opponentResult?.state === 'done' ? opponentResult.answers?.[i] : null;
                         const pct = showAccuracy ? measuredAccuracyPercent(q) : null;
                         return (
-                            <div key={q.id} className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 space-y-1.5">
-                                <div className="flex items-start gap-2 text-sm text-slate-200">
-                                    <span className="text-slate-500 text-xs mt-0.5">{i + 1}.</span>
-                                    <span className="flex-1">{q.question}</span>
-                                    <span className="flex items-center gap-1.5 shrink-0">
-                                        {mine?.c ? <Check className="w-4 h-4 text-emerald-400" aria-label="Točno" /> : <X className="w-4 h-4 text-rose-400" aria-label="Netočno" />}
-                                        {theirs && (theirs.c
-                                            ? <Check className="w-4 h-4 text-emerald-400/50" aria-label="Protivnik točno" />
-                                            : <X className="w-4 h-4 text-rose-400/50" aria-label="Protivnik netočno" />)}
-                                    </span>
+                            <div key={q.id} className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 space-y-2">
+                                <p className="text-sm text-slate-200 leading-snug break-words">
+                                    <span className="text-slate-500 text-xs mr-1.5">{i + 1}.</span>
+                                    {q.question}
+                                </p>
+                                <div className="grid grid-cols-2 gap-2">
+                                    <div className={`min-w-0 rounded-lg border px-2.5 py-2 ${mine?.c ? 'border-emerald-500/30 bg-emerald-500/10' : 'border-rose-500/30 bg-rose-500/10'}`}>
+                                        <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400">Ti</div>
+                                        <div className={`mt-0.5 flex items-center gap-1 text-xs font-bold ${mine?.c ? 'text-emerald-300' : 'text-rose-300'}`}>
+                                            {mine?.c
+                                                ? <Check className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+                                                : <X className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />}
+                                            <span>{mine?.c ? 'Točno' : 'Netočno'}</span>
+                                        </div>
+                                    </div>
+                                    <div className={`min-w-0 rounded-lg border px-2.5 py-2 ${theirs ? (theirs.c ? 'border-emerald-500/30 bg-emerald-500/10' : 'border-rose-500/30 bg-rose-500/10') : 'border-slate-700 bg-slate-900/60'}`}>
+                                        <div className="text-[10px] font-extrabold uppercase tracking-wider text-slate-400 truncate">{opponentName}</div>
+                                        {theirs ? (
+                                            <div className={`mt-0.5 flex items-center gap-1 text-xs font-bold ${theirs.c ? 'text-emerald-300' : 'text-rose-300'}`}>
+                                                {theirs.c
+                                                    ? <Check className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+                                                    : <X className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />}
+                                                <span>{theirs.c ? 'Točno' : 'Netočno'}</span>
+                                            </div>
+                                        ) : (
+                                            <div className="mt-0.5 flex items-center gap-1 text-xs font-bold text-slate-400">
+                                                <Hourglass className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+                                                <span>Čeka</span>
+                                            </div>
+                                        )}
+                                    </div>
                                 </div>
-                                <div className="text-xs text-emerald-300/90 pl-5">Točno: {q.correct_answer}</div>
-                                {pct !== null && <div className="text-xs text-slate-500 pl-5">Točno je odgovorilo {pct}% igrača</div>}
+                                <div className="text-xs text-emerald-300/90 break-words">Točno: {q.correct_answer}</div>
+                                {pct !== null && <div className="text-xs text-slate-500">Točno je odgovorilo {pct}% igrača</div>}
                                 {showExplanations && q.explanation && (
-                                    <p className="text-xs text-slate-300 pl-5 flex gap-1.5"><Info className="w-3.5 h-3.5 text-sky-400 shrink-0 mt-0.5" aria-hidden="true" />{q.explanation}</p>
+                                    <p className="text-xs text-slate-300 flex gap-1.5 break-words"><Info className="w-3.5 h-3.5 text-sky-400 shrink-0 mt-0.5" aria-hidden="true" />{q.explanation}</p>
                                 )}
                             </div>
                         );

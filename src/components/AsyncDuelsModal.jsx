@@ -85,23 +85,23 @@ export default function AsyncDuelsModal({
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm">
             <div className="w-full max-w-lg bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl space-y-5 relative max-h-[90vh] overflow-y-auto">
-                <div className="flex justify-between items-center border-b border-slate-800 pb-4">
-                    <div className="flex items-center gap-2.5">
-                        <div className="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+                <div className="flex items-start justify-between gap-3 border-b border-slate-800 pb-4">
+                    <div className="flex items-center gap-2.5 min-w-0 flex-1">
+                        <div className="shrink-0 p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
                             <Swords className="w-5 h-5" />
                         </div>
-                        <div>
+                        <div className="min-w-0">
                             <h2 className="text-xl font-black text-white">Izazovi</h2>
-                            <p className="text-xs text-slate-400">Dvoboj bez čekanja — protivnik igra kad stigne (48 h)</p>
+                            <p className="text-xs text-slate-400 leading-snug">Dvoboj bez čekanja — protivnik igra kad stigne (48 h)</p>
                         </div>
                     </div>
-                    <button onClick={onClose} className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-xl transition-colors" aria-label="Zatvori">
+                    <button onClick={onClose} className="shrink-0 p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-xl transition-colors" aria-label="Zatvori">
                         <X className="w-5 h-5" />
                     </button>
                 </div>
 
                 {message && (
-                    <p className={`text-sm rounded-lg p-3 ${message.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-red-400 bg-red-500/10 border border-red-500/30'}`}>
+                    <p className={`text-sm rounded-lg p-3 ${message.type === 'success' ? 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20' : 'text-rose-400 bg-rose-500/10 border border-rose-500/30'}`}>
                         {message.text}
                     </p>
                 )}
@@ -139,15 +139,15 @@ export default function AsyncDuelsModal({
                     ) : (
                         <div className="bg-slate-950/60 border border-slate-800 rounded-2xl divide-y divide-slate-800">
                             {candidates.map((p) => (
-                                <div key={p.uid} className="flex items-center justify-between p-3">
-                                    <span className="text-sm font-bold text-slate-200 truncate">
-                                        {p.name}
-                                        {onlineIds.has(p.uid) && <span className="ml-2 text-[10px] text-emerald-400 uppercase">online</span>}
-                                    </span>
+                                <div key={p.uid} className="flex items-center justify-between gap-3 p-3">
+                                    <div className="min-w-0 flex-1 flex items-center gap-2">
+                                        <span className="text-sm font-bold text-slate-200 truncate">{p.name}</span>
+                                        {onlineIds.has(p.uid) && <span className="shrink-0 text-[10px] font-bold text-emerald-400 uppercase tracking-wider">na mreži</span>}
+                                    </div>
                                     <button
                                         onClick={() => onChallenge(p, category)}
                                         disabled={busy || challengeLimitReached}
-                                        className="text-xs font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-2.5 py-1.5 disabled:opacity-40 active:scale-95"
+                                        className="shrink-0 text-xs font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-2.5 py-1.5 disabled:opacity-40 active:scale-95"
                                     >
                                         <Swords className="w-3.5 h-3.5" /> Izazovi
                                     </button>
@@ -184,7 +184,7 @@ export default function AsyncDuelsModal({
                                                 {OutcomeIcon && <OutcomeIcon className={`w-3.5 h-3.5 shrink-0 ${outcome === 'win' ? 'text-amber-400' : outcome === 'loss' ? 'text-rose-400' : 'text-slate-400'}`} />}
                                                 {mine ? `Ti → ${other}` : `${other} → ti`}
                                             </div>
-                                            <div className="text-xs text-slate-500">
+                                            <div className="text-xs text-slate-500 leading-snug break-words">
                                                 {categoryLabelFor(duel.category)} · <span className={meta.tone}>{meta.label}</span>
                                                 {state !== 'complete' && state !== 'expired' && state !== 'finalize' && ` · ${formatTimeLeft(duel.expiresAt, now)}`}
                                             </div>
@@ -205,7 +205,7 @@ export default function AsyncDuelsModal({
                     )}
                 </div>
 
-                <button onClick={onClose} className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3 rounded-xl transition-colors text-sm border border-slate-700/80">
+                <button onClick={onClose} className="w-full bg-slate-800 hover:bg-slate-700 text-slate-100 font-bold py-3 rounded-xl transition-colors text-sm border border-slate-700/80">
                     Zatvori
                 </button>
             </div>
