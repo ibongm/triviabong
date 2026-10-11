@@ -14365,5 +14365,1025 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1239",
+        "category": "znanost",
+        "question": "Koji se standardni protokol koristi za slanje e-pošte preko interneta?",
+        "correct_answer": "SMTP",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "POP3"
+        ],
+        "explanation": "SMTP (Simple Mail Transfer Protocol) je protokol za slanje elektroničke pošte. Koriste ga poslužitelji za slanje i primanje e-pošte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1240",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja jedinica informacije u digitalnom računarstvu?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Byte",
+            "Kilobajt",
+            "Piksel"
+        ],
+        "explanation": "Bit je skraćenica od 'binary digit' i predstavlja osnovnu jedinicu informacije u digitalnom sustavu, s vrijednošću 0 ili 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1241",
+        "category": "znanost",
+        "question": "Koji je pojam za softver koji se distribuira besplatno, ali čiji izvorni kod nije javno dostupan za modificiranje?",
+        "correct_answer": "Freeware",
+        "incorrect_answers": [
+            "Open source",
+            "Shareware",
+            "Public domain"
+        ],
+        "explanation": "Freeware je vrsta softvera koja je dostupna za besplatno korištenje, ali korisnici nemaju pristup izvornom kodu niti ga smiju modificirati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1242",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija GPU-a (grafičke procesorske jedinice)?",
+        "correct_answer": "Renderiranje grafike",
+        "incorrect_answers": [
+            "Izvršavanje operacijskog sustava",
+            "Spremanje dugoročnih podataka",
+            "Upravljanje mrežnim prometom"
+        ],
+        "explanation": "GPU je specijalizirani elektronički sklop dizajniran za brzo manipuliranje i mijenjanje memorije kako bi se ubrzalo stvaranje slika namijenjenih za prikaz na zaslonu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1243",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje simulaciju trodimenzionalnog okruženja s kojim korisnik može interagirati?",
+        "correct_answer": "Virtualna stvarnost",
+        "incorrect_answers": [
+            "Proširena stvarnost",
+            "Mješovita stvarnost",
+            "Holografija"
+        ],
+        "explanation": "Virtualna stvarnost (VR) uranja korisnika u potpuno simulirano digitalno okruženje, odvajajući ga od fizičkog svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1244",
+        "category": "znanost",
+        "question": "Koji je temeljni zakon dinamike tekućina koji opisuje odnos između tlaka, brzine i visine u strujanju tekućine?",
+        "correct_answer": "Bernoullijev princip",
+        "incorrect_answers": [
+            "Arhimedov zakon",
+            "Newtonovi zakoni gibanja",
+            "Hookeov zakon"
+        ],
+        "explanation": "Bernoullijev princip navodi da povećanje brzine tekućine rezultira smanjenjem tlaka ili potencijalne energije tekućine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1245",
+        "category": "znanost",
+        "question": "Koja se jedinica u SI sustavu koristi za mjerenje frekvencije?",
+        "correct_answer": "Herc (Hz)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Džul"
+        ],
+        "explanation": "Herc je jedinica za frekvenciju i definiran je kao jedan ciklus u sekundi, nazvan po Heinrichu Rudolfu Hertzu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1246",
+        "category": "znanost",
+        "question": "Koji fizikalni fenomen objašnjava zašto nebo izgleda plavo?",
+        "correct_answer": "Rayleighovo raspršenje",
+        "incorrect_answers": [
+            "Refleksija",
+            "Refrakcija",
+            "Difrakcija"
+        ],
+        "explanation": "Rayleighovo raspršenje je raspršenje svjetlosti manjim česticama čija je valna duljina mnogo manja od veličine čestica, a objašnjava plavu boju neba.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1247",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen u fizici kada se svjetlost ponaša i kao val i kao čestica?",
+        "correct_answer": "Dualnost val-čestica",
+        "incorrect_answers": [
+            "Kvantna zapletenost",
+            "Heisenbergov princip nesigurnosti",
+            "Princip isključenja"
+        ],
+        "explanation": "Dualnost val-čestica je koncept u kvantnoj mehanici da se svaka čestica ili kvantna cjelina može opisati kao čestica ili kao val.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1248",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada električna struja stvara magnetsko polje?",
+        "correct_answer": "Elektromagnetizam",
+        "incorrect_answers": [
+            "Elektrostatičko polje",
+            "Piezoelektrični efekt",
+            "Termoelektrični efekt"
+        ],
+        "explanation": "Elektromagnetizam je interakcija između električne struje i magnetskog polja, temelj mnogih tehnologija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1249",
+        "category": "znanost",
+        "question": "Koji kemijski element ima simbol 'Na' i atomski broj 11?",
+        "correct_answer": "Natrij",
+        "incorrect_answers": [
+            "Nitrogen",
+            "Neon",
+            "Nikal"
+        ],
+        "explanation": "Simbol 'Na' potječe od latinskog naziva za natrij, 'natrium', a atomski broj 11 označava broj protona u jezgri.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1250",
+        "category": "znanost",
+        "question": "Koja je kemijska formula za ugljikov dioksid?",
+        "correct_answer": "CO2",
+        "incorrect_answers": [
+            "CO",
+            "H2O",
+            "O2"
+        ],
+        "explanation": "Ugljikov dioksid je kemijski spoj s jednom molekulom ugljika i dvije molekule kisika, koji nastaje izgaranjem ili disanjem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1251",
+        "category": "znanost",
+        "question": "Koji je naziv za proces u kojem se čvrsta tvar izravno pretvara u plin bez prolaska kroz tekuću fazu?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Taljenje",
+            "Isparavanje"
+        ],
+        "explanation": "Sublimacija je fizikalni proces u kojem tvar prelazi iz krutog stanja izravno u plinovito, bez međustanja tekućine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1252",
+        "category": "znanost",
+        "question": "Koja je približna pH vrijednost čiste vode pri sobnoj temperaturi?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "Čista voda je neutralna, što znači da ima pH vrijednost 7 pri temperaturi od 25 °C.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1253",
+        "category": "znanost",
+        "question": "Koji je najreaktivniji element iz skupine halogenih elemenata (skupina 17)?",
+        "correct_answer": "Fluor",
+        "incorrect_answers": [
+            "Klor",
+            "Brom",
+            "Jod"
+        ],
+        "explanation": "Fluor je najelektronegativniji element i najreaktivniji nemetal, što ga čini najreaktivnijim halogenom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1254",
+        "category": "znanost",
+        "question": "Koji organ proizvodi inzulin, hormon ključan za regulaciju razine šećera u krvi?",
+        "correct_answer": "Gušterača (pankreas)",
+        "incorrect_answers": [
+            "Jetra",
+            "Bubrezi",
+            "Slezena"
+        ],
+        "explanation": "Gušterača je endokrina žlijezda koja proizvodi inzulin i glukagon, hormone koji reguliraju metabolizam glukoze u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1255",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja funkcionalna jedinica bubrega?",
+        "correct_answer": "Nefron",
+        "incorrect_answers": [
+            "Neuron",
+            "Hepatocit",
+            "Alveola"
+        ],
+        "explanation": "Nefron je osnovna strukturna i funkcionalna jedinica bubrega koja filtrira krv i proizvodi mokraću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1256",
+        "category": "znanost",
+        "question": "Koji je proces kojim biljke koriste sunčevu svjetlost za sintezu hrane?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Stanično disanje",
+            "Fermentacija",
+            "Kemosinteza"
+        ],
+        "explanation": "Fotosinteza je biokemijski proces u kojem biljke, alge i cijanobakterije koriste sunčevu svjetlost za pretvaranje ugljikovog dioksida i vode u glukozu i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1257",
+        "category": "znanost",
+        "question": "Koja se molekula smatra univerzalnom 'energetskom valutom' stanice?",
+        "correct_answer": "ATP (Adenozin trifosfat)",
+        "incorrect_answers": [
+            "DNA",
+            "RNA",
+            "Glukoza"
+        ],
+        "explanation": "ATP je organska molekula koja služi kao primarni nositelj energije unutar stanica, osiguravajući energiju za vitalne procese.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1258",
+        "category": "znanost",
+        "question": "Koji je naziv za proces programirane stanične smrti?",
+        "correct_answer": "Apoptoza",
+        "incorrect_answers": [
+            "Nekroza",
+            "Mitoza",
+            "Mejoza"
+        ],
+        "explanation": "Apoptoza je genetski programirana stanična smrt koja je ključna za razvoj i održavanje zdravlja tkiva, uklanjajući nepotrebne ili oštećene stanice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1259",
+        "category": "znanost",
+        "question": "Koji je naziv za galaksiju u kojoj se nalazi naš Sunčev sustav?",
+        "correct_answer": "Mliječna staza",
+        "incorrect_answers": [
+            "Andromeda",
+            "Trokut",
+            "Messier 87"
+        ],
+        "explanation": "Mliječna staza je spiralna galaksija u kojoj se nalazi naš Sunčev sustav, a vidljiva je sa Zemlje kao svjetleći pojas na noćnom nebu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1260",
+        "category": "znanost",
+        "question": "Koji je planet Sunčevog sustava poznat po svom sustavu prstenova?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Mars",
+            "Uran"
+        ],
+        "explanation": "Saturn je šesti planet od Sunca, najpoznatiji po svom izrazito vidljivom i složenom sustavu prstenova sastavljenih uglavnom od leda i stijena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1261",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada nebesko tijelo, poput kometa ili asteroida, padne na površinu drugog nebeskog tijela?",
+        "correct_answer": "Udar (Impakt)",
+        "incorrect_answers": [
+            "Pomrčina",
+            "Konjunkcija",
+            "Tranzit"
+        ],
+        "explanation": "Udar, ili impakt, je sudar dva nebeska tijela, pri čemu jedno udari u površinu drugog, često ostavljajući krater.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1262",
+        "category": "znanost",
+        "question": "Koja je najsjajnija zvijezda na noćnom nebu, isključujući Sunce?",
+        "correct_answer": "Sirius",
+        "incorrect_answers": [
+            "Polaris",
+            "Vega",
+            "Alfa Centauri"
+        ],
+        "explanation": "Sirius, poznat i kao Pasja zvijezda, je najsjajnija zvijezda na noćnom nebu, a nalazi se u zviježđu Velikog Psa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1263",
+        "category": "znanost",
+        "question": "Koji je pojam za hipotetičku regiju oko zvijezde gdje planet može imati tekuću vodu na površini?",
+        "correct_answer": "Nastanjiva zona (Goldilocks zona)",
+        "incorrect_answers": [
+            "Oortov oblak",
+            "Kuiperov pojas",
+            "Heliosfera"
+        ],
+        "explanation": "Nastanjiva zona je područje oko zvijezde gdje su uvjeti, poput temperature, pogodni za postojanje tekuće vode na površini planeta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1264",
+        "category": "znanost",
+        "question": "Koji se materijal najčešće koristi za izradu solarnih panela?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Bakar",
+            "Aluminij",
+            "Germanij"
+        ],
+        "explanation": "Silicij je poluvodič koji se najčešće koristi u fotonaponskim ćelijama solarnih panela zbog svojih svojstava koja omogućuju pretvaranje svjetlosti u električnu energiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1265",
+        "category": "znanost",
+        "question": "Kako se naziva sustav koji koristi mrežu satelita za precizno određivanje lokacije na Zemlji?",
+        "correct_answer": "GPS (Global Positioning System)",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Bluetooth",
+            "LTE"
+        ],
+        "explanation": "GPS je satelitski navigacijski sustav koji omogućuje prijemnicima na Zemlji da precizno odrede svoju geografsku lokaciju, brzinu i vrijeme.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1266",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta zaslona koja koristi organske diode koje emitiraju svjetlost i ne zahtijeva pozadinsko osvjetljenje?",
+        "correct_answer": "OLED (Organic Light-Emitting Diode)",
+        "incorrect_answers": [
+            "LCD",
+            "LED",
+            "CRT"
+        ],
+        "explanation": "OLED zasloni koriste organske spojeve koji emitiraju svjetlost kada kroz njih prođe struja, što omogućuje tanje zaslone i bolji kontrast.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1267",
+        "category": "znanost",
+        "question": "Koji je glavni cilj genetskog inženjeringa u poljoprivredi?",
+        "correct_answer": "Poboljšanje otpornosti usjeva i prinosa",
+        "incorrect_answers": [
+            "Stvaranje novih životinjskih vrsta",
+            "Povećanje fotosinteze u ljudima",
+            "Proizvodnja sintetičke plastike"
+        ],
+        "explanation": "Genetsko inženjerstvo u poljoprivredi primarno se fokusira na modificiranje biljaka kako bi se poboljšala njihova otpornost i prinos.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1268",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za proces pretvaranja analognog signala (npr. zvuka) u digitalni oblik?",
+        "correct_answer": "Digitalizacija",
+        "incorrect_answers": [
+            "Analogizacija",
+            "Virtualizacija",
+            "Enkripcija"
+        ],
+        "explanation": "Digitalizacija je proces pretvaranja analognih informacija u digitalni format koji se može obrađivati i pohranjivati računalima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1269",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu disciplinu koja se bavi proučavanjem interakcija između živih organizama i njihovog okoliša?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Geologija",
+            "Meteorologija",
+            "Astronomija"
+        ],
+        "explanation": "Ekologija je grana biologije koja proučava odnose između živih bića i njihovog okoliša, uključujući interakcije unutar i između vrsta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1270",
+        "category": "znanost",
+        "question": "Koji se kemijski spoj najčešće koristi kao glavni sastojak u baterijama za električne automobile (stanje 2024.)?",
+        "correct_answer": "Litij",
+        "incorrect_answers": [
+            "Olovo",
+            "Nikal",
+            "Cink"
+        ],
+        "explanation": "Litij-ionske baterije dominantne su u električnim vozilima zbog svoje visoke gustoće energije i dugog vijeka trajanja (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1271",
+        "category": "znanost",
+        "question": "Koji se izraz odnosi na sposobnost umjetne inteligencije da rješava probleme, uči i razumije, slično ljudskoj inteligenciji?",
+        "correct_answer": "Opća umjetna inteligencija (AGI)",
+        "incorrect_answers": [
+            "Uska umjetna inteligencija (ANI)",
+            "Superinteligencija (ASI)",
+            "Kvantna inteligencija"
+        ],
+        "explanation": "Opća umjetna inteligencija (AGI) je hipotetska sposobnost AI sustava da razumije, uči i primjenjuje inteligenciju na širok raspon zadataka, baš kao čovjek.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1272",
+        "category": "znanost",
+        "question": "Kako se naziva postupak odvajanja komponenti smjese na temelju razlike u točkama vrelišta?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Sedimentacija",
+            "Kristalizacija"
+        ],
+        "explanation": "Destilacija je metoda odvajanja komponenata tekuće smjese na temelju razlike u njihovim točkama vrelišta, isparavanjem i kondenzacijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1273",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanji dio elementa koji zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Ion",
+            "Elektron"
+        ],
+        "explanation": "Atom je najmanja jedinica materije koja zadržava kemijska svojstva kemijskog elementa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1274",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada se u kvantnoj mehanici dvije čestice povezuju na takav način da stanje jedne čestice odmah utječe na stanje druge, bez obzira na udaljenost?",
+        "correct_answer": "Kvantna spregnutost (Entanglement)",
+        "incorrect_answers": [
+            "Superpozicija",
+            "Tuneliranje",
+            "Dekoherencija"
+        ],
+        "explanation": "Kvantna spregnutost opisuje fenomen gdje su dvije ili više čestica međusobno povezane tako da se ne mogu opisati neovisno jedna o drugoj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1275",
+        "category": "znanost",
+        "question": "Koji je pojam u biologiji za proces razvoja organizama od oplođenog jajeta do odraslog oblika?",
+        "correct_answer": "Ontogeneza",
+        "incorrect_answers": [
+            "Filogeneza",
+            "Homeostaza",
+            "Metabolizam"
+        ],
+        "explanation": "Ontogeneza je proučavanje razvoja organizma od začeća do zrelosti, obuhvaćajući sve faze rasta i diferencijacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1276",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija mijelinske ovojnice oko neurona?",
+        "correct_answer": "Ubrzavanje prijenosa živčanih impulsa",
+        "incorrect_answers": [
+            "Proizvodnja energije za neuron",
+            "Regulacija unosa hranjivih tvari",
+            "Zaštita neurona od patogena"
+        ],
+        "explanation": "Mijelinska ovojnica je lipidni sloj koji izolira akson neurona i značajno povećava brzinu kojom se električni impulsi prenose duž živčanog vlakna.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1277",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za mjeru kaosa ili neuređenosti sustava u termodinamici?",
+        "correct_answer": "Entropija",
+        "incorrect_answers": [
+            "Enthalpija",
+            "Specifična toplina",
+            "Termička vodljivost"
+        ],
+        "explanation": "Entropija je termodinamička veličina koja mjeri stupanj neuređenosti ili raspodjele energije unutar sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1278",
+        "category": "znanost",
+        "question": "Koji je kemijski element ključan za proces disanja, jer je dio hemoglobina koji prenosi kisik?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Kalcij",
+            "Magnezij",
+            "Cink"
+        ],
+        "explanation": "Željezo je sastavni dio hemoglobina, proteina u crvenim krvnim stanicama koji je odgovoran za vezanje i prijenos kisika u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1279",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje izravno uređivanje gena unutar organizma?",
+        "correct_answer": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats)",
+        "incorrect_answers": [
+            "Kloniranje",
+            "PCR",
+            "Sekvenciranje DNA"
+        ],
+        "explanation": "CRISPR je revolucionarna tehnologija za uređivanje genoma koja omogućuje znanstvenicima precizno mijenjanje dijelova DNA.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1280",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju strukturnu i funkcionalnu jedinicu živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Tkivo",
+            "Organ",
+            "Molekula"
+        ],
+        "explanation": "Stanica je osnovna jedinica života, sposobna za samostalno funkcioniranje i reprodukciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1281",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu umjetne inteligencije koja može obavljati samo specifične, unaprijed definirane zadatke?",
+        "correct_answer": "Uska umjetna inteligencija (ANI)",
+        "incorrect_answers": [
+            "Opća umjetna inteligencija (AGI)",
+            "Superinteligencija (ASI)",
+            "Emotivna inteligencija"
+        ],
+        "explanation": "Uska umjetna inteligencija je AI sustav dizajniran za izvršavanje jednog specifičnog zadatka, poput prepoznavanja lica ili igranja šaha.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1282",
+        "category": "znanost",
+        "question": "Koji je osnovni princip rada žarulje sa žarnom niti?",
+        "correct_answer": "Žarenje (Inkandescencija)",
+        "incorrect_answers": [
+            "Fluorescencija",
+            "Elektroluminiscencija",
+            "Plinska ionizacija"
+        ],
+        "explanation": "Žarulja sa žarnom niti proizvodi svjetlost zagrijavanjem tanke niti, obično volframove, do visokih temperatura dok ne počne emitirati svjetlost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1283",
+        "category": "znanost",
+        "question": "Kako se naziva grana fizike koja proučava subatomske čestice i njihove interakcije?",
+        "correct_answer": "Fizika čestica",
+        "incorrect_answers": [
+            "Astrofizika",
+            "Biofizika",
+            "Geofizika"
+        ],
+        "explanation": "Fizika čestica bavi se proučavanjem najosnovnijih sastavnih dijelova materije i zračenja te interakcijama među njima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1284",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na otpor tijela promjeni njegovog stanja gibanja?",
+        "correct_answer": "Tromost (Inercija)",
+        "incorrect_answers": [
+            "Masa",
+            "Težina",
+            "Trenje"
+        ],
+        "explanation": "Tromost ili inercija je svojstvo tijela da se odupire promjenama svog stanja gibanja, bilo da je u mirovanju ili u jednolikom gibanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1285",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija vakuuma u termos boci?",
+        "correct_answer": "Smanjenje prijenosa topline konvekcijom i kondukcijom",
+        "incorrect_answers": [
+            "Sprečavanje oksidacije tekućine",
+            "Povećanje tlaka unutar boce",
+            "Filtriranje nečistoća"
+        ],
+        "explanation": "Vakuum između dvostrukih stijenki termos boce služi kao izolator, smanjujući gubitak ili dobitak topline konvekcijom i kondukcijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1286",
+        "category": "znanost",
+        "question": "Koji je naziv za optički fenomen koji se koristi za prijenos informacija putem optičkih vlakana?",
+        "correct_answer": "Potpuna unutarnja refleksija",
+        "incorrect_answers": [
+            "Djelomična refleksija",
+            "Apsorpcija",
+            "Disperzija"
+        ],
+        "explanation": "Potpuna unutarnja refleksija je princip na kojem se temelji optičko vlakno, omogućujući svjetlosti da se reflektira unutar vlakna bez izlaska.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1287",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju prepoznavanja glasa koja omogućuje računalu da razumije ljudski govor?",
+        "correct_answer": "Prepoznavanje govora",
+        "incorrect_answers": [
+            "Sintetizator govora",
+            "Optičko prepoznavanje znakova (OCR)",
+            "Prirodna obrada jezika (NLP)"
+        ],
+        "explanation": "Prepoznavanje govora je tehnologija koja omogućuje pretvaranje ljudskog govora u tekst ili komande razumljive računalu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1288",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada genetski materijal (DNA ili RNA) virusa uđe u stanicu domaćina i preuzme njen metabolički aparat za reprodukciju virusa?",
+        "correct_answer": "Infekcija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Rekombinacija",
+            "Transkripcija"
+        ],
+        "explanation": "Infekcija je proces u kojem patogeni mikroorganizam, poput virusa, napada stanicu ili organizam, množi se i uzrokuje bolest.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1289",
+        "category": "znanost",
+        "question": "Kako se naziva superračunalo ili mreža koja teoretski nadilazi intelektualne sposobnosti najpametnijih ljudi?",
+        "correct_answer": "Superinteligencija (ASI)",
+        "incorrect_answers": [
+            "Umjetna opća inteligencija (AGI)",
+            "Kvantno računanje",
+            "Singularnost"
+        ],
+        "explanation": "Superinteligencija je hipotetska razina inteligencije koja bi značajno nadmašila najpametnije ljudske umove u gotovo svim relevantnim područjima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1290",
+        "category": "znanost",
+        "question": "Koji je znanstvenik razvio cjepivo protiv dječje paralize 1950-ih?",
+        "correct_answer": "Jonas Salk",
+        "incorrect_answers": [
+            "Louis Pasteur",
+            "Alexander Fleming",
+            "Robert Koch"
+        ],
+        "explanation": "Jonas Salk razvio je prvo učinkovito cjepivo protiv dječje paralize, koje je javnosti predstavljeno 1955. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1291",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju česticu svjetlosti?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Neutron",
+            "Proton",
+            "Kvant"
+        ],
+        "explanation": "Foton je elementarna čestica i kvant svjetlosti, tj. elektromagnetskog zračenja, koja djeluje kao nosilac elektromagnetske sile.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1292",
+        "category": "znanost",
+        "question": "Koji je naziv za znanost koja proučava prošlost Zemlje, njenu strukturu i procese koji su je oblikovali?",
+        "correct_answer": "Geologija",
+        "incorrect_answers": [
+            "Meteorologija",
+            "Oceanografija",
+            "Paleontologija"
+        ],
+        "explanation": "Geologija je znanost koja se bavi proučavanjem Zemlje, njenog sastava, strukture, fizikalnih svojstava i povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1293",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za mrežu računala koja mogu međusobno dijeliti resurse i podatke?",
+        "correct_answer": "Računalna mreža",
+        "incorrect_answers": [
+            "Baza podataka",
+            "Operacijski sustav",
+            "Algoritam"
+        ],
+        "explanation": "Računalna mreža je sustav koji omogućuje međusobnu komunikaciju i dijeljenje resursa između dva ili više računala.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1294",
+        "category": "znanost",
+        "question": "Koji je pojam u biologiji za skupinu organizama koji se mogu međusobno križati i davati plodno potomstvo?",
+        "correct_answer": "Vrsta",
+        "incorrect_answers": [
+            "Rod",
+            "Red",
+            "Klasa"
+        ],
+        "explanation": "Vrsta je osnovna taksonomska kategorija koja okuplja organizme sposobne za međusobno razmnožavanje i stvaranje plodnog potomstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1295",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje praćenje zdravstvenih parametara poput otkucaja srca ili broja koraka putem nosivih uređaja?",
+        "correct_answer": "Nosiva tehnologija (Wearable technology)",
+        "incorrect_answers": [
+            "Implantati",
+            "Biometrija",
+            "Telemedicina"
+        ],
+        "explanation": "Nosiva tehnologija odnosi se na elektroničke uređaje koji se nose na tijelu i prate različite zdravstvene i fizičke podatke korisnika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1296",
+        "category": "znanost",
+        "question": "Koji je kemijski element najlakši inertni plin?",
+        "correct_answer": "Helij",
+        "incorrect_answers": [
+            "Neon",
+            "Argon",
+            "Kripton"
+        ],
+        "explanation": "Helij je drugi najlakši element i najlakši inertni plin, s atomskim brojem 2, poznat po svojoj nereaktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1297",
+        "category": "znanost",
+        "question": "Koji je naziv za znanost koja se bavi proučavanjem vremenskih pojava i atmosfere?",
+        "correct_answer": "Meteorologija",
+        "incorrect_answers": [
+            "Klimatologija",
+            "Geografija",
+            "Oceanografija"
+        ],
+        "explanation": "Meteorologija je znanstvena disciplina koja proučava Zemljinu atmosferu, vremenske pojave i procese, uključujući predviđanje vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1298",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija bubrega u ljudskom tijelu?",
+        "correct_answer": "Filtracija krvi i stvaranje mokraće",
+        "incorrect_answers": [
+            "Proizvodnja žuči",
+            "Regulacija tjelesne temperature",
+            "Probava hrane"
+        ],
+        "explanation": "Bubrezi su vitalni organi koji filtriraju otpadne proizvode iz krvi i reguliraju ravnotežu vode i elektrolita, stvarajući mokraću.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1299",
+        "category": "znanost",
+        "question": "Koji je naziv za fenomen kada se zvuk odbija od prepreke i vraća se prema izvoru?",
+        "correct_answer": "Eho",
+        "incorrect_answers": [
+            "Rezonancija",
+            "Dopplerov efekt",
+            "Interferencija"
+        ],
+        "explanation": "Eho je zvučni val koji se odbija od prepreke i vraća se do slušatelja, stvarajući ponovljenu percepciju izvornog zvuka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1300",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja koristi svjetlosne signale umjesto električnih impulsa za prijenos podataka?",
+        "correct_answer": "Optička komunikacija",
+        "incorrect_answers": [
+            "Radiokomunikacija",
+            "Akustična komunikacija",
+            "Kvantna komunikacija"
+        ],
+        "explanation": "Optička komunikacija uključuje prijenos informacija putem svjetlosnih valova kroz optička vlakna ili kroz slobodan prostor, omogućujući brzi prijenos podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1301",
+        "category": "znanost",
+        "question": "Koji je naziv za tip zvijezde koja je dosegla kraj svog životnog ciklusa i izbacila svoje vanjske slojeve, ostavljajući iza sebe gustu jezgru?",
+        "correct_answer": "Bijeli patuljak",
+        "incorrect_answers": [
+            "Crveni div",
+            "Crna rupa",
+            "Pulsar"
+        ],
+        "explanation": "Bijeli patuljak je gusta zvjezdana jezgra koja ostaje nakon što zvijezda niske ili srednje mase potroši svoje nuklearno gorivo i odbaci svoje vanjske slojeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1302",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje ukupne mase tvari u određenom volumenu?",
+        "correct_answer": "Gustoća",
+        "incorrect_answers": [
+            "Težina",
+            "Tlak",
+            "Viskoznost"
+        ],
+        "explanation": "Gustoća je fizikalna veličina koja se definira kao omjer mase tvari i volumena koji ta tvar zauzima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1303",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se genetske informacije s RNA prevode u slijed aminokiselina za stvaranje proteina?",
+        "correct_answer": "Translacija",
+        "incorrect_answers": [
+            "Replikacija",
+            "Transkripcija",
+            "Mutacija"
+        ],
+        "explanation": "Translacija je proces u kojem se genetski kod iz mRNA koristi za sintezu proteina, odvija se na ribosomima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1304",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje komunikaciju vozila međusobno i s infrastrukturom (V2X)?",
+        "correct_answer": "Povezana vozila",
+        "incorrect_answers": [
+            "Autonomna vožnja",
+            "Telemetrija",
+            "Satelitska navigacija"
+        ],
+        "explanation": "Tehnologija povezanih vozila (V2X) omogućuje automobilima da komuniciraju s drugim vozilima, infrastrukturom, pješacima i mrežom radi povećanja sigurnosti i učinkovitosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1305",
+        "category": "znanost",
+        "question": "Koji je pojam za simulaciju rada sustava ili procesa kako bi se predvidjelo njegovo ponašanje?",
+        "correct_answer": "Modeliranje i simulacija",
+        "incorrect_answers": [
+            "Optimizacija",
+            "Kalibracija",
+            "Verifikacija"
+        ],
+        "explanation": "Modeliranje i simulacija su alati koji omogućuju stvaranje virtualnih prikaza stvarnih sustava za analizu i predviđanje njihovog ponašanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1306",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja koristi kemijske reakcije za izravnu pretvorbu kemijske energije u električnu?",
+        "correct_answer": "Gorivne ćelije",
+        "incorrect_answers": [
+            "Baterije",
+            "Generatori",
+            "Solarni paneli"
+        ],
+        "explanation": "Gorivne ćelije su elektrokemijski uređaji koji pretvaraju kemijsku energiju goriva, obično vodika, izravno u električnu energiju i toplinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
