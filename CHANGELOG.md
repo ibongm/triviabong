@@ -1,5 +1,11 @@
 # Changelog
 
+### [2026-10-11] - Root Firestore indexes file + rules suites verified
+- **Files Changed**:
+  - `firestore.indexes.json` (Created), `firestore.indexes.async-duels.json` (Deleted), `firebase.json` (Modified)
+  - `api/daily-challenge-payout.js` (Modified, comment only), `HANDOFF.md` (Modified, section 5.3)
+- **Details**: Exported the live index set (`firebase firestore:indexes` - it was empty), put the 4 `asyncDuels` composite indexes into a new root `firestore.indexes.json` and wired it into `firebase.json` (`firestore.indexes`), so `firebase deploy --only firestore:indexes` is now safe (live set + new, nothing to delete). Removed the superseded `firestore.indexes.async-duels.json`. Ran all 6 `scripts/firestore-rules-*.test.mjs` suites against the Firestore emulator - all pass (async-duels 80, weekly-boards 58, leagues 71, explanations 11, counters 21, playtime 12); no `firestore.rules` changes were needed. Nothing deployed.
+
 ### [2026-10-10] - Engagement plan Phase 6: private leagues (dark)
 - **Files Changed**:
   - `src/utils/league.js` (Created), `src/utils/league.test.js` (Created), `src/constants/rulesCaps.test.js` (Modified)

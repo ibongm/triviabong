@@ -248,7 +248,7 @@ export const getYesterdayZagrebDateKey = (now = new Date()) => {
 // otherwise sit in the pool until someone's query skips them).
 //
 // Bounded (SWEEP_LIMIT per run - the next night's run takes the rest), uses
-// the (status, expiresAt) composite index from firestore.indexes.async-duels.json,
+// the (status, expiresAt) composite index from firestore.indexes.json,
 // and NEVER throws: it runs independently of the Daily Challenge payout so a
 // failure here (missing index, quota) can't block or fail the payout.
 const SWEEP_LIMIT = 500;
