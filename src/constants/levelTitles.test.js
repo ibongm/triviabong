@@ -18,7 +18,7 @@ describe('LEVEL_TITLES', () => {
 describe('getTitleForLevel', () => {
     it('maps level 1 to the first title and level 50 to the last', () => {
         expect(getTitleForLevel(1)).toBe('Slučajni Prolaznik');
-        expect(getTitleForLevel(50)).toBe('Trivia Bong');
+        expect(getTitleForLevel(50)).toBe('Legenda Kviz Arene');
     });
 
     it('clamps below 1 and above 50', () => {

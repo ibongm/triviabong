@@ -39,12 +39,12 @@ export const getCoinsForLevelUp = (newLevel) => {
     return base + (newLevel % 10 === 0 ? 25 : 0);
 };
 
-export const TIER_NAMES = ['Novice', 'Contender', 'Veteran', 'Master', 'Grandmaster', 'Trivia Bong'];
+export const TIER_NAMES = ['Novice', 'Contender', 'Veteran', 'Master', 'Grandmaster', 'Legenda Kviz Arene'];
 
 // XP/level is uncapped (see computeLevelFromXp above), but the tier/star
 // visuals only have art for levels 1-MAX_TITLED_LEVEL, same range
 // getTitleForLevel clamps to - so a level past that still resolves to the
-// top ("Trivia Bong") tier instead of an out-of-bounds TIER_NAMES index.
+// top ("Legenda Kviz Arene") tier instead of an out-of-bounds TIER_NAMES index.
 export const getLevelTierIndex = (level) => {
     const clamped = Math.max(1, Math.min(level || 1, MAX_TITLED_LEVEL));
     return clamped === MAX_TITLED_LEVEL ? 5 : Math.floor(clamped / 10);

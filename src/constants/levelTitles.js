@@ -50,7 +50,7 @@ export const LEVEL_TITLES = [
     "Vrhovni Arbitar",          // Lvl 47
     "Kviz Fenomen",             // Lvl 48
     "Kviz Titan",               // Lvl 49
-    "Trivia Bong",              // Lvl 50
+    "Legenda Kviz Arene",       // Lvl 50 (renamed from "Trivia Bong" for the KvizArena rebrand)
 ];
 
 export const MAX_TITLED_LEVEL = LEVEL_TITLES.length;
