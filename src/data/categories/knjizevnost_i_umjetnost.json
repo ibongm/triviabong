@@ -13489,5 +13489,305 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1154",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski renesansni umjetnik, poznat kao \"univerzalni genij\", autor \"Mona Lise\" i \"Posljednje večere\"?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo Buonarroti",
+            "Raffaello Sanzio",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci bio je polimat renesanse, poznat po svojim remek-djelima poput Mona Lise i Posljednje večere, koje su obilježile povijest umjetnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1155",
+        "category": "knjizevnost",
+        "question": "Koja je engleska gotička spisateljica, poznata po romanu \"Frankenstein\", koji se često smatra prvim znanstvenofantastičnim romanom?",
+        "correct_answer": "Mary Shelley",
+        "incorrect_answers": [
+            "Jane Austen",
+            "Emily Brontë",
+            "Virginia Woolf"
+        ],
+        "explanation": "Mary Shelley napisala je \"Frankenstein\" 1818. godine, djelo koje istražuje etičke granice znanosti i često se navodi kao pionir znanstvene fantastike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1156",
+        "category": "knjizevnost",
+        "question": "Koji je francuski impresionistički slikar, poznat po serijama slika lopoča, katedrala i stogova sijena?",
+        "correct_answer": "Claude Monet",
+        "incorrect_answers": [
+            "Pierre-Auguste Renoir",
+            "Edgar Degas",
+            "Vincent van Gogh"
+        ],
+        "explanation": "Claude Monet bio je vodeća figura impresionizma, a njegove serije slika, poput onih s lopočima, uhvatile su promjenjivost svjetla i atmosfere.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1157",
+        "category": "knjizevnost",
+        "question": "Koji je ruski književnik, autor epskog romana \"Rat i mir\" i \"Ana Karenjina\", poznat po svojim filozofskim i moralnim razmatranjima?",
+        "correct_answer": "Lav Tolstoj",
+        "incorrect_answers": [
+            "Fjodor Dostojevski",
+            "Anton Čehov",
+            "Ivan Turgenjev"
+        ],
+        "explanation": "Lav Nikolajevič Tolstoj jedan je od najvećih ruskih književnika, čija djela \"Rat i mir\" i \"Ana Karenjina\" duboko analiziraju društvo i ljudsku prirodu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1158",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski nadrealistički slikar, poznat po svojim ekscentričnim djelima poput \"Postojanosti pamćenja\" (meki satovi)?",
+        "correct_answer": "Salvador Dalí",
+        "incorrect_answers": [
+            "René Magritte",
+            "Joan Miró",
+            "Pablo Picasso"
+        ],
+        "explanation": "Salvador Dalí bio je ključna figura nadrealizma, čije su se slike isticale bizarnim i sanjivim prikazima, poput rastopljenih satova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1159",
+        "category": "knjizevnost",
+        "question": "Koja je engleska spisateljica, autorica detektivskih romana s likovima Herculea Poirota i Miss Marple, poznata kao \"Kraljica krimića\"?",
+        "correct_answer": "Agatha Christie",
+        "incorrect_answers": [
+            "Patricia Highsmith",
+            "Dorothy L. Sayers",
+            "P.D. James"
+        ],
+        "explanation": "Agatha Christie je najprodavanija autorica svih vremena, čija su djela postavila standarde za detektivski žanr s inteligentnim zapletima i nezaboravnim likovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1160",
+        "category": "knjizevnost",
+        "question": "Koji je njemački kompozitor iz baroknog razdoblja, poznat po djelima poput \"Brandeburški koncerti\" i \"Misa u h-molu\"?",
+        "correct_answer": "Johann Sebastian Bach",
+        "incorrect_answers": [
+            "Georg Friedrich Händel",
+            "Antonio Vivaldi",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "Johann Sebastian Bach bio je jedan od najvećih kompozitora baroka, čije je djelo imalo ogroman utjecaj na razvoj zapadne klasične glazbe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1161",
+        "category": "knjizevnost",
+        "question": "Koji je američki književnik, poznat po distopijskom romanu \"1984\" i alegorijskoj priči \"Životinjska farma\"?",
+        "correct_answer": "George Orwell",
+        "incorrect_answers": [
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "Philip K. Dick"
+        ],
+        "explanation": "George Orwell je pseudonim za Erica Blaira, čija su djela \"1984\" i \"Životinjska farma\" snažne kritike totalitarizma i političke manipulacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1162",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski postimpresionistički slikar, poznat po svom intenzivnom koloritu i ekspresivnim djelima poput \"Zvjezdane noći\" i \"Suncokreta\"?",
+        "correct_answer": "Vincent van Gogh",
+        "incorrect_answers": [
+            "Paul Gauguin",
+            "Paul Cézanne",
+            "Henri Matisse"
+        ],
+        "explanation": "Vincent van Gogh bio je jedan od najutjecajnijih postimpresionističkih slikara, čiji su radovi prepoznatljivi po snažnim bojama i emotivnom izražaju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1163",
+        "category": "knjizevnost",
+        "question": "Koja je grčka mitološka figura, kipar koji se zaljubio u vlastitu skulpturu od bjelokosti, Galateju, koja je potom oživjela?",
+        "correct_answer": "Pigmalion",
+        "incorrect_answers": [
+            "Orfej",
+            "Dedal",
+            "Prometej"
+        ],
+        "explanation": "Pigmalion je mitski kipar s Cipra koji je isklesao savršenu ženu, Galateju, u koju se zaljubio, a božica Afrodita ju je na njegovu molbu oživjela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1164",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski umjetnik, poznat po svojim dramatičnim i ekspresivnim slikama u manirističkom stilu, autor djela \"Uzašašće Marijino\" i \"Bogojavljenje\"?",
+        "correct_answer": "Tintoretto",
+        "incorrect_answers": [
+            "Titian",
+            "Veronese",
+            "Giorgione"
+        ],
+        "explanation": "Tintoretto, pravim imenom Jacopo Comin, bio je jedan od glavnih predstavnika venecijanskog slikarstva visoke renesanse i manirizma, poznat po dramatičnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1165",
+        "category": "knjizevnost",
+        "question": "Koji je američki pisac, autor romana \"Lovac u žitu\", koji prati tinejdžera Holdena Caulfielda?",
+        "correct_answer": "J. D. Salinger",
+        "incorrect_answers": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "John Steinbeck"
+        ],
+        "explanation": "J. D. Salinger je najpoznatiji po svom romanu \"Lovac u žitu\" (The Catcher in the Rye) iz 1951., koji je postao klasik adolescentske književnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1166",
+        "category": "knjizevnost",
+        "question": "Koji je arhitektonski stil, karakterističan za razdoblje od 17. do sredine 18. stoljeća, obilježen bogatom ornamentikom, dramatičnošću i zakrivljenim linijama?",
+        "correct_answer": "Barok",
+        "incorrect_answers": [
+            "Gotika",
+            "Renesansa",
+            "Rokoko"
+        ],
+        "explanation": "Barok je umjetnički stil koji se razvijao od 17. do sredine 18. stoljeća, a karakteriziraju ga raskoš, dinamika, jake emocije i složene forme.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1167",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac, autor djela \"Jadnici\" i \"Zvonar crkve Notre-Dame\", istaknuti predstavnik romantizma?",
+        "correct_answer": "Victor Hugo",
+        "incorrect_answers": [
+            "Alexandre Dumas",
+            "Gustave Flaubert",
+            "Émile Zola"
+        ],
+        "explanation": "Victor Hugo bio je jedan od najvećih francuskih pisaca, čija su djela poput \"Jadnika\" ostavila dubok trag u svjetskoj književnosti i kulturi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1168",
+        "category": "knjizevnost",
+        "question": "Koji je grčki epski pjesnik, tradicionalno smatran autorom \"Ilijade\" i \"Odiseje\"?",
+        "correct_answer": "Homer",
+        "incorrect_answers": [
+            "Vergilije",
+            "Hesiod",
+            "Ovidije"
+        ],
+        "explanation": "Homer je legendarni starogrčki pjesnik, kojem se pripisuju dva najvažnija djela zapadne književnosti, epovi \"Ilijada\" i \"Odiseja\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1169",
+        "category": "knjizevnost",
+        "question": "Koji je poljski pisac, dobitnik Nobelove nagrade, autor povijesnog romana \"Quo Vadis\" smještenog u vrijeme Nerona?",
+        "correct_answer": "Henryk Sienkiewicz",
+        "incorrect_answers": [
+            "Bolesław Prus",
+            "Adam Mickiewicz",
+            "Czesław Miłosz"
+        ],
+        "explanation": "Henryk Sienkiewicz, dobitnik Nobelove nagrade za književnost 1905., svjetsku slavu stekao je romanom \"Quo Vadis\", koji opisuje progon kršćana u Rimu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1170",
+        "category": "knjizevnost",
+        "question": "Koji je bečki psihijatar i osnivač psihoanalize, čiji je rad utjecao na književnost i umjetnost 20. stoljeća?",
+        "correct_answer": "Sigmund Freud",
+        "incorrect_answers": [
+            "Carl Jung",
+            "Alfred Adler",
+            "Jacques Lacan"
+        ],
+        "explanation": "Sigmund Freud, osnivač psihoanalize, svojim je teorijama o nesvjesnom i ljudskoj psihi duboko utjecao na brojne umjetnike i književnike 20. stoljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1171",
+        "category": "knjizevnost",
+        "question": "Koja je engleska dramatičarka i pjesnikinja, poznata po svojim feminističkim djelima, autorica drame \"Top Girls\" i scenarija za film \"Orlando\"?",
+        "correct_answer": "Caryl Churchill",
+        "incorrect_answers": [
+            "Sarah Kane",
+            "Alan Ayckbourn",
+            "Harold Pinter"
+        ],
+        "explanation": "Caryl Churchill je britanska dramatičarka poznata po inovativnim i često politički angažiranim dramama koje propituju rodne uloge i društvene strukture.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1172",
+        "category": "knjizevnost",
+        "question": "Koja je njemačka kompozitorica i pijanistica iz romantičnog razdoblja, supruga Roberta Schumanna, čiji su se koncerti i djela smatrali iznimnima?",
+        "correct_answer": "Clara Schumann",
+        "incorrect_answers": [
+            "Fanny Mendelssohn",
+            "Alma Mahler",
+            "Cécile Chaminade"
+        ],
+        "explanation": "Clara Schumann bila je jedna od najistaknutijih pijanistica i kompozitorica svog doba, čiji je virtuozitet i umjetnička vještina fascinirala publiku diljem Europe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_art_1173",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret s početka 20. stoljeća, karakteriziran intenzivnim, nerealnim bojama i vidljivim potezima kista, čiji je naziv francuska riječ za \"divlje zvijeri\"?",
+        "correct_answer": "Fovizam",
+        "incorrect_answers": [
+            "Kubizam",
+            "Ekspresionizam",
+            "Futurizam"
+        ],
+        "explanation": "Fovizam je bio prvi avangardni pokret 20. stoljeća, poznat po radikalnom korištenju čistih, jarkih boja koje nisu imale veze s realnošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
