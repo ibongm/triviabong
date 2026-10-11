@@ -1,4 +1,4 @@
-// Drives TriviaBong end-to-end in headless Chromium and reports pass/fail.
+// Drives KvizArena end-to-end in headless Chromium and reports pass/fail.
 // Run as a single script, NOT a REPL fed via stdin - see SKILL.md Gotchas for
 // why (spawning the Chromium child process corrupts the parent's stdout on
 // this Windows setup once a long-lived process keeps reading further stdin

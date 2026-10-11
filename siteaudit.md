@@ -1,4 +1,4 @@
-# Triviabong Tri-Agent Audit & Review Plan
+# KvizArena Tri-Agent Audit & Review Plan
 
 ## 1. Overview & Delegation Architecture
 
@@ -79,7 +79,7 @@ To perform a thorough review of the entire codebase for bugs, state race conditi
 
 ### A. Copy-Paste Prompt for Claude Code
 ```markdown
-You are assigned as Claude Code to perform an in-depth security, backend, and Firestore audit for Triviabong.
+You are assigned as Claude Code to perform an in-depth security, backend, and Firestore audit for KvizArena.
 
 ### Audit Targets:
 1. `firestore.rules` & `firestore.indexes.json`
@@ -103,7 +103,7 @@ You are assigned as Claude Code to perform an in-depth security, backend, and Fi
 
 ### B. Copy-Paste Prompt for Grok Build
 ```markdown
-You are assigned as Grok Build to perform a UI/UX, Component, Custom Hook, and E2E Test Suite audit for Triviabong.
+You are assigned as Grok Build to perform a UI/UX, Component, Custom Hook, and E2E Test Suite audit for KvizArena.
 
 ### Audit Targets:
 1. Screen components: `src/screens/LobbyScreen.jsx`, `src/screens/PlayingScreen.jsx`, `src/screens/GameOverScreen.jsx`, `src/screens/LeaderboardScreen.jsx`, `src/screens/AsyncDuelScreen.jsx`

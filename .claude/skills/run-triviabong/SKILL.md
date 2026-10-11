@@ -1,9 +1,9 @@
 ---
 name: run-triviabong
-description: Start the TriviaBong Vite dev server and run it end-to-end in headless Chromium (pick a category, play through questions, use jokers, reach game-over/victory, save a score), verify stats sync correctly across devices, and/or verify the 1v1 live-invite match flow with two concurrently active browser contexts. Use when asked to run, start, screenshot, or verify TriviaBong's UI works after a change.
+description: Start the KvizArena Vite dev server and run it end-to-end in headless Chromium (pick a category, play through questions, use jokers, reach game-over/victory, save a score), verify stats sync correctly across devices, and/or verify the 1v1 live-invite match flow with two concurrently active browser contexts. Use when asked to run, start, screenshot, or verify KvizArena's UI works after a change.
 ---
 
-TriviaBong is a React SPA (Vite dev server, no backend). There's no
+KvizArena is a React SPA (Vite dev server, no backend). There's no
 `chromium-cli` or `tmux` on this Windows dev machine, and — see
 Gotchas — a long-lived process that keeps reading commands from stdin
 after launching a headless Chromium child process is unreliable here.
