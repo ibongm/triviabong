@@ -50,3 +50,28 @@ export const resolveBothCredentials = (url) => ({
     p1: { email: P1_EMAIL, password: requirePassword('E2E_PASSWORD', url) },
     p2: { email: P2_EMAIL, password: requirePassword('E2E_PASSWORD_2', url) },
 });
+
+/**
+ * Pre-acknowledge the one-time "Što je novo" announcement (App.jsx,
+ * WHATS_NEW_SEEN_KEY). Fresh contexts have empty localStorage, so without
+ * this the modal covers every screenshot and, via isAnyModalOpen, pauses the
+ * question timer. Update the key here if the announcement is ever replaced.
+ */
+export const dismissWhatsNew = (context) =>
+    context.addInitScript(() => {
+        try { localStorage.setItem('triviabong_seen_economy_v2_announcement', '1'); } catch { /* storage blocked */ }
+    });
+
+/**
+ * Give the anonymous player a coin balance (a new account starts with 15,
+ * which can't afford even two jokers). Written only when absent, so a page
+ * reload keeps the real balance instead of resetting it. loadStats merges the
+ * partial object over DEFAULT_GLOBAL_STATS and migrates it.
+ */
+export const seedAnonCoins = (context, coins) =>
+    context.addInitScript((n) => {
+        try {
+            const key = 'triviabong_global_stats:anon';
+            if (!localStorage.getItem(key)) localStorage.setItem(key, JSON.stringify({ coins: n }));
+        } catch { /* storage blocked */ }
+    }, coins);

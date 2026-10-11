@@ -73,7 +73,7 @@ export default function LobbyScreen({
         <div className="space-y-6">
             <div className="text-center space-y-2">
                 <h1 className="text-3xl sm:text-4xl font-display font-bold tracking-tight text-white">
-                    Izaberi Kategoriju Kvizova
+                    Odaberi kategoriju kvizova
                 </h1>
                 <p className="text-slate-400 text-sm">
                     Testirajte svoje znanje, skupljajte bodove i penjite se na ljestvicu!
@@ -214,18 +214,18 @@ export default function LobbyScreen({
             {asyncDuelsEnabled && currentUser && (
                 <button
                     onClick={() => { sound.playClick(); onShowAsyncDuelsModal(); }}
-                    className="w-full flex items-center justify-between p-3.5 rounded-2xl border border-emerald-500/25 bg-emerald-500/5 hover:bg-emerald-500/10 transition-all active:scale-[0.98]"
+                    className="w-full flex items-center justify-between gap-2 p-3.5 rounded-2xl border border-emerald-500/25 bg-emerald-500/5 hover:bg-emerald-500/10 transition-all active:scale-[0.98]"
                 >
-                    <div className="flex items-center gap-2.5">
-                        <Swords className="w-4 h-4 text-emerald-400" />
-                        <span className="text-sm font-bold text-slate-200">Izazovi — dvoboj bez čekanja</span>
+                    <div className="flex items-center gap-2.5 min-w-0">
+                        <Swords className="w-4 h-4 text-emerald-400 shrink-0" />
+                        <span className="text-sm font-bold text-slate-200 text-left leading-snug">Izazovi — dvoboj bez čekanja</span>
                     </div>
                     {pendingChallengeCount > 0 ? (
-                        <span className="text-xs font-black text-slate-950 bg-emerald-400 rounded-full px-2.5 py-0.5">
+                        <span className="shrink-0 text-xs font-black text-slate-950 bg-emerald-400 rounded-full px-2.5 py-0.5 whitespace-nowrap">
                             Imaš {pendingChallengeCount} {pendingChallengeCount === 1 ? 'izazov' : 'izazova'}
                         </span>
                     ) : (
-                        <ChevronRight className="w-4 h-4 text-emerald-500/60" />
+                        <ChevronRight className="w-4 h-4 text-emerald-500/60 shrink-0" />
                     )}
                 </button>
             )}
@@ -302,7 +302,7 @@ export default function LobbyScreen({
                         sound.playClick();
                         onShowSubmitQuestionModal();
                     }}
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-400 hover:text-amber-400 transition-colors active:scale-95"
+                    className="inline-flex items-center gap-1.5 min-h-[44px] px-3 py-2.5 rounded-xl text-xs font-bold text-slate-400 hover:text-amber-400 transition-colors active:scale-95"
                 >
                     <PenSquare className="w-3.5 h-3.5" /> Predloži pitanje
                 </button>

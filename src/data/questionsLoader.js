@@ -51,7 +51,7 @@ const loadPacks = () => {
     return packsPromise;
 };
 
-// getAllQuestions() flattens+dedupes ~1500 questions - memoized so the 4
+// getAllQuestions() flattens+dedupes all category questions - memoized so the 4
 // call sites across the app don't each redo that work on every call.
 let allQuestionsCache = null;
 const dedupeQuestions = (packs) => {

@@ -266,7 +266,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
             clearTimeout(timer);
             setRevealTimeLeft(REVEAL_DURATION_SECONDS);
         };
-    }, [match?.status, match?.currentQuestionIndex]);
+    }, [match?.status, match?.currentQuestionIndex, match, matchId]);
 
     // ---- Write match history + notify parent when match completes ----
     useEffect(() => {

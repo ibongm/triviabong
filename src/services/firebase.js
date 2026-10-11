@@ -578,8 +578,8 @@ export const WORST_QUESTIONS_LIMIT = 100;
  *
  * Reading every counter doc was measured at ~2,900 reads per cold admin load
  * on 2026-08-22 (2,852 docs), because the collection is bounded by the number
- * of DISTINCT QUESTIONS ANSWERED - and this app has 5,949 questions, not the
- * ~1,492 stated in CLAUDE.md. So the original bound was real but weak: roughly
+ * of DISTINCT QUESTIONS ANSWERED - bounded dynamically by the question pool size.
+ * So the original bound was real: ordering by the denormalized `wrong` field
  * 2x better than the raw-attempt scan it replaced, drifting worse as coverage
  * grows. Ordering by the denormalized `wrong` field (already stored so
  * firestore.rules can verify wrong == total - correct) makes this a bounded

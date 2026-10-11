@@ -80,9 +80,9 @@ export default function PlayingScreen({
                         <button
                             type="button"
                             onClick={() => { sound.playClick(); onShowReportModal(); }}
-                            className="flex items-center gap-1 text-slate-500 hover:text-rose-400 border border-slate-800 hover:border-rose-500/30 rounded-lg px-1.5 py-1 transition-colors active:scale-90"
+                            className="flex items-center gap-1 text-slate-500 hover:text-rose-400 border border-slate-800 hover:border-rose-500/30 rounded-lg px-2.5 py-1.5 min-h-[36px] transition-colors active:scale-90"
                         >
-                            <Flag className="w-3.5 h-3.5" />
+                            <Flag className="w-3.5 h-3.5 shrink-0" />
                             <span>Prijavi pitanje</span>
                         </button>
                     </div>
@@ -123,7 +123,7 @@ export default function PlayingScreen({
                                     <span className="hidden sm:inline-flex items-center justify-center w-5 h-5 rounded-md bg-slate-800/80 border border-slate-700/80 text-[10px] font-black text-amber-400/90 shrink-0">
                                         {idx + 1}
                                     </span>
-                                    <span className="truncate">{option}</span>
+                                    <span className="break-words text-wrap leading-snug">{option}</span>
                                 </div>
                             </button>
                         );
@@ -158,36 +158,36 @@ export default function PlayingScreen({
                 <div className="flex justify-center gap-2 pt-2 border-t border-slate-800/80">
                     <button
                         disabled={fiftyFiftyLocked}
-                        title={fiftyFiftyShort ? `Cijena: ${JOKER_COSTS.fiftyFifty}c (imaš ${coins}c)` : undefined}
+                        title={fiftyFiftyShort ? `Cijena: ${JOKER_COSTS.fiftyFifty}z (imaš ${coins}z)` : undefined}
                         onClick={() => {
-                            if (fiftyFiftyShort) { onShowJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.fiftyFifty}c)`); return; }
+                            if (fiftyFiftyShort) { onShowJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.fiftyFifty}z)`); return; }
                             onActivateFiftyFifty();
                         }}
-                        className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!fiftyFiftyLocked && fiftyFiftyShort ? 'opacity-40' : ''}`}
+                        className={`px-3 py-2.5 min-h-[44px] rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center justify-center gap-1 active:scale-95 active:brightness-95 ${!fiftyFiftyLocked && fiftyFiftyShort ? 'opacity-40' : ''}`}
                     >
-                        <Scissors className="w-3.5 h-3.5 text-amber-400" /> 50:50 ({JOKER_COSTS.fiftyFifty}c)
+                        <Scissors className="w-3.5 h-3.5 text-amber-400 shrink-0" /> 50:50 ({JOKER_COSTS.fiftyFifty}z)
                     </button>
                     <button
                         disabled={plusTenLocked}
-                        title={plusTenShort ? `Cijena: ${JOKER_COSTS.plusTen}c (imaš ${coins}c)` : undefined}
+                        title={plusTenShort ? `Cijena: ${JOKER_COSTS.plusTen}z (imaš ${coins}z)` : undefined}
                         onClick={() => {
-                            if (plusTenShort) { onShowJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.plusTen}c)`); return; }
+                            if (plusTenShort) { onShowJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.plusTen}z)`); return; }
                             onActivatePlusTen();
                         }}
-                        className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!plusTenLocked && plusTenShort ? 'opacity-40' : ''}`}
+                        className={`px-3 py-2.5 min-h-[44px] rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center justify-center gap-1 active:scale-95 active:brightness-95 ${!plusTenLocked && plusTenShort ? 'opacity-40' : ''}`}
                     >
-                        <Clock className="w-3.5 h-3.5 text-amber-400" /> +{PLUS_TEN_SECONDS}s ({JOKER_COSTS.plusTen}c)
+                        <Clock className="w-3.5 h-3.5 text-amber-400 shrink-0" /> +{PLUS_TEN_SECONDS}s ({JOKER_COSTS.plusTen}z)
                     </button>
                     <button
                         disabled={skipLocked}
-                        title={skipShort ? `Cijena: ${JOKER_COSTS.skip}c (imaš ${coins}c)` : undefined}
+                        title={skipShort ? `Cijena: ${JOKER_COSTS.skip}z (imaš ${coins}z)` : undefined}
                         onClick={() => {
-                            if (skipShort) { onShowJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.skip}c)`); return; }
+                            if (skipShort) { onShowJokerMessage(`Nemaš dovoljno zlatnika (potrebno ${JOKER_COSTS.skip}z)`); return; }
                             onActivateSkip();
                         }}
-                        className={`px-3 py-2 rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center gap-1 active:scale-95 active:brightness-95 ${!skipLocked && skipShort ? 'opacity-40' : ''}`}
+                        className={`px-3 py-2.5 min-h-[44px] rounded-xl bg-slate-950 hover:bg-slate-800 border border-slate-800 text-xs font-bold text-slate-300 disabled:opacity-40 flex items-center justify-center gap-1 active:scale-95 active:brightness-95 ${!skipLocked && skipShort ? 'opacity-40' : ''}`}
                     >
-                        <FastForward className="w-3.5 h-3.5 text-amber-400" /> Preskoči ({JOKER_COSTS.skip}c)
+                        <FastForward className="w-3.5 h-3.5 text-amber-400 shrink-0" /> Preskoči ({JOKER_COSTS.skip}z)
                     </button>
                 </div>
                 {jokerMessage && (

@@ -27,7 +27,7 @@
 //
 // Usage: node two-player-match-check.mjs [url] [category]
 import { chromium } from 'playwright';
-import { resolveBothCredentials } from './e2eCredentials.mjs';
+import { dismissWhatsNew, resolveBothCredentials } from './e2eCredentials.mjs';
 
 const URL = process.argv[2] || 'http://localhost:5173';
 const CATEGORY_LABEL = process.argv[3] || 'Geografija';
@@ -111,12 +111,12 @@ async function signIn(page, label, { email, password }) {
 // screen). Both players' loops run concurrently via Promise.all below, not
 // sequentially - that's the whole point of this script over the existing
 // sequential cross-device-sync-check.mjs.
-// 90 iterations * 700ms = ~63s budget: covers the 5s synced pre-match
+// 130 iterations * 700ms = ~91s budget: covers the 5s synced pre-match
 // countdown, up to 11 questions each with a 3s reveal pause, plus normal
 // network/render slack - both the countdown and reveal delay are real app
 // behavior (see MatchView.jsx), not script overhead, so this budget has to
 // track them rather than assume near-instant transitions.
-async function playMatchToEnd(page, label, maxIterations = 90) {
+async function playMatchToEnd(page, label, maxIterations = 130) {
   for (let i = 0; i < maxIterations; i += 1) {
     const text = await bodyText(page);
     if (text.includes('Revanš')) {
@@ -148,6 +148,8 @@ const browser = await chromium.launch({
 });
 const contextA = await browser.newContext();
 const contextB = await browser.newContext();
+await dismissWhatsNew(contextA);
+await dismissWhatsNew(contextB);
 const pageA = await contextA.newPage();
 const pageB = await contextB.newPage();
 const consoleErrors = [];

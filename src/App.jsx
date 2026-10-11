@@ -7,7 +7,6 @@ import kvizArenaLogo from './assets/kvizarena-logo.png';
 import { getQuestionsByCategory, getAllCategories } from './data/questionsLoader';
 import { getDailyChallengeQuestions } from './utils/dailySeed';
 import { checkIsCorrect } from './utils/categoryDisplay';
-import { DEFAULT_GLOBAL_STATS } from './constants/defaultGlobalStats';
 import {
   MAX_LIVES,
   QUESTIONS_PER_ROUND,
@@ -16,15 +15,14 @@ import {
   BASE_SCORE,
   SPEED_BONUS_PER_SECOND,
   STREAK_MULTIPLIER_STEP,
-  XP_PER_CORRECT_ANSWER,
   JOKER_COSTS
 } from './constants/gameBalance';
 import { getCoinsForLevelUp } from './utils/leveling';
 import { getTitleForLevel } from './constants/levelTitles';
-import { evaluateAchievements, mergeUnlockedAchievements, computeDayStreakUpdate, mentionsHarryPotter, getZagrebDateString } from './utils/achievements';
+import { evaluateAchievements, mergeUnlockedAchievements, mentionsHarryPotter, getZagrebDateString } from './utils/achievements';
 import { ACHIEVEMENTS, SVI_SMO_MI_MARIJA_ID } from './constants/achievements';
 import { mergeMonotonicStats } from './utils/statsMerge';
-import { loadStats, saveStats, migrateStats, getStorageKey } from './services/statsStore';
+import { loadStats, migrateStats } from './services/statsStore';
 import { sound } from './utils/sound';
 import { sanitizeDisplayName } from './utils/publicProfile';
 import { loadCachedRekordi, saveCachedRekordi } from './utils/rekordiCache';
@@ -610,6 +608,7 @@ export default function App() {
     if (!force) {
       const cached = loadCachedRekordi();
       if (cached) {
+        await Promise.resolve();
         setRekordiData(cached);
         return;
       }
@@ -661,61 +660,12 @@ export default function App() {
   // modal left the lobby preview stuck on "Učitavanje..." until the player
   // saved a score (the only other refreshRekordiData() call site).
   useEffect(() => {
-    refreshRekordiData();
+    queueMicrotask(() => {
+      refreshRekordiData();
+    });
   }, []);
 
   const isAnyModalOpen = showAdminPanel || showStatsModal || showGuideModal || showAchievementsModal || showRekordiModal || showOnlinePlayersModal || showAsyncDuelsModal || leaguesModalOpen || showAuthModal || showReportModal || showSubmitQuestionModal || showMissionsModal || showWhatsNewModal || showDailyConfirm;
-
-  useEffect(() => {
-    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
-
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        const next = prev - 1;
-        if (next <= 4 && next > 0) {
-          sound.playTick();
-        }
-        return Math.max(0, next);
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [gameState, selectedOption, isAnyModalOpen, currentIndex]);
-
-  // Fire the timeout exactly once when the countdown reaches 0. This lives in
-  // its own effect (keyed on timeLeft) because the interval effect above is
-  // intentionally NOT keyed on timeLeft and therefore can't observe the tick
-  // that hits zero. handleAnswerTimeout() sets selectedOption ('TIMEOUT'),
-  // which flips the guard below and prevents any re-fire.
-  useEffect(() => {
-    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
-    if (timeLeft <= 0) {
-      handleAnswerTimeout();
-    }
-  }, [timeLeft, gameState, selectedOption, isAnyModalOpen]);
-
-  useEffect(() => {
-    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen || !currentQ) return;
-
-    const handleKeyDown = (e) => {
-      if (['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
-
-      let optionIdx = -1;
-      if (['1', 'a', 'A'].includes(e.key)) optionIdx = 0;
-      else if (['2', 'b', 'B'].includes(e.key)) optionIdx = 1;
-      else if (['3', 'c', 'C'].includes(e.key)) optionIdx = 2;
-      else if (['4', 'd', 'D'].includes(e.key)) optionIdx = 3;
-
-      if (optionIdx >= 0 && currentShuffledOptions[optionIdx] !== undefined) {
-        if (!hiddenOptions.includes(optionIdx)) {
-          handleAnswer(currentShuffledOptions[optionIdx]);
-        }
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [gameState, selectedOption, isAnyModalOpen, currentQ, currentShuffledOptions, hiddenOptions]);
 
   const returnToLobby = () => {
     sound.playClick();
@@ -1191,6 +1141,67 @@ export default function App() {
     });
   };
 
+  const handleAnswerRef = useRef(handleAnswer);
+  const handleAnswerTimeoutRef = useRef(handleAnswerTimeout);
+
+  useEffect(() => {
+    handleAnswerRef.current = handleAnswer;
+    handleAnswerTimeoutRef.current = handleAnswerTimeout;
+  });
+
+  useEffect(() => {
+    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
+
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => {
+        const next = prev - 1;
+        if (next <= 4 && next > 0) {
+          sound.playTick();
+        }
+        return Math.max(0, next);
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [gameState, selectedOption, isAnyModalOpen, currentIndex, setTimeLeft]);
+
+  // Fire the timeout exactly once when the countdown reaches 0. This lives in
+  // its own effect (keyed on timeLeft) because the interval effect above is
+  // intentionally NOT keyed on timeLeft and therefore can't observe the tick
+  // that hits zero. handleAnswerTimeout() sets selectedOption ('TIMEOUT'),
+  // which flips the guard below and prevents any re-fire.
+  useEffect(() => {
+    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen) return;
+    if (timeLeft <= 0) {
+      queueMicrotask(() => {
+        handleAnswerTimeoutRef.current?.();
+      });
+    }
+  }, [timeLeft, gameState, selectedOption, isAnyModalOpen]);
+
+  useEffect(() => {
+    if (gameState !== 'PLAYING' || selectedOption !== null || isAnyModalOpen || !currentQ) return;
+
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
+
+      let optionIdx = -1;
+      if (['1', 'a', 'A'].includes(e.key)) optionIdx = 0;
+      else if (['2', 'b', 'B'].includes(e.key)) optionIdx = 1;
+      else if (['3', 'c', 'C'].includes(e.key)) optionIdx = 2;
+      else if (['4', 'd', 'D'].includes(e.key)) optionIdx = 3;
+
+      if (optionIdx >= 0 && currentShuffledOptions[optionIdx] !== undefined) {
+        if (!hiddenOptions.includes(optionIdx)) {
+          handleAnswerRef.current?.(currentShuffledOptions[optionIdx]);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [gameState, selectedOption, isAnyModalOpen, currentQ, currentShuffledOptions, hiddenOptions]);
+
   const checkTacticianOnJokerUse = (jokersUsedAfter, cost = 0) => {
     setGlobalStats(prev => {
       const { stats } = applyAnswer(prev, {}, {
@@ -1314,15 +1325,15 @@ export default function App() {
           />
         </div>
 
-        <div className="flex items-center flex-wrap justify-end gap-1.5 min-w-0">
+        <div className="flex items-center flex-wrap justify-end gap-2 min-w-0">
           <button
             onClick={() => { sound.playClick(); setShowStatsModal(true); }}
-            className="flex items-center gap-2 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
+            className="flex items-center gap-2 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95 min-h-[44px]"
             title={`Razina i Statistika — ${getTitleForLevel(globalStats.level || 1)}`}
           >
             <span className="flex items-center gap-1.5 text-xs font-bold">
               <LevelBadge level={globalStats.level || 1} size="micro" showStars={false} />
-              <span className="hidden sm:inline">Lvl</span>
+              <span className="hidden sm:inline">Raz.</span>
             </span>
             <span className="w-px h-3.5 bg-slate-800" />
             <span className="flex items-center gap-1.5 text-xs font-bold">
@@ -1333,7 +1344,7 @@ export default function App() {
 
           <button
             onClick={() => { sound.playClick(); setShowAchievementsModal(true); }}
-            className="flex items-center gap-1.5 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95"
+            className="flex items-center gap-1.5 bg-slate-900/90 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-amber-400 transition-colors shadow-sm active:scale-95 active:brightness-95 min-h-[44px]"
             title="Trofeji"
           >
             <Trophy className="w-3.5 h-3.5 text-amber-400" />
@@ -1342,7 +1353,7 @@ export default function App() {
 
           <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95 min-h-[44px]"
             title="Kako Igrati"
           >
             <HelpCircle className="w-4 h-4 text-blue-400" />
@@ -1354,7 +1365,7 @@ export default function App() {
               const muted = sound.toggleMute();
               setIsMuted(muted);
             }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-2 py-1.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95"
+            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95 min-h-[44px]"
             title={isMuted ? "Zvuk je isključen (Klikni za uključivanje)" : "Zvuk je uključen (Klikni za isključivanje)"}
           >
             {isMuted ? <VolumeX className="w-4 h-4 text-rose-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
@@ -1363,7 +1374,7 @@ export default function App() {
           {isAdminUser && (
             <button
               onClick={() => setShowAdminPanel(true)}
-              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-2 py-1.5 rounded-xl text-xs font-bold transition-colors active:scale-95 active:brightness-95"
+              className="flex items-center gap-1 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 px-3 py-2.5 rounded-xl text-xs font-bold transition-colors active:scale-95 active:brightness-95 min-h-[44px]"
               title="Otvori Admin Panel"
             >
               <ShieldCheck className="w-4 h-4" />
@@ -1372,22 +1383,22 @@ export default function App() {
           )}
 
           {currentUser ? (
-            <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-2 py-1.5 rounded-xl">
+            <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 px-3 py-2 rounded-xl min-h-[44px]">
               <span className="text-xs font-bold text-slate-200 truncate max-w-[160px]">
                 {currentUser.displayName || currentUser.email.split('@')[0]}
               </span>
               <button
                 onClick={handlePlayerLogout}
-                className="text-slate-500 hover:text-rose-400 transition-colors p-0.5 active:scale-90"
+                className="text-slate-500 hover:text-rose-400 transition-colors p-1.5 rounded-lg active:scale-90"
                 title="Odjava"
               >
-                <LogOut className="w-3.5 h-3.5" />
+                <LogOut className="w-4 h-4" />
               </button>
             </div>
           ) : (
             <button
               onClick={() => { sound.playClick(); setShowAuthModal(true); }}
-              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-2 py-1.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10 active:scale-95 active:brightness-95"
+              className="flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 px-3.5 py-2.5 rounded-xl text-xs font-bold transition-colors shadow-md shadow-amber-500/10 active:scale-95 active:brightness-95 min-h-[44px]"
             >
               <User className="w-3.5 h-3.5" />
               <span>Prijava</span>

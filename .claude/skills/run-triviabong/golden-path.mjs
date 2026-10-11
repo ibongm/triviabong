@@ -9,6 +9,10 @@
 //   node golden-path.mjs http://localhost:5173 Povijest
 import { chromium } from 'playwright';
 import * as fs from 'node:fs';
+import { dismissWhatsNew, seedAnonCoins } from './e2eCredentials.mjs';
+
+// Enough for all three jokers (15 + 10 + 30) with headroom.
+const JOKER_TEST_COINS = 100;
 
 const URL = process.argv[2] || 'http://localhost:5173';
 const CATEGORY = process.argv[3] || 'Geografija';
@@ -72,6 +76,32 @@ async function assertNoMobileOverflow(page, label) {
   if (original) await page.setViewportSize(original);
 }
 
+// Header coin balance: the level pill's text is "<level> Lvl <coins>".
+async function readCoins(page) {
+  return page.evaluate(() => {
+    const pill = [...document.querySelectorAll('button')].find(b => b.title?.startsWith('Razina i Statistika'));
+    const nums = pill?.innerText.match(/\d+/g);
+    return nums ? Number(nums[nums.length - 1]) : null;
+  });
+}
+
+function countAnswerButtons(page) {
+  return page.evaluate(() => [...document.querySelectorAll('button')].filter(b =>
+    b.className.includes('rounded-2xl') && b.className.includes('text-left')).length);
+}
+
+// Joker buttons are matched by label. A used joker is natively disabled; one
+// the player can't afford is NOT disabled but shows the "Nemaš dovoljno"
+// message instead - so "clicked" alone proves nothing. Returns the button's
+// state so the caller can assert enabled-before, disabled-after, coins spent,
+// and the joker's actual effect.
+function jokerState(page, label) {
+  return page.evaluate((t) => {
+    const b = [...document.querySelectorAll('button')].find(e => e.textContent?.includes(t));
+    return b ? { found: true, disabled: b.disabled } : { found: false, disabled: null };
+  }, label);
+}
+
 // Quiz answer buttons are shuffled per question - no stable selector. They're
 // the only <button>s with both these Tailwind classes while gameState is
 // 'PLAYING'. Update this filter if App.jsx's markup changes.
@@ -103,6 +133,8 @@ const browser = await chromium.launch({
   ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
 });
 const ctx = await browser.newContext();
+await dismissWhatsNew(ctx);
+await seedAnonCoins(ctx, JOKER_TEST_COINS);
 const page = await ctx.newPage();
 page.on('console', (msg) => consoleLog.push(`[${msg.type()}] ${msg.text()}`));
 page.on('pageerror', (err) => consoleLog.push(`[pageerror] ${err.message}`));
@@ -134,6 +166,32 @@ try {
   await ss(page, 'quiz-q1');
   await assertNoMobileOverflow(page, 'playing');
 
+  // Runs first, while the round is guaranteed live: answers below pick the
+  // first option blindly, so lives can run out within 3 questions.
+  console.log('=== joker buttons ===');
+  const jokers = [
+    { label: '50:50', cost: 15, effect: async () => (await countAnswerButtons(page)) === 2 },
+    { label: '+10s', cost: 10, effect: async () => true }, // no stable timer selector; coins + disabled cover it
+    // Using all three in one round unlocks the Tactician achievement, which pays
+    // ACHIEVEMENT_NORMAL_COINS (5) back on this third joker.
+    { label: 'Preskoči', cost: 30, bonus: 5, effect: async () => /2\s*\/\s*10/.test(await bodyText(page)) },
+  ];
+  for (const j of jokers) {
+    const coinsBefore = await readCoins(page);
+    const before = await jokerState(page, j.label);
+    step(`${j.label} joker is enabled and affordable (coins=${coinsBefore})`, before.found && !before.disabled && coinsBefore >= j.cost);
+    await clickText(page, j.label);
+    await page.waitForTimeout(500);
+    const after = await jokerState(page, j.label);
+    const coinsAfter = await readCoins(page);
+    step(`${j.label} joker used (button disabled)`, after.found && after.disabled);
+    const net = j.cost - (j.bonus || 0);
+    step(`${j.label} joker charged ${net}c net (${coinsBefore} -> ${coinsAfter})`, coinsBefore - coinsAfter === net);
+    step(`${j.label} joker had its effect`, await j.effect());
+  }
+  await page.waitForTimeout(1000);
+  await ss(page, 'after-jokers');
+
   console.log('=== answer a few questions ===');
   for (let i = 0; i < 4; i += 1) {
     const before = await bodyText(page);
@@ -151,19 +209,6 @@ try {
   const roundEnded = afterAnswers.includes('Kraj Igre') || afterAnswers.includes('Pobjeda');
   step('score updated from answering', /Bodovi:\s*\d+/.test(afterAnswers) || roundEnded);
   await ss(page, 'after-answers');
-
-  console.log('=== joker buttons ===');
-  if (afterAnswers.includes('Bodovi:')) {
-    step('50:50 joker clicked', (await clickText(page, '50:50')).startsWith('OK'));
-    await page.waitForTimeout(300);
-    step('+10s joker clicked', (await clickText(page, '+10s')).startsWith('OK'));
-    await page.waitForTimeout(300);
-    step('skip joker clicked', (await clickText(page, 'Preskoči')).startsWith('OK'));
-    await page.waitForTimeout(1500);
-    await ss(page, 'after-jokers');
-  } else {
-    console.log('round already ended - skipping joker check');
-  }
 
   console.log('=== play to an end screen ===');
   for (let i = 0; i < 12; i += 1) {

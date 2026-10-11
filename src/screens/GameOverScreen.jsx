@@ -97,7 +97,7 @@ export default function GameOverScreen({
                 <form onSubmit={onSaveScoreSubmit} className="space-y-3">
                     <input
                         type="text"
-                        placeholder="Unesite nadimak (Nickname)"
+                        placeholder="Unesite nadimak"
                         value={nickname}
                         onChange={(e) => onNicknameChange(e.target.value)}
                         maxLength={15}
@@ -119,17 +119,17 @@ export default function GameOverScreen({
                 {!dailyChallengeMode && (
                     <button
                         onClick={onPlayAgain}
-                        className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm active:scale-[0.97] active:brightness-95"
+                        className="w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-2xl transition-colors shadow-lg shadow-amber-500/20 flex justify-center items-center gap-2 text-sm active:scale-[0.97] active:brightness-95 min-h-[44px]"
                     >
-                        <Play className="w-4 h-4 fill-slate-950" /> Igraj Ponovno
+                        <Play className="w-4 h-4 fill-slate-950" /> Igraj ponovno
                     </button>
                 )}
 
                 <button
                     onClick={onReturnToLobby}
-                    className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm active:scale-[0.97] active:brightness-95"
+                    className="w-full bg-slate-800 hover:bg-slate-750 text-slate-100 font-bold py-3.5 rounded-2xl transition-colors flex justify-center items-center gap-2 border border-slate-700/80 text-sm active:scale-[0.97] active:brightness-95 min-h-[44px]"
                 >
-                    <RefreshCw className="w-4 h-4 text-slate-400" /> Povratak u Izbornik
+                    <RefreshCw className="w-4 h-4 text-slate-400" /> Povratak u izbornik
                 </button>
             </div>
         </div>

@@ -24,22 +24,24 @@ function SlotCard({ mission, slotState, onClaim }) {
 
     return (
         <div className="bg-slate-950/60 border border-slate-800 rounded-xl p-3 space-y-2">
-            <div className="flex items-center justify-between gap-2">
-                <p className="text-sm text-slate-200">{mission.descriptionHr}</p>
-                {slotState.claimed && <Check className="w-4 h-4 text-emerald-400 shrink-0" />}
+            <div className="flex items-start justify-between gap-2">
+                <p className="min-w-0 text-sm text-slate-200 leading-snug break-words">{mission.descriptionHr}</p>
+                {slotState.claimed && <Check className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />}
             </div>
             <ProgressBar pct={slotState.completed && !doneViaAlt ? 100 : primary.pct} done={slotState.completed && !doneViaAlt} />
             {alt && (
                 <div className="space-y-1.5 pt-0.5">
-                    <p className="text-xs text-slate-400">
-                        <span className="text-slate-500">ili: </span>{mission.alt.descriptionHr}
-                        <span className="text-slate-600"> · {alt.value} / {alt.target}</span>
-                    </p>
+                    <div className="flex items-baseline justify-between gap-2">
+                        <p className="min-w-0 text-xs text-slate-400 leading-snug break-words">
+                            <span className="text-slate-500">ili: </span>{mission.alt.descriptionHr}
+                        </p>
+                        <span className="shrink-0 text-xs text-slate-600 tabular-nums">{alt.value}/{alt.target}</span>
+                    </div>
                     <ProgressBar pct={doneViaAlt ? 100 : alt.pct} done={doneViaAlt} muted />
                 </div>
             )}
-            <div className="flex items-center justify-between">
-                <p className="text-xs text-slate-500">
+            <div className="flex items-center justify-between gap-2">
+                <p className="min-w-0 text-xs text-slate-500 tabular-nums">
                     {slotState.completed
                         ? (doneViaAlt ? 'Riješeno alternativom' : 'Riješeno')
                         : `${primary.value} / ${primary.target}`}
@@ -48,14 +50,14 @@ function SlotCard({ mission, slotState, onClaim }) {
                     <button
                         type="button"
                         onClick={onClaim}
-                        className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-3 py-1 rounded-lg text-xs"
+                        className="shrink-0 whitespace-nowrap bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-3 py-1 rounded-lg text-xs"
                     >
                         Preuzmi +{MISSION_REWARDS.SLOT_COMPLETION}
                     </button>
                 ) : slotState.claimed ? (
-                    <p className="text-xs text-emerald-400 font-bold">Preuzeto</p>
+                    <p className="shrink-0 text-xs text-emerald-400 font-bold">Preuzeto</p>
                 ) : (
-                    <p className="text-xs text-slate-600">+{MISSION_REWARDS.SLOT_COMPLETION} novčića</p>
+                    <p className="shrink-0 text-xs text-slate-600 whitespace-nowrap">+{MISSION_REWARDS.SLOT_COMPLETION} novčića</p>
                 )}
             </div>
         </div>
@@ -85,12 +87,12 @@ export default function DailyMissionsModal({ isOpen, onClose, missionsToday, mis
 
     return (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-            <div className="bg-slate-900 border border-slate-800 text-white rounded-2xl max-w-sm w-full p-6 shadow-2xl space-y-4">
-                <div className="flex items-center justify-between">
-                    <h3 className="text-base font-bold text-amber-400 flex items-center gap-2">
-                        <ListChecks className="w-4 h-4" /> Dnevne misije
+            <div className="bg-slate-900 border border-slate-800 text-white rounded-2xl max-w-sm w-full p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+                <div className="flex items-center justify-between gap-2">
+                    <h3 className="text-base font-bold text-amber-400 flex items-center gap-2 min-w-0">
+                        <ListChecks className="w-4 h-4 shrink-0" /> Dnevne misije
                     </h3>
-                    <button onClick={onClose} className="text-slate-500 hover:text-slate-300">
+                    <button onClick={onClose} className="shrink-0 text-slate-500 hover:text-slate-300" aria-label="Zatvori">
                         <X className="w-4 h-4" />
                     </button>
                 </div>
@@ -107,9 +109,9 @@ export default function DailyMissionsModal({ isOpen, onClose, missionsToday, mis
                 </div>
 
                 <div className={`rounded-xl p-3 flex items-center justify-between gap-2 border ${missionState.cleanSweepClaimed ? 'border-emerald-500/30 bg-emerald-500/10' : 'border-amber-500/30 bg-amber-500/10'}`}>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 min-w-0">
                         <Gift className="w-4 h-4 text-amber-400 shrink-0" />
-                        <p className="text-xs text-slate-300">Sve 3 misije istog dana: <b className="text-white">+{MISSION_REWARDS.CLEAN_SWEEP_BONUS}</b> bonus novčića</p>
+                        <p className="text-xs text-slate-300 leading-snug">Sve 3 misije istog dana: <b className="text-white">+{MISSION_REWARDS.CLEAN_SWEEP_BONUS}</b> bonus novčića</p>
                     </div>
                     {missionState.cleanSweepClaimed ? (
                         <Check className="w-4 h-4 text-emerald-400 shrink-0" />

@@ -22,7 +22,7 @@
 //
 // Usage: node cross-device-sync-check.mjs [url]
 import { chromium } from 'playwright';
-import { resolvePrimaryCredentials } from './e2eCredentials.mjs';
+import { dismissWhatsNew, resolvePrimaryCredentials } from './e2eCredentials.mjs';
 
 const URL = process.argv[2] || 'http://localhost:5173';
 // Resolved after URL so the guard can see the target: a non-local run without
@@ -181,6 +181,8 @@ const browser = await chromium.launch({
 });
 const contextA = await browser.newContext();
 const contextB = await browser.newContext(); // fresh cookie/localStorage jar - simulates a second device
+await dismissWhatsNew(contextA);
+await dismissWhatsNew(contextB);
 const pageA = await contextA.newPage();
 const pageB = await contextB.newPage();
 const consoleErrors = [];

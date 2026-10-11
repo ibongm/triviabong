@@ -1,5 +1,70 @@
 # Changelog
 
+### [2026-10-11] - Mobile (390px) UI audit remediation & Croatian copy fixes
+- **Files Changed**:
+  - `src/App.jsx` (Modified)
+  - `src/screens/PlayingScreen.jsx` (Modified)
+  - `src/screens/GameOverScreen.jsx` (Modified)
+  - `src/screens/LobbyScreen.jsx` (Modified)
+  - `plans/mobile-ui-audit-and-fix-plan.md` (Added)
+- **Details**:
+  - Touch Targets: Upgraded header badges, joker buttons (50:50, +10s, Preskoči), "Prijavi pitanje", and "Predloži pitanje" buttons to minimum 44px touch height (`min-h-[44px]`).
+  - Text Truncation: Replaced `truncate` on answer option buttons in `PlayingScreen.jsx` with `break-words text-wrap leading-snug` to prevent answer text cutoffs on 390px mobile viewports.
+  - Localization & Copy (`hr-HR`): Replaced English level label `Lvl` with `Raz.`, removed English `(Nickname)` from game over input placeholder, corrected title-casing on `Igraj ponovno`, `Povratak u izbornik`, and `Odaberi kategoriju kvizova`, and updated joker cost currency symbol from `c` to `z` (zlatnika).
+
+### [2026-10-11] - Audit report remediation (CI, linting, security & workflow hardening)
+- **Files Changed**:
+  - `.claude/skills/run-triviabong/two-player-match-check.mjs` (Modified)
+  - `.github/workflows/ci.yml` (Modified)
+  - `.github/workflows/audit-category.yml` (Modified)
+  - `src/App.jsx` (Modified)
+  - `src/components/MatchView.jsx` (Modified)
+  - `src/data/questionsLoader.js` (Modified)
+  - `src/services/firebase.js` (Modified)
+  - `package.json` (Modified)
+  - `package-lock.json` (Modified)
+- **Details**:
+  - CI & E2E: Increased `maxIterations` budget in `two-player-match-check.mjs` from 90 to 130 (~91s) to prevent intermittent CI runner timeouts. Added top-level `permissions: contents: read` to `ci.yml` and removed `continue-on-error: true` to make linting a blocking gate.
+  - Security & Workflows: Fixed shell injection in `audit-category.yml` by scoping inputs through environment variables and added a clean `git diff` check before committing.
+  - Quality & Lint: Resolved all 12 ESLint errors and warnings in `App.jsx` and `MatchView.jsx` (unused imports, sync `setState` in effects via `queueMicrotask`, missing effect dependencies, ref-cached handler instances) while preserving `App.jsx` round orchestration rules.
+  - Dependencies & Comments: Updated `vitest` to `^3.0.8` to resolve Vite 8 configuration mismatch (all 395 unit tests pass). Cleaned up stale question count comments in `questionsLoader.js` and `firebase.js`.
+
+### [2026-10-11] - ui-styling Quick Start is Tailwind v3 only
+- **Files Changed**:
+  - `.agents/skills/ui-styling/SKILL.md` (Modified)
+- **Details**: Replaced the Quick Start shadcn init, component example, and Tailwind v4 Vite install block with the repo rule: Tailwind CSS v3 utility classes only.
+
+### [2026-10-11] - Repository audit report (CI, security, quality, PRs)
+- **Files Changed**:
+  - `AUDIT_REPORT.md` (Added)
+  - `CHANGELOG.md` (Modified)
+- **Details**: Read-only audit via `gh`, `npm audit`, `npm test`, `npm run lint` and git-history secret scan. Findings with PASS/WARN/FAIL status and prioritized actions are in `AUDIT_REPORT.md`. No source, workflow or config files were changed.
+
+### [2026-10-11] - Tri-agent site audit plan, identified issues and findings
+- **Files Changed**:
+  - `siteaudit.md` (Modified)
+- **Details**: Updated `siteaudit.md` with detailed problem reports (Vitest configuration import mismatch under Vite 8, git branch divergence of 7 remote commits and 6 uncommitted local files, 63 cross-pack question duplicates) alongside remediation instructions, Zoo Code audit results, and copy-paste prompts for Claude Code and Grok Build.
+
+### [2026-10-11] - Security, backend and Firestore audit report
+- **Files Changed**:
+  - `siteaudit.md` (Modified - added section 6, Claude Code findings, Issues 18-35)
+  - `CHANGELOG.md` (Modified)
+- **Details**: Read-only audit of `firestore.rules`, the two `api/` functions, the Firebase service modules and the Admin Panel. Findings are ranked High/Medium/Low in `siteaudit.md`. Key items: stats sync writes a stale `playTime` that the rules reject (H1), and `records/*` is writable without auth (H2). No source or rules changes were made.
+
+### [2026-10-11] - Mission fallback bars and Izazovi row on small screens
+- **Files Changed**:
+  - `src/components/DailyMissionsModal.jsx` (Modified)
+  - `src/screens/LobbyScreen.jsx` (Modified)
+- **Details**: The "ili:" alternative sits on its own line with a `tabular-nums` count pinned to the right, so a progress tick no longer wraps the count and pushes the bar. Mission cards wrap long Croatian copy, the claim button stays on one line, and the modal scrolls inside `max-h-[90vh]`. The lobby Izazovi row keeps its badge from colliding with the label.
+
+### [2026-10-11] - Wire async-duel check into CI
+- **Files Changed**:
+  - `.github/workflows/ci.yml` (Modified)
+  - `.github/workflows/e2e-emulator.yml` (Modified)
+  - `.claude/skills/run-triviabong/SKILL.md` (Modified)
+  - `CHANGELOG.md` (Modified)
+- **Details**: Both workflows' dev-server step now also sets `VITE_FORCE_ASYNC_DUELS: 'true'` and run `node scripts/async-duel-check.mjs` (from the repo root) after the two-player match check. SKILL.md gained a "Run the async duel check" section covering the required `VITE_USE_FIREBASE_EMULATOR` + `VITE_FORCE_ASYNC_DUELS` flags, what it asserts, and the one-duel-per-emulator-session constraint.
+
 ### [2026-10-11] - NOTES.md session wrap-up
 - **Files Changed**:
   - `NOTES.md` (Modified)

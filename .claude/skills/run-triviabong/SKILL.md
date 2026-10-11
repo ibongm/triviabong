@@ -126,6 +126,39 @@ cross-device section above) — `BongBotTest2` (`bongbottest2@example.com`,
 throwaway. Registered automatically on first run against a project, same
 login-or-register fallback as `BongBotTest`.
 
+## Run the async duel check
+
+```bash
+# from the repo root (not this folder)
+node scripts/async-duel-check.mjs
+```
+
+**Needs both `VITE_USE_FIREBASE_EMULATOR=true` and
+`VITE_FORCE_ASYNC_DUELS=true`** set before `npm run dev` starts:
+async duels are dark in production (`FEATURES.ASYNC_DUELS` is `false`),
+and `src/constants/features.js` only honours the force flag together
+with the emulator flag.
+
+```bash
+VITE_USE_FIREBASE_EMULATOR=true VITE_FORCE_ASYNC_DUELS=true npm run dev &
+```
+
+Drives the full async lifecycle with **BongBotTest** (challenger) and
+**BongBotTest2** (opponent) in two concurrent contexts: A challenges B
+from the "Izazovi" modal, B plays its 10 questions (all correct), A
+plays its own (all wrong), and the duel must resolve to `complete`.
+It then reads the Firestore emulator REST API to check `winnerUid`,
+`rewardClaimed` on both result docs, both `matchHistory` entries
+(`async: true`) and the winner's `total1v1Wins`. Fails on any console
+error.
+
+- **Emulator only.** It refuses non-localhost URLs.
+- **Expects exactly one duel.** Emulator data persists within a
+  session, so restart or wipe the emulators before re-running.
+- Lives in `scripts/`, not this folder; it resolves Playwright and
+  `e2eCredentials.mjs` from here, so the one-time Prerequisites above
+  still apply.
+
 ## Credentials
 
 Emails live in `e2eCredentials.mjs`; **passwords do not — this repo is

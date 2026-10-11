@@ -40,6 +40,7 @@ jobs:
       - name: Start dev server against the emulator
         env:
           VITE_USE_FIREBASE_EMULATOR: "true"
+          VITE_FORCE_ASYNC_DUELS: 'true'
         run: |
           npm run dev &
           timeout 30 bash -c 'until curl -sf http://localhost:5173 >/dev/null; do sleep 1; done'
@@ -52,3 +53,5 @@ jobs:
       - name: Run two-player match check
         working-directory: .claude/skills/run-triviabong
         run: node two-player-match-check.mjs
+      - name: Run async-duel check
+        run: node scripts/async-duel-check.mjs
