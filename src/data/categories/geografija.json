@@ -13862,5 +13862,470 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1201",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka koja u potpunosti teče kroz Francusku?",
+        "correct_answer": "Loara",
+        "incorrect_answers": [
+            "Sena",
+            "Rajna",
+            "Rona"
+        ],
+        "explanation": "Loara je najduža rijeka u Francuskoj s duljinom od preko 1000 kilometara, u potpunosti teče unutar francuskih granica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1202",
+        "category": "geografija",
+        "question": "Koja pustinja pokriva veći dio južne Afrike, uključujući Bocvanu i dijelove Južnoafričke Republike i Namibije?",
+        "correct_answer": "Kalahari",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Velika Viktorijina pustinja"
+        ],
+        "explanation": "Pustinja Kalahari je velika polusuha pješčana savana koja pokriva velik dio južne Afrike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1203",
+        "category": "geografija",
+        "question": "Koja je jedina država na svijetu koja se nalazi na svim meridijanima?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Kina",
+            "Kanada",
+            "Brazil"
+        ],
+        "explanation": "Zbog svoje goleme širine, Rusija se proteže preko svih 360 stupnjeva zemljopisne dužine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1204",
+        "category": "geografija",
+        "question": "Koje je more poznato po tome što je najslanije na svijetu?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Sredozemno more",
+            "Crveno more",
+            "Baltičko more"
+        ],
+        "explanation": "Mrtvo more, koje se nalazi između Izraela i Jordana, poznato je po ekstremno visokoj koncentraciji soli.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1205",
+        "category": "geografija",
+        "question": "Koji grad je poznat kao \"Venecija sjevera\" zbog svojih mnogobrojnih kanala?",
+        "correct_answer": "Amsterdam",
+        "incorrect_answers": [
+            "Stockholm",
+            "Sankt Peterburg",
+            "Bruges"
+        ],
+        "explanation": "Amsterdam u Nizozemskoj, s mrežom kanala koji prolaze kroz grad, često se naziva \"Venecijom sjevera\".",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1206",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata kao \"Zemlja Duge Oblak\" (Aotearoa na maorskom)?",
+        "correct_answer": "Novi Zeland",
+        "incorrect_answers": [
+            "Australija",
+            "Fidži",
+            "Havaji"
+        ],
+        "explanation": "\"Aotearoa\", što znači \"Zemlja Duge Oblak\", maorsko je ime za Novi Zeland, često se koristi zajedno s engleskim imenom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1207",
+        "category": "geografija",
+        "question": "Koji poznati slapovi se nalaze na granici između SAD-a i Kanade?",
+        "correct_answer": "Niagarini slapovi",
+        "incorrect_answers": [
+            "Iguazu slapovi",
+            "Viktorijini slapovi",
+            "Angelovi slapovi"
+        ],
+        "explanation": "Niagarini slapovi su skupina tri masivna vodopada smještena na rijeci Niagara, tvoreći granicu između Ontarija (Kanada) i New Yorka (SAD).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1208",
+        "category": "geografija",
+        "question": "Koji europski glavni grad leži na ušću rijeke Liffey u Dublinski zaljev?",
+        "correct_answer": "Dublin",
+        "incorrect_answers": [
+            "Edinburgh",
+            "Belfast",
+            "Cardiff"
+        ],
+        "explanation": "Rijeka Liffey teče kroz srce Dublina u Irskoj, ulijevajući se u Dublinski zaljev.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1209",
+        "category": "geografija",
+        "question": "Koji planinski lanac dijeli Europu od Azije?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Alpe",
+            "Karpati",
+            "Kavkaz"
+        ],
+        "explanation": "Gorje Ural tradicionalno se smatra prirodnom granicom između europskog i azijskog kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1210",
+        "category": "geografija",
+        "question": "Koja država ima najdužu obalu na svijetu?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Indonezija",
+            "Norveška",
+            "Rusija"
+        ],
+        "explanation": "Kanada ima najdužu obalu na svijetu, protežući se preko tri oceana, s preko 243 000 kilometara duljine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1211",
+        "category": "geografija",
+        "question": "Koje je jezero, najveće u Italiji, smješteno u podnožju Alpa?",
+        "correct_answer": "Jezero Garda",
+        "incorrect_answers": [
+            "Jezero Como",
+            "Jezero Maggiore",
+            "Jezero Trasimeno"
+        ],
+        "explanation": "Jezero Garda je najveće jezero u Italiji, poznato po svojoj ljepoti i nalazi se u regiji Lombardije, Veneta i Trentino-Alto Adige.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1212",
+        "category": "geografija",
+        "question": "Koji je najdublji ocean na svijetu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean je najveći i najdublji ocean, s najdubljom točkom, Marijanskom brazdom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1213",
+        "category": "geografija",
+        "question": "Koja je rijeka najduža u Južnoj Americi i druga po duljini na svijetu?",
+        "correct_answer": "Amazona",
+        "incorrect_answers": [
+            "Parana",
+            "Orinoco",
+            "Magdalena"
+        ],
+        "explanation": "Rijeka Amazona, koja teče uglavnom kroz Brazil i Peru, druga je najduža rijeka na svijetu i ima najveći protok vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1214",
+        "category": "geografija",
+        "question": "Koji je otok, najveći u Sredozemnom moru, ujedno i regija Italije?",
+        "correct_answer": "Sicilija",
+        "incorrect_answers": [
+            "Korzika",
+            "Sardinija",
+            "Kreta"
+        ],
+        "explanation": "Sicilija je najveći otok u Sredozemnom moru i autonomna regija Italije, poznata po Etni, aktivnom vulkanu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1215",
+        "category": "geografija",
+        "question": "Koja država ima oblik čizme i smještena je na Apeninskom poluotoku?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Portugal"
+        ],
+        "explanation": "Italija se zbog svog specifičnog geografskog oblika često naziva \"Čizma\" i prostire se na Apeninskom poluotoku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1216",
+        "category": "geografija",
+        "question": "Koja je pustinja najstarija na svijetu i smještena je uz obalu Atlantika u jugozapadnoj Africi?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Velika pješčana pustinja"
+        ],
+        "explanation": "Pustinja Namib se smatra najstarijom pustinjom na svijetu, starom oko 55 milijuna godina, i nalazi se uz obalu Atlantika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1217",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Ujedinjenom Kraljevstvu?",
+        "correct_answer": "Severn",
+        "incorrect_answers": [
+            "Temza",
+            "Clyde",
+            "Trent"
+        ],
+        "explanation": "Rijeka Severn najduža je rijeka u Ujedinjenom Kraljevstvu, koja teče kroz Englesku i Wales prije nego što se ulije u Bristolski kanal.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1218",
+        "category": "geografija",
+        "question": "Koji je kontinent u potpunosti prekriven ledom?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Grenland",
+            "Arktik",
+            "Azija"
+        ],
+        "explanation": "Antarktika je peti najveći kontinent i gotovo u potpunosti je prekrivena ledom, što je čini najhladnijim i najsušim kontinentom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1219",
+        "category": "geografija",
+        "question": "Koje se more nalazi istočno od Jadranskog mora i zapadno od Turske?",
+        "correct_answer": "Egejsko more",
+        "incorrect_answers": [
+            "Crno more",
+            "Sredozemno more",
+            "Jonsko more"
+        ],
+        "explanation": "Egejsko more je izduženi zaljev Sredozemnog mora smješten između Balkanskog poluotoka i Anatolije, te Krete na jugu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1220",
+        "category": "geografija",
+        "question": "Koji se grad naziva \"Gradom svjetlosti\" i poznat je po Eiffelovom tornju?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Rim",
+            "London",
+            "New York"
+        ],
+        "explanation": "Pariz, glavni grad Francuske, često se naziva \"Gradom svjetlosti\" zbog svoje uloge u prosvjetiteljstvu i rane primjene ulične rasvjete.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1221",
+        "category": "geografija",
+        "question": "Koja je država dom Velikog koraljnog grebena?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Filipini",
+            "Indonezija",
+            "Belize"
+        ],
+        "explanation": "Veliki koraljni greben, najveći sustav koraljnih grebena na svijetu, nalazi se uz obalu Queenslanda u Australiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1222",
+        "category": "geografija",
+        "question": "Koja država zauzima veći dio Skandinavskog poluotoka?",
+        "correct_answer": "Švedska",
+        "incorrect_answers": [
+            "Norveška",
+            "Danska",
+            "Finska"
+        ],
+        "explanation": "Švedska zauzima istočni dio Skandinavskog poluotoka, dok zapadni dio zauzima Norveška.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1223",
+        "category": "geografija",
+        "question": "Kroz koje države teče rijeka Mekong?",
+        "correct_answer": "Kina, Mianmar, Laos, Tajland, Kambodža, Vijetnam",
+        "incorrect_answers": [
+            "Indija, Nepal, Bangladeš",
+            "Malezija, Filipini, Indonezija",
+            "Južna Koreja, Sjeverna Koreja, Japan"
+        ],
+        "explanation": "Rijeka Mekong, jedna od najvećih rijeka Azije, protječe kroz šest zemalja jugoistočne Azije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1224",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po \"Dolinama gejzira\", jednim od najvećih geotermalnih polja na svijetu?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Island",
+            "Novi Zeland",
+            "SAD"
+        ],
+        "explanation": "Doline gejzira (\"Dolina Geyzerov\") nalaze se na poluotoku Kamčatka u Rusiji i drugo su najveće geotermalno polje gejzira na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1225",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji kontinent?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najveći i najnaseljeniji kontinent na svijetu, dom za više od 4,7 milijardi ljudi (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1226",
+        "category": "geografija",
+        "question": "Koji se grad često naziva \"Gradom vjetrova\" zbog svojih snažnih vjetrova?",
+        "correct_answer": "Chicago",
+        "incorrect_answers": [
+            "Wellington",
+            "San Francisco",
+            "Rim"
+        ],
+        "explanation": "Chicago, smješten na obali jezera Michigan u SAD-u, poznat je kao \"The Windy City\" zbog hladnih vjetrova koji pušu s jezera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1227",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Anda?",
+        "correct_answer": "Aconcagua",
+        "incorrect_answers": [
+            "Huascaran",
+            "Chimborazo",
+            "El Misti"
+        ],
+        "explanation": "Aconcagua je najviši vrh planinskog lanca Anda, najviša planina u Južnoj Americi i najviša izvan Himalaje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1228",
+        "category": "geografija",
+        "question": "Koja je zemlja arhipelag od tisuća otoka?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Japan",
+            "Filipini",
+            "Grčka"
+        ],
+        "explanation": "Indonezija je najveća otočna država na svijetu, sastavljena od više od sedamnaest tisuća otoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1229",
+        "category": "geografija",
+        "question": "Koji tjesnac povezuje Atlantski ocean sa Sredozemnim morem?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski tjesnac koji odvaja Europu od Afrike i povezuje Atlantski ocean sa Sredozemnim morem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1230",
+        "category": "geografija",
+        "question": "Koja je najjužnija prijestolnica na svijetu?",
+        "correct_answer": "Wellington",
+        "incorrect_answers": [
+            "Canberra",
+            "Buenos Aires",
+            "Santiago"
+        ],
+        "explanation": "Wellington, glavni grad Novog Zelanda, najjužniji je glavni grad suverene države na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1231",
+        "category": "geografija",
+        "question": "Koji grad dijeli rijeka Temza?",
+        "correct_answer": "London",
+        "incorrect_answers": [
+            "Pariz",
+            "Rim",
+            "Berlin"
+        ],
+        "explanation": "Rijeka Temza je druga najduža rijeka u Ujedinjenom Kraljevstvu i protječe kroz London, glavni grad Engleske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
