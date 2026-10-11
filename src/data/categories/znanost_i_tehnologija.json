@@ -13945,5 +13945,425 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1211",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim se genetske informacije s DNA prepisuju u RNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se segment DNA kopira u RNA molekulu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1212",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada se svjetlost savija prilikom prolaska kroz medij različite gustoće?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Refrakcija je promjena smjera vala, poput svjetlosti, uslijed promjene njegove brzine pri prolasku iz jednog medija u drugi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1213",
+        "category": "znanost",
+        "question": "Koja je primarna uloga CPU-a (Centralne procesne jedinice) u računalu?",
+        "correct_answer": "Izvršavanje instrukcija i obrada podataka",
+        "incorrect_answers": [
+            "Pohrana trajnih podataka",
+            "Prikaz grafike na zaslonu",
+            "Povezivanje s internetom"
+        ],
+        "explanation": "CPU je \"mozak\" računala, odgovoran za izvršavanje programa i matematičke operacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1214",
+        "category": "znanost",
+        "question": "Koji hormon regulira razinu šećera (glukoze) u krvi?",
+        "correct_answer": "Inzulin",
+        "incorrect_answers": [
+            "Adrenalin",
+            "Tiroksin",
+            "Estrogen"
+        ],
+        "explanation": "Inzulin, koji proizvodi gušterača, snižava razinu glukoze u krvi olakšavajući njen ulazak u stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1215",
+        "category": "znanost",
+        "question": "Kako se naziva jedinica za mjerenje snage u Međunarodnom sustavu jedinica (SI)?",
+        "correct_answer": "Vat (Watt)",
+        "incorrect_answers": [
+            "Džul (Joule)",
+            "Volt",
+            "Amper"
+        ],
+        "explanation": "Vat je jedinica za snagu, definirana kao jedan džul u sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1216",
+        "category": "znanost",
+        "question": "Koji protokol se koristi za siguran prijenos podataka preko interneta, često kod online kupovine ili bankarstva?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) je sigurna verzija HTTP-a, koja koristi SSL/TLS enkripciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1217",
+        "category": "znanost",
+        "question": "Kako se zove najveći mjesec u Sunčevom sustavu, koji kruži oko Jupitera?",
+        "correct_answer": "Ganimed",
+        "incorrect_answers": [
+            "Titan",
+            "Kalisto",
+            "Europa"
+        ],
+        "explanation": "Ganimed je veći od planeta Merkura i jedini je mjesec sa vlastitim magnetskim poljem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1218",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada dva različita organizma, koji nisu blisko srodni, neovisno razvijaju slične osobine zbog sličnih uvjeta okoliša?",
+        "correct_answer": "Konvergentna evolucija",
+        "incorrect_answers": [
+            "Divergentna evolucija",
+            "Koevolucija",
+            "Paralelna evolucija"
+        ],
+        "explanation": "Konvergentna evolucija je proces kojim nepovezane vrste razvijaju slične osobine kao odgovor na slične selekcijske pritiske.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1219",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežično punjenje elektroničkih uređaja?",
+        "correct_answer": "Induktivno punjenje",
+        "incorrect_answers": [
+            "Kondukcijsko punjenje",
+            "Solarno punjenje",
+            "Kinetičko punjenje"
+        ],
+        "explanation": "Induktivno punjenje koristi elektromagnetsku indukciju za prijenos energije između dva objekta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1220",
+        "category": "znanost",
+        "question": "Koji zakon fizike kaže da se energija ne može stvoriti niti uništiti, već samo transformirati iz jednog oblika u drugi?",
+        "correct_answer": "Zakon očuvanja energije",
+        "incorrect_answers": [
+            "Zakon očuvanja mase",
+            "Zakon gravitacije",
+            "Drugi zakon termodinamike"
+        ],
+        "explanation": "Ovo je temeljni princip termodinamike i jedan od najvažnijih zakona u fizici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1221",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu arhitekture procesora koja koristi smanjen skup instrukcija, što rezultira bržim izvršavanjem i manjom potrošnjom energije?",
+        "correct_answer": "RISC (Reduced Instruction Set Computer)",
+        "incorrect_answers": [
+            "CISC (Complex Instruction Set Computer)",
+            "ASIC (Application-Specific Integrated Circuit)",
+            "GPU (Graphics Processing Unit)"
+        ],
+        "explanation": "RISC arhitekture koriste jednostavnije instrukcije koje se mogu izvršiti u jednom ciklusu, dok CISC koristi složenije instrukcije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1222",
+        "category": "znanost",
+        "question": "Koja je granica unutar koje se gravitacijski utjecaj zvijezde ne može oduprijeti plimnim silama crne rupe, što dovodi do raspada zvijezde?",
+        "correct_answer": "Rocheova granica",
+        "incorrect_answers": [
+            "Schwarzschildov radijus",
+            "Horizont događaja",
+            "Ergiosfera"
+        ],
+        "explanation": "Rocheova granica je minimalna udaljenost na kojoj satelit drži svoju cjelovitost pred plimnim silama primarnog tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1223",
+        "category": "znanost",
+        "question": "Koji kemijski element ima atomski broj 1 i najlakši je element?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Ugljik"
+        ],
+        "explanation": "Vodik je najjednostavniji i najzastupljeniji element u svemiru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1224",
+        "category": "znanost",
+        "question": "Kako se naziva struktura u jezgri stanice koja nosi genetske informacije u obliku DNA?",
+        "correct_answer": "Kromosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Ribosom",
+            "Vakuola"
+        ],
+        "explanation": "Kromosomi su paketi DNA koji sadrže gene, organizirani unutar jezgre eukariotskih stanica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1225",
+        "category": "znanost",
+        "question": "Koji se princip koristi u laserskim uređajima za stvaranje usmjerenog i koherentnog snopa svjetlosti?",
+        "correct_answer": "Stimulirana emisija",
+        "incorrect_answers": [
+            "Spontana emisija",
+            "Fotoelektrični efekt",
+            "Comptonov efekt"
+        ],
+        "explanation": "Laseri rade na principu stimulirane emisije fotona iz atoma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1226",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu zlonamjernog softvera koji zaključava korisnikove datoteke i traži otkupninu za njihov povratak?",
+        "correct_answer": "Ransomware",
+        "incorrect_answers": [
+            "Spyware",
+            "Adware",
+            "Phishing"
+        ],
+        "explanation": "Ransomware je prijetnja koja se širi enkripcijom podataka i zahtijevanjem novca za dešifriranje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1227",
+        "category": "znanost",
+        "question": "Koji se sloj Zemljine atmosfere nalazi neposredno iznad troposfere i sadrži ozonski omotač?",
+        "correct_answer": "Stratosfera",
+        "incorrect_answers": [
+            "Mezosfera",
+            "Termosfera",
+            "Egzosfera"
+        ],
+        "explanation": "Ozonski omotač u stratosferi apsorbira većinu štetnog ultraljubičastog zračenja Sunca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1228",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja novih jedinki iz jedne matične stanice ili organizma bez sudjelovanja spolnih stanica?",
+        "correct_answer": "Aseksualno razmnožavanje",
+        "incorrect_answers": [
+            "Spolno razmnožavanje",
+            "Fotosinteza",
+            "Disanje"
+        ],
+        "explanation": "Primjeri uključuju pupanje, cijepanje i vegetativno razmnožavanje biljaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1229",
+        "category": "znanost",
+        "question": "Koji je fizikalni zakon koji opisuje odnos između sile, mase i ubrzanja?",
+        "correct_answer": "Drugi Newtonov zakon gibanja",
+        "incorrect_answers": [
+            "Prvi Newtonov zakon gibanja",
+            "Treći Newtonov zakon gibanja",
+            "Hookeov zakon"
+        ],
+        "explanation": "Formula F = ma (sila = masa × ubrzanje) je srž drugog Newtonovog zakona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1230",
+        "category": "znanost",
+        "question": "Koji je naziv za podpolje umjetne inteligencije koje omogućuje sustavima da uče iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Logičko programiranje",
+            "Ekspertni sustavi",
+            "Računalna grafika"
+        ],
+        "explanation": "Strojno učenje koristi algoritme za prepoznavanje uzoraka i donošenje odluka na temelju podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1231",
+        "category": "znanost",
+        "question": "Koja se vrsta zvijezde formira kada masivna zvijezda potroši gorivo i kolabira, izbacujući vanjske slojeve u eksploziji supernove?",
+        "correct_answer": "Neutronska zvijezda",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Smeđi patuljak",
+            "Crna rupa"
+        ],
+        "explanation": "Neutronske zvijezde su iznimno guste jezgre koje ostaju nakon eksplozije supernove.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1232",
+        "category": "znanost",
+        "question": "Koji se princip u organskoj kemiji odnosi na sposobnost atoma ugljika da se veže s do četiri druga atoma, tvoreći složene i raznolike molekule?",
+        "correct_answer": "Tetravalencija ugljika",
+        "incorrect_answers": [
+            "Kovalencija ugljika",
+            "Stabilnost ugljika",
+            "Hibridizacija ugljika"
+        ],
+        "explanation": "Tetravalencija znači da ugljik uvijek stvara četiri veze, što mu omogućuje stvaranje lanaca, prstenova i složenih struktura.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1233",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada jedan gen utječe na više nepovezanih fenotipskih osobina?",
+        "correct_answer": "Pleiotropija",
+        "incorrect_answers": [
+            "Epistaza",
+            "Poligenija",
+            "Alelopatija"
+        ],
+        "explanation": "Pleiotropija je fenomen u genetici gdje je jedan gen odgovoran za više različitih i nepovezanih fenotipskih ekspresija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1234",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje prijenos signala putem optičkih vlakana koristeći svjetlost?",
+        "correct_answer": "Optička vlakna",
+        "incorrect_answers": [
+            "Bakreni kabeli",
+            "Radio valovi",
+            "Satelitska komunikacija"
+        ],
+        "explanation": "Optička vlakna prenose podatke u obliku svjetlosnih impulsa, omogućujući vrlo brze i pouzdane komunikacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1235",
+        "category": "znanost",
+        "question": "Koja elementarna čestica nosi negativni električni naboj i kruži oko jezgre atoma?",
+        "correct_answer": "Elektron",
+        "incorrect_answers": [
+            "Proton",
+            "Neutron",
+            "Foton"
+        ],
+        "explanation": "Elektroni su ključni za kemijske veze i električnu struju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1236",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za proces pretvaranja visoko razinskog programskog koda (npr. Python, Java) u strojni kod koji računalo može izravno izvršavati?",
+        "correct_answer": "Kompilacija",
+        "incorrect_answers": [
+            "Debuggiranje",
+            "Interpretacija",
+            "Dekripcija"
+        ],
+        "explanation": "Kompilacija je proces prevođenja cijelog programskog koda prije izvršavanja, za razliku od interpretacije koja ga prevodi liniju po liniju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1237",
+        "category": "znanost",
+        "question": "Kako se naziva teorija koja objašnjava nastanak Sunčevog sustava iz rotirajućeg oblaka plina i prašine?",
+        "correct_answer": "Nebularna hipoteza",
+        "incorrect_answers": [
+            "Teorija velikog praska",
+            "Teorija relativnosti",
+            "Kvark model"
+        ],
+        "explanation": "Prema nebularnoj hipotezi, Sunčev sustav je nastao iz kolapsa gigantskog molekularnog oblaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1238",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada se materijal zagrijavanjem širi, a hlađenjem skuplja?",
+        "correct_answer": "Toplinsko širenje",
+        "incorrect_answers": [
+            "Toplinska vodljivost",
+            "Toplinska konvekcija",
+            "Toplinska radijacija"
+        ],
+        "explanation": "Toplinsko širenje je tendencija materije da mijenja volumen kao odgovor na promjenu temperature.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
