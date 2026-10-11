@@ -1,5 +1,17 @@
 # Changelog
 
+### [2026-10-11] - E2E check for async duels (emulator only)
+- **Files Changed**:
+  - `scripts/async-duel-check.mjs` (Created)
+  - `src/constants/features.js` (Modified)
+- **Details**: New Playwright driver for the full async duel lifecycle with `BongBotTest` (challenger) and `BongBotTest2` (opponent) in two concurrent contexts: challenge from the "Izazovi" modal, B plays its 10 questions from the inbox, A finishes, duel resolves to `complete`. Asserts the win/loss/draw outcomes are complementary and match the scores, then reads the Firestore emulator REST API for `winnerUid` vs. the stored results, `rewardClaimed` on both result docs, both `matchHistory` entries (`async: true`), and the winner's `total1v1Wins`. Fails on any console error; refuses non-localhost URLs. Credentials via the skill's `e2eCredentials.mjs`; Playwright resolved from `.claude/skills/run-triviabong/node_modules`. `FEATURES.ASYNC_DUELS` now evaluates to `true` only when both `VITE_USE_FIREBASE_EMULATOR=true` and `VITE_FORCE_ASYNC_DUELS=true` are set (default and production stay `false`). Run: emulators + `VITE_USE_FIREBASE_EMULATOR=true VITE_FORCE_ASYNC_DUELS=true npm run dev`, then `node scripts/async-duel-check.mjs`.
+
+### [2026-10-11] - Async duels UI polish
+- **Files Changed**:
+  - `src/screens/AsyncDuelScreen.jsx` (Modified)
+  - `src/components/AsyncDuelsModal.jsx` (Modified)
+- **Details**: Play header is a three-column grid: truncated category, centered 20 s timer ring, tabular counter. Answer text wraps instead of truncating. Question review is a labeled two-column pair (Ti / protivnik, or Čeka). Modal title wraps beside the close button, player names truncate with the `na mreži` badge kept outside the ellipsis, inbox meta wraps, the close hover uses `slate-700`, and the error banner uses rose.
+
 ### [2026-10-11] - Flip MISSION_FALLBACKS on
 - **Files Changed**:
   - `src/constants/features.js` (Modified)
