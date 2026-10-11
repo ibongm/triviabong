@@ -13502,5 +13502,365 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1177",
+        "category": "geografija",
+        "question": "Koja je država poznata kao \"Zemlja izlazećeg sunca\"?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Ime \"Japan\" na japanskom jeziku, \"Nihon\" ili \"Nippon\", doslovno znači \"izvor sunca\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1178",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija država u Africi (stanje 2024.)?",
+        "correct_answer": "Nigerija",
+        "incorrect_answers": [
+            "Egipat",
+            "Etiopija",
+            "Južnoafrička Republika"
+        ],
+        "explanation": "Nigerija je najmnogoljudnija država u Africi s populacijom koja premašuje 220 milijuna stanovnika (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1179",
+        "category": "geografija",
+        "question": "Koja je država poznata po svojim fjordovima?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Finska",
+            "Danska"
+        ],
+        "explanation": "Norveška je poznata po svojim spektakularnim fjordovima, dubokim morskim uvalama nastalim glacijalnom erozijom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1180",
+        "category": "geografija",
+        "question": "Koji je najduži tjesnac na svijetu?",
+        "correct_answer": "Malajski tjesnac",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Beringov tjesnac",
+            "Bosforski tjesnac"
+        ],
+        "explanation": "Malajski tjesnac, dug oko 800 km, strateški je važan pomorski put koji povezuje Indijski ocean i Tihi ocean.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1181",
+        "category": "geografija",
+        "question": "Koja pustinja pokriva veći dio Mongolije i sjevernu Kinu?",
+        "correct_answer": "Gobi",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Namib"
+        ],
+        "explanation": "Gobi pustinja je velika pustinjska i polupustinjska regija u Aziji koja se prostire kroz sjevernu Kinu i južnu Mongoliju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1182",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planine Atlas?",
+        "correct_answer": "Jebel Toubkal",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Kilimandžaro",
+            "Mount Kenya"
+        ],
+        "explanation": "Jebel Toubkal je najviši vrh planinskog lanca Atlas u Maroku, s visinom od 4.167 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1183",
+        "category": "geografija",
+        "question": "Koja država ima najviše vremenskih zona, uključujući prekomorske teritorije?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Rusija",
+            "SAD",
+            "Kina"
+        ],
+        "explanation": "Uključujući svoje prekomorske teritorije, Francuska pokriva 12 različitih vremenskih zona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1184",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni otok na svijetu?",
+        "correct_answer": "Otok Manitoulin",
+        "incorrect_answers": [
+            "Otok Marajó",
+            "Otok Sredina",
+            "Otok Rennell"
+        ],
+        "explanation": "Otok Manitoulin, smješten u jezeru Huron (Kanada), najveći je slatkovodni otok na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1185",
+        "category": "geografija",
+        "question": "Koja rijeka tvori prirodnu granicu između Meksika i Sjedinjenih Američkih Država?",
+        "correct_answer": "Rio Grande",
+        "incorrect_answers": [
+            "Colorado",
+            "Mississippi",
+            "Columbia"
+        ],
+        "explanation": "Rijeka Rio Grande, poznata i kao Rio Bravo del Norte, čini dio granice između SAD-a i Meksika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1186",
+        "category": "geografija",
+        "question": "Koji kontinent je poznat po kengurima i koalama?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Afrika",
+            "Azija",
+            "Južna Amerika"
+        ],
+        "explanation": "Kenguri i koale su endemske vrste životinja koje se prirodno nalaze samo na kontinentu Australije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1187",
+        "category": "geografija",
+        "question": "Koji je najveći koraljni greben na svijetu?",
+        "correct_answer": "Veliki koraljni greben",
+        "incorrect_answers": [
+            "Belize Barrier Reef",
+            "New Caledonia Barrier Reef",
+            "Raja Ampat"
+        ],
+        "explanation": "Veliki koraljni greben nalazi se uz obalu Queenslanda u Australiji i najveći je sustav koraljnih grebena na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1188",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Pirineja?",
+        "correct_answer": "Aneto",
+        "incorrect_answers": [
+            "Mulhacén",
+            "Teide",
+            "Monte Perdido"
+        ],
+        "explanation": "Aneto je najviši vrh planinskog lanca Pirineja, smješten na španjolskoj strani, s visinom od 3.404 metra.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1189",
+        "category": "geografija",
+        "question": "Koja je država poznata kao \"Zemlja tisuću jezera\"?",
+        "correct_answer": "Finska",
+        "incorrect_answers": [
+            "Švedska",
+            "Norveška",
+            "Kanada"
+        ],
+        "explanation": "Finska ima preko 188.000 jezera, što je najveći broj jezera u odnosu na površinu države na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1190",
+        "category": "geografija",
+        "question": "Koja država zauzima veći dio Iberijskog poluotoka?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Portugal",
+            "Francuska",
+            "Italija"
+        ],
+        "explanation": "Španjolska zauzima približno 85% površine Iberijskog poluotoka, dijeleći ga s Portugalom i Andorom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1191",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Andskog lanca koji se nalazi isključivo u Boliviji?",
+        "correct_answer": "Sajama",
+        "incorrect_answers": [
+            "Huascarán",
+            "Chimborazo",
+            "Cotopaxi"
+        ],
+        "explanation": "Sajama je najviši vrh Bolivije i ugasli stratovulkan, smješten u Andama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1192",
+        "category": "geografija",
+        "question": "Koji tjesnac povezuje Indijski ocean i Tihi ocean, a nalazi se između Australije i Papue Nove Gvineje?",
+        "correct_answer": "Torresov tjesnac",
+        "incorrect_answers": [
+            "Lombok tjesnac",
+            "Sunda tjesnac",
+            "Makassar tjesnac"
+        ],
+        "explanation": "Torresov tjesnac je plitak morski prolaz koji razdvaja Australiju od otoka Nove Gvineje, povezujući dva oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1193",
+        "category": "geografija",
+        "question": "Koja država obuhvaća otok Tasmaniju?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Indonezija",
+            "Papua Nova Gvineja"
+        ],
+        "explanation": "Tasmanija je otok i australska savezna država, smještena južno od australskog kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1194",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Apenina, planinskog lanca u Italiji?",
+        "correct_answer": "Corno Grande",
+        "incorrect_answers": [
+            "Monte Viso",
+            "Gran Sasso",
+            "Monte Cimone"
+        ],
+        "explanation": "Corno Grande, s visinom od 2.912 metara, je najviši vrh Apenina, smješten u regiji Abruzzo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1195",
+        "category": "geografija",
+        "question": "Koja je najpoznatija rijeka u Egiptu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Eufrat",
+            "Tigris",
+            "Jordan"
+        ],
+        "explanation": "Nil je najduža rijeka na svijetu i vitalna žila kucavica Egipta, osiguravajući vodu i plodno tlo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1196",
+        "category": "geografija",
+        "question": "Koje se more nalazi između Arapskog poluotoka i sjeveroistočne Afrike?",
+        "correct_answer": "Crveno more",
+        "incorrect_answers": [
+            "Perzijski zaljev",
+            "Sredozemno more",
+            "Arapsko more"
+        ],
+        "explanation": "Crveno more je morski zaljev Indijskog oceana, smješten između Afrike i Azije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1197",
+        "category": "geografija",
+        "question": "Koji je drugi najviši vrh na Zemlji?",
+        "correct_answer": "K2 (Mount Godwin Austen)",
+        "incorrect_answers": [
+            "Kangchendzonga",
+            "Lhotse",
+            "Makalu"
+        ],
+        "explanation": "K2 je drugi najviši planinski vrh na svijetu, smješten u Karakorumu na granici Pakistana i Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1198",
+        "category": "geografija",
+        "question": "Koja država je poznata po \"Velikom zidu\"?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Indija",
+            "Japan",
+            "Mongolija"
+        ],
+        "explanation": "Veliki zid je povijesna obrambena građevina u Kini, čiji je cilj bio zaštititi Kinu od invazija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1199",
+        "category": "geografija",
+        "question": "Koja država ima glavni grad Adis Abebu?",
+        "correct_answer": "Etiopija",
+        "incorrect_answers": [
+            "Kenija",
+            "Sudan",
+            "Eritreja"
+        ],
+        "explanation": "Adis Abeba je glavni i najveći grad Etiopije, smješten u središnjem dijelu zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1200",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu (po površini)?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Borneo",
+            "Madagaskar",
+            "Nova Gvineja"
+        ],
+        "explanation": "Grenland je najveći otok na svijetu po površini, iako je politički dio Danske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
