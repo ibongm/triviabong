@@ -15486,5 +15486,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1336",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi u jednoj nogometnoj ekipi na terenu?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Nogomet se igra s dvije ekipe, svaka s jedanaest igrača, uključujući vratara, što čini ukupno 22 igrača na terenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1337",
+        "category": "sport",
+        "question": "Koliko ukupno traje regularno vrijeme košarkaške utakmice prema FIBA pravilima?",
+        "correct_answer": "40 minuta",
+        "incorrect_answers": [
+            "48 minuta",
+            "36 minuta",
+            "45 minuta"
+        ],
+        "explanation": "Prema pravilima FIBA-e, utakmica se sastoji od četiri četvrtine, svaka u trajanju od 10 minuta (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1338",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u rukometu kada igrač napravi više od tri koraka s loptom bez driblinga?",
+        "correct_answer": "Koraci",
+        "incorrect_answers": [
+            "Dvostruka lopta",
+            "Probijanje",
+            "Nepravilan udarac"
+        ],
+        "explanation": "Rukometaši smiju napraviti najviše tri koraka s loptom prije nego što moraju driblati, dodati ili pucati na gol.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1339",
+        "category": "sport",
+        "question": "Na kojoj vrsti podloge se tradicionalno igra Grand Slam turnir Wimbledon?",
+        "correct_answer": "Trava",
+        "incorrect_answers": [
+            "Zemlja",
+            "Tvrda podloga",
+            "Pijesak"
+        ],
+        "explanation": "Wimbledon je jedini Grand Slam turnir koji se tradicionalno igra na travi, što mu daje poseban karakter i specifičan stil igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1340",
+        "category": "sport",
+        "question": "Koja je atletska disciplina poznata kao 'kraljica sportova' zbog svoje raznolikosti i drevnih korijena?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Plivanje",
+            "Gimnastika",
+            "Dizanje utega"
+        ],
+        "explanation": "Atletika obuhvaća širok raspon disciplina (trčanje, skakanje, bacanje) i smatra se temeljnom granom sporta s dugom poviješću.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1341",
+        "category": "sport",
+        "question": "Koja je najdulja pojedinačna disciplina u bazenskom plivanju na Olimpijskim igrama za muškarce i žene (stanje 2024.)?",
+        "correct_answer": "1500 metara slobodno",
+        "incorrect_answers": [
+            "800 metara slobodno",
+            "400 metara slobodno",
+            "Maraton plivanje na otvorenom"
+        ],
+        "explanation": "1500 metara slobodno je najduža pojedinačna utrka u bazenskom plivanju na Olimpijskim igrama za oba spola, testirajući izdržljivost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1342",
+        "category": "sport",
+        "question": "Koji se termin koristi u alpskom skijanju za najbržu disciplinu u kojoj skijaši postižu najveće brzine?",
+        "correct_answer": "Spust",
+        "incorrect_answers": [
+            "Slalom",
+            "Veleslalom",
+            "Super-G"
+        ],
+        "explanation": "Spust je najbrža i najzahtjevnija disciplina u alpskom skijanju, s najmanjim brojem vrata i najvećim brzinama na stazi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1343",
+        "category": "sport",
+        "question": "Koji je sportski izraz u judu za borbu na tlu, s ciljem držanja ili poluge?",
+        "correct_answer": "Ne-waza",
+        "incorrect_answers": [
+            "Tachi-waza",
+            "Ashi-waza",
+            "Randori"
+        ],
+        "explanation": "Ne-waza je japanski izraz za tehnike juda koje se izvode na tlu, uključujući držanja, gušenja i poluge za kontrolu protivnika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1344",
+        "category": "sport",
+        "question": "Koja je maksimalna brzina koju automobil Formule 1 može postići na ravnim dijelovima staze (približno)?",
+        "correct_answer": "Preko 370 km/h",
+        "incorrect_answers": [
+            "Oko 250 km/h",
+            "Oko 300 km/h",
+            "Oko 400 km/h"
+        ],
+        "explanation": "Moderni bolidi Formule 1 redovito postižu brzine veće od 370 km/h na najbržim stazama, poput Monze (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1345",
+        "category": "sport",
+        "question": "Na kojoj se gimnastičkoj spravi natječu samo žene, izvodeći vježbe ravnoteže i akrobatike?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Ruče",
+            "Karike",
+            "Preskok"
+        ],
+        "explanation": "Greda je dugačka i uska sprava na kojoj gimnastičarke izvode složene vježbe ravnoteže, snage i fleksibilnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1346",
+        "category": "sport",
+        "question": "Kako se naziva čamac za veslanje namijenjen za jednog veslača?",
+        "correct_answer": "Skif",
+        "incorrect_answers": [
+            "Dvojac na pariće",
+            "Četverac bez kormilara",
+            "Osmerac"
+        ],
+        "explanation": "Skif je veslački čamac za jednog veslača, poznat po zahtjevnosti i potrebi za iznimnom individualnom vještinom i snagom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1347",
+        "category": "sport",
+        "question": "Koji se izraz koristi u odbojci kada igrač pokuša blokirati protivnikov udarac iznad mreže?",
+        "correct_answer": "Blok",
+        "incorrect_answers": [
+            "Servis",
+            "Smeč",
+            "Prijem"
+        ],
+        "explanation": "Blok je obrambena radnja kojom igrači na mreži pokušavaju spriječiti loptu da prijeđe na njihovu stranu terena, odbijajući je.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1348",
+        "category": "sport",
+        "question": "Kako se naziva središnji dio mete u streličarstvu koji donosi najviše bodova?",
+        "correct_answer": "Zlatni krug",
+        "incorrect_answers": [
+            "Crveni krug",
+            "Plavi krug",
+            "Crni krug"
+        ],
+        "explanation": "Zlatni krug je najuži i najvrjedniji dio mete, a pogodak u njega donosi najviše bodova u streličarstvu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1349",
+        "category": "sport",
+        "question": "Kako se naziva olimpijska disciplina u konjičkom sportu gdje jahač i konj izvode unaprijed određene figure na ravnom terenu?",
+        "correct_answer": "Drezura",
+        "incorrect_answers": [
+            "Preskakanje prepona",
+            "Terensko jahanje",
+            "Galop"
+        ],
+        "explanation": "Drezura je konjička disciplina koja se fokusira na sklad, eleganciju i poslušnost konja pri izvođenju složenih figura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1350",
+        "category": "sport",
+        "question": "Kako se naziva igrač u baseballu čija je primarna zadaća bacanje lopte prema udaraču?",
+        "correct_answer": "Bacač (Pitcher)",
+        "incorrect_answers": [
+            "Hvatač (Catcher)",
+            "Prvi bazaš",
+            "Udarač (Batter)"
+        ],
+        "explanation": "Bacač (Pitcher) je ključni igrač u bejzbolu koji započinje svaki napad bacanjem lopte prema protivničkom udaraču.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1351",
+        "category": "sport",
+        "question": "Kako se naziva kamen koji se gura po ledu u sportu curling?",
+        "correct_answer": "Stone",
+        "incorrect_answers": [
+            "Puck",
+            "Bowl",
+            "Disk"
+        ],
+        "explanation": "Stone je teški, polirani granitni kamen s drškom koji igrači guraju po ledu prema ciljnoj zoni ili 'kući'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1352",
+        "category": "sport",
+        "question": "Koliko puta loptica mora odskočiti na protivnikovoj strani stola nakon servisa u stolnom tenisu da bi servis bio ispravan?",
+        "correct_answer": "Jednom",
+        "incorrect_answers": [
+            "Dva puta",
+            "Nijednom",
+            "Tri puta"
+        ],
+        "explanation": "Nakon što loptica odskoči na vašoj strani stola, mora odskočiti točno jednom na protivničkoj strani da bi servis bio ispravan.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1353",
+        "category": "sport",
+        "question": "Koji se termin koristi u karateu za borbenu formu koja se sastoji od niza pokreta protiv imaginarnog protivnika?",
+        "correct_answer": "Kata",
+        "incorrect_answers": [
+            "Kumite",
+            "Sensei",
+            "Dojo"
+        ],
+        "explanation": "Kata je stilizirani slijed pokreta i tehnika koji se izvodi samostalno, s ciljem vježbanja i usavršavanja karatea.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1354",
+        "category": "sport",
+        "question": "Koji sportovi su kombinirani u biatlonu?",
+        "correct_answer": "Skijaško trčanje i streljaštvo",
+        "incorrect_answers": [
+            "Skijaško trčanje i biatlon",
+            "Skijaški skokovi i streljaštvo",
+            "Brzo klizanje i streljaštvo"
+        ],
+        "explanation": "Biatlon je zimski sport koji spaja fizički napor skijaškog trčanja s preciznošću gađanja mete puškom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1355",
+        "category": "sport",
+        "question": "Koliko četvrtina traje jedna vaterpolska utakmica?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Vaterpolska utakmica podijeljena je na četiri četvrtine, čije trajanje varira ovisno o uzrastu i specifičnom natjecanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1356",
+        "category": "sport",
+        "question": "Kako se naziva skok u umjetničkom klizanju koji uključuje okret za 3.5 puta u zraku prije doskoka na jednu nogu?",
+        "correct_answer": "Trostruki Axel",
+        "incorrect_answers": [
+            "Trostruki Lutz",
+            "Trostruki Salchow",
+            "Trostruki Toeloop"
+        ],
+        "explanation": "Axel je jedinstven po doskoku na suprotnu nogu od one s koje se skoči, a trostruki Axel ima 3.5 okreta, što ga čini najtežim.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1357",
+        "category": "sport",
+        "question": "Kako se naziva potez u snookeru kada igrač namjerno blokira protivnikovu bijelu kuglu iza druge kugle?",
+        "correct_answer": "Snooker",
+        "incorrect_answers": [
+            "Break",
+            "Pot",
+            "Safety shot"
+        ],
+        "explanation": "Snooker je taktička situacija u kojoj je bijela kugla blokirana tako da protivnik ne može direktno pogoditi ciljanu kuglu, što rezultira faulom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1358",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u biciklizmu na stazi gdje se natjecatelji bore za poziciju i zatim sprintaju do cilja?",
+        "correct_answer": "Sprint",
+        "incorrect_answers": [
+            "Keirin",
+            "Madison",
+            "Pojedinačna potjera"
+        ],
+        "explanation": "Sprint je klasična disciplina na stazi gdje dva ili više biciklista taktički voze kako bi se postavili za završni brzi udarac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1359",
+        "category": "sport",
+        "question": "Koja je disciplina mačevanja u kojoj je cijelo tijelo dopuštena meta, a prvi udarac donosi bod?",
+        "correct_answer": "Mač (Epee)",
+        "incorrect_answers": [
+            "Floret",
+            "Sablja",
+            "Kendo"
+        ],
+        "explanation": "U maču (Epee), bod se postiže prvim udarcem bilo gdje na tijelu protivnika, što je čini vrlo strategijski zahtjevnom disciplinom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1360",
+        "category": "sport",
+        "question": "Kako se naziva štapić koji se predaje između trkača u štafetnoj utrci?",
+        "correct_answer": "Palica",
+        "incorrect_answers": [
+            "Štap",
+            "Baton",
+            "Cijev"
+        ],
+        "explanation": "Palica je ključni dio štafetne utrke, a njezina uspješna i brza predaja osigurava kontinuitet utrke i dobar rezultat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1361",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u skokovima u vodu gdje se natjecatelji odbijaju od elastične daske?",
+        "correct_answer": "Daska",
+        "incorrect_answers": [
+            "Toranj",
+            "Platforma",
+            "Trampolin"
+        ],
+        "explanation": "Skokovi s daske izvode se s fleksibilne daske koja omogućuje viši i dinamičniji odraz za izvođenje akrobacija u zraku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1362",
+        "category": "sport",
+        "question": "Koje su dvije discipline u olimpijskom dizanju utega?",
+        "correct_answer": "Izbačaj i trzaj",
+        "incorrect_answers": [
+            "Čučanj i mrtvo dizanje",
+            "Potisak i trzaj",
+            "Nabačaj i izbačaj"
+        ],
+        "explanation": "Olimpijsko dizanje utega sastoji se od dvije discipline: trzaja (snatch) i izbačaja (clean and jerk), koje testiraju snagu i tehniku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1363",
+        "category": "sport",
+        "question": "Koliko članova ima posada boba četverosjeda?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Bob četverosjed se sastoji od pilota, dva gurača i kočničara, ukupno četiri člana posade koja zajedno radi na brzini i kontroli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1364",
+        "category": "sport",
+        "question": "Kako se naziva palica koja se koristi u hokeju na travi?",
+        "correct_answer": "Stick",
+        "incorrect_answers": [
+            "Klub",
+            "Palica",
+            "Bat"
+        ],
+        "explanation": "U hokeju na travi, igrači koriste stick, specifično oblikovanu palicu za kontrolu i udaranje lopte po terenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1365",
+        "category": "sport",
+        "question": "Kako se službeno naziva umjetničko plivanje?",
+        "correct_answer": "Sinkronizirano plivanje",
+        "incorrect_answers": [
+            "Ritmičko plivanje",
+            "Plesno plivanje",
+            "Vodeni balet"
+        ],
+        "explanation": "Sinkronizirano plivanje je olimpijski sport koji kombinira plivanje, ples i gimnastiku, izvodeći koreografije u vodi uz glazbu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1366",
+        "category": "sport",
+        "question": "Koliko figura ima svaki igrač na početku šahovske partije (bez pješaka)?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "14"
+        ],
+        "explanation": "Na početku partije, svaki igrač ima kralja, kraljicu, dva topa, dva lovca i dva skakača, što je ukupno osam figura bez pješaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1367",
+        "category": "sport",
+        "question": "Koliko setova se maksimalno igra u badmintonu do pobjede?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Utakmica badmintona igra se na dva dobivena seta, što znači da je maksimalan broj setova tri, u slučaju izjednačenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1368",
+        "category": "sport",
+        "question": "Kako se naziva najviša klasa natjecanja u cestovnom motociklizmu?",
+        "correct_answer": "MotoGP",
+        "incorrect_answers": [
+            "Formula 1",
+            "Superbike",
+            "Rally"
+        ],
+        "explanation": "MotoGP je vrhunac cestovnog motociklizma, gdje se natječu najbrži vozači i najnapredniji prototip motocikala na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1369",
+        "category": "sport",
+        "question": "Koji se stil u skijaškom trčanju smatra bržim i tehnički zahtjevnijim, sličnim klizanju?",
+        "correct_answer": "Slobodni stil (Skate)",
+        "incorrect_answers": [
+            "Klasični stil",
+            "Paralelni stil",
+            "Alternativni stil"
+        ],
+        "explanation": "Slobodni stil, poznat i kao 'skate style', brži je i tehnički zahtjevniji jer koristi pokrete slične onima kod klizanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1370",
+        "category": "sport",
+        "question": "Koja je glavna razlika između muškog i ženskog vaterpola u smislu veličine lopte?",
+        "correct_answer": "Žene koriste manju loptu",
+        "incorrect_answers": [
+            "Muškarci koriste manju loptu",
+            "Lopte su iste veličine",
+            "Razlikuju se po boji"
+        ],
+        "explanation": "U ženskom vaterpolu koristi se manja i lakša lopta (Veličina 4) u usporedbi s muškim vaterpolom (Veličina 5) (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1371",
+        "category": "sport",
+        "question": "Koliko bodova donosi pokušaj (try) u rugbyju, prije dodatnog udarca na gol?",
+        "correct_answer": "5 bodova",
+        "incorrect_answers": [
+            "3 boda",
+            "6 bodova",
+            "7 bodova"
+        ],
+        "explanation": "Pokušaj (try) u ragbiju donosi 5 bodova, a nakon toga ekipa ima pravo na konverziju za dodatna 2 boda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1372",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) čini jednu ekipu u futsalu na terenu?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "4",
+            "6",
+            "7"
+        ],
+        "explanation": "Futsal se igra s pet igrača u svakoj ekipi na terenu, uključujući jednog vratara, što ga čini brzim i dinamičnim sportom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1373",
+        "category": "sport",
+        "question": "Koje su tri discipline koje čine triatlon?",
+        "correct_answer": "Plivanje, biciklizam, trčanje",
+        "incorrect_answers": [
+            "Plivanje, biciklizam, veslanje",
+            "Plivanje, trčanje, veslanje",
+            "Trčanje, biciklizam, jahanje"
+        ],
+        "explanation": "Triatlon je izdržljivostni sport koji kombinira tri uzastopne discipline: plivanje, biciklizam i trčanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1374",
+        "category": "sport",
+        "question": "Koje su discipline u modernom petoboju?",
+        "correct_answer": "Mačevanje, plivanje, jahanje, streljaštvo, trčanje",
+        "incorrect_answers": [
+            "Plivanje, biciklizam, trčanje, streljaštvo, mačevanje",
+            "Mačevanje, streljaštvo, plivanje, jahanje, gimnastika",
+            "Plivanje, veslanje, streljaštvo, mačevanje, trčanje"
+        ],
+        "explanation": "Moderni petoboj uključuje mačevanje, plivanje, jahanje, te kombiniranu disciplinu streljaštva i trčanja (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
