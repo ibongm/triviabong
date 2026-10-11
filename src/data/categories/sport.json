@@ -14136,5 +14136,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1246",
+        "category": "sport",
+        "question": "Koliko sekundi napadajuća ekipa ima na raspolaganju za šut na koš u košarci?",
+        "correct_answer": "24 sekunde",
+        "incorrect_answers": [
+            "30 sekundi",
+            "35 sekundi",
+            "20 sekundi"
+        ],
+        "explanation": "Pravilo 24 sekunde određuje maksimalno vrijeme posjeda lopte za napadačku ekipu prije nego što mora uputiti šut prema košu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1247",
+        "category": "sport",
+        "question": "Kako se naziva glavni trofej koji se dodjeljuje pobjedniku Svjetskog prvenstva u nogometu?",
+        "correct_answer": "FIFA Svjetski kup",
+        "incorrect_answers": [
+            "Liga prvaka trofej",
+            "Zlatna lopta",
+            "Europsko prvenstvo trofej"
+        ],
+        "explanation": "FIFA Svjetski kup je najprestižniji trofej u međunarodnom nogometu, dodjeljuje se pobjedniku Svjetskog prvenstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1248",
+        "category": "sport",
+        "question": "Koliko gemova mora osvojiti igrač da bi dobio set u tenisu, pod pretpostavkom da je razlika najmanje dva gema?",
+        "correct_answer": "6 gemova",
+        "incorrect_answers": [
+            "4 gema",
+            "5 gemova",
+            "7 gemova"
+        ],
+        "explanation": "Igrač mora osvojiti najmanje 6 gemova s razlikom od barem dva gema kako bi osvojio set u tenisu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1249",
+        "category": "sport",
+        "question": "Koja je sportska disciplina u atletici u kojoj natjecatelji skaču s odskočne daske u pješčanik?",
+        "correct_answer": "Skok u dalj",
+        "incorrect_answers": [
+            "Skok u vis",
+            "Troskok",
+            "Skok s motkom"
+        ],
+        "explanation": "Skok u dalj je atletska disciplina u kojoj sportaši pokušavaju skočiti što dalje iz zaleta u pješčanik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1250",
+        "category": "sport",
+        "question": "Koji vozač Formule 1 drži rekord po broju osvojenih svjetskih naslova (stanje 2024.)?",
+        "correct_answer": "Lewis Hamilton i Michael Schumacher",
+        "incorrect_answers": [
+            "Juan Manuel Fangio",
+            "Ayrton Senna",
+            "Alain Prost"
+        ],
+        "explanation": "Lewis Hamilton i Michael Schumacher dijele rekord sa sedam osvojenih naslova svjetskog prvaka u Formuli 1.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1251",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući golmana) ima jedna ekipa na terenu u rukometu?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "5"
+        ],
+        "explanation": "Rukometnu ekipu na terenu čini 7 igrača, uključujući golmana i šestoricu igrača u polju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1252",
+        "category": "sport",
+        "question": "Kako se naziva pobjeda u boksu kada sudac prekine borbu jer jedan borac nije u stanju nastaviti?",
+        "correct_answer": "Tehnički nokaut (TKO)",
+        "incorrect_answers": [
+            "Nokaut (KO)",
+            "Odluka sudaca",
+            "Diskvalifikacija"
+        ],
+        "explanation": "Tehnički nokaut (TKO) se proglašava kada borac ne može nastaviti borbu, ali ne zbog potpunog gubitka svijesti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1253",
+        "category": "sport",
+        "question": "Koja je prosječna duljina dnevne etape na Grand Tour biciklističkim utrkama poput Tour de Francea?",
+        "correct_answer": "Oko 150-200 km",
+        "incorrect_answers": [
+            "Oko 50-100 km",
+            "Oko 250-300 km",
+            "Manje od 50 km"
+        ],
+        "explanation": "Dnevne etape na Grand Tour utrkama variraju, ali se najčešće kreću u rasponu od 150 do 200 kilometara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1254",
+        "category": "sport",
+        "question": "Kako se naziva disciplina alpskog skijanja u kojoj skijaši prolaze između vrata postavljenih vrlo blizu jedno drugome, zahtijevajući brze i kratke zavoje?",
+        "correct_answer": "Slalom",
+        "incorrect_answers": [
+            "Spust",
+            "Veleslalom",
+            "Super G"
+        ],
+        "explanation": "Slalom je tehnička disciplina alpskog skijanja s kratkim vratima koja zahtijeva brze promjene smjera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1255",
+        "category": "sport",
+        "question": "Koliko iznosi standardna dužina bazena za vaterpolo na međunarodnim natjecanjima (muškarci)?",
+        "correct_answer": "30 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "50 metara",
+            "33 metra"
+        ],
+        "explanation": "Standardna dužina bazena za muški vaterpolo na međunarodnim natjecanjima je 30 metara, a za ženski 25 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1256",
+        "category": "sport",
+        "question": "Koji se kontinent nikada nije natjecao na Olimpijskim igrama?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Afrika",
+            "Južna Amerika",
+            "Azija"
+        ],
+        "explanation": "Antarktika je jedini kontinent bez stalnih stanovnika i stoga nema nacionalni olimpijski odbor niti se natječe na Igrama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1257",
+        "category": "sport",
+        "question": "Koja je sportska disciplina u atletici gdje natjecatelji bacaju metalni disk?",
+        "correct_answer": "Bacanje diska",
+        "incorrect_answers": [
+            "Bacanje koplja",
+            "Bacanje kugle",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Bacanje diska je atletska disciplina u kojoj sportaši bacaju metalni disk što je dalje moguće.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1258",
+        "category": "sport",
+        "question": "Koja je država prva osvojila Svjetsko prvenstvo u nogometu (muškarci)?",
+        "correct_answer": "Urugvaj",
+        "incorrect_answers": [
+            "Brazil",
+            "Italija",
+            "Njemačka"
+        ],
+        "explanation": "Urugvaj je bio domaćin i pobjednik prvog Svjetskog prvenstva u nogometu 1930. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1259",
+        "category": "sport",
+        "question": "Koji je tim osvojio najviše NBA naslova u povijesti (stanje 2024.)?",
+        "correct_answer": "Boston Celtics i Los Angeles Lakers",
+        "incorrect_answers": [
+            "Chicago Bulls",
+            "Golden State Warriors",
+            "San Antonio Spurs"
+        ],
+        "explanation": "Boston Celtics i Los Angeles Lakers dijele rekord sa 17 osvojenih NBA naslova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1260",
+        "category": "sport",
+        "question": "Na kojoj se podlozi igraju turniri French Open (Roland Garros)?",
+        "correct_answer": "Zemlja",
+        "incorrect_answers": [
+            "Trava",
+            "Tvrda podloga",
+            "Tepih"
+        ],
+        "explanation": "French Open, poznat i kao Roland Garros, jedini je Grand Slam turnir koji se igra na zemljanoj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1261",
+        "category": "sport",
+        "question": "Koliko je duga staza za sprint na 100 metara u atletici?",
+        "correct_answer": "100 metara",
+        "incorrect_answers": [
+            "60 metara",
+            "200 metara",
+            "400 metara"
+        ],
+        "explanation": "Sprinterska utrka na 100 metara je najkraća i jedna od najprestižnijih atletskih disciplina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1262",
+        "category": "sport",
+        "question": "Kako se naziva tradicionalna japanska borilačka vještina koja se fokusira na udarce rukama i nogama?",
+        "correct_answer": "Karate",
+        "incorrect_answers": [
+            "Judo",
+            "Aikido",
+            "Taekwondo"
+        ],
+        "explanation": "Karate je borilačka vještina porijeklom iz Japana koja se primarno koristi tehnikama udaraca, blokova i formi (kata).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1263",
+        "category": "sport",
+        "question": "Koje je godine održano prvo moderno Olimpijsko igralište?",
+        "correct_answer": "1896.",
+        "incorrect_answers": [
+            "1900.",
+            "1892.",
+            "1904."
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni, Grčka, 1896. godine, čime je oživljena drevna tradicija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1264",
+        "category": "sport",
+        "question": "Kako se naziva disciplina biciklizma na stazi gdje se biciklisti natječu u utrci izdržljivosti koja se završava sprintom?",
+        "correct_answer": "Madison",
+        "incorrect_answers": [
+            "Keirin",
+            "Sprint",
+            "Pojedinačna potjera"
+        ],
+        "explanation": "Madison je dinamična timska disciplina na stazi gdje se natjecatelji izmjenjuju dodirujući se rukom pri velikim brzinama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1265",
+        "category": "sport",
+        "question": "Koja je gimnastička sprava poznata po svojoj nestabilnosti i zahtjevnosti, gdje se izvode vježbe ravnoteže i akrobacije?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Preskok",
+            "Dvovisinski razboj",
+            "Ruče"
+        ],
+        "explanation": "Greda je uska sprava na kojoj gimnastičarke izvode složene vježbe ravnoteže, piruete i akrobacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1266",
+        "category": "sport",
+        "question": "Koji je plivački stil najbrži na kratkim dionicama?",
+        "correct_answer": "Kraul (slobodni stil)",
+        "incorrect_answers": [
+            "Leđni stil",
+            "Prsni stil",
+            "Delfin"
+        ],
+        "explanation": "Kraul, poznat i kao slobodni stil, općenito je najbrži plivački stil zbog svoje efikasnosti i tehnike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1267",
+        "category": "sport",
+        "question": "Koliko poena vrijedi touchdown u američkom nogometu?",
+        "correct_answer": "6 poena",
+        "incorrect_answers": [
+            "3 poena",
+            "7 poena",
+            "1 poen"
+        ],
+        "explanation": "Touchdown je osnovni način za postizanje poena u američkom nogometu i vrijedi 6 poena, uz mogućnost dodatnih poena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1268",
+        "category": "sport",
+        "question": "Koja je sportska disciplina, porijeklom iz Engleske, koja se igra s ovalnom loptom i uključuje pokušaje polaganja lopte u gol zonu te udarce na gol?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Australski nogomet",
+            "Američki nogomet",
+            "Keltski nogomet"
+        ],
+        "explanation": "Ragbi je popularan kontaktni sport s ovalnom loptom, cilj je prenijeti loptu iza protivničke gol-linije (try) ili je udariti kroz stative.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1269",
+        "category": "sport",
+        "question": "Koliko se članova posade nalazi u bobu četverosjedu?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Bob četverosjed, kao što mu ime govori, ima četiri člana posade koji zajednički upravljaju i guraju bob.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1270",
+        "category": "sport",
+        "question": "Koliko perioda traje jedna utakmica hokeja na ledu u regularnom vremenu?",
+        "correct_answer": "3 perioda",
+        "incorrect_answers": [
+            "2 perioda",
+            "4 perioda",
+            "5 perioda"
+        ],
+        "explanation": "Utakmica hokeja na ledu sastoji se od tri trećine (perioda) od po 20 minuta efektivne igre.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1271",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se vozači natječu u vremenu na zatvorenim dionicama javnih cesta, često s različitim podlogama?",
+        "correct_answer": "Reli",
+        "incorrect_answers": [
+            "Formula 1",
+            "IndyCar",
+            "NASCAR"
+        ],
+        "explanation": "Reli je automobilistička disciplina u kojoj se vozači utrkuju na specijalnim etapama koje su privremeno zatvorene za promet.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1272",
+        "category": "sport",
+        "question": "Koji je broj članova posade u osmercu s kormilarom u veslanju?",
+        "correct_answer": "9 (8 veslača + kormilar)",
+        "incorrect_answers": [
+            "8",
+            "7",
+            "10"
+        ],
+        "explanation": "Osmerac s kormilarom je najveći čamac u veslanju i ima osam veslača i jednog kormilara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1273",
+        "category": "sport",
+        "question": "Koja je najpoznatija konjska utrka u Sjedinjenim Američkim Državama, dio 'Triple Crowna'?",
+        "correct_answer": "Kentucky Derby",
+        "incorrect_answers": [
+            "Grand National",
+            "Prix de l'Arc de Triomphe",
+            "Melbourne Cup"
+        ],
+        "explanation": "Kentucky Derby je prva i najpoznatija od tri utrke koje čine američki Triple Crown konjskih utrka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1274",
+        "category": "sport",
+        "question": "Koji se dio opreme koristi za povlačenje i ispuštanje strijele u streličarstvu?",
+        "correct_answer": "Luk",
+        "incorrect_answers": [
+            "Samostrel",
+            "Katapult",
+            "Praćka"
+        ],
+        "explanation": "Luk je osnovna oprema u streličarstvu, dizajniran za lansiranje strijele pomoću napetosti tetive.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1275",
+        "category": "sport",
+        "question": "Koliko maksimalno dodira s loptom smije imati jedna ekipa prije nego što loptu prebaci preko mreže u odbojci (blok se ne broji kao dodir)?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Ekipa u odbojci smije imati najviše tri dodira s loptom prije nego što je prebaci preko mreže na protivničku stranu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1276",
+        "category": "sport",
+        "question": "Kako se naziva rezultat u golfu kada igrač udari lopticu u rupu s dva udarca manje od par-a rupe?",
+        "correct_answer": "Eagle",
+        "incorrect_answers": [
+            "Birdie",
+            "Bogey",
+            "Albatros"
+        ],
+        "explanation": "Eagle je izvanredan rezultat kada igrač završi rupu s dva udarca ispod par-a. Albatros je tri ispod, ali je mnogo rjeđi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1277",
+        "category": "sport",
+        "question": "Koje su dimenzije stola za stolni tenis (duljina x širina)?",
+        "correct_answer": "2.74 m x 1.525 m",
+        "incorrect_answers": [
+            "2.50 m x 1.40 m",
+            "3.00 m x 1.80 m",
+            "2.00 m x 1.20 m"
+        ],
+        "explanation": "Standardne dimenzije stola za stolni tenis su 2.74 metra (9 stopa) duljine i 1.525 metara (5 stopa) širine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1278",
+        "category": "sport",
+        "question": "Koja od tri discipline mačevanja koristi najkraću i najelegantniju oštricu s udarcima dopuštenim samo na trup protivnika?",
+        "correct_answer": "Flert (Foil)",
+        "incorrect_answers": [
+            "Mač (Epee)",
+            "Sablja (Sabre)",
+            "Kord"
+        ],
+        "explanation": "Flert je disciplina mačevanja gdje se poeni postižu ubodom u torzo protivnika s vrlo laganim i fleksibilnim mačem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1279",
+        "category": "sport",
+        "question": "Koja je visina mreže u badmintonu na sredini terena?",
+        "correct_answer": "1.524 metra",
+        "incorrect_answers": [
+            "1.60 metara",
+            "1.55 metara",
+            "1.45 metara"
+        ],
+        "explanation": "Standardna visina mreže u badmintonu je 1.524 metra (5 stopa) u sredini i nešto viša na krajevima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1280",
+        "category": "sport",
+        "question": "Koliko crvenih kugli ima na stolu na početku igre snookera?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "10",
+            "20",
+            "22"
+        ],
+        "explanation": "Snooker počinje s 15 crvenih kugli postavljenih u trokut, plus šest obojenih kugli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1281",
+        "category": "sport",
+        "question": "Koliko bodova donosi pogodak u središte mete (bullseye) u pikadu?",
+        "correct_answer": "50",
+        "incorrect_answers": [
+            "25",
+            "60",
+            "100"
+        ],
+        "explanation": "Unutarnji prsten bullseyea vrijedi 50 bodova, dok vanjski prsten vrijedi 25 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1282",
+        "category": "sport",
+        "question": "Koji sport kombinira šah i boks kao naizmjenične runde?",
+        "correct_answer": "Šah-boks",
+        "incorrect_answers": [
+            "Boks-šah",
+            "Mentalni boks",
+            "Kombinirani borbeni sport"
+        ],
+        "explanation": "Šah-boks je hibridni sport u kojem se natjecatelji izmjenjuju u rundama šaha i boksa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1283",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji klize po površini vala na dasci?",
+        "correct_answer": "Surfanje",
+        "incorrect_answers": [
+            "Jedrenje na dasci",
+            "Kiteboarding",
+            "Wakeboarding"
+        ],
+        "explanation": "Surfanje je vodeni sport u kojem se osoba jaše na vrhu ili prednjoj strani putujućeg vala na dasci.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1284",
+        "category": "sport",
+        "question": "Koliko je stilova hrvanja priznato kao olimpijski sport (stanje 2024.)?",
+        "correct_answer": "2 (grčko-rimski i slobodni stil)",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "1"
+        ],
+        "explanation": "Na Olimpijskim igrama natječu se dva glavna stila hrvanja: grčko-rimski i slobodni stil.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1285",
+        "category": "sport",
+        "question": "Koji atletičar drži svjetski rekord u skoku u dalj za muškarce (stanje 2024.)?",
+        "correct_answer": "Mike Powell",
+        "incorrect_answers": [
+            "Bob Beamon",
+            "Carl Lewis",
+            "Jesse Owens"
+        ],
+        "explanation": "Mike Powell je postavio svjetski rekord u skoku u dalj od 8,95 metara 1991. godine, koji još uvijek stoji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
