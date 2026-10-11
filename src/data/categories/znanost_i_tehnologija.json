@@ -15385,5 +15385,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1307",
+        "category": "znanost",
+        "question": "Koji je temeljni zakon fizike koji opisuje odnos između sile, mase i ubrzanja?",
+        "correct_answer": "Drugi Newtonov zakon (F=ma)",
+        "incorrect_answers": [
+            "Zakon očuvanja energije",
+            "Einsteinova teorija relativnosti",
+            "Arhimedov zakon"
+        ],
+        "explanation": "Drugi Newtonov zakon gibanja definira silu kao umnožak mase i ubrzanja, opisujući kako sila djeluje na tijelo i uzrokuje promjenu njegovog gibanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1308",
+        "category": "znanost",
+        "question": "Koja je mjerna jedinica za električni otpor?",
+        "correct_answer": "Om (Ω)",
+        "incorrect_answers": [
+            "Volt (V)",
+            "Amper (A)",
+            "Watt (W)"
+        ],
+        "explanation": "Om je standardna mjerna jedinica za električni otpor, definirana kao otpor vodiča kroz koji protječe struja od jednog ampera pri naponu od jednog volta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1309",
+        "category": "znanost",
+        "question": "Što se događa s atomom kada izgubi elektron?",
+        "correct_answer": "Postaje kation (pozitivno nabijeni ion)",
+        "incorrect_answers": [
+            "Postaje anion (negativno nabijeni ion)",
+            "Postaje izotop",
+            "Postaje neutron"
+        ],
+        "explanation": "Gubitkom negativno nabijenog elektrona, atom ostaje s viškom protona, čime postaje pozitivno nabijen ion, odnosno kation.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1310",
+        "category": "znanost",
+        "question": "Koji je kemijski element osnova cjelokupnog organskog života na Zemlji?",
+        "correct_answer": "Ugljik (C)",
+        "incorrect_answers": [
+            "Kisik (O)",
+            "Dušik (N)",
+            "Vodik (H)"
+        ],
+        "explanation": "Ugljik je jedinstven po svojoj sposobnosti stvaranja stabilnih veza s drugim atomima ugljika i drugim elementima, tvoreći složene molekule života.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1311",
+        "category": "znanost",
+        "question": "Koji organ kod ljudi služi za detoksikaciju krvi i proizvodnju žuči?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Srce",
+            "Gušterača",
+            "Slezena"
+        ],
+        "explanation": "Jetra je ključni organ s više od 500 funkcija, uključujući metabolizam, detoksikaciju, sintezu proteina i proizvodnju žuči za probavu masti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1312",
+        "category": "znanost",
+        "question": "Koja se vrsta nukleinske kiseline sastoji od dvostruke spirale?",
+        "correct_answer": "DNA (deoksiribonukleinska kiselina)",
+        "incorrect_answers": [
+            "RNA (ribonukleinska kiselina)",
+            "ATP (adenozin trifosfat)",
+            "Protein"
+        ],
+        "explanation": "DNA je genetski materijal koji nosi nasljedne informacije u većini organizama i karakterizira ju struktura dvostruke spirale.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1313",
+        "category": "znanost",
+        "question": "Kako se naziva proces spajanja dviju lakih atomskih jezgri u jednu težu, oslobađajući pritom veliku količinu energije?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Kemijska reakcija"
+        ],
+        "explanation": "Nuklearna fuzija je proces koji pokreće zvijezde poput našeg Sunca, spajajući atomske jezgre i oslobađajući ogromnu energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1314",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju subatomsku česticu koja nosi pozitivni električni naboj i nalazi se u jezgri atoma?",
+        "correct_answer": "Proton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Foton"
+        ],
+        "explanation": "Proton je stabilna subatomska čestica s pozitivnim električnim nabojem (+1e) koja zajedno s neutronima čini jezgru atoma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1315",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu zračenja koje je nevidljivo ljudskom oku i ima valnu duljinu kraću od vidljive svjetlosti, ali dužu od X-zraka?",
+        "correct_answer": "Ultraljubičasto zračenje",
+        "incorrect_answers": [
+            "Infracrveno zračenje",
+            "Mikrovalno zračenje",
+            "Gama zračenje"
+        ],
+        "explanation": "Ultraljubičasto (UV) zračenje je dio elektromagnetskog spektra, poznato po svojoj sposobnosti izazivanja sunčanih opeklina i dezinfekcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1316",
+        "category": "znanost",
+        "question": "Koji je naziv za tekuće stanje tvari iz kojeg nastaju magmatske stijene?",
+        "correct_answer": "Magma",
+        "incorrect_answers": [
+            "Lava",
+            "Sediment",
+            "Metamorf"
+        ],
+        "explanation": "Magma je rastaljena stijena koja se nalazi ispod Zemljine površine. Kada izbije na površinu, naziva se lava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1317",
+        "category": "znanost",
+        "question": "Koji je planet poznat kao 'Crveni planet' zbog visoke koncentracije željeznog oksida na svojoj površini?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je poznat kao Crveni planet zbog obilja željeznog oksida, spoja koji mu daje prepoznatljivu crvenkasto-narančastu boju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1318",
+        "category": "znanost",
+        "question": "Koji je izumitelj patentirao telefon 1876. godine?",
+        "correct_answer": "Alexander Graham Bell",
+        "incorrect_answers": [
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Guglielmo Marconi"
+        ],
+        "explanation": "Alexander Graham Bell je često pripisivan izumitelj telefona, patentirajući ga 1876., iako su postojali i drugi rani istraživači na tom polju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1319",
+        "category": "znanost",
+        "question": "Koji se računalni pojam odnosi na skup instrukcija koje računalo izvršava?",
+        "correct_answer": "Softver",
+        "incorrect_answers": [
+            "Hardver",
+            "Firmver",
+            "Mreža"
+        ],
+        "explanation": "Softver je generički pojam za računalne programe, aplikacije, skripte i instrukcije koje govore hardveru što treba učiniti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1320",
+        "category": "znanost",
+        "question": "Koji je naziv za dio atoma koji sadrži protone i neutrone?",
+        "correct_answer": "Jezgra (nukleus)",
+        "incorrect_answers": [
+            "Elektronski omotač",
+            "Orbitala",
+            "Valentna ljuska"
+        ],
+        "explanation": "Jezgra atoma je središnji, gusto nabijeni dio koji sadrži većinu mase atoma, sastavljen od protona i neutrona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1321",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija crvenih krvnih stanica (eritrocita) u ljudskom tijelu?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Regulacija tjelesne temperature"
+        ],
+        "explanation": "Crvene krvne stanice sadrže hemoglobin, protein koji veže kisik u plućima i prenosi ga do tkiva u cijelom tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1322",
+        "category": "znanost",
+        "question": "Kako se naziva najveća pojedinačna kost u ljudskom tijelu?",
+        "correct_answer": "Bedrena kost (femur)",
+        "incorrect_answers": [
+            "Lubanja",
+            "Kralježnica",
+            "Goljenična kost"
+        ],
+        "explanation": "Bedrena kost (femur) je najduža i najjača kost u ljudskom tijelu, smještena u natkoljenici, te podupire značajnu težinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1323",
+        "category": "znanost",
+        "question": "Koji je znanstvenik poznat po teoriji 'Prirodne selekcije'?",
+        "correct_answer": "Charles Darwin",
+        "incorrect_answers": [
+            "Gregor Mendel",
+            "Louis Pasteur",
+            "Isaac Newton"
+        ],
+        "explanation": "Charles Darwin je postavio teoriju evolucije prirodnom selekcijom, objašnjavajući kako se vrste mijenjaju i prilagođavaju tijekom vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1324",
+        "category": "znanost",
+        "question": "Koji je pojam za sposobnost materijala da provodi toplinu ili električnu energiju?",
+        "correct_answer": "Vodljivost",
+        "incorrect_answers": [
+            "Otpornost",
+            "Izolacija",
+            "Elastičnost"
+        ],
+        "explanation": "Vodljivost je mjera sposobnosti materijala da propušta električnu struju ili toplinu, a obrnuto je proporcionalna otpornosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1325",
+        "category": "znanost",
+        "question": "Koji je najčešći element u Zemljinoj kori?",
+        "correct_answer": "Kisik (O)",
+        "incorrect_answers": [
+            "Silicij (Si)",
+            "Aluminij (Al)",
+            "Željezo (Fe)"
+        ],
+        "explanation": "Kisik čini oko 46% mase Zemljine kore, prisutan je u mineralima i stijenama, često vezan s silicijem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1326",
+        "category": "znanost",
+        "question": "Koji je naziv za plin koji je odgovoran za zelenu boju aure polarnog svjetla (aurore borealis)?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Dušik",
+            "Neon",
+            "Vodik"
+        ],
+        "explanation": "Zelena boja u polarnoj svjetlosti nastaje kada visokoenergizirane čestice Sunčevog vjetra udare u atome kisika u Zemljinoj atmosferi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1327",
+        "category": "znanost",
+        "question": "Koji je naziv za sloj Zemljine atmosfere najbliži površini, gdje se događaju većina vremenskih pojava?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži dio Zemljine atmosfere, gdje se odvija najveći dio atmosferskih pojava i gdje žive organizmi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1328",
+        "category": "znanost",
+        "question": "Što je vuklon u kontekstu kvantne fizike?",
+        "correct_answer": "Kvant svjetlosti",
+        "incorrect_answers": [
+            "Subatomska čestica s masom",
+            "Valna duljina elektromagnetskog zračenja",
+            "Energijska razina elektrona"
+        ],
+        "explanation": "Foton je elementarna čestica i kvant elektromagnetskog polja, uključujući svjetlost i radio valove, a nema masu mirovanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1329",
+        "category": "znanost",
+        "question": "Koji je kemijski element najpoznatiji po svojoj uporabi u fluorescentnim svjetiljkama i reklamnim natpisima, dajući im jarko narančasto-crveni sjaj?",
+        "correct_answer": "Neon (Ne)",
+        "incorrect_answers": [
+            "Argon (Ar)",
+            "Kripton (Kr)",
+            "Ksenon (Xe)"
+        ],
+        "explanation": "Neon je plemeniti plin koji emitira jarko narančasto-crvenu svjetlost kada se kroz njega propusti električna struja, što ga čini idealnim za natpise.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1330",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem bakterije pretvaraju dušik iz atmosfere u oblike koje biljke mogu koristiti?",
+        "correct_answer": "Fiksacija dušika",
+        "incorrect_answers": [
+            "Denitrifikacija",
+            "Amonifikacija",
+            "Nitrifikacija"
+        ],
+        "explanation": "Fiksacija dušika je ključan proces u dušikovom ciklusu, gdje mikroorganizmi pretvaraju atmosferski dušik u amonijak, esencijalan za biljni rast.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1331",
+        "category": "znanost",
+        "question": "Koji je naziv za najudaljeniji planet u našem Sunčevom sustavu (stanje 2024.)?",
+        "correct_answer": "Neptun",
+        "incorrect_answers": [
+            "Pluton",
+            "Uran",
+            "Saturn"
+        ],
+        "explanation": "Neptun je osmi i najudaljeniji planet od Sunca u našem Sunčevom sustavu. Pluton je reklasificiran kao patuljasti planet 2006. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1332",
+        "category": "znanost",
+        "question": "Koji je pojam za dio neurona koji prima signale od drugih neurona?",
+        "correct_answer": "Dendrit",
+        "incorrect_answers": [
+            "Akson",
+            "Stanično tijelo",
+            "Sinapsa"
+        ],
+        "explanation": "Dendriti su razgranati nastavci neurona koji primaju podražaje i prenose ih prema staničnom tijelu, integrirajući primljene signale.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1333",
+        "category": "znanost",
+        "question": "Što je primarna funkcija matičnih stanica u tijelu?",
+        "correct_answer": "Mogućnost diferencijacije u razne vrste stanica",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Prijenos kisika",
+            "Samoizlučivanje hormona"
+        ],
+        "explanation": "Matične stanice su nediferencirane stanice s potencijalom da se razviju u mnoge različite tipove stanica, što je ključno za rast i popravak tkiva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1334",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu koda koji se sastoji od samo dvije znamenke, 0 i 1?",
+        "correct_answer": "Binarni kod",
+        "incorrect_answers": [
+            "Heksadecimalni kod",
+            "Decimalni kod",
+            "Oktalni kod"
+        ],
+        "explanation": "Binarni kod je osnova digitalnih računala, gdje se sve informacije predstavljaju kombinacijama nula i jedinica (bitova).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1335",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno područje koje se bavi proučavanjem načela i primjena robota?",
+        "correct_answer": "Robotika",
+        "incorrect_answers": [
+            "Kibernetika",
+            "Bionika",
+            "Mehatronika"
+        ],
+        "explanation": "Robotika je interdisciplinarno područje koje kombinira inženjerstvo, računalnu znanost i umjetnu inteligenciju za dizajniranje i izgradnju robota.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1336",
+        "category": "znanost",
+        "question": "Tko je bio prva osoba koja je kročila na Mjesec?",
+        "correct_answer": "Neil Armstrong",
+        "incorrect_answers": [
+            "Buzz Aldrin",
+            "Jurij Gagarin",
+            "Michael Collins"
+        ],
+        "explanation": "Neil Armstrong je bio zapovjednik misije Apollo 11 i prvi čovjek koji je hodao po Mjesecu 20. srpnja 1969. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1337",
+        "category": "znanost",
+        "question": "Koji se kemijski element koristi kao gorivo u nuklearnim reaktorima?",
+        "correct_answer": "Uran (U)",
+        "incorrect_answers": [
+            "Plutonij (Pu)",
+            "Torij (Th)",
+            "Helij (He)"
+        ],
+        "explanation": "Uran-235 je najčešći izotop koji se koristi kao gorivo u nuklearnim reaktorima za proizvodnju energije kroz proces fisije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1338",
+        "category": "znanost",
+        "question": "Koji je pojam u medicini za stanje u kojem tijelo razvija otpornost na učinke inzulina?",
+        "correct_answer": "Inzulinska rezistencija",
+        "incorrect_answers": [
+            "Hipoglikemija",
+            "Hiperglikemija",
+            "Dijabetička ketoacidoza"
+        ],
+        "explanation": "Inzulinska rezistencija je stanje kada stanice u mišićima, mastima i jetri ne reagiraju dobro na inzulin i ne mogu lako apsorbirati glukozu iz krvi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1339",
+        "category": "znanost",
+        "question": "Koji je naziv za skup svih gena u jednom organizmu?",
+        "correct_answer": "Genom",
+        "incorrect_answers": [
+            "Kromosom",
+            "Genotip",
+            "Fenotip"
+        ],
+        "explanation": "Genom predstavlja cjelokupni skup genetskih informacija sadržanih u DNA ili RNA organizma, uključujući sve gene i nekodirajuće sekvence.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1340",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak pijeska koji se koristi za proizvodnju stakla?",
+        "correct_answer": "Silicijev dioksid (SiO2)",
+        "incorrect_answers": [
+            "Kalcijev karbonat (CaCO3)",
+            "Željezni oksid (Fe2O3)",
+            "Aluminijev oksid (Al2O3)"
+        ],
+        "explanation": "Silicijev dioksid, poznat i kao kremen, čini osnovu većine vrsta pijeska i primarni je sastojak za proizvodnju stakla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1341",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija hipotalamusa u mozgu?",
+        "correct_answer": "Regulacija osnovnih tjelesnih funkcija (npr. temperatura, glad)",
+        "incorrect_answers": [
+            "Kontrola mišićne koordinacije",
+            "Obrada vizualnih informacija",
+            "Formiranje dugoročnih sjećanja"
+        ],
+        "explanation": "Hipotalamus je ključna regija u mozgu koja regulira vitalne funkcije poput tjelesne temperature, gladi, žeđi, spavanja i emocionalnih reakcija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1342",
+        "category": "znanost",
+        "question": "Koji je naziv za optički uređaj koji koristi leće za fokusiranje svjetlosti i promatranje udaljenih objekata?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Teleskop je instrument dizajniran za promatranje udaljenih objekata pojačavanjem prikupljanja elektromagnetskog zračenja, najčešće svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1343",
+        "category": "znanost",
+        "question": "Koji je pojam za iznenadno oslobađanje energije iz Zemljine kore koje uzrokuje podrhtavanje tla?",
+        "correct_answer": "Potres (zemljotres)",
+        "incorrect_answers": [
+            "Vulkanska erupcija",
+            "Odron",
+            "Tsunami"
+        ],
+        "explanation": "Potres je posljedica iznenadnog pomicanja tektonskih ploča u Zemljinoj kori, što oslobađa energiju u obliku seizmičkih valova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1344",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcija CPU-a (Centralne procesorske jedinice) u računalu?",
+        "correct_answer": "Izvršavanje instrukcija i obrada podataka",
+        "incorrect_answers": [
+            "Pohrana podataka",
+            "Prikaz grafike",
+            "Povezivanje s internetom"
+        ],
+        "explanation": "CPU je 'mozak' računala, odgovoran za izvršavanje programa i obavljanje matematičkih, logičkih i ulazno/izlaznih operacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1345",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje ispis trodimenzionalnih objekata sloj po sloj?",
+        "correct_answer": "3D ispis (aditivna proizvodnja)",
+        "incorrect_answers": [
+            "CNC obrada",
+            "Injekcijsko prešanje",
+            "Lasersko rezanje"
+        ],
+        "explanation": "3D ispis je proces stvaranja trodimenzionalnog objekta iz digitalnog dizajna, dodavanjem materijala sloj po sloj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
