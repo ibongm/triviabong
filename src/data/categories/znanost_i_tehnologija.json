@@ -13375,5 +13375,575 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1173",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim biljke koriste sunčevu svjetlost za sintezu hrane?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Transpiracija",
+            "Oksidacija"
+        ],
+        "explanation": "Fotosinteza je biološki proces u kojem biljke, alge i neke bakterije pretvaraju svjetlosnu energiju u kemijsku energiju, proizvodeći glukozu i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1174",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica struje u Međunarodnom sustavu jedinica (SI)?",
+        "correct_answer": "Amper",
+        "incorrect_answers": [
+            "Volt",
+            "Om",
+            "Watt"
+        ],
+        "explanation": "Amper (A) je osnovna SI jedinica za električnu struju. Jedan amper odgovara protoku jednog Coulomba naboja u jednoj sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1175",
+        "category": "znanost",
+        "question": "Koji je element neophodan za stvaranje jakih kostiju i zuba?",
+        "correct_answer": "Kalcij",
+        "incorrect_answers": [
+            "Željezo",
+            "Natrij",
+            "Kalij"
+        ],
+        "explanation": "Kalcij je ključan mineral za izgradnju i održavanje jakih kostiju i zuba. Također igra ulogu u zgrušavanju krvi i funkcijama živaca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1176",
+        "category": "znanost",
+        "question": "Kako se naziva najmanji komadić tvari koji zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna jedinica tvari koja se ne može kemijski dalje dijeliti. Sastoji se od jezgre i elektronskog omotača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1177",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila prijenos glazbe i podataka na prijenosnim diskovima manjih dimenzija u 1980-ima?",
+        "correct_answer": "Compact Disc (CD)",
+        "incorrect_answers": [
+            "Vinyl ploča",
+            "Audio kaseta",
+            "USB stick"
+        ],
+        "explanation": "Compact Disc (CD) je digitalni optički disk za pohranu podataka koji je revolucionirao glazbenu industriju 1980-ih zbog svoje kvalitete i prenosivosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1178",
+        "category": "znanost",
+        "question": "Koji je naziv za granu matematike koja se bavi proučavanjem promjena i kretanja?",
+        "correct_answer": "Diferencijalni i integralni račun",
+        "incorrect_answers": [
+            "Algebra",
+            "Geometrija",
+            "Statistika"
+        ],
+        "explanation": "Diferencijalni i integralni račun (kalkulus) proučava stope promjena i akumulaciju količina, što je ključno za fiziku i inženjerstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1179",
+        "category": "znanost",
+        "question": "Koji je primarni sastojak stakla?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Ugljikov dioksid",
+            "Kalcijev karbonat",
+            "Natrijev klorid"
+        ],
+        "explanation": "Staklo se primarno sastoji od silicijevog dioksida (SiO2), često u obliku kvarcnog pijeska, koji se topi na visokim temperaturama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1180",
+        "category": "znanost",
+        "question": "Kako se naziva dio računala koji služi kao kratkoročna memorija za podatke kojima se trenutno pristupa?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "HDD (Hard Disk Drive)",
+            "SSD (Solid State Drive)",
+            "ROM (Read-Only Memory)"
+        ],
+        "explanation": "RAM je volatilna memorija koja se koristi za pohranu podataka i programa koje CPU aktivno koristi. Omogućuje brz pristup podacima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1181",
+        "category": "znanost",
+        "question": "Koji se znanstvenik smatra ocem moderne fizike zbog teorije relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Albert Einstein je formulirao teoriju relativnosti, koja je fundamentalno promijenila razumijevanje prostora, vremena, gravitacije i energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1182",
+        "category": "znanost",
+        "question": "Koja vrsta zračenja ima najveću energiju u elektromagnetskom spektru?",
+        "correct_answer": "Gama zračenje",
+        "incorrect_answers": [
+            "Radio valovi",
+            "Vidljiva svjetlost",
+            "Infracrveno zračenje"
+        ],
+        "explanation": "Gama zračenje ima najkraću valnu duljinu i najveću frekvenciju, što mu daje najveću energiju među svim vrstama elektromagnetskog zračenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1183",
+        "category": "znanost",
+        "question": "Kako se naziva najudaljenija poznata granica Sunčevog sustava, koja se sastoji od milijardi ledenih tijela?",
+        "correct_answer": "Oortov oblak",
+        "incorrect_answers": [
+            "Kuiperov pojas",
+            "Asteroidni pojas",
+            "Heliosfera"
+        ],
+        "explanation": "Oortov oblak je hipotetična sferna ljuska smrznutih objekata koja okružuje Sunčev sustav, a smatra se izvorom dugoperiodičnih kometa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1184",
+        "category": "znanost",
+        "question": "Koji je naziv za tehniku koja omogućuje uređajima da komuniciraju na kratkim udaljenostima putem radio valova, često se koristi za bežične slušalice?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "NFC",
+            "Li-Fi",
+            "Infrared"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja, stvarajući osobne mreže.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1185",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija crvenih krvnih stanica?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Prijenos hranjivih tvari"
+        ],
+        "explanation": "Crvene krvne stanice, zahvaljujući hemoglobinu, vežu i prenose kisik iz pluća do svih tkiva u tijelu. One također prenose dio ugljikovog dioksida natrag u pluća.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1186",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje otpora protoku električne struje?",
+        "correct_answer": "Otpor (Ohm)",
+        "incorrect_answers": [
+            "Napon (Volt)",
+            "Struja (Amper)",
+            "Snaga (Watt)"
+        ],
+        "explanation": "Otpor je svojstvo materijala da se odupire protoku električne struje. Mjeri se u Omima (Ω) prema Ohmovom zakonu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1187",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim bakterije i gljive razgrađuju organsku tvar?",
+        "correct_answer": "Dekompozicija",
+        "incorrect_answers": [
+            "Sinteza",
+            "Fermentacija",
+            "Fotosinteza"
+        ],
+        "explanation": "Dekompozicija (razgradnja) je proces u kojem mikroorganizmi razlažu mrtve organizme i organske tvari, vraćajući hranjive tvari u okoliš.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1188",
+        "category": "znanost",
+        "question": "Koja je funkcija kernela u operacijskom sustavu?",
+        "correct_answer": "Upravljanje resursima i komunikacija s hardverom",
+        "incorrect_answers": [
+            "Prikaz grafičkog sučelja",
+            "Izvođenje korisničkih aplikacija",
+            "Kreiranje web stranica"
+        ],
+        "explanation": "Kernel je jezgra operacijskog sustava koja upravlja resursima računala, raspoređuje zadatke procesoru i omogućuje komunikaciju između softvera i hardvera.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1189",
+        "category": "znanost",
+        "question": "Koji kemijski element je osnova života na Zemlji i ključan je za organske molekule?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljik je jedinstven po svojoj sposobnosti stvaranja dugih lanaca i raznolikih spojeva, što ga čini temeljem svih organskih molekula i života.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1190",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za izolaciju i umnožavanje specifičnih segmenata DNA?",
+        "correct_answer": "Lančana reakcija polimeraze (PCR)",
+        "incorrect_answers": [
+            "Gel elektroforeza",
+            "Kromatografija",
+            "Centrifugiranje"
+        ],
+        "explanation": "PCR je molekularna biološka tehnika koja omogućuje brzo umnožavanje milijuna kopija specifičnog DNA segmenta iz vrlo malog početnog uzorka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1191",
+        "category": "znanost",
+        "question": "Koji je naziv za virtualni prostor gdje se dokumenti i drugi web resursi identificiraju putem URL-ova?",
+        "correct_answer": "World Wide Web (WWW)",
+        "incorrect_answers": [
+            "Internet",
+            "Intranet",
+            "Extranet"
+        ],
+        "explanation": "World Wide Web je sustav međusobno povezanih hipertekstualnih dokumenata dostupnih putem Interneta. 'Internet' je šira mreža, dok je 'WWW' sustav informacija na njemu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1192",
+        "category": "znanost",
+        "question": "Koji je najveći unutarnji organ ljudskog tijela koji ima ulogu u detoksikaciji i metabolizmu?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Srce",
+            "Pluća",
+            "Gušterača"
+        ],
+        "explanation": "Jetra je vitalni organ s više od 500 funkcija, uključujući detoksikaciju štetnih tvari, proizvodnju žuči i metabolizam hranjivih tvari.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1193",
+        "category": "znanost",
+        "question": "Koji se fizikalni princip koristi u hladnjacima za hlađenje hrane?",
+        "correct_answer": "Isparavanje rashladnog sredstva",
+        "incorrect_answers": [
+            "Konvekcija topline",
+            "Zračenje topline",
+            "Termoelektrični efekt"
+        ],
+        "explanation": "Hladnjaci rade na principu kompresijskog hlađenja. Rashladno sredstvo apsorbira toplinu dok isparava unutar hladnjaka, a zatim se komprimira i hladi izvana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1194",
+        "category": "znanost",
+        "question": "Koji je osnovni princip rada senzora otiska prsta?",
+        "correct_answer": "Mjerenje uzorka reljefa kože",
+        "incorrect_answers": [
+            "Analiza DNA",
+            "Skeniranje mrežnice",
+            "Mjerenje topline prsta"
+        ],
+        "explanation": "Senzori otiska prsta bilježe jedinstveni uzorak grebena i dolina na koži prsta, često koristeći optičke, kapacitivne ili ultrazvučne metode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1195",
+        "category": "znanost",
+        "question": "Kako se naziva skup gena u organizmu?",
+        "correct_answer": "Genom",
+        "incorrect_answers": [
+            "Kromosom",
+            "Alel",
+            "Fenotip"
+        ],
+        "explanation": "Genom je cjelokupni skup genetskih informacija (DNA ili RNA) koje posjeduje jedan organizam. Sadrži sve potrebne upute za razvoj i funkcioniranje organizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1196",
+        "category": "znanost",
+        "question": "Koji je naziv za izrazito snažno gravitacijsko polje koje nastaje kolapsom masivne zvijezde?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Supernova",
+            "Kvazar"
+        ],
+        "explanation": "Crna rupa je područje u prostor-vremenu iz kojeg ništa, pa ni svjetlost, ne može pobjeći zbog izuzetno jake gravitacije. Nastaje od ostataka masivnih zvijezda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1197",
+        "category": "znanost",
+        "question": "Koja je primarna uloga zaštitnih zidova (firewall) u računalnim mrežama?",
+        "correct_answer": "Filtriranje mrežnog prometa",
+        "incorrect_answers": [
+            "Ubrzavanje interneta",
+            "Povezivanje uređaja",
+            "Pohrana podataka"
+        ],
+        "explanation": "Zaštitni zidovi nadziru i kontroliraju dolazni i odlazni mrežni promet na temelju unaprijed definiranih sigurnosnih pravila, štiteći sustav od neovlaštenog pristupa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1198",
+        "category": "znanost",
+        "question": "Koji je naziv za energiju koja se oslobađa tijekom cijepanja atomskih jezgri?",
+        "correct_answer": "Nuklearna energija",
+        "incorrect_answers": [
+            "Kemijska energija",
+            "Toplinska energija",
+            "Potencijalna energija"
+        ],
+        "explanation": "Nuklearna energija je energija sadržana u jezgri atoma. Oslobađa se tijekom nuklearne fisije (cijepanja) ili fuzije (spajanja jezgri).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1199",
+        "category": "znanost",
+        "question": "Koji se znanstvenik smatra osnivačem taksonomije, sustava klasifikacije organizama?",
+        "correct_answer": "Carl Linnaeus",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Louis Pasteur"
+        ],
+        "explanation": "Carl Linnaeus je u 18. stoljeću razvio binomnu nomenklaturu, sustav davanja dvodijelnih znanstvenih imena vrstama, koja je temelj moderne taksonomije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1200",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje prijenos novca putem mobilnih telefona, često bez fizičkog kontakta (NFC)?",
+        "correct_answer": "Mobilno plaćanje",
+        "incorrect_answers": [
+            "Online bankarstvo",
+            "Kriptovaluta",
+            "Internet bankarstvo"
+        ],
+        "explanation": "Mobilno plaćanje omogućuje korisnicima obavljanje transakcija putem pametnih telefona ili drugih mobilnih uređaja, često koristeći NFC tehnologiju za beskontaktne uplate.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1201",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada plin izravno prelazi u kruto stanje, preskačući tekuće stanje?",
+        "correct_answer": "Depozicija (ili desublimacija)",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Isparavanje",
+            "Sublimacija"
+        ],
+        "explanation": "Depozicija je fazni prijelaz iz plinovitog u kruto stanje bez prolaska kroz tekuću fazu. Primjer je stvaranje inja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1202",
+        "category": "znanost",
+        "question": "Koji je najrasprostranjeniji kemijski element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik čini oko 75% svemira po masi i više od 90% atoma. On je primarno gorivo za nuklearne fuzije u zvijezdama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1203",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija leće u ljudskom oku?",
+        "correct_answer": "Fokusiranje svjetlosti na mrežnicu",
+        "incorrect_answers": [
+            "Regulacija ulaska svjetlosti",
+            "Detekcija boje",
+            "Obrada slike"
+        ],
+        "explanation": "Leća u oku je prozirna bikonveksna struktura koja mijenja oblik kako bi precizno fokusirala svjetlost na mrežnicu, omogućujući jasan vid na različite udaljenosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1204",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za mjerenje jačine potresa?",
+        "correct_answer": "Magnituda (npr. Richterova)",
+        "incorrect_answers": [
+            "Intenzitet",
+            "Frekvencija",
+            "Amplituda"
+        ],
+        "explanation": "Magnituda potresa mjeri oslobođenu energiju potresa na izvoru, dok intenzitet opisuje učinak potresa na površini Zemlje i na ljude. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1205",
+        "category": "znanost",
+        "question": "Koji je znanstvenik otkrio penicilin, prvi antibiotik, 1928. godine?",
+        "correct_answer": "Alexander Fleming",
+        "incorrect_answers": [
+            "Louis Pasteur",
+            "Robert Koch",
+            "Marie Curie"
+        ],
+        "explanation": "Alexander Fleming je slučajno otkrio penicilin 1928. godine kada je primijetio da plijesan Penicillium notatum inhibira rast bakterija. (stanje 2024.)",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1206",
+        "category": "znanost",
+        "question": "Koji je naziv za kemijsku vezu u kojoj atomi dijele elektrone?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalentna veza nastaje kada dva atoma dijele par ili više parova elektrona, stvarajući stabilnu molekulu. To je jedna od najčešćih kemijskih veza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1207",
+        "category": "znanost",
+        "question": "Koji se optički uređaj koristi za promatranje objekata na velikim udaljenostima u svemiru?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Endoskop"
+        ],
+        "explanation": "Teleskop je optički instrument koji prikuplja svjetlost ili drugo elektromagnetsko zračenje iz udaljenih objekata i stvara uvećanu sliku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1208",
+        "category": "znanost",
+        "question": "Koji se termin u programiranju odnosi na ponavljanje bloka koda dok je uvjet istinit?",
+        "correct_answer": "Petlja (Loop)",
+        "incorrect_answers": [
+            "Grananje (Branching)",
+            "Funkcija (Function)",
+            "Varijabla (Variable)"
+        ],
+        "explanation": "Petlja je programska struktura koja omogućuje izvršavanje bloka koda više puta. Primjeri su 'for' i 'while' petlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1209",
+        "category": "znanost",
+        "question": "Kako se naziva proces spajanja lake atomske jezgre u težu jezgru, oslobađajući pritom veliku količinu energije?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Kemijska reakcija"
+        ],
+        "explanation": "Nuklearna fuzija je proces spajanja atomskih jezgri, obično vodika, u helij, pri čemu se oslobađa ogromna energija, kao što se događa na Suncu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1210",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za skup algoritama inspiriranih evolucijom za optimizaciju i traženje rješenja?",
+        "correct_answer": "Genetski algoritam",
+        "incorrect_answers": [
+            "Neuronska mreža",
+            "Stablo odlučivanja",
+            "Regresija"
+        ],
+        "explanation": "Genetski algoritmi su optimizacijski algoritmi inspirirani procesima prirodne selekcije. Koriste se za rješavanje složenih problema traženjem 'najboljih' rješenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
