@@ -16219,5 +16219,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1389",
+        "category": "glazba",
+        "question": "Koji se instrument često naziva \"kraljem instrumenata\" zbog svog opsega i svestranosti?",
+        "correct_answer": "Klavir",
+        "incorrect_answers": [
+            "Gitara",
+            "Violina",
+            "Truba"
+        ],
+        "explanation": "Zbog širokog tonskog raspona, mogućnosti sviranja akorada i raznolikosti repertoara, klavir je dobio naziv \"kralj instrumenata\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1390",
+        "category": "glazba",
+        "question": "Koja je glazbena ljestvica najčešće korištena u zapadnoj glazbi, s osam tonova unutar oktave?",
+        "correct_answer": "Dur ljestvica",
+        "incorrect_answers": [
+            "Pentatonska ljestvica",
+            "Kromatska ljestvica",
+            "Mol ljestvica"
+        ],
+        "explanation": "Dur ljestvica je temeljna dijatonska ljestvica u zapadnoj tonalnoj glazbi, s karakterističnim rasporedom cijelih tonova i polutonova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1391",
+        "category": "glazba",
+        "question": "Tko je pjevač grupe Queen, poznat po svom nevjerojatnom vokalnom rasponu i scenskoj karizmi?",
+        "correct_answer": "Freddie Mercury",
+        "incorrect_answers": [
+            "Robert Plant",
+            "David Bowie",
+            "Mick Jagger"
+        ],
+        "explanation": "Freddie Mercury bio je karizmatični frontmen i glavni pjevač britanskog rock sastava Queen, poznat po svom impresivnom glasu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1392",
+        "category": "glazba",
+        "question": "Koji je naziv za osobu koja vodi orkestar ili zbor?",
+        "correct_answer": "Dirigent",
+        "incorrect_answers": [
+            "Kompozitor",
+            "Aranžer",
+            "Solist"
+        ],
+        "explanation": "Dirigent je osoba koja vodi izvedbu glazbenog djela, usklađujući glazbenike orkestra ili pjevače zbora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1393",
+        "category": "glazba",
+        "question": "Koji je hrvatski glazbeni festival najpoznatiji po izvedbama klapa?",
+        "correct_answer": "Omiški festival klapa",
+        "incorrect_answers": [
+            "Splitski festival",
+            "Zagrebfest",
+            "Dora"
+        ],
+        "explanation": "Festival dalmatinskih klapa Omiš je najprestižniji festival a cappella pjevanja klapa u Hrvatskoj, osnovan 1967. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1394",
+        "category": "glazba",
+        "question": "Kako se naziva glazbeni žanr koji je nastao u SAD-u krajem 19. i početkom 20. stoljeća, karakteriziran improvizacijom i sinkopiranim ritmom?",
+        "correct_answer": "Jazz",
+        "incorrect_answers": [
+            "Blues",
+            "Rock and roll",
+            "Reggae"
+        ],
+        "explanation": "Jazz je glazbeni žanr nastao u afroameričkim zajednicama New Orleansa, obilježen improvizacijom, sinkopom i svingom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1395",
+        "category": "glazba",
+        "question": "Koji je naziv za najniži muški vokalni glas?",
+        "correct_answer": "Bas",
+        "incorrect_answers": [
+            "Bariton",
+            "Tenor",
+            "Alt"
+        ],
+        "explanation": "Bas je najdublji muški vokalni glas, s rasponom obično od niskog E do srednjeg C.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1396",
+        "category": "glazba",
+        "question": "Koja je američka pop zvijezda poznata po hitovima \"Billie Jean\" i \"Thriller\", često nazivan \"Kraljem popa\"?",
+        "correct_answer": "Michael Jackson",
+        "incorrect_answers": [
+            "Prince",
+            "Stevie Wonder",
+            "Usher"
+        ],
+        "explanation": "Michael Jackson, poznat kao \"Kralj popa\", bio je globalna ikona s revolucionarnim spotovima i glazbom koja je definirala generacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1397",
+        "category": "glazba",
+        "question": "Koji se gudački instrument drži između koljena i svira gudalom, proizvodeći duboke tonove?",
+        "correct_answer": "Violončelo",
+        "incorrect_answers": [
+            "Violina",
+            "Kontrabas",
+            "Viola"
+        ],
+        "explanation": "Violončelo je gudački instrument iz violinske obitelji, veći od viole, svira se sjedeći i držeći ga između koljena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1398",
+        "category": "glazba",
+        "question": "Koji je popularni bend iz Liverpoola, poznat po članovima John Lennon, Paul McCartney, George Harrison i Ringo Starr?",
+        "correct_answer": "The Beatles",
+        "incorrect_answers": [
+            "The Rolling Stones",
+            "Led Zeppelin",
+            "Pink Floyd"
+        ],
+        "explanation": "The Beatles su bili engleska rock grupa osnovana u Liverpoolu 1960. godine, smatraju se najutjecajnijim bendom svih vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1399",
+        "category": "glazba",
+        "question": "Koji se simbol koristi za označavanje tona koji se spušta za pola stupnja?",
+        "correct_answer": "Snizilica",
+        "incorrect_answers": [
+            "Povišilica",
+            "Razrješilica",
+            "Prirodni predznak"
+        ],
+        "explanation": "Snizilica (♭) je glazbeni znak koji snižava notu za poluton, dok povišilica (♯) povisuje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1400",
+        "category": "glazba",
+        "question": "Koji je poznati valcer Johanna Straussa Mlađeg, često izvođen na novogodišnjim koncertima u Beču?",
+        "correct_answer": "Na lijepom plavom Dunavu",
+        "incorrect_answers": [
+            "Bečka krv",
+            "Priče iz Bečke šume",
+            "Carski valcer"
+        ],
+        "explanation": "\"Na lijepom plavom Dunavu\" je slavni valcer Johanna Straussa Mlađeg, premijerno izveden 1867., koji je postao bečki simbol.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1401",
+        "category": "glazba",
+        "question": "Koja je opera talijanskog skladatelja Giuseppe Verdija, premijerno izvedena u Kairu, smještena u drevni Egipat?",
+        "correct_answer": "Aida",
+        "incorrect_answers": [
+            "Traviata",
+            "Rigoletto",
+            "Otello"
+        ],
+        "explanation": "Aida je opera u četiri čina Giuseppea Verdija, naručena za otvaranje Sueskog kanala i premijerno izvedena u Kairu 1871.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1402",
+        "category": "glazba",
+        "question": "Koji je hrvatski rock bend, osnovan 1980-ih, poznat po svojim politički angažiranim tekstovima i pjesmama poput \"Zaustavite Zemlju\" i \"Uzalud vam trud svirači\"?",
+        "correct_answer": "Prljavo Kazalište",
+        "incorrect_answers": [
+            "Azra",
+            "Parni Valjak",
+            "Bijelo Dugme"
+        ],
+        "explanation": "Prljavo kazalište je kultni hrvatski rock bend koji je stekao slavu 80-ih, poznat po društveno angažiranim tekstovima i moćnim baladama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1403",
+        "category": "glazba",
+        "question": "Koji je glazbeni instrument, dio obitelji drvenih puhača, prepoznatljiv po svom zakrivljenom obliku i melankoličnom zvuku, često korišten u jazzu?",
+        "correct_answer": "Saksofon",
+        "incorrect_answers": [
+            "Klarinet",
+            "Oboa",
+            "Fagott"
+        ],
+        "explanation": "Saksofon je drveni puhački instrument s jednim jezičkom, izumljen od strane Adolphea Saxa, popularan u jazzu, klasičnoj i pop glazbi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1404",
+        "category": "glazba",
+        "question": "Koji je ruski skladatelj, autor baleta \"Labuđe jezero\" i \"Orašar\", te opera poput \"Evgenija Onjegina\"?",
+        "correct_answer": "Petar Iljič Čajkovski",
+        "incorrect_answers": [
+            "Igor Stravinski",
+            "Sergej Rahmanjinov",
+            "Dmitrij Šostakovič"
+        ],
+        "explanation": "Petar Iljič Čajkovski bio je jedan od najistaknutijih ruskih romantičnih skladatelja, poznat po svojim baletima i simfonijskoj glazbi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1405",
+        "category": "glazba",
+        "question": "Kako se naziva glazbeni pojam koji označava ponavljanje glazbene fraze na različitoj visini?",
+        "correct_answer": "Sekvenca",
+        "incorrect_answers": [
+            "Varijacija",
+            "Imitacija",
+            "Kanon"
+        ],
+        "explanation": "Sekvenca je tehnika u glazbenoj kompoziciji gdje se kratki melodijski ili harmonijski uzorak ponavlja na višim ili nižim visinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1406",
+        "category": "glazba",
+        "question": "Koja je britanska pjevačica, poznata po svom moćnom glasu i hitovima poput \"Rolling in the Deep\" i \"Someone Like You\"?",
+        "correct_answer": "Adele",
+        "incorrect_answers": [
+            "Amy Winehouse",
+            "Duffy",
+            "Jessie J"
+        ],
+        "explanation": "Adele Laurie Blue Adkins MBE, poznata kao Adele, britanska je pjevačica i tekstopisac s iznimnim vokalnim sposobnostima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1407",
+        "category": "glazba",
+        "question": "Koji se žičani instrument, porijeklom iz Španjolske, svira okidanjem žica prstima, često se koristi u flamenku?",
+        "correct_answer": "Gitara",
+        "incorrect_answers": [
+            "Mandolina",
+            "Ukulele",
+            "Harfa"
+        ],
+        "explanation": "Gitara je popularni žičani instrument, osobito u flamenko glazbi, a njezini korijeni sežu u drevne instrumente u Španjolskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1408",
+        "category": "glazba",
+        "question": "Koji je norveški skladatelj romantizma, poznat po scenskoj glazbi za dramu \"Peer Gynt\", uključujući \"Jutarnje raspoloženje\"?",
+        "correct_answer": "Edvard Grieg",
+        "incorrect_answers": [
+            "Jean Sibelius",
+            "Antonín Dvořák",
+            "Frederick Delius"
+        ],
+        "explanation": "Edvard Grieg bio je norveški skladatelj, čija se glazba često inspirirala norveškim narodnim pjesmama i krajolicima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1409",
+        "category": "glazba",
+        "question": "Kako se naziva glazbeni oblik koji se sastoji od glavne teme koja se izmjenjuje s kontrastnim epizodama, a često se koristi u finalima sonata i simfonija?",
+        "correct_answer": "Rondo",
+        "incorrect_answers": [
+            "Fuga",
+            "Tema s varijacijama",
+            "Scherzo"
+        ],
+        "explanation": "Rondo je glazbeni oblik gdje se glavna tema (refren) periodično ponavlja, izmjenjujući se s kontrastnim dijelovima (epizodama).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1410",
+        "category": "glazba",
+        "question": "Koja je francuska šansonijerka, poznata po svojim emotivnim izvedbama i pjesmama poput \"La Vie en rose\" i \"Non, je ne regrette rien\"?",
+        "correct_answer": "Edith Piaf",
+        "incorrect_answers": [
+            "Mireille Mathieu",
+            "Dalida",
+            "Françoise Hardy"
+        ],
+        "explanation": "Edith Piaf bila je jedna od najpoznatijih francuskih pjevačica, poznata po svojim snažnim vokalima i tragičnom životu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1411",
+        "category": "glazba",
+        "question": "Koji je hrvatski skladatelj i dirigent, poznat po operi \"Nikola Šubić Zrinjski\", koja je postala simbol nacionalnog otpora?",
+        "correct_answer": "Ivan Zajc",
+        "incorrect_answers": [
+            "Vatroslav Lisinski",
+            "Jakov Gotovac",
+            "Blagoje Bersa"
+        ],
+        "explanation": "Ivan Zajc je bio ključna figura u hrvatskoj glazbi 19. stoljeća, a njegova opera \"Nikola Šubić Zrinjski\" nacionalna je opera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1412",
+        "category": "glazba",
+        "question": "Koji se instrument, sličan harmonici, svira s tipkama na jednoj strani i gumbima za bas na drugoj, često popularan u narodnoj glazbi?",
+        "correct_answer": "Harmonika",
+        "incorrect_answers": [
+            "Bandoneon",
+            "Koncertina",
+            "Melodika"
+        ],
+        "explanation": "Harmonika je aerofoni instrument s mijehom, tipkama i bas gumbima, široko korišten u raznim glazbenim žanrovima, uključujući narodnu glazbu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1413",
+        "category": "glazba",
+        "question": "Koji je američki rock pjevač, poznat kao \"Kralj rock and rolla\", autor hitova poput \"Hound Dog\" i \"Can't Help Falling in Love\"?",
+        "correct_answer": "Elvis Presley",
+        "incorrect_answers": [
+            "Chuck Berry",
+            "Little Richard",
+            "Johnny Cash"
+        ],
+        "explanation": "Elvis Presley bio je američki pjevač i glumac, opće poznat kao \"Kralj rock and rolla\" zbog svog utjecaja i karizme.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1414",
+        "category": "glazba",
+        "question": "Koji je naziv za ženski vokalni glas, niži od soprana, ali viši od alta?",
+        "correct_answer": "Mezzosopran",
+        "incorrect_answers": [
+            "Kontralt",
+            "Sopran",
+            "Tenor"
+        ],
+        "explanation": "Mezzosopran je srednji ženski vokalni glas, smješten između soprana i alta, s bogatim i toplim tonom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1415",
+        "category": "glazba",
+        "question": "Koji je glazbeni žanr, nastao krajem 1960-ih u SAD-u, spajajući gospel, soul i rhythm and blues, s naglaskom na plesnu glazbu?",
+        "correct_answer": "Funk",
+        "incorrect_answers": [
+            "Disco",
+            "Soul",
+            "R&B"
+        ],
+        "explanation": "Funk je plesni žanr koji se razvio iz soula i jazza, karakteriziran ritmičkim dionicama i snažnim bas linijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1416",
+        "category": "glazba",
+        "question": "Koji je mađarski skladatelj i pijanist romantizma, poznat po svojim \"Mađarskim rapsodijama\" i virtuozitetu na klaviru?",
+        "correct_answer": "Franz Liszt",
+        "incorrect_answers": [
+            "Frédéric Chopin",
+            "Robert Schumann",
+            "Johannes Brahms"
+        ],
+        "explanation": "Franz Liszt bio je mađarski pijanist i skladatelj, jedan od najpoznatijih virtuoza 19. stoljeća, poznat po tehnički zahtjevnim djelima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1417",
+        "category": "glazba",
+        "question": "Kako se naziva tehnika u glazbi gdje pjevač ili svirač izvodi brze, virtuozne pasaže s mnogo nota po slogu ili jednom udarcu?",
+        "correct_answer": "Koloratura",
+        "incorrect_answers": [
+            "Vibrato",
+            "Tremolo",
+            "Legato"
+        ],
+        "explanation": "Koloratura je vrsta vokalne ili instrumentalne virtuoznosti, obično brze pasaže i ukrasi, često se koristi u baroknoj i bel canto operi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1418",
+        "category": "glazba",
+        "question": "Koji je američki jazz trubač, poznat po svom revolucionarnom doprinosu bebopu i cool jazzu, s albumima poput \"Kind of Blue\"?",
+        "correct_answer": "Miles Davis",
+        "incorrect_answers": [
+            "Louis Armstrong",
+            "Dizzy Gillespie",
+            "Chet Baker"
+        ],
+        "explanation": "Miles Davis bio je jedan od najutjecajnijih jazz glazbenika, trubač, skladatelj i vođa sastava, ključan za razvoj mnogih jazz stilova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1419",
+        "category": "glazba",
+        "question": "Koji je njemački skladatelj i orguljaš baroknog razdoblja, poznat po svojim *Goldberg varijacijama* i *Pasiji po Mateju*?",
+        "correct_answer": "Johann Sebastian Bach",
+        "incorrect_answers": [
+            "Georg Friedrich Händel",
+            "Antonio Vivaldi",
+            "Georg Philipp Telemann"
+        ],
+        "explanation": "Johann Sebastian Bach bio je veliki njemački skladatelj baroka, čija su djela, poput Goldberg varijacija, vrhunci polifonije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1420",
+        "category": "glazba",
+        "question": "Koji je glazbeni pojam za promjenu tonaliteta unutar skladbe, obično radi stvaranja kontrasta ili pojačavanja emocija?",
+        "correct_answer": "Modulacija",
+        "incorrect_answers": [
+            "Transpozicija",
+            "Harmonska progresija",
+            "Diskontinuitet"
+        ],
+        "explanation": "Modulacija je proces promjene tonaliteta unutar glazbenog djela, koji obogaćuje harmoniju i stvara dramatičan efekt.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1421",
+        "category": "glazba",
+        "question": "Koji je poljski skladatelj i pijanist romantizma, gotovo isključivo posvećen klavirskoj glazbi, autor \"Revolucionarne etide\"?",
+        "correct_answer": "Frédéric Chopin",
+        "incorrect_answers": [
+            "Franz Liszt",
+            "Robert Schumann",
+            "Johannes Brahms"
+        ],
+        "explanation": "Frédéric Chopin, poljski skladatelj i virtuozni pijanist, bio je majstor klavirske glazbe romantizma, poznat po svojim etidama i nokturnima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1422",
+        "category": "glazba",
+        "question": "Kako se naziva monumentalna forma opere, popularna u 19. stoljeću u Francuskoj, karakterizirana velikim ansamblima, baletnim scenama i povijesnim temama?",
+        "correct_answer": "Grand opéra",
+        "incorrect_answers": [
+            "Opera buffa",
+            "Singspiel",
+            "Verismo opera"
+        ],
+        "explanation": "Grand opéra je stil opere popularan u Francuskoj 19. stoljeća, s naglaskom na spektakl, povijesne teme i raskošnu produkciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1423",
+        "category": "glazba",
+        "question": "Koji je hrvatski kompozitor, jedan od osnivača Hrvatske akademije znanosti i umjetnosti, autor prve hrvatske opere \"Ljubav i zloba\"?",
+        "correct_answer": "Vatroslav Lisinski",
+        "incorrect_answers": [
+            "Ivan Zajc",
+            "Blagoje Bersa",
+            "Josip Hatze"
+        ],
+        "explanation": "Vatroslav Lisinski bio je prvi hrvatski operni skladatelj, čija je opera \"Ljubav i zloba\" označila početak nacionalne opere.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1424",
+        "category": "glazba",
+        "question": "Koji se brazilski instrument, dio udaraljkaške obitelji, sastoji od drvenog okvira preko kojeg je nategnuta koža, sviran trljanjem štapa po koži?",
+        "correct_answer": "Cuíca",
+        "incorrect_answers": [
+            "Berimbau",
+            "Pandeiro",
+            "Agogô"
+        ],
+        "explanation": "Cuíca je brazilski udaraljkaški instrument s jedinstvenim, hrapavim tonom, proizvodi se trljanjem unutarnjeg štapa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1425",
+        "category": "glazba",
+        "question": "Kako se naziva akord koji se sastoji od blisko raspoređenih tonova (često polutonova), stvarajući gust, disonantan zvuk?",
+        "correct_answer": "Klaster",
+        "incorrect_answers": [
+            "Trozvuk",
+            "Kvintakord",
+            "Sekstakord"
+        ],
+        "explanation": "Klaster je akord sastavljen od tri ili više uzastopnih tonova (sekundi), stvarajući vrlo gust i često disonantan zvučni efekt.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1426",
+        "category": "glazba",
+        "question": "Koja je opera francuskog skladatelja Georgesa Bizeta, smještena u Sevilju i poznata po svojim španjolskim motivima i liku ciganke Carmen?",
+        "correct_answer": "Carmen",
+        "incorrect_answers": [
+            "Faust",
+            "Manon",
+            "Samson i Dalila"
+        ],
+        "explanation": "Carmen je Bizetovo remek-djelo, popularna opera koja prikazuje strastvenu ljubav i tragičnu sudbinu ciganke Carmen.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1427",
+        "category": "glazba",
+        "question": "Koji je poljski skladatelj 20. stoljeća, poznat po svojim avangardnim djelima poput *Tužaljke za žrtve Hirošime*, pionir sonorne glazbe?",
+        "correct_answer": "Krzysztof Penderecki",
+        "incorrect_answers": [
+            "Witold Lutosławski",
+            "Henryk Górecki",
+            "Wojciech Kilar"
+        ],
+        "explanation": "Krzysztof Penderecki bio je jedan od najvažnijih poljskih skladatelja avangarde, poznat po istraživanju novih zvučnih mogućnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_mus_1428",
+        "category": "glazba",
+        "question": "Koji je glazbeni oblik, popularan u baroku, gdje se mala grupa solista (concertino) izmjenjuje s cijelim orkestrom (ripieno)?",
+        "correct_answer": "Concerto grosso",
+        "incorrect_answers": [
+            "Solo koncert",
+            "Simfonija",
+            "Svit"
+        ],
+        "explanation": "Concerto grosso je barokni koncertni oblik koji karakterizira kontrast između manje skupine solista i većeg orkestra.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
