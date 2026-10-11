@@ -54,3 +54,14 @@ E2E testing strictly uses the two fixed production accounts: `BongBotTest` and `
 ### 5. Styling & Audio
 - **Styling**: Tailwind CSS v3 utility classes exclusively.
 - **Sound**: Audio effects must route through `src/utils/sound.js` (Web Audio API singleton with lazy `AudioContext` initialization).
+
+### 6. Session Handoff Protocol
+- When asked to "update NOTES.md" or "wrap up session":
+  1. Inspect git status and recent edits.
+  2. Update the `Latest Session Wrap-Up` section in `NOTES.md` with:
+     - Date/time of wrap-up.
+     - Files modified and tasks completed.
+     - Any failing tests, pending builds, or uncommitted changes.
+     - Exactly 2-3 numbered immediate next steps for the next session.
+  3. Keep the file concise and overwrite the previous session's wrap-up (or append to a history log).
+- When starting a new session and asked "what's next?": Read `NOTES.md` first.
