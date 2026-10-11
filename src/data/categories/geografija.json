@@ -13037,5 +13037,470 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1146",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Sjeverne Amerike?",
+        "correct_answer": "Mount Denali",
+        "incorrect_answers": [
+            "Mount Whitney",
+            "Mount Logan",
+            "Pico de Orizaba"
+        ],
+        "explanation": "Denali, ranije poznat kao Mount McKinley, najviši je vrh na sjevernoameričkom kontinentu, smješten na Aljasci u SAD-u.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1147",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija država u Europi (bez Rusije)?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Francuska",
+            "Ujedinjeno Kraljevstvo",
+            "Italija"
+        ],
+        "explanation": "Njemačka je najmnogoljudnija država u Europi s preko 83 milijuna stanovnika (stanje 2024.), ne računajući transkontinentalnu Rusiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1148",
+        "category": "geografija",
+        "question": "Koji kontinent nema nijednu stalnu rijeku u tekućem obliku?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Afrika",
+            "Europa"
+        ],
+        "explanation": "Antarktika je kontinent s ledom prekrivenom površinom, što sprječava postojanje trajnih rijeka u tekućem obliku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1149",
+        "category": "geografija",
+        "question": "Koje je najveće slatkovodno jezero po volumenu na svijetu?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Gornje jezero",
+            "Jezero Tanganyika",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru sadrži oko 20% svjetske slatke vode i najdublje je jezero na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1150",
+        "category": "geografija",
+        "question": "Koji je najduži planinski lanac u Europi?",
+        "correct_answer": "Karpati",
+        "incorrect_answers": [
+            "Alpe",
+            "Ural",
+            "Dinaridi"
+        ],
+        "explanation": "Karpati su planinski lanac koji se proteže kroz središnju i istočnu Europu, dug oko 1500 km.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1151",
+        "category": "geografija",
+        "question": "Koji je kontinent najsuši?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Afrika",
+            "Azija"
+        ],
+        "explanation": "Antarktika je najsuši kontinent na Zemlji s izuzetno niskom razinom padalina, klasificirana kao polarna pustinja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1152",
+        "category": "geografija",
+        "question": "Koja je najviša točka Oceanije?",
+        "correct_answer": "Puncak Jaya (Carstensz Pyramid)",
+        "incorrect_answers": [
+            "Mount Cook",
+            "Mauna Kea",
+            "Mount Kosciuszko"
+        ],
+        "explanation": "Puncak Jaya, poznat i kao Carstensz Pyramid, najviši je vrh Oceanije i otoka Nove Gvineje, smješten u Indoneziji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1153",
+        "category": "geografija",
+        "question": "Koji se tjesnac nalazi između Sjeverne Amerike i Azije?",
+        "correct_answer": "Beringov tjesnac",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Bospor",
+            "Magellanov prolaz"
+        ],
+        "explanation": "Beringov tjesnac povezuje Tihi ocean i Arktički ocean te razdvaja Rusiju (Azija) od Aljaske (Sjeverna Amerika).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1154",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija u Hrvatskoj?",
+        "correct_answer": "Dubravsko jezero",
+        "incorrect_answers": [
+            "Perućko jezero",
+            "Vransko jezero (kod Biograda)",
+            "Butoniga"
+        ],
+        "explanation": "Dubravsko jezero je najveće umjetno jezero u Hrvatskoj po površini, smješteno na rijeci Dravi u Međimurskoj i Varaždinskoj županiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1155",
+        "category": "geografija",
+        "question": "Koja pustinja se prostire kroz sjevernu Afriku i najveća je vruća pustinja na svijetu?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Velika Viktorijina pustinja"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokrivajući veći dio sjeverne Afrike i prostire se kroz više od deset zemalja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1156",
+        "category": "geografija",
+        "question": "Koja je država poznata po gejziru Strokkur i geotermalnom lječilištu Plava laguna?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Čile",
+            "Japan"
+        ],
+        "explanation": "Island je vulkanski aktivan otok poznat po brojnim gejzirima poput Strokkura i geotermalnim izvorima poput Plave lagune.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1157",
+        "category": "geografija",
+        "question": "Koji je kontinent najgušće naseljen?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je kontinent s najvećom populacijom i, unatoč svojoj veličini, najgušće je naseljena, s preko 4,7 milijardi stanovnika (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1158",
+        "category": "geografija",
+        "question": "Koji je najveći estuarij u Europi?",
+        "correct_answer": "Žironda",
+        "incorrect_answers": [
+            "Temza",
+            "Seina",
+            "Laba"
+        ],
+        "explanation": "Žironda je estuarij nastao ušćem rijeka Garonne i Dordogne na jugozapadu Francuske, i najveći je u Europi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1159",
+        "category": "geografija",
+        "question": "Koja je država poznata po terasama riže u Banaue, koje se često nazivaju 'Osmim svjetskim čudom'?",
+        "correct_answer": "Filipini",
+        "incorrect_answers": [
+            "Indonezija",
+            "Vijetnam",
+            "Kina"
+        ],
+        "explanation": "Banaue terase riže, često nazivane 'Osmim svjetskim čudom', nalaze se u planinama Ifugao na Filipinima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1160",
+        "category": "geografija",
+        "question": "Koja je najjužnija država u Africi?",
+        "correct_answer": "Južnoafrička Republika",
+        "incorrect_answers": [
+            "Namibija",
+            "Bocvana",
+            "Lesoto"
+        ],
+        "explanation": "Južnoafrička Republika zauzima najjužniji dio afričkog kontinenta, poznata po raznolikim krajolicima i divljim životinjama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1161",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu koji je u potpunosti prekriven ledom?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Baffin Land",
+            "Ellesmere",
+            "Novaja Zemlja"
+        ],
+        "explanation": "Grenland je najveći otok na svijetu (ako se Australija smatra kontinentom), a nalazi se u arktičkom području i prekriven je ledom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1162",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Bagdad i spaja se s Eufratom tvoreći Shatt al-Arab?",
+        "correct_answer": "Tigris",
+        "incorrect_answers": [
+            "Jordan",
+            "Orontes",
+            "Kura"
+        ],
+        "explanation": "Tigris je rijeka koja protječe kroz Tursku, Siriju i Irak, te se spaja s Eufratom tvoreći Shatt al-Arab.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1163",
+        "category": "geografija",
+        "question": "Koja se planina, najviša u Africi, nalazi u Tanzaniji i poznata je po svojim snježnim vrhovima blizu ekvatora?",
+        "correct_answer": "Kilimandžaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Ruwenzori",
+            "Atlas"
+        ],
+        "explanation": "Kilimandžaro je uspavani vulkan i najviši vrh Afrike, poznat po svojim ledenjacima i snježnim kapama unatoč blizini ekvatora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1164",
+        "category": "geografija",
+        "question": "Koja je najgušće naseljena država na svijetu (isključujući mikrodržave)?",
+        "correct_answer": "Bangladeš",
+        "incorrect_answers": [
+            "Indija",
+            "Singapur",
+            "Južna Koreja"
+        ],
+        "explanation": "Bangladeš je jedna od najgušće naseljenih država na svijetu, s preko 170 milijuna stanovnika na relativno maloj površini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1165",
+        "category": "geografija",
+        "question": "Koja je država poznata po 'Table Mountain' (Stolnoj planini) u Cape Townu?",
+        "correct_answer": "Južnoafrička Republika",
+        "incorrect_answers": [
+            "Australija",
+            "Novi Zeland",
+            "Čile"
+        ],
+        "explanation": "Stolna planina je ikonična planina s ravnim vrhom koja dominira vizurom Cape Towna u Južnoafričkoj Republici.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1166",
+        "category": "geografija",
+        "question": "Koja država ima najviše aktivnih vulkana?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Japan",
+            "SAD",
+            "Rusija"
+        ],
+        "explanation": "Indonezija se nalazi na 'Vatrenom prstenu' Pacifika i ima preko 130 aktivnih vulkana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1167",
+        "category": "geografija",
+        "question": "Koja je najniža točka na kopnu (izvan morskog dna)?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Dolina Smrti",
+            "Asalsko jezero",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Mrtvo more je jezero slane vode čija je obala najniža točka na kopnu, oko 430 metara ispod razine mora (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1168",
+        "category": "geografija",
+        "question": "Koja je država poznata po 'Moai' kipovima na Uskršnjem otoku?",
+        "correct_answer": "Čile",
+        "incorrect_answers": [
+            "Peru",
+            "Ekvador",
+            "Kolumbija"
+        ],
+        "explanation": "Uskršnji otok, dom tajanstvenih Moai kipova, udaljeni je polinezijski otok koji pripada Čileu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1169",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz deset europskih zemalja, više nego bilo koja druga rijeka na svijetu?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Volga",
+            "Laba"
+        ],
+        "explanation": "Dunav je druga najduža rijeka u Europi i jedina rijeka na svijetu koja protječe kroz deset zemalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1170",
+        "category": "geografija",
+        "question": "Koja država se nalazi na jugu Afrike i poznata je po pustinji Namib?",
+        "correct_answer": "Namibija",
+        "incorrect_answers": [
+            "Angola",
+            "Bocvana",
+            "Južnoafrička Republika"
+        ],
+        "explanation": "Namibija je država u jugozapadnoj Africi, čiji veći dio zauzima pustinja Namib, jedna od najstarijih pustinja na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1171",
+        "category": "geografija",
+        "question": "Koji je najveći otok u Aziji?",
+        "correct_answer": "Borneo",
+        "incorrect_answers": [
+            "Sumatra",
+            "Java",
+            "Honshu"
+        ],
+        "explanation": "Borneo je treći najveći otok na svijetu i najveći u Aziji, podijeljen između Malezije, Indonezije i Bruneja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1172",
+        "category": "geografija",
+        "question": "Koji ocean je najmanji i najplići od svih pet oceana?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Južni ocean"
+        ],
+        "explanation": "Arktički ocean, smješten oko Sjevernog pola, najmanji je, najplići i najhladniji od pet oceana na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1173",
+        "category": "geografija",
+        "question": "Koja se država proteže na oba kontinenta, Aziju i Europu, te ima većinu stanovništva u Europi, ali veći dio teritorija u Aziji?",
+        "correct_answer": "Turska",
+        "incorrect_answers": [
+            "Rusija",
+            "Kazahstan",
+            "Gruzija"
+        ],
+        "explanation": "Turska je transkontinentalna zemlja; njezin manji dio (Trakija) je u Europi, dok je veći dio (Anatolija) u Aziji. Stanovništvo je većinom u europskom dijelu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1174",
+        "category": "geografija",
+        "question": "Koja je država poznata po delti Okavango, jedinstvenoj unutrašnjoj delti koja se ne ulijeva u more?",
+        "correct_answer": "Bocvana",
+        "incorrect_answers": [
+            "Zambija",
+            "Zimbabve",
+            "Kenija"
+        ],
+        "explanation": "Delta Okavango u Bocvani je jedinstveni ekosustav i jedna od najvećih unutrašnjih delta na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1175",
+        "category": "geografija",
+        "question": "Koji je najduži umjetni kanal na svijetu?",
+        "correct_answer": "Veliki kineski kanal",
+        "incorrect_answers": [
+            "Sueski kanal",
+            "Panamski kanal",
+            "Kielski kanal"
+        ],
+        "explanation": "Veliki kineski kanal je najduži umjetni kanal na svijetu, s dužinom od preko 1.776 km.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1176",
+        "category": "geografija",
+        "question": "Koja je najniža kopnena točka Južne Amerike?",
+        "correct_answer": "Laguna del Carbón, Argentina",
+        "incorrect_answers": [
+            "Atacama pustinja",
+            "Jezero Titicaca",
+            "Salar de Uyuni"
+        ],
+        "explanation": "Laguna del Carbón u Argentini je najniža kopnena točka Južne Amerike, smještena oko 105 metara ispod razine mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
