@@ -14276,5 +14276,575 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1227",
+        "category": "povijest",
+        "question": "Tko je bio prvi rimski car, koji je vladao od 27. pr. Kr. do 14. godine n. e.?",
+        "correct_answer": "August",
+        "incorrect_answers": [
+            "Julije Cezar",
+            "Neron",
+            "Trajan"
+        ],
+        "explanation": "August je uspostavio principat, čime je službeno započela era Rimskog Carstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1228",
+        "category": "povijest",
+        "question": "Koji se drevni egipatski spomenik koristi kao grobnica za faraone i smatra se jednim od sedam svjetskih čuda?",
+        "correct_answer": "Piramida",
+        "incorrect_answers": [
+            "Obelisk",
+            "Sfinge",
+            "Mastaba"
+        ],
+        "explanation": "Piramide su monumentalne grobnice izgrađene za faraone starog Egipta, simbol njihove moći i vjerovanja u zagrobni život.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1229",
+        "category": "povijest",
+        "question": "Koje je godine Hrvatska postala samostalna i neovisna država, proglasivši neovisnost od SFR Jugoslavije?",
+        "correct_answer": "1991.",
+        "incorrect_answers": [
+            "1990.",
+            "1992.",
+            "1995."
+        ],
+        "explanation": "Hrvatski sabor je 25. lipnja 1991. godine donio Ustavnu odluku o suverenosti i samostalnosti Republike Hrvatske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1230",
+        "category": "povijest",
+        "question": "Tko je bio starogrčki filozof, učenik Sokrata i učitelj Aristotela, autor djela \"Država\"?",
+        "correct_answer": "Platon",
+        "incorrect_answers": [
+            "Heraklit",
+            "Sokrat",
+            "Aristotel"
+        ],
+        "explanation": "Platon je jedan od najutjecajnijih mislilaca zapadne civilizacije, osnivač Akademije u Ateni.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1231",
+        "category": "povijest",
+        "question": "Koja je srednjovjekovna vojna i vjerska ekspedicija imala za cilj oslobađanje Jeruzalema i Svete Zemlje od muslimanske vlasti?",
+        "correct_answer": "Križarski ratovi",
+        "incorrect_answers": [
+            "Rekonkvista",
+            "Husitski ratovi",
+            "Stogodišnji rat"
+        ],
+        "explanation": "Križarski ratovi bili su niz vjerskih ratova između 11. i 13. stoljeća, pod patronatom Katoličke crkve.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1232",
+        "category": "povijest",
+        "question": "Koji je mirovni sporazum iz 1648. godine, kojim je okončan Tridesetogodišnji rat, uspostavio načelo suvereniteta država i ravnoteže snaga u Europi?",
+        "correct_answer": "Vestfalski mir",
+        "incorrect_answers": [
+            "Utrechtski mir",
+            "Augsburški mir",
+            "Pirinejski mir"
+        ],
+        "explanation": "Vestfalski mir označio je kraj Tridesetogodišnjeg i Osamdesetogodišnjeg rata, redefinirajući političku kartu Europe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1233",
+        "category": "povijest",
+        "question": "Koji je hrvatski velikaš, junak Sigetske bitke iz 1566., bio poznat po borbi protiv Osmanlija i posmrtno slavljen u književnosti?",
+        "correct_answer": "Nikola Šubić Zrinski",
+        "incorrect_answers": [
+            "Petar Zrinski",
+            "Fran Krsto Frankopan",
+            "Josip Jelačić"
+        ],
+        "explanation": "Nikola Šubić Zrinski hrabro je branio Siget od Turaka, postavši simbol otpora. Njegova borba opjevana je u epu \"Opsada Sigeta\".",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1234",
+        "category": "povijest",
+        "question": "Koji je događaj 28. lipnja 1914. godine u Sarajevu izravno potaknuo početak Prvog svjetskog rata?",
+        "correct_answer": "Atentat na nadvojvodu Franza Ferdinanda",
+        "incorrect_answers": [
+            "Potapanje Lusitanije",
+            "Objava njemačkog rata Rusiji",
+            "Invazija Njemačke na Belgiju"
+        ],
+        "explanation": "Atentat na austrougarskog prijestolonasljednika i njegovu suprugu u Sarajevu bio je iskra koja je zapalila rat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1235",
+        "category": "povijest",
+        "question": "Tko je naslikao \"Posljednju večeru\" i \"Mona Lisu\", te bio jedan od najvećih renesansnih umjetnika i izumitelja?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci bio je polihistor, genijalac renesanse poznat po svojim umjetničkim i znanstvenim doprinosima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1236",
+        "category": "povijest",
+        "question": "Koji je izraz opisivao ideološku i političku podjelu Europe na zapadni i istočni blok nakon Drugog svjetskog rata?",
+        "correct_answer": "Željezna zavjesa",
+        "incorrect_answers": [
+            "Berlinski zid",
+            "Hladni front",
+            "Komunistički zid"
+        ],
+        "explanation": "Winston Churchill je popularizirao taj izraz 1946. godine, opisujući granicu između sovjetskog i zapadnog utjecaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1237",
+        "category": "povijest",
+        "question": "Koja je rimska provincija bila poznata kao \"žitnica Carstva\" i predstavljala je ključni izvor žita za Rim?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Galija",
+            "Hispanija",
+            "Afrika (provincija)"
+        ],
+        "explanation": "Egipat je bio vitalan za opskrbu Rima žitom, što je carskoj vlasti osiguravalo stabilnost i kontrolu nad pučanstvom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1238",
+        "category": "povijest",
+        "question": "Koje je godine sklopljena Hrvatsko-ugarska nagodba, kojom je reguliran položaj Hrvatske unutar Ugarske i Austro-Ugarske Monarhije?",
+        "correct_answer": "1868.",
+        "incorrect_answers": [
+            "1848.",
+            "1878.",
+            "1918."
+        ],
+        "explanation": "Nagodba je definirala odnos Kraljevine Hrvatske, Slavonije i Dalmacije s Kraljevinom Ugarskom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1239",
+        "category": "povijest",
+        "question": "Koji je starogrčki povjesničar napisao \"Peloponeski rat\", djelo koje se ističe objektivnošću i analizom uzroka sukoba?",
+        "correct_answer": "Tukidid",
+        "incorrect_answers": [
+            "Herodot",
+            "Ksenofont",
+            "Plutarh"
+        ],
+        "explanation": "Tukididovo djelo smatra se klasikom povijesne literature zbog svoje realistične analize rata i političke moći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1240",
+        "category": "povijest",
+        "question": "Tko je bio najdugovječniji sultan Osmanskog Carstva, poznat i kao \"Zakonodavac\" te \"Veličanstveni\" u zapadnom svijetu?",
+        "correct_answer": "Sulejman I.",
+        "incorrect_answers": [
+            "Mehmed II.",
+            "Selim I.",
+            "Mustafa I."
+        ],
+        "explanation": "Sulejman I. vladao je od 1520. do 1566., a njegova je vladavina zlatno doba Osmanskog Carstva u vojnom i kulturnom smislu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1241",
+        "category": "povijest",
+        "question": "Koji je izum, pripisan Jamesu Wattu, bio ključan za Prvu industrijsku revoluciju?",
+        "correct_answer": "Parni stroj",
+        "incorrect_answers": [
+            "Elektromotor",
+            "Automobil",
+            "Telefon"
+        ],
+        "explanation": "Unaprijeđeni parni stroj omogućio je masovnu proizvodnju i pogon tvornica, željeznica i brodova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1242",
+        "category": "povijest",
+        "question": "Koje se godine dogodio pad Bastille, simboličan početak Francuske revolucije?",
+        "correct_answer": "1789.",
+        "incorrect_answers": [
+            "1776.",
+            "1792.",
+            "1804."
+        ],
+        "explanation": "Pad Bastille 14. srpnja 1789. označio je početak pobune naroda protiv apsolutističke monarhije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1243",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik donio odluku o bacanju atomskih bombi na Hiroshimu i Nagasaki?",
+        "correct_answer": "Harry S. Truman",
+        "incorrect_answers": [
+            "Franklin D. Roosevelt",
+            "Dwight D. Eisenhower",
+            "John F. Kennedy"
+        ],
+        "explanation": "Truman je preuzeo predsjedništvo nakon Rooseveltove smrti i donio odluku o upotrebi atomskog oružja za okončanje rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1244",
+        "category": "povijest",
+        "question": "Koji je hrvatski knez, a kasnije kralj, u 9. stoljeću prešao na kršćanstvo i uspostavio snažnu vlast u Primorskoj Hrvatskoj?",
+        "correct_answer": "Branimir",
+        "incorrect_answers": [
+            "Tomislav",
+            "Trpimir",
+            "Mislav"
+        ],
+        "explanation": "Knez Branimir vladao je od 879. do 892. godine, a papa Ivan VIII. ga je priznao kao neovisnog vladara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1245",
+        "category": "povijest",
+        "question": "Koja je prva mezopotamska civilizacija razvila klinasto pismo i gradila zigurate?",
+        "correct_answer": "Sumerani",
+        "incorrect_answers": [
+            "Asirci",
+            "Babilonci",
+            "Akađani"
+        ],
+        "explanation": "Sumerani su bili pioniri pismenosti, astronomije i gradnje monumentalnih hramova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1246",
+        "category": "povijest",
+        "question": "Koji je portugalski istraživač prvi oplovio Afriku i otvorio pomorski put do Indije 1498. godine?",
+        "correct_answer": "Vasco da Gama",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Ferdinand Magellan",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Vasco da Gama je stigao u Calicut, Indiju, revolucionirajući trgovinu između Europe i Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1247",
+        "category": "povijest",
+        "question": "Koji je program ekonomske pomoći SAD-a Europi nakon Drugog svjetskog rata imao za cilj obnovu i sprječavanje širenja komunizma?",
+        "correct_answer": "Marshallov plan",
+        "incorrect_answers": [
+            "Trumanova doktrina",
+            "NATO pakt",
+            "Varšavski pakt"
+        ],
+        "explanation": "Marshallov plan, službeno European Recovery Program, pomogao je obnovi poslijeratne Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1248",
+        "category": "povijest",
+        "question": "Koji je rimski car, poznat i kao \"filozof na prijestolju\", bio autor djela \"Meditacije\" i vladao u 2. stoljeću n. e.?",
+        "correct_answer": "Marko Aurelije",
+        "incorrect_answers": [
+            "Hadrijan",
+            "Dioklecijan",
+            "Neron"
+        ],
+        "explanation": "Marko Aurelije je bio stoički filozof i jedan od \"pet dobrih careva\", čija je vladavina označila vrhunac Pax Romane.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1249",
+        "category": "povijest",
+        "question": "Koji se grad u Dalmaciji spominje kao Republika koja je stoljećima očuvala svoju neovisnost?",
+        "correct_answer": "Dubrovnik",
+        "incorrect_answers": [
+            "Split",
+            "Zadar",
+            "Šibenik"
+        ],
+        "explanation": "Dubrovačka Republika, poznata kao \"Respublica Ragusina\", bila je moćna pomorska i trgovačka sila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1250",
+        "category": "povijest",
+        "question": "Koja se bitka 480. pr. Kr. smatra jednom od najpoznatijih obrambenih bitaka u povijesti, gdje su se Grci, predvođeni Spartancima, suprotstavili Perzijancima?",
+        "correct_answer": "Bitka kod Termopila",
+        "incorrect_answers": [
+            "Bitka kod Maratona",
+            "Bitka kod Salamine",
+            "Bitka kod Plateje"
+        ],
+        "explanation": "Mali broj grčkih vojnika, predvođen kraljem Leonidom, herojski se suprotstavio ogromnoj perzijskoj vojsci.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1251",
+        "category": "povijest",
+        "question": "Koje je godine započela Februarska revolucija u Rusiji, koja je dovela do abdikacije cara Nikole II. i pada Ruskog Carstva?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1914.",
+            "1922."
+        ],
+        "explanation": "Februarska revolucija bila je prva od dvije revolucije u Rusiji te godine, koja je srušila carski režim.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1252",
+        "category": "povijest",
+        "question": "Koja je bila prijestolnica Bizantskog Carstva, ranije poznata kao Bizantion, a kasnije kao Carigrad?",
+        "correct_answer": "Konstantinopol",
+        "incorrect_answers": [
+            "Atena",
+            "Rim",
+            "Aleksandrija"
+        ],
+        "explanation": "Konstantinopol je bio središte Bizantskog Carstva više od tisuću godina, prije nego što je pao pod Osmansku vlast 1453.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1253",
+        "category": "povijest",
+        "question": "Koja je bitka iz 1815. godine označila konačni poraz Napoleona Bonapartea i kraj njegovih osvajanja?",
+        "correct_answer": "Bitka kod Waterlooa",
+        "incorrect_answers": [
+            "Bitka kod Austerlitza",
+            "Bitka kod Trafalgara",
+            "Bitka kod Borodina"
+        ],
+        "explanation": "Bitka kod Waterlooa, vođena u Belgiji, dovela je do Napoleonove abdikacije i progonstva na Svetu Helenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1254",
+        "category": "povijest",
+        "question": "Koja je kineska dinastija uvela Konfucijanizam kao službenu državnu ideologiju i poznata je po izumu papira?",
+        "correct_answer": "Han dinastija",
+        "incorrect_answers": [
+            "Qin dinastija",
+            "Tang dinastija",
+            "Zhou dinastija"
+        ],
+        "explanation": "Han dinastija (206. pr. Kr. – 220. n. e.) je period velikog napretka i oblikovanja kineske kulture.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1255",
+        "category": "povijest",
+        "question": "Koji je srednjovjekovni dokument iz 1102. godine, navodno sklopljen između ugarskog kralja Kolomana i hrvatskih plemića, regulirao personalnu uniju Hrvatske i Ugarske?",
+        "correct_answer": "Pacta conventa",
+        "incorrect_answers": [
+            "Zlatna bula",
+            "Varaždinski sporazum",
+            "Kninski dogovor"
+        ],
+        "explanation": "Iako autentičnost Pacte Convente često osporavana, ona simbolizira ulazak Hrvatske u personalnu uniju s Ugarskom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1256",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik 1517. godine objavio \"95 teza\", pokrećući protestantsku reformaciju?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Ulrich Zwingli",
+            "Jan Hus"
+        ],
+        "explanation": "Lutherovo postavljanje teza na vrata crkve u Wittenbergu smatra se početkom Reformacije, koja je promijenila europsku povijest.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1257",
+        "category": "povijest",
+        "question": "Koja je egipatska kraljica, posljednja vladarica dinastije Ptolemejevića, bila poznata po svojim vezama s Julijem Cezarom i Markom Antonijem?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatšepsut",
+            "Ankesenamon"
+        ],
+        "explanation": "Kleopatra je pokušala sačuvati neovisnost Egipta kroz saveze s moćnim rimskim vojskovođama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1258",
+        "category": "povijest",
+        "question": "Koji je mirovni ugovor, potpisan 1919. godine, službeno okončao Prvi svjetski rat s Njemačkom i nametnuo joj teške reparacije?",
+        "correct_answer": "Versajski ugovor",
+        "incorrect_answers": [
+            "Brest-Litovsk",
+            "Trianonski ugovor",
+            "Saint-Germainski ugovor"
+        ],
+        "explanation": "Versajski ugovor je stvorio uvjete za kasnije nezadovoljstvo i rast nacionalizma u Njemačkoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1259",
+        "category": "povijest",
+        "question": "Tko je bio posljednji predsjednik Sovjetskog Saveza, čije su reforme (glasnost i perestrojka) dovele do raspada SSSR-a?",
+        "correct_answer": "Mihail Gorbačov",
+        "incorrect_answers": [
+            "Leonid Brežnjev",
+            "Nikita Hruščov",
+            "Josif Staljin"
+        ],
+        "explanation": "Gorbačovljeve reforme imale su za cilj modernizaciju SSSR-a, ali su umjesto toga dovele do njegovog kolapsa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1260",
+        "category": "povijest",
+        "question": "Tko je bio hrvatski ban koji je ukinuo kmetstvo 1848. godine i bio vođa Ilirskog pokreta?",
+        "correct_answer": "Josip Jelačić",
+        "incorrect_answers": [
+            "Ljudevit Gaj",
+            "Ante Starčević",
+            "Stjepan Radić"
+        ],
+        "explanation": "Ban Jelačić je ključna figura u hrvatskoj povijesti, poznat po reformama i obrani nacionalnih interesa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1261",
+        "category": "povijest",
+        "question": "Tko je bio perzijski kralj iz Ahemenidske dinastije, koji je napao Grčku 480. pr. Kr. i vodio vojsku u bitci kod Termopila?",
+        "correct_answer": "Kserkso I.",
+        "incorrect_answers": [
+            "Darije I.",
+            "Kir Veliki",
+            "Artakserkso I."
+        ],
+        "explanation": "Kserkso I. je pokušao pokoriti Grke u drugom perzijskom ratu, ali je na kraju poražen.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1262",
+        "category": "povijest",
+        "question": "Koji je španjolski konkvistador osvojio Aztečko Carstvo u današnjem Meksiku u 16. stoljeću?",
+        "correct_answer": "Hernán Cortés",
+        "incorrect_answers": [
+            "Francisco Pizarro",
+            "Juan Ponce de León",
+            "Vasco Núñez de Balboa"
+        ],
+        "explanation": "Cortés je s malom vojskom i uz pomoć lokalnih saveznika pokorio moćno Aztečko Carstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1263",
+        "category": "povijest",
+        "question": "Tko je bio njemački kancelar čija je politika \"Realpolitike\" u 19. stoljeću dovela do ujedinjenja Njemačke?",
+        "correct_answer": "Otto von Bismarck",
+        "incorrect_answers": [
+            "Wilhelm I.",
+            "Klemens von Metternich",
+            "Friedrich II."
+        ],
+        "explanation": "Bismarck je bio glavni arhitekt njemačkog ujedinjenja kroz niz ratova i diplomatskih poteza.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1264",
+        "category": "povijest",
+        "question": "Koji je hrvatski srednjovjekovni grad bio sjedište hrvatskih kraljeva i često nazivan \"kraljevskim gradom\"?",
+        "correct_answer": "Knin",
+        "incorrect_answers": [
+            "Biograd na Moru",
+            "Nin",
+            "Šibenik"
+        ],
+        "explanation": "Knin je bio jedno od najvažnijih političkih i kulturnih središta srednjovjekovne Hrvatske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
