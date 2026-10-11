@@ -12805,5 +12805,575 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1135",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica nasljeđivanja u živim organizmima?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Protein",
+            "DNA"
+        ],
+        "explanation": "Gen je dio DNA koji nosi genetske informacije za određenu osobinu i prenosi se s roditelja na potomstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1136",
+        "category": "znanost",
+        "question": "Koju kraticu koristimo za 'Central Processing Unit', glavnu komponentu računala koja izvršava instrukcije?",
+        "correct_answer": "CPU",
+        "incorrect_answers": [
+            "RAM",
+            "GPU",
+            "HDD"
+        ],
+        "explanation": "CPU (Central Processing Unit) je mozak računala koji interpretira i izvršava većinu naredbi u računalnim programima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1137",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila razvoj bežične internetske veze kratkog dometa u kućanstvima i uredima?",
+        "correct_answer": "Wi-Fi",
+        "incorrect_answers": [
+            "Bluetooth",
+            "5G",
+            "Ethernet"
+        ],
+        "explanation": "Wi-Fi je bežična mrežna tehnologija koja omogućuje uređajima da se povežu na internet ili međusobno unutar lokalne mreže.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1138",
+        "category": "znanost",
+        "question": "Koji zakon fizike kaže da za svaku akciju postoji jednaka i suprotna reakcija?",
+        "correct_answer": "Newtonov treći zakon",
+        "incorrect_answers": [
+            "Newtonov prvi zakon",
+            "Newtonov drugi zakon",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Newtonov treći zakon gibanja opisuje interakciju između dvaju tijela, gdje sila koju jedno tijelo vrši na drugo rezultira povratnom silom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1139",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se stanice dijele na dvije identične stanice, što je ključno za rast i popravak tkiva?",
+        "correct_answer": "Mitoza",
+        "incorrect_answers": [
+            "Mejoza",
+            "Fotosinteza",
+            "Glikoliza"
+        ],
+        "explanation": "Mitoza je vrsta stanične diobe koja rezultira dvjema genetski identičnim stanicama kćerima iz jedne roditeljske stanice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1140",
+        "category": "znanost",
+        "question": "Koji je naziv za atom ili molekulu s neto električnim nabojem zbog gubitka ili dobitka elektrona?",
+        "correct_answer": "Ion",
+        "incorrect_answers": [
+            "Izotop",
+            "Neutron",
+            "Proton"
+        ],
+        "explanation": "Ion nastaje kada atom ili molekula izgubi ili dobije elektrone, što rezultira neuravnoteženim brojem protona i elektrona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1141",
+        "category": "znanost",
+        "question": "Koji je proces odgovoran za stvaranje energije u zvijezdama, uključujući naše Sunce?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Kemijska reakcija",
+            "Gravitacijsko sažimanje"
+        ],
+        "explanation": "Nuklearna fuzija je spajanje lakih atomskih jezgri u teže jezgre, pri čemu se oslobađa ogromna količina energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1142",
+        "category": "znanost",
+        "question": "Koji je naziv za grafičko korisničko sučelje (GUI) u kojem korisnik komunicira s računalom putem ikona, prozora i miša?",
+        "correct_answer": "Operacijski sustav s GUI-jem",
+        "incorrect_answers": [
+            "Komandna linija",
+            "Programski jezik",
+            "BIOS"
+        ],
+        "explanation": "Operacijski sustav s GUI-jem (Graphical User Interface) omogućuje intuitivnu interakciju s računalom pomoću vizualnih elemenata umjesto tekstualnih naredbi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1143",
+        "category": "znanost",
+        "question": "Koji je izum Nikole Tesle omogućio prijenos električne energije na velike udaljenosti i revolucionalizirao elektrifikaciju?",
+        "correct_answer": "Sustav izmjenične struje (AC)",
+        "incorrect_answers": [
+            "Istosmjerna struja (DC)",
+            "Transformator",
+            "Elektromagnetski valovi"
+        ],
+        "explanation": "Teslin sustav izmjenične struje omogućio je učinkovit prijenos električne energije na velike udaljenosti korištenjem transformatora za promjenu napona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1144",
+        "category": "znanost",
+        "question": "Kako se naziva mjerna jedinica za frekvenciju, definirana kao jedan ciklus u sekundi?",
+        "correct_answer": "Herc (Hz)",
+        "incorrect_answers": [
+            "Džul (J)",
+            "Volt (V)",
+            "Amper (A)"
+        ],
+        "explanation": "Herc (Hz) je SI jedinica za frekvenciju i predstavlja broj ponavljanja događaja u jedinici vremena (jedan ciklus u sekundi).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1145",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim se RNA molekula prevodi u proteinsku sekvencu u ribosomima?",
+        "correct_answer": "Translacija",
+        "incorrect_answers": [
+            "Transkripcija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Translacija je proces u kojem se genetska informacija iz mRNA molekule koristi za sintezu specifične proteinske sekvence.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1146",
+        "category": "znanost",
+        "question": "Koja je galaksija najbliža Mliječnoj stazi i na putu je da se s njom sudari za nekoliko milijardi godina?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut",
+            "Magelanov oblak",
+            "Virginska galaksija"
+        ],
+        "explanation": "Galaksija Andromeda (M31) je najbliža velika spiralna galaksija Mliječnoj stazi i gravitacijski je privlači.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1147",
+        "category": "znanost",
+        "question": "Koji je programski jezik poznat po svojoj svestranosti i širokoj primjeni u web razvoju, znanstvenom računarstvu i umjetnoj inteligenciji?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "HTML"
+        ],
+        "explanation": "Python je popularan programski jezik zbog svoje jednostavnosti, čitljivosti i velikog ekosustava biblioteka za različite primjene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1148",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje prijenos video i audio signala visoke rezolucije putem jednog kabela, često korištena za povezivanje televizora i računala?",
+        "correct_answer": "HDMI",
+        "incorrect_answers": [
+            "VGA",
+            "USB",
+            "Ethernet"
+        ],
+        "explanation": "HDMI (High-Definition Multimedia Interface) je standard za digitalni prijenos komprimiranih i nekomprimiranih video i audio podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1149",
+        "category": "znanost",
+        "question": "Koja vrsta leće raspršuje paralelne zrake svjetlosti tako da se čini da dolaze iz virtualne žarišne točke?",
+        "correct_answer": "Konkavna leća",
+        "incorrect_answers": [
+            "Konveksna leća",
+            "Prizma",
+            "Ravno zrcalo"
+        ],
+        "explanation": "Konkavna leća je divergentna leća koja raspršuje svjetlosne zrake, dok konveksna leća konvergira zrake.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1150",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu proizvodi inzulin i glukagon za regulaciju razine šećera u krvi?",
+        "correct_answer": "Gušterača (pankreas)",
+        "incorrect_answers": [
+            "Jetra",
+            "Bubrezi",
+            "Štitnjača"
+        ],
+        "explanation": "Gušterača je žlijezda koja ima endokrinu funkciju proizvodnje hormona inzulina i glukagona za kontrolu glukoze u krvi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1151",
+        "category": "znanost",
+        "question": "Koji se proces koristi za razdvajanje smjese tekućina s različitim točkama vrelišta?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Kromatografija",
+            "Kristalizacija"
+        ],
+        "explanation": "Destilacija je metoda razdvajanja komponenti smjese na temelju razlike u njihovim točkama vrelišta, korištenjem isparavanja i kondenzacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1152",
+        "category": "znanost",
+        "question": "Koji je naziv za teoriju koja opisuje širenje svemira od jedne točke, što dovodi do 'crvenog pomaka' svjetlosti udaljenih galaksija?",
+        "correct_answer": "Big Bang teorija",
+        "incorrect_answers": [
+            "Teorija stacionarnog stanja",
+            "Teorija multiverzuma",
+            "Teorija struna"
+        ],
+        "explanation": "Big Bang teorija opisuje kako se svemir razvijao iz iznimno vrućeg i gustog stanja, a širenje se očituje u crvenom pomaku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1153",
+        "category": "znanost",
+        "question": "Koji se termin koristi za skup pravila koje program mora slijediti kako bi bio sintaktički ispravan u određenom programskom jeziku?",
+        "correct_answer": "Sintaksa",
+        "incorrect_answers": [
+            "Semantika",
+            "Algoritam",
+            "Deklaracija"
+        ],
+        "explanation": "Sintaksa se odnosi na gramatička pravila i strukturu programskog jezika, dok se semantika odnosi na značenje koda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1154",
+        "category": "znanost",
+        "question": "Koji je izum Jacquarda u 19. stoljeću, koji je koristio bušene kartice za programiranje uzoraka tkanja, bio preteča modernog računarstva?",
+        "correct_answer": "Žakardov tkalački stan",
+        "incorrect_answers": [
+            "Babbageov analitički stroj",
+            "Enigma",
+            "Prvi telefon"
+        ],
+        "explanation": "Žakardov tkalački stan je revolucionirao tekstilnu industriju i smatra se ranim primjerom programabilnog stroja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1155",
+        "category": "znanost",
+        "question": "Koji fizikalni princip objašnjava zašto brodovi plutaju, a govori da je uzgonna sila jednaka težini istisnute tekućine?",
+        "correct_answer": "Arhimedov princip",
+        "incorrect_answers": [
+            "Pascalov zakon",
+            "Bernoullijev princip",
+            "Hookeov zakon"
+        ],
+        "explanation": "Arhimedov princip definira uzgon kao silu koja djeluje na tijelo uronjeno u fluid, a jednaka je težini istisnute tekućine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1156",
+        "category": "znanost",
+        "question": "Kako se naziva struktura u biljnoj stanici koja je odgovorna za fotosintezu?",
+        "correct_answer": "Kloroplast",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Vakuola",
+            "Stanična stijenka"
+        ],
+        "explanation": "Kloroplasti su organele u biljnim stanicama koje sadrže klorofil i mjesto su gdje se odvija fotosinteza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1157",
+        "category": "znanost",
+        "question": "Koja je pojava kada Mjesec prođe između Sunca i Zemlje, zaklanjajući Sunce?",
+        "correct_answer": "Pomrčina Sunca",
+        "incorrect_answers": [
+            "Pomrčina Mjeseca",
+            "Tranzit Venere",
+            "Konjunkcija planeta"
+        ],
+        "explanation": "Pomrčina Sunca nastaje kada Mjesec, prolazeći između Sunca i Zemlje, baci sjenu na Zemlju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1158",
+        "category": "znanost",
+        "question": "Koji tip softvera služi za zaštitu računala od zlonamjernih programa kao što su virusi, crvi i trojanci?",
+        "correct_answer": "Antivirusni softver",
+        "incorrect_answers": [
+            "Operacijski sustav",
+            "Web preglednik",
+            "Uredski paket"
+        ],
+        "explanation": "Antivirusni softver skenira, detektira i uklanja zlonamjerni softver (malware) s računalnih sustava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1159",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za mrežu fizičkih objekata ('stvari') ugrađenih u senzore, softver i druge tehnologije za povezivanje i razmjenu podataka s drugim uređajima i sustavima putem interneta?",
+        "correct_answer": "Internet stvari (IoT)",
+        "incorrect_answers": [
+            "Virtualna stvarnost (VR)",
+            "Umjetna inteligencija (AI)",
+            "Veliki podaci (Big Data)"
+        ],
+        "explanation": "Internet stvari (IoT) odnosi se na međusobno povezivanje fizičkih uređaja, vozila, kućanskih aparata i drugih predmeta putem interneta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1160",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju nedjeljivu česticu svjetlosti ili bilo kojeg drugog oblika elektromagnetskog zračenja?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je kvant elektromagnetskog polja, što znači da je to osnovna čestica koja prenosi svjetlost i sve oblike elektromagnetskog zračenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1161",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu granu koja proučava nasljeđe i varijaciju živih organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Anatomija"
+        ],
+        "explanation": "Genetika je znanstvena disciplina koja se bavi proučavanjem gena, nasljeđivanja i varijacija u živim organizmima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1162",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija u kojoj tvar brzo reagira s kisikom, obično oslobađajući toplinu i svjetlost?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Redoks reakcija",
+            "Neutralizacija",
+            "Polimerizacija"
+        ],
+        "explanation": "Izgaranje je kemijska reakcija, često egzotermna, u kojoj goriva tvar reagira s oksidansom, obično kisikom iz zraka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1163",
+        "category": "znanost",
+        "question": "Koja je klasifikacija zvijezda našeg Sunca?",
+        "correct_answer": "Žuti patuljak",
+        "incorrect_answers": [
+            "Crveni div",
+            "Bijeli patuljak",
+            "Smeđi patuljak"
+        ],
+        "explanation": "Sunce je klasificirano kao žuti patuljak, zvijezda glavnog niza spektralnog tipa G2V, što je uobičajen tip zvijezde.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1164",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za simulaciju ljudske inteligencije u strojevima, gdje se strojevi programiraju za razmišljanje, učenje i rješavanje problema?",
+        "correct_answer": "Umjetna inteligencija (UI)",
+        "incorrect_answers": [
+            "Virtualna stvarnost (VR)",
+            "Proširena stvarnost (AR)",
+            "Kriptografija"
+        ],
+        "explanation": "Umjetna inteligencija (AI) je široko područje računalne znanosti koje omogućuje strojevima da imitiraju kognitivne funkcije ljudi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1165",
+        "category": "znanost",
+        "question": "Koji se uređaj koristi za pretvaranje digitalnog signala u analogni signal za prijenos preko telefonskih linija, i obrnuto?",
+        "correct_answer": "Modem",
+        "incorrect_answers": [
+            "Router",
+            "Switch",
+            "Hub"
+        ],
+        "explanation": "Modem (modulator-demodulator) pretvara digitalne signale iz računala u analogne signale za prijenos i obrnuto.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1166",
+        "category": "znanost",
+        "question": "Koji je naziv za silu koja drži zajedno protone i neutrone u atomskoj jezgri, unatoč međusobnom odbijanju protona?",
+        "correct_answer": "Jaka nuklearna sila",
+        "incorrect_answers": [
+            "Slaba nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ],
+        "explanation": "Jaka nuklearna sila je jedna od četiri temeljne sile prirode i najjača je sila, odgovorna za stabilnost atomske jezgre.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1167",
+        "category": "znanost",
+        "question": "Koji se organel u stanicama naziva 'elektranom stanice' jer proizvodi većinu stanične energije u obliku ATP-a?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Endoplazmatski retikulum",
+            "Golgijev aparat",
+            "Lizosom"
+        ],
+        "explanation": "Mitohondriji su odgovorni za stanično disanje, proces kojim se organske molekule razgrađuju kako bi se proizveo ATP, glavna energetska valuta stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1168",
+        "category": "znanost",
+        "question": "Kako se naziva kemijski element koji je temelj organske kemije zbog svoje sposobnosti stvaranja raznolikih i stabilnih veza?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Ugljik je jedinstven element s četiri valentna elektrona, što mu omogućuje formiranje stabilnih kovalentnih veza s mnogim drugim atomima, uključujući sebe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1169",
+        "category": "znanost",
+        "question": "Koja je hipotetska granica oko crne rupe, s koje se ništa, pa ni svjetlost, ne može vratiti van?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Akrecijski disk",
+            "Egzosfera"
+        ],
+        "explanation": "Horizont događaja je granica u prostor-vremenu oko crne rupe, unutar koje gravitacijsko privlačenje postaje toliko snažno da ništa ne može pobjeći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1170",
+        "category": "znanost",
+        "question": "Koji je algoritam za kompresiju podataka bez gubitaka, često korišten za slike, koji smanjuje veličinu datoteke bez gubitka kvalitete?",
+        "correct_answer": "PNG",
+        "incorrect_answers": [
+            "JPEG",
+            "MP3",
+            "GIF"
+        ],
+        "explanation": "PNG (Portable Network Graphics) je format za kompresiju slika bez gubitaka, dok JPEG koristi kompresiju s gubicima, što znači da gubi dio kvalitete.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1171",
+        "category": "znanost",
+        "question": "Koji je naziv za fenomen u kvantnoj mehanici gdje čestica može biti na više mjesta ili u više stanja istovremeno, sve dok se ne promatra?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Kvantna spregnutost",
+            "Tuneliranje",
+            "Neodređenost"
+        ],
+        "explanation": "Superpozicija je temeljno načelo kvantne mehanike koje dopušta kvantnom sustavu da istovremeno postoji u više stanja prije mjerenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1172",
+        "category": "znanost",
+        "question": "Koji je glavni razlog zašto su teleskopi smješteni u svemiru (poput Hubblea) superiorniji zemaljskim teleskopima za određena promatranja?",
+        "correct_answer": "Izbjegavanje atmosferskih smetnji",
+        "incorrect_answers": [
+            "Veća snaga povećanja",
+            "Lakše održavanje",
+            "Pristup cijelom elektromagnetskom spektru"
+        ],
+        "explanation": "Zemljina atmosfera apsorbira i izobličuje svjetlost, pa svemirski teleskopi mogu vidjeti oštrije slike i promatrati valne duljine koje ne prolaze kroz atmosferu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
