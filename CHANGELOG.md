@@ -1,5 +1,10 @@
 # Changelog
 
+### [2026-10-11] - NOTES.md session wrap-up
+- **Files Changed**:
+  - `NOTES.md` (Modified)
+- **Details**: Replaced the previous wrap-up with this session's: async duel E2E check and emulator-only flag override shipped, UI polish committed, everything pushed. Next steps: wire the check into CI + SKILL.md, production smoke tests, first nightly cron run.
+
 ### [2026-10-11] - E2E check for async duels (emulator only)
 - **Files Changed**:
   - `scripts/async-duel-check.mjs` (Created)
