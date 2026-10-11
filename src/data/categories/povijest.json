@@ -14846,5 +14846,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1265",
+        "category": "povijest",
+        "question": "Koji je starogrčki filozof, poznat po svojoj metodi postavljanja pitanja kako bi se došlo do istine, osuđen na smrt pijenjem kukute?",
+        "correct_answer": "Sokrat",
+        "incorrect_answers": [
+            "Platon",
+            "Aristotel",
+            "Heraklit"
+        ],
+        "explanation": "Sokrat je bio atenski filozof čiji su dijalozi, zapisani od njegovih učenika, temelj zapadne filozofije, a osuđen je zbog 'kvarenja mladeži'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1266",
+        "category": "povijest",
+        "question": "Koja je velika epidemija kuge u 14. stoljeću opustošila Europu, usmrtivši milijune ljudi?",
+        "correct_answer": "Crna smrt",
+        "incorrect_answers": [
+            "Španjolska gripa",
+            "Justinijanova kuga",
+            "Antička kuga"
+        ],
+        "explanation": "Crna smrt, pandemija bubonske kuge, harala je Europom od 1347. do 1351. godine, uzrokujući dramatičan pad stanovništva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1267",
+        "category": "povijest",
+        "question": "Koji je rimski car kršćanstvo proglasio državnom religijom Rimskog Carstva krajem 4. stoljeća?",
+        "correct_answer": "Teodozije I.",
+        "incorrect_answers": [
+            "Konstantin Veliki",
+            "Dioklecijan",
+            "August"
+        ],
+        "explanation": "Teodozije I. je 380. godine izdao Solunski edikt kojim je kršćanstvo proglasio državnom religijom, što je značajno promijenilo vjersku sliku carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1268",
+        "category": "povijest",
+        "question": "Koji je pisani dokument iz 1215. godine ograničio moć engleskog kralja Ivana bez Zemlje i smatra se temeljnim aktom engleskog ustavnog prava?",
+        "correct_answer": "Magna Carta",
+        "incorrect_answers": [
+            "Bill of Rights",
+            "Peticija o pravima",
+            "Habeas Corpus Act"
+        ],
+        "explanation": "Magna Carta, potpisana 15. lipnja 1215., nametnuta je kralju Ivanu od strane baruna i osigurala je određena prava i ograničila kraljevsku moć.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1269",
+        "category": "povijest",
+        "question": "Koja je žena, poznata i kao 'Djevica Orleanska', vodila francusku vojsku do pobjede protiv Engleza u Stogodišnjem ratu?",
+        "correct_answer": "Ivana Orleanska",
+        "incorrect_answers": [
+            "Katarina Velika",
+            "Marija Antoaneta",
+            "Elizabeta I."
+        ],
+        "explanation": "Ivana Orleanska je u 15. stoljeću inspirirala francusku vojsku i odigrala ključnu ulogu u preokretu Stogodišnjeg rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1270",
+        "category": "povijest",
+        "question": "Koja je velika pomorska bitka 1571. godine, između Svete lige i Osmanskog Carstva, zaustavila osmansko širenje u Sredozemlje?",
+        "correct_answer": "Bitka kod Lepanta",
+        "incorrect_answers": [
+            "Bitka kod Trafalgara",
+            "Bitka kod Actiuma",
+            "Bitka kod Diua"
+        ],
+        "explanation": "Bitka kod Lepanta, pomorska bitka kod obale Grčke, bila je ključna pobjeda kršćanskih snaga nad Osmanskim Carstvom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1271",
+        "category": "povijest",
+        "question": "Tko je bio hrvatski ban koji je 1671. godine pogubljen u Bečkom Novom Mjestu zbog urote protiv habsburške vlasti?",
+        "correct_answer": "Petar Zrinski",
+        "incorrect_answers": [
+            "Nikola Šubić Zrinski",
+            "Pavao Šubić Bribirski",
+            "Matija Gubec"
+        ],
+        "explanation": "Petar Zrinski, zajedno s Franom Krstom Frankopanom, bio je vođa Zrinsko-frankopanske urote i zbog toga pogubljen po nalogu cara Leopolda I.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1272",
+        "category": "povijest",
+        "question": "Koji je izum u 15. stoljeću omogućio masovnu proizvodnju knjiga i širenje znanja u Europi?",
+        "correct_answer": "Tiskarski stroj",
+        "incorrect_answers": [
+            "Kompas",
+            "Barut",
+            "Teleskop"
+        ],
+        "explanation": "Johannes Gutenbergov izum tiskarskog stroja s pomičnim slovima oko 1440. godine revolucionirao je širenje informacija i pismenosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1273",
+        "category": "povijest",
+        "question": "Koja je carska dinastija vladala Rusijom od 1613. do Februarske revolucije 1917. godine?",
+        "correct_answer": "Romanov",
+        "incorrect_answers": [
+            "Rurikov",
+            "Habsburg",
+            "Hohenzollern"
+        ],
+        "explanation": "Dinastija Romanov je vladala Ruskim Carstvom više od 300 godina, od izbora Mihaila Romanova za cara 1613. do abdikacije Nikole II. 1917.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1274",
+        "category": "povijest",
+        "question": "Koji je francuski car 1804. godine okrunjen za cara Francuza, označivši kraj Francuske revolucije i početak Prvog Francuskog Carstva?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Luj XVI.",
+            "Robespierre",
+            "Karlo Veliki"
+        ],
+        "explanation": "Napoleon Bonaparte preuzeo je vlast u Francuskoj pučem 1799., a pet godina kasnije proglasio se carem, dominirajući europskom politikom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1275",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik proglasio Emancipacijsku proklamaciju 1863. godine, kojom su oslobođeni robovi u pobunjenim državama Konfederacije?",
+        "correct_answer": "Abraham Lincoln",
+        "incorrect_answers": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Ulysses S. Grant"
+        ],
+        "explanation": "Abraham Lincoln je izdao Emancipacijsku proklamaciju tijekom Američkog građanskog rata, dajući moralni cilj Uniji i šireći slobodu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1276",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i prvi kalif dinastije Umajada, koja je vladala islamskim kalifatom iz Damaska?",
+        "correct_answer": "Muavija I.",
+        "incorrect_answers": [
+            "Omer",
+            "Ali",
+            "Abas"
+        ],
+        "explanation": "Muavija I. utemeljio je Umajadski kalifat 661. godine, pretvorivši kalifat iz izborne pozicije u nasljednu dinastijsku vlast.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1277",
+        "category": "povijest",
+        "question": "Koji je mirovni ugovor iz 1919. godine s Austrijom formalno završio Austro-Ugarsku Monarhiju i stvorio Republiku Austriju?",
+        "correct_answer": "Saint-Germainski mirovni ugovor",
+        "incorrect_answers": [
+            "Versajski mirovni ugovor",
+            "Trijanonski mirovni ugovor",
+            "Neuillyski mirovni ugovor"
+        ],
+        "explanation": "Saint-Germainski ugovor potpisan je 10. rujna 1919. godine s Austrijom, čime je okončan Prvi svjetski rat za nju i uspostavljena Prva Austrijska Republika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1278",
+        "category": "povijest",
+        "question": "Koji je arapski znanstvenik iz 9. stoljeća razvio algebru kao matematičku disciplinu i uveo arapske brojke u Europu?",
+        "correct_answer": "Al-Hvarizmi",
+        "incorrect_answers": [
+            "Ibn Sina",
+            "Averroes",
+            "Omar Hajjam"
+        ],
+        "explanation": "Muhammad ibn Musa al-Khwarizmi bio je perzijski matematičar, astronom i geograf, autor djela 'Kitāb al-jabr wa al-muqābalah' odakle potječe riječ algebra.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1279",
+        "category": "povijest",
+        "question": "Koji je vođa mongolskog carstva u 13. stoljeću stvorio jedno od najvećih kopnenih carstava u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Atila",
+            "Tamerlan",
+            "Kublaj-kan"
+        ],
+        "explanation": "Džingis-kan je ujedinio mongolska plemena i pokrenuo osvajanja koja su rezultirala stvaranjem golemog Mongolskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1280",
+        "category": "povijest",
+        "question": "Koji je rat, vođen od 1950. do 1953., bio prvi značajan sukob Hladnog rata i uključivao je SAD, Kinu i UN snage?",
+        "correct_answer": "Korejski rat",
+        "incorrect_answers": [
+            "Vijetnamski rat",
+            "Hladni rat",
+            "Zaljevski rat"
+        ],
+        "explanation": "Korejski rat bio je proxy sukob između kapitalističkog i komunističkog bloka, započeo je napadom Sjeverne Koreje na Južnu Koreju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1281",
+        "category": "povijest",
+        "question": "Tko je bio hrvatski književnik, filozof i političar, poznat kao 'Otac Domovine', koji je u 19. stoljeću zagovarao hrvatsku samostalnost?",
+        "correct_answer": "Ante Starčević",
+        "incorrect_answers": [
+            "Ljudevit Gaj",
+            "Josip Juraj Strossmayer",
+            "Stjepan Radić"
+        ],
+        "explanation": "Ante Starčević bio je ideolog hrvatskog nacionalizma i osnivač Stranke prava, borac za punu suverenost Hrvatske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1282",
+        "category": "povijest",
+        "question": "Koje je godine pao Carigrad pod osmansku vlast, označivši kraj Bizantskog Carstva?",
+        "correct_answer": "1453.",
+        "incorrect_answers": [
+            "1204.",
+            "1071.",
+            "1529."
+        ],
+        "explanation": "Pad Carigrada 29. svibnja 1453. pod vodstvom sultana Mehmeda II. označio je kraj tisućljetnog Bizantskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1283",
+        "category": "povijest",
+        "question": "Koja je drevna država u Južnoj Americi bila poznata po svojoj naprednoj cestovnoj mreži, sustavu quipua i Machu Picchuu?",
+        "correct_answer": "Carstvo Inka",
+        "incorrect_answers": [
+            "Aztečko Carstvo",
+            "Civilizacija Maja",
+            "Carstvo Tolteka"
+        ],
+        "explanation": "Carstvo Inka, koje je postojalo od 13. do 16. stoljeća, razvilo je složenu infrastrukturu i jedinstveni sustav evidentiranja quipu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1284",
+        "category": "povijest",
+        "question": "Koja je bila prva žena koja je obletjela Zemlju u svemiru 1963. godine?",
+        "correct_answer": "Valentina Tereškova",
+        "incorrect_answers": [
+            "Sally Ride",
+            "Jurij Gagarin",
+            "Svetlana Savitskaya"
+        ],
+        "explanation": "Valentina Tereškova bila je sovjetska kozmonautkinja i prva žena u svemiru, lansirana u lipnju 1963. godine u letjelici Vostok 6.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1285",
+        "category": "povijest",
+        "question": "Koji je događaj 1898. godine doveo do rata između Španjolske i SAD-a i rezultirao gubitkom španjolskih kolonija poput Kube i Filipina?",
+        "correct_answer": "Potonuće bojnog broda USS Maine",
+        "incorrect_answers": [
+            "Atentat na nadvojvodu Ferdinanda",
+            "Pariška komuna",
+            "Otkriće zlata u Kaliforniji"
+        ],
+        "explanation": "Eksplozija i potonuće USS Maine u havanskoj luci poslužili su kao casus belli za Španjolsko-američki rat.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1286",
+        "category": "povijest",
+        "question": "Koja je azijska zemlja, izolirana od zapadnog svijeta stoljećima, otvorila se za trgovinu i modernizaciju nakon dolaska komodora Perryja 1853. godine?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Koreja",
+            "Indija"
+        ],
+        "explanation": "Dolazak američke mornarice pod vodstvom komodora Matthewa Perryja prisilio je Japan na otvaranje svojih luka, što je dovelo do Meiji restauracije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1287",
+        "category": "povijest",
+        "question": "Tko je bio vođa sovjetske Rusije nakon Lenjinove smrti, poznat po svojoj totalitarnoj vladavini i čistkama?",
+        "correct_answer": "Josif Staljin",
+        "incorrect_answers": [
+            "Lav Trocki",
+            "Nikita Hruščov",
+            "Mihail Gorbačov"
+        ],
+        "explanation": "Josif Staljin je preuzeo vlast nakon Lenjinove smrti i vladao Sovjetskim Savezom željeznom rukom, provodeći masovne represije i kolektivizaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1288",
+        "category": "povijest",
+        "question": "Koja se antička olimpijada smatra prvom zabilježenom i održana je 776. godine pr. Kr. u Grčkoj?",
+        "correct_answer": "Prva Olimpijada",
+        "incorrect_answers": [
+            "Pitske igre",
+            "Nemejske igre",
+            "Istmijske igre"
+        ],
+        "explanation": "Prve zabilježene Olimpijske igre održane su u Olimpiji 776. godine pr. Kr., označavajući početak grčkog kalendarskog sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1289",
+        "category": "povijest",
+        "question": "Koji je hrvatski kralj vladao od 1075. do 1089. godine i za čije je vladavine Hrvatska dosegla vrhunac svoje moći?",
+        "correct_answer": "Dmitar Zvonimir",
+        "incorrect_answers": [
+            "Tomislav",
+            "Petar Krešimir IV.",
+            "Trpimir"
+        ],
+        "explanation": "Dmitar Zvonimir bio je hrvatski kralj koji je okrunjen u Saloni 1075. godine, a njegova vladavina često se smatra zlatnim dobom srednjovjekovne Hrvatske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1290",
+        "category": "povijest",
+        "question": "Koji je danski astronom u 16. stoljeću dao značajan doprinos preciznim promatranjima nebeskih tijela, koja su kasnije poslužila Johannesu Kepleru?",
+        "correct_answer": "Tycho Brahe",
+        "incorrect_answers": [
+            "Nikola Kopernik",
+            "Galileo Galilei",
+            "Isaac Newton"
+        ],
+        "explanation": "Tycho Brahe je proveo najpreciznija astronomska promatranja svog vremena s otoka Hvena, bez teleskopa, što je bilo ključno za razvoj heliocentrizma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1291",
+        "category": "povijest",
+        "question": "Koja je mirovna konferencija održana 1945. godine i okupila je 'Veliku trojku' (Churchilla, Trumana, Staljina) kako bi raspravljali o poslijeratnoj Europi?",
+        "correct_answer": "Potsdamska konferencija",
+        "incorrect_answers": [
+            "Teheranska konferencija",
+            "Jaltinska konferencija",
+            "Pariška mirovna konferencija"
+        ],
+        "explanation": "Potsdamska konferencija, održana u ljeto 1945., dogovorila je demilitarizaciju Njemačke i uspostavila okvire za poslijeratni svjetski poredak.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1292",
+        "category": "povijest",
+        "question": "Koji je drevni grad, smješten na Sredozemnom moru, bio najveći suparnik Rima u Punskim ratovima?",
+        "correct_answer": "Kartaga",
+        "incorrect_answers": [
+            "Atena",
+            "Sparta",
+            "Teba"
+        ],
+        "explanation": "Kartaga, feničanska kolonija u današnjem Tunisu, bila je moćna pomorska sila koja se tri puta sukobila s Rimom za prevlast na Sredozemlju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1293",
+        "category": "povijest",
+        "question": "Tko je bio vođa nenasilnog pokreta za građanska prava Afroamerikanaca u SAD-u tijekom 1950-ih i 1960-ih?",
+        "correct_answer": "Martin Luther King Jr.",
+        "incorrect_answers": [
+            "Malcolm X",
+            "Nelson Mandela",
+            "Rosa Parks"
+        ],
+        "explanation": "Martin Luther King Jr. bio je ključna figura u borbi za rasnu jednakost u SAD-u, zagovarajući nenasilnu građansku neposlušnost i miran prosvjed.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1294",
+        "category": "povijest",
+        "question": "Koji je period u europskoj povijesti, nakon srednjeg vijeka, obilježen ponovnim oživljavanjem interesa za antiku, umjetnost i znanost?",
+        "correct_answer": "Renesansa",
+        "incorrect_answers": [
+            "Barok",
+            "Prosvjetiteljstvo",
+            "Klasicizam"
+        ],
+        "explanation": "Renesansa je kulturni pokret koji je započeo u Italiji u 14. stoljeću, a karakterizira ga povratak klasičnim idealima i humanistički svjetonazor.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1295",
+        "category": "povijest",
+        "question": "Koji je rimski vojskovođa i političar, član Prvog trijumvirata, poznat po osvajanju Galije?",
+        "correct_answer": "Julije Cezar",
+        "incorrect_answers": [
+            "Pompej",
+            "Marko Antonije",
+            "Oktavijan August"
+        ],
+        "explanation": "Julije Cezar je u 1. stoljeću pr. Kr. osvojio Galiju, čime je znatno proširio rimski teritorij i stekao veliku moć i slavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1296",
+        "category": "povijest",
+        "question": "Koja je velika utvrda, smještena u Londonu, služila kao kraljevska palača, zatvor i riznica kroz povijest?",
+        "correct_answer": "Londonski Tower",
+        "incorrect_answers": [
+            "Buckinghamska palača",
+            "Windsor Castle",
+            "Edinburgh Castle"
+        ],
+        "explanation": "Londonski Tower, izgrađen u 11. stoljeću, jedna je od najpoznatijih povijesnih građevina u Engleskoj s bogatom i često mračnom prošlošću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1297",
+        "category": "povijest",
+        "question": "Koji je dokument iz 1776. godine službeno objavio odvajanje trinaest američkih kolonija od Velike Britanije?",
+        "correct_answer": "Deklaracija o neovisnosti",
+        "incorrect_answers": [
+            "Ustav SAD-a",
+            "Bill of Rights",
+            "Articles of Confederation"
+        ],
+        "explanation": "Deklaracija o neovisnosti, donesena 4. srpnja 1776., proglasila je neovisnost američkih kolonija od britanske vlasti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1298",
+        "category": "povijest",
+        "question": "Tko je bio posljednji car Asteka, koji se borio protiv španjolskih konkvistadora predvođenih Hernánom Cortésom?",
+        "correct_answer": "Montezuma II.",
+        "incorrect_answers": [
+            "Atahualpa",
+            "Cuauhtémoc",
+            "Nezahualcoyotl"
+        ],
+        "explanation": "Montezuma II. vladao je Aztečkim Carstvom kada su Španjolci stigli 1519. godine, a njegova smrt ostaje predmet povijesnih rasprava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1299",
+        "category": "povijest",
+        "question": "Koji je politički i gospodarski sustav, dominirajući u srednjem vijeku, karakteriziran podjelom zemlje na feude i vazalnim odnosima?",
+        "correct_answer": "Feudalizam",
+        "incorrect_answers": [
+            "Merkantilizam",
+            "Kapitalizam",
+            "Komunizam"
+        ],
+        "explanation": "Feudalizam je društveni poredak u srednjem vijeku gdje su plemići (vazali) dobivali zemlju (feude) od kraljeva u zamjenu za vojnu službu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1300",
+        "category": "povijest",
+        "question": "Koji je rimski car u 3. stoljeću proveo opsežne reforme vojske i uprave, poznat po takozvanoj 'dominat' vladavini?",
+        "correct_answer": "Dioklecijan",
+        "incorrect_answers": [
+            "Neron",
+            "Trajan",
+            "Konstantin Veliki"
+        ],
+        "explanation": "Dioklecijan je uveo tetrarhiju i niz administrativnih i gospodarskih reformi koje su privremeno stabilizirale Rimsko Carstvo u kasnoj antici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1301",
+        "category": "povijest",
+        "question": "Koji je filozof iz doba prosvjetiteljstva, autor djela 'Društveni ugovor', snažno utjecao na Francusku revoluciju?",
+        "correct_answer": "Jean-Jacques Rousseau",
+        "incorrect_answers": [
+            "Voltaire",
+            "John Locke",
+            "Immanuel Kant"
+        ],
+        "explanation": "Rousseauova ideja o narodnom suverenitetu i općoj volji u 'Društvenom ugovoru' imala je veliki utjecaj na političku misao i revolucije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1302",
+        "category": "povijest",
+        "question": "Koji je bio glavni razlog za sukob između pape Grgura VII. i cara Henrika IV. u 11. stoljeću, poznat kao Borba za investituru?",
+        "correct_answer": "Pravo imenovanja biskupa",
+        "incorrect_answers": [
+            "Pitanje papinskog primata",
+            "Teritorijalni sporovi",
+            "Sukob oko križarskih ratova"
+        ],
+        "explanation": "Borba za investituru bila je sukob između svjetovne i crkvene vlasti oko toga tko ima pravo imenovati crkvene dužnosnike, posebno biskupe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1303",
+        "category": "povijest",
+        "question": "Koja je drevna kineska dinastija, poznata po razvoju porculana i izumu tiskarstva pokretnim slovima, vladala od 960. do 1279. godine?",
+        "correct_answer": "Dinastija Song",
+        "incorrect_answers": [
+            "Dinastija Tang",
+            "Dinastija Ming",
+            "Dinastija Yuan"
+        ],
+        "explanation": "Dinastija Song bila je razdoblje velikih tehnoloških napredaka u Kini, uključujući razvoj porculana i napredne metode tiskarstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_hist_1304",
+        "category": "povijest",
+        "question": "Koja je bila prva žena koja je postala premijerka Velike Britanije, poznata pod nadimkom 'Željezna Lady'?",
+        "correct_answer": "Margaret Thatcher",
+        "incorrect_answers": [
+            "Golda Meir",
+            "Indira Gandhi",
+            "Angela Merkel"
+        ],
+        "explanation": "Margaret Thatcher postala je premijerka 1979. godine, predvodila je Konzervativnu stranku i provela značajne ekonomske reforme u Ujedinjenom Kraljevstvu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
