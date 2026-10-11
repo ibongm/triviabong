@@ -8,7 +8,7 @@
 // Plain constants rather than remote config: this is a static SPA, and a
 // flag flip is a one-line commit + the normal Vercel auto-deploy.
 export const FEATURES = Object.freeze({
-    MISSION_FALLBACKS: false,
+    MISSION_FALLBACKS: true,
     EXPLANATIONS: false,
     DIFFICULTY: false,
     DIFFICULTY_BADGE: false,

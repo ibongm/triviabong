@@ -1,5 +1,10 @@
 # Changelog
 
+### [2026-10-11] - Flip MISSION_FALLBACKS on
+- **Files Changed**:
+  - `src/constants/features.js` (Modified)
+- **Details**: `FEATURES.MISSION_FALLBACKS` `false` -> `true`. Social/submission mission slots now have a solo fallback path. No rules or index dependency. Rollback: set the flag back to `false`.
+
 ### [2026-10-11] - Root Firestore indexes file + rules suites verified
 - **Files Changed**:
   - `firestore.indexes.json` (Created), `firestore.indexes.async-duels.json` (Deleted), `firebase.json` (Modified)
