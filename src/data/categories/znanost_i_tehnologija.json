@@ -15970,5 +15970,545 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1346",
+        "category": "znanost",
+        "question": "Koji je naziv za silu koja drži planete u orbiti oko Sunca?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Centrifugalna sila",
+            "Magnetska sila",
+            "Elektrostatska sila"
+        ],
+        "explanation": "Gravitacija je univerzalna privlačna sila između tijela koja posjeduju masu, ključna za održavanje planeta u orbiti oko zvijezda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1347",
+        "category": "znanost",
+        "question": "Koja se tekućina pumpa kroz ljudsko tijelo, prenoseći kisik i hranjive tvari?",
+        "correct_answer": "Krv",
+        "incorrect_answers": [
+            "Limfa",
+            "Žuč",
+            "Plazma"
+        ],
+        "explanation": "Krv je tekuće vezivno tkivo koje cirkulira tijelom, prenoseći kisik, hranjive tvari, hormone i otpadne produkte.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1348",
+        "category": "znanost",
+        "question": "Kako se naziva računalna memorija koja privremeno pohranjuje podatke i programe dok se koriste?",
+        "correct_answer": "RAM",
+        "incorrect_answers": [
+            "ROM",
+            "HDD",
+            "SSD"
+        ],
+        "explanation": "RAM (Random Access Memory) omogućuje brz pristup podacima koje procesor aktivno koristi za izvršavanje zadataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1349",
+        "category": "znanost",
+        "question": "Koji je naziv za galaksiju kojoj pripada naš Sunčev sustav?",
+        "correct_answer": "Mliječna staza",
+        "incorrect_answers": [
+            "Andromeda",
+            "Trokut",
+            "Vrtlog"
+        ],
+        "explanation": "Mliječna staza je spiralna galaksija u kojoj se nalaze naše Sunce i svi planeti Sunčevog sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1350",
+        "category": "znanost",
+        "question": "Koji je naziv za proces u biljkama gdje se svjetlosna energija pretvara u kemijsku energiju?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Fermentacija",
+            "Transpiracija"
+        ],
+        "explanation": "Fotosinteza je proces kojim zelene biljke, alge i neke bakterije koriste sunčevu svjetlost za sintezu hrane iz ugljikovog dioksida i vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1351",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje frekvencije?",
+        "correct_answer": "Herc (Hz)",
+        "incorrect_answers": [
+            "Volt (V)",
+            "Amper (A)",
+            "Ohm (Ω)"
+        ],
+        "explanation": "Herc (Hz) je SI jedinica za frekvenciju, koja označava broj ciklusa u sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1352",
+        "category": "znanost",
+        "question": "Koji se protokol koristi za siguran prijenos podataka preko interneta, najčešće za web stranice?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) osigurava enkriptiranu komunikaciju između web preglednika i poslužitelja, štiteći podatke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1353",
+        "category": "znanost",
+        "question": "Koji dio stanice proizvodi energiju u obliku ATP-a putem staničnog disanja?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Ribosom",
+            "Jezgra",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Mitohondriji su organele poznate kao 'elektrane' stanice jer u njima dolazi do procesa staničnog disanja i proizvodnje ATP-a.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1354",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se svjetlost savija prilikom prolaska iz jednog medija u drugi?",
+        "correct_answer": "Lom svjetlosti (refrakcija)",
+        "incorrect_answers": [
+            "Odbijanje svjetlosti (refleksija)",
+            "Difrakcija",
+            "Polarizacija"
+        ],
+        "explanation": "Lom svjetlosti, ili refrakcija, je promjena smjera vala kada prolazi iz jednog medija u drugi s različitom brzinom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1355",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na sustav samovozećih automobila koji mogu međusobno komunicirati i s prometnom infrastrukturom?",
+        "correct_answer": "Autonomna vozila",
+        "incorrect_answers": [
+            "Hibridna vozila",
+            "Električna vozila",
+            "Konvencionalna vozila"
+        ],
+        "explanation": "Autonomna vozila koriste senzore i softver za samostalno upravljanje, često uključujući komunikaciju s drugim vozilima i prometnom mrežom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1356",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica nasljeđivanja kod živih organizama?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Protein",
+            "Kromosom",
+            "Molekula"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđivanja, koja nosi informacije za sintezu proteina ili RNA.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1357",
+        "category": "znanost",
+        "question": "Kako se naziva elementarna čestica koja nema električni naboj i minimalnu masu, a putuje gotovo brzinom svjetlosti?",
+        "correct_answer": "Neutrino",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Neutrini su subatomske čestice koje su vrlo lagane, nemaju električni naboj i rijetko međudjeluju s materijom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1358",
+        "category": "znanost",
+        "question": "Koji je plin najzastupljeniji u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Dušik (N₂) čini oko 78% Zemljine atmosfere, što ga čini najzastupljenijim plinom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1359",
+        "category": "znanost",
+        "question": "Koji se uređaj koristi za pohranu velikih količina digitalnih podataka u računalima?",
+        "correct_answer": "Tvrdi disk (HDD/SSD)",
+        "incorrect_answers": [
+            "Procesor",
+            "Monitor",
+            "Tipkovnica"
+        ],
+        "explanation": "Tvrdi diskovi (HDD) i solid-state diskovi (SSD) su primarni uređaji za trajnu pohranu operativnog sustava, programa i datoteka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1360",
+        "category": "znanost",
+        "question": "Koji se organ u ljudskom tijelu sastoji od milijardi neurona i kontrolira većinu tjelesnih funkcija?",
+        "correct_answer": "Mozak",
+        "incorrect_answers": [
+            "Srce",
+            "Pluća",
+            "Jetra"
+        ],
+        "explanation": "Mozak je središnji organ živčanog sustava koji je odgovoran za kontrolu pokreta, misli, osjećaja i svih vitalnih funkcija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1361",
+        "category": "znanost",
+        "question": "Koji je naziv za crnu rupu u centru Mliječne staze?",
+        "correct_answer": "Strijelac A* (Sagittarius A*)",
+        "incorrect_answers": [
+            "Cygnus X-1",
+            "M87",
+            "Andromeda A"
+        ],
+        "explanation": "Strijelac A* je supermasivna crna rupa smještena u galaktičkom centru Mliječne staze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1362",
+        "category": "znanost",
+        "question": "Koja je mjerna jedinica za temperaturu u SI sustavu?",
+        "correct_answer": "Kelvin (K)",
+        "incorrect_answers": [
+            "Celzij (C)",
+            "Fahrenheit (F)",
+            "Joule (J)"
+        ],
+        "explanation": "Kelvin je SI jedinica za termodinamičku temperaturu, gdje 0 K predstavlja apsolutnu nulu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1363",
+        "category": "znanost",
+        "question": "Koji je izraz za proces kada se krutina izravno pretvara u plin bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Taljenje",
+            "Isparavanje",
+            "Kondenzacija"
+        ],
+        "explanation": "Sublimacija je fizikalni proces u kojem tvar prelazi iz čvrstog u plinovito stanje bez prolaska kroz tekuće stanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1364",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežično povezivanje uređaja na kratke udaljenosti, poput slušalica i telefona?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "GPS"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1365",
+        "category": "znanost",
+        "question": "Koja se vrsta stanica bori protiv infekcija u ljudskom tijelu?",
+        "correct_answer": "Bijele krvne stanice (leukociti)",
+        "incorrect_answers": [
+            "Crvene krvne stanice (eritrociti)",
+            "Trombociti",
+            "Živčane stanice"
+        ],
+        "explanation": "Bijele krvne stanice, odnosno leukociti, ključni su dio imunološkog sustava i štite tijelo od infekcija i bolesti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1366",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada materijal ne pruža nikakav električni otpor pri vrlo niskim temperaturama?",
+        "correct_answer": "Supravodljivost",
+        "incorrect_answers": [
+            "Poluvodljivost",
+            "Izolacija",
+            "Otpornost"
+        ],
+        "explanation": "Supravodljivost je fenomen karakteriziran nultim električnim otporom i izbacivanjem magnetskih polja pri hlađenju materijala ispod kritične temperature.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1367",
+        "category": "znanost",
+        "question": "Koji je naziv za ostatak zvijezde koji je previše masivan da bi postao bijeli patuljak, ali ne i dovoljno masivan da postane crna rupa?",
+        "correct_answer": "Neutronska zvijezda",
+        "incorrect_answers": [
+            "Crni patuljak",
+            "Smeđi patuljak",
+            "Crvena zvijezda"
+        ],
+        "explanation": "Neutronska zvijezda je kolabirana jezgra masivne zvijezde, iznimno gusta i sastavljena uglavnom od neutrona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1368",
+        "category": "znanost",
+        "question": "Koji je naziv za tvar koja ubrzava kemijsku reakciju, a sama se pri tome ne troši?",
+        "correct_answer": "Katalizator",
+        "incorrect_answers": [
+            "Inhibitor",
+            "Reagens",
+            "Produkt"
+        ],
+        "explanation": "Katalizator je tvar koja mijenja brzinu kemijske reakcije, obično je ubrzavajući, bez da se trajno mijenja u procesu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1369",
+        "category": "znanost",
+        "question": "Koji se akronim koristi za 'Globalni sustav za pozicioniranje'?",
+        "correct_answer": "GPS",
+        "incorrect_answers": [
+            "GIS",
+            "GSM",
+            "GPRS"
+        ],
+        "explanation": "GPS (Global Positioning System) je satelitski navigacijski sustav koji pruža informacije o lokaciji i vremenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1370",
+        "category": "znanost",
+        "question": "Koji je naziv za dio neurona koji provodi električne impulse dalje od tijela stanice?",
+        "correct_answer": "Akson",
+        "incorrect_answers": [
+            "Dendrit",
+            "Soma",
+            "Sinapsa"
+        ],
+        "explanation": "Akson je dugi, tanki izdanak živčane stanice (neurona) koji provodi električne impulse od tijela stanice prema drugim neuronima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1371",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje snage?",
+        "correct_answer": "Vat (W)",
+        "incorrect_answers": [
+            "Džul (J)",
+            "Njutn (N)",
+            "Volt (V)"
+        ],
+        "explanation": "Vat (W) je SI izvedena jedinica snage, koja se definira kao jedan džul po sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1372",
+        "category": "znanost",
+        "question": "Koji je kemijski element ključan sastojak u proizvodnji tranzistora i računalnih čipova?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Germanij",
+            "Bakar",
+            "Željezo"
+        ],
+        "explanation": "Silicij je poluvodič i drugi najzastupljeniji element u Zemljinoj kori, neophodan za elektroniku zbog svojih svojstava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1373",
+        "category": "znanost",
+        "question": "Koji je naziv za virtualnu valutu koja koristi kriptografiju za sigurnost transakcija?",
+        "correct_answer": "Kriptovaluta",
+        "incorrect_answers": [
+            "Digitalna valuta",
+            "E-novac",
+            "Virtualni novac"
+        ],
+        "explanation": "Kriptovaluta je digitalna ili virtualna valuta koja koristi kriptografiju za osiguranje transakcija i kontrolu stvaranja novih jedinica.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1374",
+        "category": "znanost",
+        "question": "Koji je naziv za skupinu organizama koji obavljaju fotosintezu i primarni su proizvođači hrane u ekosustavu?",
+        "correct_answer": "Autotrofi",
+        "incorrect_answers": [
+            "Heterotrofi",
+            "Detritivori",
+            "Karnivori"
+        ],
+        "explanation": "Autotrofi su organizmi koji proizvode vlastitu hranu iz anorganskih tvari, najčešće fotosintezom, čineći osnovu prehrambenog lanca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1375",
+        "category": "znanost",
+        "question": "Koji je naziv za kozmički objekt koji emitira brze, pravilne pulseve radio valova?",
+        "correct_answer": "Pulsar",
+        "incorrect_answers": [
+            "Kvazar",
+            "Magnetar",
+            "Bijeli patuljak"
+        ],
+        "explanation": "Pulsari su visoko namagnetizirane, rotirajuće neutronske zvijezde koje emitiraju snopove elektromagnetskog zračenja, opažene kao pulsevi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1376",
+        "category": "znanost",
+        "question": "Koja se vrsta zračenja koristi u mikrovalnim pećnicama za zagrijavanje hrane?",
+        "correct_answer": "Mikrovalovi",
+        "incorrect_answers": [
+            "Radio valovi",
+            "Infracrveno zračenje",
+            "Ultraljubičasto zračenje"
+        ],
+        "explanation": "Mikrovalovi su oblik elektromagnetskog zračenja koji se koristi za zagrijavanje hrane u mikrovalnim pećnicama putem molekularne vibracije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1377",
+        "category": "znanost",
+        "question": "Koji je naziv za pH vrijednost manju od 7?",
+        "correct_answer": "Kiselo",
+        "incorrect_answers": [
+            "Bazično",
+            "Neutralno",
+            "Alkalno"
+        ],
+        "explanation": "Otopine s pH vrijednošću manjom od 7 smatraju se kiselima, dok su one s pH većim od 7 bazične ili alkalne.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1378",
+        "category": "znanost",
+        "question": "Koji je naziv za princip na kojem se temelji rad kvantnih računala, gdje bit može biti u više stanja istovremeno?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Entanglement",
+            "Dekoherecija",
+            "Klasični bit"
+        ],
+        "explanation": "Superpozicija omogućuje kvantnom bitu (kubitu) da istovremeno postoji u više stanja (0 i 1), što je ključno za kvantno računanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1379",
+        "category": "znanost",
+        "question": "Koji je organ odgovoran za izmjenu plinova (kisika i ugljikovog dioksida) u ljudskom tijelu?",
+        "correct_answer": "Pluća",
+        "incorrect_answers": [
+            "Srce",
+            "Jetra",
+            "Bubreg"
+        ],
+        "explanation": "Pluća su parni organ dišnog sustava gdje se odvija razmjena kisika iz udahnutog zraka u krv i ugljikovog dioksida iz krvi u zrak.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1380",
+        "category": "znanost",
+        "question": "Koji je znanstvenik formulirao teoriju relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Marie Curie"
+        ],
+        "explanation": "Albert Einstein je razvio specijalnu i opću teoriju relativnosti, revolucionirajući naše razumijevanje prostora, vremena, mase i energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1381",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na mrežu fizičkih objekata ('stvari') koji su opremljeni senzorima, softverom i drugim tehnologijama za povezivanje i razmjenu podataka putem interneta?",
+        "correct_answer": "Internet stvari (IoT)",
+        "incorrect_answers": [
+            "Intranet",
+            "Ekstranet",
+            "Cloud computing"
+        ],
+        "explanation": "Internet stvari (IoT) opisuje mrežu fizičkih objekata ugrađenih sa senzorima i softverom radi povezivanja i razmjene podataka preko interneta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-11"
     }
 ]
