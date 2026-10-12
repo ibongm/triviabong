@@ -19360,5 +19360,545 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1572",
+        "category": "znanost",
+        "question": "Koji kemijski element ima simbol 'K' i atomski broj 19?",
+        "correct_answer": "Kalij",
+        "incorrect_answers": [
+            "Klor",
+            "Kobalt",
+            "Krom"
+        ],
+        "explanation": "Kalij je alkalijski metal, iznimno reaktivan. Njegov kemijski simbol 'K' potječe od latinskog naziva 'kalium'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1573",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke pretvaraju svjetlosnu energiju u kemijsku, stvarajući pritom kisik?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Transpiracija",
+            "Fermentacija"
+        ],
+        "explanation": "Fotosinteza je ključan biološki proces u kojem biljke, alge i cijanobakterije proizvode hranu koristeći sunčevu svjetlost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1574",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju subatomsku česticu koja nosi električni naboj i kruži oko jezgre atoma?",
+        "correct_answer": "Elektron",
+        "incorrect_answers": [
+            "Neutron",
+            "Proton",
+            "Foton"
+        ],
+        "explanation": "Elektron je stabilna subatomska čestica s jediničnim negativnim električnim nabojem. Ključan je za kemijske veze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1575",
+        "category": "znanost",
+        "question": "Koji se planet u Sunčevom sustavu ističe po svojim prstenovima sastavljenim od čestica leda i prašine?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je šesti planet od Sunca i drugi po veličini. Njegovi su prstenovi jedan od najprepoznatljivijih fenomena u Sunčevom sustavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1576",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućava prijenos podataka bežično, na kratkim udaljenostima, između uređaja kao što su mobiteli i slušalice?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "Infrared"
+        ],
+        "explanation": "Bluetooth je standard za bežičnu komunikaciju kratkog dometa. Koristi radio valove za razmjenu podataka između fiksnih i mobilnih uređaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1577",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje procesa pretvaranja tekućine u plin, obično ispod vrelišta?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Taljenje"
+        ],
+        "explanation": "Isparavanje je faza prijelaza tvari iz tekućeg u plinovito stanje. To je sporiji proces od vrenja koji se događa na površini tekućine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1578",
+        "category": "znanost",
+        "question": "Koji je organ u ljudskom tijelu odgovoran za pumpanje krvi kroz krvožilni sustav?",
+        "correct_answer": "Srce",
+        "incorrect_answers": [
+            "Pluća",
+            "Jetra",
+            "Bubrezi"
+        ],
+        "explanation": "Srce je mišićni organ koji neprekidno pumpa krv bogatu kisikom i hranjivim tvarima kroz cijelo tijelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1579",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se genetski materijal (DNK ili RNK) prenosi s roditeljskog organizma na potomstvo?",
+        "correct_answer": "Nasljeđivanje",
+        "incorrect_answers": [
+            "Mutacija",
+            "Adaptacija",
+            "Selekcija"
+        ],
+        "explanation": "Nasljeđivanje je proces prijenosa genetskih karakteristika s jedne generacije na drugu, temelj biološke raznolikosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1580",
+        "category": "znanost",
+        "question": "Koji se uređaj koristi za mjerenje udaljenosti koristeći zvučne valove, često u podvodnim aplikacijama?",
+        "correct_answer": "Sonar",
+        "incorrect_answers": [
+            "Radar",
+            "Lidar",
+            "Mikrofon"
+        ],
+        "explanation": "Sonar (Sound Navigation and Ranging) koristi zvučne valove za navigaciju, komunikaciju i detekciju objekata pod vodom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1581",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnološki standard koji omogućuje pametnim telefonima i drugim uređajima bežično plaćanje dodirom?",
+        "correct_answer": "NFC (Near Field Communication)",
+        "incorrect_answers": [
+            "Bluetooth",
+            "Wi-Fi Direct",
+            "QR kod"
+        ],
+        "explanation": "NFC omogućuje kratkodometnu bežičnu komunikaciju između kompatibilnih uređaja, primarno za sigurne transakcije i razmjenu podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1582",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak pijeska i stakla, kemijski spoj silicija i kisika?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Ugljikov dioksid",
+            "Voda",
+            "Natrijev klorid"
+        ],
+        "explanation": "Silicijev dioksid (SiO2) je najčešći mineral na Zemlji. Glavni je sastojak kvarca, pijeska i stakla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1583",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem jezgra atoma radioaktivnog elementa emitira čestice i energiju, pretvarajući se u drugi element?",
+        "correct_answer": "Radioaktivni raspad",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Nuklearna fisija",
+            "Kemijska reakcija"
+        ],
+        "explanation": "Radioaktivni raspad je spontani proces pri kojem nestabilna atomska jezgra gubi energiju zračenjem. Različiti tipovi raspada daju različite produkte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1584",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno područje koje proučava interakciju živih organizama s njihovim okolišem?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Genetika",
+            "Anatomija",
+            "Fiziologija"
+        ],
+        "explanation": "Ekologija je znanost koja istražuje odnose između organizama i njihove okoline. Obuhvaća biotičke i abiotičke faktore.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1585",
+        "category": "znanost",
+        "question": "Kako se naziva jedinica za magnetsku indukciju u SI sustavu?",
+        "correct_answer": "Tesla",
+        "incorrect_answers": [
+            "Amper",
+            "Volt",
+            "Ohm"
+        ],
+        "explanation": "Tesla (T) je SI izvedena jedinica za gustoću magnetskog toka, odnosno magnetsku indukciju. Imenovana je po Nikoli Tesli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1586",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja simulira ljudsku inteligenciju, omogućujući računalima učenje, rješavanje problema i razumijevanje jezika?",
+        "correct_answer": "Umjetna inteligencija (AI)",
+        "incorrect_answers": [
+            "Virtualna stvarnost (VR)",
+            "Proširena stvarnost (AR)",
+            "Internet stvari (IoT)"
+        ],
+        "explanation": "Umjetna inteligencija obuhvaća strojno učenje, duboko učenje i neuronske mreže koje omogućuju strojevima da oponašaju kognitivne funkcije ljudi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1587",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se svjetlost savija prilikom prolaska kroz medij s različitim indeksom loma?",
+        "correct_answer": "Lom svjetlosti (refrakcija)",
+        "incorrect_answers": [
+            "Odbijanje svjetlosti (refleksija)",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Lom svjetlosti, ili refrakcija, je promjena smjera vala kada prolazi iz jednog medija u drugi, uzrokovana promjenom brzine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1588",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju funkcionalnu jedinicu bubrega, odgovornu za filtraciju krvi?",
+        "correct_answer": "Nefron",
+        "incorrect_answers": [
+            "Neuron",
+            "Hepatocit",
+            "Alveola"
+        ],
+        "explanation": "Nefron je osnovna strukturna i funkcionalna jedinica bubrega. Milijuni nefrona filtriraju krv i proizvode urin.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1589",
+        "category": "znanost",
+        "question": "Koji je naziv za metodu datiranja arheoloških i geoloških uzoraka mjerenjem raspada radioaktivnog izotopa ugljika-14?",
+        "correct_answer": "Radiougljično datiranje",
+        "incorrect_answers": [
+            "Kalij-argon datiranje",
+            "Urano-olovno datiranje",
+            "Termoluminiscencija"
+        ],
+        "explanation": "Radiougljično datiranje, ili C-14 datiranje, koristi izotop ugljika-14 za određivanje starosti organskih materijala do oko 50 000 godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1590",
+        "category": "znanost",
+        "question": "Koji je naziv za supstancu koja ima pH vrijednost manju od 7?",
+        "correct_answer": "Kiselina",
+        "incorrect_answers": [
+            "Lužina",
+            "Neutralna otopina",
+            "Sol"
+        ],
+        "explanation": "Kiseline su tvari koje oslobađaju vodikove ione (H+) u vodenoj otopini, što rezultira pH vrijednošću manjom od 7.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1591",
+        "category": "znanost",
+        "question": "Koji je naziv za plinski omotač koji okružuje Zemlju i štiti je od štetnog sunčevog zračenja?",
+        "correct_answer": "Atmosfera",
+        "incorrect_answers": [
+            "Hidrosfera",
+            "Litosfera",
+            "Biosfera"
+        ],
+        "explanation": "Atmosfera je sloj plinova oko planeta. Sastoji se uglavnom od dušika i kisika i ključna je za život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1592",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje digitalnu valutu temeljenu na kriptografiji i decentraliziranoj mreži?",
+        "correct_answer": "Blockchain",
+        "incorrect_answers": [
+            "Cloud computing",
+            "Virtualizacija",
+            "Big Data"
+        ],
+        "explanation": "Blockchain je distribuirana, javna baza podataka koja bilježi transakcije na način da je gotovo nemoguće izmijeniti ih.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1593",
+        "category": "znanost",
+        "question": "Koji element čini jezgru većine organskih spojeva i ključan je za život na Zemlji?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljik je jedinstven po svojoj sposobnosti da formira stabilne veze s drugim atomima ugljika i mnogim drugim elementima, tvoreći složene molekule.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1594",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se krutina izravno pretvara u plin bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Isparavanje",
+            "Kondenzacija",
+            "Taljenje"
+        ],
+        "explanation": "Sublimacija je fizikalni proces u kojem tvar prelazi iz krutog u plinovito stanje, preskačući tekuću fazu, kao što je slučaj sa suhim ledom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1595",
+        "category": "znanost",
+        "question": "Koji se dio mozga primarno povezuje s kontrolom ravnoteže i koordinacije pokreta?",
+        "correct_answer": "Mali mozak (cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak (cerebrum)",
+            "Moždano deblo",
+            "Hipotalamus"
+        ],
+        "explanation": "Mali mozak igra ključnu ulogu u motoričkoj kontroli. Odgovoran je za koordinaciju, ravnotežu i učenje motoričkih vještina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1596",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu granu koja se bavi proučavanjem interakcije između svjetlosti i materije?",
+        "correct_answer": "Optika",
+        "incorrect_answers": [
+            "Akustika",
+            "Termodinamika",
+            "Mehanika"
+        ],
+        "explanation": "Optika proučava ponašanje i svojstva svjetlosti, uključujući njezinu interakciju s materijom, kao i konstrukciju optičkih instrumenata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1597",
+        "category": "znanost",
+        "question": "Koji je naziv za supravodljivi magnet koji se koristi u uređajima za snimanje unutarnjih organa, kao što je MRI?",
+        "correct_answer": "Nuklearna magnetska rezonancija (NMR/MRI)",
+        "incorrect_answers": [
+            "Rendgenski aparat",
+            "Ultrazvučni skener",
+            "CT skener"
+        ],
+        "explanation": "MRI (Magnetic Resonance Imaging) koristi jaka magnetska polja i radio valove za stvaranje detaljnih slika organa i tkiva u tijelu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1598",
+        "category": "znanost",
+        "question": "Koji je naziv za fizikalni zakon koji kaže da za svaku akciju postoji jednaka i suprotna reakcija?",
+        "correct_answer": "Newtonov treći zakon gibanja",
+        "incorrect_answers": [
+            "Newtonov prvi zakon gibanja",
+            "Newtonov drugi zakon gibanja",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Newtonov treći zakon definira da sile uvijek dolaze u parovima: kada jedno tijelo djeluje silom na drugo, drugo tijelo djeluje jednakom i suprotnom silom na prvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1599",
+        "category": "znanost",
+        "question": "Koji je naziv za znanost koja proučava podrijetlo, evoluciju i budućnost svemira?",
+        "correct_answer": "Kozmologija",
+        "incorrect_answers": [
+            "Astrofizika",
+            "Planetologija",
+            "Geologija"
+        ],
+        "explanation": "Kozmologija je grana astronomije koja proučava svemir kao cjelinu, njegov nastanak, strukturu, sastav i razvoj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1600",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje otpora protoku električne struje u krugu?",
+        "correct_answer": "Otpor (rezistancija)",
+        "incorrect_answers": [
+            "Napon",
+            "Struja",
+            "Snaga"
+        ],
+        "explanation": "Otpor je svojstvo materijala da se suprotstavlja protoku električne struje. Mjeri se u omima (Ω).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1601",
+        "category": "znanost",
+        "question": "Koji je organ odgovoran za sintezu inzulina i glukagona, hormona koji reguliraju razinu šećera u krvi?",
+        "correct_answer": "Gušterača (pankreas)",
+        "incorrect_answers": [
+            "Jetra",
+            "Štitnjača",
+            "Nadubrena žlijezda"
+        ],
+        "explanation": "Gušterača je žlijezda s unutarnjim i vanjskim lučenjem. Njezine endokrine funkcije uključuju proizvodnju inzulina i glukagona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1602",
+        "category": "znanost",
+        "question": "Koji je naziv za kemijsku vezu koja nastaje dijeljenjem elektrona između atoma?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalentna veza je tip kemijske veze gdje atomi dijele parove elektrona. To je snažna veza tipična za organske molekule.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1603",
+        "category": "znanost",
+        "question": "Koja je najmanja valna duljina vidljive svjetlosti, a odgovara boji ljubičastoj?",
+        "correct_answer": "Ljubičasta",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Plava"
+        ],
+        "explanation": "Vidljivi spektar svjetlosti se kreće od crvene (najdulja valna duljina) do ljubičaste (najkraća valna duljina).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1604",
+        "category": "znanost",
+        "question": "Koji je naziv za genetsku manipulaciju kojom se mijenja DNK organizma kako bi se unijele nove osobine?",
+        "correct_answer": "Genetsko inženjerstvo",
+        "incorrect_answers": [
+            "Kloniranje",
+            "Hibridizacija",
+            "Mutageneza"
+        ],
+        "explanation": "Genetsko inženjerstvo uključuje tehnike rekombinantne DNK za izravno mijenjanje genetskog sastava organizma u svrhu modificiranja njegovih karakteristika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1605",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje sposobnosti materijala da apsorbira vlagu iz zraka?",
+        "correct_answer": "Higroskopnost",
+        "incorrect_answers": [
+            "Hidrofobnost",
+            "Vodljivost",
+            "Viskoznost"
+        ],
+        "explanation": "Higroskopnost je sposobnost tvari da privlači i zadržava molekule vode iz okolne atmosfere, često bez stvaranja otopine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1606",
+        "category": "znanost",
+        "question": "Koji je naziv za temeljnu jedinicu u neuroznanosti, specijaliziranu za prijenos električnih i kemijskih signala?",
+        "correct_answer": "Neuron",
+        "incorrect_answers": [
+            "Hormon",
+            "Molekula",
+            "Stanica"
+        ],
+        "explanation": "Neuron je osnovna funkcionalna jedinica živčanog sustava. Prenosi informacije putem električnih impulsa i neurotransmitera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1607",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućava vizualizaciju trodimenzionalnih objekata u prostoru putem projekcije svjetlosti ili laserskih zraka?",
+        "correct_answer": "Holografija",
+        "incorrect_answers": [
+            "Fotogrametrija",
+            "Termografija",
+            "Rendgenografija"
+        ],
+        "explanation": "Holografija je tehnika za snimanje svjetlosnog polja raspršenog objektom, a zatim rekonstrukciju slike objekta u tri dimenzije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
