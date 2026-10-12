@@ -15347,5 +15347,380 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1300",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Africi?",
+        "correct_answer": "Kilimanjaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Toubkal",
+            "Ruwenzori"
+        ],
+        "explanation": "Kilimanjaro je stratovulkan s tri prepoznatljiva vrha, od kojih je Kibo najviši. Nalazi se u Tanzaniji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1301",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja na svijetu po površini, isključujući polarne regije?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Arabijska pustinja",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokrivajući značajan dio sjeverne Afrike. Njezina površina iznosi preko 9 milijuna km².",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1302",
+        "category": "geografija",
+        "question": "Koja je država poznata po velikom broju fjordova duž svoje obale?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Island",
+            "Finska"
+        ],
+        "explanation": "Norveška je poznata po svojim slikovitim i dubokim fjordovima, koji su nastali glacijalnom erozijom tijekom ledenih doba. Fjordovi su njezina prepoznatljiva prirodna značajka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1303",
+        "category": "geografija",
+        "question": "Koji se morski prolaz nalazi između Tasmanije i Australije?",
+        "correct_answer": "Bassov prolaz",
+        "incorrect_answers": [
+            "Torresov prolaz",
+            "Cookov prolaz",
+            "Magellanov prolaz"
+        ],
+        "explanation": "Bassov prolaz je morski prolaz koji odvaja australski kontinent od otoka Tasmanije. Imenovan je po britanskom pomorcu Georgeu Bassu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1304",
+        "category": "geografija",
+        "question": "Koji je naziv za područje na Zemlji gdje sunce ne zalazi najmanje jedan dan u godini?",
+        "correct_answer": "Polarni dan",
+        "incorrect_answers": [
+            "Tropski dan",
+            "Ekvinocij",
+            "Solsticij"
+        ],
+        "explanation": "Polarni dan je prirodni fenomen koji se javlja u polarnim regijama (Arktik i Antarktika) kada sunce ostaje iznad horizonta 24 sata dnevno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1305",
+        "category": "geografija",
+        "question": "Koja je zemlja najveći svjetski izvoznik nafte (stanje 2023.)?",
+        "correct_answer": "Saudijska Arabija",
+        "incorrect_answers": [
+            "Rusija",
+            "Sjedinjene Američke Države",
+            "Kanada"
+        ],
+        "explanation": "Saudijska Arabija je povijesno najveći svjetski izvoznik nafte, s velikim rezervama i proizvodnim kapacitetima (stanje 2023.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1306",
+        "category": "geografija",
+        "question": "Koja se rijeka smatra svetom u hinduizmu i protječe kroz Indiju i Bangladeš?",
+        "correct_answer": "Ganges",
+        "incorrect_answers": [
+            "Ind",
+            "Jamuna",
+            "Kaveri"
+        ],
+        "explanation": "Ganges je jedna od najvažnijih i najsvetijih rijeka u hinduizmu. Poznata je po svojoj duhovnoj važnosti i plodnoj delti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1307",
+        "category": "geografija",
+        "question": "Koji je naziv za skupinu malih otočića ili grebena koji čine lanac?",
+        "correct_answer": "Arhipelag",
+        "incorrect_answers": [
+            "Poluotok",
+            "Prevlaka",
+            "Uvala"
+        ],
+        "explanation": "Arhipelag je skupina ili lanac otoka, ili jezero, koje su međusobno blizu i najčešće vulkanskog porijekla ili su dijelovi kontinenata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1308",
+        "category": "geografija",
+        "question": "Koji je naziv za suhi, vrući vjetar koji puše iz Sahare preko Sredozemnog mora prema Europi?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Maestral",
+            "Tramontana"
+        ],
+        "explanation": "Siroko je jak, često vlažan i vruć vjetar iz smjera jugoistoka koji puše iz Sahare preko Sredozemnog mora na jug Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1309",
+        "category": "geografija",
+        "question": "Koja planina se smatra najvišom u Sjevernoj Americi?",
+        "correct_answer": "Denali (Mount McKinley)",
+        "incorrect_answers": [
+            "Mount Logan",
+            "Mount Whitney",
+            "Pico de Orizaba"
+        ],
+        "explanation": "Denali, ranije poznat kao Mount McKinley, najviši je planinski vrh u Sjevernoj Americi i nalazi se na Aljasci u SAD-u.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1310",
+        "category": "geografija",
+        "question": "Koja država je poznata po svojim jedinstvenim crvenim telefonima kutijama i Big Benu?",
+        "correct_answer": "Ujedinjeno Kraljevstvo",
+        "incorrect_answers": [
+            "Francuska",
+            "Njemačka",
+            "Italija"
+        ],
+        "explanation": "Crvene telefonske kutije i Big Ben (toranj sa satom uz Parlament) ikonični su simboli Ujedinjenog Kraljevstva, posebno Londona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1311",
+        "category": "geografija",
+        "question": "Koji je naziv za duboku, usku pukotinu u tlu nastalu tektonskim pomicanjem Zemljine kore?",
+        "correct_answer": "Rascjep (Rift)",
+        "incorrect_answers": [
+            "Kanjon",
+            "Dolina",
+            "Brakić"
+        ],
+        "explanation": "Rascjep ili rift je linearna depresija nastala razilaženjem tektonskih ploča, kao što je Veliki istočnoafrički rascjep.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1312",
+        "category": "geografija",
+        "question": "Koje je najslanije jezero na svijetu?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Kaspijsko jezero",
+            "Veliko slano jezero",
+            "Aralsko jezero"
+        ],
+        "explanation": "Mrtvo more, smješteno između Izraela i Jordana, je jezero s izuzetno visokom koncentracijom soli, što omogućuje ljudima da plutaju na površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1313",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kada se morska voda odvaja od slatke vode pod utjecajem plime i oseke u ušćima rijeka?",
+        "correct_answer": "Estuarij",
+        "incorrect_answers": [
+            "Delta",
+            "Laguna",
+            "Fjord"
+        ],
+        "explanation": "Estuarij je polu-zatvoreno obalno vodeno tijelo u kojem se morska voda slobodno miješa sa slatkom vodom iz rijeke, a utječe plima i oseka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1314",
+        "category": "geografija",
+        "question": "Koja država zauzima većinu Skandinavskog poluotoka?",
+        "correct_answer": "Švedska",
+        "incorrect_answers": [
+            "Norveška",
+            "Finska",
+            "Danska"
+        ],
+        "explanation": "Švedska zauzima istočni dio Skandinavskog poluotoka i veća je po površini od susjedne Norveške na zapadu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1315",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces u kojem se stijene troše i razgrađuju pod utjecajem atmosferskih uvjeta?",
+        "correct_answer": "Trošenje (Erozija)",
+        "incorrect_answers": [
+            "Sedimentacija",
+            "Vulkanizam",
+            "Metamorfoza"
+        ],
+        "explanation": "Trošenje, ili erozija, je proces razaranja stijena i prijenosa čestica putem vjetra, vode, leda ili gravitacije. To je ključan geomorfološki proces.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1316",
+        "category": "geografija",
+        "question": "Koja je najviša točka u Južnoj Americi?",
+        "correct_answer": "Aconcagua",
+        "incorrect_answers": [
+            "Mount Chimborazo",
+            "Mount Huascarán",
+            "Cerro Mercedario"
+        ],
+        "explanation": "Aconcagua je najviši vrh u Andama i u cijeloj Južnoj Americi, s nadmorskom visinom od 6.961 metra. Nalazi se u Argentini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1317",
+        "category": "geografija",
+        "question": "Koji je naziv za skupinu vulkanskih otoka u Tihom oceanu, poznatih po endemskim vrstama koje je proučavao Charles Darwin?",
+        "correct_answer": "Galapagos",
+        "incorrect_answers": [
+            "Falklandski otoci",
+            "Havaji",
+            "Fidži"
+        ],
+        "explanation": "Galapagos je arhipelag vulkanskih otoka u Ekvadoru, poznat po jedinstvenoj flori i fauni koja je inspirirala Darwinovu teoriju evolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1318",
+        "category": "geografija",
+        "question": "Koja država je poznata po sustavu polderâ, zemljištu koje je osvojeno od mora?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Njemačka"
+        ],
+        "explanation": "Nizozemska je poznata po opsežnim polderima, melioriranom zemljištu koje je stvoreno isušivanjem morskog dna ili jezera, često ispod razine mora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1319",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se magma diže na površinu Zemlje i izlijeva kao lava?",
+        "correct_answer": "Vulkanizam",
+        "incorrect_answers": [
+            "Potres",
+            "Tektonika ploča",
+            "Denudacija"
+        ],
+        "explanation": "Vulkanizam je geološki proces u kojem se rastaljena stijena (magma) diže kroz pukotine u Zemljinoj kori i eruptira na površini kao lava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1320",
+        "category": "geografija",
+        "question": "Koje se more nalazi istočno od Japana?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Japansko more",
+            "Istočnokinesko more",
+            "Žuto more"
+        ],
+        "explanation": "Japanski otoci smješteni su na zapadnom rubu Tihog oceana, koji se prostire istočno od njih do obala Amerike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1321",
+        "category": "geografija",
+        "question": "Koji je naziv za izrazito suho područje na zavjetrini planinskog lanca, gdje je zrak izgubio vlagu?",
+        "correct_answer": "Kišna sjena",
+        "incorrect_answers": [
+            "Vlažna zona",
+            "Pustinjska oaza",
+            "Monsunska zona"
+        ],
+        "explanation": "Kišna sjena je područje suhoće na zavjetrinskoj strani planine, gdje je vlaga iz zraka kondenzirana i pala kao oborine na privjetrinskoj strani.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1322",
+        "category": "geografija",
+        "question": "Koji je naziv za plitko more ili jezero odvojeno od većeg vodenog tijela pješčanim nasipom ili koraljnim grebenom?",
+        "correct_answer": "Laguna",
+        "incorrect_answers": [
+            "Zaljev",
+            "Tjesnac",
+            "Ušće"
+        ],
+        "explanation": "Laguna je plitko vodeno tijelo, obično smješteno uz obalu, odvojeno od otvorenog mora pješčanim sprudom, koraljnim grebenom ili prevlakom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1323",
+        "category": "geografija",
+        "question": "Koja se pustinja nalazi u južnoj Africi i poznata je po svojim dijamantima?",
+        "correct_answer": "Kalahari",
+        "incorrect_answers": [
+            "Sahara",
+            "Namib",
+            "Libijska pustinja"
+        ],
+        "explanation": "Kalahari je velika polusuha pješčana savana na jugu Afrike, koja se proteže kroz Bocvanu, Namibiju i Južnoafričku Republiku, poznata po nalazištima dijamanata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1324",
+        "category": "geografija",
+        "question": "Koji je naziv za periodično kretanje morske vode uzrokovano gravitacijom Mjeseca i Sunca?",
+        "correct_answer": "Plima i oseka",
+        "incorrect_answers": [
+            "Morske struje",
+            "Tsunami",
+            "Cikloni"
+        ],
+        "explanation": "Plima i oseka su kolebanja razine mora uzrokovana gravitacijskom privlačnošću Mjeseca i Sunca. Razina vode se diže (plima) i spušta (oseka).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
