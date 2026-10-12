@@ -17132,5 +17132,380 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1419",
+        "category": "geografija",
+        "question": "Koja planina dijeli Pirinejski poluotok od ostatka Europe?",
+        "correct_answer": "Pirineji",
+        "incorrect_answers": [
+            "Alpe",
+            "Karpati",
+            "Apenini"
+        ],
+        "explanation": "Pirineji su planinski lanac koji tvori prirodnu granicu između Španjolske i Francuske, a time i veći dio Pirinejskog poluotoka od ostatka kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1420",
+        "category": "geografija",
+        "question": "Koji ocean okružuje Antarktiku?",
+        "correct_answer": "Južni ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Atlantski ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Južni ocean, poznat i kao Antarktički ocean, obuhvaća vode koje okružuju Antarktiku južno od 60° južne geografske širine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1421",
+        "category": "geografija",
+        "question": "Koja pustinja pokriva veći dio Sjeverne Afrike?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Kalahari",
+            "Gobi",
+            "Atacama"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokrivajući ogromno područje Sjeverne Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1422",
+        "category": "geografija",
+        "question": "Koja je jedina država koja graniči sa Sjevernom Korejom i Rusijom?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Mongolija",
+            "Kazahstan",
+            "Japan"
+        ],
+        "explanation": "Kina ima zajedničke granice i sa Sjevernom Korejom na jugoistoku i s Rusijom na sjeveru, što je čini jedinom takvom državom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1423",
+        "category": "geografija",
+        "question": "Koji je naziv za uski morski prolaz koji povezuje Atlantski ocean sa Sredozemnim morem?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Panamski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je strateški važan uski morski prolaz koji razdvaja Europu od Afrike i spaja Atlantski ocean sa Sredozemnim morem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1424",
+        "category": "geografija",
+        "question": "Koja planina se nalazi u Južnoj Africi i poznata je po svom ravnom vrhu?",
+        "correct_answer": "Stolna planina",
+        "incorrect_answers": [
+            "Kilimandžaro",
+            "Drakensberg",
+            "Mount Kenya"
+        ],
+        "explanation": "Stolna planina dominira obzorjem Cape Towna u Južnoj Africi i prepoznatljiva je po svom karakterističnom, gotovo ravnom vrhu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1425",
+        "category": "geografija",
+        "question": "Koja je najdulja rijeka u Europi?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Rajna",
+            "Dnjepar"
+        ],
+        "explanation": "Volga je najdulja rijeka u Europi, u potpunosti se nalazi u Rusiji i ulijeva se u Kaspijsko jezero.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1426",
+        "category": "geografija",
+        "question": "Koja je zemlja dom Machu Picchua?",
+        "correct_answer": "Peru",
+        "incorrect_answers": [
+            "Ekvador",
+            "Bolivija",
+            "Kolumbija"
+        ],
+        "explanation": "Machu Picchu, drevni grad Inka, smješten je u Andama u Peruu i jedan je od najpoznatijih arheoloških lokaliteta na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1427",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji grad u Kanadi?",
+        "correct_answer": "Toronto",
+        "incorrect_answers": [
+            "Montreal",
+            "Vancouver",
+            "Ottawa"
+        ],
+        "explanation": "Toronto je najveći grad u Kanadi po broju stanovnika i ekonomsko je središte provincije Ontario.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1428",
+        "category": "geografija",
+        "question": "Koji je naziv za proces taloženja sedimenta na dnu mora ili jezera?",
+        "correct_answer": "Sedimentacija",
+        "incorrect_answers": [
+            "Erozija",
+            "Metamorfoza",
+            "Vulkanizam"
+        ],
+        "explanation": "Sedimentacija je proces taloženja čestica prenijetih vodom, vjetrom, ledom ili gravitacijom, koje se s vremenom nakupljaju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1429",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija zemlja u Africi?",
+        "correct_answer": "Nigerija",
+        "incorrect_answers": [
+            "Egipat",
+            "Etiopija",
+            "Južna Afrika"
+        ],
+        "explanation": "Nigerija je najnaseljenija zemlja Afrike s preko 200 milijuna stanovnika, što je čini i sedmom najnaseljenijom zemljom na svijetu (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1430",
+        "category": "geografija",
+        "question": "Koja je jedina zemlja koja graniči s Brazilom i ima obalu na Tihom oceanu?",
+        "correct_answer": "Peru",
+        "incorrect_answers": [
+            "Argentina",
+            "Bolivija",
+            "Kolumbija"
+        ],
+        "explanation": "Peru graniči s Brazilom na istoku i ima dugu obalu na Tihom oceanu na zapadu, što ga čini jedinom takvom državom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1431",
+        "category": "geografija",
+        "question": "Koji je naziv za iznenadno i nasilno izbacivanje materijala iz Zemljine unutrašnjosti kroz otvor u kori?",
+        "correct_answer": "Vulkanizam",
+        "incorrect_answers": [
+            "Potres",
+            "Erozija",
+            "Tektonika"
+        ],
+        "explanation": "Vulkanizam je proces erupcije magme, pepela i plinova iz vulkana na površinu Zemlje, stvarajući vulkanske oblike reljefa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1432",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku formaciju nastalu kada se rijeka usijeca u visoravan, stvarajući duboku dolinu s okomitim stranama?",
+        "correct_answer": "Kanjon",
+        "incorrect_answers": [
+            "Dolina",
+            "Uvala",
+            "Fjord"
+        ],
+        "explanation": "Kanjon je duboka riječna dolina strmih, često okomitih, strana, nastala erozijom rijeke kroz tvrde stijene visoravni.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1433",
+        "category": "geografija",
+        "question": "Koja se država u Africi naziva 'Rogom Afrike'?",
+        "correct_answer": "Somalija",
+        "incorrect_answers": [
+            "Egipat",
+            "Kenija",
+            "Južna Afrika"
+        ],
+        "explanation": "Somalija se nalazi na istočnom dijelu Afrike, na poluotoku koji zbog svog oblika podsjeća na rog, pa se to područje naziva 'Rogom Afrike'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1434",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Japanu?",
+        "correct_answer": "Mount Fuji",
+        "incorrect_answers": [
+            "Mount Kita",
+            "Mount Hotaka",
+            "Mount Aso"
+        ],
+        "explanation": "Mount Fuji je najviša planina Japana, aktivni stratovulkan i jedna od tri 'svete planine' Japana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1435",
+        "category": "geografija",
+        "question": "Koji je naziv za magmatsku stijenu koja nastaje hlađenjem lave na površini Zemlje?",
+        "correct_answer": "Ekstruzivna stijena",
+        "incorrect_answers": [
+            "Intruzivna stijena",
+            "Metamorfna stijena",
+            "Sedimentna stijena"
+        ],
+        "explanation": "Ekstruzivne stijene nastaju brzim hlađenjem lave na površini Zemlje, što rezultira finozrnatom ili staklastom teksturom, za razliku od intruzivnih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1436",
+        "category": "geografija",
+        "question": "Koji je naziv za prirodni proces kojim vjetar, voda ili led premještaju tlo i stijene s jednog mjesta na drugo?",
+        "correct_answer": "Erozija",
+        "incorrect_answers": [
+            "Tektonika",
+            "Vulkanizam",
+            "Sedimentacija"
+        ],
+        "explanation": "Erozija je geološki proces u kojem zemljani materijali uklanjaju i transportiraju agensi poput vode, vjetra, leda ili gravitacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1437",
+        "category": "geografija",
+        "question": "Koja je najviša točka Velike Britanije?",
+        "correct_answer": "Ben Nevis",
+        "incorrect_answers": [
+            "Snowdon",
+            "Scafell Pike",
+            "Slieve Donard"
+        ],
+        "explanation": "Ben Nevis je najviša planina u Škotskoj i Ujedinjenom Kraljevstvu, smještena u Grampianskim planinama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1438",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu koji nije kontinent?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Borneo",
+            "Madagaskar",
+            "Nova Gvineja"
+        ],
+        "explanation": "Grenland je najveći otok na svijetu po površini, nalazi se u sjevernom Atlantiku i pripada Kraljevini Danskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1439",
+        "category": "geografija",
+        "question": "Koji je naziv za rijeku koja se ulijeva u drugu rijeku?",
+        "correct_answer": "Pritoka",
+        "incorrect_answers": [
+            "Otok",
+            "Ušće",
+            "Delta"
+        ],
+        "explanation": "Pritoka je manja rijeka ili potok koji se ulijeva u veću rijeku ili jezero, bez izravnog utoka u more ili ocean.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1440",
+        "category": "geografija",
+        "question": "Koja je najnaseljenija država Bliskog istoka?",
+        "correct_answer": "Turska",
+        "incorrect_answers": [
+            "Saudijska Arabija",
+            "Iran",
+            "Irak"
+        ],
+        "explanation": "Turska, s populacijom od preko 85 milijuna (stanje 2024.), najnaseljenija je zemlja u regiji Bliskog istoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1441",
+        "category": "geografija",
+        "question": "Koji je naziv za uski pojas kopna koji spaja dva veća kopnena područja, a okružen je vodom s obje strane?",
+        "correct_answer": "Kopnena prevlaka",
+        "incorrect_answers": [
+            "Tjesnac",
+            "Poluotok",
+            "Rt"
+        ],
+        "explanation": "Kopnena prevlaka je uski komad zemlje koji povezuje dva veća kopna i s obje strane je okružen vodom, poput Panamske prevlake.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1442",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija (jezero) u Hrvatskoj?",
+        "correct_answer": "Peručko jezero",
+        "incorrect_answers": [
+            "Vransko jezero",
+            "Varaždinsko jezero",
+            "Lokvarsko jezero"
+        ],
+        "explanation": "Peručko jezero, smješteno na rijeci Cetini, najveće je umjetno jezero u Hrvatskoj po površini i volumenu, nastalo izgradnjom brane Peruća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1443",
+        "category": "geografija",
+        "question": "Koji je naziv za područje na Zemlji gdje se dvije tektonske ploče razmiču jedna od druge, što često rezultira vulkanskom aktivnošću i stvaranjem novog morskog dna?",
+        "correct_answer": "Divergentna granica ploča",
+        "incorrect_answers": [
+            "Konvergentna granica ploča",
+            "Transformna granica ploča",
+            "Subdukcijska zona"
+        ],
+        "explanation": "Divergentne granice ploča su mjesta gdje se litosferne ploče razmiču, omogućujući magmi da se digne i stvori novo oceansko dno, poput Srednjoatlantskog hrpta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
