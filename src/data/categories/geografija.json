@@ -15722,5 +15722,530 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1325",
+        "category": "geografija",
+        "question": "Koja je najveća država na svijetu po površini?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Kina",
+            "Kanada",
+            "Sjedinjene Američke Države"
+        ],
+        "explanation": "Rusija zauzima oko 11% ukupne kopnene površine Zemlje, prostirući se preko istočne Europe i sjeverne Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1326",
+        "category": "geografija",
+        "question": "Koji ocean je najveći po površini i dubini?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean pokriva približno jednu trećinu zemljine površine i sadrži Marijansku brazdu, najdublju poznatu točku na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1327",
+        "category": "geografija",
+        "question": "Koji je naziv za sloj atmosfere najbliži Zemljinoj površini gdje se odvijaju sve vremenske pojave?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži sloj Zemljine atmosfere i sadrži gotovo svu vodenu paru, oblake i atmosferske čestice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1328",
+        "category": "geografija",
+        "question": "Koji je jedini kontinent koji nema aktivnih vulkana?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Afrika",
+            "Europa"
+        ],
+        "explanation": "Australija se nalazi u središtu tektonske ploče, što rezultira niskom vulkanskom aktivnošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1329",
+        "category": "geografija",
+        "question": "Koja planina je najviši vrh svijeta?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kangchendzonga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest, dio Himalaje, najviši je vrh na Zemlji s nadmorskom visinom od 8.848,86 metara (stanje 2020.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1330",
+        "category": "geografija",
+        "question": "Koji je najduži planinski lanac na kopnu?",
+        "correct_answer": "Ande",
+        "incorrect_answers": [
+            "Himalaja",
+            "Stjenjak",
+            "Ural"
+        ],
+        "explanation": "Ande se protežu duž zapadne obale Južne Amerike na dužini od oko 7.000 kilometara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1331",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se dva kontinentalna tektonska ploča sudare i formiraju planinski lanac?",
+        "correct_answer": "Orogeneza",
+        "incorrect_answers": [
+            "Subdukcija",
+            "Transformacija",
+            "Divergencija"
+        ],
+        "explanation": "Orogeneza je proces nastanka planina koji uključuje deformaciju i izdizanje Zemljine kore zbog sudara litosfernih ploča.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1332",
+        "category": "geografija",
+        "question": "Koja je najdulja rijeka u Južnoj Americi?",
+        "correct_answer": "Amazonija",
+        "incorrect_answers": [
+            "Parana",
+            "Orinoco",
+            "Magdalena"
+        ],
+        "explanation": "Amazonija je najveća rijeka na svijetu po protoku vode i druga najdulja, protječući kroz Južnu Ameriku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1333",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po Velikom koraljnom grebenu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Filipini",
+            "Indonezija",
+            "Maldivi"
+        ],
+        "explanation": "Veliki koraljni greben je najveći svjetski sustav koraljnih grebena, smješten uz obalu Queenslanda u Australiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1334",
+        "category": "geografija",
+        "question": "Koji je naziv za pojas vulkanskih aktivnosti i potresa koji okružuje Tihi ocean?",
+        "correct_answer": "Pacifički vatreni prsten",
+        "incorrect_answers": [
+            "Atlantski vatreni prsten",
+            "Indijski vatreni prsten",
+            "Arktički vatreni prsten"
+        ],
+        "explanation": "Pacifički vatreni prsten je područje gdje se većina potresa i erupcija vulkana događa zbog subdukcije tektonskih ploča.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1335",
+        "category": "geografija",
+        "question": "Koja je glavna komponenta zraka koju udišemo?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Zrak se sastoji od približno 78% dušika, 21% kisika i malih količina drugih plinova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1336",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku pojavu kada se sloj stijene ili tla naglo pomakne niz padinu?",
+        "correct_answer": "Odron",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfoza"
+        ],
+        "explanation": "Odron (ili klizište) je brzo kretanje mase stijena, tla i krhotina niz padinu, često potaknuto kišom ili potresima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1337",
+        "category": "geografija",
+        "question": "Koji je najdublji rov u oceanu?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanski rov",
+            "Javanski rov",
+            "Sundski rov"
+        ],
+        "explanation": "Marijanska brazda u Tihom oceanu je najdublji oceanski rov na svijetu, s dubinom od oko 11.000 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1338",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se dva tektonska ploča pomiču jedna uz drugu horizontalno?",
+        "correct_answer": "Transformni rasjed",
+        "incorrect_answers": [
+            "Divergentna granica",
+            "Konvergentna granica",
+            "Subdukcijska zona"
+        ],
+        "explanation": "Na transformnim rasjedima ploče klize jedna pored druge, uzrokujući potrese, ali bez stvaranja ili uništenja kore.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1339",
+        "category": "geografija",
+        "question": "Koja država ima glavni grad Pariz?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Španjolska"
+        ],
+        "explanation": "Pariz je povijesni i kulturni centar Francuske te jedan od najvažnijih globalnih gradova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1340",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu oblaka koji se pojavljuju na visokim visinama i izgledaju poput tankih, perjanih niti?",
+        "correct_answer": "Cirusi",
+        "incorrect_answers": [
+            "Kumulusi",
+            "Stratusi",
+            "Nimbostratusi"
+        ],
+        "explanation": "Cirusi su tanki, bijeli oblaci nastali od ledenih kristala, obično na visinama iznad 6.000 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1341",
+        "category": "geografija",
+        "question": "Koji kontinent povezuje Sjevernu i Južnu Ameriku?",
+        "correct_answer": "Srednja Amerika",
+        "incorrect_answers": [
+            "Antarktika",
+            "Azija",
+            "Afrika"
+        ],
+        "explanation": "Srednja Amerika je prevlaka koja se proteže između Sjeverne i Južne Amerike, povezujući dva kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1342",
+        "category": "geografija",
+        "question": "Koji je najplići ocean na svijetu?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Atlantski ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet velikih oceana, smješten oko Sjevernog pola.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1343",
+        "category": "geografija",
+        "question": "Koji je naziv za prirodni fenomen kada se slojevi atmosfere okreću, što dovodi do porasta temperature s visinom umjesto opadanja?",
+        "correct_answer": "Temperaturna inverzija",
+        "incorrect_answers": [
+            "Toplinska advekcija",
+            "Ozonizacija",
+            "Konvekcija"
+        ],
+        "explanation": "Temperaturna inverzija nastaje kada se hladan zrak zadrži ispod sloja toplijeg zraka, često zarobljavajući onečišćenje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1344",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojoj formi čizme?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Portugal"
+        ],
+        "explanation": "Italija se nalazi na Apeninskom poluotoku čiji oblik podsjeća na čizmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1345",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki fenomen kada se razina mora smanjuje zbog nakupljanja leda na kontinentima tijekom ledenog doba?",
+        "correct_answer": "Eustatsko spuštanje razine mora",
+        "incorrect_answers": [
+            "Izostatsko izdizanje",
+            "Tektonska subdukcija",
+            "Oroza"
+        ],
+        "explanation": "Eustatsko spuštanje je globalni pad razine mora uzrokovan akumulacijom velike količine vode u kontinentalnim ledenjacima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1346",
+        "category": "geografija",
+        "question": "Koji je naziv za uski morski prolaz koji razdvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean i Sredozemno more, a nalazi se između Španjolske i Maroka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1347",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Australija",
+            "Borneo",
+            "Madagaskar"
+        ],
+        "explanation": "Grenland je autonomna teritorija unutar Kraljevine Danske i najveći je otok na svijetu po površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1348",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu reljefa koju karakteriziraju brežuljci, doline i špilje nastale otapanjem vapnenca?",
+        "correct_answer": "Krš",
+        "incorrect_answers": [
+            "Pustinja",
+            "Tundra",
+            "Savana"
+        ],
+        "explanation": "Krš je specifičan tip reljefa s podzemnim oblicima poput špilja i jama, nastao otapanjem topivih stijena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1349",
+        "category": "geografija",
+        "question": "Koji je naziv za oceanografski fenomen kada duboka, hladna, hranjivim tvarima bogata voda izranja na površinu?",
+        "correct_answer": "Upwelling",
+        "incorrect_answers": [
+            "Downwelling",
+            "Termoklina",
+            "Globalna transportna traka"
+        ],
+        "explanation": "Upwelling je ključan za oceanske ekosustave jer donosi hranjive tvari koje podržavaju rast fitoplanktona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1350",
+        "category": "geografija",
+        "question": "Koji kontinent je najhladniji na svijetu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Arktik",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Antarktika je najhladniji kontinent, prekriven debelim slojem leda, s najnižim zabilježenim temperaturama na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1351",
+        "category": "geografija",
+        "question": "Koji je naziv za proces širenja pustinja na plodna područja?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Urbanizacija",
+            "Deforestacija",
+            "Eutrofikacija"
+        ],
+        "explanation": "Dezertifikacija je degradacija zemljišta u sušnim, polusušnim i suhim subhumidnim područjima uzrokovana raznim čimbenicima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1352",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku formaciju nastalu kada se rijeka usiječe kroz planinski lanac, formirajući duboku dolinu?",
+        "correct_answer": "Klisura",
+        "incorrect_answers": [
+            "Fjord",
+            "Uvala",
+            "Delta"
+        ],
+        "explanation": "Klisura je duboka, strma riječna dolina, često s okomitim stijenama, nastala dugotrajnom erozijom rijeke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1353",
+        "category": "geografija",
+        "question": "Koja je država poznata po Koloseumu i Vatikanskom gradu unutar svojih granica?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Francuska"
+        ],
+        "explanation": "Koloseum je amfiteatar u Rimu, a Vatikan je nezavisna država unutar Rima, oba u Italiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1354",
+        "category": "geografija",
+        "question": "Koji je naziv za polarni vrtlog, veliku masu hladnog zraka koja se vrti oko Zemljinih polova?",
+        "correct_answer": "Polarni vrtlog",
+        "incorrect_answers": [
+            "Tropski ciklon",
+            "Antiklon",
+            "Jet stream"
+        ],
+        "explanation": "Polarni vrtlog je područje niskog tlaka i hladnog zraka koje se nalazi iznad polova i pojačava se zimi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1355",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se tektonska ploča lomi i jedan dio tone, dok se drugi izdiže, stvarajući blok-planine i doline?",
+        "correct_answer": "Rasjedanje",
+        "incorrect_answers": [
+            "Preklapanje",
+            "Naboravanje",
+            "Metamorfoza"
+        ],
+        "explanation": "Rasjedanje stvara horste (izdignute blokove) i grabene (spuštene blokove), čineći karakteristične oblike reljefa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1356",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po izrazito razvedenoj obali s tisućama otoka, uključujući Hvar i Brač?",
+        "correct_answer": "Hrvatska",
+        "incorrect_answers": [
+            "Grčka",
+            "Italija",
+            "Turska"
+        ],
+        "explanation": "Hrvatska obala Jadranskog mora jedna je od najrazvedenijih na svijetu, s preko tisuću otoka, otočića i hridi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1357",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu glacijalnog jezera koje se formira u cirkusu, udubljenju nastalom erozijom ledenjaka na planini?",
+        "correct_answer": "Gorsko oko",
+        "incorrect_answers": [
+            "Prošireno jezero",
+            "Potkovasto jezero",
+            "Tektonsko jezero"
+        ],
+        "explanation": "Gorska oka su mala, duboka jezera smještena u planinskim cirkovima, često s bistrom vodom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1358",
+        "category": "geografija",
+        "question": "Koja je najveća rijeka u Sjevernoj Americi po volumenu protoka?",
+        "correct_answer": "Mississippi",
+        "incorrect_answers": [
+            "Missouri",
+            "Yukon",
+            "Colorado"
+        ],
+        "explanation": "Rijeka Mississippi je druga najduža rijeka u Sjevernoj Americi, ali najveća po volumenu, i ključna za povijest i gospodarstvo SAD-a.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1359",
+        "category": "geografija",
+        "question": "Koji je naziv za sloj smrznutog tla koji ostaje trajno smrznut tijekom cijele godine u polarnim i subpolarnim regijama?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Glacijalna morena",
+            "Tajga"
+        ],
+        "explanation": "Permafrost prekriva značajan dio Zemljine površine i sadrži velike količine uskladištenog ugljika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
