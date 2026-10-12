@@ -17271,5 +17271,590 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sport_1455",
+        "category": "sport",
+        "question": "Koji je termin u košarci za akciju u kojoj igrač dodaje loptu u zrak blizu koša, a suigrač ju hvata i odmah zabija u koš, često zakucavanjem?",
+        "correct_answer": "Alley-oop",
+        "incorrect_answers": [
+            "Pick and roll",
+            "Fast break",
+            "Crossover"
+        ],
+        "explanation": "Alley-oop je atraktivna košarkaška akcija gdje se lopta dodaje u zrak, a drugi igrač ju hvata u letu i odmah poentira, najčešće zakucavanjem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1456",
+        "category": "sport",
+        "question": "Koliko je visok koš u košarci, mjereći od tla do obruča?",
+        "correct_answer": "3.05 metara",
+        "incorrect_answers": [
+            "2.95 metara",
+            "3.15 metara",
+            "3.20 metara"
+        ],
+        "explanation": "Standardna visina koša u košarci, kako u NBA ligi tako i u FIBA pravilima, iznosi točno 3.05 metara (10 stopa).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1457",
+        "category": "sport",
+        "question": "U kojem se sportu koriste termini 'strike' i 'spare' za označavanje uspješnog rušenja čunjeva?",
+        "correct_answer": "Kuglanje",
+        "incorrect_answers": [
+            "Bejzbol",
+            "Pikado",
+            "Golf"
+        ],
+        "explanation": "'Strike' se postiže kada se sruše svi čunjevi u prvom bacanju, dok 'spare' označava rušenje svih čunjeva u dva bacanja u jednom frameu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1458",
+        "category": "sport",
+        "question": "Koji je Grand Slam turnir u tenisu jedinstven po tome što se tradicionalno igra na travnatoj podlozi?",
+        "correct_answer": "Wimbledon",
+        "incorrect_answers": [
+            "Roland Garros",
+            "US Open",
+            "Australian Open"
+        ],
+        "explanation": "Wimbledon je jedini Grand Slam turnir koji se igra na travnatoj podlozi, što ga čini jedinstvenim u svijetu tenisa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1459",
+        "category": "sport",
+        "question": "Koliko se 'rupa' obično igra u jednoj rundi golfa na standardnom igralištu?",
+        "correct_answer": "18",
+        "incorrect_answers": [
+            "9",
+            "12",
+            "24"
+        ],
+        "explanation": "Standardno golf igralište ima 18 rupa, a jedna runda golfa obično obuhvaća igranje svih 18 rupa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1460",
+        "category": "sport",
+        "question": "Koja je sportska disciplina, koja obuhvaća trčanje, skakanje i bacanje, povijesno poznata kao 'kraljica sportova'?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Gimnastika",
+            "Plivanje",
+            "Nogomet"
+        ],
+        "explanation": "Atletika je prepoznata kao 'kraljica sportova' zbog svoje drevne povijesti, jednostavnosti i raznolikosti disciplina koje testiraju temeljne ljudske fizičke sposobnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1461",
+        "category": "sport",
+        "question": "Koliko bodova donosi svaki uspješno izvedeni slobodni udarac u košarci?",
+        "correct_answer": "1 bod",
+        "incorrect_answers": [
+            "2 boda",
+            "3 boda",
+            "0 bodova"
+        ],
+        "explanation": "Svako uspješno realizirano slobodno bacanje u košarci uvijek donosi 1 bod ekipi koja ga izvodi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1462",
+        "category": "sport",
+        "question": "Koja je obavezna zaštitna oprema za glavu koju koriste svi igrači u hokeju na ledu?",
+        "correct_answer": "Kaciga",
+        "incorrect_answers": [
+            "Maska",
+            "Štitnik za glavu",
+            "Kapa"
+        ],
+        "explanation": "Kaciga je obavezna zaštitna oprema za sve igrače hokeja na ledu, štiteći glavu od udaraca palice, paka ili pada.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1463",
+        "category": "sport",
+        "question": "Kako se naziva prekid igre u nogometu kada lopta cijelim obujmom prijeđe gol-liniju izvan gola, a zadnji ju je dodirnuo igrač napadačke ekipe?",
+        "correct_answer": "Gol-aut",
+        "incorrect_answers": [
+            "Korner",
+            "Prekid",
+            "Aut"
+        ],
+        "explanation": "Gol-aut (ili vratarski udarac) se dosuđuje kada lopta cijelim obujmom prijeđe gol-liniju, a zadnji ju je dodirnuo napadač.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1464",
+        "category": "sport",
+        "question": "Kako se naziva obrambena formacija u nogometu gdje igrači stoje u liniji kako bi blokirali udarac prema golu iz slobodnog udarca?",
+        "correct_answer": "Živi zid",
+        "incorrect_answers": [
+            "Offside zamka",
+            "Presing",
+            "Duboka obrana"
+        ],
+        "explanation": "Živi zid formiraju igrači u nogometu kako bi blokirali izravan udarac prema golu iz slobodnog udarca dosuđenog blizu gola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1465",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu ekipu u odbojci na terenu tijekom igre?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "8"
+        ],
+        "explanation": "Svaka ekipa u odbojci ima 6 igrača na terenu istovremeno tijekom igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1466",
+        "category": "sport",
+        "question": "Koji su osnovni udarci u tenisu koji se izvode ovisno o tome kojom stranom reketa se udara loptica u odnosu na tijelo igrača?",
+        "correct_answer": "Forehand i backhand",
+        "incorrect_answers": [
+            "Smash i volej",
+            "Drop shot i lob",
+            "Topspin i slice"
+        ],
+        "explanation": "Forehand i backhand su dva osnovna udarca u tenisu, ovisno o tome kojom stranom reketa se udara loptica u odnosu na tijelo igrača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1467",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi na terenu u jednoj momčadi u američkom nogometu tijekom igre?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka ekipa u američkom nogometu ima 11 igrača na terenu istovremeno tijekom igre, bez obzira na fazu napada ili obrane.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1468",
+        "category": "sport",
+        "question": "Koja je osnovna svrha 'end zone' u američkom nogometu?",
+        "correct_answer": "Mjesto gdje ekipa postiže touchdown.",
+        "incorrect_answers": [
+            "Područje za promjenu igrača",
+            "Kazneno područje za prekršaje",
+            "Mesto za postizanje 'field goala'"
+        ],
+        "explanation": "End zone je područje na svakom kraju terena u koje igrač mora ući s loptom ili uhvatiti loptu unutar nje kako bi postigao touchdown.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1469",
+        "category": "sport",
+        "question": "Koji se stil plivanja općenito smatra najbržim i koristi se u disciplini 'slobodni stil'?",
+        "correct_answer": "Kraul",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "Kraul, poznat i kao slobodni stil, aerodinamički je najefikasniji i stoga najbrži od sva četiri natjecateljska stila plivanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1470",
+        "category": "sport",
+        "question": "Koju boju ima sam centar mete u streličarstvu, koji donosi najveći broj bodova?",
+        "correct_answer": "Zlatnu",
+        "incorrect_answers": [
+            "Crvenu",
+            "Plavu",
+            "Crnu"
+        ],
+        "explanation": "Centar mete u streličarstvu, nazvan 'bullseye' ili 'X ring', uvijek je zlatne boje i donosi najviše bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1471",
+        "category": "sport",
+        "question": "Kako se naziva zimski sport u kojem se natjecatelji pojedinačno spuštaju niz ledenu stazu na malim sanjkama ležeći na trbuhu, glavom prema naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Luge",
+            "Sanjkanje"
+        ],
+        "explanation": "Skeleton je zimska disciplina u kojoj se natjecatelji pojedinačno spuštaju niz stazu na sanjkama ležeći potrbuške, s glavom naprijed, dostižući velike brzine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1472",
+        "category": "sport",
+        "question": "Koja je japanska nacionalna borilačka vještina poznata po svojim iznimno teškim borcima i drevnim ritualima?",
+        "correct_answer": "Sumo hrvanje",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Kendo"
+        ],
+        "explanation": "Sumo hrvanje je japanski nacionalni sport i borilačka vještina gdje se dva hrvača bore u kružnom ringu (dohyo) s ciljem izbacivanja protivnika ili prisiljavanja da dodirne tlo bilo kojim dijelom tijela osim stopala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1473",
+        "category": "sport",
+        "question": "Kako se zove osoba koja asistira boksaču u kutu ringa između rundi, pružajući mu savjete i medicinsku pomoć?",
+        "correct_answer": "Sekundant",
+        "incorrect_answers": [
+            "Sudac",
+            "Trener",
+            "Menadžer"
+        ],
+        "explanation": "Sekundant je osoba koja je dio boksačevog tima i pruža mu podršku, savjete te medicinsku pomoć između rundi u boksačkom meču.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1474",
+        "category": "sport",
+        "question": "Koji je jedini kontinent na kojem nikada nisu održane Ljetne ni Zimske olimpijske igre?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Afrika",
+            "Južna Amerika",
+            "Australija"
+        ],
+        "explanation": "Zbog ekstremnih klimatskih uvjeta i nedostatka stalnog stanovništva, Antarktika je jedini kontinent koji nikada nije bio domaćin Olimpijskih igara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1475",
+        "category": "sport",
+        "question": "Koji termin u golfu označava da je igrač završio rupu s dva udarca više od para (standardnog broja udaraca za tu rupu)?",
+        "correct_answer": "Double-bogey",
+        "incorrect_answers": [
+            "Eagle",
+            "Birdie",
+            "Bogey"
+        ],
+        "explanation": "Double-bogey u golfu znači da je igrač završio rupu s dva udarca više od para (standardnog broja udaraca za tu rupu).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1476",
+        "category": "sport",
+        "question": "Koji je sport poznat kao 'kraljevska igra', igra se na konjima i ima dugu povijest vezanu uz plemstvo?",
+        "correct_answer": "Polo",
+        "incorrect_answers": [
+            "Konjički sport",
+            "Preponsko jahanje",
+            "Dresura"
+        ],
+        "explanation": "Polo je timski sport koji se igra na konjima, s dugačkom poviješću u Aziji i Europi, često povezivan s plemstvom i bogatstvom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1477",
+        "category": "sport",
+        "question": "Koliko iznosi standardna dužina maratonske utrke u kilometrima?",
+        "correct_answer": "42.195 km",
+        "incorrect_answers": [
+            "40 km",
+            "45 km",
+            "42 km"
+        ],
+        "explanation": "Standardna maratonska utrka je dugačka točno 42.195 kilometara, što je povijesno određena udaljenost od Maratona do Atene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1478",
+        "category": "sport",
+        "question": "Koji je osnovni cilj igre u curlingu?",
+        "correct_answer": "Postaviti svoje kamenje najbliže centru mete (house-u).",
+        "incorrect_answers": [
+            "Srušiti protivničko kamenje",
+            "Gurnuti kamenje preko linije",
+            "Razbiti led kamenjem"
+        ],
+        "explanation": "Cilj curlinga je preciznim klizanjem teškog kamenja po ledu postaviti ga što bliže centru kružne mete (house-a), donoseći bodove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1479",
+        "category": "sport",
+        "question": "Koja je osnovna razlika u opremi između cestovnog i brdskog bicikla?",
+        "correct_answer": "Cestovni bicikli imaju uske gume i lagani okvir, dok brdski imaju široke gume i robusniji okvir.",
+        "incorrect_answers": [
+            "Cestovni imaju više brzina, brdski manje",
+            "Cestovni nemaju kočnice, brdski imaju",
+            "Cestovni bicikli imaju amortizere, brdski nemaju"
+        ],
+        "explanation": "Glavna razlika je u dizajnu guma (uskih za brzinu na cesti, širokih s ripnom za grip na terenu) i robusnosti okvira za izdržljivost na neravnom terenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1480",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička sprava na kojoj se izvode vježbe snage, ravnoteže i agilnosti na dva paralelna stupa?",
+        "correct_answer": "Razboj",
+        "incorrect_answers": [
+            "Ruče",
+            "Greda",
+            "Preskok"
+        ],
+        "explanation": "Razboj je gimnastička sprava koja se sastoji od dva paralelna stupa, na kojoj gimnastičari izvode različite elemente snage, ravnoteže i agilnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1481",
+        "category": "sport",
+        "question": "Koliko iznosi maksimalna visina prečke u disciplini skoka s motkom u atletici?",
+        "correct_answer": "Nema maksimalne visine, cilj je što više preskočiti.",
+        "incorrect_answers": [
+            "5 metara",
+            "6 metara",
+            "7 metara"
+        ],
+        "explanation": "U skoku s motkom ne postoji maksimalna visina prečke; natjecatelji se natječu da preskoče što veću visinu koju mogu postići.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1482",
+        "category": "sport",
+        "question": "Koji je švedski tenisač osvojio pet uzastopnih naslova na Wimbledonu u muškoj pojedinačnoj konkurenciji, što je rekord Open ere?",
+        "correct_answer": "Björn Borg",
+        "incorrect_answers": [
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Đoković"
+        ],
+        "explanation": "Björn Borg je jedini tenisač koji je osvojio pet uzastopnih muških pojedinačnih naslova na Wimbledonu, od 1976. do 1980. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1483",
+        "category": "sport",
+        "question": "Koja je glavna razlika između freestyle i grčko-rimskog hrvanja?",
+        "correct_answer": "Freestyle dopušta korištenje nogu za napad i hvatanje ispod pojasa, dok grčko-rimsko ne.",
+        "incorrect_answers": [
+            "Freestyle se bori na tlu, a grčko-rimsko stoji",
+            "Freestyle koristi bodove, a grčko-rimsko tuš",
+            "Freestyle se bori u ringu, a grčko-rimsko na strunjači"
+        ],
+        "explanation": "U freestyle hrvanju dopušteni su zahvati i na nogama, dok je u grčko-rimskom hrvanju zabranjeno napadati protivnika ispod pojasa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1484",
+        "category": "sport",
+        "question": "Koji se dio tijela prvenstveno koristi za generiranje snage guranja u veslanju, iako se često pogrešno misli da su to ruke ili leđa?",
+        "correct_answer": "Noge",
+        "incorrect_answers": [
+            "Ruke",
+            "Leđa",
+            "Trbušni mišići"
+        ],
+        "explanation": "Iako se čini da su ruke i leđa primarni, najviše snage i potiska u veslanju dolazi iz snažnog guranja nogama, koje pokreću cijeli pokret.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1485",
+        "category": "sport",
+        "question": "Koja je prosječna brzina paka u hokeju na ledu nakon snažnog udarca profesionalnog igrača (u km/h)?",
+        "correct_answer": "Iznad 150 km/h",
+        "incorrect_answers": [
+            "Oko 80 km/h",
+            "Oko 100 km/h",
+            "Oko 120 km/h"
+        ],
+        "explanation": "Profesionalni hokejaši mogu udariti pak brzinama koje redovito prelaze 150 km/h, ponekad dosežući i preko 170 km/h, što zahtijeva iznimnu refleksnu reakciju vratara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1486",
+        "category": "sport",
+        "question": "Kako se naziva napredna tehnika u konjičkom sportu gdje jahač kontrolira konja isključivo težinom tijela i nogama, bez uzda?",
+        "correct_answer": "Bezuzdašno jahanje (dressage sans rênes)",
+        "incorrect_answers": [
+            "Slobodno jahanje",
+            "Akrobatsko jahanje",
+            "Terensko jahanje"
+        ],
+        "explanation": "Bezuzdašno jahanje je napredna tehnika u kojoj jahač uspostavlja potpunu komunikaciju s konjem koristeći samo signale tijelom i nogama, pokazujući vrhunsku povezanost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1487",
+        "category": "sport",
+        "question": "Koja natjecateljska borilačka vještina kombinira udarce šakama (iz boksa) i udarce nogama (iz drugih borilačkih vještina), s pravilima koja naglašavaju tehniku i kontrolu?",
+        "correct_answer": "Kickboxing",
+        "incorrect_answers": [
+            "Boks",
+            "Karate",
+            "Taekwondo"
+        ],
+        "explanation": "Kickboxing spaja elemente boksa (udarci šakama) s tehnikama udaranja nogama, stvarajući dinamičan borbeni sport s jasnim pravilima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1488",
+        "category": "sport",
+        "question": "Koji je sport bio prvi u povijesti koji je uveo sustav videoprovjere (sličan VAR-u) kako bi pomogao sudcima u donošenju odluka, značajno prije nego što je postao popularan u nogometu?",
+        "correct_answer": "Kriket",
+        "incorrect_answers": [
+            "Nogomet",
+            "Tenis",
+            "Ragbi"
+        ],
+        "explanation": "Kriket je prvi sport koji je uveo sustav videoprovjere odluka (Decision Review System - DRS) početkom 2000-ih, znatno prije popularizacije VAR-a u nogometu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1489",
+        "category": "sport",
+        "question": "Koliko je točno sportaša u jednoj momčadi u sinkroniziranom plivanju (artistic swimming) u disciplini 'tim' na Olimpijskim igrama?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "6",
+            "7",
+            "10"
+        ],
+        "explanation": "U disciplini 'tim' u sinkroniziranom plivanju, koja se izvodi na Olimpijskim igrama, natječe se točno osam sportaša.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1490",
+        "category": "sport",
+        "question": "Koju je boju startnih blokova tradicionalno rezervirana za stazu broj 4 u plivanju na velikim natjecanjima, s obzirom na to da se na njoj obično nalazi najbrži plivač?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Zelena",
+            "Plava",
+            "Crvena"
+        ],
+        "explanation": "Startni blok na stazi broj 4, često rezerviran za najbržeg kvalifikanta, tradicionalno je označen žutom bojom kako bi se lakše pratio tijekom natjecanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1491",
+        "category": "sport",
+        "question": "Kako se naziva pokret u sportskom penjanju kada penjač koristi eksplozivnu snagu ruku i prstiju da skoči ili se silovito protegne do udaljenog hvatišta, bez oslanjanja na noge?",
+        "correct_answer": "Dinamično povlačenje (dyno)",
+        "incorrect_answers": [
+            "Statičko kretanje",
+            "Mantling",
+            "Slab penjanje"
+        ],
+        "explanation": "Dinamično povlačenje (dyno) je napredna tehnika u penjanju gdje penjač skače ili se silovito proteže prema gornjem hvatištu, oslanjajući se primarno na snagu gornjeg dijela tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1492",
+        "category": "sport",
+        "question": "Koju vrstu konja tradicionalno koriste jahači u polo sportu, poznate po svojoj agilnosti i brzini, unatoč imenu?",
+        "correct_answer": "Polo poni",
+        "incorrect_answers": [
+            "Arapski konj",
+            "Engleski punokrvnjak",
+            "Frizijski konj"
+        ],
+        "explanation": "Iako se zovu 'poni', to su zapravo mali, brzi i okretni konji, uzgojeni posebno za izdržljivost i agilnost potrebnu u polo igri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1493",
+        "category": "sport",
+        "question": "Koji je poznati njemački automobilist, uz Lewisa Hamiltona, drži rekord po broju osvojenih naslova svjetskog prvaka Formule 1 (stanje 2024.)?",
+        "correct_answer": "Michael Schumacher",
+        "incorrect_answers": [
+            "Ayrton Senna",
+            "Juan Manuel Fangio",
+            "Sebastian Vettel"
+        ],
+        "explanation": "Michael Schumacher i Lewis Hamilton dijele rekord sa sedam osvojenih naslova svjetskog prvaka Formule 1 (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
