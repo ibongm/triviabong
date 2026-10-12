@@ -19656,5 +19656,769 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1614",
+        "category": "sport",
+        "question": "Koji se sport naziva 'kraljicom sportova'?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Plivanje"
+        ],
+        "explanation": "Atletika obuhvaća širok spektar disciplina trčanja, skakanja i bacanja te se smatra temeljnim sportom. Zbog svoje raznolikosti i univerzalnosti, često se naziva 'kraljicom sportova'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1615",
+        "category": "sport",
+        "question": "Koja je država domaćin prvog modernog Svjetskog prvenstva u nogometu 1930. godine?",
+        "correct_answer": "Urugvaj",
+        "incorrect_answers": [
+            "Brazil",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Prvo FIFA Svjetsko prvenstvo u nogometu održano je 1930. godine, a domaćin je bio Urugvaj, koji je ujedno i osvojio turnir. Utakmice su se igrale u Montevideu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1616",
+        "category": "sport",
+        "question": "Koliko je ukupno igrača na terenu u vaterpolskoj utakmici (obje momčadi, uključujući vratare)?",
+        "correct_answer": "14",
+        "incorrect_answers": [
+            "12",
+            "10",
+            "16"
+        ],
+        "explanation": "U vaterpolu svaka momčad ima sedam igrača u vodi (šest igrača i jedan vratar). Stoga je ukupan broj igrača na terenu 14.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1617",
+        "category": "sport",
+        "question": "Kako se naziva termin u odbojci kada momčad osvoji poen na servis protivnika i dobije pravo na servis?",
+        "correct_answer": "Side-out",
+        "incorrect_answers": [
+            "Break point",
+            "Set point",
+            "Match point"
+        ],
+        "explanation": "Side-out je pojam u odbojci koji se koristi kada momčad koja je primala servis osvoji poen i time dobije pravo na servis. To je ključan trenutak za preuzimanje inicijative.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1618",
+        "category": "sport",
+        "question": "Koji poznati hrvatski skijaš je osvojio veliki Kristalni globus u sezoni 2002/2003?",
+        "correct_answer": "Ivica Kostelić",
+        "incorrect_answers": [
+            "Janica Kostelić",
+            "Natko Zrnčić-Dim",
+            "Filip Zubčić"
+        ],
+        "explanation": "Ivica Kostelić je osvojio Veliki Kristalni globus u sezoni 2010/2011. i to u slalomu. Janica Kostelić je osvojila čak tri velika Kristalna globusa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1619",
+        "category": "sport",
+        "question": "Kolika je visina koša u košarci (od poda do obruča)?",
+        "correct_answer": "3.05 metara",
+        "incorrect_answers": [
+            "3.20 metara",
+            "2.95 metara",
+            "3.15 metara"
+        ],
+        "explanation": "Standardna visina koša u košarci, prema FIBA i NBA pravilima, iznosi 3.05 metara ili točnije 10 stopa. Ova visina je uniformna diljem svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1620",
+        "category": "sport",
+        "question": "Koja se životinja nalazi na logotipu marke automobila Ferrari, usko povezane s Formulom 1?",
+        "correct_answer": "Konj",
+        "incorrect_answers": [
+            "Bik",
+            "Lav",
+            "Pantera"
+        ],
+        "explanation": "Logotip Ferrarija prikazuje crnog propetog konja na žutoj pozadini. Taj konj je prvotno bio simbol talijanskog pilota Francesca Baracce.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1621",
+        "category": "sport",
+        "question": "Koji je bio primarni cilj prvih Olimpijskih igara u antičkoj Grčkoj?",
+        "correct_answer": "Odavanje počasti bogu Zeusu",
+        "incorrect_answers": [
+            "Promocija mira među gradovima-državama",
+            "Priprema vojnika za rat",
+            "Otkrivanje najbržih trkača"
+        ],
+        "explanation": "Antičke Olimpijske igre bile su vjerski festival posvećen Zeusu, a sportska natjecanja bila su dio rituala. Igre su se održavale u Olimpiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1622",
+        "category": "sport",
+        "question": "Koji je minimalni broj igrača u nogometnoj momčadi ispod kojeg se utakmica ne može započeti ili nastaviti?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "9",
+            "8",
+            "10"
+        ],
+        "explanation": "Prema pravilima nogometne igre, utakmica se ne može započeti ako neka momčad ima manje od sedam igrača. Ako broj padne ispod toga tijekom igre, utakmica se prekida.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1623",
+        "category": "sport",
+        "question": "Kako se naziva situacija u tenisu kada je rezultat 40-40 u gemu?",
+        "correct_answer": "Izjednačenje (Deuce)",
+        "incorrect_answers": [
+            "Prednost",
+            "Gem-lopta",
+            "Break point"
+        ],
+        "explanation": "Kada obje strane osvoje po tri poena u gemu, rezultat je 40-40, što se naziva 'izjednačenje' ili 'deuce'. Za osvajanje gema potrebna su dva uzastopna poena nakon toga.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1624",
+        "category": "sport",
+        "question": "Koja država je poznata po nacionalnom sportu 'Sumo hrvanje'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Indija"
+        ],
+        "explanation": "Sumo hrvanje je tradicionalni japanski sport s drevnim korijenima. U sumo natjecanju dva se hrvača bore u kružnom ringu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1625",
+        "category": "sport",
+        "question": "Koji se element u gimnastici na ručama ili preči izvodi spajanjem ruku iza leđa i rotacijom oko sprave?",
+        "correct_answer": "Kip",
+        "incorrect_answers": [
+            "Salto",
+            "Premet",
+            "Fliffus"
+        ],
+        "explanation": "Kip je osnovni element u gimnastici koji se izvodi na ručama ili preči, a uključuje rotaciju tijela oko sprave do uspravnog položaja. To je temelj mnogih složenijih vježbi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1626",
+        "category": "sport",
+        "question": "U kojem je sportu 'hat-trick' postignut kada igrač postigne tri gola u jednoj utakmici?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Rukomet",
+            "Odbojka"
+        ],
+        "explanation": "Hat-trick je izraz u nogometu koji označava postizanje tri gola od strane istog igrača u jednoj utakmici. Ovaj izraz se koristi i u nekim drugim sportovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1627",
+        "category": "sport",
+        "question": "Kolika je standardna duljina bazena za olimpijska natjecanja u plivanju?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "100 metara",
+            "30 metara"
+        ],
+        "explanation": "Olimpijski bazen, poznat i kao dugi bazen, standardno je dug 50 metara. Za kratke staze koriste se bazeni duljine 25 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1628",
+        "category": "sport",
+        "question": "Koji je cilj igre u curlingu?",
+        "correct_answer": "Postaviti svoje kamenje najbliže središtu mete",
+        "incorrect_answers": [
+            "Srušiti protivničke kugle s leda",
+            "Ubaciti kamenje u rupu",
+            "Odgurnuti protivničko kamenje iz igre"
+        ],
+        "explanation": "Cilj curlinga je klizanjem granitnog kamenja po ledu postaviti ga što bliže središnjoj meti, poznatoj kao 'kuća'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1629",
+        "category": "sport",
+        "question": "Koja se borilačka vještina fokusira prvenstveno na udarce nogama i šakama, a potječe iz Koreje?",
+        "correct_answer": "Taekwondo",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Aikido"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina koju karakteriziraju brzi i visoki udarci nogama te snažni udarci šakama. To je i olimpijski sport.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1630",
+        "category": "sport",
+        "question": "Kako se naziva dionica utrke Formule 1 u kojoj vozači obavljaju zaustavljanje radi promjene guma ili popravaka?",
+        "correct_answer": "Pit stop",
+        "incorrect_answers": [
+            "Start-finish",
+            "Chicane",
+            "Hairpin"
+        ],
+        "explanation": "Pit stop je kratko zaustavljanje bolida Formule 1 u boksu tijekom utrke radi zamjene guma, dolijevanja goriva (do 2010.) ili manjih popravaka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1631",
+        "category": "sport",
+        "question": "Koliko igrača, uključujući vratara, ima jedna momčad futsala (malog nogometa) na terenu?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "6",
+            "4",
+            "7"
+        ],
+        "explanation": "U futsalu, poznatom i kao mali nogomet, svaka momčad na terenu ima pet igrača, uključujući vratara. To pridonosi bržoj i dinamičnijoj igri.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1632",
+        "category": "sport",
+        "question": "Koji je drugi naziv za sport 'skijaško trčanje'?",
+        "correct_answer": "Nordijsko skijanje",
+        "incorrect_answers": [
+            "Alpsko skijanje",
+            "Slobodno skijanje",
+            "Skijaški skokovi"
+        ],
+        "explanation": "Skijaško trčanje je disciplina nordijskog skijanja u kojoj se skijaši kreću po snijegu koristeći štapove i skije za pogon. To je izdržljivostni sport.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1633",
+        "category": "sport",
+        "question": "Koja je jedina reprezentacija koja je sudjelovala na svim Svjetskim prvenstvima u nogometu (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je jedina nogometna reprezentacija koja je nastupila na svim Svjetskim prvenstvima od njegovog osnutka 1930. godine. Ujedno su i najuspješnija nacija sa pet titula.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1634",
+        "category": "sport",
+        "question": "Koliko setova se maksimalno igra u teniskim Grand Slam muškim mečevima?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Tri",
+            "Četiri",
+            "Šest"
+        ],
+        "explanation": "Na Grand Slam turnirima i Davis Cupu, muški mečevi igraju se na tri dobivena seta, što znači da je maksimalni broj odigranih setova pet. To zahtijeva iznimnu izdržljivost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1635",
+        "category": "sport",
+        "question": "Koji se plivački stil smatra najbržim?",
+        "correct_answer": "Slobodni stil (kraul)",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "Slobodni stil, odnosno kraul, tehnički je najbrži plivački stil zbog svoje efikasnosti u generiranju potiska i minimaliziranju otpora. Većina natjecatelja bira kraul u disciplinama slobodnog stila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1636",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što koristi 'činku' i 'izbačaj' kao glavne discipline?",
+        "correct_answer": "Dizanje utega",
+        "incorrect_answers": [
+            "Bacanje kugle",
+            "Gimnastika",
+            "Plivanje"
+        ],
+        "explanation": "Dizanje utega uključuje dvije glavne discipline: 'činku' (trzaj) i 'izbačaj'. U 'činki' se uteg podiže u jednom pokretu, dok se u 'izbačaju' podiže u dva pokreta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1637",
+        "category": "sport",
+        "question": "Koja se boja kartona koristi u nogometu za privremeno isključenje igrača iz igre (ne više u modernim pravilima)?",
+        "correct_answer": "Žuti karton",
+        "incorrect_answers": [
+            "Zeleni karton",
+            "Plavi karton",
+            "Crveni karton"
+        ],
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1638",
+        "category": "sport",
+        "question": "Tko je izumitelj košarke?",
+        "correct_answer": "James Naismith",
+        "incorrect_answers": [
+            "William G. Morgan",
+            "Pierre de Coubertin",
+            "Abner Doubleday"
+        ],
+        "explanation": "Košarku je izumio kanadski profesor tjelesnog odgoja James Naismith 1891. godine u Springfieldu, Massachusetts. Cilj mu je bio stvoriti manje nasilan sport.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1639",
+        "category": "sport",
+        "question": "Koja je glavna prepreka u atletskoj disciplini 'utrka s preponama'?",
+        "correct_answer": "Prepone",
+        "incorrect_answers": [
+            "Voda",
+            "Jarak",
+            "Zid"
+        ],
+        "explanation": "Utrka s preponama je atletska disciplina u kojoj natjecatelji trče preko prepreka postavljenih na stazi. Cilj je preći prepone bez rušenja ili gubitka ritma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1640",
+        "category": "sport",
+        "question": "Kako se naziva 'zona' u rukometu iz koje smiju šutirati samo vratari i igrači protivničke momčadi ako su unutar te zone nakon faula?",
+        "correct_answer": "Crta devet metara",
+        "incorrect_answers": [
+            "Crta sedam metara",
+            "Crta šest metara",
+            "Crta centra"
+        ],
+        "explanation": "Deveterac je linija u rukometu s koje se izvode slobodni udarci nakon prekršaja izvan šesterca. Igrači smiju šutirati samo izvan ili s linije devet metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1641",
+        "category": "sport",
+        "question": "Koja se tehnika bacanja koristi u plivanju delfin stilom?",
+        "correct_answer": "Valovito kretanje tijela",
+        "incorrect_answers": [
+            "Naizmjenično zamahivanje rukama",
+            "Simultano zamahivanje rukama iznad vode",
+            "Guranjem nogama u stranu"
+        ],
+        "explanation": "Delfin stil karakterizira snažno valovito kretanje cijelog tijela, uz istovremeno zamahivanje objema rukama i nogama. Ovaj stil je zahtjevan za izvedbu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1642",
+        "category": "sport",
+        "question": "Kako se naziva udarac u tenisu koji se izvodi neposredno nakon što loptica odskoči od tla, prije nego što dosegne vrhunac putanje?",
+        "correct_answer": "Forehand",
+        "incorrect_answers": [
+            "Servis",
+            "Drop shot",
+            "Volley"
+        ],
+        "explanation": "Forehand je jedan od osnovnih udaraca u tenisu, a izvodi se zamahom reketa s dominantne strane tijela. To je najčešće korišteni udarac u tenisu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1643",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra s 'frikom' (diskom) umjesto loptom?",
+        "correct_answer": "Ultimate Frisbee",
+        "incorrect_answers": [
+            "Odbojka na pijesku",
+            "Polo",
+            "Ragbi"
+        ],
+        "explanation": "Ultimate Frisbee je dinamičan ekipni sport koji se igra s posebnim diskom (frikom). Karakterizira ga fair play i samoregulacija igrača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1644",
+        "category": "sport",
+        "question": "Koja je najmanja težinska kategorija u boksu?",
+        "correct_answer": "Muha kategorija (Flyweight)",
+        "incorrect_answers": [
+            "Perolaka kategorija",
+            "Laka kategorija",
+            "Bantam kategorija"
+        ],
+        "explanation": "Muha kategorija je najniža težinska kategorija u profesionalnom boksu. Uključuje boksače težine do 50,8 kg (112 lbs).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1645",
+        "category": "sport",
+        "question": "Koji je cilj igre u badmintunu?",
+        "correct_answer": "Prebaciti lopticu preko mreže tako da padne unutar protivničkog polja",
+        "incorrect_answers": [
+            "Udariti lopticu o zid",
+            "Spriječiti protivnika da vrati lopticu",
+            "Lopticom pogoditi protivničkog igrača"
+        ],
+        "explanation": "Cilj badmintona je udariti lopticu reketom preko mreže tako da ona padne unutar protivničkog dijela terena i protivnik je ne uspije vratiti natrag. Igra je slična tenisu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1646",
+        "category": "sport",
+        "question": "Kako se naziva borilačka vještina koja uključuje samoobranu, a temelji se na principu iskorjenjivanja protivnikove sile?",
+        "correct_answer": "Aikido",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Taekwondo"
+        ],
+        "explanation": "Aikido je japanska borilačka vještina fokusirana na samoobranu, koja koristi poluge i bacanja. Temelji se na principu usmjeravanja i iskorištavanja protivnikove energije, a ne na direktnom sukobu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1647",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno za pobjedu u setu odbojke (osim odlučujućeg petog seta)?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "21",
+            "15",
+            "30"
+        ],
+        "explanation": "U odbojci se setovi igraju do 25 bodova, s minimalnom razlikom od dva poena. Peti, odlučujući set, igra se do 15 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1648",
+        "category": "sport",
+        "question": "Koju boju medalje osvaja trećeplasirani na Olimpijskim igrama?",
+        "correct_answer": "Brončana",
+        "incorrect_answers": [
+            "Srebrna",
+            "Zlatna",
+            "Platinasta"
+        ],
+        "explanation": "Na Olimpijskim igrama, prvo mjesto donosi zlatnu medalju, drugo srebrnu, a treće brončanu. Ova tradicija je prisutna od prvih modernih igara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1649",
+        "category": "sport",
+        "question": "Kako se zove udarac u nogometu koji se izvodi izravno iz kuta igrališta?",
+        "correct_answer": "Korner (Udarac iz kuta)",
+        "incorrect_answers": [
+            "Slobodni udarac",
+            "Jedanaesterac",
+            "Aut"
+        ],
+        "explanation": "Korner, ili udarac iz kuta, dodjeljuje se kada loptu posljednji dotakne igrač obrambene momčadi i ona prijeđe gol-liniju. Izvodi se iz kuta terena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1650",
+        "category": "sport",
+        "question": "Koja se oprema koristi za kretanje po snijegu bez tonjenja, a pričvršćuje se na obuću?",
+        "correct_answer": "Krplje",
+        "incorrect_answers": [
+            "Skije",
+            "Pancete",
+            "Bord"
+        ],
+        "explanation": "Krplje su specifična vrsta obuće, odnosno dodataka za obuću, koje omogućuju hodanje po dubokom snijegu bez tonjenja, distribuirajući težinu tijela na veću površinu. To olakšava kretanje po snijegu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1651",
+        "category": "sport",
+        "question": "Koja je svrha žutog kartona u rukometu?",
+        "correct_answer": "Upozorenje igraču",
+        "incorrect_answers": [
+            "Isključenje na 2 minute",
+            "Trajno isključenje",
+            "Dodjela sedmerca"
+        ],
+        "explanation": "Žuti karton u rukometu služi kao upozorenje igraču za lakše prekršaje ili nesportsko ponašanje. Nakon tri žuta kartona slijedi isključenje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1652",
+        "category": "sport",
+        "question": "Koliko igrača, osim golmana, smije biti na terenu za svaku momčad u hokeju na ledu u normalnoj igri?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "4",
+            "6",
+            "3"
+        ],
+        "explanation": "U hokeju na ledu, svaka momčad na ledu ima pet igrača u polju plus jednog golmana. To ukupno čini šest igrača po momčadi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1653",
+        "category": "sport",
+        "question": "Koja je boja zastavice koja se maše za označavanje posljednjeg kruga u moto utrkama?",
+        "correct_answer": "Bijela",
+        "incorrect_answers": [
+            "Zelena",
+            "Žuta",
+            "Crvena"
+        ],
+        "explanation": "Bijela zastavica u moto utrkama označava da je preostao još samo jedan krug do kraja utrke. Vozači je moraju prepoznati i pripremiti se za finiš.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1654",
+        "category": "sport",
+        "question": "Koji je sport poznat po 'trostrukom skoku' kao jednoj od disciplina?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Gimnastika",
+            "Plivanje",
+            "Skijanje"
+        ],
+        "explanation": "Trostruki skok je atletska disciplina skoka u dalj koja se sastoji od tri uzastopna pokreta: odraz, korak i skok. Cilj je postići najveću udaljenost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1655",
+        "category": "sport",
+        "question": "Kako se naziva oprema koju koriste boksači za zaštitu ruku i zglobova?",
+        "correct_answer": "Boksačke rukavice",
+        "incorrect_answers": [
+            "Štitnici",
+            "Trake",
+            "Bandaže"
+        ],
+        "explanation": "Boksačke rukavice su neophodna oprema za boksače, dizajnirane da zaštite ruke i zglobove borca te da smanje snagu udarca, čineći sport sigurnijim za oba natjecatelja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1656",
+        "category": "sport",
+        "question": "Kolika je standardna dužina maratonske utrke?",
+        "correct_answer": "42.195 kilometara",
+        "incorrect_answers": [
+            "40 kilometara",
+            "26.2 milje",
+            "50 kilometara"
+        ],
+        "explanation": "Standardna duljina maratonske utrke iznosi 42.195 kilometara (ili 26 milja i 385 jardi). Ova distanca je određena na Olimpijskim igrama u Londonu 1908. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1657",
+        "category": "sport",
+        "question": "Koji se sport igra na 'zelenom platnu' s kuglama i štapom?",
+        "correct_answer": "Biljar (Pool)",
+        "incorrect_answers": [
+            "Boćanje",
+            "Curling",
+            "Kuglanje"
+        ],
+        "explanation": "Biljar, poznat i kao pool, igra se na stolu prekrivenom zelenim platnom. Igrači koriste štapove za udaranje kugli i ubacivanje ih u rupe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1658",
+        "category": "sport",
+        "question": "Koji je naziv za sustav borilačkih vještina koji je razvio Bruce Lee?",
+        "correct_answer": "Jeet Kune Do",
+        "incorrect_answers": [
+            "Wing Chun",
+            "Karate",
+            "Kung Fu"
+        ],
+        "explanation": "Bruce Lee je razvio Jeet Kune Do, sustav borilačkih vještina koji se fokusira na prilagodljivost i učinkovitost, odbacujući tradicionalna ograničenja stilova. Naglasak je na osobnoj slobodi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1659",
+        "category": "sport",
+        "question": "Kako se naziva 'teren' u bejzbolu?",
+        "correct_answer": "Dijamant (Diamond)",
+        "incorrect_answers": [
+            "Kavez",
+            "Kvadrat",
+            "Igralište"
+        ],
+        "explanation": "Teren za bejzbol često se naziva 'dijamant' zbog specifičnog oblika polja u kojem se nalaze baze. Na njemu se odvija cijela igra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1660",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se na njemu natječe u disciplinama 'slalom' i 'veleslalom'?",
+        "correct_answer": "Alpsko skijanje",
+        "incorrect_answers": [
+            "Skijaško trčanje",
+            "Snowboarding",
+            "Skijaški skokovi"
+        ],
+        "explanation": "Alpsko skijanje uključuje discipline poput slaloma i veleslaloma, gdje natjecatelji prolaze kroz označenu stazu s vratima. Brzina i preciznost su ključne.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1661",
+        "category": "sport",
+        "question": "Koji je cilj u nogometu?",
+        "correct_answer": "Zabiti gol u protivničku mrežu",
+        "incorrect_answers": [
+            "Zabiti koš",
+            "Zabiti poen",
+            "Zabiti trčanje"
+        ],
+        "explanation": "Primarni cilj nogometa je zabiti loptu u protivničku mrežu, poznatu kao gol. Momčad s više postignutih golova pobjeđuje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1662",
+        "category": "sport",
+        "question": "Koja je jedina zemlja u Europi koja je osvojila Svjetsko prvenstvo u nogometu i rukometu (muški) do 2024. godine?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Njemačka",
+            "Španjolska",
+            "Danska"
+        ],
+        "explanation": "Francuska je do 2024. jedina europska država koja je osvojila muška Svjetska prvenstva i u nogometu i u rukometu. To pokazuje izniman sportski uspjeh.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1663",
+        "category": "sport",
+        "question": "Kako se naziva udarac u odbojci kojim se servira lopta iznad glave, često sa skokom, radi veće brzine i snage?",
+        "correct_answer": "Smeč servis",
+        "incorrect_answers": [
+            "Donji servis",
+            "Flouter servis",
+            "Smeč"
+        ],
+        "explanation": "Smeč servis je napredna tehnika serviranja u odbojci. Igrač baca loptu u zrak, skače i snažno je udara preko mreže, čime postiže veliku brzinu i izaziva protivničku obranu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1664",
+        "category": "sport",
+        "question": "Koja je glavna svrha 'safety cara' (sigurnosnog automobila) u Formuli 1?",
+        "correct_answer": "Usporavanje utrke radi sigurnosti vozača",
+        "incorrect_answers": [
+            "Testiranje staze",
+            "Vođenje utrke",
+            "Označavanje kraja utrke"
+        ],
+        "explanation": "Safety car izlazi na stazu kako bi usporio bolide u slučaju nesreće ili loših uvjeta. To omogućuje sigurno čišćenje staze i smanjuje rizik za vozače i osoblje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
