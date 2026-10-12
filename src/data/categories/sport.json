@@ -17856,5 +17856,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1494",
+        "category": "sport",
+        "question": "Koji sportski događaj, poznat kao 'najveća smotra nogometa', okuplja reprezentacije iz cijelog svijeta svake četiri godine?",
+        "correct_answer": "Svjetsko prvenstvo u nogometu",
+        "incorrect_answers": [
+            "Olimpijske igre",
+            "Europsko prvenstvo u nogometu",
+            "Liga prvaka"
+        ],
+        "explanation": "Svjetsko prvenstvo u nogometu je glavno međunarodno natjecanje u muškom nogometu, koje organizira FIFA.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1495",
+        "category": "sport",
+        "question": "Koliko maksimalno osobnih pogrešaka (faulova) igrač može napraviti prije nego što mora napustiti igru u košarci?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Četiri",
+            "Šest",
+            "Sedam"
+        ],
+        "explanation": "Prema pravilima košarke, igrač koji napravi pet osobnih pogrešaka isključen je iz igre.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1496",
+        "category": "sport",
+        "question": "Koja atletska disciplina za muškarce uključuje deset različitih disciplina tijekom dva dana natjecanja?",
+        "correct_answer": "Desetoboj",
+        "incorrect_answers": [
+            "Sedmoboj",
+            "Petoboj",
+            "Trojboj"
+        ],
+        "explanation": "Desetoboj je kombinirana atletska disciplina za muškarce koja obuhvaća 10 različitih natjecanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1497",
+        "category": "sport",
+        "question": "Koji se Grand Slam teniski turnir igra na zemljanim terenima i tradicionalno se održava u Parizu?",
+        "correct_answer": "Roland Garros",
+        "incorrect_answers": [
+            "Wimbledon",
+            "US Open",
+            "Australian Open"
+        ],
+        "explanation": "Roland Garros je jedini Grand Slam turnir koji se igra na zemljanoj podlozi, poznat po dugim izmjenama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1498",
+        "category": "sport",
+        "question": "Koliko igrača, uključujući vratara, smije biti na terenu za jednu ekipu u rukometu istovremeno?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Pet",
+            "Osam"
+        ],
+        "explanation": "Svaka ekipa u rukometu ima sedam igrača na terenu: šest terenskih igrača i jednog vratara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1499",
+        "category": "sport",
+        "question": "Koliko bodova se dodjeljuje pobjedniku utrke Formule 1 (stanje 2024.)?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "15"
+        ],
+        "explanation": "Od 2010. godine, pobjednik Formule 1 dobiva 25 bodova, drugi 18, treći 15 itd.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1500",
+        "category": "sport",
+        "question": "Koji je najpoznatiji stil plivanja gdje se plivač kreće na leđima, izvodeći zaveslaje rukama iznad glave i udarce nogama?",
+        "correct_answer": "Leđno plivanje",
+        "incorrect_answers": [
+            "Prsno plivanje",
+            "Kraul",
+            "Delfin"
+        ],
+        "explanation": "Leđno plivanje je jedini natjecateljski stil plivanja koji započinje iz vode i pliva se na leđima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1501",
+        "category": "sport",
+        "question": "Kako se naziva udarac u boksu koji se izvodi bočno, s rukom savijenom u laktu?",
+        "correct_answer": "Kroše",
+        "incorrect_answers": [
+            "Direkt",
+            "Aperkat",
+            "Jab"
+        ],
+        "explanation": "Kroše je snažan, bočni udarac koji se često koristi za udaranje u glavu protivnika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1502",
+        "category": "sport",
+        "question": "Koji poznati biciklistički događaj, dugačak otprilike 3500 km, prolazi kroz planine Pirineje i Alpe i završava na Champs-Élysées u Parizu?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ],
+        "explanation": "Tour de France je najprestižnija svjetska biciklistička utrka, duga oko 3500 km kroz Francusku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1503",
+        "category": "sport",
+        "question": "Koliko dodira lopte maksimalno smije imati jedna ekipa prije nego što ju prebaci preko mreže u odbojci?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Dva",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "Ekipa smije dodirnuti loptu najviše tri puta prije nego što je prebaci preko mreže na protivničku stranu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1504",
+        "category": "sport",
+        "question": "Koju ulogu ima igrač poznat kao 'center' u hokeju na ledu, pozicioniran između dva krila?",
+        "correct_answer": "Primarno odgovoran za napad i obranu, te izvodi 'face-off' (bully).",
+        "incorrect_answers": [
+            "Isključivo obrambeni igrač",
+            "Isključivo napadački igrač",
+            "Uvijek je vratar"
+        ],
+        "explanation": "Center je ključan igrač koji koordinira napade, pomaže u obrani i sudjeluje u većini face-offova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1505",
+        "category": "sport",
+        "question": "Kako se naziva faza igre u ragbiju kada se igrači obiju momčadi formiraju u usku grupu i guraju jedni druge preko lopte koja je na tlu?",
+        "correct_answer": "Ruck",
+        "incorrect_answers": [
+            "Maul",
+            "Scrum",
+            "Lineout"
+        ],
+        "explanation": "Ruck je situacija u ragbiju gdje se igrači nadmeću za posjed lopte nakon što je ona pala na tlo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1506",
+        "category": "sport",
+        "question": "Kojim redoslijedom se, prema olimpijskoj tradiciji, pali olimpijski plamen na otvaranju Olimpijskih igara?",
+        "correct_answer": "Posljednji nositelj štafete pali olimpijski plamen",
+        "incorrect_answers": [
+            "Predsjednik MOK-a ga pali",
+            "Najstariji sportaš ga pali",
+            "Ždrijebom se bira tko će ga paliti"
+        ],
+        "explanation": "Posljednji nositelj štafete, često poznati sportaš domaćina, ima čast zapaliti olimpijski plamen.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1507",
+        "category": "sport",
+        "question": "Koji se stil nordijskog skijanja karakterizira pokretima sličnim klizanju na ledu, guranjem skija u 'V' položaj izmjenice?",
+        "correct_answer": "Klizački stil (skate style)",
+        "incorrect_answers": [
+            "Klasični stil",
+            "Paralelni slalom",
+            "Spust"
+        ],
+        "explanation": "Klizački stil (skate style) je brži i dinamičniji stil nordijskog skijanja s bočnim pokretima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1508",
+        "category": "sport",
+        "question": "Kako se zove udarac u biljaru kada se bijela kugla odbije od jedne ili više strana stola prije nego što udari ciljanu kuglu?",
+        "correct_answer": "Band udarac (bank shot)",
+        "incorrect_answers": [
+            "Sigurnosni udarac (safety shot)",
+            "Karambol",
+            "Skok udarac (jump shot)"
+        ],
+        "explanation": "Band udarac je strateška tehnika gdje se bijela kugla odbija od 'bande' stola prije kontakta s drugom kuglom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1509",
+        "category": "sport",
+        "question": "Koliko igrača ima jedna ekipa na terenu u nogometu na početku utakmice?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Devet",
+            "Deset",
+            "Dvanaest"
+        ],
+        "explanation": "Svaka nogometna ekipa započinje utakmicu s jedanaest igrača na terenu, uključujući i vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1510",
+        "category": "sport",
+        "question": "Koja je dužina standardnog olimpijskog bazena u metrima?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "40 metara",
+            "100 metara"
+        ],
+        "explanation": "Olimpijski bazeni su standardizirani na 50 metara duljine, što omogućuje rekorde priznate od FINA-e.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1511",
+        "category": "sport",
+        "question": "Koji dio konjske opreme služi za kontrolu smjera i brzine konja putem pritiska na usta konja?",
+        "correct_answer": "Žvale (uzde)",
+        "incorrect_answers": [
+            "Sedlo",
+            "Uzengije",
+            "Bič"
+        ],
+        "explanation": "Žvale, zajedno s uzdama, koriste se za komunikaciju i upravljanje konjem, prenoseći signale jahača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1512",
+        "category": "sport",
+        "question": "Koje boje kartona sudac pokazuje igraču u nogometu za ozbiljan prekršaj koji rezultira isključenjem iz igre?",
+        "correct_answer": "Crveni karton",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Zeleni karton",
+            "Plavi karton"
+        ],
+        "explanation": "Crveni karton označava izravno isključenje igrača iz utakmice zbog grubog prekršaja ili drugog ozbiljnog prekršaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1513",
+        "category": "sport",
+        "question": "Koji je japanski borilački sport poznat po udarcima nogom i rukom, ali bez tehnika bacanja ili poluga?",
+        "correct_answer": "Karate",
+        "incorrect_answers": [
+            "Judo",
+            "Aikido",
+            "Jujutsu"
+        ],
+        "explanation": "Karate se fokusira na udarce rukama i nogama, blokade i stavove, s naglaskom na disciplinu i samokontrolu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1514",
+        "category": "sport",
+        "question": "Kako se naziva igra u američkom nogometu u kojoj igrač s loptom trči s namjerom da prijeđe liniju 'first down' ili postigne 'touchdown'?",
+        "correct_answer": "Rush",
+        "incorrect_answers": [
+            "Pass",
+            "Punt",
+            "Field Goal"
+        ],
+        "explanation": "Rush (trčanje) je primarna metoda napredovanja u američkom nogometu gdje se lopta nosi rukom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1515",
+        "category": "sport",
+        "question": "Koja je osnovna funkcija kočnica na biciklu?",
+        "correct_answer": "Zaustavljanje ili usporavanje bicikla",
+        "incorrect_answers": [
+            "Povećanje brzine",
+            "Mijenjanje brzina",
+            "Udobnost vožnje"
+        ],
+        "explanation": "Kočnice su sigurnosni mehanizam koji omogućuje vozaču da kontrolira brzinu i zaustavi bicikl.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1516",
+        "category": "sport",
+        "question": "Koliko gemova (setova) obično treba osvojiti za pobjedu u stolnom tenisu na velikim natjecanjima?",
+        "correct_answer": "Tri ili četiri",
+        "incorrect_answers": [
+            "Jedan",
+            "Dva",
+            "Pet"
+        ],
+        "explanation": "Na velikim natjecanjima obično se igra na tri dobivena gema (best of 5) ili četiri dobivena gema (best of 7).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1517",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička sprava koja se sastoji od dviju paralelnih letvi na kojima gimnastičari izvode vježbe snage i ravnoteže?",
+        "correct_answer": "Ruče",
+        "incorrect_answers": [
+            "Preča",
+            "Greda",
+            "Konj s hvataljkama"
+        ],
+        "explanation": "Ruče su sprava na kojoj se izvode vježbe zamaha, snage i ravnoteže u muškoj umjetničkoj gimnastici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1518",
+        "category": "sport",
+        "question": "Koja je boja medalje za prvo mjesto na Olimpijskim igrama?",
+        "correct_answer": "Zlatna",
+        "incorrect_answers": [
+            "Srebrna",
+            "Brončana",
+            "Platinasta"
+        ],
+        "explanation": "Zlatna medalja dodjeljuje se sportašu ili timu koji osvoji prvo mjesto u svojoj disciplini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1519",
+        "category": "sport",
+        "question": "Koji tip gume se koristi u Formuli 1 za kišne uvjete?",
+        "correct_answer": "Wet (kišne) ili Intermediate (prijelazne)",
+        "incorrect_answers": [
+            "Slick (glatke)",
+            "Hard (tvrde)",
+            "Medium (srednje)"
+        ],
+        "explanation": "Wet i Intermediate gume imaju utore za odvođenje vode i poboljšanje prianjanja na mokroj stazi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1520",
+        "category": "sport",
+        "question": "Kako se naziva tehnika u dizanju utega gdje se šipka diže jednim pokretom izravno s poda iznad glave?",
+        "correct_answer": "Trzaj (Snatch)",
+        "incorrect_answers": [
+            "Izbačaj (Clean and Jerk)",
+            "Mrtvo dizanje (Deadlift)",
+            "Čučanj (Squat)"
+        ],
+        "explanation": "Trzaj je jedna od dvije olimpijske discipline dizanja utega, karakterizirana brzim i fluidnim pokretom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1521",
+        "category": "sport",
+        "question": "Koliko golova smije postići jedna ekipa u vaterpolu prije nego što se promijeni strana bazena?",
+        "correct_answer": "Ne mijenja se strana zbog broja golova.",
+        "incorrect_answers": [
+            "Četiri",
+            "Pet",
+            "Šest"
+        ],
+        "explanation": "Ekipe mijenjaju strane samo na početku svakog poluvremena ili četvrtine, ne zbog broja postignutih golova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1522",
+        "category": "sport",
+        "question": "Kako se naziva udarac u badmintonu kojim se loptica (pernatičica) šalje visoko u zrak duboko u protivničko polje?",
+        "correct_answer": "Clear",
+        "incorrect_answers": [
+            "Drop shot",
+            "Smash",
+            "Drive"
+        ],
+        "explanation": "Clear je udarac za obranu ili za dobivanje vremena za povratak u poziciju, šaljući lopticu visoko i daleko.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1523",
+        "category": "sport",
+        "question": "Koliko se igrača, uključujući vratara, nalazi na terenu za jednu ekipu u hokeju na travi?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Sedam",
+            "Deset",
+            "Dvanaest"
+        ],
+        "explanation": "Hokej na travi, slično nogometu, igra se s jedanaest igrača po ekipi na terenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1524",
+        "category": "sport",
+        "question": "Koji je glavni cilj u streličarstvu?",
+        "correct_answer": "Pogoditi metu što bliže centru",
+        "incorrect_answers": [
+            "Baciti strelicu što dalje",
+            "Brzo ispaliti što više strelica",
+            "Pogoditi pokretnu metu"
+        ],
+        "explanation": "Cilj streličarstva je pogoditi središnji dio mete, poznat kao 'bullseye', za maksimalan broj bodova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1525",
+        "category": "sport",
+        "question": "Kako se naziva disciplina zimskog sporta u kojoj se natjecatelji spuštaju niz zaleđenu stazu na sanjkama, ležeći na leđima, nogama prema naprijed?",
+        "correct_answer": "Sanjkanje (Luge)",
+        "incorrect_answers": [
+            "Bob",
+            "Skeleton",
+            "Skijaški spust"
+        ],
+        "explanation": "Sanjkanje (Luge) je natjecanje u kojem se sportaši spuštaju niz ledenu stazu na sanjkama u ležećem položaju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1526",
+        "category": "sport",
+        "question": "Koji se termin koristi u jedrenju za dio broda koji je okrenut prema vjetru?",
+        "correct_answer": "Privjetrina (windward)",
+        "incorrect_answers": [
+            "Zavjetrina (leeward)",
+            "Krma (stern)",
+            "Pramac (bow)"
+        ],
+        "explanation": "Privjetrina je strana broda ili jedra koja je okrenuta prema smjeru iz kojeg puše vjetar.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1527",
+        "category": "sport",
+        "question": "Koliko čunjeva (pinova) se postavlja na kraju staze u bowlingu?",
+        "correct_answer": "Deset",
+        "incorrect_answers": [
+            "Osam",
+            "Dvanaest",
+            "Petnaest"
+        ],
+        "explanation": "Na početku svakog 'framea' u bowlingu postavlja se deset čunjeva u trokutastom obliku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1528",
+        "category": "sport",
+        "question": "Kako se naziva glavni dio opreme koji se koristi za jahanje na valovima?",
+        "correct_answer": "Daska za surfanje",
+        "incorrect_answers": [
+            "Kanu",
+            "Kajak",
+            "Raft"
+        ],
+        "explanation": "Daska za surfanje je specijalizirana plutajuća platforma dizajnirana za kretanje po valovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1529",
+        "category": "sport",
+        "question": "Koje dvije sportske discipline kombinira biatlon?",
+        "correct_answer": "Skijaško trčanje i gađanje puškom",
+        "incorrect_answers": [
+            "Skijaški skokovi i skijaško trčanje",
+            "Bob i sanjkanje",
+            "Klizanje i hokej"
+        ],
+        "explanation": "Biatlon je zimski sport koji spaja fizičku izdržljivost skijaškog trčanja s preciznošću gađanja puškom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1530",
+        "category": "sport",
+        "question": "Koji se dio tijela koristi za držanje i bacanje strelice u pikadu?",
+        "correct_answer": "Ruka",
+        "incorrect_answers": [
+            "Noga",
+            "Glava",
+            "Torzo"
+        ],
+        "explanation": "Strelice u pikadu se drže i bacaju rukom, ciljajući metu na zidu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1531",
+        "category": "sport",
+        "question": "Kako se naziva element u gimnastici gdje gimnastičar izvodi rotaciju oko vlastite osi dok drži šipku ili drugu spravu?",
+        "correct_answer": "Obrat (Giant Swing)",
+        "incorrect_answers": [
+            "Skočni udarac",
+            "Mrtvo dizanje",
+            "Preokret"
+        ],
+        "explanation": "Obrat je tehnički zahtjevan element u gimnastici koji uključuje punu rotaciju oko oslonca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1532",
+        "category": "sport",
+        "question": "Kako se naziva jedini dio tijela koji se smije pogoditi mačem (fleuret) u sportskom mačevanju da bi se ostvario bod?",
+        "correct_answer": "Torzo",
+        "incorrect_answers": [
+            "Glava",
+            "Ruke",
+            "Noge"
+        ],
+        "explanation": "U mačevanju fleuretom, bodovi se priznaju samo za udarce u torzo (prsa, leđa, trbuh).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sport_1533",
+        "category": "sport",
+        "question": "Koju opremu skijaši nose na nogama kako bi se kretali po snijegu?",
+        "correct_answer": "Skije",
+        "incorrect_answers": [
+            "Role",
+            "Tenisice",
+            "Kopačke"
+        ],
+        "explanation": "Skije su duge, uske ploče koje se pričvršćuju na cipele i omogućuju klizanje po snijegu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
