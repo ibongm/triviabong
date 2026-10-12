@@ -18205,5 +18205,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1495",
+        "category": "znanost",
+        "question": "Koji je kemijski element ključna komponenta svih organskih spojeva?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljik je jedinstven po svojoj sposobnosti stvaranja dugih lanaca i prstenova, što omogućuje nastanak raznolikih organskih molekula, koje su osnova života.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1496",
+        "category": "znanost",
+        "question": "Kako se naziva skup mjernih jedinica koje su standardizirane i široko prihvaćene, uključujući metar, kilogram i sekundu?",
+        "correct_answer": "Međunarodni sustav jedinica (SI)",
+        "incorrect_answers": [
+            "Imperijalni sustav",
+            "Metrički sustav (pogrešan naziv)",
+            "Standardni referentni sustav"
+        ],
+        "explanation": "Međunarodni sustav jedinica (Système International d'Unités) je suvremeni oblik metričkog sustava i najrašireniji sustav mjernih jedinica na svijetu. Sastoji se od sedam osnovnih jedinica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1497",
+        "category": "znanost",
+        "question": "Koji je naziv za optički fenomen koji uzrokuje da nebo izgleda plavo?",
+        "correct_answer": "Rayleighovo raspršenje",
+        "incorrect_answers": [
+            "Tyndallov efekt",
+            "Fotonaponski efekt",
+            "Dopplerov efekt"
+        ],
+        "explanation": "Rayleighovo raspršenje je raspršenje svjetlosti ili drugog elektromagnetskog zračenja od strane čestica mnogo manjih od valne duljine svjetlosti. U atmosferi, plavo svjetlo se raspršuje više od crvenog.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1498",
+        "category": "znanost",
+        "question": "Kako se naziva najniža energetska razina atoma?",
+        "correct_answer": "Osnovno stanje",
+        "incorrect_answers": [
+            "Pobuđeno stanje",
+            "Stabilno stanje",
+            "Kvantno stanje"
+        ],
+        "explanation": "Osnovno stanje (ground state) je stanje atoma, molekule ili jezgre kada ima najmanju moguću energiju. Svako stanje s većom energijom naziva se pobuđenim stanjem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1499",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između virusa i bakterija?",
+        "correct_answer": "Virusi se mogu razmnožavati samo unutar živih stanica, dok bakterije mogu samostalno.",
+        "incorrect_answers": [
+            "Bakterije su uvijek veće od virusa.",
+            "Virusi uvijek uzrokuju bolesti, bakterije nikada.",
+            "Bakterije imaju DNK, a virusi samo RNK."
+        ],
+        "explanation": "Virusi su obligatni unutarstanični paraziti, što znači da im je za razmnožavanje potrebna stanica domaćina. Bakterije su jednostanični organizmi koji se razmnožavaju samostalno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1500",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućava bežični prijenos energije putem elektromagnetskih polja?",
+        "correct_answer": "Bežični prijenos energije",
+        "incorrect_answers": [
+            "Induktivno punjenje",
+            "Elektromagnetska rezonancija",
+            "Kvantna teleportacija"
+        ],
+        "explanation": "Bežični prijenos energije (Wireless power transfer) odnosi se na prijenos električne energije bez žičanih veza. Najčešći oblik je induktivno punjenje za male udaljenosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1501",
+        "category": "znanost",
+        "question": "Koji se planet u našem Sunčevom sustavu ističe po tome što mu je dan duži od godine?",
+        "correct_answer": "Venera",
+        "incorrect_answers": [
+            "Merkur",
+            "Mars",
+            "Uran"
+        ],
+        "explanation": "Venera ima vrlo sporu retrogradnu rotaciju, zbog čega joj je jedan okret oko svoje osi (dan) duži od vremena koje joj je potrebno da obiđe Sunce (godina).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1502",
+        "category": "znanost",
+        "question": "Koji je pojam za količinu tvari koja sadrži Avogadrov broj čestica?",
+        "correct_answer": "Mol",
+        "incorrect_answers": [
+            "Gram",
+            "Atom",
+            "Jedinica atomske mase"
+        ],
+        "explanation": "Mol je SI osnovna jedinica za količinu tvari. Definira se kao količina tvari koja sadrži jednak broj jedinki (atoma, molekula, iona itd.) kao što ima atoma u 12 grama izotopa ugljika-12.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1503",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada plin izravno prelazi u kruto stanje bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Depozicija (desublimacija)",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kondenzacija",
+            "Isparavanje"
+        ],
+        "explanation": "Depozicija je fazni prijelaz iz plina izravno u kruto stanje, preskačući tekuću fazu. Primjer je stvaranje inja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1504",
+        "category": "znanost",
+        "question": "Koji je najrasprostranjeniji metal u Zemljinoj kori?",
+        "correct_answer": "Aluminij",
+        "incorrect_answers": [
+            "Željezo",
+            "Kisik",
+            "Silicij"
+        ],
+        "explanation": "Iako kisik i silicij čine veći dio kore, aluminij je najzastupljeniji metal. Čini oko 8% mase Zemljine kore.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1505",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno polje koje proučava nasljedstvo i varijacije organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Citologija",
+            "Fiziologija"
+        ],
+        "explanation": "Genetika je biološka znanost koja proučava gene, nasljedstvo i varijacije među živim organizmima. Razumijevanje genetike ključno je za modernu medicinu i biotehnologiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1506",
+        "category": "znanost",
+        "question": "Kako se naziva jedinica za mjerenje otpora u električnom krugu?",
+        "correct_answer": "Ohm",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Watt"
+        ],
+        "explanation": "Ohm je izvedena SI jedinica za električni otpor. Nazvana je po Georgu Simonu Ohmu, koji je formulirao Ohmov zakon. Njegov simbol je grčko slovo omega (Ω).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1507",
+        "category": "znanost",
+        "question": "Koji je pojam za najbržu moguću brzinu u vakuumu, temeljnu konstantu u fizici?",
+        "correct_answer": "Brzina svjetlosti",
+        "incorrect_answers": [
+            "Brzina zvuka",
+            "Kritična brzina",
+            "Supersonična brzina"
+        ],
+        "explanation": "Brzina svjetlosti u vakuumu je c = 299.792.458 m/s i predstavlja gornju granicu brzine za prijenos informacija i energije u svemiru, prema Einsteinovoj teoriji relativnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1508",
+        "category": "znanost",
+        "question": "Koji se termin koristi za opisivanje otpornosti materijala na trajne deformacije (pukotine, lomove)?",
+        "correct_answer": "Žilavost",
+        "incorrect_answers": [
+            "Tvrdoća",
+            "Elastičnost",
+            "Krtost"
+        ],
+        "explanation": "Žilavost je sposobnost materijala da apsorbira energiju i plastično se deformira prije loma. To je važna mehanička osobina, posebno u konstrukcijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1509",
+        "category": "znanost",
+        "question": "Koji je dio stanice odgovoran za proizvodnju proteina?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Jezgra",
+            "Vakuola"
+        ],
+        "explanation": "Ribosomi su stanične organele koje sudjeluju u sintezi proteina. Oni prevode genetski kod s mRNA molekule u sekvencu aminokiselina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1510",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje praćenje lokacije objekta pomoću satelita?",
+        "correct_answer": "GPS (Global Positioning System)",
+        "incorrect_answers": [
+            "WiFi",
+            "Bluetooth",
+            "RFID"
+        ],
+        "explanation": "GPS je satelitski navigacijski sustav koji koristi mrežu satelita za precizno određivanje položaja, brzine i vremena bilo gdje na Zemljinoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1511",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke proizvode hranu pomoću sunčeve svjetlosti?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Transpiracija",
+            "Kemosinteza"
+        ],
+        "explanation": "Fotosinteza je biokemijski proces u kojem biljke, alge i neke bakterije koriste sunčevu energiju za pretvaranje ugljikovog dioksida i vode u glukozu i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1512",
+        "category": "znanost",
+        "question": "Koji je glavni uzrok globalnog zatopljenja?",
+        "correct_answer": "Povećanje koncentracije stakleničkih plinova u atmosferi",
+        "incorrect_answers": [
+            "Oštećenje ozonskog omotača",
+            "Povećana solarna aktivnost",
+            "Vulkanske erupcije"
+        ],
+        "explanation": "Glavni uzrok globalnog zatopljenja je ljudska aktivnost koja dovodi do emisije stakleničkih plinova poput ugljikovog dioksida i metana, zadržavajući toplinu u atmosferi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1513",
+        "category": "znanost",
+        "question": "Koji je naziv za fizikalni zakon koji opisuje da se energija ne može stvoriti niti uništiti, već samo pretvoriti iz jednog oblika u drugi?",
+        "correct_answer": "Zakon očuvanja energije",
+        "incorrect_answers": [
+            "Zakon očuvanja mase",
+            "Zakon termodinamike",
+            "Newtonov zakon"
+        ],
+        "explanation": "Zakon očuvanja energije je temeljni princip fizike koji kaže da je ukupna energija izoliranog sustava konstantna. To je prvi zakon termodinamike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1514",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje najmanje jedinice programa koju je moguće samostalno izvršavati?",
+        "correct_answer": "Proces (ili izvršni proces)",
+        "incorrect_answers": [
+            "Nit",
+            "Funkcija",
+            "Klasa"
+        ],
+        "explanation": "Proces je instanca programa u izvršavanju. Svaki proces ima vlastiti memorijski prostor i resurse, dok niti (threads) dijele memorijski prostor istog procesa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1515",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu zračenja koju emitiraju radioaktivni izotopi i koja ima dovoljnu energiju da ionizira atome?",
+        "correct_answer": "Ionizirajuće zračenje",
+        "incorrect_answers": [
+            "Nezionizirajuće zračenje",
+            "Vidljiva svjetlost",
+            "Mikrovalno zračenje"
+        ],
+        "explanation": "Ionizirajuće zračenje ima dovoljno energije da izbije elektrone iz atoma, stvarajući ione. To uključuje alfa, beta, gama zračenje i rendgenske zrake.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1516",
+        "category": "znanost",
+        "question": "Koji je najveći ljudski organ?",
+        "correct_answer": "Koža",
+        "incorrect_answers": [
+            "Jetra",
+            "Mozak",
+            "Pluća"
+        ],
+        "explanation": "Koža je najveći organ ljudskog tijela po površini i težini. Ona štiti tijelo od vanjskih utjecaja, regulira temperaturu i osjetni je organ.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1517",
+        "category": "znanost",
+        "question": "Koji je naziv za optički instrument koji omogućuje promatranje iznimno malih objekata, poput stanica i bakterija?",
+        "correct_answer": "Mikroskop",
+        "incorrect_answers": [
+            "Teleskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Mikroskop je optički instrument koji koristi sustav leća za povećanje slike malih objekata, čineći ih vidljivim ljudskom oku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1518",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnološki uređaj koji pretvara izmjeničnu struju (AC) u istosmjernu struju (DC)?",
+        "correct_answer": "Ispravljač (ispravljač struje)",
+        "incorrect_answers": [
+            "Transformator",
+            "Inverter",
+            "Generator"
+        ],
+        "explanation": "Ispravljač (rectifier) je elektronički uređaj koji provodi transformaciju izmjenične struje u istosmjernu struju. Koristi se u napajanjima za većinu elektroničkih uređaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1519",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno polje koje proučava kemijske procese u živim organizmima?",
+        "correct_answer": "Biokemija",
+        "incorrect_answers": [
+            "Biofizika",
+            "Genetika",
+            "Ekologija"
+        ],
+        "explanation": "Biokemija je grana znanosti koja istražuje kemijske procese unutar i u vezi sa živim organizmima. Fokusira se na molekularne mehanizme života.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1520",
+        "category": "znanost",
+        "question": "Koji je naziv za fenomen gdje kvantna čestica može proći kroz energetsku barijeru koja je po klasičnoj fizici neprolazna?",
+        "correct_answer": "Kvantno tuneliranje",
+        "incorrect_answers": [
+            "Kvantna spletenost",
+            "Kvantna superpozicija",
+            "Heisenbergov princip nesigurnosti"
+        ],
+        "explanation": "Kvantno tuneliranje je kvantno-mehanički fenomen gdje čestica može proći kroz potencijalnu barijeru iako nema dovoljno klasične energije da to učini. Ključno je za nuklearne reakcije u Suncu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1521",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem dolazi do spajanja muške i ženske spolne stanice?",
+        "correct_answer": "Oplodnja",
+        "incorrect_answers": [
+            "Mejoza",
+            "Mitoza",
+            "Gametogeneza"
+        ],
+        "explanation": "Oplodnja je spajanje muške gamete (spermija) i ženske gamete (jajne stanice) radi formiranja zigote, prve stanice novog organizma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1522",
+        "category": "znanost",
+        "question": "Koji je naziv za memoriju u računalu koja privremeno pohranjuje podatke koje CPU aktivno koristi za brži pristup?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "ROM (Read-Only Memory)",
+            "SSD (Solid-State Drive)",
+            "Hard disk"
+        ],
+        "explanation": "RAM je volatilna memorija koja se koristi za pohranu podataka koje procesor trenutno koristi. Brza je, ali gubi podatke kada se računalo isključi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1523",
+        "category": "znanost",
+        "question": "Koji je pojam za mjernu jedinicu snage, definirane kao jedna džul u sekundi?",
+        "correct_answer": "Watt",
+        "incorrect_answers": [
+            "Joule",
+            "Volt",
+            "Hertz"
+        ],
+        "explanation": "Watt je SI jedinica za snagu, što je brzina obavljanja rada ili prijenosa energije. Nazvan je po Jamesu Watt-u, škotskom inženjeru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1524",
+        "category": "znanost",
+        "question": "Koja je temeljna čestica odgovorna za prijenos elektromagnetske sile?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je kvant elektromagnetskog polja, uključujući elektromagnetsko zračenje poput svjetlosti i radio valova. Nema masu mirovanja i uvijek se kreće brzinom svjetlosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1525",
+        "category": "znanost",
+        "question": "Kako se naziva instrument koji mjeri atmosferski tlak?",
+        "correct_answer": "Barometar",
+        "incorrect_answers": [
+            "Termometar",
+            "Hidrometar",
+            "Anemometar"
+        ],
+        "explanation": "Barometar je mjerni instrument koji služi za mjerenje tlaka zraka. Koristi se u meteorologiji za predviđanje vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1526",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja koristi svjetlost (lasere) za prijenos podataka preko optičkih vlakana?",
+        "correct_answer": "Optičke komunikacije",
+        "incorrect_answers": [
+            "Bežične mreže",
+            "Satelitske komunikacije",
+            "Radijske komunikacije"
+        ],
+        "explanation": "Optičke komunikacije koriste svjetlosne impulse za prijenos podataka kroz optička vlakna. Ova tehnologija omogućuje brzi prijenos velike količine podataka na velike udaljenosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1527",
+        "category": "znanost",
+        "question": "Koji je kemijski element s atomskim brojem 1, najlakši element?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Ugljik"
+        ],
+        "explanation": "Vodik je najjednostavniji i najlakši kemijski element, sastoji se od jednog protona i jednog elektrona. Najrasprostranjeniji je element u svemiru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1528",
+        "category": "znanost",
+        "question": "Koji je naziv za dio DNK molekule koji sadrži genetsku informaciju za sintezu specifičnog proteina?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Kodon",
+            "Nukleotid"
+        ],
+        "explanation": "Gen je osnovna funkcionalna jedinica nasljeđa koja nosi informaciju za sintezu proteina ili funkcionalnih RNA molekula. On je segment DNA na kromosomu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1529",
+        "category": "znanost",
+        "question": "Koji je naziv za dio atoma koji nosi pozitivan električni naboj?",
+        "correct_answer": "Proton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Kvant"
+        ],
+        "explanation": "Proton je stabilna subatomska čestica koja se nalazi u jezgri atoma i ima pozitivan električni naboj. Njegov broj definira kemijski element.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1530",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na mrežu koja se koristi za povezivanje uređaja unutar velikog geografskog područja, poput gradova ili država?",
+        "correct_answer": "WAN (Wide Area Network)",
+        "incorrect_answers": [
+            "LAN (Local Area Network)",
+            "MAN (Metropolitan Area Network)",
+            "PAN (Personal Area Network)"
+        ],
+        "explanation": "WAN je računalna mreža koja se proteže na velikim geografskim udaljenostima, povezujući manje mreže (kao što su LAN-ovi). Internet je najveći primjer WAN-a.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1531",
+        "category": "znanost",
+        "question": "Koji je naziv za tvar koja ubrzava kemijsku reakciju bez da se sama pri tome troši?",
+        "correct_answer": "Katalizator",
+        "incorrect_answers": [
+            "Inhibitor",
+            "Reaktant",
+            "Produkt"
+        ],
+        "explanation": "Katalizator je tvar koja mijenja brzinu kemijske reakcije, obično je ubrzavajući, a da se pritom sama kemijski ne mijenja. Primjeri su enzimi u biološkim sustavima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1532",
+        "category": "znanost",
+        "question": "Koji je pojam za sposobnost tvari da se vrati u prvobitni oblik nakon što je sila koja ju je deformirala prestala djelovati?",
+        "correct_answer": "Elastičnost",
+        "incorrect_answers": [
+            "Plastičnost",
+            "Tvrdoća",
+            "Krtost"
+        ],
+        "explanation": "Elastičnost je svojstvo materijala da se pod djelovanjem vanjske sile deformira, a nakon prestanka djelovanja sile vrati u svoj prvobitni oblik i dimenzije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1533",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno polje koje se bavi proučavanjem svemira, nebeskih tijela i pojava izvan Zemljine atmosfere?",
+        "correct_answer": "Astronomija",
+        "incorrect_answers": [
+            "Astrologija",
+            "Meteorologija",
+            "Geologija"
+        ],
+        "explanation": "Astronomija je prirodna znanost koja proučava nebeska tijela i pojave izvan Zemljine atmosfere, uključujući zvijezde, planete, galaksije i kozmičko zračenje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
