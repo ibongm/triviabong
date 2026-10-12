@@ -18790,5 +18790,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1534",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja RNK molekule na temelju DNK predloška?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se genetska informacija iz DNK kopira u molekulu RNK.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1535",
+        "category": "znanost",
+        "question": "Koji je naziv za komponentu računala koja izvršava instrukcije programa i provodi aritmetičko-logičke operacije?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Grafička procesorska jedinica (GPU)",
+            "Memorija s slučajnim pristupom (RAM)",
+            "Tvrdi disk (HDD)"
+        ],
+        "explanation": "CPU je 'mozak' računala, odgovoran za obradu većine instrukcija i temeljnu logiku računala.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1536",
+        "category": "znanost",
+        "question": "Koji je kemijski element sa simbolom \"Fe\" i atomskim brojem 26?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Zlato",
+            "Srebro",
+            "Bakar"
+        ],
+        "explanation": "Željezo je metal s atomskim brojem 26 i kemijskim simbolom Fe, ključan za industriju i biologiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1537",
+        "category": "znanost",
+        "question": "Koji organ proizvodi žuč koja pomaže u probavi masti?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Bubreg",
+            "Slezena"
+        ],
+        "explanation": "Jetra je najveći unutarnji organ i proizvodi žuč, koja se pohranjuje u žučnom mjehuru i pomaže u razgradnji masti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1538",
+        "category": "znanost",
+        "question": "Koji oblik energije koristi solarne panele za pretvaranje sunčeve svjetlosti u električnu energiju?",
+        "correct_answer": "Fotovoltaična energija",
+        "incorrect_answers": [
+            "Geotermalna energija",
+            "Hidroenergija",
+            "Vjetroenergija"
+        ],
+        "explanation": "Fotovoltaične ćelije u solarnim panelima izravno pretvaraju svjetlosnu energiju u električnu koristeći fotoelektrični efekt.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1539",
+        "category": "znanost",
+        "question": "Koja je optička pojava odgovorna za prividno savijanje štapa u vodi?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Refrakcija je promjena smjera svjetlosnog vala pri prolasku kroz medije različite optičke gustoće, uzrokujući prividno savijanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1540",
+        "category": "znanost",
+        "question": "Kako se naziva jedinstvena numerička adresa dodijeljena svakom uređaju u računalnoj mreži koja koristi internetski protokol?",
+        "correct_answer": "IP adresa",
+        "incorrect_answers": [
+            "MAC adresa",
+            "URL",
+            "DNS"
+        ],
+        "explanation": "IP adresa je identifikator koji omogućuje uređajima međusobnu komunikaciju unutar mreže, slično poštanskoj adresi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1541",
+        "category": "znanost",
+        "question": "Koja je organela u eukariotskim stanicama odgovorna za stanično disanje i proizvodnju većine ATP-a?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Kloroplast",
+            "Ribosom",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Mitohondriji su poznati kao 'energetske centrale' stanice jer proizvode adenozin trifosfat (ATP) kroz stanično disanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1542",
+        "category": "znanost",
+        "question": "Koji se plin oslobađa kada se kiselina pomiješa s karbonatom, uzrokujući šumeći efekt?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Reakcija kiseline s karbonatom (npr. CaCO3) proizvodi sol, vodu i ugljikov dioksid (CO2) plin.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1543",
+        "category": "znanost",
+        "question": "Koji je naziv za prvi umjetni satelit koji je lansirao Sovjetski Savez 1957. godine?",
+        "correct_answer": "Sputnjik 1",
+        "incorrect_answers": [
+            "Apollo 11",
+            "Voyager 1",
+            "Hubble"
+        ],
+        "explanation": "Sputnjik 1 bio je prvi umjetni Zemljin satelit, pokrenuvši svemirsku utrku između SAD-a i SSSR-a.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1544",
+        "category": "znanost",
+        "question": "Koja sila sprječava klizanje objekta po površini, djelujući suprotno smjeru gibanja ili pokušaja gibanja?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Centripetalna sila",
+            "Magnetska sila"
+        ],
+        "explanation": "Trenje je sila otpora koja se javlja između površina u kontaktu i suprotstavlja relativnom gibanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1545",
+        "category": "znanost",
+        "question": "Koji je naziv za biološki pripravak koji poboljšava imunitet na određenu bolest?",
+        "correct_answer": "Cjepivo",
+        "incorrect_answers": [
+            "Antibiotik",
+            "Analgetik",
+            "Hormon"
+        ],
+        "explanation": "Cjepiva sadrže oslabljene ili mrtve mikroorganizme ili njihove dijelove, potičući imunološki sustav da razvije zaštitu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1546",
+        "category": "znanost",
+        "question": "Koji je termin za grešku u računalnom programu koja uzrokuje neispravan rad ili pad?",
+        "correct_answer": "Bug",
+        "incorrect_answers": [
+            "Glitch",
+            "Virus",
+            "Malver"
+        ],
+        "explanation": "\"Bug\" je uobičajeni izraz za grešku ili defekt u kodu programa koji uzrokuje neočekivano ponašanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1547",
+        "category": "znanost",
+        "question": "Kako se naziva najšira taksonomska kategorija u biološkoj klasifikaciji živih bića (iznad kraljevstva)?",
+        "correct_answer": "Domena",
+        "incorrect_answers": [
+            "Koljeno",
+            "Razred",
+            "Porodica"
+        ],
+        "explanation": "Domena je najviša taksonomska kategorija, a obuhvaća Eukarije, Bakterije i Arheje (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1548",
+        "category": "znanost",
+        "question": "Koji je naziv za jednostavni šećer (monosaharid) koji je glavni izvor energije za stanice i poznat je kao grožđani šećer?",
+        "correct_answer": "Glukoza",
+        "incorrect_answers": [
+            "Saharoza",
+            "Fruktoza",
+            "Laktoza"
+        ],
+        "explanation": "Glukoza je ključni monosaharid, primarni izvor energije za većinu živih organizama, vitalan za stanično disanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1549",
+        "category": "znanost",
+        "question": "Koji je naziv za proces prijenosa topline kroz izravan kontakt između čestica?",
+        "correct_answer": "Kondukcija",
+        "incorrect_answers": [
+            "Konvekcija",
+            "Radijacija",
+            "Apsorpcija"
+        ],
+        "explanation": "Kondukcija je prijenos topline unutar materijala ili između materijala u izravnom kontaktu, bez masovnog gibanja tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1550",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila stvaranje globalne mreže dokumenata i drugih web resursa međusobno povezanih hiperlinkovima?",
+        "correct_answer": "World Wide Web (WWW)",
+        "incorrect_answers": [
+            "Email",
+            "FTP",
+            "Usenet"
+        ],
+        "explanation": "World Wide Web je sustav međusobno povezanih hipertekstualnih dokumenata kojima se pristupa putem Interneta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1551",
+        "category": "znanost",
+        "question": "Kako se naziva faza u životu zvijezde kada je potrošila većinu svog vodika i počela sagorijevati helij, što dovodi do njenog širenja i hlađenja?",
+        "correct_answer": "Crveni div",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Neutronka",
+            "Crna rupa"
+        ],
+        "explanation": "Crveni div je evolucijska faza zvijezde u kojoj se njezina vanjska atmosfera širi i hladi nakon što je potrošila vodikovo gorivo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1552",
+        "category": "znanost",
+        "question": "Koji je naziv za ekološki sustav koji se sastoji od živih organizama (biocenoze) i njihovog neživog okoliša (biotopa)?",
+        "correct_answer": "Ekosustav",
+        "incorrect_answers": [
+            "Bioma",
+            "Stanište",
+            "Niska"
+        ],
+        "explanation": "Ekosustav je kompleksna interakcija između svih živih bića i njihovog fizičkog okoliša unutar određenog područja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1553",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja količina energije koja se može apsorbirati ili emitirati u obliku elektromagnetskog zračenja?",
+        "correct_answer": "Kvant",
+        "incorrect_answers": [
+            "Proton",
+            "Elektron",
+            "Foton"
+        ],
+        "explanation": "Kvant je osnovna jedinica energije, opisana Planckovom konstantom, koja se prenosi u diskretnim paketima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1554",
+        "category": "znanost",
+        "question": "Koja se vrsta trajne memorije u računalu koristi za pohranu firmvera i osnovnih uputa za pokretanje sustava (BIOS/UEFI)?",
+        "correct_answer": "ROM (Read-Only Memory)",
+        "incorrect_answers": [
+            "RAM (Random Access Memory)",
+            "Cache",
+            "SSD (Solid State Drive)"
+        ],
+        "explanation": "ROM pohranjuje podatke koji se mogu samo čitati, zadržavajući ih čak i kada je računalo isključeno, i ključan je za inicijalizaciju sustava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1555",
+        "category": "znanost",
+        "question": "Koji je naziv za četvrto agregatno stanje tvari koje se sastoji od ioniziranog plina, gdje su atomi izgubili ili dobili elektrone?",
+        "correct_answer": "Plazma",
+        "incorrect_answers": [
+            "Bose-Einsteinov kondenzat",
+            "Krutina",
+            "Tekućina"
+        ],
+        "explanation": "Plazma je ionizirani plin s jednakim brojem pozitivnih iona i slobodnih elektrona, najzastupljenije stanje tvari u svemiru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1556",
+        "category": "znanost",
+        "question": "Koji je naziv za najdužu kost u ljudskom tijelu?",
+        "correct_answer": "Bedrena kost (Femur)",
+        "incorrect_answers": [
+            "Tibija",
+            "Humerus",
+            "Kralježak"
+        ],
+        "explanation": "Bedrena kost, ili femur, nalazi se u natkoljenici i najduža je i najsnažnija kost u ljudskom kosturu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1557",
+        "category": "znanost",
+        "question": "Koji se instrument koristi za mjerenje jačine električne struje u krugu?",
+        "correct_answer": "Ampermetar",
+        "incorrect_answers": [
+            "Voltmetar",
+            "Ohmmetar",
+            "Barometar"
+        ],
+        "explanation": "Ampermetar je mjerni instrument koji se spaja serijski u električni krug kako bi mjerio protok struje u amperima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1558",
+        "category": "znanost",
+        "question": "Kako se naziva biljni organ koji obavlja fotosintezu i primarno je mjesto transpiracije?",
+        "correct_answer": "List",
+        "incorrect_answers": [
+            "Korijen",
+            "Stabljika",
+            "Cvijet"
+        ],
+        "explanation": "Listovi sadrže kloroplaste s klorofilom, neophodnim za fotosintezu, i imaju puči za izmjenu plinova i transpiraciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1559",
+        "category": "znanost",
+        "question": "Koji je znanstvenik razvio teoriju relativnosti, uključujući poznatu jednadžbu E=mc²?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Galileo Galilei"
+        ],
+        "explanation": "Albert Einstein je formulirao teoriju posebne i opće relativnosti, koja je revolucionirala naše razumijevanje prostora, vremena, mase i energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1560",
+        "category": "znanost",
+        "question": "Koji je naziv za softver koji upravlja računalnim hardverom i softverskim resursima, pružajući uobičajene usluge za računalne programe?",
+        "correct_answer": "Operativni sustav",
+        "incorrect_answers": [
+            "Aplikacija",
+            "Driver",
+            "Kompajler"
+        ],
+        "explanation": "Operativni sustav (OS) je temeljni softver koji upravlja resursima računala i omogućuje korisnicima interakciju s njim.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1561",
+        "category": "znanost",
+        "question": "Koji je raspon pH vrijednosti za lužnate (bazične) otopine?",
+        "correct_answer": "Više od 7",
+        "incorrect_answers": [
+            "Manje od 7",
+            "Točno 7",
+            "Između 6 i 8"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost; vrijednosti iznad 7 označavaju lužnatost, a ispod 7 kiselost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1562",
+        "category": "znanost",
+        "question": "Kako se naziva hipoteza o postanku svemira koja tvrdi da je svemir nastao iz iznimno guste i vruće točke prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija pulsirajućeg svemira",
+            "Kreacionizam"
+        ],
+        "explanation": "Teorija Velikog praska najšire je prihvaćen kozmološki model koji objašnjava rani razvoj svemira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1563",
+        "category": "znanost",
+        "question": "Koji sustav u ljudskom tijelu uključuje srce, krvne žile i krv?",
+        "correct_answer": "Krvožilni sustav",
+        "incorrect_answers": [
+            "Limfni sustav",
+            "Probavni sustav",
+            "Živčani sustav"
+        ],
+        "explanation": "Krvožilni sustav, također poznat kao kardiovaskularni sustav, odgovoran je za transport krvi, hranjivih tvari, kisika i hormona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1564",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu energije koja se pohranjuje u objektu zbog njegovog položaja ili konfiguracije?",
+        "correct_answer": "Potencijalna energija",
+        "incorrect_answers": [
+            "Kinetička energija",
+            "Toplinska energija",
+            "Električna energija"
+        ],
+        "explanation": "Potencijalna energija je energija pohranjena u sustavu zbog položaja objekta unutar polja sila (npr. gravitacijskog, elastičnog) ili njegove konfiguracije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1565",
+        "category": "znanost",
+        "question": "Koji je naziv za metodu umjetne inteligencije gdje program uči na temelju pozitivnih ili negativnih povratnih informacija iz okoline?",
+        "correct_answer": "Učenje potpomognuto pojačanjem (Reinforcement Learning)",
+        "incorrect_answers": [
+            "Nadzirano učenje",
+            "Nenadzirano učenje",
+            "Duboko učenje"
+        ],
+        "explanation": "Učenje potpomognuto pojačanjem omogućuje agentu da nauči optimalno ponašanje kroz interakciju s okolinom, maksimizirajući nagrade.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1566",
+        "category": "znanost",
+        "question": "Koji je naziv za čistu tvar koja se kemijskim putem ne može razdvojiti na jednostavnije tvari?",
+        "correct_answer": "Element",
+        "incorrect_answers": [
+            "Spoj",
+            "Smjesa",
+            "Molekula"
+        ],
+        "explanation": "Element je osnovna kemijska tvar sastavljena od samo jedne vrste atoma i ne može se razdvojiti na jednostavnije tvari.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1567",
+        "category": "znanost",
+        "question": "Koji je dio uha odgovoran za pretvaranje zvučnih vibracija u električne signale koji se šalju u mozak?",
+        "correct_answer": "Pužnica",
+        "incorrect_answers": [
+            "Bubnjić",
+            "Slušne koščice",
+            "Eustahijeva cijev"
+        ],
+        "explanation": "Pužnica je dio unutarnjeg uha u kojem se nalaze osjetne dlačice koje pretvaraju mehaničke vibracije u živčane impulse.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1568",
+        "category": "znanost",
+        "question": "Koji se valovi koriste u medicini za ultrazvučne preglede, koristeći visoke frekvencije zvuka?",
+        "correct_answer": "Ultrazvučni valovi",
+        "incorrect_answers": [
+            "Infrasonični valovi",
+            "Elektromagnetski valovi",
+            "Svjetlosni valovi"
+        ],
+        "explanation": "Ultrazvučni valovi su zvučni valovi visoke frekvencije koji se koriste za stvaranje slika unutarnjih organa i tkiva u medicinskoj dijagnostici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1569",
+        "category": "znanost",
+        "question": "Koji je naziv za područje robotike koje se bavi razvojem robota koji mogu oponašati ili nadomjestiti dijelove ljudskog tijela?",
+        "correct_answer": "Bionika (ili Biomehatronika)",
+        "incorrect_answers": [
+            "Kibernetika",
+            "Automatizacija",
+            "Teleoperacija"
+        ],
+        "explanation": "Bionika je znanost o tehničkim sustavima koji imitiraju biološke modele, a u robotici se često odnosi na protetiku i umjetne organe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1570",
+        "category": "znanost",
+        "question": "Koji je naziv za proces umnožavanja bakterija, gdje se jedna roditeljska stanica dijeli na dvije identične kćeri stanice?",
+        "correct_answer": "Binarna fisija",
+        "incorrect_answers": [
+            "Mitoza",
+            "Mejoza",
+            "Pupanje"
+        ],
+        "explanation": "Binarna fisija je oblik aseksualne reprodukcije u prokariota (poput bakterija) gdje se stanica dijeli na dvije genetski identične kćeri stanice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1571",
+        "category": "znanost",
+        "question": "Kako se naziva zlonamjerni softver dizajniran za prikupljanje osobnih podataka bez znanja korisnika?",
+        "correct_answer": "Špijunski softver (Spyware)",
+        "incorrect_answers": [
+            "Ransomware",
+            "Virusi",
+            "Crvi"
+        ],
+        "explanation": "Špijunski softver tajno prati i prikuplja informacije o korisniku, njegovim aktivnostima i postavkama, često bez izravne štete sustavu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
