@@ -17201,5 +17201,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1422",
+        "category": "povijest",
+        "question": "Tko je bio egipatski faraon čija je netaknuta grobnica otkrivena 1922. godine, ispunjena blagom, što je izazvalo globalnu senzaciju?",
+        "correct_answer": "Tutankamon",
+        "incorrect_answers": [
+            "Ramzes II.",
+            "Ahenaton",
+            "Keops"
+        ],
+        "explanation": "Grobnica mladog faraona Tutankamona, otkrivena u Dolini kraljeva, bila je jedina netaknuta i sadržavala je izvanredno očuvane artefakte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1423",
+        "category": "povijest",
+        "question": "Koji je slavni babilonski kralj poznat po svom zakoniku, jednom od najstarijih i najbolje očuvanih pisanih zakonika, nastalom oko 1754. pr. Kr.?",
+        "correct_answer": "Hamurabi",
+        "incorrect_answers": [
+            "Nabukodonosor II.",
+            "Sargon Akadzki",
+            "Ur-Nammu"
+        ],
+        "explanation": "Hamurabijev zakonik je zbirka od 282 zakona s detaljnim kaznama za različite prekršaje, poznat po načelu \"oko za oko\".",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1424",
+        "category": "povijest",
+        "question": "Koja je legendarna grčka država bila poznata po svojoj militarističkoj kulturi i spartanskom odgoju mladića, usredotočenom na vojnu vještinu?",
+        "correct_answer": "Sparta",
+        "incorrect_answers": [
+            "Atena",
+            "Korint",
+            "Teba"
+        ],
+        "explanation": "Sparta je bila polis u antičkoj Grčkoj, poznat po strogoj vojnoj disciplini i obrazovanju usmjerenom na vojsku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1425",
+        "category": "povijest",
+        "question": "Koji je rimski car uspostavio tetrarhiju, sustav vladavine s četiri vladara, kako bi bolje upravljao golemim Rimskim Carstvom?",
+        "correct_answer": "Dioklecijan",
+        "incorrect_answers": [
+            "Neron",
+            "August",
+            "Hadrijan"
+        ],
+        "explanation": "Dioklecijan je 293. godine uspostavio tetrarhiju kako bi stabilizirao Rimsko Carstvo, dijeleći vlast s još tri vladara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1426",
+        "category": "povijest",
+        "question": "Koji je grčki matematičar i geometar, koji je živio oko 300. pr. Kr. u Aleksandriji, autor djela 'Elementi' koje je stoljećima bilo temelj euklidske geometrije?",
+        "correct_answer": "Euklid",
+        "incorrect_answers": [
+            "Pitagora",
+            "Arhimed",
+            "Tales"
+        ],
+        "explanation": "Euklidovi 'Elementi' su kapitalno djelo koje je sistematiziralo dotadašnje znanje o geometriji i postalo standardni udžbenik.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1427",
+        "category": "povijest",
+        "question": "Koji je rimski državnik i general formirao Prvi trijumvirat s Gnejem Pompejem i Markom Licinijem Krasom?",
+        "correct_answer": "Julije Cezar",
+        "incorrect_answers": [
+            "August",
+            "Ciceron",
+            "Katon Mlađi"
+        ],
+        "explanation": "Julije Cezar bio je ključna figura u transformaciji Rimske Republike u Carstvo, poznat po svojim vojnim pohodima i političkoj ambiciji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1428",
+        "category": "povijest",
+        "question": "Koja je slavna rimska pomorska bitka 31. pr. Kr. kod rta Akcija dovela do pobjede Oktavijana nad Markom Antonijem i Kleopatrom?",
+        "correct_answer": "Bitka kod Akcija",
+        "incorrect_answers": [
+            "Bitka kod Farsala",
+            "Bitka kod Filipa",
+            "Bitka kod Kane"
+        ],
+        "explanation": "Pobjeda u Bitci kod Akcija osigurala je Oktavijanu jedinstvenu vlast nad Rimskim Carstvom, čime je on postao August.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1429",
+        "category": "povijest",
+        "question": "Koji je islamski prorok osnovao islam u 7. stoljeću, a njegovi sljedbenici ga smatraju posljednjim prorokom Boga?",
+        "correct_answer": "Muhamed",
+        "incorrect_answers": [
+            "Abraham",
+            "Isus",
+            "Zoroaster"
+        ],
+        "explanation": "Muhamed je primio objave od Boga koje su zapisane u Kuranu, svetoj knjizi islama, i bio je vođa prve muslimanske zajednice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1430",
+        "category": "povijest",
+        "question": "Koji je franački kralj, otac Karla Velikog, darovao Papinsku Državu Crkvi u 8. stoljeću, događaj poznat kao 'Pipinova darovnica'?",
+        "correct_answer": "Pipin Mali",
+        "incorrect_answers": [
+            "Klodvig I.",
+            "Lotar I.",
+            "Luj Pobožni"
+        ],
+        "explanation": "Pipin Mali je porazio Langobarde i darovao osvojene teritorije papi, čime je stvorena Papinska Država.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1431",
+        "category": "povijest",
+        "question": "Koji je vođa Franaka krunjen za cara Svetog Rimskog Carstva 800. godine u Rimu, označivši tako obnovu carstva na Zapadu?",
+        "correct_answer": "Karlo Veliki",
+        "incorrect_answers": [
+            "Oton I.",
+            "Pipin Mali",
+            "Klodvig I."
+        ],
+        "explanation": "Karlo Veliki, franački kralj, krunjen je za cara od pape Lava III., čime je utemeljeno Sveto Rimsko Carstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1432",
+        "category": "povijest",
+        "question": "Koji je slavni mletački trgovac i istraživač, rođen u 13. stoljeću, poznat po svojim putovanjima u Kinu i Aziju te knjizi 'Milijun'?",
+        "correct_answer": "Marko Polo",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Vasco da Gama",
+            "Ibn Batuta"
+        ],
+        "explanation": "Marko Polo je proveo 17 godina na dvoru Kublaj-kana i detaljno opisao svoja putovanja u knjizi 'Milijun' (Knjiga čudesa svijeta).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1433",
+        "category": "povijest",
+        "question": "U kojem su gradu križari Četvrtog križarskog rata 1204. godine, umjesto Jeruzalema, opljačkali i zauzeli kršćanski grad?",
+        "correct_answer": "Carigrad (Konstantinopol)",
+        "incorrect_answers": [
+            "Antiohija",
+            "Damask",
+            "Akra"
+        ],
+        "explanation": "Križari su skrenuli s puta i, pod utjecajem mletačkih interesa, napali i opljačkali glavni grad Bizantskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1434",
+        "category": "povijest",
+        "question": "Kako se nazivala islamska država uspostavljena na Pirinejskom poluotoku koja je postojala od 711. do 1492. godine, poznata po kulturnom procvatu?",
+        "correct_answer": "Al-Andalus",
+        "incorrect_answers": [
+            "Osmansko Carstvo",
+            "Mamelučki Sultanat",
+            "Fatimidski Kalifat"
+        ],
+        "explanation": "Al-Andalus je bio muslimanski teritorij na Pirinejskom poluotoku, poznat po naprednim znanstvenim i kulturnim dostignućima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1435",
+        "category": "povijest",
+        "question": "Tko je napisao 'Božanstvenu komediju', remek-djelo srednjovjekovne talijanske književnosti koje opisuje putovanje kroz Pakao, Čistilište i Raj?",
+        "correct_answer": "Dante Alighieri",
+        "incorrect_answers": [
+            "Petrarca",
+            "Boccaccio",
+            "Machiavelli"
+        ],
+        "explanation": "Danteovo djelo, napisano na narodnom jeziku, smatra se jednim od najvećih književnih ostvarenja svih vremena i prijelazom u renesansu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1436",
+        "category": "povijest",
+        "question": "Tko je bio talijanski renesansni umjetnik, znanstvenik i izumitelj, autor 'Mona Lise' i 'Posljednje večere'?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci je bio svestrani genij renesanse, čiji su doprinosi obuhvaćali umjetnost, znanost i inženjerstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1437",
+        "category": "povijest",
+        "question": "Koji je španjolski konkvistador osvojio carstvo Inka u Peruu u 16. stoljeću?",
+        "correct_answer": "Francisco Pizarro",
+        "incorrect_answers": [
+            "Hernán Cortés",
+            "Vasco Núñez de Balboa",
+            "Juan Ponce de León"
+        ],
+        "explanation": "Pizarro je s malom vojskom iskoristio unutarnje sukobe Inka i pokorio njihovo carstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1438",
+        "category": "povijest",
+        "question": "Koja je kraljica Engleske, vladala od 1558. do 1603., ostala zapamćena kao 'Djevica Kraljica' i razdoblje njezine vladavine poznato je kao 'zlatno doba' Engleske?",
+        "correct_answer": "Elizabeta I.",
+        "incorrect_answers": [
+            "Marija I. Tudor",
+            "Viktorija",
+            "Katarina Velika"
+        ],
+        "explanation": "Elizabeta I. bila je posljednji monarh iz dinastije Tudor, a njezina vladavina donijela je stabilnost i procvat Engleskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1439",
+        "category": "povijest",
+        "question": "Kako se nazivao pokret u 16. stoljeću koji je doveo do odvajanja protestantskih crkava od Katoličke crkve u Europi?",
+        "correct_answer": "Reformacija",
+        "incorrect_answers": [
+            "Prosvjetiteljstvo",
+            "Renesansa",
+            "Križarski ratovi"
+        ],
+        "explanation": "Reformacija je bio vjerski i politički pokret koji je započeo 1517. godine objavljivanjem 95 teza Martina Luthera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1440",
+        "category": "povijest",
+        "question": "Koji je engleski kralj pokrenuo Englesku reformaciju u 16. stoljeću, odvojivši Englesku crkvu od Rima, prvenstveno zbog želje za razvodom?",
+        "correct_answer": "Henrik VIII.",
+        "incorrect_answers": [
+            "Karlo I.",
+            "Henrik VII.",
+            "Edvard VI."
+        ],
+        "explanation": "Henrik VIII. je prekinuo veze s papom i proglasio se poglavarom Crkve Engleske (Anglikanska crkva) 1534. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1441",
+        "category": "povijest",
+        "question": "Koji je poljski astronom u 16. stoljeću predložio heliocentrični model Sunčevog sustava, prema kojem se Zemlja i drugi planeti okreću oko Sunca?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Kopernikova teorija, iako objavljena posthumno, revolucionarno je promijenila razumijevanje svemira i postavila temelje moderne astronomije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1442",
+        "category": "povijest",
+        "question": "Koja je poznata znanstvena figura iz 17. stoljeća formulirala zakone gibanja i univerzalne gravitacije, objašnjavajući kretanje nebeskih tijela?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "René Descartes",
+            "Francis Bacon"
+        ],
+        "explanation": "Newtonova djela postavila su temelje klasične mehanike i imala su ogroman utjecaj na razvoj znanosti i filozofije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1443",
+        "category": "povijest",
+        "question": "Kako se nazivala dinastija koja je vladala Francuskom od 1589. do 1792. godine, uključujući kraljeve poput Luja XIV. ('Kralja Sunca')?",
+        "correct_answer": "Bourbon",
+        "incorrect_answers": [
+            "Valois",
+            "Habsburg",
+            "Orléans"
+        ],
+        "explanation": "Dinastija Bourbon je vladala Francuskom od kraja vjerskih ratova do Francuske revolucije, obilježivši razdoblje apsolutizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1444",
+        "category": "povijest",
+        "question": "Koji je mirovni ugovor 1713. godine formalno okončao Rat za španjolsku baštinu, preoblikujući političku kartu Europe?",
+        "correct_answer": "Utrecht Mir",
+        "incorrect_answers": [
+            "Vestfalski mir",
+            "Pariški ugovor",
+            "Aachenski mir"
+        ],
+        "explanation": "Utrecht Mir je bio serija sporazuma koji su zaustavili rat za španjolsku sukcesiju i uspostavili ravnotežu snaga u Europi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1445",
+        "category": "povijest",
+        "question": "Tko je bio glavni autor Deklaracije o neovisnosti Sjedinjenih Američkih Država, donesene 4. srpnja 1776.?",
+        "correct_answer": "Thomas Jefferson",
+        "incorrect_answers": [
+            "George Washington",
+            "Benjamin Franklin",
+            "John Adams"
+        ],
+        "explanation": "Jeffersonov tekst Deklaracije proglasio je trinaest kolonija neovisnim državama i obrazložio razloge za odcjepljenje od Velike Britanije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1446",
+        "category": "povijest",
+        "question": "Koji je francuski vladar pogubljen giljotinom 1793. godine tijekom Francuske revolucije, zajedno sa svojom suprugom Marijom Antoanetom?",
+        "correct_answer": "Luj XVI.",
+        "incorrect_answers": [
+            "Luj XIV.",
+            "Napoleon Bonaparte",
+            "Maksimilijan Robespierre"
+        ],
+        "explanation": "Luj XVI. je osuđen zbog veleizdaje i pogubljen, što je simboliziralo kraj monarhije u Francuskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1447",
+        "category": "povijest",
+        "question": "Kako se zvao kratkotrajni, ali krvavi period Francuske revolucije (1793.-1794.) tijekom kojeg su masovno pogubljeni 'neprijatelji revolucije'?",
+        "correct_answer": "Vladavina terora",
+        "incorrect_answers": [
+            "Veliki strah",
+            "Termidorska reakcija",
+            "Revolucija 1848."
+        ],
+        "explanation": "Tijekom Vladavine terora, pod vodstvom Robespierrea i jakobinaca, tisuće ljudi su pogubljene giljotinom pod sumnjom na proturevolucionarne aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1448",
+        "category": "povijest",
+        "question": "Koji je izum u 18. stoljeću, autorstva Jamesa Hargreavesa, značajno ubrzao proizvodnju pređe u tekstilnoj industriji, čime je započela Industrijska revolucija?",
+        "correct_answer": "Predilica 'Jenny'",
+        "incorrect_answers": [
+            "Parni stroj",
+            "Leteći čunak",
+            "Pamuk džin"
+        ],
+        "explanation": "Predilica 'Jenny' bila je jedna od prvih inovacija koja je omogućila masovnu proizvodnju tekstila i potaknula industrijski razvoj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1449",
+        "category": "povijest",
+        "question": "Koji je francuski car 1804. godine okrunjen za cara, a njegova osvajanja su preoblikovala kartu Europe i inspirirala Napoleonske zakone?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Luj XIV.",
+            "Luj XVI.",
+            "Karlo X."
+        ],
+        "explanation": "Napoleon Bonaparte preuzeo je vlast u Francuskoj nakon revolucije i stvorio veliko carstvo kroz svoje vojne kampanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1450",
+        "category": "povijest",
+        "question": "Koji je važan događaj 1815. godine formalno okončao Napoleonske ratove i pokušao uspostaviti ravnotežu moći u Europi kroz diplomatske pregovore?",
+        "correct_answer": "Bečki kongres",
+        "incorrect_answers": [
+            "Pariški ugovor",
+            "Vestfalski mir",
+            "Versajski ugovor"
+        ],
+        "explanation": "Bečki kongres je nakon Napoleonovog poraza preoblikovao političku kartu Europe i uspostavio novi poredak poznat kao 'koncert Europa'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1451",
+        "category": "povijest",
+        "question": "Tko je bio njemački kancelar poznat kao 'Željezni kancelar', ključan za ujedinjenje Njemačke u 19. stoljeću kroz politiku 'krvi i željeza'?",
+        "correct_answer": "Otto von Bismarck",
+        "incorrect_answers": [
+            "Kaiser Wilhelm II.",
+            "Heinrich Himmler",
+            "Konrad Adenauer"
+        ],
+        "explanation": "Otto von Bismarck je uspješno vodio Prusku kroz seriju ratova i diplomacije, ujedinivši njemačke države u jedno carstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1452",
+        "category": "povijest",
+        "question": "Koji je talijanski revolucionar i vojskovođa vodio 'Crvenokošuljaše' i bio ključan za ujedinjenje Italije u 19. stoljeću?",
+        "correct_answer": "Giuseppe Garibaldi",
+        "incorrect_answers": [
+            "Camillo Cavour",
+            "Victor Emanuel II.",
+            "Mazzini"
+        ],
+        "explanation": "Garibaldi je bio jedan od najvažnijih figura talijanskog Risorgimenta, svojim vojnim uspjesima ujedinjujući jug Italije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1453",
+        "category": "povijest",
+        "question": "Koji je sukob, vođen od 1853. do 1856. godine, između Rusije i saveza Osmanskog Carstva, Velike Britanije, Francuske i Kraljevine Sardinije, bio poznat po tragičnim uvjetima i medicinskim inovacijama?",
+        "correct_answer": "Krimski rat",
+        "incorrect_answers": [
+            "Napoleonski ratovi",
+            "Američki građanski rat",
+            "Balkanski ratovi"
+        ],
+        "explanation": "Krimski rat je bio prvi rat u kojem su se masovno koristili moderni vojni i medicinski pristupi, unatoč velikim ljudskim gubicima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1454",
+        "category": "povijest",
+        "question": "Kako se nazivala kontroverzna diplomatska politika SAD-a ranog 20. stoljeća kojom se nastojalo promicati američke komercijalne interese u inozemstvu korištenjem gospodarske, a ne vojne moći?",
+        "correct_answer": "Dolar diplomacija",
+        "incorrect_answers": [
+            "Veliki štap politika",
+            "Neutralnost",
+            "Izolacionizam"
+        ],
+        "explanation": "Dolar diplomacija, uglavnom povezana s predsjednikom Taftom, koristila je ekonomsku moć SAD-a za postizanje vanjskopolitičkih ciljeva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1455",
+        "category": "povijest",
+        "question": "Koji je povijesni događaj 28. lipnja 1914. godine u Sarajevu neposredno pokrenuo Prvi svjetski rat?",
+        "correct_answer": "Atentat na nadvojvodu Franza Ferdinanda",
+        "incorrect_answers": [
+            "Potapanje Lusitanije",
+            "Ultimatum Srbiji",
+            "Objava rata Njemačke Francuskoj"
+        ],
+        "explanation": "Atentat na austrougarskog prijestolonasljednika i njegovu suprugu bio je iskra koja je zapalila već napetu europsku situaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1456",
+        "category": "povijest",
+        "question": "Koji su se sukobi vodili između carske Rusije i Japana od 1904. do 1905. godine, s japanskom pobjedom koja je šokirala svijet i bila prva pobjeda azijske sile nad europskom?",
+        "correct_answer": "Rusko-japanski rat",
+        "incorrect_answers": [
+            "Krimski rat",
+            "Boksački ustanak",
+            "Kinesko-japanski rat"
+        ],
+        "explanation": "Japanska pobjeda u ovom ratu označila je pojavu Japana kao velike sile i imala je značajne posljedice za globalnu ravnotežu moći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1457",
+        "category": "povijest",
+        "question": "Koji je datum savezničkog iskrcavanja u Normandiji, poznat kao Dan D, označio početak oslobađanja Zapadne Europe od nacističke okupacije?",
+        "correct_answer": "6. lipnja 1944.",
+        "incorrect_answers": [
+            "7. prosinca 1941.",
+            "1. rujna 1939.",
+            "8. svibnja 1945."
+        ],
+        "explanation": "Dan D bio je najveća pomorska invazija u povijesti i ključni događaj u Drugom svjetskom ratu, otvarajući zapadni front.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1458",
+        "category": "povijest",
+        "question": "Tko je bio britanski premijer tijekom većeg dijela Drugog svjetskog rata, poznat po svojim inspirativnim govorima i vođenju nacije u otporu nacističkoj Njemačkoj?",
+        "correct_answer": "Winston Churchill",
+        "incorrect_answers": [
+            "Neville Chamberlain",
+            "Clement Attlee",
+            "Harold Macmillan"
+        ],
+        "explanation": "Churchillovo vodstvo i odlučnost bili su ključni za moral Velike Britanije tijekom najtežih razdoblja Drugog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1459",
+        "category": "povijest",
+        "question": "Koja je kriza 1962. godine dovela svijet najbliže nuklearnom ratu između SAD-a i Sovjetskog Saveza, zbog postavljanja sovjetskih projektila na Kubi?",
+        "correct_answer": "Kubanska raketna kriza",
+        "incorrect_answers": [
+            "Berlinska blokada",
+            "Korejski rat",
+            "Vijetnamski rat"
+        ],
+        "explanation": "Kriza je nastala nakon otkrića sovjetskih nuklearnih projektila na Kubi, blizu obale SAD-a, ali je diplomatski riješena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1460",
+        "category": "povijest",
+        "question": "Koji se simbolični događaj u Berlinu, 9. studenog 1989. godine, često smatra krajem Hladnog rata i propašću komunističkih režima u Istočnoj Europi?",
+        "correct_answer": "Pad Berlinskog zida",
+        "incorrect_answers": [
+            "Ujedinjenje Njemačke",
+            "Raspad Sovjetskog Saveza",
+            "Baršunasta revolucija"
+        ],
+        "explanation": "Rušenje Berlinskog zida simboliziralo je kraj podjele Europe i bio je preteča raspada Istočnog bloka i kraja Hladnog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_hist_1461",
+        "category": "povijest",
+        "question": "Tko je bio hrvatski ban koji je 1848. godine proglasio ukidanje kmetstva, prekinuo odnose s Ugarskom i bio ključna figura u Hrvatskom narodnom preporodu?",
+        "correct_answer": "Josip Jelačić",
+        "incorrect_answers": [
+            "Nikola Šubić Zrinski",
+            "Petar Zrinski",
+            "Stjepan Radić"
+        ],
+        "explanation": "Ban Jelačić je ključna figura hrvatske povijesti u 19. stoljeću, borac za hrvatsku autonomiju i socijalne reforme.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
