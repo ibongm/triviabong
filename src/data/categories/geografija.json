@@ -14867,5 +14867,485 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_geo_1268",
+        "category": "geografija",
+        "question": "Koja se država u Africi često naziva \"Rog Afrike\"?",
+        "correct_answer": "Somalija",
+        "incorrect_answers": [
+            "Egipat",
+            "Nigerija",
+            "Južna Afrika"
+        ],
+        "explanation": "Somalija se nalazi na istočnom dijelu Afrike, čiji oblik na karti podsjeća na rog, što je i dalo naziv regiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1269",
+        "category": "geografija",
+        "question": "Koji je naziv za vulkanski arhipelag u Tihom oceanu, smješten jugoistočno od Japana, poznat po izrazito strmim obalama i vojnoj povijesti?",
+        "correct_answer": "Iwo Jima",
+        "incorrect_answers": [
+            "Havaji",
+            "Galapagos",
+            "Farski otoci"
+        ],
+        "explanation": "Iwo Jima je mali, vulkanski otok s povijesnom važnošću u Drugom svjetskom ratu, dio je otočne skupine Bonin. Poznat je po bitci iz 1945. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1270",
+        "category": "geografija",
+        "question": "Koja se rijeka u Europi ulijeva u Sjeverno more i prolazi kroz šest zemalja, uključujući Švicarsku i Njemačku?",
+        "correct_answer": "Rajna",
+        "incorrect_answers": [
+            "Dunav",
+            "Elba",
+            "Loara"
+        ],
+        "explanation": "Rajna je jedna od najvažnijih europskih rijeka, duga preko 1.200 km, ključna za promet i industriju, te prolazi kroz šest država.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1271",
+        "category": "geografija",
+        "question": "Koji se pustinjski vjetar, poznat po svojoj vrućini i suhoći, javlja u Sjevernoj Africi i na Arapskom poluotoku?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Mistral"
+        ],
+        "explanation": "Siroko je vruć, suh vjetar koji potječe iz Sahare i putuje preko Sredozemlja, donoseći prašinu i pijesak u južnu Europu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1272",
+        "category": "geografija",
+        "question": "Koja se država nalazi na jugu Afrike i poznata je po rtu Dobre Nade?",
+        "correct_answer": "Južnoafrička Republika",
+        "incorrect_answers": [
+            "Namibija",
+            "Angola",
+            "Kenija"
+        ],
+        "explanation": "Rt Dobre Nade je stjenoviti rt na atlantskoj obali Rta poluotoka u Južnoafričkoj Republici, povijesno važna pomorska točka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1273",
+        "category": "geografija",
+        "question": "Koji geološki fenomen uzrokuje pojavu prstenastih koraljnih grebena koji okružuju lagunu, nastalih taloženjem koralja oko vulkanskog otoka koji je potonuo?",
+        "correct_answer": "Atol",
+        "incorrect_answers": [
+            "Greben",
+            "Zaljev",
+            "Fjord"
+        ],
+        "explanation": "Atoli su prstenasti koraljni grebeni koji okružuju lagunu, nastali taloženjem koralja oko potonulih vulkanskih otoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1274",
+        "category": "geografija",
+        "question": "Koja je rijeka najduža u Europi?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Rajna",
+            "Dnjepar"
+        ],
+        "explanation": "Volga je najduža rijeka u Europi, protječe kroz Rusiju i ulijeva se u Kaspijsko jezero, važno jezero za Rusiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1275",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces u kojem se jedna tektonska ploča podvlači pod drugu?",
+        "correct_answer": "Subdukcija",
+        "incorrect_answers": [
+            "Obdukcija",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Subdukcija je proces gdje gušća oceanska ploča tone ispod manje guste kontinentalne ili druge oceanske ploče, stvarajući vulkane i potrese.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1276",
+        "category": "geografija",
+        "question": "Koji grad je glavni grad Njemačke?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "München",
+            "Hamburg",
+            "Frankfurt"
+        ],
+        "explanation": "Berlin je glavni i najveći grad Njemačke, povijesno i kulturno važno središte s bogatom poviješću.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1277",
+        "category": "geografija",
+        "question": "Koji je naziv za regiju sjeverno od Arktičkog kruga?",
+        "correct_answer": "Arktik",
+        "incorrect_answers": [
+            "Antarktik",
+            "Tropi",
+            "Suptropi"
+        ],
+        "explanation": "Arktik je polarna regija koja okružuje Sjeverni pol, karakterizirana niskim temperaturama i morskim ledom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1278",
+        "category": "geografija",
+        "question": "Koja pustinja u jugozapadnoj Africi je svjetski poznata po svojim visokim, crvenim pješčanim dinama, uključujući Sossusvlei?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Kalahari",
+            "Sahara",
+            "Atacama"
+        ],
+        "explanation": "Namib je obalna pustinja u Namibiji, poznata po spektakularnim crvenim pješčanim dinama, među najvišima na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1279",
+        "category": "geografija",
+        "question": "Koji je naziv za uski vodeni put koji povezuje Perzijski zaljev s Omanskim zaljevom i Arapskim morem?",
+        "correct_answer": "Hormuški tjesnac",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Sueski kanal",
+            "Bab-el-Mandeb"
+        ],
+        "explanation": "Hormuški tjesnac je strateški važan pomorski put, ključan za globalni transport nafte iz zemalja Perzijskog zaljeva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1280",
+        "category": "geografija",
+        "question": "Koja država ima glavni grad Kairo?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Maroko",
+            "Alžir",
+            "Sudan"
+        ],
+        "explanation": "Kairo je glavni grad Egipta i najveći grad na Bliskom istoku i u Africi, smješten na rijeci Nil.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1281",
+        "category": "geografija",
+        "question": "Koje je jezero u Južnoj Americi poznato kao najviše plovno jezero na svijetu?",
+        "correct_answer": "Titicaca",
+        "incorrect_answers": [
+            "Maracaibo",
+            "Poopó",
+            "Lagoa dos Patos"
+        ],
+        "explanation": "Jezero Titicaca, smješteno na granici Perua i Bolivije, najviše je plovno jezero na svijetu, na nadmorskoj visini od 3.812 m.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1282",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu rijeke koja teče kroz pustinju i nestaje u pijesku ili se ulijeva u jezero bez izlaza u more?",
+        "correct_answer": "Endoreička rijeka",
+        "incorrect_answers": [
+            "Egzoreička rijeka",
+            "Aluvijalna rijeka",
+            "Sezonska rijeka"
+        ],
+        "explanation": "Endoreičke rijeke završavaju u unutrašnjim bazenima, jezerima ili isparavanjem, umjesto da dosegnu ocean, što je često u sušnim područjima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1283",
+        "category": "geografija",
+        "question": "Koja država je poznata po sustavu kanala i vjetrenjača?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska ima opsežnu mrežu kanala za odvodnju vode i promet te je poznata po svojim povijesnim vjetrenjačama, simbolima zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1284",
+        "category": "geografija",
+        "question": "Koji je najveći otok u Grčkoj i peti po veličini u Sredozemnom moru, poznat po minojskoj civilizaciji?",
+        "correct_answer": "Kreta",
+        "incorrect_answers": [
+            "Rodos",
+            "Cipar",
+            "Sicilija"
+        ],
+        "explanation": "Kreta je najveći grčki otok, poznat po bogatoj povijesti i kao središte minojske civilizacije, jedne od najstarijih u Europi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1285",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki fenomen gdje se velika masa leda odlomila od ledenjaka i pluta morem?",
+        "correct_answer": "Ledenjak (Iceberg)",
+        "incorrect_answers": [
+            "Glečer",
+            "Santin",
+            "Hrid"
+        ],
+        "explanation": "Ledenjak ili santa leda je veliki komad leda koji se odlomio od kopnenog ledenjaka ili ledene police i pluta morem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1286",
+        "category": "geografija",
+        "question": "Koja je država smještena na većem dijelu Iberijskog poluotoka?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Portugal",
+            "Francuska",
+            "Italija"
+        ],
+        "explanation": "Španjolska zauzima oko 85% površine Iberijskog poluotoka, dijeleći ga s Portugalom, i ima bogatu povijest i kulturu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1287",
+        "category": "geografija",
+        "question": "Koji se morski prolaz nalazi između Južne Amerike i Antarktike?",
+        "correct_answer": "Drakeov prolaz",
+        "incorrect_answers": [
+            "Mageljanov prolaz",
+            "Beringov prolaz",
+            "Panamski kanal"
+        ],
+        "explanation": "Drakeov prolaz je najširi i najdublji morski prolaz, poznat po svojim olujnim vjetrovima i jakim strujama, te spaja Atlantski i Tihi ocean.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1288",
+        "category": "geografija",
+        "question": "Koji se tip klime, karakteriziran vrućim i suhim ljetima te blagim i vlažnim zimama, tipično javlja na područjima oko 30° do 45° zemljopisne širine?",
+        "correct_answer": "Sredozemna klima",
+        "incorrect_answers": [
+            "Kontinentalna klima",
+            "Oceanska klima",
+            "Pustinska klima"
+        ],
+        "explanation": "Sredozemna klima, ili mediteranska, tipična je za područja s navedenim karakteristikama, poput obala Sredozemnog mora i dijelova Kalifornije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1289",
+        "category": "geografija",
+        "question": "Koja država se nalazi sjeverno od Sjedinjenih Američkih Država?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Meksiko",
+            "Rusija",
+            "Grenland"
+        ],
+        "explanation": "Kanada je druga najveća država na svijetu po površini, smještena sjeverno od SAD-a, s najdužom obalom na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1290",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Sjevernoj Americi?",
+        "correct_answer": "Denali (Mount McKinley)",
+        "incorrect_answers": [
+            "Mount Logan",
+            "Mount Whitney",
+            "Mount Rainier"
+        ],
+        "explanation": "Denali (bivši Mount McKinley) je najviši vrh u Sjevernoj Americi, smješten na Aljasci, SAD, s visinom od 6.190 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1291",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku strukturu u obliku udubljenja na zemljinoj površini, nastalu urušavanjem stropova podzemnih špilja ili otapanjem vapnenca?",
+        "correct_answer": "Vrtača (Dolina)",
+        "incorrect_answers": [
+            "Fjord",
+            "Kanjon",
+            "Gejzir"
+        ],
+        "explanation": "Vrtače su ljevkasta udubljenja karakteristična za krška područja, nastala kemijskim otapanjem stijena, često okruglog ili ovalnog oblika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1292",
+        "category": "geografija",
+        "question": "Koja država u Južnoj Americi je jedina koja graniči s Ekvadorom i Peruom, ali ne i s Brazilom?",
+        "correct_answer": "Kolumbija",
+        "incorrect_answers": [
+            "Bolivija",
+            "Čile",
+            "Argentina"
+        ],
+        "explanation": "Kolumbija graniči s Ekvadorom i Peruom na jugu, ali njena istočna granica je s Venezuelom i Brazilom. To je jedina zemlja s izlazom na Tihi ocean i Karipsko more.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1293",
+        "category": "geografija",
+        "question": "Koji je naziv za široku, plitku rijeku koja teče sporo i ima mnogo meandara?",
+        "correct_answer": "Meandrirajuća rijeka",
+        "incorrect_answers": [
+            "Brza rijeka",
+            "Gorska rijeka",
+            "Ujezerena rijeka"
+        ],
+        "explanation": "Meandrirajuće rijeke karakteriziraju zavoji i petlje nastali erozijom i taloženjem u ravničarskim područjima, stvarajući karakteristične zavoje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1294",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces u kojem se kopno postupno izdizalo nakon povlačenja ledenjaka?",
+        "correct_answer": "Postglacijalni odskok",
+        "incorrect_answers": [
+            "Tektonsko izdizanje",
+            "Erozija",
+            "Subsidencija"
+        ],
+        "explanation": "Postglacijalni odskok je izdizanje zemljine kore nakon uklanjanja tereta ledenog pokrova, vidljivo u Skandinaviji i Kanadi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1295",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kada voda isparava s površine biljaka?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Evaporacija",
+            "Precipitacija"
+        ],
+        "explanation": "Transpiracija je isparavanje vode iz biljaka, uglavnom kroz sitne pore na lišću (stome), i ključni je dio vodenog ciklusa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1296",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Austrije?",
+        "correct_answer": "Grossglockner",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Zugspitze",
+            "Matterhorn"
+        ],
+        "explanation": "Grossglockner je najviša planina u Austriji i najviši vrh istočnih Alpa, smješten na granici Koruške i Istočnog Tirola.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1297",
+        "category": "geografija",
+        "question": "Koje je more smješteno između poluotoka Indije i Arapskog poluotoka?",
+        "correct_answer": "Arapsko more",
+        "incorrect_answers": [
+            "Crveno more",
+            "Bengalsko more",
+            "Andamansko more"
+        ],
+        "explanation": "Arapsko more je sjeverozapadni dio Indijskog oceana, ključno za pomorsku trgovinu između Bliskog istoka, Afrike i Indije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1298",
+        "category": "geografija",
+        "question": "Koja je zemlja u Južnoj Americi najveći proizvođač kave na svijetu?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Vijetnam",
+            "Etiopija"
+        ],
+        "explanation": "Brazil je najveći svjetski proizvođač i izvoznik kave, dominirajući globalnim tržištem godinama zbog povoljnih klimatskih uvjeta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1299",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku pojavu kada se morska razina znatno spusti tijekom ledenog doba, otkrivajući kopnene mostove?",
+        "correct_answer": "Regresija mora",
+        "incorrect_answers": [
+            "Transgresija mora",
+            "Izostazija",
+            "Tektonsko izdizanje"
+        ],
+        "explanation": "Regresija mora je geološki proces povlačenja morske razine, često uzrokovan glacijacijama koje vežu vodu u ledu, stvarajući kopnene mostove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
