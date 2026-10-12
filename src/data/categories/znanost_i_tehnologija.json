@@ -16510,5 +16510,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-11"
+    },
+    {
+        "id": "hr_sci_1382",
+        "category": "znanost",
+        "question": "Koji je naziv za silu koja privlači tijela s masom jedno prema drugome?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Centrifugalna sila",
+            "Magnetska sila",
+            "Električna sila"
+        ],
+        "explanation": "Gravitacija je temeljna sila koja uzrokuje međusobno privlačenje svih tijela s masom. Odgovorna je za padanje jabuke na Zemlju i kretanje planeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1383",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim stanice oslobađaju energiju iz hranjivih tvari u prisutnosti kisika?",
+        "correct_answer": "Aerobno disanje",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Anaerobno disanje",
+            "Fermentacija"
+        ],
+        "explanation": "Aerobno disanje je ključan metabolički proces koji se odvija u mitohondrijima stanica za proizvodnju ATP-a, molekule energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1384",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za vodu?",
+        "correct_answer": "H2O",
+        "incorrect_answers": [
+            "CO2",
+            "O2",
+            "NaCl"
+        ],
+        "explanation": "H2O je kemijska formula za vodu, molekulu sastavljenu od dva atoma vodika i jednog atoma kisika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1385",
+        "category": "znanost",
+        "question": "Koji je pojam za zlonamjerni softver dizajniran za oštećenje, iskorištavanje ili pristup računalnim sustavima bez dopuštenja?",
+        "correct_answer": "Malware",
+        "incorrect_answers": [
+            "Firmware",
+            "Shareware",
+            "Freeware"
+        ],
+        "explanation": "Malware je širok pojam za razne vrste štetnog softvera, uključujući viruse, crve, trojance i špijunski softver.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1386",
+        "category": "znanost",
+        "question": "Koji je naziv za teoriju koja opisuje nastanak i evoluciju svemira iz ekstremno vrućeg i gustog stanja?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija paralelno-svemirskog postojanja",
+            "Teorija crnih rupa"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji objašnjava rani razvoj svemira od jedinstvene točke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1387",
+        "category": "znanost",
+        "question": "Koji je naziv za virus koji uzrokuje bolest COVID-19?",
+        "correct_answer": "SARS-CoV-2",
+        "incorrect_answers": [
+            "HIV",
+            "Influenca A",
+            "Ebola"
+        ],
+        "explanation": "SARS-CoV-2 je službeni naziv za koronavirus koji je uzrokovao globalnu pandemiju COVID-19.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1388",
+        "category": "znanost",
+        "question": "Koju jedinicu koristimo za mjerenje električnog napona?",
+        "correct_answer": "Volt",
+        "incorrect_answers": [
+            "Amper",
+            "Ohm",
+            "Wat"
+        ],
+        "explanation": "Volt je SI jedinica za električni napon, što predstavlja razliku u električnom potencijalu između dviju točaka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1389",
+        "category": "znanost",
+        "question": "Koji se element nalazi u hemoglobinu i ključan je za prijenos kisika u krvi?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Bakar",
+            "Magnezij",
+            "Cink"
+        ],
+        "explanation": "Željezo je sastavni dio hema u hemoglobinu, bjelančevini koja je odgovorna za vezanje i prijenos kisika kroz krvotok.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1390",
+        "category": "znanost",
+        "question": "Koji je najpoznatiji internetski pretraživač?",
+        "correct_answer": "Google",
+        "incorrect_answers": [
+            "Bing",
+            "Yahoo",
+            "DuckDuckGo"
+        ],
+        "explanation": "Google je dominantna internetska tražilica, najraširenija i najkorištenija u svijetu (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1391",
+        "category": "znanost",
+        "question": "Koji je naziv za genetički modificirani organizam (GMO) koji sadrži gen iz druge vrste?",
+        "correct_answer": "Transgenični organizam",
+        "incorrect_answers": [
+            "Hibrid",
+            "Klon",
+            "Mutant"
+        ],
+        "explanation": "Transgenični organizam je onaj u čiji je genom umjetno unesen gen iz drugog organizma, često s ciljem dobivanja novih svojstava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1392",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje plaćanje putem mobilnog uređaja jednostavnim prislanjanjem na POS terminal?",
+        "correct_answer": "NFC (Near Field Communication)",
+        "incorrect_answers": [
+            "Bluetooth",
+            "Wi-Fi",
+            "RFID"
+        ],
+        "explanation": "NFC je kratkodometna bežična tehnologija koja omogućuje sigurnu komunikaciju između dva uređaja kada su blizu jedan drugome.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1393",
+        "category": "znanost",
+        "question": "Koji je pH neutralne otopine?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine. Vrijednost 7 označava neutralnost, niže su kisele, a više lužnate.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1394",
+        "category": "znanost",
+        "question": "Koji je pojam za proces kada se tijelo prilagođava novom okolišu ili promjenjivim uvjetima?",
+        "correct_answer": "Adaptacija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Selekcija",
+            "Homeostaza"
+        ],
+        "explanation": "Adaptacija je evolucijski proces kojim se organizmi prilagođavaju uvjetima u svom okolišu kako bi povećali svoje šanse za preživljavanje i razmnožavanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1395",
+        "category": "znanost",
+        "question": "Koji se princip koristi za objašnjenje zašto brod plovi na vodi?",
+        "correct_answer": "Arhimedov princip",
+        "incorrect_answers": [
+            "Newtonov zakon gibanja",
+            "Zakon očuvanja energije",
+            "Pascalov zakon"
+        ],
+        "explanation": "Arhimedov princip kaže da sila uzgona djeluje na tijelo uronjeno u tekućinu i jednaka je težini istisnute tekućine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1396",
+        "category": "znanost",
+        "question": "Što je skraćenica za 'World Wide Web'?",
+        "correct_answer": "WWW",
+        "incorrect_answers": [
+            "HTTP",
+            "URL",
+            "HTML"
+        ],
+        "explanation": "WWW je globalni sustav međusobno povezanih računalnih mreža koji omogućuje pristup informacijama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1397",
+        "category": "znanost",
+        "question": "Koji je naziv za mali, kameni ili metalni objekt koji orbitira oko Sunca i manji je od planeta?",
+        "correct_answer": "Asteroid",
+        "incorrect_answers": [
+            "Komet",
+            "Meteoroid",
+            "Patuljasti planet"
+        ],
+        "explanation": "Asteroidi su ostaci iz ranih faza Sunčevog sustava, uglavnom pronađeni u asteroidnom pojasu između Marsa i Jupitera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1398",
+        "category": "znanost",
+        "question": "Koji je pojam za simulaciju fizičkih i kemijskih sustava na atomskoj ili molekularnoj razini, često korišten u razvoju lijekova?",
+        "correct_answer": "Molekularno modeliranje",
+        "incorrect_answers": [
+            "Genetsko inženjerstvo",
+            "Kvantno programiranje",
+            "Nanotehnologija"
+        ],
+        "explanation": "Molekularno modeliranje koristi računalne simulacije za proučavanje ponašanja molekula i interakcija, što je ključno u modernoj farmakologiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1399",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu proizvodi žuč?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Želudac",
+            "Gušterača",
+            "Bubreg"
+        ],
+        "explanation": "Jetra je najveća žlijezda u tijelu koja obavlja brojne funkcije, uključujući proizvodnju žuči koja pomaže u probavi masti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1400",
+        "category": "znanost",
+        "question": "Koji se element naziva 'kraljem metala' zbog svoje otpornosti na koroziju i reaktivnost?",
+        "correct_answer": "Platina",
+        "incorrect_answers": [
+            "Zlato",
+            "Srebro",
+            "Titan"
+        ],
+        "explanation": "Platina je plemeniti metal visoke gustoće, iznimno otporan na koroziju i oksidaciju, što joj daje epitet 'kralj metala'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1401",
+        "category": "znanost",
+        "question": "Koji je naziv za hipotetsku egzotičnu materiju koja bi mogla imati negativnu masu ili energiju?",
+        "correct_answer": "Egzotična materija",
+        "incorrect_answers": [
+            "Tamna materija",
+            "Antigravitacija",
+            "Antimaterija"
+        ],
+        "explanation": "Egzotična materija je pojam iz fizike koji opisuje materiju s nekonvencionalnim svojstvima, često spekulativnu, poput negativne mase.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1402",
+        "category": "znanost",
+        "question": "Koji je programski jezik poznat po sintaksi sličnoj engleskom jeziku i širokoj primjeni u umjetnoj inteligenciji i web razvoju?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "JavaScript"
+        ],
+        "explanation": "Python je popularan, visoko-razinski programski jezik cijenjen zbog svoje čitljivosti i svestranosti u različitim područjima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1403",
+        "category": "znanost",
+        "question": "Koja je faza Mjeseca kada je cijela osvijetljena Sunčevom svjetlošću?",
+        "correct_answer": "Pun Mjesec",
+        "incorrect_answers": [
+            "Mladi Mjesec",
+            "Prva četvrt",
+            "Posljednja četvrt"
+        ],
+        "explanation": "Pun Mjesec nastaje kada je Zemlja između Sunca i Mjeseca, tako da je cijela strana Mjeseca okrenuta prema Zemlji osvijetljena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1404",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se genetski kod prepisuje s DNA na mRNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se genetska informacija iz DNA prepisuje u molekulu glasničke RNA (mRNA).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1405",
+        "category": "znanost",
+        "question": "Koji je pojam za softver koji se distribuira besplatno, ali čiji je izvorni kod dostupan za pregled, modifikaciju i redistribuciju?",
+        "correct_answer": "Otvoreni kod (Open Source)",
+        "incorrect_answers": [
+            "Zatvoreni kod",
+            "Komercijalni softver",
+            "Shareware"
+        ],
+        "explanation": "Softver otvorenog koda promiče suradnju i inovaciju omogućavajući korisnicima slobodu pristupa i mijenjanja izvornog koda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1406",
+        "category": "znanost",
+        "question": "Koji je naziv za proces spajanja atoma vodika u helij pri visokim temperaturama, oslobađajući ogromnu energiju (npr. u Suncu)?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Kemijska reakcija",
+            "Radioaktivni raspad"
+        ],
+        "explanation": "Nuklearna fuzija je izvor energije Sunca i drugih zvijezda, gdje se lakše jezgre spajaju u teže, oslobađajući veliku količinu energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1407",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanji dio elektromagnetskog zračenja, 'paket' energije?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je elementarna čestica, kvant elektromagnetskog polja, uključujući svjetlost i radio valove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1408",
+        "category": "znanost",
+        "question": "Koji je naziv za mehanizam u kriptovalutama koji osigurava da se transakcije verificiraju i dodaju u javnu evidenciju (blockchain)?",
+        "correct_answer": "Dokaz rada (Proof of Work)",
+        "incorrect_answers": [
+            "Dokaz uloga (Proof of Stake)",
+            "Hashiranje",
+            "Rudarenje (Mining)"
+        ],
+        "explanation": "Dokaz rada je temeljni konsenzusni algoritam u mnogim kriptovalutama (npr. Bitcoin) koji zahtijeva izračunavanje za validaciju transakcija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1409",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim biljke apsorbiraju vodu iz tla kroz svoje korijenje?",
+        "correct_answer": "Osmoza",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Transpiracija",
+            "Disanje"
+        ],
+        "explanation": "Osmoza je pasivni transport vode kroz polupropusnu membranu, s područja veće koncentracije vode na područje manje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1410",
+        "category": "znanost",
+        "question": "Koji je fenomen uzrokovan prolaskom Mjeseca između Sunca i Zemlje, zaklanjajući Sunce?",
+        "correct_answer": "Pomrčina Sunca",
+        "incorrect_answers": [
+            "Pomrčina Mjeseca",
+            "Tranzit",
+            "Konjunkcija"
+        ],
+        "explanation": "Pomrčina Sunca događa se kada Mjesec prođe direktno ispred Sunca, bacajući sjenu na Zemlju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1411",
+        "category": "znanost",
+        "question": "Koji je pojam za tehnologiju koja omogućuje digitalnu reprezentaciju stvarnog objekta ili sustava za simulaciju i analizu?",
+        "correct_answer": "Digitalni blizanac (Digital Twin)",
+        "incorrect_answers": [
+            "Virtualna stvarnost",
+            "Proširena stvarnost",
+            "3D modeliranje"
+        ],
+        "explanation": "Digitalni blizanac je virtualna replika fizičkog objekta, procesa ili sustava koja se ažurira podacima u stvarnom vremenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1412",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju stabilnu česticu materije koja ima svojstva elemenata i sastoji se od dvaju ili više atoma?",
+        "correct_answer": "Molekula",
+        "incorrect_answers": [
+            "Atom",
+            "Ion",
+            "Elektron"
+        ],
+        "explanation": "Molekula je električno neutralna skupina dvaju ili više atoma vezanih kemijskim vezama, koji djeluju kao jedna jedinica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1413",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno područje koje proučava kretanje, energiju, silu i materiju?",
+        "correct_answer": "Fizika",
+        "incorrect_answers": [
+            "Biologija",
+            "Kemija",
+            "Geologija"
+        ],
+        "explanation": "Fizika je fundamentalna prirodna znanost koja proučava temeljne komponente svemira i sile koje djeluju između njih.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1414",
+        "category": "znanost",
+        "question": "Koji je akronim za 'Unified Resource Locator', tj. adresu web stranice?",
+        "correct_answer": "URL",
+        "incorrect_answers": [
+            "HTTP",
+            "HTML",
+            "IP"
+        ],
+        "explanation": "URL je specifičan tip Uniform Resource Identifier (URI) koji pruža način lociranja resursa na World Wide Webu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1415",
+        "category": "znanost",
+        "question": "Koji je dio mozga odgovoran za regulaciju disanja, srčanog ritma i krvnog tlaka?",
+        "correct_answer": "Produžena moždina",
+        "incorrect_answers": [
+            "Cerebrum",
+            "Mali mozak",
+            "Talamus"
+        ],
+        "explanation": "Produžena moždina (medulla oblongata) je dio moždanog debla koji kontrolira vitalne automatske funkcije tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1416",
+        "category": "znanost",
+        "question": "Koji je naziv za najveći planet u našem Sunčevom sustavu?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Jupiter je plinoviti div i najveći planet u našem Sunčevom sustavu, s masom više od dvostruke mase svih ostalih planeta zajedno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1417",
+        "category": "znanost",
+        "question": "Koji je naziv za prijenosni uređaj koji se koristi za mjerenje i prikaz vremena?",
+        "correct_answer": "Sat",
+        "incorrect_answers": [
+            "Kompas",
+            "Barometar",
+            "Termometar"
+        ],
+        "explanation": "Sat je instrument dizajniran za mjerenje, zadržavanje i prikazivanje vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1418",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada atomi istog elementa imaju različit broj neutrona?",
+        "correct_answer": "Izotopi",
+        "incorrect_answers": [
+            "Izomeri",
+            "Alotropi",
+            "Ioni"
+        ],
+        "explanation": "Izotopi su atomi istog kemijskog elementa koji imaju isti broj protona, ali različit broj neutrona u jezgri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1419",
+        "category": "znanost",
+        "question": "Koji je naziv za valove koji za širenje ne trebaju medij i mogu putovati kroz vakuum?",
+        "correct_answer": "Elektromagnetski valovi",
+        "incorrect_answers": [
+            "Zvučni valovi",
+            "Mehanički valovi",
+            "Seizmički valovi"
+        ],
+        "explanation": "Elektromagnetski valovi, poput svjetlosti, sastoje se od oscilirajućih električnih i magnetskih polja i mogu se širiti vakuumom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1420",
+        "category": "znanost",
+        "question": "Koji je skraćenica za 'Random Access Memory'?",
+        "correct_answer": "RAM",
+        "incorrect_answers": [
+            "ROM",
+            "CPU",
+            "SSD"
+        ],
+        "explanation": "RAM je vrsta računalne memorije koja omogućuje brz pristup podacima na bilo kojoj lokaciji, koristeći se za privremeno pohranjivanje aktivnih programa i podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
