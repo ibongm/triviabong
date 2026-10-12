@@ -16247,5 +16247,425 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1360",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni otok na svijetu, okružen drugim slatkim vodama?",
+        "correct_answer": "Ilha do Bananal",
+        "incorrect_answers": [
+            "Otok Manitoulin",
+            "Otok Olkhon",
+            "Otok Saimaa"
+        ],
+        "explanation": "Ilha do Bananal nalazi se u Brazilu i formirana je rijekama Araguaia i Javaés. To je najveći slatkovodni otok na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1361",
+        "category": "geografija",
+        "question": "Koja se pustinja često naziva 'najstarijom pustinjom na svijetu' i nalazi se duž obale južne Afrike?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Namib je obalna pustinja u južnoj Africi, koja postoji najmanje 55 milijuna godina i smatra se najstarijom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1362",
+        "category": "geografija",
+        "question": "Koja država ima najviše stanovnika na svijetu (stanje 2023.)?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Prema procjenama UN-a iz 2023., Indija je pretekla Kinu po broju stanovnika i postala najmnogoljudnija država.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1363",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po 'Aveniji baobaba'?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Senegal",
+            "Tanzanija",
+            "Južna Afrika"
+        ],
+        "explanation": "Avenija baobaba je skupina impresivnih stabala baobaba duž zemljane ceste u regiji Menabe na zapadu Madagaskara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1364",
+        "category": "geografija",
+        "question": "Koji je naziv za klimatski fenomen koji se javlja kada površinske vode u ekvatorijalnom Tihom oceanu postanu toplije od prosjeka?",
+        "correct_answer": "El Niño",
+        "incorrect_answers": [
+            "La Niña",
+            "Ciklona",
+            "Monsun"
+        ],
+        "explanation": "El Niño je klimatski obrazac u Tihom oceanu koji opisuje zagrijavanje površinskih voda na istoku ekvatorijalnog Tihog oceana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1365",
+        "category": "geografija",
+        "question": "Koji se morski prolaz tradicionalno smatra granicom između Europe i Azije u Rusiji?",
+        "correct_answer": "Prolaz Kara vrata",
+        "incorrect_answers": [
+            "Beringov prolaz",
+            "Bospor",
+            "Prolaz Dardaneli"
+        ],
+        "explanation": "Prolaz Kara vrata nalazi se između Nove Zemlje i otoka Vaygach, i smatra se prirodnom granicom između Europe i Azije u arktičkom dijelu Rusije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1366",
+        "category": "geografija",
+        "question": "Koji kontinent je jedini koji se nalazi na sve četiri Zemljine hemisfere (sjevernoj, južnoj, istočnoj i zapadnoj)?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Oceanija"
+        ],
+        "explanation": "Afrika se proteže s obje strane ekvatora, graniči s nultim meridijanom na zapadu i oko 51° istočne geografske dužine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1367",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku formaciju nastalu kada se sedimentni materijal (kao što su pijesak i mulj) nagomilava na ušću rijeke u veće vodeno tijelo?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Fjord"
+        ],
+        "explanation": "Delta je aluvijalna ravnica koja se formira kada rijeka ulazi u ocean, jezero ili drugu rijeku, taložeći sediment.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1368",
+        "category": "geografija",
+        "question": "Koja je najviša točka u Australiji?",
+        "correct_answer": "Mount Kosciuszko",
+        "incorrect_answers": [
+            "Mount Cook",
+            "Uluru",
+            "Mount Everest"
+        ],
+        "explanation": "Mount Kosciuszko je najviši vrh kopnene Australije, smješten u Velikom razvodnom gorju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1369",
+        "category": "geografija",
+        "question": "Koji je najstariji nacionalni park na svijetu?",
+        "correct_answer": "Yellowstone",
+        "incorrect_answers": [
+            "Yosemite",
+            "Banff",
+            "Plitvička jezera"
+        ],
+        "explanation": "Nacionalni park Yellowstone u Sjedinjenim Američkim Državama osnovan je 1. ožujka 1872. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1370",
+        "category": "geografija",
+        "question": "Koja se država ponekad naziva 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Naziv 'Japan' na japanskom jeziku, 'Nippon' ili 'Nihon', doslovno znači 'izvor sunca', odakle i potječe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1371",
+        "category": "geografija",
+        "question": "Koji je naziv za rijetku vrstu oblaka koja se formira u stratosferi na vrlo niskim temperaturama i poznata je po iridescentnim bojama?",
+        "correct_answer": "Sedefasti oblaci",
+        "incorrect_answers": [
+            "Lentikularni oblaci",
+            "Kumulonimbusi",
+            "Cirusi"
+        ],
+        "explanation": "Sedefasti oblaci (polar stratospheric clouds) nastaju u stratosferi pri temperaturama ispod -78°C i lome svjetlost stvarajući boje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1372",
+        "category": "geografija",
+        "question": "Koji je najviši vrh u Alpama?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Matterhorn",
+            "Dufourspitze",
+            "Grossglockner"
+        ],
+        "explanation": "Mont Blanc, s visinom od 4808 metara, najviši je planinski vrh u Alpama i Zapadnoj Europi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1373",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se magma ne probije na površinu, već se hladi i skrućuje unutar Zemljine kore, formirajući intruzivne stijene?",
+        "correct_answer": "Plutonizam",
+        "incorrect_answers": [
+            "Vulkanizam",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Plutonizam je proces stvaranja magmatskih stijena hlađenjem i skrućivanjem magme ispod površine Zemlje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1374",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po 'Velikom zidu'?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Indija",
+            "Rusija",
+            "Mongolija"
+        ],
+        "explanation": "Veliki zid Kine je niz utvrda izgrađenih duž povijesne sjeverne granice Kine za zaštitu od invazija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1375",
+        "category": "geografija",
+        "question": "Koje je jezero najveće po površini u Južnoj Americi?",
+        "correct_answer": "Jezero Maracaibo",
+        "incorrect_answers": [
+            "Jezero Titicaca",
+            "Jezero Poopó",
+            "Jezero Buenos Aires"
+        ],
+        "explanation": "Iako često osporavano zbog miješanja s morskom vodom, Maracaibo u Venezueli je najveće jezero po površini u Južnoj Americi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1376",
+        "category": "geografija",
+        "question": "Koji je naziv za polarni fenomen svjetlosnih lukova i zavjesa nastalih interakcijom čestica Sunčevog vjetra s Zemljinom atmosferom?",
+        "correct_answer": "Polarna svjetlost",
+        "incorrect_answers": [
+            "Grom",
+            "Munja",
+            "Duga"
+        ],
+        "explanation": "Polarna svjetlost (Aurora borealis na sjeveru, Aurora australis na jugu) je prirodni svjetlosni fenomen vidljiv na visokim geografskim širinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1377",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Sjedinjenim Američkim Državama po broju stanovnika?",
+        "correct_answer": "New York City",
+        "incorrect_answers": [
+            "Los Angeles",
+            "Chicago",
+            "Houston"
+        ],
+        "explanation": "New York City je najmnogoljudniji grad u Sjedinjenim Američkim Državama, s procijenjenim brojem stanovnika od preko 8 milijuna.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1378",
+        "category": "geografija",
+        "question": "Koji se plovni put povezuje Sredozemno more s Crvenim morem?",
+        "correct_answer": "Sueski kanal",
+        "incorrect_answers": [
+            "Panamski kanal",
+            "Kielski kanal",
+            "Korintski kanal"
+        ],
+        "explanation": "Sueski kanal je umjetni morski put u Egiptu koji povezuje Sredozemno more preko Sueskog zaljeva s Crvenim morem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1379",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku formaciju nastalu kada se magma kristalizira unutar magmatske komore i podiže okolne stijene, stvarajući strukturu nalik gljivi?",
+        "correct_answer": "Lakolit",
+        "incorrect_answers": [
+            "Batolit",
+            "Dajk",
+            "Sil"
+        ],
+        "explanation": "Lakolit je intruzivna stijena nastala kada magma prodire između slojeva stijena i podiže gornje slojeve, stvarajući oblik leće ili gljive.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1380",
+        "category": "geografija",
+        "question": "Koja je zemlja najveći proizvođač kave na svijetu?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Vijetnam",
+            "Etiopija"
+        ],
+        "explanation": "Brazil je vodeći svjetski proizvođač kave, s povijesnom dominacijom u globalnoj opskrbi kavom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1381",
+        "category": "geografija",
+        "question": "Koji je najviši vrh u Africi, isključujući Kilimandžaro?",
+        "correct_answer": "Mount Kenya",
+        "incorrect_answers": [
+            "Mount Stanley",
+            "Ras Dashen",
+            "Mount Meru"
+        ],
+        "explanation": "Mount Kenya je druga najviša planina u Africi i najviši vrh u Keniji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1382",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces gdje se starija, gušća oceanska ploča podvlači ispod mlađe ili kontinentalne ploče?",
+        "correct_answer": "Subdukcija",
+        "incorrect_answers": [
+            "Obdukcija",
+            "Kolizija",
+            "Divergencija"
+        ],
+        "explanation": "Subdukcija je proces gdje jedna tektonska ploča tone ispod druge u Zemljin plašt na konvergentnoj granici ploča.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1383",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu kiše koja nastaje kada se vlažan zrak diže i hladi preko planinskog lanca?",
+        "correct_answer": "Orografska kiša",
+        "incorrect_answers": [
+            "Konvekcijska kiša",
+            "Frontalna kiša",
+            "Ciklonska kiša"
+        ],
+        "explanation": "Orografska kiša nastaje kada zračne mase nailaze na planinsku prepreku, dižu se, hlade i kondenziraju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1384",
+        "category": "geografija",
+        "question": "Koji je naziv za geografski pojam koji opisuje područje s unutarnjom odvodnjom, gdje voda ne otječe u ocean, već se skuplja u jezerima ili isparava?",
+        "correct_answer": "Endoreično područje",
+        "incorrect_answers": [
+            "Eksoreično područje",
+            "Kriptoreično područje",
+            "Endemsko područje"
+        ],
+        "explanation": "Endoreično područje je bazen bez izlaza na more, gdje voda teče u unutarnje jezere ili pustinjske depresije, umjesto u oceane.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1385",
+        "category": "geografija",
+        "question": "Koji kontinent je najveći po površini?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Sjeverna Amerika",
+            "Europa"
+        ],
+        "explanation": "Azija je najveći kontinent po površini i broju stanovnika, zauzimajući oko 30% Zemljine kopnene površine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1386",
+        "category": "geografija",
+        "question": "Koji je naziv za prirodni prolaz između Antarktike i Južne Amerike?",
+        "correct_answer": "Drakeov prolaz",
+        "incorrect_answers": [
+            "Magelanov prolaz",
+            "Prolaz Torres",
+            "Prolaz Bering"
+        ],
+        "explanation": "Drakeov prolaz je vodeno tijelo između Južne Amerike (Cape Horn) i Antarktike (otok Livingston), poznato po olujnom vremenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1387",
+        "category": "geografija",
+        "question": "Koji je naziv za regiju u Brazilu koja je dom najveće bioraznolikosti prašume na svijetu?",
+        "correct_answer": "Amazonska prašuma",
+        "incorrect_answers": [
+            "Cerrado",
+            "Pantanal",
+            "Caatinga"
+        ],
+        "explanation": "Amazonska prašuma, uglavnom smještena u Brazilu, najveća je svjetska prašuma i dom nevjerojatne bioraznolikosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
