@@ -17095,5 +17095,530 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1421",
+        "category": "znanost",
+        "question": "Koji je najčešći kemijski element u Zemljinoj kori?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Silicij",
+            "Aluminij",
+            "Željezo"
+        ],
+        "explanation": "Kisik je najrasprostranjeniji element po masi u Zemljinoj kori, često vezan u mineralima i silikatima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1422",
+        "category": "znanost",
+        "question": "Koji je kemijski element nazvan po planetu Uranu?",
+        "correct_answer": "Uranij",
+        "incorrect_answers": [
+            "Plutonij",
+            "Neptunij",
+            "Titanij"
+        ],
+        "explanation": "Uranij (U) je radioaktivni kemijski element. Otkrio ga je Martin Heinrich Klaproth 1789. godine i nazvao ga po planetu Uranu, otkrivenom osam godina ranije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1423",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim biljke transpiriraju vodu iz listova?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Osmoza"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz biljaka, prvenstveno kroz stomate na listovima, što doprinosi kruženju vode u prirodi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1424",
+        "category": "znanost",
+        "question": "Koja vrsta leće ispravlja miopiju (kratkovidnost)?",
+        "correct_answer": "Konkavna leća",
+        "incorrect_answers": [
+            "Konveksna leća",
+            "Cilindrična leća",
+            "Prizmatična leća"
+        ],
+        "explanation": "Konkavna leća raspršuje svjetlost prije nego što dođe do oka, pomičući žarišnu točku unatrag na mrežnicu i ispravljajući kratkovidnost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1425",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje virtualne okoline koja u potpunosti zamjenjuje stvarni svijet?",
+        "correct_answer": "Virtualna stvarnost (VR)",
+        "incorrect_answers": [
+            "Proširena stvarnost (AR)",
+            "Mješovita stvarnost (MR)",
+            "Holografija"
+        ],
+        "explanation": "Virtualna stvarnost (VR) uranja korisnika u potpuno simulirano digitalno okruženje, odvajajući ga od stvarnog svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1426",
+        "category": "znanost",
+        "question": "Koji znanstvenik se smatra ocem genetike zbog svojih radova na nasljeđivanju osobina graška?",
+        "correct_answer": "Gregor Mendel",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Louis Pasteur",
+            "James Watson"
+        ],
+        "explanation": "Gregor Mendel je svojim eksperimentima s križanjem graška formulirao osnovne zakone nasljeđivanja, postavljajući temelje moderne genetike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1427",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica strukturne i funkcionalne nasljednosti u organizmima?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "DNA",
+            "Protein"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđa. Geni su specifični dijelovi DNA koji kodiraju određene osobine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1428",
+        "category": "znanost",
+        "question": "Koji je naziv za sloj atmosfere najbliži Zemljinoj površini?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži i najgušći sloj atmosfere, gdje se odvija većina vremenskih pojava i gdje žive svi organizmi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1429",
+        "category": "znanost",
+        "question": "Koja se vrsta energije proizvodi iz geotermalnih izvora?",
+        "correct_answer": "Geotermalna energija",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Vjetroelektrana",
+            "Hidroelektrana"
+        ],
+        "explanation": "Geotermalna energija je toplinska energija pohranjena u unutrašnjosti Zemlje, koja se koristi za proizvodnju električne energije ili grijanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1430",
+        "category": "znanost",
+        "question": "Koji se plin najčešće koristi kao inertna atmosfera za zavarivanje i u neon lampama?",
+        "correct_answer": "Argon",
+        "incorrect_answers": [
+            "Helij",
+            "Kripton",
+            "Ksenon"
+        ],
+        "explanation": "Argon je plemeniti plin koji je zbog svoje nereaktivnosti idealan za zaštitnu atmosferu pri zavarivanju i u rasvjetnim tijelima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1431",
+        "category": "znanost",
+        "question": "Koji je proces kod bakterija gdje se genetski materijal prenosi izravno između stanica?",
+        "correct_answer": "Konjugacija",
+        "incorrect_answers": [
+            "Transformacija",
+            "Transdukcija",
+            "Mejoza"
+        ],
+        "explanation": "Konjugacija je izravan prijenos genetskog materijala (plazmida) između dviju bakterijskih stanica putem spolnog pila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1432",
+        "category": "znanost",
+        "question": "Kako se naziva uređaj koji pretvara izmjeničnu struju u istosmjernu?",
+        "correct_answer": "Ispravljač (ispravljačka dioda)",
+        "incorrect_answers": [
+            "Transformator",
+            "Osciloskop",
+            "Kondenzator"
+        ],
+        "explanation": "Ispravljač, često koristeći diode, omogućuje protok struje samo u jednom smjeru, pretvarajući tako izmjeničnu u istosmjernu struju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1433",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za identifikaciju genetski modificiranih organizama (GMO)?",
+        "correct_answer": "PCR (Lančana reakcija polimerazom)",
+        "incorrect_answers": [
+            "Kromatografija",
+            "Spektroskopija",
+            "Centrifugiranje"
+        ],
+        "explanation": "PCR je ključna molekularna metoda koja omogućuje umnožavanje specifičnih sekvenci DNA, što je neophodno za detekciju GMO-a.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1434",
+        "category": "znanost",
+        "question": "Koji je prirodni satelit Zemlje?",
+        "correct_answer": "Mjesec",
+        "incorrect_answers": [
+            "Fobos",
+            "Deimos",
+            "Titan"
+        ],
+        "explanation": "Mjesec je jedini prirodni satelit Zemlje i peti po veličini prirodni satelit u Sunčevom sustavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1435",
+        "category": "znanost",
+        "question": "Koji je metal najlakši po gustoći?",
+        "correct_answer": "Litij",
+        "incorrect_answers": [
+            "Aluminij",
+            "Magnezij",
+            "Natrij"
+        ],
+        "explanation": "Litij je najlakši metal i najlakši čvrsti element. Njegova gustoća je tako mala da pluta na vodi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1436",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada se svjetlost savija prilikom prolaska kroz medij različite gustoće?",
+        "correct_answer": "Refrakcija (lom svjetlosti)",
+        "incorrect_answers": [
+            "Refleksija (odbijanje svjetlosti)",
+            "Difrakcija (skretanje svjetlosti)",
+            "Apsorpcija (upijanje svjetlosti)"
+        ],
+        "explanation": "Refrakcija je pojava promjene smjera svjetlosti (savijanje) kada prolazi iz jednog optičkog medija u drugi različite optičke gustoće.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1437",
+        "category": "znanost",
+        "question": "Koji je organ odgovoran za detoksikaciju krvi i proizvodnju žuči u ljudskom tijelu?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Bubreg",
+            "Slezena",
+            "Gušterača"
+        ],
+        "explanation": "Jetra je najveća žlijezda u tijelu, ključna za metabolizam, detoksikaciju štetnih tvari i proizvodnju žuči za probavu masti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1438",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između DNA i RNA molekule u šećernoj komponenti?",
+        "correct_answer": "DNA ima deoksiribozu, a RNA ribozu",
+        "incorrect_answers": [
+            "DNA ima ribozu, a RNA deoksiribozu",
+            "Obje imaju isti šećer",
+            "DNA ima fruktozu, a RNA glukozu"
+        ],
+        "explanation": "Deoksiriboza u DNA ima jedan kisikov atom manje od riboze u RNA, što je ključna strukturna razlika između ove dvije nukleinske kiseline.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1439",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje prepoznavanje i praćenje objekata putem radio valova?",
+        "correct_answer": "RFID (Radio-frekvencijska identifikacija)",
+        "incorrect_answers": [
+            "GPS (Globalni pozicijski sustav)",
+            "Bluetooth",
+            "Wi-Fi"
+        ],
+        "explanation": "RFID koristi radio valove za bežičnu identifikaciju i praćenje objekata, često putem RFID tagova koji sadrže elektroničke informacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1440",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za odvajanje smjese tvari na temelju njihove različite pokretljivosti u fluidu?",
+        "correct_answer": "Kromatografija",
+        "incorrect_answers": [
+            "Destilacija",
+            "Filtracija",
+            "Sublimacija"
+        ],
+        "explanation": "Kromatografija je laboratorijska tehnika za razdvajanje smjesa gdje se komponente razdvajaju različitom brzinom kretanja kroz stacionarnu fazu pomoću mobilne faze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1441",
+        "category": "znanost",
+        "question": "Kako se naziva skupina bolesti koje karakterizira nekontrolirani rast i širenje abnormalnih stanica?",
+        "correct_answer": "Rak (karcinom)",
+        "incorrect_answers": [
+            "Dijabetes",
+            "Hipertenzija",
+            "Astma"
+        ],
+        "explanation": "Rak je opći naziv za skupinu bolesti kod kojih dolazi do nekontroliranog razmnožavanja stanica, koje mogu stvarati tumore i metastazirati.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1442",
+        "category": "znanost",
+        "question": "Koja je najtvrđa poznata prirodna tvar?",
+        "correct_answer": "Dijamant",
+        "incorrect_answers": [
+            "Korund",
+            "Kvarc",
+            "Topaz"
+        ],
+        "explanation": "Dijamant, alotropska modifikacija ugljika, poznat je po svojoj izuzetnoj tvrdoći, što ga čini najtvrđom prirodnom tvari na Zemlji (po Mohsovoj skali).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1443",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada se u zvijezdama spajaju atomi vodika u helij oslobađajući ogromnu energiju?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Kemijska reakcija"
+        ],
+        "explanation": "Nuklearna fuzija je proces spajanja lakih atomskih jezgri u teže, pri čemu se oslobađa velika količina energije, što je izvor energije zvijezda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1444",
+        "category": "znanost",
+        "question": "Koji je programski jezik prvenstveno razvijen za web razvoj i izvodi se u pregledniku?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "explanation": "JavaScript je programski jezik koji omogućuje interaktivnost na web stranicama i primarno se izvršava na klijentskoj strani, unutar web preglednika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1445",
+        "category": "znanost",
+        "question": "Kako se naziva skupina organizama koji razgrađuju mrtvu organsku tvar i vraćaju hranjive tvari u ekosustav?",
+        "correct_answer": "Razlagači (dekompozitori)",
+        "incorrect_answers": [
+            "Proizvođači (producenti)",
+            "Potrošači (konzumenti)",
+            "Paraziti"
+        ],
+        "explanation": "Razlagači, poput bakterija i gljiva, vitalni su za ekosustave jer recikliraju organsku tvar natrag u anorganske spojeve dostupne biljkama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1446",
+        "category": "znanost",
+        "question": "Koji je kemijski spoj glavni sastojak Mjeseca i Pšenične zvijezde?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik je najzastupljeniji element u svemiru i glavno gorivo za zvijezde, uključujući naše Sunce (koje nije Mjesec, op.a.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1447",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na mrežu koja se koristi za povezivanje uređaja unutar ograničenog fizičkog područja, poput kuće ili ureda?",
+        "correct_answer": "LAN (Lokalna mreža)",
+        "incorrect_answers": [
+            "WAN (Širokopojasna mreža)",
+            "MAN (Metropolitanska mreža)",
+            "VPN (Virtualna privatna mreža)"
+        ],
+        "explanation": "LAN (Local Area Network) povezuje računala i druge uređaje unutar male geografske površine, omogućujući dijeljenje resursa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1448",
+        "category": "znanost",
+        "question": "Koji je naziv za poremećaj spavanja koji karakterizira kratkotrajni prestanak disanja tijekom sna?",
+        "correct_answer": "Apneja za vrijeme spavanja",
+        "incorrect_answers": [
+            "Nesanica",
+            "Narkolepsija",
+            "Sindrom nemirnih nogu"
+        ],
+        "explanation": "Apneja za vrijeme spavanja je ozbiljan poremećaj gdje disanje prestaje i počinje više puta tijekom sna, često uzrokujući glasno hrkanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1449",
+        "category": "znanost",
+        "question": "Koji je naziv za optički instrument koji koristi leće ili zrcala za prikupljanje i fokusiranje svjetlosti radi promatranja udaljenih objekata?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kameru"
+        ],
+        "explanation": "Teleskop je instrument namijenjen za promatranje udaljenih objekata, poput zvijezda i planeta, skupljajući elektromagnetsko zračenje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1450",
+        "category": "znanost",
+        "question": "Koja je mjerna jedinica za frekvenciju?",
+        "correct_answer": "Hertz (Hz)",
+        "incorrect_answers": [
+            "Volt (V)",
+            "Amper (A)",
+            "Ohm (Ω)"
+        ],
+        "explanation": "Hertz je mjerna jedinica za frekvenciju u SI sustavu, definirana kao jedan ciklus po sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1451",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se genetski kod s mRNA prevodi u sekvencu aminokiselina, stvarajući protein?",
+        "correct_answer": "Translacija",
+        "incorrect_answers": [
+            "Replikacija",
+            "Transkripcija",
+            "Mutacija"
+        ],
+        "explanation": "Translacija je proces sinteze proteina u kojem se genetske informacije kodirane u mRNA dekodiraju i koriste za stvaranje specifične sekvence aminokiselina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1452",
+        "category": "znanost",
+        "question": "Kako se naziva najveća arterija u ljudskom tijelu?",
+        "correct_answer": "Aorta",
+        "incorrect_answers": [
+            "Plućna arterija",
+            "Koronarna arterija",
+            "Femoralna arterija"
+        ],
+        "explanation": "Aorta je glavna arterija koja izlazi iz lijeve klijetke srca i distribuira oksigeniranu krv po cijelom tijelu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1453",
+        "category": "znanost",
+        "question": "Koji se tip virusa 'pridružuje' bakteriji i koristi je za vlastito razmnožavanje?",
+        "correct_answer": "Bakteriofag (fag)",
+        "incorrect_answers": [
+            "Retrovirus",
+            "Adenovirus",
+            "Herpesvirus"
+        ],
+        "explanation": "Bakteriofag je virus koji inficira i replicira se unutar bakterija, koristeći bakterijske stanične mehanizme za svoju reprodukciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1454",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežičnu komunikaciju putem infracrvenih zraka, često za daljinske upravljače?",
+        "correct_answer": "Infracrvena (IR) komunikacija",
+        "incorrect_answers": [
+            "Radiofrekvencijska (RF) komunikacija",
+            "Ultraljubičasta (UV) komunikacija",
+            "Zvučna komunikacija"
+        ],
+        "explanation": "Infracrvena komunikacija koristi nevidljive infracrvene valove za prijenos podataka na kratke udaljenosti, najčešće u daljinskim upravljačima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1455",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje svjetline zvijezde?",
+        "correct_answer": "Magnituda",
+        "incorrect_answers": [
+            "Spektar",
+            "Paralaksa",
+            "Temperatura"
+        ],
+        "explanation": "Magnituda je logaritamska skala koja se koristi za kvantificiranje svjetline nebeskih objekata, gdje manji broj označava veću svjetlinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-12"
     }
 ]
