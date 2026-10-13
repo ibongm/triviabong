@@ -20455,5 +20455,560 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1645",
+        "category": "znanost",
+        "question": "Koji je kemijski element s atomskim brojem 79, poznat po svojoj visokoj električnoj vodljivosti i otpornosti na koroziju?",
+        "correct_answer": "Zlato",
+        "incorrect_answers": [
+            "Srebro",
+            "Bakar",
+            "Aluminij"
+        ],
+        "explanation": "Zlato (Au) je plemeniti metal s atomskim brojem 79, cijenjen zbog svoje iznimne vodljivosti i otpornosti na kemijske reakcije, uključujući koroziju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1646",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se svjetlost pretvara u električnu energiju pomoću poluvodičkih materijala?",
+        "correct_answer": "Fotoelektrični efekt",
+        "incorrect_answers": [
+            "Termoelektrični efekt",
+            "Piezolektrični efekt",
+            "Magnetski efekt"
+        ],
+        "explanation": "Fotoelektrični efekt je pojava emitiranja elektrona iz metala kada ga obasja svjetlost određene frekvencije, što je temelj solarnih ćelija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1647",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu troši najviše kisika u mirovanju?",
+        "correct_answer": "Mozak",
+        "incorrect_answers": [
+            "Srce",
+            "Jetra",
+            "Mišići"
+        ],
+        "explanation": "Iako čini samo oko 2% tjelesne mase, mozak u mirovanju troši oko 20% ukupnog kisika u tijelu zbog svoje intenzivne metaboličke aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1648",
+        "category": "znanost",
+        "question": "Koji je naziv za najlakši plin na Zemlji?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Dušik",
+            "Klor"
+        ],
+        "explanation": "Vodik je kemijski element s atomskim brojem 1 i najlakši je plin na Zemlji. Sastoji se od jednog protona i jednog elektrona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1649",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem bakterije pretvaraju atmosferski dušik u amonijak, koji je biljkama dostupan?",
+        "correct_answer": "Fiksacija dušika",
+        "incorrect_answers": [
+            "Denitrifikacija",
+            "Nitrifikacija",
+            "Amonifikacija"
+        ],
+        "explanation": "Fiksacija dušika je biološki proces kojim se elementarni dušik (N2) pretvara u organske spojeve dušika, ključan za rast biljaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1650",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežični prijenos električne energije na kratke udaljenosti, npr. za punjenje mobitela?",
+        "correct_answer": "Induktivno punjenje",
+        "incorrect_answers": [
+            "Solarno punjenje",
+            "Kinetičko punjenje",
+            "Galvansko punjenje"
+        ],
+        "explanation": "Induktivno punjenje koristi elektromagnetsku indukciju za prijenos energije između dva objekta bez fizičkog kontakta, često za punjenje gadgeta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1651",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju česticu elementa koja zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna građevna jedinica materije. Sastoji se od jezgre i elektronskog omotača, zadržavajući kemijska svojstva elementa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1652",
+        "category": "znanost",
+        "question": "Koja vrsta zvijezde je naše Sunce?",
+        "correct_answer": "Žuti patuljak",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Crveni div",
+            "Neutronska zvijezda"
+        ],
+        "explanation": "Sunce je zvijezda glavnog niza spektralne klase G2V, poznata kao žuti patuljak zbog svoje boje i veličine u usporedbi s drugim zvijezdama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1653",
+        "category": "znanost",
+        "question": "Koji je naziv za dio DNK molekule koji nosi genetsku informaciju za sintezu proteina?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Nukleotid",
+            "Ribosom"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđa, koja sadrži specifičnu sekvencu DNA koja kodira za određeni protein ili RNA molekulu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1654",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak stakla?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Kalcijev karbonat",
+            "Natrijev klorid",
+            "Aluminijev oksid"
+        ],
+        "explanation": "Silicijev dioksid (SiO2), poznat i kao kremeni pijesak, glavni je sastojak većine vrsta stakla, dajući mu prozirnost i tvrdoću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1655",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja tekućine u plin na temperaturi vrenja?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Talište",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je proces u kojem molekule tekućine dobivaju dovoljno energije da pobjegnu s površine tekućine i prijeđu u plinovito stanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1656",
+        "category": "znanost",
+        "question": "Koja je mjerna jedinica za frekvenciju u SI sustavu?",
+        "correct_answer": "Hertz",
+        "incorrect_answers": [
+            "Watt",
+            "Džul",
+            "Tesla"
+        ],
+        "explanation": "Hertz (Hz) je SI jedinica za frekvenciju, definirana kao jedan ciklus u sekundi, i koristi se za mjerenje broja ponavljanja događaja u jedinici vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1657",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje prijenos glasa i podataka putem internetskog protokola (npr. Skype, Viber)?",
+        "correct_answer": "VoIP (Voice over Internet Protocol)",
+        "incorrect_answers": [
+            "VPN (Virtual Private Network)",
+            "HTML (HyperText Markup Language)",
+            "FTP (File Transfer Protocol)"
+        ],
+        "explanation": "VoIP je metoda i skup tehnologija za isporuku glasovne komunikacije i multimedijskih sesija preko internetskih protokola (IP) mreža.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1658",
+        "category": "znanost",
+        "question": "Koji je najrasprostranjeniji element u Zemljinoj kori?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Silicij",
+            "Aluminij",
+            "Željezo"
+        ],
+        "explanation": "Kisik čini oko 46% mase Zemljine kore, prisutan u brojnim mineralima kao što su silikati i oksidi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1659",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu disciplinu koja proučava fosile?",
+        "correct_answer": "Paleontologija",
+        "incorrect_answers": [
+            "Arheologija",
+            "Geologija",
+            "Antropologija"
+        ],
+        "explanation": "Paleontologija je znanost koja proučava drevni život na Zemlji putem fosilnih ostataka, uključujući biljke, životinje i mikroorganizme.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1660",
+        "category": "znanost",
+        "question": "Koji je naziv za optički uređaj koji koristi leće za fokusiranje udaljenih objekata?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Teleskop je optički instrument namijenjen promatranju udaljenih objekata, prikupljajući elektromagnetsko zračenje i formirajući uvećanu sliku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1661",
+        "category": "znanost",
+        "question": "Koja je funkcija mitohondrija u stanici?",
+        "correct_answer": "Proizvodnja energije",
+        "incorrect_answers": [
+            "Sinteza proteina",
+            "Pohrana genetskog materijala",
+            "Detoksikacija"
+        ],
+        "explanation": "Mitohondriji su organele poznate kao 'energetske centrale' stanice, odgovorne za proizvodnju ATP-a kroz stanično disanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1662",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalni zakon koji opisuje odnos između tlaka i volumena plina pri konstantnoj temperaturi?",
+        "correct_answer": "Boyleov zakon",
+        "incorrect_answers": [
+            "Charlesov zakon",
+            "Gay-Lussacov zakon",
+            "Avogadrov zakon"
+        ],
+        "explanation": "Boyleov zakon kaže da je za određenu masu plina, pri konstantnoj temperaturi, tlak obrnuto proporcionalan volumenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1663",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno područje koje proučava viruse i bolesti koje uzrokuju?",
+        "correct_answer": "Virologija",
+        "incorrect_answers": [
+            "Bakteriologija",
+            "Mikrobiologija",
+            "Imunologija"
+        ],
+        "explanation": "Virologija je grana mikrobiologije koja se bavi proučavanjem virusa, uključujući njihovu strukturu, evoluciju, klasifikaciju i interakciju s domaćinom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1664",
+        "category": "znanost",
+        "question": "Kako se naziva proces razgradnje velikih, složenih molekula u manje, jednostavnije molekule, često uz oslobađanje energije?",
+        "correct_answer": "Katabolizam",
+        "incorrect_answers": [
+            "Anabolizam",
+            "Metabolizam",
+            "Homeostaza"
+        ],
+        "explanation": "Katabolizam je skup metaboličkih procesa koji razgrađuju složene molekule na jednostavnije, oslobađajući pritom kemijsku energiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1665",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja koristi laserske zrake za stvaranje trodimenzionalnih objekata iz digitalnih modela?",
+        "correct_answer": "3D ispis (aditivna proizvodnja)",
+        "incorrect_answers": [
+            "Holografija",
+            "CNC obrada",
+            "Lasersko graviranje"
+        ],
+        "explanation": "3D ispis ili aditivna proizvodnja je proces stvaranja trodimenzionalnog objekta iz digitalnog modela dodavanjem materijala sloj po sloj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1666",
+        "category": "znanost",
+        "question": "Koji kemijski element je sastavni dio klorofila, zelenog pigmenta u biljkama?",
+        "correct_answer": "Magnezij",
+        "incorrect_answers": [
+            "Željezo",
+            "Kalcij",
+            "Kalij"
+        ],
+        "explanation": "Magnezij je ključan element u molekuli klorofila, esencijalan za fotosintezu, proces kojim biljke pretvaraju sunčevu svjetlost u energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1667",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja jedinica zvuka?",
+        "correct_answer": "Fonon",
+        "incorrect_answers": [
+            "Kvant",
+            "Elektron",
+            "Foton"
+        ],
+        "explanation": "Fonon je kvant mehaničke energije u kristalnoj rešetki, analogan fotonu za svjetlost, i predstavlja elementarnu pobudu vibracija atoma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1668",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se svjetlost raspada na svoje sastavne boje prolaskom kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Apsorpcija",
+            "Interferencija"
+        ],
+        "explanation": "Disperzija je pojava razdvajanja svjetlosti na njezine sastavne valne duljine (boje) kada prolazi kroz medij, poput prizme, zbog različitih indeksa loma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1669",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje topline koja se oslobađa ili apsorbira tijekom kemijske reakcije?",
+        "correct_answer": "Entalpija",
+        "incorrect_answers": [
+            "Entropija",
+            "Energija aktivacije",
+            "Gibbsova slobodna energija"
+        ],
+        "explanation": "Entalpija je termodinamička funkcija stanja koja predstavlja ukupnu toplinu sustava, te njezina promjena (ΔH) označava toplinu reakcije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1670",
+        "category": "znanost",
+        "question": "Koji je naziv za staničnu strukturu koja kontrolira što ulazi i izlazi iz stanice?",
+        "correct_answer": "Stanična membrana",
+        "incorrect_answers": [
+            "Stanična stijenka",
+            "Jezgra",
+            "Citoplazma"
+        ],
+        "explanation": "Stanična membrana je selektivno propusna barijera koja okružuje citoplazmu stanice, regulirajući protok tvari u i izvan stanice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1671",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje komunikaciju između dva uređaja putem nevidljivog infracrvenog svjetla?",
+        "correct_answer": "Infracrvena komunikacija (IR)",
+        "incorrect_answers": [
+            "Bluetooth",
+            "Wi-Fi",
+            "RFID"
+        ],
+        "explanation": "Infracrvena komunikacija koristi infracrveno zračenje za prijenos podataka na kratke udaljenosti, često se koristi u daljinskim upravljačima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1672",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se elektroni kreću kroz vodič?",
+        "correct_answer": "Električna struja",
+        "incorrect_answers": [
+            "Magnetsko polje",
+            "Električni potencijal",
+            "Napon"
+        ],
+        "explanation": "Električna struja je usmjereno gibanje električnih naboja, najčešće elektrona, kroz vodič pod utjecajem električnog polja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1673",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno polje koje proučava vrijeme i klimatske promjene?",
+        "correct_answer": "Meteorologija",
+        "incorrect_answers": [
+            "Geologija",
+            "Seizmologija",
+            "Ocenografija"
+        ],
+        "explanation": "Meteorologija je znanost o atmosferi i vremenskim pojavama, uključujući proučavanje klime i klimatskih promjena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1674",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se zvuk reflektira od površine i čuje se kao ponovljeni zvuk?",
+        "correct_answer": "Jeka",
+        "incorrect_answers": [
+            "Rezonancija",
+            "Apsorpcija",
+            "Refrakcija"
+        ],
+        "explanation": "Jeka je pojava reflektiranog zvuka koja se percipira kao odvojeni zvuk od izvornog, kada je kašnjenje refleksije dovoljno dugo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1675",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim biljke koriste sunčevu svjetlost za proizvodnju hrane?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Disanje",
+            "Transpiracija",
+            "Kemosinteza"
+        ],
+        "explanation": "Fotosinteza je biokemijski proces u biljkama, algama i cijanobakterijama gdje se pomoću sunčeve svjetlosti stvaraju organske tvari iz ugljičnog dioksida i vode.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1676",
+        "category": "znanost",
+        "question": "Koji je naziv za superračunalo koje je razvio IBM i koje je 1997. pobijedilo svjetskog prvaka u šahu Garija Kasparova?",
+        "correct_answer": "Deep Blue",
+        "incorrect_answers": [
+            "Watson",
+            "AlphaGo",
+            "HAL 9000"
+        ],
+        "explanation": "Deep Blue je šahovski kompjuter kojeg je razvio IBM. Postao je poznat 1997. godine kada je pobijedio tadašnjeg svjetskog prvaka Garija Kasparova u šahu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1677",
+        "category": "znanost",
+        "question": "Koji element je ključan za život i prisutan je u hemoglobinu, molekuli koja prenosi kisik u krvi?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Bakar",
+            "Cink",
+            "Magnezij"
+        ],
+        "explanation": "Željezo je esencijalni element koji se nalazi u proteinu hemoglobinu u crvenim krvnim zrncima, gdje se veže na kisik i transportira ga kroz tijelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1678",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja čestica svjetlosti?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je elementarna čestica kvanta elektromagnetskog zračenja, odnosno svjetlosti, i nositelj je elektromagnetske sile.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1679",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje korisnicima da dožive umjetno stvoreno okruženje putem posebnih naočala ili kaciga?",
+        "correct_answer": "Virtualna stvarnost (VR)",
+        "incorrect_answers": [
+            "Proširena stvarnost (AR)",
+            "Mješovita stvarnost (MR)",
+            "Holografija"
+        ],
+        "explanation": "Virtualna stvarnost (VR) je simulirano iskustvo koje može biti slično stvarnom svijetu ili potpuno različito, a stvara se pomoću VR uređaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1680",
+        "category": "znanost",
+        "question": "Koji je naziv za magnetski metal koji se ne može demagnetizirati?",
+        "correct_answer": "Feromagnet",
+        "incorrect_answers": [
+            "Paramagnet",
+            "Dijamagnet",
+            "Antiferomagnet"
+        ],
+        "explanation": "Feromagnetični materijali, poput željeza, kobalta i nikla, mogu zadržati trajno magnetizirano stanje i ne mogu se lako demagnetizirati.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1681",
+        "category": "znanost",
+        "question": "Koji je pojam za raznolikost živih organizama unutar ekosustava ili na Zemlji?",
+        "correct_answer": "Bioraznolikost",
+        "incorrect_answers": [
+            "Biomasa",
+            "Biogeografija",
+            "Bioakumulacija"
+        ],
+        "explanation": "Bioraznolikost se odnosi na raznolikost života na svim razinama, od gena do ekosustava, ključna je za stabilnost i funkcioniranje ekosustava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
