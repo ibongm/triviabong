@@ -23404,5 +23404,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1864",
+        "category": "sport",
+        "question": "Koji je najveći stadion u Hrvatskoj po kapacitetu sjedećih mjesta?",
+        "correct_answer": "Stadion Maksimir",
+        "incorrect_answers": [
+            "Poljud",
+            "Rujevica",
+            "Opus Arena"
+        ],
+        "explanation": "Stadion Maksimir u Zagrebu ima najveći kapacitet sjedećih mjesta u Hrvatskoj. (stanje 2024.)",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1865",
+        "category": "sport",
+        "question": "Koliko je tehničkih pogrešaka maksimalno dozvoljeno igraču u NBA utakmici prije nego što bude isključen?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "5"
+        ],
+        "explanation": "Igraču u NBA ligi dozvoljene su dvije tehničke pogreške, nakon čega slijedi isključenje s utakmice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1866",
+        "category": "sport",
+        "question": "Koja teniska reprezentacija ima najviše osvojenih Davis Cup naslova u povijesti (stanje 2024.)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Australija",
+            "Francuska",
+            "Španjolska"
+        ],
+        "explanation": "SAD je najuspješnija nacija u povijesti Davis Cupa s 32 osvojena naslova. (stanje 2024.)",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1867",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući golmana) ima jedna momčad na terenu u rukometu?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "5"
+        ],
+        "explanation": "Svaka rukometna momčad na terenu ima šest igrača i jednog golmana, ukupno sedam.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1868",
+        "category": "sport",
+        "question": "Tko je trenutni rekorder po broju osvojenih naslova svjetskog prvaka u Formuli 1, izjednačen s Michaelom Schumacherom (stanje 2024.)?",
+        "correct_answer": "Lewis Hamilton",
+        "incorrect_answers": [
+            "Juan Manuel Fangio",
+            "Ayrton Senna",
+            "Max Verstappen"
+        ],
+        "explanation": "Lewis Hamilton dijeli rekord od sedam naslova svjetskog prvaka s Michaelom Schumacherom. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1869",
+        "category": "sport",
+        "question": "Koji je maksimalan broj dodira lopte dozvoljen jednoj momčadi prije nego što loptu prebaci preko mreže (blok se ne računa kao dodir)?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Momčad može dodirnuti loptu najviše tri puta prije nego što je vrati preko mreže protivniku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1870",
+        "category": "sport",
+        "question": "Koja su četiri osnovna stila plivanja u natjecateljskom plivanju?",
+        "correct_answer": "Slobodno, Leđno, Prsno, Delfin",
+        "incorrect_answers": [
+            "Kraul, Leđno, Prsno, Podvodno",
+            "Slobodno, Bočno, Prsno, Delfin",
+            "Kraul, Leđno, Leptir, Prsno"
+        ],
+        "explanation": "Četiri natjecateljska stila plivanja su slobodno (kraul), leđno, prsno i delfin.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1871",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u atletici gdje se natjecatelji natječu u sedam različitih disciplina za žene?",
+        "correct_answer": "Sedmoboj",
+        "incorrect_answers": [
+            "Desetoboj",
+            "Peteroboj",
+            "Troboj"
+        ],
+        "explanation": "Sedmoboj je višebojska atletska disciplina za žene koja uključuje sedam različitih disciplina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1872",
+        "category": "sport",
+        "question": "Kako se naziva najprestižnija biciklistička cestovna utrka na svijetu?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ],
+        "explanation": "Tour de France je najpoznatija i najcjenjenija višednevna biciklistička utrka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1873",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se natjecatelji spuštaju niz stazu na dasci s dva rubnika?",
+        "correct_answer": "Snowboard",
+        "incorrect_answers": [
+            "Skijanje",
+            "Sanjkanje",
+            "Bob"
+        ],
+        "explanation": "Snowboard je zimski sport u kojem se koristi jedna daska za spuštanje niz snježnu stazu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1874",
+        "category": "sport",
+        "question": "Tko je osvojio Zlatnu loptu (Ballon d'Or) najviše puta u povijesti (stanje 2024.)?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": [
+            "Cristiano Ronaldo",
+            "Michel Platini",
+            "Johan Cruyff"
+        ],
+        "explanation": "Lionel Messi drži rekord s osam osvojenih nagrada Ballon d'Or. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1875",
+        "category": "sport",
+        "question": "U kojoj je godini održana prva moderna Olimpijada?",
+        "correct_answer": "1896",
+        "incorrect_answers": [
+            "1900",
+            "1892",
+            "1904"
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni, Grčka, 1896. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1876",
+        "category": "sport",
+        "question": "Koja je prosječna preporučena dnevna količina vode za odraslu osobu (približno)?",
+        "correct_answer": "2-3 litre",
+        "incorrect_answers": [
+            "0.5-1 litra",
+            "5-6 litara",
+            "10+ litara"
+        ],
+        "explanation": "Općenito se preporučuje unos 2 do 3 litre tekućine dnevno, ovisno o aktivnosti i klimi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1877",
+        "category": "sport",
+        "question": "Koliko se igrača jedne momčadi istovremeno nalazi na ledu u hokeju na ledu tijekom igre (bez golmana)?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "4",
+            "6",
+            "7"
+        ],
+        "explanation": "U hokeju na ledu, svaka momčad ima pet igrača u polju i jednog golmana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1878",
+        "category": "sport",
+        "question": "Koja zemlja ima najviše zlatnih olimpijskih medalja u muškom vaterpolu (stanje 2024.)?",
+        "correct_answer": "Mađarska",
+        "incorrect_answers": [
+            "Srbija",
+            "Italija",
+            "Rusija"
+        ],
+        "explanation": "Mađarska je najuspješnija vaterpolska reprezentacija na Olimpijskim igrama s 9 zlatnih medalja. (stanje 2024.)",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1879",
+        "category": "sport",
+        "question": "Koji se rekvizit koristi u ritmičkoj gimnastici, a poznat je po svom okruglom obliku?",
+        "correct_answer": "Obruč",
+        "incorrect_answers": [
+            "Vijača",
+            "Lopta",
+            "Traka"
+        ],
+        "explanation": "Obruč je jedan od pet rekvizita koji se koriste u ritmičkoj gimnastici.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1880",
+        "category": "sport",
+        "question": "U kojem gradu su održane Ljetne olimpijske igre 1984. godine?",
+        "correct_answer": "Los Angeles",
+        "incorrect_answers": [
+            "Moskva",
+            "Seul",
+            "Montreal"
+        ],
+        "explanation": "Los Angeles je bio domaćin Ljetnih olimpijskih igara 1984. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1881",
+        "category": "sport",
+        "question": "Koji dio bicikla služi za prijenos snage s pedala na kotač?",
+        "correct_answer": "Lanac",
+        "incorrect_answers": [
+            "Guma",
+            "Žbica",
+            "Volan"
+        ],
+        "explanation": "Lanac prenosi rotacijsku silu s pedala i zupčanika na stražnji kotač bicikla.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1882",
+        "category": "sport",
+        "question": "Koji borilački sport potječe iz Koreje i karakterizira ga naglasak na udarcima nogom?",
+        "correct_answer": "Taekwondo",
+        "incorrect_answers": [
+            "Karate",
+            "Kung Fu",
+            "Judo"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina poznata po snažnim i dinamičnim tehnikama nogu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1883",
+        "category": "sport",
+        "question": "Tko je najmlađi tenisač koji je osvojio ATP Finals (bivši Masters Cup) (stanje 2024.)?",
+        "correct_answer": "Boris Becker",
+        "incorrect_answers": [
+            "Rafael Nadal",
+            "Roger Federer",
+            "Novak Đoković"
+        ],
+        "explanation": "Boris Becker je 1985. godine postao najmlađi pobjednik ovog turnira s 18 godina. (stanje 2024.)",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1884",
+        "category": "sport",
+        "question": "Koja je svrha 'driblanja' u košarci?",
+        "correct_answer": "Kretanje s loptom po terenu",
+        "incorrect_answers": [
+            "Dodavanje lopte",
+            "Šutiranje na koš",
+            "Blokiranje protivnika"
+        ],
+        "explanation": "Driblanje omogućuje igraču da se kreće po terenu dok drži kontrolu nad loptom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1885",
+        "category": "sport",
+        "question": "Koja se vrsta motocikla koristi u utrkama MotoGP prvenstva?",
+        "correct_answer": "Prototipni trkaći motocikl",
+        "incorrect_answers": [
+            "Motokros motocikl",
+            "Cestovni motocikl",
+            "Skuter"
+        ],
+        "explanation": "MotoGP utrke koriste posebno izrađene prototipne motocikle, a ne modificirane serijske modele.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1886",
+        "category": "sport",
+        "question": "Kolika je standardna duljina staze za veslačka natjecanja na Olimpijskim igrama?",
+        "correct_answer": "2000 metara",
+        "incorrect_answers": [
+            "1500 metara",
+            "1000 metara",
+            "2500 metara"
+        ],
+        "explanation": "Standardna duljina staze za veslanje na Olimpijskim igrama i svjetskim prvenstvima iznosi 2000 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1887",
+        "category": "sport",
+        "question": "Kolika je visina odbojkaške mreže za muška natjecanja (približno)?",
+        "correct_answer": "2.43 metra",
+        "incorrect_answers": [
+            "2.24 metra",
+            "2.35 metara",
+            "2.50 metara"
+        ],
+        "explanation": "Mreža za mušku odbojku postavljena je na visinu od 2.43 metra.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1888",
+        "category": "sport",
+        "question": "Koji je sportaš poznat pod nadimkom 'Munja sa Jamajke' zbog svojih sprinterskih postignuća?",
+        "correct_answer": "Usain Bolt",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Jesse Owens",
+            "Maurice Greene"
+        ],
+        "explanation": "Usain Bolt je višestruki olimpijski pobjednik i svjetski rekorder u sprinterskim disciplinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1889",
+        "category": "sport",
+        "question": "Kako se naziva palica u golfu koja se koristi za udaranje lopte s green-a u rupu?",
+        "correct_answer": "Putter",
+        "incorrect_answers": [
+            "Driver",
+            "Iron",
+            "Wedge"
+        ],
+        "explanation": "Putter je specijalizirana palica dizajnirana za precizne, kratke udarce na greenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1890",
+        "category": "sport",
+        "question": "Koliko se setova igra u većini profesionalnih stolnoteniskih mečeva?",
+        "correct_answer": "Do 3 ili 4 osvojena seta",
+        "incorrect_answers": [
+            "1 ili 2 seta",
+            "5 ili 6 osvojenih setova",
+            "Uvijek 7 setova"
+        ],
+        "explanation": "Većina mečeva igra se na tri ili četiri dobivena seta, odnosno do pet ili sedam setova ukupno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1891",
+        "category": "sport",
+        "question": "Koji kontinent nikada nije bio domaćin Ljetnih ili Zimskih olimpijskih igara?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Azija",
+            "Australija"
+        ],
+        "explanation": "Afrika je jedini naseljeni kontinent koji nikada nije bio domaćin Olimpijskih igara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1892",
+        "category": "sport",
+        "question": "Kolika je standardna udaljenost mete u olimpijskom streličarstvu (Recurve luk)?",
+        "correct_answer": "70 metara",
+        "incorrect_answers": [
+            "50 metara",
+            "90 metara",
+            "30 metara"
+        ],
+        "explanation": "Olimpijsko streličarstvo koristi udaljenost od 70 metara za muška i ženska natjecanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1893",
+        "category": "sport",
+        "question": "Koja je osnovna oprema potrebna za plivanje u bazenu?",
+        "correct_answer": "Kupaće gaće/kostim i kapa",
+        "incorrect_answers": [
+            "Peraje i maska",
+            "Odijelo i boca za kisik",
+            "Skije i štapovi"
+        ],
+        "explanation": "Za plivanje u bazenu najosnovnija oprema uključuje kupaće gaće ili kostim i plivačku kapu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1894",
+        "category": "sport",
+        "question": "Kako se naziva najdulji skok u skijaškim skokovima postignut u natjecanju?",
+        "correct_answer": "Svjetski rekord",
+        "incorrect_answers": [
+            "Olimpijski rekord",
+            "Nacionalni rekord",
+            "Osobni rekord"
+        ],
+        "explanation": "Najdulji skok u skijaškim skokovima u natjecanju poznat je kao svjetski rekord.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1895",
+        "category": "sport",
+        "question": "Kolika je težina muške kugle u bacanju kugle u atletici?",
+        "correct_answer": "7.26 kg",
+        "incorrect_answers": [
+            "5 kg",
+            "6 kg",
+            "8 kg"
+        ],
+        "explanation": "Standardna težina kugle za muško natjecanje u bacanju kugle iznosi 7.26 kilograma (16 funti).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1896",
+        "category": "sport",
+        "question": "Koliko je regularno vrijeme trajanja nogometne utakmice (bez produžetaka)?",
+        "correct_answer": "90 minuta",
+        "incorrect_answers": [
+            "60 minuta",
+            "80 minuta",
+            "120 minuta"
+        ],
+        "explanation": "Nogometna utakmica se sastoji od dva poluvremena po 45 minuta, ukupno 90 minuta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1897",
+        "category": "sport",
+        "question": "Tko se smatra jedinim boksačem koji je neporažen završio karijeru u teškoj kategoriji s rekordom 49-0?",
+        "correct_answer": "Rocky Marciano",
+        "incorrect_answers": [
+            "Muhammad Ali",
+            "Mike Tyson",
+            "Joe Louis"
+        ],
+        "explanation": "Rocky Marciano je jedini svjetski prvak u teškoj kategoriji koji je otišao u mirovinu neporažen.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1898",
+        "category": "sport",
+        "question": "Kako se naziva disciplina konjičkog sporta u kojoj jahač i konj izvode seriju unaprijed određenih figura u areni?",
+        "correct_answer": "Dresura",
+        "incorrect_answers": [
+            "Preskakanje prepona",
+            "Galopske utrke",
+            "Eventing"
+        ],
+        "explanation": "Dresura je umjetnost jahanja gdje se ocjenjuje harmonija i poslušnost konja u izvođenju figura.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1899",
+        "category": "sport",
+        "question": "U kojem zimskom sportu se natjecatelji kližu kamenjem po ledu prema meti?",
+        "correct_answer": "Curling",
+        "incorrect_answers": [
+            "Hokej na ledu",
+            "Bob",
+            "Brzo klizanje"
+        ],
+        "explanation": "Curling je timski sport u kojem se kameni diskovi kližu po ledu prema označenom ciljnom području.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1900",
+        "category": "sport",
+        "question": "Koliki je maksimalan mogući break (broj poena) u snookeru ako igrač uspije ubaciti svih 15 crvenih kugli s crnom, a zatim i sve ostale boje, bez 'free balla'?",
+        "correct_answer": "147",
+        "incorrect_answers": [
+            "135",
+            "155",
+            "160"
+        ],
+        "explanation": "Standardni maksimalni break je 147 poena (15 crvenih + 15 crnih, pa žuta, zelena, smeđa, plava, roza i crna).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1901",
+        "category": "sport",
+        "question": "Kako se naziva linija iza koje se mora položiti lopta da bi se postigao 'try' u ragbiju?",
+        "correct_answer": "'Goal line' (Gol linija)",
+        "incorrect_answers": [
+            "'Touch line'",
+            "'Halfway line'",
+            "'22-metarska linija'"
+        ],
+        "explanation": "'Try' se postiže kada se lopta položi na ili iza protivničke 'goal line'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1902",
+        "category": "sport",
+        "question": "Kako se naziva disciplina hrvanja gdje su dozvoljeni zahvati na nogama i pasivnost se kažnjava?",
+        "correct_answer": "Slobodni stil",
+        "incorrect_answers": [
+            "Grčko-rimski stil",
+            "Sambo",
+            "Sumo"
+        ],
+        "explanation": "U slobodnom stilu hrvanja dozvoljeni su zahvati na nogama i aktivnija borba.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
