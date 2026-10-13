@@ -19307,5 +19307,545 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1564",
+        "category": "geografija",
+        "question": "Koji je najveći kanjon na svijetu po volumenu i dubini?",
+        "correct_answer": "Veliki kanjon (Grand Canyon)",
+        "incorrect_answers": [
+            "Kanjon Colca",
+            "Kanjon Yarlung Tsangpo",
+            "Kanjon Tara"
+        ],
+        "explanation": "Veliki kanjon u SAD-u, isklesan rijekom Colorado, poznat je po svojoj veličini i dubini, što ga čini jednim od najimpresivnijih prirodnih čuda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1565",
+        "category": "geografija",
+        "question": "Koja država graniči s najviše drugih država u svijetu?",
+        "correct_answer": "Kina (izjednačena s Rusijom)",
+        "incorrect_answers": [
+            "Indija",
+            "SAD",
+            "Brazil"
+        ],
+        "explanation": "Kina i Rusija graniče s po 14 drugih država, što je najveći broj na svijetu. Ova geografska značajka čini ih geopolitički složenima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1566",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji otok na svijetu?",
+        "correct_answer": "Java",
+        "incorrect_answers": [
+            "Honshu",
+            "Velika Britanija",
+            "Sumatra"
+        ],
+        "explanation": "Java, otok u Indoneziji, dom je za preko 150 milijuna ljudi, što ga čini najnaseljenijim otokom s velikom gustoćom stanovništva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1567",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija nastala taloženjem sedimenata na ušću rijeke u veće vodeno tijelo?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Fjord",
+            "Laguna"
+        ],
+        "explanation": "Delta je plodna nizina formirana od nanosa rijeke na njenom ušću, često s razgranatim riječnim kanalima prije ulijevanja u more ili jezero.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1568",
+        "category": "geografija",
+        "question": "Koja je država poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Japan se nalazi najistočnije u Aziji te prvi dočekuje sunce, što je dovelo do naziva 'Zemlja izlazećeg sunca'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1569",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planinskog lanca Himalaja?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kangchenjunga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest je s visinom od 8.848,86 metara (stanje 2020.) najviši planinski vrh na Zemlji i dio je Himalaje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1570",
+        "category": "geografija",
+        "question": "Koji ocean je drugi po veličini na Zemlji?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Tihi ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Atlantski ocean je drugi po veličini, pokrivajući približno petinu Zemljine površine, te odvaja Europu i Afriku od Amerika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1571",
+        "category": "geografija",
+        "question": "Koja je rijeka najduža u Južnoj Americi i ima najveći protok vode na svijetu?",
+        "correct_answer": "Amazonija",
+        "incorrect_answers": [
+            "Paraná",
+            "Orinoco",
+            "Magdalena"
+        ],
+        "explanation": "Rijeka Amazonija je najduža rijeka Južne Amerike i posjeduje najveći protok vode na Zemlji, izlijevajući ogromne količine u Atlantik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1572",
+        "category": "geografija",
+        "question": "Koji je naziv za klimatski fenomen gdje se temperature površine mora u istočnom i središnjem dijelu Tihog oceana neuobičajeno ohlade?",
+        "correct_answer": "La Niña",
+        "incorrect_answers": [
+            "El Niño",
+            "Monsun",
+            "Uragan"
+        ],
+        "explanation": "La Niña predstavlja suprotni fenomen El Niñu, karakteriziran hlađenjem ekvatorijalnih voda Tihog oceana, što utječe na globalne vremenske obrasce.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1573",
+        "category": "geografija",
+        "question": "Koja je najmanja država po površini na afričkom kontinentu?",
+        "correct_answer": "Sejšeli",
+        "incorrect_answers": [
+            "Gambija",
+            "Esvatini (Svazi)",
+            "Zelenortska Republika"
+        ],
+        "explanation": "Sejšeli su otočna država u Indijskom oceanu, s najmanjom kopnenom površinom od svih afričkih država.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1574",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se slojevi stijena savijaju pod pritiskom, stvarajući nabore?",
+        "correct_answer": "Nabiranje",
+        "incorrect_answers": [
+            "Rasedanje",
+            "Erozija",
+            "Vulkanizam"
+        ],
+        "explanation": "Nabiranje je proces deformacije Zemljine kore gdje se stijene savijaju, često kao rezultat kompresijskih sila tijekom orogeneze.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1575",
+        "category": "geografija",
+        "question": "Koja rijeka prolazi kroz glavni grad Egipta, Kairo?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Eufrat",
+            "Tigar",
+            "Kongo"
+        ],
+        "explanation": "Rijeka Nil, najduža rijeka u Africi, ključna je za život Egipta i protječe kroz njegov glavni grad Kairo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1576",
+        "category": "geografija",
+        "question": "Koji je naziv za pustinju koja se proteže duž zapadne obale Južne Amerike, poznata po ekstremnoj suhoći?",
+        "correct_answer": "Atacama",
+        "incorrect_answers": [
+            "Sahara",
+            "Gobi",
+            "Kalahari"
+        ],
+        "explanation": "Pustinja Atacama u Čileu smatra se jednim od najsušnijih mjesta na Zemlji, zbog kombinacije kišne sjene i hladnih oceanskih struja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1577",
+        "category": "geografija",
+        "question": "Koja je država najveći proizvođač kave na svijetu (stanje 2023.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Vijetnam",
+            "Etiopija"
+        ],
+        "explanation": "Brazil je godinama najveći svjetski proizvođač kave, zahvaljujući povoljnim klimatskim uvjetima i velikim plantažama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1578",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kada vjetar nosi i taloži pijesak i prašinu, stvarajući dinamične pješčane formacije?",
+        "correct_answer": "Eolska erozija i sedimentacija",
+        "incorrect_answers": [
+            "Glacijalna erozija",
+            "Fluvijalna erozija",
+            "Kras"
+        ],
+        "explanation": "Eolska erozija i sedimentacija odnose se na geomorfološke procese oblikovanja reljefa pod utjecajem vjetra, posebno u pustinjskim područjima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1579",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni bazen na svijetu po volumenu?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Jezero Superior",
+            "Tanganjika",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru je najdublje jezero na svijetu i sadrži oko 20% sve slatke vode na površini Zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1580",
+        "category": "geografija",
+        "question": "Koja je najrjeđe naseljena država na svijetu (stanje 2024.)?",
+        "correct_answer": "Mongolija",
+        "incorrect_answers": [
+            "Australija",
+            "Kanada",
+            "Island"
+        ],
+        "explanation": "S približno 2 stanovnika po četvornom kilometru, Mongolija ima najmanju gustoću naseljenosti na svijetu, zbog velikih pustinja i planina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1581",
+        "category": "geografija",
+        "question": "Koji je naziv za uski vodeni put koji razdvaja Rusiju od Aljaske?",
+        "correct_answer": "Beringov prolaz",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Dardanele",
+            "Bospor"
+        ],
+        "explanation": "Beringov prolaz je tjesnac koji spaja Tihi i Arktički ocean te razdvaja Azijski kontinent (Rusiju) od Sjeverne Amerike (Aljasku).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1582",
+        "category": "geografija",
+        "question": "Koja planina, smještena u Tanzaniji, poznata je po svoja tri vulkanska konusa: Kibo, Mawenzi i Shira?",
+        "correct_answer": "Kilimanjaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Mount Rwenzori",
+            "Mount Meru"
+        ],
+        "explanation": "Kilimanjaro je najviša planina u Africi i sastoji se od tri vulkanska stošca, od kojih je Kibo najviši.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1583",
+        "category": "geografija",
+        "question": "Koji je naziv za ravnicu nastalu nakupljanjem sedimenata koje rijeka taloži tijekom poplava?",
+        "correct_answer": "Aluvijalna ravnica",
+        "incorrect_answers": [
+            "Ledena dolina",
+            "Vulkanska visoravan",
+            "Planinski masiv"
+        ],
+        "explanation": "Aluvijalne ravnice su vrlo plodna područja formirana od sedimenata (aluvija) koje rijeke talože, posebno tijekom poplava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1584",
+        "category": "geografija",
+        "question": "Koja država je poznata po sustavu fjordova na svojoj zapadnoj obali?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Finska",
+            "Danska"
+        ],
+        "explanation": "Norveška je sinonim za fjordove, duboke i uske morske zaljeve strmih stijena, nastale djelovanjem ledenjaka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1585",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se magmatska stijena postupno izdiže na površinu i biva izložena eroziji?",
+        "correct_answer": "Uzdizanje (uplift)",
+        "incorrect_answers": [
+            "Subsidencija",
+            "Sedimentacija",
+            "Metamorfoza"
+        ],
+        "explanation": "Uzdizanje je proces vertikalnog pomicanja Zemljine kore prema gore, često uzrokujući izlaganje dubljih stijena na površini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1586",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Sjevernoj Americi po broju stanovnika (stanje 2024.)?",
+        "correct_answer": "Ciudad de México (Mexico City)",
+        "incorrect_answers": [
+            "New York",
+            "Los Angeles",
+            "Toronto"
+        ],
+        "explanation": "Ciudad de México je najveći grad u Sjevernoj Americi po broju stanovnika, s metropolitanskim područjem koje broji preko 20 milijuna ljudi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1587",
+        "category": "geografija",
+        "question": "Koja je država najveći izvoznik nafte na svijetu (stanje 2023.)?",
+        "correct_answer": "Saudijska Arabija",
+        "incorrect_answers": [
+            "SAD",
+            "Rusija",
+            "Kanada"
+        ],
+        "explanation": "Saudijska Arabija ima najveće dokazane rezerve nafte i najveći je izvoznik, igrajući ključnu ulogu na globalnom energetskom tržištu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1588",
+        "category": "geografija",
+        "question": "Kako se naziva fenomen gdje se Zemljina os rotacije blago pomiče, uzrokujući prividno pomicanje nebeskih polova?",
+        "correct_answer": "Precesija",
+        "incorrect_answers": [
+            "Nutacija",
+            "Rotacija",
+            "Revolucija"
+        ],
+        "explanation": "Precesija je sporo, konusno gibanje Zemljine osi rotacije, što rezultira pomicanjem točaka proljetne i jesenske ravnodnevnice duž ekliptike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1589",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Andama?",
+        "correct_answer": "Aconcagua",
+        "incorrect_answers": [
+            "Mount Logan",
+            "Mount Elbrus",
+            "Mont Blanc"
+        ],
+        "explanation": "Aconcagua u Argentini je s gotovo 7000 metara najviši vrh Anda i najviši vrh izvan Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1590",
+        "category": "geografija",
+        "question": "Koji je naziv za uski pojas obalnog kopna koji je bio potopljen rastom razine mora nakon ledenog doba?",
+        "correct_answer": "Potopljena obala",
+        "incorrect_answers": [
+            "Emergentna obala",
+            "Atol",
+            "Barijerni otok"
+        ],
+        "explanation": "Potopljene obale nastaju kada se razina mora podigne, plaveći niske dijelove kopna, često stvarajući estuarije i duboke zaljeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1591",
+        "category": "geografija",
+        "question": "Koja je država jedina koja graniči s Portugalom?",
+        "correct_answer": "Španjolska",
+        "incorrect_answers": [
+            "Francuska",
+            "Italija",
+            "Maroko"
+        ],
+        "explanation": "Portugal se nalazi na Pirenejskom poluotoku i jedina kopnena granica mu je sa Španjolskom na istoku i sjeveru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1592",
+        "category": "geografija",
+        "question": "Koji je naziv za tip oblaka koji se pojavljuje kao tanki, prozirni, perasti oblaci na velikim visinama?",
+        "correct_answer": "Cirusi",
+        "incorrect_answers": [
+            "Kumulusi",
+            "Stratusi",
+            "Nimbostratusi"
+        ],
+        "explanation": "Cirusi su oblaci sastavljeni od ledenih kristala koji se formiraju na visinama iznad 6000 metara, često najavljujući promjene vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1593",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki fenomen kada se tlo spušta ili slijedi naniže, obično zbog uklanjanja podzemne vode ili nafte?",
+        "correct_answer": "Subsidencija",
+        "incorrect_answers": [
+            "Uzdizanje",
+            "Erozija",
+            "Orogenza"
+        ],
+        "explanation": "Subsidencija je proces spuštanja ili slijeganja Zemljine površine, često uzrokovan prirodnim procesima ili ljudskim aktivnostima poput crpljenja podzemnih resursa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1594",
+        "category": "geografija",
+        "question": "Koja je najviša točka na sjevernoameričkom kontinentu?",
+        "correct_answer": "Denali (Mount McKinley)",
+        "incorrect_answers": [
+            "Mount Logan",
+            "Pico de Orizaba",
+            "Mount Whitney"
+        ],
+        "explanation": "Denali, ranije poznat kao Mount McKinley, najviši je vrh u Sjevernoj Americi, smješten na Aljasci s visinom od 6190 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1595",
+        "category": "geografija",
+        "question": "Koji je najveći arhipelag na svijetu (po broju otoka)?",
+        "correct_answer": "Malezija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Japan"
+        ],
+        "explanation": "Malezija ima najveći broj otoka, s više od 17.500 otoka, što je čini najvećom otočnom državom na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1596",
+        "category": "geografija",
+        "question": "Koja država, unatoč tome što je u Africi, pripada geografski i kulturno Bliskom istoku i ima obalu na Crvenom moru?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Sudan",
+            "Etiopija",
+            "Libija"
+        ],
+        "explanation": "Egipat je transkontinentalna država u sjeveroistočnoj Africi i jugozapadnoj Aziji (Sinajski poluotok), s jakim vezama s Bliskim istokom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1597",
+        "category": "geografija",
+        "question": "Koji je naziv za plitko područje oceana koje se proteže od obale kontinenta?",
+        "correct_answer": "Kontinentalna ploča (šelf)",
+        "incorrect_answers": [
+            "Oceanski rov",
+            "Abisalna ravnica",
+            "Podmorski greben"
+        ],
+        "explanation": "Kontinentalna ploča je rub kontinenta ispod mora, relativno plitak i bogat morskim životom, te geološki dio kontinenta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1598",
+        "category": "geografija",
+        "question": "Koja se rijeka smatra svetom u hinduizmu i teče kroz Indiju i Bangladeš?",
+        "correct_answer": "Ganga (Gang)",
+        "incorrect_answers": [
+            "Ind",
+            "Brahmaputra",
+            "Yamuna"
+        ],
+        "explanation": "Rijeka Ganga je najsvetija rijeka u hinduizmu, smatra se utjelovljenjem božice Gange i od vitalnog je značaja za život milijuna ljudi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1599",
+        "category": "geografija",
+        "question": "Koja je najviša točka u Velikoj Britaniji?",
+        "correct_answer": "Ben Nevis",
+        "incorrect_answers": [
+            "Snowdon",
+            "Scafell Pike",
+            "Slieve Donard"
+        ],
+        "explanation": "Ben Nevis je najviša planina u Škotskoj i Ujedinjenom Kraljevstvu, dio je Grampijskih planina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
