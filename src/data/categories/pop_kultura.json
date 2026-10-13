@@ -19343,5 +19343,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1552",
+        "category": "pop_kultura",
+        "question": "Koja je američka pjevačica, poznata po svojim snažnim vokalima i hitovima poput \"I Wanna Dance with Somebody (Who Loves Me)\" i \"Greatest Love of All\", preminula 2012. godine?",
+        "correct_answer": "Whitney Houston",
+        "incorrect_answers": [
+            "Mariah Carey",
+            "Celine Dion",
+            "Janet Jackson"
+        ],
+        "explanation": "Whitney Houston bila je jedna od najprodavanijih glazbenica svih vremena, s jednim od najmoćnijih vokala u povijesti pop glazbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1553",
+        "category": "pop_kultura",
+        "question": "Kako se zove filmski serijal u kojem se izvanzemaljci dijele u dvije rase, Xenomorfe i Predatore, koji se sukobljavaju međusobno i s ljudima?",
+        "correct_answer": "Alien vs. Predator",
+        "incorrect_answers": [
+            "Star Wars",
+            "Blade Runner",
+            "Predator vs. Human"
+        ],
+        "explanation": "Serijal \"Alien vs. Predator\" kombinira elemente dvaju popularnih znanstveno-fantastičnih franšiza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1554",
+        "category": "pop_kultura",
+        "question": "Koja je popularna američka sitcom serija, emitirana od 1989. do 1998. godine, pratila život komičara Jerryja Seinfelda i njegovih ekscentričnih prijatelja u New Yorku?",
+        "correct_answer": "Seinfeld",
+        "incorrect_answers": [
+            "Curb Your Enthusiasm",
+            "Friends",
+            "Frasier"
+        ],
+        "explanation": "\"Seinfeld\" je poznat kao \"serija o ničemu\" i jedan je od najutjecajnijih sitcom-a svih vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1555",
+        "category": "pop_kultura",
+        "question": "Tko je autor serijala knjiga \"Discworld\", humoristične fantasy sage smještene na ravnom svijetu koji nose četiri slona na leđima ogromne kornjače?",
+        "correct_answer": "Terry Pratchett",
+        "incorrect_answers": [
+            "Neil Gaiman",
+            "J.K. Rowling",
+            "George R.R. Martin"
+        ],
+        "explanation": "Terry Pratchett napisao je više od 40 romana u serijalu \"Discworld\", miješajući fantastiku i satiru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1556",
+        "category": "pop_kultura",
+        "question": "Koja je Nintendo videoigra iz 1986. godine pokrenula serijal o junaku Linku, princezi Zeldi i kraljevstvu Hyrule?",
+        "correct_answer": "The Legend of Zelda",
+        "incorrect_answers": [
+            "Super Mario Bros.",
+            "Metroid",
+            "Castlevania"
+        ],
+        "explanation": "\"The Legend of Zelda\" je akcija-avantura s elementima igranja uloga, koja je postavila standarde za žanr.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1557",
+        "category": "pop_kultura",
+        "question": "Kako se naziva popularni internetski meme koji uključuje sliku iz filma \"Willy Wonka & The Chocolate Factory\" s Geneom Wilderom u ulozi Willyja Wonke, često korišten za sarkastične komentare?",
+        "correct_answer": "Condescending Wonka",
+        "incorrect_answers": [
+            "Evil Kermit",
+            "Distracted Boyfriend",
+            "Grumpy Cat"
+        ],
+        "explanation": "Slika Genea Wildera kao Wonke iz filma iz 1971. godine postala je meme za izražavanje sarkazma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1558",
+        "category": "pop_kultura",
+        "question": "Koja je britanska rock grupa, osnovana 1962. godine, poznata po svojim ekstravagantnim nastupima i hitovima poput \"Sympathy for the Devil\" i \"Paint It Black\"?",
+        "correct_answer": "The Rolling Stones",
+        "incorrect_answers": [
+            "The Beatles",
+            "Led Zeppelin",
+            "Pink Floyd"
+        ],
+        "explanation": "The Rolling Stones su jedna od najdugovječnijih i najutjecajnijih rock grupa u povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1559",
+        "category": "pop_kultura",
+        "question": "Koji je animacijski studio, osnovan 1985. godine, stvorio popularne filmove poput \"Priča o igračkama\" (Toy Story), \"U potrazi za Nemom\" (Finding Nemo) i \"Coco\"?",
+        "correct_answer": "Pixar Animation Studios",
+        "incorrect_answers": [
+            "DreamWorks Animation",
+            "Walt Disney Animation Studios",
+            "Studio Ghibli"
+        ],
+        "explanation": "Pixar je pionir u računalno generiranoj animaciji i poznat je po inovativnim pričama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1560",
+        "category": "pop_kultura",
+        "question": "Koja je kritički hvaljena britanska TV serija pratila detektiva Sherrinforda Holmesa i njegovog partnera dr. Johna Watsona u modernom Londonu?",
+        "correct_answer": "Sherlock",
+        "incorrect_answers": [
+            "Doctor Who",
+            "Luther",
+            "Broadchurch"
+        ],
+        "explanation": "Serija \"Sherlock\" je moderna adaptacija klasičnih priča Arthura Conana Doylea, smještena u 21. stoljeće.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1561",
+        "category": "pop_kultura",
+        "question": "Tko je autor horor romana \"Ono\" (It), \"Isijavanje\" (The Shining) i \"Knjige žalosti\" (Misery), često nazivan \"kraljem horora\"?",
+        "correct_answer": "Stephen King",
+        "incorrect_answers": [
+            "H.P. Lovecraft",
+            "Edgar Allan Poe",
+            "Dean Koontz"
+        ],
+        "explanation": "Stephen King je jedan od najplodnijih i najpoznatijih autora horor fantastike u svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1562",
+        "category": "pop_kultura",
+        "question": "Koja je popularna serija videoigara, smještena u izmišljenim gradovima inspiriranim američkim metropolama, poznata po svojoj otvorenoj strukturi i slobodi djelovanja igrača?",
+        "correct_answer": "Grand Theft Auto",
+        "incorrect_answers": [
+            "Call of Duty",
+            "Assassin's Creed",
+            "The Elder Scrolls"
+        ],
+        "explanation": "\"Grand Theft Auto\" je sinonim za open-world igre s kriminalnom tematikom i slobodom izbora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1563",
+        "category": "pop_kultura",
+        "question": "Koja je društvena mreža, pokrenuta 2006. godine, postala dominantna za mikroblogiranje i dijeljenje kratkih tekstualnih poruka, sve dok nije preimenovana u \"X\" 2023. godine?",
+        "correct_answer": "Twitter",
+        "incorrect_answers": [
+            "Facebook",
+            "Instagram",
+            "Reddit"
+        ],
+        "explanation": "Twitter je bio ključna platforma za kratke vijesti i komunikaciju, a 2023. je rebrendiran u X.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1564",
+        "category": "pop_kultura",
+        "question": "Koja je američka pjevačica poznata po provokativnom imidžu, ekscentričnim kostimima i hitovima poput \"Bad Romance\" i \"Poker Face\"?",
+        "correct_answer": "Lady Gaga",
+        "incorrect_answers": [
+            "Katy Perry",
+            "Rihanna",
+            "Taylor Swift"
+        ],
+        "explanation": "Lady Gaga je poznata po svojem umjetničkom izričaju, vokalnim sposobnostima i modnim eksperimentima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1565",
+        "category": "pop_kultura",
+        "question": "Koji je glumac utjelovio lik Jokera u filmu \"Vitez tame\" (The Dark Knight) iz 2008. godine, za što je posmrtno osvojio Oscara?",
+        "correct_answer": "Heath Ledger",
+        "incorrect_answers": [
+            "Jack Nicholson",
+            "Joaquin Phoenix",
+            "Jared Leto"
+        ],
+        "explanation": "Heath Ledgerova izvedba Jokera smatra se jednom od najboljih u povijesti kinematografije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1566",
+        "category": "pop_kultura",
+        "question": "Koja je kultna znanstveno-fantastična TV serija, započeta 1966. godine, istraživala \"čudne nove svjetove\" s posadom broda Enterprise?",
+        "correct_answer": "Star Trek",
+        "incorrect_answers": [
+            "Battlestar Galactica",
+            "Doctor Who",
+            "Babylon 5"
+        ],
+        "explanation": "\"Star Trek\" je jedna od najutjecajnijih znanstveno-fantastičnih franšiza svih vremena, s dugom poviješću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1567",
+        "category": "pop_kultura",
+        "question": "Tko je autor distopijskog romana \"1984.\", objavljenog 1949. godine, koji uvodi pojmove poput \"Veliki brat\" i \"mislioci\"?",
+        "correct_answer": "George Orwell",
+        "incorrect_answers": [
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "Philip K. Dick"
+        ],
+        "explanation": "\"1984.\" je klasik distopijske književnosti koji kritizira totalitarne režime i nadzor.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1568",
+        "category": "pop_kultura",
+        "question": "Koja je popularna RPG videoigra iz 2015. godine, razvijena od strane CD Projekt Reda, smještena u fantazijskom svijetu inspiriranom slavenskom mitologijom i bazirana na romanima Andrzeja Sapkowskog?",
+        "correct_answer": "The Witcher 3: Wild Hunt",
+        "incorrect_answers": [
+            "Skyrim",
+            "Dragon Age: Inquisition",
+            "Mass Effect 3"
+        ],
+        "explanation": "\"The Witcher 3\" je hvaljen zbog svoje priče, svijeta i kompleksnih likova, osvojivši brojne nagrade.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1569",
+        "category": "pop_kultura",
+        "question": "Kako se naziva internetska platforma, pokrenuta 2011. godine, koja je postala primarna platforma za prijenos uživo (streaming) videoigara, e-sportova i drugog sadržaja?",
+        "correct_answer": "Twitch",
+        "incorrect_answers": [
+            "YouTube Live",
+            "Facebook Gaming",
+            "Mixer"
+        ],
+        "explanation": "Twitch je lider u live streamingu, posebno popularan među gamerima i influencerima, pokrenut 2011.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1570",
+        "category": "pop_kultura",
+        "question": "Koji je američki reper poznat po svojim kontroverznim tekstovima, složenim rimama i albumima poput \"The Marshall Mathers LP\" i \"Curtain Call\"?",
+        "correct_answer": "Eminem",
+        "incorrect_answers": [
+            "Jay-Z",
+            "Dr. Dre",
+            "Kendrick Lamar"
+        ],
+        "explanation": "Eminem je jedan od najprodavanijih glazbenih umjetnika i smatra se jednim od najvećih repera svih vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1571",
+        "category": "pop_kultura",
+        "question": "Koji je film iz 1999. godine, s Keanuom Reevesom u glavnoj ulozi, predstavio koncept simulirane stvarnosti poznate kao \"Matrix\"?",
+        "correct_answer": "The Matrix",
+        "incorrect_answers": [
+            "Inception",
+            "Tron",
+            "Dark City"
+        ],
+        "explanation": "\"The Matrix\" je revolucionaran akcijski znanstveno-fantastični film koji je utjecao na popularnu kulturu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1572",
+        "category": "pop_kultura",
+        "question": "Koja je animirana serija, započeta 1989. godine, postala najdugovječnija američka scenarizirana serija u povijesti televizije, prateći disfunkcionalnu obitelj u Springfieldu?",
+        "correct_answer": "The Simpsons",
+        "incorrect_answers": [
+            "Family Guy",
+            "South Park",
+            "Futurama"
+        ],
+        "explanation": "\"The Simpsons\" su kulturni fenomen poznati po satiri i dugovječnosti, s emitiranjem od 1989. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1573",
+        "category": "pop_kultura",
+        "question": "Koji je engleski autor napisao serijal knjiga o mladom čarobnjaku Harryju Potteru i njegovim avanturama u Školi vještičarenja i čarobnjaštva Hogwarts?",
+        "correct_answer": "J.K. Rowling",
+        "incorrect_answers": [
+            "C.S. Lewis",
+            "Philip Pullman",
+            "Rick Riordan"
+        ],
+        "explanation": "J.K. Rowling je stvorila jedan od najpopularnijih književnih serijala svih vremena, prodan u stotinama milijuna primjeraka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1574",
+        "category": "pop_kultura",
+        "question": "Koja je Capcomova serija videoigara, pokrenuta 1996. godine, poznata po svojim elementima preživljavanja, zombijima i korporaciji Umbrella?",
+        "correct_answer": "Resident Evil",
+        "incorrect_answers": [
+            "Silent Hill",
+            "Dead Space",
+            "The Last of Us"
+        ],
+        "explanation": "\"Resident Evil\" je ključan naslov u žanru survival horrora i poznat je po napetoj atmosferi i zombijima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1575",
+        "category": "pop_kultura",
+        "question": "Kako se naziva fenomen iz ranih 2010-ih, kada su ljudi diljem svijeta masovno plesali i snimali se uz zaraznu pjesmu \"Gangnam Style\" južnokorejskog repera PSY-ja?",
+        "correct_answer": "Gangnam Style",
+        "incorrect_answers": [
+            "Macarena",
+            "Cha-Cha Slide",
+            "Harlem Shake"
+        ],
+        "explanation": "\"Gangnam Style\" je 2012. postao prvi YouTube video s više od milijardu pregleda, potaknuvši globalni plesni trend.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1576",
+        "category": "pop_kultura",
+        "question": "Koja je američka grunge grupa iz Seattlea, s Kurtom Cobainom kao frontmenom, postigla globalni uspjeh 90-ih godina s albumom \"Nevermind\" i hitom \"Smells Like Teen Spirit\"?",
+        "correct_answer": "Nirvana",
+        "incorrect_answers": [
+            "Pearl Jam",
+            "Soundgarden",
+            "Alice in Chains"
+        ],
+        "explanation": "Nirvana je bila jedna od najutjecajnijih grupa 90-ih, predvodeći grunge pokret.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1577",
+        "category": "pop_kultura",
+        "question": "Koji je glumac utjelovio Jamesa Bonda u najviše službenih filmova serijala, ukupno sedam, uključujući \"Živi i pusti umrijeti\" i \"Špijun koji me volio\"?",
+        "correct_answer": "Roger Moore",
+        "incorrect_answers": [
+            "Sean Connery",
+            "Daniel Craig",
+            "Pierce Brosnan"
+        ],
+        "explanation": "Roger Moore je držao rekord za najviše nastupa kao James Bond od 1973. do 1985. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1578",
+        "category": "pop_kultura",
+        "question": "Koja je reality TV serija, započeta 2007. godine, pratila živote obitelji Kardashian-Jenner i postala globalni fenomen pop kulture?",
+        "correct_answer": "Keeping Up with the Kardashians",
+        "incorrect_answers": [
+            "The Real Housewives of Beverly Hills",
+            "Jersey Shore",
+            "The Simple Life"
+        ],
+        "explanation": "Ova serija je proslavila obitelj Kardashian i utjecala na mnoge aspekte modernih medija od 2007. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1579",
+        "category": "pop_kultura",
+        "question": "Koja je znanstveno-fantastična novela Daniela Keyesa iz 1959. godine, kasnije proširena u roman, prati priču o Charlieju Gordonu, muškarcu s mentalnim poteškoćama koji se podvrgava eksperimentalnoj operaciji za povećanje inteligencije?",
+        "correct_answer": "Cvijeće za Algernona",
+        "incorrect_answers": [
+            "Neuromancer",
+            "Fahrenheit 451",
+            "Vodič kroz galaksiju za autostopere"
+        ],
+        "explanation": "\"Cvijeće za Algernona\" je dirljiva priča o inteligenciji, identitetu i ljudskosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1580",
+        "category": "pop_kultura",
+        "question": "Koja je popularna serija videoigara, pokrenuta 2007. godine, poznata po likovima ubojica (assassins) koji se bore protiv Templara kroz različite povijesne epohe?",
+        "correct_answer": "Assassin's Creed",
+        "incorrect_answers": [
+            "Prince of Persia",
+            "God of War",
+            "Uncharted"
+        ],
+        "explanation": "\"Assassin's Creed\" je poznat po kombiniranju povijesne fikcije s elementima akcije i avanture od 2007. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1581",
+        "category": "pop_kultura",
+        "question": "Koja je internetska streaming platforma, pokrenuta 2007. godine u SAD-u, postala dominantna u svijetu za pretplatnički video na zahtjev, nudeći širok raspon filmova i serija?",
+        "correct_answer": "Netflix",
+        "incorrect_answers": [
+            "Hulu",
+            "Amazon Prime Video",
+            "Disney+"
+        ],
+        "explanation": "Netflix je pionir u industriji streaminga i promijenio je način konzumacije medija, pokrenut 2007. godine u SAD-u.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1582",
+        "category": "pop_kultura",
+        "question": "Koja je kanadska pjevačica poznata po svojim emotivnim baladama i hitovima poput \"My Heart Will Go On\" (iz filma Titanic) i \"It's All Coming Back to Me Now\"?",
+        "correct_answer": "Celine Dion",
+        "incorrect_answers": [
+            "Mariah Carey",
+            "Whitney Houston",
+            "Adele"
+        ],
+        "explanation": "Celine Dion je jedna od najuspješnijih pjevačica u povijesti s milijunima prodanih albuma diljem svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1583",
+        "category": "pop_kultura",
+        "question": "Koja je epska fantastična filmska trilogija, redatelja Petera Jacksona, smještena u svijet Srednje zemlje i prati Frodovu potragu za uništenjem Jedinstvenog Prstena?",
+        "correct_answer": "Gospodar prstenova",
+        "incorrect_answers": [
+            "Kronike iz Narnije",
+            "Harry Potter",
+            "Eragon"
+        ],
+        "explanation": "\"Gospodar prstenova\" je jedna od najcjenjenijih filmskih trilogija svih vremena, dobitnik mnogih Oscara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1584",
+        "category": "pop_kultura",
+        "question": "Koja je kultna američka znanstveno-fantastična TV serija iz 90-ih pratila agente FBI-a Foxa Muldera i Danu Scully kako istražuju neobjašnjive paranormalne pojave i vladine zavjere?",
+        "correct_answer": "Dosjei X",
+        "incorrect_answers": [
+            "Zona sumraka",
+            "Zvjezdana vrata",
+            "Twin Peaks"
+        ],
+        "explanation": "\"Dosjei X\" su postali kulturni fenomen, kombinirajući znanstvenu fantastiku, horor i zavjere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1585",
+        "category": "pop_kultura",
+        "question": "Tko je autor romana \"Lovac u žitu\" (The Catcher in the Rye), objavljenog 1951. godine, koji prati buntovnog tinejdžera Holdena Caulfielda?",
+        "correct_answer": "J.D. Salinger",
+        "incorrect_answers": [
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway",
+            "John Steinbeck"
+        ],
+        "explanation": "\"Lovac u žitu\" je klasik američke književnosti i često se ubraja među najvažnije romane 20. stoljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1586",
+        "category": "pop_kultura",
+        "question": "Koja je popularna serija Nintendo trkaćih videoigara, započeta 1992. godine, poznata po svojim šarenim stazama i korištenju raznih predmeta za ometanje protivnika?",
+        "correct_answer": "Mario Kart",
+        "incorrect_answers": [
+            "Gran Turismo",
+            "Need for Speed",
+            "Forza Motorsport"
+        ],
+        "explanation": "\"Mario Kart\" je zabavna i kompetitivna trkaća igra koja je definirala žanr kart racinga, s početkom 1992.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1587",
+        "category": "pop_kultura",
+        "question": "Koja je društvena mreža, pokrenuta 2004. godine, s primarnim fokusom na uspostavljanje kontakta između studenata, ali je ubrzo postala najveća svjetska društvena mreža?",
+        "correct_answer": "Facebook",
+        "incorrect_answers": [
+            "MySpace",
+            "LinkedIn",
+            "Twitter"
+        ],
+        "explanation": "Facebook je revolucionirao društvene mreže i postao globalni lider u povezivanju ljudi, pokrenut 2004.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1588",
+        "category": "pop_kultura",
+        "question": "Koja je britanska boy grupa, formirana 2010. godine kroz emisiju The X Factor, postigla globalni uspjeh s hitovima poput \"What Makes You Beautiful\" i \"Story of My Life\"?",
+        "correct_answer": "One Direction",
+        "incorrect_answers": [
+            "Backstreet Boys",
+            "N'Sync",
+            "Take That"
+        ],
+        "explanation": "One Direction je postao jedan od najuspješnijih boy bendova u povijesti, s ogromnom bazom fanova, od 2010. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1589",
+        "category": "pop_kultura",
+        "question": "Koji je filmski redatelj poznat po svojim fantastičnim filmovima s mračnim elementima i vizualnom estetikom, uključujući \"Panov labirint\" i \"Oblik vode\"?",
+        "correct_answer": "Guillermo del Toro",
+        "incorrect_answers": [
+            "Christopher Nolan",
+            "Denis Villeneuve",
+            "Alfonso Cuarón"
+        ],
+        "explanation": "Guillermo del Toro je majstor fantastičnih filmova, često s elementima horora i bajke, s prepoznatljivim stilom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1590",
+        "category": "pop_kultura",
+        "question": "Koja je true crime dokumentarna serija, objavljena na Netflixu 2015. godine, privukla veliku pozornost javnosti istražujući slučaj Stevena Averyja?",
+        "correct_answer": "Making a Murderer",
+        "incorrect_answers": [
+            "The Jinx",
+            "Tiger King",
+            "Unsolved Mysteries"
+        ],
+        "explanation": "\"Making a Murderer\" je potaknula rasprave o pravnom sustavu i krivnji Stevena Averyja nakon objave 2015.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_pop_1591",
+        "category": "pop_kultura",
+        "question": "Koja je popularna indie videoigra iz 2018. godine, hvaljena zbog svoje priče, pikselizirane grafike i emotivnog soundtracka, o djevojčici koja se penje na planinu Celeste?",
+        "correct_answer": "Celeste",
+        "incorrect_answers": [
+            "Hollow Knight",
+            "Undertale",
+            "Stardew Valley"
+        ],
+        "explanation": "\"Celeste\" je platformer poznat po izazovnoj igrivosti i dirljivoj priči o mentalnom zdravlju, objavljen 2018. (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
