@@ -20388,5 +20388,575 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1614",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Cvijet sa raskršća' i 'Glembajevi'?",
+        "correct_answer": "Miroslav Krleža",
+        "incorrect_answers": [
+            "August Šenoa",
+            "Ranko Marinković",
+            "Ivo Andrić"
+        ],
+        "explanation": "Miroslav Krleža (1893-1981) je jedan od najvećih hrvatskih književnika, poznat po opsežnom opusu drama, romana i pjesama, uključujući 'Gospodu Glembajeve'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1615",
+        "category": "knjizevnost",
+        "question": "Tko je naslikao fresku 'Posljednja večera' u samostanu Santa Maria delle Grazie u Milanu?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo Buonarroti",
+            "Raffaello Santi",
+            "Sandro Botticelli"
+        ],
+        "explanation": "Leonardo da Vinci je renesansni genij koji je naslikao monumentalnu fresku 'Posljednja večera', koja prikazuje Isusovu posljednju večeru s apostolima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1616",
+        "category": "knjizevnost",
+        "question": "Koji je ruski kompozitor autor baleta 'Labuđe jezero' i 'Orašar'?",
+        "correct_answer": "Petar Iljič Čajkovski",
+        "incorrect_answers": [
+            "Sergej Rahmanjinov",
+            "Igor Stravinski",
+            "Nikolaj Rimski-Korsakov"
+        ],
+        "explanation": "Petar Iljič Čajkovski je jedan od najpoznatijih ruskih kompozitora čiji su baleti postali klasici svjetske glazbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1617",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pravac nastao u Francuskoj, karakteriziran intenzivnim bojama i deformiranim oblicima, čiji je predstavnik bio Henri Matisse?",
+        "correct_answer": "Fovizam",
+        "incorrect_answers": [
+            "Kubizam",
+            "Impresionizam",
+            "Nadrealizam"
+        ],
+        "explanation": "Fovizam je prvi avangardni pokret 20. stoljeća, nazvan po francuskoj riječi 'les fauves' (divlje zvijeri) zbog upotrebe jarkih, nerealističnih boja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1618",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski dramatičar i pjesnik, poznat po djelu 'Don Quijote', bio jedna od ključnih figura španjolske književnosti?",
+        "correct_answer": "Miguel de Cervantes Saavedra",
+        "incorrect_answers": [
+            "Lope de Vega",
+            "Calderón de la Barca",
+            "Federico García Lorca"
+        ],
+        "explanation": "Miguel de Cervantes Saavedra je autor 'Don Quijotea', koji se često smatra prvim modernim romanom i jednim od najvećih književnih djela svih vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1619",
+        "category": "knjizevnost",
+        "question": "Koja je tehnika kiparstva u kojoj se materijal uklanja kako bi se stvorio oblik, za razliku od dodavanja materijala?",
+        "correct_answer": "Oduzimanje (subtrakcija)",
+        "incorrect_answers": [
+            "Modeliranje",
+            "Asamblaža",
+            "Lijevanje"
+        ],
+        "explanation": "Oduzimanje je tehnika koja uključuje rezanje ili klesanje materijala poput kamena ili drveta, dok modeliranje dodaje materijal.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1620",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski skladatelj autor opere 'Ero s onoga svijeta'?",
+        "correct_answer": "Jakov Gotovac",
+        "incorrect_answers": [
+            "Ivan Zajc",
+            "Blagoje Bersa",
+            "Vatroslav Lisinski"
+        ],
+        "explanation": "Jakov Gotovac je najpoznatiji po svojoj operi 'Ero s onoga svijeta', koja je praizvedena 1935. i postala je nezaobilazan dio hrvatske operne baštine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1621",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za žanr popularne glazbe koji je nastao u SAD-u krajem 19. i početkom 20. stoljeća, karakteriziran sinkopiranim ritmom?",
+        "correct_answer": "Ragtime",
+        "incorrect_answers": [
+            "Blues",
+            "Jazz",
+            "Gospel"
+        ],
+        "explanation": "Ragtime je žanr nastao među afroameričkim pijanistima, a najpoznatiji predstavnik bio je Scott Joplin.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1622",
+        "category": "knjizevnost",
+        "question": "Tko je autor distopijskog romana '1984.'?",
+        "correct_answer": "George Orwell",
+        "incorrect_answers": [
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "Kurt Vonnegut"
+        ],
+        "explanation": "George Orwell (pravo ime Eric Arthur Blair) napisao je '1984.', roman koji kritizira totalitarizam i sustave kontrole društva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1623",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret, nastao u Njemačkoj početkom 20. stoljeća, fokusiran na izražavanje unutarnjih emocija i subjektivne stvarnosti?",
+        "correct_answer": "Ekspresionizam",
+        "incorrect_answers": [
+            "Futurizam",
+            "Kubizam",
+            "Realizam"
+        ],
+        "explanation": "Ekspresionizam je pokret koji je naglašavao subjektivni prikaz svijeta kroz snažne emocije, boje i distorziju, nasuprot objektivnoj stvarnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1624",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za književni žanr koji kombinira fantastične elemente s realističnim prikazom, često u latinskoameričkoj književnosti?",
+        "correct_answer": "Magijski realizam",
+        "incorrect_answers": [
+            "Gotski roman",
+            "Egzistencijalizam",
+            "Postmodernizam"
+        ],
+        "explanation": "Magijski realizam je žanr u kojem se magični elementi pojavljuju u inače realističnom svijetu, a istaknuti predstavnik je Gabriel García Márquez.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1625",
+        "category": "knjizevnost",
+        "question": "Tko je autor monumentalne skulpture 'Davida' u Firenci?",
+        "correct_answer": "Michelangelo Buonarroti",
+        "incorrect_answers": [
+            "Donatello",
+            "Gian Lorenzo Bernini",
+            "Auguste Rodin"
+        ],
+        "explanation": "Michelangelo je stvorio 'Davida' između 1501. i 1504. godine, prikazujući biblijskog junaka prije borbe s Golijatom, simbol Firentinske Republike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1626",
+        "category": "knjizevnost",
+        "question": "Koji je američki redatelj, poznat po filmovima 'Istrebljivač' i 'Gladijator', često kombinira vizualnu raskoš s dubokim temama?",
+        "correct_answer": "Ridley Scott",
+        "incorrect_answers": [
+            "Steven Spielberg",
+            "James Cameron",
+            "Christopher Nolan"
+        ],
+        "explanation": "Ridley Scott je poznat po svom prepoznatljivom vizualnom stilu i stvaranju utjecajnih znanstveno-fantastičnih i povijesnih filmova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1627",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za arhitektonski stil koji se razvio u Europi od 17. do sredine 18. stoljeća, karakteriziran raskošnošću, dramatičnošću i zakrivljenim linijama?",
+        "correct_answer": "Barok",
+        "incorrect_answers": [
+            "Romanika",
+            "Gotika",
+            "Renesansa"
+        ],
+        "explanation": "Barokni stil razvio se iz renesanse, naglašavajući kretanje, dramu i emocionalni intenzitet u umjetnosti i arhitekturi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1628",
+        "category": "knjizevnost",
+        "question": "Koji je njemački filozof i skladatelj, poznat po svojim operama poput 'Tristan i Izolda' i 'Prsten Nibelunga', u kojima je razvio koncept 'Gesamtkunstwerka'?",
+        "correct_answer": "Richard Wagner",
+        "incorrect_answers": [
+            "Ludwig van Beethoven",
+            "Wolfgang Amadeus Mozart",
+            "Johannes Brahms"
+        ],
+        "explanation": "Richard Wagner je revolucionirao operu kroz koncepciju 'totalnog umjetničkog djela' (Gesamtkunstwerk), spajajući glazbu, dramu i vizualne elemente.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1629",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za književnu figuru u kojoj se stvari, ideje ili osobine personificiraju, tj. dobivaju ljudske osobine?",
+        "correct_answer": "Personifikacija",
+        "incorrect_answers": [
+            "Metafora",
+            "Usporedba",
+            "Hiperbola"
+        ],
+        "explanation": "Personifikacija je stilska figura kojom se neživim predmetima, apstraktnim pojmovima ili životinjama pridaju ljudske osobine i sposobnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1630",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski postimpresionistički slikar, poznat po svojim snažnim bojama i emotivnom stilu, autor 'Zvjezdane noći'?",
+        "correct_answer": "Vincent van Gogh",
+        "incorrect_answers": [
+            "Paul Cézanne",
+            "Paul Gauguin",
+            "Claude Monet"
+        ],
+        "explanation": "Vincent van Gogh je bio nizozemski slikar čije je djelo imalo dalekosežan utjecaj na umjetnost 20. stoljeća. Njegov stil karakteriziraju snažni potezi kistom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1631",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Kratki izlet' i 'Kurlani'?",
+        "correct_answer": "Ranko Marinković",
+        "incorrect_answers": [
+            "Vladan Desnica",
+            "Slobodan Novak",
+            "Ivan Aralica"
+        ],
+        "explanation": "Ranko Marinković (1913-2001) je majstor kratke priče i romana, poznat po svojoj ironiji i psihološkim studijama likova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1632",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret nastao u Rusiji početkom 20. stoljeća, karakteriziran geometrizmom i dinamikom, često povezan s revolucionarnim idejama?",
+        "correct_answer": "Konstruktivizam",
+        "incorrect_answers": [
+            "Suprematizam",
+            "Fovizam",
+            "Bauhaus"
+        ],
+        "explanation": "Konstruktivizam je umjetnički i arhitektonski filozofski pokret koji je zagovarao umjetnost u službi društva i industrije, s naglaskom na funkcionalnost i nove materijale.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1633",
+        "category": "knjizevnost",
+        "question": "Koji je britanski pisac, poznat po svojim detektivskim romanima s Herculeom Poirotom i Miss Marple?",
+        "correct_answer": "Agatha Christie",
+        "incorrect_answers": [
+            "Arthur Conan Doyle",
+            "Dorothy L. Sayers",
+            "Raymond Chandler"
+        ],
+        "explanation": "Agatha Christie (1890-1976) je najprodavanija autorica svih vremena, poznata kao 'Kraljica zločina' zbog svojih kompleksnih detektivskih zapleta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1634",
+        "category": "knjizevnost",
+        "question": "Koji je njemački skladatelj autor 'Devete simfonije' s 'Odom radosti'?",
+        "correct_answer": "Ludwig van Beethoven",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "Wolfgang Amadeus Mozart",
+            "Johannes Brahms"
+        ],
+        "explanation": "Ludwig van Beethoven je bio ključna figura u prijelazu iz klasičnog u romantično glazbeno razdoblje. Njegova Deveta simfonija je jedno od najslavnijih djela klasične glazbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1635",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za arhitektonski element koji se koristi za potporu luka ili svoda, često bogato dekoriran?",
+        "correct_answer": "Kapitel",
+        "incorrect_answers": [
+            "Friza",
+            "Arhitrav",
+            "Korniša"
+        ],
+        "explanation": "Kapitel je gornji, završni dio stupa ili pilastra, koji nosi teret entablature ili luka, i često je ukrašen specifičnim motivima prema arhitektonskom redu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1636",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac, dobitnik Nobelove nagrade, autor romana 'Stranac' i 'Mit o Sizifu'?",
+        "correct_answer": "Albert Camus",
+        "incorrect_answers": [
+            "Jean-Paul Sartre",
+            "André Gide",
+            "Marcel Proust"
+        ],
+        "explanation": "Albert Camus je bio francuski filozof, pisac i dramatičar, povezan s filozofijom apsurda i egzistencijalizma. Nobelovu nagradu dobio je 1957. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1637",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za tehniku slikanja gdje se pigmenti miješaju s jajčanim žumanjkom kao vezivom?",
+        "correct_answer": "Tempera",
+        "incorrect_answers": [
+            "Akvarel",
+            "Ulje na platnu",
+            "Gvaš"
+        ],
+        "explanation": "Tempera je stara tehnika slikanja koja je bila dominantna prije razvoja uljanih boja, a karakterizira je brzina sušenja i postojanost boja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1638",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik i dramatičar autor drame 'Dubrovačka trilogija' i pjesme 'Suton'?",
+        "correct_answer": "Ivo Vojnović",
+        "incorrect_answers": [
+            "Milan Begović",
+            "Josip Kozarac",
+            "Vjenceslav Novak"
+        ],
+        "explanation": "Ivo Vojnović (1857-1929) je bio važan predstavnik hrvatske moderne, poznat po svojim dramama koje prikazuju propadanje dubrovačkog plemstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1639",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor autor 'Aide', 'Rigoletta' i 'La Traviate'?",
+        "correct_answer": "Giuseppe Verdi",
+        "incorrect_answers": [
+            "Giacomo Puccini",
+            "Vincenzo Bellini",
+            "Gaetano Donizetti"
+        ],
+        "explanation": "Giuseppe Verdi je bio jedan od najutjecajnijih talijanskih opernih skladatelja 19. stoljeća, poznat po snažnim melodijama i dramatičnim zapletima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1640",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pravac, nastao u Francuskoj početkom 20. stoljeća, karakteriziran razbijanjem predmeta na geometrijske oblike i prikazivanjem iz više perspektiva?",
+        "correct_answer": "Kubizam",
+        "incorrect_answers": [
+            "Fovizam",
+            "Nadrealizam",
+            "Futurizam"
+        ],
+        "explanation": "Kubizam je revolucionirao slikarstvo i kiparstvo. Njegovi osnivači su Pablo Picasso i Georges Braque, a teži prikazivanju objekata iz svih kutova istovremeno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1641",
+        "category": "knjizevnost",
+        "question": "Koji je irski pisac, autor drame 'Čekajući Godota', dobitnik Nobelove nagrade za književnost?",
+        "correct_answer": "Samuel Beckett",
+        "incorrect_answers": [
+            "William Butler Yeats",
+            "George Bernard Shaw",
+            "Oscar Wilde"
+        ],
+        "explanation": "Samuel Beckett je ključna figura kazališta apsurda, a 'Čekajući Godota' je njegovo najpoznatije djelo. Nobelovu nagradu dobio je 1969. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1642",
+        "category": "knjizevnost",
+        "question": "Koji je švedski filmski redatelj, poznat po filmovima 'Sedmi pečat' i 'Fanny i Alexander'?",
+        "correct_answer": "Ingmar Bergman",
+        "incorrect_answers": [
+            "Lars von Trier",
+            "Agnès Varda",
+            "Akira Kurosawa"
+        ],
+        "explanation": "Ingmar Bergman (1918-2007) je bio jedan od najutjecajnijih filmskih redatelja svih vremena, poznat po istraživanju egzistencijalnih i duhovnih tema.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1643",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za glazbeni stil koji je nastao u SAD-u krajem 19. i početkom 20. stoljeća, kombinirajući elemente europske harmonije s afroameričkim ritmovima?",
+        "correct_answer": "Jazz",
+        "incorrect_answers": [
+            "Blues",
+            "Rock and roll",
+            "Soul"
+        ],
+        "explanation": "Jazz je glazbeni žanr koji se razvio u New Orleansu, a karakteriziraju ga improvizacija, sinkopa i swing ritam, te složene harmonije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1644",
+        "category": "knjizevnost",
+        "question": "Tko je autor slike 'Guernica', koja prikazuje strahote rata?",
+        "correct_answer": "Pablo Picasso",
+        "incorrect_answers": [
+            "Salvador Dalí",
+            "Joan Miró",
+            "Francisco Goya"
+        ],
+        "explanation": "Pablo Picasso je naslikao 'Guernicu' 1937. godine, kao snažan antiratni simbol i odgovor na bombardiranje baskijskog grada Guernice tijekom Španjolskog građanskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1645",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, poznat po povijesnim romanima poput 'Zlatarovo zlato'?",
+        "correct_answer": "August Šenoa",
+        "incorrect_answers": [
+            "Ksaver Šandor Gjalski",
+            "Eugen Kumičić",
+            "Ante Kovačić"
+        ],
+        "explanation": "August Šenoa (1838-1881) je ključna figura u hrvatskoj književnosti, poznat kao 'otac hrvatskog romana' i pisac povijesnih romana koji su oblikovali nacionalnu svijest.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1646",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za skupinu umjetnika koji su se udružili u Amsterdamu 1917. godine, zagovarajući geometrijsku apstrakciju i primarne boje?",
+        "correct_answer": "De Stijl",
+        "incorrect_answers": [
+            "Bauhaus",
+            "Der Blaue Reiter",
+            "Die Brücke"
+        ],
+        "explanation": "De Stijl (Nizozemski za 'Stil') bio je umjetnički pokret čiji su istaknuti članovi bili Piet Mondrian i Theo van Doesburg. Težili su jednostavnosti i harmoniji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1647",
+        "category": "knjizevnost",
+        "question": "Koji je francuski kompozitor, poznat po simfoniji 'Fantastična simfonija', smatra se pionirom romantične programske glazbe?",
+        "correct_answer": "Hector Berlioz",
+        "incorrect_answers": [
+            "Frédéric Chopin",
+            "Franz Liszt",
+            "Robert Schumann"
+        ],
+        "explanation": "Hector Berlioz (1803-1869) je bio inovator u orkestraciji i jedan od prvih romantičnih skladatelja koji je glazbu povezivao s konkretnom pričom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1648",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski renesansni umjetnik, poznat po fresci 'Stvaranje Adama' na stropu Sikstinske kapele?",
+        "correct_answer": "Michelangelo Buonarroti",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Raffaello Santi",
+            "Donatello"
+        ],
+        "explanation": "Michelangelo (1475-1564) je bio slikar, kipar, arhitekt i pjesnik renesanse. Strop Sikstinske kapele, uključujući 'Stvaranje Adama', njegovo je remek-djelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1649",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor komedije 'Dundo Maroje'?",
+        "correct_answer": "Marin Držić",
+        "incorrect_answers": [
+            "Hanibal Lucić",
+            "Petar Hektorović",
+            "Mavro Vetranović"
+        ],
+        "explanation": "Marin Držić (1508-1567) je jedan od najvećih hrvatskih komediografa renesanse, a 'Dundo Maroje' je njegova najpoznatija komedija karaktera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1650",
+        "category": "knjizevnost",
+        "question": "Koji je američki pisac znanstvene fantastike autor romana 'Dina'?",
+        "correct_answer": "Frank Herbert",
+        "incorrect_answers": [
+            "Isaac Asimov",
+            "Philip K. Dick",
+            "Robert Heinlein"
+        ],
+        "explanation": "Frank Herbert je autor epohalnog znanstveno-fantastičnog romana 'Dina', koji je postao klasik žanra i inspirirao brojna druga djela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_art_1651",
+        "category": "knjizevnost",
+        "question": "Koji je naziv za umjetničku tehniku koja koristi sitne komadiće stakla, kamena ili drugih materijala za stvaranje slike?",
+        "correct_answer": "Mozaik",
+        "incorrect_answers": [
+            "Frezka",
+            "Vitraj",
+            "Intarzija"
+        ],
+        "explanation": "Mozaik je umjetnička tehnika dekoriranja površina slaganjem malih, obojenih komada (tesera) u uzorke ili slike, poznata još od antike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
