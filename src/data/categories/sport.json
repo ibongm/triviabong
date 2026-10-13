@@ -22204,5 +22204,605 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1784",
+        "category": "sport",
+        "question": "Koji je nogometni klub osvojio najviše naslova UEFA Lige prvaka (stanje 2024.)?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "AC Milan",
+            "Bayern München",
+            "Barcelona"
+        ],
+        "explanation": "Real Madrid je rekorder s 14 naslova pobjednika Lige prvaka, više od bilo kojeg drugog europskog kluba.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1785",
+        "category": "sport",
+        "question": "Koji NBA igrač ima najviše postignutih poena u povijesti (stanje 2024.)?",
+        "correct_answer": "LeBron James",
+        "incorrect_answers": [
+            "Kareem Abdul-Jabbar",
+            "Michael Jordan",
+            "Kobe Bryant"
+        ],
+        "explanation": "LeBron James je 2023. godine prestigao Kareema Abdul-Jabbara i postao najbolji strijelac NBA lige svih vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1786",
+        "category": "sport",
+        "question": "Koji tenisač ima najviše osvojenih pojedinačnih Grand Slam naslova u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Novak Đoković",
+        "incorrect_answers": [
+            "Rafael Nadal",
+            "Roger Federer",
+            "Pete Sampras"
+        ],
+        "explanation": "Novak Đoković drži rekord s 24 osvojena Grand Slam naslova u pojedinačnoj konkurenciji, čime je nadmašio sve ostale tenisače.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1787",
+        "category": "sport",
+        "question": "Koja je rukometna reprezentacija osvojila najviše svjetskih prvenstava u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Švedska",
+            "Rumunjska",
+            "Hrvatska"
+        ],
+        "explanation": "Francuska muška rukometna reprezentacija osvojila je rekordnih šest naslova svjetskih prvaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1788",
+        "category": "sport",
+        "question": "Koja momčad drži rekord po broju osvojenih konstruktorskih naslova u Formuli 1 (stanje 2024.)?",
+        "correct_answer": "Ferrari",
+        "incorrect_answers": [
+            "Mercedes",
+            "Williams",
+            "McLaren"
+        ],
+        "explanation": "Scuderia Ferrari je najuspješnija momčad u povijesti Formule 1 s 16 osvojenih konstruktorskih prvenstava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1789",
+        "category": "sport",
+        "question": "Tko je aktualni svjetski rekorder u utrci na 100 metara u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Usain Bolt",
+        "incorrect_answers": [
+            "Tyson Gay",
+            "Yohan Blake",
+            "Justin Gatlin"
+        ],
+        "explanation": "Usain Bolt drži svjetski rekord od 9.58 sekundi, postavljen 2009. godine, i još uvijek je najbrži čovjek na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1790",
+        "category": "sport",
+        "question": "Koji od navedenih stilova plivanja nije olimpijska disciplina?",
+        "correct_answer": "Pas",
+        "incorrect_answers": [
+            "Leđno",
+            "Delfin",
+            "Prsno"
+        ],
+        "explanation": "Pas je neformalni stil plivanja i nije priznat kao natjecateljska olimpijska disciplina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1791",
+        "category": "sport",
+        "question": "Koliko igrača izlazi na teren u jednoj momčadi na početku odbojkaške utakmice?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "4"
+        ],
+        "explanation": "Odbojkaška momčad se sastoji od šest igrača na terenu, koji rotiraju po pozicijama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1792",
+        "category": "sport",
+        "question": "Koliko golf turnira kategorije 'Major' postoji u muškom profesionalnom golfu?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "3",
+            "5",
+            "6"
+        ],
+        "explanation": "Četiri glavna golf turnira su Masters, PGA Championship, US Open i The Open Championship (British Open).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1793",
+        "category": "sport",
+        "question": "Koja je najduža pojedinačna utrka u biatlonu za muškarce?",
+        "correct_answer": "Individualna utrka 20 km",
+        "incorrect_answers": [
+            "Sprint 10 km",
+            "Potjera 12.5 km",
+            "Masovni start 15 km"
+        ],
+        "explanation": "Individualna utrka od 20 km uključuje četiri streljačka kruga i najduža je disciplina u biatlonu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1794",
+        "category": "sport",
+        "question": "Koju težinsku kategoriju u boksu nazivamo 'teška kategorija' (heavyweight)?",
+        "correct_answer": "Iznad 90.72 kg (200 lbs)",
+        "incorrect_answers": [
+            "Iznad 86.18 kg",
+            "Iznad 95.25 kg",
+            "Iznad 80.00 kg"
+        ],
+        "explanation": "Teška kategorija u profesionalnom boksu obuhvaća sve borce teže od 90.72 kilograma (200 funti).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1795",
+        "category": "sport",
+        "question": "Kako se zove konjička disciplina u kojoj konj i jahač izvode unaprijed određene figure i pokrete?",
+        "correct_answer": "Dresura",
+        "incorrect_answers": [
+            "Preponsko jahanje",
+            "Galop",
+            "Voltižiranje"
+        ],
+        "explanation": "Dresura je olimpijska disciplina u kojoj se ocjenjuje harmonija, elegancija i preciznost pokreta konja i jahača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1796",
+        "category": "sport",
+        "question": "Nakon koliko poena se mijenja server u stolnom tenisu u klasičnom sustavu bodovanja?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+            "1",
+            "3",
+            "4"
+        ],
+        "explanation": "U stolnom tenisu, server se mijenja nakon svaka dva poena osvojena od strane bilo kojeg igrača ili tima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1797",
+        "category": "sport",
+        "question": "Koliko bodova donosi uspješno izveden 'field goal' u američkom nogometu?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "6",
+            "1"
+        ],
+        "explanation": "Field goal se postiže kada se lopta šutne kroz stative protivničkog gola i donosi tri boda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1798",
+        "category": "sport",
+        "question": "Koliko je igrača iz jedne momčadi istovremeno na ledu u hokeju (ne uključujući golmana)?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "4",
+            "6",
+            "7"
+        ],
+        "explanation": "Svaka momčad u hokeju na ledu ima pet igrača na ledu, plus golman.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1799",
+        "category": "sport",
+        "question": "Koja je kazna za promašenu metu u biatlonu u individualnoj utrci?",
+        "correct_answer": "Dodatna minuta na ukupno vrijeme",
+        "incorrect_answers": [
+            "Kazneni krug od 150m",
+            "Kazneni krug od 75m",
+            "Diskvalifikacija"
+        ],
+        "explanation": "U individualnoj utrci, svaki promašaj na strelištu rezultira dodavanjem jedne kaznene minute na ukupno vrijeme natjecatelja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1800",
+        "category": "sport",
+        "question": "Kako se naziva razdoblje igre u curlingu, slično inningu u bejzbolu, nakon kojeg se boduju bodovi?",
+        "correct_answer": "End",
+        "incorrect_answers": [
+            "Round",
+            "Frame",
+            "Period"
+        ],
+        "explanation": "Curling utakmice se sastoje od 'endova', a na kraju svakog 'enda' se prebrojavaju bodovi ovisno o položaju kamenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1801",
+        "category": "sport",
+        "question": "Koja od navedenih sprava nije dio natjecanja u muškoj sportskoj gimnastici?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Konj s hvataljkama",
+            "Karike",
+            "Preča"
+        ],
+        "explanation": "Greda je isključivo disciplina za žensku sportsku gimnastiku, dok se ostale navedene sprave koriste u muškoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1802",
+        "category": "sport",
+        "question": "Koliko je veslača u posadi osmerca s kormilarom?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "4",
+            "2",
+            "12"
+        ],
+        "explanation": "Osmerac s kormilarom je veslački čamac namijenjen za osam veslača i jednog kormilara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1803",
+        "category": "sport",
+        "question": "Na kojoj se vrsti podloge igra Grand Slam turnir Wimbledon?",
+        "correct_answer": "Trava",
+        "incorrect_answers": [
+            "Zemlja",
+            "Tvrda podloga",
+            "Tepih"
+        ],
+        "explanation": "Wimbledon je jedini Grand Slam turnir koji se tradicionalno igra na prirodnoj travi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1804",
+        "category": "sport",
+        "question": "Koliko bodova donosi polaganje (try) u ragbiju?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "3",
+            "7",
+            "2"
+        ],
+        "explanation": "Polaganje je osnovni način postizanja bodova u ragbiju i vrijedi pet bodova, nakon čega slijedi pokušaj pretvaranja za dodatne bodove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1805",
+        "category": "sport",
+        "question": "Kako se zove njemačko prvenstvo turističkih automobila, poznato po kratici DTM?",
+        "correct_answer": "Deutsche Tourenwagen Masters",
+        "incorrect_answers": [
+            "Deutschland Tourenwagen Meisterschaft",
+            "Deutsche Team Meisterschaft",
+            "Dynamic Touring Motors"
+        ],
+        "explanation": "DTM je kratica za Deutsche Tourenwagen Masters, prestižnu seriju utrka turističkih automobila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1806",
+        "category": "sport",
+        "question": "Koliko se poena može osvojiti u maksimalnom breaku u snookeru, ako se ne računa 'free ball'?",
+        "correct_answer": "147",
+        "incorrect_answers": [
+            "155",
+            "140",
+            "133"
+        ],
+        "explanation": "Maksimalni break od 147 poena postiže se ubacivanjem svih 15 crvenih kugli s pripadajućim crnim kuglama, te svih šest obojenih kugli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1807",
+        "category": "sport",
+        "question": "Kolika je standardna dužina maratonske utrke u kilometrima?",
+        "correct_answer": "42.195 km",
+        "incorrect_answers": [
+            "40 km",
+            "45 km",
+            "26.2 milje"
+        ],
+        "explanation": "Maratonska utrka je standardizirana na dužinu od 42.195 kilometara (26 milja i 385 jardi).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1808",
+        "category": "sport",
+        "question": "Koja disciplina alpskog skijanja uključuje prolazak kroz vrata postavljena na velikoj udaljenosti jedno od drugoga?",
+        "correct_answer": "Spust",
+        "incorrect_answers": [
+            "Slalom",
+            "Veleslalom",
+            "Super-G"
+        ],
+        "explanation": "Spust je najbrža disciplina, s najmanjim brojem vrata koja su razmaknuta na velikim udaljenostima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1809",
+        "category": "sport",
+        "question": "Koji se oblik mete koristi u standardnom olimpijskom streličarstvu?",
+        "correct_answer": "Koncentrični krugovi",
+        "incorrect_answers": [
+            "Kvadrat",
+            "Trokut",
+            "Životinjski obrisi"
+        ],
+        "explanation": "Olimpijske mete su okrugle i sastoje se od koncentričnih krugova, s najvišim brojem bodova u sredini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1810",
+        "category": "sport",
+        "question": "Kolika je približna težina vaterpolske lopte za muška natjecanja?",
+        "correct_answer": "400-450 grama",
+        "incorrect_answers": [
+            "200-250 grama",
+            "600-650 grama",
+            "700-750 grama"
+        ],
+        "explanation": "Muška vaterpolska lopta je teža i veća od ženske, te teži između 400 i 450 grama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1811",
+        "category": "sport",
+        "question": "Koji je maksimalan broj članova posade u bobu na Zimskim olimpijskim igrama?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "5",
+            "3"
+        ],
+        "explanation": "Postoje bobovi za dva i za četiri člana posade, pri čemu je četverosjed maksimalna veličina tima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1812",
+        "category": "sport",
+        "question": "Kako se naziva temeljna etička vrijednost u Ultimate Frisbeeju koja naglašava fair play i samoregulaciju?",
+        "correct_answer": "Duh igre (Spirit of the Game)",
+        "incorrect_answers": [
+            "Fer natjecanje",
+            "Sportska etika",
+            "Poštena igra"
+        ],
+        "explanation": "Duh igre je ključni koncept u Ultimate Frisbeeju koji stavlja odgovornost na igrače za održavanje fer igre.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1813",
+        "category": "sport",
+        "question": "Koji faktor, uz duljinu skoka, najviše utječe na bodove u skijaškim skokovima?",
+        "correct_answer": "Stil izvedbe",
+        "incorrect_answers": [
+            "Brzina zaleta",
+            "Jačina vjetra",
+            "Težina skakača"
+        ],
+        "explanation": "Sucima se dodjeljuju bodovi za stil, koji uz duljinu skoka čine ukupni rezultat. Brzina i vjetar su faktori, ali ne bodovanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1814",
+        "category": "sport",
+        "question": "Kako se naziva biciklistička disciplina na stazi u kojoj se natjecatelji utrkuju jedni protiv drugih u eliminacijskom formatu?",
+        "correct_answer": "Keirin",
+        "incorrect_answers": [
+            "Madison",
+            "Omnium",
+            "Sprint"
+        ],
+        "explanation": "Keirin je japanska disciplina u kojoj biciklisti prate motor, a zatim sprintaju do cilja, s eliminacijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1815",
+        "category": "sport",
+        "question": "Kako se naziva glavni vertikalni stup na jedrilici koji podupire jedra?",
+        "correct_answer": "Jarbol",
+        "incorrect_answers": [
+            "Bum",
+            "Kobilica",
+            "Kormilo"
+        ],
+        "explanation": "Jarbol je ključna komponenta jedrilice koja nosi jedra i omogućuje pogon vjetrom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1816",
+        "category": "sport",
+        "question": "Koji mač u mačevanju ima savitljivu oštricu, štitnik u obliku šalice i koristi se za ubode u bilo koji dio tijela, osim glave i vrata?",
+        "correct_answer": "Mač (Epee)",
+        "incorrect_answers": [
+            "Flert (Foil)",
+            "Sablja (Sabre)",
+            "Rapir (Rapier)"
+        ],
+        "explanation": "Mač (Epee) je oružje u mačevanju gdje je cijelo tijelo protivnika valjana meta, dok folija i sablja imaju specifična ograničenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1817",
+        "category": "sport",
+        "question": "Koji je najviši rang pobjede u judu, gdje se protivnik baca na leđa uz kontrolu i snagu?",
+        "correct_answer": "Ippon",
+        "incorrect_answers": [
+            "Waza-ari",
+            "Yuko",
+            "Koka"
+        ],
+        "explanation": "Ippon je pobjeda u judu koja odmah završava borbu, a postiže se savršenim bacanjem, zahvatom ili gušenjem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1818",
+        "category": "sport",
+        "question": "Koja je osnovna razlika između kanua i kajaka u natjecateljskom veslanju?",
+        "correct_answer": "Kanu ima veslo s jednom lopaticom, kajak s dvije",
+        "incorrect_answers": [
+            "Kanu ima zatvoren kokpit, kajak otvoren",
+            "Kanu se vesla stojeći, kajak sjedeći",
+            "Kanu je duži od kajaka"
+        ],
+        "explanation": "Kanuisti koriste veslo s jednom lopaticom i kleče, dok kajakaši koriste veslo s dvije lopatice i sjede.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1819",
+        "category": "sport",
+        "question": "Koliko je trenutno službenih muških težinskih kategorija u UFC-u (stanje 2024.)?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "5",
+            "10",
+            "6"
+        ],
+        "explanation": "UFC ima osam službenih muških težinskih kategorija, od muha kategorije do teške kategorije, uključujući bantam, perolaku itd.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1820",
+        "category": "sport",
+        "question": "U kojoj su godini skateboarding discipline prvi put uključene u program Ljetnih olimpijskih igara?",
+        "correct_answer": "2020. (odgođene za 2021.)",
+        "incorrect_answers": [
+            "2016.",
+            "2024.",
+            "2008."
+        ],
+        "explanation": "Skateboarding je debitirao na Olimpijskim igrama u Tokiju 2020. (koje su se održale 2021. zbog pandemije).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1821",
+        "category": "sport",
+        "question": "Kako se naziva dio rally utrke u kojem natjecatelji moraju voziti strogo po prometnim propisima između specijalnih etapa?",
+        "correct_answer": "Povezna dionica (Road section)",
+        "incorrect_answers": [
+            "Shakedown",
+            "Power Stage",
+            "Super Special Stage"
+        ],
+        "explanation": "Povezne dionice su nekvalificirajuće etape između brzinaca, voze se po javnim cestama i moraju se poštivati prometna pravila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1822",
+        "category": "sport",
+        "question": "Kako se naziva pogodak u kojem igrač s tri strelice postiže maksimalnih 180 bodova?",
+        "correct_answer": "Ton",
+        "incorrect_answers": [
+            "Hattrick",
+            "Bullseye",
+            "Triple out"
+        ],
+        "explanation": "Ton je kolokvijalni izraz u pikadu za postizanje 100 ili više bodova s tri strelice, dok je 180 ili maximum najviši takav rezultat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1823",
+        "category": "sport",
+        "question": "Kako se naziva disciplina ronjenja na dah u kojoj ronilac silazi i vraća se prateći uže, bez upotrebe peraja, koristeći samo snagu svojih ruku i nogu?",
+        "correct_answer": "Slobodni zaron (Free Immersion)",
+        "incorrect_answers": [
+            "Konstantna težina",
+            "Varijabilna težina",
+            "Bez ograničenja"
+        ],
+        "explanation": "U Slobodnom zaronu (Free Immersion), ronilac se povlači po užetu tijekom spuštanja i penjanja, bez peraja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
