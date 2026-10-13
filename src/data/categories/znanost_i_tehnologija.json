@@ -21565,5 +21565,515 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1719",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalna veličina koja opisuje otpor protoku električne struje?",
+        "correct_answer": "Otpor",
+        "incorrect_answers": [
+            "Napon",
+            "Struja",
+            "Snaga"
+        ],
+        "explanation": "Otpor je mjera kojom se materijal opire protoku električne struje. Izražava se u omima (Ω).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1720",
+        "category": "znanost",
+        "question": "Koji kemijski element ima atomski broj 6?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljik (C) je esencijalan element za sav poznati život i ima atomski broj 6, što znači da ima 6 protona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1721",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada tekućina prelazi u plinovito stanje?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Talište",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je fizikalni proces u kojem se tekućina pretvara u plinovito stanje na površini. Suprotan proces je kondenzacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1722",
+        "category": "znanost",
+        "question": "Što je primarna funkcija crvenih krvnih zrnaca?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Proizvodnja antitijela"
+        ],
+        "explanation": "Crvena krvna zrnca sadrže hemoglobin, protein bogat željezom koji se veže za kisik i prenosi ga do tjelesnih tkiva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1723",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak pijeska, a time i stakla?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Kalcijev karbonat",
+            "Natrijev klorid",
+            "Aluminijev oksid"
+        ],
+        "explanation": "Silicijev dioksid (SiO2), poznat kao kvarc, najčešća je komponenta pijeska i osnovni materijal za proizvodnju stakla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1724",
+        "category": "znanost",
+        "question": "Kako se naziva supstanca koja ubrzava kemijsku reakciju, a sama se ne troši u procesu?",
+        "correct_answer": "Katalizator",
+        "incorrect_answers": [
+            "Inhibitor",
+            "Reaktant",
+            "Produkt"
+        ],
+        "explanation": "Katalizator smanjuje energiju aktivacije kemijske reakcije, čime je ubrzava bez da se kemijski mijenja tijekom procesa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1725",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica genetske informacije?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Proteinska nit",
+            "Stanica"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđa. Sastoji se od specifičnog niza DNA koji kodira za protein ili RNA molekulu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1726",
+        "category": "znanost",
+        "question": "Koju vrstu zračenja koristi mikrovalna pećnica za zagrijavanje hrane?",
+        "correct_answer": "Mikrovalno zračenje",
+        "incorrect_answers": [
+            "Infracrveno zračenje",
+            "Ultraljubičasto zračenje",
+            "X-zrake"
+        ],
+        "explanation": "Mikrovalne pećnice koriste mikrovalove, vrstu elektromagnetskog zračenja, koje potiču molekule vode u hrani na vibracije i stvaranje topline.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1727",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija CPU-a (Central Processing Unit) u računalu?",
+        "correct_answer": "Izvršavanje naredbi programa",
+        "incorrect_answers": [
+            "Pohrana podataka",
+            "Prikaz grafike",
+            "Povezivanje na internet"
+        ],
+        "explanation": "CPU je 'mozak' računala odgovoran za izvršavanje instrukcija iz programa te obradu podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1728",
+        "category": "znanost",
+        "question": "Tko je izumitelj žarulje sa žarnom niti?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "James Watt"
+        ],
+        "explanation": "Iako je bilo više izumitelja koji su radili na žarulji, Thomas Edison je patentirao praktičnu i komercijalno održivu žarulju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1729",
+        "category": "znanost",
+        "question": "Koji je proces dio staničnog disanja koji se odvija u citoplazmi i ne zahtijeva kisik?",
+        "correct_answer": "Glikoliza",
+        "incorrect_answers": [
+            "Krebsov ciklus",
+            "Lanac prijenosa elektrona",
+            "Fotosinteza"
+        ],
+        "explanation": "Glikoliza je prvi korak staničnog disanja gdje se glukoza razgrađuje na piruvat. Odvija se bez prisutnosti kisika (anaerobno).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1730",
+        "category": "znanost",
+        "question": "Koji tip čelika sadrži krom i nikal i poznat je po svojoj otpornosti na koroziju?",
+        "correct_answer": "Nehrđajući čelik",
+        "incorrect_answers": [
+            "Ugljični čelik",
+            "Visokolegirani čelik",
+            "Aluminijski čelik"
+        ],
+        "explanation": "Nehrđajući čelik je slitina željeza s najmanje 10,5% kroma, što mu daje otpornost na hrđu i koroziju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1731",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada su dva identična atoma, koji su nastali raspadom težeg atoma, ostaju povezani, čak i kada su prostorno razdvojeni?",
+        "correct_answer": "Kvantna sprezanja",
+        "incorrect_answers": [
+            "Kvantna superpozicija",
+            "Heisenbergov princip nesigurnosti",
+            "Kvantno tuneliranje"
+        ],
+        "explanation": "Kvantna sprezanja (entanglement) je fenomen u kojem su kvantna stanja dvaju ili više čestica povezana tako da čine jedinstven sustav, neovisno o njihovoj udaljenosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1732",
+        "category": "znanost",
+        "question": "Koji je glavni plin koji uzrokuje efekt staklenika na Zemlji?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljikov dioksid (CO2) je najzastupljeniji staklenički plin koji značajno doprinosi globalnom zagrijavanju zadržavajući toplinu u Zemljinoj atmosferi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1733",
+        "category": "znanost",
+        "question": "Što je akronim za tehnologiju koja omogućuje bežično povezivanje uređaja na kratke udaljenosti, najčešće za audio uređaje i periferiju?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "LTE"
+        ],
+        "explanation": "Bluetooth je bežični tehnološki standard za razmjenu podataka na kratkim udaljenostima putem kratkovalnih UHF radio valova, prvenstveno za fiksne i mobilne uređaje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1734",
+        "category": "znanost",
+        "question": "Koji je proces razmnožavanja bakterija, pri kojem se jedna stanica dijeli na dvije identične kćeri stanice?",
+        "correct_answer": "Binarna fisija",
+        "incorrect_answers": [
+            "Mitoza",
+            "Mejoza",
+            "Pupanje"
+        ],
+        "explanation": "Binarna fisija je oblik aseksualnog razmnožavanja kod prokariota (bakterija) gdje se jedna stanica jednostavno podijeli na dvije genetski identične kćeri stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1735",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između DNA i RNA?",
+        "correct_answer": "DNA ima deoksiribozu, RNA ribozu; DNA ima timin, RNA uracil",
+        "incorrect_answers": [
+            "DNA je jednolančana, RNA dvolančana",
+            "DNA se nalazi samo u jezgri, RNA samo u citoplazmi",
+            "DNA nosi proteine, RNA nosi šećere"
+        ],
+        "explanation": "DNA sadrži šećer deoksiribozu i bazu timin, dok RNA sadrži šećer ribozu i bazu uracil umjesto timina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1736",
+        "category": "znanost",
+        "question": "Koji optički fenomen objašnjava zašto je nebo plavo?",
+        "correct_answer": "Rayleighovo raspršenje",
+        "incorrect_answers": [
+            "Mirage",
+            "Refrakcija",
+            "Difrakcija"
+        ],
+        "explanation": "Rayleighovo raspršenje objašnjava kako se kratke valne duljine (plavo svjetlo) raspršuju više od dugih valnih duljina u Zemljinoj atmosferi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1737",
+        "category": "znanost",
+        "question": "Koja vrsta poluvodiča se koristi za izradu većine modernih tranzistora i mikročipova?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Germanij",
+            "Bakar",
+            "Zlato"
+        ],
+        "explanation": "Silicij je najrašireniji poluvodič u elektronici zbog svojih povoljnih električnih svojstava i obilne dostupnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1738",
+        "category": "znanost",
+        "question": "Što je 'crna rupa' u astronomiji?",
+        "correct_answer": "Područje prostor-vremena iz kojeg ništa, pa ni svjetlost, ne može pobjeći",
+        "incorrect_answers": [
+            "Vrsta supernove",
+            "Neistraženo područje svemira",
+            "Galaksija bez zvijezda"
+        ],
+        "explanation": "Crna rupa je objekt s ekstremno jakom gravitacijom, toliko snažnom da ništa, čak ni svjetlost, ne može pobjeći nakon što prijeđe horizont događaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1739",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se atomske jezgre spajaju oslobađajući ogromnu količinu energije?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Kemijska reakcija"
+        ],
+        "explanation": "Nuklearna fuzija je proces spajanja lakih atomskih jezgri u teže jezgre, oslobađajući pritom veliku količinu energije, kao što se događa na Suncu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1740",
+        "category": "znanost",
+        "question": "Koji je naziv za dio računala koji služi kao kratkoročna memorija za podatke koje CPU aktivno koristi?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "SSD (Solid State Drive)",
+            "HDD (Hard Disk Drive)",
+            "GPU (Graphics Processing Unit)"
+        ],
+        "explanation": "RAM je radna memorija računala gdje se privremeno pohranjuju podaci i programi koje CPU trenutno obrađuje, omogućujući brz pristup.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1741",
+        "category": "znanost",
+        "question": "Tko je razvio teoriju relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Stephen Hawking",
+            "Niels Bohr",
+            "Max Planck"
+        ],
+        "explanation": "Albert Einstein je 1905. objavio posebnu teoriju relativnosti, a 1915. opću teoriju relativnosti, revolucionirajući fiziku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1742",
+        "category": "znanost",
+        "question": "Koji je kemijski element najzastupljeniji u Zemljinoj kori?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Silicij",
+            "Aluminij",
+            "Željezo"
+        ],
+        "explanation": "Kisik (O) čini oko 46% mase Zemljine kore, najčešće u spoju sa silicijem, kao silikati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1743",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija limfnog sustava u ljudskom tijelu?",
+        "correct_answer": "Obrana od bolesti i drenaža tekućine",
+        "incorrect_answers": [
+            "Prijenos hranjivih tvari",
+            "Proizvodnja hormona",
+            "Izlučivanje otpada"
+        ],
+        "explanation": "Limfni sustav je ključan za imunološki sustav i pomaže u uklanjanju toksina i viška tekućine iz tkiva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1744",
+        "category": "znanost",
+        "question": "Kako se naziva sustav za globalno pozicioniranje (Global Positioning System) koji koristi satelite?",
+        "correct_answer": "GPS",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Bluetooth",
+            "NFC"
+        ],
+        "explanation": "GPS je satelitski navigacijski sustav koji korisnicima pruža informacije o lokaciji, brzini i vremenu bilo gdje na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1745",
+        "category": "znanost",
+        "question": "Koji je naziv za znanost koja proučava nasljeđe i varijacije organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Histologija"
+        ],
+        "explanation": "Genetika je grana biologije koja proučava gene, nasljedstvo i varijacije među živim organizmima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1746",
+        "category": "znanost",
+        "question": "Koja vrsta ćelija je odgovorna za provođenje električnih impulsa u živčanom sustavu?",
+        "correct_answer": "Neuroni",
+        "incorrect_answers": [
+            "Glija stanice",
+            "Epitelnih stanica",
+            "Mišićne stanice"
+        ],
+        "explanation": "Neuroni, ili živčane stanice, su osnovne funkcionalne jedinice živčanog sustava odgovorne za primanje i prenošenje signala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1747",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za snagu?",
+        "correct_answer": "Vat",
+        "incorrect_answers": [
+            "Joule",
+            "Newton",
+            "Pascal"
+        ],
+        "explanation": "Vat (W) je SI jedinica za snagu, definirana kao jedan džul po sekundi (J/s).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1748",
+        "category": "znanost",
+        "question": "Koji dio oka je odgovoran za fokusiranje svjetlosti na mrežnicu?",
+        "correct_answer": "Leća",
+        "incorrect_answers": [
+            "Zjenica",
+            "Rožnica",
+            "Šarenica"
+        ],
+        "explanation": "Leća u oku mijenja svoj oblik kako bi precizno fokusirala svjetlost na mrežnicu, omogućujući nam jasan vid.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1749",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje virtualnog okruženja koje simulira stvarno ili imaginarno okruženje?",
+        "correct_answer": "Virtualna stvarnost (VR)",
+        "incorrect_answers": [
+            "Proširena stvarnost (AR)",
+            "3D ispis",
+            "Umjetna inteligencija (AI)"
+        ],
+        "explanation": "Virtualna stvarnost (VR) koristi posebne naočale ili kacige za stvaranje potpuno imerzivnog simuliranog okruženja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1750",
+        "category": "znanost",
+        "question": "Koji je najveći endokrini organ u ljudskom tijelu?",
+        "correct_answer": "Štitnjača",
+        "incorrect_answers": [
+            "Gušterača",
+            "Hipofiza",
+            "Nadbubrežna žlijezda"
+        ],
+        "explanation": "Štitnjača je najveća žlijezda s unutarnjim izlučivanjem (endokrina žlijezda) u ljudskom tijelu koja proizvodi hormone bitne za metabolizam.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1751",
+        "category": "znanost",
+        "question": "Koja je fundamentalna čestica koja čini jezgru atoma, zajedno s protonima?",
+        "correct_answer": "Neutron",
+        "incorrect_answers": [
+            "Elektron",
+            "Foton",
+            "Kvarc"
+        ],
+        "explanation": "Neutron je subatomska čestica bez električnog naboja, a nalazi se u jezgri atoma zajedno s protonima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1752",
+        "category": "znanost",
+        "question": "Koji je naziv za polje proučavanja koje se bavi interakcijom računalne znanosti i robotike s ljudskim tijelom?",
+        "correct_answer": "Bionika",
+        "incorrect_answers": [
+            "Bioinformatika",
+            "Biotehnologija",
+            "Kibernetika"
+        ],
+        "explanation": "Bionika je primjena bioloških metoda i sustava pronađenih u prirodi na proučavanje i dizajn inženjerskih sustava i moderne tehnologije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
