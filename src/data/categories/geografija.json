@@ -17507,5 +17507,425 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_geo_1444",
+        "category": "geografija",
+        "question": "Koji je ocean najveći po površini?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean pokriva približno jednu trećinu površine Zemlje i najveći je od svih oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1445",
+        "category": "geografija",
+        "question": "Koji je naziv za najviši planinski vrh na svijetu?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Mont Blanc",
+            "Kilimanjaro"
+        ],
+        "explanation": "Mount Everest, smješten u Himalaji, najviši je vrh na Zemlji s nadmorskom visinom od 8.848,86 metara (stanje 2020.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1446",
+        "category": "geografija",
+        "question": "Koji je plinski omotač koji okružuje Zemlju?",
+        "correct_answer": "Atmosfera",
+        "incorrect_answers": [
+            "Litosfera",
+            "Hidrosfera",
+            "Biosfera"
+        ],
+        "explanation": "Atmosfera je sloj plinova koji obavija Zemlju i štiti je od štetnog zračenja i ekstremnih temperatura.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1447",
+        "category": "geografija",
+        "question": "Koji kontinent nema nijednu državu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Arktik",
+            "Australija",
+            "Afrika"
+        ],
+        "explanation": "Antarktika je jedini kontinent na kojem nema trajno naseljenih država niti autohtonog stanovništva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1448",
+        "category": "geografija",
+        "question": "Koji je naziv za sloj stalno smrznutog tla?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Glacijal",
+            "Tundra",
+            "Stepa"
+        ],
+        "explanation": "Permafrost je tlo koje ostaje smrznuto najmanje dvije uzastopne godine, često tisućama godina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1449",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja u Aziji?",
+        "correct_answer": "Pustinja Gobi",
+        "incorrect_answers": [
+            "Arapska pustinja",
+            "Takla Makan",
+            "Karakum"
+        ],
+        "explanation": "Pustinja Gobi, koja se proteže kroz Mongoliju i Kinu, najveća je pustinja u Aziji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1450",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se magma probija na površinu Zemlje?",
+        "correct_answer": "Vulkanizam",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfoza"
+        ],
+        "explanation": "Vulkanizam je pojava izbijanja magme, pepela i plinova iz unutrašnjosti Zemlje na površinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1451",
+        "category": "geografija",
+        "question": "Koja je najgušće naseljena država na svijetu (ne uključujući mikrodržave poput Vatikana ili Monaka)?",
+        "correct_answer": "Bangladeš",
+        "incorrect_answers": [
+            "Indija",
+            "Južna Koreja",
+            "Nizozemska"
+        ],
+        "explanation": "Bangladeš ima izuzetno veliku gustoću naseljenosti, s preko 1.265 stanovnika po km² (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1452",
+        "category": "geografija",
+        "question": "Koji kontinent ima najviše aktivnih vulkana?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Sjeverna Amerika",
+            "Afrika"
+        ],
+        "explanation": "Azija, posebno zbog \"Vatrenog prstena\", ima najveći broj aktivnih vulkana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1453",
+        "category": "geografija",
+        "question": "Koji je naziv za pojas planina koje se protežu duž zapadne obale Južne Amerike?",
+        "correct_answer": "Ande",
+        "incorrect_answers": [
+            "Stjenjaci",
+            "Himalaja",
+            "Alpe"
+        ],
+        "explanation": "Ande su najdulji kontinentalni planinski lanac na svijetu, protežu se kroz sedam južnoameričkih zemalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1454",
+        "category": "geografija",
+        "question": "Koja država ima najdulju granicu s Rusijom?",
+        "correct_answer": "Kazahstan",
+        "incorrect_answers": [
+            "Kina",
+            "Mongolija",
+            "Ukrajina"
+        ],
+        "explanation": "Kazahstan dijeli s Rusijom granicu dugu preko 7.644 km, što je najduža neprekinuta kopnena granica na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1455",
+        "category": "geografija",
+        "question": "Koji je naziv za prirodni proces kojim se stijene raspadaju na manje komade zbog promjena temperature?",
+        "correct_answer": "Fizikalno trošenje",
+        "incorrect_answers": [
+            "Kemijsko trošenje",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Fizikalno trošenje (mehanička denudacija) je proces raspadanja stijena bez promjene njihovog kemijskog sastava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1456",
+        "category": "geografija",
+        "question": "Koji je naziv za kopneni oblik koji nastaje kada rijeka taloži sediment na svom ušću u more ili jezero?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Kanjon",
+            "Ušće"
+        ],
+        "explanation": "Delta je ravničarski oblik reljefa koji nastaje nakupljanjem sedimenta na ušću rijeke u veću vodenu površinu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1457",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim gejzirima, uključujući slavni Geysir?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Sjedinjene Američke Države",
+            "Japan"
+        ],
+        "explanation": "Island je vulkanski aktivan otok poznat po brojnim gejzirima i geotermalnoj aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1458",
+        "category": "geografija",
+        "question": "Koji je naziv za polarnu svjetlost vidljivu na sjevernoj hemisferi?",
+        "correct_answer": "Aurora Borealis",
+        "incorrect_answers": [
+            "Aurora Australis",
+            "Zodijačka svjetlost",
+            "Noćno svjetlo"
+        ],
+        "explanation": "Aurora Borealis, ili sjeverna polarna svjetlost, vidljiva je na visokim sjevernim geografskim širinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1459",
+        "category": "geografija",
+        "question": "Koji je naziv za suhi vjetar koji puše niz padine Alpa i donosi toplo vrijeme?",
+        "correct_answer": "Föhn",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Mistral"
+        ],
+        "explanation": "Föhn je topli, suhi vjetar koji nastaje kada zrak prelazi preko planinskog lanca i spušta se niz zavjetrinsku stranu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1460",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se starija stijena nalazi iznad mlađe stijene uslijed tektonskih sila?",
+        "correct_answer": "Navlaka (nappe)",
+        "incorrect_answers": [
+            "Rasjed",
+            "Nabor",
+            "Sinklinala"
+        ],
+        "explanation": "Navlaka je velika masa stijena koja je prešla preko drugih stijena uslijed snažnih tektonskih pomaka, gdje se stariji slojevi nađu iznad mlađih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1461",
+        "category": "geografija",
+        "question": "Koji je najviši vrh u Karpatima?",
+        "correct_answer": "Gerlachovský štít",
+        "incorrect_answers": [
+            "Moldoveanu",
+            "Rysy",
+            "Triglav"
+        ],
+        "explanation": "Gerlachovský štít, s visinom od 2.655 metara, najviši je vrh slovačkih Visokih Tatri i cijelih Karpata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1462",
+        "category": "geografija",
+        "question": "Koji je naziv za geomorfološki oblik nastao djelovanjem leda, karakteriziran oštrim vrhovima i grebenima?",
+        "correct_answer": "Horn",
+        "incorrect_answers": [
+            "Cirque",
+            "U-dolina",
+            "Morena"
+        ],
+        "explanation": "Horn je piramidalan, oštar vrh koji nastaje kada se tri ili više ledenjačkih cirkova erodiraju oko planinskog vrha.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1463",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj UNESCO-ovih mjesta svjetske baštine (stanje 2024.)?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Kina",
+            "Španjolska",
+            "Njemačka"
+        ],
+        "explanation": "Italija ima 60 UNESCO-ovih mjesta svjetske baštine (stanje 2024.), što je najviše na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1464",
+        "category": "geografija",
+        "question": "Koji je naziv za polarni fenomen gdje Sunce ne izlazi iznad horizonta dulje od 24 sata?",
+        "correct_answer": "Polarna noć",
+        "incorrect_answers": [
+            "Polarni dan",
+            "Ekvatorijalna noć",
+            "Sunčani sat"
+        ],
+        "explanation": "Polarna noć je fenomen u polarnim regijama kada Sunce ostaje ispod horizonta cijeli dan ili dulje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1465",
+        "category": "geografija",
+        "question": "Koja je država dom za grad Timbuktu?",
+        "correct_answer": "Mali",
+        "incorrect_answers": [
+            "Niger",
+            "Mauritanija",
+            "Burkina Faso"
+        ],
+        "explanation": "Timbuktu, povijesni trgovački i obrazovni centar, smješten je u zapadnoafričkoj državi Mali.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1466",
+        "category": "geografija",
+        "question": "Koji je naziv za morsku struju koja donosi toplu vodu iz tropskih područja duž istočne obale Sjeverne Amerike i preko Atlantika do Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Kanarska struja",
+            "Labradorska struja"
+        ],
+        "explanation": "Golfska struja je snažna, topla i brza oceanska struja koja značajno utječe na klimu zapadne Europe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1467",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kojim se slana voda prelijeva preko kopna tijekom plime u niskim, ravnim obalnim područjima?",
+        "correct_answer": "Plimna ravnica (tidal flat)",
+        "incorrect_answers": [
+            "Močvara",
+            "Estuarij",
+            "Laguna"
+        ],
+        "explanation": "Plimne ravnice su blatna ili pješčana područja uz obale koja su izložena za vrijeme oseke i potopljena za vrijeme plime.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1468",
+        "category": "geografija",
+        "question": "Koji je naziv za vulkansku stijenu koja ima pjenušavu, staklastu teksturu i može plutati na vodi?",
+        "correct_answer": "Plavac (Pumice)",
+        "incorrect_answers": [
+            "Bazalt",
+            "Granit",
+            "Opsidijan"
+        ],
+        "explanation": "Plavac (pemza) je vrlo porozna, lagana vulkanska stijena nastala brzim hlađenjem lave bogate plinovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1469",
+        "category": "geografija",
+        "question": "Koja je država dom najvišeg vodopada na svijetu, Angelovog vodopada?",
+        "correct_answer": "Venezuela",
+        "incorrect_answers": [
+            "Brazil",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Angelov vodopad, visok 979 metara, nalazi se u Nacionalnom parku Canaima u Venezueli.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1470",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku strukturu koja nastaje savijanjem slojeva stijena prema gore, tvoreći \"luk\"?",
+        "correct_answer": "Antiklinala",
+        "incorrect_answers": [
+            "Sinklinala",
+            "Rasjed",
+            "Naborna jama"
+        ],
+        "explanation": "Antiklinala je nabor u slojevima stijena gdje se slojevi savijaju prema gore, s najstarijim slojevima u sredini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1471",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po najvećim naslagama nafte u svijetu?",
+        "correct_answer": "Venezuela",
+        "incorrect_answers": [
+            "Saudijska Arabija",
+            "Iran",
+            "Rusija"
+        ],
+        "explanation": "Venezuela ima najveće dokazane rezerve nafte na svijetu, uglavnom u Orinoco pojasu (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
