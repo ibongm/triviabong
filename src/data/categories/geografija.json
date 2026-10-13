@@ -18812,5 +18812,500 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1531",
+        "category": "geografija",
+        "question": "Najveća vruća pustinja po površini na svijetu?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Atacama",
+            "Gobi",
+            "Arapska pustinja"
+        ],
+        "explanation": "Sahara pokriva velik dio sjeverne Afrike i najveća je vruća pustinja na svijetu s površinom od preko 9 milijuna km².",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1532",
+        "category": "geografija",
+        "question": "Najmanja neovisna država na svijetu po površini i broju stanovnika?",
+        "correct_answer": "Vatikan",
+        "incorrect_answers": [
+            "Monako",
+            "San Marino",
+            "Nauru"
+        ],
+        "explanation": "Vatikan je najmanja država na svijetu, enklava unutar Rima, s površinom od samo 0,44 km² i oko 800 stanovnika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1533",
+        "category": "geografija",
+        "question": "Najveći otok po površini na svijetu?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Borneo",
+            "Madagaskar",
+            "Nova Gvineja"
+        ],
+        "explanation": "Grenland je najveći otok na svijetu, autonomno područje unutar Kraljevine Danske, smješten između Arktičkog i Atlantskog oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1534",
+        "category": "geografija",
+        "question": "Najduži planinski lanac na svijetu?",
+        "correct_answer": "Ande",
+        "incorrect_answers": [
+            "Himalaja",
+            "Stjenjak",
+            "Ural"
+        ],
+        "explanation": "Ande se protežu duž zapadne obale Južne Amerike, dugačke su oko 7.000 km i najduži su kontinentalni planinski lanac.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1535",
+        "category": "geografija",
+        "question": "Koji ocean sadrži najdublji oceanski rov na svijetu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Marijanska brazda, najdublja točka na Zemlji, nalazi se u zapadnom dijelu Tihog oceana, s dubinom od preko 11.000 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1536",
+        "category": "geografija",
+        "question": "Koja je jedina država na svijetu koja zauzima cijeli kontinent?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Rusija",
+            "Kanada",
+            "Kina"
+        ],
+        "explanation": "Australija je i država i najmanji kontinent, te jedina država koja obuhvaća cijelu kopnenu masu kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1537",
+        "category": "geografija",
+        "question": "Koja zamišljena linija dijeli Zemlju na Sjevernu i Južnu polutku?",
+        "correct_answer": "Ekvator",
+        "incorrect_answers": [
+            "Grinički meridijan",
+            "Tropik Raka",
+            "Tropik Jarca"
+        ],
+        "explanation": "Ekvator je zamišljena linija koja se nalazi na 0 stupnjeva geografske širine i dijeli Zemlju na dvije jednake polutke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1538",
+        "category": "geografija",
+        "question": "Koji je naziv za trajno tijelo leda koje se sporo kreće kopnom?",
+        "correct_answer": "Ledenjak",
+        "incorrect_answers": [
+            "Santa leda",
+            "Glečer",
+            "Snježno polje"
+        ],
+        "explanation": "Ledenjak je velika, dugovječna masa zbijenog snijega i leda koja se formira na kopnu i polako kreće pod vlastitom težinom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1539",
+        "category": "geografija",
+        "question": "Koja je europska država bez izlaza na more poznata po svojoj neutralnosti?",
+        "correct_answer": "Švicarska",
+        "incorrect_answers": [
+            "Austrija",
+            "Češka",
+            "Mađarska"
+        ],
+        "explanation": "Švicarska je planinska država u srednjoj Europi, poznata po svojoj dugogodišnjoj politici oružane neutralnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1540",
+        "category": "geografija",
+        "question": "Glavni grad Kanade?",
+        "correct_answer": "Ottawa",
+        "incorrect_answers": [
+            "Toronto",
+            "Montreal",
+            "Vancouver"
+        ],
+        "explanation": "Ottawa je savezni glavni grad Kanade, smješten na rijeci Ottawi u jugoistočnom dijelu provincije Ontario.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1541",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Africi po broju stanovnika (stanje 2024.)?",
+        "correct_answer": "Lagos",
+        "incorrect_answers": [
+            "Kairo",
+            "Johannesburg",
+            "Kinshasa"
+        ],
+        "explanation": "Lagos u Nigeriji je najnaseljeniji grad u Africi, s preko 15 milijuna stanovnika u užem gradskom području (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1542",
+        "category": "geografija",
+        "question": "Koja pustinja u Južnoj Americi je poznata kao najsuše mjesto na Zemlji?",
+        "correct_answer": "Atacama",
+        "incorrect_answers": [
+            "Patagonska pustinja",
+            "Monte pustinja",
+            "Sechura pustinja"
+        ],
+        "explanation": "Atacama, smještena u Čileu i Peruu, jedna je od najsuših pustinja na svijetu, s područjima gdje kiša nikada nije zabilježena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1543",
+        "category": "geografija",
+        "question": "Najveće slatkovodno jezero po površini u Sjevernoj Americi?",
+        "correct_answer": "Jezero Superior",
+        "incorrect_answers": [
+            "Jezero Huron",
+            "Jezero Michigan",
+            "Jezero Erie"
+        ],
+        "explanation": "Jezero Superior je najveće od Velikih jezera i najveće slatkovodno jezero na svijetu po površini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1544",
+        "category": "geografija",
+        "question": "Najviši vodopad na svijetu?",
+        "correct_answer": "Anđeoski vodopadi",
+        "incorrect_answers": [
+            "Victoria",
+            "Niagara",
+            "Iguazu"
+        ],
+        "explanation": "Anđeoski vodopadi u Venezueli su najviši neprekinuti vodopadi na svijetu, s visinom od 979 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1545",
+        "category": "geografija",
+        "question": "Kako se naziva područje intenzivne seizmičke i vulkanske aktivnosti oko Tihog oceana?",
+        "correct_answer": "Pacifički vatreni prsten",
+        "incorrect_answers": [
+            "Atlantski rascjep",
+            "Indijski vulkanski luk",
+            "Euroazijski seizmički pojas"
+        ],
+        "explanation": "Pacifički vatreni prsten je zona u Tihom oceanu s visokom učestalošću potresa i vulkanskih erupcija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1546",
+        "category": "geografija",
+        "question": "Koji je naziv za oblake koji su povezani s grmljavinskim nevremenima?",
+        "correct_answer": "Kumulonimbus",
+        "incorrect_answers": [
+            "Cirus",
+            "Stratocumulus",
+            "Nimbostratus"
+        ],
+        "explanation": "Kumulonimbusi su veliki, vertikalno razvijeni oblaci koji donose grmljavinske oluje, pljuskove i često tuču.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1547",
+        "category": "geografija",
+        "question": "Koji je naziv za uski pojas kopna koji spaja dvije veće kopnene mase?",
+        "correct_answer": "Prevlaka (Zemljouz)",
+        "incorrect_answers": [
+            "Tjesnac",
+            "Delta",
+            "Poluotok"
+        ],
+        "explanation": "Prevlaka, ili zemljouz, je uska kopnena veza između dviju većih kopnenih masa, npr. Panamska prevlaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1548",
+        "category": "geografija",
+        "question": "Koji tjesnac razdvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Beringov prolaz"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji spaja Atlantski ocean sa Sredozemnim morem i razdvaja Europu (Španjolsku) od Afrike (Maroko).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1549",
+        "category": "geografija",
+        "question": "Kako se naziva proces u kojem plodno tlo postaje pustinja?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Eroazija",
+            "Slijeganje",
+            "Degradacija"
+        ],
+        "explanation": "Dezertifikacija je proces degradacije zemljišta u sušnim, polusušnim i suhim subhumidnim područjima, uzrokovan ljudskim aktivnostima i klimatskim promjenama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1550",
+        "category": "geografija",
+        "question": "Koja je najveća geografska forma poluotoka na svijetu?",
+        "correct_answer": "Arapski poluotok",
+        "incorrect_answers": [
+            "Indokineski poluotok",
+            "Iberijski poluotok",
+            "Skandinavski poluotok"
+        ],
+        "explanation": "Arapski poluotok je najveći poluotok na svijetu, smješten u jugozapadnoj Aziji, s površinom od preko 3 milijuna km².",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1551",
+        "category": "geografija",
+        "question": "Koji tip karte prikazuje varijacije u nadmorskoj visini pomoću izohipsi?",
+        "correct_answer": "Topografska karta",
+        "incorrect_answers": [
+            "Politička karta",
+            "Tematska karta",
+            "Klima karta"
+        ],
+        "explanation": "Topografske karte detaljno prikazuju reljef terena, uključujući visine, pomoću izohipsi (izolinija koje spajaju točke iste nadmorske visine).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1552",
+        "category": "geografija",
+        "question": "Koji uski umjetni plovni put povezuje Sredozemno more i Crveno more?",
+        "correct_answer": "Sueski kanal",
+        "incorrect_answers": [
+            "Panamski kanal",
+            "Kielski kanal",
+            "Korintski kanal"
+        ],
+        "explanation": "Sueski kanal je umjetni plovni put u Egiptu koji spaja Sredozemno more s Crvenim morem, skraćujući pomorski put između Europe i Azije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1553",
+        "category": "geografija",
+        "question": "Koji je geografski pojam za uski morski prolaz koji spaja dva veća mora ili oceana?",
+        "correct_answer": "Tjesnac",
+        "incorrect_answers": [
+            "Kanal",
+            "Fjord",
+            "Zaljev"
+        ],
+        "explanation": "Tjesnac je uski morski prolaz između dviju kopnenih masa koji spaja dva veća mora ili oceana, npr. Gibraltarski tjesnac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1554",
+        "category": "geografija",
+        "question": "Koji je naziv za znanost koja proučava oblik, nastanak i razvoj Zemljine površine?",
+        "correct_answer": "Geomorfologija",
+        "incorrect_answers": [
+            "Geologija",
+            "Klimatologija",
+            "Hidrologija"
+        ],
+        "explanation": "Geomorfologija je znanstvena disciplina unutar geografije koja se bavi proučavanjem reljefa Zemljine površine, njegovih oblika, procesa i evolucije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1555",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj aktivnih vulkana na svijetu?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Japan",
+            "SAD",
+            "Rusija"
+        ],
+        "explanation": "Indonezija se nalazi na Pacifičkom vatrenom prstenu i ima preko 130 aktivnih vulkana, što je čini zemljom s najvećim brojem vulkana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1556",
+        "category": "geografija",
+        "question": "Kako se naziva velika udubina u obliku bazena, nastala urušavanjem krova magmatske komore nakon erupcije vulkana?",
+        "correct_answer": "Kaldera",
+        "incorrect_answers": [
+            "Krater",
+            "Gejzir",
+            "Fumarola"
+        ],
+        "explanation": "Kaldera je velika vulkanska depresija, mnogo veća od kratera, koja nastaje kada se tlo iznad ispražnjene magmatske komore uruši.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1557",
+        "category": "geografija",
+        "question": "Koja pustinja u Africi je poznata po svojim visokim, crvenim pješčanim dinama?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Kalahari",
+            "Sahara",
+            "Libijska pustinja"
+        ],
+        "explanation": "Pustinja Namib u južnoj Africi poznata je po svojim impozantnim crvenim pješčanim dinama, među najvišima na svijetu, koje se protežu do Atlantskog oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1558",
+        "category": "geografija",
+        "question": "U kojem planinskom lancu se nalazi K2, drugi najviši vrh na svijetu?",
+        "correct_answer": "Karakorum",
+        "incorrect_answers": [
+            "Himalaja",
+            "Pamir",
+            "Kunlun"
+        ],
+        "explanation": "K2, poznat i kao Mount Godwin Austen, drugi je najviši vrh na Zemlji i dio je planinskog lanca Karakorum na granici Pakistana i Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1559",
+        "category": "geografija",
+        "question": "Koja rijeka tvori jednu od najvećih delta na svijetu u Vijetnamu?",
+        "correct_answer": "Mekong",
+        "incorrect_answers": [
+            "Jangce",
+            "Ind",
+            "Brahmaputra"
+        ],
+        "explanation": "Mekong, jedna od najdužih rijeka u Aziji, tvori ogromnu i plodnu deltu u Vijetnamu, ključnu za poljoprivredu regije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1560",
+        "category": "geografija",
+        "question": "Koja država se može pohvaliti najvećim brojem otoka na svijetu?",
+        "correct_answer": "Švedska",
+        "incorrect_answers": [
+            "Norveška",
+            "Finska",
+            "Indonezija"
+        ],
+        "explanation": "Švedska ima više od 220.000 otoka, što je čini zemljom s najvećim brojem otoka na svijetu, iako su mnogi nenaseljeni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1561",
+        "category": "geografija",
+        "question": "Koja glavna oceanska struja utječe na umjerenu klimu zapadne Europe?",
+        "correct_answer": "Sjevernoatlantska struja (Golfska struja)",
+        "incorrect_answers": [
+            "Labradorska struja",
+            "Benguelska struja",
+            "Kuroshio struja"
+        ],
+        "explanation": "Sjevernoatlantska struja, produžetak Golfske struje, donosi toplu vodu iz tropskih krajeva, čineći klimu zapadne Europe znatno blažom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1562",
+        "category": "geografija",
+        "question": "Kako se naziva geološki proces kojim ledenjaci oblikuju doline u karakterističan 'U' oblik?",
+        "correct_answer": "Glacijalna erozija",
+        "incorrect_answers": [
+            "Fluviatična erozija",
+            "Vjetrovna erozija",
+            "Kemijska erozija"
+        ],
+        "explanation": "Glacijalna erozija je proces kojim se ledenjaci krećući se po kopnu svojim djelovanjem (abrazija, plucking) oblikuju doline u karakterističan U-oblik.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1563",
+        "category": "geografija",
+        "question": "Koja država ima najvišu prosječnu nadmorsku visinu terena na svijetu?",
+        "correct_answer": "Nepal",
+        "incorrect_answers": [
+            "Butan",
+            "Tadžikistan",
+            "Švicarska"
+        ],
+        "explanation": "Nepal ima izuzetno visoku prosječnu nadmorsku visinu zbog svojih planinskih regija, uključujući osam od deset najviših vrhova na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
