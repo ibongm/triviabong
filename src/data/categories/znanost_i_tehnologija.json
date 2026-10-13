@@ -19900,5 +19900,560 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-12"
+    },
+    {
+        "id": "hr_sci_1608",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se svjetlost ili druga elektromagnetska zračenja odbijaju od površine?",
+        "correct_answer": "Refleksija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Apsorpcija",
+            "Refrakcija"
+        ],
+        "explanation": "Refleksija je proces u kojem se valovi, uključujući svjetlost, odbijaju od granice između dva različita medija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1609",
+        "category": "znanost",
+        "question": "Koji dio ljudskog oka fokusira svjetlost na mrežnicu?",
+        "correct_answer": "Leća",
+        "incorrect_answers": [
+            "Zjenica",
+            "Šarenica",
+            "Rožnica"
+        ],
+        "explanation": "Leća je prozirna struktura unutar oka koja mijenja oblik kako bi fokusirala svjetlost i stvorila oštru sliku na mrežnici.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1610",
+        "category": "znanost",
+        "question": "Što je CPU u računalnom sustavu?",
+        "correct_answer": "Centralna procesorska jedinica",
+        "incorrect_answers": [
+            "Centralna programska jedinica",
+            "Kompaktna procesorska jedinica",
+            "Kompjuterska programska jedinica"
+        ],
+        "explanation": "CPU (Central Processing Unit) je 'mozak' računala, odgovoran za izvršavanje instrukcija programa i obradu podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1611",
+        "category": "znanost",
+        "question": "Koji je kemijski element s atomskim brojem 1, najlakši element u periodnom sustavu?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) je najrasprostranjeniji kemijski element u svemiru i osnova je mnogih zvijezda i planeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1612",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja se suprotstavlja gibanju između dviju površina koje se dodiruju?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Težina",
+            "Impuls",
+            "Napetost"
+        ],
+        "explanation": "Trenje je sila koja djeluje paralelno s površinom dodira i suprotstavlja se relativnom gibanju ili pokušaju gibanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1613",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim biljke oslobađaju vodenu paru iz lišća u atmosferu?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je isparavanje vode iz biljaka, uglavnom kroz sitne otvore zvane puči na lišću, pridonoseći ciklusu vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1614",
+        "category": "znanost",
+        "question": "Koju skraćenicu koristimo za 'World Wide Web'?",
+        "correct_answer": "WWW",
+        "incorrect_answers": [
+            "WWM",
+            "WBN",
+            "WWN"
+        ],
+        "explanation": "WWW je globalni sustav međusobno povezanih računalnih mreža koji koristi hipertekst za pristup informacijama i resursima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1615",
+        "category": "znanost",
+        "question": "Kako se naziva atom ili skupina atoma koja nosi električni naboj?",
+        "correct_answer": "Ion",
+        "incorrect_answers": [
+            "Izotop",
+            "Molekula",
+            "Neutron"
+        ],
+        "explanation": "Ion je atom ili molekula koji je izgubio ili dobio jedan ili više elektrona, što mu daje neto električni naboj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1616",
+        "category": "znanost",
+        "question": "Koji organ proizvodi žuč, koja pomaže u probavi masti?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Slezena",
+            "Bubreg"
+        ],
+        "explanation": "Jetra je najveća žlijezda u ljudskom tijelu i proizvodi žuč koja se pohranjuje u žučnom mjehuru prije nego što pomogne u probavi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1617",
+        "category": "znanost",
+        "question": "Kako se naziva jedinica za snagu u SI sustavu?",
+        "correct_answer": "Vat (Watt)",
+        "incorrect_answers": [
+            "Džul (Joule)",
+            "Njutn (Newton)",
+            "Paskal (Pascal)"
+        ],
+        "explanation": "Vat (W) je jedinica snage, definirana kao jedan džul u sekundi, i mjeri brzinu obavljanja rada ili prijenosa energije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1618",
+        "category": "znanost",
+        "question": "Koja je svrha 'firewalla' (vatrozida) u računalnim mrežama?",
+        "correct_answer": "Kontrola mrežnog prometa i zaštita od neovlaštenog pristupa",
+        "incorrect_answers": [
+            "Ubrzavanje internetske veze",
+            "Povećanje pohrane podataka",
+            "Prevođenje programskog koda"
+        ],
+        "explanation": "Firewall služi kao barijera između sigurne i nesigurne mreže, filtrirajući podatke kako bi spriječio neovlašteni pristup i zlonamjerne napade.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1619",
+        "category": "znanost",
+        "question": "Koji je naziv za proces u kojem se glukoza razgrađuje u stanicama kako bi se oslobodila energija?",
+        "correct_answer": "Stanično disanje",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Fermentacija",
+            "Glikogeneza"
+        ],
+        "explanation": "Stanično disanje je metabolički proces koji pretvara hranjive tvari u energiju (ATP) za održavanje života stanice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1620",
+        "category": "znanost",
+        "question": "Koja je formula za sumpornu kiselinu?",
+        "correct_answer": "H₂SO₄",
+        "incorrect_answers": [
+            "HCl",
+            "HNO₃",
+            "H₃PO₄"
+        ],
+        "explanation": "Sumporna kiselina (H₂SO₄) je jaka mineralna kiselina, široko korištena u industriji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1621",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalna veličina koja opisuje otpor tijela promjeni stanja gibanja?",
+        "correct_answer": "Inercija",
+        "incorrect_answers": [
+            "Masa",
+            "Brzina",
+            "Sila"
+        ],
+        "explanation": "Inercija je svojstvo svakog tijela da se opire promjeni svog stanja gibanja, bilo da je u mirovanju ili u uniformnom gibanju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1622",
+        "category": "znanost",
+        "question": "Što je 'algoritam' u programiranju?",
+        "correct_answer": "Skup uputa za rješavanje problema",
+        "incorrect_answers": [
+            "Vrsta programskog jezika",
+            "Dio računalnog hardvera",
+            "Grafičko sučelje programa"
+        ],
+        "explanation": "Algoritam je konačan niz jasno definiranih instrukcija ili pravila za rješavanje specifičnog problema ili izvođenje zadatka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1623",
+        "category": "znanost",
+        "question": "Koji je naziv za proces stvaranja proteinskih molekula prema genetskoj informaciji iz DNA?",
+        "correct_answer": "Sinteza proteina",
+        "incorrect_answers": [
+            "Replikacija DNA",
+            "Transkripcija",
+            "Mutacija"
+        ],
+        "explanation": "Sinteza proteina je biološki proces u kojem se genetski kod iz DNA pretvara u funkcionalne proteinske molekule kroz transkripciju i translaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1624",
+        "category": "znanost",
+        "question": "Koji plin čini najveći udio Zemljine atmosfere?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Dušik (N₂) čini oko 78% Zemljine atmosfere, dok kisik (O₂) čini oko 21%.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1625",
+        "category": "znanost",
+        "question": "Koji dio mozga kontrolira osnovne funkcije poput disanja i otkucaja srca?",
+        "correct_answer": "Moždano deblo",
+        "incorrect_answers": [
+            "Veliki mozak",
+            "Mali mozak",
+            "Hipotalamus"
+        ],
+        "explanation": "Moždano deblo povezuje veliki mozak i mali mozak s leđnom moždinom te kontrolira vitalne automatske funkcije tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1626",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen promjene frekvencije vala (zvuka ili svjetlosti) zbog relativnog gibanja izvora i promatrača?",
+        "correct_answer": "Dopplerov efekt",
+        "incorrect_answers": [
+            "Fotoelektrični efekt",
+            "Magnusev efekt",
+            "Termoelektrični efekt"
+        ],
+        "explanation": "Dopplerov efekt objašnjava zašto se visina tona sirene mijenja kako se vozilo približava ili udaljava, ili pomak u boji svjetlosti zvijezda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1627",
+        "category": "znanost",
+        "question": "Koji je glavni princip rada 'blockchain' tehnologije?",
+        "correct_answer": "Decentralizirana knjiga transakcija",
+        "incorrect_answers": [
+            "Centralizirana baza podataka",
+            "Enkripcija pojedinih datoteka",
+            "Brza obrada podataka na serveru"
+        ],
+        "explanation": "Blockchain je distribuirana, nepromjenjiva baza podataka koja bilježi transakcije u 'blokovima' povezanim kriptografskim vezama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1628",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija crvenih krvnih zrnaca?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Proizvodnja antitijela"
+        ],
+        "explanation": "Crvene krvne stanice (eritrociti) sadrže hemoglobin, protein koji veže kisik u plućima i transportira ga do tkiva u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1629",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija u kojoj se tvar spaja s kisikom, obično uz oslobađanje topline i svjetlosti?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Neutralizacija",
+            "Fermentacija",
+            "Redukcija"
+        ],
+        "explanation": "Izgaranje je egzotermna redoks reakcija između goriva i oksidansa, obično kisika iz zraka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1630",
+        "category": "znanost",
+        "question": "Koji je naziv za izrazito gustu zvijezdu, rezultat urušavanja masivne zvijezde, s gravitacijom tako jakom da ni svjetlost ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Pulsar",
+            "Kvazar"
+        ],
+        "explanation": "Crna rupa je područje prostor-vremena s iznimno jakim gravitacijskim poljem iz kojeg ništa, pa ni svjetlost, ne može pobjeći.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1631",
+        "category": "znanost",
+        "question": "Koji se princip koristi kod hidrauličnih sustava, navodeći da tlak primijenjen na zatvorenu tekućinu ostaje nepromijenjen kroz cijelu tekućinu?",
+        "correct_answer": "Pascalov zakon",
+        "incorrect_answers": [
+            "Arhimedov zakon",
+            "Bernoullijev princip",
+            "Hookeov zakon"
+        ],
+        "explanation": "Pascalov zakon je temelj hidraulike i objašnjava kako se tlak ravnomjerno prenosi kroz tekućinu u zatvorenom sustavu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1632",
+        "category": "znanost",
+        "question": "Što je 'open-source' softver?",
+        "correct_answer": "Softver čiji je izvorni kod dostupan javnosti za pregled i modificiranje",
+        "incorrect_answers": [
+            "Softver koji je besplatan",
+            "Softver koji se može koristiti samo online",
+            "Softver s ograničenim funkcionalnostima"
+        ],
+        "explanation": "Open-source softver omogućuje korisnicima da vide, mijenjaju i distribuiraju izvorni kod, potičući suradnju i inovacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1633",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica nasljeđa koja određuje karakteristike organizma?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Allel",
+            "Nukleotid"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđa, sastavljena od DNA, koja nosi informaciju za određenu osobinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1634",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se atomske jezgre spajaju, oslobađajući ogromnu količinu energije, kao što se događa na Suncu?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Ionizacija"
+        ],
+        "explanation": "Nuklearna fuzija je spajanje lakih atomskih jezgri u teže, oslobađajući ogromnu energiju, što je izvor energije zvijezda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1635",
+        "category": "znanost",
+        "question": "Koji metal se najčešće koristi za električne kablove zbog svoje visoke vodljivosti?",
+        "correct_answer": "Bakar",
+        "incorrect_answers": [
+            "Željezo",
+            "Aluminij",
+            "Srebro"
+        ],
+        "explanation": "Bakar je izvrsni električni vodič, otporan na koroziju i duktilan, što ga čini idealnim za izradu električnih instalacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1636",
+        "category": "znanost",
+        "question": "Koji je naziv za česticu s nultim električnim nabojem koja se nalazi u jezgri atoma?",
+        "correct_answer": "Neutron",
+        "incorrect_answers": [
+            "Proton",
+            "Elektron",
+            "Foton"
+        ],
+        "explanation": "Neutron je subatomska čestica bez električnog naboja, koja, zajedno s protonima, čini jezgru atoma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1637",
+        "category": "znanost",
+        "question": "Koji je standardni port broj za HTTP protokol (nešifrirani web promet)?",
+        "correct_answer": "80",
+        "incorrect_answers": [
+            "21",
+            "443",
+            "23"
+        ],
+        "explanation": "HTTP protokol koristi port 80 za prijenos podataka preko World Wide Weba, dok HTTPS koristi port 443.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1638",
+        "category": "znanost",
+        "question": "Kako se naziva kemijski element simbolom 'Fe'?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Fluor",
+            "Ferit",
+            "Fosil"
+        ],
+        "explanation": "Željezo (Fe) je metal koji je široko rasprostranjen u Zemljinoj kori i ključan je u proizvodnji čelika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1639",
+        "category": "znanost",
+        "question": "Koji teleskop, lansiran 1990. godine, revolucionalizirao je naše razumijevanje svemira svojim jasnim slikama izvan Zemljine atmosfere?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Keplerov teleskop",
+            "Spitzerov svemirski teleskop"
+        ],
+        "explanation": "Hubbleov teleskop je desetljećima omogućavao nevjerojatne poglede u svemir, pružajući podatke koji su promijenili astronomiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1640",
+        "category": "znanost",
+        "question": "Koja fizikalna veličina opisuje količinu tvari u objektu?",
+        "correct_answer": "Masa",
+        "incorrect_answers": [
+            "Težina",
+            "Gustoća",
+            "Volumen"
+        ],
+        "explanation": "Masa je mjera inercije tijela i količine tvari koju ono sadrži, neovisna o gravitaciji. Razlikuje se od težine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1641",
+        "category": "znanost",
+        "question": "Koji je naziv za životinjski organizam koji ima kralježnicu?",
+        "correct_answer": "Kralježnjak",
+        "incorrect_answers": [
+            "Beskralježnjak",
+            "Glavonožac",
+            "Kukac"
+        ],
+        "explanation": "Kralježnjaci su potkoljeno u koljenu svitkovaca koje karakterizira prisutnost kralježnice koja štiti leđnu moždinu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1642",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežičnu razmjenu podataka na udaljenostima do nekoliko desetaka metara, često korištenu za povezivanje perifernih uređaja?",
+        "correct_answer": "Wi-Fi",
+        "incorrect_answers": [
+            "LTE",
+            "Bluetooth",
+            "Ethernet"
+        ],
+        "explanation": "Wi-Fi (Wireless Fidelity) je obitelj bežičnih mrežnih protokola temeljenih na IEEE 802.11 standardima, za lokalne bežične mreže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1643",
+        "category": "znanost",
+        "question": "Kako se naziva proces dodavanja elektrona atomu ili ionu?",
+        "correct_answer": "Redukcija",
+        "incorrect_answers": [
+            "Oksidacija",
+            "Hidroliza",
+            "Destilacija"
+        ],
+        "explanation": "Redukcija je kemijska reakcija u kojoj atom ili ion prima elektrone, što rezultira smanjenjem njegovog oksidacijskog stanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1644",
+        "category": "znanost",
+        "question": "Koje je ime znanstvenika koji je formulirao zakone gibanja i univerzalni zakon gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Isaac Newton je bio engleski fizičar i matematičar koji je postavio temelje klasične mehanike sa svoja tri zakona gibanja i zakonom gravitacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
