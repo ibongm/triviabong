@@ -22804,5 +22804,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1824",
+        "category": "sport",
+        "question": "Koja je nogometna reprezentacija osvojila najviše naslova Svjetskog prvenstva u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je osvojio pet naslova Svjetskog prvenstva (1958., 1962., 1970., 1994., 2002.), što ga čini najuspješnijom reprezentacijom u povijesti natjecanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1825",
+        "category": "sport",
+        "question": "Koliko traje jedna runda u profesionalnom boksu?",
+        "correct_answer": "3 minute",
+        "incorrect_answers": [
+            "2 minute",
+            "4 minute",
+            "5 minuta"
+        ],
+        "explanation": "Profesionalni boksački mečevi tradicionalno imaju runde u trajanju od tri minute, s pauzom od jedne minute između rundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1826",
+        "category": "sport",
+        "question": "Koliko igrača, uključujući golmana, čini jednu momčad na terenu u vaterpolu?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "5"
+        ],
+        "explanation": "Svaka momčad u vaterpolu ima šest igrača u polju i jednog golmana, što čini ukupno sedam igrača na terenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1827",
+        "category": "sport",
+        "question": "Tko je poznat kao 'Kralj šljake' u tenisu zbog svojih dominantnih nastupa na zemljanim terenima?",
+        "correct_answer": "Rafael Nadal",
+        "incorrect_answers": [
+            "Roger Federer",
+            "Novak Đoković",
+            "Pete Sampras"
+        ],
+        "explanation": "Rafael Nadal je osvojio rekordnih 14 naslova Roland Garrosa, što mu je donijelo nadimak 'Kralj šljake' zbog njegove dominacije na toj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1828",
+        "category": "sport",
+        "question": "Koja se sportska disciplina obično naziva 'Kraljicom sportova'?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Nogomet",
+            "Gimnastika",
+            "Plivanje"
+        ],
+        "explanation": "Atletika obuhvaća širok spektar disciplina poput trčanja, skakanja i bacanja, te se zbog svoje sveobuhvatnosti i povijesti često naziva 'Kraljicom sportova'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1829",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'šatl' (shuttlecock)?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Stolni tenis",
+            "Tenis",
+            "Odbojka"
+        ],
+        "explanation": "Šatl, poznat i kao pernata loptica, ključni je rekvizit u badmintonu, sportu sličnom tenisu, ali s lakšim reketima i posebnim 'lopticama'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1830",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi na terenu u jednoj košarkaškoj momčadi tijekom igre?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "6",
+            "4",
+            "7"
+        ],
+        "explanation": "U košarci svaka momčad ima pet igrača na terenu istovremeno, pokušavajući ubaciti loptu u protivnički koš.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1831",
+        "category": "sport",
+        "question": "Koji je službeni naziv za disciplinu skijanja na vodi gdje se skijaš vuče za čamcem po ravnoj površini?",
+        "correct_answer": "Slalom na vodi",
+        "incorrect_answers": [
+            "Wakeboarding",
+            "Monoskijanje",
+            "Frekventno skijanje"
+        ],
+        "explanation": "Slalom na vodi je disciplina skijanja na vodi gdje skijaš prolazi kroz niz bova postavljenih na vodi, često koristeći samo jednu skiju (monoski).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1832",
+        "category": "sport",
+        "question": "Kako se naziva udarac u bejzbolu kojim igrač uspijeva obići sve baze i postići bod?",
+        "correct_answer": "Home run",
+        "incorrect_answers": [
+            "Strikeout",
+            "Walk",
+            "Foul ball"
+        ],
+        "explanation": "Home run je pogodak u bejzbolu gdje udarač udara loptu izvan igrališta ili daleko, omogućujući sebi i svim trkačima na bazama da postignu bod.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1833",
+        "category": "sport",
+        "question": "U kojem sportu se koristi izraz 'eagle' (orao)?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kuglanje",
+            "Tenis",
+            "Pikado"
+        ],
+        "explanation": "'Eagle' se u golfu odnosi na rezultat od dva udarca ispod PAR-a na određenoj rupi, što je vrlo dobar rezultat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1834",
+        "category": "sport",
+        "question": "Kako se zove formacija u nogometu gdje se vratar, dva braniča i ostali igrači raspoređuju u obranu?",
+        "correct_answer": "Obrana s tri stopera (3-5-2 ili 3-4-3)",
+        "incorrect_answers": [
+            "Vezni red",
+            "Napadačka linija",
+            "Vezno-obrambena linija"
+        ],
+        "explanation": "Formacija s tri stopera, poput 3-5-2 ili 3-4-3, podrazumijeva tri središnja braniča (stopera) u obrambenoj liniji, često uz bočne igrače (wing-backove).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1835",
+        "category": "sport",
+        "question": "Koji se materijal tradicionalno koristi za izradu kugli u boćanju?",
+        "correct_answer": "Smola ili metal",
+        "incorrect_answers": [
+            "Drvo",
+            "Plastika",
+            "Kamen"
+        ],
+        "explanation": "Moderne boće su najčešće izrađene od sintetičke smole, iako se povijesno koristilo drvo, a za petanque se koriste metalne kugle.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1836",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno za pobjedu u setu u odbojci (osim odlučujućeg petog seta)?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "21",
+            "15",
+            "20"
+        ],
+        "explanation": "U odbojci, za pobjedu u setu (osim u petom, odlučujućem setu), momčad mora osvojiti 25 bodova s minimalno dva boda prednosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1837",
+        "category": "sport",
+        "question": "Tko je jedini sportaš u povijesti koji je osvojio osam zlatnih medalja na jednim Olimpijskim igrama (stanje 2024.)?",
+        "correct_answer": "Michael Phelps",
+        "incorrect_answers": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Larisa Latinjina"
+        ],
+        "explanation": "Michael Phelps je na Olimpijskim igrama u Pekingu 2008. godine osvojio osam zlatnih medalja u plivanju, čime je postavio rekord.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1838",
+        "category": "sport",
+        "question": "Kako se naziva bacanje lopte u košarci koje se izvodi s crte slobodnog bacanja nakon prekršaja?",
+        "correct_answer": "Slobodno bacanje",
+        "incorrect_answers": [
+            "Šut iz igre",
+            "Tricu",
+            "Polaganje"
+        ],
+        "explanation": "Slobodno bacanje je neometani pokušaj šuta na koš izveden s linije slobodnog bacanja, dodijeljen momčadi zbog prekršaja protivnika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1839",
+        "category": "sport",
+        "question": "Koji je standardni promjer pikado mete?",
+        "correct_answer": "45,1 cm",
+        "incorrect_answers": [
+            "35,5 cm",
+            "50,2 cm",
+            "40,0 cm"
+        ],
+        "explanation": "Standardna pikado meta, propisana za profesionalna natjecanja, ima promjer od 45,1 cm.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1840",
+        "category": "sport",
+        "question": "Kako se zove završni udarac u mačevanju koji donosi bod?",
+        "correct_answer": "Dodir (Touché)",
+        "incorrect_answers": [
+            "Ubod",
+            "Parada",
+            "Ripost"
+        ],
+        "explanation": "U mačevanju, 'Touché' (dodir) je francuski izraz koji se koristi za označavanje uspješnog uboda ili udarca koji donosi bod.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1841",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što koristi 'čuk' (puck) umjesto lopte?",
+        "correct_answer": "Hokej na ledu",
+        "incorrect_answers": [
+            "Hokej na travi",
+            "Floorball",
+            "Lacrosse"
+        ],
+        "explanation": "Hokej na ledu je timski sport koji se igra na zaleđenoj površini, a za igru se koristi tvrdi gumeni disk poznat kao 'čuk' ili 'pak'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1842",
+        "category": "sport",
+        "question": "Koja je najmanja težina u muškoj hrvačkoj slobodnom stilu na Olimpijskim igrama (stanje 2024.)?",
+        "correct_answer": "57 kg",
+        "incorrect_answers": [
+            "60 kg",
+            "55 kg",
+            "61 kg"
+        ],
+        "explanation": "Najmanja težinska kategorija u muškoj slobodnom stilu hrvanja na Olimpijskim igrama (stanje 2024.) je do 57 kg.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1843",
+        "category": "sport",
+        "question": "Kako se naziva dio staze u bobu gdje se bob usporava nakon cilja?",
+        "correct_answer": "Izlazna zona ili ciljna ravnina",
+        "incorrect_answers": [
+            "Startna rampa",
+            "Zavoj za kočenje",
+            "Pomoćna traka"
+        ],
+        "explanation": "Nakon prolaska kroz ciljnu liniju, bobsleigh nastavlja putovanje kroz posebno dizajniranu izlaznu zonu kako bi se sigurno usporio i zaustavio.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1844",
+        "category": "sport",
+        "question": "Koji element sportske gimnastike uključuje izvođenje vježbi na gredi?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Preskok",
+            "Dvovisinski razboj",
+            "Parter"
+        ],
+        "explanation": "Greda je jedna od četiri discipline u ženskoj sportskoj gimnastici, gdje gimnastičarke izvode akrobatske i plesne elemente na uskoj gredi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1845",
+        "category": "sport",
+        "question": "Kako se zove dugačka, ravna palica koja se koristi za udaranje bilijarskih kugli?",
+        "correct_answer": "Štap (Cue)",
+        "incorrect_answers": [
+            "Palica",
+            "Reket",
+            "Kijac"
+        ],
+        "explanation": "Štap (eng. cue stick) je osnovni alat u biljaru, a koristi se za precizno udaranje bilijarskih kugli po stolu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1846",
+        "category": "sport",
+        "question": "Koja se boja zastave koristi za označavanje pobjednika u automobilskim utrkama, npr. Formuli 1?",
+        "correct_answer": "Karirana zastava (crno-bijela)",
+        "incorrect_answers": [
+            "Crvena zastava",
+            "Žuta zastava",
+            "Zelena zastava"
+        ],
+        "explanation": "Karirana zastava, s crno-bijelim kvadratima, signalizira kraj utrke i prolazak pobjednika preko ciljne linije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1847",
+        "category": "sport",
+        "question": "U kojem sportu je 'slam dunk' popularan način postizanja poena?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Rukomet",
+            "Odbojka",
+            "Vatrepolo"
+        ],
+        "explanation": "Slam dunk je atraktivna tehnika u košarci gdje igrač snažno ubacuje loptu direktno u obruč, često uz skok.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1848",
+        "category": "sport",
+        "question": "Koja je udaljenost za utrku na 100 metara u atletici?",
+        "correct_answer": "100 metara",
+        "incorrect_answers": [
+            "200 metara",
+            "400 metara",
+            "50 metara"
+        ],
+        "explanation": "Utrka na 100 metara je najkraća atletska sprinterska disciplina, poznata po svojoj brzini i eksplozivnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1849",
+        "category": "sport",
+        "question": "Kako se naziva pozicija u nogometu čiji je glavni zadatak sprečavanje protivnika da postigne pogodak?",
+        "correct_answer": "Branič (Obrambeni igrač)",
+        "incorrect_answers": [
+            "Napadač",
+            "Vezni igrač",
+            "Golman"
+        ],
+        "explanation": "Branič (defender) je igrač čija je primarna uloga obrambene naravi, s ciljem zaštite vlastitog gola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1850",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno u 'tie-breaku' u tenisu da bi se osvojio set (s dva poena prednosti)?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "10",
+            "5"
+        ],
+        "explanation": "U tie-breaku teniskog seta, igrač mora osvojiti barem 7 poena i imati dva poena prednosti da bi pobijedio.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1851",
+        "category": "sport",
+        "question": "Kako se zove mali brod koji se koristi u veslačkoj disciplini samac?",
+        "correct_answer": "Skif",
+        "incorrect_answers": [
+            "Kajak",
+            "Kanu",
+            "Dvojac"
+        ],
+        "explanation": "Skif je uski, dugački čamac za jednu osobu u veslanju, gdje veslač koristi dva vesla, po jedno u svakoj ruci.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1852",
+        "category": "sport",
+        "question": "Koja se disciplina u alpskom skijanju smatra najbržom?",
+        "correct_answer": "Spust",
+        "incorrect_answers": [
+            "Slalom",
+            "Veleslalom",
+            "Super-G"
+        ],
+        "explanation": "Spust je najbrža i najopasnija disciplina u alpskom skijanju, s najdužim stazama i najvećim brzinama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1853",
+        "category": "sport",
+        "question": "Kako se naziva 'ruka' u baseballu kojom bacač baca loptu prema udaraču?",
+        "correct_answer": "Pitch",
+        "incorrect_answers": [
+            "Catch",
+            "Swing",
+            "Throw"
+        ],
+        "explanation": "Pitch je naziv za čin bacanja bejzbol lopte od strane bacača prema hvataču, a svrha mu je izbaciti udarača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1854",
+        "category": "sport",
+        "question": "Koliko je 'rupa' (holes) standardno na jednom golf igralištu?",
+        "correct_answer": "18",
+        "incorrect_answers": [
+            "9",
+            "12",
+            "24"
+        ],
+        "explanation": "Standardno golf igralište ima 18 rupa, što znači da se igrači moraju natjecati na 18 različitih staza.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1855",
+        "category": "sport",
+        "question": "Koja je maksimalna dubina bazena za skokove u vodu na Olimpijskim igrama?",
+        "correct_answer": "5 metara",
+        "incorrect_answers": [
+            "3 metra",
+            "4 metra",
+            "6 metara"
+        ],
+        "explanation": "Olimpijski bazeni za skokove u vodu moraju imati minimalnu dubinu od 5 metara kako bi se osigurala sigurnost skakača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1856",
+        "category": "sport",
+        "question": "Kako se naziva oprema koja se koristi za vožnju snowboarda po snijegu?",
+        "correct_answer": "Snowboard (daska)",
+        "incorrect_answers": [
+            "Skije",
+            "Sanjke",
+            "Skateboard"
+        ],
+        "explanation": "Snowboard je pojedinačna daska na kojoj se stoji bočno, koristi se za spuštanje po snježnim padinama, a dio je zimskih sportova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1857",
+        "category": "sport",
+        "question": "Koliko rundi obično ima amaterski boksački meč za muškarce na Olimpijskim igrama?",
+        "correct_answer": "3 runde",
+        "incorrect_answers": [
+            "4 runde",
+            "5 rundi",
+            "6 rundi"
+        ],
+        "explanation": "Amaterski boksački mečevi za muškarce na Olimpijskim igrama obično se sastoje od 3 runde po 3 minute, što se razlikuje od profesionalnog boksa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1858",
+        "category": "sport",
+        "question": "Koja se sportska oprema koristi za spuštanje niz snježne staze s jednom daskom umjesto dvije skije?",
+        "correct_answer": "Snowboard",
+        "incorrect_answers": [
+            "Sanjke",
+            "Bord",
+            "Skateboard"
+        ],
+        "explanation": "Snowboard je sportska daska namijenjena za spuštanje niz snježne padine, a na nju se pričvršćuju posebne čizme.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1859",
+        "category": "sport",
+        "question": "Koji je službeni naziv za disciplinu skijanja na vodi gdje se skijaš vuče za čamcem preko prepreka i rampi?",
+        "correct_answer": "Wakeboarding",
+        "incorrect_answers": [
+            "Monoskijanje",
+            "Slalom na vodi",
+            "Barefooting"
+        ],
+        "explanation": "Wakeboarding je sport na vodi u kojem se sportaš, stojeći na dasci sličnoj snowboardu, vuče čamcem i izvodi trikove, često uz pomoć rampi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1860",
+        "category": "sport",
+        "question": "Kako se naziva udarac u biljaru koji se izvodi tako da se kugla odbija od jedne ili više strana stola prije nego pogodi ciljnu kuglu?",
+        "correct_answer": "Banka šut (Bank shot)",
+        "incorrect_answers": [
+            "Direktni udarac",
+            "Skriveni udarac",
+            "Pravocrtni šut"
+        ],
+        "explanation": "Banka šut (eng. bank shot) je bilijarski udarac gdje se bijela ili ciljna kugla odbija od jedne ili više mantinela stola prije nego uđe u rupu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1861",
+        "category": "sport",
+        "question": "Koji se stil plivanja smatra najbržim?",
+        "correct_answer": "Kraul (Slobodni stil)",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "Kraul, poznat i kao slobodni stil, generalno se smatra najbržim plivačkim stilom zbog svoje efikasnosti i hidrodinamičnog pokreta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1862",
+        "category": "sport",
+        "question": "Koja je dužina trake za kuglanje (bowling lane) od linije prekršaja do prvog čunja?",
+        "correct_answer": "60 stopa (oko 18.29 metara)",
+        "incorrect_answers": [
+            "50 stopa",
+            "70 stopa",
+            "45 stopa"
+        ],
+        "explanation": "Standardna dužina trake za kuglanje je 60 stopa (oko 18.29 metara) od linije prekršaja do sredine prvog čunja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sport_1863",
+        "category": "sport",
+        "question": "Koliko se igrača u jednoj ekipi smije nalaziti na terenu u američkom nogometu (uobičajeno)?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka momčad u američkom nogometu ima 11 igrača na terenu tijekom igre, s različitim ulogama u napadu, obrani i specijalnim timovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
