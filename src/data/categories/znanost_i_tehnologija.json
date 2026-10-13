@@ -22075,5 +22075,560 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_sci_1753",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za električnu struju?",
+        "correct_answer": "Amper",
+        "incorrect_answers": [
+            "Volt",
+            "Om",
+            "Wat"
+        ],
+        "explanation": "Amper je osnovna SI jedinica za mjerenje jačine električne struje. Nazvana je po André-Marie Ampèreu, jednom od glavnih otkrivača elektromagnetizma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1754",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada biljke koriste sunčevu svjetlost za pretvaranje ugljičnog dioksida i vode u glukozu i kisik?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Kemosinteza",
+            "Transpiracija",
+            "Respiracija"
+        ],
+        "explanation": "Fotosinteza je vitalan proces u biljkama i nekim drugim organizmima koji proizvodi hranu (glukozu) i kisik koristeći sunčevu energiju. To je temelj većine ekosustava na Zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1755",
+        "category": "znanost",
+        "question": "Koja kratica označava globalnu mrežu računala koja omogućava razmjenu informacija?",
+        "correct_answer": "Internet",
+        "incorrect_answers": [
+            "Intranet",
+            "Ekstranet",
+            "WWW"
+        ],
+        "explanation": "Internet je javna, globalno dostupna mreža koja povezuje računalne mreže širom svijeta. WWW (World Wide Web) je specifičan servis unutar Interneta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1756",
+        "category": "znanost",
+        "question": "Kako se naziva atom koji je izgubio ili primio jedan ili više elektrona, čime je postao električno nabijen?",
+        "correct_answer": "Ion",
+        "incorrect_answers": [
+            "Izotop",
+            "Molekula",
+            "Kation"
+        ],
+        "explanation": "Ion je atom ili molekula s neto električnim nabojem zbog nejednakog broja protona i elektrona. Kation je specifična vrsta iona s pozitivnim nabojem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1757",
+        "category": "znanost",
+        "question": "Koji planet je poznat kao 'Crveni planet' zbog svog izgleda uzrokovanog željeznim oksidom na površini?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je dobio nadimak 'Crveni planet' zbog prisutnosti željeznog(III) oksida, poznatog i kao hrđa, na svojoj površini, što mu daje karakterističnu crvenkastu boju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1758",
+        "category": "znanost",
+        "question": "Koji je naziv za kvantni fenomen gdje se čestice ponašaju kao valovi i obrnuto?",
+        "correct_answer": "Dualizam val-čestica",
+        "incorrect_answers": [
+            "Kvantna sprezanje",
+            "Superpozicija",
+            "Heisenbergov princip nesigurnosti"
+        ],
+        "explanation": "Dualizam val-čestica opisuje da svaka čestica ili kvantni entitet može pokazati svojstva i vala i čestice, ovisno o eksperimentalnim uvjetima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1759",
+        "category": "znanost",
+        "question": "Koja tehnologija koristi seriju međusobno povezanih blokova podataka koji su kriptografski osigurani i distribuirani među korisnicima?",
+        "correct_answer": "Blockchain",
+        "incorrect_answers": [
+            "VPN",
+            "Cloud computing",
+            "IoT"
+        ],
+        "explanation": "Blockchain je distribuirana, decentralizirana baza podataka koja se sastoji od rastućeg popisa zapisa, nazvanih blokovi, koji su sigurno povezani kriptografijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1760",
+        "category": "znanost",
+        "question": "Koja je tekućina u ljudskom tijelu odgovorna za transport kisika, hranjivih tvari i hormona?",
+        "correct_answer": "Krv",
+        "incorrect_answers": [
+            "Limfa",
+            "Žuč",
+            "Plazma"
+        ],
+        "explanation": "Krv je specijalizirano vezivno tkivo koje cirkulira cijelim tijelom, prenoseći bitne tvari do stanica i uklanjajući otpadne produkte.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1761",
+        "category": "znanost",
+        "question": "Koji kemijski spoj služi kao glavni izvor energije za stanične procese u većini organizama?",
+        "correct_answer": "Adenozin trifosfat (ATP)",
+        "incorrect_answers": [
+            "Glukoza",
+            "DNA",
+            "Protein"
+        ],
+        "explanation": "ATP je primarna molekula za pohranu i prijenos energije unutar stanica, osiguravajući energiju za gotovo sve metaboličke procese.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1762",
+        "category": "znanost",
+        "question": "Što je akronim za 'Grafička procesorska jedinica'?",
+        "correct_answer": "GPU",
+        "incorrect_answers": [
+            "CPU",
+            "RAM",
+            "USB"
+        ],
+        "explanation": "GPU je specijalizirani elektronički sklop dizajniran za brzu manipulaciju i izmjenu memorije za stvaranje slika u računalnom okvirnom spremniku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1763",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za tlak?",
+        "correct_answer": "Paskal",
+        "incorrect_answers": [
+            "Džul",
+            "Njufon",
+            "Herc"
+        ],
+        "explanation": "Paskal (Pa) je SI izvedena jedinica za tlak, definiran kao sila od jednog njutona po kvadratnom metru. Ime je dobio po Blaiseu Pascalu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1764",
+        "category": "znanost",
+        "question": "Koji dio mozga je prvenstveno odgovoran za ravnotežu i koordinaciju pokreta?",
+        "correct_answer": "Mali mozak (Cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak",
+            "Moždano deblo",
+            "Hipotalamus"
+        ],
+        "explanation": "Mali mozak igra ključnu ulogu u motoričkoj kontroli, uključujući koordinaciju, preciznost i točno vrijeme, te učenje motoričkih vještina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1765",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje bežično povezivanje uređaja na lokalnoj razini unutar ograničenog područja, obično u kućama ili uredima?",
+        "correct_answer": "Wi-Fi",
+        "incorrect_answers": [
+            "Bluetooth",
+            "LTE",
+            "NFC"
+        ],
+        "explanation": "Wi-Fi je obitelj bežičnih mrežnih protokola temeljenih na standardima IEEE 802.11, koji se koriste za lokalne mreže i pristup internetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1766",
+        "category": "znanost",
+        "question": "Koji element čini najveći postotak Zemljine atmosfere?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Dušik čini oko 78% Zemljine atmosfere, dok je kisik drugi najzastupljeniji plin s oko 21%.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1767",
+        "category": "znanost",
+        "question": "Koja vrsta umjetne inteligencije uključuje sustave koji mogu donositi odluke i učiti bez eksplicitnog programiranja za svaki zadatak?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Expertni sustavi",
+            "Algoritamsko programiranje",
+            "Simulacija"
+        ],
+        "explanation": "Strojno učenje je podskup umjetne inteligencije koji omogućuje sustavima da automatski uče iz podataka bez da su eksplicitno programirani za svaki mogući scenarij.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1768",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem stanice probavljaju vlastite komponente radi recikliranja ili uklanjanja oštećenih dijelova?",
+        "correct_answer": "Autofagija",
+        "incorrect_answers": [
+            "Apoptoza",
+            "Mitoza",
+            "Fagocitoza"
+        ],
+        "explanation": "Autofagija je prirodni, regulirani proces razgradnje i recikliranja nepotrebnih ili disfunkcionalnih staničnih komponenti, ključan za stanično zdravlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1769",
+        "category": "znanost",
+        "question": "Koji se princip koristi za objašnjavanje zašto objekti plutaju ili tonu u tekućini?",
+        "correct_answer": "Arhimedov princip",
+        "incorrect_answers": [
+            "Newtonovi zakoni gibanja",
+            "Bernoulliho princip",
+            "Hookeov zakon"
+        ],
+        "explanation": "Arhimedov princip kaže da sila uzgona na objekt uronjen u tekućinu jednaka je težini tekućine koju je objekt istisnuo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1770",
+        "category": "znanost",
+        "question": "Koji vitamin je neophodan za zgrušavanje krvi?",
+        "correct_answer": "Vitamin K",
+        "incorrect_answers": [
+            "Vitamin C",
+            "Vitamin D",
+            "Vitamin A"
+        ],
+        "explanation": "Vitamin K igra ključnu ulogu u sintezi proteina potrebnih za zgrušavanje krvi, što sprječava prekomjerno krvarenje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1771",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija operativnog sustava?",
+        "correct_answer": "Upravljanje računalnim resursima i pružanje usluga aplikacijama",
+        "incorrect_answers": [
+            "Povezivanje na internet",
+            "Dizajniranje grafike",
+            "Pisanje koda"
+        ],
+        "explanation": "Operativni sustav upravlja hardverom i softverskim resursima računala te pruža zajedničke usluge za računalne programe, djelujući kao posrednik između korisnika i hardvera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1772",
+        "category": "znanost",
+        "question": "Kako se naziva reakcija između kiseline i baze koja rezultira stvaranjem soli i vode?",
+        "correct_answer": "Neutralizacija",
+        "incorrect_answers": [
+            "Oksidacija",
+            "Redukcija",
+            "Hidroliza"
+        ],
+        "explanation": "Reakcija neutralizacije je specifičan tip kemijske reakcije u kojoj kiselina i baza reagiraju, pri čemu se pH vrijednost otopine približava neutralnoj (7).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1773",
+        "category": "znanost",
+        "question": "Koji je naziv za izrazito svjetleću aktivnu galaktičku jezgru, koja se napaja supermasivnom crnom rupom u središtu galaksije?",
+        "correct_answer": "Kvazar",
+        "incorrect_answers": [
+            "Pulsar",
+            "Magnetar",
+            "Supernova"
+        ],
+        "explanation": "Kvazari su jedni od najsvjetlijih i najudaljenijih objekata u svemiru, a njihovu energiju pokreće materijal koji pada u supermasivne crne rupe u središtima galaksija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1774",
+        "category": "znanost",
+        "question": "Koji se fizikalni zakon bavi odnosom između napona, struje i otpora u električnom krugu?",
+        "correct_answer": "Ohmov zakon",
+        "incorrect_answers": [
+            "Jouleov zakon",
+            "Faradayev zakon",
+            "Kirchhoffovi zakoni"
+        ],
+        "explanation": "Ohmov zakon kaže da je električna struja kroz linearni otpornik između dviju točaka izravno proporcionalna naponu i obrnuto proporcionalna otporu (I = V/R).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1775",
+        "category": "znanost",
+        "question": "Što je 'phishing'?",
+        "correct_answer": "Vrsta kibernetičke prijevare za krađu osjetljivih podataka",
+        "incorrect_answers": [
+            "Tehnika šifriranja podataka",
+            "Način optimizacije web stranice",
+            "Vrsta kompjuterskog virusa"
+        ],
+        "explanation": "Phishing je pokušaj dobivanja osjetljivih informacija, poput korisničkih imena i lozinki, lažno se predstavljajući kao pouzdani entitet putem e-pošte ili lažnih web stranica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1776",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se molekula vode cijepa na vodikove i hidroksilne ione?",
+        "correct_answer": "Autoionizacija vode",
+        "incorrect_answers": [
+            "Elektroliza",
+            "Hidrogenacija",
+            "Oksidacija"
+        ],
+        "explanation": "Autoionizacija vode je kemijska reakcija u kojoj se dvije molekule vode međusobno ioniziraju, pri čemu jedna djeluje kao kiselina, a druga kao baza.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1777",
+        "category": "znanost",
+        "question": "Kako se naziva struktura u stanicama eukariota koja je odgovorna za proizvodnju proteina?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Jezgra",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Ribosomi su stanične organele koje sintetiziraju proteine translacijom genetskih informacija kodiranih u mRNA molekulama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1778",
+        "category": "znanost",
+        "question": "Koju programsku paradigmu karakterizira organiziranje koda oko objekata umjesto funkcija i logike?",
+        "correct_answer": "Objektno orijentirano programiranje (OOP)",
+        "incorrect_answers": [
+            "Funkcionalno programiranje",
+            "Proceduralno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "OOP koristi objekte, koji sadrže podatke i metode, za modeliranje stvarnog svijeta i rješavanje problema, fokusirajući se na reusabilnost koda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1779",
+        "category": "znanost",
+        "question": "Koji se fenomen događa kada svjetlost mijenja smjer dok prolazi iz jednog medija u drugi, npr. iz zraka u vodu?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Refrakcija je savijanje valova (uključujući svjetlost) kada prolaze kroz medij koji mijenja njihovu brzinu, što se očituje kao promjena smjera.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1780",
+        "category": "znanost",
+        "question": "Koja vrsta energije koristi toplinu iz unutrašnjosti Zemlje?",
+        "correct_answer": "Geotermalna energija",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Hidroenergija",
+            "Vjetroenergija"
+        ],
+        "explanation": "Geotermalna energija crpi toplinu iz Zemljine unutrašnjosti za grijanje ili proizvodnju električne energije, koristeći toplinu iz magme ili vruće vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1781",
+        "category": "znanost",
+        "question": "Kako se naziva znanost koja proučava uzajamne odnose između živih organizama i njihove okoline?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Etologija",
+            "Zoologija",
+            "Botanika"
+        ],
+        "explanation": "Ekologija je interdisciplinarno područje koje istražuje kako organizmi međusobno djeluju i s fizičkim komponentama svog okoliša, uključujući protok energije i tvari.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1782",
+        "category": "znanost",
+        "question": "Koji je standardni protokol za siguran prijenos hiperteksta putem Interneta?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "HTTPS je sigurna verzija HTTP protokola, koja koristi SSL/TLS za enkripciju komunikacije između web preglednika i poslužitelja, osiguravajući privatnost podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1783",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za energiju?",
+        "correct_answer": "Džul",
+        "incorrect_answers": [
+            "Wat",
+            "Njufon",
+            "Herc"
+        ],
+        "explanation": "Džul (J) je SI izvedena jedinica za energiju, rad ili količinu topline. Ime je dobio po engleskom fizičaru Jamesu Prescottu Jouleu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1784",
+        "category": "znanost",
+        "question": "Koji se proces u imunološkom sustavu odnosi na sposobnost tijela da prepozna i uništi stanice koje su postale abnormalne, poput tumorskih stanica?",
+        "correct_answer": "Imunološki nadzor (Immune surveillance)",
+        "incorrect_answers": [
+            "Autoimunost",
+            "Alergijska reakcija",
+            "Upala"
+        ],
+        "explanation": "Imunološki nadzor je teorija da imunološki sustav prepoznaje i uništava rane maligne stanice i sprječava razvoj tumora, djelujući kao 'policajac' tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1785",
+        "category": "znanost",
+        "question": "Koji je naziv za patuljasti planet koji je bio klasificiran kao planet do 2006. godine?",
+        "correct_answer": "Pluton",
+        "incorrect_answers": [
+            "Ceres",
+            "Eris",
+            "Haumea"
+        ],
+        "explanation": "Međunarodna astronomska unija redefinirala je 2006. godine pojam planeta, nakon čega je Pluton reklasificiran u patuljasti planet jer ne 'čisti' svoju orbitu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1786",
+        "category": "znanost",
+        "question": "Što je VPN?",
+        "correct_answer": "Virtualna privatna mreža",
+        "incorrect_answers": [
+            "Vrlo privatna nota",
+            "Varijabilna putanja mreže",
+            "Vizualni portalni navigator"
+        ],
+        "explanation": "VPN uspostavlja sigurnu, šifriranu vezu preko manje sigurne mreže, poput interneta, omogućujući korisnicima privatnost i anonimnost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1787",
+        "category": "znanost",
+        "question": "Koji dio DNA nosi genetske upute za razvoj i funkcioniranje svih živih organizama?",
+        "correct_answer": "Geni",
+        "incorrect_answers": [
+            "Kromosomi",
+            "Aleli",
+            "Nukleotidi"
+        ],
+        "explanation": "Geni su osnovne fizičke i funkcionalne jedinice nasljeđa. Oni su segmenti DNA koji kodiraju specifične proteine ili funkcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1788",
+        "category": "znanost",
+        "question": "Koja je pH vrijednost čiste vode na sobnoj temperaturi?",
+        "correct_answer": "7 (neutralna)",
+        "incorrect_answers": [
+            "0 (jako kisela)",
+            "14 (jako bazična)",
+            "5 (blago kisela)"
+        ],
+        "explanation": "Čista voda je neutralna, što znači da ima jednaku koncentraciju vodikovih (H+) i hidroksilnih (OH-) iona, što rezultira pH od 7.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1789",
+        "category": "znanost",
+        "question": "Koja se arhitektura mikroprocesora koristi za pokretanje složenih instrukcija na visokim performansama, često u stolnim računalima i poslužiteljima?",
+        "correct_answer": "CISC (Complex Instruction Set Computer)",
+        "incorrect_answers": [
+            "RISC (Reduced Instruction Set Computer)",
+            "ASIC (Application-Specific Integrated Circuit)",
+            "FPGA (Field-Programmable Gate Array)"
+        ],
+        "explanation": "CISC arhitektura koristi složene instrukcije koje mogu izvesti više operacija u jednom koraku, omogućujući veću gustoću koda i složenije operacije u manje ciklusa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
