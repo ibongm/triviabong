@@ -21941,5 +21941,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1738",
+        "category": "povijest",
+        "question": "Tko je bila prva žena faraon Starog Egipta koja je vladala kao muškarac i bila poznata po svojoj impresivnoj grobnici u Dolini kraljeva?",
+        "correct_answer": "Hatshepsut",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Kleopatra VII.",
+            "Nitokris"
+        ],
+        "explanation": "Hatshepsut je vladala kao faraon u 18. dinastiji (oko 1479.–1458. pr. Kr.), preuzimajući muške titule i atribute.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1739",
+        "category": "povijest",
+        "question": "Koji je drevni grad bio prijestolnica Asirskog Carstva i poznat po svojoj velikoj biblioteci glinenih pločica koju je sakupio kralj Ašurbanipal?",
+        "correct_answer": "Niniva",
+        "incorrect_answers": [
+            "Babilon",
+            "Ur",
+            "Perzepolis"
+        ],
+        "explanation": "Niniva je bila posljednja velika prijestolnica Asirskog Carstva, a Ašurbanipalova knjižnica je neprocjenjiv izvor mezopotamske povijesti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1740",
+        "category": "povijest",
+        "question": "Kako se nazivala vojna formacija u antičkoj Grčkoj, koju je usavršio Filip II. Makedonski, a kasnije koristio i Aleksandar Veliki, poznata po dugim kopljima?",
+        "correct_answer": "Falanga",
+        "incorrect_answers": [
+            "Legija",
+            "Centurija",
+            "Kohorta"
+        ],
+        "explanation": "Falanga je bila gusta pješačka formacija opremljena dugim kopljima (sarissama), izuzetno učinkovita u bliskoj borbi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1741",
+        "category": "povijest",
+        "question": "Koja je drevna rimska cesta bila jedna od najvažnijih i najstarijih, povezujući Rim s Brindisijem na jugoistoku Italije?",
+        "correct_answer": "Apijev put",
+        "incorrect_answers": [
+            "Flavijev put",
+            "Emilijev put",
+            "Salarijski put"
+        ],
+        "explanation": "Apijev put (Via Appia) izgrađen je u 4. stoljeću pr. Kr. i bio je ključna prometnica koja je jačala rimsku moć.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1742",
+        "category": "povijest",
+        "question": "Koje je godine rimski grad Pompeji uništen katastrofalnom erupcijom vulkana Vezuva, koja je grad prekrila pepelom i lavom?",
+        "correct_answer": "79. god. n.e.",
+        "incorrect_answers": [
+            "133. god. pr. n.e.",
+            "44. god. n.e.",
+            "212. god. n.e."
+        ],
+        "explanation": "Erupcija Vezuva 79. godine n.e. zatekla je Pompeje i obližnji Herkulanej, zauvijek ih očuvavši pod vulkanskim materijalom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1743",
+        "category": "povijest",
+        "question": "Tko je bio franački majordom koji je 732. godine u bitci kod Poitiersa zaustavio arapsko napredovanje u Zapadnu Europu?",
+        "correct_answer": "Karlo Martel",
+        "incorrect_answers": [
+            "Karlo Veliki",
+            "Pipin Mali",
+            "Klovig I."
+        ],
+        "explanation": "Karlo Martel je svojom pobjedom kod Poitiersa spriječio širenje omejadskog kalifata iz Hispanije u franačko kraljevstvo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1744",
+        "category": "povijest",
+        "question": "Koji je bizantski car u 7. stoljeću proveo značajne administrativne i vojne reforme te uspješno odbio opsade Carigrada od strane Avara i Slavena?",
+        "correct_answer": "Heraklije",
+        "incorrect_answers": [
+            "Lav III.",
+            "Bazilije II.",
+            "Teodozije II."
+        ],
+        "explanation": "Heraklije je reorganizirao Bizantsko Carstvo u teme i uspješno obranio prijestolnicu, ali i izgubio značajne teritorije od Arapa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1745",
+        "category": "povijest",
+        "question": "Kako se nazivala vikinška skupština, zajednička za sve slobodne muškarce, na kojoj su se donosile zakonske odluke, rješavali sporovi i proglašavali zakoni?",
+        "correct_answer": "Ting",
+        "incorrect_answers": [
+            "Skup",
+            "Koncil",
+            "Sabor"
+        ],
+        "explanation": "Ting je bio središnja institucija vikinškog društva i ključan za pravni sustav, političke odluke i društvenu regulaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1746",
+        "category": "povijest",
+        "question": "Koje je godine tradicionalno proglašen kraljem Hrvatske, čime je Hrvatska postala kraljevina?",
+        "correct_answer": "925.",
+        "incorrect_answers": [
+            "960.",
+            "1000.",
+            "1075."
+        ],
+        "explanation": "Godina 925. se tradicionalno uzima kao godina kada je papa Ivan X. poslao krunu Tomislavu, čime je on postao prvi hrvatski kralj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1747",
+        "category": "povijest",
+        "question": "Koji je papa 1077. godine, tijekom borbe za investituru, ekskomunicirao rimsko-njemačkog cara Henrika IV. i prisilio ga na pokajanje u Canossi?",
+        "correct_answer": "Grgur VII.",
+        "incorrect_answers": [
+            "Urban II.",
+            "Inocent III.",
+            "Lav IX."
+        ],
+        "explanation": "Grgur VII. je bio snažan zagovornik papinske supremacije, a događaj u Canossi simbolizira vrhunac njegove moći nad svjetovnim vladarima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1748",
+        "category": "povijest",
+        "question": "Koji je engleski kralj, poznat kao 'Lavljeg Srca', bio vodeća figura Trećeg križarskog rata u borbi protiv Saladina?",
+        "correct_answer": "Rikard I.",
+        "incorrect_answers": [
+            "Henrik VIII.",
+            "Eduard III.",
+            "Ivan bez Zemlje"
+        ],
+        "explanation": "Rikard I. je legendarni engleski kralj koji je proveo veći dio svoje vladavine boreći se u križarskim ratovima na Bliskom istoku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1749",
+        "category": "povijest",
+        "question": "Koje je godine engleski kralj Ivan bez Zemlje pod pritiskom baruna potpisao Magna Cartu, dokument koji je ograničio kraljevsku vlast?",
+        "correct_answer": "1215.",
+        "incorrect_answers": [
+            "1066.",
+            "1348.",
+            "1485."
+        ],
+        "explanation": "Magna Carta Libertatum je jedan od najvažnijih dokumenata u povijesti demokracije, koji je postavio temelje ustavne vladavine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1750",
+        "category": "povijest",
+        "question": "Procjenjuje se da je Crna smrt u 14. stoljeću, u razdoblju od 1347. do 1351. godine, ubila otprilike koliko posto europskog stanovništva?",
+        "correct_answer": "30-50%",
+        "incorrect_answers": [
+            "10-20%",
+            "60-70%",
+            "5-10%"
+        ],
+        "explanation": "Crna smrt, uzrokovana bakterijom Yersinia pestis, bila je jedna od najsmrtonosnijih pandemija u ljudskoj povijesti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1751",
+        "category": "povijest",
+        "question": "Koji je francuski grad ostao pod engleskom kontrolom do 1453. godine, nakon pobjede Francuza u bitci kod Castillona, čime je okončan Stogodišnji rat?",
+        "correct_answer": "Calais",
+        "incorrect_answers": [
+            "Orleans",
+            "Pariz",
+            "Bordeaux"
+        ],
+        "explanation": "Calais je bio posljednje englesko kontinentalno uporište iz Stogodišnjeg rata, izgubljeno tek 1558.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1752",
+        "category": "povijest",
+        "question": "Koja je moćna firentinska obitelj, bankari i mecene umjetnosti, imala ključnu ulogu u političkom i kulturnom životu renesansne Firence?",
+        "correct_answer": "Medici",
+        "incorrect_answers": [
+            "Sforza",
+            "Borgia",
+            "Visconti"
+        ],
+        "explanation": "Obitelj Medici je svojim bogatstvom i utjecajem financirala mnoge umjetnike i filozofe, postavši sinonim za renesansno pokroviteljstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1753",
+        "category": "povijest",
+        "question": "Koji je njemački teolog i redovnik 1517. godine objavio 95 teza u Wittenbergu, čime je započeo protestantsku reformaciju?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Ulrich Zwingli",
+            "Jan Hus"
+        ],
+        "explanation": "Martin Luther je svojim tezama kritizirao praksu prodaje indulgencija i druge aspekte Katoličke crkve, što je dovelo do velikog vjerskog raskola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1754",
+        "category": "povijest",
+        "question": "Tko je bio portugalski pomorac koji je 1519. godine započeo prvu plovidbu oko svijeta, iako ju je dovršio njegov drugi kapetan Juan Sebastián Elcano?",
+        "correct_answer": "Ferdinand Magellan",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Vasco da Gama",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Magellanova ekspedicija je potvrdila da je Zemlja okrugla i pronašla zapadni put do Azije, unatoč gubitku vođe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1755",
+        "category": "povijest",
+        "question": "U kojoj se bitci 1526. godine odigrao katastrofalan poraz mađarske vojske od Osmanskog Carstva, što je otvorilo put Osmanskom Carstvu prema srednjoj Europi?",
+        "correct_answer": "Mohačka bitka",
+        "incorrect_answers": [
+            "Sisačka bitka",
+            "Krbavska bitka",
+            "Bitka kod Lepanta"
+        ],
+        "explanation": "Mohačka bitka rezultirala je smrću kralja Ludovika II. i krajem neovisnog Ugarskog Kraljevstva, te označila prekretnicu za Hrvatsku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1756",
+        "category": "povijest",
+        "question": "Tko je engleski matematičar, fizičar i astronom koji je formulirao zakone gibanja i univerzalni zakon gravitacije, objavljene u djelu 'Principia Mathematica'?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Robert Hooke"
+        ],
+        "explanation": "Newtonovi zakoni su postavili temelje klasične mehanike i bili su dominantni znanstveni model za sljedeća tri stoljeća.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1757",
+        "category": "povijest",
+        "question": "Koja je europska sila, predvođena kardinalom Richelieuom, odigrala ključnu ulogu u jačanju protuhabsburške koalicije tijekom Tridesetogodišnjeg rata, unatoč tome što je bila katolička?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Španjolska",
+            "Engleska",
+            "Švedska"
+        ],
+        "explanation": "Francuska je, radi svojih političkih interesa i slabljenja Habsburgovaca, podržavala protestantske snage protiv katoličke Svetog Rimskog Carstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1758",
+        "category": "povijest",
+        "question": "Koji je francuski filozof, poznat pod pseudonimom Voltaire, bio oštar kritičar apsolutizma i Crkve te zagovornik slobode govora i vjerske tolerancije?",
+        "correct_answer": "François-Marie Arouet (Voltaire)",
+        "incorrect_answers": [
+            "Jean-Jacques Rousseau",
+            "Denis Diderot",
+            "Baron de Montesquieu"
+        ],
+        "explanation": "Voltaire je bio ključna figura prosvjetiteljstva, čiji su se radovi zalagali za reforme društva i prosvijećenu monarhiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1759",
+        "category": "povijest",
+        "question": "Tko je bio glavni autor Deklaracije neovisnosti Sjedinjenih Američkih Država, dokumenta usvojenog 4. srpnja 1776. godine?",
+        "correct_answer": "Thomas Jefferson",
+        "incorrect_answers": [
+            "Benjamin Franklin",
+            "George Washington",
+            "John Adams"
+        ],
+        "explanation": "Thomas Jefferson je bio glavni pisac Deklaracije neovisnosti, koja je proglasila trinaest američkih kolonija neovisnima od Velike Britanije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1760",
+        "category": "povijest",
+        "question": "Kako se nazivalo razdoblje intenzivnog političkog nasilja i masovnih pogubljenja giljotinom, koje je obilježilo Francusku revoluciju od 1793. do 1794. godine?",
+        "correct_answer": "Vladavina terora",
+        "incorrect_answers": [
+            "Direktorij",
+            "Generalni staleži",
+            "Konvencija"
+        ],
+        "explanation": "Vladavina terora bila je pod kontrolom Jakobinaca i Odbora javnog spasa, predvođenog Maximilienom Robespierreom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1761",
+        "category": "povijest",
+        "question": "Koji je francuski general, zahvaljujući nizu vojnih pobjeda, postao car Francuza i dominirao europskom politikom početkom 19. stoljeća?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Maršal Foch",
+            "Luj XVI.",
+            "Robespierre"
+        ],
+        "explanation": "Napoleon je preoblikovao europsku političku kartu i pravni sustav kroz svoje osvajačke ratove i Napoleonov kodeks.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1762",
+        "category": "povijest",
+        "question": "Koje je godine održan Bečki kongres, skup europskih sila, s ciljem preuređenja političke karte Europe nakon poraza Napoleona Bonapartea?",
+        "correct_answer": "1815.",
+        "incorrect_answers": [
+            "1789.",
+            "1830.",
+            "1848."
+        ],
+        "explanation": "Bečki kongres je uspostavio 'koncert Europe' i načela legitimnosti i ravnoteže snaga, tražeći stabilnost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1763",
+        "category": "povijest",
+        "question": "Koji je britanski inženjer zaslužan za izradu 'Rocket' lokomotive i prve javne željezničke pruge koja je koristila parne lokomotive (Liverpool-Manchester Railway)?",
+        "correct_answer": "George Stephenson",
+        "incorrect_answers": [
+            "Richard Trevithick",
+            "Isambard Kingdom Brunel",
+            "Karl Benz"
+        ],
+        "explanation": "Stephenson je ključna figura u razvoju željeznice, a njegova 'Rocket' postala je simbol industrijske revolucije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1764",
+        "category": "povijest",
+        "question": "Koji je hrvatski političar i biskup bio vođa Narodne stranke, osnivač Jugoslavenske akademije znanosti i umjetnosti te pobornik južnoslavenske ideje u 19. stoljeću?",
+        "correct_answer": "Josip Juraj Strossmayer",
+        "incorrect_answers": [
+            "Ljudevit Gaj",
+            "Ante Starčević",
+            "Eugen Kvaternik"
+        ],
+        "explanation": "Strossmayer je bio jedna od najutjecajnijih osoba u hrvatskoj politici i kulturi 19. stoljeća, s naglaskom na obrazovanje i prosvjetiteljstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1765",
+        "category": "povijest",
+        "question": "Tko je bio afrički kralj Zulu carstva koji je uspješno odolijevao britanskoj kolonizaciji u bitci kod Isandlwane 1879., nanijevši im težak poraz?",
+        "correct_answer": "Cetshwayo kaMpande",
+        "incorrect_answers": [
+            "Shaka Zulu",
+            "Dingaan",
+            "Sobhuza I."
+        ],
+        "explanation": "Kralj Cetshwayo je vodio Zulu vojsku u impresivnoj pobjedi nad britanskim snagama, iako je Zulu Carstvo kasnije palo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1766",
+        "category": "povijest",
+        "question": "Koje je godine Italija objavila rat Austro-Ugarskoj i Njemačkoj, napuštajući Trojni savez i pridružujući se Antanti u Prvom svjetskom ratu?",
+        "correct_answer": "1915.",
+        "incorrect_answers": [
+            "1914.",
+            "1916.",
+            "1917."
+        ],
+        "explanation": "Italija je ušla u Prvi svjetski rat na strani Antante nakon Londonskog pakta, kojim su joj obećani teritorijalni ustupci.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1767",
+        "category": "povijest",
+        "question": "Koji je ruski car abdicirao 1917. godine, čime je okončana tristogodišnja vladavina dinastije Romanov i utrt put Oktobarskoj revoluciji?",
+        "correct_answer": "Nikola II.",
+        "incorrect_answers": [
+            "Petar Veliki",
+            "Aleksandar I.",
+            "Ivan Grozni"
+        ],
+        "explanation": "Abdikacija Nikole II. bila je izravna posljedica Februarske revolucije i masovnog nezadovoljstva ratom i siromaštvom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1768",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik vodio Sjedinjene Američke Države kroz veći dio Velike depresije i Drugog svjetskog rata, poznat po programu 'New Deal'?",
+        "correct_answer": "Franklin D. Roosevelt",
+        "incorrect_answers": [
+            "Herbert Hoover",
+            "Harry S. Truman",
+            "Woodrow Wilson"
+        ],
+        "explanation": "Rooseveltov 'New Deal' bio je niz programa i reformi s ciljem oporavka, olakšanja i reforme američkog gospodarstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1769",
+        "category": "povijest",
+        "question": "Koje su godine započele borbe u Španjolskom građanskom ratu, sukobu između republikanaca i nacionalista, koji je trajao tri godine?",
+        "correct_answer": "1936.",
+        "incorrect_answers": [
+            "1930.",
+            "1939.",
+            "1941."
+        ],
+        "explanation": "Španjolski građanski rat bio je predigra Drugog svjetskog rata, s intervencijama nacističke Njemačke i fašističke Italije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1770",
+        "category": "povijest",
+        "question": "Koje su godine nacistička Njemačka i Sovjetski Savez potpisali Pakt Molotov-Ribbentrop, sporazum o nenapadanju s tajnim protokolima o podjeli utjecajnih sfera?",
+        "correct_answer": "1939.",
+        "incorrect_answers": [
+            "1936.",
+            "1941.",
+            "1938."
+        ],
+        "explanation": "Pakt je omogućio Njemačkoj da napadne Poljsku bez straha od sovjetske reakcije, što je započelo Drugi svjetski rat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1771",
+        "category": "povijest",
+        "question": "Koji je datum bio Dan D, kodno ime za invaziju Normandije, najveću pomorsku invaziju u povijesti, tijekom Drugog svjetskog rata?",
+        "correct_answer": "6. lipnja 1944.",
+        "incorrect_answers": [
+            "1. rujna 1939.",
+            "7. prosinca 1941.",
+            "8. svibnja 1945."
+        ],
+        "explanation": "Dan D je označio početak oslobađanja Zapadne Europe od nacističke okupacije i otvaranje druge fronte.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1772",
+        "category": "povijest",
+        "question": "Koji je bio najveći koncentracijski i logor smrti nacističke Njemačke, smješten u okupiranoj Poljskoj, gdje je ubijeno preko milijun ljudi?",
+        "correct_answer": "Auschwitz-Birkenau",
+        "incorrect_answers": [
+            "Treblinka",
+            "Dachau",
+            "Mauthausen"
+        ],
+        "explanation": "Auschwitz-Birkenau je postao simbol Holokausta i nacističkih zločina protiv čovječnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1773",
+        "category": "povijest",
+        "question": "Kako se naziva politika obuzdavanja širenja komunizma, koju su Sjedinjene Države usvojile tijekom Hladnog rata, prvi put predstavljena 1947. godine?",
+        "correct_answer": "Doktrina Trumana",
+        "incorrect_answers": [
+            "Marshallov plan",
+            "Monroeova doktrina",
+            "Detant"
+        ],
+        "explanation": "Doktrina Trumana označila je prekretnicu u američkoj vanjskoj politici, prelazeći s izolacionizma na aktivno globalno sudjelovanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1774",
+        "category": "povijest",
+        "question": "Koje je godine Kuba postala komunistička zemlja nakon revolucije koju je predvodio Fidel Castro, svrgnuvši diktatora Fulgencija Batistu?",
+        "correct_answer": "1959.",
+        "incorrect_answers": [
+            "1953.",
+            "1961.",
+            "1962."
+        ],
+        "explanation": "Kubanska revolucija dovela je do uspostave prve komunističke države na zapadnoj hemisferi, s dalekosežnim posljedicama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1775",
+        "category": "povijest",
+        "question": "Tko je bio američki predsjednik koji je značajno eskalirao vojnu prisutnost SAD-a u Vijetnamu 1960-ih, a kasnije se povukao iz utrke za reizbor?",
+        "correct_answer": "Lyndon B. Johnson",
+        "incorrect_answers": [
+            "John F. Kennedy",
+            "Richard Nixon",
+            "Dwight D. Eisenhower"
+        ],
+        "explanation": "Johnsonova administracija je masovno povećala broj američkih trupa i bombardiranja u Vijetnamu nakon incidenta u Tonkinškom zaljevu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1776",
+        "category": "povijest",
+        "question": "Koji je prvi hrvatski predsjednik vodio Hrvatsku kroz proces stjecanja neovisnosti i obranu tijekom Domovinskog rata od 1990. do 1999. godine?",
+        "correct_answer": "Franjo Tuđman",
+        "incorrect_answers": [
+            "Stjepan Mesić",
+            "Ivica Račan",
+            "Josip Broz Tito"
+        ],
+        "explanation": "Franjo Tuđman je bio ključna figura u osnivanju moderne hrvatske države i njenoj borbi za neovisnost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_1777",
+        "category": "povijest",
+        "question": "Koje su godine Hrvatska pristupila Europskoj uniji, postajući 28. članica te organizacije?",
+        "correct_answer": "2013.",
+        "incorrect_answers": [
+            "2007.",
+            "2004.",
+            "2010."
+        ],
+        "explanation": "Hrvatska je službeno postala članica Europske unije 1. srpnja 2013. godine, nakon dugotrajnih pregovora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
