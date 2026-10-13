@@ -18302,5 +18302,515 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1497",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu po novijim mjerenjima?",
+        "correct_answer": "Amazona",
+        "incorrect_answers": [
+            "Nil",
+            "Mississippi",
+            "Jangce"
+        ],
+        "explanation": "Amazona je s duljinom od oko 7.000 km, prema novijim mjerenjima, najduža rijeka na svijetu. Njezin golemi sliv obuhvaća velik dio Južne Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1498",
+        "category": "geografija",
+        "question": "Koje je najveće slatkovodno jezero po površini u Africi?",
+        "correct_answer": "Viktorijino jezero",
+        "incorrect_answers": [
+            "Jezero Tanganjika",
+            "Malavijsko jezero",
+            "Čadsko jezero"
+        ],
+        "explanation": "Viktorijino jezero je najveće slatkovodno jezero u Africi i drugo najveće na svijetu po površini. Ono je ključan rezervoar za rijeku Nil.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1499",
+        "category": "geografija",
+        "question": "Koja je najsjevernija suverena država u Europi?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Finska",
+            "Island"
+        ],
+        "explanation": "Norveška je najsjevernija suverena država u Europi, s velikim dijelom svog teritorija koji se proteže iznad Arktičkog kruga. Graniči sa Švedskom, Finskom i Rusijom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1500",
+        "category": "geografija",
+        "question": "Koja je boja oceana kada je Sunce visoko na nebu i nema oblaka?",
+        "correct_answer": "Plava",
+        "incorrect_answers": [
+            "Zelena",
+            "Smeđa",
+            "Crna"
+        ],
+        "explanation": "Voda je prirodno bezbojna, ali reflektira kratkovalne plave zrake Sunčeve svjetlosti, što oceanu daje plavu boju pri bistrom nebu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1501",
+        "category": "geografija",
+        "question": "Koji je najmanji ocean na svijetu?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Atlantski ocean",
+            "Južni ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplitlji od pet velikih oceana na Zemlji. Nalazi se oko Sjevernog pola i uglavnom je pokriven morskim ledom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1502",
+        "category": "geografija",
+        "question": "Koja država je poznata po svojim brojnim fjordovima?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švicarska",
+            "Austrija",
+            "Italija"
+        ],
+        "explanation": "Norveška ima jednu od najrazvedenijih obala na svijetu, s tisućama fjordova koji su nastali djelovanjem ledenjaka. Oni su jedna od glavnih turističkih atrakcija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1503",
+        "category": "geografija",
+        "question": "Koji je najgušće naseljeni kontinent na svijetu?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je dom za više od polovice svjetske populacije, što je čini najgušće naseljenim kontinentom. Veliki dio stanovništva koncentriran je u Kini i Indiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1504",
+        "category": "geografija",
+        "question": "Koja je najniža prirodna točka na Zemljinoj kopnenoj površini?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Marijanska brazda",
+            "Dolina smrti",
+            "Bajkalsko jezero"
+        ],
+        "explanation": "Mrtvo more, koje se nalazi između Izraela i Jordana, s površinom od oko 430 metara ispod razine mora, najniža je kopnena točka na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1505",
+        "category": "geografija",
+        "question": "Koja je najviša točka na afričkom kontinentu?",
+        "correct_answer": "Kilimandžaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Drakensberg",
+            "Rwenzori"
+        ],
+        "explanation": "Planina Kilimandžaro u Tanzaniji je najviši vrh Afrike s 5.895 metara nadmorske visine. To je uspavani stratovulkan.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1506",
+        "category": "geografija",
+        "question": "Koja rijeka prolazi kroz glavni grad Ujedinjenog Kraljevstva, London?",
+        "correct_answer": "Temza",
+        "incorrect_answers": [
+            "Sena",
+            "Rajna",
+            "Dunav"
+        ],
+        "explanation": "Rijeka Temza je druga najduža rijeka u Ujedinjenom Kraljevstvu i teče kroz srce Londona, igrajući ključnu ulogu u njegovoj povijesti i razvoju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1507",
+        "category": "geografija",
+        "question": "Koji je najdublji oceanski rov na svijetu?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanski rov",
+            "Javanski rov",
+            "Peruansko-čileanski rov"
+        ],
+        "explanation": "Marijanska brazda, smještena u zapadnom Pacifiku, najdublja je poznata točka na Zemlji, dosežući dubinu od gotovo 11.000 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1508",
+        "category": "geografija",
+        "question": "Koji je naziv za golemi val koji nastaje pomicanjem Zemljine kore uslijed podvodnih potresa ili vulkanskih erupcija?",
+        "correct_answer": "Tsunami",
+        "incorrect_answers": [
+            "Plimni val",
+            "Morski vir",
+            "Uragan"
+        ],
+        "explanation": "Tsunami je niz oceanskih valova uzrokovanih velikim poremećajima poput podmorskih potresa, vulkanskih erupcija ili odrona zemljišta. To nisu plimni valovi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1509",
+        "category": "geografija",
+        "question": "Koje je najveće rubno more na svijetu?",
+        "correct_answer": "Južnokinesko more",
+        "incorrect_answers": [
+            "Sredozemno more",
+            "Karipsko more",
+            "Japansko more"
+        ],
+        "explanation": "Južnokinesko more je najveće rubno more na svijetu, dio Tihog oceana. Poznato je po svojim bogatim resursima i strateškom položaju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1510",
+        "category": "geografija",
+        "question": "Koja država ima najviše službenih vremenskih zona, uključujući i prekomorske teritorije?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Rusija",
+            "SAD",
+            "Kina"
+        ],
+        "explanation": "Francuska, uključujući svoje prekomorske departmane i teritorije, ima ukupno 12 službenih vremenskih zona. Rusija ima 11, a SAD 11 (ako se računa i Samoa).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1511",
+        "category": "geografija",
+        "question": "Koji je naziv za pojavu kada se voda u jezeru naglo prevrne, uzrokujući oslobađanje plinova poput ugljičnog dioksida?",
+        "correct_answer": "Limnička erupcija",
+        "incorrect_answers": [
+            "Eutrofikacija",
+            "Morski cvat",
+            "Oligotrofija"
+        ],
+        "explanation": "Limnička erupcija je rijedak prirodni fenomen u kojem se CO2 naglo oslobađa iz dubina jezera, što može dovesti do gušenja živih bića. Primjeri su jezera Nyos i Monoun.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1512",
+        "category": "geografija",
+        "question": "Koji je naziv za otoke koji se formiraju na prstenastom koraljnom grebenu oko središnje lagune?",
+        "correct_answer": "Atol",
+        "incorrect_answers": [
+            "Vulkanski otok",
+            "Barijerni otok",
+            "Kontinentalni otok"
+        ],
+        "explanation": "Atoli su koraljni otoci prstenastog oblika koji okružuju plitku lagunu. Nastaju rastom koralja na potonulim vulkanskim otocima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1513",
+        "category": "geografija",
+        "question": "Koji je naziv za tip pustinje nastale zbog kišne sjene, gdje planinski lanac blokira vlagu?",
+        "correct_answer": "Orografska pustinja",
+        "incorrect_answers": [
+            "Tropska pustinja",
+            "Polarna pustinja",
+            "Primorska pustinja"
+        ],
+        "explanation": "Orografske pustinje nastaju na zavjetrinskoj strani planinskih lanaca, gdje su zračne mase isušene nakon što su se digle i izručile oborine na privjetrinskoj strani.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1514",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Europi koja se ulijeva u Kaspijsko jezero?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Rajna",
+            "Dnjepar"
+        ],
+        "explanation": "Volga je najduža rijeka u Europi, dugačka oko 3.530 km. Izvire u Valdajskom gorju u Rusiji i ulijeva se u Kaspijsko jezero.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1515",
+        "category": "geografija",
+        "question": "Koja država se sastoji od više od 17.000 otoka i najveća je otočna država na svijetu?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Filipini",
+            "Japan",
+            "Maldivi"
+        ],
+        "explanation": "Indonezija je arhipelaška država koja se sastoji od oko 17.508 otoka. Ona je najveća otočna država po površini i broju stanovnika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1516",
+        "category": "geografija",
+        "question": "Koja je najjužnija nacionalna prijestolnica na svijetu?",
+        "correct_answer": "Wellington",
+        "incorrect_answers": [
+            "Canberra",
+            "Buenos Aires",
+            "Santiago"
+        ],
+        "explanation": "Wellington, glavni grad Novog Zelanda, najjužnija je nacionalna prijestolnica na svijetu. Nalazi se na južnom dijelu Sjevernog otoka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1517",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kojim se slana voda uklanja iz morske vode radi dobivanja pitke vode?",
+        "correct_answer": "Desalinizacija",
+        "incorrect_answers": [
+            "Destilacija",
+            "Filtracija",
+            "Koagulacija"
+        ],
+        "explanation": "Desalinizacija je proces uklanjanja soli i minerala iz morske ili bočate vode kako bi se proizvela pitka voda. To je ključno za područja s nedostatkom slatke vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1518",
+        "category": "geografija",
+        "question": "Koja država ima najdulju obalu na svijetu, uključujući i obale svojih otoka?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Indonezija",
+            "Rusija",
+            "Australija"
+        ],
+        "explanation": "Kanada ima najdulju obalu na svijetu, koja se proteže na preko 243.000 kilometara, uključujući kontinentalne obale i obale tisuća otoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1519",
+        "category": "geografija",
+        "question": "Koja je planina dio 'Sedam vrhova' i najviša je točka Sjeverne Amerike?",
+        "correct_answer": "Denali (Mount McKinley)",
+        "incorrect_answers": [
+            "Mount Logan",
+            "Mount Whitney",
+            "Popocatépetl"
+        ],
+        "explanation": "Denali (poznat i kao Mount McKinley) na Aljasci je s visinom od 6.190 metara najviši vrh Sjeverne Amerike. To je granitni batolit.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1520",
+        "category": "geografija",
+        "question": "Koji je najveći endoreični bazen (bez izljeva u more) na svijetu?",
+        "correct_answer": "Kaspijsko jezero",
+        "incorrect_answers": [
+            "Aralsko jezero",
+            "Veliko slano jezero",
+            "Bajkalsko jezero"
+        ],
+        "explanation": "Kaspijsko jezero je najveće jezero na svijetu po površini i volumenu. To je endoreični bazen, što znači da nema izljeva u more.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1521",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kada se tektonska ploča podvlači pod drugu tektonsku ploču?",
+        "correct_answer": "Subdukcija",
+        "incorrect_answers": [
+            "Obdukcija",
+            "Kolizija",
+            "Divergencija"
+        ],
+        "explanation": "Subdukcija je geološki proces u kojem se oceanska kora i pripadajući sedimenti recikliraju u Zemljinom plaštu pod drugom pločom, često kontinentalnom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1522",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj jezera na svijetu?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Rusija",
+            "SAD",
+            "Finska"
+        ],
+        "explanation": "Kanada ima više jezera nego bilo koja druga zemlja, s oko 3 milijuna jezera, uključujući brojna velika slatkovodna jezera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1523",
+        "category": "geografija",
+        "question": "Koji je naziv za prirodni fenomen gdje se voda u moru povlači mnogo dalje od uobičajene oseke prije nego što udari tsunami?",
+        "correct_answer": "Povlačenje mora (Drawdown)",
+        "incorrect_answers": [
+            "Niska plima",
+            "Erozija",
+            "Plimni val"
+        ],
+        "explanation": "Povlačenje mora je upozoravajući znak da se tsunami približava. To je naglo povlačenje obalnih voda koje otkriva morsko dno, prije nego što golemi val udari.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1524",
+        "category": "geografija",
+        "question": "Koji je naziv za geološki proces kada se dva kontinentalna bloka sudare, što često rezultira nastankom velikih planinskih lanaca?",
+        "correct_answer": "Kontinentalna kolizija",
+        "incorrect_answers": [
+            "Subdukcija",
+            "Transformni rasjed",
+            "Divergencija"
+        ],
+        "explanation": "Kontinentalna kolizija nastaje kada se dvije kontinentalne ploče sudare, što dovodi do zgušnjavanja kore i formiranja visokih planinskih lanaca poput Himalaje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1525",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu kiše koja nastaje zbog intenzivnog zagrijavanja tla i uzlaznih struja vlažnog zraka?",
+        "correct_answer": "Konvekcijska kiša",
+        "incorrect_answers": [
+            "Orografska kiša",
+            "Frontalna kiša",
+            "Ciklonska kiša"
+        ],
+        "explanation": "Konvekcijska kiša tipična je za tropska područja i ljetne mjesece, nastaje kada zagrijani zrak brzo raste, hladi se i kondenzira u oblake.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1526",
+        "category": "geografija",
+        "question": "Koja je najdublja špilja na svijetu (stanje 2024.)?",
+        "correct_answer": "Špilja Veryovkina",
+        "incorrect_answers": [
+            "Špilja Krubera-Voronja",
+            "Jaskinia Wielka Śnieżna",
+            "Gouffre Mirolda"
+        ],
+        "explanation": "Špilja Veryovkina u Abhaziji je s dubinom od 2.212 metara najdublja poznata špilja na svijetu (stanje 2024.). Njezino istraživanje je iznimno zahtjevno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1527",
+        "category": "geografija",
+        "question": "Koja je država dom poznatog pustinjskog grada Petre, isklesanog u stijeni?",
+        "correct_answer": "Jordan",
+        "incorrect_answers": [
+            "Egipat",
+            "Izrael",
+            "Saudijska Arabija"
+        ],
+        "explanation": "Petra je arheološki grad u Jordanu, poznat po svojim hramovima i grobnicama isklesanim u pješčanim stijenama. To je UNESCO-ova svjetska baština.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1528",
+        "category": "geografija",
+        "question": "Koja država se nalazi na jugu Europe i dom je najvišeg aktivnog vulkana u Europi?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Portugal"
+        ],
+        "explanation": "Italija je dom Etne, najvišeg aktivnog vulkana u Europi, smještenog na Siciliji. Njegove česte erupcije oblikuju krajolik i pružaju plodno tlo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1529",
+        "category": "geografija",
+        "question": "Koji je naziv za rijeku koja teče kroz najviše zemalja u svijetu i ulijeva se u Crno more?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Volga",
+            "Dnjepar"
+        ],
+        "explanation": "Dunav teče kroz deset zemalja, više nego bilo koja druga rijeka na svijetu. Izlijeva se u Crno more u Rumunjskoj, tvoreći deltu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_geo_1530",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu pustinje gdje su dominantni pješčani krajolici s dinama?",
+        "correct_answer": "Erg",
+        "incorrect_answers": [
+            "Hamada",
+            "Reg",
+            "Serir"
+        ],
+        "explanation": "Erg je prostrano, ravno područje prekriveno pijeskom i pješčanim dinama, karakteristično za Saharu i druge pustinje. Prekriva oko 20% pustinjskih površina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
