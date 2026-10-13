@@ -20156,5 +20156,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1619",
+        "category": "povijest",
+        "question": "Tko se smatra prvim faraonom koji je ujedinio Gornji i Donji Egipat oko 3100. pr. Kr.?",
+        "correct_answer": "Narmer",
+        "incorrect_answers": [
+            "Tutankamon",
+            "Ramzes II.",
+            "Kleopatra"
+        ],
+        "explanation": "Narmer (često identificiran s Menesom) se smatra ujediniteljem dvaju egipatskih kraljevstava i osnivačem prve dinastije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1620",
+        "category": "povijest",
+        "question": "Koja je starogrčka grad-država bila poznata po svojoj strogoj vojnoj kulturi i obuci?",
+        "correct_answer": "Sparta",
+        "incorrect_answers": [
+            "Atena",
+            "Korint",
+            "Teba"
+        ],
+        "explanation": "Sparta je bila dominantna vojna sila Drevne Grčke, a njen društveni sustav bio je u potpunosti posvećen vojnoj obuci i disciplini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1621",
+        "category": "povijest",
+        "question": "Koji je rimski car podijelio Rimsko Carstvo na Zapadno i Istočno Carstvo 395. godine poslije Krista?",
+        "correct_answer": "Teodozije I.",
+        "incorrect_answers": [
+            "Dioklecijan",
+            "Konstantin",
+            "August"
+        ],
+        "explanation": "Car Teodozije I. je pred svoju smrt 395. godine administrativno podijelio carstvo na svoje sinove, čime je nastao trajni raskol.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1622",
+        "category": "povijest",
+        "question": "Koje je godine okrunjen Dmitar Zvonimir za hrvatskog kralja papinskom krunom u Solinu?",
+        "correct_answer": "1075.",
+        "incorrect_answers": [
+            "925.",
+            "1102.",
+            "1089."
+        ],
+        "explanation": "Dmitar Zvonimir je okrunjen za kralja Hrvatske i Dalmacije u Solinu 1075. godine, od strane izaslanika pape Grgura VII.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1623",
+        "category": "povijest",
+        "question": "Između kojih su se dviju država vodili Stogodišnji ratovi u razdoblju od 1337. do 1453. godine?",
+        "correct_answer": "Engleske i Francuske",
+        "incorrect_answers": [
+            "Francuske i Španjolske",
+            "Engleske i Njemačke",
+            "Njemačke i Francuske"
+        ],
+        "explanation": "Stogodišnji ratovi bili su niz oružanih sukoba između Engleske i Francuske, prvenstveno zbog engleskih teritorijalnih pretenzija na francusko prijestolje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1624",
+        "category": "povijest",
+        "question": "Tko se smatra izumiteljem tiskarskog stroja s pomičnim slovima u Europi sredinom 15. stoljeća?",
+        "correct_answer": "Johannes Gutenberg",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "William Shakespeare"
+        ],
+        "explanation": "Johannes Gutenberg je oko 1450. godine usavršio tiskarski stroj s pomičnim slovima, što je revolucioniralo širenje znanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1625",
+        "category": "povijest",
+        "question": "Čija je ekspedicija prva oplovila svijet, iako je on sam poginuo na putu na Filipinima 1521. godine?",
+        "correct_answer": "Ferdinanda Magellana",
+        "incorrect_answers": [
+            "Kristofora Kolumba",
+            "Vasca da Game",
+            "Jamesa Cooka"
+        ],
+        "explanation": "Ekspedicija Ferdinanda Magellana, pod vodstvom Juana Sebastiána Elcana nakon Magellanove smrti, prva je oplovila Zemlju između 1519. i 1522. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1626",
+        "category": "povijest",
+        "question": "Koji je mirovni ugovor, potpisan 1648. godine, okončao Tridesetogodišnji rat i uspostavio novi europski poredak?",
+        "correct_answer": "Vestfalski mir",
+        "incorrect_answers": [
+            "Pariški mir",
+            "Utrechtski mir",
+            "Karlovački mir"
+        ],
+        "explanation": "Vestfalski mir je 1648. godine okončao Tridesetogodišnji rat i Osamdesetogodišnji rat, definirajući načela državnog suvereniteta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1627",
+        "category": "povijest",
+        "question": "Tko je bio glavni autor Deklaracije o neovisnosti Sjedinjenih Američkih Država 1776. godine?",
+        "correct_answer": "Thomas Jefferson",
+        "incorrect_answers": [
+            "George Washington",
+            "Benjamin Franklin",
+            "John Adams"
+        ],
+        "explanation": "Thomas Jefferson je bio primarni autor Deklaracije o neovisnosti, dokumenta kojim su američke kolonije proglasile svoju neovisnost od Velike Britanije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1628",
+        "category": "povijest",
+        "question": "Tko je bio ključna figura tijekom razdoblja 'Vladavine terora' za vrijeme Francuske revolucije?",
+        "correct_answer": "Maximilien Robespierre",
+        "incorrect_answers": [
+            "Jean-Jacques Rousseau",
+            "Napoleon Bonaparte",
+            "Luj XVI."
+        ],
+        "explanation": "Maximilien Robespierre je bio jedan od najutjecajnijih vođa jakobinaca i glavni pokretač radikalne faze Francuske revolucije poznate kao Vladavina terora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1629",
+        "category": "povijest",
+        "question": "Koji je međunarodni kongres, održan 1814.-1815. godine, redizajnirao političku kartu Europe nakon Napoleonovih ratova?",
+        "correct_answer": "Bečki kongres",
+        "incorrect_answers": [
+            "Berlinski kongres",
+            "Pariška konferencija",
+            "Potsdamska konferencija"
+        ],
+        "explanation": "Bečki kongres je nakon pada Napoleona uspostavio novi sustav ravnoteže snaga u Europi i redefinirao državne granice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1630",
+        "category": "povijest",
+        "question": "U kojoj je zemlji započela Industrijska revolucija u drugoj polovici 18. stoljeća?",
+        "correct_answer": "Velikoj Britaniji",
+        "incorrect_answers": [
+            "Njemačkoj",
+            "Francuskoj",
+            "Sjedinjenim Američkim Državama"
+        ],
+        "explanation": "Industrijska revolucija je započela u Velikoj Britaniji zahvaljujući inovacijama u tekstilnoj industriji, razvoju parnog stroja i bogatstvu sirovinama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1631",
+        "category": "povijest",
+        "question": "Koja je bila neposredna povod za početak Prvog svjetskog rata 1914. godine?",
+        "correct_answer": "Atentat na nadvojvodu Franje Ferdinanda u Sarajevu",
+        "incorrect_answers": [
+            "Potapanje Lusitanije",
+            "Aneksija Bosne i Hercegovine",
+            "Ultimatun Austrougarske Srbiji"
+        ],
+        "explanation": "Atentat na austrougarskog prijestolonasljednika Franju Ferdinanda u Sarajevu 28. lipnja 1914. godine bio je neposredan povod za početak Prvog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1632",
+        "category": "povijest",
+        "question": "Kojim je događajem, koji se zbio 1. rujna 1939. godine, započeo Drugi svjetski rat u Europi?",
+        "correct_answer": "Njemačkom invazijom na Poljsku",
+        "incorrect_answers": [
+            "Napadom na Pearl Harbor",
+            "Aneksijom Austrije",
+            "Bitkom za Staljingrad"
+        ],
+        "explanation": "Invazija nacističke Njemačke na Poljsku 1. rujna 1939. godine smatra se početkom Drugog svjetskog rata u Europi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1633",
+        "category": "povijest",
+        "question": "Koje je godine nastala Kubanska raketna kriza, sukob koji je svijet doveo na rub nuklearnog rata?",
+        "correct_answer": "1962.",
+        "incorrect_answers": [
+            "1959.",
+            "1968.",
+            "1973."
+        ],
+        "explanation": "Kubanska raketna kriza, napeta konfrontacija između SAD-a i Sovjetskog Saveza, dogodila se u listopadu 1962. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1634",
+        "category": "povijest",
+        "question": "Koji je drevni babilonski vladar poznat po svom zakoniku, jednom od najstarijih sačuvanih skupova zakona?",
+        "correct_answer": "Hamurabi",
+        "incorrect_answers": [
+            "Sargon",
+            "Nabukodonosor",
+            "Gilgameš"
+        ],
+        "explanation": "Hamurabijev zakonik, nastao oko 1754. pr. Kr., detaljan je zbornik pravnih propisa drevnog Babilona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1635",
+        "category": "povijest",
+        "question": "Koji je artefakt, otkriven 1799. godine, omogućio dešifriranje egipatskih hijeroglifa?",
+        "correct_answer": "Kamen iz Rosette",
+        "incorrect_answers": [
+            "Piramida u Gizi",
+            "Torinski papirus",
+            "Sarkofag Tutankamona"
+        ],
+        "explanation": "Kamen iz Rosette sadržavao je isti tekst napisan na hijeroglifima, demotskom pismu i starogrčkom, što je omogućilo Jean-François Champollionu dešifriranje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1636",
+        "category": "povijest",
+        "question": "Tko je predvodio veliki ustanak robova i gladijatora protiv Rimske Republike od 73. do 71. pr. Kr.?",
+        "correct_answer": "Spartak",
+        "incorrect_answers": [
+            "Gaj Julije Cezar",
+            "Marko Aurelije",
+            "Neron"
+        ],
+        "explanation": "Spartak, gladijator tračkog podrijetla, vodio je Treći robovski rat, najveći ustanak robova protiv Rima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1637",
+        "category": "povijest",
+        "question": "Koje su godine križari, tijekom Četvrtog križarskog rata, osvojili i opljačkali Carigrad, privremeno uništivši Bizantsko Carstvo?",
+        "correct_answer": "1204.",
+        "incorrect_answers": [
+            "1099.",
+            "1453.",
+            "1291."
+        ],
+        "explanation": "Križari su 1204. godine, umjesto odlaska u Svetu Zemlju, opljačkali Carigrad i uspostavili Latinsko Carstvo, oslabivši Bizant.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1638",
+        "category": "povijest",
+        "question": "Koja je pandemija, koja je harala Europom u 14. stoljeću, usmrtila procijenjenih 30-60% europskog stanovništva?",
+        "correct_answer": "Crna smrt (kuga)",
+        "incorrect_answers": [
+            "Španjolska gripa",
+            "velike boginje",
+            "kolera"
+        ],
+        "explanation": "Crna smrt, pandemija bubonske kuge, desetkovala je europsko stanovništvo između 1347. i 1351. godine, imajući ogroman utjecaj na društvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1639",
+        "category": "povijest",
+        "question": "Koji je francuski teolog bio ključna figura protestantske reformacije i utemeljitelj kalvinizma?",
+        "correct_answer": "Jean Calvin",
+        "incorrect_answers": [
+            "Ulrich Zwingli",
+            "John Knox",
+            "Martin Luther"
+        ],
+        "explanation": "Jean Calvin je razvio teološki sustav poznat kao kalvinizam, koji je imao velik utjecaj na reformaciju i razvoj protestantskih crkava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1640",
+        "category": "povijest",
+        "question": "Tko je autor djela 'Društveni ugovor' (Du Contrat social), u kojem izlaže teoriju o legitimnosti političke vlasti?",
+        "correct_answer": "Jean-Jacques Rousseau",
+        "incorrect_answers": [
+            "John Locke",
+            "Montesquieu",
+            "Thomas Hobbes"
+        ],
+        "explanation": "Jean-Jacques Rousseau u 'Društvenom ugovoru' (1762.) iznosi ideju da se legitimna politička vlast temelji na sporazumu naroda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1641",
+        "category": "povijest",
+        "question": "Tko je bio predsjednik Sjedinjenih Američkih Država tijekom Američkog građanskog rata (1861.-1865.)?",
+        "correct_answer": "Abraham Lincoln",
+        "incorrect_answers": [
+            "Andrew Jackson",
+            "Ulysses S. Grant",
+            "Jefferson Davis"
+        ],
+        "explanation": "Abraham Lincoln je vodio Uniju tijekom Američkog građanskog rata i bio ključan u ukidanju ropstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1642",
+        "category": "povijest",
+        "question": "Između koje su se dvije države vodili Opijumski ratovi u 19. stoljeću?",
+        "correct_answer": "Velike Britanije i Kine",
+        "incorrect_answers": [
+            "Kine i Japana",
+            "Velike Britanije i Indije",
+            "Francuske i Kine"
+        ],
+        "explanation": "Opijumski ratovi su bili sukobi između Velike Britanije (kasnije i Francuske) i Qing dinastije Kine zbog britanske trgovine opijumom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1643",
+        "category": "povijest",
+        "question": "Kako se naziva operacija iskrcavanja savezničkih snaga u Normandiji 6. lipnja 1944. godine, ključna za otvaranje Zapadne fronte?",
+        "correct_answer": "Operacija Overlord (Dan D)",
+        "incorrect_answers": [
+            "Operacija Barbarossa",
+            "Operacija Pustinjska lisica",
+            "Bitka za Britaniju"
+        ],
+        "explanation": "Operacija Overlord, poznatija kao Dan D, bila je najveća amfibijska invazija u povijesti i označila je početak oslobađanja zapadne Europe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1644",
+        "category": "povijest",
+        "question": "Koji je bio odgovor zapadnih saveznika na sovjetsku blokadu Berlina od 1948. do 1949. godine?",
+        "correct_answer": "Berlinski zračni most",
+        "incorrect_answers": [
+            "Izgradnja Berlinskog zida",
+            "Varšavski pakt",
+            "Kubanska raketna kriza"
+        ],
+        "explanation": "Zapadni saveznici su organizirali Berlinski zračni most kako bi opskrbljivali Zapadni Berlin zračnim putem, prekinuvši sovjetsku blokadu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1645",
+        "category": "povijest",
+        "question": "Tko se smatra utemeljiteljem taoizma (daozima), jedne od glavnih filozofskih i religijskih tradicija Kine?",
+        "correct_answer": "Laozi (Lao Cu)",
+        "incorrect_answers": [
+            "Konfucije",
+            "Qin Shi Huang",
+            "Buddha"
+        ],
+        "explanation": "Laozi je drevni kineski filozof i pisac kojeg se tradicionalno smatra autorom Tao Te Chinga i utemeljiteljem taoizma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1646",
+        "category": "povijest",
+        "question": "Koji je atenski povjesničar napisao 'Povijest Peloponeskog rata', opisujući sukob između Atene i Sparte?",
+        "correct_answer": "Tukidid",
+        "incorrect_answers": [
+            "Herodot",
+            "Ksenofont",
+            "Platon"
+        ],
+        "explanation": "Tukidid je poznat po svojoj objektivnoj i analitičkoj povijesti Peloponeskog rata, smatrajući ga modelom za modernu historiografiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1647",
+        "category": "povijest",
+        "question": "Kako se zvao prvi poznati hrvatski knez, koji je vladao u 9. stoljeću i često se spominje u kontekstu pokrštavanja Hrvata?",
+        "correct_answer": "Borna",
+        "incorrect_answers": [
+            "Branimir",
+            "Trpimir",
+            "Muncimir"
+        ],
+        "explanation": "Knez Borna (vladao oko 810.-821.) je prvi poznati knez Primorske Hrvatske, vazal Franačkog Carstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1648",
+        "category": "povijest",
+        "question": "Kako se zvao elitni pješački kor osmanske vojske, regrutiran prvenstveno kroz devširmu (danak u krvi)?",
+        "correct_answer": "Janjičari",
+        "incorrect_answers": [
+            "Spahije",
+            "Bašibozuk",
+            "Timarioti"
+        ],
+        "explanation": "Janjičari su bili elitne jedinice pješaštva osmanske vojske, regrutirani iz nemuslimanskog stanovništva Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1649",
+        "category": "povijest",
+        "question": "Koje je godine Kristofor Kolumbo doplovio do Amerike, pogrešno misleći da je stigao do Indije?",
+        "correct_answer": "1492.",
+        "incorrect_answers": [
+            "1488.",
+            "1502.",
+            "1519."
+        ],
+        "explanation": "Kristofor Kolumbo je 12. listopada 1492. godine, ploveći pod španjolskom zastavom, stigao do Bahama, otvarajući put europskoj kolonizaciji Amerika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1650",
+        "category": "povijest",
+        "question": "Koji se rat, vođen od 1756. do 1763. godine, često naziva prvim globalnim ratom zbog opsega sukoba na više kontinenata?",
+        "correct_answer": "Sedmogodišnji rat",
+        "incorrect_answers": [
+            "Austrijski rat za nasljeđe",
+            "Američki rat za neovisnost",
+            "Tridesetogodišnji rat"
+        ],
+        "explanation": "Sedmogodišnji rat je bio svjetski sukob između Velike Britanije i Francuske, uz sudjelovanje drugih sila, za kolonijalnu i trgovačku dominaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1651",
+        "category": "povijest",
+        "question": "Kako se naziva pokret za ujedinjenje Italije u jedinstvenu državu tijekom 19. stoljeća?",
+        "correct_answer": "Risorgimento",
+        "incorrect_answers": [
+            "Reconquista",
+            "Carbonari",
+            "Mlada Italija"
+        ],
+        "explanation": "Risorgimento (uskrsnuće) je bio politički i društveni pokret koji je doveo do ujedinjenja talijanskih država u Kraljevinu Italiju 1861. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1652",
+        "category": "povijest",
+        "question": "Koje je godine došlo do Oktobarske revolucije u Rusiji, koja je dovela boljševike na vlast?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1922.",
+            "1939."
+        ],
+        "explanation": "Oktobarska revolucija u studenom 1917. godine (po gregorijanskom kalendaru) srušila je Privremenu vladu i uspostavila sovjetsku vlast.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1653",
+        "category": "povijest",
+        "question": "Koji je bio najveći nacistički koncentracijski i logor smrti, smješten u okupiranoj Poljskoj?",
+        "correct_answer": "Auschwitz-Birkenau",
+        "incorrect_answers": [
+            "Dachau",
+            "Bergen-Belsen",
+            "Treblinka"
+        ],
+        "explanation": "Auschwitz-Birkenau bio je kompleks njemačkih nacističkih logora smrti, mjesto masovnog genocida nad Židovima i drugim skupinama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1654",
+        "category": "povijest",
+        "question": "Koja je međunarodna organizacija osnovana 1961. godine s ciljem okupljanja država koje se nisu željele svrstati niti uz jedan od hladnoratovskih blokova?",
+        "correct_answer": "Pokret nesvrstanih",
+        "incorrect_answers": [
+            "Ujedinjeni narodi",
+            "G7",
+            "NATO"
+        ],
+        "explanation": "Pokret nesvrstanih je osnovan u Beogradu 1961. godine, okupljajući države koje su nastojale ostati neutralne u Hladnom ratu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1655",
+        "category": "povijest",
+        "question": "Tko je bio osnivač Maurijskog Carstva, jednog od najvećih carstava drevne Indije, u 4. stoljeću pr. Kr.?",
+        "correct_answer": "Chandragupta Maurya",
+        "incorrect_answers": [
+            "Ašoka",
+            "Siddhartha Gautama",
+            "Harsha"
+        ],
+        "explanation": "Chandragupta Maurya je osnovao Maurijsko Carstvo oko 322. pr. Kr., uspostavljajući prvu ujedinjenu državu na indijskom potkontinentu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1656",
+        "category": "povijest",
+        "question": "Kako se zvala slavna biblioteka i istraživački centar u Bagdadu tijekom islamskog Zlatnog doba, osnovana u 9. stoljeću?",
+        "correct_answer": "Kuća mudrosti (Bayt al-Hikma)",
+        "incorrect_answers": [
+            "Aleksandrijska knjižnica",
+            "Al-Azhar",
+            "Damaskanska akademija"
+        ],
+        "explanation": "Kuća mudrosti u Bagdadu bila je ključni centar za prevođenje, istraživanje i razvoj znanosti tijekom islamskog Zlatnog doba.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1657",
+        "category": "povijest",
+        "question": "Tko je bio grčki filozof, Platonov učenik i učitelj Aleksandra Velikog, poznat po svojim radovima iz logike, etike i metafizike?",
+        "correct_answer": "Aristotel",
+        "incorrect_answers": [
+            "Sokrat",
+            "Pitagora",
+            "Heraklit"
+        ],
+        "explanation": "Aristotel je bio jedan od najutjecajnijih mislilaca zapadne filozofije, čiji su se spisi protezali kroz brojna područja znanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
+    },
+    {
+        "id": "hr_hist_1658",
+        "category": "povijest",
+        "question": "Koje je godine službeno prestao postojati Sovjetski Savez?",
+        "correct_answer": "1991.",
+        "incorrect_answers": [
+            "1989.",
+            "1990.",
+            "1992."
+        ],
+        "explanation": "Sovjetski Savez je službeno raspušten 26. prosinca 1991. godine, čime je završen Hladni rat i nastale su neovisne države.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-13"
     }
 ]
