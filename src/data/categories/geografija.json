@@ -21917,5 +21917,470 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1738",
+        "category": "geografija",
+        "question": "Koji je najveći ocean na svijetu?",
+        "correct_answer": "Tihi ocean (Pacifik)",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean je najveći i najdublji ocean na Zemlji, pokrivajući gotovo trećinu njezine površine. Ime mu je dao Ferdinand Magellan.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1739",
+        "category": "geografija",
+        "question": "Koja europska rijeka ima najveći protok i ulijeva se u Crno more?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Volga",
+            "Rajna",
+            "Elba"
+        ],
+        "explanation": "Dunav je druga najduža rijeka u Europi, ali je najveća po protoku i prolazi kroz deset zemalja prije ulijevanja u Crno more.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1740",
+        "category": "geografija",
+        "question": "Koji je glavni grad Kazahstana (stanje 2024.)?",
+        "correct_answer": "Astana",
+        "incorrect_answers": [
+            "Almaty",
+            "Nur-Sultan",
+            "Biškek"
+        ],
+        "explanation": "Grad je preimenovan u Nur-Sultan 2019., pa vraćen u Astanu 2022. godine. Astana je glavni grad Kazahstana od 1997.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1741",
+        "category": "geografija",
+        "question": "Koji je kontinent najveći po površini i broju stanovnika?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija obuhvaća oko 30% Zemljine kopnene površine i dom je za preko 60% svjetske populacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1742",
+        "category": "geografija",
+        "question": "Koji je naziv za klimatski fenomen gdje se obrnuta raspodjela temperature javlja u atmosferi, s toplijim zrakom iznad hladnijeg?",
+        "correct_answer": "Temperaturna inverzija",
+        "incorrect_answers": [
+            "Coriolisov efekt",
+            "Staklenički efekt",
+            "El Niño"
+        ],
+        "explanation": "Temperaturna inverzija je atmosferski fenomen gdje se temperatura zraka povećava s visinom, umjesto da opada, što može zarobiti zagađivače blizu tla.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1743",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Europi koja cijelim svojim tokom teče kroz Rusiju?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Ural",
+            "Dnjepar"
+        ],
+        "explanation": "Volga je najduža rijeka u Europi s dužinom od 3.531 km, a cijeli njen tok nalazi se unutar Rusije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1744",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz između Južne Amerike i Antarktike?",
+        "correct_answer": "Drakeov prolaz",
+        "incorrect_answers": [
+            "Magellanov prolaz",
+            "Beringov prolaz",
+            "Gibraltarski tjesnac"
+        ],
+        "explanation": "Drakeov prolaz je najširi morski prolaz na svijetu, poznat po izuzetno nemirnim morima, i spaja Atlantski i Tihi ocean.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1745",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim fjordovima?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Finska",
+            "Danska"
+        ],
+        "explanation": "Norveška je izrazito poznata po svojim dubokim i uskim morskim zaljevima, nastalim djelovanjem ledenjaka, poznatim kao fjordovi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1746",
+        "category": "geografija",
+        "question": "Kako se naziva sjeverni polarni krug?",
+        "correct_answer": "Arktički krug",
+        "incorrect_answers": [
+            "Antarktički krug",
+            "Ekvator",
+            "Rakova obratnica"
+        ],
+        "explanation": "Arktički krug je jedna od pet glavnih paralela prikazanih na kartama Zemlje, koja označava sjevernu granicu polarnog dana i noći.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1747",
+        "category": "geografija",
+        "question": "Koja je najmanja država u Aziji po površini (isključujući Rusiju i Tursku koje su transkontinentalne)?",
+        "correct_answer": "Maldivi",
+        "incorrect_answers": [
+            "Singapur",
+            "Bahrein",
+            "Brunej"
+        ],
+        "explanation": "Maldivi su otočna država u Indijskom oceanu s ukupnom kopnenom površinom od oko 298 četvornih kilometara, što ih čini najmanjom u Aziji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1748",
+        "category": "geografija",
+        "question": "Koja je najviša točka na Zemlji?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kilimanjaro",
+            "Mont Blanc"
+        ],
+        "explanation": "Mount Everest je najviši planinski vrh na Zemlji s nadmorskom visinom od 8.848,86 metara (stanje 2020.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1749",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada jezero ili močvara postupno nestaje zbog nakupljanja sedimenata i organske tvari?",
+        "correct_answer": "Eutrofikacija",
+        "incorrect_answers": [
+            "Sucecija",
+            "Denudacija",
+            "Litoralizacija"
+        ],
+        "explanation": "Eutrofikacija je proces obogaćivanja vode hranjivim tvarima, što dovodi do prekomjernog rasta biljaka i algi te postupnog zatrpavanja vodenog tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1750",
+        "category": "geografija",
+        "question": "Koji se kontinent nalazi južno od ekvatora i poznat je po kengurima?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Afrika",
+            "Južna Amerika",
+            "Antarktika"
+        ],
+        "explanation": "Australija je jedinstveni kontinent i država, dom mnogih endemskih vrsta, uključujući klokane (kengure).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1751",
+        "category": "geografija",
+        "question": "Koja je najmanja kopnena država u Južnoj Americi?",
+        "correct_answer": "Surinam",
+        "incorrect_answers": [
+            "Gvajana",
+            "Urugvaj",
+            "Ekvador"
+        ],
+        "explanation": "Surinam je najmanja suverena država u Južnoj Americi po površini, smještena na sjeveroistočnoj obali kontinenta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1752",
+        "category": "geografija",
+        "question": "Kako se naziva uska kopnena prevlaka koja spaja dva veća kopnena područja i razdvaja dva mora ili oceana?",
+        "correct_answer": "Zemljouz",
+        "incorrect_answers": [
+            "Poluotok",
+            "Tjesnac",
+            "Rt"
+        ],
+        "explanation": "Zemljouz (ili prevlaka) je uzak pojas kopna između dviju vodenih površina, koji spaja dva veća kopna.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1753",
+        "category": "geografija",
+        "question": "Koja je država poznata po najvišoj koncentraciji gejzira na svijetu?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "SAD",
+            "Japan"
+        ],
+        "explanation": "Island je izuzetno geološki aktivan, s mnogo vulkana i gejzira, uključujući poznati Geysir, po kojem su svi gejziri dobili ime.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1754",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji grad na svijetu (stanje 2024., po urbanom području)?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Delhi",
+            "Šangaj",
+            "Peking"
+        ],
+        "explanation": "Tokio, zajedno sa svojom metropolitanskom regijom, drži titulu najnaseljenijeg grada na svijetu s preko 37 milijuna stanovnika (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1755",
+        "category": "geografija",
+        "question": "Koji je naziv za geomorfološki oblik u kršu, nastao urušavanjem stropova podzemnih šupljina, koji ima strme strane i ravno dno?",
+        "correct_answer": "Ponikva",
+        "incorrect_answers": [
+            "Uvala",
+            "Polje",
+            "Jama"
+        ],
+        "explanation": "Ponikva (ili dolina) je zatvorena depresija u kršu, nastala otapanjem vapnenca ili urušavanjem, s često strmim stranama i ravnim dnom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1756",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz Egipat i smatra se najdužom rijekom na svijetu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazon",
+            "Mississippi",
+            "Yangtze"
+        ],
+        "explanation": "Nil je vitalna rijeka za Egipat i Sudan, a tradicionalno se smatra najdužom rijekom na svijetu s otprilike 6.650 km.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1757",
+        "category": "geografija",
+        "question": "Koja je morska struja odgovorna za blažu klimu zapadne Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Humboldtova struja",
+            "Kanarska struja",
+            "Kuroshio struja"
+        ],
+        "explanation": "Golfska struja donosi toplu vodu iz tropskog Atlantika prema sjeveru, čime značajno ublažava klimu zapadne Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1758",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija koja se sastoji od slojeva tla i stijena koja propuštaju vodu i mogu služiti kao rezervoar podzemne vode?",
+        "correct_answer": "Akvifer",
+        "incorrect_answers": [
+            "Akljud",
+            "Akvitard",
+            "Izdan"
+        ],
+        "explanation": "Akvifer je vodonosni sloj, podzemni spremnik vode, koji se sastoji od propusnih stijena ili sedimenata iz kojih se može crpiti voda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1759",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po Velikom kineskom zidu?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Indija",
+            "Japan",
+            "Mongolija"
+        ],
+        "explanation": "Veliki kineski zid je sustav utvrda izgrađen u drevnoj Kini za obranu od invazija i proteže se tisućama kilometara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1760",
+        "category": "geografija",
+        "question": "Koji je najdublji kanjon na svijetu (stanje 2024.)?",
+        "correct_answer": "Yarlung Tsangpo Grand Canyon",
+        "incorrect_answers": [
+            "Grand Canyon",
+            "Colca Canyon",
+            "Valles Marineris"
+        ],
+        "explanation": "Yarlung Tsangpo Grand Canyon u Tibetu dubok je preko 5.500 metara na nekim mjestima, što ga čini dubljim od Grand Canyona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1761",
+        "category": "geografija",
+        "question": "Koja je najveća slatkovodna rijeka u Africi po duljini?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Kongo",
+            "Niger",
+            "Zambezi"
+        ],
+        "explanation": "Nil je najduža rijeka Afrike, dugačka oko 6.650 km, s najvećim riječnim sustavom na kontinentu (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1762",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se more povlači i ostavlja kopno, ili kada razina mora pada u odnosu na kopno?",
+        "correct_answer": "Regresija",
+        "incorrect_answers": [
+            "Transgresija",
+            "Subsidencija",
+            "Abrazija"
+        ],
+        "explanation": "Regresija je proces geološkog povlačenja mora s kopna, što rezultira izlaganjem nekadašnjeg morskog dna.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1763",
+        "category": "geografija",
+        "question": "Koji je naziv za vrstu pustinje nastale u zavjetrini planinskog lanca, gdje se vlažan zrak diže i ispušta vlagu na jednoj strani, ostavljajući drugu stranu suhom?",
+        "correct_answer": "Pustinja kišne sjene",
+        "incorrect_answers": [
+            "Polarna pustinja",
+            "Primorska pustinja",
+            "Kontinentalna pustinja"
+        ],
+        "explanation": "Pustinja kišne sjene nastaje kada se zračne mase dižu iznad planina, hlade se i ispuštaju oborine na privjetrinskoj strani, dok se spuštaju suhe na zavjetrinskoj strani.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1764",
+        "category": "geografija",
+        "question": "Koja je država poznata po svojim piramidama?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Meksiko",
+            "Peru",
+            "Grčka"
+        ],
+        "explanation": "Egipat je dom nekih od najpoznatijih i najočuvanijih drevnih piramida na svijetu, uključujući Veliku piramidu u Gizi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1765",
+        "category": "geografija",
+        "question": "Kako se naziva ravničarsko područje uz rijeku, povremeno poplavljeno za vrijeme visokog vodostaja?",
+        "correct_answer": "Naplavna ravnica",
+        "incorrect_answers": [
+            "Terasa",
+            "Delta",
+            "Estuarij"
+        ],
+        "explanation": "Naplavna ravnica je dio riječne doline koji se proteže od obala rijeke do podnožja okolnih padina, a povremeno ga poplave rijeke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1766",
+        "category": "geografija",
+        "question": "Koja je najmanja država po površini u Srednjoj Americi (kontinentalnoj, bez otočnih država)?",
+        "correct_answer": "El Salvador",
+        "incorrect_answers": [
+            "Belize",
+            "Kostarika",
+            "Panama"
+        ],
+        "explanation": "El Salvador je najmanja kopnena država u Srednjoj Americi, s površinom od oko 21.041 km².",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1767",
+        "category": "geografija",
+        "question": "Kako se naziva vrsta oblaka koja se javlja na velikim visinama (iznad 6.000 metara) i sastoji se od kristala leda, često suptilnog i vlaknastog izgleda?",
+        "correct_answer": "Cirus",
+        "incorrect_answers": [
+            "Kumulus",
+            "Stratus",
+            "Nimbostratus"
+        ],
+        "explanation": "Cirusi su visoki, tanki oblaci bijele boje, sastavljeni od kristala leda, koji često prethode promjenama vremena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1768",
+        "category": "geografija",
+        "question": "Koji je glavni grad Republike Irske?",
+        "correct_answer": "Dublin",
+        "incorrect_answers": [
+            "Belfast",
+            "Cork",
+            "Galway"
+        ],
+        "explanation": "Dublin je glavni i najveći grad Republike Irske, smješten na ušću rijeke Liffey.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
