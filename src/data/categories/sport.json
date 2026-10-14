@@ -23989,5 +23989,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1903",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi na nogometnom terenu u jednoj momčadi tijekom utakmice?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka nogometna momčad započinje utakmicu s jedanaest igrača na terenu, uključujući vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1904",
+        "category": "sport",
+        "question": "Koji turnir iz Grand Slam serije se igra na zemljanoj podlozi?",
+        "correct_answer": "Roland Garros",
+        "incorrect_answers": [
+            "Wimbledon",
+            "US Open",
+            "Australian Open"
+        ],
+        "explanation": "Roland Garros, poznat i kao French Open, jedini je Grand Slam turnir koji se tradicionalno igra na zemljanoj podlozi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1905",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u atletici gdje sportaš skače preko prepreka i u vodu?",
+        "correct_answer": "3000 metara sa zaprekama",
+        "incorrect_answers": [
+            "Maratonska utrka",
+            "Skok s motkom",
+            "Troskok"
+        ],
+        "explanation": "Ova zahtjevna disciplina uključuje trčanje 3000 metara s više prepreka i jednom vodenom preprekom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1906",
+        "category": "sport",
+        "question": "Koliko je dugačka olimpijska bazenska staza za plivanje?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "100 metara",
+            "33.3 metara"
+        ],
+        "explanation": "Olimpijski bazeni, poznati kao dugi bazeni, standardno su dugi 50 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1907",
+        "category": "sport",
+        "question": "Koliko koraka smije napraviti igrač s loptom u rukometu prije nego što mora driblati ili dodati?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Rukometna pravila dopuštaju igraču s loptom da napravi najviše tri koraka prije driblinga ili dodavanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1908",
+        "category": "sport",
+        "question": "Kako se naziva igrač u odbojci čija je glavna uloga obrana i prijem servisa, a nosi dres druge boje?",
+        "correct_answer": "Libero",
+        "incorrect_answers": [
+            "Blokers",
+            "Tehničar",
+            "Korektor"
+        ],
+        "explanation": "Libero je specijalizirani obrambeni igrač koji ne smije blokirati, servirati niti napadati s prednje linije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1909",
+        "category": "sport",
+        "question": "Koji se termin koristi za najbrži krug ostvaren tijekom utrke Formule 1?",
+        "correct_answer": "Najbrži krug",
+        "incorrect_answers": [
+            "Pole position",
+            "Pit stop",
+            "Safety car"
+        ],
+        "explanation": "Najbrži krug je krug utrke s najkraćim vremenom, a često donosi i dodatni bod u poretku vozača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1910",
+        "category": "sport",
+        "question": "Koji pojam označava pobjedu u boksu kada sudac prekine meč zbog očite nadmoći jednog borca ili ozljede protivnika?",
+        "correct_answer": "Tehnički nokaut (TKO)",
+        "incorrect_answers": [
+            "Nokaut (KO)",
+            "Odluka sudaca",
+            "Predaja"
+        ],
+        "explanation": "TKO se proglašava kada borac ne može nastaviti borbu iz medicinskih razloga ili je previše ozlijeđen.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1911",
+        "category": "sport",
+        "question": "Kako se zove sprava u gimnastici koja se sastoji od paralelnih šipki na različitim visinama?",
+        "correct_answer": "Dvovisinski razboj",
+        "incorrect_answers": [
+            "Karike",
+            "Preča",
+            "Greda"
+        ],
+        "explanation": "Dvovisinski razboj je sprava na kojoj gimnastičarke izvode složene vježbe, prelazeći s jedne šipke na drugu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1912",
+        "category": "sport",
+        "question": "Koliko četvrtina traje standardna vaterpolska utakmica?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Standardna vaterpolska utakmica podijeljena je na četiri četvrtine, svaka u trajanju od osam minuta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1913",
+        "category": "sport",
+        "question": "Koji se pojas nosi u judu za postizanje najvišeg majstorskog stupnja?",
+        "correct_answer": "Crni pojas",
+        "incorrect_answers": [
+            "Plavi pojas",
+            "Zeleni pojas",
+            "Crveni pojas"
+        ],
+        "explanation": "Crni pojas (Dan) simbolizira majstorstvo i dugogodišnje iskustvo u judu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1914",
+        "category": "sport",
+        "question": "Koliko poena je potrebno osvojiti za set u stolnom tenisu (s dva poena razlike)?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "10",
+            "15",
+            "21"
+        ],
+        "explanation": "Set u stolnom tenisu osvaja se s najmanje 11 poena i prednošću od dva poena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1915",
+        "category": "sport",
+        "question": "Koji dio opreme hokejaša na ledu se koristi za udaranje paka?",
+        "correct_answer": "Hokejaška palica",
+        "incorrect_answers": [
+            "Štap",
+            "Veslo",
+            "Reket"
+        ],
+        "explanation": "Hokejaška palica je osnovno sredstvo kojim igrači kontroliraju i udaraju pak.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1916",
+        "category": "sport",
+        "question": "Kako se naziva najmanji rezultat na jednoj rupi u golfu, postignut s jednim udarcem manje od para?",
+        "correct_answer": "Birdie",
+        "incorrect_answers": [
+            "Eagle",
+            "Bogey",
+            "Par"
+        ],
+        "explanation": "Birdie je naziv za rezultat na rupi koji je jedan udarac ispod par (očekivanog broja udaraca).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1917",
+        "category": "sport",
+        "question": "Koliko poena je potrebno osvojiti za set u badmintonu (s dva poena razlike)?",
+        "correct_answer": "21",
+        "incorrect_answers": [
+            "15",
+            "11",
+            "25"
+        ],
+        "explanation": "Set u badmintonu osvaja se s najmanje 21 poenom i prednošću od dva poena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1918",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u alpskom skijanju gdje se natjecatelji spuštaju kroz gusto postavljene kapije, zahtijevajući brze promjene smjera?",
+        "correct_answer": "Slalom",
+        "incorrect_answers": [
+            "Spust",
+            "Super G",
+            "Veleslalom"
+        ],
+        "explanation": "Slalom je tehnički najzahtjevnija alpska disciplina s najgušće postavljenim kapijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1919",
+        "category": "sport",
+        "question": "Koji dio luka služi za držanje i stabilizaciju luka tijekom gađanja?",
+        "correct_answer": "Drška (ručka)",
+        "incorrect_answers": [
+            "Tetiva",
+            "Krake",
+            "Nišan"
+        ],
+        "explanation": "Drška je središnji dio luka koji strijelac drži i omogućuje mu stabilnost i kontrolu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1920",
+        "category": "sport",
+        "question": "Kako se naziva udarac u baseballu kada udarač udari loptu izvan terena za igru unutar definiranog prostora, što rezultira trenutnim bodovanjem za njega i sve igrače na bazama?",
+        "correct_answer": "Home run",
+        "incorrect_answers": [
+            "Strikeout",
+            "Base hit",
+            "Grand Slam (u golfu)"
+        ],
+        "explanation": "Home run omogućuje udaraču i svim igračima na bazama da postignu bodove trčeći oko svih baza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1921",
+        "category": "sport",
+        "question": "Kako se naziva udarac nogom u ragbiju kojim se loptu pokušava prebaciti preko prečke gola, obično nakon polaganja (try)?",
+        "correct_answer": "Konverzija",
+        "incorrect_answers": [
+            "Drop kick",
+            "Penalty kick",
+            "Scrum"
+        ],
+        "explanation": "Konverzija je udarac za dodatne bodove (2 poena) nakon uspješnog polaganja (try).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1922",
+        "category": "sport",
+        "question": "Koja je glavna razlika između kajaka i kanua u smislu veslanja?",
+        "correct_answer": "Kajak se vesla s veslom s dvije lopatice, kanu s jednom.",
+        "incorrect_answers": [
+            "Kajak ima zatvoreni kokpit, kanu otvoreni",
+            "Kajak je manji od kanua",
+            "Kanu je brži od kajaka"
+        ],
+        "explanation": "Ključna razlika je u vrsti vesla: kajak se vesla dvostrukim veslom, dok se kanu vesla jednostrukim.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1923",
+        "category": "sport",
+        "question": "Koja od tri mačevalačke discipline (floret, mač, sablja) dopušta ubode samo u trup?",
+        "correct_answer": "Floret",
+        "incorrect_answers": [
+            "Mač",
+            "Sablja",
+            "Sve navedene"
+        ],
+        "explanation": "U floretu su dopušteni ubodi isključivo u trup (bez ruku, nogu i glave).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1924",
+        "category": "sport",
+        "question": "Kako se zove vrsta hrvanja koja je olimpijska disciplina i karakterizira je zabrana hvatanja ispod pojasa?",
+        "correct_answer": "Grčko-rimsko hrvanje",
+        "incorrect_answers": [
+            "Slobodno hrvanje",
+            "Sambo",
+            "Japansko hrvanje"
+        ],
+        "explanation": "U grčko-rimskom hrvanju zabranjeni su zahvati ispod pojasa, fokusirajući se na hvatove gornjim dijelom tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1925",
+        "category": "sport",
+        "question": "Koje tri discipline uključuje triatlon?",
+        "correct_answer": "Plivanje, biciklizam, trčanje",
+        "incorrect_answers": [
+            "Plivanje, veslanje, trčanje",
+            "Plivanje, biciklizam, jahanje",
+            "Trčanje, biciklizam, skakanje"
+        ],
+        "explanation": "Triatlon je izdržljivostni sport koji kombinira plivanje, biciklizam i trčanje u nizu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1926",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u biciklizmu gdje se vozači natječu na kružnoj stazi s kosim zavojima?",
+        "correct_answer": "Velodromsko biciklizam",
+        "incorrect_answers": [
+            "Cestovni biciklizam",
+            "Brdski biciklizam",
+            "BMX"
+        ],
+        "explanation": "Velodrom je specijalizirana staza s bankinama (kosim zavojima) dizajnirana za brze biciklističke utrke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1927",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u konjičkom sportu koja simulira vojne vještine, uključujući dresuru, preponsko jahanje i kros?",
+        "correct_answer": "Konjički višeboj (Eventing)",
+        "incorrect_answers": [
+            "Dresura",
+            "Preponsko jahanje",
+            "Galop"
+        ],
+        "explanation": "Konjički višeboj je zahtjevna disciplina koja testira svestranost konja i jahača u tri faze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1928",
+        "category": "sport",
+        "question": "Koliko je igrača u jednoj ekipi curlinga na ledu?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Svaka curling ekipa sastoji se od četiri igrača: lead, second, third (vice-skip) i skip.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1929",
+        "category": "sport",
+        "question": "Koja su dva stila dizanja utega koja su olimpijske discipline?",
+        "correct_answer": "Trzaj i izbačaj",
+        "incorrect_answers": [
+            "Bench press i mrtvo dizanje",
+            "Potisak i nabačaj",
+            "Skok i čučanj"
+        ],
+        "explanation": "Olimpijsko dizanje utega uključuje dvije tehnike: trzaj (snatch) i izbačaj (clean and jerk).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1930",
+        "category": "sport",
+        "question": "Koliko je kugli u igri za jednu ekipu u boćanju?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "6"
+        ],
+        "explanation": "Svaki igrač u ekipi obično ima dvije boće, pa ekipa od dva igrača koristi četiri boće.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1931",
+        "category": "sport",
+        "question": "Koja je boja kugle u snookeru vrijedna 7 poena?",
+        "correct_answer": "Crna",
+        "incorrect_answers": [
+            "Ružičasta",
+            "Plava",
+            "Žuta"
+        ],
+        "explanation": "U snookeru, crna kugla ima najveću vrijednost od sedam poena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1932",
+        "category": "sport",
+        "question": "Koliko je maksimalan broj palica koje golfer smije nositi u torbi tijekom službenog natjecanja?",
+        "correct_answer": "14",
+        "incorrect_answers": [
+            "12",
+            "16",
+            "18"
+        ],
+        "explanation": "Prema pravilima golfa, igrač ne smije imati više od 14 palica u torbi tijekom natjecanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1933",
+        "category": "sport",
+        "question": "Kolika je masa muškog diska u bacanju diska u atletici?",
+        "correct_answer": "2 kg",
+        "incorrect_answers": [
+            "1 kg",
+            "1.5 kg",
+            "2.5 kg"
+        ],
+        "explanation": "Standardna težina diska za muškarce u atletskim natjecanjima iznosi 2 kilograma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1934",
+        "category": "sport",
+        "question": "Tko je po mnogima najbolji košarkaš svih vremena, poznat pod nadimkom 'Air'?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": [
+            "LeBron James",
+            "Kareem Abdul-Jabbar",
+            "Magic Johnson"
+        ],
+        "explanation": "Michael Jordan je ikona košarke, a njegov nadimak 'Air' odnosi se na njegove nevjerojatne skakačke sposobnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1935",
+        "category": "sport",
+        "question": "Koliko žutih kartona igrač mora dobiti u jednoj utakmici da bi bio isključen?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+            "1",
+            "3",
+            "4"
+        ],
+        "explanation": "Igrač koji u istoj utakmici dobije drugi žuti karton automatski dobiva crveni karton i isključen je iz igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1936",
+        "category": "sport",
+        "question": "Koji se pojam koristi kada tenisač osvoji sva četiri Grand Slam turnira u istoj kalendarskoj godini?",
+        "correct_answer": "Grand Slam",
+        "incorrect_answers": [
+            "Zlatni Slam",
+            "Masters",
+            "Triple Crown"
+        ],
+        "explanation": "Osvajanje Australian Opena, Roland Garrosa, Wimbledona i US Opena u jednoj godini naziva se 'Grand Slam'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1937",
+        "category": "sport",
+        "question": "Koji dio tijela plivači ne smiju dodirnuti (osim u leđnom plivanju) prilikom okretanja na kraju staze?",
+        "correct_answer": "Dno bazena",
+        "incorrect_answers": [
+            "Rub bazena",
+            "Vodu",
+            "Konop za stazu"
+        ],
+        "explanation": "Plivači moraju dodirnuti zid bazena rukom ili dijelom tijela (ovisno o stilu), ali ne smiju stajati na dnu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1938",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju na sanjkama niz ledenu stazu glavom naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Sanjkanje (Luge)",
+            "Skijaški skokovi"
+        ],
+        "explanation": "Skeleton se razlikuje od sanjkanja po tome što se natjecatelji spuštaju na prsima, glavom naprijed.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1939",
+        "category": "sport",
+        "question": "Koji je borilački sport poznat po tome što se odvija u oktogonu?",
+        "correct_answer": "Mješovite borilačke vještine (MMA)",
+        "incorrect_answers": [
+            "Boks",
+            "Taekwondo",
+            "Karate"
+        ],
+        "explanation": "Oktogon je specifičan osmerokutni kavez u kojem se održavaju MMA borbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1940",
+        "category": "sport",
+        "question": "Kako se naziva borilačka vještina koja koristi tehnike bacanja, poluga i gušenja, ali ne i udarce?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Kickboxing"
+        ],
+        "explanation": "Judo se fokusira na korištenje snage protivnika i tehnike za bacanje i imobilizaciju, bez udaraca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_1941",
+        "category": "sport",
+        "question": "Tko je aktualni rekorder po broju osvojenih Liga prvaka kao igrač (stanje 2024.)?",
+        "correct_answer": "Paco Gento",
+        "incorrect_answers": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Alfredo Di Stéfano"
+        ],
+        "explanation": "Paco Gento drži rekord sa šest osvojenih naslova Kupa/Lige prvaka s Real Madridom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
