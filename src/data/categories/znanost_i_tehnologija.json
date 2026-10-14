@@ -23185,5 +23185,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1827",
+        "category": "znanost",
+        "question": "Što proučava biologija?",
+        "correct_answer": "Žive organizme",
+        "incorrect_answers": [
+            "Kemijske elemente",
+            "Svemirska tijela",
+            "Zemljine slojeve"
+        ],
+        "explanation": "Biologija je prirodna znanost koja se bavi proučavanjem života i živih organizama, uključujući njihovu strukturu, funkciju, rast, podrijetlo i evoluciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1828",
+        "category": "znanost",
+        "question": "Koji se plin najviše nalazi u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Dušik (N2) čini približno 78% Zemljine atmosfere, što ga čini najzastupljenijim plinom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1829",
+        "category": "znanost",
+        "question": "Koji je SI prefiks za \"milijardu\" (10^9)?",
+        "correct_answer": "Giga",
+        "incorrect_answers": [
+            "Mega",
+            "Tera",
+            "Kilo"
+        ],
+        "explanation": "Prefiks \"giga\" u SI sustavu označava faktor od 10 na devetu potenciju, odnosno milijardu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1830",
+        "category": "znanost",
+        "question": "Kako se naziva svjetlosna zraka koja se koristi u CD/DVD/Blu-ray uređajima?",
+        "correct_answer": "Laser",
+        "incorrect_answers": [
+            "Reflektor",
+            "Lampa",
+            "Fokusator"
+        ],
+        "explanation": "Laser (Light Amplification by Stimulated Emission of Radiation) je izvor koherentne monokromatske svjetlosti koja se koristi za čitanje podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1831",
+        "category": "znanost",
+        "question": "Koji je temeljni sastavni dio svih organskih molekula?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Ugljik je neophodan element koji čini okosnicu svih organskih spojeva, čineći ih osnovom života.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1832",
+        "category": "znanost",
+        "question": "Koja je valna duljina elektromagnetskog spektra koju ljudsko oko može vidjeti?",
+        "correct_answer": "Vidljiva svjetlost",
+        "incorrect_answers": [
+            "Infracrveno zračenje",
+            "Ultraljubičasto zračenje",
+            "Rendgensko zračenje"
+        ],
+        "explanation": "Vidljiva svjetlost je dio elektromagnetskog spektra koji je osjetljiv ljudskom oku, obuhvaćajući boje od crvene do ljubičaste.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1833",
+        "category": "znanost",
+        "question": "Koji je planet poznat kao \"Crveni planet\"?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je poznat kao Crveni planet zbog obilja željezovog oksida (hrđe) na svojoj površini, što mu daje crvenkastu boju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1834",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se voda pretvara iz tekućeg u plinovito stanje?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Talište",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je proces faznog prijelaza u kojem se tekućina pretvara u plin na temperaturi nižoj od vrelišta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1835",
+        "category": "znanost",
+        "question": "Koju je tvrtku osnovao Bill Gates?",
+        "correct_answer": "Microsoft",
+        "incorrect_answers": [
+            "Apple",
+            "Google",
+            "IBM"
+        ],
+        "explanation": "Bill Gates je suosnivač Microsofta, jedne od najvećih softverskih tvrtki na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1836",
+        "category": "znanost",
+        "question": "Koji je popularni operativni sustav otvorenog koda?",
+        "correct_answer": "Linux",
+        "incorrect_answers": [
+            "Windows",
+            "macOS",
+            "Android"
+        ],
+        "explanation": "Linux je operativni sustav otvorenog koda koji je razvio Linus Torvalds, poznat po svojoj fleksibilnosti i prilagodljivosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1837",
+        "category": "znanost",
+        "question": "Koja je skraćenica za \"Grafička procesorska jedinica\"?",
+        "correct_answer": "GPU",
+        "incorrect_answers": [
+            "CPU",
+            "RAM",
+            "SSD"
+        ],
+        "explanation": "GPU (Graphics Processing Unit) je specijalizirani procesor dizajniran za brzo renderiranje slika, videa i animacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1838",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežični pristup internetu na većim udaljenostima od Bluetootha?",
+        "correct_answer": "Wi-Fi",
+        "incorrect_answers": [
+            "LTE",
+            "NFC",
+            "GPRS"
+        ],
+        "explanation": "Wi-Fi je bežična tehnologija koja omogućuje uređajima spajanje na lokalnu mrežu ili internet putem radio valova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1839",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija lizosoma u životinjskoj stanici?",
+        "correct_answer": "Razgradnja otpadnih tvari i staničnih dijelova",
+        "incorrect_answers": [
+            "Proizvodnja energije",
+            "Sinteza proteina",
+            "Pohrana genetske informacije"
+        ],
+        "explanation": "Lizosomi su organeli koji sadrže hidrolitičke enzime i odgovorni su za razgradnju staničnog otpada, makromolekula i oštećenih organela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1840",
+        "category": "znanost",
+        "question": "Koji tip leće se koristi za korekciju kratkovidnosti (miopije)?",
+        "correct_answer": "Konkavna leća",
+        "incorrect_answers": [
+            "Konveksna leća",
+            "Cilindrična leća",
+            "Prizmatična leća"
+        ],
+        "explanation": "Konkavne leće razilaze svjetlost prije nego što uđe u oko, čime se slika fokusira točno na mrežnici kod kratkovidnih osoba.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1841",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija koja apsorbira toplinu iz okoline?",
+        "correct_answer": "Endotermna reakcija",
+        "incorrect_answers": [
+            "Egzotermna reakcija",
+            "Katalitička reakcija",
+            "Redoks reakcija"
+        ],
+        "explanation": "Endotermne reakcije zahtijevaju unos energije (najčešće u obliku topline) iz okoline kako bi se odvijale.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1842",
+        "category": "znanost",
+        "question": "Koji su primarni produkti fotosinteze?",
+        "correct_answer": "Glukoza i kisik",
+        "incorrect_answers": [
+            "Voda i ugljikov dioksid",
+            "Proteini i voda",
+            "Lipidi i energija"
+        ],
+        "explanation": "Tijekom fotosinteze, biljke koriste sunčevu svjetlost, vodu i ugljikov dioksid za proizvodnju glukoze (šećera) kao hrane i kisika kao nusprodukta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1843",
+        "category": "znanost",
+        "question": "Koji je najčešći oblik obnovljive energije u svijetu?",
+        "correct_answer": "Hidroenergija (stanje 2024.)",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Energija vjetra",
+            "Geotermalna energija"
+        ],
+        "explanation": "Hidroenergija, koja koristi snagu tekuće vode, globalno je i dalje najveći izvor obnovljive električne energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1844",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija hipotalamusa u mozgu?",
+        "correct_answer": "Regulacija tjelesnih funkcija i hormona",
+        "incorrect_answers": [
+            "Kontrola ravnoteže i koordinacije",
+            "Obrada vizualnih informacija",
+            "Pamćenje i učenje"
+        ],
+        "explanation": "Hipotalamus je ključan za regulaciju tjelesne temperature, gladi, žeđi, spavanja i izlučivanja hormona iz hipofize.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1845",
+        "category": "znanost",
+        "question": "Koji se standard koristi za kodiranje znakova u računarstvu, uključujući i razne svjetske jezike?",
+        "correct_answer": "Unicode",
+        "incorrect_answers": [
+            "ASCII",
+            "EBCDIC",
+            "ISO-8859-1"
+        ],
+        "explanation": "Unicode je industrijski standard za kodiranje znakova koji omogućuje dosljedno prikazivanje teksta iz većine svjetskih pisanih sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1846",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcija tranzistora u elektronici?",
+        "correct_answer": "Prebacivanje i pojačavanje elektroničkih signala",
+        "incorrect_answers": [
+            "Pohranjivanje električne energije",
+            "Generiranje svjetlosti",
+            "Mjerenje temperature"
+        ],
+        "explanation": "Tranzistor je poluvodički uređaj koji može djelovati kao prekidač za elektroničke signale ili kao pojačivač.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1847",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen gdje se elektromagnetski valovi savijaju kada prolaze oko prepreke ili kroz otvor?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Apsorpcija",
+            "Polarizacija"
+        ],
+        "explanation": "Difrakcija je pojava skretanja valova s pravca prvobitnog širenja uslijed nailaska na rub zapreke ili prolaska kroz uski otvor.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1848",
+        "category": "znanost",
+        "question": "Koji je kemijski element ključan za rast i razvoj biljaka, često ograničavajući faktor u poljoprivredi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kalcij",
+            "Sumpor",
+            "Mangan"
+        ],
+        "explanation": "Dušik je esencijalan nutrijent za biljke, ključan za sintezu proteina, klorofila i nukleinskih kiselina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1849",
+        "category": "znanost",
+        "question": "Koju je teoriju razvio Charles Darwin kako bi objasnio razvoj života na Zemlji?",
+        "correct_answer": "Teorija prirodne selekcije",
+        "incorrect_answers": [
+            "Teorija abiogeneze",
+            "Teorija panspermije",
+            "Teorija kreacionizma"
+        ],
+        "explanation": "Charles Darwin je u svom djelu \"Podrijetlo vrsta\" predstavio teoriju prirodne selekcije kao glavni mehanizam evolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1850",
+        "category": "znanost",
+        "question": "Koji je naziv za fenomen kada se električna struja inducira u vodiču koji se kreće u magnetskom polju?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Termoelektrični efekt",
+            "Fotoelektrični efekt",
+            "Piezoelektrični efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je pojava stvaranja elektromotorne sile (napona) u vodiču koji se nalazi u promjenjivom magnetskom polju ili se kreće kroz njega.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1851",
+        "category": "znanost",
+        "question": "Koja je vrsta memorije izravno dostupna procesoru i brža je od glavne memorije, ali i skuplja?",
+        "correct_answer": "Cache memorija",
+        "incorrect_answers": [
+            "RAM",
+            "ROM",
+            "Sekundarna memorija"
+        ],
+        "explanation": "Cache memorija je mala, brza memorija koja pohranjuje često korištene podatke i instrukcije, smanjujući vrijeme pristupa procesora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1852",
+        "category": "znanost",
+        "question": "Koja je uloga kolesterola u ljudskom tijelu (osim što može biti štetan u visokim razinama)?",
+        "correct_answer": "Strukturna komponenta staničnih membrana i preteča hormona",
+        "incorrect_answers": [
+            "Primarni izvor energije",
+            "Prijenos kisika u krvi",
+            "Razgradnja toksina"
+        ],
+        "explanation": "Kolesterol je ključan za stabilnost staničnih membrana te je preteča steroidnih hormona, vitamina D i žučnih kiselina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1853",
+        "category": "znanost",
+        "question": "Koji je protokol za prijenos datoteka preko mreže?",
+        "correct_answer": "FTP (File Transfer Protocol)",
+        "incorrect_answers": [
+            "SMTP",
+            "HTTP",
+            "DNS"
+        ],
+        "explanation": "FTP je standardni mrežni protokol koji se koristi za prijenos računalnih datoteka s poslužitelja na klijent i obrnuto.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1854",
+        "category": "znanost",
+        "question": "Koji je naziv za kvantni fenomen gdje se dvije čestice mogu povezati tako da stanje jedne trenutno utječe na stanje druge, bez obzira na udaljenost?",
+        "correct_answer": "Kvantna sprezanost (entanglement)",
+        "incorrect_answers": [
+            "Kvantna superpozicija",
+            "Kvantna tuneliranja",
+            "Kvantna dekoherencija"
+        ],
+        "explanation": "Kvantna sprezanost opisuje snažnu korelaciju između kvantnih stanja dviju ili više čestica, što Einstein naziva \"sablasnim djelovanjem na daljinu\".",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1855",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija telomera na krajevima kromosoma?",
+        "correct_answer": "Zaštita genetske informacije od degradacije",
+        "incorrect_answers": [
+            "Kodiranje genetskih informacija",
+            "Regulacija replikacije DNA",
+            "Proizvodnja proteina"
+        ],
+        "explanation": "Telomere su ponavljajuće DNA sekvence na krajevima kromosoma koje štite genetski materijal tijekom replikacije od skraćivanja i oštećenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1856",
+        "category": "znanost",
+        "question": "Koji se princip koristi u masenoj spektrometriji za analizu sastava uzorka?",
+        "correct_answer": "Određivanje omjera mase i naboja iona",
+        "incorrect_answers": [
+            "Analiza apsorpcije svjetlosti",
+            "Mjerenje radioaktivnog raspada",
+            "Određivanje točke vrelišta"
+        ],
+        "explanation": "Masena spektrometrija ionizira uzorak i zatim razdvaja ione na temelju njihova omjera mase i naboja, omogućujući identifikaciju molekula.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1857",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen gdje materijal gubi električni otpor na vrlo niskim temperaturama?",
+        "correct_answer": "Supervodljivost",
+        "incorrect_answers": [
+            "Poluvodljivost",
+            "Izolacija",
+            "Rezistivnost"
+        ],
+        "explanation": "Supervodljivost je fenomen u kojem materijali na iznimno niskim temperaturama gube sav električni otpor, omogućujući protok struje bez gubitaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1858",
+        "category": "znanost",
+        "question": "Koji je algoritam za sortiranje podataka poznat po svojoj složenosti O(n log n) u prosječnom slučaju i koristi princip \"podijeli pa vladaj\"?",
+        "correct_answer": "Quicksort",
+        "incorrect_answers": [
+            "Bubble sort",
+            "Insertion sort",
+            "Selection sort"
+        ],
+        "explanation": "Quicksort je učinkovit algoritam za sortiranje koji radi tako da rekurzivno dijeli niz na manje podnizove i sortira ih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1859",
+        "category": "znanost",
+        "question": "Koja je uloga histona u jezgri eukariotske stanice?",
+        "correct_answer": "Pakiranje i organizacija DNA u kromatin",
+        "incorrect_answers": [
+            "Sinteza proteina",
+            "Razgradnja lipida",
+            "Prijenos signala unutar stanice"
+        ],
+        "explanation": "Histoni su proteini oko kojih se DNA omotava kako bi se kompaktno spakirala u kromosome unutar jezgre stanice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1860",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model koji opisuje rast populacije s ograničenim resursima, obično u obliku S-krivulje?",
+        "correct_answer": "Logistički rast",
+        "incorrect_answers": [
+            "Eksponencijalni rast",
+            "Linearni rast",
+            "Alometrijski rast"
+        ],
+        "explanation": "Logistički rast modelira situacije gdje se rast populacije usporava i stabilizira kako se približava kapacitetu okoliša.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1861",
+        "category": "znanost",
+        "question": "Koji se mehanizam koristi u modernim procesorima za izvršavanje više instrukcija istovremeno unutar jedne procesorske jezgre?",
+        "correct_answer": "Izvanredno izvršavanje (Out-of-Order Execution)",
+        "incorrect_answers": [
+            "Sekvencijalno izvršavanje",
+            "Jednonitno izvršavanje",
+            "Serijalizacija instrukcija"
+        ],
+        "explanation": "Izvanredno izvršavanje omogućuje procesoru da reorganizira redoslijed izvršavanja instrukcija kako bi se bolje iskoristili resursi i povećala performansa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1862",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se proteinski lanci savijaju u specifičnu trodimenzionalnu strukturu kako bi postali funkcionalni?",
+        "correct_answer": "Presavijanje proteina (Protein folding)",
+        "incorrect_answers": [
+            "Denaturacija proteina",
+            "Translacija",
+            "Transkripcija"
+        ],
+        "explanation": "Presavijanje proteina je vitalan biološki proces kojim proteinski lanac poprima svoju funkcionalnu konformaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1863",
+        "category": "znanost",
+        "question": "Koji je naziv za tip neuronske mreže koja se koristi za obradu sekvencijalnih podataka, kao što su tekst ili govor, i ima \"memoriju\" prethodnih ulaza?",
+        "correct_answer": "Rekurentna neuronska mreža (RNN)",
+        "incorrect_answers": [
+            "Konvolucijska neuronska mreža (CNN)",
+            "Perceptron",
+            "Generativna adversarijalna mreža (GAN)"
+        ],
+        "explanation": "RNN-ovi su dizajnirani za obradu sekvencijalnih podataka, s internom petljom koja im omogućuje obradu trenutnog ulaza uzimajući u obzir prethodne ulaze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1864",
+        "category": "znanost",
+        "question": "Koja je razlika između tvrdog (hard) i mekog (soft) spajanja (linking) u Unix-like operativnim sustavima?",
+        "correct_answer": "Hard link ukazuje na iste podatke, soft link je samo putanja",
+        "incorrect_answers": [
+            "Hard link je za datoteke, soft link za direktorije",
+            "Soft link je trajan, hard link privremen",
+            "Hard link je samo za lokalni disk, soft link za mrežne pogone"
+        ],
+        "explanation": "Hard linkovi su pokazivači na inode (stvarne podatke), dok su soft linkovi (simboličke veze) samo putanje do druge datoteke ili direktorija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1865",
+        "category": "znanost",
+        "question": "Koji se princip koristi u tehnologiji MRI (Magnetska rezonancija) za stvaranje detaljnih slika unutarnjih organa?",
+        "correct_answer": "Nuklearna magnetska rezonancija vodikovih atoma",
+        "incorrect_answers": [
+            "Rendgensko zračenje",
+            "Ultrazvučni valovi",
+            "Gama zračenje"
+        ],
+        "explanation": "MRI koristi jako magnetsko polje i radio valove za poravnavanje i stimulaciju protona vodikovih atoma u tijelu, čiji se signali bilježe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
