@@ -28870,5 +28870,575 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2206",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja jedinica svjetlosti ili bilo kojeg drugog elektromagnetskog zračenja?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je elementarna čestica i kvant elektromagnetskog polja, nositelj elektromagnetske interakcije, uključujući svjetlost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2207",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se sekvencira cjelokupni genetski materijal nekog organizma?",
+        "correct_answer": "Sekvenciranje genoma",
+        "incorrect_answers": [
+            "Kloniranje gena",
+            "PCR",
+            "Elektroforeza"
+        ],
+        "explanation": "Sekvenciranje genoma je određivanje preciznog reda nukleotida u cjelokupnom DNA organizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2208",
+        "category": "znanost",
+        "question": "Kako se zvao prvi umjetni Zemljin satelit lansiran u orbitu?",
+        "correct_answer": "Sputnik 1",
+        "incorrect_answers": [
+            "Explorer 1",
+            "Apollo 1",
+            "Voyager 1"
+        ],
+        "explanation": "Sputnik 1 je lansirao Sovjetski Savez 4. listopada 1957. godine, čime je započela svemirska era.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2209",
+        "category": "znanost",
+        "question": "Koji pojam opisuje vrstu zlonamjernog softvera koji se maskira u legitimni program?",
+        "correct_answer": "Trojanski konj",
+        "incorrect_answers": [
+            "Crv",
+            "Virus",
+            "Špijunski softver"
+        ],
+        "explanation": "Trojanski konj se pretvara da je koristan program, ali nakon instalacije izvodi zlonamjerne radnje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2210",
+        "category": "znanost",
+        "question": "Koji fenomen opisuje emisiju elektrona s metalne površine kada na nju padne svjetlost?",
+        "correct_answer": "Fotoelektrični efekt",
+        "incorrect_answers": [
+            "Termoionska emisija",
+            "Magnetska rezonanca",
+            "Komptonov efekt"
+        ],
+        "explanation": "Fotoelektrični efekt je pojava u kojoj metal emitira elektrone kada je izložen elektromagnetskom zračenju određene frekvencije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2211",
+        "category": "znanost",
+        "question": "Koja je pH vrijednost neutralne otopine na 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "1",
+            "14"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine; neutralna otopina ima pH vrijednost 7.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2212",
+        "category": "znanost",
+        "question": "Koji dio ljudskog mozga je prvenstveno odgovoran za ravnotežu i koordinaciju?",
+        "correct_answer": "Mali mozak (Cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak (Cerebrum)",
+            "Moždano deblo (Brainstem)",
+            "Talamus (Thalamus)"
+        ],
+        "explanation": "Mali mozak igra ključnu ulogu u kontroli motorike, koordinaciji pokreta i održavanju ravnoteže tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2213",
+        "category": "znanost",
+        "question": "Koja podatkovna struktura slijedi princip \"zadnji unutra, prvi van\" (LIFO)?",
+        "correct_answer": "Stog (Stack)",
+        "incorrect_answers": [
+            "Red (Queue)",
+            "Povezana lista (Linked List)",
+            "Stablo (Tree)"
+        ],
+        "explanation": "Stog (stack) je apstraktni tip podataka u kojem se elementi dodaju i uklanjaju samo s jednog kraja, zvanog vrh.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2214",
+        "category": "znanost",
+        "question": "Koja je završna faza životnog ciklusa zvijezde slične mase našem Suncu?",
+        "correct_answer": "Bijeli patuljak",
+        "incorrect_answers": [
+            "Neutron star",
+            "Crna rupa",
+            "Crveni superdiv"
+        ],
+        "explanation": "Nakon što zvijezda poput Sunca iscrpi svoje nuklearno gorivo, odbaci vanjske slojeve i postane bijeli patuljak.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2215",
+        "category": "znanost",
+        "question": "Kako se naziva prijenos topline izravnim dodirom između čestica?",
+        "correct_answer": "Kondukcija (Provođenje)",
+        "incorrect_answers": [
+            "Konvekcija (Strujanje)",
+            "Radijacija (Zračenje)",
+            "Apsorpcija (Upijanje)"
+        ],
+        "explanation": "Kondukcija je prijenos topline kroz materijal izravnim kontaktom između molekula, bez premještanja tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2216",
+        "category": "znanost",
+        "question": "Koji mikroorganizmi su prokariotski i nemaju jezgru niti druge organele obavijene membranom?",
+        "correct_answer": "Bakterije",
+        "incorrect_answers": [
+            "Gljive",
+            "Virusi",
+            "Alge"
+        ],
+        "explanation": "Bakterije su jednostanični prokariotski organizmi, što znači da njihove stanice nemaju pravu jezgru ni organele.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2217",
+        "category": "znanost",
+        "question": "Koje se inženjersko područje bavi dizajnom, konstrukcijom, radom i primjenom robota?",
+        "correct_answer": "Robotika",
+        "incorrect_answers": [
+            "Nanotehnologija",
+            "Biotehnologija",
+            "Aerodinamika"
+        ],
+        "explanation": "Robotika je interdisciplinarno područje koje objedinjuje strojarstvo, elektroniku i računarstvo u stvaranju robota.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2218",
+        "category": "znanost",
+        "question": "Koji je planet poznat kao \"Crveni planet\" zbog svog crvenkastog izgleda?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Merkur"
+        ],
+        "explanation": "Mars je crven zbog visoke koncentracije željeznog oksida (hrđe) u svom tlu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2219",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za silu?",
+        "correct_answer": "Newton",
+        "incorrect_answers": [
+            "Joule",
+            "Watt",
+            "Pascal"
+        ],
+        "explanation": "Newton je jedinica sile u Međunarodnom sustavu jedinica, nazvana po Isaacu Newtonu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2220",
+        "category": "znanost",
+        "question": "Koja je skupina elemenata poznata kao plemeniti plinovi?",
+        "correct_answer": "Skupina 18 (VIII.A)",
+        "incorrect_answers": [
+            "Skupina 1 (I.A)",
+            "Skupina 2 (II.A)",
+            "Skupina 17 (VII.A)"
+        ],
+        "explanation": "Plemeniti plinovi (Helij, Neon, Argon itd.) nalaze se u 18. skupini periodnog sustava i vrlo su nereaktivni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2221",
+        "category": "znanost",
+        "question": "Koja je stanična struktura odgovorna za regulaciju prolaska tvari u i iz stanice?",
+        "correct_answer": "Stanična membrana",
+        "incorrect_answers": [
+            "Stanična stijenka",
+            "Vakuola",
+            "Citoplazma"
+        ],
+        "explanation": "Stanična membrana je selektivno propusna barijera koja kontrolira ulazak i izlazak molekula iz stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2222",
+        "category": "znanost",
+        "question": "Što znači akronim HTTP?",
+        "correct_answer": "HyperText Transfer Protocol",
+        "incorrect_answers": [
+            "High-Tech Transfer Program",
+            "Hyperlink Text Protocol",
+            "Home Text Transfer Page"
+        ],
+        "explanation": "HTTP je protokol za prijenos hiperteksta, osnova komunikacije podataka na World Wide Webu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2223",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada se bijela svjetlost razdvoji na svoje sastavne boje prolazeći kroz prizmu?",
+        "correct_answer": "Disperzija svjetlosti",
+        "incorrect_answers": [
+            "Refleksija",
+            "Apsorpcija",
+            "Polarisacija"
+        ],
+        "explanation": "Disperzija svjetlosti je pojava u kojoj se brzina svjetlosti, a time i indeks loma, razlikuju za različite valne duljine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2224",
+        "category": "znanost",
+        "question": "Koja vrsta makromolekula prvenstveno pohranjuje genetske informacije u živim organizmima?",
+        "correct_answer": "Deoksiribonukleinska kiselina (DNA)",
+        "incorrect_answers": [
+            "Ribonukleinska kiselina (RNA)",
+            "Protein",
+            "Ugljikohidrat"
+        ],
+        "explanation": "DNA sadrži genetske upute potrebne za razvoj i funkcioniranje svih poznatih živih organizama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2225",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija klorofila u biljkama?",
+        "correct_answer": "Apsorpcija sunčeve svjetlosti",
+        "incorrect_answers": [
+            "Transport vode",
+            "Stvaranje kisika",
+            "Zaštita od štetočina"
+        ],
+        "explanation": "Klorofil je zeleni pigment koji apsorbira svjetlosnu energiju za proces fotosinteze.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2226",
+        "category": "znanost",
+        "question": "Čime je inspirirana neuralna mreža?",
+        "correct_answer": "Ljudskim mozgom",
+        "incorrect_answers": [
+            "Računalnim čipom",
+            "Telefonskom mrežom",
+            "Periodnim sustavom"
+        ],
+        "explanation": "Neuralne mreže su računalni sustavi modelirani po strukturi i funkciji ljudskog mozga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2227",
+        "category": "znanost",
+        "question": "Koja vrsta teleskopa koristi leće za prikupljanje i fokusiranje svjetlosti?",
+        "correct_answer": "Refraktorski teleskop",
+        "incorrect_answers": [
+            "Reflektorski teleskop",
+            "Radio teleskop",
+            "X-zrake teleskop"
+        ],
+        "explanation": "Refraktorski teleskopi koriste seriju leća za savijanje svjetlosti i formiranje slike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2228",
+        "category": "znanost",
+        "question": "Koja je jedinica električne struje?",
+        "correct_answer": "Amper",
+        "incorrect_answers": [
+            "Volt",
+            "Ohm",
+            "Watt"
+        ],
+        "explanation": "Amper (A) je SI jedinica za električnu struju, nazvana po André-Marie Ampèreu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2229",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske reakcije oslobađa energiju, često u obliku topline ili svjetlosti?",
+        "correct_answer": "Egzotermna reakcija",
+        "incorrect_answers": [
+            "Endotermna reakcija",
+            "Katalitička reakcija",
+            "Redoks reakcija"
+        ],
+        "explanation": "Egzotermne reakcije su reakcije koje oslobađaju energiju u okolinu, obično povećavajući temperaturu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2230",
+        "category": "znanost",
+        "question": "Tko je predložio teoriju prirodne selekcije kao mehanizam evolucije?",
+        "correct_answer": "Charles Darwin",
+        "incorrect_answers": [
+            "Gregor Mendel",
+            "Louis Pasteur",
+            "Albert Einstein"
+        ],
+        "explanation": "Charles Darwin je razvio opsežnu teoriju evolucije putem prirodne selekcije, objavljenu u \"O podrijetlu vrsta\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2231",
+        "category": "znanost",
+        "question": "Što znači SSD u kontekstu računalne pohrane?",
+        "correct_answer": "Solid State Drive",
+        "incorrect_answers": [
+            "Super Speed Disk",
+            "Secure System Data",
+            "Static Storage Device"
+        ],
+        "explanation": "SSD koristi flash memoriju za pohranu podataka i nema pokretnih mehaničkih dijelova, što ga čini bržim od HDD-a.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2232",
+        "category": "znanost",
+        "question": "Kako se naziva meteoroid koji uđe u Zemljinu atmosferu i izgori, stvarajući trag svjetlosti?",
+        "correct_answer": "Meteor (Zvijezda padalica)",
+        "incorrect_answers": [
+            "Meteorit",
+            "Komet",
+            "Asteroid"
+        ],
+        "explanation": "Meteor je svjetlosna pojava koju vidimo kada mali komad stijene ili prašine iz svemira izgori zbog trenja u atmosferi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2233",
+        "category": "znanost",
+        "question": "Koja je jedinica za frekvenciju?",
+        "correct_answer": "Herc (Hz)",
+        "incorrect_answers": [
+            "Sekunda (s)",
+            "Metar (m)",
+            "Decibel (dB)"
+        ],
+        "explanation": "Herc je SI jedinica za frekvenciju, definirana kao jedan ciklus po sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2234",
+        "category": "znanost",
+        "question": "Koji proces uključuje spajanje mnogih malih molekula (monomera) u veliku molekulu nalik lancu (polimer)?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Destilacija",
+            "Fermentacija"
+        ],
+        "explanation": "Polimerizacija je kemijska reakcija u kojoj se monomeri spajaju u makromolekule, polimere.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2235",
+        "category": "znanost",
+        "question": "Koji ljudski organ proizvodi inzulin za regulaciju razine šećera u krvi?",
+        "correct_answer": "Gušterača (Pankreas)",
+        "incorrect_answers": [
+            "Jetra (Liver)",
+            "Bubrezi (Kidneys)",
+            "Želudac (Stomach)"
+        ],
+        "explanation": "Gušterača izlučuje inzulin, hormon ključan za unos glukoze iz krvi u stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2236",
+        "category": "znanost",
+        "question": "Koja se programska paradigma usredotočuje na 'objekte' koji sadrže i podatke i metode?",
+        "correct_answer": "Objektno orijentirano programiranje (OOP)",
+        "incorrect_answers": [
+            "Funkcionalno programiranje",
+            "Proceduralno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "OOP organizira softverski dizajn oko podataka ili objekata, umjesto funkcija i logike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2237",
+        "category": "znanost",
+        "question": "Koji je pojam za minimalnu količinu fisibilnog materijala potrebnu za održavanje nuklearne lančane reakcije?",
+        "correct_answer": "Kritična masa",
+        "incorrect_answers": [
+            "Subkritična masa",
+            "Superkritična masa",
+            "Atomska masa"
+        ],
+        "explanation": "Kritična masa je potrebna kako bi se osiguralo da dovoljno neutrona izazove daljnje fisije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2238",
+        "category": "znanost",
+        "question": "Koji je proces korištenja električne struje za pokretanje nespontane kemijske reakcije?",
+        "correct_answer": "Elektroliza",
+        "incorrect_answers": [
+            "Galvanizacija",
+            "Oksidacija",
+            "Redukcija"
+        ],
+        "explanation": "Elektroliza je proces razgradnje kemijskih spojeva prolaskom električne struje kroz njih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2239",
+        "category": "znanost",
+        "question": "Kako se naziva postupno povećanje prosječne površinske temperature Zemlje zbog efekta staklenika?",
+        "correct_answer": "Globalno zatopljenje",
+        "incorrect_answers": [
+            "Ozonska rupa",
+            "Kisele kiše",
+            "Nuklearna zima"
+        ],
+        "explanation": "Globalno zatopljenje je dugoročno zagrijavanje Zemljine klime promatrano od predindustrijskog razdoblja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2240",
+        "category": "znanost",
+        "question": "Koji je materijal, poznat po svojoj ekstremnoj tvrdoći, najtvrđi poznati prirodni mineral?",
+        "correct_answer": "Dijamant",
+        "incorrect_answers": [
+            "Kvarc",
+            "Korund",
+            "Topaz"
+        ],
+        "explanation": "Dijamant je alotropska modifikacija ugljika i najtvrđi poznati prirodni mineral.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2241",
+        "category": "znanost",
+        "question": "Koje načelo tvrdi da su zakoni fizike isti za sve promatrače u jednolikom gibanju jedni prema drugima?",
+        "correct_answer": "Princip relativnosti",
+        "incorrect_answers": [
+            "Princip neodređenosti",
+            "Paulijev princip isključenja",
+            "Princip ekvivalentnosti"
+        ],
+        "explanation": "Princip relativnosti je temelj specijalne relativnosti, govoreći da se svi fizikalni zakoni jednako primjenjuju u svim inercijskim sustavima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2242",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica informacije u kvantnom računalstvu, koja može istovremeno postojati u više stanja?",
+        "correct_answer": "Kubit (Qubit)",
+        "incorrect_answers": [
+            "Bit",
+            "Bajt",
+            "Tron"
+        ],
+        "explanation": "Kubit (kvantni bit) može predstavljati 0, 1 ili superpoziciju oba stanja istovremeno, za razliku od klasičnog bita.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2243",
+        "category": "znanost",
+        "question": "Kako se nazivaju molekularne \"škare\" koje se koriste u genetičkom inženjeringu za rezanje DNA na specifičnim sekvencama?",
+        "correct_answer": "Restrikcijski enzimi",
+        "incorrect_answers": [
+            "Ligaze",
+            "Polimeraze",
+            "Helikaze"
+        ],
+        "explanation": "Restrikcijski enzimi prepoznaju i režu DNA na specifičnim mjestima, što je ključno za manipulaciju genima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
