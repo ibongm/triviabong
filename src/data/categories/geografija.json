@@ -20207,5 +20207,395 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1624",
+        "category": "geografija",
+        "question": "Koji je najveći ocean na svijetu po površini i volumenu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean je najveći i najdublji ocean na Zemlji, pokrivajući približno jednu trećinu površine planeta. Sadrži više od polovice slobodne vode na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1625",
+        "category": "geografija",
+        "question": "Koje je najveće jezero u Africi, poznato po svojoj veličini i ulozi izvora rijeke Nil?",
+        "correct_answer": "Jezero Victoria",
+        "incorrect_answers": [
+            "Jezero Tanganjika",
+            "Jezero Malavi",
+            "Jezero Čad"
+        ],
+        "explanation": "Jezero Victoria je najveće afričko jezero po površini i drugo najveće slatkovodno jezero na svijetu. Glavni je rezervoar za Bijeli Nil.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1626",
+        "category": "geografija",
+        "question": "Koji planinski lanac se proteže duž zapadne obale Južne Amerike?",
+        "correct_answer": "Andi",
+        "incorrect_answers": [
+            "Stjenjak",
+            "Alpe",
+            "Himalaja"
+        ],
+        "explanation": "Andi su najduži kontinentalni planinski lanac na svijetu, dugačak oko 7000 km. Proteže se kroz sedam južnoameričkih zemalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1627",
+        "category": "geografija",
+        "question": "Kako se naziva regija oko Sjevernog pola?",
+        "correct_answer": "Arktik",
+        "incorrect_answers": [
+            "Antarktik",
+            "Ekvator",
+            "Tropi"
+        ],
+        "explanation": "Arktik obuhvaća Arktički ocean i dijelove okolnih kontinenata. Karakteriziraju ga niske temperature i ledene kape.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1628",
+        "category": "geografija",
+        "question": "Koji je naziv za geološku strukturu koja nastaje kada se rijeka usječe u suhu, uzdignutu visoravan?",
+        "correct_answer": "Kanjon",
+        "incorrect_answers": [
+            "Delta",
+            "Estuarij",
+            "Fjord"
+        ],
+        "explanation": "Kanjon je duboka i uska dolina s strmim liticama, nastala erozijskim djelovanjem rijeke kroz duga geološka razdoblja. To je tipičan oblik riječne erozije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1629",
+        "category": "geografija",
+        "question": "Koja je država s najvećom populacijom na svijetu (stanje 2024.)?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Indija je u 2023. godini pretekla Kinu po broju stanovnika te je (stanje 2024.) najmnogoljudnija zemlja na svijetu. Procjenjuje se da ima više od 1,4 milijarde ljudi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1630",
+        "category": "geografija",
+        "question": "Koje je najveće jezero na svijetu po površini, često nazivamo i morem zbog svoje veličine?",
+        "correct_answer": "Kaspijsko jezero",
+        "incorrect_answers": [
+            "Gornje jezero",
+            "Aralsko jezero",
+            "Bajkalsko jezero"
+        ],
+        "explanation": "Kaspijsko jezero je najveće jezero na svijetu, sa površinom od približno 371.000 km², i graniči s pet zemalja. Sadrži slanu vodu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1631",
+        "category": "geografija",
+        "question": "Kako se naziva klimatska zona karakterizirana visokim temperaturama i velikim količinama oborina tijekom cijele godine, tipična za ekvatorijalna područja?",
+        "correct_answer": "Ekvatorijalna klima",
+        "incorrect_answers": [
+            "Monsunska klima",
+            "Sredozemna klima",
+            "Pustinjska klima"
+        ],
+        "explanation": "Ekvatorijalna klima ima prosječne mjesečne temperature iznad 18 °C i obilne oborine, s malim godišnjim rasponom temperature. Prisutna je oko ekvatora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1632",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija koja nastaje kada se magma ohladi i skrutne ispod Zemljine površine, ne dospijevajući na površinu?",
+        "correct_answer": "Intruzija (pluton)",
+        "incorrect_answers": [
+            "Ekstruzija",
+            "Vulkan",
+            "Gejzir"
+        ],
+        "explanation": "Intruzija je masa magmatske stijene koja je prodrla u već postojeće stijene i tamo se ohladila. Ne izlazi na površinu zemlje, već ostaje pod zemljom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1633",
+        "category": "geografija",
+        "question": "Koju rijeku nazivamo 'Nilom Europe' zbog njene važnosti za plovidbu i gospodarstvo kroz više zemalja?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Laba",
+            "Visla"
+        ],
+        "explanation": "Dunav je druga najduža rijeka u Europi, teče kroz deset zemalja i važan je međunarodni plovni put. Poznat je po svojoj povijesnoj i kulturnoj važnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1634",
+        "category": "geografija",
+        "question": "Kako se naziva reljefni oblik nastao otapanjem karbonatnih stijena, karakterističan za krške krajeve, koji obuhvaća široke udoline zatvorenih oblika?",
+        "correct_answer": "Polje",
+        "incorrect_answers": [
+            "Ponikva",
+            "Uvala",
+            "Jama"
+        ],
+        "explanation": "Polje je velika, plitka krška udolina s ravnim dnom, okružena strmim stranama. Dno polja obično je prekriveno aluvijem i plodno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1635",
+        "category": "geografija",
+        "question": "Kako se naziva dolina koju je oblikovao ledenjak, a ima karakterističan presjek u obliku slova \"U\"?",
+        "correct_answer": "Valovita dolina (ili U-dolina)",
+        "incorrect_answers": [
+            "V-dolina",
+            "Riječna terasa",
+            "Kanjon"
+        ],
+        "explanation": "Valovita dolina je tip glacijalne doline koju karakteriziraju strme stranice i široko, zaobljeno dno. Nastaje snažnom erozijom ledenjaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1636",
+        "category": "geografija",
+        "question": "Koja topla oceanska struja teče duž istočne obale Sjeverne Amerike, utječući na klimu zapadne Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Kalifornijska struja",
+            "Benguelska struja",
+            "Labradorska struja"
+        ],
+        "explanation": "Golfska struja je snažna, brza oceanska struja koja prenosi toplu vodu iz Meksičkog zaljeva preko Atlantika. Značajno utječe na blagu klimu zapadne Europe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1637",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po 'piramidama'?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Kina",
+            "Meksiko",
+            "Peru"
+        ],
+        "explanation": "Egipat je dom drevnih piramida, uključujući Veliku piramidu u Gizi, koja je jedno od sedam svjetskih čuda. Piramide su izgrađene kao grobnice faraona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1638",
+        "category": "geografija",
+        "question": "Kako se naziva geomorfološki proces gdje se voda, otapanjem topivih stijena poput vapnenca, stvara podzemne šupljine, pećine i ponore?",
+        "correct_answer": "Krš",
+        "incorrect_answers": [
+            "Erozija",
+            "Denudacija",
+            "Arazija"
+        ],
+        "explanation": "Krš je specifičan oblik reljefa razvijen na topivim stijenama, prvenstveno vapnencu, karakteriziran podzemnim odvodnjavanjem i jedinstvenim površinskim i podzemnim formacijama. To je proces otapanja stijena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1639",
+        "category": "geografija",
+        "question": "Koja se otočna država nalazi istočno od Afrike u Indijskom oceanu?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Šri Lanka",
+            "Borneo",
+            "Sumatra"
+        ],
+        "explanation": "Madagaskar je četvrti najveći otok na svijetu i neovisna država. Poznat je po jedinstvenoj flori i fauni koje su se razvile u izolaciji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1640",
+        "category": "geografija",
+        "question": "Koji je tjesnac, nazvan po portugalskom istraživaču, najjužniji morski put kroz Južnu Ameriku?",
+        "correct_answer": "Magellanov tjesnac",
+        "incorrect_answers": [
+            "Beringov tjesnac",
+            "Drakeov prolaz",
+            "Gibraltar"
+        ],
+        "explanation": "Magellanov tjesnac je prirodni prolaz kroz južni dio Južne Amerike, povezujući Atlantski i Tihi ocean. Otkrio ga je Ferdinand Magellan 1520. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1641",
+        "category": "geografija",
+        "question": "Koji je naziv za sloj atmosfere najbliži Zemljinoj površini, gdje se odvijaju svi vremenski fenomeni?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži sloj Zemljine atmosfere, proteže se do oko 12 km visine. U njoj se nalaze oblaci, kiša, snijeg i vjetrovi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1642",
+        "category": "geografija",
+        "question": "Koja je najdublja točka u svjetskim oceanima?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanska brazda",
+            "Javanska brazda",
+            "Aleutska brazda"
+        ],
+        "explanation": "Marijanska brazda, smještena u zapadnom Tihom oceanu, sadrži najdublju poznatu točku na Zemlji, Challenger Deep, s dubinom od približno 11.000 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1643",
+        "category": "geografija",
+        "question": "Kako se naziva teorija koja objašnjava kretanje velikih ploča Zemljine kore?",
+        "correct_answer": "Tektonika ploča",
+        "incorrect_answers": [
+            "Kontinentalni drift",
+            "Seizmologija",
+            "Vulkanizam"
+        ],
+        "explanation": "Tektonika ploča je znanstvena teorija koja opisuje velike pokrete Zemljine litosfere. Objašnjava vulkane, potrese i planinske lance.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1644",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kojim se voda vraća u atmosferu iz biljaka?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Evaporacija",
+            "Kondenzacija",
+            "Precipitacija"
+        ],
+        "explanation": "Transpiracija je isparavanje vode iz biljaka, prvenstveno kroz pore na lišću (stome), dio je globalnog ciklusa vode. Biljke oslobađaju vodenu paru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1645",
+        "category": "geografija",
+        "question": "Koji je naziv za uski kopneni pojas koji povezuje dva veća kopna i razdvaja dva vodena tijela?",
+        "correct_answer": "Kopnena prevlaka",
+        "incorrect_answers": [
+            "Tjesnac",
+            "Poluotok",
+            "Fjord"
+        ],
+        "explanation": "Kopnena prevlaka je uski komad zemlje koji spaja dva kopna i razdvaja dva mora ili oceana. Primjer je Panamska prevlaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1646",
+        "category": "geografija",
+        "question": "Koja je zemlja u Europi poznata po vjetrenjačama i tulipanima?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska je poznata po svojim poljima tulipana, drvenim klompama, kanalima i tradicionalnim vjetrenjačama. Mnoge vjetrenjače su sačuvane kao kulturna baština.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1647",
+        "category": "geografija",
+        "question": "Kako se naziva klimatski fenomen gdje se topao i suh vjetar spušta niz planinske padine, uzrokujući nagli porast temperature?",
+        "correct_answer": "Fen (Föhn)",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Monsun"
+        ],
+        "explanation": "Fen je topao, suh, spuštajući se vjetar koji nastaje kada se vlažan zrak diže uz planinu, gubi vlagu i zagrijava se pri spuštanju na drugoj strani. Uzrokuje nagle temperaturne promjene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1648",
+        "category": "geografija",
+        "question": "U kojoj zemlji se nalazi Machu Picchu?",
+        "correct_answer": "Peru",
+        "incorrect_answers": [
+            "Bolivija",
+            "Kolumbija",
+            "Ekvador"
+        ],
+        "explanation": "Machu Picchu je drevni grad Inka smješten u Andama u Peruu. To je jedno od najpoznatijih arheoloških nalazišta na svijetu i UNESCO-va svjetska baština.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1649",
+        "category": "geografija",
+        "question": "Koja rijeka tvori granicu između SAD-a i Meksika na dugom dijelu?",
+        "correct_answer": "Rio Grande",
+        "incorrect_answers": [
+            "Kolorado",
+            "Mississippi",
+            "Missouri"
+        ],
+        "explanation": "Rio Grande je rijeka koja teče od Colorada do Meksičkog zaljeva, tvoreći značajan dio granice između SAD-a i Meksika. Važna je za vodoopskrbu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
