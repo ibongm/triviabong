@@ -26449,5 +26449,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2067",
+        "category": "sport",
+        "question": "Koji se sport često naziva \"kraljem sportova\" zbog svoje globalne popularnosti?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Tenis",
+            "Atletika"
+        ],
+        "explanation": "Nogomet je najgledaniji i najigraniji sport na svijetu, s najvećim brojem registriranih igrača i navijača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2068",
+        "category": "sport",
+        "question": "Koliko je igrača u jednoj ekipi na terenu u nogometu na početku utakmice?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "9"
+        ],
+        "explanation": "Svaka ekipa u nogometu počinje utakmicu s jedanaest igrača, uključujući vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2069",
+        "category": "sport",
+        "question": "Koji hrvatski nogometaš je osvojio Zlatnu loptu (Ballon d'Or) 2018. godine?",
+        "correct_answer": "Luka Modrić",
+        "incorrect_answers": [
+            "Mario Mandžukić",
+            "Ivan Rakitić",
+            "Dejan Lovren"
+        ],
+        "explanation": "Luka Modrić je 2018. godine prekinuo dominaciju Messija i Ronalda, osvojivši Zlatnu loptu i FIFA-inu nagradu za najboljeg igrača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2070",
+        "category": "sport",
+        "question": "Koja je osnovna svrha crvenog kartona u nogometu?",
+        "correct_answer": "Isključenje igrača iz igre",
+        "incorrect_answers": [
+            "Opomena igraču",
+            "Dosuđivanje jedanaesterca",
+            "Prekid utakmice"
+        ],
+        "explanation": "Crveni karton označava teži prekršaj i rezultira trajnim isključenjem igrača iz utakmice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2071",
+        "category": "sport",
+        "question": "Koliko se setova maksimalno igra u muškom Grand Slam teniskom meču?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "6"
+        ],
+        "explanation": "Muškarci na Grand Slam turnirima igraju do tri dobivena seta, što znači maksimalno pet setova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2072",
+        "category": "sport",
+        "question": "Koja od navedenih disciplina nije bacačka disciplina u atletici?",
+        "correct_answer": "Skok u dalj",
+        "incorrect_answers": [
+            "Bacanje koplja",
+            "Bacanje diska",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Skok u dalj je skakačka disciplina, dok su ostale navedene discipline bacačke u atletici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2073",
+        "category": "sport",
+        "question": "Koji materijal najčešće prekriva vanjski dio košarkaške lopte koja se koristi u profesionalnim ligama danas?",
+        "correct_answer": "Sintetička koža",
+        "incorrect_answers": [
+            "Guma",
+            "Prava koža",
+            "Platno"
+        ],
+        "explanation": "Moderna košarkaška lopta za profesionalnu upotrebu najčešće je obložena sintetičkom kožom zbog izdržljivosti i performansi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2074",
+        "category": "sport",
+        "question": "Kako se naziva udarac u odbojci kojim se servira lopta u igru?",
+        "correct_answer": "Servis",
+        "incorrect_answers": [
+            "Smeč",
+            "Blok",
+            "Dribling"
+        ],
+        "explanation": "Servis je početni udarac kojim se lopta uvodi u igru, a izvodi se s kraja terena iza osnovne linije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2075",
+        "category": "sport",
+        "question": "Koji je cilj igre u pikadu?",
+        "correct_answer": "Smanjiti bodove od 501 (ili 301) na točno nula",
+        "incorrect_answers": [
+            "Sakupiti što više bodova",
+            "Izbaciti protivnika iz igre",
+            "Postići deset trojki"
+        ],
+        "explanation": "Cilj pikada je smanjiti početni broj bodova (najčešće 501 ili 301) na točno nulu, završnim udarcem u double ili bullseye.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2076",
+        "category": "sport",
+        "question": "Tko je poznati hrvatski skijaš koji je osvojio Veliki kristalni globus u Svjetskom kupu?",
+        "correct_answer": "Ivica Kostelić",
+        "incorrect_answers": [
+            "Janica Kostelić",
+            "Filip Zubčić",
+            "Natko Zrnčić-Dim"
+        ],
+        "explanation": "Ivica Kostelić je 2011. godine osvojio Veliki kristalni globus kao ukupni pobjednik Svjetskog kupa u alpskom skijanju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2077",
+        "category": "sport",
+        "question": "Koliko se ukupno medalja (zlato, srebro, bronca) dodjeljuje u jednoj olimpijskoj disciplini?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "1",
+            "2",
+            "4"
+        ],
+        "explanation": "U većini olimpijskih disciplina dodjeljuju se tri medalje: zlatna za prvo, srebrna za drugo i brončana za treće mjesto.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2078",
+        "category": "sport",
+        "question": "Koji je najviši rang u judu, predstavljen crnim pojasom?",
+        "correct_answer": "Dan",
+        "incorrect_answers": [
+            "Kyu",
+            "Sensei",
+            "Judo Master"
+        ],
+        "explanation": "Crni pojas u judu označava Dan rang, što je najviši stupanj u vještini nakon Kyu rangova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2079",
+        "category": "sport",
+        "question": "Koliko minuta traje jedna četvrtina utakmice prema FIBA pravilima u košarci?",
+        "correct_answer": "10 minuta",
+        "incorrect_answers": [
+            "12 minuta",
+            "8 minuta",
+            "15 minuta"
+        ],
+        "explanation": "Prema pravilima FIBA-e, svaka četvrtina košarkaške utakmice traje 10 minuta efektivne igre.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2080",
+        "category": "sport",
+        "question": "Kako se naziva udarac u tenisu kojim igrač snažno vraća lopticu protivniku nakon servisa?",
+        "correct_answer": "Return",
+        "incorrect_answers": [
+            "Volley",
+            "Slice",
+            "Lob"
+        ],
+        "explanation": "Return (retern) je udarac kojim se loptica vraća protivniku nakon što je on odservirao.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2081",
+        "category": "sport",
+        "question": "Koji se pojam u Formuli 1 koristi za vozača koji starta s najbolje pozicije na utrci?",
+        "correct_answer": "Pole position",
+        "incorrect_answers": [
+            "Grid position",
+            "Pit stop",
+            "Fastest lap"
+        ],
+        "explanation": "Pole position označava prvu startnu poziciju na gridu, koju osvaja najbrži vozač u kvalifikacijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2082",
+        "category": "sport",
+        "question": "Kako se naziva borilački sport u kojem se koriste samo udarci nogama i rukama, uz udarce koljenima i laktovima, ali bez hrvanja na tlu?",
+        "correct_answer": "Muay Thai",
+        "incorrect_answers": [
+            "Boks",
+            "Judo",
+            "Hrvanje"
+        ],
+        "explanation": "Muay Thai, poznat i kao tajlandski boks, koristi osam udova tijela: šake, laktove, koljena i potkoljenice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2083",
+        "category": "sport",
+        "question": "Koji hrvatski veslački dvojac bez kormilara osvojio dva olimpijska zlata (2016. i 2020./2021.)?",
+        "correct_answer": "Valent i Martin Sinković",
+        "incorrect_answers": [
+            "Braća Skelin",
+            "Damir Martin",
+            "David Šain i Igor Boraska"
+        ],
+        "explanation": "Valent i Martin Sinković su dominirali u dvojcu bez kormilara, osvojivši zlatne medalje na Olimpijskim igrama u Riju (2016.) i Tokiju (2020./2021.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2084",
+        "category": "sport",
+        "question": "Koliko krugova ima standardna atletska staza na otvorenom?",
+        "correct_answer": "400 metara",
+        "incorrect_answers": [
+            "100 metara",
+            "200 metara",
+            "800 metara"
+        ],
+        "explanation": "Standardna atletska staza na otvorenom ima duljinu od 400 metara po unutarnjoj stazi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2085",
+        "category": "sport",
+        "question": "Kako se zove sportski objekt namijenjen isključivo plivačkim i vodenim sportovima?",
+        "correct_answer": "Bazen",
+        "incorrect_answers": [
+            "Stadion",
+            "Dvorana",
+            "Igralište"
+        ],
+        "explanation": "Bazen je umjetna vodena površina, odnosno građevinski objekt, namijenjen za plivanje i druge vodene aktivnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2086",
+        "category": "sport",
+        "question": "Koji kontinent nikada nije bio domaćin Olimpijskih igara (stanje 2024.)?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Azija",
+            "Australija"
+        ],
+        "explanation": "Od prvih modernih igara 1896. godine, niti jedne Olimpijske igre nisu održane na afričkom kontinentu (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2087",
+        "category": "sport",
+        "question": "Koliko iznosi visina koša u košarci (od poda do obruča)?",
+        "correct_answer": "3,05 metara",
+        "incorrect_answers": [
+            "2,85 metara",
+            "3,25 metara",
+            "2,95 metara"
+        ],
+        "explanation": "Standardna visina koša u košarci, prema pravilima FIBA-e i NBA-a, iznosi točno 3,05 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2088",
+        "category": "sport",
+        "question": "Koja je jedina država koja je sudjelovala na svim ljetnim Olimpijskim igrama od 1896. godine (stanje 2024.)?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Velika Britanija",
+            "Francuska",
+            "SAD"
+        ],
+        "explanation": "Grčka je jedina zemlja koja je sudjelovala na svim izdanjima Ljetnih olimpijskih igara od njihovog početka 1896. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2089",
+        "category": "sport",
+        "question": "Koji je najduži jednodnevni biciklistički klasik, poznat i kao \"Pakleni Sjever\"?",
+        "correct_answer": "Paris-Roubaix",
+        "incorrect_answers": [
+            "Milano-Sanremo",
+            "Liège-Bastogne-Liège",
+            "Tour of Flanders"
+        ],
+        "explanation": "Paris-Roubaix je jedan od najstarijih i najtežih biciklističkih klasika, poznat po svojim dionicama s kaldrmom, što mu je donijelo nadimak \"Pakleni Sjever\".",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2090",
+        "category": "sport",
+        "question": "Koja se vrsta lopte koristi u ragbiju?",
+        "correct_answer": "Ovalna",
+        "incorrect_answers": [
+            "Okrugla",
+            "Kockasta",
+            "Trokutasta"
+        ],
+        "explanation": "U ragbiju se koristi karakteristična ovalna lopta, koja omogućuje specifičan način igre i dodavanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2091",
+        "category": "sport",
+        "question": "Koji se termin u nogometu koristi za situaciju kada se lopta nađe iza gol-linije, a posljednji ju je dotaknuo igrač obrambene ekipe?",
+        "correct_answer": "Korner (udarac iz kuta)",
+        "incorrect_answers": [
+            "Slobodan udarac",
+            "Aut",
+            "Gol-aut"
+        ],
+        "explanation": "Korner se dosuđuje kada igrač obrambene ekipe posljednji dotakne loptu koja izađe preko gol-linije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2092",
+        "category": "sport",
+        "question": "Koja je osnovna svrha 'žutog kartona' u mnogim sportovima (nogomet, rukomet)?",
+        "correct_answer": "Opomena igraču",
+        "incorrect_answers": [
+            "Isključenje igrača",
+            "Dodatni poen",
+            "Prekid igre"
+        ],
+        "explanation": "Žuti karton se koristi kao opomena igraču za manji prekršaj ili nesportsko ponašanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2093",
+        "category": "sport",
+        "question": "Koji je rekordni broj zlatnih medalja koje je Michael Phelps osvojio na jednim Olimpijskim igrama (Peking 2008.)?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "6",
+            "7",
+            "9"
+        ],
+        "explanation": "Michael Phelps je 2008. u Pekingu osvojio nevjerojatnih osam zlatnih medalja, oborivši rekord Marka Spitza.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2094",
+        "category": "sport",
+        "question": "Koji se termin u ronjenju koristi za svjesno zadržavanje daha?",
+        "correct_answer": "Apneja",
+        "incorrect_answers": [
+            "Zaron",
+            "Izron",
+            "Dekompresija"
+        ],
+        "explanation": "Apneja je medicinski termin za privremeni prestanak disanja, a u ronjenju na dah označava svjesno zadržavanje daha.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2095",
+        "category": "sport",
+        "question": "Koji je jedini tim koji je osvojio NBA naslov s omjerom pobjeda i poraza 73-9 u regularnoj sezoni (stanje 2024.)?",
+        "correct_answer": "Golden State Warriors",
+        "incorrect_answers": [
+            "Chicago Bulls",
+            "Los Angeles Lakers",
+            "Boston Celtics"
+        ],
+        "explanation": "Golden State Warriorsi su u sezoni 2015./2016. postavili rekord od 73 pobjede i 9 poraza u regularnoj sezoni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2096",
+        "category": "sport",
+        "question": "Koliko vremena smije trajati posjed lopte u košarci prije nego što momčad mora uputiti šut na koš (shot clock)?",
+        "correct_answer": "24 sekunde",
+        "incorrect_answers": [
+            "30 sekundi",
+            "14 sekundi",
+            "35 sekundi"
+        ],
+        "explanation": "U košarci, momčad ima 24 sekunde (shot clock) za upućivanje šuta na koš nakon što stekne posjed lopte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2097",
+        "category": "sport",
+        "question": "Koji je borilački sport poznat po udarcima nogom iz okreta i lomljenju dasaka?",
+        "correct_answer": "Taekwondo",
+        "incorrect_answers": [
+            "Karate",
+            "Judo",
+            "Kung Fu"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina i olimpijski sport, poznat po dinamičnim udarcima nogama, uključujući udarce iz okreta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2098",
+        "category": "sport",
+        "question": "Kako se zove završna faza biciklističke utrke kada grupa vozača sprinta do cilja?",
+        "correct_answer": "Finiš",
+        "incorrect_answers": [
+            "Start",
+            "Prolog",
+            "Etapa"
+        ],
+        "explanation": "Finiš (eng. finish) označava kraj utrke, često s intenzivnim sprintom grupe vozača prema ciljnoj liniji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2099",
+        "category": "sport",
+        "question": "Koja država je najuspješnija u rukometu na Olimpijskim igrama, osvojivši najviše zlatnih medalja u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Hrvatska",
+            "Švedska",
+            "Danska"
+        ],
+        "explanation": "Francuska muška rukometna reprezentacija drži rekord s najviše osvojenih zlatnih olimpijskih medalja (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2100",
+        "category": "sport",
+        "question": "U kojem se sportu koristi 'štoperica' kao ključni alat za mjerenje vremena?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Šah",
+            "Biljar",
+            "Kuglanje"
+        ],
+        "explanation": "U atletici, posebno u trkačkim disciplinama, štoperica je neophodna za precizno mjerenje vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2101",
+        "category": "sport",
+        "question": "Koji se pojam u Formuli 1 koristi za vrijeme provedeno u boksu za promjenu guma i/ili popravke?",
+        "correct_answer": "Pit stop",
+        "incorrect_answers": [
+            "Safety car",
+            "Podium",
+            "Grid"
+        ],
+        "explanation": "Pit stop je ključni dio utrke Formule 1 gdje se vozači zaustavljaju u boksu radi promjene guma i mogućih manjih popravaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2102",
+        "category": "sport",
+        "question": "Tko je najtrofejniji hrvatski sportaš po broju olimpijskih medalja (stanje 2024.)?",
+        "correct_answer": "Janica Kostelić",
+        "incorrect_answers": [
+            "Sandra Perković",
+            "Duje Draganja",
+            "Ivica Kostelić"
+        ],
+        "explanation": "Janica Kostelić je najtrofejnija hrvatska olimpijka s četiri zlatne i dvije srebrne medalje u alpskom skijanju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2103",
+        "category": "sport",
+        "question": "Kako se naziva situacija u nogometu kada igrač postigne gol izravno iz kornera, bez da je ikoga drugog lopta dodirnula?",
+        "correct_answer": "Olimpijski gol",
+        "incorrect_answers": [
+            "Slobodan udarac",
+            "Autogol",
+            "Izravan gol"
+        ],
+        "explanation": "Olimpijski gol je rijetka pojava kada se lopta, nakon udarca iz kornera, izravno zakotrlja u mrežu, a da je pritom nitko ne dotakne.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2104",
+        "category": "sport",
+        "question": "Koji je atletski rekvizit sličan kugli na sajli, a baca se na daljinu?",
+        "correct_answer": "Kladivo",
+        "incorrect_answers": [
+            "Kugla",
+            "Disk",
+            "Koplje"
+        ],
+        "explanation": "Kladivo je rekvizit u atletici koji se sastoji od metalne kugle pričvršćene na žicu s drškom, a baca se na daljinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2105",
+        "category": "sport",
+        "question": "Koji nogometni klub drži rekord po broju osvojenih UEFA Liga prvaka/Kupa prvaka zaredom?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "Bayern München",
+            "Ajax",
+            "Liverpool"
+        ],
+        "explanation": "Real Madrid je jedini klub koji je osvojio pet uzastopnih naslova prvaka Europe (1956.-1960.), a također i tri zaredom (2016.-2018.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
