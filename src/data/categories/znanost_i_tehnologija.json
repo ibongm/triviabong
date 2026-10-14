@@ -23770,5 +23770,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1866",
+        "category": "znanost",
+        "question": "Koji je osnovni genetski materijal koji sadrži upute za razvoj i funkcioniranje svih poznatih živih organizama?",
+        "correct_answer": "DNA",
+        "incorrect_answers": [
+            "RNA",
+            "Protein",
+            "Lipid"
+        ],
+        "explanation": "Dezoksiribonukleinska kiselina (DNA) nosi genetske upute koje se koriste u rastu, razvoju, funkcioniranju i razmnožavanju svih poznatih živih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1867",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu proizvodi žuč, koja pomaže u probavi masti?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Slezena",
+            "Bubreg"
+        ],
+        "explanation": "Jetra je veliki organ koji obavlja mnoge funkcije, uključujući proizvodnju žuči, tvari ključne za probavu i apsorpciju masti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1868",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za element zlato?",
+        "correct_answer": "Au",
+        "incorrect_answers": [
+            "Ag",
+            "Fe",
+            "Pb"
+        ],
+        "explanation": "Simbol 'Au' dolazi od latinskog naziva za zlato, 'Aurum'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1869",
+        "category": "znanost",
+        "question": "Kako se naziva subatomska čestica koja nema masu ni električni naboj, a putuje brzinom svjetlosti?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Proton"
+        ],
+        "explanation": "Foton je kvant svjetlosti i svih drugih oblika elektromagnetskog zračenja, bez mase mirovanja i naboja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1870",
+        "category": "znanost",
+        "question": "Koji je programski jezik razvijen od strane Sun Microsystemsa, poznat po svojoj prenosivosti i širokoj primjeni u razvoju mobilnih aplikacija i web servera?",
+        "correct_answer": "Java",
+        "incorrect_answers": [
+            "C++",
+            "Python",
+            "JavaScript"
+        ],
+        "explanation": "Java je objektno orijentirani programski jezik koji je postao vrlo popularan zbog svoje filozofije 'Write Once, Run Anywhere'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1871",
+        "category": "znanost",
+        "question": "Što je akronim za sustav globalnog pozicioniranja koji koristi satelite za pružanje preciznih informacija o lokaciji?",
+        "correct_answer": "GPS",
+        "incorrect_answers": [
+            "WIFI",
+            "LAN",
+            "USB"
+        ],
+        "explanation": "GPS (Global Positioning System) je satelitski navigacijski sustav koji osigurava lokaciju i vremenske informacije u svim vremenskim uvjetima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1872",
+        "category": "znanost",
+        "question": "Koji je akronim za globalni sustav međusobno povezanih računalnih mreža koji koristi standardizirane protokole za komunikaciju?",
+        "correct_answer": "WWW",
+        "incorrect_answers": [
+            "URL",
+            "HTTP",
+            "ISP"
+        ],
+        "explanation": "WWW (World Wide Web) je sustav međusobno povezanih dokumenata i drugih web resursa, povezanih hipervezama i URL-ovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1873",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu disciplinu koja se bavi dizajnom, konstrukcijom, radom i primjenom robota?",
+        "correct_answer": "Robotika",
+        "incorrect_answers": [
+            "Kibernetika",
+            "Bionika",
+            "Automatika"
+        ],
+        "explanation": "Robotika je interdisciplinarno polje znanosti i inženjerstva koje kombinira strojarstvo, elektrotehniku i računalstvo za razvoj robota.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1874",
+        "category": "znanost",
+        "question": "Koji dio stanice se često naziva 'elektrana' stanice jer proizvodi većinu stanične energije kroz stanično disanje?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Jezgra",
+            "Ribosom",
+            "Vakuola"
+        ],
+        "explanation": "Mitohondriji su organele odgovorne za stvaranje velike količine energije u obliku ATP-a procesom staničnog disanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1875",
+        "category": "znanost",
+        "question": "Kako se naziva proces u računalstvu gdje se izvorni kod (npr. napisan u Javi ili C++) pretvara u strojni kod koji računalo može izravno izvršiti?",
+        "correct_answer": "Kompilacija",
+        "incorrect_answers": [
+            "Interpretacija",
+            "Debagiranje",
+            "Simulacija"
+        ],
+        "explanation": "Kompilacija je proces transformacije izvornog koda napisanog u programskom jeziku višeg nivoa u strojni kod ili niži oblik programskog jezika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1876",
+        "category": "znanost",
+        "question": "Koji se tip baze podataka organizira kao tablice s redcima i stupcima, gdje se podaci pohranjuju u unaprijed definiranim kategorijama i međusobno su povezani?",
+        "correct_answer": "Relacijska baza podataka",
+        "incorrect_answers": [
+            "NoSQL baza podataka",
+            "Graf baza podataka",
+            "Dokument baza podataka"
+        ],
+        "explanation": "Relacijske baze podataka koriste tablični model za organizaciju podataka, s relacijama između tablica koje definiraju veze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1877",
+        "category": "znanost",
+        "question": "Kako se naziva naša galaksija u kojoj se nalazi Sunčev sustav?",
+        "correct_answer": "Mliječna staza",
+        "incorrect_answers": [
+            "Andromeda",
+            "Trokut",
+            "Vrtlog"
+        ],
+        "explanation": "Mliječna staza je spiralna galaksija koja sadrži naš Sunčev sustav. Ime joj potječe od izgleda trake svjetlosti na noćnom nebu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1878",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu zlonamjernog softvera koji šifrira korisnikove podatke i zahtijeva plaćanje (obično u kriptovalutama) za dešifriranje?",
+        "correct_answer": "Ransomware",
+        "incorrect_answers": [
+            "Trojanac",
+            "Adware",
+            "Spyware"
+        ],
+        "explanation": "Ransomware je zlonamjerni softver koji blokira pristup računalnom sustavu ili šifrira podatke dok se ne plati otkupnina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1879",
+        "category": "znanost",
+        "question": "Što je primarna funkcija DNS-a (Domain Name System) u računalnim mrežama?",
+        "correct_answer": "Prevođenje imena domena u IP adrese",
+        "incorrect_answers": [
+            "Pohrana web stranica",
+            "Slanje e-mail poruka",
+            "Enkripcija podataka"
+        ],
+        "explanation": "DNS djeluje kao telefonski imenik interneta, prevodeći lako pamtljiva imena domena (npr. google.com) u numeričke IP adrese.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1880",
+        "category": "znanost",
+        "question": "Kako se naziva tehnika u računalstvu koja omogućuje pokretanje više virtualnih operacijskih sustava na jednom fizičkom hardveru?",
+        "correct_answer": "Virtualizacija",
+        "incorrect_answers": [
+            "Emulacija",
+            "Konfiguracija",
+            "Simulacija"
+        ],
+        "explanation": "Virtualizacija stvara virtualne verzije resursa, poput operacijskih sustava, poslužitelja, uređaja za pohranu ili mrežnih resursa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1881",
+        "category": "znanost",
+        "question": "Koji se termin koristi za granu umjetne inteligencije koja omogućuje računalnim sustavima da uče iz podataka i identificiraju obrasce bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Logičko programiranje",
+            "Ekspertni sustavi",
+            "Simulacija"
+        ],
+        "explanation": "Strojno učenje (Machine Learning) je podskup AI-a koji sustavima daje sposobnost automatskog učenja i poboljšanja iz iskustva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1882",
+        "category": "znanost",
+        "question": "Koji je naziv za metodu kompresije podataka koja omogućuje savršenu rekonstrukciju originalnih podataka bez ikakvog gubitka informacija nakon dekompresije?",
+        "correct_answer": "Kompresija bez gubitaka",
+        "incorrect_answers": [
+            "Gubitak kompresije",
+            "Standardna kompresija",
+            "Adaptivna kompresija"
+        ],
+        "explanation": "Kompresija bez gubitaka (lossless compression) je metoda koja nakon dekompresije omogućuje da se dobiju identični podaci kao i originalni.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1883",
+        "category": "znanost",
+        "question": "Koji se tip senzora najčešće koristi za precizno mjerenje temperature u elektroničkim uređajima, a njegova otpornost se mijenja s temperaturom?",
+        "correct_answer": "Termistor",
+        "incorrect_answers": [
+            "Akcelerometar",
+            "Žiroskop",
+            "Barometar"
+        ],
+        "explanation": "Termistor je vrsta otpornika čiji se otpor značajno mijenja s promjenom temperature. Koristi se za mjerenje temperature.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1884",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem robot ili AI sustav uči kroz pokušaje i pogreške u interakciji s okolinom, primajući nagrade za željene akcije?",
+        "correct_answer": "Učenje poticanjem",
+        "incorrect_answers": [
+            "Nadzirano učenje",
+            "Nenadzirano učenje",
+            "Duboko učenje"
+        ],
+        "explanation": "Učenje poticanjem (Reinforcement Learning) je područje strojnog učenja gdje agent uči donositi odluke kroz interakciju s okolinom kako bi maksimizirao nagradu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1885",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežični prijenos električne energije na kratkim udaljenostima, koristeći elektromagnetsku indukciju?",
+        "correct_answer": "Bežično punjenje",
+        "incorrect_answers": [
+            "Bluetooth punjenje",
+            "Solarno punjenje",
+            "Kabel punjenje"
+        ],
+        "explanation": "Bežično punjenje, temeljeno na elektromagnetskoj indukciji, omogućuje prijenos energije bez fizičkog kontakta između uređaja i punjača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1886",
+        "category": "znanost",
+        "question": "Koji se koncept u računalstvu odnosi na mogućnost sustava da učinkovito rukuje rastućim količinama posla ili da bude povećan da podrži taj rast?",
+        "correct_answer": "Skalabilnost",
+        "incorrect_answers": [
+            "Robusnost",
+            "Stabilnost",
+            "Kompaktibilnost"
+        ],
+        "explanation": "Skalabilnost je sposobnost sustava da se prilagodi povećanom opterećenju, bilo dodavanjem resursa (horizontalna skalabilnost) ili nadogradnjom postojećih (vertikalna skalabilnost).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1887",
+        "category": "znanost",
+        "question": "Koji se programski jezik često koristi za analizu podataka, statističko modeliranje i razvoj web aplikacija zbog svoje jednostavnosti i bogate biblioteke?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Fortran",
+            "Cobol",
+            "Perl"
+        ],
+        "explanation": "Python je svestrani programski jezik izuzetno popularan u znanstvenoj zajednici i za razvoj web aplikacija, zahvaljujući čitljivosti i velikoj podršci zajednice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1888",
+        "category": "znanost",
+        "question": "Što je osnovna funkcija LED diode?",
+        "correct_answer": "Emitiranje svjetlosti",
+        "incorrect_answers": [
+            "Pojačavanje signala",
+            "Pohrana energije",
+            "Mjerenje napona"
+        ],
+        "explanation": "LED (Light Emitting Diode) je poluvodički izvor svjetlosti koji emitira svjetlost kada kroz njega prolazi električna struja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1889",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućava praćenje lokacije objekata u stvarnom vremenu koristeći radio frekvencije i male transpondere?",
+        "correct_answer": "RFID",
+        "incorrect_answers": [
+            "NFC",
+            "Li-Fi",
+            "Ultrazvuk"
+        ],
+        "explanation": "RFID (Radio-Frequency Identification) koristi elektromagnetske valove za automatsku identifikaciju i praćenje oznaka pričvršćenih na objekte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1890",
+        "category": "znanost",
+        "question": "Koja je primarna svrha virtualne privatne mreže (VPN)?",
+        "correct_answer": "Omogućavanje sigurne komunikacije preko javne mreže",
+        "incorrect_answers": [
+            "Ubrzavanje internetske veze",
+            "Pohranjivanje podataka u oblaku",
+            "Blokiranje reklama"
+        ],
+        "explanation": "VPN uspostavlja kriptiranu vezu preko manje sigurne mreže, poput interneta, osiguravajući privatnost i sigurnost podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1891",
+        "category": "znanost",
+        "question": "Koji se tip materijala koristi kao osnova u modernoj elektronici, poput čipova i tranzistora, zbog svojih jedinstvenih električnih svojstava između vodiča i izolatora?",
+        "correct_answer": "Poluvodič",
+        "incorrect_answers": [
+            "Metal",
+            "Izolator",
+            "Supervodič"
+        ],
+        "explanation": "Poluvodiči poput silicija i germanija imaju vodljivost koja se može kontrolirati, što ih čini idealnima za elektroničke komponente.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1892",
+        "category": "znanost",
+        "question": "Kako se naziva proces nastanka stijena iz taloga (sedimenta) koji se nakuplja i zbija pod pritiskom tijekom dugog vremenskog razdoblja?",
+        "correct_answer": "Sedimentacija",
+        "incorrect_answers": [
+            "Metamorfizam",
+            "Vulkanizam",
+            "Erozija"
+        ],
+        "explanation": "Sedimentacija je proces taloženja čestica, a potom njihovo zbijanje i cementiranje u sedimentne stijene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1893",
+        "category": "znanost",
+        "question": "Koji je najudaljeniji sloj Zemlje, sastavljen od litosfernih ploča koje se kreću po astenosferi?",
+        "correct_answer": "Litosfera",
+        "incorrect_answers": [
+            "Kora",
+            "Plašt",
+            "Jezgra"
+        ],
+        "explanation": "Litosfera obuhvaća Zemljinu koru i najgornji dio plašta, a podijeljena je na tektonske ploče koje se sporo kreću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1894",
+        "category": "znanost",
+        "question": "Koji je princip rada lasera, pri čemu pobuđeni atomi emitiraju svjetlost istih karakteristika pod utjecajem vanjskog fotona?",
+        "correct_answer": "Stimulirana emisija",
+        "incorrect_answers": [
+            "Spontana emisija",
+            "Apsorpcija",
+            "Refleksija"
+        ],
+        "explanation": "Stimulirana emisija je kvantnomehanički fenomen u kojem atom, kada je pobuđen, emitira foton pod utjecajem drugog fotona, što je osnova laserskog svjetla.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1895",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja drži atome zajedno unutar molekule?",
+        "correct_answer": "Kemijska veza",
+        "incorrect_answers": [
+            "Gravitacijska sila",
+            "Nuklearna sila",
+            "Magnetska sila"
+        ],
+        "explanation": "Kemijske veze nastaju dijeljenjem ili prijenosom elektrona između atoma, osiguravajući stabilnost molekula.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1896",
+        "category": "znanost",
+        "question": "Koja je boja svjetlosti s najkraćom valnom duljinom u vidljivom spektru?",
+        "correct_answer": "Ljubičasta",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Plava"
+        ],
+        "explanation": "Vidljivi spektar se proteže od crvene (najduža valna duljina) do ljubičaste (najkraća valna duljina).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1897",
+        "category": "znanost",
+        "question": "Koji je naziv za proces spajanja lakih atomskih jezgri u teže jezgre, oslobađajući pritom ogromne količine energije?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Kataliza"
+        ],
+        "explanation": "Nuklearna fuzija je proces koji pokreće Sunce i druge zvijezde, gdje se vodikove jezgre spajaju u helijeve, oslobađajući energiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1898",
+        "category": "znanost",
+        "question": "Koji se kemijski element najčešće koristi kao nuklearno gorivo u komercijalnim nuklearnim elektranama?",
+        "correct_answer": "Uran",
+        "incorrect_answers": [
+            "Plutonij",
+            "Torij",
+            "Cezij"
+        ],
+        "explanation": "Izotop Uran-235 je ključan za nuklearnu fisiju u reaktorima, gdje se njegovo cijepanje koristi za proizvodnju energije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1899",
+        "category": "znanost",
+        "question": "Koji se zakon fizike odnosi na očuvanje energije, govoreći da se energija ne može stvoriti ni uništiti, već samo transformirati iz jednog oblika u drugi?",
+        "correct_answer": "Prvi zakon termodinamike",
+        "incorrect_answers": [
+            "Drugi zakon termodinamike",
+            "Zakon očuvanja mase",
+            "Newtonovi zakoni gibanja"
+        ],
+        "explanation": "Prvi zakon termodinamike, poznat i kao Zakon o očuvanju energije, navodi da se ukupna energija izoliranog sustava održava konstantnom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1900",
+        "category": "znanost",
+        "question": "Koji se termin koristi za najmanju cjelinu kemijskog elementa koja zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Ion",
+            "Kvark"
+        ],
+        "explanation": "Atom je osnovna građevna jedinica materije koja se sastoji od jezgre i elektrona, a njegova svojstva određuju kemijski element.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1901",
+        "category": "znanost",
+        "question": "Koji je naziv za regiju oko crne rupe iz koje ništa, čak ni svjetlost, ne može pobjeći zbog ekstremne gravitacije?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Ergosfera",
+            "Akrecijski disk"
+        ],
+        "explanation": "Horizont događaja je granica bez povratka; jednom kada nešto prijeđe tu granicu, ne može se vratiti natrag, čak ni brzinom svjetlosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1902",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstveno polje koje se bavi manipulacijom materije na atomskoj, molekularnoj i supramolekularnoj razini?",
+        "correct_answer": "Nanotehnologija",
+        "incorrect_answers": [
+            "Mikrotehnologija",
+            "Biotehnologija",
+            "Astrofizika"
+        ],
+        "explanation": "Nanotehnologija je primijenjena znanost koja se bavi izradom i manipulacijom materijala i uređaja u nanometarskim dimenzijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1903",
+        "category": "znanost",
+        "question": "Koji se sigurnosni protokol najčešće koristi za osiguravanje web prometa (HTTPS) i enkripciju komunikacije između web preglednika i poslužitelja?",
+        "correct_answer": "TLS",
+        "incorrect_answers": [
+            "FTP",
+            "SMTP",
+            "UDP"
+        ],
+        "explanation": "TLS (Transport Layer Security) je kriptografski protokol dizajniran da omogući sigurnu komunikaciju preko računalne mreže, najčešće se koristi za HTTPS.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1904",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu hakerskog napada gdje napadač pokušava preplaviti sustav, poslužitelj ili mrežu prometom kako bi ih učinio nedostupnima legitimnim korisnicima?",
+        "correct_answer": "DoS napad",
+        "incorrect_answers": [
+            "Phishing",
+            "SQL injekcija",
+            "Cross-site scripting"
+        ],
+        "explanation": "DoS (Denial-of-Service) napad cilja na privremenu ili trajnu nedostupnost mrežnog resursa preopterećenjem sustava zahtjevima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
