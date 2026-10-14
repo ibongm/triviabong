@@ -27595,5 +27595,560 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2121",
+        "category": "znanost",
+        "question": "Koji plin biljke apsorbiraju iz atmosfere tijekom fotosinteze?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Metan"
+        ],
+        "explanation": "Biljke koriste ugljikov dioksid, vodu i sunčevu svjetlost za proizvodnju glukoze i kisika. To je temelj života na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2122",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja čestica elementa koja zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna gradivna jedinica materije. Sastoji se od jezgre i elektronskog omotača, a određuje kemijska svojstva elementa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2123",
+        "category": "znanost",
+        "question": "Koji je SI simbol za jedinicu vremena?",
+        "correct_answer": "s",
+        "incorrect_answers": [
+            "min",
+            "h",
+            "t"
+        ],
+        "explanation": "SI jedinica za vrijeme je sekunda, a njezin je simbol 's'. Ostale su jedinice vremena, ali nisu osnovne SI jedinice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2124",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se svjetlost dijeli na svoje sastavne boje prolaskom kroz prizmu ili kapljice vode?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Disperzija je pojava razdvajanja bijele svjetlosti na komponente spektra zbog ovisnosti indeksa loma o valnoj duljini. To stvara dugu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2125",
+        "category": "znanost",
+        "question": "Koje je ime poznatog njemačkog fizičara koji je 1900. godine uveo koncept kvantizacije energije?",
+        "correct_answer": "Max Planck",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Werner Heisenberg",
+            "Niels Bohr"
+        ],
+        "explanation": "Max Planck je postulirao da se energija može emitirati ili apsorbirati samo u diskretnim paketima, što je bio temelj kvantne teorije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2126",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje virtualnog okruženja koje oponaša stvarno okruženje ili potpuno novo, izmišljeno okruženje?",
+        "correct_answer": "Virtualna stvarnost (VR)",
+        "incorrect_answers": [
+            "Proširena stvarnost (AR)",
+            "Mješovita stvarnost (MR)",
+            "Holografija"
+        ],
+        "explanation": "Virtualna stvarnost uranja korisnika u simulirano, trodimenzionalno okruženje, često pomoću posebnih naočala ili kaciga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2127",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model koji opisuje zakrivljenost prostor-vremena uzrokovanu masom i energijom?",
+        "correct_answer": "Opća teorija relativnosti",
+        "incorrect_answers": [
+            "Posebna teorija relativnosti",
+            "Kvantna mehanika",
+            "Newtonova gravitacija"
+        ],
+        "explanation": "Opća teorija relativnosti Alberta Einsteina objašnjava gravitaciju kao geometrijsko svojstvo prostor-vremena, a ne kao silu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2128",
+        "category": "znanost",
+        "question": "Koja se kemijska reakcija događa u Sunčevoj jezgri i oslobađa ogromne količine energije?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Kemijsko izgaranje",
+            "Radioaktivni raspad"
+        ],
+        "explanation": "U jezgri Sunca atomi vodika spajaju se u helij, oslobađajući ogromnu količinu energije u procesu nuklearne fuzije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2129",
+        "category": "znanost",
+        "question": "Koji se materijal najčešće koristi kao jezgra u transformatorima radi smanjenja gubitaka energije?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Bakar",
+            "Aluminij",
+            "Plastika"
+        ],
+        "explanation": "Meko željezo se koristi za jezgre transformatora zbog svoje visoke magnetske propusnosti, što smanjuje gubitke snage.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2130",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta umjetne inteligencije koja je dizajnirana da rješava probleme u određenom, uskom području?",
+        "correct_answer": "Uska umjetna inteligencija (ANI)",
+        "incorrect_answers": [
+            "Opća umjetna inteligencija (AGI)",
+            "Super umjetna inteligencija (ASI)",
+            "Emocionalna umjetna inteligencija (AEI)"
+        ],
+        "explanation": "Uska umjetna inteligencija (ANI) je AI sustav obučen za obavljanje specifičnog zadatka, poput prepoznavanja lica ili igranja šaha.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2131",
+        "category": "znanost",
+        "question": "Koja je najpoznatija konstanta u fizici koja povezuje energiju fotona s njegovom frekvencijom?",
+        "correct_answer": "Planckova konstanta",
+        "incorrect_answers": [
+            "Gravitacijska konstanta",
+            "Boltzmannova konstanta",
+            "Avogadrova konstanta"
+        ],
+        "explanation": "Planckova konstanta (h) je fundamentalna fizička konstanta koja definira odnos između energije i frekvencije fotona (E = hν).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2132",
+        "category": "znanost",
+        "question": "Koja je kisela kiša primarno uzrokovana emisijom kojih plinova u atmosferu?",
+        "correct_answer": "Sumporov dioksid i dušikovi oksidi",
+        "incorrect_answers": [
+            "Ugljikov dioksid i metan",
+            "Klorofluorougljici i ozon",
+            "Vodena para i kisik"
+        ],
+        "explanation": "Sumporov dioksid i dušikovi oksidi, uglavnom iz industrijskih procesa i vozila, reagiraju s vlagom u atmosferi stvarajući kisele kiše.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2133",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen u kvantnoj mehanici gdje čestica može proći kroz energetsku barijeru koja bi joj klasično bila neprolazna?",
+        "correct_answer": "Kvantno tuneliranje",
+        "incorrect_answers": [
+            "Kvantna superpozicija",
+            "Kvantna isprepletenost",
+            "Kvantna dekoherencija"
+        ],
+        "explanation": "Kvantno tuneliranje omogućuje česticama da \"tuneliraju\" kroz energetske barijere, što je ključno za nuklearnu fuziju u Suncu i skenirajuće mikroskope.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2134",
+        "category": "znanost",
+        "question": "Koja je svrha DNS-a (Domain Name System) u računalnim mrežama?",
+        "correct_answer": "Prevođenje imena domena u IP adrese",
+        "incorrect_answers": [
+            "Enkripcija podataka",
+            "Kompresija datoteka",
+            "Upravljanje hardverom"
+        ],
+        "explanation": "DNS je poput telefonskog imenika interneta, prevodi ljudima čitljiva imena domena (npr. google.com) u strojno čitljive IP adrese.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2135",
+        "category": "znanost",
+        "question": "Koji je izumitelj poznat po patentiranju žarulje sa žarnom niti i fonografa?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "Guglielmo Marconi"
+        ],
+        "explanation": "Thomas Edison je imao tisuće patenata, a najpoznatiji su mu dugotrajna žarulja sa žarnom niti i fonograf.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2136",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanji dio softvera koji se može neovisno implementirati i izvršavati, često se koristi u modernim arhitekturama aplikacija?",
+        "correct_answer": "Mikrousluga (Microservice)",
+        "incorrect_answers": [
+            "Makrousluga",
+            "Monolit",
+            "Funkcija"
+        ],
+        "explanation": "Mikrousluge su mala, neovisna softverska komponenta koja obavlja specifičnu funkciju i komunicira s drugim mikrouslugama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2137",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između RISC i CISC arhitekture procesora?",
+        "correct_answer": "RISC koristi manji skup jednostavnih instrukcija, CISC veći skup složenih",
+        "incorrect_answers": [
+            "RISC je brži, CISC sporiji",
+            "RISC je stariji, CISC noviji",
+            "RISC je samo za mobilne uređaje, CISC za stolna računala"
+        ],
+        "explanation": "RISC (Reduced Instruction Set Computer) koristi mali skup optimiziranih instrukcija, dok CISC (Complex Instruction Set Computer) ima veći, složeniji skup instrukcija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2138",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica genetskog nasljeđa?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "DNA",
+            "Protein"
+        ],
+        "explanation": "Gen je osnovna fizička i funkcionalna jedinica nasljeđivanja, koja nosi informaciju za sintezu proteina ili RNA.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2139",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se svjetlost savija prilikom prolaska iz jednog optički prozirnog medija u drugi?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Refrakcija je promjena smjera vala svjetlosti kada prolazi iz jednog medija u drugi zbog promjene brzine širenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2140",
+        "category": "znanost",
+        "question": "Koja je svrha Higgsovog bozona u Standardnom modelu fizike čestica?",
+        "correct_answer": "Daje masivnost elementarnim česticama",
+        "incorrect_answers": [
+            "Povezuje gravitaciju s ostalim silama",
+            "Objašnjava tamnu materiju",
+            "Stvara crne rupe"
+        ],
+        "explanation": "Higgsov bozon je čestica povezana s Higgsovim poljem, koje česticama poput elektrona i kvarkova daje masu dok prolaze kroz njega.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2141",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija akumulatora u automobilu?",
+        "correct_answer": "Pokretanje motora",
+        "incorrect_answers": [
+            "Napajanje radija",
+            "Punjenje mobitela",
+            "Osvjetljavanje interijera"
+        ],
+        "explanation": "Akumulator osigurava visoku struju potrebnu za pokretanje motora s unutarnjim izgaranjem. Nakon toga, alternator preuzima punjenje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2142",
+        "category": "znanost",
+        "question": "Kako se naziva optički uređaj koji koristi leće ili zrcala za povećanje udaljenih objekata?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Teleskop je optički instrument namijenjen promatranju udaljenih objekata, prikupljajući i fokusirajući elektromagnetsko zračenje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2143",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za izmjenu gena u živim organizmima, omogućujući precizno uređivanje DNA?",
+        "correct_answer": "CRISPR-Cas9",
+        "incorrect_answers": [
+            "PCR",
+            "Elektroforeza",
+            "Kloniranje"
+        ],
+        "explanation": "CRISPR-Cas9 je revolucionarna tehnologija za uređivanje genoma koja omogućuje znanstvenicima precizno mijenjanje sekvenci DNA.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2144",
+        "category": "znanost",
+        "question": "Koja vrsta računalne memorije zadržava podatke samo dok je računalo uključeno?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "ROM (Read-Only Memory)",
+            "SSD (Solid State Drive)",
+            "HDD (Hard Disk Drive)"
+        ],
+        "explanation": "RAM je primarna radna memorija računala; podaci se gube kada se računalo isključi, za razliku od trajne pohrane.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2145",
+        "category": "znanost",
+        "question": "Kako se naziva hipotetska regija prostor-vremena iz koje ništa, čak ni svjetlost, ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Crvotočina",
+            "Bijela rupa",
+            "Kvazar"
+        ],
+        "explanation": "Crna rupa je područje u prostor-vremenu gdje je gravitacija toliko jaka da joj ništa, uključujući svjetlost, ne može pobjeći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2146",
+        "category": "znanost",
+        "question": "Koji je najčešći oblik energije koju Zemlja prima od Sunca?",
+        "correct_answer": "Sunčeva svjetlost (elektromagnetsko zračenje)",
+        "incorrect_answers": [
+            "Toplina (kondukcija)",
+            "Gravitacija",
+            "Zvučni valovi"
+        ],
+        "explanation": "Sunce zrači energiju u obliku elektromagnetskih valova, uključujući vidljivu svjetlost, infracrveno i ultraljubičasto zračenje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2147",
+        "category": "znanost",
+        "question": "Koja je znanstvena disciplina koja proučava porijeklo, evoluciju i sudbinu svemira?",
+        "correct_answer": "Kozmologija",
+        "incorrect_answers": [
+            "Astronomija",
+            "Astrofizika",
+            "Geologija"
+        ],
+        "explanation": "Kozmologija je grana astronomije koja se bavi proučavanjem svemira u cjelini, njegovom strukturom, nastankom i razvojem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2148",
+        "category": "znanost",
+        "question": "Koji je proces prijelaznog stanja materije iz tekućeg u kruto?",
+        "correct_answer": "Smrzavanje (ili očvršćivanje)",
+        "incorrect_answers": [
+            "Vrenje",
+            "Taljenje",
+            "Sublimacija"
+        ],
+        "explanation": "Smrzavanje je proces u kojem tekućina prelazi u kruto agregatno stanje hlađenjem do temperature smrzavanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2149",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežičnu komunikaciju na kratke udaljenosti između uređaja?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "NFC"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2150",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen promjene frekvencije vala (zvuka ili svjetlosti) kada se izvor vala i promatrač kreću jedan prema drugome ili udaljavaju?",
+        "correct_answer": "Dopplerov efekt",
+        "incorrect_answers": [
+            "Huygensov princip",
+            "Fermatov princip",
+            "Youngov eksperiment"
+        ],
+        "explanation": "Dopplerov efekt je promjena frekvencije ili valne duljine vala u odnosu na promatrača koji se kreće u odnosu na izvor vala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2151",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcija kočionog sustava u vozilu?",
+        "correct_answer": "Usporavanje ili zaustavljanje vozila",
+        "incorrect_answers": [
+            "Povećanje brzine",
+            "Stabilizacija vozila",
+            "Smanjenje potrošnje goriva"
+        ],
+        "explanation": "Kočioni sustav pretvara kinetičku energiju vozila u toplinsku energiju putem trenja, čime se vozilo usporava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2152",
+        "category": "znanost",
+        "question": "Koji je naziv za proces izdvajanja metala iz njegovih ruda pomoću topline?",
+        "correct_answer": "Taljenje (ili smanjenje rude)",
+        "incorrect_answers": [
+            "Elektroliza",
+            "Destilacija",
+            "Filtracija"
+        ],
+        "explanation": "Taljenje je postupak kojim se metal izdvaja iz rude zagrijavanjem na visokim temperaturama, često uz dodatak redukcijskih sredstava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2153",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se genetski kod prepisuje iz DNA u mRNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se segment DNA kopira u molekulu mRNA posredstvom RNA polimeraze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2154",
+        "category": "znanost",
+        "question": "Koji se element najčešće koristi za izradu računalnih čipova?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Germanij",
+            "Bakar",
+            "Zlato"
+        ],
+        "explanation": "Silicij je poluvodič koji se zbog svojih svojstava najviše koristi u proizvodnji integriranih krugova i čipova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2155",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen u fizici kada se magnetsko polje mijenja, stvarajući električnu struju?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Elektrostatička indukcija",
+            "Magnetska rezonancija",
+            "Peltierov efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je proces proizvodnje električne struje u vodiču promjenom magnetskog toka kroz njega.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2156",
+        "category": "znanost",
+        "question": "Koja je svrha Turingovog testa u području umjetne inteligencije?",
+        "correct_answer": "Procjena sposobnosti stroja da pokaže inteligentno ponašanje",
+        "incorrect_answers": [
+            "Mjerenje brzine procesora",
+            "Testiranje sigurnosti mreže",
+            "Provjera optimizacije algoritama"
+        ],
+        "explanation": "Turingov test predlaže da ako ljudski ispitivač ne može razlučiti je li razgovarao s računalom ili čovjekom, računalo je prošlo test inteligencije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2157",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za električni napon?",
+        "correct_answer": "Volt",
+        "incorrect_answers": [
+            "Amper",
+            "Om",
+            "Vat"
+        ],
+        "explanation": "Volt je izvedena SI jedinica za električni potencijal i razliku električnog potencijala, nazvana po Alessandru Volti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
