@@ -25864,5 +25864,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2028",
+        "category": "sport",
+        "question": "Koliko se bodova dobiva za pogodak (touchdown) u američkom nogometu prije dodatnog pokušaja (extra point ili two-point conversion)?",
+        "correct_answer": "Šest bodova",
+        "incorrect_answers": [
+            "Tri boda",
+            "Sedam bodova",
+            "Jedan bod"
+        ],
+        "explanation": "Touchdown donosi ekipi šest bodova, nakon čega slijedi pokušaj za dodatne bodove izvođenjem 'extra pointa' ili 'two-point conversiona'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2029",
+        "category": "sport",
+        "question": "Koji se termin u nogometu koristi za situaciju kada igrač postigne tri gola na jednoj utakmici?",
+        "correct_answer": "Hat-trick",
+        "incorrect_answers": [
+            "Triple-score",
+            "Goal-tre",
+            "Grand Slam"
+        ],
+        "explanation": "Hat-trick je termin u nogometu, ali i drugim sportovima, koji označava postizanje tri gola ili poena u jednoj utakmici od strane istog igrača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2030",
+        "category": "sport",
+        "question": "U kojem se sportu koristi 'sablja', 'mač' i 'floret' kao natjecateljski rekviziti?",
+        "correct_answer": "Mačevanje",
+        "incorrect_answers": [
+            "Streljaštvo",
+            "Džudo",
+            "Hokej"
+        ],
+        "explanation": "Mačevanje je borilački sport u kojem se natjecatelji bore koristeći različite vrste oružja, uključujući sablju, mač i floret.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2031",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra s pernatom lopticom ('federicom') preko mreže?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Tenis",
+            "Odbojka",
+            "Stolni tenis"
+        ],
+        "explanation": "Badminton je reketni sport koji se igra s laganom pernatom lopticom, poznatom kao federica, preko mreže na pravokutnom terenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2032",
+        "category": "sport",
+        "question": "Koji se borilački sport temelji na bacanjima, zahvatima i držanjima, a ne uključuje udarce rukama ni nogama?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Boks"
+        ],
+        "explanation": "Judo je japanska borilačka vještina i olimpijski sport koji se fokusira na tehnike bacanja, kontrole i držanja protivnika, bez udaraca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2033",
+        "category": "sport",
+        "question": "Kako se naziva atletičarska disciplina u kojoj se natjecatelji izmjenjuju u trčanju s palicom (štafetom)?",
+        "correct_answer": "Štafeta",
+        "incorrect_answers": [
+            "Maraton",
+            "Sprint",
+            "Prepone"
+        ],
+        "explanation": "Štafeta je atletska disciplina u kojoj timovi trkača prenose palicu (štafetu) jedni drugima tijekom utrke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2034",
+        "category": "sport",
+        "question": "Koji se pojam koristi u košarci za igračev prekršaj kada petom ili rukom dotakne loptu nakon što je izašla iz obruča, ali je još u zraku iznad njega?",
+        "correct_answer": "Goaltending",
+        "incorrect_answers": [
+            "Block",
+            "Rebound",
+            "Travel"
+        ],
+        "explanation": "Goaltending je prekršaj u košarci kada igrač blokira loptu iznad obruča nakon što je ona već započela put prema dolje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2035",
+        "category": "sport",
+        "question": "Koja je jedina afrička država koja je do sada (stanje 2024.) bila domaćin FIFA Svjetskog prvenstva u nogometu?",
+        "correct_answer": "Južnoafrička Republika",
+        "incorrect_answers": [
+            "Egipat",
+            "Nigerija",
+            "Maroko"
+        ],
+        "explanation": "Južnoafrička Republika bila je domaćin FIFA Svjetskog prvenstva u nogometu 2010. godine, što je prvi i jedini put da se prvenstvo održalo u Africi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2036",
+        "category": "sport",
+        "question": "Koji je sportski događaj poznat i pod nazivom 'The Run for the Roses'?",
+        "correct_answer": "Kentucky Derby",
+        "incorrect_answers": [
+            "Grand National",
+            "Prix de l'Arc de Triomphe",
+            "Melbourne Cup"
+        ],
+        "explanation": "Kentucky Derby je utrka konja u Sjedinjenim Državama poznata po tradiciji pobjedničkog konja obloženog vijencem od ruža, otud nadimak.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2037",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi u jednoj ekipi na terenu tijekom regularne igre u odbojci?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Četiri"
+        ],
+        "explanation": "U odbojci, svaka ekipa ima šest igrača na terenu tijekom igre, koji se rotiraju po pozicijama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2038",
+        "category": "sport",
+        "question": "U kojem se sportu koristi 'palica' i 'pak' (puck) na ledu?",
+        "correct_answer": "Hokej na ledu",
+        "incorrect_answers": [
+            "Karling",
+            "Brzo klizanje",
+            "Umjetničko klizanje"
+        ],
+        "explanation": "Hokej na ledu je timski sport u kojem igrači koriste palice za vođenje i udaranje paka po ledu kako bi postigli gol.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2039",
+        "category": "sport",
+        "question": "Tko je bila prva žena koja je preplivala La Manche (stanje 2024.)?",
+        "correct_answer": "Gertrude Ederle",
+        "incorrect_answers": [
+            "Florence Chadwick",
+            "Diana Nyad",
+            "Penny Lee Dean"
+        ],
+        "explanation": "Gertrude Ederle je 1926. godine postala prva žena koja je uspješno preplivala La Manche, oborivši pri tom muški rekord.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2040",
+        "category": "sport",
+        "question": "Koji se sport igra s reketom i malom, šupljom gumenom lopticom unutar zatvorenog terena s četiri zida?",
+        "correct_answer": "Squash",
+        "incorrect_answers": [
+            "Tenis",
+            "Badminton",
+            "Rukomet"
+        ],
+        "explanation": "Squash je reketni sport koji se igra unutar zatvorenog terena, gdje igrači udaraju lopticu o zidove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2041",
+        "category": "sport",
+        "question": "Kako se naziva pozicija u bejzbolu koja je odgovorna za bacanje lopte prema udaraču?",
+        "correct_answer": "Bacač (Pitcher)",
+        "incorrect_answers": [
+            "Hvatač (Catcher)",
+            "Prva baza (First Baseman)",
+            "Vanjski igrač (Outfielder)"
+        ],
+        "explanation": "Bacač je ključna obrambena pozicija u bejzbolu, čija je glavna zadaća baciti loptu udaraču na takav način da je teško udari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2042",
+        "category": "sport",
+        "question": "Koji je sportski klub osvojio najviše naslova prvaka Europe u nogometu (Liga prvaka/Kup prvaka) do 2024. godine?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "Bayern München",
+            "AC Milan",
+            "Liverpool"
+        ],
+        "explanation": "Real Madrid je najuspješniji klub u povijesti Lige prvaka s rekordnih 15 naslova (stanje 2024.), značajno više od bilo kojeg drugog kluba.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2043",
+        "category": "sport",
+        "question": "Koji je sportski rekvizit zajednički za tenis, badminton i stolni tenis?",
+        "correct_answer": "Reket",
+        "incorrect_answers": [
+            "Lopta",
+            "Mreža",
+            "Palica"
+        ],
+        "explanation": "Reket je osnovni rekvizit koji se koristi u tenisu, badmintonu i stolnom tenisu za udaranje loptice ili federice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2044",
+        "category": "sport",
+        "question": "Koliko se bodova dobiva za pogodak u središte mete ('bullseye') u pikadu?",
+        "correct_answer": "50 bodova",
+        "incorrect_answers": [
+            "25 bodova",
+            "100 bodova",
+            "20 bodova"
+        ],
+        "explanation": "Središnji dio mete u pikadu, poznat kao bullseye, donosi 50 bodova, dok vanjski prsten oko njega donosi 25 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2045",
+        "category": "sport",
+        "question": "Tko je jedini atletičar u povijesti koji je osvojio osam zlatnih olimpijskih medalja u sprinterskim disciplinama na tri uzastopne Olimpijske igre (stanje 2024.)?",
+        "correct_answer": "Usain Bolt",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Jesse Owens",
+            "Michael Johnson"
+        ],
+        "explanation": "Usain Bolt je na Olimpijskim igrama 2008., 2012. i 2016. osvojio zlata na 100 m, 200 m i 4x100 m štafeti, što ga čini jedinstvenim.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2046",
+        "category": "sport",
+        "question": "Koji sport uključuje jahanje konja preko prepreka na stazi?",
+        "correct_answer": "Konjički preponski sport",
+        "incorrect_answers": [
+            "Dresura",
+            "Polo",
+            "Trke konja"
+        ],
+        "explanation": "Konjički preponski sport je disciplina u kojoj jahač i konj moraju u određenom vremenu preskočiti niz prepreka bez rušenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2047",
+        "category": "sport",
+        "question": "Koliko je maksimalan broj igrača u vaterpolu koji smiju biti u vodi za jednu ekipu tijekom igre (uključujući vratara)?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "Vaterpolo ekipa se sastoji od sedam igrača u vodi u svakom trenutku igre: šest igrača u polju i jedan vratar.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2048",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se održava na stazi s 'bankinama' (nagnutim zavojima) i natjecatelji voze posebne bicikle bez kočnica?",
+        "correct_answer": "Biciklizam na stazi",
+        "incorrect_answers": [
+            "Cestovni biciklizam",
+            "Mountain biking",
+            "Motociklizam"
+        ],
+        "explanation": "Biciklizam na stazi odvija se na specijaliziranim velodromima s nagnutim zavojima (bankinama), a natjecatelji koriste bicikle bez kočnica i s fiksnim prijenosom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2049",
+        "category": "sport",
+        "question": "Koji se sport igra s okruglom, napuhanom loptom, udarcima nogom i ciljem postizanja gola?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Rukomet",
+            "Odbojka"
+        ],
+        "explanation": "Nogomet je timski sport u kojem se lopta uglavnom udara nogama, s ciljem da se postigne gol u protivničkoj mreži.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2050",
+        "category": "sport",
+        "question": "U kojem se borilačkom sportu natjecatelji nose 'gi' (kimono) i koriste tehnike bacanja, gušenja i poluga na zglobovima?",
+        "correct_answer": "Brazilski jiu-jitsu",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Taekwondo"
+        ],
+        "explanation": "Brazilski jiu-jitsu je borilačka vještina i sport usmjeren na borbu na tlu, koristeći bacanja, zahvate, gušenja i poluge za podvrgavanje protivnika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2051",
+        "category": "sport",
+        "question": "Koja je jedina reprezentacija koja je osvojila tri uzastopna naslova Europskog prvenstva u nogometu (stanje 2024.)?",
+        "correct_answer": "Nijedna reprezentacija",
+        "incorrect_answers": [
+            "Njemačka",
+            "Španjolska",
+            "Italija"
+        ],
+        "explanation": "Nijedna nogometna reprezentacija nije uspjela osvojiti tri uzastopna naslova na Europskom prvenstvu (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2052",
+        "category": "sport",
+        "question": "Koja je minimalna dužina nogometnog igrališta za međunarodne utakmice prema FIFA pravilima?",
+        "correct_answer": "100 metara",
+        "incorrect_answers": [
+            "90 metara",
+            "110 metara",
+            "120 metara"
+        ],
+        "explanation": "Prema FIFA pravilima, za međunarodne utakmice, dužina nogometnog igrališta mora biti između 100 i 110 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2053",
+        "category": "sport",
+        "question": "Kako se naziva vrsta udarca u bejzbolu kada udarač udari loptu izvan igrališta, što rezultira trenutnim bodom za njega i sve igrače na bazama?",
+        "correct_answer": "Home run",
+        "incorrect_answers": [
+            "Strikeout",
+            "Foul ball",
+            "Grand Slam"
+        ],
+        "explanation": "Home run je udarac u bejzbolu koji omogućuje udaraču i svim trkačima na bazama da postignu bodove, obično udarcem lopte izvan terena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2054",
+        "category": "sport",
+        "question": "Tko je jedini gimnastičar (muški ili ženski) koji je na jednim Olimpijskim igrama osvojio svih šest zlatnih medalja u umjetničkoj gimnastici (stanje 2024.)?",
+        "correct_answer": "Nijedan gimnastičar",
+        "incorrect_answers": [
+            "Larisa Latinjina",
+            "Nadia Comăneci",
+            "Simone Biles"
+        ],
+        "explanation": "Iako su mnogi gimnastičari osvojili više zlata, nitko u povijesti Olimpijskih igara nije osvojio svih šest zlatnih medalja u umjetničkoj gimnastici na jednim Igrama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2055",
+        "category": "sport",
+        "question": "U kojem se sportu koristi mreža, dvije ekipe i cilj im je prebaciti loptu preko mreže, a da ne dotakne tlo na njihovoj strani?",
+        "correct_answer": "Odbojka",
+        "incorrect_answers": [
+            "Košarka",
+            "Rukomet",
+            "Tenis"
+        ],
+        "explanation": "Odbojka je timski sport gdje se lopta udarcima prebacuje preko mreže, a cilj je da dotakne tlo unutar protivničkog polja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2056",
+        "category": "sport",
+        "question": "Kako se naziva poseban udarac u golfu koji se izvodi s tla na samom početku rupe, obično s posebnog povišenog mjesta (tee-boxa)?",
+        "correct_answer": "Drive",
+        "incorrect_answers": [
+            "Putt",
+            "Chip",
+            "Approach"
+        ],
+        "explanation": "Drive je snažan prvi udarac na golf rupi, koji se obično izvodi s \"tee-boxa\" s ciljem postizanja što veće udaljenosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2057",
+        "category": "sport",
+        "question": "Kako se naziva faza u veslanju kada veslači istovremeno i snažno zarone vesla u vodu, započinjući pokret izvlačenja?",
+        "correct_answer": "Catch",
+        "incorrect_answers": [
+            "Recovery",
+            "Finish",
+            "Drive"
+        ],
+        "explanation": "Catch je faza u veslanju kada veslači istovremeno urone vesla u vodu pod pravim kutom i pripreme se za snažan potisak kroz vodu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2058",
+        "category": "sport",
+        "question": "Koji se sport igra na travi s palicama i malom lopticom, a cilj je ubaciti je u rupu s najmanjim brojem udaraca?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kriket",
+            "Polo",
+            "Hokej na travi"
+        ],
+        "explanation": "Golf je individualni sport u kojem se palicom udara loptica s ciljem da se s što manje udaraca ubaci u niz rupa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2059",
+        "category": "sport",
+        "question": "Koja je težinska kategorija u boksu poznata i kao 'kraljevska kategorija'?",
+        "correct_answer": "Teška kategorija (Heavyweight)",
+        "incorrect_answers": [
+            "Srednja kategorija (Middleweight)",
+            "Laka kategorija (Lightweight)",
+            "Velter kategorija (Welterweight)"
+        ],
+        "explanation": "Teška kategorija u boksu smatra se najprestižnijom i najatraktivnijom, stoga se često naziva i \"kraljevskom kategorijom\" u svijetu boksa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2060",
+        "category": "sport",
+        "question": "Koji se termin koristi u Formuli 1 kada dva bolida imaju isti broj bodova na kraju sezone, a pobjednik se određuje prema broju pobjeda, drugih mjesta itd.?",
+        "correct_answer": "Countback",
+        "incorrect_answers": [
+            "Fastest lap",
+            "Pole position",
+            "Penalty"
+        ],
+        "explanation": "U Formuli 1, ako vozači imaju jednak broj bodova, koristi se 'countback' sustav, gdje se pobjednik određuje usporedbom broja pobjeda, drugih mjesta i tako dalje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2061",
+        "category": "sport",
+        "question": "Kako se naziva atletičarska disciplina u kojoj se natjecatelji pokušavaju prebaciti preko visoko postavljene letvice uz pomoć savitljive motke?",
+        "correct_answer": "Skok s motkom",
+        "incorrect_answers": [
+            "Skok u vis",
+            "Skok u dalj",
+            "Troskok"
+        ],
+        "explanation": "Skok s motkom je atletska disciplina u kojoj sportaši koriste dugu, savitljivu motku kako bi se prebacili preko letvice na što većoj visini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2062",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu ekipu u rukometu na terenu tijekom regularne igre (uključujući vratara)?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "U rukometu, svaka ekipa ima sedam igrača na terenu, uključujući jednog vratara, tijekom igre.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2063",
+        "category": "sport",
+        "question": "Koja je godina u kojoj su održane prve moderne Olimpijske igre?",
+        "correct_answer": "1896.",
+        "incorrect_answers": [
+            "1900.",
+            "1892.",
+            "1904."
+        ],
+        "explanation": "Prve moderne Olimpijske igre, inspirirane drevnima, održane su u Ateni, Grčka, 1896. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2064",
+        "category": "sport",
+        "question": "Koji se sport igra na pravokutnom terenu s obručima na oba kraja i loptom koja se vodi driblingom i baca u obruč?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Nogomet",
+            "Rukomet",
+            "Odbojka"
+        ],
+        "explanation": "Košarka je timski sport u kojem igrači postižu bodove ubacivanjem lopte kroz obruč, krećući se driblingom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2065",
+        "category": "sport",
+        "question": "Koji se pojam u hrvanju koristi za pobjedu kada se protivnik obori na leđa i drži mu se obje lopatice na strunjači?",
+        "correct_answer": "Tuš (Pinfall)",
+        "incorrect_answers": [
+            "Submission",
+            "Knockout",
+            "Tehnički bodovi"
+        ],
+        "explanation": "Tuš (pinfall) je najčešći način pobjede u hrvanju, postignut držanjem protivnikovih ramena na strunjači određen vremenski period.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2066",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra s elipsastom loptom, a igrači mogu trčati s njom ili je dodavati unatrag?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Američki nogomet",
+            "Australski nogomet",
+            "Galski nogomet"
+        ],
+        "explanation": "Ragbi je timski kontaktni sport koji se igra s ovalnom loptom, gdje se ona može nositi u rukama ili dodavati samo unatrag.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
