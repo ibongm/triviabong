@@ -24355,5 +24355,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1905",
+        "category": "znanost",
+        "question": "Kako se naziva tvar koja ubrzava kemijsku reakciju, ali se pri tome ne troši?",
+        "correct_answer": "Katalizator",
+        "incorrect_answers": [
+            "Inhibitor",
+            "Reagens",
+            "Otapalo"
+        ],
+        "explanation": "Katalizator smanjuje energiju aktivacije potrebnu za reakciju, omogućujući brže odvijanje procesa bez da se sam kemijski mijenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1906",
+        "category": "znanost",
+        "question": "Koja je osnovna binarna jedinica informacije u računarstvu?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Kilobajt",
+            "Megabit"
+        ],
+        "explanation": "Bit je najmanja jedinica informacije i može imati vrijednost 0 ili 1. Osam bitova čini jedan bajt.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1907",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada zvijezda iscrpi svoje nuklearno gorivo i uruši se pod vlastitom gravitacijom, potencijalno uzrokujući ogromnu eksploziju?",
+        "correct_answer": "Supernova",
+        "incorrect_answers": [
+            "Crna rupa",
+            "Pulsar",
+            "Maglica"
+        ],
+        "explanation": "Supernova je kataklizmička zvjezdana eksplozija koja se događa kada masivna zvijezda dosegne kraj svog životnog ciklusa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1908",
+        "category": "znanost",
+        "question": "Koji se fizikalni zakon bavi odnosom između tlaka i volumena plina pri konstantnoj temperaturi?",
+        "correct_answer": "Boyle-Mariotteov zakon",
+        "incorrect_answers": [
+            "Gay-Lussacov zakon",
+            "Charlesov zakon",
+            "Avogadrov zakon"
+        ],
+        "explanation": "Boyle-Mariotteov zakon kaže da je za određenu masu plina pri konstantnoj temperaturi, tlak obrnuto proporcionalan volumenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1909",
+        "category": "znanost",
+        "question": "Koji kemijski spoj primarno uzrokuje kiselo kišu?",
+        "correct_answer": "Sumporni dioksid i dušikovi oksidi",
+        "incorrect_answers": [
+            "Ugljikov dioksid",
+            "Metan",
+            "Amonijak"
+        ],
+        "explanation": "Sumporni dioksid (SO2) i dušikovi oksidi (NOx), emitirani iz industrije i prometa, reagiraju s vodom u atmosferi stvarajući kisele spojeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1910",
+        "category": "znanost",
+        "question": "Koji je termin za neprekidan, digitalni slijed bitova, koji se često koristi za streaming medija?",
+        "correct_answer": "Bitstream",
+        "incorrect_answers": [
+            "Bajtblok",
+            "Dataframe",
+            "Paket"
+        ],
+        "explanation": "Bitstream je sekvenca bitova poslana u toku bez definiranih granica paketa ili okvira, obično za prijenos podataka u realnom vremenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1911",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna jedinica bubrega?",
+        "correct_answer": "Nefron",
+        "incorrect_answers": [
+            "Neuron",
+            "Hepatocit",
+            "Alveola"
+        ],
+        "explanation": "Nefron je osnovna strukturna i funkcionalna jedinica bubrega koja obavlja filtraciju krvi i formiranje urina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1912",
+        "category": "znanost",
+        "question": "Kako se naziva sposobnost materijala da se vrati u svoj izvorni oblik nakon deformacije?",
+        "correct_answer": "Elastičnost",
+        "incorrect_answers": [
+            "Plastičnost",
+            "Lomljivost",
+            "Savitljivost"
+        ],
+        "explanation": "Elastičnost je svojstvo materijala da se oporavi od deformacije nakon uklanjanja vanjske sile, vraćajući se na prvobitni oblik i veličinu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1913",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za bežično povezivanje uređaja na kratkim udaljenostima, obično unutar 10 metara?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "NFC"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja na kratkim udaljenostima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1914",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se krutina izravno pretvara u plin, bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Isparavanje",
+            "Kondenzacija",
+            "Taljenje"
+        ],
+        "explanation": "Sublimacija je fazni prijelaz iz čvrstog u plinovito stanje, bez međufaze tekućine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1915",
+        "category": "znanost",
+        "question": "Koji je naziv za teoriju koja opisuje kako se svemir širi iz početne singularnosti?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija struna",
+            "Teorija relativnosti",
+            "Kvanta teorija polja"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji objašnjava rani razvoj svemira od vrlo vrućeg, gustog stanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1916",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja RNA iz DNA matrice?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Replikacija",
+            "Translacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se genetska informacija iz DNA prepisuje u RNA molekulu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1917",
+        "category": "znanost",
+        "question": "Koji je naziv za problem u računarstvu gdje se, unatoč rješavanju određenog problema za male primjere, složenost eksponencijalno povećava s rastom ulaza, čineći ga praktički nerješivim?",
+        "correct_answer": "NP-potpun problem",
+        "incorrect_answers": [
+            "Polinomski problem",
+            "P problem",
+            "Heuristički problem"
+        ],
+        "explanation": "NP-potpuni problemi su klasa problema za koje se vjeruje da ne postoji algoritam polinomne složenosti, što znači da njihovo rješavanje traje predugo za velike ulaze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1918",
+        "category": "znanost",
+        "question": "Koji se princip koristi kod hidrauličnih sustava za prijenos sile, navodeći da tlak primijenjen na zatvorenu tekućinu ostaje isti u svim točkama tekućine?",
+        "correct_answer": "Pascalov zakon",
+        "incorrect_answers": [
+            "Arhimedov zakon",
+            "Bernoullijev princip",
+            "Newtonov zakon"
+        ],
+        "explanation": "Pascalov zakon je temelj hidraulike i navodi da se promjena tlaka u bilo kojoj točki zatvorene nestlačive tekućine prenosi jednako na svaku točku tekućine i stijenke posude.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1919",
+        "category": "znanost",
+        "question": "Koji je kemijski simbol za element kisik?",
+        "correct_answer": "O",
+        "incorrect_answers": [
+            "K",
+            "S",
+            "H"
+        ],
+        "explanation": "O je kemijski simbol za kisik, element neophodan za život i ključan za procese disanja i gorenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1920",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se organske tvari razgrađuju bez prisutnosti kisika?",
+        "correct_answer": "Anaerobna razgradnja",
+        "incorrect_answers": [
+            "Aerobna razgradnja",
+            "Fotosinteza",
+            "Kemosinteza"
+        ],
+        "explanation": "Anaerobna razgradnja je biološki proces u kojem mikroorganizmi razgrađuju biorazgradive materijale u odsutnosti kisika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1921",
+        "category": "znanost",
+        "question": "Koji je standardni protokol za prijenos hipertekstualnih dokumenata (web stranica) na Internetu?",
+        "correct_answer": "HTTP (Hypertext Transfer Protocol)",
+        "incorrect_answers": [
+            "FTP (File Transfer Protocol)",
+            "SMTP (Simple Mail Transfer Protocol)",
+            "TCP (Transmission Control Protocol)"
+        ],
+        "explanation": "HTTP je protokol aplikacijskog sloja za prijenos web stranica, dok je HTTPS njegova sigurna, kriptirana verzija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1922",
+        "category": "znanost",
+        "question": "Koju jedinicu koristimo za mjerenje električnog otpora?",
+        "correct_answer": "Ohm",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ],
+        "explanation": "Ohm je SI izvedena jedinica za električni otpor, nazvana po njemačkom fizičaru Georgu Simonu Ohmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1923",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se tijelo bori protiv infekcije stvaranjem specifičnih protutijela?",
+        "correct_answer": "Imunološki odgovor",
+        "incorrect_answers": [
+            "Metabolizam",
+            "Homeostaza",
+            "Osmotska ravnoteža"
+        ],
+        "explanation": "Imunološki odgovor je kompleksan proces u kojem imunološki sustav prepoznaje i uništava patogene te stvara protutijela za buduću zaštitu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1924",
+        "category": "znanost",
+        "question": "Što je primarna funkcija grafičke procesorske jedinice (GPU)?",
+        "correct_answer": "Brza obrada slika i videozapisa",
+        "incorrect_answers": [
+            "Upravljanje mrežnim prometom",
+            "Pohrana podataka na duži rok",
+            "Izvršavanje osnovnih operacija operativnog sustava"
+        ],
+        "explanation": "GPU je specijalizirani elektronički sklop dizajniran za brzu manipulaciju i modifikaciju memorije kako bi ubrzao stvaranje slika na zaslonu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1925",
+        "category": "znanost",
+        "question": "Koji hormon regulira razinu šećera (glukoze) u krvi tako što potiče stanice da preuzimaju glukozu?",
+        "correct_answer": "Inzulin",
+        "incorrect_answers": [
+            "Glukagon",
+            "Tiroksin",
+            "Adrenalin"
+        ],
+        "explanation": "Inzulin je hormon kojeg luči gušterača i ključan je za regulaciju razine glukoze u krvi, omogućujući ulazak glukoze u stanice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1926",
+        "category": "znanost",
+        "question": "Koji je znanstvenik formulirao tri zakona gibanja i zakon univerzalne gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Johannes Kepler"
+        ],
+        "explanation": "Isaac Newton je jedan od najutjecajnijih znanstvenika svih vremena, poznat po svojim zakonima gibanja i zakonu univerzalne gravitacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1927",
+        "category": "znanost",
+        "question": "Koji kemijski element je osnova svih organskih spojeva?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Ugljik je jedinstven po svojoj sposobnosti stvaranja dugih lanaca i prstenova, što ga čini temeljnim elementom za milijune organskih spojeva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1928",
+        "category": "znanost",
+        "question": "Koja je najveća planeta u Sunčevom sustavu?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Mars",
+            "Zemlja"
+        ],
+        "explanation": "Jupiter je plinoviti div i najveća planeta u našem Sunčevom sustavu, masivniji od svih ostalih planeta zajedno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1929",
+        "category": "znanost",
+        "question": "Koja je svrha firewalla (zaštitnog zida) u računalnim mrežama?",
+        "correct_answer": "Kontrola dolaznog i odlaznog mrežnog prometa",
+        "incorrect_answers": [
+            "Povećanje brzine interneta",
+            "Skladištenje podataka",
+            "Grafička obrada"
+        ],
+        "explanation": "Firewall je sustav mrežne sigurnosti koji nadzire i kontrolira dolazni i odlazni mrežni promet na temelju unaprijed utvrđenih sigurnosnih pravila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1930",
+        "category": "znanost",
+        "question": "Koji plin je ključan za proces fotosinteze kod biljaka?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Metan"
+        ],
+        "explanation": "Biljke koriste ugljikov dioksid, vodu i sunčevu svjetlost za proizvodnju glukoze i kisika tijekom fotosinteze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1931",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen promjene frekvencije ili valne duljine vala u odnosu na promatrača koji se giba relativno prema izvoru vala?",
+        "correct_answer": "Dopplerov efekt",
+        "incorrect_answers": [
+            "Huygensov princip",
+            "Snellov zakon",
+            "Fotoelektrični efekt"
+        ],
+        "explanation": "Dopplerov efekt opisuje promjenu prividne frekvencije vala (poput zvuka ili svjetlosti) kada se izvor vala i promatrač kreću jedan prema drugome ili udaljavaju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1932",
+        "category": "znanost",
+        "question": "Koji je termin za praćenje podataka o korisničkoj aktivnosti na web stranici kako bi se razumjelo njihovo ponašanje i optimizirala web stranica?",
+        "correct_answer": "Web analitika",
+        "incorrect_answers": [
+            "SEO optimizacija",
+            "Cloud computing",
+            "Blockchain"
+        ],
+        "explanation": "Web analitika je mjerenje, prikupljanje, analiza i izvještavanje o web podacima u svrhu razumijevanja i optimizacije web upotrebe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1933",
+        "category": "znanost",
+        "question": "Koji se princip koristi za kvantitativnu analizu kemijskih tvari na temelju apsorpcije svjetlosti?",
+        "correct_answer": "Beer-Lambertov zakon",
+        "incorrect_answers": [
+            "Raoultov zakon",
+            "Henryjev zakon",
+            "Fickov zakon"
+        ],
+        "explanation": "Beer-Lambertov zakon povezuje apsorpciju svjetlosti s koncentracijom tvari u otopini i duljinom puta svjetlosti kroz otopinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1934",
+        "category": "znanost",
+        "question": "Koji je glavni organ dišnog sustava kod ljudi?",
+        "correct_answer": "Pluća",
+        "incorrect_answers": [
+            "Srce",
+            "Jetra",
+            "Bubreg"
+        ],
+        "explanation": "Pluća su glavni organi dišnog sustava, odgovorni za izmjenu kisika i ugljikovog dioksida između zraka i krvi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1935",
+        "category": "znanost",
+        "question": "Koja je osnovna svrha protokola TCP (Transmission Control Protocol) u internetskoj komunikaciji?",
+        "correct_answer": "Pouzdan prijenos podataka s provjerom grešaka i redoslijeda",
+        "incorrect_answers": [
+            "Slanje e-pošte",
+            "Prijenos web stranica",
+            "Mapiranje IP adresa u nazive domena"
+        ],
+        "explanation": "TCP osigurava pouzdan, redoslijedni i provjeren prijenos podataka između aplikacija preko internetske mreže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1936",
+        "category": "znanost",
+        "question": "Koja je skupina galaksija kojoj pripada naša galaksija Mliječna staza?",
+        "correct_answer": "Lokalna Grupa",
+        "incorrect_answers": [
+            "Superjata Djevice",
+            "Magličasta skupina",
+            "Galaktički klaster"
+        ],
+        "explanation": "Lokalna Grupa je skupina od preko 50 galaksija, uključujući Mliječnu stazu, Andromedu i Trokutastu galaksiju, vezanih gravitacijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1937",
+        "category": "znanost",
+        "question": "Koji je osnovni sastojak stakla?",
+        "correct_answer": "Silicijev dioksid (kvarcni pijesak)",
+        "incorrect_answers": [
+            "Ugljikov dioksid",
+            "Željezni oksid",
+            "Kalcijev karbonat"
+        ],
+        "explanation": "Staklo je amorfna krutina koja se primarno sastoji od silicijevog dioksida (SiO2), obično u obliku kvarcnog pijeska.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1938",
+        "category": "znanost",
+        "question": "Kako se naziva genetska mutacija u kojoj se jedan ili više nukleotida dodaje u DNA sekvencu?",
+        "correct_answer": "Insercija (umetanje)",
+        "incorrect_answers": [
+            "Delecija (brisanje)",
+            "Supstitucija (zamjena)",
+            "Inverzija"
+        ],
+        "explanation": "Insercija je vrsta točkaste mutacije gdje se jedan ili više baznih parova nukleotida dodaju u genetsku sekvencu, što može promijeniti čitajući okvir gena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1939",
+        "category": "znanost",
+        "question": "Koji fenomen objašnjava zašto se olovka čini prelomljenom kada je djelomično uronjena u vodu?",
+        "correct_answer": "Refrakcija (lom svjetlosti)",
+        "incorrect_answers": [
+            "Refleksija (odbijanje svjetlosti)",
+            "Difrakcija (savijanje svjetlosti)",
+            "Apsorpcija (upijanje svjetlosti)"
+        ],
+        "explanation": "Refrakcija je promjena smjera svjetlosnog vala kada prelazi iz jednog optičkog medija u drugi, što uzrokuje prividno prelamanje objekata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1940",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućava distribuiranu, decentraliziranu bazu podataka koja bilježi transakcije na način da se ne mogu mijenjati?",
+        "correct_answer": "Blockchain",
+        "incorrect_answers": [
+            "Relacijska baza podataka",
+            "Cloud storage",
+            "Kvantno računanje"
+        ],
+        "explanation": "Blockchain je distribuirana javna knjiga transakcija koje su organizirane u 'blokove' i kriptografski povezane, čineći ih sigurnima i nepromjenjivima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1941",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje trodimenzionalnih slika organa unutar tijela pomoću ultrazvučnih valova?",
+        "correct_answer": "Ultrazvuk",
+        "incorrect_answers": [
+            "Rendgen",
+            "Magnetska rezonancija (MRI)",
+            "Kompjutorizirana tomografija (CT)"
+        ],
+        "explanation": "Ultrazvuk koristi visokofrekventne zvučne valove za stvaranje slika unutarnjih struktura tijela bez upotrebe ionizirajućeg zračenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1942",
+        "category": "znanost",
+        "question": "Koji se prirodni fenomen odnosi na zagrijavanje Zemljine površine i atmosfere zbog zarobljavanja sunčeve topline od strane određenih plinova?",
+        "correct_answer": "Efekt staklenika",
+        "incorrect_answers": [
+            "Ozonska rupa",
+            "El Niño",
+            "Ciklon"
+        ],
+        "explanation": "Efekt staklenika je prirodni proces gdje plinovi poput ugljikovog dioksida i metana u atmosferi zadržavaju toplinu, održavajući Zemlju toplom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1943",
+        "category": "znanost",
+        "question": "Koji je element simbol života u periodnom sustavu elemenata, ključan za disanje?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Ugljik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Kisik je neophodan za život jer je ključna komponenta procesa staničnog disanja kod većine živih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
