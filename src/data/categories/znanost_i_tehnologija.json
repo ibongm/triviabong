@@ -27025,5 +27025,575 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2083",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim se organizmi prilagođavaju svom okolišu tijekom generacija?",
+        "correct_answer": "Evolucija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Fotosinteza",
+            "Replikacija"
+        ],
+        "explanation": "Evolucija je proces promjene nasljednih osobina bioloških populacija tijekom uzastopnih generacija, što dovodi do prilagodbe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2084",
+        "category": "znanost",
+        "question": "Koji je najlakši kemijski element?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Kisik"
+        ],
+        "explanation": "Vodik (H) je prvi element u periodnom sustavu i najlakši element u svemiru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2085",
+        "category": "znanost",
+        "question": "Koji akronim predstavlja 'World Wide Web'?",
+        "correct_answer": "WWW",
+        "incorrect_answers": [
+            "HTML",
+            "HTTP",
+            "URL"
+        ],
+        "explanation": "WWW je sustav međusobno povezanih hipertekstualnih dokumenata kojima se pristupa putem Interneta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2086",
+        "category": "znanost",
+        "question": "Kako se naziva materijal sastavljen od dvije ili više različitih komponenti s različitim fizikalnim ili kemijskim svojstvima?",
+        "correct_answer": "Kompozit",
+        "incorrect_answers": [
+            "Legura",
+            "Polimer",
+            "Keramika"
+        ],
+        "explanation": "Kompozitni materijali su spojevi dvaju ili više različitih materijala koji zajedno daju poboljšana svojstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2087",
+        "category": "znanost",
+        "question": "Koji zakon fizike kaže da se energija ne može stvoriti niti uništiti, već samo pretvarati iz jednog oblika u drugi?",
+        "correct_answer": "Zakon očuvanja energije",
+        "incorrect_answers": [
+            "Newtonov zakon gibanja",
+            "Zakon termodinamike",
+            "Ohmov zakon"
+        ],
+        "explanation": "Prema Zakonu očuvanja energije, ukupna količina energije u izoliranom sustavu ostaje konstantna tijekom vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2088",
+        "category": "znanost",
+        "question": "Koji je naziv za proces stanične smrti programirane genima, ključan za razvoj organizma i uklanjanje oštećenih stanica?",
+        "correct_answer": "Apoptoza",
+        "incorrect_answers": [
+            "Nekroza",
+            "Mitoza",
+            "Mejoza"
+        ],
+        "explanation": "Apoptoza je programirana stanična smrt, vitalni proces za održavanje homeostaze i uklanjanje neželjenih stanica u tijelu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2089",
+        "category": "znanost",
+        "question": "Koja se kemijska formula koristi za vodu?",
+        "correct_answer": "H2O",
+        "incorrect_answers": [
+            "CO2",
+            "O2",
+            "N2"
+        ],
+        "explanation": "Voda je kemijski spoj sastavljen od dva atoma vodika i jednog atoma kisika, simboliziranog formulom H₂O.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2090",
+        "category": "znanost",
+        "question": "Koji je astronomski objekt koji emitira radio valove s pravilnim, brzim impulsima?",
+        "correct_answer": "Pulsar",
+        "incorrect_answers": [
+            "Kvazar",
+            "Crna rupa",
+            "Maglica"
+        ],
+        "explanation": "Pulsar je rotirajuća neutronska zvijezda koja emitira snopove elektromagnetskog zračenja, koje se opažaju kao pravilni impulsi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2091",
+        "category": "znanost",
+        "question": "Kako se naziva skup pravila koja određuju format i prijenos podataka između dva ili više uređaja?",
+        "correct_answer": "Protokol",
+        "incorrect_answers": [
+            "Algoritam",
+            "Mreža",
+            "Operativni sustav"
+        ],
+        "explanation": "Protokol je standardni skup pravila za formatiranje i obradu podataka, omogućujući komunikaciju između računalnih sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2092",
+        "category": "znanost",
+        "question": "Koji je naziv za proces topljenja lednjaka i snijega koji doprinosi porastu razine mora?",
+        "correct_answer": "Otapanje",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kondenzacija",
+            "Ablacija"
+        ],
+        "explanation": "Otapanje, posebno otapanje ledenjaka i polarnih kapa, primarni je uzrok porasta globalne razine mora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2093",
+        "category": "znanost",
+        "question": "Koji fizikalni princip objašnjava zašto se predmeti čine lakšima ili plutaju u tekućinama?",
+        "correct_answer": "Arhimedov princip",
+        "incorrect_answers": [
+            "Bernoullijev princip",
+            "Pascalov zakon",
+            "Newtonov zakon gravitacije"
+        ],
+        "explanation": "Arhimedov princip navodi da tijelo uronjeno u fluid doživljava uzgon jednak težini fluida koji istisne.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2094",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu pumpa krv kroz krvožilni sustav?",
+        "correct_answer": "Srce",
+        "incorrect_answers": [
+            "Pluća",
+            "Jetra",
+            "Bubreg"
+        ],
+        "explanation": "Srce je mišićni organ koji neprekidno pumpa krv, opskrbljujući tijelo kisikom i hranjivim tvarima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2095",
+        "category": "znanost",
+        "question": "Koji je naziv za vezu koja nastaje prijenosom elektrona s jednog atoma na drugi, stvarajući ione?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalenta veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje elektrostatičkom privlačnošću između pozitivno i negativno nabijenih iona, koji se formiraju prijenosom elektrona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2096",
+        "category": "znanost",
+        "question": "Koji je akronim za umjetnu inteligenciju koja se može samo-unaprjeđivati i potencijalno nadmašiti ljudsku inteligenciju?",
+        "correct_answer": "AGI (Artificial General Intelligence)",
+        "incorrect_answers": [
+            "ANI (Artificial Narrow Intelligence)",
+            "ASI (Artificial Super Intelligence)",
+            "ML (Machine Learning)"
+        ],
+        "explanation": "AGI se odnosi na hipotetičku vrstu umjetne inteligencije koja može razumjeti, učiti i primjenjivati inteligenciju u širokom rasponu zadataka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2097",
+        "category": "znanost",
+        "question": "Tko je izumio prvu parnu mašinu s kondenzatorom, značajno poboljšavši njenu učinkovitost?",
+        "correct_answer": "James Watt",
+        "incorrect_answers": [
+            "George Stephenson",
+            "Nikola Tesla",
+            "Thomas Edison"
+        ],
+        "explanation": "James Watt je 1765. godine patentirao parnu mašinu s odvojenim kondenzatorom, čime je drastično povećao njezinu učinkovitost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2098",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za duljinu?",
+        "correct_answer": "Metar",
+        "incorrect_answers": [
+            "Kilogram",
+            "Sekunda",
+            "Litra"
+        ],
+        "explanation": "Metar je osnovna jedinica za duljinu u Međunarodnom sustavu jedinica (SI).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2099",
+        "category": "znanost",
+        "question": "Koji se proces događa kada se DNA molekula duplicira, stvarajući dvije identične kopije?",
+        "correct_answer": "Replikacija",
+        "incorrect_answers": [
+            "Transkripcija",
+            "Translacija",
+            "Mutacija"
+        ],
+        "explanation": "Replikacija DNA je biološki proces stvaranja dvije identične replike DNA iz jedne originalne DNA molekule.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2100",
+        "category": "znanost",
+        "question": "Koji je naziv za atom ili grupu atoma s električnim nabojem zbog gubitka ili dobivanja elektrona?",
+        "correct_answer": "Ion",
+        "incorrect_answers": [
+            "Izotop",
+            "Molekula",
+            "Element"
+        ],
+        "explanation": "Ion je atom ili molekula koja ima neto električni naboj zbog neravnoteže broja protona i elektrona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2101",
+        "category": "znanost",
+        "question": "Koja je najmanja kategorija zvijezda u kojoj se nalazi naše Sunce?",
+        "correct_answer": "Žuti patuljak",
+        "incorrect_answers": [
+            "Crveni div",
+            "Bijeli patuljak",
+            "Smeđi patuljak"
+        ],
+        "explanation": "Naše Sunce je klasificirano kao žuti patuljak, zvijezda prosječne veličine i temperature.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2102",
+        "category": "znanost",
+        "question": "Koji je uređaj za unos podataka koji se koristi za pomicanje kursora na zaslonu i interakciju s grafičkim sučeljem?",
+        "correct_answer": "Miš",
+        "incorrect_answers": [
+            "Tipkovnica",
+            "Pisač",
+            "Monitor"
+        ],
+        "explanation": "Miš je periferni uređaj koji se koristi za interakciju s računalnim grafičkim korisničkim sučeljem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2103",
+        "category": "znanost",
+        "question": "Kako se naziva geološka formacija koja se sastoji od vodopropusnih stijena koje sadrže podzemnu vodu?",
+        "correct_answer": "Akvifer",
+        "incorrect_answers": [
+            "Gejzir",
+            "Fjord",
+            "Vulkanski krater"
+        ],
+        "explanation": "Akvifer je podzemni sloj propusne stijene ili nesolidiranog materijala koji može sadržati i prenositi podzemnu vodu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2104",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja se suprotstavlja gibanju između dviju površina u kontaktu?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Centrifugalna sila",
+            "Normalna sila"
+        ],
+        "explanation": "Trenje je sila koja se protivi relativnom gibanju ili težnji za gibanjem dvaju tijela koja su u kontaktu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2105",
+        "category": "znanost",
+        "question": "Koji organ odgovoran za filtriranje krvi i proizvodnju urina u ljudskom tijelu?",
+        "correct_answer": "Bubreg",
+        "incorrect_answers": [
+            "Pluća",
+            "Jetra",
+            "Želudac"
+        ],
+        "explanation": "Bubreg je parni organ koji ima ključnu ulogu u održavanju homeostaze filtriranjem krvi i uklanjanjem otpadnih tvari.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2106",
+        "category": "znanost",
+        "question": "Koji je kemijski element simboliziran s 'Na'?",
+        "correct_answer": "Natrij",
+        "incorrect_answers": [
+            "Nikal",
+            "Neon",
+            "Dušik"
+        ],
+        "explanation": "'Na' je kemijski simbol za natrij, alkalijski metal.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2107",
+        "category": "znanost",
+        "question": "Koji je fenomen u kojem se svjetlost savija oko masivnih objekata, iskrivljujući sliku pozadinskih galaksija?",
+        "correct_answer": "Gravitacijska leća",
+        "incorrect_answers": [
+            "Crvena leća",
+            "Kozmičko mikrovalno pozadinsko zračenje",
+            "Tamna energija"
+        ],
+        "explanation": "Gravitacijska leća je distorzija prostora uzrokovana masom koja savija svjetlost, djelujući kao leća i povećavajući objekte iza nje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2108",
+        "category": "znanost",
+        "question": "Koji je pojam za neovlašteni pristup ili korištenje računalnog sustava ili mreže?",
+        "correct_answer": "Hakiranje",
+        "incorrect_answers": [
+            "Programiranje",
+            "Debugging",
+            "Kompilacija"
+        ],
+        "explanation": "Hakiranje je čin neovlaštenog upada u računalni sustav ili mrežu, često s ciljem pristupa podacima ili manipulacije sustavom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2109",
+        "category": "znanost",
+        "question": "Koji je termin za sustav koji koristi umjetne satelite za navigaciju i sinkronizaciju vremena?",
+        "correct_answer": "Globalni navigacijski satelitski sustav (GNSS)",
+        "incorrect_answers": [
+            "Radar",
+            "Sonar",
+            "Lidar"
+        ],
+        "explanation": "GNSS je opći termin za satelitske sustave koji pružaju autonomno geoprostorno pozicioniranje, uključujući GPS, GLONASS, Galileo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2110",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju količinu energije koja se može emitirati ili apsorbirati u obliku elektromagnetskog zračenja?",
+        "correct_answer": "Kvant",
+        "incorrect_answers": [
+            "Foton",
+            "Elektron",
+            "Neutron"
+        ],
+        "explanation": "Kvant je diskretna jedinica bilo koje fizičke veličine, poput energije u kvantnoj mehanici, što je temelj kvantne teorije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2111",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim tijelo održava stabilno unutarnje okruženje unatoč vanjskim promjenama?",
+        "correct_answer": "Homeostaza",
+        "incorrect_answers": [
+            "Metabolizam",
+            "Adaptacija",
+            "Regeneracija"
+        ],
+        "explanation": "Homeostaza je sposobnost organizma da regulira svoju unutarnju okolinu kako bi održao stabilno i relativno konstantno stanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2112",
+        "category": "znanost",
+        "question": "Koji je naziv za reakciju između kiseline i baze koja rezultira stvaranjem soli i vode?",
+        "correct_answer": "Neutralizacija",
+        "incorrect_answers": [
+            "Oksidacija",
+            "Redukcija",
+            "Polimerizacija"
+        ],
+        "explanation": "Neutralizacija je kemijska reakcija u kojoj se kiselina i baza međusobno neutraliziraju, stvarajući vodu i sol.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2113",
+        "category": "znanost",
+        "question": "Koji planet je najbliži Suncu?",
+        "correct_answer": "Merkur",
+        "incorrect_answers": [
+            "Venera",
+            "Mars",
+            "Zemlja"
+        ],
+        "explanation": "Merkur je planet koji je najbliži Suncu i najmanji je planet u našem Sunčevom sustavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2114",
+        "category": "znanost",
+        "question": "Koji je akronim za 'HyperText Markup Language', jezik za izradu web stranica?",
+        "correct_answer": "HTML",
+        "incorrect_answers": [
+            "CSS",
+            "HTTP",
+            "FTP"
+        ],
+        "explanation": "HTML je standardni označni jezik za dokumente dizajnirane za prikaz u web pregledniku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2115",
+        "category": "znanost",
+        "question": "Kako se naziva vanjski čvrsti sloj Zemlje, uključujući koru i gornji dio plašta?",
+        "correct_answer": "Litosfera",
+        "incorrect_answers": [
+            "Atmosfera",
+            "Hidrosfera",
+            "Biosfera"
+        ],
+        "explanation": "Litosfera je čvrsti vanjski sloj Zemlje, koji se sastoji od Zemljine kore i najgornjeg dijela plašta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2116",
+        "category": "znanost",
+        "question": "Koji je pojam za pretvorbu energije iz mehaničkog oblika u električni oblik (ili obrnuto) putem određenih kristala?",
+        "correct_answer": "Piezoelektrični efekt",
+        "incorrect_answers": [
+            "Fotoelektrični efekt",
+            "Termoelektrični efekt",
+            "Magnetska rezonancija"
+        ],
+        "explanation": "Piezoelektrični efekt je sposobnost određenih materijala da generiraju električni naboj kao odgovor na primijenjeni mehanički stres.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2117",
+        "category": "znanost",
+        "question": "Koji je naziv za virus koji inficira i replicira se unutar bakterija?",
+        "correct_answer": "Bakteriofag",
+        "incorrect_answers": [
+            "Retro virus",
+            "Virion",
+            "Patogen"
+        ],
+        "explanation": "Bakteriofagi su vrsta virusa koji specifično inficiraju bakterije, koristeći njihovu staničnu mašineriju za replikaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2118",
+        "category": "znanost",
+        "question": "Koji je naziv za proces u kojem se čvrsta tvar izravno pretvara u plin bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Isparavanje",
+            "Kondenzacija",
+            "Taljenje"
+        ],
+        "explanation": "Sublimacija je faza prijelaza tvari izravno iz čvrstog u plinovito stanje, bez međufaze tekućine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2119",
+        "category": "znanost",
+        "question": "Koji je termin za tehnologiju koja omogućuje bežični prijenos energije između dva objekta bez fizičkog kontakta?",
+        "correct_answer": "Bežični prijenos energije",
+        "incorrect_answers": [
+            "Bežična mreža",
+            "Indukcijsko grijanje",
+            "Solarna energija"
+        ],
+        "explanation": "Bežični prijenos energije je prijenos električne energije bez žica, često putem elektromagnetskih polja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2120",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se parovi čestica (poput fotona) formiraju na takav način da je mjerenje jedne čestice odmah povezano s mjerenjem druge, bez obzira na udaljenost?",
+        "correct_answer": "Kvantna spletenost (Entanglement)",
+        "incorrect_answers": [
+            "Kvantna dekoherencija",
+            "Kvantna superpozicija",
+            "Heisenbergovo načelo neodređenosti"
+        ],
+        "explanation": "Kvantna spletenost je fenomen gdje kvantna stanja dviju ili više čestica postaju međusobno ovisna, bez obzira na njihovu udaljenost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
