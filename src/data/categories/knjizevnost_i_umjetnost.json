@@ -22143,5 +22143,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1731",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Derviš i smrt', koji se bavi pitanjima slobode, totalitarizma i smisla života?",
+        "correct_answer": "Meša Selimović",
+        "incorrect_answers": [
+            "Ivo Andrić",
+            "Miroslav Krleža",
+            "Ranko Marinković"
+        ],
+        "explanation": "Meša Selimović je bio bosanskohercegovački književnik čiji je roman 'Derviš i smrt' jedno od najznačajnijih djela južnoslavenskih književnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1732",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski slikar, poznat po svojim realističnim prikazima svakodnevnog života i majstorskom korištenju svjetla, autor slike 'Djevojka s bisernom naušnicom'?",
+        "correct_answer": "Johannes Vermeer",
+        "incorrect_answers": [
+            "Rembrandt van Rijn",
+            "Vincent van Gogh",
+            "Pieter Bruegel Stariji"
+        ],
+        "explanation": "Johannes Vermeer je slikar iz Zlatnog doba Nizozemske, čije je najpoznatije djelo portret 'Djevojka s bisernom naušnicom'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1733",
+        "category": "knjizevnost",
+        "question": "Koji je njemački kompozitor, poznat po svojih devet simfonija, autor 'Ode radosti' kao finala svoje Devete simfonije?",
+        "correct_answer": "Ludwig van Beethoven",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "Wolfgang Amadeus Mozart",
+            "Richard Wagner"
+        ],
+        "explanation": "Ludwig van Beethoven je jedan od najvećih kompozitora klasične glazbe, a njegova Deveta simfonija uključuje slavnu 'Odu radosti'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1734",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac, otac naturalizma, autor romana 'Germinal' koji opisuje život rudara u Francuskoj 19. stoljeća?",
+        "correct_answer": "Émile Zola",
+        "incorrect_answers": [
+            "Victor Hugo",
+            "Gustave Flaubert",
+            "Honoré de Balzac"
+        ],
+        "explanation": "Émile Zola je bio vodeći predstavnik naturalizma u književnosti, a 'Germinal' je jedno od njegovih najpoznatijih društveno-kritičkih djela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1735",
+        "category": "knjizevnost",
+        "question": "Koji je francuski kipar, poznat po svojim djelima koja izražavaju snažne emocije, autor skulpture 'Mislioc'?",
+        "correct_answer": "Auguste Rodin",
+        "incorrect_answers": [
+            "Michelangelo Buonarroti",
+            "Donatello",
+            "Constantin Brâncuși"
+        ],
+        "explanation": "Auguste Rodin je bio jedan od najpoznatijih kipara 19. stoljeća, a njegova skulptura 'Mislioc' postala je simbol dubokog razmišljanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1736",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, poznat po dramama i romanima koji kritiziraju malograđanštinu i društvene nepravde, autor drame 'Gospoda Glembajevi'?",
+        "correct_answer": "Miroslav Krleža",
+        "incorrect_answers": [
+            "August Šenoa",
+            "Marija Jurić Zagorka",
+            "Ivan Gundulić"
+        ],
+        "explanation": "Miroslav Krleža je jedan od najvećih hrvatskih pisaca 20. stoljeća, a 'Gospoda Glembajevi' su dio njegovog dramskog ciklusa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1737",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret, nastao u Francuskoj sredinom 19. stoljeća, naglašavao prikazivanje svjetla i atmosfere kroz kratke poteze kistom i jarke boje?",
+        "correct_answer": "Impresionizam",
+        "incorrect_answers": [
+            "Kubizam",
+            "Ekspresionizam",
+            "Nadrealizam"
+        ],
+        "explanation": "Impresionizam je umjetnički pokret koji se fokusirao na dojam trenutka i promjene svjetlosti, a ne na precizno prikazivanje detalja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1738",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor autor opere 'Aida', poznate po egipatskoj scenografiji i slavnom 'Trijumfalnom maršu'?",
+        "correct_answer": "Giuseppe Verdi",
+        "incorrect_answers": [
+            "Giacomo Puccini",
+            "Gioachino Rossini",
+            "Antonio Vivaldi"
+        ],
+        "explanation": "Giuseppe Verdi je jedan od najznačajnijih opernih kompozitora, a 'Aida' je njegova najspektakularnija opera, praizvedena u Kairu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1739",
+        "category": "knjizevnost",
+        "question": "Koji je drevni grčki pjesnik, kojem se pripisuju epovi 'Ilijada' i 'Odiseja', temelj zapadne književnosti?",
+        "correct_answer": "Homer",
+        "incorrect_answers": [
+            "Vergilije",
+            "Sofoklo",
+            "Ezop"
+        ],
+        "explanation": "Homer je legendarni grčki pjesnik, autor dvaju najvažnijih epova antičke Grčke, 'Ilijade' i 'Odiseje'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1740",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski slikar, predstavnik secesije i simbolizma, poznat po ciklusu 'Žene' i portretima žena u stiliziranim ambijentima?",
+        "correct_answer": "Vlaho Bukovac",
+        "incorrect_answers": [
+            "Miroslav Kraljević",
+            "Edo Murtić",
+            "Julije Knifer"
+        ],
+        "explanation": "Vlaho Bukovac je bio istaknuti hrvatski slikar koji je donio duh secesije i impresionizma u hrvatsko slikarstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1741",
+        "category": "knjizevnost",
+        "question": "Koji je arhitekt, poznat po organskoj arhitekturi i kući 'Fallingwater', dizajnirao Guggenheim muzej u New Yorku?",
+        "correct_answer": "Frank Lloyd Wright",
+        "incorrect_answers": [
+            "Le Corbusier",
+            "Ludwig Mies van der Rohe",
+            "Antoni Gaudí"
+        ],
+        "explanation": "Frank Lloyd Wright je jedan od najutjecajnijih američkih arhitekata, poznat po inovativnom pristupu dizajnu i organskoj arhitekturi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1742",
+        "category": "knjizevnost",
+        "question": "Koji je britanski redatelj, poznat po svojim vizualno upečatljivim filmovima i suradnji s glumcima poput Tilde Swinton, autor filmova 'Grand Budapest Hotel' i 'Moonrise Kingdom'?",
+        "correct_answer": "Wes Anderson",
+        "incorrect_answers": [
+            "Christopher Nolan",
+            "Quentin Tarantino",
+            "Martin Scorsese"
+        ],
+        "explanation": "Wes Anderson je prepoznatljiv po svom jedinstvenom vizualnom stilu, simetričnim kadrovima i specifičnoj estetici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1743",
+        "category": "knjizevnost",
+        "question": "Koji se naziv koristi za razdoblje u hrvatskoj književnosti od 18. do sredine 19. stoljeća, koje je težilo buđenju nacionalne svijesti i razvoju standardnog jezika?",
+        "correct_answer": "Ilirski preporod",
+        "incorrect_answers": [
+            "Hrvatska moderna",
+            "Predromantizam",
+            "Rani realizam"
+        ],
+        "explanation": "Ilirski preporod bio je nacionalni i kulturni pokret koji je imao ključnu ulogu u formiranju hrvatskog nacionalnog identiteta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1744",
+        "category": "knjizevnost",
+        "question": "Koji je ruski kompozitor autor baleta 'Don Quijote' i 'Bajadera', cijenjen zbog svojih inovativnih orkestracija i melodičnosti?",
+        "correct_answer": "Ludwig Minkus",
+        "incorrect_answers": [
+            "Petar Iljič Čajkovski",
+            "Igor Stravinski",
+            "Sergej Prokofjev"
+        ],
+        "explanation": "Ludwig Minkus bio je značajan kompozitor baletne glazbe 19. stoljeća, čija djela su i danas dio klasičnog baletnog repertoara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1745",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret, nastao u Nizozemskoj, poznat po korištenju samo pravih kutova i primarnih boja, s istaknutim umjetnicima poput Pieta Mondriana?",
+        "correct_answer": "De Stijl",
+        "incorrect_answers": [
+            "Suprematizam",
+            "Konstruktivizam",
+            "Bauhaus"
+        ],
+        "explanation": "De Stijl (ili Neoplastičnost) je nizozemski umjetnički pokret koji je zagovarao čistu apstrakciju i univerzalnost kroz minimalizam.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1746",
+        "category": "knjizevnost",
+        "question": "Koji je britanski pisac autor distopijskog romana 'Vrli novi svijet', koji prikazuje tehnološki napredno, ali moralno degradirano društvo?",
+        "correct_answer": "Aldous Huxley",
+        "incorrect_answers": [
+            "George Orwell",
+            "Ray Bradbury",
+            "Philip K. Dick"
+        ],
+        "explanation": "Aldous Huxley je napisao 'Vrli novi svijet', jedan od najutjecajnijih distopijskih romana 20. stoljeća, objavljen 1932.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1747",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski kompozitor autor opere 'Ero s onoga svijeta', koja je postala najizvođenija hrvatska opera?",
+        "correct_answer": "Jakov Gotovac",
+        "incorrect_answers": [
+            "Ivan Zajc",
+            "Vatroslav Lisinski",
+            "Josip Hatze"
+        ],
+        "explanation": "Jakov Gotovac je skladao 'Eru s onoga svijeta', operu temeljenu na narodnim motivima koja je stekla veliku popularnost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1748",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski renesansni slikar, arhitekt i teoretičar umjetnosti autor freske 'Atenska škola' u Vatikanskoj palači?",
+        "correct_answer": "Rafael Santi",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Michelangelo Buonarroti",
+            "Donato Bramante"
+        ],
+        "explanation": "Rafael Santi je bio jedan od majstora visoke renesanse, a 'Atenska škola' je jedna od njegovih najpoznatijih fresaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1749",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski dječji književnik autor romana 'Družba Pere Kvržice' i 'Orlovi rano lete'?",
+        "correct_answer": "Mato Lovrak",
+        "incorrect_answers": [
+            "Ivan Kušan",
+            "Branka Primorac",
+            "Miro Gavran"
+        ],
+        "explanation": "Mato Lovrak je klasik hrvatske dječje književnosti, poznat po djelima koja promiču prijateljstvo i dječju snalažljivost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1750",
+        "category": "knjizevnost",
+        "question": "Koji je američki fotograf, poznat po svojim crno-bijelim pejzažima američkog Zapada, autor fotografije 'Mjesečev izlazak, Hernandez, Novi Meksiko'?",
+        "correct_answer": "Ansel Adams",
+        "incorrect_answers": [
+            "Henri Cartier-Bresson",
+            "Robert Frank",
+            "Dorothea Lange"
+        ],
+        "explanation": "Ansel Adams je bio majstor pejzažne fotografije, poznat po preciznoj tehnici i sposobnosti bilježenja ljepote prirode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1751",
+        "category": "knjizevnost",
+        "question": "Koji je američki jazz glazbenik, trubač i kompozitor, poznat po albumima 'Kind of Blue' i 'Bitches Brew', bio ključna figura u razvoju jazz glazbe?",
+        "correct_answer": "Miles Davis",
+        "incorrect_answers": [
+            "Louis Armstrong",
+            "John Coltrane",
+            "Duke Ellington"
+        ],
+        "explanation": "Miles Davis bio je revolucionaran trubač i kompozitor, čiji su inovativni albumi definirali različite ere jazza, uključujući cool jazz i fusion.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1752",
+        "category": "knjizevnost",
+        "question": "Koji je engleski dramatičar i pjesnik, autor tragedija 'Hamlet' i 'Romeo i Julija', smatran najvećim piscem na engleskom jeziku?",
+        "correct_answer": "William Shakespeare",
+        "incorrect_answers": [
+            "Christopher Marlowe",
+            "Ben Jonson",
+            "George Bernard Shaw"
+        ],
+        "explanation": "William Shakespeare je ikona svjetske književnosti, čije su drame i soneti imali ogroman utjecaj na engleski jezik i kazalište.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1753",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski kipar, poznat po monumentalnim spomenicima i figuralnim djelima, autor 'Povijesti Hrvata' i spomenika Marka Marulića u Splitu?",
+        "correct_answer": "Ivan Meštrović",
+        "incorrect_answers": [
+            "Antun Augustinčić",
+            "Vojin Bakić",
+            "Kosta Angeli Radovani"
+        ],
+        "explanation": "Ivan Meštrović je najpoznatiji hrvatski kipar, čija su djela prepoznatljiva po snažnoj ekspresivnosti i nacionalnim motivima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1754",
+        "category": "knjizevnost",
+        "question": "Koji je arhitektonski stil, koji se razvijao u Europi od sredine 12. do 16. stoljeća, karakteriziran šiljastim lukovima, visokim svodovima i velikim vitrajima?",
+        "correct_answer": "Gotika",
+        "incorrect_answers": [
+            "Romanika",
+            "Barok",
+            "Klasicizam"
+        ],
+        "explanation": "Gotika je stil koji je omogućio izgradnju izrazito visokih katedrala s tankim zidovima i prozorima, ispunjenim svjetlom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1755",
+        "category": "knjizevnost",
+        "question": "Koji je britanski pisac, profesor anglosaksonske književnosti, autor epskog fantastičnog romana 'Gospodar prstenova'?",
+        "correct_answer": "J. R. R. Tolkien",
+        "incorrect_answers": [
+            "C. S. Lewis",
+            "George R. R. Martin",
+            "Ursula K. Le Guin"
+        ],
+        "explanation": "J. R. R. Tolkien je stvorio složen i detaljan svijet Međuzemlja, postavivši temelje moderne fantastične književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1756",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski slikar, ključna figura kubizma, autor slike 'Guernica', koja prikazuje stradanja civilnog stanovništva tijekom Španjolskog građanskog rata?",
+        "correct_answer": "Pablo Picasso",
+        "incorrect_answers": [
+            "Salvador Dalí",
+            "Joan Miró",
+            "Francisco Goya"
+        ],
+        "explanation": "Pablo Picasso je jedan od najutjecajnijih umjetnika 20. stoljeća, a 'Guernica' je njegovo najpoznatije politički angažirano djelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1757",
+        "category": "knjizevnost",
+        "question": "Koji je njemački barokni kompozitor, poznat po djelima poput 'Četiri godišnja doba', autor oratorija 'Mesija'?",
+        "correct_answer": "Georg Friedrich Händel",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "Antonio Vivaldi",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "Georg Friedrich Händel je bio veliki barokni kompozitor, a njegov oratorij 'Mesija' s 'Aleluja' zborom je jedno od najslavnijih djela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1758",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, poznat po iznimnoj erudiciji i avangardnim idejama, autor poetske zbirke 'Lelek sebra'?",
+        "correct_answer": "Janko Polić Kamov",
+        "incorrect_answers": [
+            "Antun Gustav Matoš",
+            "Tin Ujević",
+            "A. B. Šimić"
+        ],
+        "explanation": "Janko Polić Kamov bio je radikalan i inovativan pisac čije je djelo obilježilo početak avangarde u hrvatskoj književnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1759",
+        "category": "knjizevnost",
+        "question": "Koji je švedski filmski redatelj, poznat po svojim egzistencijalnim dramama i vizualno dojmljivim filmovima, autor 'Sedmog pečata' i 'Persona'?",
+        "correct_answer": "Ingmar Bergman",
+        "incorrect_answers": [
+            "Federico Fellini",
+            "Akira Kurosawa",
+            "Stanley Kubrick"
+        ],
+        "explanation": "Ingmar Bergman je bio jedan od najvažnijih filmskih autora u povijesti, čiji su filmovi istraživali duboka filozofska pitanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1760",
+        "category": "knjizevnost",
+        "question": "Koji je ruski pisac, jedan od najvažnijih predstavnika realizma, autor romana 'Ana Karenjina' i 'Rat i mir'?",
+        "correct_answer": "Lav Tolstoj",
+        "incorrect_answers": [
+            "Fjodor Dostojevski",
+            "Anton Čehov",
+            "Ivan Turgenjev"
+        ],
+        "explanation": "Lav Tolstoj je svjetski priznati majstor realizma, čiji su romani 'Ana Karenjina' i 'Rat i mir' klasici svjetske književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1761",
+        "category": "knjizevnost",
+        "question": "Koji je francuski postimpresionistički slikar, poznat po svojim scenama iz Tahitija i ekspresivnim bojama, autor slike 'Odakle dolazimo? Što smo? Kamo idemo?'?",
+        "correct_answer": "Paul Gauguin",
+        "incorrect_answers": [
+            "Vincent van Gogh",
+            "Paul Cézanne",
+            "Henri Matisse"
+        ],
+        "explanation": "Paul Gauguin je bio umjetnik koji je tražio inspiraciju u egzotičnim kulturama, stvarajući jedinstvene, simbolične prikaze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1762",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski barokni kompozitor, poznat po brojnim koncertima za violinu, uključujući 'Četiri godišnja doba'?",
+        "correct_answer": "Antonio Vivaldi",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "Georg Friedrich Händel",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "Antonio Vivaldi je bio iznimno plodan kompozitor baroka, čiji su koncerti za violinu postali iznimno popularni i prepoznatljivi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1763",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, jedan od najznačajnijih predstavnika realizma, autor romana 'Zlatarovo zlato'?",
+        "correct_answer": "August Šenoa",
+        "incorrect_answers": [
+            "Eugen Kumičić",
+            "Josip Kozarac",
+            "Ksaver Šandor Gjalski"
+        ],
+        "explanation": "August Šenoa je prvi pravi hrvatski romanopisac i autor je povijesnog romana 'Zlatarovo zlato'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1764",
+        "category": "knjizevnost",
+        "question": "Koji je avangardni umjetnički pokret, nastao u Rusiji oko 1913. godine, odbacivao figurativno slikarstvo i težio geometrijskoj apstrakciji, s istaknutim umjetnikom Kazimirom Maljevičem?",
+        "correct_answer": "Suprematizam",
+        "incorrect_answers": [
+            "Konstruktivizam",
+            "Futurizam",
+            "Kubizam"
+        ],
+        "explanation": "Suprematizam je pokret čiji je cilj bio 'čisti osjećaj', izražen kroz jednostavne geometrijske oblike i primarne boje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1765",
+        "category": "knjizevnost",
+        "question": "Koji je američki filmski redatelj, poznat po svojim inovativnim narativnim tehnikama i dubokim likovima, autor filmova 'Građanin Kane' i 'Dodir zla'?",
+        "correct_answer": "Orson Welles",
+        "incorrect_answers": [
+            "Alfred Hitchcock",
+            "Billy Wilder",
+            "Frank Capra"
+        ],
+        "explanation": "Orson Welles je s 'Građaninom Kaneom' revolucionirao filmsku priču i tehniku, postavljajući nove standarde u kinematografiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1766",
+        "category": "knjizevnost",
+        "question": "Koji je starogrčki filozof, poznat po svojoj dijalektičkoj metodi i utjecaju na zapadnjačku misao, autor djela 'Država' (Politeia)?",
+        "correct_answer": "Platon",
+        "incorrect_answers": [
+            "Aristotel",
+            "Sokrat",
+            "Heraklit"
+        ],
+        "explanation": "Platon je bio Sokratov učenik i osnivač Akademije u Ateni, a 'Država' je jedno od njegovih najvažnijih djela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1767",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski kompozitor, poznat po avangardnim pristupima glazbi i elektroničkim eksperimentima, autor djela 'Koncert za violinu i orkestar' (1997.)?",
+        "correct_answer": "Igor Kuljerić",
+        "incorrect_answers": [
+            "Davor Rocco",
+            "Mladen Tarbuk",
+            "Frano Parać"
+        ],
+        "explanation": "Igor Kuljerić bio je istaknuti hrvatski kompozitor čiji se opus kretao od neoklasicizma do elektroničke glazbe i avangarde.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1768",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski slikar ranog baroka, poznat po svojim grupnim portretima i majstorskom korištenju svjetla, autor 'Noćne straže'?",
+        "correct_answer": "Rembrandt van Rijn",
+        "incorrect_answers": [
+            "Johannes Vermeer",
+            "Frans Hals",
+            "Jan Steen"
+        ],
+        "explanation": "Rembrandt je bio vodeći slikar nizozemskog Zlatnog doba, čije je 'Noćna straža' monumentalno djelo grupnog portretiranja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1769",
+        "category": "knjizevnost",
+        "question": "Koji je irski književnik, poznat po svojim inovativnim tehnikama toka svijesti i složenoj prozi, autor romana 'Uliks'?",
+        "correct_answer": "James Joyce",
+        "incorrect_answers": [
+            "Virginia Woolf",
+            "Marcel Proust",
+            "Franz Kafka"
+        ],
+        "explanation": "James Joyce je revolucionarizirao roman svojim djelom 'Uliks', koje se smatra jednim od najvažnijih modernističkih romana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_1770",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski arhitekt, uz Ivana Meštrovića, zaslužan za projekt izgradnje Doma likovnih umjetnika u Zagrebu, poznatog i kao 'Džamija'?",
+        "correct_answer": "Harold Bilinić",
+        "incorrect_answers": [
+            "Viktor Kovačić",
+            "Edo Šen",
+            "Drago Ibler"
+        ],
+        "explanation": "Harold Bilinić je bio glavni arhitekt Doma likovnih umjetnika, dok je Ivan Meštrović bio idejni začetnik i sudjelovao u projektu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
