@@ -27634,5 +27634,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2146",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila najviše naslova svjetskog prvaka u nogometu (FIFA Svjetsko prvenstvo za muškarce) (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Argentina",
+            "Italija"
+        ],
+        "explanation": "Brazil je osvojio pet naslova svjetskog prvaka, što ga čini najuspješnijom reprezentacijom u povijesti FIFA Svjetskih prvenstava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2147",
+        "category": "sport",
+        "question": "Kako se u košarci naziva postignuće kada igrač u jednoj utakmici ostvari dvoznamenkast broj (minimalno 10) u dvije od pet statističkih kategorija (poeni, skokovi, asistencije, ukradene lopte, blokade)?",
+        "correct_answer": "Double-double",
+        "incorrect_answers": [
+            "Triple-double",
+            "Quadruple-double",
+            "Perfect game"
+        ],
+        "explanation": "Double-double je statistički termin u košarci za igrača koji ostvari dvoznamenkasti broj u dvije navedene kategorije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2148",
+        "category": "sport",
+        "question": "Koji je Grand Slam teniski turnir jedini koji se tradicionalno igra na travnatoj podlozi?",
+        "correct_answer": "Wimbledon",
+        "incorrect_answers": [
+            "Roland Garros",
+            "Australian Open",
+            "US Open"
+        ],
+        "explanation": "Wimbledon je najstariji teniski turnir na svijetu i jedini Grand Slam koji se igra na travnatoj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2149",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući golmana) smije biti istovremeno u vodi za jednu ekipu tijekom utakmice vaterpola?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "Svaka ekipa u vaterpolu ima sedam igrača u vodi u isto vrijeme, uključujući jednog golmana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2150",
+        "category": "sport",
+        "question": "Koja je država rodno mjesto borilačke vještine i olimpijskog sporta Juda?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Koreja",
+            "Tajland"
+        ],
+        "explanation": "Judo je moderna japanska borilačka vještina i sport, nastala krajem 19. stoljeća iz ju-jutsua.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2151",
+        "category": "sport",
+        "question": "Koliko minuta traje jedna regularna runda u profesionalnom boksu za muškarce?",
+        "correct_answer": "Tri minute",
+        "incorrect_answers": [
+            "Dvije minute",
+            "Četiri minute",
+            "Pet minuta"
+        ],
+        "explanation": "Profesionalni boksački mečevi za muškarce obično se sastoje od rundi koje traju tri minute.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2152",
+        "category": "sport",
+        "question": "Koliko je igrača (uključujući golmana) dopušteno da bude na nogometnom terenu za jednu ekipu na početku utakmice?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Deset",
+            "Dvanaest",
+            "Devet"
+        ],
+        "explanation": "Svaka nogometna ekipa započinje utakmicu s jedanaest igrača na terenu, uključujući i golmana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2153",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem dva igrača ili dva para koriste rekete kako bi udarali lopticu s perjem (shuttlecock) preko mreže?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Tenis",
+            "Stolni tenis",
+            "Odbojka"
+        ],
+        "explanation": "Badminton je raketni sport u kojem se igra s lopticom s perjem preko mreže.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2154",
+        "category": "sport",
+        "question": "Kako se u košarci naziva prekršaj kada igrač s loptom napravi previše koraka bez driblanja?",
+        "correct_answer": "Koraci",
+        "incorrect_answers": [
+            "Dupla",
+            "Osobna pogreška",
+            "Preko pola"
+        ],
+        "explanation": "Koraci su prekršaj u košarci kada igrač prekrši pravilo o broju dozvoljenih koraka s loptom bez driblinga.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2155",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem natjecatelji koriste luk i strijele kako bi pogodili metu?",
+        "correct_answer": "Streličarstvo",
+        "incorrect_answers": [
+            "Pikado",
+            "Gađanje",
+            "Biatlon"
+        ],
+        "explanation": "Streličarstvo je sport preciznosti i spretnosti gdje se koristi luk za ispaljivanje strijela prema meti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2156",
+        "category": "sport",
+        "question": "Koji se plivački stil smatra najbržim i karakterizira ga naizmjenično zamahivanje rukama iznad vode i lepršavi udarac nogama?",
+        "correct_answer": "Kraul (Slobodni stil)",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Leptir"
+        ],
+        "explanation": "Kraul je najbrži plivački stil, s naizmjeničnim pokretima ruku i takozvanim 'flutter' udarcima nogama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2157",
+        "category": "sport",
+        "question": "Kako se naziva središnja crvena crta koja dijeli klizalište na dvije polovice u hokeju na ledu?",
+        "correct_answer": "Centar-linija",
+        "incorrect_answers": [
+            "Plava linija",
+            "Gol-linija",
+            "Zona ofsajda"
+        ],
+        "explanation": "Središnja crvena crta dijeli klizalište u hokeju na ledu na dvije jednake polovice, poznata kao centar-linija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2158",
+        "category": "sport",
+        "question": "Kako se naziva zimski sport u kojem se natjecatelji spuštaju po ledenoj stazi na sanjkama, glavom naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Sanjkanje (Luge)",
+            "Nordic Combined"
+        ],
+        "explanation": "Skeleton je adrenalinski zimski sport u kojem se sportaši spuštaju po ledenoj stazi na sanjkama, ležeći na trbuhu i glavom naprijed.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2159",
+        "category": "sport",
+        "question": "Kako se u golfu naziva rezultat kada igrač završi rupu s jednim udarcem manje od 'para' (očekivanog broja udaraca) za tu rupu?",
+        "correct_answer": "Birdie",
+        "incorrect_answers": [
+            "Eagle",
+            "Bogey",
+            "Albatross"
+        ],
+        "explanation": "Birdie je golfski termin koji označava rezultat od jednog udarca ispod para na određenoj rupi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2160",
+        "category": "sport",
+        "question": "Kako se naziva nordijska disciplina u zimskim sportovima koja kombinira skijaško trčanje i skijaške skokove?",
+        "correct_answer": "Nordijska kombinacija",
+        "incorrect_answers": [
+            "Biatlon",
+            "Alpsko skijanje",
+            "Freestyle skijanje"
+        ],
+        "explanation": "Nordijska kombinacija je zimska sportska disciplina koja uključuje natjecanje u skijaškim skokovima i skijaškom trčanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2161",
+        "category": "sport",
+        "question": "Kako se naziva službena osoba koja sjedi na povišenoj stolici i nadgleda teniski meč, donoseći ključne odluke?",
+        "correct_answer": "Glavni sudac (Chair Umpire)",
+        "incorrect_answers": [
+            "Linijski sudac",
+            "Sakupljač lopti",
+            "Arbitar"
+        ],
+        "explanation": "Glavni sudac, poznat kao 'chair umpire', odgovoran je za provođenje pravila i donošenje odluka tijekom teniskog meča.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2162",
+        "category": "sport",
+        "question": "Koja je latinska krilatica Olimpijskih igara, koja promiče brže, više, jače?",
+        "correct_answer": "Citius, Altius, Fortius",
+        "incorrect_answers": [
+            "Veni, Vidi, Vici",
+            "Carpe Diem",
+            "E Pluribus Unum"
+        ],
+        "explanation": "'Citius, Altius, Fortius' je službeni moto Olimpijskih igara, što na latinskom znači 'Brže, više, jače'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2163",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi 'touchdown' u američkom nogometu, prije pokušaja za dodatne poene (pretvaranja)?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Tri",
+            "Pet",
+            "Sedam"
+        ],
+        "explanation": "Touchdown je primarni način postizanja bodova u američkom nogometu i vrijedi šest poena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2164",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička sprava koja se sastoji od dviju paralelnih vodoravnih šipki, korištena uglavnom u muškoj gimnastici?",
+        "correct_answer": "Razboj",
+        "incorrect_answers": [
+            "Preča",
+            "Konj s hvataljkama",
+            "Karike"
+        ],
+        "explanation": "Razboj je gimnastička sprava s dvije paralelne šipke, prvenstveno korištena u muškoj sportskoj gimnastici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2165",
+        "category": "sport",
+        "question": "Kako se naziva najprestižnija biciklistička utrka na svijetu, poznata i pod nadimkom 'La Grande Boucle'?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ],
+        "explanation": "Tour de France je najpoznatija i najcjenjenija višednevna biciklistička utrka, često nazivana 'Velika petlja'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2166",
+        "category": "sport",
+        "question": "Tko se smatra osnivačem modernih Olimpijskih igara, oživljenih 1896. godine?",
+        "correct_answer": "Pierre de Coubertin",
+        "incorrect_answers": [
+            "Juan Antonio Samaranch",
+            "Thomas Bach",
+            "Demetrius Vikelas"
+        ],
+        "explanation": "Francuski pedagog Pierre de Coubertin zaslužan je za oživljavanje Olimpijskih igara u modernom obliku krajem 19. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2167",
+        "category": "sport",
+        "question": "Koja se riječ u tenisu koristi za označavanje nultog poena, odnosno početnog rezultata u gemu?",
+        "correct_answer": "Love",
+        "incorrect_answers": [
+            "Zero",
+            "Empty",
+            "Nil"
+        ],
+        "explanation": "Termin 'love' u tenisu potječe od francuske riječi 'l'œuf' (jaje), zbog sličnosti s brojem nula.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2168",
+        "category": "sport",
+        "question": "Kako se naziva atletska disciplina u kojoj sportaši koriste dugačku savitljivu motku kako bi preskočili visoko postavljenu letvicu?",
+        "correct_answer": "Skok s motkom",
+        "incorrect_answers": [
+            "Skok u vis",
+            "Skok u dalj",
+            "Troskok"
+        ],
+        "explanation": "Skok s motkom je atletska disciplina koja zahtijeva kombinaciju brzine, snage i tehnike za preskakanje visoko postavljenih prepreka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2169",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući golmana) smije biti na terenu za jednu ekipu tijekom utakmice hokeja na travi?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Deset",
+            "Dvanaest",
+            "Osam"
+        ],
+        "explanation": "Hokej na travi igra se s jedanaest igrača po ekipi na terenu, slično nogometu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2170",
+        "category": "sport",
+        "question": "Koja je japanska borilačka vještina primarno usmjerena na bacanja, držanja, gušenja i poluge na zglobovima, a ne na udarce?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Aikido"
+        ],
+        "explanation": "Judo (što znači 'nježan put') naglašava korištenje protivnikove snage protiv njega samoga, s fokusom na hrvačke tehnike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2171",
+        "category": "sport",
+        "question": "Kako se u američkom nogometu naziva završna zona terena (end zone) u koju momčad mora unijeti loptu kako bi postigla 'touchdown'?",
+        "correct_answer": "End zone",
+        "incorrect_answers": [
+            "Touchdown zona",
+            "Gol zona",
+            "Bodovna zona"
+        ],
+        "explanation": "'End zone' je dio terena u američkom nogometu gdje se postižu 'touchdown' poeni.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2172",
+        "category": "sport",
+        "question": "Koliko setova muški tenisač mora osvojiti kako bi pobijedio u meču na Grand Slam turniru (Australian Open, Roland Garros, Wimbledon, US Open)?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Dva",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "Muški tenisači na Grand Slam turnirima igraju do tri dobivena seta, odnosno do pet odigranih setova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2173",
+        "category": "sport",
+        "question": "Koji se sport bori s tri različita oružja (floret, sablja i mač) u olimpijskim disciplinama?",
+        "correct_answer": "Mačevanje",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Taekwondo"
+        ],
+        "explanation": "Mačevanje je borbeni sport koji se natječe s tri različite vrste oružja: floretom, sabljom i mačem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2174",
+        "category": "sport",
+        "question": "Koliki je maksimalni mogući rezultat (savršena igra) u jednoj partiji kuglanja (bowlinga)?",
+        "correct_answer": "300",
+        "incorrect_answers": [
+            "250",
+            "280",
+            "100"
+        ],
+        "explanation": "Savršena igra u kuglanju postiže se obaranjem svih deset čunjeva (strike) u svakom od deset frejmova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2175",
+        "category": "sport",
+        "question": "Koja je jedina država koja je osvojila svjetska prvenstva u nogometu (muški) i rukometu (muški) (stanje 2024.)?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Brazil",
+            "Francuska",
+            "Španjolska"
+        ],
+        "explanation": "Njemačka je osvojila 4 SP u nogometu i 3 SP u rukometu (uključujući i Istočnu Njemačku).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2176",
+        "category": "sport",
+        "question": "Koliko iznosi prosječna težina golf loptice, izražena u gramima?",
+        "correct_answer": "45.93 grama",
+        "incorrect_answers": [
+            "35.50 grama",
+            "50.25 grama",
+            "40.75 grama"
+        ],
+        "explanation": "Maksimalna dozvoljena težina golf loptice prema pravilima iznosi 45.93 grama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2177",
+        "category": "sport",
+        "question": "Koji se materijal tradicionalno koristi za izradu 'bowling' kugli?",
+        "correct_answer": "Uretan (ili reakcija od smole)",
+        "incorrect_answers": [
+            "Drvo",
+            "Metal",
+            "Guma"
+        ],
+        "explanation": "Moderne kugle za kuglanje izrađuju se od poliuretana ili reaktivnih smola, za razliku od starijih ebonitnih kugli.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2178",
+        "category": "sport",
+        "question": "Koja je najviša točka na kojoj se natjecatelji u skijanju spuštaju u disciplini slobodnog stila 'Halfpipe' (visina zida)?",
+        "correct_answer": "6.7 metara",
+        "incorrect_answers": [
+            "5.5 metara",
+            "7.5 metara",
+            "4.8 metara"
+        ],
+        "explanation": "Standardna visina zidova halfpipea u profesionalnom skijanju i snowboardingu iznosi 22 stope, odnosno oko 6.7 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2179",
+        "category": "sport",
+        "question": "Koji se termin u jedrenju koristi za situaciju kada vjetar dolazi iz prednje strane broda, zbog čega jedra gube snagu i lepršaju?",
+        "correct_answer": "Stagnacija (Luffing)",
+        "incorrect_answers": [
+            "Kormilarenje",
+            "Uzavrelost",
+            "Pristajanje"
+        ],
+        "explanation": "'Luffing' je jedriličarski termin kada jedra gube snagu jer vjetar puše izravno prema naprijed.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2180",
+        "category": "sport",
+        "question": "Koliko je ukupno osvojenih Grand Slam naslova u pojedinačnoj konkurenciji imala Serena Williams (stanje 2024.)?",
+        "correct_answer": "23",
+        "incorrect_answers": [
+            "20",
+            "24",
+            "25"
+        ],
+        "explanation": "Serena Williams drži rekord s 23 Grand Slam naslova u Open eri u pojedinačnoj konkurenciji za žene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2181",
+        "category": "sport",
+        "question": "Koji je stadion domaćin finala UEFA Lige prvaka 2024. godine?",
+        "correct_answer": "Wembley Stadium (London)",
+        "incorrect_answers": [
+            "Santiago Bernabéu",
+            "Stade de France",
+            "Allianz Arena"
+        ],
+        "explanation": "Finale UEFA Lige prvaka 2024. godine odigrat će se na legendarnom Wembley stadionu u Londonu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2182",
+        "category": "sport",
+        "question": "Tko je jedini boksač koji je osvojio naslov svjetskog prvaka u osam različitih težinskih kategorija?",
+        "correct_answer": "Manny Pacquiao",
+        "incorrect_answers": [
+            "Floyd Mayweather Jr.",
+            "Muhammad Ali",
+            "Oscar De La Hoya"
+        ],
+        "explanation": "Manny Pacquiao je jedini boksač koji je osvojio naslove svjetskog prvaka u osam različitih težinskih kategorija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2183",
+        "category": "sport",
+        "question": "Koji je engleski nogometni klub jedini osvojio Premiership (Premier League) bez poraza u sezoni (2003./2004.)?",
+        "correct_answer": "Arsenal",
+        "incorrect_answers": [
+            "Manchester United",
+            "Chelsea",
+            "Liverpool"
+        ],
+        "explanation": "Arsenal je u sezoni 2003./2004. osvojio Premier ligu kao jedina momčad koja nije doživjela poraz, zbog čega su nazvani 'Nepobjedivi'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2184",
+        "category": "sport",
+        "question": "Koliko je dugačka staza za sanjkanje (Luge) na Olimpijskim igrama?",
+        "correct_answer": "Približno 1300-1500 metara",
+        "incorrect_answers": [
+            "800-1000 metara",
+            "1800-2000 metara",
+            "500-700 metara"
+        ],
+        "explanation": "Olimpijske staze za sanjkanje obično su duge između 1300 i 1500 metara, ovisno o lokaciji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
