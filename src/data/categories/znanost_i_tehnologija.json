@@ -26035,5 +26035,515 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2017",
+        "category": "znanost",
+        "question": "Koja žlijezda u ljudskom tijelu proizvodi inzulin, hormon ključan za regulaciju šećera u krvi?",
+        "correct_answer": "Gušterača (pankreas)",
+        "incorrect_answers": [
+            "Jetra",
+            "Štitnjača",
+            "Hipofiza"
+        ],
+        "explanation": "Gušterača je organ koji proizvodi inzulin, esencijalan za metabolizam glukoze. Njegov nedostatak ili otpornost uzrokuju dijabetes.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2018",
+        "category": "znanost",
+        "question": "Kako se naziva grana biologije koja se bavi proučavanjem interakcija između organizama i njihovog okoliša?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Zoologija",
+            "Botanika",
+            "Genetika"
+        ],
+        "explanation": "Ekologija istražuje odnose živih bića međusobno i s neživom prirodom, te kako oni oblikuju ekosustave.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2019",
+        "category": "znanost",
+        "question": "Koji je proces dio stanične diobe gdje se kromosomi razdvajaju u dvije identične skupine, rezultirajući u dvije kćerinske stanice?",
+        "correct_answer": "Mitoza",
+        "incorrect_answers": [
+            "Mejoza",
+            "Fotosinteza",
+            "Glikoliza"
+        ],
+        "explanation": "Mitoza je proces dijeljenja jezgre stanice, pri čemu se genetski materijal ravnomjerno raspodjeljuje u dvije nove stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2020",
+        "category": "znanost",
+        "question": "Koji organ u ljudskom tijelu filtrira krv, proizvodi mokraću i regulira ravnotežu vode i elektrolita?",
+        "correct_answer": "Bubreg",
+        "incorrect_answers": [
+            "Slezena",
+            "Žučni mjehur",
+            "Jetra"
+        ],
+        "explanation": "Bubreg ima ključnu ulogu u izlučivanju otpadnih tvari iz krvi, regulaciji krvnog tlaka i proizvodnji hormona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2021",
+        "category": "znanost",
+        "question": "Koji fizikalni zakon opisuje da je sila između dviju nabijenih čestica proporcionalna umnošku njihovih naboja i obrnuto proporcionalna kvadratu udaljenosti između njih?",
+        "correct_answer": "Coulombov zakon",
+        "incorrect_answers": [
+            "Newtonov zakon gravitacije",
+            "Ohmov zakon",
+            "Hookeov zakon"
+        ],
+        "explanation": "Coulombov zakon je temeljni zakon elektrostatike koji definira silu interakcije između električnih naboja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2022",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje snage u SI sustavu?",
+        "correct_answer": "Vat (W)",
+        "incorrect_answers": [
+            "Džul (J)",
+            "Amper (A)",
+            "Volt (V)"
+        ],
+        "explanation": "Vat je jedinica za snagu koja predstavlja brzinu obavljanja rada ili prijenosa energije (1 J/s).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2023",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen savijanja svjetlosti kada prolazi iz jednog medija u drugi (npr. iz zraka u vodu)?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Refrakcija je promjena smjera vala (svjetlosti) kada prolazi kroz medij različite optičke gustoće, uzrokujući prividno savijanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2024",
+        "category": "znanost",
+        "question": "Koji se tip vala koristi u medicinskim uređajima poput ultrazvuka za snimanje unutarnjih organa?",
+        "correct_answer": "Zvučni valovi visoke frekvencije",
+        "incorrect_answers": [
+            "Elektromagnetski valovi (X-zrake)",
+            "Mikrovalovi",
+            "Radio valovi"
+        ],
+        "explanation": "Ultrazvuk koristi zvučne valove frekvencija viših od čujnog raspona za generiranje slika unutarnjih struktura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2025",
+        "category": "znanost",
+        "question": "Koji kemijski element je ključan za izgradnju proteina i nukleinskih kiselina u svim živim organizmima?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljik",
+            "Fosfor"
+        ],
+        "explanation": "Dušik je esencijalan sastavni dio aminokiselina (gradivni blokovi proteina) i dušičnih baza u DNA i RNA.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2026",
+        "category": "znanost",
+        "question": "Koji astronomski fenomen uzrokuje prividno retrogradno kretanje planeta na nebu?",
+        "correct_answer": "Razlika u orbitalnim brzinama planeta",
+        "incorrect_answers": [
+            "Privlačenje crnih rupa",
+            "Pomicanje osi rotacije Zemlje",
+            "Sunčeve baklje"
+        ],
+        "explanation": "Retrogradno kretanje je optička iluzija nastala zbog relativnih orbitalnih brzina Zemlje i drugih planeta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2027",
+        "category": "znanost",
+        "question": "Koji je naziv za putanju po kojoj se jedno nebesko tijelo kreće oko drugog?",
+        "correct_answer": "Orbita",
+        "incorrect_answers": [
+            "Trajektorija",
+            "Ekliptika",
+            "Apogej"
+        ],
+        "explanation": "Orbita je zakrivljena putanja nebeskog tijela pod utjecajem gravitacije drugog, masivnijeg tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2028",
+        "category": "znanost",
+        "question": "Koji je akronim za sustav koji omogućuje pohranu i dohvaćanje podataka strukturiranih u tablice s redcima i stupcima?",
+        "correct_answer": "SQL (Structured Query Language)",
+        "incorrect_answers": [
+            "HTML",
+            "CSS",
+            "XML"
+        ],
+        "explanation": "SQL je standardizirani jezik za upravljanje i manipulaciju relacijskim bazama podataka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2029",
+        "category": "znanost",
+        "question": "Kako se naziva osnovna jedinica digitalne informacije koja može biti 0 ili 1?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Nibble",
+            "Vord"
+        ],
+        "explanation": "Bit je najmanja jedinica podataka u računalstvu, koja predstavlja jedan od dva stanja (uključeno/isključeno, točno/netočno).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2030",
+        "category": "znanost",
+        "question": "Koji je pojam za proces pretvaranja izvornog koda napisanog u programskom jeziku u strojni kod koji računalo može izravno izvršiti?",
+        "correct_answer": "Kompilacija",
+        "incorrect_answers": [
+            "Interpretacija",
+            "Debagiranje",
+            "Optimizacija"
+        ],
+        "explanation": "Kompilacija je prevođenje programa visoke razine u izvedivi strojni kod prije samog izvršavanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2031",
+        "category": "znanost",
+        "question": "Kako se naziva softverski sustav koji upravlja hardverom računala i pruža platformu za pokretanje aplikacija?",
+        "correct_answer": "Operativni sustav",
+        "incorrect_answers": [
+            "Preglednik",
+            "Tekstualni procesor",
+            "Antivirusni program"
+        ],
+        "explanation": "Operativni sustav je temeljni softver koji upravlja resursima računala i omogućuje korisnicima interakciju s njim.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2032",
+        "category": "znanost",
+        "question": "Koji je izumitelj poznat po patentiranju žarulje s ugljenom niti 1879. godine?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "Guglielmo Marconi"
+        ],
+        "explanation": "Thomas Edison je razvio komercijalno isplativu i dugotrajnu žarulju, što je transformiralo rasvjetu diljem svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2033",
+        "category": "znanost",
+        "question": "Koji materijal, poznat po svojoj čvrstoći i lakoći, postaje sve važniji u avioindustriji i proizvodnji automobila?",
+        "correct_answer": "Kompozitni materijali (npr. ugljična vlakna)",
+        "incorrect_answers": [
+            "Čelik",
+            "Aluminij",
+            "Titan"
+        ],
+        "explanation": "Kompozitni materijali, poput onih s ugljičnim vlaknima, nude visoku čvrstoću uz malu težinu, idealno za zrakoplovstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2034",
+        "category": "znanost",
+        "question": "Koji se princip koristi u GPS (Global Positioning System) sustavima za određivanje lokacije na Zemlji?",
+        "correct_answer": "Trilateracija na temelju satelitskih signala",
+        "incorrect_answers": [
+            "Triangulacija pomoću baznih stanica",
+            "Seizmička analiza",
+            "Radarska detekcija"
+        ],
+        "explanation": "GPS određuje lokaciju mjereći vrijeme potrebno da signali s najmanje tri satelita stignu do prijamnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2035",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje vozilima da se kreću i upravljaju bez ljudske intervencije?",
+        "correct_answer": "Autonomna vožnja",
+        "incorrect_answers": [
+            "Daljinsko upravljanje",
+            "Hibridni pogon",
+            "Telemetrija"
+        ],
+        "explanation": "Autonomna vožnja (ili samovozeća vozila) koristi senzore, algoritme i AI za percepciju okoline i samostalno upravljanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2036",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija katalitičkog pretvarača u automobilima?",
+        "correct_answer": "Smanjenje štetnih emisija iz ispušnih plinova",
+        "incorrect_answers": [
+            "Povećanje snage motora",
+            "Smanjenje potrošnje goriva",
+            "Pretvaranje goriva u električnu energiju"
+        ],
+        "explanation": "Katalitički pretvarač koristi kemijske reakcije za pretvaranje otrovnih plinova (CO, NOx, HC) u manje štetne tvari.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2037",
+        "category": "znanost",
+        "question": "Koji je obnovljivi izvor energije koji koristi energiju vjetra za pokretanje turbina i proizvodnju električne energije?",
+        "correct_answer": "Energija vjetra",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Hidroenergija",
+            "Geotermalna energija"
+        ],
+        "explanation": "Vjetroelektrane pretvaraju kinetičku energiju vjetra u električnu energiju putem turbina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2038",
+        "category": "znanost",
+        "question": "Kako se naziva proces kruženja vode u prirodi, uključujući isparavanje, kondenzaciju, oborine i otjecanje?",
+        "correct_answer": "Hidrološki ciklus",
+        "incorrect_answers": [
+            "Biogeokemijski ciklus",
+            "Karbonski ciklus",
+            "Dušikov ciklus"
+        ],
+        "explanation": "Hidrološki ciklus je stalno kruženje vode između atmosfere, kopna, mora i podzemnih voda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2039",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica nasljeđivanja koja se sastoji od segmenta DNA i nosi informacije za određenu osobinu?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Alel",
+            "Protein"
+        ],
+        "explanation": "Gen je funkcionalni segment DNA koji kodira za sintezu specifičnog proteina ili molekule RNA, prenoseći nasljedne osobine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2040",
+        "category": "znanost",
+        "question": "Koji sustav u ljudskom tijelu odgovara za borbu protiv infekcija i bolesti?",
+        "correct_answer": "Imunološki sustav",
+        "incorrect_answers": [
+            "Endokrini sustav",
+            "Živčani sustav",
+            "Probavni sustav"
+        ],
+        "explanation": "Imunološki sustav štiti tijelo od patogena prepoznavanjem i uništavanjem stranih agenasa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2041",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem stanice probavljaju vlastite oštećene ili nepotrebne komponente?",
+        "correct_answer": "Autofagija",
+        "incorrect_answers": [
+            "Apoptotza",
+            "Mitoza",
+            "Fagocitoza"
+        ],
+        "explanation": "Autofagija je prirodni, regulirani proces razgradnje i recikliranja staničnih komponenti, ključan za stanično zdravlje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2042",
+        "category": "znanost",
+        "question": "Koji je temeljni zakon gibanja koji kaže da je sila jednaka umnošku mase i akceleracije (F=ma)?",
+        "correct_answer": "Drugi Newtonov zakon",
+        "incorrect_answers": [
+            "Prvi Newtonov zakon",
+            "Treći Newtonov zakon",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Drugi Newtonov zakon gibanja definira odnos između sile, mase i akceleracije tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2043",
+        "category": "znanost",
+        "question": "Koji fenomen opisuje da se izvor zvuka ili svjetlosti čini višim u frekvenciji kada se približava promatraču, a nižim kada se udaljava?",
+        "correct_answer": "Dopplerov efekt",
+        "incorrect_answers": [
+            "Zeemanov efekt",
+            "Fotoelektrični efekt",
+            "Comptonov efekt"
+        ],
+        "explanation": "Dopplerov efekt je promjena frekvencije vala u odnosu na promatrača zbog relativnog gibanja izvora vala i promatrača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2044",
+        "category": "znanost",
+        "question": "Koji tip energije je pohranjen u bateriji ili gorivu i oslobađa se kemijskim reakcijama?",
+        "correct_answer": "Kemijska energija",
+        "incorrect_answers": [
+            "Toplinska energija",
+            "Kinetička energija",
+            "Potencijalna energija"
+        ],
+        "explanation": "Kemijska energija je energija pohranjena u vezama između atoma i molekula, koja se oslobađa tijekom kemijskih reakcija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2045",
+        "category": "znanost",
+        "question": "Koja je molekula poznata kao \"univerzalno otapalo\" zbog svoje sposobnosti otapanja mnogih tvari?",
+        "correct_answer": "Voda (H2O)",
+        "incorrect_answers": [
+            "Etanol",
+            "Benzen",
+            "Octena kiselina"
+        ],
+        "explanation": "Voda je polarna molekula koja može stvarati vodikove veze, što joj omogućuje otapanje širokog spektra polarnih i ionskih tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2046",
+        "category": "znanost",
+        "question": "Koji se proces koristi za odvajanje komponenti tekuće smjese na temelju njihovih različitih vrelišta?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Kristalizacija",
+            "Sedimentacija"
+        ],
+        "explanation": "Destilacija je metoda odvajanja tvari u smjesi zagrijavanjem do vrelišta i kondenziranjem para.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2047",
+        "category": "znanost",
+        "question": "Koji je naziv za eksploziju masivne zvijezde na kraju njenog životnog ciklusa?",
+        "correct_answer": "Supernova",
+        "incorrect_answers": [
+            "Nova",
+            "Crna rupa",
+            "Pulsar"
+        ],
+        "explanation": "Supernova je iznimno sjajna i snažna zvjezdana eksplozija koja može privremeno zasjeniti cijelu galaksiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2048",
+        "category": "znanost",
+        "question": "Kako se naziva faza Mjeseca kada je cijela njegova strana okrenuta prema Zemlji osvijetljena Suncem?",
+        "correct_answer": "Pun Mjesec",
+        "incorrect_answers": [
+            "Mladi Mjesec",
+            "Prva četvrt",
+            "Posljednja četvrt"
+        ],
+        "explanation": "Pun Mjesec nastaje kada je Mjesec na suprotnoj strani Zemlje od Sunca, pa je cijela njegova osvijetljena strana vidljiva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2049",
+        "category": "znanost",
+        "question": "Koji je planet poznat po svojim izrazitim prstenovima, uglavnom sastavljenim od čestica leda i stijena?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturnovi prstenovi su najspektakularniji u Sunčevom sustavu i čine ga jednim od najprepoznatljivijih planeta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2050",
+        "category": "znanost",
+        "question": "Koji se termin koristi za napad u kojem se pokušava preopteretiti sustav ili mreža lažnim zahtjevima kako bi postali nedostupni legitimnim korisnicima?",
+        "correct_answer": "DDoS (Distributed Denial of Service)",
+        "incorrect_answers": [
+            "Phishing",
+            "Ransomware",
+            "Viru"
+        ],
+        "explanation": "DDoS napad koristi više izvora za generiranje ogromnog prometa s ciljem preopterećenja ciljanog sustava ili mreže.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
