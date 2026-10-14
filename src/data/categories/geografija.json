@@ -21062,5 +21062,515 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1681",
+        "category": "geografija",
+        "question": "Koji je drugi najviši planinski vrh na svijetu?",
+        "correct_answer": "K2 (Mount Godwin Austen)",
+        "incorrect_answers": [
+            "Mount Everest",
+            "Kangchenjunga",
+            "Lhotse"
+        ],
+        "explanation": "K2 je drugi najviši vrh na Zemlji i dio je planinskog lanca Karakorum. Nalazi se na granici Pakistana i Kine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1682",
+        "category": "geografija",
+        "question": "Koji je naziv za sloj Zemljine atmosfere koji se nalazi iznad troposfere i sadrži ozonski omotač?",
+        "correct_answer": "Stratosfera",
+        "incorrect_answers": [
+            "Mezosfera",
+            "Termosfera",
+            "Egzosfera"
+        ],
+        "explanation": "Stratosfera je drugi sloj Zemljine atmosfere i sadrži ozonski omotač koji apsorbira većinu Sunčevog UV zračenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1683",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz glavni grad Ujedinjenog Kraljevstva, London?",
+        "correct_answer": "Temza",
+        "incorrect_answers": [
+            "Sena",
+            "Špreja",
+            "Rajna"
+        ],
+        "explanation": "Temza je druga najduža rijeka u Ujedinjenom Kraljevstvu i protječe kroz London prije nego što se ulije u Sjeverno more.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1684",
+        "category": "geografija",
+        "question": "Koja je najniža točka u Europi u smislu kopnene nadmorske visine?",
+        "correct_answer": "Kaspijska depresija (obala Kaspijskog jezera)",
+        "incorrect_answers": [
+            "Mrtvo more (obala)",
+            "Dolina smrti",
+            "Donji tok Rajne"
+        ],
+        "explanation": "Kaspijska depresija, oko Kaspijskog jezera, najniža je točka u Europi s oko 28 metara ispod razine mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1685",
+        "category": "geografija",
+        "question": "Kako se naziva rijeka ili vodotok koji se ulijeva u veću rijeku, jezero ili ocean, ali nije glavni tok?",
+        "correct_answer": "Pritoka",
+        "incorrect_answers": [
+            "Delta",
+            "Estuarij",
+            "Izvor"
+        ],
+        "explanation": "Pritoka je manji vodotok koji se ulijeva u veći vodotok, a ne izravno u more ili ocean.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1686",
+        "category": "geografija",
+        "question": "Koja je najmanja suverena država na svijetu po površini?",
+        "correct_answer": "Vatikan",
+        "incorrect_answers": [
+            "Monako",
+            "Nauru",
+            "San Marino"
+        ],
+        "explanation": "Vatikan je najmanja neovisna država na svijetu, enklava unutar Rima, s površinom od 0.44 km².",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1687",
+        "category": "geografija",
+        "question": "Kako se naziva udubina na vrhu vulkana, često u obliku zdjele, nastala nakon erupcije ili urušavanja vulkanske komore?",
+        "correct_answer": "Krater",
+        "incorrect_answers": [
+            "Kaldera",
+            "Kupola",
+            "Ventil"
+        ],
+        "explanation": "Krater je zdjelasta depresija na vrhu vulkana odakle se izbacuju lava i vulkanski materijali tijekom erupcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1688",
+        "category": "geografija",
+        "question": "Kako se naziva poluotok na kojem se nalazi država Italija?",
+        "correct_answer": "Apeninski poluotok",
+        "incorrect_answers": [
+            "Balkanski poluotok",
+            "Iberski poluotok",
+            "Skandinavski poluotok"
+        ],
+        "explanation": "Apeninski poluotok je jedan od tri velika poluotoka južne Europe, a najveći dio zauzima Italija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1689",
+        "category": "geografija",
+        "question": "Koji se kontinent često naziva 'otočnim kontinentom' zbog svog geografskog položaja?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Južna Amerika",
+            "Afrika"
+        ],
+        "explanation": "Australija je jedini kontinent koji je ujedno i država, te je okružen oceanom, zbog čega se naziva 'otočnim kontinentom'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1690",
+        "category": "geografija",
+        "question": "Kako se naziva geološka depresija u zapadnoj Sjevernoj Americi, poznata po ekstremnim temperaturama i tome što je najniža točka u Sjevernoj Americi?",
+        "correct_answer": "Dolina smrti (Death Valley)",
+        "incorrect_answers": [
+            "Veliki kanjon",
+            "Mojave pustinja",
+            "Slano jezero Utah"
+        ],
+        "explanation": "Dolina smrti, smještena u pustinji Mojave, najniža je točka u Sjevernoj Americi i jedno od najtoplijih mjesta na Zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1691",
+        "category": "geografija",
+        "question": "Koja je najnaseljenija država u Europi, ako izuzmemo Rusiju?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Francuska",
+            "Ujedinjeno Kraljevstvo",
+            "Italija"
+        ],
+        "explanation": "Njemačka je (stanje 2024.) najnaseljenija zemlja u Europi, s oko 84 milijuna stanovnika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1692",
+        "category": "geografija",
+        "question": "Kako se naziva tjesnac koji razdvaja Europu od Afrike i spaja Sredozemno more s Atlantskim oceanom?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Dardanele",
+            "Bospor",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji je strateški važna veza između Atlantskog oceana i Sredozemnog mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1693",
+        "category": "geografija",
+        "question": "Koja je zemlja u Južnoj Americi najveći svjetski proizvođač kave?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Ekvador",
+            "Peru"
+        ],
+        "explanation": "Brazil je dugi niz godina najveći svjetski proizvođač i izvoznik kave. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1694",
+        "category": "geografija",
+        "question": "Kako se naziva točka na površini Zemlje koja se nalazi točno iznad žarišta potresa (hipocentra)?",
+        "correct_answer": "Epicentar",
+        "incorrect_answers": [
+            "Hipocentar",
+            "Tektonska ploča",
+            "Seizmička zona"
+        ],
+        "explanation": "Epicentar je točka na površini Zemlje izravno iznad hipocentra, mjesta gdje se potres zapravo događa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1695",
+        "category": "geografija",
+        "question": "Kako se naziva pješčana uzvisina ili brežuljak, oblikovan djelovanjem vjetra, najčešće u pustinjama ili na obalama?",
+        "correct_answer": "Dina",
+        "incorrect_answers": [
+            "Oaza",
+            "Kanjon",
+            "Glečer"
+        ],
+        "explanation": "Dina je geomorfološki oblik nastao taloženjem pijeska, pretežno eolskim procesima, pod utjecajem vjetra.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1696",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz glavni grad Italije, Rim?",
+        "correct_answer": "Tiber",
+        "incorrect_answers": [
+            "Po",
+            "Arno",
+            "Adige"
+        ],
+        "explanation": "Tiber je treća najduža rijeka u Italiji i povijesno je bila ključna za razvoj grada Rima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1697",
+        "category": "geografija",
+        "question": "Kako se naziva poluzatvoreno obalno vodeno tijelo s mješavinom slatke vode iz rijeka i slane morske vode?",
+        "correct_answer": "Estuarij",
+        "incorrect_answers": [
+            "Laguna",
+            "Zaljev",
+            "Fjord"
+        ],
+        "explanation": "Estuarij je prijelazno područje gdje se riječna slatka voda miješa s oceanskom slanom vodom, što stvara jedinstveni ekosustav.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1698",
+        "category": "geografija",
+        "question": "Koji je najveći poluotok na svijetu po površini?",
+        "correct_answer": "Arabijski poluotok",
+        "incorrect_answers": [
+            "Indijski poluotok",
+            "Labrador",
+            "Skandinavski poluotok"
+        ],
+        "explanation": "Arabijski poluotok s površinom od oko 3,2 milijuna km² najveći je poluotok na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1699",
+        "category": "geografija",
+        "question": "Kako se naziva podvodna struktura nastala od kolonija koralja i drugih morskih organizama u tropskim morima?",
+        "correct_answer": "Koraljni greben",
+        "incorrect_answers": [
+            "Atol",
+            "Morski rov",
+            "Podvodni kanjon"
+        ],
+        "explanation": "Koraljni grebeni su masivne podvodne strukture sastavljene od kalcijevog karbonata koji luče koralji, a dom su bogatoj biološkoj raznolikosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1700",
+        "category": "geografija",
+        "question": "Koja je velika pustinja u Aziji poznata po ekstremnim kontinentalnim uvjetima, s vrućim ljetima i vrlo hladnim zimama?",
+        "correct_answer": "Gobi",
+        "incorrect_answers": [
+            "Sahara",
+            "Kalahari",
+            "Atacama"
+        ],
+        "explanation": "Pustinja Gobi je velika pustinja u Aziji, prostire se preko Kine i Mongolije, a karakteriziraju je velike temperaturne oscilacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1701",
+        "category": "geografija",
+        "question": "Kako se naziva velika masa leda, često nepravilnog oblika, koja pluta u moru, odlomljena od ledenjaka ili polarne ledene ploče?",
+        "correct_answer": "Ledeni brijeg",
+        "incorrect_answers": [
+            "Glečer",
+            "Santaros",
+            "Pakov led"
+        ],
+        "explanation": "Ledeni brijeg je veliki komad slatkovodnog leda koji se odlomio od kopnenog ledenjaka ili ledene police i pluta u oceanu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1702",
+        "category": "geografija",
+        "question": "Koja država leži na dva kontinenta, Europi i Aziji, a glavni joj je grad Ankara?",
+        "correct_answer": "Turska",
+        "incorrect_answers": [
+            "Rusija",
+            "Kazahstan",
+            "Egipat"
+        ],
+        "explanation": "Turska je transkontinentalna zemlja, s manjim dijelom na jugoistoku Europe i većim dijelom u zapadnoj Aziji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1703",
+        "category": "geografija",
+        "question": "Koji je najviši neprekinuti vodopad na svijetu?",
+        "correct_answer": "Anđeoski slapovi (Angel Falls)",
+        "incorrect_answers": [
+            "Niagarini slapovi",
+            "Viktorijini slapovi",
+            "Iguazú slapovi"
+        ],
+        "explanation": "Anđeoski slapovi u Venezueli najviši su vodopad na svijetu s visinom od 979 metara, s neprekinutim padom od 807 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1704",
+        "category": "geografija",
+        "question": "Kako se naziva ušće rijeke gdje se sedimenti talože u obliku trokutaste ili lepezaste nizine prije ulijevanja u veće vodeno tijelo?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Kanjon",
+            "Vodopad"
+        ],
+        "explanation": "Delta je geomorfološki oblik nastao taloženjem sedimenata na ušću rijeke u more, jezero ili drugu rijeku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1705",
+        "category": "geografija",
+        "question": "Koje dvije države povezuje Eurotunel (Channel Tunnel) ispod La Manchea?",
+        "correct_answer": "Ujedinjeno Kraljevstvo i Francuska",
+        "incorrect_answers": [
+            "Njemačka i Danska",
+            "Italija i Grčka",
+            "Španjolska i Maroko"
+        ],
+        "explanation": "Eurotunel, poznat i kao Chunnel, željeznički je tunel ispod La Manchea koji povezuje Folkeštone u Engleskoj i Coquelles u Francuskoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1706",
+        "category": "geografija",
+        "question": "Kako se naziva dugotrajno razdoblje bez značajnih oborina, što dovodi do nestašice vode i oštećenja usjeva?",
+        "correct_answer": "Suša",
+        "incorrect_answers": [
+            "Poplava",
+            "Ciklon",
+            "Mraz"
+        ],
+        "explanation": "Suša je prirodna katastrofa koja nastaje zbog nedostatka oborina u duljem vremenskom razdoblju, često s razornim posljedicama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1707",
+        "category": "geografija",
+        "question": "Koja je skandinavska država poznata kao 'Zemlja tisuću jezera'?",
+        "correct_answer": "Finska",
+        "incorrect_answers": [
+            "Švedska",
+            "Norveška",
+            "Danska"
+        ],
+        "explanation": "Finska je zemlja s izuzetno velikim brojem jezera, oko 188.000, zbog čega je dobila naziv 'Zemlja tisuću jezera'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1708",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija nastala savijanjem slojeva stijena pod pritiskom, obično tijekom orogeneze, pri čemu su slojevi izdignuti u luk?",
+        "correct_answer": "Antiklinala",
+        "incorrect_answers": [
+            "Sinklinala",
+            "Rasjed",
+            "Horst"
+        ],
+        "explanation": "Antiklinala je naborni oblik gdje su najstariji slojevi stijena u središtu nabora, a slojevi su zakrivljeni prema gore.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1709",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija vode na svijetu po volumenu?",
+        "correct_answer": "Jezero Kariba (Zimbabve/Zambija)",
+        "incorrect_answers": [
+            "Jezero Nasser (Egipat/Sudan)",
+            "Jezero Mead (SAD)",
+            "Tri klanca (Kina)"
+        ],
+        "explanation": "Jezero Kariba, nastalo izgradnjom brane na rijeci Zambezi, najveće je umjetno jezero po volumenu vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1710",
+        "category": "geografija",
+        "question": "Kako se naziva proces erozije i oblikovanja reljefa uzrokovan kretanjem ledenjaka?",
+        "correct_answer": "Glacijalna erozija",
+        "incorrect_answers": [
+            "Fluvijalna erozija",
+            "Eolska erozija",
+            "Krška erozija"
+        ],
+        "explanation": "Glacijalna erozija je geomorfološki proces oblikovanja površine Zemlje djelovanjem leda i materijala koje ledenjaci nose.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1711",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija država u Južnoj Americi?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Argentina",
+            "Peru"
+        ],
+        "explanation": "Brazil je (stanje 2024.) s preko 215 milijuna stanovnika daleko najnaseljenija zemlja u Južnoj Americi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1712",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni svjetlosni fenomen na noćnom nebu, vidljiv u polarnim regijama sjeverne polutke?",
+        "correct_answer": "Aurora borealis (polarna svjetlost)",
+        "incorrect_answers": [
+            "Aurora australis",
+            "Mliječni put",
+            "Nebularni oblak"
+        ],
+        "explanation": "Aurora borealis, poznata kao sjeverna svjetlost, nastaje kada nabijene čestice sa Sunca interaguju s Zemljinom atmosferom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1713",
+        "category": "geografija",
+        "question": "Kako se naziva područje oko Tihog oceana poznato po visokoj seizmičkoj i vulkanskoj aktivnosti?",
+        "correct_answer": "Pacifički vatreni pojas (Ring of Fire)",
+        "incorrect_answers": [
+            "Alpsko-himalajski pojas",
+            "Srednjoatlantski greben",
+            "Velika rasjedna dolina"
+        ],
+        "explanation": "Pacifički vatreni pojas je zona čestih potresa i vulkanskih erupcija, smještena uz rubove Tihog oceana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1714",
+        "category": "geografija",
+        "question": "Kako se naziva proces degradacije zemljišta u sušnim i polusušnim područjima, što dovodi do smanjenja biološke produktivnosti i širenja pustinja?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Deforestacija",
+            "Urbanizacija",
+            "Erozija"
+        ],
+        "explanation": "Dezertifikacija je degradacija plodnog zemljišta u pustinju, uzrokovana klimatskim promjenama i ljudskim aktivnostima poput prekomjerne ispaše.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
