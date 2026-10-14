@@ -23687,5 +23687,335 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1856",
+        "category": "geografija",
+        "question": "Koja je najnaseljenija država na svijetu (stanje 2024.)?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Prema procjenama UN-a, Indija je 2023. godine pretekla Kinu po broju stanovnika, postavši najnaseljenija zemlja na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1857",
+        "category": "geografija",
+        "question": "Koja je najveća država Južne Amerike po površini?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Brazil je ne samo najveća zemlja Južne Amerike, već i peta najveća država na svijetu po površini i broju stanovnika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1858",
+        "category": "geografija",
+        "question": "Koja planina razdvaja Europu i Aziju?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Alpe",
+            "Pirineji"
+        ],
+        "explanation": "Gorje Ural tradicionalno se smatra prirodnom granicom između europskog i azijskog kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1859",
+        "category": "geografija",
+        "question": "Koja se država nalazi na južnom kraju Afričkog kontinenta?",
+        "correct_answer": "Južnoafrička Republika",
+        "incorrect_answers": [
+            "Namibija",
+            "Bocvana",
+            "Zimbabve"
+        ],
+        "explanation": "Južnoafrička Republika je najjužnija država Afrike, smještena na samom dnu kontinenta, s obalama na Atlantskom i Indijskom oceanu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1860",
+        "category": "geografija",
+        "question": "Koja pustinja prekriva veći dio sjeverne Afrike?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Kalahari",
+            "Gobi",
+            "Atacama"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, koja pokriva velik dio sjeverne Afrike, od Crvenog mora do Atlantskog oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1861",
+        "category": "geografija",
+        "question": "Kako se zove morski prolaz koji odvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski prolaz",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski prolaz je uski morski prolaz koji spaja Atlantski ocean sa Sredozemnim morem i odvaja Iberijski poluotok (Europu) od Maroka (Afrike).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1862",
+        "category": "geografija",
+        "question": "Koja se zemlja sastoji od više od 17.000 otoka i najveća je otočna država na svijetu?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Filipini",
+            "Japan",
+            "Maldivi"
+        ],
+        "explanation": "Indonezija je arhipelaška država koja obuhvaća više od 17.000 otoka, od kojih je oko 6.000 naseljeno, čineći je najvećom otočnom državom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1863",
+        "category": "geografija",
+        "question": "Kako se naziva fenomen dugih polarnih noći i dana u arktičkim i antarktičkim regijama?",
+        "correct_answer": "Polarni dan i polarna noć",
+        "incorrect_answers": [
+            "Auroras borealis",
+            "Sunčani ciklusi",
+            "Mjesečevi ciklusi"
+        ],
+        "explanation": "Polarni dan označava razdoblje kada Sunce ne zalazi ispod horizonta, dok polarna noć označava razdoblje kada Sunce ne izlazi iznad horizonta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1864",
+        "category": "geografija",
+        "question": "Kako se naziva uski morski prolaz koji spaja Crno more s Mramornim morem i dijeli Istanbul na dva dijela?",
+        "correct_answer": "Bospor",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Kerčki prolaz",
+            "Gibraltarski prolaz"
+        ],
+        "explanation": "Bospor je uski prirodni tjesnac koji spaja Crno more s Mramornim morem i predstavlja dio granice između Europe i Azije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1865",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po Gejzirima, Plavoj laguni i aurori borealis?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Grenland",
+            "Finska",
+            "Norveška"
+        ],
+        "explanation": "Island je vulkanski aktivan otok u sjevernom Atlantiku, poznat po svojim geotermalnim izvorima, impresivnim krajolicima i fenomenu polarne svjetlosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1866",
+        "category": "geografija",
+        "question": "Koje je najniže kopneno područje na Zemlji?",
+        "correct_answer": "Obala Mrtvog mora",
+        "incorrect_answers": [
+            "Dolina Smrti",
+            "Depresija Turpan",
+            "Obala Kaspijskog jezera"
+        ],
+        "explanation": "Obala Mrtvog mora nalazi se oko 430 metara ispod razine mora (stanje 2024.) i predstavlja najnižu nadmorsku visinu na kopnu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1867",
+        "category": "geografija",
+        "question": "Kako se naziva tropska ciklona koja se formira iznad Tihog oceana i pogađa jugoistočnu Aziju?",
+        "correct_answer": "Tajfun",
+        "incorrect_answers": [
+            "Uragan",
+            "Tornado",
+            "Ciklon"
+        ],
+        "explanation": "Tajfuni su tropske oluje koje nastaju u zapadnom Tihom oceanu i pogađaju regije poput Kine, Japana i Filipina. Uragan je izraz za Atlantik.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1868",
+        "category": "geografija",
+        "question": "Koja je država najveći svjetski proizvođač nafte (stanje 2023.)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Saudijska Arabija",
+            "Rusija",
+            "Kina"
+        ],
+        "explanation": "Sjedinjene Američke Države su 2023. godine bile najveći svjetski proizvođač sirove nafte, prestigavši druge velike proizvođače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1869",
+        "category": "geografija",
+        "question": "Kako se zove najviši vodopad na svijetu?",
+        "correct_answer": "Anđeoski slapovi (Angel Falls)",
+        "incorrect_answers": [
+            "Viktorijini slapovi",
+            "Nijagarini slapovi",
+            "Iguazu slapovi"
+        ],
+        "explanation": "Anđeoski slapovi u Venezueli su najviši neprekinuti vodopad na svijetu, s padom vode od oko 979 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1870",
+        "category": "geografija",
+        "question": "Koja je najdublja točka svih oceana?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanska brazda",
+            "Javanska brazda",
+            "Kajmanska brazda"
+        ],
+        "explanation": "Marijanska brazda u Tihom oceanu sadrži Challenger Deep, najdublju poznatu točku Zemljine hidrosfere, s dubinom od približno 11.000 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1871",
+        "category": "geografija",
+        "question": "Koje je najdublje jezero u Hrvatskoj?",
+        "correct_answer": "Crveno jezero",
+        "incorrect_answers": [
+            "Vransko jezero",
+            "Modro jezero",
+            "Perućko jezero"
+        ],
+        "explanation": "Crveno jezero kod Imotskog je krško jezero, jedna od najdubljih jama u Europi ispunjenih vodom, s dubinom do 287 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1872",
+        "category": "geografija",
+        "question": "Koja je država prva u svijetu uvela ustavnu zaštitu prirodnog okoliša?",
+        "correct_answer": "Ekvador",
+        "incorrect_answers": [
+            "Švicarska",
+            "Kostarika",
+            "Norveška"
+        ],
+        "explanation": "Ekvador je 2008. godine postao prva zemlja na svijetu koja je u svom ustavu priznala prava prirode i ekosustava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1873",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija zemlja bez izlaza na more?",
+        "correct_answer": "Etiopija",
+        "incorrect_answers": [
+            "Nepal",
+            "Mongolija",
+            "Bolivija"
+        ],
+        "explanation": "Etiopija, s preko 120 milijuna stanovnika (stanje 2024.), najnaseljenija je država u svijetu koja nema izlaz na more.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1874",
+        "category": "geografija",
+        "question": "Kako se naziva vjetar koji puše s Alpa i donosi toplo, suho vrijeme u doline?",
+        "correct_answer": "Fen",
+        "incorrect_answers": [
+            "Bura",
+            "Košava",
+            "Siroko"
+        ],
+        "explanation": "Fen je topao, suh, orografski vjetar koji se spušta niz planinske padine, uzrokujući porast temperature i smanjenje vlažnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1875",
+        "category": "geografija",
+        "question": "Koja se tektonska ploča nalazi ispod većeg dijela Tihog oceana?",
+        "correct_answer": "Pacifička ploča",
+        "incorrect_answers": [
+            "Nazca ploča",
+            "Filipinska ploča",
+            "Indo-australska ploča"
+        ],
+        "explanation": "Pacifička ploča je najveća tektonska ploča na Zemlji i gotovo u potpunosti podržava Tihi ocean, uključujući i Marijansku brazdu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1876",
+        "category": "geografija",
+        "question": "Koja je najudaljenija naseljena točka od bilo kojeg kontinenta na Zemlji?",
+        "correct_answer": "Uskršnji otok",
+        "incorrect_answers": [
+            "Havaji",
+            "Tristan da Cunha",
+            "Pitcairn"
+        ],
+        "explanation": "Uskršnji otok (Rapa Nui), smješten u Tihom oceanu, najizoliraniji je naseljeni otok na svijetu, udaljen oko 3.700 km od kopna Čilea.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1877",
+        "category": "geografija",
+        "question": "Koja zemlja ima najveći broj jezera na svijetu?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Rusija",
+            "Sjedinjene Američke Države",
+            "Finska"
+        ],
+        "explanation": "Kanada ima najveći broj jezera na svijetu, s procijenjenih 31.752 jezera većih od tri hektara, što čini oko 60% svjetskih jezera.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
