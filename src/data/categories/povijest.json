@@ -29185,5 +29185,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2221",
+        "category": "povijest",
+        "question": "Tko je prema legendi osnovao Rim 753. godine prije Krista?",
+        "correct_answer": "Romul i Rem",
+        "incorrect_answers": [
+            "Julije Cezar i Oktavijan",
+            "Marko Antonije i Kleopatra",
+            "Neron i Kaligula"
+        ],
+        "explanation": "Prema rimskoj mitologiji, braća blizanci Romul i Rem su osnovali grad Rim 753. godine prije Krista, pri čemu je Romul na kraju ubio Rema.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2222",
+        "category": "povijest",
+        "question": "Koja je bitka 480. pr. Kr. bila pomorska bitka u kojoj je atenska flota porazila Perzijance, označivši prekretnicu u Grčko-perzijskim ratovima?",
+        "correct_answer": "Bitka kod Salamine",
+        "incorrect_answers": [
+            "Bitka kod Maratona",
+            "Bitka kod Termopila",
+            "Bitka kod Plateje"
+        ],
+        "explanation": "Pomorska bitka kod Salamine bila je ključna pobjeda Grka nad Perzijancima, čime je zaustavljen perzijski prodor na Egejskom moru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2223",
+        "category": "povijest",
+        "question": "Koji je rimski car proglasio kršćanstvo državnom religijom Rimskog Carstva krajem 4. stoljeća?",
+        "correct_answer": "Teodozije I. Veliki",
+        "incorrect_answers": [
+            "Konstantin I. Veliki",
+            "Dioklecijan",
+            "August"
+        ],
+        "explanation": "Car Teodozije I. proglasio je kršćanstvo jedinom državnom religijom Rimskog Carstva 380. godine, što je promijenilo vjerski krajolik Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2224",
+        "category": "povijest",
+        "question": "Koji se poznati događaj 1492. godine, uz Kolumbovo otkriće Amerike, odnosi na završetak Rekonkviste u Španjolskoj?",
+        "correct_answer": "Pad Granade",
+        "incorrect_answers": [
+            "Pad Carigrada",
+            "Početak Inkvizicije",
+            "Ujedinjenje Portugala i Španjolske"
+        ],
+        "explanation": "Pad maurske Granade 1492. godine označio je kraj Rekonkviste, razdoblja protjerivanja Maura s Iberijskog poluotoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2225",
+        "category": "povijest",
+        "question": "Tko je bio škotski junak koji je vodio pobunu protiv engleske vlasti krajem 13. stoljeća, ovjekovječen u filmu \"Hrabro srce\"?",
+        "correct_answer": "William Wallace",
+        "incorrect_answers": [
+            "Robert Bruce",
+            "Rob Roy MacGregor",
+            "Bonnie Prince Charlie"
+        ],
+        "explanation": "William Wallace je škotski vitez i nacionalni junak koji je vodio otpor protiv engleske okupacije Škotske krajem 13. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2226",
+        "category": "povijest",
+        "question": "Tko je bio posljednji car Asteka prije španjolskog osvajanja Meksika?",
+        "correct_answer": "Montezuma II.",
+        "incorrect_answers": [
+            "Atahualpa",
+            "Pakal Veliki",
+            "Huayna Capac"
+        ],
+        "explanation": "Montezuma II. bio je vladar Asteka u vrijeme dolaska španjolskih konkvistadora pod vodstvom Hernána Cortésa 1519. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2227",
+        "category": "povijest",
+        "question": "Koje je doba u povijesti, obilježeno opadanjem feudalizma i usponom gradova, završilo 1453. padom Carigrada?",
+        "correct_answer": "Srednji vijek",
+        "incorrect_answers": [
+            "Antika",
+            "Renesansa",
+            "Novo doba"
+        ],
+        "explanation": "Pad Carigrada 1453. godine često se smatra simboličnim krajem srednjovjekovnog razdoblja i početkom novog doba.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2228",
+        "category": "povijest",
+        "question": "Tko je bio autor djela \"Vladar\" (Il Principe), traktata o političkoj filozofiji i državničkoj vještini?",
+        "correct_answer": "Niccolò Machiavelli",
+        "incorrect_answers": [
+            "Dante Alighieri",
+            "Francesco Petrarca",
+            "Giovanni Boccaccio"
+        ],
+        "explanation": "Niccolò Machiavelli je bio firentinski diplomat i filozof čije je djelo 'Vladar' postalo temelj moderne političke filozofije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2229",
+        "category": "povijest",
+        "question": "Koji se povijesni događaj u Engleskoj 1688. godine naziva \"Slavna revolucija\" jer je doveo do smjene kralja bez krvoprolića?",
+        "correct_answer": "Slavna revolucija",
+        "incorrect_answers": [
+            "Engleski građanski rat",
+            "Gvelfi i Gibelini",
+            "Barutna zavjera"
+        ],
+        "explanation": "Slavna revolucija je dovela do svrgavanja kralja Jakova II. i dolaska Vilima III. Oranskog i Marije II. na englesko prijestolje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2230",
+        "category": "povijest",
+        "question": "Tko je prvi Europljanin koji je oplovio Afriku i otvorio pomorski put do Indije 1498. godine?",
+        "correct_answer": "Vasco da Gama",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Ferdinand Magellan",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Vasco da Gama je portugalski istraživač koji je 1498. godine uspješno došao do Indije, zaobilazeći Afriku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2231",
+        "category": "povijest",
+        "question": "Koja se bitka 1571. godine smatra jednom od najvećih pomorskih bitaka u povijesti, gdje je Sveta liga porazila Osmansku mornaricu?",
+        "correct_answer": "Bitka kod Lepanta",
+        "incorrect_answers": [
+            "Bitka kod Sluysa",
+            "Bitka kod Trafalgara",
+            "Bitka kod Gibraltara"
+        ],
+        "explanation": "Bitka kod Lepanta 1571. bila je odlučujuća pobjeda kršćanske Svete lige nad Osmanskim Carstvom, zaustavivši njihovu ekspanziju u Sredozemlju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2232",
+        "category": "povijest",
+        "question": "Koje je godine proglašena Francuska Republika, označavajući kraj monarhije tijekom Francuske revolucije?",
+        "correct_answer": "1792.",
+        "incorrect_answers": [
+            "1789.",
+            "1799.",
+            "1804."
+        ],
+        "explanation": "Prva Francuska Republika proglašena je 21. rujna 1792. godine, nakon svrgavanja kralja Luja XVI.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2233",
+        "category": "povijest",
+        "question": "Tko je izumio parni stroj koji je značajno potaknuo Industrijsku revoluciju?",
+        "correct_answer": "James Watt",
+        "incorrect_answers": [
+            "George Stephenson",
+            "Thomas Edison",
+            "Alexander Graham Bell"
+        ],
+        "explanation": "James Watt je usavršio parni stroj, čime je omogućio širu primjenu u industriji i prometu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2234",
+        "category": "povijest",
+        "question": "Koji je ruski car ukinuo kmetstvo 1861. godine?",
+        "correct_answer": "Aleksandar II.",
+        "incorrect_answers": [
+            "Petar Veliki",
+            "Katarina Velika",
+            "Nikola I."
+        ],
+        "explanation": "Aleksandar II. je proveo veliku reformu kojom je 1861. godine ukinuto kmetstvo u Ruskom Carstvu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2235",
+        "category": "povijest",
+        "question": "Koji je hrvatski ban ukinuo kmetstvo u Banskoj Hrvatskoj 1848. godine?",
+        "correct_answer": "Josip Jelačić",
+        "incorrect_answers": [
+            "Ivan Mažuranić",
+            "Stjepan Radić",
+            "Ante Starčević"
+        ],
+        "explanation": "Ban Josip Jelačić ukinuo je kmetstvo 1848. godine, što je bio ključni korak u modernizaciji hrvatskog društva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2236",
+        "category": "povijest",
+        "question": "Koje je godine počela gradnja Sueskog kanala, koji je značajno skratio pomorski put između Europe i Azije?",
+        "correct_answer": "1859.",
+        "incorrect_answers": [
+            "1825.",
+            "1869.",
+            "1881."
+        ],
+        "explanation": "Gradnja Sueskog kanala započela je 1859. godine pod vodstvom Ferdinanda de Lessepsa, a otvoren je 1869.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2237",
+        "category": "povijest",
+        "question": "Koje je godine osnovana Druga internacionala, udruženje socijalističkih i radničkih stranaka, nakon raspada Prve internacionale?",
+        "correct_answer": "1889.",
+        "incorrect_answers": [
+            "1864.",
+            "1876.",
+            "1905."
+        ],
+        "explanation": "Druga internacionala osnovana je 1889. godine u Parizu, s ciljem koordinacije radničkih pokreta i socijalističkih stranaka diljem svijeta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2238",
+        "category": "povijest",
+        "question": "Koje je godine započela glad u Ukrajini, poznata kao Holodomor, uzrokovana sovjetskom politikom kolektivizacije?",
+        "correct_answer": "1932.",
+        "incorrect_answers": [
+            "1925.",
+            "1941.",
+            "1953."
+        ],
+        "explanation": "Holodomor je bila masovna glad u Ukrajini između 1932. i 1933., uzrokovana prisilnom kolektivizacijom poljoprivrede od strane sovjetskog režima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2239",
+        "category": "povijest",
+        "question": "Koje godine su žene u Velikoj Britaniji dobile pravo glasa, iako isprva s određenim ograničenjima?",
+        "correct_answer": "1918.",
+        "incorrect_answers": [
+            "1901.",
+            "1930.",
+            "1945."
+        ],
+        "explanation": "Žene u Velikoj Britaniji dobile su pravo glasa s određenim uvjetima (iznad 30 godina) 1918. godine, a potpuno pravo glasa 1928.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2240",
+        "category": "povijest",
+        "question": "Koji je pakt, potpisan 1928. godine, nastojao zabraniti rat kao instrument nacionalne politike, ali nije imao mehanizme provedbe?",
+        "correct_answer": "Kellogg-Briandov pakt",
+        "incorrect_answers": [
+            "Locarnski sporazum",
+            "Minhenski sporazum",
+            "Rapalski ugovor"
+        ],
+        "explanation": "Kellogg-Briandov pakt, potpisan 1928., bio je međunarodni sporazum kojim su se potpisnice odrekle rata kao sredstva rješavanja sporova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2241",
+        "category": "povijest",
+        "question": "Koje se godine dogodio napad Japana na američku pomorsku bazu Pearl Harbor?",
+        "correct_answer": "1941.",
+        "incorrect_answers": [
+            "1939.",
+            "1942.",
+            "1945."
+        ],
+        "explanation": "Japan je 7. prosinca 1941. napao Pearl Harbor, što je izravno dovelo do ulaska SAD-a u Drugi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2242",
+        "category": "povijest",
+        "question": "Koji je bio kodni naziv savezničke invazije na Normandiju 6. lipnja 1944. godine?",
+        "correct_answer": "Operacija Overlord",
+        "incorrect_answers": [
+            "Operacija Barbarossa",
+            "Operacija Pustinjska oluja",
+            "Operacija Market Garden"
+        ],
+        "explanation": "Operacija Overlord bio je kodni naziv za Bitku za Normandiju, najveću pomorsku invaziju u povijesti koja je otvorila zapadnu frontu u Drugom svjetskom ratu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2243",
+        "category": "povijest",
+        "question": "Koja su dva japanska grada bila meta atomskih bombi krajem Drugog svjetskog rata?",
+        "correct_answer": "Hiroshima i Nagasaki",
+        "incorrect_answers": [
+            "Tokio i Kyoto",
+            "Osaka i Sapporo",
+            "Yokohama i Kobe"
+        ],
+        "explanation": "Američke snage su bacile atomske bombe na Hiroshimu i Nagasaki u kolovozu 1945., što je ubrzalo kapitulaciju Japana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2244",
+        "category": "povijest",
+        "question": "Koja je organizacija osnovana 1949. godine kao vojni savez zapadnih zemalja za obranu od prijetnje Sovjetskog Saveza?",
+        "correct_answer": "NATO",
+        "incorrect_answers": [
+            "Varšavski pakt",
+            "Ujedinjeni narodi",
+            "Europska unija"
+        ],
+        "explanation": "NATO (Organizacija Sjevernoatlantskog ugovora) osnovana je kao obrambeni vojni savez 1949. godine, predvođena Sjedinjenim Državama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2245",
+        "category": "povijest",
+        "question": "Tko je bio prvi predsjednik Indonezije i jedna od ključnih figura Pokreta nesvrstanih?",
+        "correct_answer": "Sukarno",
+        "incorrect_answers": [
+            "Mahatma Gandhi",
+            "Ho Chi Minh",
+            "Jawaharlal Nehru"
+        ],
+        "explanation": "Sukarno je bio prvi predsjednik Indonezije i suosnivač Pokreta nesvrstanih, promičući nezavisnost i neutralnost u Hladnom ratu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2246",
+        "category": "povijest",
+        "question": "Koje je godine pao Berlinski zid, simbol Hladnog rata i podjele Europe?",
+        "correct_answer": "1989.",
+        "incorrect_answers": [
+            "1961.",
+            "1975.",
+            "1991."
+        ],
+        "explanation": "Pad Berlinskog zida 9. studenog 1989. bio je značajan događaj koji je najavio kraj Hladnog rata i ujedinjenje Njemačke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2247",
+        "category": "povijest",
+        "question": "Koji je bio posljednji predsjednik Sovjetskog Saveza koji je proveo reforme poput \"glasnosti\" i \"perestrojke\"?",
+        "correct_answer": "Mihail Gorbačov",
+        "incorrect_answers": [
+            "Leonid Brežnjev",
+            "Nikita Hruščov",
+            "Josif Staljin"
+        ],
+        "explanation": "Mihail Gorbačov je bio posljednji lider Sovjetskog Saveza, poznat po svojim reformama \"glasnosti\" (otvorenosti) i \"perestrojke\" (restrukturiranja).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2248",
+        "category": "povijest",
+        "question": "Tko je bila prva žena koja je obnašala dužnost premijera Velike Britanije, poznata kao \"Željezna Lady\"?",
+        "correct_answer": "Margaret Thatcher",
+        "incorrect_answers": [
+            "Golda Meir",
+            "Indira Gandhi",
+            "Angela Merkel"
+        ],
+        "explanation": "Margaret Thatcher bila je premijerka Velike Britanije od 1979. do 1990., poznata po svojim čvrstim konzervativnim politikama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2249",
+        "category": "povijest",
+        "question": "Koje je godine Hrvatska proglasila neovisnost od SFR Jugoslavije?",
+        "correct_answer": "1991.",
+        "incorrect_answers": [
+            "1989.",
+            "1990.",
+            "1995."
+        ],
+        "explanation": "Hrvatska je proglasila svoju neovisnost od Socijalističke Federativne Republike Jugoslavije 25. lipnja 1991. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2250",
+        "category": "povijest",
+        "question": "Tko je bio starogrčki povjesničar, poznat kao \"otac povijesti\", autor djela \"Historije\"?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Ksenofont",
+            "Plutarh"
+        ],
+        "explanation": "Herodot, grčki povjesničar iz 5. st. pr. Kr., smatra se prvim povjesničarem koji je sustavno prikupljao i kritički analizirao povijesne događaje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2251",
+        "category": "povijest",
+        "question": "Koja je dinastija vladala Kinom tijekom razdoblja koje je započelo oko 221. pr. Kr. i ujedinilo carstvo pod prvim carem?",
+        "correct_answer": "Dinastija Qin",
+        "incorrect_answers": [
+            "Dinastija Han",
+            "Dinastija Zhou",
+            "Dinastija Ming"
+        ],
+        "explanation": "Dinastija Qin, pod vodstvom cara Qin Shi Huanga, ujedinila je Kinu 221. pr. Kr. i uspostavila carski sustav.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2252",
+        "category": "povijest",
+        "question": "Tko je bio vođa pobune Spartaka, najvećeg ustanka robova u Rimskom Carstvu?",
+        "correct_answer": "Spartak",
+        "incorrect_answers": [
+            "Vercingetoriks",
+            "Hanibal",
+            "Mitridat VI."
+        ],
+        "explanation": "Spartak je bio rob i gladijator koji je vodio veliku pobunu robova protiv Rimske Republike od 73. do 71. pr. Kr.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2253",
+        "category": "povijest",
+        "question": "Koje je godine bila Bitka kod Hadrijanopolisa, u kojoj su Goti nanijeli težak poraz Rimskoj vojsci i ubili cara Valensa?",
+        "correct_answer": "378.",
+        "incorrect_answers": [
+            "330.",
+            "410.",
+            "476."
+        ],
+        "explanation": "Bitka kod Hadrijanopolisa 378. godine bila je katastrofalan poraz za Rimsko Carstvo i značila je promjenu taktike protiv barbarskih plemena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2254",
+        "category": "povijest",
+        "question": "Koji je engleski kralj uspostavio Anglikansku crkvu zbog sukoba s papom oko poništenja braka?",
+        "correct_answer": "Henrik VIII.",
+        "incorrect_answers": [
+            "Edvard VI.",
+            "Karlo I.",
+            "Elizabeta I."
+        ],
+        "explanation": "Henrik VIII. se odvojio od Rimske katoličke crkve i osnovao Anglikansku crkvu nakon što papa nije htio poništiti njegov brak.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2255",
+        "category": "povijest",
+        "question": "Koji je grad bio sjedište papinstva u Francuskoj tijekom \"Avinjonskog sužanjstva\" u 14. stoljeću?",
+        "correct_answer": "Avignon",
+        "incorrect_answers": [
+            "Pariz",
+            "Reims",
+            "Bordeaux"
+        ],
+        "explanation": "Tijekom Avinjonskog sužanjstva (1309.-1376.), sedam papa, svi Francuzi, stolovalo je u Avignonu umjesto u Rimu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2256",
+        "category": "povijest",
+        "question": "Tko je bila francuska seljanka koja je tvrdila da čuje božanske glasove i vodila francuske snage u pobjede tijekom Stogodišnjeg rata?",
+        "correct_answer": "Ivana Orleanska (Jeanne d'Arc)",
+        "incorrect_answers": [
+            "Katarina de' Medici",
+            "Marija Antoaneta",
+            "Madame de Pompadour"
+        ],
+        "explanation": "Ivana Orleanska je bila ključna figura u francuskom otporu Englezima tijekom Stogodišnjeg rata, poznata po vizijama i hrabrosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2257",
+        "category": "povijest",
+        "question": "Koje je godine Američki predsjednik Abraham Lincoln proglasio ukidanje ropstva?",
+        "correct_answer": "1863.",
+        "incorrect_answers": [
+            "1850.",
+            "1865.",
+            "1870."
+        ],
+        "explanation": "Abraham Lincoln je 1. siječnja 1863. godine izdao Proklamaciju o emancipaciji, oslobađajući robove u pobunjenim državama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2258",
+        "category": "povijest",
+        "question": "Koja je organizacija, osnovana 1920. godine nakon Prvog svjetskog rata, bila preteča Ujedinjenih naroda?",
+        "correct_answer": "Liga naroda",
+        "incorrect_answers": [
+            "Međunarodni Crveni križ",
+            "Haaška konferencija",
+            "Svjetska banka"
+        ],
+        "explanation": "Liga naroda bila je prva međunarodna organizacija čiji je primarni cilj bio održavanje svjetskog mira, uspostavljena 1920.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2259",
+        "category": "povijest",
+        "question": "Tko je bio engleski istraživač koji je prvi stigao do Australije i Novog Zelanda, te je kartografirao obalu, u kasnom 18. stoljeću?",
+        "correct_answer": "James Cook",
+        "incorrect_answers": [
+            "Francis Drake",
+            "Abel Tasman",
+            "Christopher Columbus"
+        ],
+        "explanation": "Kapetan James Cook je bio britanski istraživač koji je tijekom svojih putovanja u kasnom 18. stoljeću detaljno istražio i kartografirao mnoga područja Tihog oceana, uključujući Australiju i Novi Zeland.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
