@@ -28000,5 +28000,605 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2142",
+        "category": "povijest",
+        "question": "Koji je bio glavni grad Starog Egipta tijekom većeg dijela razdoblja Novog kraljevstva, poznat po hramovima u Karnaku i Luksoru?",
+        "correct_answer": "Teba",
+        "incorrect_answers": [
+            "Memfis",
+            "Aleksandrija",
+            "Giza"
+        ],
+        "explanation": "Teba je bila duhovno i administrativno središte Egipta tijekom Novog kraljevstva, s impozantnim hramskim kompleksima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2143",
+        "category": "povijest",
+        "question": "Kako se zvao savez grčkih polisa koji je osnovan nakon Perzijskih ratova, s ciljem obrane od budućih napada, a čiji je vodeći član bila Atena?",
+        "correct_answer": "Delski savez",
+        "incorrect_answers": [
+            "Peloponeski savez",
+            "Korintski savez",
+            "Ahejski savez"
+        ],
+        "explanation": "Delski savez bio je pomorska konfederacija grčkih gradova-država, s Atenom kao dominantnom silom, osnovan nakon Perzijskih ratova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2144",
+        "category": "povijest",
+        "question": "Koja je rijeka predstavljala sjevernu granicu Rimskog Carstva u Germaniji, često spominjana u kontekstu rimskih pohoda i sukoba s germanskim plemenima?",
+        "correct_answer": "Rajna",
+        "incorrect_answers": [
+            "Dunav",
+            "Elbe",
+            "Visla"
+        ],
+        "explanation": "Rijeka Rajna služila je kao prirodna i strateška granica Rimskog Carstva, odvajajući rimsku Galiju od germanskih plemena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2145",
+        "category": "povijest",
+        "question": "Koji je franački vladar krunjen za cara Svetog Rimskog Carstva na Božić 800. godine u Rimu, što je označilo obnovu Carstva na Zapadu?",
+        "correct_answer": "Karlo Veliki",
+        "incorrect_answers": [
+            "Oton I.",
+            "Pipin Mali",
+            "Luj Pobožni"
+        ],
+        "explanation": "Karlo Veliki, najpoznatiji franački kralj, okrunjen je od pape Lava III., čime je obnovljeno Zapadno Rimsko Carstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2146",
+        "category": "povijest",
+        "question": "Koji je hrvatski kralj u 10. stoljeću uspješno obranio Hrvatsku od mađarskih i bugarskih napada, te je pod njegovom vlašću Hrvatska dosegla vrhunac moći i opsega?",
+        "correct_answer": "kralj Tomislav",
+        "incorrect_answers": [
+            "knez Trpimir",
+            "knez Branimir",
+            "kralj Petar Krešimir IV."
+        ],
+        "explanation": "Kralj Tomislav je u 10. stoljeću ujedinio hrvatske zemlje, uspješno ratovao protiv susjeda i proširio hrvatsku državu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2147",
+        "category": "povijest",
+        "question": "Tko je bio talijanski renesansni umjetnik, kipar, slikar, arhitekt i pjesnik, poznat po djelima poput \"Davida\" i oslikavanju Sikstinske kapele?",
+        "correct_answer": "Michelangelo",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Rafael Santi",
+            "Donatello"
+        ],
+        "explanation": "Michelangelo Buonarroti bio je jedan od najistaknutijih umjetnika visoke renesanse, poznat po svojim majstorskim djelima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2148",
+        "category": "povijest",
+        "question": "Koji je portugalski moreplovac, u službi Španjolske, proveo prvu plovidbu oko svijeta (1519.-1522.), iako je sam poginuo na putovanju?",
+        "correct_answer": "Ferdinand Magellan",
+        "incorrect_answers": [
+            "Vasco da Gama",
+            "Kristofor Kolumbo",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Ferdinand Magellan započeo je prvu ekspediciju koja je oplovila Zemlju, dokazujući sferičnost planeta, iako je umro na Filipinima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2149",
+        "category": "povijest",
+        "question": "Koji je osmanski sultan osvojio Carigrad 1453. godine, čime je označio kraj Bizantskog Carstva i pretvorio grad u prijestolnicu Osmanskog Carstva?",
+        "correct_answer": "Mehmed II. Osvajač",
+        "incorrect_answers": [
+            "Sulejman Veličanstveni",
+            "Selim I.",
+            "Murat IV."
+        ],
+        "explanation": "Sultan Mehmed II. Osvajač 1453. godine zauzeo je Carigrad, koji je postao Istanbul i novi centar Osmanskog Carstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2150",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik i teolog 1517. godine objavio 95 teza u Wittenbergu, čime je započeo protestantsku reformaciju?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Ulrich Zwingli",
+            "Jan Hus"
+        ],
+        "explanation": "Martin Luther je svojim tezama izazvao autoritet Katoličke crkve, pokrenuvši lavinu događaja koja je dovela do protestantizma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2151",
+        "category": "povijest",
+        "question": "Koji je hrvatski plemić i ban bio vođa urotnika protiv habsburškog cara Leopolda I., pogubljen 1671. godine u Bečkom Novom Mjestu?",
+        "correct_answer": "Petar Zrinski",
+        "incorrect_answers": [
+            "Nikola Šubić Zrinski",
+            "Fran Krsto Frankopan",
+            "Matija Gubec"
+        ],
+        "explanation": "Petar Zrinski, zajedno s Franom Krstom Frankopanom, bio je predvodnik Zrinsko-frankopanske urote, zbog koje su pogubljeni.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2152",
+        "category": "povijest",
+        "question": "Koje godine je pala Bastilja, simbol monarhijske vlasti, događaj koji se smatra početkom Francuske revolucije?",
+        "correct_answer": "1789.",
+        "incorrect_answers": [
+            "1776.",
+            "1792.",
+            "1815."
+        ],
+        "explanation": "Pad Bastilje 14. srpnja 1789. godine označio je otvoren početak Francuske revolucije i simboličan kraj apsolutističke monarhije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2153",
+        "category": "povijest",
+        "question": "Kako se zvala posljednja velika bitka Napoleona Bonapartea, odigrana 1815. godine, nakon koje je trajno prognan?",
+        "correct_answer": "Bitka kod Waterlooa",
+        "incorrect_answers": [
+            "Bitka kod Austerlitza",
+            "Bitka kod Trafalgara",
+            "Bitka kod Leipziga"
+        ],
+        "explanation": "Bitka kod Waterlooa 1815. godine bila je Napoleonov konačni poraz, nakon čega je abdicirao i bio prognan na Svetu Helenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2154",
+        "category": "povijest",
+        "question": "Koji je izumitelj patentirao poboljšani parni stroj 1769. godine, što je bio ključni doprinos Industrijskoj revoluciji?",
+        "correct_answer": "James Watt",
+        "incorrect_answers": [
+            "George Stephenson",
+            "Robert Fulton",
+            "Eli Whitney"
+        ],
+        "explanation": "James Watt je svojim poboljšanjima parnog stroja značajno povećao njegovu učinkovitost i omogućio široku primjenu u industriji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2155",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik proglasio Emancipacijsku proklamaciju 1863. godine, oslobađajući robove u pobunjenim državama Konfederacije?",
+        "correct_answer": "Abraham Lincoln",
+        "incorrect_answers": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Theodore Roosevelt"
+        ],
+        "explanation": "Abraham Lincoln je za vrijeme Američkog građanskog rata izdao Emancipacijsku proklamaciju, ključni korak prema ukidanju ropstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2156",
+        "category": "povijest",
+        "question": "Koji je bio vojni savez središnjih sila u Prvom svjetskom ratu, uključujući Njemačko Carstvo i Austro-Ugarsku?",
+        "correct_answer": "Centralne sile",
+        "incorrect_answers": [
+            "Antanta",
+            "Sile osovine",
+            "Trojni pakt"
+        ],
+        "explanation": "Centralne sile (Njemačka, Austro-Ugarska, Osmansko Carstvo i Bugarska) bile su jedan od dva glavna vojna bloka u Prvom svjetskom ratu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2157",
+        "category": "povijest",
+        "question": "Koja je međunarodna organizacija osnovana nakon Prvog svjetskog rata, s ciljem sprječavanja budućih ratova putem kolektivne sigurnosti i diplomacije?",
+        "correct_answer": "Liga naroda",
+        "incorrect_answers": [
+            "Ujedinjeni narodi",
+            "NATO",
+            "Varšavski pakt"
+        ],
+        "explanation": "Liga naroda osnovana je 1920. godine kao prva međunarodna organizacija za očuvanje mira, ali nije uspjela spriječiti Drugi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2158",
+        "category": "povijest",
+        "question": "Koja je bila lokacija bitke iz 1942.-1943. godine, prekretnice na Istočnom frontu Drugog svjetskog rata, u kojoj je sovjetska vojska zaustavila i preokrenula njemačku ofenzivu?",
+        "correct_answer": "Staljingrad",
+        "incorrect_answers": [
+            "Lenjingrad",
+            "Moskva",
+            "Kursk"
+        ],
+        "explanation": "Bitka za Staljingrad bila je jedna od najkrvavijih bitaka u povijesti i ključna prekretnica koja je označila početak povlačenja Njemačke s Istoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2159",
+        "category": "povijest",
+        "question": "Koji je bio sovjetski vojni savez osnovan 1955. godine kao odgovor na NATO, okupljajući komunističke države istočne Europe?",
+        "correct_answer": "Varšavski pakt",
+        "incorrect_answers": [
+            "Kominterna",
+            "CEFTA",
+            "Europska ekonomska zajednica"
+        ],
+        "explanation": "Varšavski pakt bio je kolektivni obrambeni ugovor između Sovjetskog Saveza i sedam satelitskih država Istočnog bloka tijekom Hladnog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2160",
+        "category": "povijest",
+        "question": "Koji je hrvatski grad bio sjedište Nezavisne Države Hrvatske (NDH) i centar političke moći za vrijeme Drugog svjetskog rata?",
+        "correct_answer": "Zagreb",
+        "incorrect_answers": [
+            "Split",
+            "Osijek",
+            "Rijeka"
+        ],
+        "explanation": "Zagreb je za vrijeme Drugog svjetskog rata bio glavni grad i sjedište vlade Nezavisne Države Hrvatske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2161",
+        "category": "povijest",
+        "question": "Koja je drevna civilizacija, smještena između rijeka Tigris i Eufrat, poznata po razvoju prvih gradova-država, klinastog pisma i zakonika Hamurabija?",
+        "correct_answer": "Mezopotamija",
+        "incorrect_answers": [
+            "Egipat",
+            "Indska civilizacija",
+            "Kina"
+        ],
+        "explanation": "Mezopotamija se smatra kolijevkom civilizacije, gdje su Sumerani razvili prve gradove, pismo i pravni sustav.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2162",
+        "category": "povijest",
+        "question": "Kako se nazivao visoki rimski državni službenik koji je služio kao glavni magistrat Rimske Republike, obično biran po dva godišnje?",
+        "correct_answer": "konzul",
+        "incorrect_answers": [
+            "tribun",
+            "cenzor",
+            "pretor"
+        ],
+        "explanation": "Konzuli su bili najviši izabrani službenici u Rimskoj Republici, s civilnom i vojnom vlašću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2163",
+        "category": "povijest",
+        "question": "Koji je bizantski grad bio poznat po svojoj obrambenoj snazi, sa snažnim zidinama koje su ga štitile od brojnih opsada tijekom stoljeća?",
+        "correct_answer": "Carigrad",
+        "incorrect_answers": [
+            "Aleksandrija",
+            "Antiohija",
+            "Efes"
+        ],
+        "explanation": "Carigrad (Konstantinopol) je bio iznimno utvrđen grad s masivnim Teodozijevim zidinama koje su ga činile gotovo neosvojivim.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2164",
+        "category": "povijest",
+        "question": "Koji je papa pozvao na Prvi križarski rat 1095. godine na Koncilu u Clermontu, s ciljem oslobađanja Svete Zemlje?",
+        "correct_answer": "Urban II.",
+        "incorrect_answers": [
+            "Grgur VII.",
+            "Inocent III.",
+            "Leo X."
+        ],
+        "explanation": "Papa Urban II. je 1095. godine održao govor na Koncilu u Clermontu, pozivajući kršćane da oslobode Jeruzalem od muslimana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2165",
+        "category": "povijest",
+        "question": "Koji je hrvatski velikaš, ban i kapetan Sigeta, herojski poginuo 1566. godine braneći utvrdu od osmanske vojske Sulejmana Veličanstvenog?",
+        "correct_answer": "Nikola Šubić Zrinski",
+        "incorrect_answers": [
+            "Petar Zrinski",
+            "Matija Gubec",
+            "Juraj Drašković"
+        ],
+        "explanation": "Nikola Šubić Zrinski je postao simbol junaštva u obrani Sigeta 1566. godine protiv nadmoćne osmanske vojske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2166",
+        "category": "povijest",
+        "question": "Koji je francuski filozof iz doba prosvjetiteljstva, poznat po zagovaranju slobode govora, vjerske tolerancije i razdvajanja crkve od države, autor djela \"Candide\"?",
+        "correct_answer": "Voltaire",
+        "incorrect_answers": [
+            "Jean-Jacques Rousseau",
+            "Denis Diderot",
+            "Immanuel Kant"
+        ],
+        "explanation": "Voltaire je bio istaknuti filozof prosvjetiteljstva, poznat po svojim oštrim kritikama apsolutizma i zalaganju za slobodu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2167",
+        "category": "povijest",
+        "question": "Koja je godina objave \"Deklaracije o nezavisnosti\" Sjedinjenih Američkih Država, kojom su se trinaest kolonija odvojile od Velike Britanije?",
+        "correct_answer": "1776.",
+        "incorrect_answers": [
+            "1789.",
+            "1812.",
+            "1861."
+        ],
+        "explanation": "Deklaracija o nezavisnosti, usvojena 4. srpnja 1776., službeno je proglasila neovisnost američkih kolonija od britanske vlasti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2168",
+        "category": "povijest",
+        "question": "Tko je bio pruski kancelar poznat po politici \"krvi i željeza\" i ujedinjenju Njemačke u drugoj polovici 19. stoljeća?",
+        "correct_answer": "Otto von Bismarck",
+        "incorrect_answers": [
+            "Klemens von Metternich",
+            "Camillo Cavour",
+            "Napoleon III."
+        ],
+        "explanation": "Otto von Bismarck bio je ključna figura u ujedinjenju njemačkih država pod pruskim vodstvom kroz niz ratova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2169",
+        "category": "povijest",
+        "question": "Koje je godine zbacena carska vlast u Rusiji (Februarska revolucija) i uspostavljena Privremena vlada, prije Oktobarske revolucije?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1914.",
+            "1922."
+        ],
+        "explanation": "Februarska revolucija 1917. dovela je do abdikacije cara Nikole II. i kraja Romanovih, te uspostave Privremene vlade.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2170",
+        "category": "povijest",
+        "question": "Kako se nazivala konferencija iz 1942. godine, održana od strane nacističkih dužnosnika, na kojoj je detaljno razrađen plan \"Konačnog rješenja židovskog pitanja\"?",
+        "correct_answer": "Konferencija u Wannseeu",
+        "incorrect_answers": [
+            "Konferencija u Potsdamu",
+            "Minhenska konferencija",
+            "Konferencija u Teheranu"
+        ],
+        "explanation": "Na Konferenciji u Wannseeu nacistički režim je koordinirao plan za sustavno istrebljenje europskih Židova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2171",
+        "category": "povijest",
+        "question": "Koja je zemlja bila podijeljena na četiri okupacijske zone nakon Drugog svjetskog rata, što je dovelo do formiranja Istočne i Zapadne države?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Austrija",
+            "Poljska",
+            "Koreja"
+        ],
+        "explanation": "Njemačka je nakon Drugog svjetskog rata podijeljena na okupacijske zone koje su kasnije formirale Saveznu Republiku Njemačku i Njemačku Demokratsku Republiku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2172",
+        "category": "povijest",
+        "question": "Koji je egipatski faraon izgradio najveću piramidu u Gizi, poznatu kao Keopsova piramida?",
+        "correct_answer": "Keops (Kufu)",
+        "incorrect_answers": [
+            "Kefren (Kafra)",
+            "Mikerin (Menkaura)",
+            "Tutankamon"
+        ],
+        "explanation": "Keopsova (Kufuova) piramida je najveća i najstarija od tri velike piramide u Gizi, a smatra se jednim od sedam svjetskih čuda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2173",
+        "category": "povijest",
+        "question": "Tko je bio starogrčki filozof, Sokratov učenik i Platonov učitelj, poznat po svojem naglasku na etici i potrazi za univerzalnim istinama?",
+        "correct_answer": "Sokrat",
+        "incorrect_answers": [
+            "Platon",
+            "Aristotel",
+            "Pitagora"
+        ],
+        "explanation": "Sokrat je bio utemeljitelj zapadne filozofije, poznat po svojoj metodi propitivanja i fokusu na etička pitanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2174",
+        "category": "povijest",
+        "question": "Koji je rimski car početkom 4. stoljeća donio Milanski edikt kojim je kršćanima dopušteno slobodno ispovijedanje vjere u Rimskom Carstvu?",
+        "correct_answer": "Konstantin I.",
+        "incorrect_answers": [
+            "Teodozije I.",
+            "Dioklecijan",
+            "August"
+        ],
+        "explanation": "Konstantin I. je 313. godine Milanskim ediktom proglasio vjersku toleranciju, čime je kršćanstvo postalo legalna religija u Carstvu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2175",
+        "category": "povijest",
+        "question": "Kako se zvao sukob između dinastija Lancaster (crvena ruža) i York (bijela ruža) za englesko prijestolje u 15. stoljeću?",
+        "correct_answer": "Ratovi dviju ruža",
+        "incorrect_answers": [
+            "Stogodišnji rat",
+            "Engleski građanski rat",
+            "Jakovitski ustanci"
+        ],
+        "explanation": "Ratovi dviju ruža bili su niz građanskih ratova vođenih u Engleskoj od 1455. do 1487. godine između kuća Lancaster i York.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2176",
+        "category": "povijest",
+        "question": "Koja je crkva u Ninu, izgrađena u 9. stoljeću, poznata kao \"najmanja katedrala na svijetu\" i važan spomenik ranosrednjovjekovne hrvatske arhitekture?",
+        "correct_answer": "Crkva Svetog Križa",
+        "incorrect_answers": [
+            "Crkva Svete Marije",
+            "Katedrala Sv. Jakova",
+            "Crkva Sv. Donata"
+        ],
+        "explanation": "Crkva Svetog Križa u Ninu, s kupolom i eliptičnim oblikom, izuzetan je primjer predromaničke arhitekture u Hrvatskoj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2177",
+        "category": "povijest",
+        "question": "Koji je francuski kralj, poznat kao \"Kralj Sunce\", vladao Francuskom najduže (1643.-1715.) i izgradio palaču Versailles?",
+        "correct_answer": "Luj XIV.",
+        "incorrect_answers": [
+            "Luj XIII.",
+            "Luj XVI.",
+            "Henrik IV."
+        ],
+        "explanation": "Luj XIV. bio je arhetipski apsolutistički vladar, čija je vladavina obilježila vrhunac francuske moći i kulture.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2178",
+        "category": "povijest",
+        "question": "Tko je bila supruga cara Nikole II. i posljednja ruska carica, čija je povezanost s Rasputinom izazivala kontroverze?",
+        "correct_answer": "Aleksandra Fjodorovna",
+        "incorrect_answers": [
+            "Katarina Velika",
+            "Marija Fjodorovna",
+            "Elizabeta Petrovna"
+        ],
+        "explanation": "Carica Aleksandra Fjodorovna, unuka kraljice Viktorije, bila je pod snažnim utjecajem Grigorija Rasputina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2179",
+        "category": "povijest",
+        "question": "Koji je vođa predvodio pokret za neovisnost Indije od britanske vlasti, zagovarajući nenasilni otpor i građansku neposlušnost?",
+        "correct_answer": "Mahatma Gandhi",
+        "incorrect_answers": [
+            "Jawaharlal Nehru",
+            "Subhas Chandra Bose",
+            "Sardar Patel"
+        ],
+        "explanation": "Mahatma Gandhi bio je duhovni vođa indijskog pokreta za neovisnost i tvorac filozofije nenasilnog otpora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2180",
+        "category": "povijest",
+        "question": "Kako se zvao prvi umjetni satelit u Zemljinoj orbiti, lansiran od strane Sovjetskog Saveza 1957. godine, čime je započela svemirska utrka?",
+        "correct_answer": "Sputnjik 1",
+        "incorrect_answers": [
+            "Vostok 1",
+            "Apolon 11",
+            "Explorer 1"
+        ],
+        "explanation": "Sputnjik 1 bio je prvi umjetni satelit lansiran u svemir, što je označilo povijesni trenutak u istraživanju svemira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2181",
+        "category": "povijest",
+        "question": "Kako se nazivala mirovna operacija Ujedinjenih naroda (UNPROFOR) koja je djelovala u Hrvatskoj i BiH tijekom rata 1990-ih godina?",
+        "correct_answer": "UNPROFOR",
+        "incorrect_answers": [
+            "SFOR",
+            "KFOR",
+            "IFOR"
+        ],
+        "explanation": "UNPROFOR (United Nations Protection Force) bila je mirovna misija UN-a koja je raspoređena u bivšoj Jugoslaviji radi održavanja mira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
