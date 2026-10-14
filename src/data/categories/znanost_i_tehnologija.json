@@ -25525,5 +25525,515 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1983",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja sirove nafte u različite korisne proizvode kao što su benzin i dizel?",
+        "correct_answer": "Rafiniranje",
+        "incorrect_answers": [
+            "Destilacija",
+            "Krekiranje",
+            "Fermentacija"
+        ],
+        "explanation": "Rafiniranje nafte je kompleksan proces koji uključuje različite metode, uključujući destilaciju, za odvajanje sirove nafte na frakcije s različitim točkama vrelišta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1984",
+        "category": "znanost",
+        "question": "Koji je kemijski element najlakši i najzastupljeniji u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) je najlakši element i čini oko 75% svemirske mase, ključan za zvijezde i vodu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1985",
+        "category": "znanost",
+        "question": "Koji je izumitelj patentirao fonograf 1877. godine, uređaj za snimanje i reprodukciju zvuka?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Alexander Graham Bell",
+            "Nikola Tesla",
+            "Guglielmo Marconi"
+        ],
+        "explanation": "Thomas Edison je 1877. godine patentirao fonograf, prvi uređaj koji je mogao snimati i reproducirati zvuk.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1986",
+        "category": "znanost",
+        "question": "Koji se termin koristi za mjeru otpora materijala protoku električne struje?",
+        "correct_answer": "Ohm",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Watt"
+        ],
+        "explanation": "Ohm (Ω) je SI jedinica za električni otpor, nazvana po Georgu Simonu Ohmu. Volt mjeri napon, a Amper struju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1987",
+        "category": "znanost",
+        "question": "Kako se zove znanstveno polje koje proučava genetski materijal organizama i nasljeđivanje osobina?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Biokemija"
+        ],
+        "explanation": "Genetika je grana biologije koja se bavi proučavanjem gena, genetske varijacije i nasljeđivanja kod živih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1988",
+        "category": "znanost",
+        "question": "Koji se optički instrument koristi za promatranje udaljenih nebeskih tijela?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Teleskop je optički instrument koji sakuplja svjetlost ili drugo elektromagnetsko zračenje s udaljenih objekata i stvara uvećanu sliku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1989",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju funkcionalnu jedinicu živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Molekula",
+            "Organ",
+            "Tkivo"
+        ],
+        "explanation": "Stanica je osnovna strukturna, funkcionalna i biološka jedinica svih poznatih živih organizama, često nazivana 'građevnim blokom života'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1990",
+        "category": "znanost",
+        "question": "Što je primarna funkcija RAM-a (Random Access Memory) u računalu?",
+        "correct_answer": "Privremeno pohranjivanje podataka za brzi pristup",
+        "incorrect_answers": [
+            "Trajno pohranjivanje operativnog sustava",
+            "Izvršavanje aritmetičkih operacija",
+            "Prikaz grafičkog sučelja"
+        ],
+        "explanation": "RAM služi kao privremeno spremište podataka koje procesor aktivno koristi, omogućujući brzi pristup i obradu informacija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1991",
+        "category": "znanost",
+        "question": "Koji je kemijski proces oksidacije i redukcije koji oslobađa energiju iz hrane u stanicama?",
+        "correct_answer": "Stanično disanje",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Fermentacija",
+            "Transpiracija"
+        ],
+        "explanation": "Stanično disanje je proces kojim organizmi, uključujući ljude, pretvaraju hranjive tvari u energiju (ATP) za održavanje života.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1992",
+        "category": "znanost",
+        "question": "Što je glavna svrha algoritma u računalnoj znanosti?",
+        "correct_answer": "Precizan niz koraka za rješavanje problema",
+        "incorrect_answers": [
+            "Uređaj za pohranu podataka",
+            "Vrsta programskog jezika",
+            "Grafičko korisničko sučelje"
+        ],
+        "explanation": "Algoritam je precizan i konačan niz uputa za izvršavanje zadatka ili rješavanje problema, često korišten u programiranju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1993",
+        "category": "znanost",
+        "question": "Koji je znanstvenik razvio teoriju relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Stephen Hawking"
+        ],
+        "explanation": "Albert Einstein je 1905. godine objavio svoju specijalnu teoriju relativnosti, a 1915. opću teoriju relativnosti, koje su revolucionirale fiziku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1994",
+        "category": "znanost",
+        "question": "Koji je najčešći oblik zvijezde u svemiru?",
+        "correct_answer": "Crveni patuljak",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Neutronska zvijezda",
+            "Plavi div"
+        ],
+        "explanation": "Crveni patuljci su najbrojniji tip zvijezda u Mliječnoj stazi i smatraju se najdugovječnijim zvijezdama u svemiru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1995",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje virtualnog okruženja koje simulira stvarnost?",
+        "correct_answer": "Virtualna stvarnost (VR)",
+        "incorrect_answers": [
+            "Proširena stvarnost (AR)",
+            "Mješovita stvarnost (MR)",
+            "Umjetna inteligencija (AI)"
+        ],
+        "explanation": "Virtualna stvarnost (VR) uranja korisnike u potpuno simulirano digitalno okruženje, često putem posebnih naočala.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1996",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija u kojoj se kisik spaja s drugom tvari, često uz oslobađanje topline i svjetlosti?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Korozija",
+            "Fermentacija",
+            "Neutralizacija"
+        ],
+        "explanation": "Izgaranje je kemijska reakcija između tvari i oksidansa, obično kisika, pri kojoj se oslobađa energija u obliku topline i/ili svjetlosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1997",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija crvenih krvnih zrnaca?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Prijenos hranjivih tvari"
+        ],
+        "explanation": "Crvena krvna zrnca sadrže hemoglobin, protein koji veže kisik iz pluća i prenosi ga do svih tkiva u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1998",
+        "category": "znanost",
+        "question": "Što je 'cloud computing' (računalstvo u oblaku)?",
+        "correct_answer": "Isporuka računalnih usluga putem interneta",
+        "incorrect_answers": [
+            "Sustav za prognoziranje vremena",
+            "Novi tip operativnog sustava",
+            "Metoda bežičnog punjenja uređaja"
+        ],
+        "explanation": "Cloud computing omogućuje pristup računalnim resursima poput poslužitelja, pohrane i aplikacija putem interneta, umjesto lokalnog posjedovanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1999",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalni zakon koji kaže da energija ne može biti stvorena niti uništena, već samo transformirana iz jednog oblika u drugi?",
+        "correct_answer": "Zakon očuvanja energije",
+        "incorrect_answers": [
+            "Zakon gravitacije",
+            "Zakon termodinamike",
+            "Zakon inercije"
+        ],
+        "explanation": "Prvi zakon termodinamike, poznat i kao zakon očuvanja energije, temeljan je princip fizike koji opisuje kako se energija ponaša u zatvorenom sustavu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2000",
+        "category": "znanost",
+        "question": "Koji je znanstveni naziv za proces kada biljke ispuštaju vodenu paru kroz svoje listove?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Kondenzacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz živih biljaka, uglavnom kroz stomate na listovima, što doprinosi ciklusu vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2001",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak silicija u mikročipovima?",
+        "correct_answer": "Silicij (Si)",
+        "incorrect_answers": [
+            "Germanij (Ge)",
+            "Bakar (Cu)",
+            "Zlato (Au)"
+        ],
+        "explanation": "Silicij je poluvodič i najčešći je materijal koji se koristi za izradu integriranih krugova u mikročipovima zbog svojih svojstava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2002",
+        "category": "znanost",
+        "question": "Koji element u tragovima je ključan za transport kisika u krvi sisavaca?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Cink",
+            "Kalcij",
+            "Magnezij"
+        ],
+        "explanation": "Željezo je ključna komponenta hemoglobina u crvenim krvnim zrncima, koji je odgovoran za vezanje i prijenos kisika kroz tijelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2003",
+        "category": "znanost",
+        "question": "Koji je naziv za iznenadno otpuštanje energije u Zemljinoj kori, koje uzrokuje podrhtavanje tla?",
+        "correct_answer": "Potres (Zemljotres)",
+        "incorrect_answers": [
+            "Vulkanska erupcija",
+            "Tsunami",
+            "Oluja"
+        ],
+        "explanation": "Potres je iznenadno oslobađanje akumulirane elastične energije u Zemljinoj kori, što uzrokuje seizmičke valove i podrhtavanje tla.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2004",
+        "category": "znanost",
+        "question": "Koji tip računalnog virusa maskira se kao koristan program kako bi prevario korisnika da ga instalira?",
+        "correct_answer": "Trojanski konj",
+        "incorrect_answers": [
+            "Crvi",
+            "Spyware",
+            "Ransomware"
+        ],
+        "explanation": "Trojanski konj je vrsta zlonamjernog softvera koji se pretvara da je legitiman program, ali zapravo skriva štetne funkcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2005",
+        "category": "znanost",
+        "question": "Koji je naziv za satelit koji orbitira oko Zemlje u sinkronizaciji s njenom rotacijom, pojavljujući se nepomičan iznad jedne točke ekvatora?",
+        "correct_answer": "Geostacionarni satelit",
+        "incorrect_answers": [
+            "Polarizirani satelit",
+            "Niskoorbitni satelit",
+            "Mjesečev satelit"
+        ],
+        "explanation": "Geostacionarni satelit kruži iznad ekvatora na visini od 35 786 km i ima orbitalni period jednak Zemljinom rotacijskom periodu, čineći ga stacionarnim.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2006",
+        "category": "znanost",
+        "question": "Koji se znanstveni zakon odnosi na odnos između tlaka, volumena i temperature idealnog plina?",
+        "correct_answer": "Zakon idealnog plina (PV=nRT)",
+        "incorrect_answers": [
+            "Hookeov zakon",
+            "Coulombov zakon",
+            "Arhimedov zakon"
+        ],
+        "explanation": "Zakon idealnog plina, poznat i kao jednadžba stanja idealnog plina, opisuje kako se tlak, volumen i temperatura plina međusobno odnose.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2007",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje bežičnu komunikaciju na kratkim udaljenostima između uređaja poput slušalica i pametnih telefona?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "LTE"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja na maloj udaljenosti, stvarajući osobne mreže.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2008",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja novih vrsta iz postojećih kroz evoluciju?",
+        "correct_answer": "Specijacija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Adaptacija",
+            "Divergencija"
+        ],
+        "explanation": "Specijacija je evolucijski proces kojim se populacije razilaze i razvijaju u zasebne, reproduktivno izolirane vrste.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2009",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica magnetskog toka u SI sustavu?",
+        "correct_answer": "Weber (Wb)",
+        "incorrect_answers": [
+            "Tesla (T)",
+            "Gauss (G)",
+            "Farad (F)"
+        ],
+        "explanation": "Weber (Wb) je SI izvedena jedinica magnetskog toka, dok Tesla mjeri gustoću magnetskog toka. Farad mjeri električni kapacitet.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2010",
+        "category": "znanost",
+        "question": "Koji dio mozga kontrolira ravnotežu i koordinaciju pokreta?",
+        "correct_answer": "Mali mozak (Cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak (Cerebrum)",
+            "Moždano deblo",
+            "Hipotalamus"
+        ],
+        "explanation": "Mali mozak, smješten ispod velikog mozga, ključan je za koordinaciju dobrovoljnih pokreta, održavanje ravnoteže i držanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2011",
+        "category": "znanost",
+        "question": "Koji je najveći umjetni satelit koji kruži oko Zemlje?",
+        "correct_answer": "Međunarodna svemirska postaja (ISS)",
+        "incorrect_answers": [
+            "Hubbleov svemirski teleskop",
+            "Voyager 1",
+            "Tien-gong 3"
+        ],
+        "explanation": "Međunarodna svemirska postaja (ISS) najveći je ljudski objekt u orbiti, služila je za istraživanja i kao trajno boravište astronauta (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2012",
+        "category": "znanost",
+        "question": "Kako se naziva tip grafičke kartice koja ima vlastiti procesor i memoriju, neovisnu o CPU-u računala?",
+        "correct_answer": "Diskretna grafička kartica",
+        "incorrect_answers": [
+            "Integrirana grafička kartica",
+            "Ugrađena grafička kartica",
+            "Hibridna grafička kartica"
+        ],
+        "explanation": "Diskretna grafička kartica je zasebna komponenta s vlastitim GPU-om i VRAM-om, pružajući veće performanse od integrirane grafike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2013",
+        "category": "znanost",
+        "question": "Koji je proces pretvaranja informacija iz genetskog koda mRNA u proteine?",
+        "correct_answer": "Translacija",
+        "incorrect_answers": [
+            "Transkripcija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Translacija se odvija u ribosomima, gdje se redoslijed nukleotida u mRNA prevodi u redoslijed aminokiselina, stvarajući protein.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2014",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između atoma i iona?",
+        "correct_answer": "Ion ima električni naboj, atom nema",
+        "incorrect_answers": [
+            "Atom je manji od iona",
+            "Ion ima stabilniju konfiguraciju elektrona",
+            "Atom ima više neutrona od iona"
+        ],
+        "explanation": "Atom je električno neutralan jer ima jednak broj protona i elektrona, dok ion nastaje kada atom izgubi ili dobije elektrone, stječući naboj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2015",
+        "category": "znanost",
+        "question": "Koji je planet poznat kao 'Crveni planet' zbog svoje crvenkaste boje?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je poznat kao 'Crveni planet' zbog prisutnosti željeznog oksida, odnosno hrđe, na njegovoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2016",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalni fenomen kada se objekt giba brže od brzine zvuka, stvarajući udarni val?",
+        "correct_answer": "Zvučni zid (Sonic boom)",
+        "incorrect_answers": [
+            "Dopplerov efekt",
+            "Superpozicija valova",
+            "Rezonancija"
+        ],
+        "explanation": "Zvučni zid je pojava koja nastaje kada objekt putuje brže od brzine zvuka, generirajući udarni valove koji se čuju kao glasni prasak.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
