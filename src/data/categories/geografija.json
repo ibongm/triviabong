@@ -22382,5 +22382,455 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1769",
+        "category": "geografija",
+        "question": "Koja je druga najduža rijeka na svijetu?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Nil",
+            "Mississippi",
+            "Yangtze"
+        ],
+        "explanation": "Amazon je najduža rijeka Južne Amerike i druga najduža rijeka na svijetu po dužini, a najveća po volumenu vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1770",
+        "category": "geografija",
+        "question": "Koja se pustinja nalazi u sjevernoj Africi i najveća je vruća pustinja na svijetu?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokrivajući veliki dio sjeverne Afrike. Njezina površina je usporediva s Kinom ili SAD-om.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1771",
+        "category": "geografija",
+        "question": "Koje je more ime dobilo po bojama algi koje se u njemu nalaze?",
+        "correct_answer": "Crveno more",
+        "incorrect_answers": [
+            "Crno more",
+            "Žuto more",
+            "Bijelo more"
+        ],
+        "explanation": "Crveno more je dobilo ime po povremenom cvjetanju alge Trichodesmium erythraeum koja ga boji u crveno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1772",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz između Pirinejskog poluotoka i Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Beringov prolaz"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean sa Sredozemnim morem i razdvaja Europu od Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1773",
+        "category": "geografija",
+        "question": "Kako se naziva trajno smrznuto tlo u polarnim i subpolarnim regijama?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Ledeni pokrov",
+            "Stepa"
+        ],
+        "explanation": "Permafrost je tlo koje ostaje zamrznuto najmanje dvije uzastopne godine, karakteristično za polarne krajeve.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1774",
+        "category": "geografija",
+        "question": "Koje je jezero najveće slatkovodno jezero u Africi i drugo najveće slatkovodno jezero na svijetu po površini?",
+        "correct_answer": "Jezero Victoria",
+        "incorrect_answers": [
+            "Jezero Tanganyika",
+            "Jezero Malawi",
+            "Jezero Chad"
+        ],
+        "explanation": "Jezero Victoria je najveće afričko jezero po površini i izvor je rijeke Nil.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1775",
+        "category": "geografija",
+        "question": "Koji europski glavni grad leži na obalama rijeke Temze?",
+        "correct_answer": "London",
+        "incorrect_answers": [
+            "Pariz",
+            "Rim",
+            "Berlin"
+        ],
+        "explanation": "London, glavni grad Ujedinjenog Kraljevstva, povijesno se razvijao uz rijeku Temzu, koja je ključna za njegov promet i razvoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1776",
+        "category": "geografija",
+        "question": "Koji ocean je najmanji i najplići na svijetu?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Južni ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji od pet svjetskih oceana, prekriven ledom veći dio godine, smješten oko Sjevernog pola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1777",
+        "category": "geografija",
+        "question": "Koja je država poznata po planini Fuji i drevnim samurajima?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Japan je otočna država u istočnoj Aziji, poznata po planini Fuji kao svom nacionalnom simbolu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1778",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna udubina u zemljinoj površini koja može biti ispunjena vodom i tako stvoriti jezero?",
+        "correct_answer": "Bazen",
+        "incorrect_answers": [
+            "Plato",
+            "Dolina",
+            "Greben"
+        ],
+        "explanation": "Bazen je depresija u zemljinoj površini koja može nastati erozijom, tektonskim pomacima ili vulkanskom aktivnošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1779",
+        "category": "geografija",
+        "question": "Kako se naziva klimatski fenomen gdje se razina mora smanjuje zbog nakupljanja leda na kontinentima?",
+        "correct_answer": "Glacioeustazija",
+        "incorrect_answers": [
+            "Izostazija",
+            "Transgresija",
+            "Subsidencija"
+        ],
+        "explanation": "Glacioeustazija je globalna promjena razine mora uzrokovana promjenama volumena leda na kopnu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1780",
+        "category": "geografija",
+        "question": "Koja je najdulja rijeka u Ujedinjenom Kraljevstvu?",
+        "correct_answer": "Severn",
+        "incorrect_answers": [
+            "Temza",
+            "Trent",
+            "Clyde"
+        ],
+        "explanation": "Rijeka Severn je najduža rijeka u Ujedinjenom Kraljevstvu, koja teče kroz Wales i Englesku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1781",
+        "category": "geografija",
+        "question": "Koja je pustinja poznata po svojim crvenim dinama i nalazi se u Namibiji?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Kalahari",
+            "Sahara",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Namib je obalna pustinja u južnoj Africi, poznata po svojim visokim crvenim pješčanim dinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1782",
+        "category": "geografija",
+        "question": "Koju državu presijeca ekvator i poznata je po Galapagoškim otocima?",
+        "correct_answer": "Ekvador",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Brazil",
+            "Peru"
+        ],
+        "explanation": "Ekvador je južnoamerička država čije ime doslovno znači 'ekvator' na španjolskom. Galapagoški otoci pripadaju Ekvadoru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1783",
+        "category": "geografija",
+        "question": "Koje je jezero se nalazi između Azije i Europe i najveće je jezero na svijetu po površini?",
+        "correct_answer": "Kaspijsko jezero",
+        "incorrect_answers": [
+            "Aralsko jezero",
+            "Bajkalsko jezero",
+            "Veliko slano jezero"
+        ],
+        "explanation": "Kaspijsko jezero je najveće jezero na svijetu po površini, smješteno na granici Europe i Azije, i tehnički je endorejski bazen.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1784",
+        "category": "geografija",
+        "question": "Kako se naziva planina s više vrhova i strmim padinama, često stvorena orogenezom?",
+        "correct_answer": "Masiv",
+        "incorrect_answers": [
+            "Plato",
+            "Kotlina",
+            "Sedlo"
+        ],
+        "explanation": "Masiv je kompaktna skupina planina s više vrhova, nastala geološkim procesima poput izdizanja i nabiranja kore.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1785",
+        "category": "geografija",
+        "question": "Kako se naziva jaka oluja tropskog ciklona koja se formira iznad Atlantskog oceana ili sjeveroistočnog Tihog oceana?",
+        "correct_answer": "Uragan",
+        "incorrect_answers": [
+            "Tajfun",
+            "Ciklon",
+            "Tornado"
+        ],
+        "explanation": "Uragan je specifičan naziv za tropske ciklone koji se razvijaju u Atlantskom oceanu i sjeveroistočnom Tihom oceanu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1786",
+        "category": "geografija",
+        "question": "Koji je glavni grad države s poznatim Koloseumom i Forumom?",
+        "correct_answer": "Rim",
+        "incorrect_answers": [
+            "Atena",
+            "Madrid",
+            "Berlin"
+        ],
+        "explanation": "Rim je glavni grad Italije i poznat je po svojim antičkim spomenicima poput Koloseuma i Rimskog foruma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1787",
+        "category": "geografija",
+        "question": "Kako se naziva uski vodeni put koji spaja dva veća vodena tijela?",
+        "correct_answer": "Tjesnac",
+        "incorrect_answers": [
+            "Zaljev",
+            "Kanal",
+            "Fjord"
+        ],
+        "explanation": "Tjesnac je prirodni uski vodeni prolaz koji povezuje dva mora, oceana ili veća jezera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1788",
+        "category": "geografija",
+        "question": "Kako se naziva proces spuštanja ili slijeganja zemljine površine?",
+        "correct_answer": "Subsidencija",
+        "incorrect_answers": [
+            "Orogenaza",
+            "Uplift",
+            "Erozija"
+        ],
+        "explanation": "Subsidencija je geološki proces slijeganja zemljine kore, često uzrokovan vađenjem podzemne vode ili nafte.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1789",
+        "category": "geografija",
+        "question": "Koja država zauzima cijeli kontinent i nekoliko okolnih otoka?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Kanada",
+            "Brazil",
+            "Rusija"
+        ],
+        "explanation": "Australija je jedina država na svijetu koja zauzima cijeli kontinent, uz dodatak Tasmanije i drugih manjih otoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1790",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka Sjeverne Amerike?",
+        "correct_answer": "Missouri",
+        "incorrect_answers": [
+            "Mississippi",
+            "Colorado",
+            "Yukon"
+        ],
+        "explanation": "Iako se često spominje Mississippi, sustav Missouri-Mississippi je najduži riječni sustav u Sjevernoj Americi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1791",
+        "category": "geografija",
+        "question": "Koji je otok poznat po kipovima moaija i pripada Čileu?",
+        "correct_answer": "Uskršnji otok",
+        "incorrect_answers": [
+            "Fidži",
+            "Tahiti",
+            "Bora Bora"
+        ],
+        "explanation": "Uskršnji otok je izolirani polinezijski otok u Tihom oceanu, poznat po svojim monolitnim kipovima ljudskih figura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1792",
+        "category": "geografija",
+        "question": "Kako se naziva klimatska zona koja karakterizira niske temperature tijekom cijele godine i vječni led?",
+        "correct_answer": "Polarna klima",
+        "incorrect_answers": [
+            "Umjerena klima",
+            "Subpolarna klima",
+            "Alpska klima"
+        ],
+        "explanation": "Polarna klima prevladava u polarnim regijama Zemlje, s izrazito niskim temperaturama i dominacijom leda i snijega.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1793",
+        "category": "geografija",
+        "question": "Kako se naziva podvodni planinski lanac koji se proteže kroz središte Atlantskog oceana?",
+        "correct_answer": "Srednjoatlantski hrbat",
+        "incorrect_answers": [
+            "Marijanska brazda",
+            "Nazca hrbat",
+            "Havajski hrbat"
+        ],
+        "explanation": "Srednjoatlantski hrbat je divergentna granica tektonskih ploča koja se proteže cijelom dužinom Atlantskog oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1794",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni svjetlosni fenomen uzrokovan sunčevim vjetrom koji se sudara s magnetskim poljem Zemlje, vidljiv u južnim polarnim regijama?",
+        "correct_answer": "Aurora Australis",
+        "incorrect_answers": [
+            "Aurora Borealis",
+            "Zelena munja",
+            "Kometarni rep"
+        ],
+        "explanation": "Aurora Australis, poznata i kao južna polarna svjetlost, vidljiva je na južnoj polutki, dok je Aurora Borealis na sjevernoj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1795",
+        "category": "geografija",
+        "question": "Koji je kontinent najviše smješten iznad razine mora?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Azija",
+            "Afrika",
+            "Južna Amerika"
+        ],
+        "explanation": "Antarktika ima najveću prosječnu nadmorsku visinu od svih kontinenata zbog debljine ledenog pokrova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1796",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se kontinentalne ploče sudaraju, uzrokujući nastanak planinskih lanaca?",
+        "correct_answer": "Orogeneza",
+        "incorrect_answers": [
+            "Erozija",
+            "Denudacija",
+            "Vremenska erozija"
+        ],
+        "explanation": "Orogeneza je geološki proces nabiranja i izdizanja zemljine kore koji dovodi do stvaranja planinskih lanaca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1797",
+        "category": "geografija",
+        "question": "Koji je otok, dio Malajskog arhipelaga, poznat po orangutanima i podijeljen između tri države?",
+        "correct_answer": "Borneo",
+        "incorrect_answers": [
+            "Java",
+            "Sumatra",
+            "Sulavesi"
+        ],
+        "explanation": "Borneo je treći najveći otok na svijetu, podijeljen između Indonezije, Malezije i Bruneja, i dom je orangutana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1798",
+        "category": "geografija",
+        "question": "Kako se naziva oštri, nazubljeni planinski greben nastao erozijom ledenjaka?",
+        "correct_answer": "Areta",
+        "incorrect_answers": [
+            "Morena",
+            "Cirque",
+            "Uvala"
+        ],
+        "explanation": "Areta je uski, oštri greben koji razdvaja dvije ledene doline ili dva cirka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
