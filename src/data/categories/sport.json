@@ -28804,5 +28804,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2224",
+        "category": "sport",
+        "question": "Tko je najtrofejniji nogometaš u povijesti po broju osvojenih naslova (klupskih i reprezentativnih) (stanje 2024.)?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": [
+            "Cristiano Ronaldo",
+            "Pelé",
+            "Diego Maradona"
+        ],
+        "explanation": "Lionel Messi je osvojio najviše trofeja u povijesti nogometa, uključujući Svjetsko prvenstvo 2022. i brojne klupske naslove.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2225",
+        "category": "sport",
+        "question": "Koliko košarkaša jedne momčadi smije istovremeno biti na terenu tijekom utakmice?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "6",
+            "4",
+            "7"
+        ],
+        "explanation": "U košarci, svaka momčad ima pet igrača na terenu u bilo kojem trenutku igre, nastojeći postići koš i braniti svoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2226",
+        "category": "sport",
+        "question": "Koja teniska podloga se koristi na turniru Australian Open?",
+        "correct_answer": "Tvrda podloga",
+        "incorrect_answers": [
+            "Zemlja",
+            "Trava",
+            "Sintetička podloga"
+        ],
+        "explanation": "Australian Open, kao i US Open, igra se na tvrdoj podlozi, poznatoj po svojoj brzini i predvidljivosti odbijanja loptice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2227",
+        "category": "sport",
+        "question": "Koja je standardna duljina staze za trčanje na otvorenom (atletska staza)?",
+        "correct_answer": "400 metara",
+        "incorrect_answers": [
+            "200 metara",
+            "800 metara",
+            "100 metara"
+        ],
+        "explanation": "Standardna atletska staza na otvorenom ima duljinu od 400 metara, s dva ravna dijela i dva zavoja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2228",
+        "category": "sport",
+        "question": "Koliko iznosi prosječna dubina bazena za olimpijsko plivanje?",
+        "correct_answer": "2 metra",
+        "incorrect_answers": [
+            "1.5 metara",
+            "2.5 metra",
+            "3 metra"
+        ],
+        "explanation": "Olimpijski bazeni moraju imati minimalnu dubinu od 2 metra kako bi se osigurala sigurnost plivača i pravedni uvjeti natjecanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2229",
+        "category": "sport",
+        "question": "Koliko se puta loptica mora odbiti od poda na protivničkoj strani terena u odbojci prije nego što se vrati?",
+        "correct_answer": "Nijednom",
+        "incorrect_answers": [
+            "Jednom",
+            "Dva puta",
+            "Tri puta"
+        ],
+        "explanation": "U odbojci, loptica ne smije dodirnuti tlo na protivničkoj strani terena nakon što je prešla mrežu da bi poen bio valjan.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2230",
+        "category": "sport",
+        "question": "Kako se naziva glavni udarac u tenisu kada se loptica udari s jače strane tijela, obično desnom rukom za dešnjake?",
+        "correct_answer": "Forehand",
+        "incorrect_answers": [
+            "Backhand",
+            "Servis",
+            "Smash"
+        ],
+        "explanation": "Forehand je jedan od najčešćih i najsnažnijih udaraca u tenisu, izveden s dominantne strane tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2231",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra na ledu s klizaljkama i palicama, te pakom?",
+        "correct_answer": "Hokej na ledu",
+        "incorrect_answers": [
+            "Hokej na travi",
+            "Curling",
+            "Brzo klizanje"
+        ],
+        "explanation": "Hokej na ledu je timski sport koji se igra na klizalištu, a cilj je palicama ubaciti pak u protivničku mrežu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2232",
+        "category": "sport",
+        "question": "Koji se sport često naziva 'Američki nogomet' izvan SAD-a, iako ima specifična pravila?",
+        "correct_answer": "Američki nogomet",
+        "incorrect_answers": [
+            "Ragbi unija",
+            "Ragbi liga",
+            "Kanadski nogomet"
+        ],
+        "explanation": "Američki nogomet je razvijen iz ragbija, ali ima vlastita pravila i tradiciju, posebno popularan u SAD-u.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2233",
+        "category": "sport",
+        "question": "Koja se disciplina u atletici izvodi skokom u dalj, ali bez zaleta, iz stojećeg položaja?",
+        "correct_answer": "Skok u dalj iz mjesta",
+        "incorrect_answers": [
+            "Troskok",
+            "Skok u vis",
+            "Skok s motkom"
+        ],
+        "explanation": "Skok u dalj iz mjesta je povijesna olimpijska disciplina i još se koristi u testiranju fizičke spremnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2234",
+        "category": "sport",
+        "question": "Koliko bodova donosi pogodak iz igre (field goal) u američkom nogometu?",
+        "correct_answer": "3 boda",
+        "incorrect_answers": [
+            "6 bodova",
+            "1 bod",
+            "2 boda"
+        ],
+        "explanation": "Field goal se postiže kada se lopta šutne kroz stative nakon što momčad nije uspjela ostvariti touchdown.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2235",
+        "category": "sport",
+        "question": "Kako se zove startna pozicija u plivanju za leđno i prsno plivanje?",
+        "correct_answer": "U vodi",
+        "incorrect_answers": [
+            "Sa startnog bloka",
+            "Izvan vode",
+            "Iz čučnja"
+        ],
+        "explanation": "Plivači u leđnom i prsnom plivanju startaju iz vode, držeći se za startne ručke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2236",
+        "category": "sport",
+        "question": "Koliko iznosi prosječna brzina servisa u profesionalnom tenisu (muškarci)?",
+        "correct_answer": "Preko 200 km/h",
+        "incorrect_answers": [
+            "Oko 150 km/h",
+            "Ispod 100 km/h",
+            "Oko 180 km/h"
+        ],
+        "explanation": "Profesionalni tenisači redovito postižu brzine servisa veće od 200 km/h, a rekordi prelaze i 250 km/h.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2237",
+        "category": "sport",
+        "question": "Koliki je najmanji broj igrača potreban za formiranje momčadi u košarci 3x3?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Košarka 3x3 je popularna varijanta košarke gdje svaka momčad ima tri igrača na terenu, igrajući na jedan koš.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2238",
+        "category": "sport",
+        "question": "Koliko iznosi prosječna težina muškog diska u atletici?",
+        "correct_answer": "2 kilograma",
+        "incorrect_answers": [
+            "1.5 kilograma",
+            "2.5 kilograma",
+            "3 kilograma"
+        ],
+        "explanation": "Muški disk u atletici mora imati službenu težinu od 2 kilograma za natjecanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2239",
+        "category": "sport",
+        "question": "Koja je najpoznatija utrka izdržljivosti u automobilizmu, duga 24 sata?",
+        "correct_answer": "24 sata Le Mansa",
+        "incorrect_answers": [
+            "Daytona 500",
+            "Indianapolis 500",
+            "Monako Grand Prix"
+        ],
+        "explanation": "24 sata Le Mansa je legendarna utrka izdržljivosti koja se održava svake godine u Francuskoj, testirajući izdržljivost vozača i vozila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2240",
+        "category": "sport",
+        "question": "Tko je prvi sportaš u povijesti koji je osvojio osam zlatnih medalja na jednim Olimpijskim igrama?",
+        "correct_answer": "Michael Phelps",
+        "incorrect_answers": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Mark Spitz"
+        ],
+        "explanation": "Michael Phelps je postigao ovaj povijesni podvig na Olimpijskim igrama u Pekingu 2008. godine, dominirajući u plivanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2241",
+        "category": "sport",
+        "question": "Koji je sport poznat po borbi u kavezu (octagonu)?",
+        "correct_answer": "Mješovite borilačke vještine (MMA)",
+        "incorrect_answers": [
+            "Boks",
+            "Hrvanje",
+            "Judo"
+        ],
+        "explanation": "Oktagon je zaštitni znak organizacija kao što je UFC, a služi kao ograđeni prostor za natjecanja u MMA-u.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2242",
+        "category": "sport",
+        "question": "Kako se naziva pozicija u nogometu čija je glavna uloga spriječiti protivnika da postigne gol?",
+        "correct_answer": "Branič (obrambeni igrač)",
+        "incorrect_answers": [
+            "Napadač",
+            "Vezni igrač",
+            "Golman"
+        ],
+        "explanation": "Braniči su ključni za obranu, blokiranje udaraca i prekidanje protivničkih napada prije nego što dođu do gola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2243",
+        "category": "sport",
+        "question": "U kojem se sportu koristi termin 'knockout' (KO)?",
+        "correct_answer": "Boks",
+        "incorrect_answers": [
+            "Plivanje",
+            "Atletika",
+            "Košarka"
+        ],
+        "explanation": "Knockout je pobjeda u boksu kada borac sruši protivnika, a ovaj ne uspije ustati u roku od 10 sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2244",
+        "category": "sport",
+        "question": "Koju boju ima zastavica koja se signalizira za 'corner' (udarac iz kuta) u nogometu?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Crvena",
+            "Bijela",
+            "Plava"
+        ],
+        "explanation": "Zastavica za korner je žute boje i služi za signaliziranje sucu da je loptica izašla izvan igrališta preko gol-linije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2245",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz stazu na malim sanjkama licem prema naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Sanjkanje (Luge)",
+            "Skijaški skokovi"
+        ],
+        "explanation": "Skeleton je brza zimska disciplina gdje se natjecatelji spuštaju niz ledenu stazu na malim sanjkama u ležećem položaju, glavom naprijed.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2246",
+        "category": "sport",
+        "question": "Koja je minimalna duljina luka u streličarstvu prema FITA (World Archery) pravilima za olimpijska natjecanja?",
+        "correct_answer": "Ne postoji minimalna duljina luka",
+        "incorrect_answers": [
+            "150 cm",
+            "165 cm",
+            "130 cm"
+        ],
+        "explanation": "Za olimpijsko streličarstvo, FITA pravila ne propisuju minimalnu duljinu luka, već fokusiraju na druge specifikacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2247",
+        "category": "sport",
+        "question": "Koja se država smatra domovinom stolnog tenisa?",
+        "correct_answer": "Engleska",
+        "incorrect_answers": [
+            "Kina",
+            "Japan",
+            "SAD"
+        ],
+        "explanation": "Stolni tenis, poznat i kao ping-pong, razvio se u Engleskoj krajem 19. stoljeća kao rekreativna igra.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2248",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra s 'shuttlecockom' umjesto lopticom?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Tenis",
+            "Stolni tenis",
+            "Odbojka"
+        ],
+        "explanation": "Shuttlecock (loptica s perjem) je specifična za badminton i zbog svoje aerodinamike pruža jedinstven stil igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2249",
+        "category": "sport",
+        "question": "U snookeru, koliko crnih kugli ima na stolu na početku igre?",
+        "correct_answer": "1",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "4"
+        ],
+        "explanation": "Na početku snooker igre, na stolu se nalazi jedna crna kugla, koja je najvrednija sa 7 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2250",
+        "category": "sport",
+        "question": "Koliko sudaca obično sudi nogometnu utakmicu na najvišoj razini (npr. Liga prvaka, Svjetsko prvenstvo)?",
+        "correct_answer": "1 glavni sudac, 2 pomoćna suca, 1 četvrti sudac (plus VAR tim)",
+        "incorrect_answers": [
+            "3 suca",
+            "2 suca",
+            "5 sudaca"
+        ],
+        "explanation": "Moderno suđenje uključuje glavnog suca, dva linijska suca, četvrtog suca i tim za video pomoć (VAR) za preciznije odluke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2251",
+        "category": "sport",
+        "question": "Kako se naziva specijalizirano vozilo za čišćenje i glačanje leda na hokejaškom igralištu?",
+        "correct_answer": "Zamboni",
+        "incorrect_answers": [
+            "Ledolomac",
+            "Ledokosa",
+            "Glader"
+        ],
+        "explanation": "Zamboni je najpoznatiji proizvođač i generički naziv za strojeve koji održavaju ledenu površinu hokejaških arena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2252",
+        "category": "sport",
+        "question": "Tko je jedini sportaš u povijesti koji je osvojio zlatnu medalju na ljetnim i zimskim Olimpijskim igrama u različitim sportovima?",
+        "correct_answer": "Eddie Eagan",
+        "incorrect_answers": [
+            "Bo Jackson",
+            "Jim Thorpe",
+            "Babe Didrikson Zaharias"
+        ],
+        "explanation": "Eddie Eagan je osvojio zlato u boksu (ljeto 1920.) i četverosjedu u bobu (zima 1932.), postavši jedinstven sportaš.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2253",
+        "category": "sport",
+        "question": "Koja je najviša atletska prepreka za muškarce u utrci na 110 metara s preponama?",
+        "correct_answer": "106.7 cm",
+        "incorrect_answers": [
+            "91.4 cm",
+            "100 cm",
+            "110 cm"
+        ],
+        "explanation": "Standardna visina prepreka za muškarce u utrci na 110 metara s preponama je 106.7 centimetara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2254",
+        "category": "sport",
+        "question": "U kojem se sportu koristi termin 'double-double' ili 'triple-double'?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Tenis",
+            "Odbojka",
+            "Bejzbol"
+        ],
+        "explanation": "'Double-double' i 'triple-double' označavaju dvoznamenkasti broj u dvije ili tri statističke kategorije (poeni, skokovi, asistencije itd.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2255",
+        "category": "sport",
+        "question": "Kako se naziva strategija u biciklizmu kada se vozači voze u grupi blizu jedan drugome kako bi smanjili otpor vjetra?",
+        "correct_answer": "Peloton",
+        "incorrect_answers": [
+            "Karavana",
+            "Ešalon",
+            "Konvoj"
+        ],
+        "explanation": "Peloton je glavna skupina biciklista u cestovnoj utrci, gdje vozači štede energiju koristeći zavjetrinu drugih.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2256",
+        "category": "sport",
+        "question": "Koja je jedina država koja je sudjelovala na svim izdanjima ljetnih Olimpijskih igara od 1896. godine?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Ujedinjeno Kraljevstvo",
+            "Francuska",
+            "SAD"
+        ],
+        "explanation": "Grčka je kao domovina Olimpijskih igara jedina sudjelovala na svim modernim ljetnim Olimpijskim igrama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2257",
+        "category": "sport",
+        "question": "Koliko se bodova dodjeljuje za 'touchdown' u američkom nogometu?",
+        "correct_answer": "6 bodova",
+        "incorrect_answers": [
+            "3 boda",
+            "7 bodova",
+            "1 bod"
+        ],
+        "explanation": "Touchdown je primarni način za postizanje bodova u američkom nogometu, nakon čega obično slijedi dodatni poen ili konverzija za dva poena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2258",
+        "category": "sport",
+        "question": "Koja je maksimalna brzina trčanja koju je Usain Bolt postigao tijekom svjetskog rekorda na 100 metara (stanje 2024.)?",
+        "correct_answer": "Oko 44.7 km/h",
+        "incorrect_answers": [
+            "Oko 35 km/h",
+            "Oko 40 km/h",
+            "Oko 50 km/h"
+        ],
+        "explanation": "Usain Bolt je tijekom svog svjetskog rekorda na 100 metara (9.58s) dostigao najveću brzinu od 44.72 km/h.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2259",
+        "category": "sport",
+        "question": "Kako se naziva finalni, kratki udarac diskom u košaricu u disc golfu?",
+        "correct_answer": "Putt",
+        "incorrect_answers": [
+            "Drive",
+            "Approach",
+            "Flick"
+        ],
+        "explanation": "Putt u disc golfu je precizan kratki udarac koji se izvodi kako bi se disk ubacio u završnu košaricu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2260",
+        "category": "sport",
+        "question": "Koji je najmlađi sportaš koji je ikada osvojio pojedinačnu zlatnu medalju na zimskim Olimpijskim igrama?",
+        "correct_answer": "Tara Lipinski",
+        "incorrect_answers": [
+            "Sonja Henie",
+            "Kim Yun-mi",
+            "Apolo Ohno"
+        ],
+        "explanation": "Tara Lipinski osvojila je zlatnu medalju u umjetničkom klizanju na ZOI 1998. u Naganu sa samo 15 godina i 255 dana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2261",
+        "category": "sport",
+        "question": "Kako se naziva tradicionalna japanska vještina mačevanja s bambusovim mačevima i zaštitnom opremom?",
+        "correct_answer": "Kendo",
+        "incorrect_answers": [
+            "Karate",
+            "Judo",
+            "Aikido"
+        ],
+        "explanation": "Kendo je japanska borilačka vještina koja koristi bambusove mačeve (shinai) i zaštitnu opremu, fokusirajući se na disciplinu i poštovanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
