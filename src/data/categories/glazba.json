@@ -29464,5 +29464,605 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2272",
+        "category": "glazba",
+        "question": "Koji talijanski glazbeni termin označava \"vrlo tiho\", odnosno najnižu razinu glasnoće u notnom zapisu?",
+        "correct_answer": "Pianissimo",
+        "incorrect_answers": [
+            "Piano",
+            "Mezzopiano",
+            "Dolce"
+        ],
+        "explanation": "Glazbeni termin \"pianissimo\" (pp) nalaže izvođenje dionice vrlo tiho. Koristi se za najnježnije i najsuptilnije dijelove skladbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2273",
+        "category": "glazba",
+        "question": "Tko je bio austrijski skladatelj iz razdoblja klasicizma, autor više od 600 djela uključujući opere \"Figarov pir\" i \"Čarobna frula\"?",
+        "correct_answer": "Wolfgang Amadeus Mozart",
+        "incorrect_answers": [
+            "Ludwig van Beethoven",
+            "Joseph Haydn",
+            "Franz Schubert"
+        ],
+        "explanation": "Mozart je bio iznimno plodan austrijski skladatelj klasicizma, poznat po svojim brojnim simfonijama, koncertima i operama poput \"Figarovog pira\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2274",
+        "category": "glazba",
+        "question": "Tko je hrvatska pjevačica poznata po svom jedinstvenom vokalu, avangardnom stilu i brojnim hitovima poput \"Magla\" i \"Danse macabre\"?",
+        "correct_answer": "Josipa Lisac",
+        "incorrect_answers": [
+            "Tereza Kesovija",
+            "Gabi Novak",
+            "Radojka Šverko"
+        ],
+        "explanation": "Josipa Lisac je ikona hrvatske glazbe, poznata po impresivnom vokalu, inovativnom stilu i dugoj karijeri s pjesmama poput \"Magla\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2275",
+        "category": "glazba",
+        "question": "Tko je bio njemački skladatelj iz razdoblja romantizma, poznat po svojim simfonijama, klavirskim sonatama i borbi s gubitkom sluha, što ga nije spriječilo u skladanju?",
+        "correct_answer": "Ludwig van Beethoven",
+        "incorrect_answers": [
+            "Johannes Brahms",
+            "Robert Schumann",
+            "Richard Wagner"
+        ],
+        "explanation": "Beethoven je bio njemački skladatelj romantizma, poznat po svojim simfonijama i sonatama, čija su kasnija djela nastala unatoč gluhoći.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2276",
+        "category": "glazba",
+        "question": "Tko je bio karizmatični frontmen britanske rock grupe Queen, poznat po svom nevjerojatnom vokalnom rasponu i scenskoj prisutnosti?",
+        "correct_answer": "Freddie Mercury",
+        "incorrect_answers": [
+            "Mick Jagger",
+            "Robert Plant",
+            "Ozzy Osbourne"
+        ],
+        "explanation": "Freddie Mercury bio je legendarni frontmen grupe Queen, prepoznatljiv po snažnom vokalu i teatralnim nastupima uživo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2277",
+        "category": "glazba",
+        "question": "Tko je bio frontmen i glavni tekstopisac legendarnog zagrebačkog rock benda Azra, poznat po svojim društveno angažiranim tekstovima i buntovnom stavu?",
+        "correct_answer": "Branimir Johnny Štulić",
+        "incorrect_answers": [
+            "Davor Gobac",
+            "Zoran Predin",
+            "Milan Mladenović"
+        ],
+        "explanation": "Johnny Štulić bio je karizmatični vođa Azre, prepoznatljiv po svojim inteligentnim i često provokativnim tekstovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2278",
+        "category": "glazba",
+        "question": "Kako se naziva glazbenik koji posjeduje izvanrednu tehničku vještinu i umijeće u sviranju nekog instrumenta ili pjevanju?",
+        "correct_answer": "Virtuoz",
+        "incorrect_answers": [
+            "Maestro",
+            "Dirigent",
+            "Kompozitor"
+        ],
+        "explanation": "Virtuoz je glazbenik koji je majstor svog instrumenta ili glasa, posjedujući iznimnu tehničku sposobnost i interpretacijsku vještinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2279",
+        "category": "glazba",
+        "question": "Tko je američka pjevačica i tekstopisac, poznata po svojim snažnim vokalnim sposobnostima, spektakularnim nastupima i hitovima poput \"Single Ladies (Put a Ring on It)\"?",
+        "correct_answer": "Beyoncé",
+        "incorrect_answers": [
+            "Rihanna",
+            "Adele",
+            "Lady Gaga"
+        ],
+        "explanation": "Beyoncé Knowles-Carter je globalna pop ikona, poznata po impresivnom vokalu, energičnim nastupima i nizu hitova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2280",
+        "category": "glazba",
+        "question": "Tko je hrvatski kantautor i pjevač, poznat po svojim introspektivnim tekstovima, fuziji popa, rocka i dalmatinske glazbe te hitovima poput \"Libar\" i \"Činim pravu stvar\"?",
+        "correct_answer": "Zlatan Stipišić Gibonni",
+        "incorrect_answers": [
+            "Massimo Savić",
+            "Neno Belan",
+            "Petar Grašo"
+        ],
+        "explanation": "Gibonni je jedan od najuspješnijih hrvatskih kantautora, cijenjen zbog dubokih tekstova i originalne kombinacije žanrova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2281",
+        "category": "glazba",
+        "question": "Tko je hrvatska pop pjevačica i zabavljačica, poznata po svojim energičnim nastupima i brojnim hitovima poput \"Dalmatinka\" i \"Moja štikla\"?",
+        "correct_answer": "Severina Vučković",
+        "incorrect_answers": [
+            "Jelena Rozga",
+            "Doris Dragović",
+            "Maja Šuput"
+        ],
+        "explanation": "Severina je jedna od najpopularnijih hrvatskih pjevačica, poznata po svojim scenskim nastupima i širokom dijapazonu pop hitova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2282",
+        "category": "glazba",
+        "question": "Koji je zagrebački rock bend, osnovan 1977. godine, poznat po svojim energičnim nastupima, punk i novovalnom zvuku, te hitovima poput \"Crno bijeli svijet\" i \"Sve je lako kad si mlad\"?",
+        "correct_answer": "Prljavo Kazalište",
+        "incorrect_answers": [
+            "Film",
+            "Parni Valjak",
+            "Aerodrom"
+        ],
+        "explanation": "Prljavo Kazalište je legendarni zagrebački rock bend iz doba Novog vala, poznat po svojim energičnim pjesmama i snažnim tekstovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2283",
+        "category": "glazba",
+        "question": "Tko je bio talijanski barokni skladatelj, poznat po svojim instrumentalnim koncertima, a najpoznatije djelo mu je zbirka koncerata za violinu \"Četiri godišnja doba\"?",
+        "correct_answer": "Antonio Vivaldi",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "Georg Friedrich Händel",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "Vivaldi je bio talijanski barokni majstor, najpoznatiji po svojim virtuoznim koncertima za violinu, uključujući \"Četiri godišnja doba\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2284",
+        "category": "glazba",
+        "question": "Koji drveni puhački instrument ima dvostruki jezičak i karakterističan prodoran, ali melankoličan zvuk, često korišten u klasičnoj orkestralnoj glazbi?",
+        "correct_answer": "Oboa",
+        "incorrect_answers": [
+            "Klarinet",
+            "Flauta",
+            "Fagot"
+        ],
+        "explanation": "Oboa je drveni puhački instrument s dvostrukim jezičkom koji stvara njezin prepoznatljiv, pomalo nazalan i prodoran zvuk. Ključna je u orkestrima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2285",
+        "category": "glazba",
+        "question": "Koji glazbeni oblik iz razdoblja klasicizma obično ima tri ili četiri stavka, a najpoznatiji je po orkestralnim djelima, često započinjući brzim stavkom u sonatnom obliku?",
+        "correct_answer": "Simfonija",
+        "incorrect_answers": [
+            "Koncert",
+            "Sonata",
+            "Fuga"
+        ],
+        "explanation": "Simfonija je složeni glazbeni oblik za orkestar, tipičan za klasicizam, s tri ili četiri stavka. Prvi stavak je često u sonatnom obliku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2286",
+        "category": "glazba",
+        "question": "Koji talijanski glazbeni termin označava \"vrlo brzo\" tempo, često brži od Allegra?",
+        "correct_answer": "Presto",
+        "incorrect_answers": [
+            "Vivace",
+            "Allegro",
+            "Largo"
+        ],
+        "explanation": "Presto je tempo oznaka koja nalaže izvođenje glazbe vrlo brzo. Obično je brži od Allegra i zahtijeva veliku agilnost od izvođača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2287",
+        "category": "glazba",
+        "question": "Koji udaraljkaški instrument, poznat i kao kotlovi, sastoji se od velikih bakrenih posuda prekrivenih kožom, koje se ugađaju na određene tonove?",
+        "correct_answer": "Timpani",
+        "incorrect_answers": [
+            "Bongosi",
+            "Konga",
+            "Djembe"
+        ],
+        "explanation": "Timpani su udaraljkaški instrumenti u orkestru, poznati kao kotlovi. Imaju membrane od kože ili plastike koje se ugađaju na određene visine tonova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2288",
+        "category": "glazba",
+        "question": "Koji je glazbeni žanr nastao u SAD-u 1970-ih, karakteriziran pulsirajućim ritmom, naglašenim basom, orkestralnim aranžmanima i često korišten za ples u klubovima?",
+        "correct_answer": "Disco",
+        "incorrect_answers": [
+            "Funk",
+            "Soul",
+            "R&B"
+        ],
+        "explanation": "Disco je glazbeni žanr koji je obilježio 1970-e, s naglašenim ritmom, bas linijama i produkcijom namijenjenom za ples u noćnim klubovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2289",
+        "category": "glazba",
+        "question": "Koji je gudački instrument s vertikalnim nizom žica koje se trzaju prstima, poznat po svom eteričnom zvuku i čestoj upotrebi u orkestrima i narodnoj glazbi?",
+        "correct_answer": "Harfa",
+        "incorrect_answers": [
+            "Citra",
+            "Cimbal",
+            "Lira"
+        ],
+        "explanation": "Harfa je veliki gudački instrument s brojnim žicama koje se trzaju prstima. Poznata je po svom bogatom i eteričnom zvuku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2290",
+        "category": "glazba",
+        "question": "Kako se naziva skupina od tri ili više tonova koji se sviraju istovremeno i zvuče harmonijski ugodno ili disonantno?",
+        "correct_answer": "Akord",
+        "incorrect_answers": [
+            "Melodija",
+            "Ritam",
+            "Arpeggio"
+        ],
+        "explanation": "Akord je harmonijska cjelina koja se sastoji od tri ili više tonova koji se sviraju istovremeno i čine osnovu harmonije u glazbi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2291",
+        "category": "glazba",
+        "question": "Koji je strastveni španjolski glazbeni i plesni žanr, porijeklom iz Andaluzije, karakteriziran virtuoznim plesom, pjevanjem (cante) i gitarom (toque)?",
+        "correct_answer": "Flamenco",
+        "incorrect_answers": [
+            "Salsa",
+            "Rumba",
+            "Tango"
+        ],
+        "explanation": "Flamenco je tradicionalni španjolski žanr iz Andaluzije, kombinacija pjevanja, plesa i gitare, poznat po svojoj strasti i ritmu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2292",
+        "category": "glazba",
+        "question": "Koji je žanr elektroničke plesne glazbe, nastao u ranim 2000-ima, karakteriziran jakim bas linijama, sinkopiranim ritmovima i često 'wobble' basom?",
+        "correct_answer": "Dubstep",
+        "incorrect_answers": [
+            "House",
+            "Techno",
+            "Trance"
+        ],
+        "explanation": "Dubstep je žanr elektroničke glazbe poznat po svojim teškim bas linijama, isprekidanim ritmovima i karakterističnim 'wobble' basom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2293",
+        "category": "glazba",
+        "question": "Koji je podžanr jazza koji je bio popularan od 1930-ih do 1940-ih, karakteriziran velikim orkestrima (big bandovima), plesnim ritmom i naglašenim brass dionicama?",
+        "correct_answer": "Swing",
+        "incorrect_answers": [
+            "Bebop",
+            "Cool Jazz",
+            "Dixieland"
+        ],
+        "explanation": "Swing je popularan podžanr jazza iz razdoblja big bandova (1930-ih-1940-ih), karakteriziran plesnim ritmom i živahnim aranžmanima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2294",
+        "category": "glazba",
+        "question": "Koji je limeni puhački instrument poznat po svom sjajnom, prodornom zvuku i korištenju u vojnim orkestrima, jazzu i klasičnoj glazbi?",
+        "correct_answer": "Truba",
+        "incorrect_answers": [
+            "Trombon",
+            "Francuski rog",
+            "Korna"
+        ],
+        "explanation": "Truba je limeni puhački instrument sa svijetlim i prodornim zvukom. Koristi se u raznim glazbenim žanrovima, od klasike do jazza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2295",
+        "category": "glazba",
+        "question": "Kako se naziva glazbeni interval koji obuhvaća osam stupnjeva dijatonske ljestvice, gdje su dva tona iste visine, ali jedan zvuči više ili niže od drugog?",
+        "correct_answer": "Oktava",
+        "incorrect_answers": [
+            "Terca",
+            "Kvinta",
+            "Sekunda"
+        ],
+        "explanation": "Oktava je interval od osam stupnjeva ljestvice. Dva tona su na istoj noti, ali jedan je dvostruko više ili niže frekvencije od drugog.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2296",
+        "category": "glazba",
+        "question": "Koji je senzualni glazbeni i plesni žanr, porijeklom iz Argentine, karakteriziran melankoličnom melodijom, kompleksnim ritmom i prepoznatljivim plesnim koracima?",
+        "correct_answer": "Tango",
+        "incorrect_answers": [
+            "Samba",
+            "Rumba",
+            "Cha-cha-cha"
+        ],
+        "explanation": "Tango je strastveni glazbeni i plesni žanr koji potječe iz Argentine. Karakteriziraju ga melankolične melodije i specifični plesni pokreti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2297",
+        "category": "glazba",
+        "question": "Koji drveni puhački instrument ima cilindričnu cijev i jednostruki jezičak, a poznat je po svom toplom, bogatom zvuku i širokom dinamičkom rasponu?",
+        "correct_answer": "Klarinet",
+        "incorrect_answers": [
+            "Oboa",
+            "Flauta",
+            "Fagot"
+        ],
+        "explanation": "Klarinet je drveni puhački instrument s jednostrukim jezičkom, poznat po svom toplom i bogatom zvuku te širokom rasponu tonova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2298",
+        "category": "glazba",
+        "question": "Kako se naziva elektronički glazbeni instrument koji generira zvukove pomoću električnih signala i omogućuje stvaranje širokog spektra zvukova, od imitacija do potpuno novih?",
+        "correct_answer": "Sintesajzer",
+        "incorrect_answers": [
+            "Gitara",
+            "Klavir",
+            "Bubnjevi"
+        ],
+        "explanation": "Sintesajzer je elektronički instrument koji stvara zvukove manipulirajući električnim signalima, omogućujući široku paletu tonova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2299",
+        "category": "glazba",
+        "question": "Koji je glazbeni žanr, nastao u južnom Bronxu 1970-ih, karakteriziran ritmičnim govorom (repom) preko instrumentalnih matrica (beatova)?",
+        "correct_answer": "Hip-hop",
+        "incorrect_answers": [
+            "R&B",
+            "Soul",
+            "Funk"
+        ],
+        "explanation": "Hip-hop je žanr glazbe i kultura nastala 1970-ih u New Yorku, s ključnim elementima kao što su repanje i DJ-ing.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2300",
+        "category": "glazba",
+        "question": "Koji limeni puhački instrument ima dugu, uvijenu cijev, širok otvor zvona i svira se desnom rukom unutar zvona kako bi se mijenjao ton?",
+        "correct_answer": "Francuski rog",
+        "incorrect_answers": [
+            "Tuba",
+            "Korna",
+            "Eufonij"
+        ],
+        "explanation": "Francuski rog je limeni puhački instrument prepoznatljiv po svom kružnom obliku. Zvuk se mijenja pritiskanjem ventila i položajem ruke u zvonu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2301",
+        "category": "glazba",
+        "question": "Kako se naziva glazbena tehnika koja uključuje istovremeno vođenje više nezavisnih melodijskih linija, karakteristična za renesansno i barokno razdoblje?",
+        "correct_answer": "Polifonija",
+        "incorrect_answers": [
+            "Homofonija",
+            "Monofonija",
+            "Heterofonija"
+        ],
+        "explanation": "Polifonija je glazbena tekstura gdje više nezavisnih melodijskih linija zvuči istovremeno. Bila je dominantna u renesansi i baroku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2302",
+        "category": "glazba",
+        "question": "Koji se glazbeni oblik obično sastoji od tri glavna dijela: ekspozicije, provedbe i reprize, a često se koristi u prvim stavcima simfonija i sonata?",
+        "correct_answer": "Sonata forma",
+        "incorrect_answers": [
+            "Rondo forma",
+            "Varijacije",
+            "Fuga"
+        ],
+        "explanation": "Sonata forma je temeljni glazbeni oblik klasicizma, s tri dijela: ekspozicijom tema, njihovom razradom u provedbi i ponavljanjem u reprizi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2303",
+        "category": "glazba",
+        "question": "Koji klavijaturni instrument, popularan u baroku, proizvodi zvuk trzanjem žica pomoću pera, a poznat je po svojoj oštroj, metalnoj boji tona bez dinamičkih nijansi?",
+        "correct_answer": "Čembalo",
+        "incorrect_answers": [
+            "Klavir",
+            "Orgulje",
+            "Spineta"
+        ],
+        "explanation": "Čembalo je klavijaturni instrument iz baroknog razdoblja. Zvuk proizvodi trzanjem žica perom, što mu daje specifičan, nedinamičan ton.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2304",
+        "category": "glazba",
+        "question": "Tko je američki minimalistički skladatelj, poznat po svojim ponavljajućim harmonijskim strukturama, s djelima poput opere \"Einstein na plaži\" i glazbom za film \"Trumanov show\"?",
+        "correct_answer": "Philip Glass",
+        "incorrect_answers": [
+            "Steve Reich",
+            "John Adams",
+            "Terry Riley"
+        ],
+        "explanation": "Philip Glass je jedan od najpoznatijih minimalističkih skladatelja, čija se glazba često temelji na repetitivnim, hipnotičkim uzorcima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2305",
+        "category": "glazba",
+        "question": "Kako se naziva oblik monodijskog crkvenog pjevanja, bez instrumentalne pratnje, koji je bio dominantan u srednjem vijeku i nazvan po papi Grguru I.?",
+        "correct_answer": "Gregorijanski koral",
+        "incorrect_answers": [
+            "Madrigal",
+            "Motet",
+            "Misa"
+        ],
+        "explanation": "Gregorijanski koral je jedinstveni stil crkvenog pjevanja bez instrumentalne pratnje iz srednjeg vijeka, nazvan po papi Grguru I.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2306",
+        "category": "glazba",
+        "question": "Tko je britanski gitarist i pjevač, poznat kao \"Slowhand\", član kultnih bendova Cream i Derek and the Dominos, s hitovima poput \"Tears in Heaven\"?",
+        "correct_answer": "Eric Clapton",
+        "incorrect_answers": [
+            "Jimmy Page",
+            "Jimi Hendrix",
+            "Jeff Beck"
+        ],
+        "explanation": "Eric Clapton je legendarni britanski gitarist i pjevač, cijenjen zbog svog blues-rock stila i hitova poput 'Tears in Heaven'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2307",
+        "category": "glazba",
+        "question": "Tko je američki skladatelj 20. stoljeća poznat po kompozicijama koje koriste \"pripremljeni klavir\" (prepared piano), poput \"Sonate i interludiji\"?",
+        "correct_answer": "John Cage",
+        "incorrect_answers": [
+            "George Crumb",
+            "Olivier Messiaen",
+            "Karlheinz Stockhausen"
+        ],
+        "explanation": "John Cage je američki avangardni skladatelj poznat po eksperimentalnim tehnikama, uključujući \"pripremljeni klavir\" gdje se predmeti umeću među žice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2308",
+        "category": "glazba",
+        "question": "Kako se naziva glazbena tehnika kojom se postiže blaga, brza promjena visine tona, stvarajući drhtavi ili titrajući efekt u zvuku?",
+        "correct_answer": "Vibrato",
+        "incorrect_answers": [
+            "Tremolo",
+            "Glissando",
+            "Legato"
+        ],
+        "explanation": "Vibrato je tehnika kojom se stvara blaga, ponavljajuća promjena visine tona, dajući zvuku bogatiji i ekspresivniji karakter.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2309",
+        "category": "glazba",
+        "question": "Tko je bio austrijski skladatelj ranog 20. stoljeća, začetnik dodekafonije (serijalne glazbe), čiji je rad označio revoluciju u atonalnoj glazbi?",
+        "correct_answer": "Arnold Schönberg",
+        "incorrect_answers": [
+            "Alban Berg",
+            "Anton Webern",
+            "Igor Stravinski"
+        ],
+        "explanation": "Arnold Schönberg je austrijski skladatelj koji je uveo dodekafoniju, sustav skladanja s 12 tonova, mijenjajući smjer moderne glazbe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2310",
+        "category": "glazba",
+        "question": "Koji je žanr elektroničke plesne glazbe koji se razvio 1990-ih, karakteriziran melodičnim sintesajzerskim dionicama, često s brzim tempom i hipnotičkim repetitivnim ritmom?",
+        "correct_answer": "Trance",
+        "incorrect_answers": [
+            "House",
+            "Techno",
+            "Drum and Bass"
+        ],
+        "explanation": "Trance je žanr elektroničke plesne glazbe prepoznatljiv po melodičnim sintesajzerskim linijama, brzim tempu i hipnotičkoj atmosferi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_mus_2311",
+        "category": "glazba",
+        "question": "Kako se naziva razdoblje u povijesti glazbe (oko 1750. – 1820.) koje je karakterizirano jasnoćom, ravnotežom, simetrijom i formalnom elegancijom, s istaknutim skladateljima poput Haydna, Mozarta i Beethovena?",
+        "correct_answer": "Bečka klasika",
+        "incorrect_answers": [
+            "Renesansa",
+            "Barok",
+            "Romantizam"
+        ],
+        "explanation": "Bečka klasika je razdoblje glazbe (oko 1750.-1820.) koje je obilježeno jasnoćom, ravnotežom i formalnom elegancijom, s Bečom kao centrom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
