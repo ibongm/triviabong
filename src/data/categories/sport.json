@@ -30544,5 +30544,560 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2340",
+        "category": "sport",
+        "question": "Koliko poena vrijedi uspješno pogođena trica u košarci?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "1"
+        ],
+        "explanation": "Trica je udarac izvan linije tri poena, što automatski donosi tri boda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2341",
+        "category": "sport",
+        "question": "Koliko gemova treba osvojiti tenisač za pobjedu u setu, uz razliku od najmanje dva gema?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "4"
+        ],
+        "explanation": "Teniski set se osvaja s najmanje šest osvojenih gemova i dva gema razlike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2342",
+        "category": "sport",
+        "question": "Koja je boja olimpijskih krugova koja predstavlja kontinent Europu?",
+        "correct_answer": "Plava",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Žuta"
+        ],
+        "explanation": "Olimpijski krugovi simboliziraju kontinente, a plavi krug tradicionalno predstavlja Europu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2343",
+        "category": "sport",
+        "question": "Koliko bodova osvaja pobjednik utrke Formule 1 (stanje 2024.)?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "10",
+            "15",
+            "20"
+        ],
+        "explanation": "Prema sustavu bodovanja iz 2010. godine, pobjednik utrke Formule 1 dobiva 25 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2344",
+        "category": "sport",
+        "question": "Kako se naziva udarac u boksu koji se izvodi bočno, zamahom ruke?",
+        "correct_answer": "Kroše",
+        "incorrect_answers": [
+            "Aperkat",
+            "Direkt",
+            "Žabica"
+        ],
+        "explanation": "Kroše je snažan bočni udarac koji se izvodi rotacijom tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2345",
+        "category": "sport",
+        "question": "Koji je engleski izraz za postizanje rupe iz jednog udarca u golfu?",
+        "correct_answer": "Hole-in-one",
+        "incorrect_answers": [
+            "Birdie",
+            "Eagle",
+            "Bogey"
+        ],
+        "explanation": "Hole-in-one je izraz za udarac kada loptica izravno izlazi iz udarca u rupu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2346",
+        "category": "sport",
+        "question": "Koliko traje jedna trećina utakmice hokeja na ledu u minutama?",
+        "correct_answer": "20",
+        "incorrect_answers": [
+            "15",
+            "25",
+            "30"
+        ],
+        "explanation": "Utakmica hokeja na ledu podijeljena je na tri trećine, od kojih svaka traje 20 minuta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2347",
+        "category": "sport",
+        "question": "Koja skandinavska zemlja je rodno mjesto modernog skijaškog trčanja?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Finska",
+            "Danska"
+        ],
+        "explanation": "Norveška se smatra kolijevkom skijaškog trčanja i modernog skijanja općenito.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2348",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička sprava na kojoj se izvode vježbe snage i ravnoteže, posebno od strane muškaraca?",
+        "correct_answer": "Karike",
+        "incorrect_answers": [
+            "Greda",
+            "Razboj",
+            "Preča"
+        ],
+        "explanation": "Karike su jedna od šest sprava u muškoj sportskoj gimnastici, poznate po zahtjevnim vježbama snage.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2349",
+        "category": "sport",
+        "question": "Koliko čunjeva treba srušiti u kuglanju za 'strike'?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+            "9",
+            "8",
+            "7"
+        ],
+        "explanation": "Strike se postiže kada se svi čunjevi sruše prvim bacanjem u okviru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2350",
+        "category": "sport",
+        "question": "Koja rijeka je tradicionalno domaćin čuvene regate između sveučilišta Oxford i Cambridge?",
+        "correct_answer": "Temza",
+        "incorrect_answers": [
+            "Sena",
+            "Dunav",
+            "Rajna"
+        ],
+        "explanation": "Čuvena utrka čamaca između Oxforda i Cambridgea tradicionalno se održava na rijeci Temzi u Londonu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2351",
+        "category": "sport",
+        "question": "Koliko je 'inninga' (izmjena) u standardnoj baseball utakmici?",
+        "correct_answer": "9",
+        "incorrect_answers": [
+            "7",
+            "8",
+            "10"
+        ],
+        "explanation": "Standardna baseball utakmica sastoji se od devet inninga, osim ako rezultat nije izjednačen.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2352",
+        "category": "sport",
+        "question": "U kojoj državi su održane prve moderne Olimpijske igre 1896. godine?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Francuska",
+            "Engleska",
+            "Italija"
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni, glavnom gradu Grčke, 1896. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2353",
+        "category": "sport",
+        "question": "Tko je tenisač s najviše Grand Slam naslova u muškoj pojedinačnoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Novak Đoković",
+        "incorrect_answers": [
+            "Rafael Nadal",
+            "Roger Federer",
+            "Pete Sampras"
+        ],
+        "explanation": "Novak Đoković je osvojio najviše Grand Slam naslova u povijesti muškog tenisa (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2354",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaš prvi put izabran u All-NBA momčad (prvu ili drugu) kao aktivni igrač?",
+        "correct_answer": "Dražen Petrović",
+        "incorrect_answers": [
+            "Toni Kukoč",
+            "Dino Rađa",
+            "Krešimir Ćosić"
+        ],
+        "explanation": "Dražen Petrović je 1993. godine postao prvi i jedini hrvatski košarkaš izabran u All-NBA drugu momčad (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2355",
+        "category": "sport",
+        "question": "Kako se naziva udarac u stolnom tenisu kada se loptica reketom udari s gornje strane, stvarajući rotaciju prema naprijed?",
+        "correct_answer": "Topspin",
+        "incorrect_answers": [
+            "Backspin",
+            "Flat",
+            "Smash"
+        ],
+        "explanation": "Topspin je udarac koji loptici daje rotaciju prema naprijed, što rezultira bržim padom i težim odbijanjem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2356",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) smije biti na ledu za jednu momčad u hokeju na ledu tijekom regularne igre?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "4"
+        ],
+        "explanation": "Svaka momčad u hokeju na ledu ima šest igrača na ledu tijekom regularne igre: pet igrača i vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2357",
+        "category": "sport",
+        "question": "Kako se naziva mjesto na boksačkom ringu gdje su se u prošlosti borci borili do iznemoglosti, a danas je to zona za odmor?",
+        "correct_answer": "Kut",
+        "incorrect_answers": [
+            "Centar",
+            "Ruba",
+            "Ring"
+        ],
+        "explanation": "Boksački kut je zona za odmor i savjetovanje borca između rundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2358",
+        "category": "sport",
+        "question": "Koji je plivački stil poznat po tome što je najsporiji, ali omogućuje plivaču da diše cijelo vrijeme?",
+        "correct_answer": "Prsni stil",
+        "incorrect_answers": [
+            "Kraul",
+            "Leđni stil",
+            "Leptirov stil"
+        ],
+        "explanation": "Prsni stil je najstariji i često najsporiji plivački stil, ali omogućuje stalno disanje s glavom iznad vode.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2359",
+        "category": "sport",
+        "question": "Kolika je dimenzija rukometnog terena u metrima (dužina x širina)?",
+        "correct_answer": "40 x 20",
+        "incorrect_answers": [
+            "30 x 15",
+            "50 x 25",
+            "35 x 18"
+        ],
+        "explanation": "Standardne dimenzije rukometnog terena propisane su na 40 metara dužine i 20 metara širine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2360",
+        "category": "sport",
+        "question": "Koliko 'Grand Slam' turnira postoji u tenisu?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "3",
+            "5",
+            "2"
+        ],
+        "explanation": "Tenis ima četiri Grand Slam turnira: Australian Open, Roland Garros, Wimbledon i US Open.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2361",
+        "category": "sport",
+        "question": "Koja je najviša borilačka vještina u džudu, predstavljena crnim pojasom s desetim danom?",
+        "correct_answer": "Judan",
+        "incorrect_answers": [
+            "Godan",
+            "Hachidan",
+            "Kyudan"
+        ],
+        "explanation": "Judan (10. Dan) je najviši rang u džudu i izuzetno rijedak, dodjeljuje se za izvanredne doprinose.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2362",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u konjičkom sportu gdje konj i jahač preskaču prepreke?",
+        "correct_answer": "Preponsko jahanje",
+        "incorrect_answers": [
+            "Drezura",
+            "Galop",
+            "Polo"
+        ],
+        "explanation": "Preponsko jahanje je olimpijska disciplina u kojoj jahač i konj moraju preskočiti niz prepreka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2363",
+        "category": "sport",
+        "question": "Kako se naziva disciplina cestovnog biciklizma gdje se natjecatelji natječu pojedinačno protiv štoperice?",
+        "correct_answer": "Kronometar",
+        "incorrect_answers": [
+            "Etapna utrka",
+            "Masovni start",
+            "Kriterij"
+        ],
+        "explanation": "Kronometar je utrka na cestovnom biciklizmu gdje svaki vozač starta samostalno s vremenskim razmakom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2364",
+        "category": "sport",
+        "question": "Koji je borilački sport poznat po udarcima nogama u glavu i tijelo, često uz skokove i okrete?",
+        "correct_answer": "Taekwondo",
+        "incorrect_answers": [
+            "Boks",
+            "Džudo",
+            "Karate"
+        ],
+        "explanation": "Taekwondo, korejska borilačka vještina, naglašava tehnike udaraca nogama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2365",
+        "category": "sport",
+        "question": "Koliko bodova osvaja momčad za 'polaganje' (try) u ragbiju (Union)?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "3",
+            "7",
+            "6"
+        ],
+        "explanation": "Polaganje je osnovni način postizanja bodova u ragbiju i donosi pet bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2366",
+        "category": "sport",
+        "question": "Koliko osoba čini posadu boba četverosjeda?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Bob četverosjed je natjecateljska posada koja se sastoji od četiri člana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2367",
+        "category": "sport",
+        "question": "U kojoj državi je nastala igra slična modernom nogometu u srednjem vijeku, poznata kao 'calcio fiorentino'?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Engleska",
+            "Francuska",
+            "Španjolska"
+        ],
+        "explanation": "Calcio fiorentino, rana forma nogometa, razvila se u Firenci, Italija, u 16. stoljeću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2368",
+        "category": "sport",
+        "question": "Kako se naziva tehnika skoka u vis gdje natjecatelj preskače letvicu leđima okrenut prema njoj?",
+        "correct_answer": "Fosbury flop",
+        "incorrect_answers": [
+            "Škare",
+            "Istočni skok",
+            "Roler"
+        ],
+        "explanation": "Fosbury flop je dominantna tehnika skoka u vis koju je popularizirao Dick Fosbury 1968. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2369",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi crna kugla u snookeru?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "5",
+            "8",
+            "10"
+        ],
+        "explanation": "Crna kugla je kugla s najvećom vrijednošću bodova u snookeru, donosi 7 bodova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2370",
+        "category": "sport",
+        "question": "Koliko se bodova osvaja za 'touchdown' u američkom nogometu?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "3",
+            "7",
+            "5"
+        ],
+        "explanation": "Touchdown je najvrjedniji način postizanja bodova u američkom nogometu i vrijedi 6 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2371",
+        "category": "sport",
+        "question": "Koliko hitaca ispaljuje strijelac u finalu olimpijske discipline zračna puška 10m (stanje 2024.)?",
+        "correct_answer": "24",
+        "incorrect_answers": [
+            "20",
+            "30",
+            "10"
+        ],
+        "explanation": "U finalu zračne puške 10m, strijelci ispaljuju 24 metka, eliminirajući se nakon svakog drugog hica (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2372",
+        "category": "sport",
+        "question": "Kako se naziva disciplina sinkroniziranog plivanja u kojoj natjecatelji izvode koreografiju bez partnera?",
+        "correct_answer": "Solo",
+        "incorrect_answers": [
+            "Duet",
+            "Tim",
+            "Kombinacija"
+        ],
+        "explanation": "Solo je disciplina u kojoj pojedinačni plivač izvodi rutinu samostalno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2373",
+        "category": "sport",
+        "question": "Koji je cilj discipline drezure u konjičkom sportu?",
+        "correct_answer": "Harmonično izvođenje pokreta",
+        "incorrect_answers": [
+            "Preskakanje prepreka",
+            "Brzinska utrka",
+            "Hvatanje lopte"
+        ],
+        "explanation": "Drezura je umijeće obučavanja konja za skladno i elegantno izvođenje niza unaprijed zadanih pokreta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2374",
+        "category": "sport",
+        "question": "Koji se E-sport smatra najgledanijim na svijetu, s turnirima koji privlače milijune gledatelja?",
+        "correct_answer": "League of Legends",
+        "incorrect_answers": [
+            "Dota 2",
+            "Counter-Strike",
+            "Fortnite"
+        ],
+        "explanation": "League of Legends konstantno drži titulu jednog od najpopularnijih i najgledanijih E-sportova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2375",
+        "category": "sport",
+        "question": "Kako se naziva dio rally utrke gdje se vozi najvećom brzinom i mjeri vrijeme?",
+        "correct_answer": "Brzinski ispit",
+        "incorrect_answers": [
+            "Povezna dionica",
+            "Servisni park",
+            "Prolog"
+        ],
+        "explanation": "Brzinski ispit je dionica rallyja gdje se natjecatelji bore protiv vremena i voze maksimalno brzo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2376",
+        "category": "sport",
+        "question": "Koja momčad drži rekord po broju uzastopnih pobjeda u NBA sezoni (stanje 2024.)?",
+        "correct_answer": "Golden State Warriors",
+        "incorrect_answers": [
+            "Los Angeles Lakers",
+            "Chicago Bulls",
+            "Boston Celtics"
+        ],
+        "explanation": "Golden State Warriorsi su u sezoni 2015-2016. postavili rekord s 24 uzastopne pobjede na početku sezone.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
