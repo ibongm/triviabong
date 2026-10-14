@@ -27558,5 +27558,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2092",
+        "category": "knjizevnost",
+        "question": "Koji je poznati nizozemski slikar poznat po svojim slikama suncokreta i intenzivnoj upotrebi boje, unatoč tome što je za života prodao samo jedno djelo?",
+        "correct_answer": "Vincent van Gogh",
+        "incorrect_answers": [
+            "Claude Monet",
+            "Paul Cézanne",
+            "Pierre-Auguste Renoir"
+        ],
+        "explanation": "Vincent van Gogh bio je postimpresionistički slikar čije je djelo imalo dalekosežan utjecaj na umjetnost 20. stoljeća zbog izražajnog kolorita i emotivnog intenziteta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2093",
+        "category": "knjizevnost",
+        "question": "Koji je engleski dramatičar i pjesnik, često smatran najvećim piscem na engleskom jeziku, autor tragedija \"Hamlet\" i \"Romeo i Julija\"?",
+        "correct_answer": "William Shakespeare",
+        "incorrect_answers": [
+            "Charles Dickens",
+            "Jane Austen",
+            "Geoffrey Chaucer"
+        ],
+        "explanation": "William Shakespeare je univerzalno priznat kao jedan od najvećih književnika svih vremena, čija djela i danas oblikuju svjetsku književnost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2094",
+        "category": "knjizevnost",
+        "question": "Koja je meksička slikarica, poznata po svojim autoportretima i snažnom izražavanju boli i strasti, supruga Diega Rivere?",
+        "correct_answer": "Frida Kahlo",
+        "incorrect_answers": [
+            "Remedios Varo",
+            "Leonora Carrington",
+            "Maria Izquierdo"
+        ],
+        "explanation": "Frida Kahlo je postala ikona meksičke umjetnosti, poznata po nadrealističkim elementima i introspektivnom prikazu vlastitog života i patnje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2095",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski pjesnik iz 14. stoljeća autor epa \"Božanstvena komedija\", putovanja kroz Pakao, Čistilište i Raj?",
+        "correct_answer": "Dante Alighieri",
+        "incorrect_answers": [
+            "Francesco Petrarca",
+            "Giovanni Boccaccio",
+            "Ludovico Ariosto"
+        ],
+        "explanation": "Dante Alighieri je srednjovjekovni pjesnik i filozof čija je \"Božanstvena komedija\" jedno od najvećih djela svjetske književnosti i temelj talijanskog jezika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2096",
+        "category": "knjizevnost",
+        "question": "Koji je francuski filozof i književnik, dobitnik Nobelove nagrade, autor romana \"Stranac\" i eseja \"Mit o Sizifu\", ključna figura egzistencijalizma?",
+        "correct_answer": "Albert Camus",
+        "incorrect_answers": [
+            "Jean-Paul Sartre",
+            "Simone de Beauvoir",
+            "André Malraux"
+        ],
+        "explanation": "Albert Camus istraživao je apsurdnost ljudskog postojanja i pobunu protiv nje, a \"Stranac\" je postao simbolom egzistencijalističke književnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2097",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni instrument, često nazivan \"kraljicom instrumenata\", poznat po svojoj veličini, kompleksnosti i bogatom zvuku, često korišten u crkvama i koncertnim dvoranama?",
+        "correct_answer": "Orgulje",
+        "incorrect_answers": [
+            "Klavir",
+            "Violina",
+            "Harfa"
+        ],
+        "explanation": "Orgulje su složen glazbeni instrument koji proizvodi zvuk prolaskom zraka kroz cijevi, kontrolirane tipkovnicama i pedalima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2098",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret, nastao u 16. stoljeću u Italiji, karakteriziran pretjeranim ukrasima, dramatičnim pokretom i bogatim detaljima, često u religijskoj umjetnosti?",
+        "correct_answer": "Barok",
+        "incorrect_answers": [
+            "Gotika",
+            "Renesansa",
+            "Rokoko"
+        ],
+        "explanation": "Barok je dominirao europskom umjetnošću, arhitekturom i glazbom od početka 17. do sredine 18. stoljeća, naglašavajući raskoš i emocije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2099",
+        "category": "knjizevnost",
+        "question": "Koji je američki književnik, dobitnik Pulitzerove nagrade, autor romana \"Pustolovine Huckleberryja Finna\" i \"Pustolovine Toma Sawyera\"?",
+        "correct_answer": "Mark Twain",
+        "incorrect_answers": [
+            "Herman Melville",
+            "Edgar Allan Poe",
+            "F. Scott Fitzgerald"
+        ],
+        "explanation": "Mark Twain, pravim imenom Samuel Langhorne Clemens, smatra se jednim od najvećih američkih romanopisaca, poznat po humoru i satiri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2100",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik i novinar, poznat po povijesnim romanima \"Zlatarevo zlato\" i \"Seljačka buna\", te po tome što je bio prvi profesionalni hrvatski pisac?",
+        "correct_answer": "August Šenoa",
+        "incorrect_answers": [
+            "Eugen Kumičić",
+            "Josip Kozarac",
+            "Vjenceslav Novak"
+        ],
+        "explanation": "August Šenoa je središnja figura hrvatskog realizma, čiji je rad označio \"šenoino doba\" u hrvatskoj književnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2101",
+        "category": "knjizevnost",
+        "question": "Koja je glazbena ljestvica, često korištena u zapadnoj glazbi, sastavljena od sedam tonova s intervalima cijelog stupnja i polustupnja?",
+        "correct_answer": "Dijatonska ljestvica",
+        "incorrect_answers": [
+            "Kromatska ljestvica",
+            "Pentatonska ljestvica",
+            "Cjelostupnjevna ljestvica"
+        ],
+        "explanation": "Dijatonska ljestvica je temelj većine zapadne glazbe, a njezin najpoznatiji primjer je durska i molska ljestvica.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2102",
+        "category": "knjizevnost",
+        "question": "Koji je britanski pisac, autor distopijskog romana \"1984\" i političke alegorije \"Životinjska farma\"?",
+        "correct_answer": "George Orwell",
+        "incorrect_answers": [
+            "Aldous Huxley",
+            "H.G. Wells",
+            "Ray Bradbury"
+        ],
+        "explanation": "George Orwell, pravim imenom Eric Arthur Blair, bio je kritičar totalitarnih režima, što se jasno vidi u njegovim najpoznatijim djelima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2103",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski kipar, jedan od pionira modernog kiparstva u Hrvatskoj, poznat po djelima poput \"Filozof\" i \"Plesačica\", te po secesijskim elementima u svom radu?",
+        "correct_answer": "Robert Frangeš-Mihanović",
+        "incorrect_answers": [
+            "Ivan Meštrović",
+            "Antun Augustinčić",
+            "Vojin Bakić"
+        ],
+        "explanation": "Robert Frangeš-Mihanović bio je jedan od ključnih predstavnika hrvatske moderne, a njegov rad je utjecao na razvoj kiparstva u Hrvatskoj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2104",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor iz baroknog razdoblja poznat po koncertima za violinu \"Četiri godišnja doba\"?",
+        "correct_answer": "Antonio Vivaldi",
+        "incorrect_answers": [
+            "George Frideric Handel",
+            "Johann Sebastian Bach",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "Antonio Vivaldi je bio virtuoza na violini i svećenik, a \"Četiri godišnja doba\" su jedno od najpopularnijih djela klasične glazbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2105",
+        "category": "knjizevnost",
+        "question": "Koja je vrsta drame, nastala u staroj Grčkoj, koja prikazuje pad heroja zbog fatalne pogreške ili sudbine, često završavajući katastrofom?",
+        "correct_answer": "Tragedija",
+        "incorrect_answers": [
+            "Komedija",
+            "Satira",
+            "Drama"
+        ],
+        "explanation": "Tragedija se bavi ozbiljnim temama i teškim sudbinama, a njezina svrha je izazvati katarzu kod publike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2106",
+        "category": "knjizevnost",
+        "question": "Koji je stil arhitekture, prepoznatljiv po svojim okruglim lukovima, masivnim zidovima i malim prozorima, dominirao Europom između 10. i 12. stoljeća?",
+        "correct_answer": "Romanika",
+        "incorrect_answers": [
+            "Gotika",
+            "Barok",
+            "Renesansa"
+        ],
+        "explanation": "Romanika je prvi paneuropski arhitektonski stil nakon Rimskog Carstva, s naglaskom na stabilnost i debljinu zidova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2107",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, poznat po romanu \"Don Juan i Madonna\" i drami \"Naši sinovi\", koji je bio istaknuti predstavnik hrvatske moderne?",
+        "correct_answer": "Milan Begović",
+        "incorrect_answers": [
+            "Antun Gustav Matoš",
+            "Vladimir Nazor",
+            "Dinko Šimunović"
+        ],
+        "explanation": "Milan Begović bio je svestran književnik, dramatičar i pjesnik, a njegov rad je bio obilježen modernističkim tendencijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2108",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret, nastao u Münchenu početkom 20. stoljeća, čiji su se članovi poput Kandinskog i Marca fokusirali na duhovnost i apstrakciju, često koristeći simbole i boje s emotivnim značenjem?",
+        "correct_answer": "Plavi jahač (Der Blaue Reiter)",
+        "incorrect_answers": [
+            "Brücke",
+            "Bauhaus",
+            "Dadaizam"
+        ],
+        "explanation": "Plavi jahač bio je jedan od ključnih ekspresionističkih pokreta u Njemačkoj, usmjeren na apstrakciju i duhovno izražavanje kroz umjetnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2109",
+        "category": "knjizevnost",
+        "question": "Koji je francuski slikar, jedan od osnivača impresionizma, poznat po svojim serijama slika lopoča i katedrale u Rouenu?",
+        "correct_answer": "Claude Monet",
+        "incorrect_answers": [
+            "Édouard Manet",
+            "Edgar Degas",
+            "Pierre-Auguste Renoir"
+        ],
+        "explanation": "Claude Monet bio je vodeća figura impresionističkog pokreta, fokusirajući se na hvatanje promjena svjetlosti i atmosfere.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2110",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, autor romana \"Prosjaci i sinovi\" i \"Kiklop\", poznat po ironičnom i kritičkom prikazu suvremenog društva?",
+        "correct_answer": "Ranko Marinković",
+        "incorrect_answers": [
+            "Miro Gavran",
+            "Pavao Pavličić",
+            "Slobodan Novak"
+        ],
+        "explanation": "Ranko Marinković bio je majstor proze i drame, a njegov roman \"Kiklop\" jedno je od najvažnijih djela hrvatske književnosti 20. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2111",
+        "category": "knjizevnost",
+        "question": "Koji je flamanski slikar iz 15. stoljeća, poznat po svojoj nevjerojatnoj detaljnosti i simbolici, autor djela \"Vrt zemaljskih užitaka\"?",
+        "correct_answer": "Hieronymus Bosch",
+        "incorrect_answers": [
+            "Jan van Eyck",
+            "Pieter Bruegel Stariji",
+            "Rogier van der Weyden"
+        ],
+        "explanation": "Hieronymus Bosch poznat je po svojim fantastičnim i moralističkim slikama koje često prikazuju grijeh i pakao, prepunim neobičnih stvorenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2112",
+        "category": "knjizevnost",
+        "question": "Koji je ruski kompozitor, autor baleta \"Labuđe jezero\", \"Uspavana ljepotica\" i \"Orašar\"?",
+        "correct_answer": "Petar Iljič Čajkovski",
+        "incorrect_answers": [
+            "Igor Stravinski",
+            "Sergej Rahmanjinov",
+            "Nikolaj Rimski-Korsakov"
+        ],
+        "explanation": "Petar Iljič Čajkovski bio je jedan od najvećih romantičarskih kompozitora, a njegovi baleti su među najpoznatijima u svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2113",
+        "category": "knjizevnost",
+        "question": "Koja je književna vrsta, često pisana u stihovima, koja izražava osjećaje, misli i doživljaje autora?",
+        "correct_answer": "Poezija",
+        "incorrect_answers": [
+            "Proza",
+            "Drama",
+            "Esej"
+        ],
+        "explanation": "Poezija koristi ritam, rimu i figurativni jezik kako bi stvorila emotivan i estetski doživljaj kod čitatelja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2114",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, poznat po romanu \"Sudnji dan\" i zbirci novela \"Smrt u kući\", čija djela često tematiziraju život provincije i egzistencijalnu problematiku?",
+        "correct_answer": "Slobodan Novak",
+        "incorrect_answers": [
+            "Ivan Aralica",
+            "Nedjeljko Fabrio",
+            "Miljenko Smoje"
+        ],
+        "explanation": "Slobodan Novak bio je jedan od najznačajnijih hrvatskih prozaika 20. stoljeća, čije je djelo prepoznatljivo po dubokoj psihološkoj karakterizaciji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2115",
+        "category": "knjizevnost",
+        "question": "Koji je njemački arhitekt, osnivač i prvi direktor utjecajne škole Bauhaus?",
+        "correct_answer": "Walter Gropius",
+        "incorrect_answers": [
+            "Mies van der Rohe",
+            "Le Corbusier",
+            "Frank Lloyd Wright"
+        ],
+        "explanation": "Walter Gropius je bio ključna figura u razvoju modernističke arhitekture i dizajna, a Bauhaus je revolucionirao umjetničko obrazovanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2116",
+        "category": "knjizevnost",
+        "question": "Koja je umjetnička forma koja koristi zvuk, obično organiziran u vremenu, za stvaranje melodije, harmonije i ritma?",
+        "correct_answer": "Glazba",
+        "incorrect_answers": [
+            "Slikarstvo",
+            "Kiparstvo",
+            "Književnost"
+        ],
+        "explanation": "Glazba je univerzalni oblik izražavanja koji kombinira elemente poput visine, tona, ritma i dinamike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2117",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski slikar iz 17. stoljeća, poznat po svojim detaljnim prizorima iz svakodnevnog života i majstorskoj upotrebi svjetlosti, autor slike \"Djevojka s bisernom naušnicom\"?",
+        "correct_answer": "Johannes Vermeer",
+        "incorrect_answers": [
+            "Rembrandt van Rijn",
+            "Jan Steen",
+            "Frans Hals"
+        ],
+        "explanation": "Johannes Vermeer je jedan od najvećih majstora nizozemskog zlatnog doba, cijenjen zbog svoje jedinstvene tehnike i atmosfere na slikama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2118",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik, autor pripovijetki \"Duga\" i \"Alkar\", čija su djela duboko ukorijenjena u život i tradiciju Dalmatinske zagore?",
+        "correct_answer": "Dinko Šimunović",
+        "incorrect_answers": [
+            "Vjenceslav Novak",
+            "Josip Kozarac",
+            "Ivo Andrić"
+        ],
+        "explanation": "Dinko Šimunović bio je realist i naturalist, poznat po svojim lirskim opisima prirode i dubokom razumijevanju seoskog života.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2119",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski renesansni kipar, poznat po brončanim vratima baptisterija u Firenci, zvanim \"Rajska vrata\"?",
+        "correct_answer": "Lorenzo Ghiberti",
+        "incorrect_answers": [
+            "Donatello",
+            "Michelangelo",
+            "Filippo Brunelleschi"
+        ],
+        "explanation": "Lorenzo Ghiberti je svojom majstorskom izradom \"Rajskih vrata\" postavio nove standarde u kiparstvu rane renesanse.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2120",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret 19. stoljeća, koji je naglašavao emocije, individualizam, veličanje prirode i idealizaciju prošlosti?",
+        "correct_answer": "Romantizam",
+        "incorrect_answers": [
+            "Klasicizam",
+            "Realizam",
+            "Impresionizam"
+        ],
+        "explanation": "Romantizam je bio reakcija na prosvjetiteljstvo i industrijsku revoluciju, ističući subjektivnost i slobodu izražavanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2121",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski kompozitor, pijanist i glazbeni pedagog, autor opere \"Ero s onoga svijeta\", koja se smatra jednom od najpopularnijih hrvatskih opera?",
+        "correct_answer": "Jakov Gotovac",
+        "incorrect_answers": [
+            "Ivan Zajc",
+            "Vatroslav Lisinski",
+            "Josip Hatze"
+        ],
+        "explanation": "Jakov Gotovac je svojim djelom \"Ero s onoga svijeta\" stvorio operu koja je postala dio hrvatskog nacionalnog identiteta, proslavljena narodnim melosom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2122",
+        "category": "knjizevnost",
+        "question": "Koji je oblik umjetnosti koji koristi dvodimenzionalne medije kao što su ulje, akril, akvarel ili gvaš za stvaranje slika na površini?",
+        "correct_answer": "Slikarstvo",
+        "incorrect_answers": [
+            "Kiparstvo",
+            "Arhitektura",
+            "Glazba"
+        ],
+        "explanation": "Slikarstvo je vizualna umjetnost koja se bavi izražavanjem ideja i emocija pomoću boja, oblika i linija na platnu ili drugoj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2123",
+        "category": "knjizevnost",
+        "question": "Koji je irski književnik, dobitnik Nobelove nagrade, poznat po svojim dramama poput \"Pigmaliona\" i \"Svete Ivane\"?",
+        "correct_answer": "George Bernard Shaw",
+        "incorrect_answers": [
+            "Oscar Wilde",
+            "Samuel Beckett",
+            "William Butler Yeats"
+        ],
+        "explanation": "George Bernard Shaw bio je britanski dramatičar irskog podrijetla, poznat po svojim satiričnim komedijama i društvenoj kritici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2124",
+        "category": "knjizevnost",
+        "question": "Koja je hrvatska kiparica, jedna od prvih akademski obrazovanih kiparica u Hrvatskoj, poznata po svojim portretima i aktovima, te po djelima poput \"Buđenje\" i \"Materinstvo\"?",
+        "correct_answer": "Mila Wod",
+        "incorrect_answers": [
+            "Branka Ružić",
+            "Ksenija Kantoci",
+            "Marija Ujević Galetović"
+        ],
+        "explanation": "Mila Wod bila je izuzetna umjetnica čiji je rad obilježen snažnim izražajem i modernim pristupom kiparstvu, te je utjecala na razvoj hrvatske umjetnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2125",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor iz baroknog razdoblja, poznat po svojim operama i oratorijima, uključujući \"Mesiju\"?",
+        "correct_answer": "George Frideric Handel",
+        "incorrect_answers": [
+            "Antonio Vivaldi",
+            "Alessandro Scarlatti",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "George Frideric Handel, iako njemačkog podrijetla, veći dio života proveo je u Engleskoj i smatra se jednim od najvećih majstora barokne glazbe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2126",
+        "category": "knjizevnost",
+        "question": "Koji je francuski slikar, poznat po svojim plesnim scenama balerina i prizorima iz kazališta, često se smatra impresionistom iako je imao jedinstven stil?",
+        "correct_answer": "Edgar Degas",
+        "incorrect_answers": [
+            "Claude Monet",
+            "Pierre-Auguste Renoir",
+            "Camille Pissarro"
+        ],
+        "explanation": "Edgar Degas je bio poznat po svojim inovativnim kompozicijama i realističnim prikazima pokreta, osobito u baletnim scenama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2127",
+        "category": "knjizevnost",
+        "question": "Koji je američki pisac, autor romana \"Moby Dick\", koji se smatra jednim od najvažnijih djela američke književnosti?",
+        "correct_answer": "Herman Melville",
+        "incorrect_answers": [
+            "Mark Twain",
+            "Nathaniel Hawthorne",
+            "Edgar Allan Poe"
+        ],
+        "explanation": "Herman Melville je svojim epskim romanom \"Moby Dick\" stvorio duboko filozofsko djelo o ljudskoj opsesiji i borbi s prirodom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2128",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret s kraja 19. i početka 20. stoljeća, karakteriziran organskim oblicima, cvjetnim motivima i elegantnim linijama, poznat i kao Jugendstil ili Secesija?",
+        "correct_answer": "Art Nouveau",
+        "incorrect_answers": [
+            "Art Deco",
+            "Rokoko",
+            "Simbolizam"
+        ],
+        "explanation": "Art Nouveau je bio međunarodni stil umjetnosti, arhitekture i primijenjene umjetnosti koji je pokušao stvoriti \"totalno\" umjetničko djelo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2129",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski slikar, jedan od utemeljitelja Zagrebačke slikarske škole i predstavnik plenerizma, poznat po djelu \"U gostionici\"?",
+        "correct_answer": "Miroslav Kraljević",
+        "incorrect_answers": [
+            "Vlaho Bukovac",
+            "Josip Račić",
+            "Emanuel Vidović"
+        ],
+        "explanation": "Miroslav Kraljević bio je ključna figura hrvatske moderne, čija su djela unijela novi, svjež pristup slikarstvu u Hrvatskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2130",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kipar iz razdoblja baroka, poznat po svojim monumentalnim skulpturama i fontanama, uključujući \"Ekstazu svete Terezije\" i Fontanu Četiri rijeke u Rimu?",
+        "correct_answer": "Gian Lorenzo Bernini",
+        "incorrect_answers": [
+            "Donatello",
+            "Michelangelo",
+            "Benvenuto Cellini"
+        ],
+        "explanation": "Gian Lorenzo Bernini je bio vodeći kipar i arhitekt talijanskog baroka, čiji je rad imao snažan utjecaj na umjetnost svog vremena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_art_2131",
+        "category": "knjizevnost",
+        "question": "Koja je hrvatska književnica, poznata po povijesnim romanima, osobito serijalu o Gričkoj vještici, te po tome što je bila prva hrvatska novinarka?",
+        "correct_answer": "Marija Jurić Zagorka",
+        "incorrect_answers": [
+            "Ivana Brlić-Mažuranić",
+            "Ivana Sajko",
+            "Sunčana Škrinjarić"
+        ],
+        "explanation": "Marija Jurić Zagorka bila je izuzetno popularna spisateljica, čija su djela, posebno Grička vještica, imala ogroman utjecaj na hrvatsku popularnu književnost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
