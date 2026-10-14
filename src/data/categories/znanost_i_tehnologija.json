@@ -26545,5 +26545,485 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2051",
+        "category": "znanost",
+        "question": "Koji se hormon oslobađa kao odgovor na stres i povećava srčani ritam i krvni tlak?",
+        "correct_answer": "Adrenalin",
+        "incorrect_answers": [
+            "Inzulin",
+            "Tiroksin",
+            "Estrogen"
+        ],
+        "explanation": "Adrenalin, poznat i kao epinefrin, hormon je koji priprema tijelo za 'borbu ili bijeg' situacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2052",
+        "category": "znanost",
+        "question": "Koji je organ odgovoran za detoksikaciju tijela, sintezu proteina i proizvodnju žuči?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Bubrezi",
+            "Slezena"
+        ],
+        "explanation": "Jetra je vitalni organ s više od 500 funkcija, uključujući metabolizam, sintezu i detoksikaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2053",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna i strukturna jedinica živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Organ",
+            "Tkivo",
+            "Molekula"
+        ],
+        "explanation": "Stanica je osnovna jedinica života i svi živi organizmi sastavljeni su od jedne ili više stanica.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2054",
+        "category": "znanost",
+        "question": "Koji dio stanice proizvodi energiju putem staničnog disanja?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Jezgra",
+            "Ribosom",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Mitohondriji su poznati kao 'energetske tvornice' stanice jer proizvode ATP, glavni izvor energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2055",
+        "category": "znanost",
+        "question": "Kako se naziva znanstvena disciplina koja proučava nasljedstvo i varijacije živih organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Citologija"
+        ],
+        "explanation": "Genetika istražuje kako se osobine prenose s roditelja na potomstvo putem gena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2056",
+        "category": "znanost",
+        "question": "Koji je glavni plin koji se oslobađa tijekom fotosinteze?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Ugljikov dioksid",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Biljke tijekom fotosinteze koriste ugljikov dioksid i vodu za proizvodnju glukoze i kisika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2057",
+        "category": "znanost",
+        "question": "Koja se čestica nalazi u jezgri atoma i ima pozitivan električni naboj?",
+        "correct_answer": "Proton",
+        "incorrect_answers": [
+            "Elektron",
+            "Neutron",
+            "Foton"
+        ],
+        "explanation": "Protoni i neutroni čine jezgru atoma, pri čemu protoni nose pozitivan naboj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2058",
+        "category": "znanost",
+        "question": "Kako se naziva tamno područje u svemiru gdje je gravitacija toliko jaka da ništa, pa ni svjetlost, ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Kvazar",
+            "Pulsar",
+            "Maglica"
+        ],
+        "explanation": "Crne rupe nastaju kolapsom masivnih zvijezda, stvarajući gravitacijsko polje nepremostive sile.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2059",
+        "category": "znanost",
+        "question": "Koji je glavni izvor energije za Sunce?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Kemijsko izgaranje",
+            "Gravitacijski kolaps"
+        ],
+        "explanation": "Energija Sunca oslobađa se fuzijom vodika u helij u njegovoj jezgri.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2060",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada svjetlost prolazi kroz prizmu i razdvaja se u svoje sastavne boje?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Apsorpcija",
+            "Refrakcija"
+        ],
+        "explanation": "Disperzija svjetlosti nastaje jer se različite valne duljine (boje) lome pod različitim kutovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2061",
+        "category": "znanost",
+        "question": "Koji je fizikalni zakon koji kaže da se akcija i reakcija uvijek javljaju u parovima jednake veličine i suprotnog smjera?",
+        "correct_answer": "Newtonov treći zakon gibanja",
+        "incorrect_answers": [
+            "Newtonov prvi zakon gibanja",
+            "Newtonov drugi zakon gibanja",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Newtonov treći zakon objašnjava interakciju između dvaju tijela: svaka akcija ima jednaku i suprotnu reakciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2062",
+        "category": "znanost",
+        "question": "Koji je kemijski element simboliziran kao 'Fe'?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Fluor",
+            "Fosfor",
+            "Fero"
+        ],
+        "explanation": "Simbol 'Fe' potječe od latinskog naziva 'ferrum' za željezo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2063",
+        "category": "znanost",
+        "question": "Koja se vrsta veze formira kada atomi dijele elektrone?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalentne veze nastaju dijeljenjem valentnih elektrona između atoma kako bi se postigla stabilnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2064",
+        "category": "znanost",
+        "question": "Koji se plin najčešće koristi kao inertna atmosfera u zavarivanju i žaruljama sa žarnom niti?",
+        "correct_answer": "Argon",
+        "incorrect_answers": [
+            "Kripton",
+            "Neon",
+            "Helij"
+        ],
+        "explanation": "Argon je plemeniti plin koji ne reagira s drugim elementima, što ga čini idealnim za zaštitne atmosfere.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2065",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem tekućina prelazi u plinovito stanje ispod svoje vrelišne točke?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Vrenje",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je površinski fenomen gdje se molekule tekućine pretvaraju u plin bez dostizanja vrelišta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2066",
+        "category": "znanost",
+        "question": "Koji je akronim za sustav koji omogućuje sigurnu razmjenu informacija putem Interneta?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "FTP",
+            "HTTP",
+            "DNS"
+        ],
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) je sigurna verzija HTTP-a, koristeći SSL/TLS za enkripciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2067",
+        "category": "znanost",
+        "question": "Kako se naziva mreža koja povezuje uređaje unutar ograničenog fizičkog područja, poput kuće ili ureda?",
+        "correct_answer": "LAN (Lokalna mreža)",
+        "incorrect_answers": [
+            "WAN (Širokopojasna mreža)",
+            "MAN (Gradska mreža)",
+            "VPN (Virtualna privatna mreža)"
+        ],
+        "explanation": "LAN (Local Area Network) omogućuje komunikaciju između uređaja unutar relativno malog područja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2068",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za izradu trodimenzionalnih fizičkih objekata iz digitalnog dizajna?",
+        "correct_answer": "3D ispis (aditivna proizvodnja)",
+        "incorrect_answers": [
+            "Lasersko rezanje",
+            "CNC obrada",
+            "Injekcijsko prešanje"
+        ],
+        "explanation": "3D ispis stvara objekte dodavanjem slojeva materijala, na temelju digitalnog modela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2069",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta softvera dizajniranog za obavljanje specifičnih zadataka za krajnjeg korisnika, za razliku od sustavnog softvera?",
+        "correct_answer": "Aplikacijski softver",
+        "incorrect_answers": [
+            "Operativni sustav",
+            "Firmware",
+            "Driver"
+        ],
+        "explanation": "Aplikacijski softver uključuje programe kao što su procesori teksta, web preglednici i video igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2070",
+        "category": "znanost",
+        "question": "Koji uređaj modulira i demodulira analogne signale u digitalne podatke i obrnuto, omogućujući računalima komunikaciju preko telefonskih linija ili kabela?",
+        "correct_answer": "Modem",
+        "incorrect_answers": [
+            "Router",
+            "Switch",
+            "Hub"
+        ],
+        "explanation": "Modem (modulator-demodulator) pretvara digitalne signale u analogne za prijenos i obrnuto.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2071",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se voda, vjetar, led i gravitacija troše i premještaju stijene i tlo?",
+        "correct_answer": "Erozija",
+        "incorrect_answers": [
+            "Tektonika",
+            "Vulkanska aktivnost",
+            "Metamorfizam"
+        ],
+        "explanation": "Erozija je geološki proces kojim se materijal Zemljine kore troši i premješta s jednog mjesta na drugo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2072",
+        "category": "znanost",
+        "question": "Koji je najobilniji plin u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Dušik čini približno 78% Zemljine atmosfere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2073",
+        "category": "znanost",
+        "question": "Kako se naziva sloj Zemljine atmosfere u kojem se nalazi ozonski omotač?",
+        "correct_answer": "Stratosfera",
+        "incorrect_answers": [
+            "Troposfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Ozonski omotač unutar stratosfere apsorbira štetno ultraljubičasto zračenje Sunca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2074",
+        "category": "znanost",
+        "question": "Koja je znanstvena disciplina koja proučava vremenske uvjete i atmosferske fenomene?",
+        "correct_answer": "Meteorologija",
+        "incorrect_answers": [
+            "Geologija",
+            "Oceanografija",
+            "Seizmologija"
+        ],
+        "explanation": "Meteorologija se bavi proučavanjem atmosfere, njezinih pojava i predviđanjem vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2075",
+        "category": "znanost",
+        "question": "Koji se obnovljivi izvor energije dobiva iz topline Zemljine unutrašnjosti?",
+        "correct_answer": "Geotermalna energija",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Hidroenergija",
+            "Energija biomase"
+        ],
+        "explanation": "Geotermalna energija koristi toplinu iz Zemljine jezgre za proizvodnju električne energije ili grijanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2076",
+        "category": "znanost",
+        "question": "Koji je proces mjerenja vremena na temelju radioaktivnog raspada izotopa?",
+        "correct_answer": "Radiometrijsko datiranje",
+        "incorrect_answers": [
+            "Dendrokronologija",
+            "Termoluminiscencija",
+            "Stratigrafija"
+        ],
+        "explanation": "Radiometrijsko datiranje koristi poznatu brzinu raspada radioaktivnih izotopa za određivanje starosti materijala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2077",
+        "category": "znanost",
+        "question": "Kako se naziva grana inženjerstva koja se bavi dizajnom i konstrukcijom strojeva?",
+        "correct_answer": "Strojarstvo",
+        "incorrect_answers": [
+            "Građevinarstvo",
+            "Elektrotehnika",
+            "Kemijsko inženjerstvo"
+        ],
+        "explanation": "Strojarstvo primjenjuje principe fizike i znanosti o materijalima za dizajn, analizu i proizvodnju strojeva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2078",
+        "category": "znanost",
+        "question": "Koji je izumitelj poznat po razvoju prve uspješne teorije izmjenične struje (AC sustava)?",
+        "correct_answer": "Nikola Tesla",
+        "incorrect_answers": [
+            "Thomas Edison",
+            "George Westinghouse",
+            "Alexander Graham Bell"
+        ],
+        "explanation": "Tesla je bio ključan u razvoju sustava izmjenične struje, koji se danas koristi za prijenos električne energije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2079",
+        "category": "znanost",
+        "question": "Kako se naziva materijal koji vrlo dobro provodi električnu struju?",
+        "correct_answer": "Vodič",
+        "incorrect_answers": [
+            "Izolator",
+            "Poluvodič",
+            "Supervodič"
+        ],
+        "explanation": "Vodiči, poput bakra ili srebra, imaju slobodne elektrone koji omogućuju protok električne struje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2080",
+        "category": "znanost",
+        "question": "Koja je osnovna razlika između atoma i molekule?",
+        "correct_answer": "Molekula se sastoji od dva ili više atoma vezanih zajedno.",
+        "incorrect_answers": [
+            "Atom je uvijek veći od molekule",
+            "Molekula je uvijek element",
+            "Atom je uvijek spoj"
+        ],
+        "explanation": "Atom je osnovna jedinica materije, dok je molekula skupina atoma povezanih kemijskim vezama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2081",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se zvuk odbija od prepreke i vraća se do izvora?",
+        "correct_answer": "Jeka",
+        "incorrect_answers": [
+            "Odjek",
+            "Resonancija",
+            "Apsorpcija"
+        ],
+        "explanation": "Jeka nastaje kada zvučni valovi naiđu na prepreku i reflektiraju se natrag do slušatelja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_2082",
+        "category": "znanost",
+        "question": "Koji je termin za nevidljivu elektromagnetsku silu koja privlači metale poput željeza?",
+        "correct_answer": "Magnetizam",
+        "incorrect_answers": [
+            "Elektricitet",
+            "Gravitacija",
+            "Nuklearna sila"
+        ],
+        "explanation": "Magnetizam je fizikalni fenomen uzrokovan kretanjem električnih naboja, stvarajući magnetsko polje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
