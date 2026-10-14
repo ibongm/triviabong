@@ -27034,5 +27034,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2106",
+        "category": "sport",
+        "question": "Koja je podloga u tenisu poznata po tome što je najsporija i najviše pogoduje igračima koji preferiraju igru s osnovne linije?",
+        "correct_answer": "Zemljana podloga",
+        "incorrect_answers": [
+            "Travnata podloga",
+            "Tvrda podloga",
+            "Tepih podloga"
+        ],
+        "explanation": "Zemljana podloga, poput one na Roland Garrosu, usporava lopticu i uzrokuje visok odskok, što omogućuje duže izmjene udaraca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2107",
+        "category": "sport",
+        "question": "Koji se plivački stil smatra najstarijim i razvijen je još u antičkim civilizacijama?",
+        "correct_answer": "Prsni stil",
+        "incorrect_answers": [
+            "Slobodni stil",
+            "Leđni stil",
+            "Delfin stil"
+        ],
+        "explanation": "Prsni stil je jedan od najstarijih plivačkih stilova, čiji tragovi sežu do 4000. godine prije Krista, što ga čini temeljnim za preživljavanje i lov.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2108",
+        "category": "sport",
+        "question": "Kako se naziva sustav u Formuli 1 koji prikuplja kinetičku i toplinsku energiju te je koristi za privremeno povećanje snage motora?",
+        "correct_answer": "ERS (Energy Recovery System)",
+        "incorrect_answers": [
+            "DRS (Drag Reduction System)",
+            "KERS (Kinetic Energy Recovery System)",
+            "ABS (Anti-lock Braking System)"
+        ],
+        "explanation": "ERS je napredni hibridni sustav koji koristi energiju iz kočenja i ispušnih plinova, pružajući vozačima dodatnu snagu za pretjecanje ili obranu pozicije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2109",
+        "category": "sport",
+        "question": "Kolika je službena duljina maratonske utrke, mjerena u kilometrima?",
+        "correct_answer": "42.195 km",
+        "incorrect_answers": [
+            "40 km",
+            "42 km",
+            "45.195 km"
+        ],
+        "explanation": "Standardna duljina maratona od 42.195 km usvojena je 1921. godine, a potječe od rute s Olimpijskih igara u Londonu 1908. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2110",
+        "category": "sport",
+        "question": "Kolika je standardna težina boksačkih rukavica u profesionalnom boksu za borce teške kategorije, izražena u uncama?",
+        "correct_answer": "10 unci",
+        "incorrect_answers": [
+            "8 unci",
+            "12 unci",
+            "16 unci"
+        ],
+        "explanation": "Za tešku kategoriju u profesionalnom boksu obično se koriste rukavice od 10 unci, dok se za niže kategorije mogu koristiti i lakše rukavice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2111",
+        "category": "sport",
+        "question": "Koliko je udaraca iz jedanaesterca (bez raspucavanja) ukupno dosuđeno na FIFA Svjetskim prvenstvima u nogometu od 1930. do 2022. godine?",
+        "correct_answer": "Oko 200",
+        "incorrect_answers": [
+            "Oko 100",
+            "Oko 300",
+            "Oko 400"
+        ],
+        "explanation": "Prema statistikama FIFA-e, na svjetskim prvenstvima je dosuđeno oko 200 jedanaesteraca u regularnom dijelu utakmice zaključno s 2022. godinom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2112",
+        "category": "sport",
+        "question": "Koliko poena vrijedi uspješan šut izvan linije za tri poena u košarci?",
+        "correct_answer": "3 poena",
+        "incorrect_answers": [
+            "1 poen",
+            "2 poena",
+            "4 poena"
+        ],
+        "explanation": "Šut izvan linije za tri poena donosi tri poena, što je više od uobičajenih dva poena za šut unutar te linije ili slobodno bacanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2113",
+        "category": "sport",
+        "question": "Od kojeg je materijala tradicionalno napravljen pak koji se koristi u hokeju na ledu?",
+        "correct_answer": "Vulkanizirana guma",
+        "incorrect_answers": [
+            "Plastika",
+            "Drvo",
+            "Metal"
+        ],
+        "explanation": "Pak je napravljen od čvrste vulkanizirane gume i prije utakmice se hladi kako bi se smanjilo trenje i odskakanje na ledu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2114",
+        "category": "sport",
+        "question": "Koliko igrača se u jednoj ekipi nalazi na terenu u odbojci tijekom regularne igre?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "8"
+        ],
+        "explanation": "Odbojka se igra s dvije ekipe, svaka sa po šest igrača na terenu, koji se rotiraju nakon svakog osvojenog poena nakon servisa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2115",
+        "category": "sport",
+        "question": "Kako se naziva konjička disciplina u kojoj jahač i konj izvode unaprijed određeni niz elegantnih pokreta i figura u ograđenom prostoru?",
+        "correct_answer": "Dresurno jahanje",
+        "incorrect_answers": [
+            "Preskakanje prepona",
+            "Galopske utrke",
+            "Western jahanje"
+        ],
+        "explanation": "Dresurno jahanje (dresura) naglašava harmoničan odnos između jahača i konja, s ciljem postizanja savršene poslušnosti i elegancije pokreta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2116",
+        "category": "sport",
+        "question": "Koja se gimnastička sprava koristi isključivo u ženskoj sportskoj gimnastici?",
+        "correct_answer": "Dvovisinske ruče",
+        "incorrect_answers": [
+            "Karike",
+            "Konj s hvataljkama",
+            "Paralelne ruče"
+        ],
+        "explanation": "Dvovisinske ruče (neujednačene šipke) specifična su sprava za žene, zahtijevajući snagu, fleksibilnost i akrobatiku pri prijelazu između viših i nižih šipki.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2117",
+        "category": "sport",
+        "question": "Kako se naziva igrač u bejzbolu čiji je primarni zadatak bacanje lopte prema udaraču s 'pitcher's mounda'?",
+        "correct_answer": "Bacač (Pitcher)",
+        "incorrect_answers": [
+            "Hvatač (Catcher)",
+            "Udarač (Batter)",
+            "Prva baza (First Baseman)"
+        ],
+        "explanation": "Bacač je ključna pozicija u bejzbolu, odgovorna za početak svake akcije bacanjem lopte na način koji je teško udariti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2118",
+        "category": "sport",
+        "question": "Koje dvije sportske discipline kombinira zimski sport biatlon?",
+        "correct_answer": "Skijaško trčanje i streljaštvo",
+        "incorrect_answers": [
+            "Skijaški skokovi i bob",
+            "Brzo klizanje i curling",
+            "Alpsko skijanje i snowboard"
+        ],
+        "explanation": "Biatlon je jedinstveni sport koji kombinira izdržljivost skijaškog trčanja s preciznošću streljaštva, što ga čini iznimno zahtjevnim.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2119",
+        "category": "sport",
+        "question": "Kako se naziva teški, okrugli kameni disk s ručkom koji se gura po ledu u sportu curling?",
+        "correct_answer": "Kamen",
+        "incorrect_answers": [
+            "Pak",
+            "Kugla",
+            "Kocka"
+        ],
+        "explanation": "Kameni diskovi, napravljeni od posebnog granita, ključni su rekvizit u curlingu, a cilj je što preciznije ih postaviti u 'kuću'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2120",
+        "category": "sport",
+        "question": "Tko je tenisač s najviše osvojenih pojedinačnih Grand Slam naslova u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Novak Đoković",
+        "incorrect_answers": [
+            "Rafael Nadal",
+            "Roger Federer",
+            "Pete Sampras"
+        ],
+        "explanation": "Novak Đoković drži rekord s najviše muških pojedinačnih Grand Slam naslova, prestižući Rafaela Nadala i Rogera Federera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2121",
+        "category": "sport",
+        "question": "Tko je američki atletičar koji je postavio aktualni svjetski rekord u skoku u dalj za muškarce (8.95 m) 1991. godine, rekord koji još uvijek stoji (stanje 2024.)?",
+        "correct_answer": "Mike Powell",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Bob Beamon",
+            "Jesse Owens"
+        ],
+        "explanation": "Mike Powell je na Svjetskom prvenstvu u Tokiju 1991. godine skokom od 8.95 metara srušio dugogodišnji rekord Boba Beamona, što je i dalje svjetski rekord.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2122",
+        "category": "sport",
+        "question": "Koja je konačna kazna u rukometu za igrača koji dobije treće isključenje na dvije minute tijekom iste utakmice?",
+        "correct_answer": "Diskvalifikacija (crveni karton)",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Isključenje na 5 minuta",
+            "Opomena"
+        ],
+        "explanation": "Treće isključenje na dvije minute u rukometu automatski rezultira diskvalifikacijom igrača, što znači da ne može nastaviti igru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2123",
+        "category": "sport",
+        "question": "Koja boja dresa označava ukupnog vođu utrke Tour de France u biciklizmu?",
+        "correct_answer": "Žuta (Maillot Jaune)",
+        "incorrect_answers": [
+            "Zelena",
+            "Bijela",
+            "Točkasta"
+        ],
+        "explanation": "Žuti dres nosi vozač s najboljim ukupnim vremenom, a njegova tradicija potječe iz boje papira na kojem su se tiskale novine organizatora utrke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2124",
+        "category": "sport",
+        "question": "Kako se naziva najbrži timski čamac u veslanju s osam veslača i jednim kormilarom?",
+        "correct_answer": "Osmerac",
+        "incorrect_answers": [
+            "Dvojac na pariće",
+            "Četverac bez kormilara",
+            "Jedinica"
+        ],
+        "explanation": "Osmerac je čamac s osam veslača koji svaki koristi po jedno veslo, a kormilar upravlja smjerom i motivira ekipu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2125",
+        "category": "sport",
+        "question": "Prema nogometnim pravilima, koji dio tijela igrača se ne uzima u obzir pri procjeni pozicije zaleđa?",
+        "correct_answer": "Ruke",
+        "incorrect_answers": [
+            "Glava",
+            "Noge",
+            "Torzo"
+        ],
+        "explanation": "Ruke se ne uzimaju u obzir jer se njima ne može postići gol niti utjecati na igru, a zaleđe se procjenjuje prema dijelovima tijela kojima se može igrati loptom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2126",
+        "category": "sport",
+        "question": "Koliko isprepletenih krugova čini službeni simbol Olimpijskih igara?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "6"
+        ],
+        "explanation": "Pet krugova predstavlja pet naseljenih kontinenata (Afriku, Amerike, Aziju, Europu i Oceaniju) te njihovo okupljanje na Igrama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2127",
+        "category": "sport",
+        "question": "U kojem plivačkom stilu plivač mora ostati na leđima tijekom cijele utrke, osim prilikom okreta?",
+        "correct_answer": "Leđni stil",
+        "incorrect_answers": [
+            "Prsni stil",
+            "Slobodni stil",
+            "Delfin stil"
+        ],
+        "explanation": "U leđnom stilu plivač mora održavati položaj na leđima, što je jedinstveno pravilo koje ga razlikuje od ostalih stilova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2128",
+        "category": "sport",
+        "question": "Koji se sigurnosni element nalazi iznad glave vozača u kokpitu F1 bolida i štiti ga od većih udaraca i krhotina?",
+        "correct_answer": "Halo",
+        "incorrect_answers": [
+            "Roll bar",
+            "Airbag",
+            "Krov"
+        ],
+        "explanation": "Halo je uvedena 2018. godine kao obvezni sigurnosni sustav koji značajno smanjuje rizik od ozljeda glave vozača pri sudarima i letenju dijelova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2129",
+        "category": "sport",
+        "question": "Kako se naziva mala ciljna kugla, obično bijele ili žute boje, prema kojoj se nastoji približiti vlastite boće u sportu boćanja (balota)?",
+        "correct_answer": "Bulin (Bulić/Liza)",
+        "incorrect_answers": [
+            "Pak",
+            "Miš",
+            "Target"
+        ],
+        "explanation": "Bulin je ključni element igre; cilj je postaviti vlastite boće što bliže njemu kako bi se osvojili poeni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2130",
+        "category": "sport",
+        "question": "Kako se naziva rezultat u golfu kada igrač završi rupu s dva udarca manje od 'para' (očekivanog broja udaraca) za tu rupu?",
+        "correct_answer": "Eagle (Orao)",
+        "incorrect_answers": [
+            "Birdie (Ptičica)",
+            "Bogey (Bauk)",
+            "Albatross (Albatros)"
+        ],
+        "explanation": "'Eagle' je izvanredan rezultat koji označava dva udarca ispod para, dok je 'birdie' jedan udarac ispod para, a 'albatros' tri udarca ispod para.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2131",
+        "category": "sport",
+        "question": "Tko je slavni boksač poznat pod nadimkom 'The Greatest', osvajač olimpijskog zlata i trostruki svjetski prvak u teškoj kategoriji?",
+        "correct_answer": "Muhammad Ali",
+        "incorrect_answers": [
+            "Mike Tyson",
+            "George Foreman",
+            "Joe Frazier"
+        ],
+        "explanation": "Muhammad Ali, rođen kao Cassius Clay, jedan je od najutjecajnijih sportaša 20. stoljeća, slavljen zbog svoje boksačke vještine i društvenog aktivizma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2132",
+        "category": "sport",
+        "question": "Koja je maksimalna ukupna debljina gume i spužve na reketu za stolni tenis dopuštena prema pravilima ITTF-a?",
+        "correct_answer": "4.0 mm",
+        "incorrect_answers": [
+            "2.0 mm",
+            "3.5 mm",
+            "5.0 mm"
+        ],
+        "explanation": "Pravila ITTF-a preciziraju da ukupna debljina sloja gume i spužve ne smije prelaziti 4.0 mm, kako bi se osigurali fair-play uvjeti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2133",
+        "category": "sport",
+        "question": "Kako se naziva situacija u šahu kada igrač čiji je red na potezu nema legalnih poteza, ali njegov kralj nije napadnut (nije u šahu)?",
+        "correct_answer": "Pat (Remi)",
+        "incorrect_answers": [
+            "Mat",
+            "Šah",
+            "Rokada"
+        ],
+        "explanation": "Pat rezultira remijem, jer igra ne može dalje teći unatoč tome što kralj nije izravno ugrožen, čime se sprječava poraz igrača u lošijoj poziciji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2134",
+        "category": "sport",
+        "question": "Koja je standardna boja vaterpolske lopte koja se koristi u muškim međunarodnim utakmicama?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Bijela",
+            "Narančasta",
+            "Plava"
+        ],
+        "explanation": "Žuta boja vaterpolske lopte osigurava najbolju vidljivost u vodi, kako za igrače tako i za suce i gledatelje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2135",
+        "category": "sport",
+        "question": "Kolika je visina standardnih prepona u utrci na 110 metara s preponama za muškarce?",
+        "correct_answer": "1.067 metara (42 inča)",
+        "incorrect_answers": [
+            "0.914 metara",
+            "1.10 metara",
+            "1.20 metara"
+        ],
+        "explanation": "Visina od 1.067 metara je standardizirana kako bi osigurala konzistentnost i izazov u ovoj zahtjevnoj atletskoj disciplini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2136",
+        "category": "sport",
+        "question": "Koliko se poena dodjeljuje za 'polaganje' (try), osnovni način postizanja poena u ragbiju, prije pretvaranja?",
+        "correct_answer": "5 poena",
+        "incorrect_answers": [
+            "3 poena",
+            "4 poena",
+            "7 poena"
+        ],
+        "explanation": "Polaganje je najvrjedniji način postizanja poena u ragbiju, pri čemu igrač mora kontrolirano pritisnuti loptu o tlo u protivničkoj 'end zoni'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2137",
+        "category": "sport",
+        "question": "Kako se naziva disciplina sportskog penjanja u kojoj se penjači penju na manje visine bez korištenja užeta za osiguranje (osim strunjača za pad)?",
+        "correct_answer": "Bouldering",
+        "incorrect_answers": [
+            "Sportsko penjanje",
+            "Slobodno penjanje",
+            "Alpinizam"
+        ],
+        "explanation": "Bouldering se fokusira na rješavanje kratkih, ali iznimno teških penjačkih problema, često na umjetnim stijenama, razvijajući snagu i tehniku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2138",
+        "category": "sport",
+        "question": "Kako se naziva službena osoba koja se nalazi u ringu tijekom boksačke borbe i osigurava poštivanje pravila te broji nokdaune?",
+        "correct_answer": "Ringovni sudac",
+        "incorrect_answers": [
+            "Bodovni sudac",
+            "Trener",
+            "Promotor"
+        ],
+        "explanation": "Ringovni sudac je zadužen za izravno nadgledanje borbe, donošenje odluka unutar ringa i brigu o sigurnosti boksača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2139",
+        "category": "sport",
+        "question": "Tko je najtrofejniji olimpijac svih vremena po broju osvojenih medalja (uključujući zlato, srebro i broncu) (stanje 2024.)?",
+        "correct_answer": "Michael Phelps",
+        "incorrect_answers": [
+            "Larisa Latynina",
+            "Paavo Nurmi",
+            "Carl Lewis"
+        ],
+        "explanation": "Američki plivač Michael Phelps drži rekord s ukupno 28 olimpijskih medalja, od čega 23 zlatne, što ga čini najuspješnijim olimpijcem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2140",
+        "category": "sport",
+        "question": "Koja je primarna razlika između kajaka i kanua u veslanju s obzirom na položaj veslača i vrstu vesla?",
+        "correct_answer": "Kajak ima zatvoreni kokpit i veslo s dvije lopatice, kanu otvoreni i veslo s jednom lopaticom.",
+        "incorrect_answers": [
+            "Kajak je brži od kanua",
+            "Kanu ima kormilo",
+            "Kajak ima više sjedala"
+        ],
+        "explanation": "Kajakaši sjede s ispruženim nogama i koriste veslo s dvije lopatice, dok kanuisti kleče ili sjede na povišenoj klupi i koriste veslo s jednom lopaticom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2141",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu ekipu u odbojci na pijesku?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "6"
+        ],
+        "explanation": "Odbojka na pijesku igra se s dva igrača po ekipi, što zahtijeva iznimnu svestranost i izdržljivost svakog pojedinca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2142",
+        "category": "sport",
+        "question": "Kako se naziva osnovni trik u skateboardingu gdje se daska podigne u zrak bez korištenja ruku, što je temelj za većinu naprednijih trikova?",
+        "correct_answer": "Ollie",
+        "incorrect_answers": [
+            "Kickflip",
+            "Grind",
+            "Manual"
+        ],
+        "explanation": "Ollie je temeljni trik koji omogućava skateboarderima da preskaču prepreke i izvode razne akrobacije u zraku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2143",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u hokeju na ledu kada igrač udara protivnika palicom držeći je s obje ruke između protivnika i sebe?",
+        "correct_answer": "Cross-checking (guranje palicom)",
+        "incorrect_answers": [
+            "Hooking",
+            "Slashing",
+            "Tripping"
+        ],
+        "explanation": "Cross-checking je zabranjen jer može uzrokovati ozljede i narušava integritet igre, te se kažnjava manjom ili većom kaznom ovisno o jačini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2144",
+        "category": "sport",
+        "question": "Koju životinju koriste igrači za jahanje u sportu polo?",
+        "correct_answer": "Konji",
+        "incorrect_answers": [
+            "Magarci",
+            "Mule",
+            "Deve"
+        ],
+        "explanation": "Igrači pola jašu posebno trenirane konje, često nazivane polo ponijima, koji su prilagođeni brzini i agilnosti potrebnim za ovu igru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2145",
+        "category": "sport",
+        "question": "Koje od navedenih oružja nije dio olimpijskih disciplina u modernom mačevanju?",
+        "correct_answer": "Rapir",
+        "incorrect_answers": [
+            "Floret",
+            "Mač",
+            "Sablja"
+        ],
+        "explanation": "Olimpijske discipline u mačevanju su floret, mač i sablja, dok se rapir koristi u povijesnom mačevanju i nije dio olimpijskog programa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
