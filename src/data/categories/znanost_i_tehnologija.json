@@ -24940,5 +24940,590 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1944",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada se svjetlost savija prilikom prolaska iz jednog medija u drugi?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Apsorpcija",
+            "Refleksija"
+        ],
+        "explanation": "Refrakcija je promjena smjera širenja svjetlosti (ili drugog vala) kada prelazi granicu između dva optički različita medija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1945",
+        "category": "znanost",
+        "question": "Koju osnovnu česticu nosi električna struja u metalnim vodičima?",
+        "correct_answer": "Elektron",
+        "incorrect_answers": [
+            "Proton",
+            "Neutron",
+            "Foton"
+        ],
+        "explanation": "Električna struja u metalima nastaje usmjerenim gibanjem slobodnih elektrona kroz materijal.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1946",
+        "category": "znanost",
+        "question": "Koji zakon fizike kaže da je sila jednaka umnošku mase i akceleracije (F=ma)?",
+        "correct_answer": "Drugi Newtonov zakon",
+        "incorrect_answers": [
+            "Prvi Newtonov zakon",
+            "Treći Newtonov zakon",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Drugi Newtonov zakon gibanja, poznat i kao zakon sile, objašnjava odnos između sile, mase i akceleracije objekta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1947",
+        "category": "znanost",
+        "question": "Koja je standardna jedinica za mjerenje snage u Međunarodnom sustavu jedinica (SI)?",
+        "correct_answer": "Vat (W)",
+        "incorrect_answers": [
+            "Džul (J)",
+            "Amper (A)",
+            "Volt (V)"
+        ],
+        "explanation": "Vat (W) je SI jedinica za snagu, definirana kao jedan džul u sekundi (J/s).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1948",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju količinu energije koju atom može apsorbirati ili emitirati?",
+        "correct_answer": "Kvant",
+        "incorrect_answers": [
+            "Foton",
+            "Elektron",
+            "Proton"
+        ],
+        "explanation": "Kvant je diskretna, nedjeljiva jedinica energije, što je osnova kvantne mehanike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1949",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kod kojeg se svjetlost razlaže na svoje sastavne boje prolaskom kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Refleksija",
+            "Interferencija"
+        ],
+        "explanation": "Disperzija svjetlosti je pojava razlaganja polikromatske svjetlosti na spektralne boje uslijed ovisnosti indeksa loma o valnoj duljini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1950",
+        "category": "znanost",
+        "question": "Koji je kemijski proces kojim se atom ili molekula oslobađa elektrona?",
+        "correct_answer": "Oksidacija",
+        "incorrect_answers": [
+            "Redukcija",
+            "Hidroliza",
+            "Neutralizacija"
+        ],
+        "explanation": "Oksidacija je kemijski proces u kojem atom, ion ili molekula gubi jedan ili više elektrona, povećavajući svoj oksidacijski broj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1951",
+        "category": "znanost",
+        "question": "Koji je najrasprostranjeniji kemijski element u Zemljinoj kori?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Silicij",
+            "Aluminij",
+            "Željezo"
+        ],
+        "explanation": "Kisik je najzastupljeniji element u Zemljinoj kori, često vezan u spojevima poput silikata i oksida.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1952",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska veza koja nastaje dijeljenjem elektronskih parova između atoma?",
+        "correct_answer": "Kovalenta veza",
+        "incorrect_answers": [
+            "Ionski veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalenta veza je kemijska veza gdje atomi dijele elektronske parove kako bi postigli stabilnu elektronsku konfiguraciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1953",
+        "category": "znanost",
+        "question": "Koji je pH neutralne otopine na sobnoj temperaturi?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH vrijednost 7 označava neutralnu otopinu, kao što je čista voda, gdje su koncentracije H+ i OH- iona jednake.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1954",
+        "category": "znanost",
+        "question": "Koji je naziv za organske spojeve koji sadrže benzenski prsten?",
+        "correct_answer": "Aromatski spojevi",
+        "incorrect_answers": [
+            "Alifatski spojevi",
+            "Aliciklički spojevi",
+            "Heterociklički spojevi"
+        ],
+        "explanation": "Aromatski spojevi su ciklički organski spojevi koji sadrže konjugirani prsten delokaliziranih elektrona, poput benzenskog prstena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1955",
+        "category": "znanost",
+        "question": "Kako se naziva proces pri kojem tvar apsorbira vlagu iz zraka i postaje tekuća?",
+        "correct_answer": "Delikvescencija",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kristalizacija",
+            "Hidroliza"
+        ],
+        "explanation": "Delikvescencija je pojava kod koje čvrsta tvar upija vlagu iz atmosfere i na kraju se otapa u toj apsorbiranoj vodi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1956",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se tijelo proizvodi antitijela kao odgovor na prisutnost antigena, stvarajući imunološku memoriju?",
+        "correct_answer": "Aktivni imunitet",
+        "incorrect_answers": [
+            "Pasivni imunitet",
+            "Autoimunitet",
+            "Alergija"
+        ],
+        "explanation": "Aktivni imunitet je sposobnost tijela da proizvodi vlastita antitijela i memorijske stanice kao odgovor na izloženost antigenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1957",
+        "category": "znanost",
+        "question": "Kako se naziva proces fotosinteze kod biljaka, gdje se svjetlosna energija pretvara u kemijsku?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Fermentacija",
+            "Transpiracija"
+        ],
+        "explanation": "Fotosinteza je proces kojim zelene biljke i neki drugi organizmi pretvaraju svjetlosnu energiju u kemijsku energiju, proizvodeći glukozu i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1958",
+        "category": "znanost",
+        "question": "Koji je glavni genetski materijal koji nosi upute za razvoj i funkcioniranje svih poznatih živih organizama?",
+        "correct_answer": "DNA (dezoksiribonukleinska kiselina)",
+        "incorrect_answers": [
+            "RNA (ribonukleinska kiselina)",
+            "Proteini",
+            "Lipidi"
+        ],
+        "explanation": "DNA je nositelj genetskih informacija i ključna je za nasljeđivanje karakteristika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1959",
+        "category": "znanost",
+        "question": "Kako se zovu male organele unutar biljnih stanica koje provode fotosintezu?",
+        "correct_answer": "Kloroplasti",
+        "incorrect_answers": [
+            "Mitohondriji",
+            "Ribosomi",
+            "Vakuole"
+        ],
+        "explanation": "Kloroplasti sadrže klorofil i mjesto su fotosinteze u biljnim stanicama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1960",
+        "category": "znanost",
+        "question": "Koji tip krvnih stanica prenosi kisik kroz tijelo?",
+        "correct_answer": "Eritrociti (crvene krvne stanice)",
+        "incorrect_answers": [
+            "Leukociti (bijele krvne stanice)",
+            "Trombociti (krvne pločice)",
+            "Plazma"
+        ],
+        "explanation": "Eritrociti sadrže hemoglobin koji veže kisik u plućima i prenosi ga do tkiva u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1961",
+        "category": "znanost",
+        "question": "Koji je naziv za staničnu organelu koja je odgovorna za sintezu proteina?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Golgi aparat",
+            "Endoplazmatski retikulum",
+            "Lizosom"
+        ],
+        "explanation": "Ribosomi su stanične organele koje kataliziraju sintezu proteina na temelju genetskih uputa iz mRNA.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1962",
+        "category": "znanost",
+        "question": "Koji je drugi naziv za 'Crveni planet' u Sunčevom sustavu?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je poznat kao Crveni planet zbog obilja željezovog oksida (hrđe) na svojoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1963",
+        "category": "znanost",
+        "question": "Koji je naziv za teoriju koja objašnjava stvaranje svemira iz jedne iznimno vruće i guste točke prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija pulsirajućeg svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model za objašnjenje ranog razvoja svemira i njegovog širenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1964",
+        "category": "znanost",
+        "question": "Kako se naziva točka u orbiti planeta koja je najbliža Suncu?",
+        "correct_answer": "Perihel",
+        "incorrect_answers": [
+            "Afel",
+            "Apogej",
+            "Perigej"
+        ],
+        "explanation": "Perihel je točka u eliptičnoj orbiti nebeskog tijela, poput planete, koja je najbliža zvijezdi oko koje orbitira (u našem slučaju Suncu).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1965",
+        "category": "znanost",
+        "question": "Koji je naziv za ostatke zvijezde koji su tako gusti da čak ni svjetlost ne može pobjeći iz njihove gravitacije?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Pulsar",
+            "Kvazar",
+            "Bijeli patuljak"
+        ],
+        "explanation": "Crna rupa je područje prostorvremena gdje je gravitacija toliko jaka da ništa, pa ni svjetlost, ne može pobjeći.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1966",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje prijenos glasa putem internetskog protokola (npr. Skype, WhatsApp pozivi)?",
+        "correct_answer": "VoIP (Voice over Internet Protocol)",
+        "incorrect_answers": [
+            "IoT (Internet of Things)",
+            "VPN (Virtual Private Network)",
+            "HTML (HyperText Markup Language)"
+        ],
+        "explanation": "VoIP je tehnologija koja omogućuje prijenos glasovne komunikacije i multimedijskih sesija putem interneta umjesto tradicionalnih telefonskih linija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1967",
+        "category": "znanost",
+        "question": "Koji je naziv za arhitekturu računalnog sustava gdje su programi i podaci pohranjeni u istoj vrsti memorije?",
+        "correct_answer": "Von Neumannova arhitektura",
+        "incorrect_answers": [
+            "Harvardova arhitektura",
+            "CISC arhitektura",
+            "RISC arhitektura"
+        ],
+        "explanation": "Von Neumannova arhitektura koristi jednu zajedničku adresnu sabirnicu i sabirnicu podataka za dohvaćanje instrukcija i podataka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1968",
+        "category": "znanost",
+        "question": "Koji se model koristi za opisivanje funkcija mrežnog umrežavanja u sedam slojeva, od fizičkog do aplikacijskog?",
+        "correct_answer": "OSI model",
+        "incorrect_answers": [
+            "TCP/IP model",
+            "HTTP model",
+            "DNS model"
+        ],
+        "explanation": "OSI (Open Systems Interconnection) model je konceptualni okvir koji standardizira funkcije komunikacijskog sustava u sedam slojeva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1969",
+        "category": "znanost",
+        "question": "Koji se programski jezik najčešće koristi za razvoj aplikacija za Android operativni sustav?",
+        "correct_answer": "Java (ili Kotlin)",
+        "incorrect_answers": [
+            "Python",
+            "C++",
+            "Swift"
+        ],
+        "explanation": "Java je bila primarni jezik za Android razvoj, iako Kotlin postaje sve popularniji i podržan od strane Googlea. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1970",
+        "category": "znanost",
+        "question": "Koji je naziv za podpolje umjetne inteligencije koje strojevima omogućuje 'učenje' iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje (Machine Learning)",
+        "incorrect_answers": [
+            "Duboko učenje",
+            "Umjetna neuronska mreža",
+            "Ekspertni sustav"
+        ],
+        "explanation": "Strojno učenje je grana AI-ja koja se fokusira na razvoj algoritama koji omogućuju računalima da uče iz podataka i donose odluke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1971",
+        "category": "znanost",
+        "question": "Koji je tip pisača koji stvara sliku prskanjem sitnih kapljica tinte na papir?",
+        "correct_answer": "Inkjet pisač",
+        "incorrect_answers": [
+            "Laserski pisač",
+            "Matrični pisač",
+            "3D pisač"
+        ],
+        "explanation": "Inkjet pisači koriste mlaznice za precizno raspršivanje mikroskopskih kapljica tinte na površinu papira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1972",
+        "category": "znanost",
+        "question": "Što je primarna prednost korištenja SSD (Solid State Drive) umjesto HDD (Hard Disk Drive)?",
+        "correct_answer": "Brzina (brže učitavanje i pristup podacima)",
+        "incorrect_answers": [
+            "Niža cijena po gigabajtu",
+            "Veći kapacitet pohrane",
+            "Veća otpornost na padove"
+        ],
+        "explanation": "SSD-ovi koriste flash memoriju umjesto pokretnih dijelova, što rezultira znatno većom brzinom čitanja i pisanja podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1973",
+        "category": "znanost",
+        "question": "Koji je naziv za virtualni prostor stvoren računalom, gdje korisnici mogu komunicirati s umjetnim okruženjem i drugim korisnicima putem avatara?",
+        "correct_answer": "Metaverse",
+        "incorrect_answers": [
+            "Dark Web",
+            "Cloud Computing",
+            "Blockchain"
+        ],
+        "explanation": "Metaverse je koncept virtualnog svijeta gdje se korisnici mogu sastajati, raditi, igrati i družiti putem digitalnih avatara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1974",
+        "category": "znanost",
+        "question": "Koji se tip senzora koristi za mjerenje udaljenosti koristeći zvučne valove?",
+        "correct_answer": "Ultrazvučni senzor",
+        "incorrect_answers": [
+            "Infracrveni senzor",
+            "Lidar senzor",
+            "Termalni senzor"
+        ],
+        "explanation": "Ultrazvučni senzori emitiraju zvučne valove i mjere vrijeme povratka eha za određivanje udaljenosti do objekta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1975",
+        "category": "znanost",
+        "question": "Koji je naziv za proces pretvaranja visokonaponske izmjenične struje u niski napon i istosmjernu struju za napajanje računalnih komponenti?",
+        "correct_answer": "Ispravljanje (ili Rectifikacija)",
+        "incorrect_answers": [
+            "Filtriranje",
+            "Transformacija",
+            "Modulacija"
+        ],
+        "explanation": "Proces ispravljanja (rectifikacije) koristi diode za pretvaranje izmjenične struje (AC) u pulsirajuću istosmjernu struju (DC).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1976",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija bežičnog prijenosa podataka na kratkim udaljenostima koja se često koristi za beskontaktno plaćanje i identifikaciju?",
+        "correct_answer": "NFC (Near Field Communication)",
+        "incorrect_answers": [
+            "RFID",
+            "Bluetooth",
+            "Wi-Fi"
+        ],
+        "explanation": "NFC je kratkodometna bežična tehnologija koja omogućuje komunikaciju između uređaja dodirom ili približavanjem na nekoliko centimetara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1977",
+        "category": "znanost",
+        "question": "Kako se naziva obnovljivi izvor energije koji koristi toplinu iz Zemljine unutrašnjosti?",
+        "correct_answer": "Geotermalna energija",
+        "incorrect_answers": [
+            "Solarna energija",
+            "Hidroenergija",
+            "Energija vjetra"
+        ],
+        "explanation": "Geotermalna energija koristi prirodnu toplinu Zemljine kore za proizvodnju električne energije ili grijanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1978",
+        "category": "znanost",
+        "question": "Koji se plin najviše oslobađa izgaranjem fosilnih goriva i doprinosi efektu staklenika?",
+        "correct_answer": "Ugljikov dioksid (CO2)",
+        "incorrect_answers": [
+            "Metan (CH4)",
+            "Dušikov oksid (N2O)",
+            "Kisik (O2)"
+        ],
+        "explanation": "Ugljikov dioksid je glavni staklenički plin koji se oslobađa izgaranjem fosilnih goriva i pridonosi globalnom zatopljenju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1979",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak cementa?",
+        "correct_answer": "Klinker",
+        "incorrect_answers": [
+            "Pijesak",
+            "Voda",
+            "Šljunak"
+        ],
+        "explanation": "Klinker je glavni vezivni materijal u cementu, dobiven pečenjem vapnenca i gline na visokim temperaturama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1980",
+        "category": "znanost",
+        "question": "Koji je naziv za mjerenje ukupnog utjecaja ljudske aktivnosti na okoliš u smislu emisija ugljikovog dioksida?",
+        "correct_answer": "Ugljični otisak",
+        "incorrect_answers": [
+            "Ekološki otisak",
+            "Vodeni otisak",
+            "Bioraznolikost"
+        ],
+        "explanation": "Ugljični otisak je ukupna količina stakleničkih plinova, izraženih kao ekvivalent ugljikovog dioksida, koje emitiraju aktivnosti pojedinca, organizacije ili proizvoda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1981",
+        "category": "znanost",
+        "question": "Koji je naziv za sloj atmosfere koji nas štiti od štetnog ultraljubičastog zračenja Sunca?",
+        "correct_answer": "Ozonski omotač",
+        "incorrect_answers": [
+            "Troposfera",
+            "Stratosfera",
+            "Ionosfera"
+        ],
+        "explanation": "Ozonski omotač u stratosferi apsorbira većinu štetnog UV zračenja, štiteći život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1982",
+        "category": "znanost",
+        "question": "Koji se fizikalni fenomen koristi za princip rada optičkih vlakana, gdje svjetlost ostaje zarobljena unutar vlakna?",
+        "correct_answer": "Totalna unutarnja refleksija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Totalna unutarnja refleksija je pojava u optici kada svjetlost, pri prolasku iz optički gušćeg u optički rjeđi medij, ne prelazi granicu medija, već se potpuno reflektira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
