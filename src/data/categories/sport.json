@@ -29374,5 +29374,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2262",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se lopta udara palicom u rupu na terenu, često s velikim brojem udaraca?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kriket",
+            "Polo",
+            "Hokej na travi"
+        ],
+        "explanation": "U golfu je cilj ubaciti lopticu u rupu s što manjim brojem udaraca, koristeći razne palice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2263",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u gimnastici gdje se natjecatelji izvode akrobatske vježbe na tankoj gredi?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Dvovisinski razboj",
+            "Preskok",
+            "Parter"
+        ],
+        "explanation": "Greda je jedna od olimpijskih disciplina u umjetničkoj gimnastici za žene, poznata po zahtjevnoj ravnoteži i akrobacijama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2264",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi na terenu u jednoj nogometnoj ekipi tijekom utakmice?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Deset",
+            "Dvanaest",
+            "Trinaest"
+        ],
+        "explanation": "Svaka nogometna ekipa ima 11 igrača na terenu, uključujući i vratara, na početku utakmice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2265",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše zlatnih medalja na Zimskim olimpijskim igrama u povijesti (stanje 2024.)?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "SAD",
+            "Njemačka",
+            "Rusija"
+        ],
+        "explanation": "Norveška je najuspješnija nacija u povijesti Zimskih olimpijskih igara po broju osvojenih zlatnih medalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2266",
+        "category": "sport",
+        "question": "Kako se zove udarac u tenisu kojim se loptica prebacuje visoko iznad protivnika koji je blizu mreže?",
+        "correct_answer": "Lob",
+        "incorrect_answers": [
+            "Volley",
+            "Slice",
+            "Smash"
+        ],
+        "explanation": "Lob je udarac u tenisu kojim se loptica visoko diže kako bi prešla preko protivnika koji stoji blizu mreže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2267",
+        "category": "sport",
+        "question": "U kojem je sportu Michael Jordan ostvario najveću slavu?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Nogomet",
+            "Tenis",
+            "Boks"
+        ],
+        "explanation": "Michael Jordan je legendarni američki košarkaš, široko priznat kao jedan od najboljih igrača svih vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2268",
+        "category": "sport",
+        "question": "Kako se naziva sportska disciplina gdje se natjecatelji spuštaju niz snježnu stazu na jednoj dasci?",
+        "correct_answer": "Snowboarding",
+        "incorrect_answers": [
+            "Skijanje",
+            "Sanjkanje",
+            "Bob"
+        ],
+        "explanation": "Snowboarding je zimski sport u kojem se natjecatelj spušta niz snježnu stazu stojeći na jednoj dasci, sličnoj dasci za surfanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2269",
+        "category": "sport",
+        "question": "Koja je najmanja težina boksačkih rukavica koje se koriste u profesionalnom boksu za borbe u teškoj kategoriji?",
+        "correct_answer": "10 unci (283.5 grama)",
+        "incorrect_answers": [
+            "8 unci (226.8 grama)",
+            "12 unci (340.2 grama)",
+            "16 unci (453.6 grama)"
+        ],
+        "explanation": "Za profesionalne borbe u teškoj kategoriji, minimalna težina boksačkih rukavica je 10 unci.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2270",
+        "category": "sport",
+        "question": "Koje je boje zastava koja se podiže na automobilističkim utrkama kako bi signalizirala kraj utrke?",
+        "correct_answer": "Karirana (crno-bijela)",
+        "incorrect_answers": [
+            "Crvena",
+            "Žuta",
+            "Zelena"
+        ],
+        "explanation": "Karirana zastava, s crno-bijelim kvadratima, signalizira kraj utrke i prolazak pobjednika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2271",
+        "category": "sport",
+        "question": "Kolika je standardna udaljenost maratonske utrke u kilometrima?",
+        "correct_answer": "42.195 km",
+        "incorrect_answers": [
+            "40.000 km",
+            "21.0975 km",
+            "50.000 km"
+        ],
+        "explanation": "Maratonska utrka je cestovna utrka dugoprugaša, a njena standardna duljina iznosi točno 42.195 kilometara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2272",
+        "category": "sport",
+        "question": "Koja se sportska disciplina obično izvodi na konju koji preskače prepreke?",
+        "correct_answer": "Konjički preponski sport",
+        "incorrect_answers": [
+            "Dressage",
+            "Polo",
+            "Utrke konja"
+        ],
+        "explanation": "Konjički preponski sport uključuje jahača i konja koji zajedno preskaču niz prepreka na stazi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2273",
+        "category": "sport",
+        "question": "Kako se naziva dio bicikla koji pokreće stražnji kotač, a sastoji se od lanca i zupčanika?",
+        "correct_answer": "Pogonski sustav",
+        "incorrect_answers": [
+            "Okvir",
+            "Kočnice",
+            "Upravljač"
+        ],
+        "explanation": "Pogonski sustav, uključujući lanac i zupčanike, prenosi snagu pedaliranja na stražnji kotač i pokreće bicikl.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2274",
+        "category": "sport",
+        "question": "U kojem sportu igrač može postići 'hat-trick' postigavši tri gola u jednoj utakmici?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Tenis",
+            "Odbojka"
+        ],
+        "explanation": "'Hat-trick' se tradicionalno koristi u nogometu za postizanje tri gola, ali se proširio i na druge sportove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2275",
+        "category": "sport",
+        "question": "Tko je jedini tenisač u povijesti koji je osvojio sva četiri Grand Slama (Australian Open, French Open, Wimbledon, US Open) i olimpijsko zlato u pojedinačnoj konkurenciji?",
+        "correct_answer": "Andre Agassi",
+        "incorrect_answers": [
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Đoković"
+        ],
+        "explanation": "Andre Agassi je jedini tenisač koji je uspio osvojiti 'Golden Slam', odnosno sva četiri Grand Slama i olimpijsko zlato.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2276",
+        "category": "sport",
+        "question": "Kako se naziva borilačka vještina koja se fokusira na udarce nogama i rukama, poznata po visokim udarcima nogom?",
+        "correct_answer": "Taekwondo",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Aikido"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina poznata po snažnim i dinamičnim udarcima nogama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2277",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'sablja', 'floret' i 'mač' kao oružje?",
+        "correct_answer": "Mačevanje",
+        "incorrect_answers": [
+            "Kendo",
+            "Pikado",
+            "Golf"
+        ],
+        "explanation": "Mačevanje je sport u kojem se natjecatelji bore koristeći sablju, floret ili mač.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2278",
+        "category": "sport",
+        "question": "Koji se sport igra s okruglim diskom koji se baca i lovi među igračima, često na plaži?",
+        "correct_answer": "Ultimate Frisbee",
+        "incorrect_answers": [
+            "Golf",
+            "Pikado",
+            "Boćanje"
+        ],
+        "explanation": "Ultimate Frisbee je timski sport koji se igra s letećim diskom, kombinirajući elemente nogometa, košarke i američkog nogometa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2279",
+        "category": "sport",
+        "question": "Tko je najpoznatiji vozač Formule 1 s rekordnih sedam svjetskih naslova, uz Michaela Schumachera (stanje 2024.)?",
+        "correct_answer": "Lewis Hamilton",
+        "incorrect_answers": [
+            "Sebastian Vettel",
+            "Juan Manuel Fangio",
+            "Ayrton Senna"
+        ],
+        "explanation": "Lewis Hamilton drži rekord od sedam naslova svjetskog prvaka u Formuli 1, izjednačen s Michaelom Schumacherom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2280",
+        "category": "sport",
+        "question": "U kojoj se atletskoj disciplini natjecatelji bacaju koplje što je moguće dalje?",
+        "correct_answer": "Bacanje koplja",
+        "incorrect_answers": [
+            "Bacanje diska",
+            "Bacanje kugle",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Bacanje koplja je atletska disciplina u kojoj se baca metalno koplje s ciljem postizanja što veće udaljenosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2281",
+        "category": "sport",
+        "question": "Koliko igrača ima jedna ekipa na terenu u odbojci?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Četiri"
+        ],
+        "explanation": "Svaka odbojkaška ekipa ima šest igrača na terenu tijekom igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2282",
+        "category": "sport",
+        "question": "Koja država se smatra domovinom bejzbola?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Kanada",
+            "Velika Britanija",
+            "Japan"
+        ],
+        "explanation": "Bejzbol se razvio u Sjedinjenim Američkim Državama tijekom 19. stoljeća i tamo je najpopularniji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2283",
+        "category": "sport",
+        "question": "Koji je službeni naziv za višebojnu atletsku disciplinu za žene koja se sastoji od sedam događaja?",
+        "correct_answer": "Sedmoboj",
+        "incorrect_answers": [
+            "Desetoboj",
+            "Petoboj",
+            "Trojboj"
+        ],
+        "explanation": "Sedmoboj je višebojna atletska disciplina za žene koja uključuje sedam različitih natjecanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2284",
+        "category": "sport",
+        "question": "Koja je maksimalna brzina kojom pak može putovati u hokeju na ledu (stanje 2024.)?",
+        "correct_answer": "Preko 170 km/h",
+        "incorrect_answers": [
+            "Oko 100 km/h",
+            "Oko 120 km/h",
+            "Oko 150 km/h"
+        ],
+        "explanation": "Najjači udarci u hokeju na ledu mogu rezultirati brzinama paka preko 170 km/h.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2285",
+        "category": "sport",
+        "question": "Kako se naziva pozicija u američkom nogometu čija je primarna uloga dodavati loptu drugim igračima za trčanje ili hvatanje?",
+        "correct_answer": "Quarterback",
+        "incorrect_answers": [
+            "Running back",
+            "Wide receiver",
+            "Lineman"
+        ],
+        "explanation": "Quarterback je ključna pozicija u američkom nogometu, odgovoran za vođenje napada i dodavanje lopte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2286",
+        "category": "sport",
+        "question": "Koja se sportska disciplina odvija u bazenu i uključuje sinkronizirane pokrete s glazbom?",
+        "correct_answer": "Sinkronizirano plivanje (umjetničko plivanje)",
+        "incorrect_answers": [
+            "Vaterpolo",
+            "Slobodno plivanje",
+            "Ronjenje"
+        ],
+        "explanation": "Sinkronizirano plivanje, sada poznato kao umjetničko plivanje, kombinira ples, gimnastiku i plivanje u bazenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2287",
+        "category": "sport",
+        "question": "Tko je prvi atletičar koji je skočio preko 8 metara u skoku u dalj?",
+        "correct_answer": "Jesse Owens",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Mike Powell",
+            "Bob Beamon"
+        ],
+        "explanation": "Jesse Owens je 1935. godine postao prvi čovjek koji je skočio preko 8 metara u skoku u dalj (8.13 m).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2288",
+        "category": "sport",
+        "question": "U kojem sportu se koristi pojam 'slam dunk'?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Odbojka",
+            "Rukomet",
+            "Nogomet"
+        ],
+        "explanation": "Slam dunk je atraktivan način postizanja poena u košarci, kada igrač snažno ubaci loptu kroz obruč.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2289",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji penju po stijenama, prirodnim ili umjetnim?",
+        "correct_answer": "Sportsko penjanje",
+        "incorrect_answers": [
+            "Planinarenje",
+            "Alpinizam",
+            "Speleologija"
+        ],
+        "explanation": "Sportsko penjanje je disciplina u kojoj se penje po stijenama koristeći tehničku opremu, s ciljem doći do vrha.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2290",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše naslova svjetskog prvaka u nogometu (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je s pet naslova svjetskog prvaka najuspješnija nacija u povijesti FIFA Svjetskih prvenstava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2291",
+        "category": "sport",
+        "question": "U kojem se sportu natječu vozila poznata kao 'bolidi'?",
+        "correct_answer": "Formula 1",
+        "incorrect_answers": [
+            "MotoGP",
+            "NASCAR",
+            "Rally"
+        ],
+        "explanation": "Formula 1 je najviša klasa automobilističkih utrka u kojoj se koriste posebno dizajnirani jednosjedi, poznati kao bolidi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2292",
+        "category": "sport",
+        "question": "Koji je jedini sport u kojem se lopta mora baciti unatrag kako bi se započela igra?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Američki nogomet",
+            "Australski nogomet",
+            "Nogomet"
+        ],
+        "explanation": "U ragbiju, lopta se mora dodavati ili bacati samo unatrag ili ustranu, ali nikada naprijed rukom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2293",
+        "category": "sport",
+        "question": "Koliko je ukupno rundi u profesionalnom boksačkom meču za svjetsku titulu?",
+        "correct_answer": "Dvanaest",
+        "incorrect_answers": [
+            "Deset",
+            "Petnaest",
+            "Osam"
+        ],
+        "explanation": "Profesionalni boksački mečevi za svjetsku titulu obično traju dvanaest rundi, svaka po tri minute.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2294",
+        "category": "sport",
+        "question": "Kako se naziva oprema koju koriste skijaši za spuštanje niz strme padine?",
+        "correct_answer": "Skije",
+        "incorrect_answers": [
+            "Daske",
+            "Sanjke",
+            "Klipovi"
+        ],
+        "explanation": "Skije su duge, uske ploče pričvršćene za stopala koje omogućuju klizanje po snijegu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2295",
+        "category": "sport",
+        "question": "Tko je jedini sportaš u povijesti koji je osvojio olimpijske medalje u plivanju i u vaterpolu?",
+        "correct_answer": "Johnny Weissmuller",
+        "incorrect_answers": [
+            "Mark Spitz",
+            "Michael Phelps",
+            "Matt Biondi"
+        ],
+        "explanation": "Johnny Weissmuller, poznat i kao glumac Tarzana, osvojio je medalje u plivanju i vaterpolu na Olimpijskim igrama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2296",
+        "category": "sport",
+        "question": "Kako se naziva udarac u badmintonu kojim se loptica (pernata loptica) šalje visoko u protivničko polje?",
+        "correct_answer": "Clear",
+        "incorrect_answers": [
+            "Drop shot",
+            "Smash",
+            "Drive"
+        ],
+        "explanation": "Clear je udarac u badmintonu kojim se pernatu lopticu šalje visoko i duboko u protivničko polje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2297",
+        "category": "sport",
+        "question": "Kolika je visina mreže u muškoj odbojci na terenu?",
+        "correct_answer": "2.43 metra",
+        "incorrect_answers": [
+            "2.24 metra",
+            "2.50 metra",
+            "2.35 metra"
+        ],
+        "explanation": "U muškoj odbojci, visina mreže od poda do vrha iznosi 2.43 metra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2298",
+        "category": "sport",
+        "question": "Kako se naziva završna utrka na Olimpijskim igrama koja kombinira trčanje i plivanje?",
+        "correct_answer": "Triatlon",
+        "incorrect_answers": [
+            "Pentatlon",
+            "Desetoboj",
+            "Maraton"
+        ],
+        "explanation": "Triatlon je višestruka atletska disciplina koja se sastoji od plivanja, biciklizma i trčanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sport_2299",
+        "category": "sport",
+        "question": "Koja je disciplina u plivanju poznata po 'leptir' stilu?",
+        "correct_answer": "Delfin",
+        "incorrect_answers": [
+            "Prsno",
+            "Slobodno",
+            "Leđno"
+        ],
+        "explanation": "Delfin, ili leptir stil, karakteriziraju simultani pokreti ruku i nogu koji podsjećaju na mahanje krilima leptira.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
