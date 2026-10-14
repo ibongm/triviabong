@@ -22630,5 +22630,560 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1790",
+        "category": "znanost",
+        "question": "Koja se struktura u stanici naziva \"elektranom stanice\" zbog svoje uloge u proizvodnji ATP-a?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Jezgra",
+            "Endoplazmatski retikulum",
+            "Golgijev aparat"
+        ],
+        "explanation": "Mitohondriji su odgovorni za stanično disanje, proces u kojem se energija iz hrane pretvara u adenozin trifosfat (ATP).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1791",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje temperature u SI sustavu?",
+        "correct_answer": "Kelvin",
+        "incorrect_answers": [
+            "Celzij",
+            "Fahrenheit",
+            "Rankine"
+        ],
+        "explanation": "Kelvin je SI jedinica za termodinamičku temperaturu i koristi se u znanstvenim i tehničkim primjenama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1792",
+        "category": "znanost",
+        "question": "Koji je programski jezik poznat po sintaksi koja je inspirirana engleskim jezikom i često se koristi za web razvoj i umjetnu inteligenciju?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "Assembly"
+        ],
+        "explanation": "Python je popularan zbog svoje čitljivosti, jednostavnosti i široke primjene, od skriptiranja do složenih AI sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1793",
+        "category": "znanost",
+        "question": "Kako se naziva galaksija u kojoj se nalazi naš Sunčev sustav?",
+        "correct_answer": "Mliječna staza",
+        "incorrect_answers": [
+            "Andromeda",
+            "Trokut",
+            "Vrtlog"
+        ],
+        "explanation": "Mliječna staza (Kumova slama) je spiralna galaksija u kojoj se nalazi Sunce i naš planet Zemlja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1794",
+        "category": "znanost",
+        "question": "Koji se organ u ljudskom tijelu koristi za pumpanje krvi kroz cirkulacijski sustav?",
+        "correct_answer": "Srce",
+        "incorrect_answers": [
+            "Pluća",
+            "Jetra",
+            "Bubreg"
+        ],
+        "explanation": "Srce je mišićni organ koji ritmičkim stezanjem osigurava protok krvi kroz tijelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1795",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje bežični prijenos električne energije na kratke udaljenosti, često se koristi za punjenje mobitela?",
+        "correct_answer": "Indukcijsko punjenje",
+        "incorrect_answers": [
+            "Solarno punjenje",
+            "Kinetičko punjenje",
+            "Piezoelektrično punjenje"
+        ],
+        "explanation": "Indukcijsko punjenje koristi elektromagnetsku indukciju za prijenos energije između dva objekta bez fizičkog kontakta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1796",
+        "category": "znanost",
+        "question": "Kako se naziva efekt gdje se valna duljina elektromagnetskog zračenja povećava (pomak prema crvenom kraju spektra) kada se izvor svjetlosti udaljava od promatrača?",
+        "correct_answer": "Dopplerov efekt (crveni pomak)",
+        "incorrect_answers": [
+            "Comptonov efekt",
+            "Fotoelektrični efekt",
+            "Zeemanov efekt"
+        ],
+        "explanation": "Crveni pomak je manifestacija Dopplerovog efekta za elektromagnetsko zračenje, ključan za razumijevanje širenja svemira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1797",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada biljke ispuštaju vodenu paru kroz male pore na lišću?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je isparavanje vode s površine biljaka, uglavnom kroz puči (stome) na lišću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1798",
+        "category": "znanost",
+        "question": "Koju skraćenicu koristimo za \"Centralnu procesorsku jedinicu\" računala?",
+        "correct_answer": "CPU",
+        "incorrect_answers": [
+            "RAM",
+            "GPU",
+            "USB"
+        ],
+        "explanation": "CPU (Central Processing Unit) je \"mozak\" računala, odgovoran za izvršavanje instrukcija i obradu podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1799",
+        "category": "znanost",
+        "question": "Kako se naziva teorija o nastanku svemira iz izrazito guste i vruće točke prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija oscilirajućeg svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji opisuje rani razvoj svemira od jedinstvenosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1800",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje autonomnim vozilima da \"vide\" svoju okolinu pomoću laserskih zraka?",
+        "correct_answer": "LiDAR",
+        "incorrect_answers": [
+            "Sonar",
+            "Radar",
+            "GPS"
+        ],
+        "explanation": "LiDAR (Light Detection and Ranging) koristi laserske impulse za mjerenje udaljenosti i stvaranje preciznih 3D karata okoline.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1801",
+        "category": "znanost",
+        "question": "Koji je plin neophodan za ljudsko disanje?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Dušik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Kisik je vitalan za stanično disanje, proces kojim tijelo proizvodi energiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1802",
+        "category": "znanost",
+        "question": "Kako se zove sila koja drži atome zajedno u molekulama?",
+        "correct_answer": "Kemijska veza",
+        "incorrect_answers": [
+            "Gravitacijska sila",
+            "Elektromagnetska sila",
+            "Nuklearna sila"
+        ],
+        "explanation": "Kemijske veze nastaju dijeljenjem ili prijenosom elektrona između atoma, stvarajući stabilne molekule.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1803",
+        "category": "znanost",
+        "question": "Koji tip stanične diobe rezultira stvaranjem četiri haploidne stanice iz jedne diploidne stanice, što je ključno za spolno razmnožavanje?",
+        "correct_answer": "Mejoza",
+        "incorrect_answers": [
+            "Mitoza",
+            "Amitoza",
+            "Binarana fisija"
+        ],
+        "explanation": "Mejoza smanjuje broj kromosoma za pola, stvarajući gamete (spolne stanice) s genetskom raznolikošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1804",
+        "category": "znanost",
+        "question": "Koji se protokol koristi za slanje i primanje e-pošte na internetu?",
+        "correct_answer": "SMTP (Simple Mail Transfer Protocol)",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "TCP/IP"
+        ],
+        "explanation": "SMTP je standardni protokol za slanje e-pošte preko interneta, dok se POP3 i IMAP koriste za primanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1805",
+        "category": "znanost",
+        "question": "Koji je naziv za maleno nebesko tijelo sastavljeno uglavnom od leda, prašine i stijena, koje razvija rep kada se približi Suncu?",
+        "correct_answer": "Komet",
+        "incorrect_answers": [
+            "Asteroid",
+            "Meteoroid",
+            "Planetoid"
+        ],
+        "explanation": "Kometi su \"prljave snježne grude\" koje sublimiraju kada se zagriju sunčevom svjetlošću, stvarajući komu i rep.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1806",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija bijelih krvnih zrnaca (leukocita) u ljudskom tijelu?",
+        "correct_answer": "Borba protiv infekcija",
+        "incorrect_answers": [
+            "Prijenos kisika",
+            "Zgrušavanje krvi",
+            "Regulacija šećera"
+        ],
+        "explanation": "Bijela krvna zrnca su ključni dio imunološkog sustava, prepoznaju i uništavaju patogene.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1807",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje izuzetno jakih magnetskih polja, koja su ključna za MRI skenere i levitirajuće vlakove?",
+        "correct_answer": "Supravodljivost",
+        "incorrect_answers": [
+            "Piezoelektricitet",
+            "Termoelektricitet",
+            "Poluvodljivost"
+        ],
+        "explanation": "Supravodljivi materijali mogu provoditi električnu struju bez otpora na vrlo niskim temperaturama, stvarajući snažna magnetska polja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1808",
+        "category": "znanost",
+        "question": "Koji je najlakši kemijski element na periodnom sustavu?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) ima atomski broj 1 i sastoji se od jednog protona i jednog elektrona (najčešći izotop).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1809",
+        "category": "znanost",
+        "question": "Kako se naziva uređaj koji pretvara mehaničku energiju u električnu energiju?",
+        "correct_answer": "Generator",
+        "incorrect_answers": [
+            "Motor",
+            "Transformator",
+            "Kondenzator"
+        ],
+        "explanation": "Generator koristi princip elektromagnetske indukcije za proizvodnju električne struje rotacijom zavojnica u magnetskom polju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1810",
+        "category": "znanost",
+        "question": "Koji dio biljke apsorbira vodu i hranjive tvari iz tla?",
+        "correct_answer": "Korijen",
+        "incorrect_answers": [
+            "List",
+            "Stabljika",
+            "Cvijet"
+        ],
+        "explanation": "Korijenov sustav sidri biljku i ključan je za unos vode i minerala potrebnih za rast.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1811",
+        "category": "znanost",
+        "question": "Koji pojam opisuje koncept da se snaga obrade računala otprilike udvostručuje svake dvije godine?",
+        "correct_answer": "Mooreov zakon",
+        "incorrect_answers": [
+            "Gaussov zakon",
+            "Ohmsov zakon",
+            "Newtonov zakon"
+        ],
+        "explanation": "Mooreov zakon je empirijsko opažanje koje opisuje eksponencijalni rast broja tranzistora na integriranom krugu (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1812",
+        "category": "znanost",
+        "question": "Koji je najbliži planet Suncu?",
+        "correct_answer": "Merkur",
+        "incorrect_answers": [
+            "Venera",
+            "Zemlja",
+            "Mars"
+        ],
+        "explanation": "Merkur je planet najbliži Suncu i ima najkraću orbitalnu periodu u našem Sunčevom sustavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1813",
+        "category": "znanost",
+        "question": "Koji dio mozga kontrolira osnovne životne funkcije poput disanja, otkucaja srca i krvnog tlaka?",
+        "correct_answer": "Moždano deblo",
+        "incorrect_answers": [
+            "Cerebrum",
+            "Cerebellum",
+            "Hipotalamus"
+        ],
+        "explanation": "Moždano deblo povezuje veliki mozak i mali mozak s leđnom moždinom i regulira vitalne funkcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1814",
+        "category": "znanost",
+        "question": "Koja je svrha \"firewalla\" u računalnoj mreži?",
+        "correct_answer": "Blokiranje neovlaštenog pristupa",
+        "incorrect_answers": [
+            "Povećanje brzine interneta",
+            "Pohrana podataka",
+            "Izrada sigurnosnih kopija"
+        ],
+        "explanation": "Firewall je sigurnosni sustav koji nadzire i filtrira mrežni promet, štiteći sustav od vanjskih prijetnji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1815",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se čvrsta tvar izravno pretvara u plin bez prolaska kroz tekuću fazu?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Isparavanje",
+            "Kondenzacija",
+            "Taljenje"
+        ],
+        "explanation": "Sublimacija je faza prijelaza u kojoj tvar iz krutog stanja prelazi izravno u plinovito stanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1816",
+        "category": "znanost",
+        "question": "Koja se temeljna sila odgovorna za privlačenje objekata s masom?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Elektromagnetska sila",
+            "Slaba nuklearna sila",
+            "Jaka nuklearna sila"
+        ],
+        "explanation": "Gravitacija je univerzalna fundamentalna sila koja uzrokuje da se tijela s masom međusobno privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1817",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu disciplinu koja proučava klasifikaciju i imenovanje organizama?",
+        "correct_answer": "Taksonomija",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Etologija"
+        ],
+        "explanation": "Taksonomija se bavi identificiranjem, imenovanjem i klasificiranjem svih živih bića na temelju sličnosti i razlika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1818",
+        "category": "znanost",
+        "question": "Koja se vrsta softvera koristi za stvaranje, uređivanje i oblikovanje tekstualnih dokumenata?",
+        "correct_answer": "Procesor teksta",
+        "incorrect_answers": [
+            "Proračunska tablica",
+            "Prezentacijski softver",
+            "Baza podataka"
+        ],
+        "explanation": "Procesori teksta (poput Microsoft Worda ili Google Docs-a) su programi dizajnirani za obradu teksta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1819",
+        "category": "znanost",
+        "question": "Kako se naziva putanja kojom jedno nebesko tijelo kruži oko drugog?",
+        "correct_answer": "Orbita",
+        "incorrect_answers": [
+            "Trajektorija",
+            "Ekliptika",
+            "Apogej"
+        ],
+        "explanation": "Orbita je zakrivljena putanja nebeskog tijela ili satelita oko zvijezde, planeta ili drugog nebeskog tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1820",
+        "category": "znanost",
+        "question": "Koji se hormon proizvodi u gušterači i regulira razinu glukoze u krvi snižavanjem iste?",
+        "correct_answer": "Inzulin",
+        "incorrect_answers": [
+            "Glukagon",
+            "Adrenalin",
+            "Tiroksin"
+        ],
+        "explanation": "Inzulin je peptidni hormon koji omogućava stanicama da apsorbiraju glukozu iz krvi, snižavajući njenu razinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1821",
+        "category": "znanost",
+        "question": "Što je akronim za tehnologiju koja omogućuje video pozive preko interneta?",
+        "correct_answer": "VoIP",
+        "incorrect_answers": [
+            "HTML",
+            "PDF",
+            "SMS"
+        ],
+        "explanation": "VoIP je tehnologija koja omogućuje prijenos glasovnih i video komunikacija preko internetskih protokola, umjesto tradicionalnih telefonskih linija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1822",
+        "category": "znanost",
+        "question": "Koja je pH vrijednost tvari koja je neutralna, niti kisela niti bazična?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "2"
+        ],
+        "explanation": "pH ljestvica se kreće od 0 do 14; vrijednost 7 označava neutralnost, dok su niže kisele, a više bazične.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1823",
+        "category": "znanost",
+        "question": "Koji je temeljni princip kvantne mehanike koji navodi da se ne mogu istovremeno precizno odrediti položaj i impuls čestice?",
+        "correct_answer": "Heisenbergovo načelo neodređenosti",
+        "incorrect_answers": [
+            "Paulijev princip isključenja",
+            "Planckov zakon",
+            "Bohrov model atoma"
+        ],
+        "explanation": "Heisenbergovo načelo neodređenosti je temeljni koncept koji naglašava inherentna ograničenja u preciznom mjerenju svojstava kvantnih čestica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1824",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada organizam raste i razvija se od zametka do odraslog oblika?",
+        "correct_answer": "Ontogeneza",
+        "incorrect_answers": [
+            "Filogeneza",
+            "Homeostaza",
+            "Metabolizam"
+        ],
+        "explanation": "Ontogeneza obuhvaća sve razvojne promjene koje se događaju u životu organizma od oplodnje do smrti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1825",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje malih datoteka koje web stranice pohranjuju na vašem računalu kako bi zapamtile informacije o vama?",
+        "correct_answer": "Kolačići (Cookies)",
+        "incorrect_answers": [
+            "Virus",
+            "Spyware",
+            "Firewall"
+        ],
+        "explanation": "Kolačići su mali dijelovi podataka koji se koriste za pohranu informacija o korisniku i njegovim interakcijama s web stranicama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_sci_1826",
+        "category": "znanost",
+        "question": "Kako se naziva stanje kada se svjetlost iz zvijezde (ili drugog nebeskog objekta) savija zbog gravitacije masivnog objekta između zvijezde i promatrača, što rezultira višestrukim slikama ili prstenima?",
+        "correct_answer": "Gravitacijsko lećanje",
+        "incorrect_answers": [
+            "Aberacija svjetlosti",
+            "Refrakcija",
+            "Kozmičko zračenje"
+        ],
+        "explanation": "Gravitacijsko lećanje je fenomen gdje gravitacija masivnih objekata deformira prostor-vrijeme, savijajući put svjetlosti koja prolazi pored njih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
