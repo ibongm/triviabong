@@ -24017,5 +24017,320 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1878",
+        "category": "geografija",
+        "question": "Koji kontinent ima najveću kopnenu površinu?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Sjeverna Amerika",
+            "Europa"
+        ],
+        "explanation": "Azija je najveći kontinent na Zemlji, pokriva oko 30% ukupne kopnene površine planeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1879",
+        "category": "geografija",
+        "question": "Kako se zove najviši vrh planinskog lanca Himalaje?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kangchenjunga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest je najviši planinski vrh na Zemlji, smješten u Mahalangur Himal dijelu Himalaje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1880",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji razdvaja Sjevernu Ameriku i Aziju?",
+        "correct_answer": "Beringov prolaz",
+        "incorrect_answers": [
+            "Drakeov prolaz",
+            "Magellanov prolaz",
+            "Gibraltarski prolaz"
+        ],
+        "explanation": "Beringov prolaz povezuje Čukotsko more (Arktički ocean) i Beringovo more (Tihi ocean), između Rta Dežnjeva (Rusija) i Rta Prince of Wales (Aljaska, SAD).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1881",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Japanu i aktivni stratovulkan?",
+        "correct_answer": "Fuji",
+        "incorrect_answers": [
+            "Kita-dake",
+            "Mount Aso",
+            "Mount Yari"
+        ],
+        "explanation": "Fuji je s 3.776 metara najviši planinski vrh u Japanu i smatra se svetim mjestom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1882",
+        "category": "geografija",
+        "question": "Koja rijeka teče kroz London?",
+        "correct_answer": "Temza",
+        "incorrect_answers": [
+            "Sena",
+            "Rajna",
+            "Dunav"
+        ],
+        "explanation": "Temza je druga najduža rijeka u Ujedinjenom Kraljevstvu i protiče kroz središte Londona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1883",
+        "category": "geografija",
+        "question": "Kako se zove glavni grad Australije?",
+        "correct_answer": "Canberra",
+        "incorrect_answers": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane"
+        ],
+        "explanation": "Canberra je planski izgrađen grad, smješten između dva najveća australska grada, Sydneya i Melbournea.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1884",
+        "category": "geografija",
+        "question": "Koja država graniči s Hrvatskom na istoku?",
+        "correct_answer": "Srbija",
+        "incorrect_answers": [
+            "Slovenija",
+            "Bosna i Hercegovina",
+            "Mađarska"
+        ],
+        "explanation": "Srbija se nalazi istočno od Hrvatske i jedna je od susjednih zemalja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1885",
+        "category": "geografija",
+        "question": "Kako se naziva tropska oluja koja se formira iznad Atlantskog oceana i pogađa obale Sjeverne Amerike?",
+        "correct_answer": "Uragan",
+        "incorrect_answers": [
+            "Tajfun",
+            "Ciklon",
+            "Tornado"
+        ],
+        "explanation": "Uragani su snažne tropske ciklone koje se razvijaju u tropskim i suptropskim predjelima Atlantskog oceana i sjeveroistočnog Tihog oceana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1886",
+        "category": "geografija",
+        "question": "Koji je najgušće naseljeni grad na svijetu (stanje 2024.)?",
+        "correct_answer": "Manila",
+        "incorrect_answers": [
+            "Dhaka",
+            "Mumbaj",
+            "Hong Kong"
+        ],
+        "explanation": "Prema podacima iz 2024., Manila, glavni grad Filipina, ima najveću gustoću naseljenosti među velikim gradovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1887",
+        "category": "geografija",
+        "question": "Koji se pustinjski krajolik u SAD-u naziva 'Dolina smrti'?",
+        "correct_answer": "Death Valley",
+        "incorrect_answers": [
+            "Mojave",
+            "Sonoran",
+            "Great Basin"
+        ],
+        "explanation": "Death Valley je pustinjska dolina u Kaliforniji, poznata po ekstremno visokim temperaturama i najnižoj točki u Sjevernoj Americi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1888",
+        "category": "geografija",
+        "question": "Koja je najviša točka Hrvatske?",
+        "correct_answer": "Dinara",
+        "incorrect_answers": [
+            "Velebit",
+            "Biokovo",
+            "Mosor"
+        ],
+        "explanation": "Dinara, vrh na planini Dinari, najviši je vrh Hrvatske s 1831 metrom nadmorske visine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1889",
+        "category": "geografija",
+        "question": "Koji morski prolaz spaja Atlantski ocean i Sredozemno more?",
+        "correct_answer": "Gibraltarski prolaz",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Bospor",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski prolaz je uski morski prolaz koji odvaja Europu (Španjolsku) od Afrike (Maroka).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1890",
+        "category": "geografija",
+        "question": "Kako se naziva geološki proces kada se slojevi stijena savijaju pod pritiskom?",
+        "correct_answer": "Boranje",
+        "incorrect_answers": [
+            "Rasedanje",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Boranje je proces nastanka bora, složenih nabora u stijenama, uzrokovanih tektonskim pritiscima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1891",
+        "category": "geografija",
+        "question": "Koje je najveće prirodno slatkovodno jezero u Hrvatskoj po površini?",
+        "correct_answer": "Vransko jezero (kod Biograda)",
+        "incorrect_answers": [
+            "Plitvička jezera",
+            "Peruća",
+            "Trakošćansko jezero"
+        ],
+        "explanation": "Vransko jezero kod Biograda na Moru najveće je prirodno slatkovodno jezero u Hrvatskoj po površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1892",
+        "category": "geografija",
+        "question": "Koji otok je dom za komodo zmajeve?",
+        "correct_answer": "Komodo",
+        "incorrect_answers": [
+            "Sumatra",
+            "Borneo",
+            "Madagaskar"
+        ],
+        "explanation": "Komodo zmajevi, najveći živući gušteri, prirodno nastanjuju nekoliko indonezijskih otoka, uključujući Komodo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1893",
+        "category": "geografija",
+        "question": "Kako se naziva ravničarski teren nastao taloženjem sedimenata rijeka, često vrlo plodan?",
+        "correct_answer": "Aluvijalna ravnica",
+        "incorrect_answers": [
+            "Plato",
+            "Delta",
+            "Morena"
+        ],
+        "explanation": "Aluvijalne ravnice nastaju dugotrajnim taloženjem aluvija (sedimenata) koje rijeke nose iz viših predjela, čineći ih iznimno plodnima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1894",
+        "category": "geografija",
+        "question": "Koji je najveći afrički otok?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Zanzibar",
+            "Mauricijus",
+            "Sejšeli"
+        ],
+        "explanation": "Madagaskar je četvrti najveći otok na svijetu i najveći otok u Africi, poznat po jedinstvenoj bioraznolikosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1895",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se plitki morski zaljevi ili estuariji odvajaju od otvorenog mora pješčanim nasipima?",
+        "correct_answer": "Laguna",
+        "incorrect_answers": [
+            "Fjord",
+            "Uvala",
+            "Rijeka"
+        ],
+        "explanation": "Laguna je plitka vodena površina koja je djelomično ili potpuno odvojena od otvorenog mora pješčanim sprudovima ili koraljnim grebenima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1896",
+        "category": "geografija",
+        "question": "Koji se vjetar javlja u sjevernoj Africi i donosi pijesak iz Sahare u Mediteran i južnu Europu?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Maestral"
+        ],
+        "explanation": "Siroko je topao, suh i prašan vjetar koji puše iz Sahare preko Sredozemnog mora prema južnoj Europi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1897",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po 'aurori borealis' (polarnoj svjetlosti) i ima mnogo jezera?",
+        "correct_answer": "Finska",
+        "incorrect_answers": [
+            "Norveška",
+            "Švedska",
+            "Kanada"
+        ],
+        "explanation": "Finska je poznata kao 'zemlja tisuću jezera' i jedno je od najboljih mjesta za promatranje polarne svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_geo_1898",
+        "category": "geografija",
+        "question": "Kako se naziva oblik obale s brojnim uskim, dubokim i razvedenim zaljevima, nastao potapanjem riječnih dolina?",
+        "correct_answer": "Rijaska obala",
+        "incorrect_answers": [
+            "Delta",
+            "Laguna",
+            "Koraljni greben"
+        ],
+        "explanation": "Rijaska obala karakterizirana je potopljenim riječnim dolinama koje čine dugačke, razvedene zaljeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
