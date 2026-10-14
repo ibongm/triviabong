@@ -26201,5 +26201,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2022",
+        "category": "povijest",
+        "question": "Tko je bio prvi hrvatski kralj okrunjen 925. godine?",
+        "correct_answer": "Tomislav",
+        "incorrect_answers": [
+            "Zvonimir",
+            "Petar Krešimir IV",
+            "Trpimir"
+        ],
+        "explanation": "Tomislav je bio prvi hrvatski vladar koji je okrunjen za kralja, ujedinivši panonsku i dalmatinsku Hrvatsku u jedinstveno kraljevstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2023",
+        "category": "povijest",
+        "question": "U kojoj je bitki 480. pr. Kr. mala skupina Spartanaca i saveznika hrabro, ali neuspješno, branila uski prolaz protiv goleme perzijske vojske?",
+        "correct_answer": "Bitka kod Termopila",
+        "incorrect_answers": [
+            "Bitka kod Maratona",
+            "Bitka kod Salamine",
+            "Bitka kod Plateje"
+        ],
+        "explanation": "Bitka kod Termopila poznata je po herojskoj obrani Leonide i 300 Spartanaca protiv perzijskog cara Kserksa I.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2024",
+        "category": "povijest",
+        "question": "Koji je bio službeni jezik Bizantskog Carstva nakon 7. stoljeća, zamijenivši latinski?",
+        "correct_answer": "Grčki",
+        "incorrect_answers": [
+            "Latinski",
+            "Staroslavenski",
+            "Arapski"
+        ],
+        "explanation": "Iako je latinski bio službeni jezik Rimskog Carstva, grčki je postupno postao dominantan u Istočnom Rimskom (Bizantskom) Carstvu, posebno nakon Heraklijeve vladavine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2025",
+        "category": "povijest",
+        "question": "Koji je talijanski istraživač 1492. godine, ploveći pod španjolskom zastavom, stigao do Amerike, pogrešno vjerujući da je stigao do Indije?",
+        "correct_answer": "Kristofor Kolumbo",
+        "incorrect_answers": [
+            "Vasco da Gama",
+            "Ferdinand Magellan",
+            "Marko Polo"
+        ],
+        "explanation": "Kristofor Kolumbo je 1492. godine došao do Novog svijeta, vjerujući da je otkrio novi put do Indije, što je promijenilo tijek svjetske povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2026",
+        "category": "povijest",
+        "question": "Kako se zvao prvi hrvatski ban koji je nosio naslov 'ban cijele Hrvatske' (banus totius Croatiae) u 13. stoljeću, a bio je i suvremenik kralja Bele IV.?",
+        "correct_answer": "Pavao Šubić Bribirski",
+        "incorrect_answers": [
+            "Kulin ban",
+            "Stjepan II. Kotromanić",
+            "Nikola Šubić Zrinski"
+        ],
+        "explanation": "Pavao Šubić Bribirski bio je jedan od najmoćnijih hrvatskih velikaša koji je nosio titulu bana cijele Hrvatske i Dalmacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2027",
+        "category": "povijest",
+        "question": "Koja je država, uz Južnu Afriku, bila jedina članica Commonwealtha koja je bila republika pod vlašću britanske krune (kao Head of the Commonwealth), a da nije bila carstvo?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kanada",
+            "Australija",
+            "Novi Zeland"
+        ],
+        "explanation": "Indija je postala republika 1950. godine, ali je odlučila ostati u Commonwealthu, prihvaćajući britanskog monarha kao simboličkog poglavara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2028",
+        "category": "povijest",
+        "question": "Tko je bila francuska kraljica, supruga Luja XVI., poznata po ekstravagantnom životnom stilu i pogubljena tijekom Francuske revolucije?",
+        "correct_answer": "Marija Antoaneta",
+        "incorrect_answers": [
+            "Katarina Velika",
+            "Elizabeta I.",
+            "Kleopatra"
+        ],
+        "explanation": "Marija Antoaneta, austrijska princeza, bila je supruga Luja XVI. i simbol kraljevskog rasipništva, što je dovelo do njezina pogubljenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2029",
+        "category": "povijest",
+        "question": "Koji je bio glavni razlog zašto su Sjedinjene Američke Države ušle u Prvi svjetski rat 1917. godine?",
+        "correct_answer": "Objavljivanje Zimmermannovog telegrama i neograničeno podmorničko ratovanje Njemačke",
+        "incorrect_answers": [
+            "Atentat na nadvojvodu Franju Ferdinanda",
+            "Invazija Belgije",
+            "Oktobarska revolucija u Rusiji"
+        ],
+        "explanation": "Zimmermannov telegram i neograničeno podmorničko ratovanje natjerali su SAD na ulazak u rat, iako je atentat bio povod za rat u Europi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2030",
+        "category": "povijest",
+        "question": "Koji je rimski car bio poznat po uspostavi tetrarkije, sustava vladavine s četiri su-cara, krajem 3. stoljeća n.e.?",
+        "correct_answer": "Dioklecijan",
+        "incorrect_answers": [
+            "August",
+            "Konstantin I.",
+            "Trajan"
+        ],
+        "explanation": "Dioklecijan je uspostavio tetrarkiju kako bi učinkovitije upravljao golemim Rimskim Carstvom i stabilizirao ga nakon razdoblja krize.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2031",
+        "category": "povijest",
+        "question": "Koji je grad u Hrvatskoj bio poznat kao 'Mali Rim' zbog svoje antičke arhitekture i Dioklecijanove palače?",
+        "correct_answer": "Split",
+        "incorrect_answers": [
+            "Pula",
+            "Zadar",
+            "Dubrovnik"
+        ],
+        "explanation": "Split je izgrađen oko Dioklecijanove palače, što mu daje jedinstveni karakter i bogatu antičku povijest, zaslužujući nadimak 'Mali Rim'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2032",
+        "category": "povijest",
+        "question": "Koji je poznati umjetnik renesanse autor slika 'Posljednja večera' i 'Mona Lisa'?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci je jedan od najvećih renesansnih umjetnika i genija, poznat po svojim remek-djelima kao što su 'Mona Lisa' i 'Posljednja večera'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2033",
+        "category": "povijest",
+        "question": "Koji je hrvatski velikaš, ban, vojskovođa i pjesnik, poginuo 1566. godine u bitci kod Sigeta braneći Sigetsku utvrdu od Osmanlija?",
+        "correct_answer": "Nikola Šubić Zrinski",
+        "incorrect_answers": [
+            "Petar Zrinski",
+            "Fran Krsto Frankopan",
+            "Matija Gubec"
+        ],
+        "explanation": "Nikola Šubić Zrinski je herojski poginuo u bitci kod Sigeta, braneći utvrdu od nadmoćne osmanske vojske Sulejmana Veličanstvenog.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2034",
+        "category": "povijest",
+        "question": "Koji je bio drevni egipatski oblik pisma koji je koristio slike i simbole?",
+        "correct_answer": "Hijeroglifi",
+        "incorrect_answers": [
+            "Klinasto pismo",
+            "Fenicijsko pismo",
+            "Latinsko pismo"
+        ],
+        "explanation": "Hijeroglifi su bili piktografsko pismo koje su stari Egipćani koristili za pisanje, često uklesano u kamenu ili papirusu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2035",
+        "category": "povijest",
+        "question": "Kako se zvao vojni savez država Istočnog bloka, osnovan 1955. godine kao odgovor na NATO?",
+        "correct_answer": "Varšavski pakt",
+        "incorrect_answers": [
+            "Komintern",
+            "Antikominternski pakt",
+            "Ujedinjeni narodi"
+        ],
+        "explanation": "Varšavski pakt bio je kolektivni obrambeni ugovor između Sovjetskog Saveza i sedam drugih socijalističkih država Istočne Europe tijekom Hladnog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2036",
+        "category": "povijest",
+        "question": "Koji je filozof iz doba prosvjetiteljstva poznat po svojoj teoriji o 'tripartitnoj podjeli vlasti' (zakonodavna, izvršna, sudska), koja je utjecala na mnoge ustave?",
+        "correct_answer": "Montesquieu",
+        "incorrect_answers": [
+            "Jean-Jacques Rousseau",
+            "John Locke",
+            "Voltaire"
+        ],
+        "explanation": "Montesquieu je u svom djelu 'O duhu zakona' predstavio koncept podjele vlasti kao mehanizam za sprečavanje tiranije i osiguranje slobode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2037",
+        "category": "povijest",
+        "question": "Koji je bio doživotni predsjednik Socijalističke Federativne Republike Jugoslavije (SFRJ) od 1953. do svoje smrti 1980. godine?",
+        "correct_answer": "Josip Broz Tito",
+        "incorrect_answers": [
+            "Milan Kučan",
+            "Slobodan Milošević",
+            "Franjo Tuđman"
+        ],
+        "explanation": "Josip Broz Tito bio je vođa Jugoslavije tijekom Hladnog rata, poznat po politici nesvrstanosti i autonomije od sovjetskog bloka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2038",
+        "category": "povijest",
+        "question": "Koja je drevna kineska dinastija započela izgradnju Kineskog zida u značajnom obimu i ujedinila Kinu pod prvim carom?",
+        "correct_answer": "Dinastija Qin",
+        "incorrect_answers": [
+            "Dinastija Han",
+            "Dinastija Tang",
+            "Dinastija Ming"
+        ],
+        "explanation": "Dinastija Qin pod Qin Shi Huangom ujedinila je Kinu i započela masovnu izgradnju obrambenih zidina, koje su kasnije postale Veliki kineski zid.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2039",
+        "category": "povijest",
+        "question": "Koji je vjerski rat trajao od 1618. do 1648. godine, uglavnom u Svetom Rimskom Carstvu, i uvelike promijenio političku kartu Europe?",
+        "correct_answer": "Tridesetogodišnji rat",
+        "incorrect_answers": [
+            "Stogodišnji rat",
+            "Rat dviju ruža",
+            "Nizozemski ustanak"
+        ],
+        "explanation": "Tridesetogodišnji rat bio je jedan od najrazornijih sukoba u europskoj povijesti, kulminirao je Vestfalskim mirom koji je redefinirao europske granice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2040",
+        "category": "povijest",
+        "question": "Koje je godine proglašena Država Slovenaca, Hrvata i Srba (SHS) nakon raspada Austro-Ugarske Monarhije?",
+        "correct_answer": "1918.",
+        "incorrect_answers": [
+            "1914.",
+            "1929.",
+            "1941."
+        ],
+        "explanation": "Država SHS je proglašena 29. listopada 1918. godine u Zagrebu, kao pokušaj južnoslavenskih naroda da se ujedine nakon Prvog svjetskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2041",
+        "category": "povijest",
+        "question": "Koji je europski kralj bio osobni vlasnik Konga od 1885. do 1908. godine, poznat po izuzetnoj brutalnosti i eksploataciji?",
+        "correct_answer": "Leopold II. od Belgije",
+        "incorrect_answers": [
+            "Vilim II. od Njemačke",
+            "Viktorija od Ujedinjenog Kraljevstva",
+            "Napoleon III."
+        ],
+        "explanation": "Kralj Leopold II. vladao je Slobodnom Državom Kongo kao svojim privatnim posjedom, uzrokujući milijune smrti i neizrecivu patnju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2042",
+        "category": "povijest",
+        "question": "Koji je datum napada na Pearl Harbor, čime su Sjedinjene Američke Države ušle u Drugi svjetski rat?",
+        "correct_answer": "7. prosinca 1941.",
+        "incorrect_answers": [
+            "1. rujna 1939.",
+            "6. lipnja 1944.",
+            "8. svibnja 1945."
+        ],
+        "explanation": "Japanski iznenadni napad na američku pomorsku bazu Pearl Harbor bio je ključan događaj koji je SAD uveo u Drugi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2043",
+        "category": "povijest",
+        "question": "Koji je događaj u Zagrebu 1990. godine, poznat kao 'Krvavi Uskrs', bio važan incident na početku Domovinskog rata?",
+        "correct_answer": "Sukob na Plitvičkim jezerima",
+        "incorrect_answers": [
+            "Balvan revolucija",
+            "Bitka za Vukovar",
+            "Oluja"
+        ],
+        "explanation": "Sukob na Plitvičkim jezerima bio je prvi oružani sukob s poginulim žrtvama na hrvatskoj strani u Domovinskom ratu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2044",
+        "category": "povijest",
+        "question": "Koji je britanski inženjer izumio parni stroj koji je značajno unaprijedio učinkovitost ranijih modela i postao ključan za industrijsku revoluciju?",
+        "correct_answer": "James Watt",
+        "incorrect_answers": [
+            "George Stephenson",
+            "Isambard Kingdom Brunel",
+            "Eli Whitney"
+        ],
+        "explanation": "James Watt je poboljšao parni stroj, čineći ga mnogo učinkovitijim i time omogućio široku primjenu u industriji i transportu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2045",
+        "category": "povijest",
+        "question": "Tko je bio prvi Europljanin koji je oplovio svijet, iako je poginuo na Filipinima prije završetka putovanja?",
+        "correct_answer": "Ferdinand Magellan",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Vasco da Gama",
+            "James Cook"
+        ],
+        "explanation": "Ekspedicija Ferdinanda Magellana prva je oplovila Zemlju, dok je on sam stradao u borbi na Filipinima 1521. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2046",
+        "category": "povijest",
+        "question": "Koji je papinski dokument iz 1075. godine proglasio papinu suprematiju nad svjetovnim vladarima i pokrenuo borbu za investituru?",
+        "correct_answer": "Dictatus Papae",
+        "incorrect_answers": [
+            "Konkordat iz Wormsa",
+            "Lateranski ugovori",
+            "Zlatna bula"
+        ],
+        "explanation": "Dictatus Papae, pripisan papi Grguru VII., sadržavao je 27 teza koje su tvrdile apsolutnu papinsku vlast nad Carstvom i Crkvom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2047",
+        "category": "povijest",
+        "question": "Kako se zvao prvi sveučilišni grad u Hrvatskoj, osnovan 1396. godine?",
+        "correct_answer": "Zadar",
+        "incorrect_answers": [
+            "Zagreb",
+            "Split",
+            "Dubrovnik"
+        ],
+        "explanation": "Sveučilište u Zadru osnovano je 1396. godine kao dominikanska visoka škola, što ga čini najstarijim sveučilištem u Hrvatskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2048",
+        "category": "povijest",
+        "question": "Tko je bio vođa Kubanske revolucije koja je 1959. godine srušila Fulgencija Batistu i uspostavila komunističku vlast?",
+        "correct_answer": "Fidel Castro",
+        "incorrect_answers": [
+            "Che Guevara",
+            "Augusto Pinochet",
+            "Hugo Chávez"
+        ],
+        "explanation": "Fidel Castro je vodio Kubansku revoluciju, transformirajući Kubu iz diktature u socijalističku državu s jednostranačkim sustavom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2049",
+        "category": "povijest",
+        "question": "Koja je bila ključna godina kada je Konstantin I. Veliki premjestio glavni grad Rimskog Carstva u Bizant, preimenovavši ga u Konstantinopol?",
+        "correct_answer": "330.",
+        "incorrect_answers": [
+            "313.",
+            "410.",
+            "476."
+        ],
+        "explanation": "Car Konstantin I. posvetio je Konstantinopol 11. svibnja 330. godine, čime je grad postao novi glavni grad Rimskog Carstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2050",
+        "category": "povijest",
+        "question": "Koje su se antičke sportske igre održavale svake četiri godine u Olimpiji u čast boga Zeusa?",
+        "correct_answer": "Olimpijske igre",
+        "incorrect_answers": [
+            "Gladijatorske borbe",
+            "Patijske igre",
+            "Nemejske igre"
+        ],
+        "explanation": "Drevne Olimpijske igre bile su vjerski i sportski festival u čast Zeusa, održavane svake četiri godine u staroj Grčkoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2051",
+        "category": "povijest",
+        "question": "U kojoj je bitki 1493. godine hrvatska vojska pod vodstvom bana Emerika Derenčina teško poražena od Osmanlija, što je imalo katastrofalne posljedice za Hrvatsku?",
+        "correct_answer": "Bitka na Krbavskom polju",
+        "incorrect_answers": [
+            "Bitka kod Siska",
+            "Bitka kod Mohača",
+            "Opsada Zadra"
+        ],
+        "explanation": "Bitka na Krbavskom polju bila je jedan od najvećih poraza hrvatske vojske protiv Osmanlija, rezultirajući velikim ljudskim gubicima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2052",
+        "category": "povijest",
+        "question": "Koji je poljski astronom u 16. stoljeću razvio heliocentrični model Sunčevog sustava, smještajući Sunce, a ne Zemlju, u centar?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Kopernik je bio prvi koji je iznio matematički detaljan heliocentrični model, što je izazvalo revoluciju u astronomiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2053",
+        "category": "povijest",
+        "question": "Kako se zvao sukob između kuće Lancaster i kuće York za englesko prijestolje u 15. stoljeću?",
+        "correct_answer": "Rat ruža",
+        "incorrect_answers": [
+            "Stogodišnji rat",
+            "Engleski građanski rat",
+            "Normansko osvajanje"
+        ],
+        "explanation": "Rat ruža bio je dinastički rat za englesko prijestolje, nazvan po heraldičkim simbolima dviju suparničkih obitelji – bijeloj i crvenoj ruži.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2054",
+        "category": "povijest",
+        "question": "Kako se zvao sporazum potpisan 1919. godine između Saveznika i Njemačke, kojim je službeno okončan Prvi svjetski rat?",
+        "correct_answer": "Versajski mirovni ugovor",
+        "incorrect_answers": [
+            "Minhenski sporazum",
+            "Brest-Litovski mir",
+            "Potsdamska konferencija"
+        ],
+        "explanation": "Versajski ugovor bio je ključan za okončanje Prvog svjetskog rata, ali su njegovi uvjeti kasnije doprinijeli usponu nacizma u Njemačkoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2055",
+        "category": "povijest",
+        "question": "Tko je bio istaknuti hrvatski književnik i preporoditelj koji je napisao programski članak 'Novine Horvatske' 1835. godine, pozivajući na jezično jedinstvo Hrvata?",
+        "correct_answer": "Ljudevit Gaj",
+        "incorrect_answers": [
+            "Ivan Mažuranić",
+            "Stjepan Radić",
+            "Antun Mihanović"
+        ],
+        "explanation": "Ljudevit Gaj bio je ključna figura Ilirskog pokreta, zalažući se za jedinstveni književni jezik i jačanje nacionalne svijesti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2056",
+        "category": "povijest",
+        "question": "Tko je bio osnivač budizma, poznat i kao Siddhartha Gautama?",
+        "correct_answer": "Buda",
+        "incorrect_answers": [
+            "Konfucije",
+            "Zaratustra",
+            "Muhamed"
+        ],
+        "explanation": "Buda, rođen kao Siddhartha Gautama, postigao je prosvjetljenje i podučavao put oslobađanja od patnje, što je temelj budizma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2057",
+        "category": "povijest",
+        "question": "Kako se zvala politička i ideološka granica koja je dijelila Europu na Zapadni i Istočni blok tijekom Hladnog rata?",
+        "correct_answer": "Željezna zavjesa",
+        "incorrect_answers": [
+            "Berlinski zid",
+            "Maginot linija",
+            "Siegfried linija"
+        ],
+        "explanation": "Izraz 'Željezna zavjesa', populariziran od Winstona Churchilla, simbolizirao je podjelu Europe na komunistički Istok i demokratski Zapad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2058",
+        "category": "povijest",
+        "question": "Koji je mezopotamski grad bio glavni grad Prvog babilonskog carstva, poznat po Hamurabijevom zakoniku?",
+        "correct_answer": "Babilon",
+        "incorrect_answers": [
+            "Uruk",
+            "Niniva",
+            "Ur"
+        ],
+        "explanation": "Babilon je bio moćan grad-država, a Hamurabi je vladao iz njega, ostavljajući iza sebe jedan od najranijih i najpoznatijih pisanih zakonika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
+    },
+    {
+        "id": "hr_hist_2059",
+        "category": "povijest",
+        "question": "Tko je bio prvi čovjek koji je 1961. godine putovao u svemir?",
+        "correct_answer": "Jurij Gagarin",
+        "incorrect_answers": [
+            "Neil Armstrong",
+            "Alan Shepard",
+            "John Glenn"
+        ],
+        "explanation": "Jurij Gagarin, sovjetski kozmonaut, bio je prvi čovjek u svemiru, kružeći oko Zemlje u letjelici Vostok 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-14"
     }
 ]
