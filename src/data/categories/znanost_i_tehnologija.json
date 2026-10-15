@@ -29440,5 +29440,500 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2244",
+        "category": "znanost",
+        "question": "Koji dio računala se naziva \"mozak\" računala i izvršava upute programa?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Grafička kartica (GPU)",
+            "Radna memorija (RAM)",
+            "Tvrdi disk (HDD)"
+        ],
+        "explanation": "CPU je primarna komponenta računala koja izvršava instrukcije programa i obrađuje podatke. Naziva se i mikroprocesor.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2245",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za temperaturu?",
+        "correct_answer": "Kelvin",
+        "incorrect_answers": [
+            "Celzij",
+            "Fahrenheit",
+            "Džul"
+        ],
+        "explanation": "Kelvin je SI jedinica termodinamičke temperature. Nula Kelvina (-273.15 °C) predstavlja apsolutnu nulu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2246",
+        "category": "znanost",
+        "question": "Koji element ima atomski broj 1 i najlakši je element?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik je najlakši i najrasprostranjeniji kemijski element u svemiru, s atomskim brojem 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2247",
+        "category": "znanost",
+        "question": "Kako se naziva softver koji kontrolira hardver i osigurava osnovne funkcije računala?",
+        "correct_answer": "Operativni sustav",
+        "incorrect_answers": [
+            "Preglednik",
+            "Antivirus",
+            "Aplikacija"
+        ],
+        "explanation": "Operativni sustav je sustavni softver koji upravlja računalnim hardverom i softverskim resursima te pruža zajedničke usluge programima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2248",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija fotosinteze u biljkama?",
+        "correct_answer": "Proizvodnja hrane i kisika",
+        "incorrect_answers": [
+            "Proizvodnja ugljičnog dioksida",
+            "Razgradnja vode",
+            "Održavanje temperature"
+        ],
+        "explanation": "Fotosinteza je proces kojim zelene biljke pretvaraju svjetlosnu energiju u kemijsku energiju, proizvodeći glukozu (hranu) i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2249",
+        "category": "znanost",
+        "question": "Koja vrsta energije se pohranjuje u rastegnutoj opruzi ili podignutom objektu?",
+        "correct_answer": "Potencijalna energija",
+        "incorrect_answers": [
+            "Kinetička energija",
+            "Toplinska energija",
+            "Električna energija"
+        ],
+        "explanation": "Potencijalna energija je energija pohranjena u objektu zbog njegovog položaja ili konfiguracije, na primjer, visina ili stisnuta opruga.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2250",
+        "category": "znanost",
+        "question": "Koji je proces prijelaza tvari iz tekućeg u plinovito stanje bez dostizanja vrelišta?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Taljenje"
+        ],
+        "explanation": "Isparavanje je proces u kojem se tekućina pretvara u paru na temperaturi nižoj od točke vrenja, obično s površine tekućine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2251",
+        "category": "znanost",
+        "question": "Koja se vrsta baze podataka sastoji od tablica s redovima i stupcima i koristi SQL za upravljanje podacima?",
+        "correct_answer": "Relacijska baza podataka",
+        "incorrect_answers": [
+            "Objekto-orijentirana baza podataka",
+            "Graf-baza podataka",
+            "NoSQL baza podataka"
+        ],
+        "explanation": "Relacijske baze podataka organiziraju podatke u tablice s definiranim odnosima, a Structured Query Language (SQL) je standard za njihovo upravljanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2252",
+        "category": "znanost",
+        "question": "Koja stanična struktura sadrži genetski materijal (DNA) u eukariotskim stanicama?",
+        "correct_answer": "Jezgra",
+        "incorrect_answers": [
+            "Citoplazma",
+            "Ribosom",
+            "Vakuola"
+        ],
+        "explanation": "Stanična jezgra sadrži većinu genetskog materijala stanice, organiziranog u kromosome, te kontrolira stanične aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2253",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja se suprotstavlja gibanju između dviju površina u dodiru?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Centrifugalna sila",
+            "Normalna sila"
+        ],
+        "explanation": "Trenje je sila koja nastaje pri dodiru dvaju tijela i suprotstavlja se njihovom relativnom gibanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2254",
+        "category": "znanost",
+        "question": "Koji je pojam za masivni objekt u svemiru iz kojeg ni svjetlost ne može pobjeći zbog ekstremno jake gravitacije?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Kvazar",
+            "Pulsar",
+            "Bijeli patuljak"
+        ],
+        "explanation": "Crna rupa je područje prostor-vremena s tako snažnom gravitacijom da ništa, pa ni svjetlost, ne može pobjeći iz nje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2255",
+        "category": "znanost",
+        "question": "Kako se naziva jedinstvena numerička adresa dodijeljena svakom uređaju povezanom na računalnu mrežu?",
+        "correct_answer": "IP adresa",
+        "incorrect_answers": [
+            "MAC adresa",
+            "URL adresa",
+            "Port broj"
+        ],
+        "explanation": "IP adresa je jedinstveni identifikator koji omogućuje uređajima da komuniciraju unutar računalne mreže, najčešće Interneta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2256",
+        "category": "znanost",
+        "question": "Koji proces uključuje stvaranje novih vrsta iz postojećih kroz evolucijske promjene?",
+        "correct_answer": "Specijacija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Adaptacija",
+            "Selekcija"
+        ],
+        "explanation": "Specijacija je evolucijski proces u kojem populacije razvijaju dovoljno razlika da postanu zasebne, reproduktivno izolirane vrste.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2257",
+        "category": "znanost",
+        "question": "Koja optička pojava uzrokuje da se svjetlost savija kada prolazi iz jednog medija u drugi (npr. iz zraka u vodu)?",
+        "correct_answer": "Lom svjetlosti (refrakcija)",
+        "incorrect_answers": [
+            "Odbijanje svjetlosti (refleksija)",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Refrakcija je promjena smjera svjetlosnog vala pri prolasku iz jednog optičkog medija u drugi, uzrokovana promjenom brzine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2258",
+        "category": "znanost",
+        "question": "Koji pojam označava sposobnost materijala da se vrati u svoj izvorni oblik nakon deformacije?",
+        "correct_answer": "Elastičnost",
+        "incorrect_answers": [
+            "Plastičnost",
+            "Tvrdoća",
+            "Krhkost"
+        ],
+        "explanation": "Elastičnost je svojstvo materijala da se nakon uklanjanja vanjske sile vrati u svoj prvobitni oblik i dimenzije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2259",
+        "category": "znanost",
+        "question": "Koji se plin stvara tijekom fotosinteze i ključan je za disanje većine živih organizama?",
+        "correct_answer": "Kisik",
+        "incorrect_answers": [
+            "Ugljični dioksid",
+            "Dušik",
+            "Metan"
+        ],
+        "explanation": "Kisik je nusprodukt fotosinteze i esencijalni je element za aerobno disanje, proces oslobađanja energije u većini živih bića.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2260",
+        "category": "znanost",
+        "question": "Koja programska struktura omogućuje ponavljanje bloka koda dok je određeni uvjet istinit?",
+        "correct_answer": "Petlja (Loop)",
+        "incorrect_answers": [
+            "Grananje (If-Else)",
+            "Funkcija",
+            "Varijabla"
+        ],
+        "explanation": "Petlje, poput `for` ili `while` petlji, koriste se za iterativno izvršavanje dijela koda dok je zadani uvjet zadovoljen.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2261",
+        "category": "znanost",
+        "question": "Koji je naziv za proces unosa tvari u stanicu obavijanjem staničnom membranom?",
+        "correct_answer": "Endocitoza",
+        "incorrect_answers": [
+            "Egzocitoza",
+            "Difuzija",
+            "Osmoza"
+        ],
+        "explanation": "Endocitoza je aktivni proces kojim stanice unose velike molekule, čestice ili čak druge stanice obavijanjem plazma membranom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2262",
+        "category": "znanost",
+        "question": "Koji je naziv za maleno nebesko tijelo sastavljeno od leda, prašine i stijena koje razvija rep kada se približi Suncu?",
+        "correct_answer": "Komet",
+        "incorrect_answers": [
+            "Asteroid",
+            "Meteoroid",
+            "Planetoid"
+        ],
+        "explanation": "Kometi su smrznuta tijela koja se sastoje od leda, prašine i stijena. Kada se približe Suncu, led sublimira, stvarajući vidljiv rep.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2263",
+        "category": "znanost",
+        "question": "Koji fizički zakon kaže da se energija ne može stvoriti niti uništiti, već samo pretvoriti iz jednog oblika u drugi?",
+        "correct_answer": "Zakon o očuvanju energije",
+        "incorrect_answers": [
+            "Zakon očuvanja mase",
+            "Zakon očuvanja gibanja",
+            "Hookeov zakon"
+        ],
+        "explanation": "Zakon o očuvanju energije je temeljni zakon fizike koji navodi da se ukupna količina energije u izoliranom sustavu ne mijenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2264",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje otapala koje je sposobno otapati mnoge različite tvari, poput vode?",
+        "correct_answer": "Univerzalno otapalo",
+        "incorrect_answers": [
+            "Specifično otapalo",
+            "Organsko otapalo",
+            "Kiselo otapalo"
+        ],
+        "explanation": "Voda se često naziva 'univerzalnim otapalom' zbog svoje polarne molekularne strukture koja joj omogućuje otapanje širokog spektra tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2265",
+        "category": "znanost",
+        "question": "Koja čestica je kvantni ekvivalent sile, prenoseći elektromagnetsku interakciju?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je elementarna čestica, kvant elektromagnetskog polja, i nositelj elektromagnetske sile.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2266",
+        "category": "znanost",
+        "question": "Kako se naziva tehnika kojom se specifične sekvence DNA umnožavaju milijune puta in vitro?",
+        "correct_answer": "PCR (Polimerazna lančana reakcija)",
+        "incorrect_answers": [
+            "Kloniranje",
+            "Elektroforeza",
+            "Sekvenciranje"
+        ],
+        "explanation": "PCR je biološka tehnologija kojom se proizvode mnoge kopije specifičnog segmenta DNA, što je ključno u molekularnoj biologiji i forenzici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2267",
+        "category": "znanost",
+        "question": "Koji je naziv za organske spojeve s istom molekulskom formulom, ali različitim strukturnim formulama?",
+        "correct_answer": "Izomeri",
+        "incorrect_answers": [
+            "Alotropi",
+            "Izotopi",
+            "Homolozi"
+        ],
+        "explanation": "Izomeri su molekule koje imaju isti kemijski sastav (istu molekulsku formulu), ali se razlikuju u rasporedu atoma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2268",
+        "category": "znanost",
+        "question": "Koja vrsta strojnog učenja ne koristi označene podatke i fokusira se na pronalaženje uzoraka u ulaznim podacima?",
+        "correct_answer": "Nenadzirano učenje",
+        "incorrect_answers": [
+            "Nadzirano učenje",
+            "Učenje potkrepljivanjem",
+            "Transfer učenje"
+        ],
+        "explanation": "Nenadzirano učenje je vrsta strojnog učenja gdje algoritam uči iz neoznačenih podataka, identificirajući skrivene obrasce ili strukture.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2269",
+        "category": "znanost",
+        "question": "Kako se naziva proces spajanja lakih atomskih jezgri u teže jezgre, oslobađajući pritom ogromnu energiju, koji se događa u Suncu?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Radioaktivni raspad",
+            "Nuklearna reakcija"
+        ],
+        "explanation": "Nuklearna fuzija je proces u kojem se atomske jezgre spajaju u teže jezgre, oslobađajući ogromne količine energije, kao što se događa u zvijezdama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2270",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje inercije rotirajućeg tijela, odnosno otpora promjeni njegove kutne brzine?",
+        "correct_answer": "Moment inercije",
+        "incorrect_answers": [
+            "Kutni moment",
+            "Moment sile",
+            "Rotacijska kinetička energija"
+        ],
+        "explanation": "Moment inercije je mjera otpora tijela promjeni njegovog rotacijskog gibanja oko osi. Ovisi o masi i rasporedu mase oko osi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2271",
+        "category": "znanost",
+        "question": "Koja se molekula naziva \"univerzalnom energetskom valutom\" stanice, pohranjujući i oslobađajući energiju?",
+        "correct_answer": "ATP (Adenozin trifosfat)",
+        "incorrect_answers": [
+            "DNA",
+            "RNA",
+            "Glukoza"
+        ],
+        "explanation": "ATP je ključna molekula u stanicama koja služi kao primarni nositelj energije za većinu staničnih procesa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2272",
+        "category": "znanost",
+        "question": "Koji se tip hibridizacije atomskih orbitala javlja kod atoma ugljika u molekuli metana (CH4)?",
+        "correct_answer": "sp3 hibridizacija",
+        "incorrect_answers": [
+            "sp hibridizacija",
+            "sp2 hibridizacija",
+            "dsp2 hibridizacija"
+        ],
+        "explanation": "U metanu, atom ugljika tvori četiri jednake sigma veze s atomima vodika, što je rezultat miješanja jedne s-orbitale i tri p-orbitale.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2273",
+        "category": "znanost",
+        "question": "Koji se sloj OSI modela bavi rutiranjem paketa i logičkim adresiranjem (npr. IP adrese)?",
+        "correct_answer": "Mrežni sloj (Layer 3)",
+        "incorrect_answers": [
+            "Fizički sloj",
+            "Poveznice sloj",
+            "Transportni sloj"
+        ],
+        "explanation": "Mrežni sloj je odgovoran za logičko adresiranje i rutiranje paketa između različitih mreža.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2274",
+        "category": "znanost",
+        "question": "Koji je princip formulirao Werner Heisenberg, navodeći da se određeni parovi svojstava čestica (npr. položaj i impuls) ne mogu istovremeno precizno izmjeriti?",
+        "correct_answer": "Princip neodređenosti",
+        "incorrect_answers": [
+            "Princip ekvivalencije",
+            "Pauli princip isključenja",
+            "Princip superpozicije"
+        ],
+        "explanation": "Heisenbergov princip neodređenosti tvrdi da se ne mogu istovremeno točno znati položaj i impuls neke čestice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2275",
+        "category": "znanost",
+        "question": "Koja je razlika između primarne i sekundarne sukcesije u ekologiji?",
+        "correct_answer": "Primarna sukcesija počinje na goloj, bezživotnoj podlozi, dok sekundarna počinje na mjestu gdje je život uništen, ali tlo ostalo.",
+        "incorrect_answers": [
+            "Primarna uključuje samo biljke, sekundarna uključuje životinje",
+            "Primarna je brža od sekundarne",
+            "Primarna se događa u vodi, sekundarna na kopnu"
+        ],
+        "explanation": "Primarna sukcesija nastaje na potpuno novom, sterilnom staništu, dok sekundarna počinje na staništu gdje je prethodna zajednica uništena, ali je tlo očuvano.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2276",
+        "category": "znanost",
+        "question": "Koja je karakteristika materijala koja opisuje njegovu otpornost na trajne deformacije (tečenje) pod konstantnim opterećenjem pri povišenim temperaturama?",
+        "correct_answer": "Puzanje (Creep)",
+        "incorrect_answers": [
+            "Zamor materijala",
+            "Krhkost",
+            "Žilavost"
+        ],
+        "explanation": "Puzanje je postupna, trajna deformacija materijala pod stalnim opterećenjem tijekom vremena, obično pri visokim temperaturama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
