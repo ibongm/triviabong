@@ -24737,5 +24737,455 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1926",
+        "category": "geografija",
+        "question": "Koja država zauzima cijeli kontinent?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Kanada",
+            "Brazil",
+            "Kina"
+        ],
+        "explanation": "Australija je jedina država na svijetu koja pokriva cijeli kontinent, uključujući i Tasmaniju te mnoge manje otoke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1927",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji povezuje Atlantski ocean i Sjeverno more?",
+        "correct_answer": "Engleski kanal (La Manche)",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Bospor",
+            "Sueski kanal"
+        ],
+        "explanation": "Engleski kanal je uski morski prolaz koji odvaja Veliku Britaniju od sjeverne Francuske i povezuje Atlantski ocean sa Sjevernim morem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1928",
+        "category": "geografija",
+        "question": "Koja je najsjevernija prijestolnica na svijetu?",
+        "correct_answer": "Reykjavik",
+        "incorrect_answers": [
+            "Oslo",
+            "Helsinki",
+            "Nuuk"
+        ],
+        "explanation": "Reykjavik, glavni grad Islanda, smatra se najsjevernijom prijestolnicom suverene države na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1929",
+        "category": "geografija",
+        "question": "Kako se naziva planinski lanac koji prolazi kroz Južnu Ameriku duž zapadne obale?",
+        "correct_answer": "Andi",
+        "incorrect_answers": [
+            "Stjenjak",
+            "Alpe",
+            "Himalaja"
+        ],
+        "explanation": "Andi su najduži kontinentalni planinski lanac na svijetu, koji se proteže kroz sedam južnoameričkih zemalja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1930",
+        "category": "geografija",
+        "question": "Kako se naziva poluotok na kojem se nalaze Španjolska i Portugal?",
+        "correct_answer": "Pirenejski poluotok",
+        "incorrect_answers": [
+            "Apeninski poluotok",
+            "Balkanski poluotok",
+            "Skandinavski poluotok"
+        ],
+        "explanation": "Pirenejski poluotok, smješten na jugozapadu Europe, obuhvaća veći dio Španjolske i Portugala te maleni dio Francuske i Andore.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1931",
+        "category": "geografija",
+        "question": "Koja rijeka tvori prirodnu granicu između SAD-a i Meksika na značajnom dijelu?",
+        "correct_answer": "Rio Grande",
+        "incorrect_answers": [
+            "Kolorado",
+            "Misisipi",
+            "Missouri"
+        ],
+        "explanation": "Rio Grande je rijeka koja služi kao prirodna granica između Sjedinjenih Američkih Država i Meksika, duga oko 3034 km.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1932",
+        "category": "geografija",
+        "question": "Kako se naziva fenomen kada se ledenjaci povlače i ostavljaju za sobom karakteristične u-oblike doline?",
+        "correct_answer": "Glacijalna erozija",
+        "incorrect_answers": [
+            "Vjetrena erozija",
+            "Fluvižalna erozija",
+            "Vulkanizam"
+        ],
+        "explanation": "Glacijalna erozija je proces oblikovanja krajolika djelovanjem ledenjaka, a karakterizira je stvaranje u-obličnih dolina i fjordova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1933",
+        "category": "geografija",
+        "question": "Koji je najveći otok na Mediteranu?",
+        "correct_answer": "Sicilija",
+        "incorrect_answers": [
+            "Kreta",
+            "Cipar",
+            "Sardinija"
+        ],
+        "explanation": "Sicilija je najveći otok u Sredozemnom moru i jedna od dvadeset regija Italije, smještena južno od Apeninskog poluotoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1934",
+        "category": "geografija",
+        "question": "Koja je najniža država na svijetu po prosječnoj nadmorskoj visini?",
+        "correct_answer": "Maldivi",
+        "incorrect_answers": [
+            "Nizozemska",
+            "Bangladeš",
+            "Katar"
+        ],
+        "explanation": "Maldivi, otočna država u Indijskom oceanu, imaju najnižu prosječnu nadmorsku visinu na svijetu, što ih čini iznimno ranjivima na porast razine mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1935",
+        "category": "geografija",
+        "question": "Kako se naziva oblik obale s brojnim stjenovitim otocima i otočićima koji su ostatak potopljenog planinskog reljefa?",
+        "correct_answer": "Dalmatinski tip obale (skerski tip)",
+        "incorrect_answers": [
+            "Fjordovski tip obale",
+            "Rias tip obale",
+            "Deltast tip obale"
+        ],
+        "explanation": "Dalmatinski tip obale karakteriziraju brojni uzdužni otoci koji prate smjer pružanja obale, što je rezultat potapanja reljefa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1936",
+        "category": "geografija",
+        "question": "Kako se naziva tropska šuma u Južnoj Americi koja je najveća na svijetu?",
+        "correct_answer": "Amazonska prašuma",
+        "incorrect_answers": [
+            "Kongovska prašuma",
+            "Borneovska prašuma",
+            "Atlantska šuma"
+        ],
+        "explanation": "Amazonska prašuma, najveća tropska prašuma na svijetu, pokriva velik dio Južne Amerike, a poznata je po svojoj bioraznolikosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1937",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj aktivnih vulkana?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Japan",
+            "Sjedinjene Američke Države",
+            "Čile"
+        ],
+        "explanation": "Indonezija je dom za najveći broj aktivnih vulkana na svijetu (preko 130), zbog svog položaja na 'Pacifičkom vatrenom prstenu'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1938",
+        "category": "geografija",
+        "question": "Koji kontinent nema niti jednu državu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Afrika",
+            "Južna Amerika"
+        ],
+        "explanation": "Antarktika je jedini kontinent na svijetu koji nema stalno nastanjenog autohtonog stanovništva niti priznatih suverenih država.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1939",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Australije?",
+        "correct_answer": "Mount Kosciuszko",
+        "incorrect_answers": [
+            "Mount Cook",
+            "Uluru",
+            "Mount Everest"
+        ],
+        "explanation": "Mount Kosciuszko je najviši vrh kopnenog dijela Australije, smješten u Novom Južnom Walesu u Velikim razdjelnim planinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1940",
+        "category": "geografija",
+        "question": "Kako se naziva obalni proces gdje se pijesak i sedimenti premještaju duž obale djelovanjem valova i struja?",
+        "correct_answer": "Longshore drift (obalni nanosi)",
+        "incorrect_answers": [
+            "Abrazija",
+            "Akumulacija",
+            "Erozija"
+        ],
+        "explanation": "Obalni nanosi (longshore drift) su proces transporta sedimenta duž obale paralelno s obalom, uzrokovan valovima i morskim strujama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1941",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija na svijetu po volumenu?",
+        "correct_answer": "Jezero Volta",
+        "incorrect_answers": [
+            "Jezero Mead",
+            "Jezero Nasser",
+            "Tri klisure"
+        ],
+        "explanation": "Jezero Volta u Gani je najveće umjetno jezero na svijetu po volumenu vode, nastalo izgradnjom brane Akosombo na rijeci Volti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1942",
+        "category": "geografija",
+        "question": "Koji je najduži kanjon na svijetu?",
+        "correct_answer": "Veliki kanjon (Grand Canyon)",
+        "incorrect_answers": [
+            "Fudži kanjon",
+            "Tara kanjon",
+            "Kolorado kanjon"
+        ],
+        "explanation": "Veliki kanjon, smješten u Arizoni u SAD-u, najduži je i jedan od najimpresivnijih kanjona na svijetu, isklesan rijekom Colorado.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1943",
+        "category": "geografija",
+        "question": "Koja je jedina država na svijetu koja se proteže kroz jedanaest vremenskih zona?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Kanada"
+        ],
+        "explanation": "Rusija, najveća država na svijetu po površini, obuhvaća jedanaest vremenskih zona, od Kalinjingrada do Kamčatke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1944",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se slojevi stijena lome i pomiču duž pukotina u Zemljinoj kori?",
+        "correct_answer": "Rasjed",
+        "incorrect_answers": [
+            "Nabor",
+            "Sinklinala",
+            "Antiklinala"
+        ],
+        "explanation": "Rasjed je pukotina ili zona pukotina u stijenama Zemljine kore duž koje je došlo do relativnog pomaka dvaju blokova stijena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1945",
+        "category": "geografija",
+        "question": "Koja je najveća ravnica u Europi?",
+        "correct_answer": "Istočnoeuropska ravnica",
+        "incorrect_answers": [
+            "Panonska nizina",
+            "Sjevernonjemačka nizina",
+            "Francuska nizina"
+        ],
+        "explanation": "Istočnoeuropska ravnica je najveća ravnica u Europi, koja se proteže od Baltičkog mora do Urala i obuhvaća velik dio Rusije i okolnih zemalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1946",
+        "category": "geografija",
+        "question": "Koja je rijeka najduža u Jugoistočnoj Aziji?",
+        "correct_answer": "Mekong",
+        "incorrect_answers": [
+            "Jangce",
+            "Irrawaddy",
+            "Chao Phraya"
+        ],
+        "explanation": "Mekong je jedna od najvećih rijeka u Jugoistočnoj Aziji, koja protječe kroz šest zemalja i važna je za ekologiju i gospodarstvo regije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1947",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj otoka na svijetu?",
+        "correct_answer": "Švedska",
+        "incorrect_answers": [
+            "Indonezija",
+            "Norveška",
+            "Finska"
+        ],
+        "explanation": "Švedska, s impresivnih 221.800 otoka, ima najveći broj otoka od bilo koje države na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1948",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna formacija nastala otapanjem vapnenca, karakteristična za krška područja?",
+        "correct_answer": "Kraški reljef (krš)",
+        "incorrect_answers": [
+            "Vulkan",
+            "Glečer",
+            "Pustinja"
+        ],
+        "explanation": "Krški reljef nastaje otapanjem topljivih stijena, uglavnom vapnenca, pod utjecajem vode, stvarajući specifične oblike poput špilja i ponora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1949",
+        "category": "geografija",
+        "question": "Koji je najsjeverniji glavni grad države članice Europske unije?",
+        "correct_answer": "Helsinki",
+        "incorrect_answers": [
+            "Stockholm",
+            "Oslo",
+            "Kopenhagen"
+        ],
+        "explanation": "Helsinki, glavni grad Finske, najsjeverniji je glavni grad među zemljama članicama Europske unije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1950",
+        "category": "geografija",
+        "question": "Koja je država poznata po svojim fjordovima, dugačkim i uskim morskim zaljevima urezanim u planine?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Island",
+            "Kanada"
+        ],
+        "explanation": "Norveška je svjetski poznata po svojim brojnim i impresivnim fjordovima, nastalim djelovanjem ledenjaka tijekom ledenih doba.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1951",
+        "category": "geografija",
+        "question": "Koja je najviša planina Sjeverne Amerike?",
+        "correct_answer": "Denali (Mount McKinley)",
+        "incorrect_answers": [
+            "Mount Logan",
+            "Mount Rainier",
+            "Pikes Peak"
+        ],
+        "explanation": "Denali, poznat i kao Mount McKinley, najviši je vrh Sjeverne Amerike, smješten u Aljaski, SAD, s visinom od 6.190 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1952",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni proces kojim se tlo i stijene premještaju niz padinu pod utjecajem gravitacije?",
+        "correct_answer": "Masovna kretanja (klizišta)",
+        "incorrect_answers": [
+            "Erozija vjetra",
+            "Erozija vode",
+            "Kemijsko trošenje"
+        ],
+        "explanation": "Masovna kretanja, poput klizišta ili odrona, su prirodni procesi premještanja materijala niz padine pod utjecajem gravitacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1953",
+        "category": "geografija",
+        "question": "Koja je najveća rijeka koja se ulijeva u Jadransko more?",
+        "correct_answer": "Po",
+        "incorrect_answers": [
+            "Neretva",
+            "Drim",
+            "Adige"
+        ],
+        "explanation": "Rijeka Po je najduža rijeka u Italiji i najveća rijeka koja se ulijeva u Jadransko more, s velikim porječjem na sjeveru Italije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1954",
+        "category": "geografija",
+        "question": "Koja je najpoznatija gejzir na svijetu, smještena u Nacionalnom parku Yellowstone?",
+        "correct_answer": "Old Faithful",
+        "incorrect_answers": [
+            "Strokkur",
+            "Grand Prismatic Spring",
+            "Geysir"
+        ],
+        "explanation": "Old Faithful je jedan od najpoznatijih gejzira na svijetu, smješten u Nacionalnom parku Yellowstone, poznat po svojim predvidivim erupcijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1955",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija nastala izdizanjem magme u Zemljinoj kori, ali bez izbijanja na površinu, što rezultira kupolastim oblicima?",
+        "correct_answer": "Lakolit",
+        "incorrect_answers": [
+            "Batolit",
+            "Dajk",
+            "Sil"
+        ],
+        "explanation": "Lakolit je intruzivna magmatska formacija gdje magma prodire između slojeva stijena i podiže gornje slojeve u obliku kupole, ne dosežući površinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
