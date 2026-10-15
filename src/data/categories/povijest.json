@@ -29770,5 +29770,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2260",
+        "category": "povijest",
+        "question": "Tko je bila egipatska faraonka poznata po svojoj ljepoti i političkom utjecaju, koja je imala veze s Julijem Cezarom i Markom Antonijem?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatšepsut",
+            "Ankhesenamun"
+        ],
+        "explanation": "Kleopatra VII. bila je posljednja aktivna faraonka Ptolomejske dinastije Egipta, poznata po političkoj vještini i vezama s Cezarom i Markom Antonijem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2261",
+        "category": "povijest",
+        "question": "Koji je rimski car proglasio kršćanstvo dopuštenom religijom Milanskim ediktom 313. godine n.e.?",
+        "correct_answer": "Konstantin I. Veliki",
+        "incorrect_answers": [
+            "Neron",
+            "Dioklecijan",
+            "August"
+        ],
+        "explanation": "Milanskim ediktom iz 313. godine Konstantin I. Veliki proglasio je vjersku toleranciju u Rimskom Carstvu, čime je kršćanstvo legalizirano.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2262",
+        "category": "povijest",
+        "question": "Što je bio simbolički početak Francuske revolucije 14. srpnja 1789. godine?",
+        "correct_answer": "Pad Bastille",
+        "incorrect_answers": [
+            "Zasjedanje Generalnih staleža",
+            "Deklaracija o pravima čovjeka i građanina",
+            "Pohod na Versailles"
+        ],
+        "explanation": "Pad Bastille, zatvora i simbola kraljevske moći, 14. srpnja 1789. godine, označio je početak Francuske revolucije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2263",
+        "category": "povijest",
+        "question": "Koji se vojskovođa i car smatra jednim od najvećih stratega u povijesti, poražen kod Waterlooa?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Aleksandar Veliki",
+            "Julije Cezar",
+            "Hanibal Barka"
+        ],
+        "explanation": "Napoleon Bonaparte bio je francuski vojskovođa i car čiji su pohodi promijenili europsku kartu, a konačno je poražen u Bitki kod Waterlooa 1815. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2264",
+        "category": "povijest",
+        "question": "Kako se zove veliki zid izgrađen u Kini za obranu od invazija sa sjevera?",
+        "correct_answer": "Kineski zid",
+        "incorrect_answers": [
+            "Veliki svileni zid",
+            "Mandžurski zid",
+            "Zid Zmaja"
+        ],
+        "explanation": "Kineski zid je sustav fortifikacija izgrađen i obnavljan kroz stoljeća za zaštitu kineskih carstava od napada nomadskih plemena sa sjevera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2265",
+        "category": "povijest",
+        "question": "Koja je katastrofalna pandemija poharala Europu u 14. stoljeću, ubivši milijune ljudi?",
+        "correct_answer": "Crna smrt / Kuga",
+        "incorrect_answers": [
+            "Španjolska gripa",
+            "Velike boginje",
+            "Kolera"
+        ],
+        "explanation": "Crna smrt, pandemija bubonske kuge, harala je Europom sredinom 14. stoljeća, uzrokujući ogromne demografske i društvene promjene.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2266",
+        "category": "povijest",
+        "question": "Koji je slavni talijanski slikar renesanse naslikao 'Mona Lisu' i 'Posljednju večeru'?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael Santi",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci bio je polimat renesanse, umjetnik i znanstvenik, poznat po svojim remek-djelima poput 'Mona Lise' i 'Posljednje večere'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2267",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik pokrenuo reformaciju objavivši svojih 95 teza 1517. godine?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jan Hus",
+            "Jean Calvin",
+            "Ulrich Zwingli"
+        ],
+        "explanation": "Martin Luther objavio je svojih 95 teza 1517. godine, kritizirajući praksu indulgencija i potičući time Protestantnu reformaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2268",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik proglasio Emancipacijsku proklamaciju kojom je ukinuto ropstvo u pobunjenim državama tijekom Građanskog rata?",
+        "correct_answer": "Abraham Lincoln",
+        "incorrect_answers": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Andrew Johnson"
+        ],
+        "explanation": "Abraham Lincoln izdao je Emancipacijsku proklamaciju 1863. godine, što je bio ključni korak prema potpunom ukidanju ropstva u SAD-u.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2269",
+        "category": "povijest",
+        "question": "Koji se rat vodio u Sjevernoj Americi od 1754. do 1763. godine između Velike Britanije i Francuske, s Indijancima kao saveznicima obiju strana?",
+        "correct_answer": "Sedmogodišnji rat (Francusko-indijanski rat)",
+        "incorrect_answers": [
+            "Američki rat za neovisnost",
+            "Rat ruža",
+            "Tridesetogodišnji rat"
+        ],
+        "explanation": "Sedmogodišnji rat bio je globalni sukob, a njegov sjevernoamerički front poznat je kao Francusko-indijanski rat, ključan za kontrolu nad Sjevernom Amerikom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2270",
+        "category": "povijest",
+        "question": "Koji je hrvatski grad bio neovisna republika kroz veći dio srednjeg i ranog novog vijeka, poznat po svojoj diplomaciji i trgovini?",
+        "correct_answer": "Dubrovačka Republika",
+        "incorrect_answers": [
+            "Splitska Komuna",
+            "Zadarska Općina",
+            "Senjska Kapetanija"
+        ],
+        "explanation": "Dubrovačka Republika bila je pomorska trgovačka država, poznata po svojoj neutralnosti, diplomaciji i uspješnoj trgovini kroz stoljeća.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2271",
+        "category": "povijest",
+        "question": "Koje je starogrčko grad-država bilo poznato po svojoj vojnoj moći i strogom načinu života?",
+        "correct_answer": "Sparta",
+        "incorrect_answers": [
+            "Atena",
+            "Korint",
+            "Teba"
+        ],
+        "explanation": "Sparta je bila dominantno vojno orijentirana polis u staroj Grčkoj, poznata po rigidnom društvenom sustavu i ratničkoj kulturi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2272",
+        "category": "povijest",
+        "question": "Koji je rimski car vladao od 27. pr. Kr. do 14. n.e. i smatra se prvim rimskim carem, utemeljiteljem Rimskog Carstva?",
+        "correct_answer": "August",
+        "incorrect_answers": [
+            "Julije Cezar",
+            "Hadrijan",
+            "Trajan"
+        ],
+        "explanation": "August, rođen kao Gaj Oktavijan, bio je prvi rimski car koji je uspostavio Pax Romanu i konsolidirao carsku vlast nakon pada Republike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2273",
+        "category": "povijest",
+        "question": "Tko je bio vođa mongolskog Carstva u 13. stoljeću, poznat po osvajanju velikih dijelova Azije i Europe?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Atila",
+            "Timur Lenk",
+            "Kublaj-kan"
+        ],
+        "explanation": "Džingis-kan ujedinio je mongolska plemena i stvorio najveće kopneno carstvo u povijesti, protežući se od Azije do Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2274",
+        "category": "povijest",
+        "question": "Koje je razdoblje u povijesti Japana (od 1603. do 1868.) obilježeno izolacionističkom politikom i vladavinom šoguna?",
+        "correct_answer": "Razdoblje Edo",
+        "incorrect_answers": [
+            "Razdoblje Meiji",
+            "Razdoblje Heian",
+            "Razdoblje Kamakura"
+        ],
+        "explanation": "Razdoblje Edo, pod vlašću Tokugawa šogunata, obilježeno je mirom, stabilnošću i strogom izolacionističkom politikom Sakoku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2275",
+        "category": "povijest",
+        "question": "Koji je britanski kralj abdicirao 1936. godine kako bi se oženio Amerikankom Wallis Simpson?",
+        "correct_answer": "Edvard VIII.",
+        "incorrect_answers": [
+            "George V.",
+            "George VI.",
+            "Edvard VII."
+        ],
+        "explanation": "Edvard VIII. abdicirao je s britanskog prijestolja 1936. godine zbog ustavne krize uzrokovane njegovom namjerom da oženi Wallis Simpson.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2276",
+        "category": "povijest",
+        "question": "Koji je španjolski istraživač i konkvistador osvojio carstvo Inka u Južnoj Americi?",
+        "correct_answer": "Francisco Pizarro",
+        "incorrect_answers": [
+            "Hernán Cortés",
+            "Vasco Núñez de Balboa",
+            "Juan Ponce de León"
+        ],
+        "explanation": "Francisco Pizarro vodio je španjolsku ekspediciju koja je 1532. godine osvojila veliko carstvo Inka u današnjem Peruu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2277",
+        "category": "povijest",
+        "question": "Koja je bila glavna posljedica Berlinskog kongresa 1878. godine za države na Balkanu?",
+        "correct_answer": "Neovisnost Srbije, Crne Gore, Rumunjske i autonomija Bugarske",
+        "incorrect_answers": [
+            "Stvaranje Velike Bugarske",
+            "Podjela Bosne i Hercegovine između Srbije i Hrvatske",
+            "Osnivanje Balkanskog saveza"
+        ],
+        "explanation": "Berlinski kongres 1878. godine revidirao je Sanstefanski mir i priznao neovisnost nekih balkanskih država te autonomiju Bugarske pod osmanskom vlašću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2278",
+        "category": "povijest",
+        "question": "Koje se godine dogodio masakr na Trgu Tiananmen u Pekingu, kada je kineska vojska potisnula studentske prosvjede?",
+        "correct_answer": "1989.",
+        "incorrect_answers": [
+            "1978.",
+            "1997.",
+            "2001."
+        ],
+        "explanation": "Masakr na Trgu Tiananmen dogodio se 4. lipnja 1989. godine, kada je kineska vojska silom prekinula studentske prosvjede za demokraciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2279",
+        "category": "povijest",
+        "question": "Tko je bio vođa Afričkog nacionalnog kongresa koji je postao prvi crni predsjednik Južne Afrike nakon apartheida?",
+        "correct_answer": "Nelson Mandela",
+        "incorrect_answers": [
+            "Desmond Tutu",
+            "Steve Biko",
+            "Thabo Mbeki"
+        ],
+        "explanation": "Nelson Mandela bio je ikona borbe protiv apartheida i prvi demokratski izabrani predsjednik Južne Afrike, simbol pomirenja i slobode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2280",
+        "category": "povijest",
+        "question": "Koji je povijesni dokument, izdan 1215. godine u Engleskoj, ograničio moć kralja i postavio temelje ustavnom pravu?",
+        "correct_answer": "Magna Carta",
+        "incorrect_answers": [
+            "Bill of Rights",
+            "Habeas Corpus Act",
+            "Act of Settlement"
+        ],
+        "explanation": "Magna Carta Libertatum, potpisana 1215. godine, ograničila je moć engleskog kralja i smatra se jednim od najvažnijih dokumenata u razvoju demokracije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2281",
+        "category": "povijest",
+        "question": "Koje je godine osnovana prva jugoslavenska država, Kraljevina Srba, Hrvata i Slovenaca?",
+        "correct_answer": "1918.",
+        "incorrect_answers": [
+            "1929.",
+            "1945.",
+            "1905."
+        ],
+        "explanation": "Kraljevina Srba, Hrvata i Slovenaca osnovana je 1. prosinca 1918. godine, nakon raspada Austro-Ugarske i završetka Prvog svjetskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2282",
+        "category": "povijest",
+        "question": "Koji se naziv koristi za razdoblje u povijesti SAD-a nakon Građanskog rata (1865.-1877.) kada su se pokušavali obnoviti južni dijelovi zemlje i integrirati bivši robovi?",
+        "correct_answer": "Rekonstrukcija",
+        "incorrect_answers": [
+            "Prosvjetiteljstvo",
+            "Velika depresija",
+            "Prohibicija"
+        ],
+        "explanation": "Razdoblje Rekonstrukcije u SAD-u nakon Građanskog rata bilo je usmjereno na obnovu Juga i rješavanje statusa oslobođenih robova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2283",
+        "category": "povijest",
+        "question": "Koji je njemački političar i kancelar bio ključan u ujedinjenju Njemačke u 19. stoljeću?",
+        "correct_answer": "Otto von Bismarck",
+        "incorrect_answers": [
+            "Kaiser Wilhelm II.",
+            "Helmuth von Moltke",
+            "Friedrich Wilhelm IV."
+        ],
+        "explanation": "Otto von Bismarck bio je 'željezni kancelar' koji je vojnim i diplomatskim putem ujedinio njemačke države u Njemačko Carstvo 1871. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2284",
+        "category": "povijest",
+        "question": "Koja je bila prva velika pomorska bitka Prvog svjetskog rata, odigrana 1916. godine?",
+        "correct_answer": "Bitka kod Jutlanda",
+        "incorrect_answers": [
+            "Bitka kod Gallipolija",
+            "Bitka kod Midwaya",
+            "Bitka za Atlantik"
+        ],
+        "explanation": "Bitka kod Jutlanda 1916. bila je najveća pomorska bitka Prvog svjetskog rata između britanske i njemačke mornarice u Sjevernom moru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2285",
+        "category": "povijest",
+        "question": "Koji je događaj 1956. godine doveo do sovjetske vojne intervencije u Mađarskoj?",
+        "correct_answer": "Mađarska revolucija",
+        "incorrect_answers": [
+            "Praško proljeće",
+            "Berlinska blokada",
+            "Kubanska kriza"
+        ],
+        "explanation": "Mađarska revolucija 1956. bio je narodni ustanak protiv sovjetske dominacije, koji je brutalno ugušen sovjetskom vojnom intervencijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2286",
+        "category": "povijest",
+        "question": "Koji je starogrčki filozof bio učitelj Platona i osuđen na smrt ispijanjem kukute?",
+        "correct_answer": "Sokrat",
+        "incorrect_answers": [
+            "Aristotel",
+            "Pitagora",
+            "Heraklit"
+        ],
+        "explanation": "Sokrat je bio atenski filozof čije je učenje imalo ogroman utjecaj, a osuđen je na smrt zbog 'kvarenja mladeži' i 'bezbožnosti'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2287",
+        "category": "povijest",
+        "question": "Tko je bila supruga bizantskog cara Justinijana I., poznata po svojem političkom utjecaju i borbi za prava žena?",
+        "correct_answer": "Teodora",
+        "incorrect_answers": [
+            "Eudokija",
+            "Pulherija",
+            "Irena"
+        ],
+        "explanation": "Carica Teodora bila je jedna od najutjecajnijih žena u bizantskoj povijesti, su-vladarica Justinijana I. i zagovornica ženskih prava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2288",
+        "category": "povijest",
+        "question": "Koja se bitka u Rimskom Carstvu 9. godine n.e. smatra jednim od najtežih poraza Rima, gdje su germanska plemena uništila tri legije?",
+        "correct_answer": "Bitka u Teutoburškoj šumi",
+        "incorrect_answers": [
+            "Bitka kod Kane",
+            "Bitka kod Farsala",
+            "Bitka kod Zame"
+        ],
+        "explanation": "U Bitki u Teutoburškoj šumi 9. godine n.e. germanska plemena pod Arminijem nanijela su katastrofalan poraz trima rimskim legijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2289",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i vođa Safavidske dinastije u Perziji, koja je uspostavila šiitski islam kao državnu religiju u 16. stoljeću?",
+        "correct_answer": "Ismail I.",
+        "incorrect_answers": [
+            "Abas I. Veliki",
+            "Nadir Šah",
+            "Sulejman Veličanstveni"
+        ],
+        "explanation": "Ismail I. utemeljio je Safavidsku dinastiju i proglasio šiitski islam službenom religijom Perzije, oblikujući njezin identitet.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2290",
+        "category": "povijest",
+        "question": "Koji je engleski kralj bio svrgnut 1399. godine i smatra se posljednjim Plantagenetom, spomenut u Shakespeareovoj drami?",
+        "correct_answer": "Rikard II.",
+        "incorrect_answers": [
+            "Henrik IV.",
+            "Edvard III.",
+            "Ivan Bez Zemlje"
+        ],
+        "explanation": "Rikard II. bio je posljednji engleski kralj izravne linije Plantageneta, svrgnut od strane Henrika Bolingbrokea (kasnije Henrika IV.) 1399. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2291",
+        "category": "povijest",
+        "question": "Koje se godine dogodio Ugovor iz Vestfalije, kojim je završen Tridesetogodišnji rat i uspostavljen sustav suverenih država?",
+        "correct_answer": "1648.",
+        "incorrect_answers": [
+            "1618.",
+            "1635.",
+            "1659."
+        ],
+        "explanation": "Vestfalski mir iz 1648. godine označio je kraj Tridesetogodišnjeg rata i uspostavio moderni sustav međunarodnih odnosa temeljen na suverenitetu država.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2292",
+        "category": "povijest",
+        "question": "Koja je francuska revolucionarka, autorica 'Deklaracije o pravima žene i građanke', giljotinirana 1793. godine?",
+        "correct_answer": "Olympe de Gouges",
+        "incorrect_answers": [
+            "Madame de Staël",
+            "Charlotte Corday",
+            "Théroigne de Méricourt"
+        ],
+        "explanation": "Olympe de Gouges bila je francuska revolucionarka i zagovornica ženskih prava, autorica 'Deklaracije o pravima žene i građanke', giljotinirana tijekom Terora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2293",
+        "category": "povijest",
+        "question": "Koji je car iz dinastije Ming naredio izgradnju Zabranjenog grada u Pekingu?",
+        "correct_answer": "Yongle",
+        "incorrect_answers": [
+            "Hongwu",
+            "Wanli",
+            "Jiajing"
+        ],
+        "explanation": "Car Yongle, treći car dinastije Ming, premjestio je prijestolnicu u Peking i započeo izgradnju grandioznog Zabranjenog grada u ranom 15. stoljeću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2294",
+        "category": "povijest",
+        "question": "Koje je godine Indija stekla neovisnost od britanske vlasti, istodobno s podjelom na Indiju i Pakistan?",
+        "correct_answer": "1947.",
+        "incorrect_answers": [
+            "1935.",
+            "1950.",
+            "1962."
+        ],
+        "explanation": "Indija je stekla neovisnost od Britanskog Raja 15. kolovoza 1947. godine, uz istovremenu podjelu na Indiju i Pakistan, što je rezultiralo masovnim migracijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2295",
+        "category": "povijest",
+        "question": "Tko je bio vođa sovjetske svemirske utrke i glavni projektant prvih Sputnika i Vostoka?",
+        "correct_answer": "Sergej Koroljov",
+        "incorrect_answers": [
+            "Konstantin Ciolkovski",
+            "Valentin Gluško",
+            "Mstislav Keldiš"
+        ],
+        "explanation": "Sergej Koroljov bio je vodeći sovjetski raketni inženjer i glavni dizajner koji je stajao iza ranih uspjeha sovjetskog svemirskog programa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2296",
+        "category": "povijest",
+        "question": "Koji je hrvatski knez vladao u 10. stoljeću i oslobodio Dalmaciju od Bizantske vlasti, proširivši hrvatsku državu do mora?",
+        "correct_answer": "Knez Branimir",
+        "incorrect_answers": [
+            "Knez Trpimir",
+            "Knez Muncimir",
+            "Knez Domagoj"
+        ],
+        "explanation": "Knez Branimir (879.-892.) uspio je osloboditi Dalmaciju od bizantske vlasti i učvrstio je neovisnost Hrvatske, dobivši papinsko priznanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_hist_2297",
+        "category": "povijest",
+        "question": "Tko je bio prvi predsjednik Njemačke (Weimarske Republike) nakon Prvog svjetskog rata?",
+        "correct_answer": "Friedrich Ebert",
+        "incorrect_answers": [
+            "Paul von Hindenburg",
+            "Gustav Stresemann",
+            "Erich Ludendorff"
+        ],
+        "explanation": "Friedrich Ebert bio je njemački socijaldemokratski političar koji je postao prvi predsjednik Weimarske Republike nakon abdikacije cara Wilhelma II. 1918. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
