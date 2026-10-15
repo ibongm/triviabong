@@ -31099,5 +31099,560 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2377",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu nogometnu momčad na terenu?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka nogometna momčad na terenu broji jedanaest igrača, uključujući vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2378",
+        "category": "sport",
+        "question": "Tko je najviše puta osvojio nagradu Zlatna lopta (Ballon d'Or) za najboljeg nogometaša svijeta (stanje 2024.)?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": [
+            "Cristiano Ronaldo",
+            "Pelé",
+            "Diego Maradona"
+        ],
+        "explanation": "Lionel Messi je rekorder s osam osvojenih Zlatnih lopti, priznanjem za najboljeg igrača na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2379",
+        "category": "sport",
+        "question": "Na kojoj se podlozi tradicionalno igra Grand Slam turnir Roland Garros?",
+        "correct_answer": "Zemljana podloga (crvena zemlja)",
+        "incorrect_answers": [
+            "Trava",
+            "Tvrda podloga",
+            "Tepih"
+        ],
+        "explanation": "Roland Garros je jedini od četiri Grand Slam turnira koji se igra na zemljanoj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2380",
+        "category": "sport",
+        "question": "Koliko bodova se dobiva za uspješno pogođeno slobodno bacanje u košarci?",
+        "correct_answer": "1",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "4"
+        ],
+        "explanation": "Slobodno bacanje je udarac izveden bez ometanja, donoseći jedan bod ako je uspješno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2381",
+        "category": "sport",
+        "question": "Koja boja dresa označava vođu u ukupnom poretku na biciklističkoj utrci Tour de France?",
+        "correct_answer": "Žuta (Maillot Jaune)",
+        "incorrect_answers": [
+            "Zelena",
+            "Bijela",
+            "Točkasta"
+        ],
+        "explanation": "Žuta majica, poznata kao Maillot Jaune, dodjeljuje se vozaču s najnižim ukupnim vremenom u utrci.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2382",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz rijeku u gumenim čamcima, često po brzacima?",
+        "correct_answer": "Rafting",
+        "incorrect_answers": [
+            "Kajakaštvo",
+            "Kanuing",
+            "Veslanje"
+        ],
+        "explanation": "Rafting je rekreativna aktivnost na otvorenim vodama koja koristi splav na napuhavanje za navigaciju rijekom ili drugim vodenim tijelima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2383",
+        "category": "sport",
+        "question": "Koliko traje jedno poluvrijeme standardne rukometne utakmice za odrasle?",
+        "correct_answer": "30 minuta",
+        "incorrect_answers": [
+            "20 minuta",
+            "25 minuta",
+            "45 minuta"
+        ],
+        "explanation": "Rukometna utakmica za odrasle igra se u dva poluvremena, svako po 30 minuta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2384",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se prevodi kao \"prazna ruka\"?",
+        "correct_answer": "Karate",
+        "incorrect_answers": [
+            "Judo",
+            "Taekwondo",
+            "Kung Fu"
+        ],
+        "explanation": "Naziv \"karate\" doslovno znači \"prazna ruka\" na japanskom, što se odnosi na borbu bez oružja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2385",
+        "category": "sport",
+        "question": "Koliko se maksimalno setova igra u finalu teniskog Grand Slam turnira za muškarce?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "6"
+        ],
+        "explanation": "Muški Grand Slam finali se igraju na tri dobivena seta, što znači da se može odigrati maksimalno pet setova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2386",
+        "category": "sport",
+        "question": "Koji se dio tijela prvenstveno koristi za snažne udarce u borilačkom sportu Taekwondo?",
+        "correct_answer": "Noga",
+        "incorrect_answers": [
+            "Ruka",
+            "Glava",
+            "Koljeno"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina koja je poznata po svojim dinamičnim udarcima nogama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2387",
+        "category": "sport",
+        "question": "Koji plivački stil karakterizira istovremeno pokretanje obje ruke i nogu, uz disanje cijelo vrijeme bez okretanja glave pod vodu?",
+        "correct_answer": "Prsno",
+        "incorrect_answers": [
+            "Slobodno (kraul)",
+            "Leđno",
+            "Delfin"
+        ],
+        "explanation": "Prsno plivanje omogućuje plivaču da drži glavu iznad vode ili da diše prema naprijed pri svakom zaveslaju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2388",
+        "category": "sport",
+        "question": "Koja je zemlja prva osvojila Svjetsko prvenstvo u nogometu?",
+        "correct_answer": "Urugvaj",
+        "incorrect_answers": [
+            "Brazil",
+            "Italija",
+            "Njemačka"
+        ],
+        "explanation": "Urugvaj je bio domaćin i pobjednik prvog Svjetskog prvenstva u nogometu 1930. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2389",
+        "category": "sport",
+        "question": "Koliko puta su Chicago Bullsi osvojili NBA prvenstvo s Michaelom Jordanom?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "4",
+            "5",
+            "7"
+        ],
+        "explanation": "Chicago Bullsi su pod vodstvom Michaela Jordana osvojili šest NBA naslova, po tri puta u dva 'three-peat' razdoblja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2390",
+        "category": "sport",
+        "question": "Tko je svjetski rekorder u skoku s motkom za muškarce (stanje 2024.)?",
+        "correct_answer": "Armand Duplantis",
+        "incorrect_answers": [
+            "Sergej Bubka",
+            "Renaud Lavillenie",
+            "Tim Lobinger"
+        ],
+        "explanation": "Šveđanin Armand Duplantis drži aktualni svjetski rekord u skoku s motkom, neprestano pomičući granice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2391",
+        "category": "sport",
+        "question": "Koji je sportski događaj poznat kao \"najbrže dvije minute u sportu\" zbog svoje kratkoće i intenziteta?",
+        "correct_answer": "Kentucky Derby",
+        "incorrect_answers": [
+            "Super Bowl",
+            "Olimpijske igre",
+            "Wimbledon finale"
+        ],
+        "explanation": "Kentucky Derby je poznata konjska utrka, često se opisuje kao \"najbrže dvije minute u sportu\" zbog svoje kratke i uzbudljive prirode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2392",
+        "category": "sport",
+        "question": "Koja je država najuspješnija u vaterpolu na Olimpijskim igrama u muškoj konkurenciji (po broju zlatnih medalja, stanje 2024.)?",
+        "correct_answer": "Mađarska",
+        "incorrect_answers": [
+            "Srbija",
+            "Italija",
+            "Hrvatska"
+        ],
+        "explanation": "Mađarska muška vaterpolo reprezentacija drži rekord po broju osvojenih zlatnih olimpijskih medalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2393",
+        "category": "sport",
+        "question": "Kako se naziva borilište prekriveno prostirkama, tipično za sportove poput juda ili hrvanja?",
+        "correct_answer": "Tatami",
+        "incorrect_answers": [
+            "Ring",
+            "Octagon",
+            "Mat"
+        ],
+        "explanation": "Tatami su tradicionalne japanske prostirke koje se koriste kao podloga za vježbanje i natjecanje u borilačkim vještinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2394",
+        "category": "sport",
+        "question": "Koliko traje jedna četvrtina košarkaške utakmice u NBA ligi?",
+        "correct_answer": "12 minuta",
+        "incorrect_answers": [
+            "8 minuta",
+            "10 minuta",
+            "15 minuta"
+        ],
+        "explanation": "U NBA ligi, svaka od četiri četvrtine utakmice traje po 12 minuta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2395",
+        "category": "sport",
+        "question": "Koliko rundi ima standardni profesionalni boksački meč za naslov svjetskog prvaka?",
+        "correct_answer": "12",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "10"
+        ],
+        "explanation": "Profesionalni boksački mečevi za naslov prvaka obično se sastoje od 12 rundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2396",
+        "category": "sport",
+        "question": "Koja je država najuspješnija u hokeju na ledu na Olimpijskim igrama u muškoj konkurenciji (po broju zlatnih medalja, stanje 2024.)?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Rusija (SSSR)",
+            "SAD",
+            "Švedska"
+        ],
+        "explanation": "Kanada je osvojila najviše zlatnih medalja u muškom hokeju na ledu na Zimskim olimpijskim igrama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2397",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u atletici gdje se natjecatelji natječu u deset različitih disciplina tijekom dva dana?",
+        "correct_answer": "Desetoboj (Decathlon)",
+        "incorrect_answers": [
+            "Sedmoboj",
+            "Petoboj",
+            "Troboj"
+        ],
+        "explanation": "Desetoboj je atletska disciplina koja uključuje natjecanje u deset različitih sportskih disciplina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2398",
+        "category": "sport",
+        "question": "Koliko 'strikeova' je potrebno da se igrač 'izbaci' (out) u baseballu?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "1",
+            "2",
+            "4"
+        ],
+        "explanation": "U baseballu, udarač je \"out\" ako skupi tri \"strikea\".",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2399",
+        "category": "sport",
+        "question": "Koja je glavna razlika između klasičnog i slobodnog stila hrvanja?",
+        "correct_answer": "Klasični stil dopušta zahvate samo iznad struka, dok slobodni stil dopušta zahvate po cijelom tijelu.",
+        "incorrect_answers": [
+            "Klasični se bori na nogama, slobodni na tlu",
+            "Klasični koristi oružje, slobodni ne",
+            "Klasični se bori u ringu, slobodni na tatamiju"
+        ],
+        "explanation": "Klasični stil strogo ograničava zahvate na gornji dio tijela i ne dopušta korištenje nogu za napad ili obranu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2400",
+        "category": "sport",
+        "question": "Koja tenisačica drži rekord s najviše pojedinačnih Grand Slam naslova u Open eri (stanje 2024.)?",
+        "correct_answer": "Serena Williams",
+        "incorrect_answers": [
+            "Margaret Court",
+            "Steffi Graf",
+            "Chris Evert"
+        ],
+        "explanation": "Serena Williams osvojila je 23 pojedinačna Grand Slam naslova, što je rekord u Open eri ženskog tenisa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2401",
+        "category": "sport",
+        "question": "Kako se naziva udarac u golfu kojim se loptica visoko diže iznad prepreke i kratko leti?",
+        "correct_answer": "Lob shot",
+        "incorrect_answers": [
+            "Putt",
+            "Chip",
+            "Drive"
+        ],
+        "explanation": "Lob shot je udarac u golfu koji se koristi za prebacivanje prepreka s kratkom udaljenošću leta i visokim lukom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2402",
+        "category": "sport",
+        "question": "Tko je vlasnik rekorda po broju asistencija u povijesti NBA lige (stanje 2024.)?",
+        "correct_answer": "John Stockton",
+        "incorrect_answers": [
+            "Magic Johnson",
+            "LeBron James",
+            "Jason Kidd"
+        ],
+        "explanation": "John Stockton drži rekord s impresivnih 15.806 asistencija tijekom svoje NBA karijere.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2403",
+        "category": "sport",
+        "question": "Koji je nogometni klub jedini osvojio Ligu prvaka (ili Kup prvaka) tri puta zaredom u formatu Lige prvaka (od 1992.) (stanje 2024.)?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "Barcelona",
+            "Bayern München",
+            "AC Milan"
+        ],
+        "explanation": "Real Madrid je jedini klub koji je osvojio tri uzastopna naslova Lige prvaka u modernom formatu (2016., 2017., 2018.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2404",
+        "category": "sport",
+        "question": "Koji je najduži profesionalni teniski meč u povijesti, mjeren vremenom trajanja?",
+        "correct_answer": "Isner-Mahut (Wimbledon 2010.)",
+        "incorrect_answers": [
+            "Đoković-Nadal (Australian Open 2012.)",
+            "Federerer-Nadal (Wimbledon 2008.)",
+            "Nadal-Federer (Rim 2006.)"
+        ],
+        "explanation": "Meč između Johna Isnera i Nicolasa Mahuta na Wimbledonu 2010. trajao je rekordnih 11 sati i 5 minuta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2405",
+        "category": "sport",
+        "question": "Tko je jedini sportaš bio istovremeno UFC prvak u dvije različite težinske kategorije?",
+        "correct_answer": "Conor McGregor",
+        "incorrect_answers": [
+            "Daniel Cormier",
+            "Amanda Nunes",
+            "Randy Couture"
+        ],
+        "explanation": "Conor McGregor postao je prvi UFC borac koji je istovremeno držao pojaseve u dvije različite težinske kategorije (perolakoj i lakoj).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2406",
+        "category": "sport",
+        "question": "Koji vozač Formule 1 drži rekord po broju uzastopnih pobjeda u jednoj sezoni (stanje 2024.)?",
+        "correct_answer": "Max Verstappen",
+        "incorrect_answers": [
+            "Sebastian Vettel",
+            "Michael Schumacher",
+            "Lewis Hamilton"
+        ],
+        "explanation": "Max Verstappen je 2023. godine postavio novi rekord s deset uzastopnih pobjeda u sezoni Formule 1.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2407",
+        "category": "sport",
+        "question": "Koliki je opseg rukometne lopte za muške ekipe prema IHF pravilima (u cm)?",
+        "correct_answer": "58-60 cm",
+        "incorrect_answers": [
+            "54-56 cm",
+            "62-64 cm",
+            "60-62 cm"
+        ],
+        "explanation": "Standardni opseg lopte za muški rukomet je 58 do 60 centimetara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2408",
+        "category": "sport",
+        "question": "Koji je sportski događaj poznat po tome što je ujedno i najstariji maraton na svijetu?",
+        "correct_answer": "Bostonski maraton",
+        "incorrect_answers": [
+            "Atenski maraton",
+            "Berlinski maraton",
+            "Londonski maraton"
+        ],
+        "explanation": "Bostonski maraton, prvi put održan 1897. godine, najstariji je godišnji maraton na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2409",
+        "category": "sport",
+        "question": "U kojoj državi je nastao moderni oblik badmintona, kakvog ga danas poznajemo?",
+        "correct_answer": "Engleska",
+        "incorrect_answers": [
+            "Indija",
+            "Kina",
+            "SAD"
+        ],
+        "explanation": "Iako su igre slične badmintonu postojale u Aziji, moderni badminton razvio se u Engleskoj sredinom 19. stoljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2410",
+        "category": "sport",
+        "question": "Koja je najviša točka od koje se skijaši spuštaju u legendarnom spustu \"Streif\" na Hahnenkammu u Kitzbühelu?",
+        "correct_answer": "Mausefalle (Mišolovka)",
+        "incorrect_answers": [
+            "Hausbergkante",
+            "Steilhang",
+            "Zielsprung"
+        ],
+        "explanation": "Mausefalle (Mišolovka) je strmi startni dio staze Streif, poznat po izuzetno oštrom padu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2411",
+        "category": "sport",
+        "question": "Tko je nogometaš koji je postigao najbrži gol u povijesti FIFA Svjetskih prvenstava?",
+        "correct_answer": "Hakan Şükür",
+        "incorrect_answers": [
+            "Miroslav Klose",
+            "Ronaldo",
+            "Christian Eriksen"
+        ],
+        "explanation": "Hakan Şükür postigao je gol za Tursku protiv Južne Koreje nakon samo 11 sekundi na SP-u 2002.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2412",
+        "category": "sport",
+        "question": "Tko je jedini igrač u povijesti NBA lige koji je postigao 100 poena u jednoj utakmici?",
+        "correct_answer": "Wilt Chamberlain",
+        "incorrect_answers": [
+            "Kobe Bryant",
+            "Michael Jordan",
+            "LeBron James"
+        ],
+        "explanation": "Wilt Chamberlain drži rekord s 100 postignutih poena u utakmici protiv New York Knicksa 1962. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2413",
+        "category": "sport",
+        "question": "Koja zemlja je rodno mjesto modernog skijanja kao sporta?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švicarska",
+            "Austrija",
+            "Švedska"
+        ],
+        "explanation": "Norveška se često smatra kolijevkom modernog skijanja, gdje su se razvile prve skijaške tehnike i natjecanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
