@@ -29343,5 +29343,590 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2211",
+        "category": "knjizevnost",
+        "question": "Tko je autor kultnog romana 'Mali princ'?",
+        "correct_answer": "Antoine de Saint-Exupéry",
+        "incorrect_answers": [
+            "Albert Camus",
+            "Jules Verne",
+            "Victor Hugo"
+        ],
+        "explanation": "Francuski pisac i pilot najpoznatiji je po filozofskoj priči 'Mali princ', prevedenoj na preko 300 jezika, koja se smatra klasikom svjetske književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2212",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski renesansni umjetnik naslikao 'Mona Lisu'?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo Buonarroti",
+            "Raffaello Sanzio",
+            "Sandro Botticelli"
+        ],
+        "explanation": "'Mona Lisa' ili 'La Gioconda' je portret žene Leonarda da Vincija, remek-djelo visoke renesanse, izloženo u pariškom Louvreu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2213",
+        "category": "knjizevnost",
+        "question": "Koji je njemački kompozitor autor 'Ode radosti', završnog dijela svoje Devete simfonije?",
+        "correct_answer": "Ludwig van Beethoven",
+        "incorrect_answers": [
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach",
+            "Franz Schubert"
+        ],
+        "explanation": "Beethovenova Deveta simfonija, poznata po završnom zboru 'Ode radosti' na Schillerov tekst, jedno je od najvažnijih djela klasične glazbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2214",
+        "category": "knjizevnost",
+        "question": "Koji je arhitektonski stil poznat po masivnim zidovima, malim prozorima i poluokruglim lukovima, prevladavajući u Europi od 10. do 12. stoljeća?",
+        "correct_answer": "Romanika",
+        "incorrect_answers": [
+            "Gotika",
+            "Barok",
+            "Klasicizam"
+        ],
+        "explanation": "Romanika je dominirajući arhitektonski stil prije gotike, karakteriziran čvrstoćom i jednostavnošću u gradnji crkava i samostana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2215",
+        "category": "knjizevnost",
+        "question": "Tko je autor epske poeme 'Osman'?",
+        "correct_answer": "Ivan Gundulić",
+        "incorrect_answers": [
+            "Marko Marulić",
+            "Petar Zoranić",
+            "Marin Držić"
+        ],
+        "explanation": "'Osman' je povijesni ep baroknog pjesnika Ivana Gundulića, jedno od najvažnijih djela hrvatske književnosti 17. stoljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2216",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski slikar poznat po slici 'Postojanost pamćenja' (Topljenje satova)?",
+        "correct_answer": "Salvador Dalí",
+        "incorrect_answers": [
+            "Pablo Picasso",
+            "Francisco Goya",
+            "Joan Miró"
+        ],
+        "explanation": "Salvador Dalí je bio istaknuti predstavnik nadrealizma, a 'Postojanost pamćenja' s motivima otopljenih satova je jedno od njegovih najprepoznatljivijih djela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2217",
+        "category": "knjizevnost",
+        "question": "Koji je američki pisac poznat po romanu 'Veliki Gatsby'?",
+        "correct_answer": "F. Scott Fitzgerald",
+        "incorrect_answers": [
+            "Ernest Hemingway",
+            "John Steinbeck",
+            "William Faulkner"
+        ],
+        "explanation": "'Veliki Gatsby' je klasični roman F. Scotta Fitzgeralda koji prikazuje 'Doba jazza' i propast američkog sna u 1920-ima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2218",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski slikar utemeljitelj grupe 'Zemlja'?",
+        "correct_answer": "Krsto Hegedušić",
+        "incorrect_answers": [
+            "Miroslav Kraljević",
+            "Vlaho Bukovac",
+            "Edo Murtić"
+        ],
+        "explanation": "Krsto Hegedušić bio je suosnivač i vodeća figura umjetničke grupe 'Zemlja', koja je promovirala socijalno angažiranu umjetnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2219",
+        "category": "knjizevnost",
+        "question": "Koji je irski pisac autor romana 'Uliks'?",
+        "correct_answer": "James Joyce",
+        "incorrect_answers": [
+            "Samuel Beckett",
+            "George Bernard Shaw",
+            "Oscar Wilde"
+        ],
+        "explanation": "'Uliks' je modernisticki roman Jamesa Joycea objavljen 1922. godine, poznat po kompleksnoj strukturi i tehnici struje svijesti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2220",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor poznat po operama 'Aida' i 'La Traviata'?",
+        "correct_answer": "Giuseppe Verdi",
+        "incorrect_answers": [
+            "Giacomo Puccini",
+            "Gioachino Rossini",
+            "Antonio Vivaldi"
+        ],
+        "explanation": "Giuseppe Verdi je jedan od najvažnijih opernih skladatelja 19. stoljeća, čije su opere, poput 'Aide', iznimno popularne i danas.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2221",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor drame 'Gospoda Glembajevi'?",
+        "correct_answer": "Miroslav Krleža",
+        "incorrect_answers": [
+            "Ranko Marinković",
+            "Tin Ujević",
+            "August Šenoa"
+        ],
+        "explanation": "'Gospoda Glembajevi' je jedna od najpoznatijih drama Miroslava Krleže, dio njegovog ciklusa o zagrebačkoj obitelji Glembaj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2222",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret s početka 20. stoljeća naglašavao geometrijske oblike, fasetirane forme i prikazivanje predmeta iz više perspektiva?",
+        "correct_answer": "Kubizam",
+        "incorrect_answers": [
+            "Fovizam",
+            "Nadrealizam",
+            "Futurizam"
+        ],
+        "explanation": "Kubizam su razvili Pablo Picasso i Georges Braque, revolucionirajući slikarstvo prikazivanjem predmeta na fragmentiran način iz više kutova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2223",
+        "category": "knjizevnost",
+        "question": "Koji je američki pisac dobio Pulitzerovu i Nobelovu nagradu za književnost, autor je romana 'Starac i more'?",
+        "correct_answer": "Ernest Hemingway",
+        "incorrect_answers": [
+            "F. Scott Fitzgerald",
+            "John Steinbeck",
+            "William Faulkner"
+        ],
+        "explanation": "Ernest Hemingway je bio značajan američki pisac, a 'Starac i more' je novela koja mu je donijela Pulitzerovu nagradu i pridonijela Nobelovoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2224",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni instrument poznat kao 'kraljica instrumenata' zbog svog opsega i zvukovnih mogućnosti, često se koristi u crkvama?",
+        "correct_answer": "Orgulje",
+        "incorrect_answers": [
+            "Klavir",
+            "Violina",
+            "Harfa"
+        ],
+        "explanation": "Orgulje su pneumatski aerofoni instrument s tipkama, cijenjen zbog bogatstva tona i monumentalnosti, posebno u crkvenoj glazbi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2225",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski pjesnik autor antiratne poeme 'Jama'?",
+        "correct_answer": "Ivan Goran Kovačić",
+        "incorrect_answers": [
+            "Tin Ujević",
+            "Dobriša Cesarić",
+            "Antun Gustav Matoš"
+        ],
+        "explanation": "'Jama' je jedna od najsnažnijih antiratnih poema u hrvatskoj književnosti, koja potresno prikazuje užase Drugog svjetskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2226",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret 17. i 18. stoljeća karakteriziran dramatičnošću, raskošjem, dinamikom i naglašenim emocijama?",
+        "correct_answer": "Barok",
+        "incorrect_answers": [
+            "Renesansa",
+            "Rokoko",
+            "Klasicizam"
+        ],
+        "explanation": "Barok je dominirao umjetnošću, arhitekturom i glazbom, s ciljem izazivanja snažnih osjećaja i veličanja moći vladara i Crkve.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2227",
+        "category": "knjizevnost",
+        "question": "Koji je grčki epski pjesnik, kojemu se pripisuju 'Ilijada' i 'Odiseja'?",
+        "correct_answer": "Homer",
+        "incorrect_answers": [
+            "Vergilije",
+            "Hesiod",
+            "Ezop"
+        ],
+        "explanation": "'Ilijada' i 'Odiseja' su dva temeljna djela europske književnosti, pripisana drevnom grčkom pjesniku Homeru, koja opisuju trojanski rat i Odisejeva putovanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2228",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski kipar autor skulpture 'Zdenac života' koja se nalazi ispred HNK u Zagrebu?",
+        "correct_answer": "Ivan Meštrović",
+        "incorrect_answers": [
+            "Antun Augustinčić",
+            "Vojin Bakić",
+            "Robert Frangeš-Mihanović"
+        ],
+        "explanation": "'Zdenac života' je jedno od najpoznatijih djela Ivana Meštrovića, simbol vječne mladosti i radosti življenja, postavljen 1905. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2229",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni žanr nastao u 19. stoljeću u SAD-u, karakteriziran tugaljivim melodijama i melankoličnim tekstovima, često s temama rada i nevolje?",
+        "correct_answer": "Blues",
+        "incorrect_answers": [
+            "Jazz",
+            "Gospel",
+            "Ragtime"
+        ],
+        "explanation": "Blues je glazbeni žanr koji se razvio iz afroameričkih spirituala i radnih pjesama, temelj mnogih modernih glazbenih žanrova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2230",
+        "category": "knjizevnost",
+        "question": "Koji je danski pisac poznat po bajkama poput 'Mala sirena', 'Ružno pače' i 'Snježna kraljica'?",
+        "correct_answer": "Hans Christian Andersen",
+        "incorrect_answers": [
+            "Braća Grimm",
+            "Charles Perrault",
+            "Lewis Carroll"
+        ],
+        "explanation": "Hans Christian Andersen je jedan od najpoznatijih svjetskih autora bajki, čija su djela prevedena na mnoge jezike i omiljena diljem svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2231",
+        "category": "knjizevnost",
+        "question": "Koji je njemački kompozitor iz baroknog razdoblja poznat po 'Brandeburškim koncertima' i 'Pasiji po Mateju'?",
+        "correct_answer": "Johann Sebastian Bach",
+        "incorrect_answers": [
+            "Georg Friedrich Händel",
+            "Antonio Vivaldi",
+            "Georg Philipp Telemann"
+        ],
+        "explanation": "Bach je bio istaknuti barokni skladatelj čija su djela, poput 'Brandeburških koncerata', vrhunac polifonije i harmonije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2232",
+        "category": "knjizevnost",
+        "question": "Koja je francuska književnica, dobitnica Nobelove nagrade, autorica romana 'Drugi spol', ključnog djela feminizma?",
+        "correct_answer": "Simone de Beauvoir",
+        "incorrect_answers": [
+            "Virginia Woolf",
+            "Agatha Christie",
+            "Marguerite Duras"
+        ],
+        "explanation": "'Drugi spol' Simone de Beauvoir je temeljno djelo feminističke teorije, analizirajući položaj žene kroz povijest i društvo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2233",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret u Rusiji početkom 20. stoljeća naglašavao geometrijske oblike, jednostavnost i funkcionalnost, s poznatim djelom 'Crni kvadrat'?",
+        "correct_answer": "Suprematizam",
+        "incorrect_answers": [
+            "Konstruktivizam",
+            "Futurizam",
+            "Kubizam"
+        ],
+        "explanation": "Suprematizam je utemeljio Kazimir Maljevič, težeći čistoj umjetnosti oslobođenoj od objektivne stvarnosti, često koristeći osnovne geometrijske oblike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2234",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Derviš i smrt'?",
+        "correct_answer": "Meša Selimović",
+        "incorrect_answers": [
+            "Ivo Andrić",
+            "Mak Dizdar",
+            "Aleksa Šantić"
+        ],
+        "explanation": "'Derviš i smrt' je filozofski roman Meše Selimovića koji propituje smisao života i postojanja pojedinca u represivnom sustavu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2235",
+        "category": "knjizevnost",
+        "question": "Koji je francuski impresionistički slikar poznat po seriji slika 'Lopoči'?",
+        "correct_answer": "Claude Monet",
+        "incorrect_answers": [
+            "Pierre-Auguste Renoir",
+            "Edgar Degas",
+            "Édouard Manet"
+        ],
+        "explanation": "Claude Monet je bio ključna figura impresionizma, a njegova serija slika 'Lopoči' istražuje promjene svjetla i boje na istom motivu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2236",
+        "category": "knjizevnost",
+        "question": "Koji je kompozitor autor opere 'Čarobna frula'?",
+        "correct_answer": "Wolfgang Amadeus Mozart",
+        "incorrect_answers": [
+            "Ludwig van Beethoven",
+            "Joseph Haydn",
+            "Franz Schubert"
+        ],
+        "explanation": "'Čarobna frula' je jedna od najpoznatijih opera Wolfganga Amadeusa Mozarta, kombinira elemente bajke i prosvjetiteljskih ideja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2237",
+        "category": "knjizevnost",
+        "question": "Koji je autor romana 'Sto godina samoće', predstavnik magičnog realizma i dobitnik Nobelove nagrade?",
+        "correct_answer": "Gabriel García Márquez",
+        "incorrect_answers": [
+            "Jorge Luis Borges",
+            "Julio Cortázar",
+            "Mario Vargas Llosa"
+        ],
+        "explanation": "'Sto godina samoće' je remek-djelo kolumbijskog pisca Gabriela Garcíe Márqueza, koje je definiralo književni pravac magičnog realizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2238",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski pjesnik autor zbirke 'Pjesme' i smatra se začetnikom modernog hrvatskog pjesništva?",
+        "correct_answer": "Antun Gustav Matoš",
+        "incorrect_answers": [
+            "Tin Ujević",
+            "Vladimir Nazor",
+            "Milan Begović"
+        ],
+        "explanation": "Antun Gustav Matoš je bio ključna figura hrvatske moderne, a njegovim se radom i zbirkom 'Pjesme' započinje novo razdoblje hrvatske poezije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2239",
+        "category": "knjizevnost",
+        "question": "Koja je američka spisateljica autorica romana 'Ubiti pticu rugalicu'?",
+        "correct_answer": "Harper Lee",
+        "incorrect_answers": [
+            "Flannery O'Connor",
+            "Eudora Welty",
+            "Carson McCullers"
+        ],
+        "explanation": "Roman Harper Lee 'Ubiti pticu rugalicu' je nagrađeno djelo koje se bavi rasnom nepravdom i odrastanjem u južnim državama SAD-a 1930-ih.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2240",
+        "category": "knjizevnost",
+        "question": "Koji je arhitektonski stil 15. i 16. stoljeća u Europi karakteriziran ponovnim oživljavanjem klasičnih elemenata i naglaskom na harmoniji i proporciji?",
+        "correct_answer": "Renesansa",
+        "incorrect_answers": [
+            "Barok",
+            "Gotika",
+            "Rokoko"
+        ],
+        "explanation": "Renesansna arhitektura, inspirirana antičkim uzorima, teži simetriji, proporcionalnosti i jednostavnosti, te se razvila u Italiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2241",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni instrument iz obitelji gudačkih instrumenata poznat po svojoj dubokoj boji zvuka i obično je najveći član obitelji violina?",
+        "correct_answer": "Kontrabas",
+        "incorrect_answers": [
+            "Violončelo",
+            "Viola",
+            "Violina"
+        ],
+        "explanation": "Kontrabas je najdublji i najveći gudački instrument, nezaobilazan u orkestrima, jazzu i drugim glazbenim žanrovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2242",
+        "category": "knjizevnost",
+        "question": "Koji je njemački književnik autor drame 'Faust'?",
+        "correct_answer": "Johann Wolfgang von Goethe",
+        "incorrect_answers": [
+            "Friedrich Schiller",
+            "Gotthold Ephraim Lessing",
+            "Bertolt Brecht"
+        ],
+        "explanation": "'Faust' je kapitalno djelo njemačke književnosti, koje je Goethe pisao više od šezdeset godina i koje istražuje vječne teme dobra i zla.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2243",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski slikar, majstor baroka, poznat po djelima poput 'Noćna straža'?",
+        "correct_answer": "Rembrandt van Rijn",
+        "incorrect_answers": [
+            "Johannes Vermeer",
+            "Jan van Eyck",
+            "Peter Paul Rubens"
+        ],
+        "explanation": "Rembrandt je jedan od najvećih slikara u povijesti europske umjetnosti, poznat po majstorskom korištenju svjetla i sjene u portretima i biblijskim scenama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2244",
+        "category": "knjizevnost",
+        "question": "Koji je književni rod, često u stihu, koji pripovijeda o junačkim djelima i važnim događajima za neku zajednicu ili narod?",
+        "correct_answer": "Ep",
+        "incorrect_answers": [
+            "Balada",
+            "Elegija",
+            "Sonet"
+        ],
+        "explanation": "Ep je dugačka pripovjedna pjesma koja opjevava herojska djela i važna zbivanja za narod ili čovječanstvo, poput 'Ilijade' ili 'Odiseje'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2245",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Mirisi, zlato i tamjan'?",
+        "correct_answer": "Slobodan Novak",
+        "incorrect_answers": [
+            "Petar Šegedin",
+            "Vesna Parun",
+            "Janko Polić Kamov"
+        ],
+        "explanation": "'Mirisi, zlato i tamjan' je roman Slobodana Novaka iz 1968. godine koji se bavi temama starosti, izolacije i propadanja vrijednosti na dalmatinskom otoku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2246",
+        "category": "knjizevnost",
+        "question": "Koji je grčki filozof, poznat po svojim dijalozima i teoriji ideja, učitelj Aristotela?",
+        "correct_answer": "Platon",
+        "incorrect_answers": [
+            "Sokrat",
+            "Aristotel",
+            "Heraklit"
+        ],
+        "explanation": "Platon, Sokratov učenik i Aristotelov učitelj, jedan je od najutjecajnijih mislilaca zapadne filozofije, poznat po djelu 'Država'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2247",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac, autor romana 'Jadnici', poznat po angažiranom prikazu društvenih problema?",
+        "correct_answer": "Victor Hugo",
+        "incorrect_answers": [
+            "Honoré de Balzac",
+            "Gustave Flaubert",
+            "Émile Zola"
+        ],
+        "explanation": "'Jadnici' je epski roman Victora Hugoa koji se bavi temama pravde, nepravde, iskupljenja i revolucije u 19. stoljeću, s prepoznatljivim likom Jean Valjeana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2248",
+        "category": "knjizevnost",
+        "question": "Koja se tehnika u slikarstvu koristi za stvaranje iluzije dubine i trodimenzionalnosti na ravnoj površini?",
+        "correct_answer": "Perspektiva",
+        "incorrect_answers": [
+            "Kontrast",
+            "Fovizam",
+            "Kolaž"
+        ],
+        "explanation": "Perspektiva je tehnika koja umjetnicima omogućuje da prikažu objekte kao da se nalaze u prostoru na različitim udaljenostima, koristeći optičke iluzije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_art_2249",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski filmski redatelj režirao kultni film 'Tko pjeva zlo ne misli'?",
+        "correct_answer": "Krešo Golik",
+        "incorrect_answers": [
+            "Rajko Grlić",
+            "Antun Vrdoljak",
+            "Goran Rušinović"
+        ],
+        "explanation": "'Tko pjeva zlo ne misli' je kultni hrvatski film Kreše Golika iz 1970. godine, poznat po humoru i autentičnom prikazu zagrebačkog građanskog života.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-15"
     }
 ]
