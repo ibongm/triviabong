@@ -30445,5 +30445,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je fizičar formulirao tri zakona gibanja i zakon univerzalne gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Newtonovi zakoni gibanja opisuju odnos između tijela i sila koje na njega djeluju, a zakon gravitacije objašnjava privlačnost masa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica električnog naboja, nosi je elektron?",
+        "correct_answer": "Kulon (Coulomb)",
+        "incorrect_answers": [
+            "Amper",
+            "Volt",
+            "Om"
+        ],
+        "explanation": "Kulon (C) je SI jedinica za električni naboj. Jedan kulon je približno jednak naboju 6.242 × 10^18 elektrona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se svjetlost rasprši u različite boje prolazeći kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Interferencija",
+            "Refleksija"
+        ],
+        "explanation": "Disperzija je pojava razlaganja bijele svjetlosti na sastavne boje zbog ovisnosti indeksa loma o valnoj duljini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja se vrsta valova koristi u mikrovalnim pećnicama za zagrijavanje hrane?",
+        "correct_answer": "Mikrovalovi",
+        "incorrect_answers": [
+            "Radio valovi",
+            "Infracrveni valovi",
+            "Ultraljubičasti valovi"
+        ],
+        "explanation": "Mikrovalovi su oblik elektromagnetskog zračenja koje pobuđuje molekule vode u hrani, uzrokujući njihovo vibriranje i zagrijavanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji se tip leće koristi za korekciju kratkovidnosti (miopije)?",
+        "correct_answer": "Konkavna leća",
+        "incorrect_answers": [
+            "Konveksna leća",
+            "Cilindrična leća",
+            "Bifokalna leća"
+        ],
+        "explanation": "Konkavna leća raspršuje svjetlost prije nego što uđe u oko, pomičući žarište slike natrag na mrežnicu kod kratkovidnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je znanstvena grana koja proučava gibanje, energiju, silu i prostor-vrijeme?",
+        "correct_answer": "Fizika",
+        "incorrect_answers": [
+            "Kemija",
+            "Biologija",
+            "Geologija"
+        ],
+        "explanation": "Fizika je temeljna prirodna znanost koja proučava materiju, energiju i njihovu interakciju u prostoru i vremenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje prijenosom elektrona između atoma?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje kada jedan atom potpuno preda elektrone drugome, stvarajući ione suprotnog naboja koji se privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je kiselina prisutna u želučanom soku i pomaže u probavi hrane?",
+        "correct_answer": "Klorovodična kiselina",
+        "incorrect_answers": [
+            "Sumporna kiselina",
+            "Octena kiselina",
+            "Limunska kiselina"
+        ],
+        "explanation": "Klorovodična kiselina (HCl) stvara kiselo okruženje u želucu, što je nužno za aktivaciju enzima i denaturaciju proteina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za količinu tvari?",
+        "correct_answer": "Mol",
+        "incorrect_answers": [
+            "Gram",
+            "Litra",
+            "Kilogram"
+        ],
+        "explanation": "Mol je jedinica koja se koristi za izražavanje količine tvari i sadrži Avogadrov broj čestica (atoma, molekula, iona).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji element periodnog sustava ima atomski broj 6?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Atomski broj predstavlja broj protona u jezgri atoma. Ugljik (C) ima 6 protona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje reakcija koje oslobađaju toplinu u okolinu?",
+        "correct_answer": "Egzotermne reakcije",
+        "incorrect_answers": [
+            "Endotermne reakcije",
+            "Izotermne reakcije",
+            "Katalitičke reakcije"
+        ],
+        "explanation": "Egzotermne reakcije su kemijske reakcije koje oslobađaju energiju, obično u obliku topline ili svjetlosti, u okolinu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja stanična organela služi kao 'paketni centar' za proteine i lipide, modificirajući ih i sortirajući za transport?",
+        "correct_answer": "Golgijev aparat",
+        "incorrect_answers": [
+            "Endoplazmatski retikulum",
+            "Lizosom",
+            "Vakuola"
+        ],
+        "explanation": "Golgijev aparat prima, modificira, pakira i distribuira proteine i lipide sintetizirane u endoplazmatskom retikulumu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji tip organizama nema jezgru niti druge organele vezane membranom?",
+        "correct_answer": "Prokarioti",
+        "incorrect_answers": [
+            "Eukarioti",
+            "Gljive",
+            "Biljke"
+        ],
+        "explanation": "Prokarioti su jednostanični organizmi (npr. bakterije) čije stanice nemaju membranski omeđenu jezgru ni druge organele.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke transpiracijom gube vodu kroz male pore na lišću?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Gutacija"
+        ],
+        "explanation": "Transpiracija je isparavanje vode iz biljaka, uglavnom kroz puči (stome) na listovima, što pomaže u transportu vode i hranjivih tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcionalna jedinica nasljeđivanja u organizmu?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "DNA",
+            "Protein"
+        ],
+        "explanation": "Gen je segment DNA koji sadrži upute za sintezu proteina ili RNA molekule, čime određuje specifičnu osobinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja vlastite hrane kod organizama, obično pomoću sunčeve svjetlosti ili kemijskih reakcija?",
+        "correct_answer": "Autotrofija",
+        "incorrect_answers": [
+            "Heterotrofija",
+            "Kemotrofija",
+            "Fotosinteza"
+        ],
+        "explanation": "Autotrofni organizmi (npr. biljke) sami proizvode organske spojeve iz anorganskih tvari, najčešće fotosintezom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja je krvna grupa univerzalni davatelj u ABO sustavu?",
+        "correct_answer": "0 Rh-negativna",
+        "incorrect_answers": [
+            "A Rh-pozitivna",
+            "B Rh-negativna",
+            "AB Rh-pozitivna"
+        ],
+        "explanation": "Krvna grupa 0 Rh-negativna nema A, B niti Rh antigene na eritrocitima, pa je univerzalni davatelj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je planet Sunčevog sustava poznat po svojim prstenovima sastavljenim uglavnom od leda i prašine?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je šesti planet od Sunca i drugi po veličini, a najpoznatiji je po svom impresivnom sustavu prstenova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje točke u orbiti nekog tijela (npr. planeta) oko Sunca kada je ono najdalje od Sunca?",
+        "correct_answer": "Afel",
+        "incorrect_answers": [
+            "Perihel",
+            "Apogej",
+            "Perigej"
+        ],
+        "explanation": "Afel je točka u eliptičnoj putanji nebeskog tijela oko Sunca u kojoj je to tijelo najudaljenije od Sunca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja poznata vrsta zvijezde, koja je krajnji stadij evolucije zvijezda poput našeg Sunca?",
+        "correct_answer": "Bijeli patuljak",
+        "incorrect_answers": [
+            "Crni patuljak",
+            "Smeđi patuljak",
+            "Neutronka zvijezda"
+        ],
+        "explanation": "Bijeli patuljak je zvjezdani ostatak koji se formira nakon što zvijezda srednje mase potroši svoje nuklearno gorivo i odbaci vanjske slojeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji je najveći mjesec u Sunčevom sustavu, koji kruži oko Jupitera?",
+        "correct_answer": "Ganimed",
+        "incorrect_answers": [
+            "Titan",
+            "Kalisto",
+            "Europa"
+        ],
+        "explanation": "Ganimed je najveći Jupiterov mjesec i ujedno najveći mjesec u cijelom Sunčevom sustavu, veći čak i od planeta Merkura.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se naziva teorija o nastanku Svemira iz izuzetno vruće i guste točke prije oko 13.8 milijardi godina?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija pulsirajućeg Svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji objašnjava rani razvoj Svemira od njegovog početka do danas.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji je astronom u 16. stoljeću razvio heliocentrični model Sunčevog sustava, smještajući Sunce, a ne Zemlju, u njegovo središte?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Tycho Brahe"
+        ],
+        "explanation": "Nikola Kopernik je bio poljski astronom koji je u 16. stoljeću predstavio model Suncu u centru, što je bio temelj znanstvene revolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je temeljni binarni brojčani sustav koji koriste računala?",
+        "correct_answer": "Binarni sustav",
+        "incorrect_answers": [
+            "Dekadski sustav",
+            "Heksadekadski sustav",
+            "Oktalni sustav"
+        ],
+        "explanation": "Binarni sustav koristi samo dvije znamenke (0 i 1) i osnova je za digitalno predstavljanje podataka u računalima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se naziva softver koji se infiltrira u računalni sustav radi oštećenja, krađe podataka ili preuzimanja kontrole?",
+        "correct_answer": "Zlonamjerni softver (malware)",
+        "incorrect_answers": [
+            "Firmware",
+            "Middleware",
+            "Shareware"
+        ],
+        "explanation": "Zlonamjerni softver je krovni pojam za viruse, trojance, spyware i druge programe stvorene za štetne aktivnosti na računalima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koju vrstu memorije računalo koristi za privremeno pohranjivanje podataka koji su aktivno u upotrebi, omogućavajući brz pristup?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "ROM (Read-Only Memory)",
+            "HDD (Hard Disk Drive)",
+            "SSD (Solid State Drive)"
+        ],
+        "explanation": "RAM je hlapljiva memorija koja omogućuje brzi pristup podacima koje procesor trenutno koristi, ali gubi sadržaj kad se računalo isključi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je programski jezik poznat po sintaksi sličnoj engleskom jeziku i širokoj primjeni u web razvoju, strojnom učenju i automatizaciji?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "JavaScript"
+        ],
+        "explanation": "Python je popularan programski jezik visoke razine, poznat po svojoj čitljivosti i svestranosti u mnogim područjima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji protokol osigurava sigurnu komunikaciju preko računalne mreže, najčešće korišten za pregledavanje interneta (HTTPS)?",
+        "correct_answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security)",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "SSL/TLS su kriptografski protokoli koji osiguravaju sigurnu komunikaciju, autentičnost i integritet podataka preko interneta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje virtualizaciju hardverskih resursa i pokretanje više operativnih sustava na jednom fizičkom stroju?",
+        "correct_answer": "Virtualizacija",
+        "incorrect_answers": [
+            "Kontejnerizacija",
+            "Emulacija",
+            "Simuliacija"
+        ],
+        "explanation": "Virtualizacija stvara virtualne verzije nečega (npr. servera, operativnih sustava) na jednom fizičkom stroju, optimizirajući resurse.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koja je znanstvena disciplina koja proučava odnos između živih organizama i njihove okoline?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Geologija",
+            "Meteorologija",
+            "Oceanografija"
+        ],
+        "explanation": "Ekologija je grana biologije koja istražuje kako organizmi međusobno djeluju i kako su povezani s fizičkim okolišem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je element ključan za rad nuklearnih elektrana zbog svoje fisibilnosti (sposobnosti cijepanja jezgre)?",
+        "correct_answer": "Uran",
+        "incorrect_answers": [
+            "Plutonij",
+            "Torij",
+            "Radon"
+        ],
+        "explanation": "Izotop urana-235 je primarno nuklearno gorivo u većini nuklearnih reaktora zbog svoje sposobnosti cijepanja pod utjecajem neutrona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji se tip senzora koristi za mjerenje temperature?",
+        "correct_answer": "Termistor",
+        "incorrect_answers": [
+            "Barometar",
+            "Akcelerometar",
+            "Žiroskop"
+        ],
+        "explanation": "Termistor je vrsta otpornika čiji se otpor mijenja značajno s promjenom temperature, što ga čini idealnim za mjerenje temperature.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva sustav za globalno pozicioniranje koji koristi mrežu satelita za određivanje precizne lokacije na Zemlji?",
+        "correct_answer": "GPS (Global Positioning System)",
+        "incorrect_answers": [
+            "GIS (Geographic Information System)",
+            "LBS (Location-Based Service)",
+            "GLONASS"
+        ],
+        "explanation": "GPS je satelitski navigacijski sustav koji pruža informacije o geolokaciji i vremenu bilo gdje na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji znanstvenik je poznat po razvoju teorije relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Marie Curie"
+        ],
+        "explanation": "Albert Einstein je razvio teorije specijalne i opće relativnosti, koje su transformirale naše razumijevanje prostora, vremena i gravitacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Kako se naziva tehnika proizvodnje materijala sloj po sloj iz digitalnog 3D modela?",
+        "correct_answer": "3D ispis (aditivna proizvodnja)",
+        "incorrect_answers": [
+            "CNC obrada",
+            "Injekcijsko prešanje",
+            "Kovanje"
+        ],
+        "explanation": "3D ispis je proces stvaranja trodimenzionalnih objekata iz digitalnog dizajna, dodavanjem materijala sloj po sloj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica za mjerenje električne snage?",
+        "correct_answer": "Vat (Watt)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Džul"
+        ],
+        "explanation": "Vat (W) je SI izvedena jedinica za snagu. Snaga se definira kao brzina kojom se energija troši ili proizvodi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Kako se naziva tip umjetne inteligencije koji pokušava simulirati ljudsku inteligenciju učenjem iz podataka i prepoznavanjem uzoraka?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Obrada prirodnog jezika",
+            "Računalni vid",
+            "Ekspertni sustavi"
+        ],
+        "explanation": "Strojno učenje je podskup umjetne inteligencije koji sustavima omogućuje učenje iz podataka bez eksplicitnog programiranja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Koja je osnovna razlika između izmjenične (AC) i istosmjerne (DC) struje?",
+        "correct_answer": "Istosmjerna struja teče u jednom smjeru, dok izmjenična struja periodički mijenja smjer.",
+        "incorrect_answers": [
+            "Izmjenična struja ima veći napon",
+            "Istosmjerna struja je uvijek jača",
+            "Izmjenična struja se ne može prenijeti na velike udaljenosti"
+        ],
+        "explanation": "Istosmjerna struja (DC) ima konstantan smjer, dok izmjenična struja (AC) periodički mijenja svoj smjer protoka elektrona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koji se kemijski spoj naziva 'sol' u svakodnevnom govoru i ključan je za životinje?",
+        "correct_answer": "Natrijev klorid",
+        "incorrect_answers": [
+            "Kalijev klorid",
+            "Kalcijev karbonat",
+            "Magnezijev sulfat"
+        ],
+        "explanation": "Natrijev klorid (NaCl) je kemijski spoj poznat kao kuhinjska sol, bitan je za mnoge biološke funkcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
