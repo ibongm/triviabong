@@ -376,7 +376,7 @@
     {
         "id": "hr_art_35",
         "category": "knjizevnost",
-        "question": "Koji je rano-renesansni slikar iz Flandrije naslikao 'Oltar u Gentu' i 'Portret bračnog para Arnolfini'?",
+        "question": "Koji je ranorenesansni slikar iz Flandrije naslikao 'Oltar u Gentu' i 'Portret bračnog para Arnolfini'?",
         "correct_answer": "Jan van Eyck",
         "incorrect_answers": [
             "Rogier van der Weyden",
@@ -608,7 +608,7 @@
         "id": "hr_art_56",
         "category": "knjizevnost",
         "question": "Koji je talijanski renesansni slikar i arhitekt autor freske 'Atenska škola' u Apostolskoj palači?",
-        "correct_answer": "Rafael (Raffaello Sanzio)",
+        "correct_answer": "Rafael",
         "incorrect_answers": [
             "Michelangelo",
             "Leonardo da Vinci",
@@ -706,7 +706,7 @@
     {
         "id": "hr_art_65",
         "category": "knjizevnost",
-        "question": "Koji je grčki slikar baroknog razdoblja djelovao u Španjolskoj i bio poznat po izduženim figurama (slika 'Pogreb grofa Orgaza')?",
+        "question": "Koji je grčki slikar s prijelaza iz renesanse u barok djelovao u Španjolskoj i bio poznat po izduženim figurama (slika 'Pogreb grofa Orgaza')?",
         "correct_answer": "El Greco",
         "incorrect_answers": [
             "Diego Velázquez",
@@ -732,8 +732,8 @@
         "correct_answer": "Diego Velázquez",
         "incorrect_answers": [
             "Francisco de Zurbarán",
-            "El Greco",
-            "Francisco Goya"
+            "Jusepe de Ribera",
+            "Bartolomé Esteban Murillo"
         ]
     },
     {
@@ -762,7 +762,7 @@
         "id": "hr_art_70",
         "category": "knjizevnost",
         "question": "Tko je napisao ep o Gilgamešu koji se smatra jednim od najstarijih sačuvanih književnih djela?",
-        "correct_answer": "Nepoznati mezopotamski pjesnici",
+        "correct_answer": "Anonimni mezopotamski autori",
         "incorrect_answers": [
             "Homer, grčki epik",
             "Hesiod, grčki pjesnik",
@@ -775,9 +775,9 @@
         "question": "Koji je španjolski slikar prijelaza iz 18. u 19. stoljeće autor ciklusa 'Crne slike' i djela 'Treći svibnja 1808.'?",
         "correct_answer": "Francisco Goya",
         "incorrect_answers": [
-            "Diego Velázquez",
-            "Bartolomé Esteban Murillo",
-            "Joaquín Sorolla"
+            "Vicente López Portaña",
+            "Luis Paret y Alcázar",
+            "Agustín Esteve"
         ]
     },
     {
@@ -1015,7 +1015,7 @@
         "id": "hr_art_93",
         "category": "knjizevnost",
         "question": "Koji je renesansni slikar iz Venecije naslikao 'Urbinu Veneru' i 'Assuntu'?",
-        "correct_answer": "Tizian (Tiziano Vecelli)",
+        "correct_answer": "Tizian",
         "incorrect_answers": [
             "Tintoretto",
             "Paolo Veronese",
@@ -1355,7 +1355,7 @@
     {
         "id": "hr_art_124",
         "category": "knjizevnost",
-        "question": "Tko je autor epa 'Decimijana' ili 'Luzijada' (Os Lusíadas), nacionalnog epa Portugala?",
+        "question": "Tko je autor epa 'Luzijada' (Os Lusíadas), nacionalnog epa Portugala?",
         "correct_answer": "Luís de Camões",
         "incorrect_answers": [
             "Fernando Pessoa",
@@ -1421,8 +1421,8 @@
     {
         "id": "hr_art_130",
         "category": "knjizevnost",
-        "question": "Koji je perzijski pjesnik iz 13. stoljeća autor mitske zbirke stihova 'Masnavi' i slovi za velikog sufijskog mistika?",
-        "correct_answer": "Rumi (Jalal al-Din Rumi)",
+        "question": "Koji je perzijski pjesnik iz 13. stoljeća autor velikog spjeva u stihovima 'Masnavi' i slovi za velikog sufijskog mistika?",
+        "correct_answer": "Rumi",
         "incorrect_answers": [
             "Hafiz",
             "Omar Hajjam",
@@ -1509,7 +1509,7 @@
     {
         "id": "hr_art_138",
         "category": "knjizevnost",
-        "question": "Koji je američki slikar izradio ikonografsko djelo 'Američka gotika' (American Gothic) s farmerom i kćerima pred kućom?",
+        "question": "Koji je američki slikar izradio ikonografsko djelo 'Američka gotika' (American Gothic) s farmerom i kćeri pred kućom?",
         "correct_answer": "Grant Wood",
         "incorrect_answers": [
             "Edward Hopper",
@@ -1542,7 +1542,7 @@
     {
         "id": "hr_art_141",
         "category": "knjizevnost",
-        "question": "Kako se zove japanski pisac i nobelovac autor roman 'Snježna zemlja' i 'Tisuću ždralova'?",
+        "question": "Kako se zove japanski pisac i nobelovac, autor romana 'Snježna zemlja' i 'Tisuću ždralova'?",
         "correct_answer": "Yasunari Kawabata",
         "incorrect_answers": [
             "Kenzaburo Oe",
@@ -1839,7 +1839,7 @@
     {
         "id": "hr_art_168",
         "category": "knjizevnost",
-        "question": "Ako izuzmemo kazalište, koji je britanski pisac stvorio lik detektiva Sherlocka Holmesa?",
+        "question": "Koji je britanski pisac stvorio lik detektiva Sherlocka Holmesa?",
         "correct_answer": "Arthur Conan Doyle",
         "incorrect_answers": [
             "Agatha Christie",
