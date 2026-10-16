@@ -30899,5 +30899,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koji je rimski car legalizirao kršćanstvo Milanskim ediktom 313. godine n.e.?",
+        "correct_answer": "Konstantin Veliki",
+        "incorrect_answers": [
+            "August",
+            "Neron",
+            "Dioklecijan"
+        ],
+        "explanation": "Konstantin Veliki izdao je Milanski edikt 313. godine, kojim je kršćanstvo dobilo ravnopravan status u Rimskom Carstvu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Kako se naziva rat između Engleske i Francuske koji je trajao od 1337. do 1453. godine?",
+        "correct_answer": "Stogodišnji rat",
+        "incorrect_answers": [
+            "Tridesetogodišnji rat",
+            "Rat dviju ruža",
+            "Križarski ratovi"
+        ],
+        "explanation": "Stogodišnji rat bio je dugotrajan sukob između engleske dinastije Plantageneta i francuske dinastije Valois za francusko prijestolje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Koji je moreplovac stigao do Amerike 1492. godine, vjerujući da je došao u Indiju?",
+        "correct_answer": "Kristofor Kolumbo",
+        "incorrect_answers": [
+            "Vasco da Gama",
+            "Ferdinand Magellan",
+            "Marko Polo"
+        ],
+        "explanation": "Kristofor Kolumbo je 1492. godine, tražeći zapadni put do Indije, doplovio do obala Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Tko je naslikao 'Mona Lisu' i 'Posljednju večeru'?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci, renesansni genij, autor je svjetski poznatih remek-djela 'Mona Lisa' i 'Posljednja večera'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koje je godine započela Francuska revolucija?",
+        "correct_answer": "1789.",
+        "incorrect_answers": [
+            "1776.",
+            "1815.",
+            "1848."
+        ],
+        "explanation": "Francuska revolucija započela je padom Bastille 14. srpnja 1789. godine, označavajući kraj monarhije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koji se izum često smatra pokretačem Prve industrijske revolucije?",
+        "correct_answer": "Parni stroj",
+        "incorrect_answers": [
+            "Električna žarulja",
+            "Telefon",
+            "Automobil"
+        ],
+        "explanation": "Parni stroj, usavršen od Jamesa Watta, omogućio je mehanizaciju proizvodnje i promet, pokrenuvši industrijsku revoluciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Koje je godine potpisan Versajski mirovni ugovor, kojim je službeno završen Prvi svjetski rat?",
+        "correct_answer": "1919.",
+        "incorrect_answers": [
+            "1918.",
+            "1920.",
+            "1922."
+        ],
+        "explanation": "Versajski ugovor potpisan je 28. lipnja 1919. godine između Saveznika i Njemačke, okončavši Prvi svjetski rat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Tko je bio premijer Velike Britanije tijekom većeg dijela Drugog svjetskog rata?",
+        "correct_answer": "Winston Churchill",
+        "incorrect_answers": [
+            "Neville Chamberlain",
+            "Clement Attlee",
+            "Margaret Thatcher"
+        ],
+        "explanation": "Winston Churchill vodio je Veliku Britaniju kroz Drugi svjetski rat svojim snažnim vodstvom i govorničkim vještinama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Koji se termin koristi za ideološku i političku podjelu Europe na zapadni i istočni blok tijekom Hladnog rata?",
+        "correct_answer": "Željezna zavjesa",
+        "incorrect_answers": [
+            "Berlinski zid",
+            "Maginotova linija",
+            "Linija razgraničenja"
+        ],
+        "explanation": "'Željezna zavjesa' je metafora koju je popularizirao Churchill, označavajući granicu između zapadne i sovjetske interesne sfere u Europi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Tko je bio prvi hrvatski kralj?",
+        "correct_answer": "Tomislav",
+        "incorrect_answers": [
+            "Petar Krešimir IV.",
+            "Dmitar Zvonimir",
+            "Trpimir"
+        ],
+        "explanation": "Knez Tomislav se tradicionalno smatra prvim hrvatskim kraljem, okrunjenim početkom 10. stoljeća.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Kako se naziva sustav vlasti u staroj Ateni u kojem građani izravno sudjeluju u donošenju odluka?",
+        "correct_answer": "Demokracija",
+        "incorrect_answers": [
+            "Oligarhija",
+            "Monarhija",
+            "Tiranija"
+        ],
+        "explanation": "Atena je razvila sustav izravne demokracije gdje su punopravni građani imali pravo glasa i sudjelovanja u upravi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Tko je bio vođa Mongola koji je stvorio najveće kopneno carstvo u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Atila",
+            "Kublaj-kan",
+            "Timur Lenk"
+        ],
+        "explanation": "Džingis-kan je u 13. stoljeću ujedinio mongolska plemena i pokrenuo osvajanja koja su stvorila golemo Mongolsko Carstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik 1517. godine objavio 95 teza, pokrenuvši Reformaciju?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Jan Hus",
+            "Ulrich Zwingli"
+        ],
+        "explanation": "Martin Luther je 31. listopada 1517. godine na vrata crkve u Wittenbergu izvjesio svojih 95 teza, kritizirajući praksu indulgencija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Koji je osmanski sultan, poznat kao 'Veličanstveni' ili 'Zakonodavac', vladao tijekom zlatnog doba Osmanskog Carstva u 16. stoljeću?",
+        "correct_answer": "Sulejman I.",
+        "incorrect_answers": [
+            "Mehmed II.",
+            "Selim I.",
+            "Bajazid II."
+        ],
+        "explanation": "Sulejman I. Veličanstveni vladao je Osmanskim Carstvom od 1520. do 1566., obilježivši razdoblje velike ekspanzije i kulturnog procvata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Kako se zvao pisani sustav u starom Egiptu, sastavljen od slikovnih znakova?",
+        "correct_answer": "Hijeroglifi",
+        "incorrect_answers": [
+            "Klinasto pismo",
+            "Latinica",
+            "Runsko pismo"
+        ],
+        "explanation": "Hijeroglifi su bili formalno pismo koje su stari Egipćani koristili za pisanje, sastojeći se od kombinacije logografskih i alfabetskih elemenata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koji je europski moreplovac prvi oplovio južni vrh Afrike, Rt dobre nade, 1488. godine?",
+        "correct_answer": "Bartolomeu Dias",
+        "incorrect_answers": [
+            "Vasco da Gama",
+            "Pedro Álvares Cabral",
+            "Henrik Pomorac"
+        ],
+        "explanation": "Bartolomeu Dias bio je prvi Europljanin koji je 1488. godine oplovio Rt dobre nade, otvorivši pomorski put prema Indiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Tko je bio zapovjednik kontinentalne vojske tijekom Američkog rata za neovisnost i prvi predsjednik SAD-a?",
+        "correct_answer": "George Washington",
+        "incorrect_answers": [
+            "Thomas Jefferson",
+            "Benjamin Franklin",
+            "John Adams"
+        ],
+        "explanation": "George Washington je vodio američke snage do pobjede u Ratu za neovisnost i služio kao prvi predsjednik Sjedinjenih Američkih Država.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koji je francuski filozof, poznat po izreci 'Mislim, dakle jesam', ključna figura racionalizma u 17. stoljeću?",
+        "correct_answer": "René Descartes",
+        "incorrect_answers": [
+            "Voltaire",
+            "Jean-Jacques Rousseau",
+            "John Locke"
+        ],
+        "explanation": "René Descartes, otac moderne filozofije, zastupao je racionalizam i poznat je po svojoj spoznajnoj tvrdnji 'Cogito, ergo sum'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "U kojoj je bitci Napoleon Bonaparte doživio konačni poraz 1815. godine?",
+        "correct_answer": "Bitka kod Waterlooa",
+        "incorrect_answers": [
+            "Bitka kod Austerlitza",
+            "Bitka kod Trafalgara",
+            "Bitka kod Leipziga"
+        ],
+        "explanation": "Bitka kod Waterlooa, vođena 18. lipnja 1815., bila je odlučujući poraz Napoleona Bonapartea od savezničkih snaga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Kako se naziva najstariji poznati zakonik, nastao u Mezopotamiji oko 1754. pr. Kr.?",
+        "correct_answer": "Hamurabijev zakonik",
+        "incorrect_answers": [
+            "Zakonik Dvanaest ploča",
+            "Justinijanov zakonik",
+            "Zakonik cara Dušana"
+        ],
+        "explanation": "Hamurabijev zakonik, napisan u Babilonu, jedan je od najstarijih i najbolje očuvanih pisanih zakonskih tekstova iz starog vijeka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koji je grad bio prijestolnica Bizantskog Carstva?",
+        "correct_answer": "Konstantinopol",
+        "incorrect_answers": [
+            "Rim",
+            "Atena",
+            "Aleksandrija"
+        ],
+        "explanation": "Konstantinopol, osnovan od cara Konstantina I., bio je glavni grad Istočnog Rimskog (Bizantskog) Carstva više od tisuću godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Kako se naziva američki plan ekonomske pomoći europskim zemljama nakon Drugog svjetskog rata, pokrenut 1948.?",
+        "correct_answer": "Marshallov plan",
+        "incorrect_answers": [
+            "Trumanova doktrina",
+            "Reaganova doktrina",
+            "Doktrina Brežnjeva"
+        ],
+        "explanation": "Marshallov plan bio je program SAD-a za oporavak europskih gospodarstava poslije Drugog svjetskog rata, s ciljem sprječavanja širenja komunizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Koji je događaj tradicionalno označen kao kraj Zapadnog Rimskog Carstva 476. godine n.e.?",
+        "correct_answer": "Svrgnuće Romula Augustula",
+        "incorrect_answers": [
+            "Pad Rima pod Gote",
+            "Atilina invazija",
+            "Bitka kod Adrianopola"
+        ],
+        "explanation": "Svrgnuće posljednjeg zapadnorimskog cara, Romula Augustula, od strane germanskog poglavice Odoakra 476. godine, obično se smatra krajem Carstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je hrvatski ban, u 19. stoljeću, ukinuo kmetstvo u Hrvatskoj i Slavoniji?",
+        "correct_answer": "Josip Jelačić",
+        "incorrect_answers": [
+            "Ivan Mažuranić",
+            "Franjo Rački",
+            "Ante Starčević"
+        ],
+        "explanation": "Ban Josip Jelačić ukinuo je kmetstvo u Hrvatskoj i Slavoniji 1848. godine, što je bio ključni događaj u hrvatskoj povijesti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Gdje su se 1943. godine sastali Roosevelt, Churchill i Staljin kako bi koordinirali savezničke ratne napore?",
+        "correct_answer": "Teheran",
+        "incorrect_answers": [
+            "Jalta",
+            "Potsdam",
+            "Casablanca"
+        ],
+        "explanation": "Teheranska konferencija 1943. bila je prvi sastanak 'velike trojke' (Roosevelt, Churchill, Staljin) radi planiranja budućih operacija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Tko je bila prva žena koja je postala premijerka Velike Britanije, poznata kao 'Željezna Lady'?",
+        "correct_answer": "Margaret Thatcher",
+        "incorrect_answers": [
+            "Golda Meir",
+            "Indira Gandhi",
+            "Angela Merkel"
+        ],
+        "explanation": "Margaret Thatcher, konzervativna političarka, bila je premijerka Ujedinjenog Kraljevstva od 1979. do 1990. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Koju je ulogu imala piramida kao građevina u starom Egiptu?",
+        "correct_answer": "Grobnica faraona",
+        "incorrect_answers": [
+            "Hram bogovima",
+            "Observatorij",
+            "Spremište žita"
+        ],
+        "explanation": "Piramida je građena kao monumentalna grobnica za faraone i njihove supruge, namijenjena zaštiti tijela i duha za zagrobni život.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji je spartanski kralj vodio 300 Spartanaca u Bitci kod Termopila protiv Perzijanaca?",
+        "correct_answer": "Leonida I.",
+        "incorrect_answers": [
+            "Kserkso I.",
+            "Temistoklo",
+            "Perikle"
+        ],
+        "explanation": "Leonida I. bio je spartanski kralj koji je herojski predvodio malu grčku vojsku u obrani Termopilskog klanca od Perzijanaca 480. pr. Kr.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koja je kineska dinastija sagradila većinu Velikog kineskog zida?",
+        "correct_answer": "Ming",
+        "incorrect_answers": [
+            "Qin",
+            "Han",
+            "Tang"
+        ],
+        "explanation": "Iako je Qin dinastija započela gradnju, većina danas očuvanog Velikog kineskog zida izgrađena je i obnovljena tijekom dinastije Ming.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Tko je bio engleski kralj u vrijeme Bitke kod Hastingsa 1066. godine, nakon koje je Norman William Osvajač preuzeo prijestolje?",
+        "correct_answer": "Harold Godwinson",
+        "incorrect_answers": [
+            "Rikard Lavljeg Srca",
+            "Alfred Veliki",
+            "Ivan Bez Zemlje"
+        ],
+        "explanation": "Kralj Harold Godwinson poginuo je u Bitci kod Hastingsa 1066. godine, čime je zavladala normanska dinastija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Koji je poljski astronom u 16. stoljeću formulirao heliocentrični model Sunčevog sustava?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Nikola Kopernik je u 16. stoljeću razvio heliocentrični model, prema kojem se Zemlja i drugi planeti okreću oko Sunca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koji je ruski car proveo velike reforme i modernizaciju Rusije u 18. stoljeću, uključujući osnivanje Sankt-Peterburga?",
+        "correct_answer": "Petar Veliki",
+        "incorrect_answers": [
+            "Katarina Velika",
+            "Ivan Grozni",
+            "Aleksandar I."
+        ],
+        "explanation": "Petar Veliki (vladao 1682.-1725.) proveo je opsežne reforme, transformirajući Rusiju u europsku velesilu i osnovavši Sankt-Peterburg.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koje je drevno afričko kraljevstvo bilo poznato po bogatstvu zlatom i solju, te po sveučilištu u Timbuktuu?",
+        "correct_answer": "Mali Carstvo",
+        "incorrect_answers": [
+            "Egipatsko kraljevstvo",
+            "Aksumsko kraljevstvo",
+            "Zimbabve"
+        ],
+        "explanation": "Mali Carstvo (13.-17. st.) bilo je jedno od najvećih i najbogatijih carstava zapadne Afrike, poznato po trgovini zlatom i islamskoj učenosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Koje je godine započeo Korejski rat?",
+        "correct_answer": "1950.",
+        "incorrect_answers": [
+            "1945.",
+            "1953.",
+            "1960."
+        ],
+        "explanation": "Korejski rat započeo je 25. lipnja 1950. godine invazijom Sjeverne Koreje na Južnu, prerastavši u hladnoratovski sukob.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koje je godine Ljudevit Posavski podigao ustanak protiv Franaka?",
+        "correct_answer": "819.",
+        "incorrect_answers": [
+            "825.",
+            "791.",
+            "900."
+        ],
+        "explanation": "Ustanak Ljudevita Posavskog protiv franačke vlasti trajao je od 819. do 823. godine, simbolizirajući borbu za neovisnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koji je naziv za njemački plan brzog napada na Francusku preko neutralne Belgije na početku Prvog svjetskog rata?",
+        "correct_answer": "Schlieffenov plan",
+        "incorrect_answers": [
+            "Plan Barbarossa",
+            "Plan Z",
+            "Operacija Morska Lavica"
+        ],
+        "explanation": "Schlieffenov plan bio je njemačka vojna strategija za brzo poraz Francuske prije nego što se Rusija mobilizira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Tko je bio osnivač Ahemenidskog Perzijskog Carstva, koje je osvojilo Babilon i oslobodilo Židove iz ropstva?",
+        "correct_answer": "Kir Veliki",
+        "incorrect_answers": [
+            "Darije I.",
+            "Kserkso I.",
+            "Kambiz II."
+        ],
+        "explanation": "Kir Veliki je osnovao Ahemenidsko Carstvo u 6. st. pr. Kr., proširio ga i izdao proglas kojim je Židovima dozvolio povratak u Jeruzalem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Kako se zvao prvi tiskar u Hrvatskoj koji je tiskao 'Misal po zakonu rimskoga dvora' 1483. godine?",
+        "correct_answer": "Blaž Baromić",
+        "incorrect_answers": [
+            "Juraj Habdelić",
+            "Ivan Lučić",
+            "Marko Marulić"
+        ],
+        "explanation": "Blaž Baromić je bio jedan od ranih hrvatskih tiskara, zaslužan za tiskanje prvog hrvatskog glagoljskog misala 1483. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2376",
+        "category": "povijest",
+        "question": "Koji je pred-sokratovski filozof poznat po tvrdnji 'Sve teče' (Panta rhei) i ideji da je vatra temeljni element?",
+        "correct_answer": "Heraklit",
+        "incorrect_answers": [
+            "Tales",
+            "Anaksimandar",
+            "Parmenid"
+        ],
+        "explanation": "Heraklit iz Efeza vjerovao je u stalnu promjenu ('Panta rhei') i smatrao vatru osnovnim elementom svemira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2377",
+        "category": "povijest",
+        "question": "Tko je bio zadnji rimski car koji je vladao i zapadnim i istočnim dijelom Carstva prije konačne podjele 395. godine n.e.?",
+        "correct_answer": "Teodozije I.",
+        "incorrect_answers": [
+            "Dioklecijan",
+            "Honorije",
+            "Arkadije"
+        ],
+        "explanation": "Teodozije I. bio je posljednji car koji je vladao cijelim Rimskim Carstvom. Nakon njegove smrti 395. godine, Carstvo je trajno podijeljeno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
