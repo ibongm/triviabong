@@ -30445,5 +30445,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je fizičar formulirao zakone gibanja i univerzalne gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Isaac Newton je u 17. stoljeću postavio temelje klasične mehanike sa svoja tri zakona gibanja i zakonom univerzalne gravitacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji uređaj mjeri električnu struju u krugu?",
+        "correct_answer": "Ampermetar",
+        "incorrect_answers": [
+            "Voltmetar",
+            "Ommetar",
+            "Termometar"
+        ],
+        "explanation": "Ampermetar se spaja serijski u strujni krug i mjeri jačinu električne struje koja prolazi kroz njega u amperima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji je temeljni pojam u fizici koji opisuje sposobnost obavljanja rada?",
+        "correct_answer": "Energija",
+        "incorrect_answers": [
+            "Sila",
+            "Snaga",
+            "Masa"
+        ],
+        "explanation": "Energija je skalarna fizikalna veličina koja opisuje sposobnost nekog sustava da obavi rad ili proizvede toplinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se naziva mjera inercije tijela, odnosno otpora promjeni njegovog gibanja?",
+        "correct_answer": "Masa",
+        "incorrect_answers": [
+            "Težina",
+            "Volumen",
+            "Gustoća"
+        ],
+        "explanation": "Masa je temeljna fizikalna veličina koja je mjera inercije tijela, odnosno otpora promjeni njegovog gibanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji spoj je glavni sastojak kuhinjske soli?",
+        "correct_answer": "Natrijev klorid",
+        "incorrect_answers": [
+            "Kalijev klorid",
+            "Kalcijev karbonat",
+            "Magnezijev sulfat"
+        ],
+        "explanation": "Natrijev klorid (NaCl) je ionski spoj koji čini osnovu kuhinjske soli, a ključan je za životne procese.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je oznaka za kemijski element zlato?",
+        "correct_answer": "Au",
+        "incorrect_answers": [
+            "Ag",
+            "Fe",
+            "Cu"
+        ],
+        "explanation": "Simbol \"Au\" dolazi od latinskog naziva za zlato, \"aurum\". To je plemeniti metal cijenjen zbog svoje otpornosti na koroziju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja se kemijska reakcija događa kada se kiselina i lužina pomiješaju, neutralizirajući jedna drugu i stvarajući sol i vodu?",
+        "correct_answer": "Neutralizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Redoks reakcija",
+            "Kondenzacija"
+        ],
+        "explanation": "Neutralizacija je kemijska reakcija između kiseline i baze, pri kojoj nastaju sol i voda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Kako se naziva genetski materijal koji nosi nasljedne informacije u većini organizama?",
+        "correct_answer": "DNA (Dezoksiribonukleinska kiselina)",
+        "incorrect_answers": [
+            "RNA",
+            "Protein",
+            "Lipid"
+        ],
+        "explanation": "DNA je dvolančana molekula koja pohranjuje genetske upute za razvoj i funkcioniranje svih poznatih živih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica živih bića?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Organ",
+            "Tkivo",
+            "Molekula"
+        ],
+        "explanation": "Stanica je osnovna strukturna, funkcionalna i biološka jedinica svih poznatih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica električnog naboja u SI sustavu?",
+        "correct_answer": "Kulon (Coulomb)",
+        "incorrect_answers": [
+            "Amper",
+            "Volt",
+            "Om"
+        ],
+        "explanation": "Kulon je jedinica za električni naboj, definirana kao količina naboja koju u jednoj sekundi prenese struja od jednog ampera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja vrsta valova ne treba medij za prijenos i može putovati kroz vakuum?",
+        "correct_answer": "Elektromagnetski valovi",
+        "incorrect_answers": [
+            "Zvučni valovi",
+            "Vodeni valovi",
+            "Seizmički valovi"
+        ],
+        "explanation": "Elektromagnetski valovi, poput svjetlosti i radiovalova, sastoje se od oscilirajućih električnih i magnetskih polja i mogu se širiti vakuumom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja teorija, formulirana od strane Alberta Einsteina, opisuje gravitaciju kao zakrivljenost prostor-vremena uzrokovanu masom i energijom?",
+        "correct_answer": "Opća teorija relativnosti",
+        "incorrect_answers": [
+            "Specijalna teorija relativnosti",
+            "Kvantna mehanika",
+            "Teorija struna"
+        ],
+        "explanation": "Opća teorija relativnosti je gravitacijska teorija koju je Albert Einstein razvio 1915. godine, predstavljajući gravitaciju kao geometrijsku pojavu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem atom ili molekula gubi elektron?",
+        "correct_answer": "Oksidacija",
+        "incorrect_answers": [
+            "Redukcija",
+            "Neutralizacija",
+            "Hidroliza"
+        ],
+        "explanation": "Oksidacija je kemijski proces u kojem tvar otpušta elektrone, a obično uključuje povećanje oksidacijskog broja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje prijenosom elektrona između atoma?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje kada atomi izrazito različite elektronegativnosti potpuno prenesu elektrone, stvarajući ione koji se privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je kemijski spoj s formulom H2SO4, poznat kao \"kralj kemikalija\"?",
+        "correct_answer": "Sumporna kiselina",
+        "incorrect_answers": [
+            "Klorovodična kiselina",
+            "Dušična kiselina",
+            "Octena kiselina"
+        ],
+        "explanation": "Sumporna kiselina je jaka mineralna kiselina, izuzetno važna u industriji zbog svoje široke primjene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja skupina elemenata u periodnom sustavu uključuje fluor, klor i brom, poznate po svojoj visokoj reaktivnosti i stvaranju soli?",
+        "correct_answer": "Halogeni elementi",
+        "incorrect_answers": [
+            "Plemeniti plinovi",
+            "Zemnoalkalijski metali",
+            "Prijelazni metali"
+        ],
+        "explanation": "Halogeni su elementi 17. skupine periodnog sustava, vrlo reaktivni i često se vežu s metalima tvoreći soli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada biljke ispuštaju vodenu paru kroz male otvore na listovima?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Disanje",
+            "Apsorpcija"
+        ],
+        "explanation": "Transpiracija je proces ispuštanja vode u obliku pare iz biljaka, uglavnom kroz puči na listovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji dio mozga je odgovoran za koordinaciju pokreta i održavanje ravnoteže?",
+        "correct_answer": "Mali mozak (Cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak (Cerebrum)",
+            "Moždano deblo",
+            "Hipotalamus"
+        ],
+        "explanation": "Mali mozak igra ključnu ulogu u motoričkoj kontroli, uključujući koordinaciju, ravnotežu i preciznost pokreta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja vrsta simbiotskog odnosa koristi oba organizma uključena?",
+        "correct_answer": "Mutualizam",
+        "incorrect_answers": [
+            "Komensalizam",
+            "Parazitizam",
+            "Predacija"
+        ],
+        "explanation": "Mutualizam je vrsta simbioze u kojoj obje strane imaju koristi od interakcije, npr. pčele i cvijeće.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je astronom u 17. stoljeću prvi promatrao Jupiterove mjesece i Mjesečeve kratere teleskopom?",
+        "correct_answer": "Galileo Galilei",
+        "incorrect_answers": [
+            "Nikola Kopernik",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Galileo je 1609. godine, koristeći poboljšani teleskop, napravio revolucionarna opažanja, uključujući mjesece Jupitera i planine na Mjesecu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva regija oko crne rupe iz koje ni svjetlost ne može pobjeći?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Ergostera",
+            "Akrecijski disk"
+        ],
+        "explanation": "Horizont događaja je granica u prostor-vremenu oko crne rupe, s koje se ništa, pa ni svjetlost, ne može vratiti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji se teleskop nalazi u orbiti oko Zemlje i pruža nam neke od najdetaljnijih slika svemira?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Chandra X-ray opservatorij",
+            "Keck teleskop"
+        ],
+        "explanation": "Hubbleov svemirski teleskop lansiran je 1990. i desetljećima je ključan za razumijevanje svemira svojim optičkim snimkama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta softvera koja se replicira širenjem na druga računala bez korisnikova znanja, često s ciljem narušavanja sigurnosti ili krađe podataka?",
+        "correct_answer": "Malver (Malware)",
+        "incorrect_answers": [
+            "Freeware",
+            "Shareware",
+            "Open source"
+        ],
+        "explanation": "Malver je zajednički naziv za zlonamjerni softver (virusi, crvi, trojanci itd.) dizajniran za oštećenje, krađu podataka ili poremećaj normalnog rada računala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja je pojava kada se svjetlost raspršuje na česticama manjim od valne duljine svjetlosti, zbog čega je nebo plavo?",
+        "correct_answer": "Rayleighovo raspršenje",
+        "incorrect_answers": [
+            "Lom svjetlosti",
+            "Difrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Rayleighovo raspršenje je odgovorno za plavu boju neba jer se plava svjetlost kraće valne duljine raspršuje učinkovitije od ostalih boja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je naziv za složenu mrežu proteina koja daje stanici oblik, stabilnost i omogućuje kretanje?",
+        "correct_answer": "Citoskelet",
+        "incorrect_answers": [
+            "Stanična stijenka",
+            "Endoplazmatski retikulum",
+            "Golgijev aparat"
+        ],
+        "explanation": "Citoskelet je dinamična mreža vlakana u citoplazmi eukariotskih stanica koja im pruža potporu, oblik i omogućuje unutarnji transport i gibanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se genetski kod DNA pretvara u RNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je proces sinteze RNA molekule koristeći DNA kao predložak, što je prvi korak u ekspresiji gena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je pojam za sveukupnost genetskih informacija sadržanih u haploidnom setu kromosoma jednog organizma?",
+        "correct_answer": "Genom",
+        "incorrect_answers": [
+            "Genotip",
+            "Fenotip",
+            "Alel"
+        ],
+        "explanation": "Genom je cjelokupni skup genetskih informacija (DNA ili RNA) organizma, uključujući sve gene i nekodirajuće sekvence.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji je termin za zvijezdu koja je potrošila svoje nuklearno gorivo i kolabirala u vrlo gust, ali ne i crnu rupu, objekt?",
+        "correct_answer": "Bijeli patuljak",
+        "incorrect_answers": [
+            "Crvena supergigant",
+            "Neutronska zvijezda",
+            "Kvazar"
+        ],
+        "explanation": "Bijeli patuljak je zvjezdana jezgra koja ostaje nakon što zvijezda niske ili umjerene mase odbaci svoje vanjske slojeve, vrlo je gusta i postupno se hladi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva kvantni fenomen gdje dvije čestice postaju isprepletene na takav način da stanje jedne trenutno utječe na stanje druge, bez obzira na udaljenost?",
+        "correct_answer": "Kvantna isprepletenost",
+        "incorrect_answers": [
+            "Kvantna superpozicija",
+            "Kvantna tuneliranje",
+            "Kvantna kromodinamika"
+        ],
+        "explanation": "Kvantna isprepletenost je pojava gdje se kvantna stanja dviju čestica opisuju jedinstveno, omogućujući trenutačnu korelaciju bez obzira na prostornu odvojenost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se kemijski proces koristi za proizvodnju amonijaka (NH3) iz dušika i vodika pod visokim tlakom i temperaturom, ključan za proizvodnju gnojiva?",
+        "correct_answer": "Haber-Boschov proces",
+        "incorrect_answers": [
+            "Ostwaldov proces",
+            "Solvayev proces",
+            "Bergiusov proces"
+        ],
+        "explanation": "Haber-Boschov proces je industrijska metoda sinteze amonijaka iz dušika i vodika, koja je revolucionirala poljoprivredu omogućujući masovnu proizvodnju gnojiva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koja se stanična organela naziva \"reciklažnim centrom\" stanice, odgovorna za razgradnju otpadnih tvari, staničnih ostataka i stranih čestica?",
+        "correct_answer": "Lizosom",
+        "incorrect_answers": [
+            "Peroksisom",
+            "Ribosom",
+            "Vakuola"
+        ],
+        "explanation": "Lizosomi su vezikulaste organele koje sadrže hidrolitičke enzime sposobne razgraditi različite makromolekule, stare organele i otpadne tvari.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je naziv za podatkovnu strukturu koja pohranjuje podatke na način da svaki element sadrži pokazivač na sljedeći element?",
+        "correct_answer": "Povezana lista",
+        "incorrect_answers": [
+            "Polje",
+            "Stog",
+            "Red"
+        ],
+        "explanation": "Povezana lista je linearna podatkovna struktura gdje elementi nisu pohranjeni na uzastopnim memorijskim lokacijama, već svaki element (čvor) sadrži referencu na sljedeći čvor.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na iznenadno, intenzivno izbijanje zračenja s površine Sunca, koje može utjecati na komunikacije na Zemlji?",
+        "correct_answer": "Sunčeva baklja",
+        "incorrect_answers": [
+            "Koronalna izbacivanja mase",
+            "Sunčeva pjega",
+            "Sunčev vjetar"
+        ],
+        "explanation": "Sunčeva baklja je intenzivna erupcija zračenja iz Sunčeve atmosfere, koja emitira ogromne količine energije i može uzrokovati geomagnetske oluje na Zemlji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva proces stvaranja novih krvnih žila iz već postojećih, ključan za rast tumora i zacjeljivanje rana?",
+        "correct_answer": "Angiogeneza",
+        "incorrect_answers": [
+            "Hematopoeza",
+            "Vaskulogeneza",
+            "Limfogeneza"
+        ],
+        "explanation": "Angiogeneza je fiziološki proces rasta novih krvnih žila iz već postojećih, vitalan za razvoj, ali i za patološke procese poput rasta tumora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje molekula koje imaju polarni i nepolarni kraj, omogućujući im da djeluju kao surfaktanti (npr. sapun)?",
+        "correct_answer": "Amfipatne molekule",
+        "incorrect_answers": [
+            "Hidrofilne molekule",
+            "Hidrofobne molekule",
+            "Lipofilne molekule"
+        ],
+        "explanation": "Amfipatne molekule posjeduju hidrofilni i hidrofobni dio, što im omogućuje da smanje površinsku napetost i formiraju micele.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
