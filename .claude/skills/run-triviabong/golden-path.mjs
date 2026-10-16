@@ -148,7 +148,7 @@ function step(label, ok) {
 try {
   console.log(`=== nav to ${URL} ===`);
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
   await ss(page, 'lobby');
   step('lobby loaded', true);
   await assertNoMobileOverflow(page, 'lobby');
@@ -225,7 +225,7 @@ try {
   await ss(page, 'end-screen');
 
   console.log('=== save score ===');
-  const nicknameInput = await page.$('input[placeholder="Unesite nadimak (Nickname)"]');
+  const nicknameInput = await page.$('input[placeholder="Unesite nadimak"]');
   if (nicknameInput) {
     await nicknameInput.fill('BongBotTest');
     await clickText(page, 'Spremi Rezultat');
@@ -247,8 +247,8 @@ try {
   await page.waitForTimeout(300);
 
   console.log('=== back to lobby ===');
-  await clickText(page, 'Povratak u Izbornik');
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 10000 });
+  await clickText(page, 'Povratak u izbornik');
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 10000 });
   step('returned to lobby', true);
   await ss(page, 'back-to-lobby');
 

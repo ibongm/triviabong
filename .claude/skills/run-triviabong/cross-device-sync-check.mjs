@@ -128,7 +128,7 @@ async function signIn(page, label) {
 
 async function registerAndPlay(page) {
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
 
   const how = await signIn(page, 'A');
   step(`signed in (${how}) and modal closed`, true);
@@ -159,7 +159,7 @@ async function registerAndPlay(page) {
 async function loginAndCheck(page, expected) {
   console.log(`=== [B] fresh context, login as ${EMAIL} ===`);
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
   // Context A guaranteed the account exists, so this is always a plain login.
   await signIn(page, 'B');
   step('logged in on fresh context', true);

@@ -97,7 +97,7 @@ async function waitForText(page, predicate, timeoutMs = 15000, intervalMs = 300)
 
 async function signIn(page, label, { email, password }) {
   await page.goto(URL_ARG, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
   await clickText(page, 'Prijava');
   await page.waitForSelector('input[type="email"]', { timeout: 10000 });
   await page.fill('input[type="email"]', email);

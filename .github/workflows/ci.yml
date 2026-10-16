@@ -52,6 +52,8 @@ jobs:
         run: node scripts/firestore-rules-weekly-boards.test.mjs
       - name: Run league Firestore rules tests
         run: node scripts/firestore-rules-leagues.test.mjs
+      - name: Run security-audit Firestore rules tests
+        run: node scripts/firestore-rules-security-audit.test.mjs
       - name: Start dev server against the emulator
         env:
           VITE_USE_FIREBASE_EMULATOR: "true"

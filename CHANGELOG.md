@@ -1,5 +1,21 @@
 # Changelog
 
+### [2026-10-16] - Fix live 1v1 stalling after question 1; refresh stale E2E copy
+- **Files Changed**:
+  - `src/components/MatchView.jsx` (Modified)
+  - `.claude/skills/run-triviabong/golden-path.mjs` (Modified)
+  - `.claude/skills/run-triviabong/cross-device-sync-check.mjs` (Modified)
+  - `.claude/skills/run-triviabong/two-player-match-check.mjs` (Modified)
+  - `.claude/skills/run-triviabong/run-1v1-emulator-test.mjs` (Modified)
+  - `scripts/async-duel-check.mjs` (Modified)
+  - `scripts/capture-audit-screens.mjs` (Modified)
+  - `.github/workflows/ci.yml` (Modified)
+- **Details**:
+  - `ci.yml`: the e2e job now runs `scripts/firestore-rules-security-audit.test.mjs` (the 98-check audit suite incl. the CEL date-helper probe) after the leagues rules test, against the already-running emulator.
+  - `MatchView.jsx`: the reveal-advance effect depended on the whole `match` object (added by the 2026-10-11 lint pass, `f440067`). Every Firestore snapshot yields a new object, so any match update during the 3s reveal re-ran the effect: its cleanup cancelled the advance timer and the `advanceGuardRef` early-return blocked re-arming it, leaving both clients on "Sljedeće pitanje za 3s..." forever. The effect is now keyed on `status`/`currentQuestionIndex`/`matchId` only and reads scores from `matchRef` when the timer fires. Found via two-player-match-check.mjs, which stalled identically on the pre-audit rules (A/B-verified), so it is not caused by the security-audit rules.
+  - E2E scripts: updated selectors/strings that the 2026-10-11 copy fixes made stale ("Izaberi Kategoriju Kvizova" -> "Odaberi kategoriju kvizova", "Povratak u Izbornik" -> "Povratak u izbornik", nickname placeholder "Unesite nadimak (Nickname)" -> "Unesite nadimak"). The CI e2e job could not have passed since that commit.
+  - Verified on the emulator with the security-audit rules: golden-path, cross-device-sync, two-player-match (incl. tie -> sudden death -> draw) and async-duel checks all pass.
+
 ### [2026-10-16] - Security audit remediation (H1–H4, M1, M2, M4, L1–L4)
 - **Files Changed**:
   - `firestore.rules` (Modified)

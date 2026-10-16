@@ -78,7 +78,7 @@ page.on('requestfailed', (r) => badRequests.push({ status: 'FAILED', url: `${r.u
 
 try {
   await page.goto(BASE_URL, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
   await page.waitForTimeout(1500); // let rekordi/lobby data settle
   await shot(page, 'mobile-lobby');
 
@@ -109,8 +109,8 @@ try {
   await shot(page, 'mobile-gameover');
 
   // Desktop leaderboard: the category's "Najbolji Rezultati" screen.
-  await clickText(page, 'Povratak u Izbornik');
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 10000 });
+  await clickText(page, 'Povratak u izbornik');
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 10000 });
   await page.setViewportSize(DESKTOP);
   await clickText(page, 'Geografija');
   await page.waitForSelector('text=Najbolji Rezultati', { timeout: 10000 });

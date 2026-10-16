@@ -42,7 +42,7 @@ function bodyText(page) {
 async function registerAndLogin(page, label, user) {
   log(`[${label}] Navigating to app...`);
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
   
   log(`[${label}] Opening login modal...`);
   await clickText(page, 'Prijava');

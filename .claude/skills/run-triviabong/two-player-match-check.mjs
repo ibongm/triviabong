@@ -86,7 +86,7 @@ function isExpectedAuthProbeError(text) {
 // Login-or-register, same pattern as cross-device-sync-check.mjs's signIn.
 async function signIn(page, label, { email, password }) {
   await page.goto(URL, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('text=Izaberi Kategoriju Kvizova', { timeout: 15000 });
+  await page.waitForSelector('text=Odaberi kategoriju kvizova', { timeout: 15000 });
   await clickText(page, 'Prijava');
   await page.waitForSelector('input[type="email"]', { timeout: 10000 });
   await page.fill('input[type="email"]', email);

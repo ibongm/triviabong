@@ -235,30 +235,40 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
     }, [match, matchId, timeLeft, myAnswer]);
 
     // ---- Reveal phase: 3-second delay before advancing to next question ----
+    // Keyed ONLY on status/question index/matchId: every snapshot hands us a
+    // new `match` object, and depending on the whole object re-ran this effect
+    // mid-reveal - the cleanup cancelled the advance timer and the guard above
+    // then blocked re-arming it, so a live match stalled after question 1
+    // (regression from 2026-10-11's lint pass, which added `match` to the deps).
+    // Scores are read from matchRef when the timer fires, so they're current.
+    const revealStatus = match?.status;
+    const revealIndex = match?.currentQuestionIndex;
     useEffect(() => {
-        if (!match || match.status !== 'reveal') return;
-        if (advanceGuardRef.current === match.currentQuestionIndex) return;
-        advanceGuardRef.current = match.currentQuestionIndex;
+        if (revealStatus !== 'reveal') return;
+        if (advanceGuardRef.current === revealIndex) return;
+        advanceGuardRef.current = revealIndex;
 
-        const isLastRegular = match.currentQuestionIndex === 9;
-        const isSuddenDeath = match.currentQuestionIndex === LAST_QUESTION_INDEX;
-        const tied = match.player1Score === match.player2Score;
+        const isLastRegular = revealIndex === 9;
+        const isSuddenDeath = revealIndex === LAST_QUESTION_INDEX;
 
         const countdownInterval = setInterval(() => {
             setRevealTimeLeft((prev) => Math.max(0, prev - 1));
         }, 1000);
 
         const timer = setTimeout(() => {
+            const m = matchRef.current;
+            if (!m) return;
+            const tied = m.player1Score === m.player2Score;
             if (isSuddenDeath || (isLastRegular && !tied)) {
                 if (finishGuardRef.current) return;
                 finishGuardRef.current = true;
-                const winnerUid = match.player1Score === match.player2Score
+                const winnerUid = tied
                     ? null
-                    : (match.player1Score > match.player2Score ? match.player1Uid : match.player2Uid);
+                    : (m.player1Score > m.player2Score ? m.player1Uid : m.player2Uid);
                 finishMatch(matchId, winnerUid);
                 return;
             }
-            advanceMatchQuestion(matchId, match.currentQuestionIndex + 1);
+            advanceMatchQuestion(matchId, revealIndex + 1);
         }, REVEAL_DURATION_SECONDS * 1000);
 
         return () => {
@@ -266,7 +276,7 @@ export default function MatchView({ matchId, currentUid, onExit, onMatchOver, on
             clearTimeout(timer);
             setRevealTimeLeft(REVEAL_DURATION_SECONDS);
         };
-    }, [match?.status, match?.currentQuestionIndex, match, matchId]);
+    }, [revealStatus, revealIndex, matchId]);
 
     // ---- Write match history + notify parent when match completes ----
     useEffect(() => {
