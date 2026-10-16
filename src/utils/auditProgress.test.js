@@ -5,7 +5,6 @@ import {
     selectNextBatch,
     recordRun,
     refreshCompletion,
-    renderSummary,
 } from './auditProgress.js';
 
 const questions = (n) => Array.from({ length: n }, (_, i) => ({ id: `q${i + 1}` }));
@@ -57,13 +56,5 @@ describe('auditProgress', () => {
         expect(progress.categories.a.auditedIds).toEqual(['q1', 'q2', 'q3', 'q4']);
         expect(progress.categories.a.runs.map((r) => r.runId)).toEqual(['1', '2']);
         expect(progress.categories.a.runs[0].modifiedIds).toEqual(['q2']);
-    });
-
-    it('renders a summary row per category with status', () => {
-        const all = questions(4);
-        const progress = recordRun(null, 'a', { runId: 7, date: '2026-10-16', auditedIds: ['q1', 'q2'] }, all);
-        const md = renderSummary(progress, { a: ['q1', 'q2', 'q3', 'q4'], b: ['x1'] }, '2026-10-16T00:00:00.000Z');
-        expect(md).toContain('| a | 4 | 2 | 2 | in progress | 2026-10-16 (run 7) |');
-        expect(md).toContain('| b | 1 | 0 | 1 | not started | - |');
     });
 });

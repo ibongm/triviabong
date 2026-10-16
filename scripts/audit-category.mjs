@@ -7,7 +7,6 @@ import {
   getUnaudited,
   recordRun,
   refreshCompletion,
-  renderSummary,
 } from '../src/utils/auditProgress.js';
 
 const project = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID;
@@ -36,26 +35,20 @@ if (!fs.existsSync(filePath)) {
   process.exit(1);
 }
 
-// Which questions earlier runs already audited (audit/progress.json, updated by
-// every run and committed with the fixes). Keyed by question id.
-const auditDir = path.resolve('audit');
-const progressPath = path.join(auditDir, 'progress.json');
-const summaryPath = path.join(auditDir, 'PROGRESS.md');
+// Which questions earlier runs already audited. One file per category
+// (audit/progress/<category>.json), updated by every run and committed with the
+// fixes. Per-category files mean the per-category audit PRs never touch the
+// same progress file, so they merge into main without conflicts. Keyed by
+// question id; each file also keeps a log of its runs for future reference.
+const progressDir = path.resolve('audit', 'progress');
+const progressPath = path.join(progressDir, `${category}.json`);
 
 const readProgress = () =>
   normalizeProgress(fs.existsSync(progressPath) ? JSON.parse(fs.readFileSync(progressPath, 'utf8')) : null);
 
-// Writes progress.json and the readable PROGRESS.md summary.
 const writeProgress = (progress) => {
-  fs.mkdirSync(auditDir, { recursive: true });
+  fs.mkdirSync(progressDir, { recursive: true });
   fs.writeFileSync(progressPath, JSON.stringify(progress, null, 2) + '\n', 'utf8');
-
-  const idsByCategory = {};
-  for (const file of fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.json'))) {
-    const key = file.replace(/\.json$/, '');
-    idsByCategory[key] = JSON.parse(fs.readFileSync(path.join(categoriesDir, file), 'utf8')).map((q) => q.id);
-  }
-  fs.writeFileSync(summaryPath, renderSummary(progress, idsByCategory, new Date().toISOString()), 'utf8');
 };
 
 // Values the workflow (and the scheduled task driving it) read after the run.
@@ -218,7 +211,7 @@ async function run() {
   fs.writeFileSync(filePath, JSON.stringify(finalDatabase, null, 4) + '\n', 'utf8');
   console.log(`Successfully updated ${filePath}. Total questions modified: ${changes.length}`);
 
-  // 1b. Record what this run audited (audit/progress.json + audit/PROGRESS.md)
+  // 1b. Record what this run audited (audit/progress/<category>.json)
   const updatedProgress = recordRun(
     progress,
     category,
