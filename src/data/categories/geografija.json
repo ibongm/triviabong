@@ -25139,5 +25139,470 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Francuske?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Rim",
+            "Berlin",
+            "Madrid"
+        ],
+        "explanation": "Pariz je glavni grad i najveći grad Francuske, smješten na rijeci Seini, poznat po kulturnoj baštini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji kontinent povezuje Sjevernu i Južnu Ameriku?",
+        "correct_answer": "Srednja Amerika",
+        "incorrect_answers": [
+            "Australija",
+            "Antarktika",
+            "Azija"
+        ],
+        "explanation": "Srednja Amerika je uska prevlaka koja spaja Sjevernu i Južnu Ameriku, te odvaja Tihi ocean od Karipskog mora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji planinski lanac čini prirodnu granicu između Europe i Azije?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Alpe",
+            "Ande",
+            "Himalaja"
+        ],
+        "explanation": "Planina Ural proteže se od Arktičkog oceana do rijeke Ural, tradicionalno označavajući granicu između europskog i azijskog kontinenta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji arhipelag uključuje otoke Honshu, Hokkaido, Kyushu i Shikoku?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Filipini",
+            "Indonezija",
+            "Novi Zeland"
+        ],
+        "explanation": "Ovi otoci su četiri glavna otoka Japana, države koja se sastoji od velikog broja otoka u Tihom oceanu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva sedimentna stijena nastala taloženjem organskih tvari, koja je važan izvor energije?",
+        "correct_answer": "Ugljen",
+        "incorrect_answers": [
+            "Granit",
+            "Mramor",
+            "Pješčenjak"
+        ],
+        "explanation": "Ugljen nastaje geološkim procesima od ostataka biljaka kroz milijune godina, pod visokim tlakom i temperaturom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja rijeka tvori veliku deltu u Egiptu prije nego što se ulije u Sredozemno more?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazon",
+            "Mississippi",
+            "Dunav"
+        ],
+        "explanation": "Delta Nila je velika riječna delta u sjevernom Egiptu, gdje se rijeka Nil razlijeva u Sredozemno more.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koji je treći najveći otok na svijetu po površini?",
+        "correct_answer": "Borneo",
+        "incorrect_answers": [
+            "Grenland",
+            "Nova Gvineja",
+            "Madagaskar"
+        ],
+        "explanation": "Borneo je treći najveći otok na svijetu, podijeljen između Malezije, Indonezije i Bruneja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koji tip klime karakterizira nedostatak oborina, visoke temperature i oskudna vegetacija, tipičan za pustinjska područja?",
+        "correct_answer": "Suha (aridna) klima",
+        "incorrect_answers": [
+            "Kontinentalna klima",
+            "Polarna klima",
+            "Umjerena klima"
+        ],
+        "explanation": "Aridna klima je klima s vrlo malo oborina, što dovodi do nastanka pustinja i polupustinja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Italije?",
+        "correct_answer": "Rim",
+        "incorrect_answers": [
+            "Venecija",
+            "Milano",
+            "Firenca"
+        ],
+        "explanation": "Rim je glavni grad Italije i najveći grad u zemlji, poznat po svojoj bogatoj povijesti i arhitekturi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva kopnena masa okružena vodom s tri strane?",
+        "correct_answer": "Poluotok",
+        "incorrect_answers": [
+            "Otok",
+            "Prevlačni prolaz",
+            "Zaljev"
+        ],
+        "explanation": "Poluotok je geografska formacija koja je s tri strane okružena vodom, a s četvrte strane je spojena s kopnom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koji je drugi najviši vrh na svijetu, nakon Mount Everesta?",
+        "correct_answer": "K2 (Mount Godwin Austen)",
+        "incorrect_answers": [
+            "Kangchendzonga",
+            "Lhotse",
+            "Makalu"
+        ],
+        "explanation": "K2 je s 8.611 metara drugi najviši vrh svijeta, smješten u planinskom lancu Karakorum na granici Pakistana i Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koje je more poznato po tome što je najslanije more na svijetu?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Crveno more",
+            "Baltičko more",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Mrtvo more, zapravo jezero, je izuzetno slano i nalazi se između Izraela i Jordana. Njegova visoka slanost sprječava život morskih organizama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je najdublji dio Svjetskog oceana, smješten u Tihom oceanu?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanska brazda",
+            "Javanska brazda",
+            "Aleutska brazda"
+        ],
+        "explanation": "Marijanska brazda je najdublji oceanski rov na svijetu, s najdubljom točkom, Challenger Deep, na oko 11.000 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Njemačke?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "Frankfurt",
+            "München",
+            "Hamburg"
+        ],
+        "explanation": "Berlin je glavni grad i najveći grad Njemačke, smješten na rijeci Spree.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Kako se naziva uski kopneni pojas koji spaja dvije veće kopnene mase?",
+        "correct_answer": "Prevlak (zemljana prevlaka)",
+        "incorrect_answers": [
+            "Tjesnac",
+            "Zaljev",
+            "Delta"
+        ],
+        "explanation": "Prevlak je uska kopnena masa koja spaja dva veća kopnena područja i obično je okružena vodom s dvije strane.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koje je jezero u Africi najdublje i ima najveći volumen slatke vode?",
+        "correct_answer": "Jezero Tanganjika",
+        "incorrect_answers": [
+            "Jezero Victoria",
+            "Jezero Malawi",
+            "Jezero Chad"
+        ],
+        "explanation": "Jezero Tanganjika je drugo najdublje slatkovodno jezero na svijetu i sadrži najveći volumen slatke vode u Africi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koji je ocean najmanji po površini?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana na Zemlji, smješten oko Sjevernog pola.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji planinski lanac dominira istočnom obalom Sjeverne Amerike?",
+        "correct_answer": "Apalači",
+        "incorrect_answers": [
+            "Stjenjak",
+            "Sierra Nevada",
+            "Kaskadni lanac"
+        ],
+        "explanation": "Apalači su niz planina na istoku Sjeverne Amerike, protežu se od Newfoundlanda do Alabame.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva područje koje prima manje od 250 mm oborina godišnje?",
+        "correct_answer": "Pustinja",
+        "incorrect_answers": [
+            "Stepa",
+            "Savana",
+            "Prašuma"
+        ],
+        "explanation": "Pustinje su suha područja s vrlo niskim razinama oborina, što rezultira oskudnom ili nikakvom vegetacijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji kontinent je u potpunosti na južnoj hemisferi?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Južna Amerika",
+            "Afrika"
+        ],
+        "explanation": "Antarktika je jedini kontinent koji se u cijelosti nalazi južno od ekvatora i okružen je Južnim oceanom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma diže kroz Zemljinu koru i izbija na površinu, stvarajući planine i reljef?",
+        "correct_answer": "Vulkanizam",
+        "incorrect_answers": [
+            "Potres",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Vulkanizam je pojava izbijanja magme, pepela i plinova iz unutrašnjosti Zemlje na površinu, stvarajući vulkane.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Španjolske?",
+        "correct_answer": "Madrid",
+        "incorrect_answers": [
+            "Barcelona",
+            "Valencia",
+            "Sevilla"
+        ],
+        "explanation": "Madrid je glavni grad i najveći grad Španjolske, smješten u središnjem dijelu Pirenejskog poluotoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Kini i treća najduža rijeka na svijetu?",
+        "correct_answer": "Yangtze (Chang Jiang)",
+        "incorrect_answers": [
+            "Žuta rijeka",
+            "Mekong",
+            "Indus"
+        ],
+        "explanation": "Rijeka Yangtze je najduža rijeka u Aziji i treća najduža rijeka na svijetu, teče u potpunosti unutar Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva topla morska struja koja značajno utječe na klimu zapadne Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Kalifornijska struja",
+            "Humboldtova struja"
+        ],
+        "explanation": "Golfska struja prenosi tople vode iz Meksičkog zaljeva preko Atlantika, čineći klimu zapadne Europe znatno blažom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koji je najmanji kontinent na svijetu po površini?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija je i kontinent i država, te je najmanji kontinent na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi grad Rio de Janeiro, poznat po kipu Krista Otkupitelja?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Kolumbija",
+            "Peru"
+        ],
+        "explanation": "Rio de Janeiro je poznati grad u Brazilu, smješten na obali Atlantskog oceana, poznat po svom karnevalu i kipu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna pukotina ili rasjed u Zemljinoj kori duž koje dolazi do pomicanja stijena i potresa?",
+        "correct_answer": "Rasjed",
+        "incorrect_answers": [
+            "Vulkanski krater",
+            "Delta",
+            "Prevlak"
+        ],
+        "explanation": "Rasjed je prelom u stijenama Zemljine kore duž kojeg se blokovi stijena pomiču jedni u odnosu na druge, uzrokujući potrese.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koji oblik reljefa karakterizira ravna, visoko položena kopnena masa s jedne ili više strana okružena strmim padinama?",
+        "correct_answer": "Plato (visoravan)",
+        "incorrect_answers": [
+            "Dolina",
+            "Brdo",
+            "Kanjon"
+        ],
+        "explanation": "Plato je prostrano, relativno ravno područje koje se znatno izdiže iznad okolnog terena, često s oštrim rubovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koje je jezero najveće slatkovodno jezero u Sjevernoj Americi po površini?",
+        "correct_answer": "Jezero Superior",
+        "incorrect_answers": [
+            "Jezero Huron",
+            "Jezero Michigan",
+            "Veliko Solno jezero"
+        ],
+        "explanation": "Jezero Superior je najveće jezero po površini među Velikim jezerima i najveće slatkovodno jezero u Sjevernoj Americi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Kako se naziva vertikalno miješanje vode u oceanu, gdje se hladna, hranjivim tvarima bogata voda diže na površinu?",
+        "correct_answer": "Uplifting (uzdizanje)",
+        "incorrect_answers": [
+            "Downwelling (poniranje)",
+            "Cirkulacija",
+            "Plima i oseka"
+        ],
+        "explanation": "Uplifting je oceanografski fenomen kada se duboka, hladna voda bogata hranjivim tvarima diže prema površini oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Koja država je dom za slapove Niagara?",
+        "correct_answer": "Kanada i SAD",
+        "incorrect_answers": [
+            "Meksiko",
+            "Brazil",
+            "Argentina"
+        ],
+        "explanation": "Slapovi Niagara se nalaze na granici Kanade (Ontario) i Sjedinjenih Američkih Država (New York).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
