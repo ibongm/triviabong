@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "categories": {
+    "opca_znanje": {
+      "complete": false,
+      "total": 132,
+      "auditedIds": [
+        "hr_gen_102",
+        "hr_gen_103",
+        "hr_gen_104",
+        "hr_gen_106",
+        "hr_gen_107",
+        "hr_gen_108",
+        "hr_gen_109",
+        "hr_gen_110",
+        "hr_gen_111",
+        "hr_gen_112",
+        "hr_gen_113",
+        "hr_gen_114",
+        "hr_gen_115",
+        "hr_gen_116",
+        "hr_gen_117",
+        "hr_gen_118",
+        "hr_gen_119",
+        "hr_gen_120",
+        "hr_gen_121",
+        "hr_gen_122",
+        "hr_gen_123",
+        "hr_gen_124",
+        "hr_gen_125",
+        "hr_gen_126",
+        "hr_gen_127"
+      ],
+      "runs": [
+        {
+          "runId": "38844694541",
+          "date": "2026-10-16",
+          "audited": 25,
+          "modified": 0,
+          "failedBatches": 0,
+          "modifiedIds": []
+        }
+      ]
+    }
+  }
+}
