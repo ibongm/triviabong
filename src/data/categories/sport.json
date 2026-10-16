@@ -32151,5 +32151,590 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koja se država smatra domovinom nogometa?",
+        "correct_answer": "Engleska",
+        "incorrect_answers": [
+            "Brazil",
+            "Njemačka",
+            "Italija"
+        ],
+        "explanation": "Moderni nogomet kakvog poznajemo razvio se u Engleskoj u 19. stoljeću. Prva pravila su kodificirana tamo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koliko je bodova vrijedio pogodak iz igre izvan linije za tri poena prije uvođenja te linije u košarci?",
+        "correct_answer": "Dva",
+        "incorrect_answers": [
+            "Jedan",
+            "Tri",
+            "Četiri"
+        ],
+        "explanation": "Prije uvođenja linije za tri poena, svi pogoci iz igre vrijedili su dva boda. Linija je uvedena u NBA 1979. godine, mijenjajući dotadašnje bodovanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Kako se naziva početni blok koji atletičari koriste za start u sprinterskim disciplinama?",
+        "correct_answer": "Startni blok",
+        "incorrect_answers": [
+            "Odbijač",
+            "Poluga",
+            "Potpora"
+        ],
+        "explanation": "Startni blok omogućuje sprinterima eksplozivniji početak utrke pružajući im čvrstu potporu za noge. Koristi se za bolje ubrzanje s mjesta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koje su boje zastave koja označava kraj utrke u Formuli 1?",
+        "correct_answer": "Crno-bijela šahovnica",
+        "incorrect_answers": [
+            "Crvena",
+            "Žuta",
+            "Zelena"
+        ],
+        "explanation": "Crno-bijela šahovnica signalizira vozačima da je utrka završena, a prvo vozilo koje prođe ispod nje pobjednik je. To je univerzalni simbol.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Koji je dio tijela zabranjeno udarati u profesionalnom boksu?",
+        "correct_answer": "Potiljak",
+        "incorrect_answers": [
+            "Brada",
+            "Trbuh",
+            "Ramena"
+        ],
+        "explanation": "Udaranje u potiljak (stražnji dio glave) strogo je zabranjeno u boksu zbog visokog rizika od ozbiljnih ozljeda. Takvi udarci rezultiraju diskvalifikacijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koja od navedenih disciplina nije dio alpskog skijanja?",
+        "correct_answer": "Skijaško trčanje",
+        "incorrect_answers": [
+            "Slalom",
+            "Spust",
+            "Veleslalom"
+        ],
+        "explanation": "Skijaško trčanje je nordijska disciplina, dok su slalom, spust i veleslalom standardne discipline alpskog skijanja. Alpsko skijanje uključuje spuštanje niz padine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Koliko je metara dužina standardnog olimpijskog bazena?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "100 metara",
+            "75 metara"
+        ],
+        "explanation": "Olimpijski bazeni, koji se koriste za međunarodna natjecanja, uvijek su dugi 50 metara. Kraći bazeni su obično za klupska natjecanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Kako se naziva sprava u muškoj gimnastici koja se sastoji od dva paralelna stupa s prečkama?",
+        "correct_answer": "Paralelne prečke",
+        "incorrect_answers": [
+            "Razboj",
+            "Karike",
+            "Greda"
+        ],
+        "explanation": "Paralelne prečke su jedna od šest sprava u muškoj sportskoj gimnastici. Razboj i karike su također muške sprave, dok je greda ženska sprava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koja boja majice označava ukupnog vođu Tour de Francea?",
+        "correct_answer": "Žuta majica",
+        "incorrect_answers": [
+            "Zelena majica",
+            "Bijela majica",
+            "Točkasta majica"
+        ],
+        "explanation": "Žuta majica (Maillot Jaune) je najprestižniji simbol u Tour de Franceu i dodjeljuje se vozaču s najboljim ukupnim vremenom. Ostale majice su za druge kategorije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Kako se naziva rezultat kada igrač u golfu završi rupu s jednim udarcem manje od 'para' (očekivanog broja udaraca)?",
+        "correct_answer": "Birdie",
+        "incorrect_answers": [
+            "Eagle",
+            "Bogey",
+            "Albatros"
+        ],
+        "explanation": "Birdie je golf izraz za rezultat koji je jedan udarac ispod 'para' za tu rupu. 'Eagle' je dva udarca ispod, a 'bogey' jedan udarac iznad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) čini jednu momčad u bazenu tijekom vaterpolo utakmice?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "Vaterpolo momčad na terenu (u bazenu) sastoji se od šest igrača i jednog vratara, što ukupno čini sedam igrača. To je osnovno pravilo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se lopta ovalnog oblika smije dodavati rukom samo unatrag ili ustranu, ali ne naprijed?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Američki nogomet",
+            "Australski nogomet",
+            "Kanadski nogomet"
+        ],
+        "explanation": "Pravilo dodavanja lopte rukom samo unatrag ili ustranu, ali ne naprijed, jedno je od ključnih i prepoznatljivih pravila ragbija. To ga razlikuje od drugih 'nogometnih' sportova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koliko poena je potrebno za osvajanje seta u stolnom tenisu, pod uvjetom da se ne igra na razliku?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "21",
+            "15",
+            "10"
+        ],
+        "explanation": "U stolnom tenisu se set osvaja s 11 poena, s minimalno dva poena razlike. Ranije se igralo do 21 poena, što je bila promjena pravila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "S koliko metara se izvodi sedmerac u rukometu?",
+        "correct_answer": "Sedam metara",
+        "incorrect_answers": [
+            "Šest metara",
+            "Devet metara",
+            "Jedanaest metara"
+        ],
+        "explanation": "Sedmerac, ekvivalent penalu u nogometu, izvodi se s udaljenosti od sedam metara od gola. To je slobodan udarac s prekršajem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koliko je maksimalan broj bodova koji se može postići jednim bacanjem strelice u pikadu?",
+        "correct_answer": "60",
+        "incorrect_answers": [
+            "50",
+            "20",
+            "100"
+        ],
+        "explanation": "Maksimalan broj bodova je trostruka dvadesetica (Triple 20), što je 60 bodova. Središnja meta (Bullseye) vrijedi 50 bodova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Kako se naziva bacanje u kuglanju kada igrač sruši svih deset čunjeva s prvim bacanjem u okviru (frameu)?",
+        "correct_answer": "Strike",
+        "incorrect_answers": [
+            "Spare",
+            "Turkey",
+            "Gutter"
+        ],
+        "explanation": "Strike je idealan rezultat u kuglanju, gdje se svi čunjevi sruše prvim bacanjem u okviru. To donosi dodatne bodove u sljedeća dva bacanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koji je cilj juda, osim samoodbrane?",
+        "correct_answer": "Prevladati protivnika bacanjem ili imobilizacijom",
+        "incorrect_answers": [
+            "Udariti protivnika u vitalne točke",
+            "Koristiti oružje",
+            "Izbjeći kontakt"
+        ],
+        "explanation": "Judo je borilačka vještina koja se fokusira na bacanja, zahvate i imobilizaciju protivnika na tlu. Udarci su strogo zabranjeni u natjecateljskom judu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "U kojoj zemlji su se održale prve moderne Olimpijske igre 1896. godine?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Francuska",
+            "Velika Britanija",
+            "Sjedinjene Američke Države"
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni, Grčka, 1896. godine, čime je oživljena tradicija antičkih igara. To je bio povijesni događaj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koji se košarkaški tim najčešće povezuje s nadimkom 'Showtime' era 1980-ih?",
+        "correct_answer": "Los Angeles Lakers",
+        "incorrect_answers": [
+            "Boston Celtics",
+            "Chicago Bulls",
+            "Detroit Pistons"
+        ],
+        "explanation": "'Showtime' era Los Angeles Lakersa, predvođena Magicom Johnsonom, bila je poznata po brzoj, atraktivnoj i zabavnoj košarci. Osvojili su više naslova u tom razdoblju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koju spravu atletičari koriste za preskakanje visoke letvice u skoku s motkom?",
+        "correct_answer": "Motku",
+        "incorrect_answers": [
+            "Štap",
+            "Uže",
+            "Greda"
+        ],
+        "explanation": "U skoku s motkom sportaši koriste dugu, fleksibilnu motku kako bi se odgurnuli od tla i preskočili postavljenu letvicu. To je tehnički zahtjevna disciplina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koji naziv se koristi za biciklističku stazu ovalnog oblika s nagnutim zavojima?",
+        "correct_answer": "Velodrom",
+        "incorrect_answers": [
+            "Arena",
+            "Stadion",
+            "Pista"
+        ],
+        "explanation": "Velodrom je specijalizirana staza za biciklističke utrke na stazi, prepoznatljiva po strmim nagibima u zavojima koji omogućuju velike brzine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Kako se naziva sportsko mačevanje koje koristi najlakši i najfleksibilniji tip mača, a bodovi se postižu dodirom vrha oštrice bilo gdje na tijelu protivnika?",
+        "correct_answer": "Floret",
+        "incorrect_answers": [
+            "Sablja",
+            "Mač",
+            "Katana"
+        ],
+        "explanation": "Floret je jedna od tri discipline sportskog mačevanja, karakterizirana laganim mačem i specifičnim pravilima bodovanja na cijelo tijelo. Sablja i mač imaju drugačija pravila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko članova posade maksimalno može imati bob u natjecanjima u bobu dvosjedu?",
+        "correct_answer": "Dva",
+        "incorrect_answers": [
+            "Jedan",
+            "Četiri",
+            "Tri"
+        ],
+        "explanation": "U disciplini bob dvosjeda, posada se sastoji od vozača i kočničara, ukupno dvije osobe. Postoje i discipline za četverosjed.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koja od navedenih sprava NIJE dio ritmičke gimnastike?",
+        "correct_answer": "Preskok",
+        "incorrect_answers": [
+            "Traka",
+            "Obruč",
+            "Lopta"
+        ],
+        "explanation": "Preskok je disciplina sportske (umjetničke) gimnastike, dok su traka, obruč, lopta, vijača i čunjevi rekviziti u ritmičkoj gimnastici. One zahtijevaju različite vještine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Kako se naziva sportsko natjecanje u kojem se vozači natječu na javnim i zatvorenim cestama s posebno prilagođenim automobilima?",
+        "correct_answer": "Reli",
+        "incorrect_answers": [
+            "Formula 1",
+            "IndyCar",
+            "NASCAR"
+        ],
+        "explanation": "Reli je vrsta motosporta gdje se vozači utrkuju na različitim podlogama (makadam, asfalt, snijeg) po etapama, uz pomoć suvozača. Razlikuje se od kružnih utrka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Koliko bodova donosi touchdown u američkom nogometu?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Tri",
+            "Sedam",
+            "Jedan"
+        ],
+        "explanation": "Touchdown je najvažniji način postizanja bodova u američkom nogometu i vrijedi šest bodova. Nakon toga slijedi pokušaj za dodatne bodove.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koliko igrača jedne momčadi smije biti na ledu istovremeno u standardnoj hokejaškoj utakmici, uključujući vratara?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Četiri"
+        ],
+        "explanation": "Uobičajena postava hokejaške momčadi na ledu uključuje pet klizača i jednog vratara, što ukupno čini šest igrača. Kazne smanjuju broj igrača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u veslanju gdje svaki veslač koristi samo jedno veslo?",
+        "correct_answer": "Rimen",
+        "incorrect_answers": [
+            "Skul",
+            "Dvosjed",
+            "Četverac"
+        ],
+        "explanation": "Rimen veslanje uključuje korištenje jednog vesla po veslaču, dok se u skul veslanju koriste dva vesla. Skul je najčešće u jednosjedu, dublu ili četvercu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koliko bijelih kugli se koristi na početku snooker partije?",
+        "correct_answer": "Jedna",
+        "incorrect_answers": [
+            "Dvije",
+            "Tri",
+            "Niti jedna"
+        ],
+        "explanation": "U snookeru se koristi samo jedna bijela kugla (cue ball) kojom se udara po drugim kuglama. To je standardno pravilo za sve udarce.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koliko je 'outova' (izlazaka) potrebno da se završi jedna 'izmjena' (inning) u baseballu za jednu momčad?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Jedan",
+            "Dva",
+            "Četiri"
+        ],
+        "explanation": "U baseballu, svaka momčad ima tri 'outa' po izmjeni prije nego što se momčadi zamijene u napadu i obrani. Cilj je spriječiti protivnika u bodovanju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koja od navedenih figura nije dio umjetničkog klizanja?",
+        "correct_answer": "Slalom",
+        "incorrect_answers": [
+            "Axel",
+            "Lutz",
+            "Salchow"
+        ],
+        "explanation": "Axel, Lutz i Salchow su imena skokova u umjetničkom klizanju, dok je slalom disciplina alpskog skijanja. Svaki skok ima svoju specifičnu tehniku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem konji trče s jahačima, a jahači se zovu džokeji?",
+        "correct_answer": "Konjske utrke",
+        "incorrect_answers": [
+            "Konjički sport",
+            "Preponsko jahanje",
+            "Drezura"
+        ],
+        "explanation": "Konjske utrke su sport u kojem se konji natječu u brzini pod vodstvom džokeja. Ostale su discipline konjičkog sporta, ali nisu isključivo utrke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Kako se naziva početni udarac kojim se započinje igra u odbojci?",
+        "correct_answer": "Servis",
+        "incorrect_answers": [
+            "Smeč",
+            "Blok",
+            "Doping"
+        ],
+        "explanation": "Servis je udarac kojim se lopta ubacuje u igru preko mreže i započinje svaki poen u odbojci. Cilj je otežati prijem protivničkoj momčadi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koji je stil skijaškog trčanja brži i zahtijeva klizanje poput onog na ledu?",
+        "correct_answer": "Slobodni stil (klizanje)",
+        "incorrect_answers": [
+            "Klasični stil",
+            "Telemark stil",
+            "Alpski stil"
+        ],
+        "explanation": "Slobodni stil, često nazivan i klizanje, je brži od klasičnog stila u skijaškom trčanju jer omogućuje veću brzinu i efikasnost. Klasični stil koristi paralelne pokrete.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koliko bodova donosi pogodak u sam centar mete u streličarstvu (tzv. 'bullseye')?",
+        "correct_answer": "Deset",
+        "incorrect_answers": [
+            "Pet",
+            "Jedan",
+            "Dvadeset"
+        ],
+        "explanation": "Najviši broj bodova u streličarstvu, za pogodak u središte mete, je deset. Cilj je postići što veći broj bodova preciznošću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koji rekvizit se koristi za udaranje loptice u sportu skvoš?",
+        "correct_answer": "Reket",
+        "incorrect_answers": [
+            "Palica",
+            "Bat",
+            "Drvo"
+        ],
+        "explanation": "U skvošu se, kao i u tenisu ili badmintonu, koristi reket za udaranje loptice o zidove terena. To je osnovni rekvizit za igru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u dizanju utega gdje se šipka diže jednim kontinuiranim pokretom iznad glave?",
+        "correct_answer": "Trzaj",
+        "incorrect_answers": [
+            "Izbačaj",
+            "Čučanj",
+            "Potisak"
+        ],
+        "explanation": "Trzaj (snatch) je disciplina u dizanju utega gdje se uteg diže iz poda u jednu poziciju iznad glave bez zaustavljanja. Izbačaj (clean & jerk) ima dva pokreta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koja je glavna zabrana u grčko-rimskom hrvanju u usporedbi sa slobodnim stilom?",
+        "correct_answer": "Zabranjen je hvat ispod pojasa",
+        "incorrect_answers": [
+            "Zabranjeno je bacanje",
+            "Zabranjeno je hvatanje za noge",
+            "Zabranjeno je držanje protivnika na zemlji"
+        ],
+        "explanation": "U grčko-rimskom hrvanju strogo je zabranjeno hvatati protivnika ispod pojasa ili koristiti noge za napad, što ga razlikuje od slobodnog stila. Fokus je na gornjem dijelu tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2492",
+        "category": "sport",
+        "question": "Kako se naziva igrač u baseballu koji stoji iza udarača i hvata loptice koje baca bacač?",
+        "correct_answer": "Hvatač (catcher)",
+        "incorrect_answers": [
+            "Bacač (pitcher)",
+            "Prvi baseman",
+            "Vanjski igrač"
+        ],
+        "explanation": "Hvatač je ključna obrambena pozicija u baseballu, zadužen za hvatanje loptica od bacača i signaliziranje strategije. Oni su 'mozak' obrane.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
