@@ -31654,5 +31654,605 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sport_2414",
+        "category": "sport",
+        "question": "Kako se naziva glavni sudac nogometne utakmice?",
+        "correct_answer": "Glavni arbitar",
+        "incorrect_answers": [
+            "Linijski sudac",
+            "Pomoćni sudac",
+            "VAR sudac"
+        ],
+        "explanation": "Glavni arbitar je odgovoran za vođenje utakmice na terenu i donošenje konačnih odluka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2415",
+        "category": "sport",
+        "question": "Koliko koševa vrijedi pogodak s linije za tri poena u košarci?",
+        "correct_answer": "Tri koša",
+        "incorrect_answers": [
+            "Dva koša",
+            "Jedan koš",
+            "Četiri koša"
+        ],
+        "explanation": "Svaki uspješan pogodak iza linije za tri poena donosi momčadi tri boda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2416",
+        "category": "sport",
+        "question": "Koja je standardna dužina maratonske utrke u kilometrima?",
+        "correct_answer": "42.195 km",
+        "incorrect_answers": [
+            "21.0975 km",
+            "10 km",
+            "5 km"
+        ],
+        "explanation": "Maraton je dugoprugaška utrka čija je službena duljina utvrđena na 42.195 kilometara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2417",
+        "category": "sport",
+        "question": "Kako se naziva rezultat 40-40 u teniskom gemu?",
+        "correct_answer": "Izjednačenje (Deuce)",
+        "incorrect_answers": [
+            "Prednost",
+            "Gem lopta",
+            "Break lopta"
+        ],
+        "explanation": "Kada oba igrača u gemu osvoje po tri boda, rezultat je izjednačenje (deuce).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2418",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) čini jednu momčad na terenu u rukometu?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "Svaka rukometna momčad na terenu ima šest igrača i jednog vratara, ukupno sedam.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2419",
+        "category": "sport",
+        "question": "Koja boja kape tradicionalno označava vođu u plivačkim utrkama na otvorenom moru?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Crvena",
+            "Plava",
+            "Bijela"
+        ],
+        "explanation": "Žuta kapa pomaže sucima i spasiocima da lakše prate vodećeg plivača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2420",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička disciplina u kojoj se sportaši natječu na gredi, parteru, preskoku i dvovisinskom razboju?",
+        "correct_answer": "Sportska gimnastika za žene",
+        "incorrect_answers": [
+            "Sportska gimnastika za muškarce",
+            "Ritmička gimnastika",
+            "Trampolin"
+        ],
+        "explanation": "To su četiri discipline specifične za žensku sportsku gimnastiku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2421",
+        "category": "sport",
+        "question": "Kako se zove najpoznatija utrka u spustu Svjetskog kupa u alpskom skijanju, koja se održava u Kitzbühelu?",
+        "correct_answer": "Streif",
+        "incorrect_answers": [
+            "Saslong",
+            "Lauberhorn",
+            "Kandahar"
+        ],
+        "explanation": "Streif je legendarna staza na Hahnenkammu u Kitzbühelu, poznata po svojoj ekstremnoj težini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2422",
+        "category": "sport",
+        "question": "Koliko puta je Muhammad Ali osvojio svjetski naslov prvaka u teškoj kategoriji prema WBA/WBC organizacijama (stanje 2024.)?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Jedan",
+            "Dva",
+            "Četiri"
+        ],
+        "explanation": "Ali je tri puta osvojio naslov svjetskog prvaka u teškoj kategoriji, što je bio rekord u njegovo vrijeme.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2423",
+        "category": "sport",
+        "question": "Koji je vozač Formule 1 osvojio najviše svjetskih naslova (stanje 2024.)?",
+        "correct_answer": "Michael Schumacher i Lewis Hamilton",
+        "incorrect_answers": [
+            "Ayrton Senna",
+            "Alain Prost",
+            "Juan Manuel Fangio"
+        ],
+        "explanation": "Schumacher i Hamilton drže rekord sa po sedam osvojenih svjetskih prvenstava u Formuli 1.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2424",
+        "category": "sport",
+        "question": "Koja je reprezentacija osvojila prvo Europsko prvenstvo u nogometu 1960. godine?",
+        "correct_answer": "Sovjetski Savez",
+        "incorrect_answers": [
+            "Jugoslavija",
+            "Čehoslovačka",
+            "Zapadna Njemačka"
+        ],
+        "explanation": "Prvo Europsko prvenstvo, održano u Francuskoj, osvojio je Sovjetski Savez pobjedom nad Jugoslavijom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2425",
+        "category": "sport",
+        "question": "Tko je rekorder po broju osvojenih NBA prvenstava kao igrač (stanje 2024.)?",
+        "correct_answer": "Bill Russell",
+        "incorrect_answers": [
+            "LeBron James",
+            "Michael Jordan",
+            "Kareem Abdul-Jabbar"
+        ],
+        "explanation": "Bill Russell osvojio je nevjerojatnih 11 NBA naslova s Boston Celticsima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2426",
+        "category": "sport",
+        "question": "Koja je atletska disciplina jedina u kojoj se natjecatelji okreću oko svoje osi prije bacanja sprave?",
+        "correct_answer": "Bacanje diska",
+        "incorrect_answers": [
+            "Bacanje koplja",
+            "Bacanje kugle",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Bacač diska se okreće kako bi generirao centrifugalnu silu za veći domet bacanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2427",
+        "category": "sport",
+        "question": "Kako se naziva udarac u tenisu kada igrač lopticu udari odozdo, dajući joj rotaciju unatrag?",
+        "correct_answer": "Slice",
+        "incorrect_answers": [
+            "Topspin",
+            "Volley",
+            "Smash"
+        ],
+        "explanation": "Slice (ili bekhend s odrezanim udarcem) stvara rotaciju unatrag, zbog čega loptica nisko odskače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2428",
+        "category": "sport",
+        "question": "Koliko četvrtina traje standardna vaterpolo utakmica?",
+        "correct_answer": "Četiri",
+        "incorrect_answers": [
+            "Dvije",
+            "Tri",
+            "Pet"
+        ],
+        "explanation": "Vaterpolo utakmica sastoji se od četiri četvrtine, svaka traje određeno vrijeme ovisno o ligi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2429",
+        "category": "sport",
+        "question": "Tko se smatra osnivačem juda?",
+        "correct_answer": "Jigoro Kano",
+        "incorrect_answers": [
+            "Gichin Funakoshi",
+            "Morihei Ueshiba",
+            "Bruce Lee"
+        ],
+        "explanation": "Jigoro Kano je krajem 19. stoljeća razvio judo iz starijih japanskih borilačkih vještina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2430",
+        "category": "sport",
+        "question": "Koja je boja majice namijenjena najboljem mladom vozaču (ispod 25 godina) na Tour de Franceu?",
+        "correct_answer": "Bijela majica",
+        "incorrect_answers": [
+            "Žuta majica",
+            "Zelena majica",
+            "Točkasta majica"
+        ],
+        "explanation": "Bijela majica (Maillot Blanc) nagrada je za najbolje plasiranog vozača do 25 godina u ukupnom poretku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2431",
+        "category": "sport",
+        "question": "Koliko je 'trećina' (perioda) u standardnoj hokejaškoj utakmici?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Dvije",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "Hokejaška utakmica podijeljena je na tri trećine, od kojih svaka traje 20 minuta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2432",
+        "category": "sport",
+        "question": "Kako se naziva natjecateljski veslački čamac za osam veslača s kormilarom?",
+        "correct_answer": "Osmerac",
+        "incorrect_answers": [
+            "Dvojac",
+            "Četverac",
+            "Samac"
+        ],
+        "explanation": "Osmerac je najbrži timski veslački čamac, s osam veslača i kormilarom koji usmjerava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2433",
+        "category": "sport",
+        "question": "U kojem se grčkom gradu održavaju antičke Olimpijske igre?",
+        "correct_answer": "Olimpija",
+        "incorrect_answers": [
+            "Atena",
+            "Sparta",
+            "Korint"
+        ],
+        "explanation": "Antičke Olimpijske igre održavale su se u svetištu Olimpija u Grčkoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2434",
+        "category": "sport",
+        "question": "Koji klub ima najviše osvojenih naslova Lige prvaka (ili Kupa prvaka) u povijesti (stanje 2024.)?",
+        "correct_answer": "Real Madrid",
+        "incorrect_answers": [
+            "AC Milan",
+            "Bayern München",
+            "Liverpool"
+        ],
+        "explanation": "Real Madrid je rekorder s 15 osvojenih naslova najelitnijeg europskog nogometnog klupskog natjecanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2435",
+        "category": "sport",
+        "question": "Koliko 'inninga' (izmjena) ima standardna baseball utakmica?",
+        "correct_answer": "Devet",
+        "incorrect_answers": [
+            "Sedam",
+            "Jedanaest",
+            "Pet"
+        ],
+        "explanation": "Standardna baseball utakmica igra se u devet izmjena, osim ako nije izjednačen rezultat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2436",
+        "category": "sport",
+        "question": "Koliko disciplina obuhvaća muški desetoboj u atletici?",
+        "correct_answer": "Deset",
+        "incorrect_answers": [
+            "Sedam",
+            "Osam",
+            "Dvanaest"
+        ],
+        "explanation": "Desetoboj je kombinirano natjecanje koje se sastoji od deset različitih atletskih disciplina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2437",
+        "category": "sport",
+        "question": "Koliko kugli crvene boje se koristi na početku snooker partije?",
+        "correct_answer": "Petnaest",
+        "incorrect_answers": [
+            "Deset",
+            "Dvanaest",
+            "Šesnaest"
+        ],
+        "explanation": "Na početku partije na stolu se nalazi petnaest crvenih kugli, smještenih u trokutu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2438",
+        "category": "sport",
+        "question": "Tko je prva žena koja je osvojila UFC naslov prvakinje (stanje 2024.)?",
+        "correct_answer": "Ronda Rousey",
+        "incorrect_answers": [
+            "Cris Cyborg",
+            "Amanda Nunes",
+            "Joanna Jędrzejczyk"
+        ],
+        "explanation": "Ronda Rousey bila je prva UFC prvakinja u bantam kategoriji za žene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2439",
+        "category": "sport",
+        "question": "Kako se naziva rupa u golfu koja je predviđena za tri udarca?",
+        "correct_answer": "Par 3",
+        "incorrect_answers": [
+            "Birdie",
+            "Eagle",
+            "Bogey"
+        ],
+        "explanation": "'Par' označava očekivani broj udaraca za završetak rupe, pa Par 3 znači tri udarca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2440",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'sanke' koja se gura niz pistu prije nego što sportaši uđu u nju?",
+        "correct_answer": "Bob",
+        "incorrect_answers": [
+            "Skeleton",
+            "Sanjkanje",
+            "Nordijska kombinacija"
+        ],
+        "explanation": "U bobu posada gura bob-sanke na startu kako bi postigla početnu brzinu prije ulaska.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2441",
+        "category": "sport",
+        "question": "Kako se naziva osoba koja čita kartu i daje upute vozaču u reli utrci?",
+        "correct_answer": "Suvozač",
+        "incorrect_answers": [
+            "Mehaničar",
+            "Šef ekipe",
+            "Navigator"
+        ],
+        "explanation": "Suvozač je ključan za uspjeh u reliju, dajući precizne upute o stazi vozaču.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2442",
+        "category": "sport",
+        "question": "Kako se naziva startna tehnika u plivanju kojom se izbjegava veliki otpor pri ulasku u vodu?",
+        "correct_answer": "Delfinski zaron (Streamline)",
+        "incorrect_answers": [
+            "Leđni start",
+            "Kraul start",
+            "Prsni start"
+        ],
+        "explanation": "Delfinski zaron je tehnika izduženog tijela nakon starta ili okreta radi minimaliziranja otpora u vodi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2443",
+        "category": "sport",
+        "question": "Koliko vrsta oružja postoji u sportskom mačevanju?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Dva",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "U mačevanju postoje tri vrste oružja: floret, mač i sablja, svako sa svojim pravilima bodovanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2444",
+        "category": "sport",
+        "question": "Tko je jedini hrvatski nogometaš koji je osvojio nagradu Zlatna lopta (Ballon d'Or) (stanje 2024.)?",
+        "correct_answer": "Luka Modrić",
+        "incorrect_answers": [
+            "Davor Šuker",
+            "Robert Prosinečki",
+            "Ivan Rakitić"
+        ],
+        "explanation": "Luka Modrić osvojio je Zlatnu loptu 2018. godine, prekinuvši desetogodišnju dominaciju Messija i Ronalda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2445",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaš poznat pod nadimkom \"Mozart s košarkaških terena\"?",
+        "correct_answer": "Dražen Petrović",
+        "incorrect_answers": [
+            "Toni Kukoč",
+            "Krešimir Ćosić",
+            "Dino Rađa"
+        ],
+        "explanation": "Dražen Petrović je dobio nadimak zbog svoje genijalnosti i virtuoznosti na terenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2446",
+        "category": "sport",
+        "question": "Koliko maksimalno dodira s loptom smije imati momčad prije nego što je pošalje preko mreže u odbojci?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Dva",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "Momčad smije imati najviše tri dodira s loptom (ne uključujući blok) prije nego što je vrati na protivničku stranu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2447",
+        "category": "sport",
+        "question": "Koji se od navedenih rekvizita koristi u ritmičkoj gimnastici?",
+        "correct_answer": "Vrpca",
+        "incorrect_answers": [
+            "Razboj",
+            "Preskok",
+            "Karike"
+        ],
+        "explanation": "Vrpca je jedan od pet rekvizita koji se koriste u ritmičkoj gimnastici, uz obruč, loptu, čunjeve i vijaču.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2448",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u ragbiju \"Union\" verzije?",
+        "correct_answer": "Petnaest",
+        "incorrect_answers": [
+            "Trinaest",
+            "Jedanaest",
+            "Sedam"
+        ],
+        "explanation": "U ragbiju Union, svaka momčad počinje utakmicu s petnaest igrača na terenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2449",
+        "category": "sport",
+        "question": "Koliko se bodova dobije za pogodak u središte mete (bullseye) u pikadu?",
+        "correct_answer": "Pedeset",
+        "incorrect_answers": [
+            "Dvadeset pet",
+            "Pedeset pet",
+            "Sto"
+        ],
+        "explanation": "Bullseye (dvostruki bull) vrijedi 50 bodova, dok vanjski prsten oko njega (single bull) vrijedi 25 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2450",
+        "category": "sport",
+        "question": "Koji sport se igra u zatvorenom terenu s malom gumenom lopticom koja se udara o zidove?",
+        "correct_answer": "Squash",
+        "incorrect_answers": [
+            "Badminton",
+            "Reketbol",
+            "Stolni tenis"
+        ],
+        "explanation": "Squash se igra u zatvorenom terenu s reketima i gumenom lopticom koja se udara o zidove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2451",
+        "category": "sport",
+        "question": "Koji je E-sport poznat po tome što ima timove od 5 igrača koji se bore na mapi s tri linije (lanes) i džunglom?",
+        "correct_answer": "League of Legends",
+        "incorrect_answers": [
+            "Counter-Strike: Global Offensive",
+            "Dota 2",
+            "Overwatch"
+        ],
+        "explanation": "League of Legends (LoL) je MOBA igra s 5v5 timovima na mapi s top, mid i bot linijama te džunglom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2452",
+        "category": "sport",
+        "question": "Koliko je 'država' potrebno da hrvač pobijedi u hrvačkom meču (pin)?",
+        "correct_answer": "Dva",
+        "incorrect_answers": [
+            "Jedan",
+            "Tri",
+            "Četiri"
+        ],
+        "explanation": "Hrvač ostvaruje pobjedu pinom kada protivnika drži na leđima s obje lopatice pritisnute na strunjaču na dvije sekunde.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2453",
+        "category": "sport",
+        "question": "Kako se naziva ekstremni sport u kojem se sportaši spuštaju niz strme, snježne padine na jednoj dasci?",
+        "correct_answer": "Snowboarding",
+        "incorrect_answers": [
+            "Skijanje",
+            "Sanjkanje",
+            "Bobsled"
+        ],
+        "explanation": "Snowboarding je sport u kojem se vozač spušta niz snježnu padinu na specijalnoj dasci.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
