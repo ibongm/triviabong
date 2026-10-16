@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koliko maksimalno izmjena smije napraviti jedna momčad tijekom službene nogometne utakmice (stanje 2024.)?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Tri",
+            "Šest",
+            "Sedam"
+        ],
+        "explanation": "FIFA je trajno usvojila pravilo o pet izmjena kako bi se smanjilo opterećenje igrača zbog gustog rasporeda i zaštitilo njihovo zdravlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Tko je tenisač s najviše osvojenih pojedinačnih naslova na Grand Slam turniru Roland Garros u povijesti (stanje 2024.)?",
+        "correct_answer": "Rafael Nadal",
+        "incorrect_answers": [
+            "Novak Đoković",
+            "Roger Federer",
+            "Pete Sampras"
+        ],
+        "explanation": "Rafael Nadal je poznat kao 'Kralj zemlje' i drži apsolutni rekord s 14 osvojenih titula na French Openu, što ga čini dominantnim na toj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koji je igrač NBA lige poznat po nadimku 'Black Mamba'?",
+        "correct_answer": "Kobe Bryant",
+        "incorrect_answers": [
+            "Michael Jordan",
+            "LeBron James",
+            "Shaquille O'Neal"
+        ],
+        "explanation": "Kobe Bryant sam je osmislio ovaj nadimak, inspiriran ubojitom zmijom, kako bi opisao svoj agresivan i precizan stil igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koja je europska država najuspješnija u povijesti Svjetskih prvenstava u rukometu za muškarce (po broju zlatnih medalja, stanje 2024.)?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Švedska",
+            "Njemačka",
+            "Hrvatska"
+        ],
+        "explanation": "Francuska muška rukometna reprezentacija drži rekord sa 6 osvojenih zlatnih medalja na Svjetskim prvenstvima, čime je najtrofejnija u tom sportu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Koja država ima najviše zlatnih medalja u vaterpolu na Olimpijskim igrama u muškoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Mađarska",
+        "incorrect_answers": [
+            "Srbija",
+            "Hrvatska",
+            "Italija"
+        ],
+        "explanation": "Mađarska je najuspješnija vaterpolska nacija na Olimpijskim igrama s ukupno 9 zlatnih medalja, demonstrirajući dugogodišnju dominaciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koji je sportaš vlasnik svjetskih rekorda na 100m i 200m u atletici (stanje 2024.)?",
+        "correct_answer": "Usain Bolt",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Jesse Owens",
+            "Justin Gatlin"
+        ],
+        "explanation": "Jamajčanski sprinter Usain Bolt postavio je svjetske rekorde na 100m (9.58s) i 200m (19.19s) 2009. godine, te ih i dalje drži.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kako se naziva sustav koji omogućuje vozačima Formule 1 privremeno smanjenje otpora zraka radi pretjecanja?",
+        "correct_answer": "DRS (Drag Reduction System)",
+        "incorrect_answers": [
+            "KERS",
+            "ERS",
+            "ABS"
+        ],
+        "explanation": "DRS je pokretno stražnje krilo koje vozači smiju koristiti na određenim dijelovima staze za postizanje veće brzine i lakše pretjecanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koliko je dugačak olimpijski plivački bazen u metrima?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "100 metara",
+            "33.3 metra"
+        ],
+        "explanation": "Olimpijski bazeni moraju biti dugi 50 metara i široki 25 metara s najmanje 8 staza, što su međunarodni standardi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u odbojci?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Četiri"
+        ],
+        "explanation": "Svaka momčad u odbojci ima šest igrača na terenu, uključujući libera, koji se rotiraju kako bi pokrili sve pozicije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Kako se naziva pobjeda u boksu kada sudac prekine borbu jer jedan borac više ne može nastaviti?",
+        "correct_answer": "Tehnički nokaut (TKO)",
+        "incorrect_answers": [
+            "Nokaut (KO)",
+            "Odluka sudaca",
+            "Diskvalifikacija"
+        ],
+        "explanation": "Tehnički nokaut (TKO) proglašava se kada sudac, liječnik ili kut procijene da borac nije sposoban za nastavak meča.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koja je hrvatska skijašica osvojila najviše olimpijskih medalja?",
+        "correct_answer": "Janica Kostelić",
+        "incorrect_answers": [
+            "Ana Jelušić",
+            "Nika Fleiss",
+            "Leona Popović"
+        ],
+        "explanation": "Janica Kostelić je najtrofejnija hrvatska sportašica na Zimskim olimpijskim igrama sa 4 zlatne i 2 srebrne medalje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u ragbiju 'League' verzije?",
+        "correct_answer": "Trinaest",
+        "incorrect_answers": [
+            "Petnaest",
+            "Jedanaest",
+            "Dvanaest"
+        ],
+        "explanation": "Ragbi League se igra s 13 igrača po momčadi, što je manje od Ragbija Union koji ima 15 igrača po momčadi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "U kojem su grčkom gradu održane prve moderne Olimpijske igre 1896. godine?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Olimpija",
+            "Sparta",
+            "Solun"
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni 1896. godine, čime je oživljena drevna grčka tradicija natjecanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Tko je, nakon što su mu oduzete titule zbog dopinga, ostao bez svih sedam osvojenih naslova na Tour de Franceu?",
+        "correct_answer": "Lance Armstrong",
+        "incorrect_answers": [
+            "Eddy Merckx",
+            "Chris Froome",
+            "Miguel Indurain"
+        ],
+        "explanation": "Lance Armstrong je 2012. godine doživotno suspendiran i oduzeto mu je svih sedam pobjeda na Tour de Franceu zbog dopinga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koliko 'ballova' je potrebno da bacač prošeće udarača (walk) u baseballu?",
+        "correct_answer": "Četiri",
+        "incorrect_answers": [
+            "Tri",
+            "Pet",
+            "Šest"
+        ],
+        "explanation": "Ako bacač baci četiri 'balla' (lopte izvan zone udarca), udarač automatski dobiva slobodnu bazu i šeta na prvu bazu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući golmana) čini jednu momčad na ledu u hokeju na ledu tijekom regularne igre?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Osam"
+        ],
+        "explanation": "Svaka momčad u hokeju na ledu ima šest igrača na ledu tijekom regularne igre: jednog golmana i pet klizača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička disciplina u kojoj se sportašice natječu isključivo na parteru uz glazbu i koreografiju?",
+        "correct_answer": "Ritmička gimnastika",
+        "incorrect_answers": [
+            "Sportska gimnastika",
+            "Akrobatska gimnastika",
+            "Trampolin"
+        ],
+        "explanation": "Ritmička gimnastika je ženska disciplina koja kombinira elemente baleta, gimnastike i plesa, koristeći rekvizite poput obruča ili lopte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi pogodak u vanjski prsten mete (single segment) u pikadu?",
+        "correct_answer": "Nazivni broj",
+        "incorrect_answers": [
+            "Dvostruki broj",
+            "Trostruki broj",
+            "Pedeset"
+        ],
+        "explanation": "Pogodak u vanjski, širi dio segmenta (single) donosi nazivni broj bodova tog segmenta, npr. 20 za segment 20.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koja su tri glavna sporta u konjičkim natjecanjima na Olimpijskim igrama?",
+        "correct_answer": "Dresura, preponsko jahanje i višeboj",
+        "incorrect_answers": [
+            "Galop, kasa i daljinsko jahanje",
+            "Polo, rodei i zaprege",
+            "Voltižiranje, kočije i reining"
+        ],
+        "explanation": "Na Olimpijskim igrama u konjičkom sportu natječe se u disciplinama dresure, preponskog jahanja i eventinga (višeboja), koje testiraju različite vještine jahača i konja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koliko se bodova dobiva za 'touchdown' u američkom nogometu prije dodatnih poena?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Tri",
+            "Sedam",
+            "Dva"
+        ],
+        "explanation": "Touchdown vrijedi šest bodova, nakon čega ekipa ima priliku za dodatni poen (field goal) ili dva poena (konverzija).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Kako se naziva mala loptica koja služi kao meta u boćanju?",
+        "correct_answer": "Bulin",
+        "incorrect_answers": [
+            "Balun",
+            "Punto",
+            "Metak"
+        ],
+        "explanation": "Bulin, zvan i balin ili buća, je mala loptica koju je potrebno pogoditi ili joj se što više približiti svojim boćama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koji je engleski izraz za lopticu koja se koristi u badmintonu?",
+        "correct_answer": "Shuttlecock",
+        "incorrect_answers": [
+            "Birdie",
+            "Featherball",
+            "Shuttle"
+        ],
+        "explanation": "Iako je popularno zvana 'birdie', službeni naziv loptice za badminton na engleskom je shuttlecock, zbog pernatog dijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko je standardna duljina staze za veslanje na Olimpijskim igrama u metrima?",
+        "correct_answer": "2000 metara",
+        "incorrect_answers": [
+            "1500 metara",
+            "1000 metara",
+            "3000 metara"
+        ],
+        "explanation": "Standardna duljina staze za veslačka natjecanja na Olimpijskim igrama i Svjetskim prvenstvima je 2000 metara, za fair natjecanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) čini jednu momčad na terenu u futsalu?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Šest",
+            "Četiri",
+            "Sedam"
+        ],
+        "explanation": "Futsal je dvoranska inačica nogometa koja se igra s pet igrača po momčadi (jedan vratar i četiri igrača u polju).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Koja se slavna utrka izdržljivosti održava svake godine u Francuskoj, poznata po trajanju od 24 sata?",
+        "correct_answer": "24 sata Le Mansa",
+        "incorrect_answers": [
+            "Grand Prix Monaka",
+            "Indy 500",
+            "Rally Dakar"
+        ],
+        "explanation": "Utrka 24 sata Le Mansa je najstarija i najprestižnija utrka izdržljivosti u automobilizmu, testirajući strojeve i vozače.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Tko je bio prvi službeni svjetski prvak u šahu?",
+        "correct_answer": "Wilhelm Steinitz",
+        "incorrect_answers": [
+            "Garry Kasparov",
+            "Bobby Fischer",
+            "Anatolij Karpov"
+        ],
+        "explanation": "Wilhelm Steinitz (Austrijsko Carstvo) je službeno postao prvi svjetski prvak u šahu 1886. godine, nakon pobjede nad Johannesom Zukertortom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u hokeju na travi?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Devet",
+            "Trinaest",
+            "Petnaest"
+        ],
+        "explanation": "Hokej na travi igraju dvije momčadi s po 11 igrača na terenu, uključujući vratara, slično nogometu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koja je najpoznatija konjička utrka u Sjedinjenim Američkim Državama, dio 'Trostruke krune'?",
+        "correct_answer": "Kentucky Derby",
+        "incorrect_answers": [
+            "Preakness Stakes",
+            "Belmont Stakes",
+            "Royal Ascot"
+        ],
+        "explanation": "Kentucky Derby je prva i najprestižnija utrka u američkoj Trostrukoj kruni, poznata po 'Run for the Roses'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koji je sport nastao na Havajima, a uključuje jahanje na valovima na dasci?",
+        "correct_answer": "Surfing",
+        "incorrect_answers": [
+            "Windsurfing",
+            "Kitesurfing",
+            "Paddleboarding"
+        ],
+        "explanation": "Surfing je drevni polinezijski sport čiji su korijeni na Havajima, a uključuje klizanje na valovima pomoću daske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "U kojoj se zemlji brzo klizanje smatra nacionalnim sportom i izuzetno je popularno?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Kanada",
+            "Norveška",
+            "Rusija"
+        ],
+        "explanation": "Nizozemska je dominantna nacija u brzom klizanju, s mnogobrojnim olimpijskim i svjetskim prvacima u ovom sportu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Kolika je standardna udaljenost mete za muška natjecanja u streličarstvu na Olimpijskim igrama u metrima?",
+        "correct_answer": "70 metara",
+        "incorrect_answers": [
+            "50 metara",
+            "90 metara",
+            "60 metara"
+        ],
+        "explanation": "Za muška i ženska natjecanja u streličarstvu na Olimpijskim igrama koristi se udaljenost mete od 70 metara, prema pravilima World Archery federacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Kako se naziva ledena površina na kojoj se igra curling?",
+        "correct_answer": "Sheet",
+        "incorrect_answers": [
+            "Rink",
+            "Pitch",
+            "Lane"
+        ],
+        "explanation": "Terena za curling naziva se 'sheet' i dugačak je 45,72 metara, s 'kućama' (house) na svakom kraju gdje se cilja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koja je glavna karakteristika Ultimate Frisbeeja, sporta s diskom, a tiče se suđenja?",
+        "correct_answer": "Igra se bez službenih sudaca (Spirit of the Game)",
+        "incorrect_answers": [
+            "Koristi se okrugla lopta umjesto diska",
+            "Dopušten je fizički kontakt kao u ragbiju",
+            "Glavni cilj je pogoditi metu na terenu"
+        ],
+        "explanation": "Ultimate Frisbee se oslanja na 'Spirit of the Game', gdje igrači sami preuzimaju odgovornost za poštenu igru i rješavaju sporne situacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Kako se naziva kugla u bilijaru koja se koristi za udaranje drugih kugli?",
+        "correct_answer": "Bijela kugla",
+        "incorrect_answers": [
+            "Ciljna kugla",
+            "Šestica",
+            "Kugla za početak"
+        ],
+        "explanation": "Bijela kugla je jedina kugla koju igrač smije izravno udariti štapom, a njome se ciljaju ostale kugle.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koja se godišnja Dota 2 turnir poznat po najvećem nagradnom fondu u povijesti e-sporta naziva?",
+        "correct_answer": "The International",
+        "incorrect_answers": [
+            "Worlds Championship",
+            "MSI",
+            "IEM Katowice"
+        ],
+        "explanation": "The International je najprestižniji Dota 2 turnir s nagradnim fondovima koji su često prelazili 30 milijuna dolara, postavljajući rekorde u e-sportu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koliko poena treba osvojiti igrač da bi dobio set u stolnom tenisu, s minimalno dva poena razlike?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Dvadeset i jedan",
+            "Petnaest",
+            "Deset"
+        ],
+        "explanation": "Set u stolnom tenisu osvaja se s 11 poena, s time da igrač mora imati najmanje dva poena prednosti nad protivnikom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koje je glavno obilježje cheerleadinga kao sporta?",
+        "correct_answer": "Kombinacija plesa, akrobatike i gimnastike",
+        "incorrect_answers": [
+            "Isključivo navijanje s transparentima",
+            "Samo vokalna podrška timu",
+            "Natjecanje u snazi podizanja utega"
+        ],
+        "explanation": "Cheerleading je natjecateljski sport koji spaja elemente plesa, akrobatskih vještina, skokova i dizanja, zahtijevajući visoku fizičku spremu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Kako se naziva ultra-maratonska utrka u Grčkoj, duga približno 246 km, koja prati povijesnu rutu od Atene do Sparte?",
+        "correct_answer": "Spartathlon",
+        "incorrect_answers": [
+            "Marathon des Sables",
+            "Comrades Marathon",
+            "Badwater Ultramarathon"
+        ],
+        "explanation": "Spartathlon je jedna od najtežih ultra-maratonskih utrka na svijetu, inspirirana antičkom pričom o glasniku Feidipidu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
