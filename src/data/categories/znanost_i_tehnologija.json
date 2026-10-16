@@ -30445,5 +30445,560 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je zeleni pigment u biljkama koji apsorbira svjetlosnu energiju za fotosintezu?",
+        "correct_answer": "Klorofil",
+        "incorrect_answers": [
+            "Karoten",
+            "Ksantofil",
+            "Antocijan"
+        ],
+        "explanation": "Klorofil je zeleni pigment koji se nalazi u kloroplastima biljaka i ključan je za apsorpciju sunčeve svjetlosti tijekom fotosinteze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji se optički instrument koristi za promatranje objekata koji su previše mali da bi se vidjeli golim okom?",
+        "correct_answer": "Mikroskop",
+        "incorrect_answers": [
+            "Teleskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Mikroskop je instrument koji pomoću leća stvara povećanu sliku malih objekata, čineći ih vidljivima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se naziva proces prelaska tvari iz tekućeg u plinovito stanje?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Taljenje",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je proces u kojem molekule tekućine stječu dovoljno energije da pobjegnu s površine i pređu u plinovito stanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na selektivno preživljavanje i razmnožavanje organizama s osobinama najbolje prilagođenim njihovom okolišu?",
+        "correct_answer": "Prirodna selekcija",
+        "incorrect_answers": [
+            "Genetska mutacija",
+            "Umjetna selekcija",
+            "Genetski drift"
+        ],
+        "explanation": "Prirodna selekcija je ključni mehanizam evolucije gdje se organizmi s povoljnim osobinama češće razmnožavaju, prenoseći te osobine na potomstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji fizički zakon navodi da za svaku akciju postoji jednaka i suprotna reakcija?",
+        "correct_answer": "Newtonov treći zakon gibanja",
+        "incorrect_answers": [
+            "Newtonov prvi zakon gibanja",
+            "Zakon očuvanja energije",
+            "Zakon gravitacije"
+        ],
+        "explanation": "Newtonov treći zakon gibanja formulira da kada jedno tijelo djeluje silom na drugo tijelo, drugo tijelo djeluje jednakom silom suprotnog smjera na prvo tijelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji se termin koristi za bug u programu koji uzrokuje da se program ponaša nepravilno ili se sruši?",
+        "correct_answer": "Pogreška (bug)",
+        "incorrect_answers": [
+            "Feature",
+            "Algoritam",
+            "Sintaksa"
+        ],
+        "explanation": "\"Bug\" (pogreška) je termin u programiranju koji označava grešku, propust ili kvar u računalnom programu ili sustavu, što dovodi do neželjenih rezultata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je pH vrijednost neutralne otopine na sobnoj temperaturi?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH vrijednost 7 označava neutralnu otopinu, pri čemu su koncentracije vodikovih i hidroksidnih iona jednake.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za energiju gibanja objekta?",
+        "correct_answer": "Kinetička energija",
+        "incorrect_answers": [
+            "Potencijalna energija",
+            "Toplinska energija",
+            "Nuklearna energija"
+        ],
+        "explanation": "Kinetička energija je energija koju tijelo posjeduje zbog svog gibanja, a ovisi o masi i brzini objekta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji se termin koristi za sučelje koje korisnicima omogućuje interakciju s računalnim sustavom putem vizualnih elemenata poput ikona i prozora?",
+        "correct_answer": "Grafičko korisničko sučelje (GUI)",
+        "incorrect_answers": [
+            "Komandna linija (CLI)",
+            "API",
+            "BIOS"
+        ],
+        "explanation": "Grafičko korisničko sučelje (GUI) je tip sučelja koje omogućuje interakciju s računalom putem slika, ikona i prozora umjesto tekstualnih naredbi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji se termin koristi za mjeru opozicije protoku električne struje u krugu?",
+        "correct_answer": "Otpor",
+        "incorrect_answers": [
+            "Napon",
+            "Snaga",
+            "Frekvencija"
+        ],
+        "explanation": "Električni otpor je mjera opozicije protoku električne struje u materijalu ili strujnom krugu, mjeri se u omima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja je struktura koja nosi genetske informacije u obliku DNA unutar jezgre eukariotske stanice?",
+        "correct_answer": "Kromosom",
+        "incorrect_answers": [
+            "Ribosom",
+            "Mitohondrij",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Kromosomi su nitaste strukture sastavljene od DNA i proteina, koje sadrže gene i nalaze se u jezgri stanice, prenoseći nasljedne osobine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je najmanja jedinica informacije u digitalnom računarstvu, koja može biti 0 ili 1?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Kilobajt",
+            "Megabajt"
+        ],
+        "explanation": "Bit (binary digit) je najmanja jedinica digitalne informacije i predstavlja jednu od dvije vrijednosti: 0 ili 1.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je standardni protokol za siguran prijenos hiperteksta preko Interneta, često prepoznatljiv po 'https' u URL-u?",
+        "correct_answer": "HTTPS (Hypertext Transfer Protocol Secure)",
+        "incorrect_answers": [
+            "FTP",
+            "SMTP",
+            "TCP/IP"
+        ],
+        "explanation": "HTTPS je sigurna verzija HTTP protokola, koja koristi SSL/TLS enkripciju za zaštitu komunikacije između web preglednika i poslužitelja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji se hardverski komponent koristi za privremeno pohranjivanje podataka koje CPU aktivno koristi za brzo izvršavanje zadataka?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "Hard disk",
+            "SSD",
+            "Grafička kartica"
+        ],
+        "explanation": "RAM je vrsta memorije kojoj procesor može brzo pristupiti za čitanje i pisanje podataka. Podaci u RAM-u su privremeni i brišu se nakon isključivanja računala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na izobličenje prostor-vremena uzrokovano prisutnošću mase i energije, temelj Einsteinove opće teorije relativnosti?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Svjetlost",
+            "Magnetizam",
+            "Elektricitet"
+        ],
+        "explanation": "Gravitacija, prema Einsteinovoj općoj teoriji relativnosti, nije sila već manifestacija zakrivljenosti prostor-vremena uzrokovane masom i energijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji je naziv za zvijezdu koja je toliko masivna da se gravitacijski urušila u beskonačno gustu točku, iz koje ni svjetlost ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Neutronka",
+            "Bijeli patuljak",
+            "Kvazar"
+        ],
+        "explanation": "Crna rupa je područje prostor-vremena iz kojeg ništa, uključujući svjetlost, ne može pobjeći zbog izuzetno jake gravitacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji se tip kemijske veze stvara kada jedan atom donira elektrone drugom, rezultirajući stvaranjem iona?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje privlačenjem suprotno nabijenih iona, formiranih potpunim prijenosom elektrona s jednog atoma na drugi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je najjednostavniji organski spoj, s formulom CH4, koji je glavni sastojak prirodnog plina?",
+        "correct_answer": "Metan",
+        "incorrect_answers": [
+            "Etan",
+            "Propan",
+            "Butan"
+        ],
+        "explanation": "Metan (CH4) je najjednostavniji ugljikovodik i alkan, bezbojan plin bez mirisa, glavna komponenta prirodnog plina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji je naziv za mikroskopske jednostanične organizme koji nemaju staničnu jezgru ni druge organele obavijene membranom?",
+        "correct_answer": "Prokarioti",
+        "incorrect_answers": [
+            "Eukarioti",
+            "Virusi",
+            "Fungi"
+        ],
+        "explanation": "Prokarioti su jednostanični organizmi (kao što su bakterije i arheje) koji nemaju pravu jezgru niti organele okružene membranom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za kemijske reakcije koje apsorbiraju energiju iz okoline, obično u obliku topline?",
+        "correct_answer": "Endotermne reakcije",
+        "incorrect_answers": [
+            "Egzotermne reakcije",
+            "Katalitičke reakcije",
+            "Oksidacijske reakcije"
+        ],
+        "explanation": "Endotermne reakcije su kemijske reakcije koje za svoje odvijanje zahtijevaju unos energije iz okoline, što često rezultira hlađenjem okoline.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja se endokrina žlijezda naziva 'glavnom žlijezdom' jer kontrolira mnoge druge žlijezde i tjelesne funkcije?",
+        "correct_answer": "Hipofiza",
+        "incorrect_answers": [
+            "Štitnjača",
+            "Gušterača",
+            "Nadbubrežna žlijezda"
+        ],
+        "explanation": "Hipofiza, smještena u mozgu, proizvodi hormone koji reguliraju rad drugih endokrinih žlijezda i brojne vitalne tjelesne funkcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji model opisuje nastanak Svemira iz izuzetno vrućeg i gustog stanja, koje se širi i hladi već oko 13.8 milijardi godina?",
+        "correct_answer": "Model Velikog praska",
+        "incorrect_answers": [
+            "Stabilno stanje",
+            "Pulsirajući Svemir",
+            "Multiverzum teorija"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji objašnjava rani razvoj Svemira od početnog, iznimno vrućeg i gustog stanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja je grana umjetne inteligencije koja se bavi stvaranjem sustava sposobnih za učenje iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Robotika",
+            "Obrada prirodnog jezika",
+            "Računalni vid"
+        ],
+        "explanation": "Strojno učenje je podskup umjetne inteligencije koji algoritmima omogućuje da uče iz podataka, identificiraju obrasce i donose odluke s minimalnom ljudskom intervencijom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za otopinu koja sadrži maksimalnu količinu otopljene tvari pri određenoj temperaturi i tlaku?",
+        "correct_answer": "Zasićena otopina",
+        "incorrect_answers": [
+            "Nezasićena otopina",
+            "Prezasićena otopina",
+            "Koloidna otopina"
+        ],
+        "explanation": "Zasićena otopina je ona u kojoj se pri određenim uvjetima (temperatura, tlak) ne može otopiti više tvari, a dodatak tvari bi doveo do taloženja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji se strukturirani jezik koristi za upravljanje i manipulaciju relacijskim bazama podataka?",
+        "correct_answer": "SQL (Structured Query Language)",
+        "incorrect_answers": [
+            "HTML",
+            "Python",
+            "Java"
+        ],
+        "explanation": "SQL (Structured Query Language) je standardni jezik za pohranu, dohvaćanje, ažuriranje i upravljanje podacima u relacijskim bazama podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem stanica 'jede' ili unosi velike čestice, poput bakterija, obavijajući ih staničnom membranom?",
+        "correct_answer": "Fagocitoza",
+        "incorrect_answers": [
+            "Pinocitoza",
+            "Egzocitoza",
+            "Difuzija"
+        ],
+        "explanation": "Fagocitoza je vrsta endocitoze gdje stanica unosi velike krute čestice formiranjem mjehurića oko njih, često se naziva \"stanično jedenje\".",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja se galaksija nalazi najbliže Mliječnoj stazi i vidljiva je golim okom na južnoj hemisferi?",
+        "correct_answer": "Veliki Magellanov oblak",
+        "incorrect_answers": [
+            "Andromeda",
+            "Trokut galaksija",
+            "Centaurus A"
+        ],
+        "explanation": "Veliki Magellanov oblak je patuljasta galaksija nepravilnog oblika i satelit Mliječne staze, najbliži našoj galaksiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se pojam za najmanju, nedjeljivu česticu svjetlosti ili elektromagnetskog zračenja?",
+        "correct_answer": "Foton",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Foton je elementarna čestica, kvant elektromagnetskog polja i nositelj elektromagnetske interakcije, uključujući svjetlost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na količinu topline potrebnu za podizanje temperature jednog kilograma tvari za jedan stupanj Celzijusa (ili Kelvina)?",
+        "correct_answer": "Specifični toplinski kapacitet",
+        "incorrect_answers": [
+            "Latentna toplina",
+            "Toplinska vodljivost",
+            "Entalpija"
+        ],
+        "explanation": "Specifični toplinski kapacitet je svojstvo tvari koje kvantificira koliko toplinske energije je potrebno za promjenu temperature jedinične mase te tvari za jedan stupanj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za umjetne satelite koji kruže oko Zemlje na geosinkronoj orbiti, koriste se za telekomunikacije i meteorologiju?",
+        "correct_answer": "Geostacionarni sateliti",
+        "incorrect_answers": [
+            "Polarni sateliti",
+            "Niskoorbitalni sateliti",
+            "GPS sateliti"
+        ],
+        "explanation": "Geostacionarni sateliti kruže iznad ekvatora istom kutnom brzinom kao i Zemlja, pa se čini da miruju iznad iste točke na površini, idealni za telekomunikacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji se genetski proces odnosi na stvaranje RNA molekule iz DNA predloška?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se genetska informacija iz DNA kopira u molekulu RNA.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je kemijska veza odgovorna za sekundarnu strukturu proteina (alfa-uzvojnica i beta-nabrana ploča)?",
+        "correct_answer": "Vodikova veza",
+        "incorrect_answers": [
+            "Peptidna veza",
+            "Disulfidna veza",
+            "Ionska veza"
+        ],
+        "explanation": "Vodikove veze između atoma kisika i dušika u peptidnom okosnici su ključne za formiranje stabilnih sekundarnih struktura proteina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen supervodljivosti, gdje materijali gube sav električni otpor ispod kritične temperature?",
+        "correct_answer": "Meissnerov efekt",
+        "incorrect_answers": [
+            "Peltierov efekt",
+            "Seebeckov efekt",
+            "Jouleov efekt"
+        ],
+        "explanation": "Meissnerov efekt je potpuno izbacivanje magnetskog toka iz supervodljivog materijala tijekom prelaska u supervodljivo stanje, povezan s nultim otporom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji je standardni protokol za slanje elektroničke pošte preko Interneta?",
+        "correct_answer": "SMTP (Simple Mail Transfer Protocol)",
+        "incorrect_answers": [
+            "POP3",
+            "IMAP",
+            "HTTP"
+        ],
+        "explanation": "SMTP je protokol koji se koristi za prijenos e-pošte s klijenta na poslužitelj ili između poslužitelja, ključan za funkcioniranje e-pošte.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model u računarstvu koji se bavi analizom složenosti algoritama, obično koristeći notaciju 'Big O'?",
+        "correct_answer": "Analiza složenosti (Big O notacija)",
+        "incorrect_answers": [
+            "Algoritamska optimizacija",
+            "Struktura podataka",
+            "Prediktivna analitika"
+        ],
+        "explanation": "Analiza složenosti algoritma, često izražena Big O notacijom, opisuje koliko će se vremena ili memorije algoritam potrošiti u odnosu na veličinu ulaza.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji se pojam u genetici odnosi na pojavu da jedan gen utječe na više različitih, nepovezanih fenotipskih osobina?",
+        "correct_answer": "Pleiotropija",
+        "incorrect_answers": [
+            "Epistaza",
+            "Poligenija",
+            "Alelizacija"
+        ],
+        "explanation": "Pleiotropija je genetski fenomen gdje jedan gen utječe na više različitih fenotipskih osobina organizma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Kako se zove skupina proteina koji su ključni za savijanje novonastalih proteina u njihove funkcionalne trodimenzionalne strukture?",
+        "correct_answer": "Šaperoni (Chaperones)",
+        "incorrect_answers": [
+            "Enzimi",
+            "Ribosomi",
+            "Hormoni"
+        ],
+        "explanation": "Šaperoni su proteini koji pomažu drugim proteinima da se pravilno saviju i zadrže svoju funkcionalnu trodimenzionalnu strukturu, sprječavajući agregaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
