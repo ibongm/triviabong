@@ -3,7 +3,10 @@
 // A season is `weekCount` consecutive ISO weeks (Zagreb calendar, see
 // utils/periods.js) beginning at `startWeek`. Decision D6: 8 weeks, starting
 // on a Monday shortly after Phase 5 ships. Season 1 is provisional - it is
-// the Monday 2026-10-26 (2026-W44) through Sunday 2026-12-20 (2026-W51).
+// the Monday 2026-11-23 (2026-W48) through Sunday 2027-01-17 (2027-W02;
+// 2026 has 53 ISO weeks). Moved from 2026-W44 on 2026-10-16 because
+// FEATURES.WEEKLY_BOARDS is still off and the nightly cron would otherwise
+// settle an empty Season 1.
 // If the launch slips, edit `startWeek` here AND in the inlined copy in
 // api/daily-challenge-payout.js (a unit test fails if they disagree).
 //
@@ -12,7 +15,7 @@
 // id is the Firestore document key (seasonBoards/{id}) and the badge prefix
 // (e.g. "s1_gold").
 export const SEASONS = Object.freeze([
-    Object.freeze({ id: 's1', name: 'Sezona 1', startWeek: '2026-W44', weekCount: 8 }),
+    Object.freeze({ id: 's1', name: 'Sezona 1', startWeek: '2026-W48', weekCount: 8 }),
 ]);
 
 // How many of a player's best rounds (per week) and best weeks (per season)

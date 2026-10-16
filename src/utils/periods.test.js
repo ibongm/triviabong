@@ -141,16 +141,17 @@ describe('seasons', () => {
     it('season 1 is 8 Monday-aligned weeks', () => {
         expect(s1.id).toBe('s1');
         expect(s1.weekCount).toBe(8);
-        expect(weekStartDateKey(s1.startWeek)).toBe('2026-10-26');
-        expect(seasonEndWeek(s1)).toBe('2026-W51');
-        expect(weekEndDateKey(seasonEndWeek(s1))).toBe('2026-12-20');
+        expect(weekStartDateKey(s1.startWeek)).toBe('2026-11-23');
+        expect(seasonEndWeek(s1)).toBe('2027-W02');
+        expect(weekEndDateKey(seasonEndWeek(s1))).toBe('2027-01-17');
     });
 
     it('maps weeks to seasons', () => {
-        expect(seasonForWeek('2026-W43', SEASONS)).toBeNull();
-        expect(seasonForWeek('2026-W44', SEASONS)?.id).toBe('s1');
-        expect(seasonForWeek('2026-W51', SEASONS)?.id).toBe('s1');
-        expect(seasonForWeek('2026-W52', SEASONS)).toBeNull();
+        expect(seasonForWeek('2026-W47', SEASONS)).toBeNull();
+        expect(seasonForWeek('2026-W48', SEASONS)?.id).toBe('s1');
+        expect(seasonForWeek('2026-W53', SEASONS)?.id).toBe('s1');
+        expect(seasonForWeek('2027-W02', SEASONS)?.id).toBe('s1');
+        expect(seasonForWeek('2027-W03', SEASONS)).toBeNull();
     });
 
     it('spans a year boundary', () => {
@@ -162,8 +163,8 @@ describe('seasons', () => {
     });
 
     it('finds the next upcoming season', () => {
-        expect(nextSeasonAfter('2026-W41', SEASONS)?.id).toBe('s1');
-        expect(nextSeasonAfter('2026-W44', SEASONS)).toBeNull();
+        expect(nextSeasonAfter('2026-W44', SEASONS)?.id).toBe('s1');
+        expect(nextSeasonAfter('2026-W48', SEASONS)).toBeNull();
     });
 
     it('zagrebDateKey formats an instant', () => {

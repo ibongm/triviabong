@@ -1,5 +1,15 @@
 # Changelog
 
+### [2026-10-16] - Postpone Season 1 to 2026-W48; pin Daily Challenge payout constants (audit M8, L4)
+- **Files Changed**:
+  - `src/constants/seasons.js` (Modified)
+  - `api/daily-challenge-payout.js` (Modified)
+  - `src/utils/periods.test.js` (Modified)
+  - `src/utils/dailyChallengePayout.test.js` (Modified)
+- **Details**:
+  - Season 1 `startWeek` `2026-W44` -> `2026-W48` in both copies (`FEATURES.WEEKLY_BOARDS` is still off, and the nightly cron settles weekly boards and season badges regardless, so S1 would have run and closed empty). New window: Mon 2026-11-23 to Sun 2027-01-17 (2027-W02; 2026 has 53 ISO weeks, so the 8 weeks cross the year and holiday period). `periodPayout.test.js` already pins the two copies together; `periods.test.js` calendar assertions updated.
+  - `api/daily-challenge-payout.js` now exports `DAILY_CHALLENGE_TOP3_COINS`, `DAILY_CHALLENGE_TOP3_XP` and `DAILY_CHALLENGE_WIN_STREAK_COINS` so a new test in `dailyChallengePayout.test.js` asserts they equal `src/constants/gameBalance.js` (values unchanged).
+
 ### [2026-10-16] - CI on Node 22, all 7 rules suites, manual dispatch (audit M5)
 - **Files Changed**:
   - `.github/workflows/ci.yml` (Modified)

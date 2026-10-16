@@ -33,9 +33,10 @@ import { getFirestore, FieldValue, Timestamp } from 'firebase-admin/firestore';
 // mirrors src/constants/gameBalance.js - keep in sync manually (see that
 // file's Phase 11 note on why these are inlined rather than imported: this
 // serverless function isn't guaranteed to resolve ESM imports from src/).
-const DAILY_CHALLENGE_TOP3_COINS = { 1: 20, 2: 10, 3: 5 };
-const DAILY_CHALLENGE_TOP3_XP = { 1: 30, 2: 15, 3: 10 };
-const DAILY_CHALLENGE_WIN_STREAK_COINS = { 1: 1, 2: 3, 3: 5, 4: 10, 5: 20, 6: 25, 7: 50 };
+// Exported only so src/utils/dailyChallengePayout.test.js can pin them.
+export const DAILY_CHALLENGE_TOP3_COINS = { 1: 20, 2: 10, 3: 5 };
+export const DAILY_CHALLENGE_TOP3_XP = { 1: 30, 2: 15, 3: 10 };
+export const DAILY_CHALLENGE_WIN_STREAK_COINS = { 1: 1, 2: 3, 3: 5, 4: 10, 5: 20, 6: 25, 7: 50 };
 
 // --- Weekly / seasonal boards (engagement plan Phase 5) ---------------------
 // Everything in this block is an INLINED COPY of src/constants/seasons.js and
@@ -44,7 +45,7 @@ const DAILY_CHALLENGE_WIN_STREAK_COINS = { 1: 1, 2: 3, 3: 5, 4: 10, 5: 20, 6: 25
 // src/utils/periodPayout.test.js pins the copies against the originals.
 export const WEEKLY_TOP3_COINS = { 1: 30, 2: 15, 3: 10 };
 export const WEEKLY_TOP3_XP = { 1: 30, 2: 15, 3: 10 };
-export const SEASONS = [{ id: 's1', name: 'Sezona 1', startWeek: '2026-W44', weekCount: 8 }];
+export const SEASONS = [{ id: 's1', name: 'Sezona 1', startWeek: '2026-W48', weekCount: 8 }];
 export const SEASON_TOP_BADGE_COUNT = 10;
 const MAX_BADGES_PER_PLAYER = 50;
 const MS_PER_DAY = 24 * 60 * 60 * 1000;

@@ -1,5 +1,17 @@
 import { describe, it, expect } from 'vitest';
-import { addDaysToDateKey, getYesterdayZagrebDateKey, isAuthorizedCron } from '../../api/daily-challenge-payout.js';
+import {
+    addDaysToDateKey,
+    getYesterdayZagrebDateKey,
+    isAuthorizedCron,
+    DAILY_CHALLENGE_TOP3_COINS as API_TOP3_COINS,
+    DAILY_CHALLENGE_TOP3_XP as API_TOP3_XP,
+    DAILY_CHALLENGE_WIN_STREAK_COINS as API_WIN_STREAK_COINS,
+} from '../../api/daily-challenge-payout.js';
+import {
+    DAILY_CHALLENGE_TOP3_COINS,
+    DAILY_CHALLENGE_TOP3_XP,
+    DAILY_CHALLENGE_WIN_STREAK_COINS,
+} from '../constants/gameBalance.js';
 
 describe('addDaysToDateKey', () => {
     it('handles standard day subtractions', () => {
@@ -58,5 +70,21 @@ describe('isAuthorizedCron', () => {
     it('never authorizes when the secret is unset', () => {
         expect(isAuthorizedCron('Bearer ', '')).toBe(false);
         expect(isAuthorizedCron('Bearer undefined', undefined)).toBe(false);
+    });
+});
+
+// The cron inlines these instead of importing gameBalance.js (see its
+// comment); this keeps the two copies from drifting apart.
+describe('payout constants match gameBalance.js', () => {
+    it('top-3 coins', () => {
+        expect(API_TOP3_COINS).toEqual(DAILY_CHALLENGE_TOP3_COINS);
+    });
+
+    it('top-3 XP', () => {
+        expect(API_TOP3_XP).toEqual(DAILY_CHALLENGE_TOP3_XP);
+    });
+
+    it('win-streak coins', () => {
+        expect(API_WIN_STREAK_COINS).toEqual(DAILY_CHALLENGE_WIN_STREAK_COINS);
     });
 });
