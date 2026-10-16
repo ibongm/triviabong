@@ -1,6 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 import { GoogleGenAI } from '@google/genai';
+import {
+  normalizeProgress,
+  selectNextBatch,
+  getUnaudited,
+  recordRun,
+  refreshCompletion,
+  renderSummary,
+} from '../src/utils/auditProgress.js';
 
 const project = process.env.GOOGLE_CLOUD_PROJECT || process.env.GCP_PROJECT_ID;
 const location = process.env.GOOGLE_CLOUD_LOCATION || 'us-central1';
@@ -17,19 +25,64 @@ const ai = new GoogleGenAI({
 });
 
 const category = process.argv[2] || 'geografija';
-const maxToProcess = parseInt(process.argv[3] || '0', 10); // 0 = audit all
+// Number of not-yet-audited questions to check this run (0 = every remaining one).
+const maxToProcess = parseInt(process.argv[3] || '0', 10);
 const BATCH_SIZE = 25;
 
-const filePath = path.resolve(`src/data/categories/${category}.json`);
+const categoriesDir = path.resolve('src/data/categories');
+const filePath = path.join(categoriesDir, `${category}.json`);
 if (!fs.existsSync(filePath)) {
   console.error(`Category file not found: ${filePath}`);
   process.exit(1);
 }
 
-const allQuestions = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-const targetQuestions = maxToProcess > 0 ? allQuestions.slice(0, maxToProcess) : allQuestions;
+// Which questions earlier runs already audited (audit/progress.json, updated by
+// every run and committed with the fixes). Keyed by question id.
+const auditDir = path.resolve('audit');
+const progressPath = path.join(auditDir, 'progress.json');
+const summaryPath = path.join(auditDir, 'PROGRESS.md');
 
-console.log(`Starting audit for "${category}": ${targetQuestions.length} total questions (chunks of ${BATCH_SIZE})...`);
+const readProgress = () =>
+  normalizeProgress(fs.existsSync(progressPath) ? JSON.parse(fs.readFileSync(progressPath, 'utf8')) : null);
+
+// Writes progress.json and the readable PROGRESS.md summary.
+const writeProgress = (progress) => {
+  fs.mkdirSync(auditDir, { recursive: true });
+  fs.writeFileSync(progressPath, JSON.stringify(progress, null, 2) + '\n', 'utf8');
+
+  const idsByCategory = {};
+  for (const file of fs.readdirSync(categoriesDir).filter((f) => f.endsWith('.json'))) {
+    const key = file.replace(/\.json$/, '');
+    idsByCategory[key] = JSON.parse(fs.readFileSync(path.join(categoriesDir, file), 'utf8')).map((q) => q.id);
+  }
+  fs.writeFileSync(summaryPath, renderSummary(progress, idsByCategory, new Date().toISOString()), 'utf8');
+};
+
+// Values the workflow (and the scheduled task driving it) read after the run.
+const setOutputs = (values) => {
+  const lines = Object.entries(values).map(([k, v]) => `${k}=${v}`);
+  console.log(`Run summary: ${lines.join(', ')}`);
+  if (process.env.GITHUB_OUTPUT) {
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, lines.join('\n') + '\n');
+  }
+};
+
+const allQuestions = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+const progress = readProgress();
+const targetQuestions = selectNextBatch(allQuestions, progress, category, maxToProcess);
+
+if (targetQuestions.length === 0) {
+  // Nothing left: record that the category is finished and stop without touching the question file.
+  writeProgress(refreshCompletion(progress, category, allQuestions));
+  console.log(`Nothing left to audit in "${category}": all ${allQuestions.length} questions were already audited.`);
+  setOutputs({ audited: 0, modified: 0, failed_batches: 0, remaining: 0, complete: true });
+  process.exit(0);
+}
+
+console.log(
+  `Starting audit for "${category}": ${targetQuestions.length} questions this run ` +
+    `(${getUnaudited(allQuestions, progress, category).length} unaudited of ${allQuestions.length}; chunks of ${BATCH_SIZE})...`
+);
 
 const systemPrompt = `
 Djeluješ kao vrhunski, nemilosrdni pub kviz sastavljač, lektor i fact-checker za hrvatski jezik.
@@ -86,6 +139,10 @@ async function auditChunk(chunk) {
 async function run() {
   const changes = [];
   const updatedQuestionsMap = new Map(allQuestions.map(q => [q.id, q]));
+  // Only ids from batches that came back usable are recorded as audited; a
+  // failed batch stays unaudited so the next run retries it.
+  const auditedIds = [];
+  let failedBatches = 0;
 
   for (let i = 0; i < targetQuestions.length; i += BATCH_SIZE) {
     const chunk = targetQuestions.slice(i, i + BATCH_SIZE);
@@ -96,11 +153,25 @@ async function run() {
 
     try {
       const results = await auditChunk(chunk);
+      const chunkIds = new Set(chunk.map(q => q.id));
 
       for (const res of results) {
-        if (res.status === 'MODIFIED') {
+        // Ignore anything the model returned that was not in this chunk.
+        if (!res || !chunkIds.has(res.id)) continue;
+
+        if (res.status === 'UNCHANGED') {
+          auditedIds.push(res.id);
+          chunkIds.delete(res.id);
+        } else if (res.status === 'MODIFIED') {
           const original = updatedQuestionsMap.get(res.id);
-          if (original) {
+          const usable =
+            typeof res.question === 'string' &&
+            typeof res.correct_answer === 'string' &&
+            Array.isArray(res.incorrect_answers) &&
+            res.incorrect_answers.every(a => typeof a === 'string');
+          if (original && usable) {
+            auditedIds.push(res.id);
+            chunkIds.delete(res.id);
             changes.push({
               id: res.id,
               reason: res.reason || 'Kvizmaster optimizacija formulacije i odgovora',
@@ -124,15 +195,51 @@ async function run() {
           }
         }
       }
+      // Questions the model skipped or returned unusably stay unaudited.
+      if (chunkIds.size > 0) {
+        failedBatches += 1;
+        console.warn(`Batch ${chunkIndex}: ${chunkIds.size} question(s) not usably audited; they will be retried next run.`);
+      }
     } catch (err) {
+      failedBatches += 1;
       console.error(`Error processing batch ${chunkIndex}:`, err);
     }
+  }
+
+  // A run that audited nothing must fail loudly instead of looking like a
+  // clean run, otherwise a persistent error would stall the category silently.
+  if (auditedIds.length === 0) {
+    console.error(`No question could be audited this run (${failedBatches} failed batch(es)). Nothing was written.`);
+    process.exit(1);
   }
 
   // 1. Write updated database back to the category JSON
   const finalDatabase = Array.from(updatedQuestionsMap.values());
   fs.writeFileSync(filePath, JSON.stringify(finalDatabase, null, 4) + '\n', 'utf8');
   console.log(`Successfully updated ${filePath}. Total questions modified: ${changes.length}`);
+
+  // 1b. Record what this run audited (audit/progress.json + audit/PROGRESS.md)
+  const updatedProgress = recordRun(
+    progress,
+    category,
+    {
+      runId: process.env.GITHUB_RUN_ID || 'local',
+      date: new Date().toISOString().split('T')[0],
+      auditedIds,
+      modifiedIds: changes.map(c => c.id),
+      failedBatches,
+    },
+    finalDatabase
+  );
+  writeProgress(updatedProgress);
+  const remaining = getUnaudited(finalDatabase, updatedProgress, category).length;
+  setOutputs({
+    audited: auditedIds.length,
+    modified: changes.length,
+    failed_batches: failedBatches,
+    remaining,
+    complete: remaining === 0,
+  });
 
   // 2. Generate Markdown Review Report
   const reportsDir = path.resolve('reports');
@@ -145,8 +252,10 @@ async function run() {
 
   let md = `# KvizArena Audit Izvještaj: ${category.toUpperCase()}\n\n`;
   md += `- **Datum revizije:** ${new Date().toLocaleString('hr-HR')}\n`;
-  md += `- **Ukupno pregledano:** ${targetQuestions.length} pitanja\n`;
-  md += `- **Broj ispravljenih pitanja:** ${changes.length}\n\n`;
+  md += `- **Ukupno pregledano:** ${auditedIds.length} pitanja\n`;
+  md += `- **Broj ispravljenih pitanja:** ${changes.length}\n`;
+  md += `- **Neuspjelih serija (pitanja se ponavljaju u sljedećem prolazu):** ${failedBatches}\n`;
+  md += `- **Preostalo za reviziju u kategoriji:** ${remaining}\n\n`;
   md += `---\n\n`;
 
   if (changes.length === 0) {
