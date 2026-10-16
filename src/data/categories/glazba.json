@@ -29827,7 +29827,7 @@
         "incorrect_answers": [
             "Klavir",
             "Orgulje",
-            "Spineta"
+            "Klavikord"
         ],
         "explanation": "Čembalo je klavijaturni instrument iz baroknog razdoblja. Zvuk proizvodi trzanjem žica perom, što mu daje specifičan, nedinamičan ton.",
         "difficulty": "hard",
@@ -30037,7 +30037,7 @@
         "incorrect_answers": [
             "Disonanca",
             "Enharmonija",
-            "Politonálnost"
+            "Politonalnost"
         ],
         "explanation": "Kromatska alteracija je privremena promjena visine tona koja odstupa od dijatonske ljestvice, ali ne nužno rezultira formalnom modulacijom.",
         "difficulty": "hard",
@@ -30292,7 +30292,7 @@
         "incorrect_answers": [
             "Notacija",
             "Partitura",
-            "Skor"
+            "Solmizacija"
         ],
         "explanation": "Tabulatura je oblik notnog zapisa koji prikazuje položaje prstiju na instrumentu umjesto visine tona, najčešće korištena za gitaru i bas instrumente.",
         "difficulty": "medium",
@@ -30348,10 +30348,10 @@
         "id": "hr_mus_2338",
         "category": "glazba",
         "question": "Kako se naziva kompozicijska tehnika u kojoj su svi dvanaest tonova kromatske ljestvice tretirani jednako, bez naglaska na jedan tonalni centar?",
-        "correct_answer": "Dodekafonija (dvanaesttonska tehnika)",
+        "correct_answer": "Dodekafonija",
         "incorrect_answers": [
             "Atonalnost",
-            "Polifonia",
+            "Polifonija",
             "Mikrotonalna glazba"
         ],
         "explanation": "Dodekafonija je kompozicijska tehnika Arnolda Schönberga koja osigurava jednak tretman svih 12 tonova kromatske ljestvice, sprečavajući uspostavu tonalnog centra.",
@@ -30393,7 +30393,7 @@
         "id": "hr_mus_2341",
         "category": "glazba",
         "question": "Koji je glazbeni oblik iz razdoblja romantizma, obično za solo glas i klavir, baziran na poeziji i karakteriziran jedinstvom teksta i glazbe?",
-        "correct_answer": "Lied (umjetnička pjesma)",
+        "correct_answer": "Lied",
         "incorrect_answers": [
             "Arija",
             "Balada",
@@ -30422,7 +30422,7 @@
     {
         "id": "hr_mus_2343",
         "category": "glazba",
-        "question": "Koji je španjolski gudački instrument, sličan gitari, ali manji, s oštrim i jarkim zvukom, često korišten u folk i pop glazbi?",
+        "question": "Koji je gudački instrument, sličan gitari, ali manji, s oštrim i jarkim zvukom, često korišten u folk i pop glazbi?",
         "correct_answer": "Mandolina",
         "incorrect_answers": [
             "Ukulele",
@@ -30483,7 +30483,7 @@
         "id": "hr_mus_2347",
         "category": "glazba",
         "question": "Kako se naziva glazbeni pojam koji opisuje specifičnu boju ili kvalitetu zvuka instrumenta ili glasa, koja ga razlikuje od drugih?",
-        "correct_answer": "Timbar (boja tona)",
+        "correct_answer": "Timbar",
         "incorrect_answers": [
             "Visina",
             "Intenzitet",
@@ -30573,7 +30573,7 @@
         "id": "hr_mus_2353",
         "category": "glazba",
         "question": "Koji je klavijaturni instrument dobio ime po svojoj sposobnosti da proizvodi zvukove različite jačine (meko i glasno), što mu omogućuje dinamičku ekspresivnost?",
-        "correct_answer": "Klavir (ili pianoforte)",
+        "correct_answer": "Pianoforte",
         "incorrect_answers": [
             "Čembalo",
             "Orgulje",
@@ -30587,8 +30587,8 @@
     {
         "id": "hr_mus_2354",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni pojam koji označava visinu tona, odnosno je li ton visok ili nizak?",
-        "correct_answer": "Frekvencija (ili visina tona)",
+        "question": "Kako se naziva glazbeni pojam koji označava je li ton visok ili nizak?",
+        "correct_answer": "Frekvencija",
         "incorrect_answers": [
             "Glasnoća",
             "Boja tona",
@@ -30602,7 +30602,7 @@
     {
         "id": "hr_mus_2355",
         "category": "glazba",
-        "question": "Koji je slavni talijanski operni skladatelj iz 19. stoljeća, poznat po svojim verističkim operama poput \"Cavalleria rusticana\" i \"Pagliacci\"?",
+        "question": "Koji je slavni talijanski operni skladatelj iz 19. stoljeća, poznat po svojoj verističkoj operi \"Cavalleria rusticana\"?",
         "correct_answer": "Pietro Mascagni",
         "incorrect_answers": [
             "Giacomo Puccini",
@@ -30707,12 +30707,12 @@
     {
         "id": "hr_mus_2362",
         "category": "glazba",
-        "question": "Koji je instrument poznat kao \"harmonika\" ili \"ručni orgulje\", a zvuk se proizvodi kompresijom i dekompresijom mijeha, te pritiskom na tipke ili gumbe?",
+        "question": "Koji aerofoni instrument proizvodi zvuk kompresijom i dekompresijom mijeha, te pritiskom na tipke ili gumbe?",
         "correct_answer": "Harmonika",
         "incorrect_answers": [
-            "Korg",
             "Melodika",
-            "Bandoneon"
+            "Orgulje",
+            "Klavir"
         ],
         "explanation": "Harmonika je aerofoni instrument kod kojeg zrak struji kroz miješine i prolazi kroz jezičke, proizvodeći zvuk pod pritiskom tipki ili gumba.",
         "difficulty": "easy",
@@ -30842,12 +30842,12 @@
     {
         "id": "hr_mus_2371",
         "category": "glazba",
-        "question": "Koji se instrument sastoji od niza napetih žica koje se trzaju prstima ili trzalicom, a može biti akustičan ili električan?",
+        "question": "Koji žičani instrument, popularan u brojnim glazbenim žanrovima, ima vrat s pragovima i najčešće šest žica koje se trzaju prstima ili trzalicom, a može biti akustičan ili električan?",
         "correct_answer": "Gitara",
         "incorrect_answers": [
-            "Bas",
-            "Ukulele",
-            "Bendžo"
+            "Violončelo",
+            "Harfa",
+            "Klavir"
         ],
         "explanation": "Gitara je gudački instrument kod kojeg se zvuk proizvodi trzanjem žica, a široko je rasprostranjena u različitim glazbenim žanrovima.",
         "difficulty": "easy",
@@ -30872,12 +30872,12 @@
     {
         "id": "hr_mus_2373",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni pojam koji opisuje brzi niz pojedinačnih nota sviranih u rastućem ili padajućem slijedu, često korišten kao ukras?",
+        "question": "Kako se naziva glazbeni ukras koji se sastoji od brze izmjene između dvije susjedne note?",
         "correct_answer": "Triler (ili treptaj)",
         "incorrect_answers": [
             "Akord",
             "Arpeggio",
-            "Kadenca"
+            "Glissando"
         ],
         "explanation": "Triler je glazbeni ukras koji se sastoji od brze izmjene dviju susjednih nota, obično glavne note i note iznad nje.",
         "difficulty": "hard",
@@ -31113,7 +31113,7 @@
         "id": "hr_mus_2389",
         "category": "glazba",
         "question": "Kako se naziva glazbeni pojam koji opisuje iznenadno i snažno naglašavanje pojedine note ili akorda?",
-        "correct_answer": "Akcenat (ili akcent)",
+        "correct_answer": "Akcent",
         "incorrect_answers": [
             "Legato",
             "Staccato",
@@ -31220,7 +31220,7 @@
         "question": "Kako se naziva glavni akord u tonalitetu, izgrađen na petom stupnju ljestvice, koji stvara osjećaj napetosti i teži ka razrješenju u toniku?",
         "correct_answer": "Dominantni akord",
         "incorrect_answers": [
-            "Tonika akord",
+            "Tonički akord",
             "Subdominantni akord",
             "Medijantni akord"
         ],
@@ -31266,7 +31266,7 @@
         "correct_answer": "Rallentando",
         "incorrect_answers": [
             "Accelerando",
-            "Ritardando",
+            "Andante",
             "Tempo rubato"
         ],
         "explanation": "Rallentando je glazbena oznaka koja upućuje na postepeno usporavanje tempa glazbenog djela.",
@@ -31292,7 +31292,7 @@
     {
         "id": "hr_mus_2401",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni oblik koji se sastoji od instrumentalnog uvoda (overture), a zatim niza plesnih stavaka, često u baroknoj glazbi?",
+        "question": "Kako se naziva glazbeni oblik koji se sastoji od instrumentalnog uvoda (uvertire), a zatim niza plesnih stavaka, često u baroknoj glazbi?",
         "correct_answer": "Suita",
         "incorrect_answers": [
             "Sonata",
@@ -31577,12 +31577,12 @@
     {
         "id": "hr_mus_2420",
         "category": "glazba",
-        "question": "Tko je bio engleski kompozitor i virtuoz na čembalu, poznat po svojim oratorijima poput \"Mesije\" i operama, koji je veći dio života proveo u Engleskoj?",
-        "correct_answer": "Georg Friedrich Händel",
+        "question": "Tko je bio njemački kompozitor i virtuoz na čembalu, poznat po svojim oratorijima poput \"Mesije\" i operama, koji je veći dio života proveo u Engleskoj?",
+        "correct_answer": "Händel",
         "incorrect_answers": [
-            "Johann Sebastian Bach",
-            "Henry Purcell",
-            "Antonio Vivaldi"
+            "Bach",
+            "Purcell",
+            "Vivaldi"
         ],
         "explanation": "Händel je bio veliki barokni majstor, čiji su oratoriji i opere ostavili neizbrisiv trag, posebno u Engleskoj.",
         "difficulty": "easy",
@@ -31607,7 +31607,7 @@
     {
         "id": "hr_mus_2422",
         "category": "glazba",
-        "question": "Koji se instrument, sličan tamburici, s malim tijelom i dugim vratom, često koristi u folk i country glazbi, a žice se trgaju trzalicom ili prstima?",
+        "question": "Koji se instrument, sličan tamburici, s malim tijelom i dugim vratom, često koristi u folk i country glazbi, a žice se sviraju trzalicom ili prstima?",
         "correct_answer": "Mandolina",
         "incorrect_answers": [
             "Bendžo",
@@ -31727,7 +31727,7 @@
     {
         "id": "hr_mus_2430",
         "category": "glazba",
-        "question": "Koji je popularni američki kantautor, poznat po svojim dubokim tekstovima, melankoličnom glasu i hitovima poput \"Hallelujah\" i \"Suzanne\"?",
+        "question": "Koji je popularni kanadski kantautor, poznat po svojim dubokim tekstovima, melankoličnom glasu i hitovima poput \"Hallelujah\" i \"Suzanne\"?",
         "correct_answer": "Leonard Cohen",
         "incorrect_answers": [
             "Bob Dylan",
@@ -31757,12 +31757,12 @@
     {
         "id": "hr_mus_2432",
         "category": "glazba",
-        "question": "Koji je njemački skladatelj i virtuoz na klaviru iz romantičnog razdoblja, poznat po svojim brojnim klavirskim koncertima i simfonijama, uključujući 'Odu radosti'?",
-        "correct_answer": "Ludwig van Beethoven",
+        "question": "Koji je njemački skladatelj i virtuoz na klaviru, poznat po svojim brojnim klavirskim koncertima i simfonijama, uključujući 'Odu radosti'?",
+        "correct_answer": "Beethoven",
         "incorrect_answers": [
-            "Richard Wagner",
-            "Robert Schumann",
-            "Felix Mendelssohn"
+            "Wagner",
+            "Schumann",
+            "Mendelssohn"
         ],
         "explanation": "Ludwig van Beethoven, njemački skladatelj, ključna je figura u prijelazu između klasične i romantične ere u zapadnoj klasičnoj glazbi.",
         "difficulty": "easy",
@@ -31832,7 +31832,7 @@
     {
         "id": "hr_mus_2437",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni pojam za iznenadno, oštro smanjenje glasnoće, često korišteno za dramatičan efekt?",
+        "question": "Kako se naziva glazbeni pojam za iznenadno, naglo stišavanje glasnoće, često korišteno za dramatičan efekt?",
         "correct_answer": "Subito piano",
         "incorrect_answers": [
             "Crescendo",
@@ -31877,7 +31877,7 @@
     {
         "id": "hr_mus_2440",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni oblik u kojem se ista glazbena tema ponavlja, ali svaki put s varijacijama u melodiji, harmoniji, ritmu ili instrumentaciji?",
+        "question": "Kako se naziva glazbeni oblik u kojem se ista glazbena tema ponavlja, ali svaki put s raznim preinakama u melodiji, harmoniji, ritmu ili instrumentaciji?",
         "correct_answer": "Varijacije na temu",
         "incorrect_answers": [
             "Fuga",
@@ -31922,7 +31922,7 @@
     {
         "id": "hr_mus_2443",
         "category": "glazba",
-        "question": "Koji se glazbeni period, otprilike od 1750. do 1820. godine, karakterizira jasnoćom, ravnotežom i formalnom strukturom, s kompozitorima poput Haydna i Mozarta?",
+        "question": "Koji se glazbeni period, otprilike od 1750. do 1820. godine, karakterizira jasnoćom, ravnotežom i formalnom strukturom, s skladateljima poput Haydna i Mozarta?",
         "correct_answer": "Klasicizam",
         "incorrect_answers": [
             "Renesansa",
@@ -31937,7 +31937,7 @@
     {
         "id": "hr_mus_2444",
         "category": "glazba",
-        "question": "Kako se naziva tehnika sviranja gudačkih instrumenata gdje se žice ne gude gudalom, već se trgaju prstima?",
+        "question": "Kako se naziva tehnika sviranja gudačkih instrumenata gdje se žice ne sviraju gudalom, već se okidaju prstima?",
         "correct_answer": "Pizzicato",
         "incorrect_answers": [
             "Legato",
@@ -32042,7 +32042,7 @@
     {
         "id": "hr_mus_2451",
         "category": "glazba",
-        "question": "Kako se naziva talijanski glazbeni termin za 'vrlo sporo i široko', najsporiji uobičajeni tempo u glazbi?",
+        "question": "Kako se naziva talijanski glazbeni termin za 'vrlo sporo i široko'?",
         "correct_answer": "Largo",
         "incorrect_answers": [
             "Adagio",
@@ -32102,7 +32102,7 @@
     {
         "id": "hr_mus_2455",
         "category": "glazba",
-        "question": "Koji je drveni puhački instrument, poznat po svom oštrom, prodornom zvuku i obično se svira s dvostrukim jezičkom?",
+        "question": "Koji je drveni puhački instrument, poznat po svom dubokom, rezonantnom zvuku i obično se svira s dvostrukim jezičkom?",
         "correct_answer": "Fagot",
         "incorrect_answers": [
             "Klarinet",
@@ -32132,7 +32132,7 @@
     {
         "id": "hr_mus_2457",
         "category": "glazba",
-        "question": "Koji je američki skladatelj, poznat kao 'otac američke glazbe', čije su skladbe uključivale ragtime i marševe, poput 'Stars and Stripes Forever'?",
+        "question": "Koji je američki skladatelj, poznat po ragtimeu i marševima, poput 'Stars and Stripes Forever'?",
         "correct_answer": "John Philip Sousa",
         "incorrect_answers": [
             "Scott Joplin",
@@ -32192,7 +32192,7 @@
     {
         "id": "hr_mus_2461",
         "category": "glazba",
-        "question": "Koji je popularni američki reper, producent i poduzetnik, poznat kao 'Dr. Dre', član N.W.A. i pionir G-funk stila?",
+        "question": "Koji je popularni američki reper, producent i poduzetnik, član N.W.A. i pionir G-funk stila?",
         "correct_answer": "Dr. Dre",
         "incorrect_answers": [
             "Snoop Dogg",
@@ -32222,7 +32222,7 @@
     {
         "id": "hr_mus_2463",
         "category": "glazba",
-        "question": "Koji je limeni puhački instrument, poznat po svom stožastom otvoru i ventilima, te se često koristi u jazzu i orkestrima?",
+        "question": "Koji je limeni puhački instrument, poznat po svom pretežno cilindričnom provrtu i ventilima, te se često koristi u jazzu i orkestrima?",
         "correct_answer": "Truba",
         "incorrect_answers": [
             "Trombon",
@@ -32297,12 +32297,12 @@
     {
         "id": "hr_mus_2468",
         "category": "glazba",
-        "question": "Koji je udaraljkaški instrument s brončanim pločicama, koje se udaraju batićem, stvarajući zvonjavu i rezonantan zvuk?",
+        "question": "Koji je udaraljkaški instrument od metala, često okruglog oblika, koji se udara batićem, stvarajući dubok i rezonantan zvuk?",
         "correct_answer": "Gong",
         "incorrect_answers": [
             "Činele",
-            "Tam-tam",
-            "Zvona"
+            "Zvona",
+            "Vibrafon"
         ],
         "explanation": "Gong je drevni udaraljkaški instrument azijskog porijekla, poznat po svom dubokom i trajnom zvuku, često korišten u orkestralnoj glazbi.",
         "difficulty": "hard",
@@ -32312,7 +32312,7 @@
     {
         "id": "hr_mus_2469",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni oblik koji započinje uvodom, nastavlja se fugom i često završava koralom, tipičan za barokno razdoblje?",
+        "question": "Kako se naziva virtuozni glazbeni oblik, često za klavijature, karakteriziran brzim figuracijama i improvizacijskim stilom, tipičan za barokno razdoblje?",
         "correct_answer": "Tokata",
         "incorrect_answers": [
             "Partita",
