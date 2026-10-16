@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   pull_request:
+  # Manual runs: the bot PRs from generate-questions/audit-category are
+  # opened with GITHUB_TOKEN, which doesn't trigger pull_request - dispatch
+  # CI on their branch before merging. Also replaces e2e-emulator.yml.
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run lint
@@ -32,7 +36,7 @@ jobs:
           java-version: '21'
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
       - run: npm ci
       - name: Install driver deps
@@ -54,6 +58,11 @@ jobs:
         run: node scripts/firestore-rules-leagues.test.mjs
       - name: Run security-audit Firestore rules tests
         run: node scripts/firestore-rules-security-audit.test.mjs
+      - name: Run counters / explanations / playtime Firestore rules tests
+        run: |
+          node scripts/firestore-rules-counters.test.mjs
+          node scripts/firestore-rules-explanations.test.mjs
+          node scripts/firestore-rules-playtime.test.mjs
       - name: Start dev server against the emulator
         env:
           VITE_USE_FIREBASE_EMULATOR: "true"

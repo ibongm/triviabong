@@ -1,5 +1,15 @@
 # Changelog
 
+### [2026-10-16] - CI on Node 22, all 7 rules suites, manual dispatch (audit M5)
+- **Files Changed**:
+  - `.github/workflows/ci.yml` (Modified)
+  - `.github/workflows/e2e-emulator.yml` (Deleted)
+- **Details**:
+  - Both jobs move from Node 20 (EOL 2026-04-30) to Node 22.
+  - Adds `workflow_dispatch`, needed to run CI on the bot PR branches (PRs opened with `GITHUB_TOKEN` don't trigger `pull_request`) and replacing the manual-only `e2e-emulator.yml`.
+  - The `e2e` job now also runs `firestore-rules-counters`, `-explanations` and `-playtime` (previously never run in CI), so all 7 rules suites run.
+  - Deleted `e2e-emulator.yml`: a manual-only copy of the `e2e` job that had already drifted (missing the security-audit suite).
+
 ### [2026-10-16] - Split the monolithic question chunk per category (audit H2)
 - **Files Changed**:
   - `vite.config.js` (Modified)
