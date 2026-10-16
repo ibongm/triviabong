@@ -25139,5 +25139,425 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji je najveći ocean na Zemlji po površini i volumenu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean pokriva približno jednu trećinu površine Zemlje i sadrži najveći volumen vode od svih oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazona",
+            "Mississippi",
+            "Yangtze"
+        ],
+        "explanation": "Rijeka Nil teče kroz sjeveroistočnu Afriku i dugačka je približno 6.650 kilometara, što je čini najdužom na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj stanovnika (stanje 2024.)?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Indija je (stanje 2024.) prestigla Kinu kao najmnogoljudnija zemlja na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva najveća pustinja na svijetu po površini, smještena u sjevernoj Africi?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, prostire se na više od 9 milijuna četvornih kilometara preko Sjeverne Afrike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji je naziv za uski kopneni pojas koji spaja dva veća kopna i okružen je vodom s obje strane?",
+        "correct_answer": "Prevlaka (zemljouz)",
+        "incorrect_answers": [
+            "Tjesnac",
+            "Poluotok",
+            "Zaljev"
+        ],
+        "explanation": "Prevlaka je uska kopnena masa koja spaja dva veća kopna, primjerice Panamska prevlaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Veliki koraljni greben?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Fidži"
+        ],
+        "explanation": "Veliki koraljni greben nalazi se uz obalu Queenslanda u Australiji i najveći je koraljni sustav na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada Sunce ostaje iznad horizonta dulje od 24 sata unutar Arktičkog ili Antarktičkog kruga?",
+        "correct_answer": "Polarni dan",
+        "incorrect_answers": [
+            "Polarna noć",
+            "Solsticij",
+            "Ekvinocij"
+        ],
+        "explanation": "Polarni dan je prirodni fenomen gdje Sunce ne zalazi ispod horizonta, obično tijekom ljeta u polarnim regijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koji planinski lanac tradicionalno dijeli Europu i Aziju?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Alpe",
+            "Himalaja"
+        ],
+        "explanation": "Planinski lanac Ural proteže se od sjevera prema jugu i smatra se prirodnom granicom između Europe i Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je europska država poznata po svojim polderima i opsežnom sustavu kanala?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska je poznata po razvoju poldera (isušeno zemljište) i širokoj mreži kanala za upravljanje vodom i poljoprivredu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva proces topljenja i otapanja ledenjaka?",
+        "correct_answer": "Ablacija",
+        "incorrect_answers": [
+            "Akumulacija",
+            "Erozija",
+            "Sublimacija"
+        ],
+        "explanation": "Ablacija je proces gubljenja mase ledenjaka uslijed topljenja, isparavanja i odlamanja leda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je najstarija pustinja na svijetu?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Namib u južnoj Africi smatra se najstarijom pustinjom na svijetu, prisutnom milijunima godina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je naziv za sloj tla koji ostaje trajno smrznut tijekom cijele godine?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Glečer",
+            "Morena"
+        ],
+        "explanation": "Permafrost je tlo koje je ostalo potpuno smrznuto najmanje dvije uzastopne godine, karakteristično za polarne regije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji tjesnac dijeli Afriku od Europe?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji povezuje Atlantski ocean i Sredozemno more, te razdvaja Europu od Afrike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koje se more nalazi između Azije i Sjeverne Amerike?",
+        "correct_answer": "Beringovo more",
+        "incorrect_answers": [
+            "Ohotsko more",
+            "Japansko more",
+            "Karsko more"
+        ],
+        "explanation": "Beringovo more je marginalno more Tihog oceana, a nalazi se između Sjeverne Amerike (Aljaska) i Azije (Sibir).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Europi?",
+        "correct_answer": "Elbrus",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Grossglockner",
+            "Matterhorn"
+        ],
+        "explanation": "Elbrus, ugašeni vulkan u Kavkazu (Rusija), najviši je vrh u Europi s visinom od 5.642 metra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koji se planinski lanac proteže kroz Francusku, Švicarsku, Italiju, Njemačku, Austriju, Lihtenštajn i Sloveniju?",
+        "correct_answer": "Alpe",
+        "incorrect_answers": [
+            "Karpati",
+            "Pireneji",
+            "Apenini"
+        ],
+        "explanation": "Alpe su najveći planinski sustav u Europi, koji se proteže kroz sedam država središnje Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva stalni vjetar koji puše iz suptropskih područja prema ekvatoru?",
+        "correct_answer": "Pasati",
+        "incorrect_answers": [
+            "Polarni vjetrovi",
+            "Zapadni vjetrovi",
+            "Monsuni"
+        ],
+        "explanation": "Pasati su stalni vjetrovi koji pušu iz visokotlačnih područja suptropskih širina prema niskotlačnom ekvatorijalnom pojasu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi kip Krista Iskupitelja?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Kip Krista Iskupitelja impozantna je statua Isusa Krista koja se nalazi na brdu Corcovado iznad Rio de Janeira, Brazil.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji je naziv za veliku pukotinu u Zemljinoj kori, često uzrokovanu tektonskim pomacima?",
+        "correct_answer": "Rasjed",
+        "incorrect_answers": [
+            "Kanjon",
+            "Vulkan",
+            "Krater"
+        ],
+        "explanation": "Rasjed je pukotina ili zona loma u Zemljinoj kori duž koje je došlo do relativnog pomicanja stijena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja je država poznata po svom obliku sličnom čizmi?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Portugal",
+            "Španjolska"
+        ],
+        "explanation": "Italija se često naziva 'čizmom' zbog svog prepoznatljivog oblika poluotoka koji strši u Sredozemno more.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva područje visoke vulkanske i potresne aktivnosti koje okružuje Tihi ocean?",
+        "correct_answer": "Pacifički vatreni prsten",
+        "incorrect_answers": [
+            "Alpsko-himalajski pojas",
+            "Srednjoatlantski hrbat",
+            "Andrijski lanac"
+        ],
+        "explanation": "Pacifički vatreni prsten je zona u Tihom oceanu gdje dolazi do čestih potresa i vulkanskih erupcija zbog tektonskih ploča.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je država poznata po uzgoju čaja i planini Fuji?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Japan je poznat po svojoj kulturi čaja i ikoničnoj planini Fuji, najvišem vrhu zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva područje oceana gdje se susreću tople i hladne morske struje, što često rezultira bogatim ribolovnim područjima?",
+        "correct_answer": "Oceanska fronta",
+        "incorrect_answers": [
+            "Termoklina",
+            "Hadalna zona",
+            "Abisalna ravnica"
+        ],
+        "explanation": "Susret različitih morskih struja stvara fronte bogate hranjivim tvarima, privlačeći riblje populacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji je najveći potvrđeni krater na Zemlji nastao udarom meteorita?",
+        "correct_answer": "Vredefort krater",
+        "incorrect_answers": [
+            "Chicxulub krater",
+            "Popigai krater",
+            "Sudbury bazen"
+        ],
+        "explanation": "Vredefort krater u Južnoj Africi najveći je potvrđeni udarni krater na svijetu s procijenjenim promjerom od 250-300 km.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva proces razaranja obale uzrokovan djelovanjem zamrznute morske vode i leda?",
+        "correct_answer": "Erozija ledom",
+        "incorrect_answers": [
+            "Abradija",
+            "Korazija",
+            "Kemijsko trošenje"
+        ],
+        "explanation": "Zamrznuta morska voda i led mogu mehanički erodirati obalne stijene širenjem i pomicanjem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalazi Nacionalni park Grand Canyon?",
+        "correct_answer": "Sjeverna Amerika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Azija",
+            "Afrika"
+        ],
+        "explanation": "Nacionalni park Grand Canyon smješten je u saveznoj državi Arizona u Sjedinjenim Američkim Državama, na kontinentu Sjeverna Amerika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna širina gdje je dan uvijek jednako dug kao noć, tijekom cijele godine?",
+        "correct_answer": "Ekvator",
+        "incorrect_answers": [
+            "Obratnica Raka",
+            "Obratnica Jarca",
+            "Polarni krug"
+        ],
+        "explanation": "Na ekvatoru, Sunce je gotovo okomito na površinu Zemlje, što rezultira približno jednakim trajanjem dana i noći tijekom godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koji planinski lanac prolazi duž cijele dužine Apeninskog poluotoka u Italiji?",
+        "correct_answer": "Apenini",
+        "incorrect_answers": [
+            "Alpe",
+            "Pireneji",
+            "Karpati"
+        ],
+        "explanation": "Apenini su glavni planinski lanac koji tvori okosnicu Italije, protežući se od sjevera do juga poluotoka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
