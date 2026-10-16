@@ -17059,10 +17059,10 @@
         "id": "hr_geo_1440",
         "category": "geografija",
         "question": "Koja je najnaseljenija država Bliskog istoka?",
-        "correct_answer": "Turska",
+        "correct_answer": "Iran",
         "incorrect_answers": [
             "Saudijska Arabija",
-            "Iran",
+            "Turska",
             "Irak"
         ],
         "explanation": "Turska, s populacijom od preko 85 milijuna (stanje 2024.), najnaseljenija je zemlja u regiji Bliskog istoka.",
@@ -17194,9 +17194,9 @@
         "id": "hr_geo_1449",
         "category": "geografija",
         "question": "Koja je najveća pustinja u Aziji?",
-        "correct_answer": "Pustinja Gobi",
+        "correct_answer": "Arapska pustinja",
         "incorrect_answers": [
-            "Arapska pustinja",
+            "Pustinja Gobi",
             "Takla Makan",
             "Karakum"
         ],
@@ -17224,11 +17224,11 @@
         "id": "hr_geo_1451",
         "category": "geografija",
         "question": "Koja je najgušće naseljena država na svijetu (ne uključujući mikrodržave poput Vatikana ili Monaka)?",
-        "correct_answer": "Bangladeš",
+        "correct_answer": "Singapur",
         "incorrect_answers": [
             "Indija",
             "Južna Koreja",
-            "Nizozemska"
+            "Bangladeš"
         ],
         "explanation": "Bangladeš ima izuzetno veliku gustoću naseljenosti, s preko 1.265 stanovnika po km² (stanje 2024.).",
         "difficulty": "easy",
@@ -17313,7 +17313,7 @@
     {
         "id": "hr_geo_1457",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po svojim gejzirima, uključujući slavni Geysir?",
+        "question": "Koja je zemlja poznata po svojim brojnim gejzirima i intenzivnoj geotermalnoj aktivnosti?",
         "correct_answer": "Island",
         "incorrect_answers": [
             "Novi Zeland",
@@ -17389,7 +17389,7 @@
         "id": "hr_geo_1462",
         "category": "geografija",
         "question": "Koji je naziv za geomorfološki oblik nastao djelovanjem leda, karakteriziran oštrim vrhovima i grebenima?",
-        "correct_answer": "Horn",
+        "correct_answer": "Ledenjački rog",
         "incorrect_answers": [
             "Cirque",
             "U-dolina",
@@ -17433,7 +17433,7 @@
     {
         "id": "hr_geo_1465",
         "category": "geografija",
-        "question": "Koja je država dom za grad Timbuktu?",
+        "question": "U kojoj se državi nalazi grad Timbuktu?",
         "correct_answer": "Mali",
         "incorrect_answers": [
             "Niger",
@@ -17463,8 +17463,8 @@
     {
         "id": "hr_geo_1467",
         "category": "geografija",
-        "question": "Koji je naziv za proces kojim se slana voda prelijeva preko kopna tijekom plime u niskim, ravnim obalnim područjima?",
-        "correct_answer": "Plimna ravnica (tidal flat)",
+        "question": "Koji je naziv za nisko, ravno obalno područje koje se prelijeva slanom vodom tijekom plime?",
+        "correct_answer": "Plimna ravnica",
         "incorrect_answers": [
             "Močvara",
             "Estuarij",
@@ -17479,7 +17479,7 @@
         "id": "hr_geo_1468",
         "category": "geografija",
         "question": "Koji je naziv za vulkansku stijenu koja ima pjenušavu, staklastu teksturu i može plutati na vodi?",
-        "correct_answer": "Plavac (Pumice)",
+        "correct_answer": "Plavac",
         "incorrect_answers": [
             "Bazalt",
             "Granit",
@@ -17493,7 +17493,7 @@
     {
         "id": "hr_geo_1469",
         "category": "geografija",
-        "question": "Koja je država dom najvišeg vodopada na svijetu, Angelovog vodopada?",
+        "question": "U kojoj se državi nalazi najviši vodopad na svijetu, Angelov vodopad?",
         "correct_answer": "Venezuela",
         "incorrect_answers": [
             "Brazil",
@@ -17513,7 +17513,7 @@
         "incorrect_answers": [
             "Sinklinala",
             "Rasjed",
-            "Naborna jama"
+            "Monoklinala"
         ],
         "explanation": "Antiklinala je nabor u slojevima stijena gdje se slojevi savijaju prema gore, s najstarijim slojevima u sredini.",
         "difficulty": "hard",
@@ -17658,7 +17658,7 @@
     {
         "id": "hr_geo_1480",
         "category": "geografija",
-        "question": "Koji je naziv za proces kada se rastaljena stijena, koja se nalazi ispod površine Zemlje, zove?",
+        "question": "Koji je naziv za rastaljenu stijenu koja se nalazi ispod površine Zemlje?",
         "correct_answer": "Magma",
         "incorrect_answers": [
             "Lava",
@@ -17718,7 +17718,7 @@
     {
         "id": "hr_geo_1484",
         "category": "geografija",
-        "question": "Koji je najnaseljeniji grad na svijetu?",
+        "question": "Koji je najnaseljeniji metropolitanski grad na svijetu?",
         "correct_answer": "Tokio (stanje 2024.)",
         "incorrect_answers": [
             "Delhi",
@@ -17738,7 +17738,7 @@
         "incorrect_answers": [
             "Kina",
             "Pakistan",
-            "Bangladeš"
+            "Mianmar"
         ],
         "explanation": "Ganges je sveta rijeka za hinduiste i jedna od najvažnijih rijeka u Indiji, izvire u Himalaji.",
         "difficulty": "medium",
@@ -17839,7 +17839,7 @@
         "id": "hr_geo_1492",
         "category": "geografija",
         "question": "Koja je najveća rijeka u Južnoj Americi po volumenu protoka?",
-        "correct_answer": "Amazon",
+        "correct_answer": "Amazona",
         "incorrect_answers": [
             "Paraná",
             "Orinoco",
@@ -18216,7 +18216,7 @@
         "question": "Koji je naziv za proces kojim se slana voda uklanja iz morske vode radi dobivanja pitke vode?",
         "correct_answer": "Desalinizacija",
         "incorrect_answers": [
-            "Destilacija",
+            "Aeracija",
             "Filtracija",
             "Koagulacija"
         ],
@@ -18532,7 +18532,7 @@
         "correct_answer": "Ledenjak",
         "incorrect_answers": [
             "Santa leda",
-            "Glečer",
+            "Permafrost",
             "Snježno polje"
         ],
         "explanation": "Ledenjak je velika, dugovječna masa zbijenog snijega i leda koja se formira na kopnu i polako kreće pod vlastitom težinom.",
@@ -18574,11 +18574,11 @@
         "id": "hr_geo_1541",
         "category": "geografija",
         "question": "Koji je najveći grad u Africi po broju stanovnika (stanje 2024.)?",
-        "correct_answer": "Lagos",
+        "correct_answer": "Kinshasa",
         "incorrect_answers": [
             "Kairo",
             "Johannesburg",
-            "Kinshasa"
+            "Lagos"
         ],
         "explanation": "Lagos u Nigeriji je najnaseljeniji grad u Africi, s preko 15 milijuna stanovnika u užem gradskom području (stanje 2024.).",
         "difficulty": "medium",
@@ -18619,7 +18619,7 @@
         "id": "hr_geo_1544",
         "category": "geografija",
         "question": "Najviši vodopad na svijetu?",
-        "correct_answer": "Anđeoski vodopadi",
+        "correct_answer": "Angelovi slapovi",
         "incorrect_answers": [
             "Victoria",
             "Niagara",
@@ -18696,7 +18696,7 @@
         "question": "Kako se naziva proces u kojem plodno tlo postaje pustinja?",
         "correct_answer": "Dezertifikacija",
         "incorrect_answers": [
-            "Eroazija",
+            "Erozija",
             "Slijeganje",
             "Degradacija"
         ],
@@ -18891,7 +18891,7 @@
         "question": "Kako se naziva geološki proces kojim ledenjaci oblikuju doline u karakterističan 'U' oblik?",
         "correct_answer": "Glacijalna erozija",
         "incorrect_answers": [
-            "Fluviatična erozija",
+            "Fluvijalna erozija",
             "Vjetrovna erozija",
             "Kemijska erozija"
         ],
@@ -18904,9 +18904,9 @@
         "id": "hr_geo_1563",
         "category": "geografija",
         "question": "Koja država ima najvišu prosječnu nadmorsku visinu terena na svijetu?",
-        "correct_answer": "Nepal",
+        "correct_answer": "Butan",
         "incorrect_answers": [
-            "Butan",
+            "Nepal",
             "Tadžikistan",
             "Švicarska"
         ],
@@ -18918,7 +18918,7 @@
     {
         "id": "hr_geo_1564",
         "category": "geografija",
-        "question": "Koji je najveći kanjon na svijetu po volumenu i dubini?",
+        "question": "Koji je jedan od najpoznatijih i najvećih kanjona na svijetu, smješten u SAD-u?",
         "correct_answer": "Veliki kanjon (Grand Canyon)",
         "incorrect_answers": [
             "Kanjon Colca",
@@ -19009,7 +19009,7 @@
         "id": "hr_geo_1571",
         "category": "geografija",
         "question": "Koja je rijeka najduža u Južnoj Americi i ima najveći protok vode na svijetu?",
-        "correct_answer": "Amazonija",
+        "correct_answer": "Amazona",
         "incorrect_answers": [
             "Paraná",
             "Orinoco",
@@ -19114,7 +19114,7 @@
         "id": "hr_geo_1578",
         "category": "geografija",
         "question": "Koji je naziv za proces kada vjetar nosi i taloži pijesak i prašinu, stvarajući dinamične pješčane formacije?",
-        "correct_answer": "Eolska erozija i sedimentacija",
+        "correct_answer": "Eolski procesi",
         "incorrect_answers": [
             "Glacijalna erozija",
             "Fluvijalna erozija",
@@ -19384,7 +19384,7 @@
         "id": "hr_geo_1597",
         "category": "geografija",
         "question": "Koji je naziv za plitko područje oceana koje se proteže od obale kontinenta?",
-        "correct_answer": "Kontinentalna ploča (šelf)",
+        "correct_answer": "Kontinentalni šelf",
         "incorrect_answers": [
             "Oceanski rov",
             "Abisalna ravnica",
@@ -19773,7 +19773,7 @@
     {
         "id": "hr_geo_1623",
         "category": "geografija",
-        "question": "Kako se naziva pojava kada se tlo iznenada sruši zbog urušavanja podzemnih šupljina, često u krškim područjima?",
+        "question": "Kako se naziva krški oblik reljefa koji nastaje kada se tlo iznenada sruši zbog urušavanja podzemnih šupljina, često u krškim područjima?",
         "correct_answer": "Vrtača (ponikva)",
         "incorrect_answers": [
             "Provalija",
@@ -19954,7 +19954,7 @@
         "id": "hr_geo_1635",
         "category": "geografija",
         "question": "Kako se naziva dolina koju je oblikovao ledenjak, a ima karakterističan presjek u obliku slova \"U\"?",
-        "correct_answer": "Valovita dolina (ili U-dolina)",
+        "correct_answer": "U-dolina",
         "incorrect_answers": [
             "V-dolina",
             "Riječna terasa",
@@ -19983,12 +19983,12 @@
     {
         "id": "hr_geo_1637",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po 'piramidama'?",
+        "question": "Koja je zemlja najpoznatija po drevnim piramidama?",
         "correct_answer": "Egipat",
         "incorrect_answers": [
-            "Kina",
-            "Meksiko",
-            "Peru"
+            "Brazil",
+            "Australija",
+            "Njemačka"
         ],
         "explanation": "Egipat je dom drevnih piramida, uključujući Veliku piramidu u Gizi, koja je jedno od sedam svjetskih čuda. Piramide su izgrađene kao grobnice faraona.",
         "difficulty": "easy",
