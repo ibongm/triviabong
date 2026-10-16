@@ -1,5 +1,11 @@
 # Changelog
 
+### [2026-10-16] - Split the monolithic question chunk per category (audit H2)
+- **Files Changed**:
+  - `vite.config.js` (Modified)
+- **Details**:
+  - Removed the `manualChunks` rule that forced every `src/data/categories/*` module into one `questions-data` chunk (5.9 MB / 1.47 MB gzip), which defeated the per-category `import()` in `questionsLoader.js`. The build now emits one chunk per category (geografija 129 kB … pop_kultura 238 kB gzip; opca_znanje 8 kB). A single-category round downloads one chunk; Opće znanje, the Daily Challenge and 1v1 (`getAllQuestions`) still fetch all eight, now in parallel.
+
 ### [2026-10-16] - Workflows open PRs instead of pushing to main; untrack reports and root artifacts (audit H1, M4, L7)
 - **Files Changed**:
   - `.github/workflows/generate-questions.yml` (Modified)
