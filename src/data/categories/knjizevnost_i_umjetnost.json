@@ -376,7 +376,7 @@
     {
         "id": "hr_art_35",
         "category": "knjizevnost",
-        "question": "Koji je rano-renesansni slikar iz Flandrije naslikao 'Oltar u Gentu' i 'Portret bračnog para Arnolfini'?",
+        "question": "Koji je ranorenesansni slikar iz Flandrije naslikao 'Oltar u Gentu' i 'Portret bračnog para Arnolfini'?",
         "correct_answer": "Jan van Eyck",
         "incorrect_answers": [
             "Rogier van der Weyden",
@@ -608,7 +608,7 @@
         "id": "hr_art_56",
         "category": "knjizevnost",
         "question": "Koji je talijanski renesansni slikar i arhitekt autor freske 'Atenska škola' u Apostolskoj palači?",
-        "correct_answer": "Rafael (Raffaello Sanzio)",
+        "correct_answer": "Rafael",
         "incorrect_answers": [
             "Michelangelo",
             "Leonardo da Vinci",
@@ -706,7 +706,7 @@
     {
         "id": "hr_art_65",
         "category": "knjizevnost",
-        "question": "Koji je grčki slikar baroknog razdoblja djelovao u Španjolskoj i bio poznat po izduženim figurama (slika 'Pogreb grofa Orgaza')?",
+        "question": "Koji je grčki slikar s prijelaza iz renesanse u barok djelovao u Španjolskoj i bio poznat po izduženim figurama (slika 'Pogreb grofa Orgaza')?",
         "correct_answer": "El Greco",
         "incorrect_answers": [
             "Diego Velázquez",
@@ -732,8 +732,8 @@
         "correct_answer": "Diego Velázquez",
         "incorrect_answers": [
             "Francisco de Zurbarán",
-            "El Greco",
-            "Francisco Goya"
+            "Jusepe de Ribera",
+            "Bartolomé Esteban Murillo"
         ]
     },
     {
@@ -762,7 +762,7 @@
         "id": "hr_art_70",
         "category": "knjizevnost",
         "question": "Tko je napisao ep o Gilgamešu koji se smatra jednim od najstarijih sačuvanih književnih djela?",
-        "correct_answer": "Nepoznati mezopotamski pjesnici",
+        "correct_answer": "Anonimni mezopotamski autori",
         "incorrect_answers": [
             "Homer, grčki epik",
             "Hesiod, grčki pjesnik",
@@ -775,9 +775,9 @@
         "question": "Koji je španjolski slikar prijelaza iz 18. u 19. stoljeće autor ciklusa 'Crne slike' i djela 'Treći svibnja 1808.'?",
         "correct_answer": "Francisco Goya",
         "incorrect_answers": [
-            "Diego Velázquez",
-            "Bartolomé Esteban Murillo",
-            "Joaquín Sorolla"
+            "Vicente López Portaña",
+            "Luis Paret y Alcázar",
+            "Agustín Esteve"
         ]
     },
     {
@@ -1015,7 +1015,7 @@
         "id": "hr_art_93",
         "category": "knjizevnost",
         "question": "Koji je renesansni slikar iz Venecije naslikao 'Urbinu Veneru' i 'Assuntu'?",
-        "correct_answer": "Tizian (Tiziano Vecelli)",
+        "correct_answer": "Tizian",
         "incorrect_answers": [
             "Tintoretto",
             "Paolo Veronese",
@@ -1355,7 +1355,7 @@
     {
         "id": "hr_art_124",
         "category": "knjizevnost",
-        "question": "Tko je autor epa 'Decimijana' ili 'Luzijada' (Os Lusíadas), nacionalnog epa Portugala?",
+        "question": "Tko je autor epa 'Luzijada' (Os Lusíadas), nacionalnog epa Portugala?",
         "correct_answer": "Luís de Camões",
         "incorrect_answers": [
             "Fernando Pessoa",
@@ -1421,8 +1421,8 @@
     {
         "id": "hr_art_130",
         "category": "knjizevnost",
-        "question": "Koji je perzijski pjesnik iz 13. stoljeća autor mitske zbirke stihova 'Masnavi' i slovi za velikog sufijskog mistika?",
-        "correct_answer": "Rumi (Jalal al-Din Rumi)",
+        "question": "Koji je perzijski pjesnik iz 13. stoljeća autor velikog spjeva u stihovima 'Masnavi' i slovi za velikog sufijskog mistika?",
+        "correct_answer": "Rumi",
         "incorrect_answers": [
             "Hafiz",
             "Omar Hajjam",
@@ -1509,7 +1509,7 @@
     {
         "id": "hr_art_138",
         "category": "knjizevnost",
-        "question": "Koji je američki slikar izradio ikonografsko djelo 'Američka gotika' (American Gothic) s farmerom i kćerima pred kućom?",
+        "question": "Koji je američki slikar izradio ikonografsko djelo 'Američka gotika' (American Gothic) s farmerom i kćeri pred kućom?",
         "correct_answer": "Grant Wood",
         "incorrect_answers": [
             "Edward Hopper",
@@ -1542,7 +1542,7 @@
     {
         "id": "hr_art_141",
         "category": "knjizevnost",
-        "question": "Kako se zove japanski pisac i nobelovac autor roman 'Snježna zemlja' i 'Tisuću ždralova'?",
+        "question": "Kako se zove japanski pisac i nobelovac, autor romana 'Snježna zemlja' i 'Tisuću ždralova'?",
         "correct_answer": "Yasunari Kawabata",
         "incorrect_answers": [
             "Kenzaburo Oe",
@@ -1839,7 +1839,7 @@
     {
         "id": "hr_art_168",
         "category": "knjizevnost",
-        "question": "Ako izuzmemo kazalište, koji je britanski pisac stvorio lik detektiva Sherlocka Holmesa?",
+        "question": "Koji je britanski pisac stvorio lik detektiva Sherlocka Holmesa?",
         "correct_answer": "Arthur Conan Doyle",
         "incorrect_answers": [
             "Agatha Christie",
@@ -2213,7 +2213,7 @@
     {
         "id": "hr_art_202",
         "category": "knjizevnost",
-        "question": "Kako se zove slavni barokni spjev Ivana Gundulića u kojem slavi slobodu grada Dubrovnika?",
+        "question": "Kako se zove slavni barokni spjev Ivana Gundulića, ep o osmanskom sultanu Osmanu II i bitci kod Hoćima?",
         "correct_answer": "Osman",
         "incorrect_answers": [
             "Dubravka",
@@ -2433,7 +2433,7 @@
     {
         "id": "hr_art_222",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pisac i prevoditelj napisao antologijski esej i pjesmu 'Kip domovine doli kak vu tblu spava'?",
+        "question": "Koji je hrvatski pisac i prevoditelj napisao antologijsku pjesmu 'Kip domovine vu rascvalu cvetju'?",
         "correct_answer": "Pavao Ritter Vitezović",
         "incorrect_answers": [
             "Matija Antun Relković",
@@ -2515,7 +2515,7 @@
         "incorrect_answers": [
             "Edo Murtić",
             "Oton Gliha",
-            "Josip Vaništa"
+            "Vlaho Bukovac"
         ]
     },
     {
@@ -2587,7 +2587,7 @@
     {
         "id": "hr_art_236",
         "category": "knjizevnost",
-        "question": "Kako se zove autor zbirke pripovjedaka 'Zagrebačka priča' i romana 'Polaganost'?",
+        "question": "Kako se zove autor zbirke pripovjedaka 'Zagrebačka priča' i romana 'Ne dao Bog većeg zla'?",
         "correct_answer": "Goran Tribuson",
         "incorrect_answers": [
             "Pavao Pavličić",
@@ -2724,7 +2724,7 @@
         "incorrect_answers": [
             "Miroslav Kraljević",
             "Vladimir Becić",
-            "Emanuel Vidović"
+            "Oscar Herman"
         ]
     },
     {
@@ -3544,7 +3544,7 @@
     {
         "id": "hr_art_323",
         "category": "knjizevnost",
-        "question": "Koji je engleski slikar 18. stoljeća izradio satirične serije grafika i slika poput 'Moderan brak'?",
+        "question": "Koji je engleski slikar 18. stoljeća izradio satirične serije grafika i slika poput 'Brak po modi'?",
         "correct_answer": "William Hogarth",
         "incorrect_answers": [
             "Joshua Reynolds",
@@ -4039,7 +4039,7 @@
     {
         "id": "hr_art_368",
         "category": "knjizevnost",
-        "question": "Koji je francusko-američka kiparica autorica monumentalne paukove skulpture 'Maman' visoke devet metara?",
+        "question": "Koja je francusko-američka kiparica autorica monumentalne paukove skulpture 'Maman' visoke devet metara?",
         "correct_answer": "Louise Bourgeois",
         "incorrect_answers": [
             "Eva Hesse",
@@ -4237,7 +4237,7 @@
     {
         "id": "hr_art_386",
         "category": "knjizevnost",
-        "question": "Koji je francuski slikar naive i samouk autor poznatog ulja na platnu 'Tigar na tropskoj oluji'?",
+        "question": "Koji je francuski slikar naive i samouk autor poznatog ulja na platnu 'Tigar u tropskoj oluji'?",
         "correct_answer": "Henri Rousseau",
         "incorrect_answers": [
             "Camille Bombois",
@@ -5172,7 +5172,7 @@
     {
         "id": "hr_art_471",
         "category": "knjizevnost",
-        "question": "Kako se zove trenutno najviša zgrada na svijetu (828 m) smještena u Dubaiju, a koju je projektirao studio SOM?",
+        "question": "Kako se zove najviša zgrada na svijetu (828 m) smještena u Dubaiju, a koju je projektirao studio SOM?",
         "correct_answer": "Burj Khalifa",
         "incorrect_answers": [
             "Shanghai Tower",
@@ -5304,7 +5304,7 @@
     {
         "id": "hr_art_483",
         "category": "knjizevnost",
-        "question": "Kako se zove švedski pisac i nobelovac autor romana 'Divočovjek' (Barabbas) i 'Patuljak' (Dvärgen)?",
+        "question": "Kako se zove švedski pisac i nobelovac autor romana 'Barabbas' i 'Patuljak' (Dvärgen)?",
         "correct_answer": "Pär Lagerkvist",
         "incorrect_answers": [
             "Harry Martinson",
@@ -5524,7 +5524,7 @@
     {
         "id": "hr_art_503",
         "category": "knjizevnost",
-        "question": "Kako se zove britanska spisateljica autorica romana 'Ponos i predrasude'?",
+        "question": "Kako se zove britanska spisateljica, autorica romana 'Ponos i predrasude'?",
         "correct_answer": "Jane Austen",
         "incorrect_answers": [
             "Charlotte Brontë",
@@ -5623,7 +5623,7 @@
     {
         "id": "hr_art_512",
         "category": "knjizevnost",
-        "question": "Koja je slikovna tehnika karakteristična za italijanskog renesansnog slikara Leonarda da Vincija?",
+        "question": "Koja je slikovna tehnika karakteristična za talijanskog renesansnog slikara Leonarda da Vincija?",
         "correct_answer": "Sfumato",
         "incorrect_answers": [
             "Chiaroscuro",
@@ -5788,7 +5788,7 @@
     {
         "id": "hr_art_527",
         "category": "knjizevnost",
-        "question": "Koji je američki film redatelja Orson Wellesa iz 1941. godine smatran najvećim filmom svih vremena?",
+        "question": "Koji je američki film Orsona Wellesa iz 1941. godine smatran jednim od najvećih filmova svih vremena?",
         "correct_answer": "Citizen Kane",
         "incorrect_answers": [
             "The Magnificent Ambersons",
@@ -5810,10 +5810,10 @@
     {
         "id": "hr_art_529",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski suvremeni skladatelj i osnivač Muzičkog biennala Zagreb?",
+        "question": "Koji je hrvatski skladatelj i osnivač Muzičkog biennala Zagreb?",
         "correct_answer": "Milko Kelemen",
         "incorrect_answers": [
-            "Ivo Robić",
+            "Stanko Horvat",
             "Frano Parać",
             "Petar Bergamo"
         ]
@@ -5876,12 +5876,12 @@
     {
         "id": "hr_art_535",
         "category": "knjizevnost",
-        "question": "Koji je britanski glazbenik bio jedan od osnivača benda 'The Beatles' i činio je polovinu čuvenog autorskog dvojca Lennon-McCartney?",
+        "question": "Koji je britanski glazbenik bio jedan od osnivača benda 'The Beatles' i uz Paula McCartneyja činio čuveni autorski dvojac Lennon-McCartney?",
         "correct_answer": "John Lennon",
         "incorrect_answers": [
-            "Paul McCartney",
             "George Harrison",
-            "Ringo Starr"
+            "Ringo Starr",
+            "Pete Best"
         ]
     },
     {
@@ -5931,7 +5931,7 @@
     {
         "id": "hr_art_540",
         "category": "knjizevnost",
-        "question": "Kako se zove američka redateljica, dobitnica Oscara za režiju filma 'Zemlja nomada' (Nomadland)?",
+        "question": "Kako se zove redateljica, dobitnica Oscara za režiju filma 'Zemlja nomada' (Nomadland)?",
         "correct_answer": "Chloé Zhao",
         "incorrect_answers": [
             "Ava DuVernay",
@@ -6052,7 +6052,7 @@
     {
         "id": "hr_art_552",
         "category": "knjizevnost",
-        "question": "Kako se zove američki redatelj poznat po 'Ulici zla' i 'Taksistu'?",
+        "question": "Kako se zove američki redatelj poznat po 'Opasnim ulicama' i 'Taksistu'?",
         "correct_answer": "Martin Scorsese",
         "incorrect_answers": [
             "Francis Ford Coppola",
@@ -6118,10 +6118,10 @@
     {
         "id": "hr_art_558",
         "category": "knjizevnost",
-        "question": "Kako se zove nizozemski redatelj poznat po 'Turskom voću' i 'Vojniku naranči'?",
+        "question": "Kako se zove nizozemski redatelj poznat po 'Turskom voću' i 'Vojniku naranče'?",
         "correct_answer": "Paul Verhoeven",
         "incorrect_answers": [
-            "Wim Wenders",
+            "Alex van Warmerdam",
             "Fons Rademakers",
             "Anton Corbijn"
         ]
@@ -6143,9 +6143,9 @@
         "question": "Kako se zove američka fotografkinja poznata po revolucionarnim tehnikama u fotografiji?",
         "correct_answer": "Berenice Abbott",
         "incorrect_answers": [
-            "Man Ray",
-            "André Kertész",
-            "Henri Cartier-Bresson"
+            "Dorothea Lange",
+            "Diane Arbus",
+            "Cindy Sherman"
         ]
     },
     {
@@ -6209,9 +6209,9 @@
         "question": "Kako se zove japanska konceptualna umjetnica i glazbenica, članica pokreta Fluxus i supruga Johna Lennona?",
         "correct_answer": "Yoko Ono",
         "incorrect_answers": [
-            "Ryoji Ikeda",
-            "Merzbow",
-            "Keiji Haino"
+            "Yayoi Kusama",
+            "Atsuko Tanaka",
+            "Seiko Mikami"
         ]
     },
     {
@@ -6243,8 +6243,8 @@
         "correct_answer": "Kraftwerk",
         "incorrect_answers": [
             "Tangerine Dream",
-            "Jean-Michel Jarre",
-            "Giorgio Moroder"
+            "Can",
+            "Neu!"
         ]
     },
     {
@@ -6448,7 +6448,7 @@
     {
         "id": "hr_art_588",
         "category": "knjizevnost",
-        "question": "Kako se zove francuska filozofkinja, književnica i teoretičarka poststrukturalističkog feminizma?",
+        "question": "Koja je francuska filozofkinja, književnica i teoretičarka poststrukturalističkog feminizma najpoznatija po konceptu 'ženskog pisma' (écriture féminine)?",
         "correct_answer": "Hélène Cixous",
         "incorrect_answers": [
             "Luce Irigaray",
@@ -6473,9 +6473,9 @@
         "question": "Koji je poljski redatelj stekao svjetsku slavu filmskom trilogijom 'Tri boje' (Plavo, Bijelo, Crveno) i serijalom 'Dekalog'?",
         "correct_answer": "Krzysztof Kieślowski",
         "incorrect_answers": [
-            "Jean-Luc Godard",
-            "François Truffaut",
-            "Claude Chabrol"
+            "Andrzej Wajda",
+            "Jerzy Kawalerowicz",
+            "Agnieszka Holland"
         ]
     },
     {
@@ -6485,14 +6485,14 @@
         "correct_answer": "Jane Austen",
         "incorrect_answers": [
             "Charlotte Brontë",
-            "Emily Dickinson",
+            "Elizabeth Gaskell",
             "George Eliot"
         ]
     },
     {
         "id": "hr_art_592",
         "category": "knjizevnost",
-        "question": "Kako se zove američka glazbenica poznata po jazzovskim i blues pjevanjima?",
+        "question": "Kako se zove američka glazbenica, poznata po jazzovskim i blues pjevanjima i potresnoj izvedbi pjesme 'Strange Fruit'?",
         "correct_answer": "Billie Holiday",
         "incorrect_answers": [
             "Ella Fitzgerald",
@@ -6508,7 +6508,7 @@
         "incorrect_answers": [
             "Miguel Littín",
             "Raúl Ruiz",
-            "Claudia Llosa"
+            "Silvio Caiozzi"
         ]
     },
     {
@@ -6519,7 +6519,7 @@
         "incorrect_answers": [
             "John Flaxman",
             "Bertel Thorvaldsen",
-            "James Wyatt"
+            "Jean-Antoine Houdon"
         ]
     },
     {
@@ -6528,15 +6528,15 @@
         "question": "Koji je američki pisac najpoznatiji po romanima za mlade kao što su 'Greška u našim zvijezdama' i 'Gradovi od papira'?",
         "correct_answer": "John Green",
         "incorrect_answers": [
-            "David Foster Wallace",
-            "George Saunders",
-            "Michael Chabon"
+            "Rick Riordan",
+            "Suzanne Collins",
+            "Veronica Roth"
         ]
     },
     {
         "id": "hr_art_596",
         "category": "knjizevnost",
-        "question": "Kako se zove njemački skladatelj poznat po filmskoj glazbi za brojne holivudske hitove?",
+        "question": "Kako se zove skladatelj poznat po filmskoj glazbi za brojne holivudske hitove?",
         "correct_answer": "Hans Zimmer",
         "incorrect_answers": [
             "John Williams",
@@ -6552,13 +6552,13 @@
         "incorrect_answers": [
             "Chantal Akerman",
             "Harry Kümel",
-            "Jaco Van Dormael"
+            "Stijn Coninx"
         ]
     },
     {
         "id": "hr_art_598",
         "category": "knjizevnost",
-        "question": "Kako se zove francuska filmska redateljica poznata po feministički usmjerenim radnjima?",
+        "question": "Kako se zove francuska filmska redateljica, pionirka Francuskog novog vala, poznata po feministički usmjerenim radnjama i filmovima poput 'Cléo od 5 do 7'?",
         "correct_answer": "Agnès Varda",
         "incorrect_answers": [
             "Claire Denis",
@@ -6591,7 +6591,7 @@
     {
         "id": "hr_art_601",
         "category": "knjizevnost",
-        "question": "Koji je britanski skladatelj najpoznatiji po iznimno uspješnim mjuziklima poput 'Fantoma u operi', 'Mačaka' i 'Evite'?",
+        "question": "Koji je skladatelj najpoznatiji po iznimno uspješnim mjuziklima poput 'Fantoma u operi', 'Mačaka' i 'Evite'?",
         "correct_answer": "Andrew Lloyd Webber",
         "incorrect_answers": [
             "Stephen Sondheim",
@@ -6690,7 +6690,7 @@
     {
         "id": "hr_art_610",
         "category": "knjizevnost",
-        "question": "Koji je francuski slikar osnivač impresionizma i autor slike 'Impresija, izlazak sunca'?",
+        "question": "Koji je francuski slikar, čija je slika 'Impresija, izlazak sunca' dala ime umjetničkom pravcu impresionizma?",
         "correct_answer": "Claude Monet",
         "incorrect_answers": [
             "Édouard Manet",
@@ -6866,7 +6866,7 @@
     {
         "id": "hr_art_626",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pisac autor romana 'Gospoda Glembajevi'?",
+        "question": "Koji je hrvatski pisac autor drame 'Gospoda Glembajevi'?",
         "correct_answer": "Miroslav Krleža",
         "incorrect_answers": [
             "Slavko Kolar",
@@ -6902,9 +6902,9 @@
         "question": "Koji je srpski književnik autor slavne poeme 'Lament nad Beogradom' i romana 'Seobe'?",
         "correct_answer": "Miloš Crnjanski",
         "incorrect_answers": [
-            "Tin Ujević",
-            "Antun Branko Šimić",
-            "Dobriša Cesarić"
+            "Ivo Andrić",
+            "Meša Selimović",
+            "Bora Stanković"
         ]
     },
     {
@@ -7784,7 +7784,7 @@
         "incorrect_answers": [
             "Fiškal",
             "Baruničina ljubav",
-            "Vinko Puljanić"
+            "Među žabari"
         ]
     },
     {
@@ -8263,7 +8263,7 @@
     {
         "id": "hr_art_753",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski pjesnik i akademik, rođen u Dragišićima, autor zbirke 'Jama'?",
+        "question": "Koji je hrvatski pjesnik, autor antiratne poeme 'Jama'?",
         "correct_answer": "Ivan Goran Kovačić",
         "incorrect_answers": [
             "Dobriša Cesarić",
@@ -8967,7 +8967,7 @@
     {
         "id": "hr_art_817",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski književnik bio glavni ideolog ilirskog pokreta i autor pjesme 'Horvatzka domovina'?",
+        "question": "Koji je hrvatski književnik bio glavni ideolog ilirskog pokreta i urednik časopisa u kojem je objavljena pjesma 'Horvatzka domovina'?",
         "correct_answer": "Ljudevit Gaj",
         "incorrect_answers": [
             "Ivan Mažuranić",
@@ -9003,7 +9003,7 @@
         "question": "Koji je hrvatski književnik autor romana 'Mirisi, zlato i tamjan', smještenog na otoku?",
         "correct_answer": "Slobodan Novak",
         "incorrect_answers": [
-            "Petar Brečić",
+            "Ranko Marinković",
             "Ivan Aralica",
             "Nedjeljko Fabrio"
         ]
@@ -9055,7 +9055,7 @@
     {
         "id": "hr_art_825",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski slikar poznat po plavim figurama i apstraktnim kompozicijama, te jedan od osnivača grupe Gorgona?",
+        "question": "Koji je hrvatski slikar poznat po motivu meandra i apstraktnim kompozicijama, te jedan od osnivača grupe Gorgona?",
         "correct_answer": "Julije Knifer",
         "incorrect_answers": [
             "Josip Vaništa",
@@ -9077,7 +9077,7 @@
     {
         "id": "hr_art_827",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski slikar i arhitekt, jedan od pionira moderne arhitekture u Zagrebu, poznat po djelima poput zgrade Burze i Hotela Esplanade?",
+        "question": "Koji je hrvatski arhitekt, jedan od pionira moderne arhitekture u Zagrebu, poznat po djelima poput zgrade Burze i Hotela Esplanade?",
         "correct_answer": "Viktor Kovačić",
         "incorrect_answers": [
             "Vjekoslav Bastl",
@@ -9488,7 +9488,7 @@
         "correct_answer": "Zlatko Prica",
         "incorrect_answers": [
             "Oton Postružnik",
-            "Gabrijel Stupica",
+            "Edo Kovačević",
             "Frano Šimunović"
         ]
     },
@@ -9522,7 +9522,7 @@
         "incorrect_answers": [
             "Antun Augustinčić",
             "Vanja Radauš",
-            "Lojze Dolinar"
+            "Branislav Dešković"
         ]
     },
     {
@@ -9727,9 +9727,9 @@
         "id": "hr_art_886",
         "category": "knjizevnost_i_umjetnost",
         "question": "Koji je hrvatski modernistički pjesnik autor zbirke 'Preobraženja' i poznat po svojoj duhovnoj poeziji?",
-        "correct_answer": "Antun Gustav Matoš",
+        "correct_answer": "Tin Ujević",
         "incorrect_answers": [
-            "Tin Ujević",
+            "Antun Gustav Matoš",
             "Vladimir Vidrić",
             "Dobriša Cesarić"
         ]
@@ -9748,7 +9748,7 @@
     {
         "id": "hr_art_888",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski književnik, poznat po humorističnim i satiričnim djelima, autor romana 'Don Quijote iz naših krajeva'?",
+        "question": "Koji je hrvatski književnik, poznat po humorističnim i satiričnim djelima, autor romana 'U registraturi'?",
         "correct_answer": "Ante Kovačić",
         "incorrect_answers": [
             "Mato Lovrak",
@@ -9770,7 +9770,7 @@
     {
         "id": "hr_art_890",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Tko je autor zbirke soneta 'Dubravka', pastirske drame koja slavi ljepotu prirode i ljubav?",
+        "question": "Tko je autor 'Dubravke', pastirske drame koja slavi ljepotu prirode i ljubav?",
         "correct_answer": "Ivan Gundulić",
         "incorrect_answers": [
             "Hanibal Lucić",
@@ -9781,7 +9781,7 @@
     {
         "id": "hr_art_891",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski književnik, poznat po djelima koja propitkuju odnos pojedinca i društva, autor romana 'Breza' i 'Duga'?",
+        "question": "Koji je hrvatski književnik, poznat po djelima koja propitkuju odnos pojedinca i društva, autor romana 'Breza'?",
         "correct_answer": "Slavko Kolar",
         "incorrect_answers": [
             "Dinko Šimunović",
@@ -9924,7 +9924,7 @@
     {
         "id": "hr_art_904",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski arhitekt i urbanist, poznat po radu na Zagrebu, autor urbanističkog plana Gornjeg grada i projekta Hrvatskog narodnog kazališta?",
+        "question": "Koji je hrvatski arhitekt i restaurator, poznat po obnovi Zagrebačke katedrale i Crkve sv. Marka, te projektiranju arkada na Mirogoju?",
         "correct_answer": "Herman Bollé",
         "incorrect_answers": [
             "Viktor Kovačić",
@@ -9957,7 +9957,7 @@
     {
         "id": "hr_art_907",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koja je najpoznatija antička rimska arena u Hrvatskoj, smještena u Puli, poznata po svojoj očuvanosti?",
+        "question": "Koja je najpoznatija antička rimska arena u Hrvatskoj, poznata po svojoj očuvanosti?",
         "correct_answer": "Pulska Arena",
         "incorrect_answers": [
             "Dioklecijanova palača",
@@ -9982,7 +9982,7 @@
         "question": "Koji je hrvatski arhitekt, poznat po projektima 'Dječja bolnica Srebrnjak' i 'Zgrada Rektorata Sveučilišta u Zagrebu', te pripadnik Zagrebačke škole?",
         "correct_answer": "Kazimir Ostrogović",
         "incorrect_answers": [
-            "Vladimir Nazor",
+            "Stjepan Planić",
             "Drago Ibler",
             "Alfred Albini"
         ]
@@ -9990,7 +9990,7 @@
     {
         "id": "hr_art_910",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koja je najpoznatija romanička crkva u Hrvatskoj, smještena u Zadru, poznata po svojoj cilindričnoj formi?",
+        "question": "Koja je najpoznatija romanička crkva u Hrvatskoj, poznata po svojoj cilindričnoj formi?",
         "correct_answer": "Crkva sv. Donata",
         "incorrect_answers": [
             "Katedrala sv. Jakova",
@@ -10023,7 +10023,7 @@
     {
         "id": "hr_art_913",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koja je antička rimska epopeja, djelo Vergilija, inspirirana Homerovom 'Ilijadom' i 'Odisejom', a opisuje putovanje Eneje?",
+        "question": "Koja je antička rimska epopeja, djelo Vergilija, inspirirana Homerovom 'Ilijadom' i 'Odisejom'?",
         "correct_answer": "Eneida",
         "incorrect_answers": [
             "Metamorfoze",
@@ -10046,7 +10046,7 @@
         "id": "hr_art_915",
         "category": "knjizevnost_i_umjetnost",
         "question": "Koji je španjolski književnik autor slavnog romana 'Don Quijote', parodije viteških romana?",
-        "correct_answer": "Miguel de Cervantes Saavedra",
+        "correct_answer": "Miguel de Cervantes",
         "incorrect_answers": [
             "Lope de Vega",
             "Calderón de la Barca",
@@ -10122,7 +10122,7 @@
     {
         "id": "hr_art_922",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski književnik ranog modernizma, poznat po djelima poput 'Pisma iz mog mlina' i 'Crtice iz hrvatske povijesti'?",
+        "question": "Koji je hrvatski književnik, poznat kao začetnik hrvatskog realizma i autor povijesnih romana poput 'Zlatarovo zlato' i 'Prosjak Luka'?",
         "correct_answer": "August Šenoa",
         "incorrect_answers": [
             "Ksaver Šandor Gjalski",
@@ -10144,7 +10144,7 @@
     {
         "id": "hr_art_924",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koja je hrvatska pjesnikinja, pripadnica ekspresionističkog pokreta, autorica zbirke poezije 'Odabrane pjesme'?",
+        "question": "Koji je hrvatski pjesnik, poznat po intimnoj lirici i zbirci 'Srebrne svirale'?",
         "correct_answer": "Dragutin Tadijanović",
         "incorrect_answers": [
             "Vesna Parun",
@@ -10166,7 +10166,7 @@
     {
         "id": "hr_art_926",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski pjesnik i prevoditelj, poznat po svojoj simbolističkoj i parnasovskoj poeziji, autor 'Hrvatske mlade lirike'?",
+        "question": "Koji je hrvatski pjesnik i prevoditelj, poznat po svojoj simbolističkoj i parnasovskoj poeziji, čija je poezija bila ključna za antologiju 'Hrvatska mlada lirika'?",
         "correct_answer": "Antun Gustav Matoš",
         "incorrect_answers": [
             "Vladimir Nazor",
@@ -10177,7 +10177,7 @@
     {
         "id": "hr_art_927",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski arhitekt, poznat po svojim funkcionalističkim projektima i kao jedan od osnivača grupe 'Zemlja', autor zgrade Burze u Zagrebu?",
+        "question": "Koji je hrvatski arhitekt, poznat po svojim funkcionalističkim projektima, autor zgrade Burze u Zagrebu?",
         "correct_answer": "Edo Šen",
         "incorrect_answers": [
             "Drago Ibler",
@@ -10199,11 +10199,11 @@
     {
         "id": "hr_art_929",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski suvremeni kipar, poznat po svojim apstraktnim formama i materijalima poput drva i metala, autor spomenika 'Sunce' u Zagrebu?",
-        "correct_answer": "Dušan Džamonja",
+        "question": "Koji je hrvatski suvremeni kipar, poznat po svojim apstraktnim formama i materijalima poput drva i metala, autor spomenika 'Prizemljeno Sunce' u Zagrebu?",
+        "correct_answer": "Ivan Kožarić",
         "incorrect_answers": [
             "Vojin Bakić",
-            "Ivan Kožarić",
+            "Dušan Džamonja",
             "Branko Ružić"
         ]
     },
@@ -10288,11 +10288,11 @@
         "id": "hr_art_937",
         "category": "knjizevnost_i_umjetnost",
         "question": "Koji je austrijski arhitekt, predstavnik bečke secesije, poznat po zgradi 'Secesije' u Beču?",
-        "correct_answer": "Otto Wagner",
+        "correct_answer": "Joseph Maria Olbrich",
         "incorrect_answers": [
+            "Otto Wagner",
             "Adolf Loos",
-            "Josef Hoffmann",
-            "Koloman Moser"
+            "Josef Hoffmann"
         ]
     },
     {
@@ -10320,7 +10320,7 @@
     {
         "id": "hr_art_940",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je engleski pejzažni slikar, predstavnik romantizma, poznat po svojim dinamičnim prizorima prirode i morskih oluja, autor 'Parne lokomotive'?",
+        "question": "Koji je engleski pejzažni slikar, predstavnik romantizma, poznat po svojim dinamičnim prizorima prirode i morskih oluja, autor slike 'Kiša, para i brzina – Velika zapadna željeznica'?",
         "correct_answer": "J.M.W. Turner",
         "incorrect_answers": [
             "John Constable",
@@ -10376,17 +10376,17 @@
         "id": "hr_art_945",
         "category": "knjizevnost_i_umjetnost",
         "question": "Koji je hrvatski pjesnik i esejist, poznat po svojim misaonim i duhovnim stihovima, autor zbirke 'Lelek sebra'?",
-        "correct_answer": "Vladimir Nazor",
+        "correct_answer": "Tin Ujević",
         "incorrect_answers": [
+            "Vladimir Nazor",
             "August Harambašić",
-            "Milan Begović",
-            "Janko Leskovar"
+            "Milan Begović"
         ]
     },
     {
         "id": "hr_art_946",
         "category": "knjizevnost_i_umjetnost",
-        "question": "Koji je hrvatski književnik, poznat po romanima o životu u Slavoniji, autor 'Cigani' i 'Pustolovine kapetana Mikule'?",
+        "question": "Koji je hrvatski književnik, poznat po romanima o životu u Slavoniji, autor djela 'Mrtvi kapitali' i 'Tena'?",
         "correct_answer": "Josip Kozarac",
         "incorrect_answers": [
             "Petar Preradović",
@@ -10409,11 +10409,11 @@
         "id": "hr_art_948",
         "category": "knjizevnost_i_umjetnost",
         "question": "Koji je hrvatski arhitekt, poznat po svojim inovativnim projektima u periodu modernizma, autor hotela 'Ambasador' u Opatiji?",
-        "correct_answer": "Zdenko Sila",
+        "correct_answer": "Zdravko Bregovac",
         "incorrect_answers": [
             "Alfred Albini",
             "Ivan Zemljak",
-            "Dragutin Ulaga"
+            "Zdenko Sila"
         ]
     },
     {
@@ -10452,7 +10452,7 @@
     {
         "id": "hr_art_952",
         "category": "knjizevnost",
-        "question": "Koje je najpoznatije djelo Marka Marulića, ep u 24 pjevanja, smatrano prvim umjetničkim epom na hrvatskom jeziku?",
+        "question": "Koje je najpoznatije djelo Marka Marulića, ep u šest pjevanja, smatrano prvim umjetničkim epom na hrvatskom jeziku?",
         "correct_answer": "Judita",
         "incorrect_answers": [
             "Ribanje i ribarsko prigovaranje",
@@ -10497,7 +10497,7 @@
     {
         "id": "hr_art_955",
         "category": "knjizevnost",
-        "question": "Koji je rimski panteon, hram posvećen svim bogovima, poznat po svojoj kupoli s otvorom (okulusom)?",
+        "question": "Koji je starorimski hram, izvorno posvećen svim bogovima, poznat po svojoj impresivnoj kupoli s otvorom (okulusom) na vrhu?",
         "correct_answer": "Panteon",
         "incorrect_answers": [
             "Kolosej",
@@ -10710,9 +10710,9 @@
         "question": "Koji je švicarsko-francuski arhitekt, jedan od pionira modernizma, poznat po konceptu 'mašine za stanovanje' i vili Savoye?",
         "correct_answer": "Le Corbusier",
         "incorrect_answers": [
-            "Frank Lloyd Wright",
-            "Ludwig Mies van der Rohe",
-            "Walter Gropius"
+            "Walter Gropius",
+            "Alvar Aalto",
+            "Oscar Niemeyer"
         ],
         "explanation": "Le Corbusier je svojim radom revolucionirao arhitekturu, promovirajući funkcionalnost i nove materijale.",
         "difficulty": "medium",
@@ -10887,7 +10887,7 @@
     {
         "id": "hr_art_981",
         "category": "knjizevnost",
-        "question": "Koji je njemački ekspresionistički slikar, član grupe 'Plavi jahač', poznat po svojim apstraktnim slikama intenzivnih boja i duhovne tematike, poput 'Improvizacije'?",
+        "question": "Koji je ruski ekspresionistički slikar, član grupe 'Plavi jahač', poznat po svojim apstraktnim slikama intenzivnih boja i duhovne tematike, poput 'Improvizacije'?",
         "correct_answer": "Wassily Kandinsky",
         "incorrect_answers": [
             "Ernst Ludwig Kirchner",
@@ -10947,7 +10947,7 @@
     {
         "id": "hr_art_985",
         "category": "knjizevnost",
-        "question": "Koji je nizozemski renesansni slikar poznat po svojim detaljnim i simboličnim slikama poput 'Vjenčanje Arnolfinijevih' i 'Oltar iz Genta'?",
+        "question": "Koji je rano-nizozemski slikar, poznat po svojim detaljnim i simboličnim slikama poput 'Vjenčanje Arnolfinijevih' i 'Oltar iz Genta'?",
         "correct_answer": "Jan van Eyck",
         "incorrect_answers": [
             "Pieter Bruegel Stariji",
@@ -11112,7 +11112,7 @@
     {
         "id": "hr_art_996",
         "category": "knjizevnost",
-        "question": "Koji je engleski pjesnik i dramatičar iz viktorijanskog doba, poznat po epu 'Paradise Lost' (Izgubljeni raj)?",
+        "question": "Koji je engleski pjesnik i dramatičar iz 17. stoljeća, poznat po epu 'Paradise Lost' (Izgubljeni raj)?",
         "correct_answer": "John Milton",
         "incorrect_answers": [
             "William Shakespeare",
@@ -11232,7 +11232,7 @@
     {
         "id": "hr_art_1004",
         "category": "knjizevnost",
-        "question": "Koji je švedski dramatičar, romanopisac i esejist, dobitnik Nobelove nagrade, autor djela 'Gospođica Julija' i 'Otac'?",
+        "question": "Koji je švedski dramatičar, romanopisac i esejist, autor djela 'Gospođica Julija' i 'Otac'?",
         "correct_answer": "August Strindberg",
         "incorrect_answers": [
             "Henrik Ibsen",
@@ -11262,7 +11262,7 @@
     {
         "id": "hr_art_1006",
         "category": "knjizevnost",
-        "question": "Koja je talijanska renesansna skulptura, stvorena od Michelangela, prikazuje Mariju kako drži mrtvog Isusa?",
+        "question": "Koja je talijanska renesansna skulptura, koju je izradio Michelangelo, prikazuje Mariju kako drži mrtvog Isusa?",
         "correct_answer": "Pietà",
         "incorrect_answers": [
             "David",
@@ -11356,8 +11356,8 @@
         "correct_answer": "Salvador Dalí",
         "incorrect_answers": [
             "Joan Miró",
-            "Frida Kahlo",
-            "Francisco Goya"
+            "René Magritte",
+            "Max Ernst"
         ],
         "explanation": "Salvador Dalí je bio ekscentrični španjolski nadrealistički slikar, čija je 'Postojanost pamćenja' ikona pokreta s prepoznatljivim motivom topljenja satova.",
         "difficulty": "medium",
@@ -11397,7 +11397,7 @@
     {
         "id": "hr_art_1015",
         "category": "knjizevnost",
-        "question": "Koji je francuski slikar, poznat po svojim pastelnim portretima i rokoko stilu, autor 'Kupačice' (La Baigneuse)?",
+        "question": "Koji je francuski slikar, poznat po rokoko stilu, autor 'Kupačice' (La Baigneuse)?",
         "correct_answer": "Jean-Honoré Fragonard",
         "incorrect_answers": [
             "François Boucher",
@@ -11547,7 +11547,7 @@
     {
         "id": "hr_art_1025",
         "category": "knjizevnost",
-        "question": "Koji je švedski slikar, poznat po svojim plavim tonovima i slikama žena, autor 'Djevojke s tulipanima'?",
+        "question": "Koji je švedski slikar, poznat po svojim idiličnim prikazima obiteljskog života, autor 'Djevojke s tulipanima'?",
         "correct_answer": "Carl Larsson",
         "incorrect_answers": [
             "Anders Zorn",
@@ -11562,7 +11562,7 @@
     {
         "id": "hr_art_1026",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po novelama i romanima u kojima opisuje život u Lici, autor 'Majke Raos' i 'Kikaša'?",
+        "question": "Koji je hrvatski književnik, poznat po psihološkim novelama i romanima u kojima opisuje život u Hrvatskom zagorju, autor 'Kikaša'?",
         "correct_answer": "Janko Leskovar",
         "incorrect_answers": [
             "Josip Kozarac",
@@ -11607,7 +11607,7 @@
     {
         "id": "hr_art_1029",
         "category": "knjizevnost",
-        "question": "Koji je talijanski barokni arhitekt, kipar i slikar, suparnik Berninija, poznat po ovalnoj crkvi San Carlo alle Quattro Fontane u Rimu?",
+        "question": "Koji je talijanski barokni arhitekt, suparnik Berninija, poznat po ovalnoj crkvi San Carlo alle Quattro Fontane u Rimu?",
         "correct_answer": "Francesco Borromini",
         "incorrect_answers": [
             "Carlo Maderno",
@@ -11637,7 +11637,7 @@
     {
         "id": "hr_art_1031",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po svojim humorističnim i satiričnim djelima poput 'Čovjek s tri oka' i 'Donator'?",
+        "question": "Koji je hrvatski književnik, poznat po svom urbanom stilu i djelima poput 'Ponoćni boogie' i 'Priča o dvije rijeke'?",
         "correct_answer": "Edo Popović",
         "incorrect_answers": [
             "Zoran Ferić",
@@ -11652,7 +11652,7 @@
     {
         "id": "hr_art_1032",
         "category": "knjizevnost",
-        "question": "Koji je njemački filozof i teoretičar umjetnosti, poznat po svom eseju 'O duhovnom u umjetnosti' i pionir apstraktne umjetnosti?",
+        "question": "Koji je ruski slikar i teoretičar umjetnosti, poznat po svom eseju 'O duhovnom u umjetnosti' i pionir apstraktne umjetnosti?",
         "correct_answer": "Wassily Kandinsky",
         "incorrect_answers": [
             "Paul Klee",
@@ -12132,7 +12132,7 @@
     {
         "id": "hr_art_1064",
         "category": "knjizevnost",
-        "question": "Koji je njemački arhitekt, osnivač Bauhausa, poznat po svom motu 'manje je više' (less is more)?",
+        "question": "Koji je njemački arhitekt, jedna od ključnih figura modernizma, poznat po svom motu 'manje je više' (less is more)?",
         "correct_answer": "Ludwig Mies van der Rohe",
         "incorrect_answers": [
             "Walter Gropius",
@@ -12253,7 +12253,7 @@
         "id": "hr_art_1072",
         "category": "knjizevnost",
         "question": "Koji je španjolski pisac, autor romana 'Don Quijote', koji se često smatra prvim modernim romanom?",
-        "correct_answer": "Miguel de Cervantes Saavedra",
+        "correct_answer": "Miguel de Cervantes",
         "incorrect_answers": [
             "Lope de Vega",
             "Pedro Calderón de la Barca",
@@ -12327,7 +12327,7 @@
     {
         "id": "hr_art_1077",
         "category": "knjizevnost",
-        "question": "Tko je autor tragične drame 'Hamlet', jedne od najpoznatijih Shakespeareovih drama koja se bavi temama osvete i morala?",
+        "question": "Tko je autor tragične drame 'Hamlet', jedne od najpoznatijih drama engleske književnosti koja se bavi temama osvete i morala?",
         "correct_answer": "William Shakespeare",
         "incorrect_answers": [
             "Christopher Marlowe",
@@ -12417,7 +12417,7 @@
     {
         "id": "hr_art_1083",
         "category": "knjizevnost",
-        "question": "Koji je njemački kompozitor, vodeća figura romantizma, autor 'Njemačkog rekvijema' i četiri simfonije?",
+        "question": "Koji je njemački skladatelj, vodeća figura romantizma, autor 'Njemačkog rekvijema' i četiri simfonije?",
         "correct_answer": "Johannes Brahms",
         "incorrect_answers": [
             "Robert Schumann",
@@ -12945,9 +12945,9 @@
         "question": "Koji je hrvatski književnik, autor modernističkog romana 'Kiklop' iz 1965., koji obrađuje zagrebački intelektualni milje uoči Drugog svjetskog rata?",
         "correct_answer": "Ranko Marinković",
         "incorrect_answers": [
-            "Petar Zoranić",
-            "Janko Polić Kamov",
-            "Antun Šoljan"
+            "Antun Šoljan",
+            "Slobodan Novak",
+            "Ivan Aralica"
         ],
         "explanation": "Ranko Marinković je bio istaknuti hrvatski romanopisac, novelist, dramatičar i esejist, poznat po svojoj satiri i stilskoj profinjenosti.",
         "difficulty": "medium",
@@ -12957,7 +12957,7 @@
     {
         "id": "hr_art_1119",
         "category": "knjizevnost",
-        "question": "Koji je francuski kompozitor, poznat po operi 'Carmen', koja je jedna od najizvođenijih opera svih vremena?",
+        "question": "Koji je francuski skladatelj, poznat po operi 'Carmen', koja je jedna od najizvođenijih opera svih vremena?",
         "correct_answer": "Georges Bizet",
         "incorrect_answers": [
             "Giuseppe Verdi",
@@ -13005,9 +13005,9 @@
         "question": "Koji je nizozemski slikar, majstor baroka, poznat po svojim dramatičnim svjetlosnim efektima i remek-djelu 'Noćna straža'?",
         "correct_answer": "Rembrandt van Rijn",
         "incorrect_answers": [
-            "Jan van Eyck",
-            "Pieter Bruegel Stariji",
-            "Frans Hals"
+            "Frans Hals",
+            "Johannes Vermeer",
+            "Peter Paul Rubens"
         ],
         "explanation": "Rembrandt je jedan od najvećih umjetnika u povijesti, poznat po iznimnoj sposobnosti prikazivanja ljudskih emocija i majstorskoj upotrebi kjaroskura.",
         "difficulty": "medium",
@@ -13017,7 +13017,7 @@
     {
         "id": "hr_art_1123",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pjesnik, autor zbirke 'Preobraženja' iz 1920., koja je označila početak hrvatskog modernizma?",
+        "question": "Koji je hrvatski pjesnik, autor zbirke 'Preobraženja' iz 1920., koja je predstavljala značajan doprinos hrvatskom modernističkom i avangardnom pjesništvu?",
         "correct_answer": "Tin Ujević",
         "incorrect_answers": [
             "A. G. Matoš",
@@ -13062,7 +13062,7 @@
     {
         "id": "hr_art_1126",
         "category": "knjizevnost",
-        "question": "Koji je ruski skladatelj, poznat po svojim simfonijama i operama poput 'Boris Godunov', koji je majstor orkestracije?",
+        "question": "Koji je ruski skladatelj, poznat po svojim simfonijama i operama poput 'Boris Godunov'?",
         "correct_answer": "Modest Petrovič Musorgski",
         "incorrect_answers": [
             "Nikolaj Rimski-Korsakov",
@@ -13092,7 +13092,7 @@
     {
         "id": "hr_art_1128",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po povijesnim romanima smještenim u Dalmaciju, poput 'Prijana Lovre' i 'Prosjaka Luke'?",
+        "question": "Koji je hrvatski književnik, poznat po realističnim romanima poput 'U registraturi', u kojem je prikazao sukob seoskog i gradskog života?",
         "correct_answer": "Ante Kovačić",
         "incorrect_answers": [
             "Ksaver Šandor Gjalski",
@@ -13107,7 +13107,7 @@
     {
         "id": "hr_art_1129",
         "category": "knjizevnost",
-        "question": "Koji je engleski pisac znanstvene fantastike, autor romana 'Put oko svijeta u osamdeset dana' i 'Dvadeset tisuća milja pod morem'?",
+        "question": "Koji je francuski pisac znanstvene fantastike, autor romana 'Put oko svijeta u osamdeset dana' i 'Dvadeset tisuća milja pod morem'?",
         "correct_answer": "Jules Verne",
         "incorrect_answers": [
             "H. G. Wells",
@@ -13287,7 +13287,7 @@
     {
         "id": "hr_art_1142",
         "category": "knjizevnost",
-        "question": "Koji je švicarski arhitekt, poznat po svojim futurističkim i dekonstruktivističkim građevinama, poput Muzeja transporta u Luzernu?",
+        "question": "Koji je švicarski arhitekt, poznat po svojim dekonstruktivističkim građevinama i teorijskom radu, poput Parc de la Villette u Parizu?",
         "correct_answer": "Bernard Tschumi",
         "incorrect_answers": [
             "Renzo Piano",
@@ -13572,7 +13572,7 @@
     {
         "id": "hr_art_1161",
         "category": "knjizevnost",
-        "question": "Koji je američki književnik, poznat po distopijskom romanu \"1984\" i alegorijskoj priči \"Životinjska farma\"?",
+        "question": "Koji je britanski književnik, poznat po distopijskom romanu \"1984\" i alegorijskoj priči \"Životinjska farma\"?",
         "correct_answer": "George Orwell",
         "incorrect_answers": [
             "Aldous Huxley",
@@ -13617,7 +13617,7 @@
     {
         "id": "hr_art_1164",
         "category": "knjizevnost",
-        "question": "Koji je talijanski umjetnik, poznat po svojim dramatičnim i ekspresivnim slikama u manirističkom stilu, autor djela \"Uzašašće Marijino\" i \"Bogojavljenje\"?",
+        "question": "Koji je talijanski umjetnik, poznat po svojim dramatičnim i ekspresivnim slikama u manirističkom stilu, autor djela poput 'Posljednje večere' iz San Giorgia Maggiore i 'Bogojavljenja'?",
         "correct_answer": "Tintoretto",
         "incorrect_answers": [
             "Titian",
@@ -13722,7 +13722,7 @@
     {
         "id": "hr_art_1171",
         "category": "knjizevnost",
-        "question": "Koja je engleska dramatičarka i pjesnikinja, poznata po svojim feminističkim djelima, autorica drame \"Top Girls\" i scenarija za film \"Orlando\"?",
+        "question": "Koja je engleska dramatičarka, poznata po svojim feminističkim djelima i inovativnoj dramaturgiji, autorica drame \"Top Girls\"?",
         "correct_answer": "Caryl Churchill",
         "incorrect_answers": [
             "Sarah Kane",
@@ -13797,7 +13797,7 @@
     {
         "id": "hr_art_1176",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pjesnik i akademik, autor zbirke pjesama 'Jama'?",
+        "question": "Koji je hrvatski pjesnik i akademik, autor poeme 'Jama'?",
         "correct_answer": "Ivan Goran Kovačić",
         "incorrect_answers": [
             "Tin Ujević",
@@ -13857,7 +13857,7 @@
     {
         "id": "hr_art_1180",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski nobelovac (1961.), autor romana 'Na Drini ćuprija'?",
+        "question": "Koji je književnik, nobelovac (1961.), autor romana 'Na Drini ćuprija'?",
         "correct_answer": "Ivo Andrić",
         "incorrect_answers": [
             "Miroslav Krleža",
@@ -13872,7 +13872,7 @@
     {
         "id": "hr_art_1182",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pjesnik, autor sonetnog vijenca 'Tjeskoba'?",
+        "question": "Koji je hrvatski pjesnik, autor zbirke pjesama 'Tjeskoba'?",
         "correct_answer": "Antun Gustav Matoš",
         "incorrect_answers": [
             "Vladimir Nazor",
@@ -14202,7 +14202,7 @@
     {
         "id": "hr_art_1204",
         "category": "knjizevnost",
-        "question": "Koji je njemački kompozitor, poznat po operama poput 'Tristan i Izolda' i 'Prsten Nibelunga'?",
+        "question": "Koji je njemački skladatelj, poznat po operama poput 'Tristan i Izolda' i 'Prsten Nibelunga'?",
         "correct_answer": "Richard Wagner",
         "incorrect_answers": [
             "Johannes Brahms",
@@ -14217,7 +14217,7 @@
     {
         "id": "hr_art_1205",
         "category": "knjizevnost",
-        "question": "Koji je talijanski kompozitor baroka, autor 'Četiri godišnja doba'?",
+        "question": "Koji je talijanski skladatelj baroka, autor 'Četiri godišnja doba'?",
         "correct_answer": "Antonio Vivaldi",
         "incorrect_answers": [
             "Johann Sebastian Bach",
@@ -14232,7 +14232,7 @@
     {
         "id": "hr_art_1206",
         "category": "knjizevnost",
-        "question": "Koji je austrijski kompozitor klasičnog razdoblja, autor simfonija i opera poput 'Figarov pir'?",
+        "question": "Koji je austrijski skladatelj klasičnog razdoblja, autor simfonija i opera poput 'Figarov pir'?",
         "correct_answer": "Wolfgang Amadeus Mozart",
         "incorrect_answers": [
             "Joseph Haydn",
@@ -14247,7 +14247,7 @@
     {
         "id": "hr_art_1207",
         "category": "knjizevnost",
-        "question": "Koji je ruski kompozitor, poznat po baletima 'Labuđe jezero' i 'Orašar'?",
+        "question": "Koji je ruski skladatelj, poznat po baletima 'Labuđe jezero' i 'Orašar'?",
         "correct_answer": "Petar Iljič Čajkovski",
         "incorrect_answers": [
             "Igor Stravinski",
@@ -14277,7 +14277,7 @@
     {
         "id": "hr_art_1209",
         "category": "knjizevnost",
-        "question": "Koji je francuski kompozitor, pionir impresionizma u glazbi, poznat po 'Preludiju za popodne jednog fauna'?",
+        "question": "Koji je francuski skladatelj, pionir impresionizma u glazbi, poznat po 'Preludiju za popodne jednog fauna'?",
         "correct_answer": "Claude Debussy",
         "incorrect_answers": [
             "Maurice Ravel",
@@ -14337,7 +14337,7 @@
     {
         "id": "hr_art_1213",
         "category": "knjizevnost",
-        "question": "Koji je poljski kompozitor 20. stoljeća, poznat po svojim avangardnim djelima poput 'Trenodije žrtvama Hirošime'?",
+        "question": "Koji je poljski skladatelj 20. stoljeća, poznat po svojim avangardnim djelima poput 'Trenodije žrtvama Hirošime'?",
         "correct_answer": "Krzysztof Penderecki",
         "incorrect_answers": [
             "Witold Lutosławski",
@@ -14427,7 +14427,7 @@
     {
         "id": "hr_art_1219",
         "category": "knjizevnost",
-        "question": "Koji je njemački kompozitor, poznat po svojim devet simfonija, uključujući monumentalnu Devetu simfoniju s \"Odom radosti\"?",
+        "question": "Koji je njemački skladatelj, poznat po devet simfonija, uključujući monumentalnu Devetu simfoniju s \"Odom radosti\"?",
         "correct_answer": "Ludwig van Beethoven",
         "incorrect_answers": [
             "Johann Sebastian Bach",
@@ -14442,8 +14442,8 @@
     {
         "id": "hr_art_1220",
         "category": "knjizevnost",
-        "question": "Koji je poljski kompozitor i pijanist romantičnog razdoblja, poznat po svojim nokturnima, mazurkama i polonezama?",
-        "correct_answer": "Frederic Chopin",
+        "question": "Koji je poljski skladatelj i pijanist romantičnog razdoblja, poznat po svojim nokturnima, mazurkama i polonezama?",
+        "correct_answer": "Frédéric Chopin",
         "incorrect_answers": [
             "Franz Liszt",
             "Robert Schumann",
@@ -14457,7 +14457,7 @@
     {
         "id": "hr_art_1221",
         "category": "knjizevnost",
-        "question": "Koji je talijanski operni kompozitor, autor popularnih opera \"Aida\", \"La Traviata\" i \"Rigoletto\"?",
+        "question": "Koji je talijanski operni skladatelj, autor popularnih opera \"Aida\", \"La Traviata\" i \"Rigoletto\"?",
         "correct_answer": "Giuseppe Verdi",
         "incorrect_answers": [
             "Giacomo Puccini",
@@ -15087,7 +15087,7 @@
     {
         "id": "hr_art_1264",
         "category": "knjizevnost",
-        "question": "Koja je slika Leonarda da Vincija poznata po idealnim proporcijama ljudskog tijela na temelju bilješki rimskog arhitekta Vitruvija?",
+        "question": "Koja je poznata skica Leonarda da Vincija koja prikazuje idealne proporcije ljudskog tijela na temelju antičkih spisa?",
         "correct_answer": "Vitruvijev čovjek",
         "incorrect_answers": [
             "Mona Lisa",
@@ -15192,7 +15192,7 @@
     {
         "id": "hr_art_1271",
         "category": "knjizevnost",
-        "question": "Koji je dubrovački renesansni pjesnik, autor biblijske epske poeme 'Judita'?",
+        "question": "Koji je splitski renesansni pjesnik, autor biblijske epske poeme 'Judita'?",
         "correct_answer": "Marko Marulić",
         "incorrect_answers": [
             "Džore Držić",
@@ -15267,7 +15267,7 @@
     {
         "id": "hr_art_1276",
         "category": "knjizevnost",
-        "question": "Koji je flamanski slikar 15. stoljeća, poznat po apokaliptičnim vizijama i moralnim alegorijama u djelima poput 'Vrta zemaljskih slasti'?",
+        "question": "Koji je nizozemski slikar 15. stoljeća, poznat po apokaliptičnim vizijama i moralnim alegorijama u djelima poput 'Vrta zemaljskih slasti'?",
         "correct_answer": "Hieronymus Bosch",
         "incorrect_answers": [
             "Pieter Bruegel Stariji",
@@ -15302,7 +15302,7 @@
         "incorrect_answers": [
             "Requiem",
             "Mesija",
-            "Rekvijem"
+            "Stabat Mater"
         ],
         "explanation": "'Carmina Burana' je scenska kantata njemačkog kompozitora Carla Orffa, praizvedena 1937. godine, koja se temelji na srednjovjekovnim poetičnim tekstovima.",
         "difficulty": "medium",
@@ -15417,7 +15417,7 @@
     {
         "id": "hr_art_1286",
         "category": "knjizevnost",
-        "question": "Koji je njemački slikar, jedan od pionira apstraktne umjetnosti i osnivač umjetničke skupine Plavi jahač (Der Blaue Reiter)?",
+        "question": "Koji je ruski slikar, jedan od pionira apstraktne umjetnosti i osnivač umjetničke skupine Plavi jahač (Der Blaue Reiter)?",
         "correct_answer": "Vasilij Kandinski",
         "incorrect_answers": [
             "Franz Marc",
@@ -16167,7 +16167,7 @@
     {
         "id": "hr_art_1336",
         "category": "knjizevnost",
-        "question": "Koji je njemački kompozitor iz baroknog razdoblja, poznat po svojim 'Brandeburškim koncertima' i 'Misi u h-molu'?",
+        "question": "Koji je njemački kompozitor iz baroknog razdoblja, poznat po svojim 'Brandenburškim koncertima' i 'Misi u h-molu'?",
         "correct_answer": "Johann Sebastian Bach",
         "incorrect_answers": [
             "Georg Friedrich Händel",
@@ -16455,9 +16455,9 @@
         "question": "Koja je hrvatska operna pjevačica, sopranistica svjetskog glasa, poznata po ulogama u Wagnerovim operama?",
         "correct_answer": "Zinka Kunc Milanov",
         "incorrect_answers": [
-            "Ljiljana Bugarin",
-            "Biserka Cvejić",
-            "Dunja Vejzović"
+            "Nada Puttar-Gold",
+            "Ruža Pospiš-Baldani",
+            "Valerija Heybal"
         ],
         "explanation": "Zinka Kunc Milanov bila je jedna od najvećih opernih diva 20. stoljeća, cijenjena zbog svog moćnog glasa i dramatičnih interpretacija.",
         "difficulty": "medium",
@@ -16587,7 +16587,7 @@
     {
         "id": "hr_art_1364",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po putopisima ('Putopisi'), feljtonima i kritikama, te po tome što je u hrvatsku književnost uveo modernu urbanu tematiku?",
+        "question": "Koji je hrvatski književnik, poznat po putopisnoj prozi, feljtonima i kritikama, te po tome što je u hrvatsku književnost uveo modernu urbanu tematiku?",
         "correct_answer": "Antun Gustav Matoš",
         "incorrect_answers": [
             "Tin Ujević",
@@ -16722,7 +16722,7 @@
     {
         "id": "hr_art_1373",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, dobitnik Nobelove nagrade za književnost 1961. godine, poznat po romanu 'Na Drini ćuprija'?",
+        "question": "Koji je književnik hrvatskog podrijetla, dobitnik Nobelove nagrade za književnost 1961. godine, poznat po romanu 'Na Drini ćuprija'?",
         "correct_answer": "Ivo Andrić",
         "incorrect_answers": [
             "Miroslav Krleža",
@@ -16827,12 +16827,12 @@
     {
         "id": "hr_art_1380",
         "category": "knjizevnost",
-        "question": "Koji je talijanski renesansni kipar, slikar i arhitekt, autor poznate Davidove skulpture u Firenci i kupole katedrale Santa Maria del Fiore?",
-        "correct_answer": "Donatello",
+        "question": "Koji je talijanski renesansni kipar, slikar i arhitekt, autor poznate mramorne skulpture Davida u Firenci i fresaka Sikstinske kapele?",
+        "correct_answer": "Michelangelo Buonarroti",
         "incorrect_answers": [
-            "Michelangelo",
+            "Donatello",
             "Leonardo da Vinci",
-            "Raffaello Santi"
+            "Sandro Botticelli"
         ],
         "difficulty": "hard",
         "difficultySource": "guess",
@@ -16875,8 +16875,8 @@
         "correct_answer": "Tragedija",
         "incorrect_answers": [
             "Komedija",
-            "Satira",
-            "Drama"
+            "Melodrama",
+            "Farsa"
         ],
         "explanation": "Tragedija je dramska vrsta koja prikazuje ozbiljne teme, sukobe i često ima tragičan završetak za glavnog lika.",
         "difficulty": "easy",
@@ -16946,7 +16946,7 @@
     {
         "id": "hr_art_1388",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po svom romanu 'Gospoda Glembajevi' koji prikazuje propadanje aristokratske obitelji?",
+        "question": "Koji je hrvatski književnik, poznat po svojoj drami 'Gospoda Glembajevi' koja prikazuje propadanje aristokratske obitelji?",
         "correct_answer": "Miroslav Krleža",
         "incorrect_answers": [
             "August Šenoa",
@@ -17141,7 +17141,7 @@
     {
         "id": "hr_art_1401",
         "category": "knjizevnost",
-        "question": "Koji je njemački književnik, filozof i dramaturg, autor romana 'Faust', koji je postao klasik svjetske književnosti?",
+        "question": "Koji je njemački književnik, filozof i dramaturg, autor drame 'Faust', koja je postala klasik svjetske književnosti?",
         "correct_answer": "Johann Wolfgang von Goethe",
         "incorrect_answers": [
             "Friedrich Schiller",
@@ -17186,7 +17186,7 @@
     {
         "id": "hr_art_1404",
         "category": "knjizevnost",
-        "question": "Koji je engleski kompozitor, poznat po svojim operama poput 'Puritani' i 'Norma', ključna figura bel canta?",
+        "question": "Koji je talijanski kompozitor, poznat po svojim operama poput 'Puritani' i 'Norma', ključna figura bel canta?",
         "correct_answer": "Vincenzo Bellini",
         "incorrect_answers": [
             "Giuseppe Verdi",
@@ -17336,7 +17336,7 @@
     {
         "id": "hr_art_1414",
         "category": "knjizevnost",
-        "question": "Koja je slikarska tehnika, popularna u renesansi, koristi uljane boje na svježu, vlažnu žbuku?",
+        "question": "Koja je slikarska tehnika, popularna u renesansi, koristi pigmente pomiješane s vodom na svježu, vlažnu žbuku?",
         "correct_answer": "Fresko",
         "incorrect_answers": [
             "Tempera",
@@ -17516,7 +17516,7 @@
     {
         "id": "hr_art_1426",
         "category": "knjizevnost",
-        "question": "Koji je francuski kompozitor, poznat po uporabi aleatorike i serijalizma, autor djela 'Grupa za 6 instrumenata'?",
+        "question": "Koji je francuski kompozitor, poznat po uporabi serijalizma i avangardnih tehnika, ključna figura poslijeratne glazbe?",
         "correct_answer": "Pierre Boulez",
         "incorrect_answers": [
             "Olivier Messiaen",
@@ -17696,7 +17696,7 @@
     {
         "id": "hr_art_1438",
         "category": "knjizevnost",
-        "question": "Koji je poznati ruski režiser, teoretičar i pedagog, začetnik metode glume poznate kao 'Sustav Stanislavskog'?",
+        "question": "Koji je poznati ruski režiser, teoretičar i pedagog, začetnik utjecajne metode glume koja se fokusira na psihološki realizam i unutarnju motivaciju lika?",
         "correct_answer": "Konstantin Stanislavski",
         "incorrect_answers": [
             "Vsevolod Meyerhold",
@@ -17711,7 +17711,7 @@
     {
         "id": "hr_art_1439",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po svom romanu 'Planine' (1536.), prvom umjetničkom epu na hrvatskom jeziku?",
+        "question": "Koji je hrvatski književnik, poznat po svom romanu 'Planine' (izdanom posthumno 1569.), koji se smatra prvim hrvatskim romanom?",
         "correct_answer": "Petar Zoranić",
         "incorrect_answers": [
             "Marko Marulić",
@@ -17787,11 +17787,11 @@
         "id": "hr_art_1444",
         "category": "knjizevnost",
         "question": "Tko je autor povijesnog romana 'Zlato i srebro Zadra', koji prikazuje život u Zadru u 13. stoljeću?",
-        "correct_answer": "Milan Begović",
+        "correct_answer": "Ivan Aralica",
         "incorrect_answers": [
+            "Milan Begović",
             "Marija Jurić Zagorka",
-            "Ivan Aralica",
-            "Vjenceslav Novak"
+            "August Šenoa"
         ],
         "explanation": "Milan Begović je bio istaknuti hrvatski književnik, a roman 'Zlato i srebro Zadra' njegov je poznati povijesni roman.",
         "difficulty": "medium",
@@ -17981,7 +17981,7 @@
     {
         "id": "hr_art_1458",
         "category": "knjizevnost",
-        "question": "Koja je hrvatska pjesnikinja, pripadnica ekspresionizma, autorica zbirke pjesama \"Preobraženja\"?",
+        "question": "Koja je hrvatska pjesnikinja autorica zbirke pjesama \"Preobraženja\"?",
         "correct_answer": "Vesna Parun",
         "incorrect_answers": [
             "Dobriša Cesarić",
@@ -18041,7 +18041,7 @@
     {
         "id": "hr_art_1462",
         "category": "knjizevnost",
-        "question": "Koji je kipar, poznat po svojim skulpturama u stilu apstraktnog ekspresionizma, autor djela \"Brončani bik\" i \"Totemska kolona\"?",
+        "question": "Koji je kipar, pionir modernističke skulpture, autor djela poput \"Poljubac\" i \"Beskrajni stup\"?",
         "correct_answer": "Constantin Brâncuși",
         "incorrect_answers": [
             "Henry Moore",
@@ -18056,7 +18056,7 @@
     {
         "id": "hr_art_1463",
         "category": "knjizevnost",
-        "question": "Koja se glazbena forma sastoji od niza stavaka koje se sviraju bez prekida, a često su inspirirane plesovima?",
+        "question": "Koja se glazbena forma sastoji od niza stavaka, a često su inspirirane plesovima?",
         "correct_answer": "Suita",
         "incorrect_answers": [
             "Simfonija",
@@ -18191,7 +18191,7 @@
     {
         "id": "hr_art_1472",
         "category": "knjizevnost",
-        "question": "Koji je naziv za umjetničku fotografsku tehniku koja koristi vrlo kratke ekspozicije za zamrzavanje pokreta ili vrlo duge ekspozicije za zamućivanje kretanja?",
+        "question": "Koji temeljni pojam u fotografiji označava količinu svjetla koje dopire do senzora ili filma, a čijim se variranjem trajanja (vrlo kratke ili duge) postižu efekti zamrzavanja ili zamućivanja pokreta?",
         "correct_answer": "Ekspozicija",
         "incorrect_answers": [
             "Kompozicija",
@@ -18206,7 +18206,7 @@
     {
         "id": "hr_art_1473",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po romanu \"Gospoda Glembajevi\" i drami \"U agoniji\", bio član Jugoslavenske akademije znanosti i umjetnosti?",
+        "question": "Koji je hrvatski književnik, poznat po ciklusu drama \"Gospoda Glembajevi\" i drami \"U agoniji\", bio član Jugoslavenske akademije znanosti i umjetnosti?",
         "correct_answer": "Miroslav Krleža",
         "incorrect_answers": [
             "August Šenoa",
@@ -18300,8 +18300,8 @@
         "correct_answer": "Pod starim krovovima",
         "incorrect_answers": [
             "U registraturi",
-            "Pripovijesti",
-            "Janko Borislav"
+            "Domaći ognjištar",
+            "Bijeg"
         ],
         "explanation": "\"Pod starim krovovima\" je jedno od najvažnijih djela hrvatskog realizma, koje prikazuje život i propadanje plemstva.",
         "difficulty": "hard",
@@ -18341,7 +18341,7 @@
     {
         "id": "hr_art_1482",
         "category": "knjizevnost",
-        "question": "Koja je književna nagrada, koju dodjeljuje francuska Akademija Goncourt od 1903., jedna od najprestižnijih francuskih književnih nagrada?",
+        "question": "Koja je književna nagrada, ustanovljena 1903. godine, jedna od najprestižnijih francuskih književnih nagrada?",
         "correct_answer": "Nagrada Goncourt",
         "incorrect_answers": [
             "Bookerova nagrada",
@@ -18551,7 +18551,7 @@
     {
         "id": "hr_art_1496",
         "category": "knjizevnost",
-        "question": "Koji je njemački barokni kompozitor, poznat po djelima poput 'Brandeburških koncerata' i 'Dobro temperiranog klavira', imao veliki utjecaj na razvoj zapadne glazbe?",
+        "question": "Koji je njemački barokni kompozitor, poznat po djelima poput 'Brandenburških koncerata' i 'Dobro temperiranog klavira', imao veliki utjecaj na razvoj zapadne glazbe?",
         "correct_answer": "Johann Sebastian Bach",
         "incorrect_answers": [
             "Wolfgang Amadeus Mozart",
@@ -18582,11 +18582,11 @@
         "id": "hr_art_1498",
         "category": "knjizevnost",
         "question": "Koji je naziv za veliki, često kružni prozor s vitrajima, karakterističan za gotičke katedrale, koji simbolizira nebesku svjetlost?",
-        "correct_answer": "Ruža prozor",
+        "correct_answer": "Rozeta",
         "incorrect_answers": [
-            "Rozeta",
+            "Oculus",
             "Bifora",
-            "Trifora"
+            "Lansetni prozor"
         ],
         "explanation": "Ruža prozor je kružni vitrajni prozor, prominentan u gotičkoj arhitekturi, koji je katedralama pružao svjetlost i boju.",
         "difficulty": "hard",
@@ -18776,7 +18776,7 @@
     {
         "id": "hr_art_1511",
         "category": "knjizevnost",
-        "question": "Koja je britanska modernistička književnica, poznata po tehnikama toka svijesti, autorica romana 'Gospođa Dalloway' i 'K svioniku'?",
+        "question": "Koja je britanska modernistička književnica, poznata po tehnikama toka svijesti, autorica romana 'Gospođa Dalloway' i 'K svjetioniku'?",
         "correct_answer": "Virginia Woolf",
         "incorrect_answers": [
             "Agatha Christie",
@@ -19166,7 +19166,7 @@
     {
         "id": "hr_art_1537",
         "category": "knjizevnost",
-        "question": "Koji je naziv za glazbenu formu karakterističnu za jazz, gdje se osnovna tema (head) izlaže, a zatim slijede improvizacije solista?",
+        "question": "Koji je stil jazza, popularan od 1930-ih, poznat po naglašenom ritmu i čestoj izmjeni predstavljanja osnovne teme (head) i improvizacija solista?",
         "correct_answer": "Swing",
         "incorrect_answers": [
             "Blues",
@@ -19692,7 +19692,7 @@
         "id": "hr_art_1572",
         "category": "knjizevnost",
         "question": "Koja je hrvatska katedrala, poznata po impresivnoj romaničkoj bazilici i gotičkim detaljima, sjedište biskupije i dom relikvija sv. Stošije?",
-        "correct_answer": "Zadarska katedrala sv. Stošije",
+        "correct_answer": "Zadarska katedrala",
         "incorrect_answers": [
             "Zagrebačka katedrala",
             "Šibenska katedrala sv. Jakova",
@@ -19766,12 +19766,12 @@
     {
         "id": "hr_art_1577",
         "category": "knjizevnost",
-        "question": "Koji je naziv za epove Ivana Gundulića, 'Osman' i 'Dubravka', koji slave dubrovačku slobodu i kršćanske vrijednosti?",
-        "correct_answer": "Dubrovačka renesansna epika",
+        "question": "Koji je naziv za književno razdoblje kojem pripadaju djela Ivana Gundulića, 'Osman' i 'Dubravka', a koja slave dubrovačku slobodu i kršćanske vrijednosti?",
+        "correct_answer": "Dubrovački barok",
         "incorrect_answers": [
             "Hrvatski romantizam",
             "Dalmatinska moderna",
-            "Barokna pastorala"
+            "Hrvatski humanizam"
         ],
         "explanation": "Ivan Gundulić (1589.-1638.) bio je najistaknutiji hrvatski barokni pjesnik, a njegovi epovi i drama spadaju u dubrovačku renesansnu epiku.",
         "difficulty": "easy",
@@ -19826,7 +19826,7 @@
     {
         "id": "hr_art_1581",
         "category": "knjizevnost",
-        "question": "Tko je autor zagrebačkih \"Bana Jelačića na konju\", te monumentalnih skulptura poput \"Povijesti Hrvata\" i \"Zdenca života\"?",
+        "question": "Tko je autor monumentalnih skulptura poput \"Grgura Ninskog\" u Splitu, \"Povijesti Hrvata\" i \"Zdenca života\"?",
         "correct_answer": "Ivan Meštrović",
         "incorrect_answers": [
             "Robert Frangeš Mihanović",
@@ -19886,7 +19886,7 @@
     {
         "id": "hr_art_1585",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana \"Prosjaci i sinovi\" i \"Kiklop\", poznat po satiričnim prikazima dalmatinskog života i zagrebačke inteligencije?",
+        "question": "Koji je hrvatski književnik autor romana \"Kiklop\" i \"Ruke\", poznat po satiričnim prikazima zagrebačke inteligencije i provincije?",
         "correct_answer": "Ranko Marinković",
         "incorrect_answers": [
             "Slobodan Novak",
@@ -20026,7 +20026,7 @@
         "incorrect_answers": [
             "Pajo Kanižaj",
             "Miro Gavran",
-            "Dječak Ivica"
+            "Mate Lovrak"
         ],
         "explanation": "Zvonimir Balog (1932.-2014.) bio je hrvatski književnik, pjesnik, humorist, aforističar i slikar, najpoznatiji po svojim djelima za djecu i odrasle.",
         "difficulty": "medium",
@@ -20114,7 +20114,7 @@
         "question": "Koji je hrvatski naivni slikar, poznat po svojim idiličnim prikazima seoskog života i pejzaža, predstavnik Hlebinske škole, autor \"Jesen\" (1975.)?",
         "correct_answer": "Ivan Generalić",
         "incorrect_answers": [
-            "Miran Hladnik",
+            "Drago Jurak",
             "Josip Generalić",
             "Mijo Kovačić"
         ],
@@ -20144,7 +20144,7 @@
         "question": "Koji je naziv za književnu vrstu koja je pisana u obliku pisama između likova?",
         "correct_answer": "Epistolarni roman",
         "incorrect_answers": [
-            "Dnevnik roman",
+            "Dnevnički roman",
             "Biografski roman",
             "Autobiografski roman"
         ],
@@ -20171,7 +20171,7 @@
     {
         "id": "hr_art_1604",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski arhitekt, poznat po projektima poput Eufrazijeve bazilike u Poreču i katedrale Sv. Jakova u Šibeniku (obnova)?",
+        "question": "Koji je hrvatski arhitekt i kipar, poznat po radu na katedrali Sv. Jakova u Šibeniku, koja je dio UNESCO-ve svjetske baštine?",
         "correct_answer": "Juraj Dalmatinac",
         "incorrect_answers": [
             "Herman Bollé",
@@ -20246,7 +20246,7 @@
     {
         "id": "hr_art_1609",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po romanu \"Posljednji Stipančići\" i pripovijetkama poput \"Novela od Stanca\"?",
+        "question": "Koji je hrvatski književnik, poznat po romanu \"Posljednji Stipančići\"?",
         "correct_answer": "Vjenceslav Novak",
         "incorrect_answers": [
             "Janko Leskovar",
@@ -20321,7 +20321,7 @@
     {
         "id": "hr_art_1614",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana 'Cvijet sa raskršća' i 'Glembajevi'?",
+        "question": "Koji je hrvatski književnik autor drame 'Glembajevi'?",
         "correct_answer": "Miroslav Krleža",
         "incorrect_answers": [
             "August Šenoa",
@@ -20382,7 +20382,7 @@
         "id": "hr_art_1618",
         "category": "knjizevnost",
         "question": "Koji je španjolski dramatičar i pjesnik, poznat po djelu 'Don Quijote', bio jedna od ključnih figura španjolske književnosti?",
-        "correct_answer": "Miguel de Cervantes Saavedra",
+        "correct_answer": "Miguel de Cervantes",
         "incorrect_answers": [
             "Lope de Vega",
             "Calderón de la Barca",
@@ -20397,7 +20397,7 @@
         "id": "hr_art_1619",
         "category": "knjizevnost",
         "question": "Koja je tehnika kiparstva u kojoj se materijal uklanja kako bi se stvorio oblik, za razliku od dodavanja materijala?",
-        "correct_answer": "Oduzimanje (subtrakcija)",
+        "correct_answer": "Oduzimanje",
         "incorrect_answers": [
             "Modeliranje",
             "Asamblaža",
@@ -20487,7 +20487,7 @@
         "id": "hr_art_1625",
         "category": "knjizevnost",
         "question": "Tko je autor monumentalne skulpture 'Davida' u Firenci?",
-        "correct_answer": "Michelangelo Buonarroti",
+        "correct_answer": "Michelangelo",
         "incorrect_answers": [
             "Donatello",
             "Gian Lorenzo Bernini",
@@ -20501,7 +20501,7 @@
     {
         "id": "hr_art_1626",
         "category": "knjizevnost",
-        "question": "Koji je američki redatelj, poznat po filmovima 'Istrebljivač' i 'Gladijator', često kombinira vizualnu raskoš s dubokim temama?",
+        "question": "Koji je britanski redatelj, poznat po filmovima 'Istrebljivač' i 'Gladijator', često kombinira vizualnu raskoš s dubokim temama?",
         "correct_answer": "Ridley Scott",
         "incorrect_answers": [
             "Steven Spielberg",
@@ -20576,7 +20576,7 @@
     {
         "id": "hr_art_1631",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana 'Kratki izlet' i 'Kurlani'?",
+        "question": "Koji je hrvatski književnik autor romana 'Kiklop'?",
         "correct_answer": "Ranko Marinković",
         "incorrect_answers": [
             "Vladan Desnica",
@@ -20681,7 +20681,7 @@
     {
         "id": "hr_art_1638",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik i dramatičar autor drame 'Dubrovačka trilogija' i pjesme 'Suton'?",
+        "question": "Koji je hrvatski književnik i dramatičar autor drame 'Dubrovačka trilogija' i drame 'Suton'?",
         "correct_answer": "Ivo Vojnović",
         "incorrect_answers": [
             "Milan Begović",
@@ -20879,7 +20879,7 @@
         "question": "Koji je naziv za umjetničku tehniku koja koristi sitne komadiće stakla, kamena ili drugih materijala za stvaranje slike?",
         "correct_answer": "Mozaik",
         "incorrect_answers": [
-            "Frezka",
+            "Freska",
             "Vitraj",
             "Intarzija"
         ],
@@ -21221,7 +21221,7 @@
     {
         "id": "hr_art_1674",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor popularnog dječjeg romana 'Vlak u snijegu' i pjesme 'Ježeva kućica'?",
+        "question": "Koji je hrvatski književnik autor popularnog dječjeg romana 'Vlak u snijegu'?",
         "correct_answer": "Mato Lovrak",
         "incorrect_answers": [
             "Ivan Kušan",
@@ -21551,7 +21551,7 @@
     {
         "id": "hr_art_1696",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana 'Mirisi, zlato i tamjan', nagrađenog NIN-ovom nagradom?",
+        "question": "Koji je hrvatski književnik autor romana 'Mirisi, zlato i tamjan'?",
         "correct_answer": "Slobodan Novak",
         "incorrect_answers": [
             "Ranko Marinković",
@@ -21656,7 +21656,7 @@
     {
         "id": "hr_art_1704",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski barokni književnik autor epa 'Osman', prvog cjelovitog epa na hrvatskom jeziku?",
+        "question": "Koji je hrvatski barokni književnik autor epa 'Osman'?",
         "correct_answer": "Ivan Gundulić",
         "incorrect_answers": [
             "Juraj Habdelić",
@@ -21746,7 +21746,7 @@
     {
         "id": "hr_art_1710",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor novele 'Cvijet sa raskršća' i pjesničke zbirke 'Hrvatska mladež'?",
+        "question": "Koji je hrvatski književnik autor pjesničke zbirke 'Hrvatska mladež'?",
         "correct_answer": "August Harambašić",
         "incorrect_answers": [
             "Fran Galović",
@@ -21821,7 +21821,7 @@
     {
         "id": "hr_art_1715",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana 'Kiklop' i drame 'Predstava Hamleta u selu Mrduša Donja'?",
+        "question": "Koji je hrvatski književnik autor romana 'Kiklop'?",
         "correct_answer": "Ranko Marinković",
         "incorrect_answers": [
             "Slobodan Novak",
@@ -21881,7 +21881,7 @@
     {
         "id": "hr_art_1719",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski slikar, poznat po pejzažima i motivima Jadrana, autor slike 'Baklje'?",
+        "question": "Koji je hrvatski slikar, jedan od utemeljitelja hrvatskog modernog slikarstva, autor slike 'Dubrovnik'?",
         "correct_answer": "Vlaho Bukovac",
         "incorrect_answers": [
             "Bela Čikoš Sesija",
@@ -21941,7 +21941,7 @@
     {
         "id": "hr_art_1723",
         "category": "knjizevnost",
-        "question": "Koji je njemački barokni kompozitor autor ciklusa 'Brandeburški koncerti'?",
+        "question": "Koji je njemački barokni kompozitor autor ciklusa 'Brandenburški koncerti'?",
         "correct_answer": "Johann Sebastian Bach",
         "incorrect_answers": [
             "Georg Friedrich Händel",
@@ -22016,7 +22016,7 @@
     {
         "id": "hr_art_1728",
         "category": "knjizevnost",
-        "question": "Koji se glazbeni instrument često naziva 'kraljicom instrumenata' zbog svoje ljepote i sposobnosti izražavanja širokog spektra emocija?",
+        "question": "Koji se gudački instrument ističe svojom izražajnošću i sposobnošću da dočara širok spektar emocija, često zauzimajući istaknuto mjesto u orkestru?",
         "correct_answer": "Violina",
         "incorrect_answers": [
             "Klavir",
@@ -22061,7 +22061,7 @@
     {
         "id": "hr_art_1731",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana 'Derviš i smrt', koji se bavi pitanjima slobode, totalitarizma i smisla života?",
+        "question": "Koji je bosanskohercegovački književnik autor romana 'Derviš i smrt', koji se bavi pitanjima slobode, totalitarizma i smisla života?",
         "correct_answer": "Meša Selimović",
         "incorrect_answers": [
             "Ivo Andrić",
@@ -22226,7 +22226,7 @@
     {
         "id": "hr_art_1742",
         "category": "knjizevnost",
-        "question": "Koji je britanski redatelj, poznat po svojim vizualno upečatljivim filmovima i suradnji s glumcima poput Tilde Swinton, autor filmova 'Grand Budapest Hotel' i 'Moonrise Kingdom'?",
+        "question": "Koji je američki redatelj, poznat po svojim vizualno upečatljivim filmovima i suradnji s glumcima poput Tilde Swinton, autor filmova 'Grand Budapest Hotel' i 'Moonrise Kingdom'?",
         "correct_answer": "Wes Anderson",
         "incorrect_answers": [
             "Christopher Nolan",
@@ -22256,7 +22256,7 @@
     {
         "id": "hr_art_1744",
         "category": "knjizevnost",
-        "question": "Koji je ruski kompozitor autor baleta 'Don Quijote' i 'Bajadera', cijenjen zbog svojih inovativnih orkestracija i melodičnosti?",
+        "question": "Koji je austrijski kompozitor autor baleta 'Don Quijote' i 'Bajadera', cijenjen zbog svojih inovativnih orkestracija i melodičnosti?",
         "correct_answer": "Ludwig Minkus",
         "incorrect_answers": [
             "Petar Iljič Čajkovski",
@@ -22331,7 +22331,7 @@
     {
         "id": "hr_art_1749",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski dječji književnik autor romana 'Družba Pere Kvržice' i 'Orlovi rano lete'?",
+        "question": "Koji je hrvatski dječji književnik autor romana 'Družba Pere Kvržice'?",
         "correct_answer": "Mato Lovrak",
         "incorrect_answers": [
             "Ivan Kušan",
@@ -22451,7 +22451,7 @@
     {
         "id": "hr_art_1757",
         "category": "knjizevnost",
-        "question": "Koji je njemački barokni kompozitor, poznat po djelima poput 'Četiri godišnja doba', autor oratorija 'Mesija'?",
+        "question": "Koji je njemački barokni kompozitor, poznat po svojim oratorijima i operama, autor monumentalnog oratorija 'Mesija'?",
         "correct_answer": "Georg Friedrich Händel",
         "incorrect_answers": [
             "Johann Sebastian Bach",
@@ -22466,7 +22466,7 @@
     {
         "id": "hr_art_1758",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po iznimnoj erudiciji i avangardnim idejama, autor poetske zbirke 'Lelek sebra'?",
+        "question": "Koji je hrvatski književnik, poznat po iznimnoj erudiciji i avangardnim idejama, autor poetske zbirke 'Psovka'?",
         "correct_answer": "Janko Polić Kamov",
         "incorrect_answers": [
             "Antun Gustav Matoš",
@@ -23069,7 +23069,7 @@
         "question": "Koji je hrvatski naivni slikar bio jedan od osnivača Hlebinske škole naivnog slikarstva?",
         "correct_answer": "Ivan Generalić",
         "incorrect_answers": [
-            "Mirko Virius",
+            "Josip Generalić",
             "Mijo Kovačić",
             "Ivan Lacković Croata"
         ],
@@ -23251,7 +23251,7 @@
         "incorrect_answers": [
             "Op art",
             "Minimalizam",
-            "Abstraktni ekspresionizam"
+            "Apstraktni ekspresionizam"
         ],
         "explanation": "Pop art, čiji su istaknuti predstavnici Andy Warhol i Roy Lichtenstein, slavio je svakodnevne predmete i masovnu kulturu.",
         "difficulty": "easy",
@@ -23411,7 +23411,7 @@
     {
         "id": "hr_art_1822",
         "category": "knjizevnost",
-        "question": "Koji je engleski pisac, poznat po avanturističkim romanima, autor \"Otoka s blagom\" i \"Čudnog slučaja dr. Jekylla i g. Hydea\"?",
+        "question": "Koji je škotski pisac, poznat po avanturističkim romanima, autor \"Otoka s blagom\" i \"Čudnog slučaja dr. Jekylla i g. Hydea\"?",
         "correct_answer": "Robert Louis Stevenson",
         "incorrect_answers": [
             "Daniel Defoe",
@@ -23546,7 +23546,7 @@
     {
         "id": "hr_art_1831",
         "category": "knjizevnost",
-        "question": "Koji je njemački kompozitor, \"otac simfonije\" i \"otac gudačkog kvarteta\", učitelj Beethovena?",
+        "question": "Koji je austrijski kompozitor, \"otac simfonije\" i \"otac gudačkog kvarteta\", učitelj Beethovena?",
         "correct_answer": "Joseph Haydn",
         "incorrect_answers": [
             "Wolfgang Amadeus Mozart",
@@ -23576,7 +23576,7 @@
     {
         "id": "hr_art_1833",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski arhitekt, autor projekta Hrvatskog narodnog kazališta u Zagrebu (zajedno s Helmerom), poznat po brojnim historicističkim zdanjima?",
+        "question": "Koji je arhitekt, autor projekta Hrvatskog narodnog kazališta u Zagrebu (zajedno s Helmerom), poznat po brojnim historicističkim zdanjima?",
         "correct_answer": "Ferdinand Fellner",
         "incorrect_answers": [
             "Viktor Kovačić",
@@ -23666,7 +23666,7 @@
     {
         "id": "hr_art_1839",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik i dramatičar, poznat po svojim dramama i grotesknim prozama, autor djela \"Golgota\" i \"Čipka\"?",
+        "question": "Koji je hrvatski književnik i dramatičar, poznat po svojim dramama dubrovačke tematike, autor djela \"Ekvinocij\" i \"Dubrovačka trilogija\"?",
         "correct_answer": "Ivo Vojnović",
         "incorrect_answers": [
             "Milan Begović",
@@ -23741,7 +23741,7 @@
     {
         "id": "hr_art_1844",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, autor prvog hrvatskog romana \"Planine\", epskog djela iz 1536. godine?",
+        "question": "Koji je hrvatski književnik, autor prvog hrvatskog romana \"Planine\", objavljenog 1569. godine?",
         "correct_answer": "Petar Zoranić",
         "incorrect_answers": [
             "Marko Marulić",
@@ -23816,7 +23816,7 @@
     {
         "id": "hr_art_1849",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik i dramatičar, osnivač i voditelj Zagrebačkog kazališta mladih, autor drame \"Dundo Maroje\"?",
+        "question": "Koji je hrvatski književnik i dramatičar, jedan od najznačajnijih renesansnih komediografa, autor drame \"Dundo Maroje\"?",
         "correct_answer": "Marin Držić",
         "incorrect_answers": [
             "Hanibal Lucić",
@@ -23831,7 +23831,7 @@
     {
         "id": "hr_art_1850",
         "category": "knjizevnost",
-        "question": "Koji je austrijski kompozitor, poznat po svojim simfonijskim pjesmama i operama, autor opere \"Salome\" i \"Kavalir s ružom\"?",
+        "question": "Koji je njemački kompozitor, poznat po svojim simfonijskim pjesmama i operama, autor opere \"Salome\" i \"Kavalir s ružom\"?",
         "correct_answer": "Richard Strauss",
         "incorrect_answers": [
             "Gustav Mahler",
@@ -23846,7 +23846,7 @@
     {
         "id": "hr_art_1851",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor povijesnog romana \"Zlatarovo zlato\", smještenog u Zagreb 16. stoljeća?",
+        "question": "Koji je hrvatski književnik autor povijesnog romana \"Zlatarovo zlato\", smještenog u Zagreb 17. stoljeća?",
         "correct_answer": "August Šenoa",
         "incorrect_answers": [
             "Vjenceslav Novak",
@@ -23861,7 +23861,7 @@
     {
         "id": "hr_art_1853",
         "category": "knjizevnost",
-        "question": "Koji je češki književnik autor romana \"Preobrazba\", u kojem se glavni lik Gregor Samsa budi pretvoren u kukca?",
+        "question": "Koji je austrijski književnik autor pripovijetke \"Preobrazba\", u kojoj se glavni lik Gregor Samsa budi pretvoren u kukca?",
         "correct_answer": "Franz Kafka",
         "incorrect_answers": [
             "Albert Camus",
@@ -23966,7 +23966,7 @@
     {
         "id": "hr_art_1860",
         "category": "knjizevnost",
-        "question": "Koji je britanski književnik autor romana \"Ponos i predrasude\", klasičnog djela engleske književnosti o ljubavi i društvenim klasama?",
+        "question": "Koja je britanska književnica autorica romana \"Ponos i predrasude\", klasičnog djela engleske književnosti o ljubavi i društvenim klasama?",
         "correct_answer": "Jane Austen",
         "incorrect_answers": [
             "Charlotte Brontë",
@@ -24431,7 +24431,7 @@
     {
         "id": "hr_art_1891",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana \"Osman\", nedovršenog epa koji opisuje bitku kod Hotina?",
+        "question": "Koji je hrvatski književnik autor epa \"Osman\", nedovršenog djela koje opisuje bitku kod Hotina?",
         "correct_answer": "Ivan Gundulić",
         "incorrect_answers": [
             "Marko Marulić",
@@ -24461,7 +24461,7 @@
     {
         "id": "hr_art_1893",
         "category": "knjizevnost",
-        "question": "Koji je njemački barokni kompozitor, poznat po svojim oratorijima, kantatama i operama, autor monumentalnog djela \"Mesa u h-molu\"?",
+        "question": "Koji je njemački barokni kompozitor, poznat po svojim oratorijima, kantatama i drugim vokalno-instrumentalnim djelima, autor monumentalnog djela \"Misa u h-molu\"?",
         "correct_answer": "Johann Sebastian Bach",
         "incorrect_answers": [
             "Georg Friedrich Händel",
@@ -24746,7 +24746,7 @@
     {
         "id": "hr_art_1912",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pjesnik, autor kultnih stihova \"Ča je život vengo fantažija\", poznat po čakavskoj poeziji i nadrealističkim elementima?",
+        "question": "Koji je hrvatski pjesnik, autor kultnih stihova \"Ča je život vengo fantažija\", poznat po čakavskoj poeziji?",
         "correct_answer": "Drago Gervais",
         "incorrect_answers": [
             "Vladimir Nazor",
@@ -24971,7 +24971,7 @@
     {
         "id": "hr_art_1927",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik (rođen u BiH), dobitnik Nobelove nagrade za književnost (1961.), autor romana \"Na Drini ćuprija\"?",
+        "question": "Koji je književnik (rođen u BiH), dobitnik Nobelove nagrade za književnost (1961.), autor romana \"Na Drini ćuprija\"?",
         "correct_answer": "Ivo Andrić",
         "incorrect_answers": [
             "Meša Selimović",
@@ -25016,7 +25016,7 @@
     {
         "id": "hr_art_1930",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, autor drame \"Kiklop\", koja kroz priču o kazališnom kritičaru Melkioru prikazuje Zagreb uoči Drugog svjetskog rata?",
+        "question": "Koji je hrvatski književnik, autor romana \"Kiklop\", koja kroz priču o kazališnom kritičaru Melkioru prikazuje Zagreb uoči Drugog svjetskog rata?",
         "correct_answer": "Ranko Marinković",
         "incorrect_answers": [
             "Miroslav Krleža",
@@ -25031,7 +25031,7 @@
     {
         "id": "hr_art_1931",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana \"Derviš i smrt\", jednog od najznačajnijih djela jugoslavenske književnosti?",
+        "question": "Koji je književnik autor romana \"Derviš i smrt\", jednog od najznačajnijih djela jugoslavenske književnosti?",
         "correct_answer": "Meša Selimović",
         "incorrect_answers": [
             "Ivo Andrić",
@@ -25121,7 +25121,7 @@
     {
         "id": "hr_art_1937",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski pjesnik i književnik, pripadnik Matoševe generacije, autor zbirke \"Hrvatske prerane žetve\" i poznat po svom sonetnom vijencu \"Ljubav\"?",
+        "question": "Koji je hrvatski pjesnik i književnik, pripadnik Matoševe generacije, autor djela poput „Veli Jože” i „Hrvatske legende”?",
         "correct_answer": "Vladimir Nazor",
         "incorrect_answers": [
             "Tin Ujević",
@@ -25196,7 +25196,7 @@
     {
         "id": "hr_art_1942",
         "category": "knjizevnost",
-        "question": "Koji je američki redatelj, poznat po svojim filmovima \"Psiho\", \"Ptice\" i \"Prozor u dvorište\", majstor suspenza i psiholoških trilera?",
+        "question": "Koji je američki redatelj, poznat po svojim filmovima „Psiho”, „Ptice” i „Prozor u dvorište”, majstor napetosti i psiholoških trilera?",
         "correct_answer": "Alfred Hitchcock",
         "incorrect_answers": [
             "Orson Welles",
@@ -25301,7 +25301,7 @@
     {
         "id": "hr_art_1949",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po svom stilu \"proze u trapericama\", autor romana \"Mirisi, zlato i tamjan\"?",
+        "question": "Koji je hrvatski književnik, poznat po psihološkoj prozi i egzistencijalističkim temama, autor romana „Mirisi, zlato i tamjan”?",
         "correct_answer": "Slobodan Novak",
         "incorrect_answers": [
             "Ivan Aralica",
@@ -25331,7 +25331,7 @@
     {
         "id": "hr_art_1951",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski naivni slikar, poznat po svojim slikama s motivima seoskog života i pejzaža, često s podravskim motivima, autor \"Crnog bika\"?",
+        "question": "Koji je hrvatski naivni slikar, poznat po svojim slikama s motivima seoskog života i pejzaža, često s podravskim motivima, uključujući i životinjske prizore?",
         "correct_answer": "Mijo Kovačić",
         "incorrect_answers": [
             "Josip Generalić",
@@ -25511,7 +25511,7 @@
     {
         "id": "hr_art_1963",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski slikar i scenograf, poznat po svojim secesijskim radovima i djelima s motivima hrvatske povijesti i folklora, autor \"Poljske madone\"?",
+        "question": "Koji je hrvatski slikar, poznat po svojim secesijskim radovima i djelu \"Poljska madona\"?",
         "correct_answer": "Menci Clement Crnčić",
         "incorrect_answers": [
             "Robert Frangeš Mihanović",
@@ -25541,7 +25541,7 @@
     {
         "id": "hr_art_1965",
         "category": "knjizevnost",
-        "question": "Koji je talijanski kompozitor baroknog razdoblja, poznat po svojim operama i oratorijima, autor opere \"Julije Cezar\"?",
+        "question": "Koji je njemačko-britanski kompozitor baroknog razdoblja, poznat po svojim operama i oratorijima, autor opere \"Julije Cezar\"?",
         "correct_answer": "George Frideric Handel",
         "incorrect_answers": [
             "Claudio Monteverdi",
@@ -25601,7 +25601,7 @@
     {
         "id": "hr_art_1969",
         "category": "knjizevnost",
-        "question": "Koji je francuski umjetnik, kipar i slikar, jedan od osnivača impresionizma i autor poznate skulpture \"Mislioc\"?",
+        "question": "Koji je francuski umjetnik, kipar i slikar, autor poznate skulpture \"Mislioc\"?",
         "correct_answer": "Auguste Rodin",
         "incorrect_answers": [
             "Antoine Bourdelle",
@@ -25781,7 +25781,7 @@
     {
         "id": "hr_art_1981",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski slikar poznat po velikim formatima i prizorima iz svakodnevnog života, autor \"Autoportreta s klobukom\"?",
+        "question": "Koji je hrvatski slikar poznat po velikim formatima i portretima, autor \"Autoportreta s klobukom\"?",
         "correct_answer": "Vlaho Bukovac",
         "incorrect_answers": [
             "Miroslav Kraljević",
@@ -25827,9 +25827,9 @@
         "id": "hr_art_1984",
         "category": "knjizevnost",
         "question": "Koji je hrvatski književnik autor zbirke pjesama \"Preobraženja\", koja se smatra prvom modernističkom zbirkom u hrvatskoj književnosti?",
-        "correct_answer": "Antun Gustav Matoš",
+        "correct_answer": "Tin Ujević",
         "incorrect_answers": [
-            "Tin Ujević",
+            "Antun Gustav Matoš",
             "Vladimir Nazor",
             "Milan Begović"
         ],
@@ -25976,7 +25976,7 @@
     {
         "id": "hr_art_1995",
         "category": "knjizevnost",
-        "question": "Koji je talijanski kompozitor baroknog razdoblja, poznat po svojim oratorijima i operama, uključujući \"Mesiju\" s poznatim zborom \"Aleluja\"?",
+        "question": "Koji je njemačko-britanski kompozitor baroknog razdoblja, poznat po svojim oratorijima i operama, uključujući \"Mesiju\" s poznatim zborom \"Aleluja\"?",
         "correct_answer": "Georg Friedrich Händel",
         "incorrect_answers": [
             "Antonio Vivaldi",
@@ -25991,7 +25991,7 @@
     {
         "id": "hr_art_1996",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski slikar, jedan od prvaka hrvatske secesije, poznat po djelu \"Kristijanizacija Hrvata\"?",
+        "question": "Koji je hrvatski slikar, poznat po svojim pejzažima i monumentalnim povijesnim kompozicijama, uključujući djelo \"Kristijanizacija Hrvata\"?",
         "correct_answer": "Celestin Medović",
         "incorrect_answers": [
             "Oton Iveković",
@@ -26096,7 +26096,7 @@
     {
         "id": "hr_art_2003",
         "category": "knjizevnost",
-        "question": "Koji je francuski postimpresionistički slikar, poznat po svojim slikama s Tahitija i specifičnom stilu, autor \"Žute kiste\"?",
+        "question": "Koji je francuski postimpresionistički slikar, poznat po svojim slikama s Tahitija i specifičnom stilu, autor djela poput \"Žuti Krist\"?",
         "correct_answer": "Paul Gauguin",
         "incorrect_answers": [
             "Vincent van Gogh",
@@ -26369,7 +26369,7 @@
         "question": "Koji je talijanski renesansni slikar autor \"Rođenja Venere\"?",
         "correct_answer": "Sandro Botticelli",
         "incorrect_answers": [
-            "Donatello",
+            "Masaccio",
             "Paolo Uccello",
             "Filippino Lippi"
         ],
@@ -26431,7 +26431,7 @@
         "incorrect_answers": [
             "Frans Hals",
             "Jan Steen",
-            "Pieter Bruegel Stariji"
+            "Jacob van Ruisdael"
         ],
         "explanation": "Johannes Vermeer je slikar zlatnog doba Nizozemske, a \"Djevojka s bisernom naušnicom\" (oko 1665.) jedno je od njegovih najpoznatijih djela.",
         "difficulty": "medium",
@@ -26459,9 +26459,9 @@
         "question": "Koji je njemački kompozitor iz 20. stoljeća autor scenske kantate \"Carmina Burana\"?",
         "correct_answer": "Carl Orff",
         "incorrect_answers": [
-            "Richard Wagner",
-            "Ludwig van Beethoven",
-            "Gustav Mahler"
+            "Arnold Schoenberg",
+            "Paul Hindemith",
+            "Richard Strauss"
         ],
         "explanation": "Carl Orff je poznat po \"Carmini Burani\", kantati iz 1937. godine, koja se temelji na srednjovjekovnim pjesmama i tekstovima.",
         "difficulty": "medium",
@@ -26911,7 +26911,7 @@
         "incorrect_answers": [
             "Johannes Vermeer",
             "Frans Hals",
-            "Jan van Eyck"
+            "Aelbert Cuyp"
         ],
         "explanation": "Rembrandt je jedan od najvažnijih umjetnika nizozemskog baroka, poznat po majstorskoj upotrebi svjetla i sjene (kjaroskuro) i dubokoj psihološkoj karakterizaciji likova.",
         "difficulty": "medium",
@@ -27011,7 +27011,7 @@
     {
         "id": "hr_art_2064",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski kipar, poznat po monumentalnim skulpturama i arhitektonskim projektima, autor Meštrovićevog paviljona u Zagrebu i 'Zdenac života'?",
+        "question": "Koji je hrvatski kipar, poznat po monumentalnim skulpturama i arhitektonskim projektima, autor 'Zdenca života' i projekta Doma likovnih umjetnika u Zagrebu?",
         "correct_answer": "Ivan Meštrović",
         "incorrect_answers": [
             "Antun Augustinčić",
@@ -27146,7 +27146,7 @@
     {
         "id": "hr_art_2073",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po romanu 'Posljednji Stipančići' i pripovijetkama koje prikazuju život dalmatinske zagore?",
+        "question": "Koji je hrvatski književnik, poznat po romanu 'Posljednji Stipančići' i pripovijetkama koje prikazuju život u provinciji i društvene slojeve?",
         "correct_answer": "Vjenceslav Novak",
         "incorrect_answers": [
             "August Šenoa",
@@ -27176,7 +27176,7 @@
     {
         "id": "hr_art_2075",
         "category": "knjizevnost",
-        "question": "Koji je talijanski arhitekt i slikar, jedan od ključnih predstavnika renesanse, poznat po kupoli katedrale u Firenci?",
+        "question": "Koji je talijanski arhitekt i inženjer, jedan od ključnih predstavnika renesanse, poznat po kupoli katedrale u Firenci?",
         "correct_answer": "Filippo Brunelleschi",
         "incorrect_answers": [
             "Leon Battista Alberti",
@@ -27206,7 +27206,7 @@
     {
         "id": "hr_art_2077",
         "category": "knjizevnost",
-        "question": "Koji je francuski filozof, dramatičar i romanopisac, dobitnik Nobelove nagrade, autor drame 'Čekajući Godota' koja je klasični primjer teatra apsurda?",
+        "question": "Koji je irski filozof, dramatičar i romanopisac, dobitnik Nobelove nagrade, autor drame 'Čekajući Godota' koja je klasični primjer teatra apsurda?",
         "correct_answer": "Samuel Beckett",
         "incorrect_answers": [
             "Albert Camus",
@@ -27311,7 +27311,7 @@
     {
         "id": "hr_art_2084",
         "category": "knjizevnost",
-        "question": "Koji je francuski pisac, dobitnik Nobelove nagrade, autor romana 'Potraga za izgubljenim vremenom', koji je monumentalno djelo modernizma?",
+        "question": "Koji je francuski pisac, autor romana 'Potraga za izgubljenim vremenom', koji je monumentalno djelo modernizma?",
         "correct_answer": "Marcel Proust",
         "incorrect_answers": [
             "Gustave Flaubert",
@@ -27341,12 +27341,12 @@
     {
         "id": "hr_art_2086",
         "category": "knjizevnost",
-        "question": "Koja je hrvatska književnica, čiji je roman 'Adio, kauboju' stekao veliku popularnost, a poznata je po britkim stilu i prepoznavanju društvenih anomalija?",
+        "question": "Koja je hrvatska književnica, čiji je roman 'Adio, kauboju' stekao veliku popularnost, a poznata je po britkom stilu i prepoznavanju društvenih anomalija?",
         "correct_answer": "Olja Savičević Ivančević",
         "incorrect_answers": [
             "Milana Vuković Runjić",
             "Ivana Bodrožić",
-            "Bekim Sejranović"
+            "Ivana Šojat"
         ],
         "explanation": "Olja Savičević Ivančević je jedna od najčitanijih suvremenih hrvatskih autorica, čija su djela prepoznatljiva po poetičnosti i osjetljivosti za društvene teme.",
         "difficulty": "medium",
@@ -27356,7 +27356,7 @@
     {
         "id": "hr_art_2087",
         "category": "knjizevnost",
-        "question": "Koji je umjetnički stil, dominantan u Europi od 12. do 16. stoljeća, karakteriziran šiljastim lukovima, rozetama i vitrajima, tipičan za katedrale poput Notre-Dame?",
+        "question": "Koji je umjetnički stil, dominantan u Europi od 12. do 15. stoljeća, karakteriziran šiljastim lukovima, rozetama i vitrajima, tipičan za katedrale poput Notre-Dame?",
         "correct_answer": "Gotika",
         "incorrect_answers": [
             "Romanika",
@@ -27371,7 +27371,7 @@
     {
         "id": "hr_art_2088",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski arhitekt, pionir moderne arhitekture u Hrvatskoj, poznat po projektu urbanističkog rješenja Novog Zagreba i zgradi Nacionalne i sveučilišne knjižnice?",
+        "question": "Koji je hrvatski arhitekt, istaknuti predstavnik poslijeratne arhitekture u Hrvatskoj, poznat po projektu urbanističkog rješenja Novog Zagreba i sudjelovanju u projektu Nacionalne i sveučilišne knjižnice?",
         "correct_answer": "Branko Kincl",
         "incorrect_answers": [
             "Drago Ibler",
@@ -27521,7 +27521,7 @@
     {
         "id": "hr_art_2098",
         "category": "knjizevnost",
-        "question": "Koji je umjetnički pokret, nastao u 16. stoljeću u Italiji, karakteriziran pretjeranim ukrasima, dramatičnim pokretom i bogatim detaljima, često u religijskoj umjetnosti?",
+        "question": "Koji je umjetnički pokret, nastao na prijelazu iz 16. u 17. stoljeće u Italiji, karakteriziran pretjeranim ukrasima, dramatičnim pokretom i bogatim detaljima, često u religijskoj umjetnosti?",
         "correct_answer": "Barok",
         "incorrect_answers": [
             "Gotika",
@@ -27536,7 +27536,7 @@
     {
         "id": "hr_art_2099",
         "category": "knjizevnost",
-        "question": "Koji je američki književnik, dobitnik Pulitzerove nagrade, autor romana \"Pustolovine Huckleberryja Finna\" i \"Pustolovine Toma Sawyera\"?",
+        "question": "Koji je američki književnik, poznat po romanima \"Pustolovine Huckleberryja Finna\" i \"Pustolovine Toma Sawyera\", čija su djela temelj američke književnosti?",
         "correct_answer": "Mark Twain",
         "incorrect_answers": [
             "Herman Melville",
@@ -27672,7 +27672,7 @@
         "id": "hr_art_2108",
         "category": "knjizevnost",
         "question": "Koji je umjetnički pokret, nastao u Münchenu početkom 20. stoljeća, čiji su se članovi poput Kandinskog i Marca fokusirali na duhovnost i apstrakciju, često koristeći simbole i boje s emotivnim značenjem?",
-        "correct_answer": "Plavi jahač (Der Blaue Reiter)",
+        "correct_answer": "Plavi jahač",
         "incorrect_answers": [
             "Brücke",
             "Bauhaus",
@@ -27701,7 +27701,7 @@
     {
         "id": "hr_art_2110",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, autor romana \"Prosjaci i sinovi\" i \"Kiklop\", poznat po ironičnom i kritičkom prikazu suvremenog društva?",
+        "question": "Koji je hrvatski književnik, autor romana \"Kiklop\", poznat po ironičnom i kritičkom prikazu suvremenog društva?",
         "correct_answer": "Ranko Marinković",
         "incorrect_answers": [
             "Miro Gavran",
@@ -27716,7 +27716,7 @@
     {
         "id": "hr_art_2111",
         "category": "knjizevnost",
-        "question": "Koji je flamanski slikar iz 15. stoljeća, poznat po svojoj nevjerojatnoj detaljnosti i simbolici, autor djela \"Vrt zemaljskih užitaka\"?",
+        "question": "Koji je ranonizozemski slikar iz 15. i ranog 16. stoljeća, poznat po svojoj nevjerojatnoj detaljnosti i simbolici, autor djela \"Vrt zemaljskih užitaka\"?",
         "correct_answer": "Hieronymus Bosch",
         "incorrect_answers": [
             "Jan van Eyck",
@@ -27761,7 +27761,7 @@
     {
         "id": "hr_art_2114",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po romanu \"Sudnji dan\" i zbirci novela \"Smrt u kući\", čija djela često tematiziraju život provincije i egzistencijalnu problematiku?",
+        "question": "Koji je hrvatski književnik, poznat po romanima \"Mirisi, zlato i tamjan\" i \"Izgubljeni zavičaj\", čija djela često tematiziraju život otoka i egzistencijalnu problematiku?",
         "correct_answer": "Slobodan Novak",
         "incorrect_answers": [
             "Ivan Aralica",
@@ -27926,7 +27926,7 @@
     {
         "id": "hr_art_2125",
         "category": "knjizevnost",
-        "question": "Koji je talijanski kompozitor iz baroknog razdoblja, poznat po svojim operama i oratorijima, uključujući \"Mesiju\"?",
+        "question": "Koji je njemački kompozitor baroknog razdoblja, koji je veći dio karijere proveo u Engleskoj, poznat po svojim operama i oratorijima, uključujući \"Mesiju\"?",
         "correct_answer": "George Frideric Handel",
         "incorrect_answers": [
             "Antonio Vivaldi",
@@ -27986,7 +27986,7 @@
     {
         "id": "hr_art_2129",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski slikar, jedan od utemeljitelja Zagrebačke slikarske škole i predstavnik plenerizma, poznat po djelu \"U gostionici\"?",
+        "question": "Koji je hrvatski slikar, jedan od ključnih predstavnika hrvatske moderne (Minhenskog kruga), poznat po djelu \"U gostionici\"?",
         "correct_answer": "Miroslav Kraljević",
         "incorrect_answers": [
             "Vlaho Bukovac",
@@ -28046,7 +28046,7 @@
     {
         "id": "hr_art_2133",
         "category": "knjizevnost",
-        "question": "Koji je umjetnički pokret s kraja 19. stoljeća naglašavao snagu emocija i subjektivni doživljaj stvarnosti, često deformirajući oblike i boje?",
+        "question": "Koji je umjetnički pokret s kraja 19. i početka 20. stoljeća naglašavao snagu emocija i subjektivni doživljaj stvarnosti, često deformirajući oblike i boje?",
         "correct_answer": "Ekspresionizam",
         "incorrect_answers": [
             "Impresionizam",
@@ -28361,7 +28361,7 @@
     {
         "id": "hr_art_2154",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po romanu \"Na Drini ćuprija\", iako je rođen u BiH, a dobitnik je Nobelove nagrade za književnost?",
+        "question": "Koji je književnik, rođen u BiH, poznat po romanu \"Na Drini ćuprija\" i dobitnik Nobelove nagrade za književnost?",
         "correct_answer": "Ivo Andrić",
         "incorrect_answers": [
             "Meša Selimović",
@@ -28376,7 +28376,7 @@
     {
         "id": "hr_art_2155",
         "category": "knjizevnost",
-        "question": "Koji je književni rod, koji obuhvaća epska, lirska i dramska djela, temeljen na izmišljenim događajima i likovima?",
+        "question": "Koja je kategorija književnosti, koja obuhvaća djela temeljena na izmišljenim događajima i likovima?",
         "correct_answer": "Fikcija",
         "incorrect_answers": [
             "Publicistika",
@@ -28421,7 +28421,7 @@
     {
         "id": "hr_art_2158",
         "category": "knjizevnost",
-        "question": "Koji je književni pravac, nastao kao reakcija na romantizam, težio objektivnom i znanstvenom pristupu stvarnosti, često prikazujući ružne aspekte života?",
+        "question": "Koji je književni pravac, ekstremni oblik realizma, težio objektivnom i znanstvenom pristupu stvarnosti, često prikazujući ružne aspekte života?",
         "correct_answer": "Naturalizam",
         "incorrect_answers": [
             "Realizam",
@@ -28436,7 +28436,7 @@
     {
         "id": "hr_art_2159",
         "category": "knjizevnost",
-        "question": "Koji je ruski kompozitor, autor baleta \"Posvećenje proljeća\" i opera \"Žar-ptica\", čija je glazba revolucionirala klasičnu kompoziciju?",
+        "question": "Koji je ruski kompozitor, autor baleta \"Posvećenje proljeća\" i \"Žar-ptica\", čija je glazba revolucionirala klasičnu kompoziciju?",
         "correct_answer": "Igor Stravinski",
         "incorrect_answers": [
             "Petar Iljič Čajkovski",
@@ -28451,12 +28451,12 @@
     {
         "id": "hr_art_2160",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik, poznat po romanu \"Cvijet sa raskršća\" i pjesničkoj zbirci \"Preobraženja\", predstavnik simbolizma i moderne?",
-        "correct_answer": "Vladimir Nazor",
+        "question": "Koji je hrvatski književnik, poznat po romanu \"Cvijet sa raskršća\" i pjesničkom opusu, predstavnik simbolizma i moderne?",
+        "correct_answer": "Antun Gustav Matoš",
         "incorrect_answers": [
-            "Antun Gustav Matoš",
+            "Vladimir Nazor",
             "Tin Ujević",
-            "Dobriša Cesarić"
+            "Miroslav Krleža"
         ],
         "explanation": "Vladimir Nazor jedan je od najplodnijih hrvatskih pisaca, čiji su se stil i teme razvijali od neoromantizma preko simbolizma do angažirane poezije.",
         "difficulty": "medium",
@@ -28481,12 +28481,12 @@
     {
         "id": "hr_art_2162",
         "category": "knjizevnost",
-        "question": "Koja je zbirka novela Edgara Allana Poea, poznata po pričama strave i detektivskog žanra, poput \"Gavrana\" i \"Crnog mačka\"?",
+        "question": "Koja je zbirka Edgara Allana Poea, poznata po pričama strave i detektivskog žanra, poput 'Crnog mačka' i 'Ukradenog pisma'?",
         "correct_answer": "Priče groze i mašte",
         "incorrect_answers": [
-            "Ukradeno pismo",
-            "Groteskne i arabesktne priče",
-            "Pad kuće Usher"
+            "Pad kuće Usher",
+            "Maska crvene smrti",
+            "Jama i njihalo"
         ],
         "explanation": "Edgar Allan Poe je majstor kratke priče, a njegove \"Priče groze i mašte\" sadrže neke od njegovih najpoznatijih i najutjecajnijih djela.",
         "difficulty": "hard",
@@ -28541,7 +28541,7 @@
     {
         "id": "hr_art_2166",
         "category": "knjizevnost",
-        "question": "Tko je autor djela \"Gundulićev san\", značajnog za hrvatsku renesansnu književnost, koje slavi dubrovačku tradiciju?",
+        "question": "Tko je autor djela \"Dubravka\", pastoralne drame značajne za hrvatsku baroknu književnost, koja slavi dubrovačku tradiciju?",
         "correct_answer": "Ivan Gundulić",
         "incorrect_answers": [
             "Marin Držić",
@@ -28901,7 +28901,7 @@
     {
         "id": "hr_art_2191",
         "category": "knjizevnost",
-        "question": "Koja je autorica romana \"Frankenstein; ili moderni Prometej\", smatra se jednim od prvih znanstvenofantastičnih romana?",
+        "question": "Koja je autorica romana \"Frankenstein; ili moderni Prometej\", koji se smatra jednim od prvih znanstvenofantastičnih romana?",
         "correct_answer": "Mary Shelley",
         "incorrect_answers": [
             "Jane Austen",
@@ -28991,7 +28991,7 @@
     {
         "id": "hr_art_2198",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor putopisa \"Cestom preko svijeta\", koji opisuje njegova putovanja po svijetu?",
+        "question": "Koji je hrvatski književnik autor putopisa \"Putositnice\", prvog modernog hrvatskog putopisa?",
         "correct_answer": "Antun Nemčić",
         "incorrect_answers": [
             "Mato Lovrak",
@@ -29066,7 +29066,7 @@
     {
         "id": "hr_art_2203",
         "category": "knjizevnost",
-        "question": "Tko je napisao poznatu pjesmu \"Staćemo uz rame\" (poznatu i kao \"Domišljanja\")?",
+        "question": "Tko je napisao poznatu pjesmu \"Domišljanja\"?",
         "correct_answer": "Tin Ujević",
         "incorrect_answers": [
             "Antun Gustav Matoš",
@@ -29081,7 +29081,7 @@
     {
         "id": "hr_art_2204",
         "category": "knjizevnost",
-        "question": "Koji se umjetnički stil ranog 20. stoljeća u Francuskoj, nazvan \"divlji\" (les fauves), karakterizirao intenzivnim, neprirodnim bojama i pojednostavljenim oblicima?",
+        "question": "Koji se umjetnički stil ranog 20. stoljeća u Francuskoj karakterizirao intenzivnim, neprirodnim bojama i pojednostavljenim oblicima?",
         "correct_answer": "Fovizam",
         "incorrect_answers": [
             "Kubizam",
@@ -29159,7 +29159,7 @@
         "question": "Koji je književni pravac nastao u Hrvatskoj u prvoj polovici 19. stoljeća s ciljem buđenja nacionalne svijesti i standardizacije jezika?",
         "correct_answer": "Ilirski pokret",
         "incorrect_answers": [
-            "Preporod",
+            "Klasicizam",
             "Romantizam",
             "Modernizam"
         ],
@@ -29501,7 +29501,7 @@
     {
         "id": "hr_art_2232",
         "category": "knjizevnost",
-        "question": "Koja je francuska književnica, dobitnica Nobelove nagrade, autorica romana 'Drugi spol', ključnog djela feminizma?",
+        "question": "Koja je francuska književnica, autorica romana 'Drugi spol', ključnog djela feminizma?",
         "correct_answer": "Simone de Beauvoir",
         "incorrect_answers": [
             "Virginia Woolf",
@@ -29531,7 +29531,7 @@
     {
         "id": "hr_art_2234",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski književnik autor romana 'Derviš i smrt'?",
+        "question": "Koji je književnik autor romana 'Derviš i smrt'?",
         "correct_answer": "Meša Selimović",
         "incorrect_answers": [
             "Ivo Andrić",
@@ -30026,7 +30026,7 @@
     {
         "id": "hr_art_2267",
         "category": "knjizevnost",
-        "question": "Koji je američki pisac autor 'Priča iz Canterburyja'?",
+        "question": "Koji je engleski pisac autor 'Priča iz Canterburyja'?",
         "correct_answer": "Geoffrey Chaucer",
         "incorrect_answers": [
             "William Shakespeare",
@@ -30086,7 +30086,7 @@
     {
         "id": "hr_art_2271",
         "category": "knjizevnost",
-        "question": "Koja je španjolska slikarka, poznata po svojim autoportretima i nadrealističkim prikazima, bila udana za Diega Riveru?",
+        "question": "Koja je meksička slikarka, poznata po svojim autoportretima i nadrealističkim prikazima, bila udana za Diega Riveru?",
         "correct_answer": "Frida Kahlo",
         "incorrect_answers": [
             "Sonia Delaunay",
