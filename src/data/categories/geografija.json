@@ -189,7 +189,7 @@
     {
         "id": "hr_geo_18",
         "category": "geografija",
-        "question": "Koje je najstarije i najveće kopneno zatvoreno more (jezero) po površini?",
+        "question": "Koje je najveće kopneno zatvoreno more (jezero) po površini?",
         "correct_answer": "Kaspijsko jezero",
         "incorrect_answers": [
             "Crno more",
@@ -255,7 +255,7 @@
     {
         "id": "hr_geo_24",
         "category": "geografija",
-        "question": "Koja pustinja važi za najsuše mjesto na svijetu?",
+        "question": "Koja se pustinja smatra najsušim mjestom na svijetu?",
         "correct_answer": "Atacama",
         "incorrect_answers": [
             "Sahara",
@@ -313,7 +313,7 @@
         "question": "Koji planinski lanac dijeli Europu i Aziju?",
         "correct_answer": "Ural",
         "incorrect_answers": [
-            "Kavkaz",
+            "Himalaja",
             "Alpe",
             "Karpati"
         ]
@@ -358,7 +358,7 @@
         "correct_answer": "Amazona",
         "incorrect_answers": [
             "Nil",
-            "Congo",
+            "Kongo",
             "Mississippi"
         ]
     },
@@ -1323,7 +1323,7 @@
         "id": "hr_geo_121",
         "category": "geografija",
         "question": "Koji je najveći grad i prijestolnica sjevernoafričke države smješten na obali Sredozemnog mora?",
-        "correct_answer": "Alžir (Algiers)",
+        "correct_answer": "Alžir",
         "incorrect_answers": [
             "Oran",
             "Constantine",
@@ -1377,7 +1377,7 @@
     {
         "id": "hr_geo_126",
         "category": "geografija",
-        "question": "Koja je država najsiromašnija u Europi po BDP-u po stanovniku i leži između Rumunjske i Ukrajine?",
+        "question": "Koja je država jedna od najsiromašnijih u Europi po BDP-u po stanovniku i leži između Rumunjske i Ukrajine?",
         "correct_answer": "Moldavija",
         "incorrect_answers": [
             "Albanija",
@@ -1883,7 +1883,7 @@
     {
         "id": "hr_geo_172",
         "category": "geografija",
-        "question": "Koja je najduža rijeka u Rusiji i cijeloj Europi?",
+        "question": "Koja je najduža rijeka u Europi?",
         "correct_answer": "Volga",
         "incorrect_answers": [
             "Ob",
@@ -1905,7 +1905,7 @@
     {
         "id": "hr_geo_174",
         "category": "geografija",
-        "question": "Koja je najduža rijeka u SAD-u ako se računa njezin primarni tok zajedno s Missourijem?",
+        "question": "Koji je najduži riječni sustav u Sjedinjenim Američkim Državama?",
         "correct_answer": "Mississippi - Missouri",
         "incorrect_answers": [
             "Yukon",
@@ -2313,7 +2313,7 @@
         "id": "hr_geo_211",
         "category": "geografija",
         "question": "Koji je najviši planinski vrh u Japanu, ujedno aktivni vulkan?",
-        "correct_answer": "Mount Fuji",
+        "correct_answer": "Fuji",
         "incorrect_answers": [
             "Kitadake",
             "Yarigatake",
@@ -2378,7 +2378,7 @@
     {
         "id": "hr_geo_217",
         "category": "geografija",
-        "question": "Koji je glavni grad Šri Lanke?",
+        "question": "Koji je administrativni i zakonodavni glavni grad Šri Lanke?",
         "correct_answer": "Šri Džajavardenepura Kote",
         "incorrect_answers": [
             "Colombo",
@@ -2493,7 +2493,7 @@
         "incorrect_answers": [
             "Gizo",
             "Auki",
-            "Taroni"
+            "Kirakira"
         ]
     },
     {
@@ -2598,8 +2598,8 @@
     {
         "id": "hr_geo_237",
         "category": "geografija",
-        "question": "Koji je najveći grad i glavni grad države Gvatemale, poznate po bogatoj baštini naroda Maja?",
-        "correct_answer": "Guatemala City",
+        "question": "Koji je glavni grad Gvatemale i ujedno najveći grad te države, poznate po bogatoj baštini naroda Maja?",
+        "correct_answer": "Ciudad de Guatemala",
         "incorrect_answers": [
             "Antigua Guatemala",
             "Quetzaltenango",
@@ -2620,7 +2620,7 @@
     {
         "id": "hr_geo_239",
         "category": "geografija",
-        "question": "Koji je najveći grad i glavni grad države El Salvador?",
+        "question": "Koji je glavni i najveći grad El Salvadora?",
         "correct_answer": "San Salvador",
         "incorrect_answers": [
             "Santa Ana",
@@ -2940,7 +2940,7 @@
         "id": "hr_geo_268",
         "category": "geografija",
         "question": "Koji je otok na krajnjem jugu Južne Amerike odvojen od kopna Magelanovim prolazom?",
-        "correct_answer": "Ognjena zemlja (Tierra del Fuego)",
+        "correct_answer": "Ognjena zemlja",
         "incorrect_answers": [
             "Falklandski otoci",
             "Chiloé",
@@ -3049,8 +3049,8 @@
     {
         "id": "hr_geo_278",
         "category": "geografija",
-        "question": "Koji je lučki grad na Rogu Afrike prijestolnica države u Adenskom zaljevu?",
-        "correct_answer": "Djibouti",
+        "question": "Koji je glavni grad Džibutija?",
+        "correct_answer": "Džibuti",
         "incorrect_answers": [
             "Ali Sabieh",
             "Tadjoura",
@@ -3412,7 +3412,7 @@
     {
         "id": "hr_geo_311",
         "category": "geografija",
-        "question": "Koji je najveći grad i prijestolnica otočne države u Gvinejskom zaljevu?",
+        "question": "Koji je glavni grad otočne države Sveti Toma i Princip u Gvinejskom zaljevu?",
         "correct_answer": "São Tomé",
         "incorrect_answers": [
             "Santo Amaro",
@@ -3434,7 +3434,7 @@
     {
         "id": "hr_geo_313",
         "category": "geografija",
-        "question": "Koja je najduža rijeka koja izvire u Hrvatskoj (i dijelom teče granicom sa Slovenijom)?",
+        "question": "Koja je najduža rijeka koja izvire u Hrvatskoj i dijelom čini granicu sa Slovenijom?",
         "correct_answer": "Kupa",
         "incorrect_answers": [
             "Sava",
@@ -3460,7 +3460,7 @@
         "correct_answer": "Vidova gora",
         "incorrect_answers": [
             "Vojak",
-            "Kamenjak",
+            "Sveti Juraj",
             "Televrin"
         ]
     },
@@ -3988,7 +3988,7 @@
         "correct_answer": "Huang He",
         "incorrect_answers": [
             "Yangtze",
-            "Pearl River",
+            "Biserka",
             "Amur"
         ]
     },
@@ -4022,7 +4022,7 @@
         "incorrect_answers": [
             "Salween",
             "Irrawaddy",
-            "Red River"
+            "Crvena rijeka"
         ]
     },
     {
@@ -4713,7 +4713,7 @@
         "question": "Kako se zove područje u središnjoj Africi gdje rijeka Okavango utječe u pustinju Kalahari?",
         "correct_answer": "Delta Okavanga",
         "incorrect_answers": [
-            "Okavango bazen",
+            "Čadsko jezero",
             "Sudd",
             "Makgadikgadi"
         ]
@@ -5165,7 +5165,7 @@
         "correct_answer": "Ind (Indus)",
         "incorrect_answers": [
             "Ganges",
-            "Bramaputra",
+            "Brahmaputra",
             "Sutlej"
         ]
     },
@@ -5338,10 +5338,10 @@
         "id": "hr_geo_486",
         "category": "geografija",
         "question": "Koje je jezero u Kanadi najveće koje se u potpunosti nalazi unutar njezinih granica?",
-        "correct_answer": "Medvjeđe jezero",
+        "correct_answer": "Veliko Medvjeđe jezero",
         "incorrect_answers": [
             "Jezero Winnipeg",
-            "Robovsko jezero",
+            "Veliko ropsko jezero",
             "Jezero Ontario"
         ]
     },
@@ -5954,9 +5954,9 @@
         "id": "hr_geo_542",
         "category": "geografija",
         "question": "Koji je grad s najvećim metropolitanskim područjem po broju stanovnika u Africi?",
-        "correct_answer": "Kairo",
+        "correct_answer": "Lagos",
         "incorrect_answers": [
-            "Lagos",
+            "Kairo",
             "Kinshasa",
             "Johannesburg"
         ]
@@ -6090,7 +6090,7 @@
         "incorrect_answers": [
             "Jen",
             "Won",
-            "Yuan"
+            "Baht"
         ]
     },
     {
@@ -6188,7 +6188,7 @@
         "correct_answer": "Zlot",
         "incorrect_answers": [
             "Forinta",
-            "Kuna",
+            "Lira",
             "Lev"
         ]
     },
@@ -6199,7 +6199,7 @@
         "correct_answer": "Forinta",
         "incorrect_answers": [
             "Zlot",
-            "Kuna",
+            "Lira",
             "Lev"
         ]
     },
@@ -6232,7 +6232,7 @@
         "correct_answer": "Meksički pezo",
         "incorrect_answers": [
             "Real",
-            "Kolumbijski pezo",
+            "Bolivar",
             "Dolar"
         ]
     },
@@ -7527,7 +7527,7 @@
         "id": "hr_geo_685",
         "category": "geografija",
         "question": "Koja je po površini najveća administrativno-teritorijalna jedinica na svijetu, veća od većine svjetskih država?",
-        "correct_answer": "Republika Saha (Jakutija) u Rusiji",
+        "correct_answer": "Republika Saha (Jakutija)",
         "incorrect_answers": [
             "Sibirski savezni okrug",
             "Kvebek",
@@ -7790,7 +7790,7 @@
     {
         "id": "hr_geo_709",
         "category": "geografija",
-        "question": "Koji je najveći grad Maroka, iako nije glavni grad?",
+        "question": "Koji je najveći grad Maroka po broju stanovnika?",
         "correct_answer": "Casablanca",
         "incorrect_answers": [
             "Rabat",
@@ -7801,7 +7801,7 @@
     {
         "id": "hr_geo_710",
         "category": "geografija",
-        "question": "Koji je drugi najveći grad Portugala, poznat po vinu istog imena?",
+        "question": "Koji je drugi najveći grad Portugala?",
         "correct_answer": "Porto",
         "incorrect_answers": [
             "Braga",
@@ -7812,7 +7812,7 @@
     {
         "id": "hr_geo_711",
         "category": "geografija",
-        "question": "Koji je grad sjedište nizozemske vlade i kraljevske obitelji, iako nije službeni glavni grad?",
+        "question": "Koji je grad u Nizozemskoj sjedište vlade i kraljevske obitelji?",
         "correct_answer": "Haag",
         "incorrect_answers": [
             "Amsterdam",
@@ -7823,7 +7823,7 @@
     {
         "id": "hr_geo_712",
         "category": "geografija",
-        "question": "Koji je najveći grad Škotske, iako je Edinburgh njezin glavni grad?",
+        "question": "Koji je najveći grad Škotske po broju stanovnika?",
         "correct_answer": "Glasgow",
         "incorrect_answers": [
             "Aberdeen",
@@ -7889,7 +7889,7 @@
     {
         "id": "hr_geo_718",
         "category": "geografija",
-        "question": "Koja je službena valuta Kenije?",
+        "question": "Kako se zove službena valuta Kenije?",
         "correct_answer": "Kenijski šiling",
         "incorrect_answers": [
             "Tanzanijski šiling",
@@ -7900,7 +7900,7 @@
     {
         "id": "hr_geo_719",
         "category": "geografija",
-        "question": "Koja je službena valuta Tanzanije?",
+        "question": "Kako se zove službena valuta Tanzanije?",
         "correct_answer": "Tanzanijski šiling",
         "incorrect_answers": [
             "Kenijski šiling",
@@ -7911,7 +7911,7 @@
     {
         "id": "hr_geo_720",
         "category": "geografija",
-        "question": "Koja je službena valuta Gane?",
+        "question": "Kako se zove službena valuta Gane?",
         "correct_answer": "Ganski cedi",
         "incorrect_answers": [
             "Naira",
@@ -8494,7 +8494,7 @@
     {
         "id": "hr_geo_773",
         "category": "geografija",
-        "question": "Koja zemlja graniči s najvećim brojem drugih zemalja na svijetu?",
+        "question": "Koja od navedenih zemalja graniči s najvećim brojem drugih zemalja na svijetu?",
         "correct_answer": "Kina",
         "incorrect_answers": [
             "Indija",
@@ -9364,9 +9364,9 @@
         "id": "hr_geo_852",
         "category": "geografija",
         "question": "U kojoj se državi nalazi veći dio pustinje Gobi?",
-        "correct_answer": "Mongolija",
+        "correct_answer": "Kina",
         "incorrect_answers": [
-            "Kina",
+            "Mongolija",
             "Kazahstan",
             "Uzbekistan"
         ]
@@ -9407,7 +9407,7 @@
     {
         "id": "hr_geo_856",
         "category": "geografija",
-        "question": "Koje je najveće plovno jezero na svijetu po nadmorskoj visini, smješteno između Perua i Bolivije?",
+        "question": "Koje je najveće plovno jezero na svijetu po nadmorskoj visini?",
         "correct_answer": "Jezero Titicaca",
         "incorrect_answers": [
             "Jezero Poopó",
@@ -9495,7 +9495,7 @@
     {
         "id": "hr_geo_864",
         "category": "geografija",
-        "question": "Koja država ima najveći broj kopnenih susjeda na svijetu, dijeleći tu titulu s Rusijom?",
+        "question": "Koja država ima najveći broj kopnenih susjeda na svijetu?",
         "correct_answer": "Kina",
         "incorrect_answers": [
             "Rusija",
@@ -9715,7 +9715,7 @@
     {
         "id": "hr_geo_884",
         "category": "geografija",
-        "question": "Koji planinski masiv sadrži vrh Mont Blanc, najviši vrh Alpa?",
+        "question": "U kojem se planinskom masivu nalazi Mont Blanc, najviši vrh zapadne Europe?",
         "correct_answer": "Alpe",
         "incorrect_answers": [
             "Pirineji",
@@ -9902,7 +9902,7 @@
     {
         "id": "hr_geo_904",
         "category": "geografija",
-        "question": "Koje su planine u Brazilu poznate po svojoj bioraznolikosti i prekrasnim krajolicima, koje se protežu duž istočne obale?",
+        "question": "Koje se planine u Brazilu, poznate po bioraznolikosti i prekrasnim krajolicima, protežu duž istočne obale?",
         "correct_answer": "Serra do Mar",
         "incorrect_answers": [
             "Andi",
@@ -9990,7 +9990,7 @@
     {
         "id": "hr_geo_912",
         "category": "geografija",
-        "question": "Koji je jedini glavni grad na svijetu koji je službeno priznat kao prijestolnica dviju država (Izraela i Palestine)?",
+        "question": "Koji grad i Izrael i Palestina smatraju svojom prijestolnicom, iako je njegov status predmet međunarodnog spora?",
         "correct_answer": "Jeruzalem",
         "incorrect_answers": [
             "Berlin",
@@ -10045,7 +10045,7 @@
     {
         "id": "hr_geo_918",
         "category": "geografija",
-        "question": "Koja pustinja je poznata kao \"Velika pješčana pustinja\" i nalazi se u Australiji?",
+        "question": "Koja se prostrana pustinja, poznata po svojim pješčanim dinama i crvenom pijesku, nalazi u sjeverozapadnom dijelu Australije?",
         "correct_answer": "Velika pješčana pustinja",
         "incorrect_answers": [
             "Gibsonova pustinja",
@@ -10089,7 +10089,7 @@
     {
         "id": "hr_geo_922",
         "category": "geografija",
-        "question": "Koja je najduža građevina na svijetu, vidljiva iz svemira?",
+        "question": "Koja je najduža građevina na svijetu?",
         "correct_answer": "Veliki kineski zid",
         "incorrect_answers": [
             "Piramide u Gizi",
@@ -10287,7 +10287,7 @@
     {
         "id": "hr_geo_944",
         "category": "geografija",
-        "question": "Kako se zove poznata stijenska formacija u zaljevu San Francisca, nekadašnji zatvor?",
+        "question": "Kako se zove poznati otočić u zaljevu San Francisca, nekadašnji zatvor?",
         "correct_answer": "Alcatraz",
         "incorrect_answers": [
             "Ellis Island",
@@ -10496,12 +10496,12 @@
     {
         "id": "hr_geo_967",
         "category": "geografija",
-        "question": "Koja planina dijeli azijski i europski kontinent?",
+        "question": "Koji planinski lanac tradicionalno označava granicu između europskog i azijskog kontinenta?",
         "correct_answer": "Ural",
         "incorrect_answers": [
-            "Kavkaz",
             "Karpati",
-            "Alpe"
+            "Alpe",
+            "Pireneji"
         ]
     },
     {
@@ -10587,9 +10587,9 @@
         "question": "Koja država graniči s najviše drugih država?",
         "correct_answer": "Kina",
         "incorrect_answers": [
-            "Rusija",
             "SAD",
-            "Indija"
+            "Indija",
+            "Kanada"
         ]
     },
     {
@@ -10628,7 +10628,7 @@
     {
         "id": "hr_geo_985",
         "category": "geografija",
-        "question": "Koja je najnaseljenija urbana aglomeracija na svijetu?",
+        "question": "Koja je najnaseljenija urbana aglomeracija na svijetu (prema podacima za 2022. godinu)?",
         "correct_answer": "Tokio",
         "incorrect_answers": [
             "Delhi",
@@ -10661,7 +10661,7 @@
     {
         "id": "hr_geo_991",
         "category": "geografija",
-        "question": "Koji je poznati koraljni greben smješten u blizini obale Belizea?",
+        "question": "Koji se poznati koraljni greben smatra drugim najvećim barijernim grebenom na svijetu?",
         "correct_answer": "Belize Barrier Reef",
         "incorrect_answers": [
             "Florida Reef",
@@ -10837,7 +10837,7 @@
     {
         "id": "hr_geo_1014",
         "category": "geografija",
-        "question": "Koji tjesnac povezuje Tihi ocean i Indijski ocean između Azije i Australije?",
+        "question": "Koji tjesnac povezuje Tihi ocean i Indijski ocean, strateški važan za brodski promet u jugoistočnoj Aziji?",
         "correct_answer": "Malajski tjesnac",
         "incorrect_answers": [
             "Sundski tjesnac",
@@ -10925,7 +10925,7 @@
     {
         "id": "hr_geo_1024",
         "category": "geografija",
-        "question": "Kako se zove najveći kanjon na svijetu, smješten u Arizoni, SAD?",
+        "question": "Kako se zove najveći kanjon u Sjedinjenim Američkim Državama, smješten u Arizoni?",
         "correct_answer": "Grand Canyon",
         "incorrect_answers": [
             "Fish River Canyon",
@@ -11103,8 +11103,8 @@
     {
         "id": "hr_geo_1041",
         "category": "geografija",
-        "question": "Koji se tjesnac nalazi između Sjeverne i Južne Amerike i dijeli ih na užem dijelu Panamskog kanala?",
-        "correct_answer": "Panamski tjesnac",
+        "question": "Koji se zemljouz nalazi između Sjeverne i Južne Amerike, a kroz njega je prokopan kanal koji spaja Atlantski i Tihi ocean?",
+        "correct_answer": "Panamska prevlaka",
         "incorrect_answers": [
             "Beringov tjesnac",
             "Gibraltar",
@@ -11224,7 +11224,7 @@
         "id": "hr_geo_1049",
         "category": "geografija",
         "question": "Koja država se nalazi na jugu Afrike i poznata je po Rtu dobre nade?",
-        "correct_answer": "Južnoafrička Republika",
+        "correct_answer": "Južna Afrika",
         "incorrect_answers": [
             "Namibija",
             "Angola",
@@ -11253,7 +11253,7 @@
     {
         "id": "hr_geo_1051",
         "category": "geografija",
-        "question": "Koje je najveće jezero u Južnoj Americi po površini?",
+        "question": "Koje je najveće slatkovodno jezero u Južnoj Americi po površini?",
         "correct_answer": "Jezero Titicaca",
         "incorrect_answers": [
             "Jezero Maracaibo",
@@ -11449,10 +11449,10 @@
         "id": "hr_geo_1064",
         "category": "geografija",
         "question": "Koji je najveći grad u Africi po broju stanovnika (urbanog područja, stanje 2023.)?",
-        "correct_answer": "Lagos",
+        "correct_answer": "Kinshasa",
         "incorrect_answers": [
+            "Lagos",
             "Kairo",
-            "Kinshasa",
             "Johanesburg"
         ],
         "explanation": "Lagos u Nigeriji, s preko 15 milijuna stanovnika, najveći je grad u Africi po broju stanovnika (stanje 2023.).",
@@ -11508,7 +11508,7 @@
     {
         "id": "hr_geo_1068",
         "category": "geografija",
-        "question": "Koji se planinski lanac proteže kroz sedam europskih zemalja, od Francuske do Slovenije?",
+        "question": "Koji se planinski lanac proteže kroz osam europskih zemalja, od Francuske do Slovenije?",
         "correct_answer": "Alpe",
         "incorrect_answers": [
             "Pireneji",
@@ -11586,9 +11586,9 @@
         "question": "Koja je zemlja poznata po 'aurora borealis' (polarnoj svjetlosti) i nalazi se na sjeveru Europe?",
         "correct_answer": "Norveška",
         "incorrect_answers": [
-            "Finska",
-            "Švedska",
-            "Island"
+            "Danska",
+            "Estonija",
+            "Latvija"
         ],
         "explanation": "Norveška, posebno njeni sjeverni dijelovi, jedno je od najboljih mjesta za promatranje polarne svjetlosti.",
         "difficulty": "easy",
@@ -11718,7 +11718,7 @@
     {
         "id": "hr_geo_1082",
         "category": "geografija",
-        "question": "Koji je najveći umjetni kanal na svijetu, koji spaja Sredozemno i Crveno more?",
+        "question": "Koji je najdulji morski kanal bez brana na svijetu?",
         "correct_answer": "Sueski kanal",
         "incorrect_answers": [
             "Panamski kanal",
@@ -11793,7 +11793,7 @@
     {
         "id": "hr_geo_1087",
         "category": "geografija",
-        "question": "Koji se pustinja smatra najvećom hladnom pustinjom na svijetu?",
+        "question": "Koja se pustinja smatra najvećom hladnom pustinjom na svijetu?",
         "correct_answer": "Gobi",
         "incorrect_answers": [
             "Sahara",
@@ -11898,7 +11898,7 @@
     {
         "id": "hr_geo_1094",
         "category": "geografija",
-        "question": "Koji je najveći tropski kišni šuma na svijetu?",
+        "question": "Koja je najveća tropska kišna šuma na svijetu?",
         "correct_answer": "Amazonska prašuma",
         "incorrect_answers": [
             "Konžanska prašuma",
@@ -11928,7 +11928,7 @@
     {
         "id": "hr_geo_1096",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po Fjordovima i jezerima kao što je jezero Loch Ness?",
+        "question": "Koja je zemlja poznata po svojim planinskim krajolicima, dubokim morskim uvalama nalik fjordovima i jezerima oko kojih se vežu legende?",
         "correct_answer": "Škotska",
         "incorrect_answers": [
             "Norveška",
@@ -11976,9 +11976,9 @@
         "question": "Koji je najveći kanjon na svijetu?",
         "correct_answer": "Veliki kanjon",
         "incorrect_answers": [
-            "Fiskalni kanjon",
-            "Kanadi kanjon",
-            "Koloradski kanjon"
+            "Fish River kanjon",
+            "Copper kanjon",
+            "Antelope kanjon"
         ],
         "explanation": "Veliki kanjon u Arizoni, SAD, jedan je od najpoznatijih i najvećih kanjona na svijetu, poznat po geološkoj povijesti.",
         "difficulty": "easy",
@@ -11989,7 +11989,7 @@
         "id": "hr_geo_1100",
         "category": "geografija",
         "question": "Koja država ima najviše vremenskih zona?",
-        "correct_answer": "Francuska (uključujući prekomorske teritorije)",
+        "correct_answer": "Francuska",
         "incorrect_answers": [
             "Rusija",
             "SAD",
@@ -12033,7 +12033,7 @@
     {
         "id": "hr_geo_1103",
         "category": "geografija",
-        "question": "Koja je rijeka poznata po slapovima Iguazu, smještenim na granici Argentine i Brazila?",
+        "question": "Koja rijeka tvori impresivne slapove smještene na granici Argentine i Brazila?",
         "correct_answer": "Iguazu",
         "incorrect_answers": [
             "Parana",
@@ -12082,7 +12082,7 @@
         "correct_answer": "Kuba",
         "incorrect_answers": [
             "Jamajka",
-            "Haiti",
+            "Trinidad",
             "Portoriko"
         ],
         "explanation": "Kuba je najveći otok u karipskom moru, smještena južno od Floride.",
@@ -12138,8 +12138,8 @@
     {
         "id": "hr_geo_1110",
         "category": "geografija",
-        "question": "Koje je najveće jezero u Hrvatskoj?",
-        "correct_answer": "Vransko jezero (kod Biograda)",
+        "question": "Koje je najveće prirodno jezero u Hrvatskoj?",
+        "correct_answer": "Vransko jezero",
         "incorrect_answers": [
             "Plitvička jezera",
             "Perućko jezero",
@@ -12248,7 +12248,7 @@
         "incorrect_answers": [
             "Azija",
             "Afrika",
-            "Sjeverna Amerika"
+            "Oceanija"
         ],
         "explanation": "Sve države Europe u potpunosti se nalaze na sjevernoj hemisferi.",
         "difficulty": "hard",
@@ -12333,7 +12333,7 @@
     {
         "id": "hr_geo_1123",
         "category": "geografija",
-        "question": "Koji kontinent je u potpunosti na južnoj hemisferi?",
+        "question": "Koji je jedini kontinent u potpunosti na južnoj hemisferi?",
         "correct_answer": "Antarktika",
         "incorrect_answers": [
             "Australija",
@@ -12348,7 +12348,7 @@
     {
         "id": "hr_geo_1124",
         "category": "geografija",
-        "question": "Koji se polarni medvjedi najčešće povezuju?",
+        "question": "S kojim se područjem polarni medvjedi najčešće povezuju?",
         "correct_answer": "Arktik",
         "incorrect_answers": [
             "Antarktika",
@@ -12423,7 +12423,7 @@
     {
         "id": "hr_geo_1129",
         "category": "geografija",
-        "question": "Koji je najduži planinski lanac na Zemlji?",
+        "question": "Koji je najduži kopneni planinski lanac na Zemlji?",
         "correct_answer": "Andi",
         "incorrect_answers": [
             "Himalaja",
@@ -12483,7 +12483,7 @@
     {
         "id": "hr_geo_1133",
         "category": "geografija",
-        "question": "Koji je najgušće naseljeni otok na svijetu?",
+        "question": "Koji je najmnogoljudniji otok na svijetu?",
         "correct_answer": "Java",
         "incorrect_answers": [
             "Honshu",
@@ -12513,7 +12513,7 @@
     {
         "id": "hr_geo_1135",
         "category": "geografija",
-        "question": "Koja je najdublji rov u oceanima?",
+        "question": "Koji je najdublji rov u oceanima?",
         "correct_answer": "Marijanska brazda",
         "incorrect_answers": [
             "Puerto Rico rov",
@@ -12528,7 +12528,7 @@
     {
         "id": "hr_geo_1136",
         "category": "geografija",
-        "question": "Koji je najsjeverniji glavni grad na svijetu?",
+        "question": "Koji je najsjeverniji glavni grad suverene države na svijetu?",
         "correct_answer": "Reykjavik",
         "incorrect_answers": [
             "Helsinki",
@@ -12603,7 +12603,7 @@
     {
         "id": "hr_geo_1141",
         "category": "geografija",
-        "question": "Koji otok u Sredozemnom moru je podijeljen između dvije države, Grčke i Turske (de facto)?",
+        "question": "Koji otok u Sredozemnom moru je politički podijeljen između Republike Cipar i de facto Turske Republike Sjeverni Cipar?",
         "correct_answer": "Cipar",
         "incorrect_answers": [
             "Sicilija",
@@ -12693,7 +12693,7 @@
     {
         "id": "hr_geo_1147",
         "category": "geografija",
-        "question": "Koja je najmnogoljudnija država u Europi (bez Rusije)?",
+        "question": "Koja je, prema podacima iz 2024. godine, najmnogoljudnija država u Europi (bez Rusije)?",
         "correct_answer": "Njemačka",
         "incorrect_answers": [
             "Francuska",
@@ -12798,7 +12798,7 @@
     {
         "id": "hr_geo_1154",
         "category": "geografija",
-        "question": "Koja je najveća umjetna akumulacija u Hrvatskoj?",
+        "question": "Koja je najveća umjetna akumulacija po površini u Hrvatskoj?",
         "correct_answer": "Dubravsko jezero",
         "incorrect_answers": [
             "Perućko jezero",
@@ -12903,7 +12903,7 @@
     {
         "id": "hr_geo_1161",
         "category": "geografija",
-        "question": "Koji je najveći otok na svijetu koji je u potpunosti prekriven ledom?",
+        "question": "Koji je najveći otok na svijetu koji je većim dijelom prekriven ledenim pokrovom?",
         "correct_answer": "Grenland",
         "incorrect_answers": [
             "Baffin Land",
@@ -12949,10 +12949,10 @@
         "id": "hr_geo_1164",
         "category": "geografija",
         "question": "Koja je najgušće naseljena država na svijetu (isključujući mikrodržave)?",
-        "correct_answer": "Bangladeš",
+        "correct_answer": "Singapur",
         "incorrect_answers": [
             "Indija",
-            "Singapur",
+            "Bangladeš",
             "Južna Koreja"
         ],
         "explanation": "Bangladeš je jedna od najgušće naseljenih država na svijetu, s preko 170 milijuna stanovnika na relativno maloj površini.",
@@ -12963,7 +12963,7 @@
     {
         "id": "hr_geo_1165",
         "category": "geografija",
-        "question": "Koja je država poznata po 'Table Mountain' (Stolnoj planini) u Cape Townu?",
+        "question": "Koja je država poznata po Stolnoj planini u Cape Townu?",
         "correct_answer": "Južnoafrička Republika",
         "incorrect_answers": [
             "Australija",
@@ -13038,7 +13038,7 @@
     {
         "id": "hr_geo_1170",
         "category": "geografija",
-        "question": "Koja država se nalazi na jugu Afrike i poznata je po pustinji Namib?",
+        "question": "Koja je država u južnoj Africi poznata po prostranoj pustinji koja se proteže duž njezine obale?",
         "correct_answer": "Namibija",
         "incorrect_answers": [
             "Angola",
@@ -13083,7 +13083,7 @@
     {
         "id": "hr_geo_1173",
         "category": "geografija",
-        "question": "Koja se država proteže na oba kontinenta, Aziju i Europu, te ima većinu stanovništva u Europi, ali veći dio teritorija u Aziji?",
+        "question": "Koja se država proteže na oba kontinenta, Aziju i Europu, s većim dijelom teritorija u Aziji i značajnom populacijom u europskom dijelu?",
         "correct_answer": "Turska",
         "incorrect_answers": [
             "Rusija",
@@ -13188,7 +13188,7 @@
     {
         "id": "hr_geo_1180",
         "category": "geografija",
-        "question": "Koji je najduži tjesnac na svijetu?",
+        "question": "Koji je jedan od najdužih i najprometnijih tjesnaca na svijetu?",
         "correct_answer": "Malajski tjesnac",
         "incorrect_answers": [
             "Gibraltarski tjesnac",
@@ -13429,7 +13429,7 @@
         "id": "hr_geo_1197",
         "category": "geografija",
         "question": "Koji je drugi najviši vrh na Zemlji?",
-        "correct_answer": "K2 (Mount Godwin Austen)",
+        "correct_answer": "K2",
         "incorrect_answers": [
             "Kangchendzonga",
             "Lhotse",
@@ -13536,9 +13536,9 @@
         "question": "Koji grad je poznat kao \"Venecija sjevera\" zbog svojih mnogobrojnih kanala?",
         "correct_answer": "Amsterdam",
         "incorrect_answers": [
-            "Stockholm",
-            "Sankt Peterburg",
-            "Bruges"
+            "Bruxelles",
+            "Varšava",
+            "Prag"
         ],
         "explanation": "Amsterdam u Nizozemskoj, s mrežom kanala koji prolaze kroz grad, često se naziva \"Venecijom sjevera\".",
         "difficulty": "medium",
@@ -13548,7 +13548,7 @@
     {
         "id": "hr_geo_1206",
         "category": "geografija",
-        "question": "Koja je zemlja poznata kao \"Zemlja Duge Oblak\" (Aotearoa na maorskom)?",
+        "question": "Koja je zemlja poznata pod maorskim imenom Aotearoa?",
         "correct_answer": "Novi Zeland",
         "incorrect_answers": [
             "Australija",
@@ -13598,7 +13598,7 @@
         "incorrect_answers": [
             "Alpe",
             "Karpati",
-            "Kavkaz"
+            "Dinaridi"
         ],
         "explanation": "Gorje Ural tradicionalno se smatra prirodnom granicom između europskog i azijskog kontinenta.",
         "difficulty": "easy",
@@ -13653,7 +13653,7 @@
     {
         "id": "hr_geo_1213",
         "category": "geografija",
-        "question": "Koja je rijeka najduža u Južnoj Americi i druga po duljini na svijetu?",
+        "question": "Koja je najduža rijeka u Južnoj Americi?",
         "correct_answer": "Amazona",
         "incorrect_answers": [
             "Parana",
@@ -13789,9 +13789,9 @@
         "id": "hr_geo_1222",
         "category": "geografija",
         "question": "Koja država zauzima veći dio Skandinavskog poluotoka?",
-        "correct_answer": "Švedska",
+        "correct_answer": "Norveška",
         "incorrect_answers": [
-            "Norveška",
+            "Švedska",
             "Danska",
             "Finska"
         ],
@@ -13806,9 +13806,9 @@
         "question": "Kroz koje države teče rijeka Mekong?",
         "correct_answer": "Kina, Mianmar, Laos, Tajland, Kambodža, Vijetnam",
         "incorrect_answers": [
-            "Indija, Nepal, Bangladeš",
-            "Malezija, Filipini, Indonezija",
-            "Južna Koreja, Sjeverna Koreja, Japan"
+            "Indija, Nepal, Bangladeš, Butan, Šri Lanka, Pakistan",
+            "Malezija, Filipini, Indonezija, Singapur, Brunej, Istočni Timor",
+            "Južna Koreja, Sjeverna Koreja, Japan, Mongolija, Afganistan, Kazahstan"
         ],
         "explanation": "Rijeka Mekong, jedna od najvećih rijeka Azije, protječe kroz šest zemalja jugoistočne Azije.",
         "difficulty": "medium",
@@ -13938,7 +13938,7 @@
     {
         "id": "hr_geo_1232",
         "category": "geografija",
-        "question": "Koja je najveća umjetna akumulacija u Africi, nastalo pregrađivanjem rijeke Zambezi?",
+        "question": "Koja je najveća umjetna akumulacija u Africi po volumenu, nastala pregrađivanjem rijeke Zambezi?",
         "correct_answer": "Jezero Kariba",
         "incorrect_answers": [
             "Jezero Victoria",
@@ -14073,7 +14073,7 @@
     {
         "id": "hr_geo_1241",
         "category": "geografija",
-        "question": "Koji je naziv za arhipelag koji se sastoji od otoka Bornea, Sumatre, Jave i Sulavezija?",
+        "question": "Koji je naziv za arhipelag koji se sastoji od otoka Bornea, Sumatre, Jave i Sulawesija?",
         "correct_answer": "Veliki Sundski otoci",
         "incorrect_answers": [
             "Mali Sundski otoci",
@@ -14224,7 +14224,7 @@
         "id": "hr_geo_1251",
         "category": "geografija",
         "question": "Koji je naziv za uski kopneni pojas koji spaja dva veća kopna i razdvaja dva mora ili oceana?",
-        "correct_answer": "Prevaka (Zemljouz)",
+        "correct_answer": "Prevlaka (Zemljouz)",
         "incorrect_answers": [
             "Tjesnac",
             "Poluotok",
@@ -14313,7 +14313,7 @@
     {
         "id": "hr_geo_1257",
         "category": "geografija",
-        "question": "Koja država je dom za planinski vrh Matterhorn?",
+        "question": "U kojoj se državi nalazi planinski vrh Matterhorn?",
         "correct_answer": "Švicarska",
         "incorrect_answers": [
             "Austrija",
@@ -14448,7 +14448,7 @@
     {
         "id": "hr_geo_1266",
         "category": "geografija",
-        "question": "Koje je najveće jezero u Južnoj Americi po površini, smješteno na granici Bolivije i Perua?",
+        "question": "Koje je najveće slatkovodno jezero u Južnoj Americi po površini, smješteno na granici Bolivije i Perua?",
         "correct_answer": "Jezero Titicaca",
         "incorrect_answers": [
             "Jezero Maracaibo",
@@ -14478,7 +14478,7 @@
     {
         "id": "hr_geo_1268",
         "category": "geografija",
-        "question": "Koja se država u Africi često naziva \"Rog Afrike\"?",
+        "question": "Koja je od navedenih država smještena u regiji poznatoj kao 'Rog Afrike'?",
         "correct_answer": "Somalija",
         "incorrect_answers": [
             "Egipat",
@@ -14493,7 +14493,7 @@
     {
         "id": "hr_geo_1269",
         "category": "geografija",
-        "question": "Koji je naziv za vulkanski arhipelag u Tihom oceanu, smješten jugoistočno od Japana, poznat po izrazito strmim obalama i vojnoj povijesti?",
+        "question": "Koji je naziv za vulkanski otok u Tihom oceanu, smješten jugoistočno od Japana, poznat po izrazito strmim obalama i vojnoj povijesti?",
         "correct_answer": "Iwo Jima",
         "incorrect_answers": [
             "Havaji",
@@ -14613,7 +14613,7 @@
     {
         "id": "hr_geo_1277",
         "category": "geografija",
-        "question": "Koji je naziv za regiju sjeverno od Arktičkog kruga?",
+        "question": "Koji je naziv za polarnu regiju koja okružuje Sjeverni pol?",
         "correct_answer": "Arktik",
         "incorrect_answers": [
             "Antarktik",
@@ -14734,7 +14734,7 @@
         "id": "hr_geo_1285",
         "category": "geografija",
         "question": "Koji je naziv za geološki fenomen gdje se velika masa leda odlomila od ledenjaka i pluta morem?",
-        "correct_answer": "Ledenjak (Iceberg)",
+        "correct_answer": "Santa leda",
         "incorrect_answers": [
             "Glečer",
             "Santin",
@@ -14778,7 +14778,7 @@
     {
         "id": "hr_geo_1288",
         "category": "geografija",
-        "question": "Koji se tip klime, karakteriziran vrućim i suhim ljetima te blagim i vlažnim zimama, tipično javlja na područjima oko 30° do 45° zemljopisne širine?",
+        "question": "Koji je tip klime karakteriziran vrućim i suhim ljetima te blagim i vlažnim zimama, tipično prisutan na područjima oko 30° do 45° zemljopisne širine?",
         "correct_answer": "Sredozemna klima",
         "incorrect_answers": [
             "Kontinentalna klima",
@@ -14824,7 +14824,7 @@
         "id": "hr_geo_1291",
         "category": "geografija",
         "question": "Koji je naziv za geološku strukturu u obliku udubljenja na zemljinoj površini, nastalu urušavanjem stropova podzemnih špilja ili otapanjem vapnenca?",
-        "correct_answer": "Vrtača (Dolina)",
+        "correct_answer": "Vrtača",
         "incorrect_answers": [
             "Fjord",
             "Kanjon",
@@ -14838,7 +14838,7 @@
     {
         "id": "hr_geo_1292",
         "category": "geografija",
-        "question": "Koja država u Južnoj Americi je jedina koja graniči s Ekvadorom i Peruom, ali ne i s Brazilom?",
+        "question": "Koja je država u Južnoj Americi jedina koja graniči i s Ekvadorom i s Peruom?",
         "correct_answer": "Kolumbija",
         "incorrect_answers": [
             "Bolivija",
@@ -14853,7 +14853,7 @@
     {
         "id": "hr_geo_1293",
         "category": "geografija",
-        "question": "Koji je naziv za široku, plitku rijeku koja teče sporo i ima mnogo meandara?",
+        "question": "Koji je naziv za široku, plitku rijeku koja teče sporo i ima mnogo izraženih zavoja?",
         "correct_answer": "Meandrirajuća rijeka",
         "incorrect_answers": [
             "Brza rijeka",
@@ -15108,7 +15108,7 @@
     {
         "id": "hr_geo_1310",
         "category": "geografija",
-        "question": "Koja država je poznata po svojim jedinstvenim crvenim telefonima kutijama i Big Benu?",
+        "question": "Koja je država poznata po svojim jedinstvenim crvenim telefonskim kutijama i Big Benu?",
         "correct_answer": "Ujedinjeno Kraljevstvo",
         "incorrect_answers": [
             "Francuska",
@@ -15123,12 +15123,12 @@
     {
         "id": "hr_geo_1311",
         "category": "geografija",
-        "question": "Koji je naziv za duboku, usku pukotinu u tlu nastalu tektonskim pomicanjem Zemljine kore?",
-        "correct_answer": "Rascjep (Rift)",
+        "question": "Koji je naziv za dugu i usku depresiju u Zemljinoj kori nastalu razdvajanjem tektonskih ploča?",
+        "correct_answer": "Rascjep",
         "incorrect_answers": [
             "Kanjon",
             "Dolina",
-            "Brakić"
+            "Subdukcijska zona"
         ],
         "explanation": "Rascjep ili rift je linearna depresija nastala razilaženjem tektonskih ploča, kao što je Veliki istočnoafrički rascjep.",
         "difficulty": "hard",
@@ -15138,12 +15138,12 @@
     {
         "id": "hr_geo_1312",
         "category": "geografija",
-        "question": "Koje je najslanije jezero na svijetu?",
-        "correct_answer": "Mrtvo more",
+        "question": "Koje je jezero, smješteno u Džibutiju, jedno od najslanijih jezera na svijetu?",
+        "correct_answer": "Jezero Assal",
         "incorrect_answers": [
+            "Mrtvo more",
             "Kaspijsko jezero",
-            "Veliko slano jezero",
-            "Aralsko jezero"
+            "Veliko slano jezero"
         ],
         "explanation": "Mrtvo more, smješteno između Izraela i Jordana, je jezero s izuzetno visokom koncentracijom soli, što omogućuje ljudima da plutaju na površini.",
         "difficulty": "easy",
@@ -15153,7 +15153,7 @@
     {
         "id": "hr_geo_1313",
         "category": "geografija",
-        "question": "Koji je naziv za proces kada se morska voda odvaja od slatke vode pod utjecajem plime i oseke u ušćima rijeka?",
+        "question": "Koji je naziv za polu-zatvoreno obalno vodeno tijelo na ušću rijeke gdje se morska i slatka voda miješaju pod utjecajem plime i oseke?",
         "correct_answer": "Estuarij",
         "incorrect_answers": [
             "Delta",
@@ -15183,11 +15183,11 @@
     {
         "id": "hr_geo_1315",
         "category": "geografija",
-        "question": "Koji je naziv za geološki proces u kojem se stijene troše i razgrađuju pod utjecajem atmosferskih uvjeta?",
-        "correct_answer": "Trošenje (Erozija)",
+        "question": "Koji je naziv za geološki proces razgradnje i usitnjavanja stijena na mjestu nastanka pod utjecajem atmosferskih uvjeta (npr. temperature, vode, leda)?",
+        "correct_answer": "Trošenje",
         "incorrect_answers": [
+            "Erozija",
             "Sedimentacija",
-            "Vulkanizam",
             "Metamorfoza"
         ],
         "explanation": "Trošenje, ili erozija, je proces razaranja stijena i prijenosa čestica putem vjetra, vode, leda ili gravitacije. To je ključan geomorfološki proces.",
@@ -15228,7 +15228,7 @@
     {
         "id": "hr_geo_1318",
         "category": "geografija",
-        "question": "Koja država je poznata po sustavu polderâ, zemljištu koje je osvojeno od mora?",
+        "question": "Koja država je poznata po sustavu poldera, zemljištu koje je osvojeno od mora?",
         "correct_answer": "Nizozemska",
         "incorrect_answers": [
             "Belgija",
@@ -15303,11 +15303,11 @@
     {
         "id": "hr_geo_1323",
         "category": "geografija",
-        "question": "Koja se pustinja nalazi u južnoj Africi i poznata je po svojim dijamantima?",
-        "correct_answer": "Kalahari",
+        "question": "Koja se pustinja u južnoj Africi posebno ističe po svojim nalazištima dijamanata, osobito uz obalu?",
+        "correct_answer": "Namib",
         "incorrect_answers": [
+            "Kalahari",
             "Sahara",
-            "Namib",
             "Libijska pustinja"
         ],
         "explanation": "Kalahari je velika polusuha pješčana savana na jugu Afrike, koja se proteže kroz Bocvanu, Namibiju i Južnoafričku Republiku, poznata po nalazištima dijamanata.",
@@ -15439,7 +15439,7 @@
         "id": "hr_geo_1332",
         "category": "geografija",
         "question": "Koja je najdulja rijeka u Južnoj Americi?",
-        "correct_answer": "Amazonija",
+        "correct_answer": "Amazon",
         "incorrect_answers": [
             "Parana",
             "Orinoco",
@@ -15573,7 +15573,7 @@
     {
         "id": "hr_geo_1341",
         "category": "geografija",
-        "question": "Koji kontinent povezuje Sjevernu i Južnu Ameriku?",
+        "question": "Koja se geografska regija nalazi između Sjeverne i Južne Amerike i povezuje ih?",
         "correct_answer": "Srednja Amerika",
         "incorrect_answers": [
             "Antarktika",
@@ -15603,7 +15603,7 @@
     {
         "id": "hr_geo_1343",
         "category": "geografija",
-        "question": "Koji je naziv za prirodni fenomen kada se slojevi atmosfere okreću, što dovodi do porasta temperature s visinom umjesto opadanja?",
+        "question": "Koji je naziv za prirodni fenomen kada temperatura zraka raste s visinom umjesto uobičajenog opadanja?",
         "correct_answer": "Temperaturna inverzija",
         "incorrect_answers": [
             "Toplinska advekcija",
@@ -15618,7 +15618,7 @@
     {
         "id": "hr_geo_1344",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po svojoj formi čizme?",
+        "question": "Koja je zemlja poznata po svom obliku čizme?",
         "correct_answer": "Italija",
         "incorrect_answers": [
             "Grčka",
@@ -15634,11 +15634,11 @@
         "id": "hr_geo_1345",
         "category": "geografija",
         "question": "Koji je naziv za geološki fenomen kada se razina mora smanjuje zbog nakupljanja leda na kontinentima tijekom ledenog doba?",
-        "correct_answer": "Eustatsko spuštanje razine mora",
+        "correct_answer": "Eustatsko spuštanje",
         "incorrect_answers": [
             "Izostatsko izdizanje",
             "Tektonska subdukcija",
-            "Oroza"
+            "Morska transgresija"
         ],
         "explanation": "Eustatsko spuštanje je globalni pad razine mora uzrokovan akumulacijom velike količine vode u kontinentalnim ledenjacima.",
         "difficulty": "medium",
@@ -15694,11 +15694,11 @@
         "id": "hr_geo_1349",
         "category": "geografija",
         "question": "Koji je naziv za oceanografski fenomen kada duboka, hladna, hranjivim tvarima bogata voda izranja na površinu?",
-        "correct_answer": "Upwelling",
+        "correct_answer": "Uzdizanje morske vode",
         "incorrect_answers": [
-            "Downwelling",
+            "Spuštanje morske vode",
             "Termoklina",
-            "Globalna transportna traka"
+            "Termohalinska cirkulacija"
         ],
         "explanation": "Upwelling je ključan za oceanske ekosustave jer donosi hranjive tvari koje podržavaju rast fitoplanktona.",
         "difficulty": "hard",
@@ -15768,12 +15768,12 @@
     {
         "id": "hr_geo_1354",
         "category": "geografija",
-        "question": "Koji je naziv za polarni vrtlog, veliku masu hladnog zraka koja se vrti oko Zemljinih polova?",
+        "question": "Koji je naziv za veliku masu hladnog zraka koja se vrti oko Zemljinih polova?",
         "correct_answer": "Polarni vrtlog",
         "incorrect_answers": [
             "Tropski ciklon",
-            "Antiklon",
-            "Jet stream"
+            "Anticiklona",
+            "Mlazna struja"
         ],
         "explanation": "Polarni vrtlog je područje niskog tlaka i hladnog zraka koje se nalazi iznad polova i pojačava se zimi.",
         "difficulty": "medium",
@@ -16251,7 +16251,7 @@
         "question": "Koji je naziv za prirodni prolaz između Antarktike i Južne Amerike?",
         "correct_answer": "Drakeov prolaz",
         "incorrect_answers": [
-            "Magelanov prolaz",
+            "Magellanov prolaz",
             "Prolaz Torres",
             "Prolaz Bering"
         ],
@@ -16279,9 +16279,9 @@
         "id": "hr_geo_1388",
         "category": "geografija",
         "question": "Koja je najdulja rijeka na svijetu?",
-        "correct_answer": "Nil",
+        "correct_answer": "Amazona",
         "incorrect_answers": [
-            "Amazona",
+            "Nil",
             "Mississippi",
             "Jangce"
         ],
@@ -16293,7 +16293,7 @@
     {
         "id": "hr_geo_1389",
         "category": "geografija",
-        "question": "Koji je najveći pustinjski krajolik na svijetu?",
+        "question": "Koji je najveći vrući pustinjski krajolik na svijetu?",
         "correct_answer": "Sahara",
         "incorrect_answers": [
             "Gobi",
@@ -16323,12 +16323,12 @@
     {
         "id": "hr_geo_1391",
         "category": "geografija",
-        "question": "Koja je zemlja geografski smještena na najviše otoka?",
-        "correct_answer": "Indonezija",
+        "question": "Koja je zemlja s najvećim brojem otoka na svijetu?",
+        "correct_answer": "Švedska",
         "incorrect_answers": [
+            "Indonezija",
             "Filipini",
-            "Grčka",
-            "Japan"
+            "Grčka"
         ],
         "explanation": "Indonezija je arhipelaška država koja se sastoji od više od 17.500 otoka. To je čini zemljom s najvećim brojem otoka na svijetu.",
         "difficulty": "medium",
@@ -16488,7 +16488,7 @@
     {
         "id": "hr_geo_1402",
         "category": "geografija",
-        "question": "Koji je naziv za vrstu jezera nastalog u krateru ugašenog vulkana?",
+        "question": "Koji je naziv za vrstu jezera nastalog u vulkanskoj depresiji ugašenog vulkana?",
         "correct_answer": "Kraterno jezero",
         "incorrect_answers": [
             "Tektonsko jezero",
@@ -16626,7 +16626,7 @@
         "question": "Koji je naziv za proces kada se pijesak i sitne čestice otpuhuju s površine tla, stvarajući udubine?",
         "correct_answer": "Deflacija",
         "incorrect_answers": [
-            "Arazija",
+            "Korazija",
             "Abrazija",
             "Soliflukcija"
         ],
@@ -16669,7 +16669,7 @@
         "id": "hr_geo_1414",
         "category": "geografija",
         "question": "Koji je naziv za geološki proces kada se tlo ili stijene trajno deformiraju pod utjecajem gravitacije, obično sporo i kontinuirano?",
-        "correct_answer": "Puzanje (soliflukcija)",
+        "correct_answer": "Puzanje",
         "incorrect_answers": [
             "Odron",
             "Erozija",
@@ -16699,7 +16699,7 @@
         "id": "hr_geo_1416",
         "category": "geografija",
         "question": "Koja je najviša planina u Australiji i Oceaniji?",
-        "correct_answer": "Puncak Jaya (Carstensz Pyramid)",
+        "correct_answer": "Puncak Jaya",
         "incorrect_answers": [
             "Mount Kosciuszko",
             "Mount Cook",
@@ -16743,7 +16743,7 @@
     {
         "id": "hr_geo_1419",
         "category": "geografija",
-        "question": "Koja planina dijeli Pirinejski poluotok od ostatka Europe?",
+        "question": "Koji planinski lanac odvaja Iberski poluotok od ostatka kontinentalne Europe?",
         "correct_answer": "Pirineji",
         "incorrect_answers": [
             "Alpe",
@@ -16908,7 +16908,7 @@
     {
         "id": "hr_geo_1430",
         "category": "geografija",
-        "question": "Koja je jedina zemlja koja graniči s Brazilom i ima obalu na Tihom oceanu?",
+        "question": "Koja je jedina zemlja koja graniči s Brazilom i ima obalu isključivo na Tihom oceanu?",
         "correct_answer": "Peru",
         "incorrect_answers": [
             "Argentina",
@@ -16953,7 +16953,7 @@
     {
         "id": "hr_geo_1433",
         "category": "geografija",
-        "question": "Koja se država u Africi naziva 'Rogom Afrike'?",
+        "question": "Koja se država nalazi na poluotoku poznatom kao 'Rog Afrike'?",
         "correct_answer": "Somalija",
         "incorrect_answers": [
             "Egipat",
@@ -17059,10 +17059,10 @@
         "id": "hr_geo_1440",
         "category": "geografija",
         "question": "Koja je najnaseljenija država Bliskog istoka?",
-        "correct_answer": "Turska",
+        "correct_answer": "Iran",
         "incorrect_answers": [
             "Saudijska Arabija",
-            "Iran",
+            "Turska",
             "Irak"
         ],
         "explanation": "Turska, s populacijom od preko 85 milijuna (stanje 2024.), najnaseljenija je zemlja u regiji Bliskog istoka.",
@@ -17194,9 +17194,9 @@
         "id": "hr_geo_1449",
         "category": "geografija",
         "question": "Koja je najveća pustinja u Aziji?",
-        "correct_answer": "Pustinja Gobi",
+        "correct_answer": "Arapska pustinja",
         "incorrect_answers": [
-            "Arapska pustinja",
+            "Pustinja Gobi",
             "Takla Makan",
             "Karakum"
         ],
@@ -17224,11 +17224,11 @@
         "id": "hr_geo_1451",
         "category": "geografija",
         "question": "Koja je najgušće naseljena država na svijetu (ne uključujući mikrodržave poput Vatikana ili Monaka)?",
-        "correct_answer": "Bangladeš",
+        "correct_answer": "Singapur",
         "incorrect_answers": [
             "Indija",
             "Južna Koreja",
-            "Nizozemska"
+            "Bangladeš"
         ],
         "explanation": "Bangladeš ima izuzetno veliku gustoću naseljenosti, s preko 1.265 stanovnika po km² (stanje 2024.).",
         "difficulty": "easy",
@@ -17313,7 +17313,7 @@
     {
         "id": "hr_geo_1457",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po svojim gejzirima, uključujući slavni Geysir?",
+        "question": "Koja je zemlja poznata po svojim brojnim gejzirima i intenzivnoj geotermalnoj aktivnosti?",
         "correct_answer": "Island",
         "incorrect_answers": [
             "Novi Zeland",
@@ -17389,7 +17389,7 @@
         "id": "hr_geo_1462",
         "category": "geografija",
         "question": "Koji je naziv za geomorfološki oblik nastao djelovanjem leda, karakteriziran oštrim vrhovima i grebenima?",
-        "correct_answer": "Horn",
+        "correct_answer": "Ledenjački rog",
         "incorrect_answers": [
             "Cirque",
             "U-dolina",
@@ -17433,7 +17433,7 @@
     {
         "id": "hr_geo_1465",
         "category": "geografija",
-        "question": "Koja je država dom za grad Timbuktu?",
+        "question": "U kojoj se državi nalazi grad Timbuktu?",
         "correct_answer": "Mali",
         "incorrect_answers": [
             "Niger",
@@ -17463,8 +17463,8 @@
     {
         "id": "hr_geo_1467",
         "category": "geografija",
-        "question": "Koji je naziv za proces kojim se slana voda prelijeva preko kopna tijekom plime u niskim, ravnim obalnim područjima?",
-        "correct_answer": "Plimna ravnica (tidal flat)",
+        "question": "Koji je naziv za nisko, ravno obalno područje koje se prelijeva slanom vodom tijekom plime?",
+        "correct_answer": "Plimna ravnica",
         "incorrect_answers": [
             "Močvara",
             "Estuarij",
@@ -17479,7 +17479,7 @@
         "id": "hr_geo_1468",
         "category": "geografija",
         "question": "Koji je naziv za vulkansku stijenu koja ima pjenušavu, staklastu teksturu i može plutati na vodi?",
-        "correct_answer": "Plavac (Pumice)",
+        "correct_answer": "Plavac",
         "incorrect_answers": [
             "Bazalt",
             "Granit",
@@ -17493,7 +17493,7 @@
     {
         "id": "hr_geo_1469",
         "category": "geografija",
-        "question": "Koja je država dom najvišeg vodopada na svijetu, Angelovog vodopada?",
+        "question": "U kojoj se državi nalazi najviši vodopad na svijetu, Angelov vodopad?",
         "correct_answer": "Venezuela",
         "incorrect_answers": [
             "Brazil",
@@ -17513,7 +17513,7 @@
         "incorrect_answers": [
             "Sinklinala",
             "Rasjed",
-            "Naborna jama"
+            "Monoklinala"
         ],
         "explanation": "Antiklinala je nabor u slojevima stijena gdje se slojevi savijaju prema gore, s najstarijim slojevima u sredini.",
         "difficulty": "hard",
@@ -17658,7 +17658,7 @@
     {
         "id": "hr_geo_1480",
         "category": "geografija",
-        "question": "Koji je naziv za proces kada se rastaljena stijena, koja se nalazi ispod površine Zemlje, zove?",
+        "question": "Koji je naziv za rastaljenu stijenu koja se nalazi ispod površine Zemlje?",
         "correct_answer": "Magma",
         "incorrect_answers": [
             "Lava",
@@ -17718,7 +17718,7 @@
     {
         "id": "hr_geo_1484",
         "category": "geografija",
-        "question": "Koji je najnaseljeniji grad na svijetu?",
+        "question": "Koji je najnaseljeniji metropolitanski grad na svijetu?",
         "correct_answer": "Tokio (stanje 2024.)",
         "incorrect_answers": [
             "Delhi",
@@ -17738,7 +17738,7 @@
         "incorrect_answers": [
             "Kina",
             "Pakistan",
-            "Bangladeš"
+            "Mianmar"
         ],
         "explanation": "Ganges je sveta rijeka za hinduiste i jedna od najvažnijih rijeka u Indiji, izvire u Himalaji.",
         "difficulty": "medium",
@@ -17839,7 +17839,7 @@
         "id": "hr_geo_1492",
         "category": "geografija",
         "question": "Koja je najveća rijeka u Južnoj Americi po volumenu protoka?",
-        "correct_answer": "Amazon",
+        "correct_answer": "Amazona",
         "incorrect_answers": [
             "Paraná",
             "Orinoco",
@@ -18216,7 +18216,7 @@
         "question": "Koji je naziv za proces kojim se slana voda uklanja iz morske vode radi dobivanja pitke vode?",
         "correct_answer": "Desalinizacija",
         "incorrect_answers": [
-            "Destilacija",
+            "Aeracija",
             "Filtracija",
             "Koagulacija"
         ],
@@ -18532,7 +18532,7 @@
         "correct_answer": "Ledenjak",
         "incorrect_answers": [
             "Santa leda",
-            "Glečer",
+            "Permafrost",
             "Snježno polje"
         ],
         "explanation": "Ledenjak je velika, dugovječna masa zbijenog snijega i leda koja se formira na kopnu i polako kreće pod vlastitom težinom.",
@@ -18574,11 +18574,11 @@
         "id": "hr_geo_1541",
         "category": "geografija",
         "question": "Koji je najveći grad u Africi po broju stanovnika (stanje 2024.)?",
-        "correct_answer": "Lagos",
+        "correct_answer": "Kinshasa",
         "incorrect_answers": [
             "Kairo",
             "Johannesburg",
-            "Kinshasa"
+            "Lagos"
         ],
         "explanation": "Lagos u Nigeriji je najnaseljeniji grad u Africi, s preko 15 milijuna stanovnika u užem gradskom području (stanje 2024.).",
         "difficulty": "medium",
@@ -18619,7 +18619,7 @@
         "id": "hr_geo_1544",
         "category": "geografija",
         "question": "Najviši vodopad na svijetu?",
-        "correct_answer": "Anđeoski vodopadi",
+        "correct_answer": "Angelovi slapovi",
         "incorrect_answers": [
             "Victoria",
             "Niagara",
@@ -18696,7 +18696,7 @@
         "question": "Kako se naziva proces u kojem plodno tlo postaje pustinja?",
         "correct_answer": "Dezertifikacija",
         "incorrect_answers": [
-            "Eroazija",
+            "Erozija",
             "Slijeganje",
             "Degradacija"
         ],
@@ -18891,7 +18891,7 @@
         "question": "Kako se naziva geološki proces kojim ledenjaci oblikuju doline u karakterističan 'U' oblik?",
         "correct_answer": "Glacijalna erozija",
         "incorrect_answers": [
-            "Fluviatična erozija",
+            "Fluvijalna erozija",
             "Vjetrovna erozija",
             "Kemijska erozija"
         ],
@@ -18904,9 +18904,9 @@
         "id": "hr_geo_1563",
         "category": "geografija",
         "question": "Koja država ima najvišu prosječnu nadmorsku visinu terena na svijetu?",
-        "correct_answer": "Nepal",
+        "correct_answer": "Butan",
         "incorrect_answers": [
-            "Butan",
+            "Nepal",
             "Tadžikistan",
             "Švicarska"
         ],
@@ -18918,7 +18918,7 @@
     {
         "id": "hr_geo_1564",
         "category": "geografija",
-        "question": "Koji je najveći kanjon na svijetu po volumenu i dubini?",
+        "question": "Koji je jedan od najpoznatijih i najvećih kanjona na svijetu, smješten u SAD-u?",
         "correct_answer": "Veliki kanjon (Grand Canyon)",
         "incorrect_answers": [
             "Kanjon Colca",
@@ -19009,7 +19009,7 @@
         "id": "hr_geo_1571",
         "category": "geografija",
         "question": "Koja je rijeka najduža u Južnoj Americi i ima najveći protok vode na svijetu?",
-        "correct_answer": "Amazonija",
+        "correct_answer": "Amazona",
         "incorrect_answers": [
             "Paraná",
             "Orinoco",
@@ -19114,7 +19114,7 @@
         "id": "hr_geo_1578",
         "category": "geografija",
         "question": "Koji je naziv za proces kada vjetar nosi i taloži pijesak i prašinu, stvarajući dinamične pješčane formacije?",
-        "correct_answer": "Eolska erozija i sedimentacija",
+        "correct_answer": "Eolski procesi",
         "incorrect_answers": [
             "Glacijalna erozija",
             "Fluvijalna erozija",
@@ -19384,7 +19384,7 @@
         "id": "hr_geo_1597",
         "category": "geografija",
         "question": "Koji je naziv za plitko područje oceana koje se proteže od obale kontinenta?",
-        "correct_answer": "Kontinentalna ploča (šelf)",
+        "correct_answer": "Kontinentalni šelf",
         "incorrect_answers": [
             "Oceanski rov",
             "Abisalna ravnica",
@@ -19773,7 +19773,7 @@
     {
         "id": "hr_geo_1623",
         "category": "geografija",
-        "question": "Kako se naziva pojava kada se tlo iznenada sruši zbog urušavanja podzemnih šupljina, često u krškim područjima?",
+        "question": "Kako se naziva krški oblik reljefa koji nastaje kada se tlo iznenada sruši zbog urušavanja podzemnih šupljina, često u krškim područjima?",
         "correct_answer": "Vrtača (ponikva)",
         "incorrect_answers": [
             "Provalija",
@@ -19954,7 +19954,7 @@
         "id": "hr_geo_1635",
         "category": "geografija",
         "question": "Kako se naziva dolina koju je oblikovao ledenjak, a ima karakterističan presjek u obliku slova \"U\"?",
-        "correct_answer": "Valovita dolina (ili U-dolina)",
+        "correct_answer": "U-dolina",
         "incorrect_answers": [
             "V-dolina",
             "Riječna terasa",
@@ -19983,12 +19983,12 @@
     {
         "id": "hr_geo_1637",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po 'piramidama'?",
+        "question": "Koja je zemlja najpoznatija po drevnim piramidama?",
         "correct_answer": "Egipat",
         "incorrect_answers": [
-            "Kina",
-            "Meksiko",
-            "Peru"
+            "Brazil",
+            "Australija",
+            "Njemačka"
         ],
         "explanation": "Egipat je dom drevnih piramida, uključujući Veliku piramidu u Gizi, koja je jedno od sedam svjetskih čuda. Piramide su izgrađene kao grobnice faraona.",
         "difficulty": "easy",
@@ -19998,12 +19998,12 @@
     {
         "id": "hr_geo_1638",
         "category": "geografija",
-        "question": "Kako se naziva geomorfološki proces gdje se voda, otapanjem topivih stijena poput vapnenca, stvara podzemne šupljine, pećine i ponore?",
+        "question": "Kako se naziva geomorfološki proces kojim voda, otapanjem topivih stijena poput vapnenca, stvara podzemne šupljine, pećine i ponore?",
         "correct_answer": "Krš",
         "incorrect_answers": [
             "Erozija",
             "Denudacija",
-            "Arazija"
+            "Subsidencija"
         ],
         "explanation": "Krš je specifičan oblik reljefa razvijen na topivim stijenama, prvenstveno vapnencu, karakteriziran podzemnim odvodnjavanjem i jedinstvenim površinskim i podzemnim formacijama. To je proces otapanja stijena.",
         "difficulty": "hard",
@@ -20032,7 +20032,7 @@
         "correct_answer": "Magellanov tjesnac",
         "incorrect_answers": [
             "Beringov tjesnac",
-            "Drakeov prolaz",
+            "Floridski prolaz",
             "Gibraltar"
         ],
         "explanation": "Magellanov tjesnac je prirodni prolaz kroz južni dio Južne Amerike, povezujući Atlantski i Tihi ocean. Otkrio ga je Ferdinand Magellan 1520. godine.",
@@ -20419,10 +20419,10 @@
         "id": "hr_geo_1667",
         "category": "geografija",
         "question": "Koje je more na istoku Azije, poznato po aktivnim vulkanima i čestim potresima?",
-        "correct_answer": "Japansko more",
+        "correct_answer": "Istočno kinesko more",
         "incorrect_answers": [
             "Žuto more",
-            "Istočno kinesko more",
+            "Japansko more",
             "Južno kinesko more"
         ],
         "explanation": "Japansko more, ili Istočno more, okruženo je kopnenim masama koje su dio 'Pacifičkog vatrenog prstena'.",
@@ -20448,7 +20448,7 @@
     {
         "id": "hr_geo_1669",
         "category": "geografija",
-        "question": "Koja je jedina zemlja u Južnoj Americi koja ne graniči s Brazilom?",
+        "question": "Koja od navedenih zemalja u Južnoj Americi ne graniči s Brazilom?",
         "correct_answer": "Ekvador",
         "incorrect_answers": [
             "Peru",
@@ -20541,7 +20541,7 @@
         "question": "Kako se naziva planinski lanac koji odvaja Europu od Azije?",
         "correct_answer": "Ural",
         "incorrect_answers": [
-            "Kavkaz",
+            "Pireneji",
             "Alpe",
             "Karpati"
         ],
@@ -20568,7 +20568,7 @@
     {
         "id": "hr_geo_1677",
         "category": "geografija",
-        "question": "Koji kontinent ima najveći prosječnu nadmorsku visinu?",
+        "question": "Koji kontinent ima najveću prosječnu nadmorsku visinu?",
         "correct_answer": "Antarktika",
         "incorrect_answers": [
             "Azija",
@@ -20674,7 +20674,7 @@
         "id": "hr_geo_1684",
         "category": "geografija",
         "question": "Koja je najniža točka u Europi u smislu kopnene nadmorske visine?",
-        "correct_answer": "Kaspijska depresija (obala Kaspijskog jezera)",
+        "correct_answer": "Kaspijska depresija",
         "incorrect_answers": [
             "Mrtvo more (obala)",
             "Dolina smrti",
@@ -20718,7 +20718,7 @@
     {
         "id": "hr_geo_1687",
         "category": "geografija",
-        "question": "Kako se naziva udubina na vrhu vulkana, često u obliku zdjele, nastala nakon erupcije ili urušavanja vulkanske komore?",
+        "question": "Kako se naziva udubina na vrhu vulkana, često u obliku zdjele, nastala nakon eksplozivne erupcije?",
         "correct_answer": "Krater",
         "incorrect_answers": [
             "Kaldera",
@@ -20764,7 +20764,7 @@
         "id": "hr_geo_1690",
         "category": "geografija",
         "question": "Kako se naziva geološka depresija u zapadnoj Sjevernoj Americi, poznata po ekstremnim temperaturama i tome što je najniža točka u Sjevernoj Americi?",
-        "correct_answer": "Dolina smrti (Death Valley)",
+        "correct_answer": "Dolina smrti",
         "incorrect_answers": [
             "Veliki kanjon",
             "Mojave pustinja",
@@ -20901,7 +20901,7 @@
         "question": "Kako se naziva podvodna struktura nastala od kolonija koralja i drugih morskih organizama u tropskim morima?",
         "correct_answer": "Koraljni greben",
         "incorrect_answers": [
-            "Atol",
+            "Podmorska planina",
             "Morski rov",
             "Podvodni kanjon"
         ],
@@ -20932,7 +20932,7 @@
         "correct_answer": "Ledeni brijeg",
         "incorrect_answers": [
             "Glečer",
-            "Santaros",
+            "Snježna kapa",
             "Pakov led"
         ],
         "explanation": "Ledeni brijeg je veliki komad slatkovodnog leda koji se odlomio od kopnenog ledenjaka ili ledene police i pluta u oceanu.",
@@ -20959,7 +20959,7 @@
         "id": "hr_geo_1703",
         "category": "geografija",
         "question": "Koji je najviši neprekinuti vodopad na svijetu?",
-        "correct_answer": "Anđeoski slapovi (Angel Falls)",
+        "correct_answer": "Anđeoski slapovi",
         "incorrect_answers": [
             "Niagarini slapovi",
             "Viktorijini slapovi",
@@ -20988,7 +20988,7 @@
     {
         "id": "hr_geo_1705",
         "category": "geografija",
-        "question": "Koje dvije države povezuje Eurotunel (Channel Tunnel) ispod La Manchea?",
+        "question": "Koje dvije države povezuje Eurotunel ispod La Manchea?",
         "correct_answer": "Ujedinjeno Kraljevstvo i Francuska",
         "incorrect_answers": [
             "Njemačka i Danska",
@@ -21049,7 +21049,7 @@
         "id": "hr_geo_1709",
         "category": "geografija",
         "question": "Koja je najveća umjetna akumulacija vode na svijetu po volumenu?",
-        "correct_answer": "Jezero Kariba (Zimbabve/Zambija)",
+        "correct_answer": "Jezero Kariba",
         "incorrect_answers": [
             "Jezero Nasser (Egipat/Sudan)",
             "Jezero Mead (SAD)",
@@ -21094,7 +21094,7 @@
         "id": "hr_geo_1712",
         "category": "geografija",
         "question": "Kako se naziva prirodni svjetlosni fenomen na noćnom nebu, vidljiv u polarnim regijama sjeverne polutke?",
-        "correct_answer": "Aurora borealis (polarna svjetlost)",
+        "correct_answer": "Aurora borealis",
         "incorrect_answers": [
             "Aurora australis",
             "Mliječni put",
@@ -21109,7 +21109,7 @@
         "id": "hr_geo_1713",
         "category": "geografija",
         "question": "Kako se naziva područje oko Tihog oceana poznato po visokoj seizmičkoj i vulkanskoj aktivnosti?",
-        "correct_answer": "Pacifički vatreni pojas (Ring of Fire)",
+        "correct_answer": "Pacifički vatreni pojas",
         "incorrect_answers": [
             "Alpsko-himalajski pojas",
             "Srednjoatlantski greben",
@@ -21153,7 +21153,7 @@
     {
         "id": "hr_geo_1716",
         "category": "geografija",
-        "question": "Koja je pustinja poznata kao \"Crna zemlja\" zbog tamnog vulkanskog kamenja?",
+        "question": "Koja je pustinja poznata po tamnijoj nijansi pijeska, čije ime se često prevodi kao 'Crni pijesak'?",
         "correct_answer": "Karakum",
         "incorrect_answers": [
             "Atacama",
@@ -21183,7 +21183,7 @@
     {
         "id": "hr_geo_1719",
         "category": "geografija",
-        "question": "Koje more je poznato po tome što je najslanije na svijetu?",
+        "question": "Koje je jezero poznato po tome što je jedno od najslanijih na svijetu i naziva se 'Mrtvo more'?",
         "correct_answer": "Mrtvo more",
         "incorrect_answers": [
             "Crveno more",
@@ -21483,7 +21483,7 @@
     {
         "id": "hr_geo_1739",
         "category": "geografija",
-        "question": "Koja europska rijeka ima najveći protok i ulijeva se u Crno more?",
+        "question": "Koja je europska rijeka s najvećim protokom među onima koje se ulijevaju u Crno more?",
         "correct_answer": "Dunav",
         "incorrect_answers": [
             "Volga",
@@ -21633,10 +21633,10 @@
     {
         "id": "hr_geo_1749",
         "category": "geografija",
-        "question": "Kako se naziva proces kada jezero ili močvara postupno nestaje zbog nakupljanja sedimenata i organske tvari?",
+        "question": "Kako se naziva proces prekomjernog obogaćivanja vodenih ekosustava hranjivim tvarima, što često dovodi do bujnog rasta algi i postupnog zatrpavanja vodenog tijela?",
         "correct_answer": "Eutrofikacija",
         "incorrect_answers": [
-            "Sucecija",
+            "Sukcesija",
             "Denudacija",
             "Litoralizacija"
         ],
@@ -21694,10 +21694,10 @@
         "id": "hr_geo_1753",
         "category": "geografija",
         "question": "Koja je država poznata po najvišoj koncentraciji gejzira na svijetu?",
-        "correct_answer": "Island",
+        "correct_answer": "SAD",
         "incorrect_answers": [
             "Novi Zeland",
-            "SAD",
+            "Island",
             "Japan"
         ],
         "explanation": "Island je izuzetno geološki aktivan, s mnogo vulkana i gejzira, uključujući poznati Geysir, po kojem su svi gejziri dobili ime.",
@@ -21738,7 +21738,7 @@
     {
         "id": "hr_geo_1756",
         "category": "geografija",
-        "question": "Koja rijeka protječe kroz Egipat i smatra se najdužom rijekom na svijetu?",
+        "question": "Koja se rijeka, tradicionalno smatrana najdužom na svijetu, proteže kroz Egipat?",
         "correct_answer": "Nil",
         "incorrect_answers": [
             "Amazon",
@@ -21934,9 +21934,9 @@
         "id": "hr_geo_1769",
         "category": "geografija",
         "question": "Koja je druga najduža rijeka na svijetu?",
-        "correct_answer": "Amazon",
+        "correct_answer": "Nil",
         "incorrect_answers": [
-            "Nil",
+            "Amazon",
             "Mississippi",
             "Yangtze"
         ],
@@ -22128,7 +22128,7 @@
     {
         "id": "hr_geo_1782",
         "category": "geografija",
-        "question": "Koju državu presijeca ekvator i poznata je po Galapagoškim otocima?",
+        "question": "Koja južnoamerička država, smještena na liniji nulte geografske širine, obuhvaća Galapagoške otoke?",
         "correct_answer": "Ekvador",
         "incorrect_answers": [
             "Kolumbija",
@@ -22143,7 +22143,7 @@
     {
         "id": "hr_geo_1783",
         "category": "geografija",
-        "question": "Koje je jezero se nalazi između Azije i Europe i najveće je jezero na svijetu po površini?",
+        "question": "Koje se jezero nalazi između Azije i Europe i najveće je jezero na svijetu po površini?",
         "correct_answer": "Kaspijsko jezero",
         "incorrect_answers": [
             "Aralsko jezero",
@@ -22248,12 +22248,12 @@
     {
         "id": "hr_geo_1790",
         "category": "geografija",
-        "question": "Koja je najduža rijeka Sjeverne Amerike?",
-        "correct_answer": "Missouri",
+        "question": "Koji je najduži riječni sustav u Sjevernoj Americi?",
+        "correct_answer": "Sustav Missouri-Mississippi",
         "incorrect_answers": [
             "Mississippi",
-            "Colorado",
-            "Yukon"
+            "Mackenzie",
+            "Rio Grande"
         ],
         "explanation": "Iako se često spominje Mississippi, sustav Missouri-Mississippi je najduži riječni sustav u Sjevernoj Americi.",
         "difficulty": "hard",
@@ -22428,7 +22428,7 @@
     {
         "id": "hr_geo_1802",
         "category": "geografija",
-        "question": "Koje jezero je najveće u Južnoj Americi po površini?",
+        "question": "Koje je najveće slatkovodno jezero u Južnoj Americi po površini?",
         "correct_answer": "Jezero Titicaca",
         "incorrect_answers": [
             "Jezero Maracaibo",
@@ -22579,9 +22579,9 @@
         "id": "hr_geo_1812",
         "category": "geografija",
         "question": "Koje je najslanije more na svijetu?",
-        "correct_answer": "Crveno more",
+        "correct_answer": "Mrtvo more",
         "incorrect_answers": [
-            "Mrtvo more",
+            "Crveno more",
             "Sredozemno more",
             "Baltičko more"
         ],
@@ -22623,7 +22623,7 @@
     {
         "id": "hr_geo_1815",
         "category": "geografija",
-        "question": "Koji je plovni put spaja Atlantski i Tihi ocean, a prolazi kroz Panamu?",
+        "question": "Koji plovni put spaja Atlantski i Tihi ocean, a prolazi kroz Panamu?",
         "correct_answer": "Panamski kanal",
         "incorrect_answers": [
             "Sueski kanal",
@@ -22938,7 +22938,7 @@
     {
         "id": "hr_geo_1836",
         "category": "geografija",
-        "question": "Koja je rijeka najduža na svijetu?",
+        "question": "Koja se rijeka tradicionalno smatra najdužom na svijetu?",
         "correct_answer": "Nil",
         "incorrect_answers": [
             "Amazon",
@@ -23028,7 +23028,7 @@
     {
         "id": "hr_geo_1842",
         "category": "geografija",
-        "question": "Kako se naziva uska, duboka morska uvala s strmim liticama, stvorena ledenjačkom erozijom?",
+        "question": "Kako se naziva uska, duboka morska uvala sa strmim liticama, stvorena ledenjačkom erozijom?",
         "correct_answer": "Fjord",
         "incorrect_answers": [
             "Zaljev",
@@ -23149,7 +23149,7 @@
         "id": "hr_geo_1850",
         "category": "geografija",
         "question": "Kako se naziva proces kada se morska voda povlači s obale, otkrivajući morsko dno, obično prije dolaska tsunamija?",
-        "correct_answer": "Oseka tsunamija",
+        "correct_answer": "Povlačenje mora",
         "incorrect_answers": [
             "Plima",
             "Erozija",
@@ -23163,7 +23163,7 @@
     {
         "id": "hr_geo_1851",
         "category": "geografija",
-        "question": "Koja je najjužnija točka kopna Južne Amerike?",
+        "question": "Koja je najjužnija točka Južne Amerike?",
         "correct_answer": "Rt Horn",
         "incorrect_answers": [
             "Punta Arenas",
@@ -23373,7 +23373,7 @@
     {
         "id": "hr_geo_1865",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po Gejzirima, Plavoj laguni i aurori borealis?",
+        "question": "Koja je zemlja poznata po gejzirima, Plavoj laguni i polarnoj svjetlosti?",
         "correct_answer": "Island",
         "incorrect_answers": [
             "Grenland",
@@ -23703,7 +23703,7 @@
     {
         "id": "hr_geo_1887",
         "category": "geografija",
-        "question": "Koji se pustinjski krajolik u SAD-u naziva 'Dolina smrti'?",
+        "question": "Koji se pustinjski krajolik u SAD-u naziva po ekstremnim uvjetima?",
         "correct_answer": "Death Valley",
         "incorrect_answers": [
             "Mojave",
@@ -23778,7 +23778,7 @@
     {
         "id": "hr_geo_1892",
         "category": "geografija",
-        "question": "Koji otok je dom za komodo zmajeve?",
+        "question": "Na kojem se indonezijskom otoku nalazi jedno od glavnih prirodnih staništa komodo zmajeva?",
         "correct_answer": "Komodo",
         "incorrect_answers": [
             "Sumatra",
@@ -23917,8 +23917,8 @@
         "correct_answer": "Veliki koraljni greben",
         "incorrect_answers": [
             "Belizejski barijerni greben",
-            "Crveni koraljni greben",
-            "Fidschijski greben"
+            "Novokaledonijski barijerni greben",
+            "Maldivski grebeni"
         ],
         "explanation": "Veliki koraljni greben je najveći svjetski sustav koraljnih grebena, sastavljen od preko 3.000 pojedinačnih grebena i 900 otoka.",
         "difficulty": "easy",
@@ -24199,7 +24199,7 @@
         "id": "hr_geo_1920",
         "category": "geografija",
         "question": "Koje su planine poznate po specifičnim terasastim poljima riže, UNESCO-voj svjetskoj baštini, koja su oblikovana prije više od 2000 godina?",
-        "correct_answer": "Kordiljere Ifugao (Filipini)",
+        "correct_answer": "Kordiljere Ifugao",
         "incorrect_answers": [
             "Himalaja",
             "Andi",
@@ -24258,7 +24258,7 @@
     {
         "id": "hr_geo_1924",
         "category": "geografija",
-        "question": "Koji je najveći polarni medvjed živi na svijetu i koja regija je njegovo prirodno stanište?",
+        "question": "Koja regija je prirodno stanište polarnih medvjeda?",
         "correct_answer": "Arktik",
         "incorrect_answers": [
             "Antarktika",
@@ -24304,7 +24304,7 @@
         "id": "hr_geo_1927",
         "category": "geografija",
         "question": "Kako se naziva morski prolaz koji povezuje Atlantski ocean i Sjeverno more?",
-        "correct_answer": "Engleski kanal (La Manche)",
+        "correct_answer": "Engleski kanal",
         "incorrect_answers": [
             "Gibraltarski tjesnac",
             "Bospor",
@@ -24424,7 +24424,7 @@
         "id": "hr_geo_1935",
         "category": "geografija",
         "question": "Kako se naziva oblik obale s brojnim stjenovitim otocima i otočićima koji su ostatak potopljenog planinskog reljefa?",
-        "correct_answer": "Dalmatinski tip obale (skerski tip)",
+        "correct_answer": "Dalmatinski tip obale",
         "incorrect_answers": [
             "Fjordovski tip obale",
             "Rias tip obale",
@@ -24499,7 +24499,7 @@
         "id": "hr_geo_1940",
         "category": "geografija",
         "question": "Kako se naziva obalni proces gdje se pijesak i sedimenti premještaju duž obale djelovanjem valova i struja?",
-        "correct_answer": "Longshore drift (obalni nanosi)",
+        "correct_answer": "Obalni nanosi",
         "incorrect_answers": [
             "Abrazija",
             "Akumulacija",
@@ -24514,11 +24514,11 @@
         "id": "hr_geo_1941",
         "category": "geografija",
         "question": "Koja je najveća umjetna akumulacija na svijetu po volumenu?",
-        "correct_answer": "Jezero Volta",
+        "correct_answer": "Jezero Kariba",
         "incorrect_answers": [
             "Jezero Mead",
             "Jezero Nasser",
-            "Tri klisure"
+            "Jezero Volta"
         ],
         "explanation": "Jezero Volta u Gani je najveće umjetno jezero na svijetu po volumenu vode, nastalo izgradnjom brane Akosombo na rijeci Volti.",
         "difficulty": "hard",
@@ -24528,12 +24528,12 @@
     {
         "id": "hr_geo_1942",
         "category": "geografija",
-        "question": "Koji je najduži kanjon na svijetu?",
-        "correct_answer": "Veliki kanjon (Grand Canyon)",
+        "question": "Koji je jedan od najpoznatijih i najvećih kanjona na svijetu, smješten u SAD-u?",
+        "correct_answer": "Veliki kanjon",
         "incorrect_answers": [
-            "Fudži kanjon",
             "Tara kanjon",
-            "Kolorado kanjon"
+            "Kings Canyon",
+            "Antelope Canyon"
         ],
         "explanation": "Veliki kanjon, smješten u Arizoni u SAD-u, najduži je i jedan od najimpresivnijih kanjona na svijetu, isklesan rijekom Colorado.",
         "difficulty": "easy",
@@ -24543,7 +24543,7 @@
     {
         "id": "hr_geo_1943",
         "category": "geografija",
-        "question": "Koja je jedina država na svijetu koja se proteže kroz jedanaest vremenskih zona?",
+        "question": "Koja se od navedenih država proteže kroz jedanaest vremenskih zona?",
         "correct_answer": "Rusija",
         "incorrect_answers": [
             "Kina",
@@ -24619,7 +24619,7 @@
         "id": "hr_geo_1948",
         "category": "geografija",
         "question": "Kako se naziva prirodna formacija nastala otapanjem vapnenca, karakteristična za krška područja?",
-        "correct_answer": "Kraški reljef (krš)",
+        "correct_answer": "Krš",
         "incorrect_answers": [
             "Vulkan",
             "Glečer",
@@ -24664,7 +24664,7 @@
         "id": "hr_geo_1951",
         "category": "geografija",
         "question": "Koja je najviša planina Sjeverne Amerike?",
-        "correct_answer": "Denali (Mount McKinley)",
+        "correct_answer": "Denali",
         "incorrect_answers": [
             "Mount Logan",
             "Mount Rainier",
@@ -24768,12 +24768,12 @@
     {
         "id": "hr_geo_1958",
         "category": "geografija",
-        "question": "Koji se proces naziva 'pustinjski lak' na stijenama?",
-        "correct_answer": "Razvijanje tamne, sjajne prevlake na stijenama pod utjecajem vjetra i mikroorganizama.",
+        "question": "Koji pojam opisuje tamnu, sjajnu prevlaku na stijenama u suhim područjima, nastalu djelovanjem vjetra i mikroorganizama?",
+        "correct_answer": "Pustinjski lak",
         "incorrect_answers": [
-            "Obojanje stijena od strane ljudi",
-            "Sklizanje pijeska po stijenama",
-            "Formiranje leda na stijenama u pustinjskim noćima."
+            "Pustinjska patina",
+            "Kamenna mahovina",
+            "Aluvijalni sloj"
         ],
         "explanation": "Pustinjski lak je tanka, tamna prevlaka na stijenama u suhim područjima, nastala djelovanjem vjetra, UV zračenja i mikroorganizama. Sastoji se od željeznih i manganovih oksida.",
         "difficulty": "hard",
@@ -24873,7 +24873,7 @@
     {
         "id": "hr_geo_1965",
         "category": "geografija",
-        "question": "Koja pustinja se često naziva 'Krovom svijeta' zbog svoje visoke nadmorske visine?",
+        "question": "Koja je velika pustinja smještena na visokoj nadmorskoj visini u Aziji?",
         "correct_answer": "Pustinja Gobi",
         "incorrect_answers": [
             "Sahara",
@@ -24888,7 +24888,7 @@
     {
         "id": "hr_geo_1966",
         "category": "geografija",
-        "question": "Kako se naziva pojava kada se more povlači s obale tijekom oseke, otkrivajući morsko dno?",
+        "question": "Kako se naziva pojava kada se razina mora spušta i more se povlači s obale, otkrivajući morsko dno?",
         "correct_answer": "Oseka",
         "incorrect_answers": [
             "Plima",
@@ -25008,7 +25008,7 @@
     {
         "id": "hr_geo_1974",
         "category": "geografija",
-        "question": "Koji je najveći krater na svijetu nastao udarom meteorita, smješten u Južnoj Africi?",
+        "question": "Koji je najveći potvrđeni krater na svijetu nastao udarom meteorita?",
         "correct_answer": "Vredefort",
         "incorrect_answers": [
             "Chicxulub",
@@ -25024,7 +25024,7 @@
         "id": "hr_geo_1975",
         "category": "geografija",
         "question": "Kako se naziva proces kada se morska voda zamrzava i širi, stvarajući ledene stijene koje erodiraju obalu?",
-        "correct_answer": "Kriofrakcija (mrazno trošenje)",
+        "correct_answer": "Kriofrakcija",
         "incorrect_answers": [
             "Abrazija",
             "Solno trošenje",
@@ -25054,10 +25054,10 @@
         "id": "hr_geo_1977",
         "category": "geografija",
         "question": "Kako se naziva zemljopisna širina na kojoj Sunce doseže zenit samo jednom godišnje, tijekom ljetnog solsticija?",
-        "correct_answer": "Sjeverni povratnik (Rakova obratnica)",
+        "correct_answer": "Sjeverni povratnik",
         "incorrect_answers": [
             "Ekvator",
-            "Južni povratnik (Jarčeva obratnica)",
+            "Južni povratnik",
             "Arktički krug"
         ],
         "explanation": "Sjeverni povratnik je najsjevernija paralela na kojoj Sunce može biti izravno iznad glave (u zenitu) u podne, što se događa tijekom ljetnog solsticija.",
@@ -25098,12 +25098,12 @@
     {
         "id": "hr_geo_1980",
         "category": "geografija",
-        "question": "Koja je država poznata po svom Velikom kanjonu (Grand Canyon)?",
-        "correct_answer": "Sjedinjene Američke Države",
+        "question": "Na kojem se kontinentu nalazi Veliki kanjon (Grand Canyon)?",
+        "correct_answer": "Sjeverna Amerika",
         "incorrect_answers": [
-            "Meksiko",
-            "Kanada",
-            "Brazil"
+            "Južna Amerika",
+            "Afrika",
+            "Azija"
         ],
         "explanation": "Veliki kanjon je impozantan kanjon rijeke Colorado, smješten u saveznoj državi Arizona u Sjedinjenim Američkim Državama.",
         "difficulty": "medium",
