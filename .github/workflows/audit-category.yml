@@ -1,5 +1,11 @@
 name: Audit and Fix Questions
 
+# Audits the next batch of not-yet-audited questions in one category.
+# Progress is tracked in audit/progress.json (see scripts/audit-category.mjs),
+# so repeated runs walk through the whole category instead of re-checking the
+# same first questions. All runs for a category commit to ONE branch,
+# audit/<category>, and share ONE pull request - never main.
+
 on:
   workflow_dispatch:
     inputs:
@@ -18,9 +24,16 @@ on:
           - 'sport'
           - 'znanost_i_tehnologija'
       count:
-        description: 'Number of questions to audit (0 = full file)'
+        description: 'Not-yet-audited questions to check this run (0 = all remaining)'
         required: true
-        default: '50'
+        default: '200'
+
+# One run per category at a time: runs for the same category share a branch.
+# Different categories may run in parallel; they touch different data files,
+# but see the note on audit/progress.json in the commit step.
+concurrency:
+  group: audit-${{ inputs.category }}
+  cancel-in-progress: false
 
 jobs:
   audit:
@@ -30,8 +43,47 @@ jobs:
       pull-requests: write
 
     steps:
+      - name: Validate inputs
+        env:
+          COUNT: ${{ inputs.count }}
+        run: |
+          # A typo must not silently turn into "audit everything".
+          if ! [[ "$COUNT" =~ ^[0-9]+$ ]]; then
+            echo "count must be a whole number (0 = all remaining), got: $COUNT"
+            exit 1
+          fi
+
       - name: Checkout Repository
         uses: actions/checkout@v4
+
+      # Continue the category's existing audit branch if there is one, so its
+      # audit/progress.json and earlier fixes are the starting point. A branch
+      # whose PR was already merged is stale (its content is in main): drop it
+      # and start from a fresh branch.
+      - name: Check out the category's audit branch
+        env:
+          CATEGORY: ${{ inputs.category }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="audit/${CATEGORY}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            OPEN=$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')
+            MERGED=$(gh pr list --head "$BRANCH" --state merged --json number --jq 'length')
+            if [ "$OPEN" = "0" ] && [ "$MERGED" != "0" ]; then
+              echo "Branch $BRANCH was already merged - starting a fresh one."
+              git push origin --delete "$BRANCH"
+              git checkout -b "$BRANCH"
+            else
+              echo "Continuing existing branch $BRANCH."
+              git fetch --depth=1 origin "$BRANCH"
+              git checkout -B "$BRANCH" FETCH_HEAD
+            fi
+          else
+            echo "Starting new branch $BRANCH."
+            git checkout -b "$BRANCH"
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -47,6 +99,7 @@ jobs:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
 
       - name: Run Question Auditor
+        id: audit
         env:
           GOOGLE_GENAI_USE_VERTEXAI: 'true'
           GOOGLE_CLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
@@ -65,25 +118,40 @@ jobs:
           path: reports/
           if-no-files-found: warn
 
-      # Fixes go to a review branch + PR, never straight to main (audit H1).
-      # A PR opened with GITHUB_TOKEN does not trigger ci.yml - run CI on the
-      # branch via workflow_dispatch before merging.
-      - name: Push fixes to a review branch and open a PR
+      # Fixes + progress go to the category's review branch and its single PR,
+      # never straight to main (audit H1). A PR opened with GITHUB_TOKEN does
+      # not trigger ci.yml - run CI on the branch via workflow_dispatch before
+      # merging.
+      - name: Commit to the audit branch and open or update the PR
         env:
           CATEGORY: ${{ inputs.category }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUDITED: ${{ steps.audit.outputs.audited }}
+          MODIFIED: ${{ steps.audit.outputs.modified }}
+          FAILED_BATCHES: ${{ steps.audit.outputs.failed_batches }}
+          REMAINING: ${{ steps.audit.outputs.remaining }}
+          COMPLETE: ${{ steps.audit.outputs.complete }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          BRANCH="audit/${CATEGORY}-${GITHUB_RUN_ID}"
-          git checkout -b "$BRANCH"
-          git add src/data/categories/
+          BRANCH="audit/${CATEGORY}"
+          SUMMARY="audited $AUDITED, modified $MODIFIED, failed batches $FAILED_BATCHES, remaining $REMAINING, complete $COMPLETE"
+          echo "$CATEGORY: $SUMMARY" >> "$GITHUB_STEP_SUMMARY"
+
+          git add src/data/categories/ audit/
           if git diff --cached --quiet; then
-            echo "No fixes to commit."
+            echo "Nothing to commit."
             exit 0
           fi
-          git commit -m "fix(data): audit $CATEGORY"
+          git commit -m "fix(data): audit $CATEGORY (run $GITHUB_RUN_ID: $SUMMARY)"
           git push origin "$BRANCH"
-          gh pr create --base main --head "$BRANCH" \
-            --title "Audit fixes: $CATEGORY" \
-            --body "Automated audit run $GITHUB_RUN_ID. The audit report is attached to the run as an artifact (audit-$CATEGORY-$GITHUB_RUN_ID). Review the changes against it and run CI on this branch before merging."
+
+          ARTIFACT="audit-${CATEGORY}-${GITHUB_RUN_ID}"
+          RUN_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          OPEN=$(gh pr list --head "$BRANCH" --state open --json number --jq 'length')
+          if [ "$OPEN" = "0" ]; then
+            gh pr create --base main --head "$BRANCH" \
+              --title "Audit fixes: $CATEGORY" \
+              --body "Automated audit of \`$CATEGORY\`, done in batches. Each run adds its fixes to this branch and a comment below; progress is in \`audit/progress.json\` / \`audit/PROGRESS.md\`. Each run's report is attached to the run as an artifact. Review the changes against the reports and run CI on this branch (Actions > CI > Run workflow) before merging. First run: $RUN_URL ($SUMMARY; artifact $ARTIFACT)."
+          else
+            gh pr comment "$BRANCH" \
+              --body "Run $RUN_URL: $SUMMARY. Report artifact: \`$ARTIFACT\`."
+          fi
