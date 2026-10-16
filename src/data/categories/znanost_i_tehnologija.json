@@ -29935,5 +29935,589 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_sci_2277",
+        "category": "znanost",
+        "question": "Koja je stanična organela odgovorna za proizvodnju većine stanične energije u obliku ATP-a procesom staničnog disanja?",
+        "correct_answer": "Mitohondrij",
+        "incorrect_answers": [
+            "Ribosom",
+            "Lizosom",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Mitohondriji su poznati kao \"energetske centrale\" stanice jer u njima dolazi do staničnog disanja, procesa kojim se proizvodi adenozin trifosfat (ATP). ATP je glavna molekula za pohranu i prijenos energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2278",
+        "category": "znanost",
+        "question": "Kako se naziva decentralizirana i distribuirana digitalna baza podataka, organizirana kao lanac blokova, najpoznatija po svojoj primjeni u kriptovalutama?",
+        "correct_answer": "Blockchain",
+        "incorrect_answers": [
+            "Relacijska baza podataka",
+            "Cloud pohrana",
+            "Neuronales mreža"
+        ],
+        "explanation": "Blockchain je tehnologija koja omogućuje sigurnu i transparentnu evidenciju transakcija bez centralnog autoriteta. Svaki blok sadrži transakcije i referencira prethodni blok.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2279",
+        "category": "znanost",
+        "question": "Koja je konstantna brzina u vakuumu, neovisna o gibanju izvora ili promatrača, prema Einsteinovoj specijalnoj teoriji relativnosti?",
+        "correct_answer": "Brzina svjetlosti",
+        "incorrect_answers": [
+            "Brzina zvuka",
+            "Brzina gravitacije",
+            "Brzina elektrona"
+        ],
+        "explanation": "Prema specijalnoj teoriji relativnosti, brzina svjetlosti u vakuumu je univerzalna konstanta (približno 299.792.458 m/s) i najviša moguća brzina u svemiru. Ona je neovisna o izvoru i promatraču.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2280",
+        "category": "znanost",
+        "question": "Koji raspon vrijednosti na pH ljestvici označava kiselu otopinu?",
+        "correct_answer": "Ispod 7",
+        "incorrect_answers": [
+            "Iznad 7",
+            "Točno 7",
+            "Između 7 i 14"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine. Vrijednosti manje od 7 su kisele, vrijednost 7 je neutralna, a vrijednosti veće od 7 su lužnate (bazne).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2281",
+        "category": "znanost",
+        "question": "Koji je oblik naše galaksije, Mliječne staze?",
+        "correct_answer": "Spiralna galaksija s prečkom",
+        "incorrect_answers": [
+            "Eliptična galaksija",
+            "Nepravilna galaksija",
+            "Lentikularna galaksija"
+        ],
+        "explanation": "Mliječna staza je masivna galaksija klasificirana kao prečkasta spiralna galaksija (SBbc). Naš Sunčev sustav se nalazi u jednom od njezinih spiralnih krakova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2282",
+        "category": "znanost",
+        "question": "Koji se proces koristi za pretvaranje sunčeve svjetlosti izravno u električnu energiju pomoću poluvodičkih materijala?",
+        "correct_answer": "Fotovoltaika",
+        "incorrect_answers": [
+            "Geotermalna energija",
+            "Hidroelektrana",
+            "Nuklearna fisija"
+        ],
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2283",
+        "category": "znanost",
+        "question": "Koja programska paradigma tretira izračun kao evaluaciju matematičkih funkcija i izbjegava promjenu stanja i promjenjive podatke?",
+        "correct_answer": "Funkcionalno programiranje",
+        "incorrect_answers": [
+            "Objektno-orijentirano programiranje",
+            "Imperativno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "Funkcionalno programiranje naglašava korištenje nepromjenjivih podataka i \"čistih\" funkcija bez nuspojava. Smatra se pogodnim za paralelno izvršavanje i manje sklono greškama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2284",
+        "category": "znanost",
+        "question": "Koji Newtonov zakon gibanja kaže da će tijelo ostati u stanju mirovanja ili jednolikog gibanja po pravcu, osim ako na njega ne djeluje vanjska sila?",
+        "correct_answer": "Prvi Newtonov zakon",
+        "incorrect_answers": [
+            "Drugi Newtonov zakon",
+            "Treći Newtonov zakon",
+            "Zakon o očuvanju energije"
+        ],
+        "explanation": "Prvi Newtonov zakon, poznat i kao zakon inercije, opisuje tendenciju tijela da se odupire promjeni svog stanja gibanja. To je temelj klasične mehanike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2285",
+        "category": "znanost",
+        "question": "Koja skupina elemenata u periodnom sustavu uključuje litij, natrij i kalij, poznate po svojoj visokoj reaktivnosti?",
+        "correct_answer": "Alkalijski metali",
+        "incorrect_answers": [
+            "Zemnoalkalijski metali",
+            "Halogeni elementi",
+            "Plemeniti plinovi"
+        ],
+        "explanation": "Alkalijski metali su elementi Grupe 1 periodnog sustava. Vrlo su reaktivni jer imaju samo jedan valentni elektron koji lako otpuštaju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2286",
+        "category": "znanost",
+        "question": "Koji je proces stanične diobe rezultira stvaranjem dvije identične kćerinske stanice od jedne roditeljske, ključan za rast i popravak tkiva?",
+        "correct_answer": "Mitoza",
+        "incorrect_answers": [
+            "Mejoza",
+            "Fotosinteza",
+            "Glikoliza"
+        ],
+        "explanation": "Mitoza je oblik eukariotske stanične diobe u kojoj se jedna roditeljska stanica dijeli u dvije genetski identične kćerinske stanice. Ključna je za rast, razvoj i zamjenu stanica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2287",
+        "category": "znanost",
+        "question": "Koji sustav pretvara nazive domena (npr. www.google.com) u IP adrese (npr. 172.217.160.142), omogućujući web preglednicima pronalaženje web stranica?",
+        "correct_answer": "DNS (Domain Name System)",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "DNS je hijerarhijski distribuirani sustav imenovanja za računala, usluge ili bilo koje resurse povezane na internet ili privatnu mrežu. Njegova glavna funkcija je prevođenje imena domena u IP adrese.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2288",
+        "category": "znanost",
+        "question": "Koji se pojam u termodinamici odnosi na mjeru nereda ili neorganiziranosti sustava?",
+        "correct_answer": "Entropija",
+        "incorrect_answers": [
+            "Energija",
+            "Temperatura",
+            "Tlak"
+        ],
+        "explanation": "Entropija je termodinamička veličina koja mjeri stupanj nereda ili raspršenosti energije u sustavu. Drugi zakon termodinamike kaže da se ukupna entropija izoliranog sustava uvijek povećava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2289",
+        "category": "znanost",
+        "question": "Koje su četiri dušične baze koje čine \"ljestvice\" DNA lanca?",
+        "correct_answer": "Adenin, timin, citozin, gvanin",
+        "incorrect_answers": [
+            "Adenin, uracil, citozin, gvanin",
+            "Adenin, timin, citozin, riboza",
+            "Gvanin, uracil, timin, citozin"
+        ],
+        "explanation": "DNA (deoksiribonukleinska kiselina) sadrži genetske informacije s četiri baze: adenin (A), gvanin (G), citozin (C) i timin (T). Te se baze uparuju A-T i C-G.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2290",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem tvar izravno prelazi iz krutog u plinovito stanje, bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Taljenje",
+            "Vrenje"
+        ],
+        "explanation": "Sublimacija je fazni prijelaz tvari iz krutog u plinovito stanje bez prethodnog prolaska kroz tekuće stanje. Primjer je suhi led (čvrsti CO2) koji isparava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2291",
+        "category": "znanost",
+        "question": "Tko je bio prvi čovjek koji je otputovao u svemir?",
+        "correct_answer": "Jurij Gagarin",
+        "incorrect_answers": [
+            "Neil Armstrong",
+            "Buzz Aldrin",
+            "John Glenn"
+        ],
+        "explanation": "Sovjetski kozmonaut Jurij Gagarin postao je prvi čovjek u svemiru 12. travnja 1961. godine, kružeći oko Zemlje u svemirskom brodu Vostok 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2292",
+        "category": "znanost",
+        "question": "Koji je osnovni dio operativnog sustava koji upravlja hardverom računala i pruža osnovne usluge softveru?",
+        "correct_answer": "Jezgra (Kernel)",
+        "incorrect_answers": [
+            "Korisničko sučelje",
+            "Datotečni sustav",
+            "Drajver"
+        ],
+        "explanation": "Jezgra (kernel) je središnji dio operativnog sustava. Odgovorna je za upravljanje resursima sustava, poput memorije, procesa i I/O uređaja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2293",
+        "category": "znanost",
+        "question": "Koji zakon definira odnos između napona (V), struje (I) i otpora (R) u električnom krugu?",
+        "correct_answer": "Ohmov zakon",
+        "incorrect_answers": [
+            "Kirchhoffovi zakoni",
+            "Jouleov zakon",
+            "Faradayevi zakoni"
+        ],
+        "explanation": "Ohmov zakon (V=IR) kaže da je struja kroz otpornik izravno proporcionalna naponu primijenjenom na njega i obrnuto proporcionalna otporu. Temeljan je za analizu električnih krugova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2294",
+        "category": "znanost",
+        "question": "Kako se nazivaju tjelesne strukture kod organizama koje su kroz evoluciju izgubile svoju prvobitnu funkciju i postale smanjene ili zakržljale (npr. ljudsko slijepo crijevo)?",
+        "correct_answer": "Vestigijalni organi",
+        "incorrect_answers": [
+            "Homologni organi",
+            "Analogni organi",
+            "Atavizmi"
+        ],
+        "explanation": "Vestigijalni organi su ostaci struktura koje su imale važnu funkciju kod predaka, ali su je izgubile tijekom evolucije. Oni su dokaz evolucijskih promjena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2295",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje dijeljenjem elektrona između atoma?",
+        "correct_answer": "Kovalntna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalntna veza je jaka kemijska veza koja nastaje dijeljenjem jednog ili više parova elektrona između dva atoma. Uobičajena je u organskim molekulama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2296",
+        "category": "znanost",
+        "question": "Koji je pojam za snažnu i svijetlu eksploziju zvijezde koja označava kraj životnog ciklusa masivne zvijezde?",
+        "correct_answer": "Supernova",
+        "incorrect_answers": [
+            "Nova",
+            "Crna rupa",
+            "Pulsar"
+        ],
+        "explanation": "Supernova je eksplozija zvijezde koja nakratko zasja sjajnije od cijele galaksije. One su izvor teških elemenata u svemiru i mogu dovesti do stvaranja neutronskih zvijezda ili crnih rupa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2297",
+        "category": "znanost",
+        "question": "Koja vrsta strojnog učenja koristi označene podatke (ulaz i željeni izlaz) za treniranje modela za predviđanje budućih ishoda?",
+        "correct_answer": "Nadzirano učenje",
+        "incorrect_answers": [
+            "Nenadzirano učenje",
+            "Učenje s potkrepljenjem",
+            "Duboko učenje"
+        ],
+        "explanation": "Nadzirano učenje uključuje učenje iz primjera gdje su poznati ulazni podaci i odgovarajući točni izlazi. Model uči mapirati ulaz u izlaz.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2298",
+        "category": "znanost",
+        "question": "Koja je fizička pojava valova koja opisuje promjenu frekvencije zvuka ili svjetlosti kada se izvor i promatrač međusobno gibaju?",
+        "correct_answer": "Dopplerov efekt",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Difrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Dopplerov efekt je promjena opažene frekvencije vala u odnosu na promatrača koji se giba u odnosu na izvor vala. Klasičan primjer je zvuk sirene hitne pomoći koja prolazi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2299",
+        "category": "znanost",
+        "question": "Koja se mikroskopska čestica sastoji od genetskog materijala (DNA ili RNA) omotanog proteinskom ovojnicom i može se replicirati samo unutar živih stanica?",
+        "correct_answer": "Virus",
+        "incorrect_answers": [
+            "Bakterija",
+            "Gljivica",
+            "Parazit"
+        ],
+        "explanation": "Virusi su obligatni unutarstanični paraziti. Nemaju staničnu strukturu i moraju inficirati živu stanicu kako bi se replicirali i preživjeli.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2300",
+        "category": "znanost",
+        "question": "Koja tvar ubrzava kemijsku reakciju bez da se sama trajno mijenja ili troši u procesu?",
+        "correct_answer": "Katalizator",
+        "incorrect_answers": [
+            "Reagens",
+            "Inhibitor",
+            "Produkt"
+        ],
+        "explanation": "Katalizatori smanjuju energiju aktivacije kemijske reakcije, što omogućuje da se reakcija odvija brže. Enzimi su biološki katalizatori.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2301",
+        "category": "znanost",
+        "question": "Koja vrsta kriptografije koristi isti ključ za šifriranje i dešifriranje podataka?",
+        "correct_answer": "Simetrična kriptografija",
+        "incorrect_answers": [
+            "Asimetrična kriptografija",
+            "Kvantna kriptografija",
+            "Hasiranje"
+        ],
+        "explanation": "U simetričnoj kriptografiji, pošiljatelj i primatelj dijele zajednički tajni ključ. To je brža metoda, ali zahtijeva siguran način razmjene ključa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2302",
+        "category": "znanost",
+        "question": "Koje agregatno stanje tvari karakterizira visoko ionizirani plin, često nazivan četvrtim stanjem tvari, koje se nalazi u zvijezdama i munji?",
+        "correct_answer": "Plazma",
+        "incorrect_answers": [
+            "Krutina",
+            "Tekućina",
+            "Plin"
+        ],
+        "explanation": "Plazma je ionizirani plin u kojem je značajan dio atoma izgubio ili dobio elektrone. To je najzastupljenije stanje tvari u svemiru, koje čini većinu zvijezda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2303",
+        "category": "znanost",
+        "question": "U kojoj se staničnoj organeli u biljkama odvija proces fotosinteze?",
+        "correct_answer": "Kloroplast",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Vakuola",
+            "Stanična stijenka"
+        ],
+        "explanation": "Kloroplasti su organele u biljnim stanicama koje sadrže klorofil i mjesto su gdje se provodi fotosinteza, pretvarajući svjetlosnu energiju u kemijsku energiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2304",
+        "category": "znanost",
+        "question": "Koju klasu organskih spojeva čine zasićeni ugljikovodici, što znači da sadrže samo jednostruke kovalentne veze između atoma ugljika?",
+        "correct_answer": "Alkani",
+        "incorrect_answers": [
+            "Alkeni",
+            "Alkini",
+            "Aromatski spojevi"
+        ],
+        "explanation": "Alkani su najjednostavniji ugljikovodici i sadrže samo jednostruke C-C veze. Zbog toga su relativno nereaktivni i često se koriste kao goriva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2305",
+        "category": "znanost",
+        "question": "Koji se fenomen koristi kao dokaz širenja svemira, a odnosi se na pomak valnih duljina svjetlosti iz udaljenih galaksija prema crvenom dijelu spektra?",
+        "correct_answer": "Crveni pomak",
+        "incorrect_answers": [
+            "Plavi pomak",
+            "Kozmička mikrovalna pozadina",
+            "Gravitacijsko lećanje"
+        ],
+        "explanation": "Crveni pomak (redshift) nastaje kada se izvor svjetlosti (npr. galaksija) udaljava od promatrača, zbog čega se valna duljina svjetlosti rasteže i pomiče prema crvenom kraju spektra. To je ključan dokaz širenja svemira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2306",
+        "category": "znanost",
+        "question": "Kako se naziva model isporuke računalnih resursa (servera, pohrane, baza podataka, mreže, softvera) putem interneta, na zahtjev i uz plaćanje po korištenju?",
+        "correct_answer": "Računalstvo u oblaku (Cloud computing)",
+        "incorrect_answers": [
+            "Lokalna pohrana",
+            "Fizički serveri",
+            "Peer-to-peer mreža"
+        ],
+        "explanation": "Računalstvo u oblaku omogućuje korisnicima pristup resursima na internetu bez potrebe za posjedovanjem i održavanjem vlastite infrastrukture. Nudi fleksibilnost i skalabilnost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2307",
+        "category": "znanost",
+        "question": "Koji fizički princip kaže da sila uzgona na tijelo uronjeno u fluid jednaka težini istisnute tekućine?",
+        "correct_answer": "Arhimedov princip",
+        "incorrect_answers": [
+            "Bernoullijev princip",
+            "Pascalov zakon",
+            "Hookeov zakon"
+        ],
+        "explanation": "Arhimedov princip objašnjava zašto objekti plivaju ili tonu. Sila uzgona djeluje prema gore i jednaka je težini fluida koji je tijelo istisnulo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2308",
+        "category": "znanost",
+        "question": "Koji su specifični proteini koji djeluju kao biološki katalizatori, ubrzavajući kemijske reakcije u živim organizmima?",
+        "correct_answer": "Enzimi",
+        "incorrect_answers": [
+            "Hormoni",
+            "Vitamini",
+            "Antitijela"
+        ],
+        "explanation": "Enzimi su proteini s katalitičkom aktivnošću. Oni specifično prepoznaju substrate i ubrzavaju biokemijske reakcije bez da se sami troše, ključni su za metabolizam.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2309",
+        "category": "znanost",
+        "question": "Kako se nazivaju atomi istog elementa koji imaju isti broj protona, ali različit broj neutrona, a time i različitu masenu masu?",
+        "correct_answer": "Izotopi",
+        "incorrect_answers": [
+            "Ioni",
+            "Izomeri",
+            "Alotropi"
+        ],
+        "explanation": "Izotopi su varijante istog kemijskog elementa. Razlikuju se po broju neutrona u jezgri, što utječe na njihovu atomsku masu, ali ne i na kemijska svojstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2310",
+        "category": "znanost",
+        "question": "Koja je jedinica mjere za udaljenost koja predstavlja udaljenost koju svjetlost prijeđe u vakuumu tijekom jedne Zemljine godine?",
+        "correct_answer": "Svjetlosna godina",
+        "incorrect_answers": [
+            "Astronomka jedinica (AJ)",
+            "Parsek",
+            "Milja"
+        ],
+        "explanation": "Svjetlosna godina nije mjera vremena, već udaljenosti. Svjetlost u vakuumu putuje brzinom od približno 300.000 km/s, pa je svjetlosna godina izuzetno velika udaljenost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2311",
+        "category": "znanost",
+        "question": "Koji tip mrežne veze stvara sigurnu, šifriranu vezu preko manje sigurne mreže, poput interneta, često se koristi za pristup udaljenim mrežama ili zaštitu privatnosti?",
+        "correct_answer": "VPN (Virtual Private Network)",
+        "incorrect_answers": [
+            "LAN",
+            "WAN",
+            "HTTP"
+        ],
+        "explanation": "VPN stvara virtualni \"tunel\" za vaše podatke preko interneta, šifrirajući promet i skrivajući vašu IP adresu. To poboljšava sigurnost i privatnost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2312",
+        "category": "znanost",
+        "question": "Koje poremećaje u prostor-vremenu, putujuće valove, predviđa Einsteinova opća teorija relativnosti, a nastaju ubrzanjem masivnih objekata?",
+        "correct_answer": "Gravitacijski valovi",
+        "incorrect_answers": [
+            "Elektromagnetski valovi",
+            "Zvučni valovi",
+            "Kozmičke zrake"
+        ],
+        "explanation": "Gravitacijski valovi su \"boranje\" prostor-vremena uzrokovano ubrzanjem masivnih objekata, poput spajanja crnih rupa. Njihovo je postojanje eksperimentalno potvrđeno 2015. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2313",
+        "category": "znanost",
+        "question": "Koja je tehnika koja se koristi za izravnu modifikaciju genoma organizma, često s ciljem ispravljanja genetskih mana ili dodavanja novih svojstava?",
+        "correct_answer": "Genetičko inženjerstvo",
+        "incorrect_answers": [
+            "Kloniranje",
+            "Fermentacija",
+            "Kromatografija"
+        ],
+        "explanation": "Genetičko inženjerstvo obuhvaća skup tehnika koje omogućuju manipulaciju genetskim materijalom organizma. To uključuje uvođenje, brisanje ili izmjenu gena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2314",
+        "category": "znanost",
+        "question": "Koji temeljni fizički pojam opisuje temeljno svojstvo materije koje uzrokuje da se materija doživljava silom kada je smještena u elektromagnetsko polje?",
+        "correct_answer": "Električni naboj",
+        "incorrect_answers": [
+            "Masa",
+            "Temperatura",
+            "Energija"
+        ],
+        "explanation": "Električni naboj je intrinzično svojstvo čestica poput elektrona i protona. Dolazi u dva oblika (pozitivan i negativan) i uzrok je elektromagnetskih sila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2315",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta kibernetičkog napada u kojem napadač pokušava prevariti korisnika da otkrije osjetljive informacije (npr. lozinke, bankovne podatke) lažno se predstavljajući kao pouzdani entitet?",
+        "correct_answer": "Phishing",
+        "incorrect_answers": [
+            "DDoS napad",
+            "Malware",
+            "Ransomware"
+        ],
+        "explanation": "Phishing napadi koriste lažne e-mailove, poruke ili web stranice kako bi naveli žrtve da daju svoje osobne podatke. To je jedan od najčešćih oblika kibernetičkih prijevara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
