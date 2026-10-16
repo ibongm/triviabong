@@ -73,7 +73,7 @@ export default function OnlinePlayersList({ currentUid, onInvite, players }) {
     return (
         <div className="space-y-3 pt-4">
             <h2 className="text-sm font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
-                <Users className="w-4 h-4 text-emerald-400" /> Online igrači
+                <Users className="w-4 h-4 text-emerald-400" /> Igrači na mreži
             </h2>
 
             {onlinePlayers.length === 0 ? (

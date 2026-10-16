@@ -499,13 +499,10 @@ service cloud.firestore {
             || request.resource.data.uid == null
             || isOwner(request.resource.data.uid))
         && (!('note' in request.resource.data)
-            || (request.resource.data.note is string && request.resource.data.note.size() <= 500))
-        // Optional answer explanation (engagement plan Phase 2). 220 mirrors
-        // EXPLANATION_MAX_LENGTH in src/utils/questionMerge.js - keep equal.
-        && (!('explanation' in request.resource.data)
-            || (request.resource.data.explanation is string
-                && request.resource.data.explanation.size() > 0
-                && request.resource.data.explanation.size() <= 220));
+            || (request.resource.data.note is string && request.resource.data.note.size() <= 500));
+        // No `explanation` here: keys().hasOnly() above already rejects it
+        // (a report never carries one - the validated `explanation` field
+        // lives on questionSubmissions below).
 
       allow get, list: if isAdmin();
       // Resolve/dismiss only - the queue-defining fields can't be rewritten.
@@ -606,8 +603,10 @@ service cloud.firestore {
     // a PROFILE board (anonymous writes and wiping are blocked). The real fix
     // is deriving rekordiSummary server-side.
     function rsChangedKeys() {
+      // Both branches return a set (affectedKeys() is a set; keys() is a
+      // list), so the ternary has one type.
       return resource == null
-        ? request.resource.data.keys()
+        ? request.resource.data.keys().toSet()
         : request.resource.data.diff(resource.data).affectedKeys();
     }
     // Profile boards: { uid, displayName, <field> } - list bounds only, see above.

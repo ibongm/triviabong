@@ -1,5 +1,23 @@
 # Changelog
 
+### [2026-10-16] - Touch targets, API input checks, rules cleanup, copy, handoff notes (audit L2, L8, L9, L10, L11, L12)
+- **Files Changed**:
+  - `src/App.jsx` (Modified - header button classes only)
+  - `src/screens/LobbyScreen.jsx` (Modified)
+  - `api/questions.js` (Modified)
+  - `firestore.rules` (Modified)
+  - `src/components/OnlinePlayersList.jsx` (Modified)
+  - `src/components/GuideModal.jsx` (Modified)
+  - `NOTES.md` (Modified)
+- **Details**:
+  - L2: header "Vodič" and sound buttons get `min-w-[44px]` (they live in `App.jsx`, not `LobbyScreen.jsx`); the "Dnevne misije" row gets `min-h-[44px]`; "Vidi sve →" becomes a 44px-tall inline-flex hit area with negative margins so the Rekordi header layout doesn't move. Verified on the production build at 390x844 and 1440x900: 0 interactive elements under 44px, no overflow, no console errors.
+  - L8: `api/questions.js` rejects a non-string, empty or >100-char `id` and more than 500 `questions` per request (Croatian 400 messages) before any GitHub call. Uploading a file of more than 500 questions now needs to be split.
+  - L9: removed the `explanation` check from the `reports` create rule; `keys().hasOnly()` already rejects that field, so it was dead code (no behaviour change).
+  - L10: `rsChangedKeys()` returns `keys().toSet()` on the create branch, so both ternary branches are sets (clears the deploy-time compile warning).
+  - L11: "Online igrači" -> "Igrači na mreži" in `OnlinePlayersList.jsx`, and "online igrača" -> "igrača na mreži" in the matching `GuideModal.jsx` sentence.
+  - L12: `NOTES.md` wrap-up rewritten for 2026-10-16.
+  - Verified: 402 unit tests, lint, build; all 7 rules suites (356 checks) under `firebase emulators:exec`. `firestore.rules` needs `firebase deploy --only firestore:rules` after push.
+
 ### [2026-10-16] - Deduplicate the question bank; resolve the archipelago conflict (audit M7)
 - **Files Changed**:
   - `src/data/categories/geografija.json`, `glazba.json`, `knjizevnost_i_umjetnost.json`, `opca_znanje.json`, `pop_kultura.json`, `povijest.json`, `sport.json`, `znanost_i_tehnologija.json` (Modified)

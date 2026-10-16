@@ -24,6 +24,7 @@ import {
 const ADMIN_EMAIL = 'ivanm.ploce@gmail.com';
 const FIREBASE_PROJECT_ID = 'triviabong-web';
 const GITHUB_API = 'https://api.github.com';
+const MAX_QUESTIONS_PER_REQUEST = 500;
 
 // Google's public JWKS for verifying Firebase Auth ID tokens - no service
 // account key needed. Fetched once per cold start and cached by jose.
@@ -128,6 +129,18 @@ export default async function handler(req, res) {
     const filename = Object.hasOwn(CATEGORY_FILES, category) ? CATEGORY_FILES[category] : null;
     if (!filename) {
         res.status(400).json({ error: `Nepoznata kategorija: ${category}` });
+        return;
+    }
+
+    // Shape checks before any GitHub round trip. Admin-only endpoint, but a
+    // malformed id would otherwise reach removeQuestionById/editQuestionById
+    // and the commit message, and an unbounded array one 4.5 MB body away.
+    if (id !== undefined && (typeof id !== 'string' || id.trim() === '' || id.length > 100)) {
+        res.status(400).json({ error: 'ID pitanja mora biti neprazan tekst (najviše 100 znakova).' });
+        return;
+    }
+    if (Array.isArray(questions) && questions.length > MAX_QUESTIONS_PER_REQUEST) {
+        res.status(400).json({ error: `Najviše ${MAX_QUESTIONS_PER_REQUEST} pitanja po zahtjevu - podijelite datoteku.` });
         return;
     }
 

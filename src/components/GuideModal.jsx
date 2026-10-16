@@ -152,7 +152,7 @@ export default function GuideModal({ isOpen, onClose }) {
                 </Section>
 
                 <Section icon={<Swords className="w-4 h-4 text-emerald-400" />} title="1v1 Dvoboj">
-                    <p>Pozovi bilo kojeg <b className="text-white">online igrača</b> iz predvorja na dvoboj uživo - odaberi kategoriju, pošalji poziv, a on ga prihvaća ili odbija.</p>
+                    <p>Pozovi bilo kojeg <b className="text-white">igrača na mreži</b> iz predvorja na dvoboj uživo - odaberi kategoriju, pošalji poziv, a on ga prihvaća ili odbija.</p>
                     <p>Kad oba igrača kliknu <b className="text-white">Spreman</b>, dvoboj počinje istovremeno za oboje nakon kratkog odbrojavanja.</p>
                     <p>Igra se {QUESTIONS_PER_ROUND} pitanja - ako je nakon toga neriješeno, odlučuje dodatno pitanje (iznenadna smrt). Jokeri nisu dostupni.</p>
                     <p>Pobjeda donosi <b className="text-white">+{ONE_VS_ONE_WIN_XP} XP</b> i <b className="text-white">+{ONE_VS_ONE_WIN_COINS}</b> novčića.</p>

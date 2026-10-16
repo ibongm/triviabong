@@ -249,7 +249,7 @@ export default function LobbyScreen({
                     sound.playClick();
                     onShowMissionsModal();
                 }}
-                className={`w-full flex items-center justify-between p-3 rounded-2xl border transition-all active:scale-[0.98] ${
+                className={`w-full min-h-[44px] flex items-center justify-between p-3 rounded-2xl border transition-all active:scale-[0.98] ${
                     allDone
                         ? 'bg-gradient-to-r from-amber-500/20 to-amber-500/5 border-amber-500/40'
                         : 'bg-slate-900/60 border-slate-800/80 hover:bg-slate-900'
@@ -315,7 +315,7 @@ export default function LobbyScreen({
                     </h2>
                     <button
                         onClick={() => { sound.playClick(); onShowRekordiModal(); }}
-                        className="text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors active:scale-95"
+                        className="inline-flex items-center min-h-[44px] -my-3 -mr-2 px-2 text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors active:scale-95"
                     >
                         Vidi sve →
                     </button>

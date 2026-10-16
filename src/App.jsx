@@ -1353,7 +1353,7 @@ export default function App() {
 
           <button
             onClick={() => { sound.playClick(); setShowGuideModal(true); }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95 min-h-[44px]"
+            className="flex items-center justify-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95 min-h-[44px] min-w-[44px]"
             title="Kako Igrati"
           >
             <HelpCircle className="w-4 h-4 text-blue-400" />
@@ -1365,7 +1365,7 @@ export default function App() {
               const muted = sound.toggleMute();
               setIsMuted(muted);
             }}
-            className="flex items-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95 min-h-[44px]"
+            className="flex items-center justify-center gap-1 bg-slate-900 hover:bg-slate-800 border border-slate-800 px-3 py-2.5 rounded-xl text-xs font-bold text-slate-300 transition-colors active:scale-95 active:brightness-95 min-h-[44px] min-w-[44px]"
             title={isMuted ? "Zvuk je isključen (Klikni za uključivanje)" : "Zvuk je uključen (Klikni za isključivanje)"}
           >
             {isMuted ? <VolumeX className="w-4 h-4 text-rose-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
