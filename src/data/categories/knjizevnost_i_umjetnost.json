@@ -30352,5 +30352,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2289",
+        "category": "knjizevnost",
+        "question": "Koja je književna nagrada najprestižnija u svijetu, dodjeljuje se svake godine za izvanredna postignuća u književnosti?",
+        "correct_answer": "Nobelova nagrada za književnost",
+        "incorrect_answers": [
+            "Pulitzerova nagrada",
+            "Bookerova nagrada",
+            "Goncourtova nagrada"
+        ],
+        "explanation": "Nobelova nagrada za književnost dodjeljuje se od 1901. godine za izvanredna djela u idealističkom smjeru, prema oporuci Alfreda Nobela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2290",
+        "category": "knjizevnost",
+        "question": "Koji je engleski dramatičar i pjesnik autor 'Hamleta', 'Romea i Julije' i 'Macbetha'?",
+        "correct_answer": "William Shakespeare",
+        "incorrect_answers": [
+            "Charles Dickens",
+            "George Bernard Shaw",
+            "Jane Austen"
+        ],
+        "explanation": "William Shakespeare (1564.-1616.) se smatra najvećim piscem na engleskom jeziku i najvećim svjetskim dramatičarem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2291",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor drame 'Gospoda Glembajevi' i poznat po svom kritičkom pogledu na društvo?",
+        "correct_answer": "Miroslav Krleža",
+        "incorrect_answers": [
+            "August Šenoa",
+            "Ranko Marinković",
+            "Tin Ujević"
+        ],
+        "explanation": "Krleža je jedan od najvećih hrvatskih književnika 20. stoljeća, poznat po svom opsežnom i raznolikom opusu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2292",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret s početka 20. stoljeća u Francuskoj karakterizirao upotrebu geometrijskih oblika i razbijanje predmeta na različite plohe?",
+        "correct_answer": "Kubizam",
+        "incorrect_answers": [
+            "Fovizam",
+            "Nadrealizam",
+            "Ekspresionizam"
+        ],
+        "explanation": "Kubizam su osnovali Pablo Picasso i Georges Braque, a teži prikazivanju objekata iz više kutova istovremeno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2293",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor autor opera 'Aida', 'La Traviata' i 'Rigoletto'?",
+        "correct_answer": "Giuseppe Verdi",
+        "incorrect_answers": [
+            "Giacomo Puccini",
+            "Gioachino Rossini",
+            "Antonio Vivaldi"
+        ],
+        "explanation": "Verdi je bio dominantna figura talijanske opere u 19. stoljeću, poznat po svojim dramatičnim i melodičnim djelima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2294",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret sredinom 20. stoljeća u SAD-u koristio motive iz popularne kulture, reklama i stripova?",
+        "correct_answer": "Pop art",
+        "incorrect_answers": [
+            "Op art",
+            "Minimalizam",
+            "Apstraktni ekspresionizam"
+        ],
+        "explanation": "Pop art se razvio 1950-ih i 1960-ih, a istaknuti predstavnici su Andy Warhol i Roy Lichtenstein.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2295",
+        "category": "knjizevnost",
+        "question": "Koja se arhitektonska građevina u Rimu smatra remek-djelom rimskog inženjerstva i služila je kao amfiteatar za gladijatorske borbe?",
+        "correct_answer": "Koloseum",
+        "incorrect_answers": [
+            "Panteon",
+            "Forum Romanum",
+            "Akvedukt"
+        ],
+        "explanation": "Koloseum, izgrađen u 1. stoljeću, najveći je amfiteatar ikad izgrađen i simbol je Rimskog Carstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2296",
+        "category": "knjizevnost",
+        "question": "Koji je francuski slikar poznat kao 'otac moderne umjetnosti' i autor djela 'Planina Sainte-Victoire'?",
+        "correct_answer": "Paul Cézanne",
+        "incorrect_answers": [
+            "Édouard Manet",
+            "Claude Monet",
+            "Pierre-Auguste Renoir"
+        ],
+        "explanation": "Cézanneov rad predstavlja most između impresionizma i kubizma, utječući na umjetnike 20. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2297",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni oblik karakterističan za barokno razdoblje, a temelji se na ponavljanju iste teme u različitim glasovima i varijacijama?",
+        "correct_answer": "Fuga",
+        "incorrect_answers": [
+            "Sonata",
+            "Simfonija",
+            "Koncert"
+        ],
+        "explanation": "Fuga je polifona kompozicijska tehnika gdje se kratka melodijska tema imitira u različitim glasovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2298",
+        "category": "knjizevnost",
+        "question": "Koji je škotski književnik autor romana 'Otok s blagom' i 'Čudan slučaj dr. Jekylla i g. Hydea'?",
+        "correct_answer": "Robert Louis Stevenson",
+        "incorrect_answers": [
+            "Walter Scott",
+            "Arthur Conan Doyle",
+            "Robert Burns"
+        ],
+        "explanation": "Stevenson je bio romanopisac, pjesnik i putopisac, najpoznatiji po pustolovnim i horor pričama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2299",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski pjesnik i boem poznat po stihovima 'Nema te, nema i neću te imati' i zbirci 'Ojađeno zvono'?",
+        "correct_answer": "Tin Ujević",
+        "incorrect_answers": [
+            "Antun Branko Šimić",
+            "Dobriša Cesarić",
+            "Dragutin Tadijanović"
+        ],
+        "explanation": "Ujević je bio jedan od najvećih hrvatskih pjesnika, poznat po svojoj melankoličnoj poeziji i boemskom životu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2300",
+        "category": "knjizevnost",
+        "question": "Koji se umjetnički pokret u Njemačkoj početkom 20. stoljeća fokusirao na izražavanje dubokih unutarnjih osjećaja i iskrivljavanje stvarnosti?",
+        "correct_answer": "Ekspresionizam",
+        "incorrect_answers": [
+            "Impresionizam",
+            "Kubizam",
+            "Fovizam"
+        ],
+        "explanation": "Ekspresionizam je umjetnički pokret koji je naglašavao subjektivni doživljaj i emocionalni izraz.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2301",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski pjesnik autor 'Božanstvene komedije', epskog djela koje opisuje putovanje kroz Pakao, Čistilište i Raj?",
+        "correct_answer": "Dante Alighieri",
+        "incorrect_answers": [
+            "Francesco Petrarca",
+            "Giovanni Boccaccio",
+            "Ludovico Ariosto"
+        ],
+        "explanation": "Dante je bio firentinski pjesnik, filozof i političar, a njegovo remek-djelo smatra se jednim od najvećih djela svjetske književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2302",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni instrument iz obitelji gudačkih, manji od violončela, a veći od violine, i ima dublji, topliji zvuk?",
+        "correct_answer": "Viola",
+        "incorrect_answers": [
+            "Violončelo",
+            "Kontrabas",
+            "Violina"
+        ],
+        "explanation": "Viola je srednje veličine među gudačkim instrumentima, smještena između violine i violončela, sa specifičnim altovskim registrom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2303",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac, dobitnik Nobelove nagrade, autor romana 'Stranac' i eseja 'Mit o Sizifu'?",
+        "correct_answer": "Albert Camus",
+        "incorrect_answers": [
+            "Jean-Paul Sartre",
+            "André Gide",
+            "Marcel Proust"
+        ],
+        "explanation": "Camus je bio francuski filozof, pisac i novinar, ključna figura egzistencijalizma i apsurda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2304",
+        "category": "knjizevnost",
+        "question": "Koji je engleski slikar, poznat kao 'otac engleskog slikarstva' i po djelima 'Dama s hermelinom' i portretima?",
+        "correct_answer": "Thomas Gainsborough",
+        "incorrect_answers": [
+            "William Hogarth",
+            "Joshua Reynolds",
+            "John Constable"
+        ],
+        "explanation": "Gainsborough je bio jedan od najvažnijih britanskih portretista i pejzažista 18. stoljeća, suparnik Reynoldsa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2305",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Planine', prvog hrvatskog romana u stihu?",
+        "correct_answer": "Petar Zoranić",
+        "incorrect_answers": [
+            "Marko Marulić",
+            "Ivan Gundulić",
+            "Hanibal Lucić"
+        ],
+        "explanation": "Petar Zoranić Zadrani bio je hrvatski renesansni pjesnik i pripovjedač, autor prvog hrvatskog romana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2306",
+        "category": "knjizevnost",
+        "question": "Koja je vrsta drame, popularna u antičkoj Grčkoj, koja prikazuje stradanja glavnog junaka i završava tragično?",
+        "correct_answer": "Tragedija",
+        "incorrect_answers": [
+            "Komedija",
+            "Satira",
+            "Farasa"
+        ],
+        "explanation": "Tragedija istražuje ljudsku patnju i često završava uništenjem glavnog lika, a bila je važan dio grčkog kazališta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2307",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski slikar, majstor baroka, poznat po svojim dvorskim portretima i djelu 'Las Meninas' (Dvorske dame)?",
+        "correct_answer": "Diego Velázquez",
+        "incorrect_answers": [
+            "El Greco",
+            "Francisco Goya",
+            "Bartolomé Esteban Murillo"
+        ],
+        "explanation": "Velázquez je bio vodeći umjetnik na dvoru kralja Filipa IV. i majstor portreta, poznat po realizmu i psihološkoj dubini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2308",
+        "category": "knjizevnost",
+        "question": "Koji je njemački filozof i pjesnik poznat po izreci 'Gdje se čita, gdje se uči, tamo vlada svjetlost'?",
+        "correct_answer": "Johann Wolfgang von Goethe",
+        "incorrect_answers": [
+            "Immanuel Kant",
+            "Friedrich Schiller",
+            "Arthur Schopenhauer"
+        ],
+        "explanation": "Goethe je bio jedna od najvažnijih ličnosti njemačke i svjetske književnosti, filozofije i znanosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2309",
+        "category": "knjizevnost",
+        "question": "Koja je glazbena forma, nastala u srednjem vijeku, karakteristična po višeglasnom pjevanju bez instrumentalne pratnje?",
+        "correct_answer": "A capella",
+        "incorrect_answers": [
+            "Kantata",
+            "Oratorij",
+            "Rekvijem"
+        ],
+        "explanation": "A capella je izvođenje glazbe samo glasovima, bez instrumentalne pratnje, često se koristi u crkvenoj glazbi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2310",
+        "category": "knjizevnost",
+        "question": "Koji je arhitektonski stil 13. i 14. stoljeća u Europi karakteriziran visokim lukovima, vitražima i rozetama?",
+        "correct_answer": "Gotika",
+        "incorrect_answers": [
+            "Romanika",
+            "Barok",
+            "Klasicizam"
+        ],
+        "explanation": "Gotika se razvila u Francuskoj i poznata je po svojim impozantnim katedralama s tankim zidovima i velikim prozorima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2311",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski slikar, majstor zlatnog doba nizozemskog slikarstva, poznat po djelu 'Djevojka s bisernom naušnicom'?",
+        "correct_answer": "Johannes Vermeer",
+        "incorrect_answers": [
+            "Rembrandt van Rijn",
+            "Frans Hals",
+            "Jan van Eyck"
+        ],
+        "explanation": "Vermeer je bio slikar specijaliziran za scene iz domaćeg života srednje klase, poznat po majstorskoj upotrebi svjetla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2312",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor zbirke pjesama 'Kupine' i poznat kao predstavnik simbolizma?",
+        "correct_answer": "Vladimir Nazor",
+        "incorrect_answers": [
+            "Milan Begović",
+            "Janko Polić Kamov",
+            "Fran Galović"
+        ],
+        "explanation": "Nazor je jedan od najplodnijih hrvatskih pisaca, čiji opus obuhvaća pjesme, pripovijetke i romane, s naglaskom na nacionalne teme.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2313",
+        "category": "knjizevnost",
+        "question": "Koji je britanski pisac, autor distopijskog romana '1984' i alegorijske novele 'Životinjska farma'?",
+        "correct_answer": "George Orwell",
+        "incorrect_answers": [
+            "Aldous Huxley",
+            "H.G. Wells",
+            "J.R.R. Tolkien"
+        ],
+        "explanation": "Orwell je bio novinar i esejist, poznat po svojoj kritici totalitarizma i društvene nepravde.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2314",
+        "category": "knjizevnost",
+        "question": "Koji je američki skladatelj, poznat po mjuziklima 'West Side Story' i 'Candide'?",
+        "correct_answer": "Leonard Bernstein",
+        "incorrect_answers": [
+            "George Gershwin",
+            "Cole Porter",
+            "Stephen Sondheim"
+        ],
+        "explanation": "Bernstein je bio dirigent, skladatelj, pijanist i pedagog, jedna od najutjecajnijih figura američke glazbe 20. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2315",
+        "category": "knjizevnost",
+        "question": "Koji je švedski redatelj, poznat po filmovima 'Sedmi pečat' i 'Fanny i Alexander'?",
+        "correct_answer": "Ingmar Bergman",
+        "incorrect_answers": [
+            "Lars von Trier",
+            "Aki Kaurismäki",
+            "Carl Theodor Dreyer"
+        ],
+        "explanation": "Bergman se smatra jednim od najvećih i najutjecajnijih filmaša svih vremena, poznat po svojim egzistencijalističkim dramama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2316",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Posljednji Stipančići', koji prikazuje propast patricijske obitelji?",
+        "correct_answer": "Vjenceslav Novak",
+        "incorrect_answers": [
+            "Ksaver Šandor Gjalski",
+            "Ante Kovačić",
+            "Josip Kozarac"
+        ],
+        "explanation": "Novak je bio romanopisac, novelist, glazbenik i pedagog, jedan od najznačajnijih predstavnika hrvatskog realizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2317",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kipar iz renesanse poznat po svom ranom prikazu Davida u bronci i konjaničkom kipu Gattamelate?",
+        "correct_answer": "Donatello",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Leonardo da Vinci",
+            "Raphael"
+        ],
+        "explanation": "Donatello je bio jedan od najvažnijih kipara rane renesanse, poznat po realističnim i emocionalnim djelima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2318",
+        "category": "knjizevnost",
+        "question": "Koji je njemački filozof i teoretičar umjetnosti poznat po svom djelu 'Rođenje tragedije iz duha glazbe' i konceptu apolonskog i dionizijskog?",
+        "correct_answer": "Friedrich Nietzsche",
+        "incorrect_answers": [
+            "Arthur Schopenhauer",
+            "Georg Wilhelm Friedrich Hegel",
+            "Immanuel Kant"
+        ],
+        "explanation": "Nietzsche je bio ključna figura u razvoju moderne filozofije, a njegovo rano djelo istražuje korijene grčke tragedije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2319",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski slikar, poznat po uporabi kjaroskura i tenebrizma, s djelima poput 'Pozivanje sv. Mateja' i 'Bakhus'?",
+        "correct_answer": "Caravaggio",
+        "incorrect_answers": [
+            "Tintoretto",
+            "Paolo Veronese",
+            "El Greco"
+        ],
+        "explanation": "Caravaggio je bio revolucionarni barokni slikar, čiji je realizam i dramatična upotreba svjetla imala ogroman utjecaj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2320",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Smrt Smail-age Čengića', epskog spjeva o osmanskom dobu?",
+        "correct_answer": "Ivan Mažuranić",
+        "incorrect_answers": [
+            "Petar Preradović",
+            "Stanko Vraz",
+            "Ljudevit Gaj"
+        ],
+        "explanation": "Mažuranićevo djelo je vrhunac ilirskog pokreta i jedno od najvažnijih djela hrvatske književnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2321",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret 20. stoljeća, nastao u Nizozemskoj, zagovarao čistu apstrakciju s osnovnim bojama i geometrijskim oblicima?",
+        "correct_answer": "De Stijl",
+        "incorrect_answers": [
+            "Bauhaus",
+            "Art Nouveau",
+            "Futurizam"
+        ],
+        "explanation": "De Stijl, s Pietom Mondrianom kao istaknutim članom, promicao je utopijsku ideju potpunog sklada.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2322",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Kiklop', poznatog po kritičkom prikazu zagrebačkog života uoči Drugog svjetskog rata?",
+        "correct_answer": "Ranko Marinković",
+        "incorrect_answers": [
+            "Ivan Aralica",
+            "Slobodan Novak",
+            "Nedjeljko Fabrio"
+        ],
+        "explanation": "Marinković je bio romanopisac, novelist i dramatičar, jedan od najvećih hrvatskih autora 20. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2323",
+        "category": "knjizevnost",
+        "question": "Koji je engleski pjesnik i slikar, predstavnik romantizma, autor djela 'Pjesme nevinosti i iskustva' i 'Vjenčanje Neba i Pakla'?",
+        "correct_answer": "William Blake",
+        "incorrect_answers": [
+            "William Wordsworth",
+            "Samuel Taylor Coleridge",
+            "Percy Bysshe Shelley"
+        ],
+        "explanation": "Blake je bio vizionarski pjesnik i umjetnik, čiji je rad često istraživao spiritualne i mistične teme.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2324",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički stil, nastao u Europi oko 1900. godine, karakteriziran organskim, valovitim linijama, cvjetnim motivima i asimetrijom?",
+        "correct_answer": "Art Nouveau",
+        "incorrect_answers": [
+            "Art Deco",
+            "Bauhaus",
+            "Postimpresionizam"
+        ],
+        "explanation": "Art Nouveau (također poznat kao Secesija ili Jugendstil) težio je totalnom umjetničkom djelu, obuhvaćajući razne grane umjetnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2325",
+        "category": "knjizevnost",
+        "question": "Koji je francuski kompozitor, poznat po impresionističkoj glazbi, autor djela 'Preludij za poslijepodne jednog fauna'?",
+        "correct_answer": "Claude Debussy",
+        "incorrect_answers": [
+            "Maurice Ravel",
+            "Camille Saint-Saëns",
+            "Erik Satie"
+        ],
+        "explanation": "Debussy je jedan od najvažnijih predstavnika glazbenog impresionizma, poznat po inovativnoj harmoniji i orkestraciji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2326",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor drame 'Dubrovačka trilogija' i poetskog ciklusa 'Stari dani'?",
+        "correct_answer": "Ivo Vojnović",
+        "incorrect_answers": [
+            "Milan Ogrizović",
+            "Josip Kosor",
+            "Tito Strozzi"
+        ],
+        "explanation": "Vojnović je bio dramatičar i novelist, predstavnik hrvatske moderne, poznat po djelima inspiriranim Dubrovnikom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2327",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac, dobitnik Nobelove nagrade, autor serije romana 'U potrazi za izgubljenim vremenom', poznat po tehnici struje svijesti i analizi sjećanja?",
+        "correct_answer": "Marcel Proust",
+        "incorrect_answers": [
+            "André Gide",
+            "Jean Giono",
+            "Albert Camus"
+        ],
+        "explanation": "Proust je bio jedan od najvažnijih modernističkih pisaca, čije je djelo obilježeno introspekcijom i dubokom psihološkom analizom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2328",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana 'Priče iz davnine', zbirke bajki temeljenih na slavenskoj mitologiji?",
+        "correct_answer": "Ivana Brlić-Mažuranić",
+        "incorrect_answers": [
+            "Marija Jurić Zagorka",
+            "Jagoda Truhelka",
+            "Milka Pogačić"
+        ],
+        "explanation": "Ivana Brlić-Mažuranić jedna je od najpoznatijih hrvatskih književnica za djecu, često nazivana 'hrvatskim Andersenom'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
