@@ -5172,7 +5172,7 @@
     {
         "id": "hr_art_471",
         "category": "knjizevnost",
-        "question": "Kako se zove trenutno najviša zgrada na svijetu (828 m) smještena u Dubaiju, a koju je projektirao studio SOM?",
+        "question": "Kako se zove najviša zgrada na svijetu (828 m) smještena u Dubaiju, a koju je projektirao studio SOM?",
         "correct_answer": "Burj Khalifa",
         "incorrect_answers": [
             "Shanghai Tower",
@@ -5304,7 +5304,7 @@
     {
         "id": "hr_art_483",
         "category": "knjizevnost",
-        "question": "Kako se zove švedski pisac i nobelovac autor romana 'Divočovjek' (Barabbas) i 'Patuljak' (Dvärgen)?",
+        "question": "Kako se zove švedski pisac i nobelovac autor romana 'Barabbas' i 'Patuljak' (Dvärgen)?",
         "correct_answer": "Pär Lagerkvist",
         "incorrect_answers": [
             "Harry Martinson",
@@ -5524,7 +5524,7 @@
     {
         "id": "hr_art_503",
         "category": "knjizevnost",
-        "question": "Kako se zove britanska spisateljica autorica romana 'Ponos i predrasude'?",
+        "question": "Kako se zove britanska spisateljica, autorica romana 'Ponos i predrasude'?",
         "correct_answer": "Jane Austen",
         "incorrect_answers": [
             "Charlotte Brontë",
@@ -5623,7 +5623,7 @@
     {
         "id": "hr_art_512",
         "category": "knjizevnost",
-        "question": "Koja je slikovna tehnika karakteristična za italijanskog renesansnog slikara Leonarda da Vincija?",
+        "question": "Koja je slikovna tehnika karakteristična za talijanskog renesansnog slikara Leonarda da Vincija?",
         "correct_answer": "Sfumato",
         "incorrect_answers": [
             "Chiaroscuro",
@@ -5788,7 +5788,7 @@
     {
         "id": "hr_art_527",
         "category": "knjizevnost",
-        "question": "Koji je američki film redatelja Orson Wellesa iz 1941. godine smatran najvećim filmom svih vremena?",
+        "question": "Koji je američki film Orsona Wellesa iz 1941. godine smatran jednim od najvećih filmova svih vremena?",
         "correct_answer": "Citizen Kane",
         "incorrect_answers": [
             "The Magnificent Ambersons",
@@ -5810,10 +5810,10 @@
     {
         "id": "hr_art_529",
         "category": "knjizevnost",
-        "question": "Koji je hrvatski suvremeni skladatelj i osnivač Muzičkog biennala Zagreb?",
+        "question": "Koji je hrvatski skladatelj i osnivač Muzičkog biennala Zagreb?",
         "correct_answer": "Milko Kelemen",
         "incorrect_answers": [
-            "Ivo Robić",
+            "Stanko Horvat",
             "Frano Parać",
             "Petar Bergamo"
         ]
@@ -5876,12 +5876,12 @@
     {
         "id": "hr_art_535",
         "category": "knjizevnost",
-        "question": "Koji je britanski glazbenik bio jedan od osnivača benda 'The Beatles' i činio je polovinu čuvenog autorskog dvojca Lennon-McCartney?",
+        "question": "Koji je britanski glazbenik bio jedan od osnivača benda 'The Beatles' i uz Paula McCartneyja činio čuveni autorski dvojac Lennon-McCartney?",
         "correct_answer": "John Lennon",
         "incorrect_answers": [
-            "Paul McCartney",
             "George Harrison",
-            "Ringo Starr"
+            "Ringo Starr",
+            "Pete Best"
         ]
     },
     {
@@ -5931,7 +5931,7 @@
     {
         "id": "hr_art_540",
         "category": "knjizevnost",
-        "question": "Kako se zove američka redateljica, dobitnica Oscara za režiju filma 'Zemlja nomada' (Nomadland)?",
+        "question": "Kako se zove redateljica, dobitnica Oscara za režiju filma 'Zemlja nomada' (Nomadland)?",
         "correct_answer": "Chloé Zhao",
         "incorrect_answers": [
             "Ava DuVernay",
@@ -6052,7 +6052,7 @@
     {
         "id": "hr_art_552",
         "category": "knjizevnost",
-        "question": "Kako se zove američki redatelj poznat po 'Ulici zla' i 'Taksistu'?",
+        "question": "Kako se zove američki redatelj poznat po 'Opasnim ulicama' i 'Taksistu'?",
         "correct_answer": "Martin Scorsese",
         "incorrect_answers": [
             "Francis Ford Coppola",
@@ -6118,10 +6118,10 @@
     {
         "id": "hr_art_558",
         "category": "knjizevnost",
-        "question": "Kako se zove nizozemski redatelj poznat po 'Turskom voću' i 'Vojniku naranči'?",
+        "question": "Kako se zove nizozemski redatelj poznat po 'Turskom voću' i 'Vojniku naranče'?",
         "correct_answer": "Paul Verhoeven",
         "incorrect_answers": [
-            "Wim Wenders",
+            "Alex van Warmerdam",
             "Fons Rademakers",
             "Anton Corbijn"
         ]
@@ -6143,9 +6143,9 @@
         "question": "Kako se zove američka fotografkinja poznata po revolucionarnim tehnikama u fotografiji?",
         "correct_answer": "Berenice Abbott",
         "incorrect_answers": [
-            "Man Ray",
-            "André Kertész",
-            "Henri Cartier-Bresson"
+            "Dorothea Lange",
+            "Diane Arbus",
+            "Cindy Sherman"
         ]
     },
     {
@@ -6209,9 +6209,9 @@
         "question": "Kako se zove japanska konceptualna umjetnica i glazbenica, članica pokreta Fluxus i supruga Johna Lennona?",
         "correct_answer": "Yoko Ono",
         "incorrect_answers": [
-            "Ryoji Ikeda",
-            "Merzbow",
-            "Keiji Haino"
+            "Yayoi Kusama",
+            "Atsuko Tanaka",
+            "Seiko Mikami"
         ]
     },
     {
@@ -6243,8 +6243,8 @@
         "correct_answer": "Kraftwerk",
         "incorrect_answers": [
             "Tangerine Dream",
-            "Jean-Michel Jarre",
-            "Giorgio Moroder"
+            "Can",
+            "Neu!"
         ]
     },
     {
@@ -6448,7 +6448,7 @@
     {
         "id": "hr_art_588",
         "category": "knjizevnost",
-        "question": "Kako se zove francuska filozofkinja, književnica i teoretičarka poststrukturalističkog feminizma?",
+        "question": "Koja je francuska filozofkinja, književnica i teoretičarka poststrukturalističkog feminizma najpoznatija po konceptu 'ženskog pisma' (écriture féminine)?",
         "correct_answer": "Hélène Cixous",
         "incorrect_answers": [
             "Luce Irigaray",
@@ -6473,9 +6473,9 @@
         "question": "Koji je poljski redatelj stekao svjetsku slavu filmskom trilogijom 'Tri boje' (Plavo, Bijelo, Crveno) i serijalom 'Dekalog'?",
         "correct_answer": "Krzysztof Kieślowski",
         "incorrect_answers": [
-            "Jean-Luc Godard",
-            "François Truffaut",
-            "Claude Chabrol"
+            "Andrzej Wajda",
+            "Jerzy Kawalerowicz",
+            "Agnieszka Holland"
         ]
     },
     {
@@ -6485,14 +6485,14 @@
         "correct_answer": "Jane Austen",
         "incorrect_answers": [
             "Charlotte Brontë",
-            "Emily Dickinson",
+            "Elizabeth Gaskell",
             "George Eliot"
         ]
     },
     {
         "id": "hr_art_592",
         "category": "knjizevnost",
-        "question": "Kako se zove američka glazbenica poznata po jazzovskim i blues pjevanjima?",
+        "question": "Kako se zove američka glazbenica, poznata po jazzovskim i blues pjevanjima i potresnoj izvedbi pjesme 'Strange Fruit'?",
         "correct_answer": "Billie Holiday",
         "incorrect_answers": [
             "Ella Fitzgerald",
@@ -6508,7 +6508,7 @@
         "incorrect_answers": [
             "Miguel Littín",
             "Raúl Ruiz",
-            "Claudia Llosa"
+            "Silvio Caiozzi"
         ]
     },
     {
@@ -6519,7 +6519,7 @@
         "incorrect_answers": [
             "John Flaxman",
             "Bertel Thorvaldsen",
-            "James Wyatt"
+            "Jean-Antoine Houdon"
         ]
     },
     {
@@ -6528,15 +6528,15 @@
         "question": "Koji je američki pisac najpoznatiji po romanima za mlade kao što su 'Greška u našim zvijezdama' i 'Gradovi od papira'?",
         "correct_answer": "John Green",
         "incorrect_answers": [
-            "David Foster Wallace",
-            "George Saunders",
-            "Michael Chabon"
+            "Rick Riordan",
+            "Suzanne Collins",
+            "Veronica Roth"
         ]
     },
     {
         "id": "hr_art_596",
         "category": "knjizevnost",
-        "question": "Kako se zove njemački skladatelj poznat po filmskoj glazbi za brojne holivudske hitove?",
+        "question": "Kako se zove skladatelj poznat po filmskoj glazbi za brojne holivudske hitove?",
         "correct_answer": "Hans Zimmer",
         "incorrect_answers": [
             "John Williams",
@@ -6552,13 +6552,13 @@
         "incorrect_answers": [
             "Chantal Akerman",
             "Harry Kümel",
-            "Jaco Van Dormael"
+            "Stijn Coninx"
         ]
     },
     {
         "id": "hr_art_598",
         "category": "knjizevnost",
-        "question": "Kako se zove francuska filmska redateljica poznata po feministički usmjerenim radnjima?",
+        "question": "Kako se zove francuska filmska redateljica, pionirka Francuskog novog vala, poznata po feministički usmjerenim radnjama i filmovima poput 'Cléo od 5 do 7'?",
         "correct_answer": "Agnès Varda",
         "incorrect_answers": [
             "Claire Denis",
@@ -6591,7 +6591,7 @@
     {
         "id": "hr_art_601",
         "category": "knjizevnost",
-        "question": "Koji je britanski skladatelj najpoznatiji po iznimno uspješnim mjuziklima poput 'Fantoma u operi', 'Mačaka' i 'Evite'?",
+        "question": "Koji je skladatelj najpoznatiji po iznimno uspješnim mjuziklima poput 'Fantoma u operi', 'Mačaka' i 'Evite'?",
         "correct_answer": "Andrew Lloyd Webber",
         "incorrect_answers": [
             "Stephen Sondheim",
