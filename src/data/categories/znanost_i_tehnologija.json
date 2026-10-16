@@ -30445,5 +30445,560 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je temeljni zakon fizike koji opisuje silu privlačenja između bilo koja dva tijela s masom?",
+        "correct_answer": "Newtonov zakon univerzalne gravitacije",
+        "incorrect_answers": [
+            "Coulombov zakon",
+            "Hookeov zakon",
+            "Zakon očuvanja momenta"
+        ],
+        "explanation": "Isaac Newton je formulirao ovaj zakon koji kaže da je gravitacijska sila između dva objekta proporcionalna umnošku njihovih masa i obrnuto proporcionalna kvadratu udaljenosti među njima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji planet u našem Sunčevom sustavu ima najintenzivniji prstenasti sustav?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je najpoznatiji po svojim masivnim i spektakularnim prstenovima, koji su uglavnom sastavljeni od milijardi čestica leda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja je osnovna binarna znamenka (0 ili 1) koja čini najmanju jedinicu informacije u računalstvu?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Kilobajt",
+            "Megabajt"
+        ],
+        "explanation": "Bit je fundamentalna jedinica digitalne informacije, predstavljena s dvije moguće vrijednosti, obično 0 ili 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji se inženjerski materijal proizvodi miješanjem cementa, agregata (šljunka i pijeska) i vode, te se koristi u građevinarstvu?",
+        "correct_answer": "Beton",
+        "incorrect_answers": [
+            "Čelik",
+            "Drvo",
+            "Gips"
+        ],
+        "explanation": "Beton je široko korišten građevinski materijal, cijenjen zbog svoje čvrstoće, trajnosti i svestranosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koja je najvažnija komponenta u atmosferi koja apsorbira UV zračenje sa Sunca i štiti život na Zemlji?",
+        "correct_answer": "Ozon",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Ozonski omotač u stratosferi apsorbira većinu štetnog ultraljubičastog (UV) zračenja, sprječavajući ga da dođe do površine Zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji se naziv za poluvodički uređaj koji može pojačavati ili prekidati elektroničke signale i snagu?",
+        "correct_answer": "Tranzistor",
+        "incorrect_answers": [
+            "Otpornik",
+            "Dioda",
+            "Kondenzator"
+        ],
+        "explanation": "Tranzistori su ključne komponente moderne elektronike, omogućavajući minijaturizaciju i složenost integriranih krugova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje trodimenzionalnih objekata iz digitalnog dizajna sloj po sloj?",
+        "correct_answer": "3D ispis",
+        "incorrect_answers": [
+            "Lasersko rezanje",
+            "CNC obrada",
+            "Injekcijsko prešanje"
+        ],
+        "explanation": "3D ispis, poznat i kao aditivna proizvodnja, omogućuje stvaranje složenih oblika iz raznih materijala, dodavanjem materijala sloj po sloj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na sustav mjerenja koji se temelji na decimalnom sustavu i standardiziranim jedinicama poput metra, kilograma i sekunde?",
+        "correct_answer": "Metrički sustav",
+        "incorrect_answers": [
+            "Imperijalni sustav",
+            "Binarni sustav",
+            "Anglosaksonski sustav"
+        ],
+        "explanation": "Metrički sustav je globalno prihvaćen sustav mjernih jedinica, poznat po svojoj jednostavnosti i koherentnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu disciplinu koja proučava uzajamne odnose između živih organizama i njihove okoline?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Biogeografija",
+            "Taksonomija",
+            "Genetika"
+        ],
+        "explanation": "Ekologija istražuje kako organizmi međusobno djeluju i kako su prilagođeni svom fizičkom okolišu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji se dio računala smatra \"mozgom\" sustava, odgovornim za izvršavanje instrukcija i obradu podataka?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Radna memorija (RAM)",
+            "Grafička procesorska jedinica (GPU)",
+            "Disk za pohranu"
+        ],
+        "explanation": "CPU obavlja većinu izračuna i kontrolira rad cijelog računala, obrađujući podatke i izvršavajući programske instrukcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji se teleskop koristi za promatranje objekata koji emitiraju rendgenske zrake u svemiru?",
+        "correct_answer": "Rendgenski teleskop (npr. Chandra)",
+        "incorrect_answers": [
+            "Optički teleskop",
+            "Radio teleskop",
+            "Infracrveni teleskop"
+        ],
+        "explanation": "Rendgenski teleskopi dizajnirani su za detekciju visokoenergetskih rendgenskih zraka koje emitiraju ekstremni svemirski objekti, a koje Zemljina atmosfera apsorbira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja fizikalna veličina mjeri otpor protoku električne struje u krugu?",
+        "correct_answer": "Električni otpor",
+        "incorrect_answers": [
+            "Električna snaga",
+            "Električni napon",
+            "Električna energija"
+        ],
+        "explanation": "Električni otpor, mjeren u omima, je svojstvo materijala da se suprotstavlja protoku elektrona kroz sebe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji element je najzastupljeniji u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Dušik (N2) čini približno 78% Zemljine atmosfere, dok kisik čini oko 21%.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja kemijska veza nastaje potpunim prijenosom elektrona između atoma, obično metala i nemetala?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje privlačenjem suprotno nabijenih iona, koji su nastali prijenosom elektrona s jednog atoma na drugi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji se polimer koristi za izradu prozirnih boca za piće i sintetičkih vlakana, poznat po kratrici PET?",
+        "correct_answer": "Polietilen tereftalat",
+        "incorrect_answers": [
+            "Polivinil klorid",
+            "Polipropilen",
+            "Polietilen"
+        ],
+        "explanation": "PET je široko korištena termoplastika, često reciklirana, koja se koristi za ambalažu hrane i pića te za tekstilna vlakna.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja vrsta krvnih stanica prenosi kisik kroz tijelo?",
+        "correct_answer": "Eritrociti (crvene krvne stanice)",
+        "incorrect_answers": [
+            "Leukociti",
+            "Trombociti",
+            "Limfociti"
+        ],
+        "explanation": "Eritrociti sadrže hemoglobin, protein koji veže kisik u plućima i otpušta ga u tkivima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je organ u ljudskom tijelu odgovoran za detoksikaciju krvi, proizvodnju žuči i sintezu proteina?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Bubrezi",
+            "Gušterača",
+            "Slezena"
+        ],
+        "explanation": "Jetra obavlja preko 500 vitalnih funkcija, uključujući metabolizam, skladištenje hranjivih tvari i pročišćavanje krvi od toksina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je naziv za skup svih gena u nekom organizmu?",
+        "correct_answer": "Genom",
+        "incorrect_answers": [
+            "Kromosom",
+            "Genotip",
+            "Fenotip"
+        ],
+        "explanation": "Genom predstavlja cjelokupan genetski materijal organizma, uključujući sve gene i nekodirajuće sekvence.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji je pojam za softver koji se distribuira besplatno, ali čiji izvorni kod nije nužno dostupan za izmjene?",
+        "correct_answer": "Freeware",
+        "incorrect_answers": [
+            "Open-source",
+            "Shareware",
+            "Proprietary software"
+        ],
+        "explanation": "Freeware je besplatan softver, ali korisnici obično ne smiju mijenjati, prodavati ili obrnuto inženjerirati njegov kod.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koja mrežna topologija povezuje sve uređaje s jednim centralnim čvorom (hubom ili switchom)?",
+        "correct_answer": "Zvjezdasta topologija",
+        "incorrect_answers": [
+            "Prstenasta topologija",
+            "Sabirnička topologija",
+            "Mrežna topologija"
+        ],
+        "explanation": "U zvjezdastoj topologiji, ako centralni čvor zakaže, cijela mreža prestaje funkcionirati, ali kvar jednog uređaja ne utječe na ostale.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za opisivanje internetskih usluga i aplikacija koje se temelje na interaktivnosti, suradnji i dijeljenju sadržaja među korisnicima?",
+        "correct_answer": "Web 2.0",
+        "incorrect_answers": [
+            "Web 1.0",
+            "Web 3.0",
+            "Internet of Things"
+        ],
+        "explanation": "Web 2.0 označava drugu generaciju web usluga, fokusiranu na korisnički generiran sadržaj, društvene mreže i interaktivne aplikacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija GPU-a (Graphics Processing Unit) u računalu?",
+        "correct_answer": "Prikazivanje grafike i paralelna obrada",
+        "incorrect_answers": [
+            "Pohrana podataka",
+            "Izvršavanje osnovnih operacija",
+            "Mrežna komunikacija"
+        ],
+        "explanation": "GPU je specijaliziran za brzo manipuliranje i mijenjanje memorije za stvaranje slika, ključan za igre i paralelne računalne zadatke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji se kemijski spoj glavni sastojak kisele kiše, nastao reakcijom dušikovih oksida i sumpornih dioksida s vodom u atmosferi?",
+        "correct_answer": "Sumporna kiselina i Dušična kiselina",
+        "incorrect_answers": [
+            "Klorovodična kiselina",
+            "Octena kiselina",
+            "Ugljična kiselina"
+        ],
+        "explanation": "Sumporni dioksid i dušikovi oksidi, uglavnom izgaranjem fosilnih goriva, reagiraju s vodom i kisikom u atmosferi tvoreći ove kiseline.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji se termin koristi u genetici za opisivanje alternativnih oblika gena koji se nalaze na istom mjestu (lokusu) na kromosomu?",
+        "correct_answer": "Alel",
+        "incorrect_answers": [
+            "Kodon",
+            "Centromer",
+            "Mutacija"
+        ],
+        "explanation": "Aleli određuju različite osobine, poput boje očiju ili krvne grupe, i mogu biti dominantni ili recesivni.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za stvaranje virtualnog okruženja koje simulira stvarno okruženje ili potpuno novo, imaginarno okruženje, najčešće putem kacige?",
+        "correct_answer": "Virtualna stvarnost (VR)",
+        "incorrect_answers": [
+            "Proširena stvarnost (AR)",
+            "Mješovita stvarnost (MR)",
+            "Holografija"
+        ],
+        "explanation": "Virtualna stvarnost potpuno uranja korisnika u digitalno okruženje, često s interaktivnim elementima, blokirajući stvarni svijet.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji se fenomen javlja kada se svjetlost raspršuje u malim česticama u atmosferi, uzrokujući da nebo izgleda plavo?",
+        "correct_answer": "Rayleighovo raspršenje",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Refrakcija",
+            "Polarizacija"
+        ],
+        "explanation": "Rayleighovo raspršenje preferira raspršivanje kraćih valnih duljina (plave) svjetlosti, što objašnjava zašto nebo danju izgleda plavo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na postupak kojim se zagađivači uklanjaju iz vode ili tla pomoću živih organizama, poput bakterija ili biljaka?",
+        "correct_answer": "Bioremedijacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Destilacija",
+            "Incineracija"
+        ],
+        "explanation": "Bioremedijacija koristi prirodne biološke procese za razgradnju ili neutralizaciju štetnih tvari u okolišu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se pojam za fenomen u kojem se ponašanje čestica na kvantnoj razini mijenja kada se promatraju ili mjere?",
+        "correct_answer": "Efekt promatrača (u kvantnoj fizici)",
+        "incorrect_answers": [
+            "Heisenbergovo načelo neodređenosti",
+            "Valno-čestični dualizam",
+            "Kvantna sprega"
+        ],
+        "explanation": "Efekt promatrača opisuje kako sam čin promatranja može utjecati na stanje sustava, posebno na kvantnoj razini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji je pojam za smanjenje ili gubitak bioraznolikosti u ekosustavu?",
+        "correct_answer": "Izumiranje vrsta",
+        "incorrect_answers": [
+            "Specijacija",
+            "Sukcesija",
+            "Migracija"
+        ],
+        "explanation": "Izumiranje vrsta odnosi se na nestanak cijele vrste, što značajno smanjuje bioraznolikost planeta, često zbog ljudskog utjecaja ili promjene okoliša.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se fizički princip odnosi na činjenicu da dva elektrona u atomu ne mogu istovremeno imati identičan skup kvantnih brojeva?",
+        "correct_answer": "Paulijev princip isključenja",
+        "incorrect_answers": [
+            "Hundovo pravilo",
+            "Aufbau princip",
+            "Bohr-Sommerfeldov model"
+        ],
+        "explanation": "Paulijev princip isključenja objašnjava strukturu elektronskih ljuski i zašto se atomi sastoje od mnogo elektrona koji zauzimaju različita stanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koja je najudaljenija galaksija koju su znanstvenici do sada (stanje 2024.) otkrili i potvrdili, zahvaljujući svemirskom teleskopu James Webb?",
+        "correct_answer": "JADES-GS-z14-0",
+        "incorrect_answers": [
+            "Andromeda",
+            "Mliječna staza",
+            "Triangulum"
+        ],
+        "explanation": "JADES-GS-z14-0 je najudaljenija poznata galaksija, promatrana kada je svemir bio star samo oko 290 milijuna godina, što nam daje uvid u rani svemir. (Stanje 2024.)",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je pojam u biologiji koji opisuje proces stjecanja novih informacija ili vještina kroz iskustvo ili učenje, što rezultira promjenom ponašanja?",
+        "correct_answer": "Plasticitet mozga (ili neuralni plasticitet)",
+        "incorrect_answers": [
+            "Refleks",
+            "Instinkt",
+            "Homeostaza"
+        ],
+        "explanation": "Plasticitet mozga odnosi se na sposobnost mozga da se restrukturira i mijenja tijekom života kao odgovor na iskustva, učenje i ozljede.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja je primarna razlika između LED (Light Emitting Diode) i klasične žarulje sa žarnom niti u načinu proizvodnje svjetlosti?",
+        "correct_answer": "LED emitira svjetlost prolaskom struje kroz poluvodič, dok žarulja koristi zagrijanu žarnu nit.",
+        "incorrect_answers": [
+            "LED koristi plin pod naponom, žarulja zagrijani metal",
+            "LED koristi kemijsku reakciju, žarulja električni luk",
+            "LED reflektira svjetlost, žarulja je emitira"
+        ],
+        "explanation": "LED diode koriste elektroluminiscenciju u poluvodičima, dok žarulje sa žarnom niti proizvode svjetlost termalnim zračenjem zagrijane volframove niti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji je temeljni pojam u robotici koji se odnosi na sposobnost robota da interpretira i razumije svoje okruženje putem senzora?",
+        "correct_answer": "Percepcija",
+        "incorrect_answers": [
+            "Kinematika",
+            "Dinamika",
+            "Aktuacija"
+        ],
+        "explanation": "Percepcija omogućuje robotu da prikuplja podatke iz okoline i formira model svijeta, ključno za autonomno djelovanje i navigaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji se pojam koristi u informatici za opisivanje situacije kada program ili sustav ne reagira zbog beskonačnog čekanja na resurs ili odgovor koji nikada neće doći?",
+        "correct_answer": "Deadlock (mrtva blokada)",
+        "incorrect_answers": [
+            "Memory leak",
+            "Stack overflow",
+            "Race condition"
+        ],
+        "explanation": "Deadlock nastaje kada dva ili više procesa čekaju jedan na drugog da oslobode resurs koji im je potreban, što dovodi do pat-pozicije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kod materijala koji gube sav električni otpor kada se ohlade ispod određene kritične temperature?",
+        "correct_answer": "Supravodljivost",
+        "incorrect_answers": [
+            "Poluvodljivost",
+            "Izolacija",
+            "Rezistencija"
+        ],
+        "explanation": "Supravodljivost omogućuje prijenos električne energije bez gubitaka, ali zahtijeva ekstremno niske temperature za većinu poznatih materijala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji je pojam u biologiji za proces u kojem bakterije pretvaraju atmosferski dušik u amonijak, oblik koji biljke mogu koristiti?",
+        "correct_answer": "Fiksacija dušika",
+        "incorrect_answers": [
+            "Denitrifikacija",
+            "Nitrifikacija",
+            "Amonifikacija"
+        ],
+        "explanation": "Fiksacija dušika je ključni dio dušikovog ciklusa, esencijalan za opskrbu biljaka dušikom potrebnim za rast.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
