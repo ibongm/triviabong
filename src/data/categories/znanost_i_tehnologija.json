@@ -30445,5 +30445,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja je osnovna sila odgovorna za držanje atomskih jezgri na okupu?",
+        "correct_answer": "Jaka nuklearna sila",
+        "incorrect_answers": [
+            "Slaba nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ],
+        "explanation": "Jaka nuklearna sila, poznata i kao jaka interakcija, je najjača od četiri fundamentalne sile prirode i drži protone i neutrone unutar jezgre atoma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Što je skraćenica CPU u računalstvu?",
+        "correct_answer": "Centralna procesorska jedinica",
+        "incorrect_answers": [
+            "Centralna programska jedinica",
+            "Kompjuterska procesorska jedinica",
+            "Kontrolna programska jedinica"
+        ],
+        "explanation": "CPU je skraćenica za \"Central Processing Unit\" i predstavlja mozak računala, odgovoran za izvršavanje instrukcija i obradu podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji je pH neutralne otopine pri 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine. Vrijednost 7 označava neutralnu otopinu pri standardnim uvjetima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja je zvijezda najbliža Zemlji, ne računajući Sunce?",
+        "correct_answer": "Proxima Centauri",
+        "incorrect_answers": [
+            "Alfa Centauri",
+            "Sirius",
+            "Vega"
+        ],
+        "explanation": "Proxima Centauri je dio sustava Alfa Centauri i najbliža je zvijezda našem Suncu, udaljena oko 4,2 svjetlosne godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koja je najzastupljenija komponenta Zemljine atmosfere?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Dušik čini približno 78% Zemljine atmosfere, dok je kisik drugi po zastupljenosti s oko 21%.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji fizički zakon opisuje da svako djelovanje ima jednaku i suprotnu reakciju?",
+        "correct_answer": "Newtonov treći zakon gibanja",
+        "incorrect_answers": [
+            "Newtonov prvi zakon gibanja",
+            "Newtonov drugi zakon gibanja",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Treći Newtonov zakon gibanja, poznat kao zakon akcije i reakcije, objašnjava da za svaku silu (akciju) postoji jednaka i suprotna sila (reakcija).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja vrsta pohrane podataka gubi svoj sadržaj kada se isključi napajanje računala?",
+        "correct_answer": "RAM (Radna memorija)",
+        "incorrect_answers": [
+            "Hard disk",
+            "SSD",
+            "USB stick"
+        ],
+        "explanation": "RAM (Random Access Memory) je volatilna memorija, što znači da zadržava podatke samo dok je računalo uključeno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji je primarni pigment odgovoran za apsorpciju svjetlosti tijekom fotosinteze?",
+        "correct_answer": "Klorofil",
+        "incorrect_answers": [
+            "Karoten",
+            "Antocijan",
+            "Ksantofil"
+        ],
+        "explanation": "Klorofil je zeleni pigment prisutan u kloroplastima biljaka i algi, ključan za apsorpciju sunčeve svjetlosti i pokretanje fotosinteze.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja kemijska veza uključuje potpunu donaciju i prihvaćanje elektrona, obično između metala i nemetala?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Vodikova veza",
+            "Metalna veza"
+        ],
+        "explanation": "Ionska veza nastaje potpunim prijenosom elektrona s atoma metala na atom nemetala, stvarajući pozitivne i negativne ione koji se privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja teorija opisuje nastanak Svemira iz singulariteta prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija kontrakcije Svemira",
+            "Teorija pulsirajućeg Svemira"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model koji objašnjava rani razvoj Svemira od ekstremno guste i vruće točke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji je plin u atmosferi primarni uzrok efekta staklenika i globalnog zatopljenja?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Argon"
+        ],
+        "explanation": "Ugljikov dioksid je najznačajniji antropogeni staklenički plin koji apsorbira i zrači toplinu, doprinoseći globalnom zagrijavanju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja žlijezda proizvodi hormon inzulin, ključan za regulaciju šećera u krvi?",
+        "correct_answer": "Gušterača (Pankreas)",
+        "incorrect_answers": [
+            "Štitnjača",
+            "Nadbubrežna žlijezda",
+            "Hipofiza"
+        ],
+        "explanation": "Gušterača je endokrina žlijezda koja proizvodi inzulin, hormon neophodan za ulazak glukoze iz krvi u stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Što je jedinica za električnu snagu?",
+        "correct_answer": "Vat (Watt)",
+        "incorrect_answers": [
+            "Amper",
+            "Volt",
+            "Om"
+        ],
+        "explanation": "Vat je SI izvedena jedinica za snagu, jednaka jednom džulu u sekundi, a koristi se za mjerenje brzine prijenosa energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji je glavni protokol za prijenos web stranica preko interneta?",
+        "correct_answer": "HTTP (Hypertext Transfer Protocol)",
+        "incorrect_answers": [
+            "FTP (File Transfer Protocol)",
+            "SMTP (Simple Mail Transfer Protocol)",
+            "TCP (Transmission Control Protocol)"
+        ],
+        "explanation": "HTTP je aplikacijski protokol za distribuirane, kolaborativne, hipermedijske informacijske sustave, temelj komunikacije na webu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja stanična organela je odgovorna za pakiranje i modificiranje proteina i lipida za izlučivanje ili dostavu drugim organelama?",
+        "correct_answer": "Golgijev aparat",
+        "incorrect_answers": [
+            "Endoplazmatski retikulum",
+            "Lizosom",
+            "Vakuola"
+        ],
+        "explanation": "Golgijev aparat (ili Golgijev kompleks) je mreža membrana koja prima proteine i lipide s endoplazmatskog retikuluma, modificira ih i pakira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se tekućina zagrijava do vrelišta, a zatim se para hladi i kondenzira natrag u tekućinu, često radi pročišćavanja?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Kristalizacija",
+            "Sedimentacija"
+        ],
+        "explanation": "Destilacija je fizikalna metoda razdvajanja smjesa koja se temelji na različitim vrelištima komponenti tekućine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja je najveća planeta u našem Sunčevom sustavu?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Jupiter je plinoviti div, daleko najveći planet u Sunčevom sustavu, s masom više od dvostruko većom od svih ostalih planeta zajedno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Što uzrokuje većinu potresa na Zemlji?",
+        "correct_answer": "Pomicanje tektonskih ploča",
+        "incorrect_answers": [
+            "Vulkanizam",
+            "Meteoritski udari",
+            "Gravitacijsko privlačenje Mjeseca"
+        ],
+        "explanation": "Potresi su uglavnom rezultat naglog oslobađanja energije u Zemljinoj kori, uzrokovanog pomicanjem i sudaranjem litosfernih ploča.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Što opisuje Boyleov zakon u fizici?",
+        "correct_answer": "Volumen i tlak idealnog plina su obrnuto proporcionalni pri konstantnoj temperaturi.",
+        "incorrect_answers": [
+            "Volumen plina je proporcionalan temperaturi pri konstantnom tlaku",
+            "Tlak plina je proporcionalan temperaturi pri konstantnom volumenu",
+            "Energija se ne može stvoriti ni uništiti"
+        ],
+        "explanation": "Boyleov zakon (ili Mariotteov zakon) je zakon o plinovima koji kaže da za fiksnu količinu idealnog plina pri konstantnoj temperaturi, tlak i volumen su obrnuto proporcionalni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja jedinica digitalne informacije?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Kilobajt",
+            "Megabajt"
+        ],
+        "explanation": "Bit je osnovna jedinica informacije u računarstvu i teoriji informacija, koja može imati samo dvije vrijednosti, obično 0 ili 1.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim biljke ispuštaju vodenu paru kroz male otvore na listovima?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Disanje",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz biljnih listova, uglavnom kroz stomate, što pomaže u transportu vode i hranjivih tvari kroz biljku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se zove proces u kojem tvar izravno prelazi iz plinovitog u kruto stanje, bez prolaska kroz tekuću fazu?",
+        "correct_answer": "Desublimacija (ili Depozicija)",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kondenzacija",
+            "Talište"
+        ],
+        "explanation": "Desublimacija je termodinamički proces u kojem plin prelazi izravno u kruto stanje, preskačući tekuću fazu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji je tip galaksije najčešći u svemiru, karakteriziran eliptičnim oblikom i malim udjelom plina i prašine?",
+        "correct_answer": "Eliptična galaksija",
+        "incorrect_answers": [
+            "Spiralna galaksija",
+            "Nepravilna galaksija",
+            "Lećasta galaksija"
+        ],
+        "explanation": "Eliptične galaksije sastoje se uglavnom od starijih zvijezda, imaju malo plina i prašine te se smatraju najstarijim tipom galaksija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je najčešći mineral na Zemljinoj površini?",
+        "correct_answer": "Kvarc",
+        "incorrect_answers": [
+            "Kalcit",
+            "Dijamant",
+            "Gips"
+        ],
+        "explanation": "Kvarc (silicijev dioksid) je jedan od najrasprostranjenijih minerala u Zemljinoj kori, prisutan u mnogim vrstama stijena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se naziva stanje kada bakterije ili drugi mikroorganizmi razviju otpornost na lijekove koji su ih nekad ubijali ili inhibirali njihov rast?",
+        "correct_answer": "Antimikrobna rezistencija",
+        "incorrect_answers": [
+            "Alergija",
+            "Toksičnost",
+            "Autoimuna bolest"
+        ],
+        "explanation": "Antimikrobna rezistencija je sposobnost mikroorganizama da prežive i množe se unatoč prisutnosti antimikrobnih lijekova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koja vrsta zračenja se sastoji od visokoenergetskih fotona i emitira se tijekom nuklearnih raspada?",
+        "correct_answer": "Gama zračenje",
+        "incorrect_answers": [
+            "Alfa zračenje",
+            "Beta zračenje",
+            "Rendgensko zračenje"
+        ],
+        "explanation": "Gama zračenje je oblik elektromagnetskog zračenja visokog energetska, koje se oslobađa iz atomskih jezgri tijekom nuklearnih procesa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja je svrha firewall-a u računalnim mrežama?",
+        "correct_answer": "Filtriranje mrežnog prometa i zaštita od neovlaštenog pristupa.",
+        "incorrect_answers": [
+            "Povećanje brzine interneta",
+            "Pohrana podataka",
+            "Pisanje programskog koda"
+        ],
+        "explanation": "Firewall (vatrozid) je sustav mrežne sigurnosti koji kontrolira dolazni i odlazni promet na temelju unaprijed definiranih sigurnosnih pravila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva osnovna jedinica nasljeđivanja koja nosi genetske informacije s roditelja na potomstvo?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Nukleotid",
+            "Aminokiselina"
+        ],
+        "explanation": "Gen je segment DNA (ili RNA kod nekih virusa) koji sadrži upute za sintezu specifičnog proteina ili funkcionalne RNA molekule.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koja je približna starost Svemira prema trenutnim kozmološkim modelima (stanje 2024.)?",
+        "correct_answer": "13,8 milijardi godina",
+        "incorrect_answers": [
+            "4,5 milijardi godina",
+            "65 milijuna godina",
+            "1 milijarda godina"
+        ],
+        "explanation": "Trenutni znanstveni konsenzus, temeljen na mjerenjima i opažanjima, procjenjuje starost Svemira na oko 13,8 milijardi godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Kako se naziva proces kruženja vode u prirodi, uključujući isparavanje, kondenzaciju i oborine?",
+        "correct_answer": "Hidrološki ciklus",
+        "incorrect_answers": [
+            "Ciklus ugljika",
+            "Ciklus dušika",
+            "Atmosferski ciklus"
+        ],
+        "explanation": "Hidrološki ciklus, ili ciklus vode, opisuje kontinuirano kretanje vode iznad i ispod površine Zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji se organ smatra 'glavnim organom za detoksikaciju' u ljudskom tijelu?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Bubrezi",
+            "Pluća",
+            "Želudac"
+        ],
+        "explanation": "Jetra ima ključnu ulogu u metabolizmu, sintezi proteina i detoksikaciji štetnih tvari, pretvarajući ih u spojeve koje tijelo može izlučiti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj se svjetlost sastoji od čestica zvanih fotoni, što je temelj kvantne teorije svjetlosti?",
+        "correct_answer": "Dualizam val-čestica",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Interferencija",
+            "Refrakcija"
+        ],
+        "explanation": "Dualizam val-čestica je koncept u kvantnoj mehanici koji govori da sve čestice (uključujući fotone) pokazuju svojstva i valova i čestica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Što je algoritam u računalstvu?",
+        "correct_answer": "Skup jasno definiranih uputa za rješavanje problema.",
+        "incorrect_answers": [
+            "Vrsta programskog jezika",
+            "Fizička komponenta računala",
+            "Vrsta datoteke"
+        ],
+        "explanation": "Algoritam je konačan niz dobro definiranih, neambicioznih, računalno implementabilnih uputa, obično za rješavanje klase problema ili za obavljanje izračuna.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koja je znanost o proučavanju odnosa živih organizama i njihovog okoliša?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Biologija",
+            "Geologija",
+            "Meteorologija"
+        ],
+        "explanation": "Ekologija je znanstvena disciplina koja proučava interakcije između organizama i njihove okoline, uključujući i žive (biotičke) i nežive (abiotičke) komponente.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji element ima atomski broj 6?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Bor"
+        ],
+        "explanation": "Atomski broj elementa definira broj protona u jezgri atoma. Ugljik ima 6 protona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Kako se naziva tehnološki proces koji omogućuje stvaranje trodimenzionalnih fizičkih objekata iz digitalnog modela?",
+        "correct_answer": "3D ispis (Aditivna proizvodnja)",
+        "incorrect_answers": [
+            "CNC obrada",
+            "Lasersko rezanje",
+            "Injekcijsko prešanje"
+        ],
+        "explanation": "3D ispis je proces stvaranja trodimenzionalnog objekta iz CAD modela, postupnim dodavanjem materijala, sloj po sloj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
