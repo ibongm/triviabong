@@ -9364,9 +9364,9 @@
         "id": "hr_geo_852",
         "category": "geografija",
         "question": "U kojoj se državi nalazi veći dio pustinje Gobi?",
-        "correct_answer": "Mongolija",
+        "correct_answer": "Kina",
         "incorrect_answers": [
-            "Kina",
+            "Mongolija",
             "Kazahstan",
             "Uzbekistan"
         ]
@@ -9407,7 +9407,7 @@
     {
         "id": "hr_geo_856",
         "category": "geografija",
-        "question": "Koje je najveće plovno jezero na svijetu po nadmorskoj visini, smješteno između Perua i Bolivije?",
+        "question": "Koje je najveće plovno jezero na svijetu po nadmorskoj visini?",
         "correct_answer": "Jezero Titicaca",
         "incorrect_answers": [
             "Jezero Poopó",
@@ -9495,7 +9495,7 @@
     {
         "id": "hr_geo_864",
         "category": "geografija",
-        "question": "Koja država ima najveći broj kopnenih susjeda na svijetu, dijeleći tu titulu s Rusijom?",
+        "question": "Koja država ima najveći broj kopnenih susjeda na svijetu?",
         "correct_answer": "Kina",
         "incorrect_answers": [
             "Rusija",
@@ -9715,7 +9715,7 @@
     {
         "id": "hr_geo_884",
         "category": "geografija",
-        "question": "Koji planinski masiv sadrži vrh Mont Blanc, najviši vrh Alpa?",
+        "question": "U kojem se planinskom masivu nalazi Mont Blanc, najviši vrh zapadne Europe?",
         "correct_answer": "Alpe",
         "incorrect_answers": [
             "Pirineji",
@@ -9902,7 +9902,7 @@
     {
         "id": "hr_geo_904",
         "category": "geografija",
-        "question": "Koje su planine u Brazilu poznate po svojoj bioraznolikosti i prekrasnim krajolicima, koje se protežu duž istočne obale?",
+        "question": "Koje se planine u Brazilu, poznate po bioraznolikosti i prekrasnim krajolicima, protežu duž istočne obale?",
         "correct_answer": "Serra do Mar",
         "incorrect_answers": [
             "Andi",
@@ -9990,7 +9990,7 @@
     {
         "id": "hr_geo_912",
         "category": "geografija",
-        "question": "Koji je jedini glavni grad na svijetu koji je službeno priznat kao prijestolnica dviju država (Izraela i Palestine)?",
+        "question": "Koji grad i Izrael i Palestina smatraju svojom prijestolnicom, iako je njegov status predmet međunarodnog spora?",
         "correct_answer": "Jeruzalem",
         "incorrect_answers": [
             "Berlin",
@@ -10045,7 +10045,7 @@
     {
         "id": "hr_geo_918",
         "category": "geografija",
-        "question": "Koja pustinja je poznata kao \"Velika pješčana pustinja\" i nalazi se u Australiji?",
+        "question": "Koja se prostrana pustinja, poznata po svojim pješčanim dinama i crvenom pijesku, nalazi u sjeverozapadnom dijelu Australije?",
         "correct_answer": "Velika pješčana pustinja",
         "incorrect_answers": [
             "Gibsonova pustinja",
@@ -10089,7 +10089,7 @@
     {
         "id": "hr_geo_922",
         "category": "geografija",
-        "question": "Koja je najduža građevina na svijetu, vidljiva iz svemira?",
+        "question": "Koja je najduža građevina na svijetu?",
         "correct_answer": "Veliki kineski zid",
         "incorrect_answers": [
             "Piramide u Gizi",
@@ -10287,7 +10287,7 @@
     {
         "id": "hr_geo_944",
         "category": "geografija",
-        "question": "Kako se zove poznata stijenska formacija u zaljevu San Francisca, nekadašnji zatvor?",
+        "question": "Kako se zove poznati otočić u zaljevu San Francisca, nekadašnji zatvor?",
         "correct_answer": "Alcatraz",
         "incorrect_answers": [
             "Ellis Island",
@@ -10496,12 +10496,12 @@
     {
         "id": "hr_geo_967",
         "category": "geografija",
-        "question": "Koja planina dijeli azijski i europski kontinent?",
+        "question": "Koji planinski lanac tradicionalno označava granicu između europskog i azijskog kontinenta?",
         "correct_answer": "Ural",
         "incorrect_answers": [
-            "Kavkaz",
             "Karpati",
-            "Alpe"
+            "Alpe",
+            "Pireneji"
         ]
     },
     {
@@ -10587,9 +10587,9 @@
         "question": "Koja država graniči s najviše drugih država?",
         "correct_answer": "Kina",
         "incorrect_answers": [
-            "Rusija",
             "SAD",
-            "Indija"
+            "Indija",
+            "Kanada"
         ]
     },
     {
@@ -10628,7 +10628,7 @@
     {
         "id": "hr_geo_985",
         "category": "geografija",
-        "question": "Koja je najnaseljenija urbana aglomeracija na svijetu?",
+        "question": "Koja je najnaseljenija urbana aglomeracija na svijetu (prema podacima za 2022. godinu)?",
         "correct_answer": "Tokio",
         "incorrect_answers": [
             "Delhi",
@@ -10661,7 +10661,7 @@
     {
         "id": "hr_geo_991",
         "category": "geografija",
-        "question": "Koji je poznati koraljni greben smješten u blizini obale Belizea?",
+        "question": "Koji se poznati koraljni greben smatra drugim najvećim barijernim grebenom na svijetu?",
         "correct_answer": "Belize Barrier Reef",
         "incorrect_answers": [
             "Florida Reef",
@@ -10837,7 +10837,7 @@
     {
         "id": "hr_geo_1014",
         "category": "geografija",
-        "question": "Koji tjesnac povezuje Tihi ocean i Indijski ocean između Azije i Australije?",
+        "question": "Koji tjesnac povezuje Tihi ocean i Indijski ocean, strateški važan za brodski promet u jugoistočnoj Aziji?",
         "correct_answer": "Malajski tjesnac",
         "incorrect_answers": [
             "Sundski tjesnac",
@@ -10925,7 +10925,7 @@
     {
         "id": "hr_geo_1024",
         "category": "geografija",
-        "question": "Kako se zove najveći kanjon na svijetu, smješten u Arizoni, SAD?",
+        "question": "Kako se zove najveći kanjon u Sjedinjenim Američkim Državama, smješten u Arizoni?",
         "correct_answer": "Grand Canyon",
         "incorrect_answers": [
             "Fish River Canyon",
