@@ -30899,5 +30899,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koje je godine službeno osnovan Rim kao grad prema legendi?",
+        "correct_answer": "753. pr. Kr.",
+        "incorrect_answers": [
+            "509. pr. Kr.",
+            "44. pr. Kr.",
+            "330. n. e."
+        ],
+        "explanation": "Prema legendi, Rim su osnovali Romul i Rem 21. travnja 753. godine prije Krista.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Koji je antički narod poznat po izgradnji piramida kao grobnica za faraone?",
+        "correct_answer": "Egipćani",
+        "incorrect_answers": [
+            "Mezopotamci",
+            "Grci",
+            "Rimljani"
+        ],
+        "explanation": "Stari Egipćani su gradili monumentalne piramide, koje su služile kao grobnice za njihove faraone i plemstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Koji je vođa mongolskog carstva u 13. stoljeću stvorio najveće kopneno carstvo u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Kublaj-kan",
+            "Timur",
+            "Atila"
+        ],
+        "explanation": "Džingis-kan je ujedinio mongolska plemena i pokrenuo osvajanja koja su stvorila golemo carstvo, protežući se kroz Aziju i Europu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koji je francuski car 1804. godine okrunio sam sebe za cara Francuza?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Luj XIV.",
+            "Karlo Veliki",
+            "Robespierre"
+        ],
+        "explanation": "Napoleon Bonaparte se 1804. proglasio carem Francuza, čime je Francuska postala carstvo nakon revolucionarnog razdoblja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koje je godine pao Zapadno Rimsko Carstvo, tradicionalno označavajući kraj antike?",
+        "correct_answer": "476. n. e.",
+        "incorrect_answers": [
+            "395. n. e.",
+            "1453. n. e.",
+            "410. n. e."
+        ],
+        "explanation": "Zapadno Rimsko Carstvo palo je 476. godine n.e. kada je germanski vojskovođa Odoakar svrgnuo cara Romula Augustula.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Tko je bio autor Deklaracije o neovisnosti Sjedinjenih Američkih Država?",
+        "correct_answer": "Thomas Jefferson",
+        "incorrect_answers": [
+            "George Washington",
+            "Benjamin Franklin",
+            "John Adams"
+        ],
+        "explanation": "Thomas Jefferson bio je glavni autor Deklaracije o neovisnosti SAD-a, koja je usvojena 4. srpnja 1776. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje velikog kulturnog i umjetničkog procvata u Europi, koje je uslijedilo nakon srednjeg vijeka?",
+        "correct_answer": "Renesansa",
+        "incorrect_answers": [
+            "Barok",
+            "Prosvjetiteljstvo",
+            "Romantizam"
+        ],
+        "explanation": "Renesansa je razdoblje od 14. do 17. stoljeća u Europi koje je označilo preporod umjetnosti, znanosti i književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koji se događaj smatra povodom za početak Prvog svjetskog rata?",
+        "correct_answer": "Atentat na Franju Ferdinanda u Sarajevu",
+        "incorrect_answers": [
+            "Potapanje Lusitanije",
+            "Njemačka invazija na Poljsku",
+            "Rusko-japanski rat"
+        ],
+        "explanation": "Atentat na austrougarskog nadvojvodu Franju Ferdinanda u Sarajevu 28. lipnja 1914. bio je okidač za Prvi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Tko je bio posljednji car Rusije, svrgnut tijekom Februarske revolucije 1917. godine?",
+        "correct_answer": "Nikola II.",
+        "incorrect_answers": [
+            "Petar Veliki",
+            "Ivan Grozni",
+            "Aleksandar III."
+        ],
+        "explanation": "Nikola II. bio je posljednji ruski car, svrgnut 1917., čime je završila vladavina dinastije Romanov.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koja je kultura razvila hijeroglife kao sustav pisanja?",
+        "correct_answer": "Stari Egipat",
+        "incorrect_answers": [
+            "Mezopotamija",
+            "Stara Grčka",
+            "Maje"
+        ],
+        "explanation": "Hijeroglifi su bili formalni sustav pisanja koji su koristili stari Egipćani, kombinirajući logografske i abecedne elemente.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik pokrenuo Reformaciju u 16. stoljeću objavom 95 teza?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Ulrich Zwingli",
+            "Jan Hus"
+        ],
+        "explanation": "Martin Luther je 1517. objavio 95 teza, kritizirajući praksu Katoličke crkve, što je dovelo do Protestantske reformacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Koja je godina označena kao početak Drugog svjetskog rata?",
+        "correct_answer": "1939.",
+        "incorrect_answers": [
+            "1941.",
+            "1938.",
+            "1945."
+        ],
+        "explanation": "Drugi svjetski rat započeo je 1. rujna 1939. godine invazijom Njemačke na Poljsku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Tko je bio kralj Franaka i prvi car Svetog Rimskog Carstva?",
+        "correct_answer": "Karlo Veliki",
+        "incorrect_answers": [
+            "Oton I.",
+            "Luj IX.",
+            "Pipini Mali"
+        ],
+        "explanation": "Karlo Veliki okrunjen je za cara 800. godine u Rimu, čime je uspostavljeno Sveto Rimsko Carstvo i učvršćena vlast Franaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Koji je španjolski konkvistador osvojio carstvo Asteka u 16. stoljeću?",
+        "correct_answer": "Hernán Cortés",
+        "incorrect_answers": [
+            "Francisco Pizarro",
+            "Vasco da Gama",
+            "Ferdinand Magellan"
+        ],
+        "explanation": "Hernán Cortés je sa svojim snagama osvojio carstvo Asteka i njihov glavni grad Tenochtitlan 1521. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Kako se zove rat koji se vodio između Engleske i Francuske od 1337. do 1453. godine?",
+        "correct_answer": "Stogodišnji rat",
+        "incorrect_answers": [
+            "Rat ruža",
+            "Tridesetogodišnji rat",
+            "Križarski ratovi"
+        ],
+        "explanation": "Stogodišnji rat je bio niz sukoba između Engleske i Francuske oko sukcesije francuskog prijestolja i teritorijalnih posjeda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Tko je bio utemeljitelj marksizma i autor 'Kapitala'?",
+        "correct_answer": "Karl Marx",
+        "incorrect_answers": [
+            "Friedrich Engels",
+            "Vladimir Lenjin",
+            "Josif Staljin"
+        ],
+        "explanation": "Karl Marx je bio njemački filozof i ekonomist, poznat po svojim teorijama komunizma i kritici kapitalizma, te po djelu 'Kapital'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Koji se datum smatra krajem Drugog svjetskog rata u Europi?",
+        "correct_answer": "8. svibnja 1945.",
+        "incorrect_answers": [
+            "1. rujna 1939.",
+            "6. kolovoza 1945.",
+            "2. rujna 1945."
+        ],
+        "explanation": "8. svibnja 1945. obilježava se Dan pobjede u Europi, kada je nacistička Njemačka potpisala bezuvjetnu kapitulaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koja je kineska dinastija poznata po izgradnji Velikog zida i Terakotne vojske?",
+        "correct_answer": "Dinastija Qin",
+        "incorrect_answers": [
+            "Dinastija Han",
+            "Dinastija Tang",
+            "Dinastija Ming"
+        ],
+        "explanation": "Dinastija Qin (221.-206. pr. Kr.) pod carem Qin Shi Huangdijem započela je izgradnju Velikog zida i stvorila Terakotnu vojsku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Tko je bila kraljica Egipta, poznata po svojoj vezi s Julijem Cezarom i Markom Antonijem?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatšepsut",
+            "Tutankamonova majka"
+        ],
+        "explanation": "Kleopatra VII. je bila posljednja aktivna vladarica Ptolemejskog Kraljevstva Egipta, poznata po svojim političkim savezima s rimskim vođama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Koje je godine pao Carigrad pod osmansku vlast, čime je završilo Bizantsko Carstvo?",
+        "correct_answer": "1453.",
+        "incorrect_answers": [
+            "1204.",
+            "1054.",
+            "1529."
+        ],
+        "explanation": "Carigrad je pao pod osmansku vlast 29. svibnja 1453. godine, što je označilo konačni kraj Bizantskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Tko je bio rimski vojskovođa i političar čija je smrt 44. pr. Kr. dovela do kraja Rimske Republike?",
+        "correct_answer": "Julije Cezar",
+        "incorrect_answers": [
+            "August",
+            "Pompej",
+            "Sula"
+        ],
+        "explanation": "Ubojstvo Julija Cezara 44. pr. Kr. bio je ključni događaj koji je doveo do niza građanskih ratova i transformacije Rimske Republike u Carstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Koje je godine započela Francuska revolucija?",
+        "correct_answer": "1789.",
+        "incorrect_answers": [
+            "1776.",
+            "1815.",
+            "1848."
+        ],
+        "explanation": "Francuska revolucija započela je 14. srpnja 1789. napadom na Bastilju, simbolom monarhijske vlasti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Tko je bio engleski kralj koji je dao sagraditi White Tower, dio Londonskog tornja?",
+        "correct_answer": "Vilim Osvajač",
+        "incorrect_answers": [
+            "Henrik VIII.",
+            "Rikard Lavljeg Srca",
+            "Edward I."
+        ],
+        "explanation": "Vilim Osvajač naredio je izgradnju White Towera ubrzo nakon Normanskog osvajanja Engleske 1066. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je grčki filozof poznat po izreci 'Znam da ništa ne znam'?",
+        "correct_answer": "Sokrat",
+        "incorrect_answers": [
+            "Platon",
+            "Aristotel",
+            "Pitagora"
+        ],
+        "explanation": "Sokrat, jedan od osnivača zapadne filozofije, poznat je po svojoj skromnosti i propitivanju vlastitog znanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Koja se bitka 1815. godine smatra konačnim porazom Napoleona Bonapartea?",
+        "correct_answer": "Bitka kod Waterlooa",
+        "incorrect_answers": [
+            "Bitka kod Austerlitza",
+            "Bitka kod Trafalgara",
+            "Bitka kod Leipziga"
+        ],
+        "explanation": "Bitka kod Waterlooa 18. lipnja 1815. bila je odlučujuća pobjeda Saveznika nad Napoleonom, što je dovelo do njegovog konačnog izgnanstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Tko je bio prvi car Kine koji je ujedinio razjedinjena kraljevstva?",
+        "correct_answer": "Qin Shi Huang",
+        "incorrect_answers": [
+            "Car Wu od Hana",
+            "Car Taizong",
+            "Mao Zedong"
+        ],
+        "explanation": "Qin Shi Huang ujedinio je Kinu 221. pr. Kr., postavši prvi car i osnivač dinastije Qin.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Kako se zove dugotrajno razdoblje smanjenja temperature Zemljine površine i atmosfere, što je rezultiralo širenjem ledenih pokrova?",
+        "correct_answer": "Ledeno doba",
+        "incorrect_answers": [
+            "Brončano doba",
+            "Željezno doba",
+            "Mezolitsko doba"
+        ],
+        "explanation": "Ledeno doba je razdoblje globalnog zahlađenja s ekspanzijom kontinentalnih ledenjaka, koje se ponavljalo tijekom Zemljine povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji je mirovni ugovor službeno okončao Prvi svjetski rat?",
+        "correct_answer": "Versajski ugovor",
+        "incorrect_answers": [
+            "Ugovor iz Trianona",
+            "Ugovor iz Sèvresa",
+            "Ugovor iz Brest-Litovska"
+        ],
+        "explanation": "Versajski ugovor, potpisan 28. lipnja 1919., formalno je okončao Prvi svjetski rat između Saveznika i Njemačke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Tko je bio kralj Izraela poznat po izgradnji Prvog hrama u Jeruzalemu?",
+        "correct_answer": "Salomon",
+        "incorrect_answers": [
+            "David",
+            "Saul",
+            "Jošua"
+        ],
+        "explanation": "Kralj Salomon, sin kralja Davida, poznat je po svojoj mudrosti i izgradnji Prvog hrama u Jeruzalemu, posvećenog Bogu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Kako se naziva put svile, drevna mreža trgovačkih puteva koja je povezivala Istok i Zapad?",
+        "correct_answer": "Put svile",
+        "incorrect_answers": [
+            "Put začina",
+            "Put jantara",
+            "Put duhana"
+        ],
+        "explanation": "Put svile je bio povijesni trgovački put koji je povezivao Kinu, Indiju, Perziju, Arapski poluotok, Siriju, Tursku i Europu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i prvi prorok islama?",
+        "correct_answer": "Muhamed",
+        "incorrect_answers": [
+            "Isus",
+            "Mojsije",
+            "Abraham"
+        ],
+        "explanation": "Muhamed je bio osnivač islama, arapski vjerski, socijalni i politički vođa koji je, prema islamskom učenju, Božji prorok.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koja je bila prva žena koja je postala premijerka Velike Britanije?",
+        "correct_answer": "Margaret Thatcher",
+        "incorrect_answers": [
+            "Theresa May",
+            "Elizabeth I.",
+            "Indira Gandhi"
+        ],
+        "explanation": "Margaret Thatcher, poznata kao 'Željezna lady', bila je prva žena premijerka Velike Britanije, od 1979. do 1990.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje u povijesti Japana od 1603. do 1868. godine, karakterizirano izolacijom i vlašću šoguna Tokugawa?",
+        "correct_answer": "Razdoblje Edo",
+        "incorrect_answers": [
+            "Razdoblje Heian",
+            "Razdoblje Meiji",
+            "Razdoblje Kamakura"
+        ],
+        "explanation": "Razdoblje Edo je razdoblje japanske povijesti pod vlašću Tokugawa šogunata, poznato po razvoju urbanog života i izolacionističkoj politici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Koji se rat vodio između SAD-a i Sovjetskog Saveza (i njihovih saveznika) od sredine 20. stoljeća, bez izravnog oružanog sukoba?",
+        "correct_answer": "Hladni rat",
+        "incorrect_answers": [
+            "Korejski rat",
+            "Vijetnamski rat",
+            "Prvi svjetski rat"
+        ],
+        "explanation": "Hladni rat je bio geopolitički sukob između SAD-a i SSSR-a i njihovih saveznika, obilježen ideološkom borbom i utrkom u naoružanju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji je talijanski istraživač 1492. godine doplovio do Amerike?",
+        "correct_answer": "Kristofor Kolumbo",
+        "incorrect_answers": [
+            "Marko Polo",
+            "Amerigo Vespucci",
+            "Vasco da Gama"
+        ],
+        "explanation": "Kristofor Kolumbo je 1492. godine, ploveći pod španjolskom zastavom, došao do Kariba, misleći da je stigao do Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
