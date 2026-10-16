@@ -1,5 +1,16 @@
 # Changelog
 
+### [2026-10-16] - Dependency vulnerability remediation (npm audit 22 -> 8, critical 2 -> 0)
+- **Files Changed**:
+  - `package.json` (Modified)
+  - `package-lock.json` (Modified)
+- **Details**:
+  - `npm audit fix` (no `--force`): `vitest` 3.0.8 -> 3.2.7 (still within the declared `^3.0.8`), its nested `vite` 6 -> 7, `@vitest/*` and `rollup`/`esbuild` platform binaries refreshed, `firebase-tools` 15.33 -> 15.34 (which drops `basic-ftp` and its parent chain, clearing that advisory with no pin). Lockfile diff is large because of those transitive moves (1048 -> 1000 packages).
+  - `overrides` added next to `uuid`: `@grpc/grpc-js` `^1.14.6` (vulnerable 1.9.16 was pulled via `@firebase/firestore`; unifies on the already-installed patched copy), `postcss-selector-parser` `^7.1.6` (6.x has no patched release; built CSS is byte-identical), `@opentelemetry/core` `^2.8.0` (under `@google-cloud/pubsub` -> `firebase-tools`, CLI only), `tinypool` `^2.1.2` (critical prototype-pollution RCE; `npm audit fix` can't reach it without vitest 5; supports Node 20/22).
+  - Considered and skipped: an `@vitest/mocker` `^4.1.11` override (works with vitest 3.2.7 in tests, but overrides a package vitest pins to its own version for a moderate dev-only advisory). No patched release exists for `braces`/`micromatch` (reached via Tailwind v3 `chokidar`/`fast-glob`, and `firebase-tools` -> `chokidar`); the only npm-offered fix is Tailwind 4, which AGENTS.md forbids. `firebase`/`firebase-tools` not downgraded, `--force` not used, `tailwindcss` stays v3.
+  - Remaining 8 (0 critical, 6 high, 2 moderate): `braces`, `chokidar`, `micromatch`, `fast-glob`, `tailwindcss`, `firebase-tools` (all via `braces`/`chokidar`, build/CLI-time only) and `vitest` + `@vitest/mocker` (dev-only).
+  - Verified: `npm test` (399), `npm run lint`, `npm run build` (CSS byte-identical to before), and all 7 Firestore rules suites (356 checks) under `firebase emulators:exec`.
+
 ### [2026-10-16] - Fix live 1v1 stalling after question 1; refresh stale E2E copy
 - **Files Changed**:
   - `src/components/MatchView.jsx` (Modified)
