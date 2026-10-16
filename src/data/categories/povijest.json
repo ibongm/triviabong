@@ -30899,5 +30899,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koje je godine pao Zapadno Rimsko Carstvo?",
+        "correct_answer": "476.",
+        "incorrect_answers": [
+            "410.",
+            "395.",
+            "565."
+        ],
+        "explanation": "Zapadno Rimsko Carstvo tradicionalno je prestalo postojati 476. godine kada je germanski vođa Odoakar svrgnuo posljednjeg cara Romula Augustula.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Kako se zvao sukob između papinstva i Svetog Rimskog Carstva u 11. i 12. stoljeću oko prava investiture, odnosno imenovanja biskupa?",
+        "correct_answer": "Borba za investituru",
+        "incorrect_answers": [
+            "Križarski ratovi",
+            "Veliki raskol",
+            "Stogodišnji rat"
+        ],
+        "explanation": "Borba za investituru bio je ključni sukob između crkvene i svjetovne vlasti koji je trajao od sredine 11. do ranog 12. stoljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Tko je napisao \"Ilijadu\" i \"Odiseju\"?",
+        "correct_answer": "Homer",
+        "incorrect_answers": [
+            "Vergilije",
+            "Sokrat",
+            "Platon"
+        ],
+        "explanation": "Homer je legendarni starogrčki pjesnik kojem se tradicionalno pripisuju autorstvo dvaju velikih epskih djela, Ilijade i Odiseje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koji je europski grad bio centar renesanse u Italiji?",
+        "correct_answer": "Firenca",
+        "incorrect_answers": [
+            "Rim",
+            "Venecija",
+            "Milano"
+        ],
+        "explanation": "Firenca je bila kulturno, umjetničko i ekonomsko središte renesanse, dom mnogih poznatih umjetnika i mislilaca tog razdoblja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Kako se zvao ugovor kojim je Karolinško Carstvo podijeljeno između unuka Karla Velikog 843. godine?",
+        "correct_answer": "Verdunski ugovor",
+        "incorrect_answers": [
+            "Aachenski ugovor",
+            "Tordesillaski ugovor",
+            "Westfalski mir"
+        ],
+        "explanation": "Verdunski ugovor iz 843. godine podijelio je Franačko Carstvo na tri dijela, što je bio temelj za razvoj budućih država Francuske, Njemačke i Italije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koji je rimski car proglasio kršćanstvo državnom religijom Rimskog Carstva?",
+        "correct_answer": "Teodozije I.",
+        "incorrect_answers": [
+            "Konstantin I.",
+            "Dioklecijan",
+            "August"
+        ],
+        "explanation": "Car Teodozije I. proglasio je kršćanstvo državnom religijom Rimskog Carstva 380. godine Ediktom iz Soluna, iako je Konstantin I. ranije legalizirao kršćanstvo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Koji se grad smatra kolijevkom demokracije?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Rim",
+            "Sparta",
+            "Babilon"
+        ],
+        "explanation": "Atena u antičkoj Grčkoj smatra se mjestom rođenja demokracije, političkog sustava u kojem građani izravno sudjeluju u upravljanju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koji je vojskovođa vodio Mongole u osvajanjima diljem Azije i Europe u 13. stoljeću?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Atila",
+            "Tamerlan",
+            "Kublaj-kan"
+        ],
+        "explanation": "Džingis-kan (Temudžin) ujedinio je mongolska plemena i stvorio najveće kopneno carstvo u povijesti, protežući se od Azije do Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Tko je bila kraljica Škotske pogubljena po naredbi Elizabete I. 1587. godine?",
+        "correct_answer": "Marija Stuart",
+        "incorrect_answers": [
+            "Katarina Aragonska",
+            "Anne Boleyn",
+            "Elizabeta Woodville"
+        ],
+        "explanation": "Marija Stuart, škotska kraljica, bila je pretendentica na englesko prijestolje i pogubljena je zbog sumnje na zavjeru protiv kraljice Elizabete I.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koji je najpoznatiji spomenik u Rimu, nekadašnja arena za gladijatorske borbe?",
+        "correct_answer": "Koloseum",
+        "incorrect_answers": [
+            "Panteon",
+            "Forum Romanum",
+            "Akropola"
+        ],
+        "explanation": "Koloseum je amfiteatar u Rimu, najveći ikad izgrađen, poznat po gladijatorskim borbama i javnim spektaklima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Tko je bio admiral osmanske flote koji je poražen u Bitci kod Lepanta 1571. godine?",
+        "correct_answer": "Ali Paša",
+        "incorrect_answers": [
+            "Sulejman Veličanstveni",
+            "Selim II.",
+            "Barbarossa"
+        ],
+        "explanation": "Ali Paša bio je zapovjednik osmanske flote koju je Sveta liga, koalicija kršćanskih država, porazila u pomorskoj bitci kod Lepanta 1571.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Koji je događaj 1868. godine u Japanu označio početak brze modernizacije i industrijalizacije?",
+        "correct_answer": "Meiji restauracija",
+        "incorrect_answers": [
+            "Edo period",
+            "Boshin rat",
+            "Genroku kultura"
+        ],
+        "explanation": "Meiji restauracija (1868.) bila je lanac događaja koji su doveli do obnove carske vlasti i preobrazili Japan u modernu, industrijaliziranu silu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Tko je bio vođa nacističke Njemačke tijekom Drugog svjetskog rata?",
+        "correct_answer": "Adolf Hitler",
+        "incorrect_answers": [
+            "Benito Mussolini",
+            "Josif Staljin",
+            "Winston Churchill"
+        ],
+        "explanation": "Adolf Hitler bio je diktator nacističke Njemačke i jedan od glavnih pokretača Drugog svjetskog rata te holokausta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Kako se zvao mirovni ugovor potpisan 1920. godine kojim su Turskoj nametnuti teški uvjeti nakon Prvog svjetskog rata, a kasnije je zamijenjen?",
+        "correct_answer": "Sevreski ugovor",
+        "incorrect_answers": [
+            "Lausannski ugovor",
+            "Versailleski ugovor",
+            "Brest-Litovsk ugovor"
+        ],
+        "explanation": "Sevreski ugovor iz 1920. bio je izrazito nepovoljan za Osmansko Carstvo, što je dovelo do Turskog rata za neovisnost i kasnijeg Lausannskog ugovora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koji je povijesni pojam za doba u Europi obilježeno procvatom znanosti, umjetnosti i filozofije u 18. stoljeću?",
+        "correct_answer": "Prosvjetiteljstvo",
+        "incorrect_answers": [
+            "Renesansa",
+            "Reformacija",
+            "Barok"
+        ],
+        "explanation": "Prosvjetiteljstvo je intelektualni i kulturni pokret 18. stoljeća koji je naglašavao razum, individualizam i znanost kao put do napretka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koje je godine izvedena Oktobarska revolucija u Rusiji?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1922.",
+            "1918."
+        ],
+        "explanation": "Oktobarska revolucija u Rusiji dogodila se u listopadu (po starom kalendaru) 1917. godine, kada su boljševici preuzeli vlast pod vodstvom Lenjina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Tko je bio posljednji car dinastije Qing i ujedno posljednji car Kine?",
+        "correct_answer": "Puyi",
+        "incorrect_answers": [
+            "Kangxi",
+            "Qianlong",
+            "Cixi"
+        ],
+        "explanation": "Puyi je bio posljednji car Kine, svrgnut 1912. godine, a kasnije je bio marionetski vladar japanske države Mandžukuo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koji je povijesni dokument, izdan 1789. godine u Francuskoj, proglasio temeljna prava čovjeka i građanina?",
+        "correct_answer": "Deklaracija o pravima čovjeka i građanina",
+        "incorrect_answers": [
+            "Magna Carta",
+            "Ustav SAD-a",
+            "Povelja UN-a"
+        ],
+        "explanation": "Deklaracija o pravima čovjeka i građanina, usvojena tijekom Francuske revolucije 1789., proglasila je univerzalna prava i slobode svih ljudi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Koji je bio glavni uzrok Boksačkog ustanka u Kini krajem 19. stoljeća?",
+        "correct_answer": "Otpor stranoj dominaciji i kršćanstvu",
+        "incorrect_answers": [
+            "Borba za nasljedstvo",
+            "Ekonomska kriza",
+            "Sukobi među plemićima"
+        ],
+        "explanation": "Boksački ustanak (1899.-1901.) bio je antiimperijalistički i antikršćanski pokret u Kini potaknut stranim uplitanjem i kršćanskim misijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Tko je bila kraljica Egipta poznata po svojoj vezi s Julijem Cezarom i Markom Antonijem?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatshepsut",
+            "Nefertari"
+        ],
+        "explanation": "Kleopatra VII. bila je posljednja aktivna vladarica Ptolemejskog Kraljevstva Egipta, poznata po svojim političkim savezima s rimskim vođama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koji je događaj 1961. godine doveo do izgradnje Berlinskog zida?",
+        "correct_answer": "Masovni bijeg istočnih Nijemaca na Zapad",
+        "incorrect_answers": [
+            "Izgradnja atomskog skloništa",
+            "Neredi u Zapadnom Berlinu",
+            "Saveznička vojna vježba"
+        ],
+        "explanation": "Berlinski zid izgrađen je 1961. godine kako bi se zaustavio masovni egzodus građana iz Istočne Njemačke i Istočnog Berlina u Zapadni Berlin i dalje na Zapad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Koje je godine Rim spaljen u velikom požaru, za što se optuživalo cara Nerona?",
+        "correct_answer": "64. godine n.e.",
+        "incorrect_answers": [
+            "42. godine n.e.",
+            "79. godine n.e.",
+            "30. godine pr. Kr."
+        ],
+        "explanation": "Veliki rimski požar izbio je 64. godine n.e. i trajao šest dana, uništavajući velik dio grada. Neron je bio optužen za podmetanje požara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Koji je bio glavni grad Bizantskog Carstva?",
+        "correct_answer": "Konstantinopol",
+        "incorrect_answers": [
+            "Rim",
+            "Atena",
+            "Aleksandrija"
+        ],
+        "explanation": "Konstantinopol (današnji Istanbul) bio je glavni grad Bizantskog Carstva, osnovan od strane cara Konstantina I. 330. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Tko je bio poznati španjolski konkvistador koji je osvojio carstvo Asteka?",
+        "correct_answer": "Hernán Cortés",
+        "incorrect_answers": [
+            "Francisco Pizarro",
+            "Juan Ponce de León",
+            "Vasco Núñez de Balboa"
+        ],
+        "explanation": "Hernán Cortés i njegovi vojnici osvojili su Astečko Carstvo u današnjem Meksiku između 1519. i 1521. godine, srušivši moćno carstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Koji je europski rat, vođen od 1701. do 1714. godine, izbio zbog spora oko nasljedstva španjolskog prijestolja?",
+        "correct_answer": "Rat za španjolsku baštinu",
+        "incorrect_answers": [
+            "Sedmogodišnji rat",
+            "Tridesetogodišnji rat",
+            "Rat dviju ruža"
+        ],
+        "explanation": "Rat za španjolsku baštinu vodio se zbog straha od ujedinjenja španjolske i francuske krune, završivši mirovnim sporazumom u Utrechtu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Tko je bio vođa i osnivač islamske religije?",
+        "correct_answer": "Muhamed",
+        "incorrect_answers": [
+            "Isus",
+            "Buda",
+            "Mojsije"
+        ],
+        "explanation": "Muhamed je prorok i osnivač islama, rođen u Meki oko 570. godine, koji je primio objave od Boga zapisane u Kuranu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Koje je godine bila Bitka na Mohačkom polju, ključna u povijesti Ugarske i Hrvatske?",
+        "correct_answer": "1526.",
+        "incorrect_answers": [
+            "1493.",
+            "1573.",
+            "1683."
+        ],
+        "explanation": "Bitka na Mohačkom polju 1526. godine bio je odlučujući sukob između Osmanlijskog Carstva i Ugarske, koji je rezultirao velikim porazom i raspadom Ugarske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji je britanski premijer vodio zemlju tijekom većeg dijela Drugog svjetskog rata?",
+        "correct_answer": "Winston Churchill",
+        "incorrect_answers": [
+            "Neville Chamberlain",
+            "Clement Attlee",
+            "Margaret Thatcher"
+        ],
+        "explanation": "Winston Churchill je bio premijer Ujedinjenog Kraljevstva od 1940. do 1945. godine te ponovno od 1951. do 1955. godine i ključna figura u pobjedi saveznika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Tko je bila francuska heroina koja je vodila francusku vojsku u Stogodišnjem ratu i spaljena je na lomači?",
+        "correct_answer": "Ivana Orleanska",
+        "incorrect_answers": [
+            "Marija Antoaneta",
+            "Katarina Medici",
+            "Elizabeta I."
+        ],
+        "explanation": "Ivana Orleanska bila je seljanka koja je tvrdila da joj Bog naređuje da vodi francusku vojsku do pobjede protiv Engleza u Stogodišnjem ratu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Tko je bio hrvatski ban koji je 1848. godine predvodio vojsku u borbi protiv mađarske revolucije i ukinuo kmetstvo u Hrvatskoj?",
+        "correct_answer": "Josip Jelačić",
+        "incorrect_answers": [
+            "Nikola Zrinski",
+            "Petar Zrinski",
+            "Franjo Trenk"
+        ],
+        "explanation": "Ban Josip Jelačić bio je ključna figura u hrvatskoj povijesti 19. stoljeća, poznat po ukidanju kmetstva i političkoj ulozi 1848. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Koji je naziv za sustav pisanja u drevnoj Mezopotamiji, poznat po klinastim znakovima?",
+        "correct_answer": "Klinopis",
+        "incorrect_answers": [
+            "Hijeroglifi",
+            "Demotik",
+            "Alfabet"
+        ],
+        "explanation": "Klinopis je jedan od najstarijih poznatih oblika pisanja, razvijen od strane Sumerana u Mezopotamiji oko 3500. pr. Kr., karakteriziran urezanim klinastim znakovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koje su godine Sjedinjene Američke Države bacile atomske bombe na Hirošimu i Nagasaki?",
+        "correct_answer": "1945.",
+        "incorrect_answers": [
+            "1944.",
+            "1943.",
+            "1946."
+        ],
+        "explanation": "SAD su bacile atomske bombe na japanske gradove Hirošimu i Nagasaki u kolovozu 1945. godine, što je ubrzalo predaju Japana i kraj Drugog svjetskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koji se kontinent naziva \"kolijevkom čovječanstva\" zbog pronalaska najstarijih ljudskih ostataka?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Afrika se smatra kolijevkom čovječanstva jer su na tom kontinentu pronađeni najstariji fosilni dokazi o ranoj evoluciji hominida i modernog čovjeka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Tko je bio vođa jugoslavenskih partizana u Drugom svjetskom ratu i kasniji predsjednik SFR Jugoslavije?",
+        "correct_answer": "Josip Broz Tito",
+        "incorrect_answers": [
+            "Draža Mihailović",
+            "Ante Pavelić",
+            "Milan Nedić"
+        ],
+        "explanation": "Josip Broz Tito bio je vrhovni zapovjednik Narodnooslobodilačke vojske Jugoslavije i dugogodišnji predsjednik Socijalističke Federativne Republike Jugoslavije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji je povjesničar i pisac iz 5. stoljeća pr. Kr. poznat kao \"otac povijesti\"?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Ksenofont",
+            "Plutarh"
+        ],
+        "explanation": "Herodot iz Halikarnasa smatra se \"ocem povijesti\" zbog svog djela \"Povijest\", koje opisuje Grčko-perzijske ratove i kulturu naroda tog doba.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
