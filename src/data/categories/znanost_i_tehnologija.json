@@ -30445,5 +30445,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica nasljeđivanja koja se sastoji od sekvence DNA i nosi informacije za sintezu proteina?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Alel",
+            "Kromosom",
+            "Nukleotid"
+        ],
+        "explanation": "Gen je funkcionalna jedinica nasljeđivanja, sekvenca DNA koja kodira za određeni protein ili RNA molekulu, definirajući karakteristike organizma.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji je kemijski element s atomskim brojem 1, najlakši element i najzastupljeniji element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) je najjednostavniji i najzastupljeniji element u svemiru, ključan za zvijezde i vodu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se naziva sila privlačenja između bilo koja dva tijela s masom?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Elektromagnetizam",
+            "Nuklearna sila",
+            "Trenje"
+        ],
+        "explanation": "Gravitacija je temeljna sila koja uzrokuje privlačenje objekata s masom, odgovorna za kretanje planeta i formiranje galaksija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je najraniji oblik računalne memorije koji se koristio za pohranu podataka i programa, a temeljio se na magnetiziranim jezgrama?",
+        "correct_answer": "Feritna memorija",
+        "incorrect_answers": [
+            "RAM",
+            "SSD",
+            "Disketa"
+        ],
+        "explanation": "Feritna memorija (core memory) bila je primarna vrsta glavne memorije za digitalna računala od 1950-ih do 1970-ih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva planetarni sustav koji kruži oko zvijezde Kepler-186 i sadrži prvi planet veličine Zemlje pronađen u naseljivoj zoni?",
+        "correct_answer": "Kepler-186f",
+        "incorrect_answers": [
+            "Proxima Centauri b",
+            "TRAPPIST-1e",
+            "Gliese 581g"
+        ],
+        "explanation": "Kepler-186f je prvi otkriveni egzoplanet približno veličine Zemlje u naseljivoj zoni svoje zvijezde, što ga čini potencijalno pogodnim za život.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji se proces naziva 'programiranom staničnom smrću', esencijalnim za razvoj organizma i održavanje tkivne homeostaze?",
+        "correct_answer": "Apoptoza",
+        "incorrect_answers": [
+            "Nekroza",
+            "Mitoza",
+            "Mejoza"
+        ],
+        "explanation": "Apoptoza je genetski kontroliran proces stanične smrti koji je ključan za uklanjanje oštećenih ili nepotrebnih stanica u tijelu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koji plemeniti plin se koristi za punjenje žarulja sa žarnom niti kako bi se spriječilo isparavanje volframove niti i produžio vijek trajanja žarulje?",
+        "correct_answer": "Argon",
+        "incorrect_answers": [
+            "Helij",
+            "Neon",
+            "Ksenon"
+        ],
+        "explanation": "Argon je inertan plin koji se koristi u žaruljama sa žarnom niti kako bi se smanjilo isparavanje volframove niti, produljujući vijek trajanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji je Newtonov zakon gibanja poznat kao 'zakon akcije i reakcije'?",
+        "correct_answer": "Treći zakon",
+        "incorrect_answers": [
+            "Prvi zakon",
+            "Drugi zakon",
+            "Zakon gravitacije"
+        ],
+        "explanation": "Treći Newtonov zakon kaže da za svaku akciju postoji jednaka i suprotna reakcija između dva tijela koja međusobno djeluju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji se pojam u računalstvu odnosi na najmanju jedinicu digitalne informacije koja može imati vrijednost 0 ili 1?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Kilobajt",
+            "Piksel"
+        ],
+        "explanation": "Bit je osnovna jedinica digitalne informacije, predstavljajući binarnu vrijednost (0 ili 1), temelj svih digitalnih podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji je najveći vulkan u Sunčevom sustavu, smješten na Marsu?",
+        "correct_answer": "Olympus Mons",
+        "incorrect_answers": [
+            "Mount Everest",
+            "Mauna Kea",
+            "Vesuvius"
+        ],
+        "explanation": "Olympus Mons je divovski štitasti vulkan na Marsu, najveći poznati vulkan u cijelom Sunčevom sustavu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se naziva organela u biljnim stanicama koja sadrži klorofil i odgovorna je za fotosintezu?",
+        "correct_answer": "Kloroplast",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Vakuola",
+            "Stanična stijenka"
+        ],
+        "explanation": "Kloroplasti su organele u biljnim stanicama koje sadrže pigment klorofil i gdje se odvija proces fotosinteze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje tvari koja ima sposobnost vođenja električne struje samo u određenim uvjetima, kao što je silicij u mikroelektronici?",
+        "correct_answer": "Poluvodič",
+        "incorrect_answers": [
+            "Izolator",
+            "Vodič",
+            "Supervodič"
+        ],
+        "explanation": "Poluvodiči su materijali čija je električna vodljivost između vodiča i izolatora, a može se kontrolirati, ključni su za elektroniku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja je jedinica električnog otpora, nazvana po njemačkom fizičaru Georgu Simonu Ohmu?",
+        "correct_answer": "Om",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ],
+        "explanation": "Om (Ω) je SI jedinica za električni otpor, definirana kao otpor vodiča kada napon od jednog volta uzrokuje struju od jednog ampera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji se popularni programski jezik često koristi za razvoj web stranica na strani klijenta (frontend), dodajući interaktivnost i dinamičnost?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "explanation": "JavaScript je programski jezik koji se prvenstveno koristi za razvoj interaktivnih web stranica na strani klijenta (browseru).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je drugi naziv za 'Mliječne staze', galaksije u kojoj se nalazi naš Sunčev sustav?",
+        "correct_answer": "Kumova slama",
+        "incorrect_answers": [
+            "Andromeda",
+            "Magelanov oblak",
+            "Triangulum"
+        ],
+        "explanation": "Kumova slama je hrvatski naziv za našu galaksiju, Mliječnu stazu, koja se na noćnom nebu vidi kao svjetlucava traka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je najveća žlijezda u ljudskom tijelu, koja obavlja mnoge vitalne funkcije poput detoksikacije i proizvodnje žuči?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Štitnjača",
+            "Bubrezi"
+        ],
+        "explanation": "Jetra je najveća žlijezda u ljudskom tijelu i ključni organ s preko 500 vitalnih funkcija, uključujući metabolizam i detoksikaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je kemijski element nazvan po planetu Uranu, s atomskim brojem 92, i primarno se koristi kao gorivo u nuklearnim reaktorima?",
+        "correct_answer": "Uran",
+        "incorrect_answers": [
+            "Plutonij",
+            "Radij",
+            "Torij"
+        ],
+        "explanation": "Uran je radioaktivni metal koji se koristi kao nuklearno gorivo, nazvan po planetu Uranu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen pri kojem svjetlost prolazi kroz uski otvor ili oko prepreke i širi se, stvarajući uzorak interferencije?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Refrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Difrakcija je pojava savijanja valova, poput svjetlosti, kada naiđu na prepreku ili prolaze kroz otvor.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Kako se zove sustav umjetne inteligencije koji pokušava proći test u kojem ljudski procjenitelj ne može razlikovati razgovara li s čovjekom ili strojem?",
+        "correct_answer": "Turingov test",
+        "incorrect_answers": [
+            "Benchmark test",
+            "Kapchav test",
+            "A/B test"
+        ],
+        "explanation": "Turingov test je mjera inteligencije stroja, gdje se stroj smatra inteligentnim ako ljudski procjenitelj ne može razlikovati razgovor s njim od razgovora s čovjekom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je prvi umjetni satelit lansiran u svemir, čime je započela svemirska era?",
+        "correct_answer": "Sputnjik 1",
+        "incorrect_answers": [
+            "Apollo 11",
+            "Voyager 1",
+            "Hubble"
+        ],
+        "explanation": "Sputnjik 1 je bio prvi umjetni satelit lansiran u Zemljinu orbitu od strane Sovjetskog Saveza 1957. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja se mikroskopska struktura nalazi u jezgri eukariotskih stanica i nosi genetske informacije u obliku DNA?",
+        "correct_answer": "Kromosom",
+        "incorrect_answers": [
+            "Ribosom",
+            "Lizosom",
+            "Vakuola"
+        ],
+        "explanation": "Kromosom je struktura sastavljena od DNA i proteina koja nosi genetske informacije u jezgri eukariotskih stanica.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji element u periodnom sustavu ima simbol Fe i poznat je po svojim magnetskim svojstvima i važnosti u industriji čelika?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Bakar",
+            "Zlato",
+            "Aluminij"
+        ],
+        "explanation": "Željezo (Fe) je metalni element ključan za proizvodnju čelika i posjeduje feromagnetska svojstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja je jedinica za snagu u SI sustavu, definirana kao rad obavljen u jedinici vremena, a nazvana po škotskom inženjeru?",
+        "correct_answer": "Vat",
+        "incorrect_answers": [
+            "Džul",
+            "Njutn",
+            "Paskal"
+        ],
+        "explanation": "Vat (W) je SI jedinica snage, koja predstavlja količinu energije prenesene ili pretvorene u jednoj sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji se operacijski sustav, razvijen od strane tvrtke Apple, primarno koristi na njihovim osobnim računalima (Macintosh)?",
+        "correct_answer": "macOS",
+        "incorrect_answers": [
+            "Windows",
+            "Linux",
+            "Android"
+        ],
+        "explanation": "macOS je vlasnički grafički operacijski sustav razvijen i prodavan od strane tvrtke Apple Inc. za njihova Macintosh računala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja je zvijezda najbliža Suncu, dio sustava Alfa Centauri?",
+        "correct_answer": "Proxima Centauri",
+        "incorrect_answers": [
+            "Sirius",
+            "Vega",
+            "Polaris"
+        ],
+        "explanation": "Proxima Centauri je zvijezda najbliža našem Suncu, udaljena oko 4.2 svjetlosne godine, i dio je trostrukog sustava Alfa Centauri.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke transpiracijom ispuštaju vodu u atmosferu kroz sitne otvore na listovima?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Disanje",
+            "Evaporacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz biljaka, prvenstveno kroz stomate na listovima, što pomaže u transportu vode i hranjivih tvari.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja se klasa organskih spojeva karakterizira prisutnošću hidroksilne (-OH) skupine vezane na ugljikov atom?",
+        "correct_answer": "Alkoholi",
+        "incorrect_answers": [
+            "Eteri",
+            "Aldehidi",
+            "Ketoni"
+        ],
+        "explanation": "Alkoholi su organski spojevi koji sadrže hidroksilnu skupinu (-OH) vezanu na zasićeni ugljikov atom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen u kojem materijal postaje supervodljiv, odnosno ima nulti električni otpor, pri vrlo niskim temperaturama?",
+        "correct_answer": "Supervodljivost",
+        "incorrect_answers": [
+            "Poluvodičnost",
+            "Izolacija",
+            "Rezistencija"
+        ],
+        "explanation": "Supervodljivost je stanje materijala u kojem električni otpor potpuno nestaje, obično pri ekstremno niskim temperaturama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koja je glavna komponenta računala koja izvodi većinu aritmetičkih, logičkih i ulazno/izlaznih operacija?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Grafička kartica (GPU)",
+            "Radna memorija (RAM)",
+            "Tvrdi disk (HDD)"
+        ],
+        "explanation": "CPU je 'mozak' računala, odgovoran za izvršavanje instrukcija i obradu podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je znanstvenik predložio heliocentrični model Sunčevog sustava, gdje se planeti vrte oko Sunca, a ne oko Zemlje?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Nikola Kopernik je bio prvi astronom koji je formulirao sveobuhvatni heliocentrični model, postavljajući Sunce u središte svemira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim se organizmi prilagođavaju svom okolišu kroz generacije, rezultat prirodne selekcije?",
+        "correct_answer": "Adaptacija",
+        "incorrect_answers": [
+            "Mutacija",
+            "Migracija",
+            "Habitacija"
+        ],
+        "explanation": "Adaptacija je proces u kojem se organizmi razvijaju kako bi bolje preživjeli i razmnožavali se u određenom okolišu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je pH neutralne otopine na 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine; 7 označava neutralnu otopinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji je pojam za količinu materije u nekom tijelu, mjerenu u kilogramima u SI sustavu?",
+        "correct_answer": "Masa",
+        "incorrect_answers": [
+            "Težina",
+            "Volumen",
+            "Gustoća"
+        ],
+        "explanation": "Masa je mjera inercije tijela i količine materije koju sadrži, te je neovisna o gravitaciji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji se softverski alat koristi za pretvaranje izvornog koda napisanog u programskom jeziku u strojni kod koji računalo može izravno izvršavati?",
+        "correct_answer": "Prevoditelj (Compiler)",
+        "incorrect_answers": [
+            "Interpretator",
+            "Debugger",
+            "Editor"
+        ],
+        "explanation": "Prevoditelj (compiler) prevodi cijeli izvorni kod u strojni kod prije nego što se program pokrene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji je najudaljeniji planet od Sunca (prema definiciji planeta od 2006.)?",
+        "correct_answer": "Neptun",
+        "incorrect_answers": [
+            "Pluton",
+            "Uran",
+            "Saturn"
+        ],
+        "explanation": "Prema redefiniciji planeta Međunarodne astronomske unije iz 2006. godine, Neptun je najudaljeniji planet od Sunca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koja je stanična struktura odgovorna za sintezu proteina, često nazvana 'tvornicom proteina'?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Endoplazmatski retikulum",
+            "Golgijev aparat",
+            "Lizosom"
+        ],
+        "explanation": "Ribosomi su organele koje kataliziraju sintezu proteina (translacija) čitajući informacijsku RNA.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji se element koristi kao standard za određivanje relativnih atomskih masa svih ostalih elemenata, s atomskom masom definiranom kao točno 12 jedinica?",
+        "correct_answer": "Ugljik-12",
+        "incorrect_answers": [
+            "Vodik-1",
+            "Kisik-16",
+            "Helij-4"
+        ],
+        "explanation": "Ugljik-12 je izotop koji se koristi kao referenca za određivanje relativnih atomskih masa, s definiranom masom od točno 12 amu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen pri kojem svjetlosni valovi vibriraju samo u jednoj ravnini?",
+        "correct_answer": "Polarizacija",
+        "incorrect_answers": [
+            "Disperzija",
+            "Interferencija",
+            "Difrakcija"
+        ],
+        "explanation": "Polarizacija je svojstvo valova, posebno svjetlosti, gdje su oscilacije ograničene na jednu ravninu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na mrežu uređaja povezanih internetom koji mogu prikupljati i razmjenjivati podatke, poput pametnih kućnih aparata ili nosivih uređaja?",
+        "correct_answer": "Internet stvari (IoT)",
+        "incorrect_answers": [
+            "Lokalna mreža (LAN)",
+            "Virtualna privatna mreža (VPN)",
+            "Cloud computing"
+        ],
+        "explanation": "Internet stvari (IoT) je mreža fizičkih objekata opremljenih senzorima, softverom i drugim tehnologijama za povezivanje i razmjenu podataka putem interneta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2355",
+        "category": "znanost",
+        "question": "Tko je poznat kao 'otac moderne genetike' zbog svog rada na nasljeđivanju osobina kod graška?",
+        "correct_answer": "Gregor Mendel",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Louis Pasteur",
+            "Robert Koch"
+        ],
+        "explanation": "Gregor Mendel je pionir genetske znanosti, čiji su eksperimenti s graškom postavili temelje razumijevanja nasljeđivanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
