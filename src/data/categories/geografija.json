@@ -25187,5 +25187,410 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-15"
+    },
+    {
+        "id": "hr_geo_1956",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi Velika piramida u Gizi?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Irak",
+            "Iran",
+            "Indija"
+        ],
+        "explanation": "Velika piramida u Gizi nalazi se u predgrađu Kaira u Egiptu i najstarije je od sedam svjetskih čuda starog svijeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1957",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni jezero po površini na svijetu?",
+        "correct_answer": "Jezero Superior",
+        "incorrect_answers": [
+            "Kaspijsko jezero",
+            "Bajkalsko jezero",
+            "Jezero Victoria"
+        ],
+        "explanation": "Jezero Superior, smješteno na granici SAD-a i Kanade, najveće je slatkovodno jezero po površini u svijetu. Dio je sustava Velikih jezera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1958",
+        "category": "geografija",
+        "question": "Koji se proces naziva 'pustinjski lak' na stijenama?",
+        "correct_answer": "Razvijanje tamne, sjajne prevlake na stijenama pod utjecajem vjetra i mikroorganizama.",
+        "incorrect_answers": [
+            "Obojanje stijena od strane ljudi",
+            "Sklizanje pijeska po stijenama",
+            "Formiranje leda na stijenama u pustinjskim noćima."
+        ],
+        "explanation": "Pustinjski lak je tanka, tamna prevlaka na stijenama u suhim područjima, nastala djelovanjem vjetra, UV zračenja i mikroorganizama. Sastoji se od željeznih i manganovih oksida.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1959",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi slap Angel, najviši neprekinuti slap na svijetu?",
+        "correct_answer": "Venezuela",
+        "incorrect_answers": [
+            "Brazil",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Slap Angel (Salto Ángel), s visinom od 979 metara i neprekinutim padom od 807 metara, nalazi se u Nacionalnom parku Canaima u Venezueli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1960",
+        "category": "geografija",
+        "question": "Kako se zove najdublji rov u oceanu?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanski rov",
+            "Javanski rov",
+            "Tonga rov"
+        ],
+        "explanation": "Marijanska brazda, smještena u zapadnom Tihom oceanu, najdublja je oceanska brazda na svijetu, s najvećom poznatom dubinom od oko 10.984 metara (stanje 2021.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1961",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Kanade?",
+        "correct_answer": "Ottawa",
+        "incorrect_answers": [
+            "Toronto",
+            "Montreal",
+            "Vancouver"
+        ],
+        "explanation": "Ottawa je glavni grad Kanade, smještena u istočnom dijelu pokrajine Ontario. Najveći je grad na rijeci Ottawi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1962",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada rijeka u gornjem toku snažno erodira u dubinu, stvarajući duboke usjeke i kanjone?",
+        "correct_answer": "Dubinska erozija",
+        "incorrect_answers": [
+            "Bočna erozija",
+            "Taloženje",
+            "Abradiranje"
+        ],
+        "explanation": "Dubinska erozija je geomorfološki proces gdje rijeka produbljuje svoje korito, osobito u gornjim tokovima, stvarajući uske i duboke doline.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1963",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim tulipanima, vjetrenjačama i klompama?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska je globalno poznata po svojim šarenim poljima tulipana, povijesnim vjetrenjačama i tradicionalnim drvenim klompama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1964",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi Kilimanjaro, najviši vrh Afrike?",
+        "correct_answer": "Tanzanija",
+        "incorrect_answers": [
+            "Kenija",
+            "Uganda",
+            "Južna Afrika"
+        ],
+        "explanation": "Kilimanjaro, s tri vulkanska stošca (Kibo, Mawenzi i Shira), nalazi se u Tanzaniji i najviša je planina u Africi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1965",
+        "category": "geografija",
+        "question": "Koja pustinja se često naziva 'Krovom svijeta' zbog svoje visoke nadmorske visine?",
+        "correct_answer": "Pustinja Gobi",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Velika Viktorijina pustinja"
+        ],
+        "explanation": "Pustinja Gobi, smještena u Kini i Mongoliji, jedna je od najviših pustinja na svijetu i često se naziva 'Krovom svijeta'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1966",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se more povlači s obale tijekom oseke, otkrivajući morsko dno?",
+        "correct_answer": "Oseka",
+        "incorrect_answers": [
+            "Plima",
+            "Tsunami",
+            "Morska struja"
+        ],
+        "explanation": "Oseka je prirodna pojava opadanja razine mora, nastala zbog gravitacijske interakcije Zemlje, Mjeseca i Sunca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1967",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Macchu Picchu?",
+        "correct_answer": "Peru",
+        "incorrect_answers": [
+            "Meksiko",
+            "Bolivija",
+            "Čile"
+        ],
+        "explanation": "Macchu Picchu, drevni grad Inka, smješten je na planinskom grebenu u Peruu i jedna je od najpoznatijih arheoloških lokacija na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1968",
+        "category": "geografija",
+        "question": "Kako se naziva suhi vjetar koji puše niz planinske padine u Alpama, donoseći toplije vrijeme?",
+        "correct_answer": "Fen",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Maestral"
+        ],
+        "explanation": "Fen je topli i suhi vjetar koji nastaje kada zrak gubi vlagu dok se diže uz jednu stranu planine, a zatim se spušta zagrijavajući se niz drugu stranu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1969",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim gejzirima i termalnim izvorima, a nalazi se na spoju tektonskih ploča?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Japan",
+            "Čile"
+        ],
+        "explanation": "Island se nalazi na Srednjeatlantskom hrptu, gdje se susreću Euroazijska i Sjevernoamerička tektonska ploča, što rezultira intenzivnom vulkanskom i geotermalnom aktivnošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1970",
+        "category": "geografija",
+        "question": "Koji je najveći grad Južne Afrike?",
+        "correct_answer": "Johannesburg",
+        "incorrect_answers": [
+            "Cape Town",
+            "Durban",
+            "Pretoria"
+        ],
+        "explanation": "Johannesburg je najveći grad u Južnoj Africi po broju stanovnika i ekonomsko je središte države.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1971",
+        "category": "geografija",
+        "question": "Kako se naziva proces preobrazbe stijena pod utjecajem visokog tlaka i temperature?",
+        "correct_answer": "Metamorfizam",
+        "incorrect_answers": [
+            "Sedimentacija",
+            "Erozija",
+            "Vulkanska aktivnost"
+        ],
+        "explanation": "Metamorfizam je proces u kojem se postojeće stijene mijenjaju pod utjecajem topline, tlaka i kemijski aktivnih fluida, stvarajući nove minerale i teksture.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1972",
+        "category": "geografija",
+        "question": "Koja je najmanja država u Aziji po površini?",
+        "correct_answer": "Maldivi",
+        "incorrect_answers": [
+            "Brunej",
+            "Singapur",
+            "Bahrein"
+        ],
+        "explanation": "Maldivi, otočna država u Indijskom oceanu, najmanja su azijska država po površini i broju stanovnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1973",
+        "category": "geografija",
+        "question": "Kako se naziva područje gdje se susreću tople i hladne morske struje, bogato ribom?",
+        "correct_answer": "Područje konvergencije",
+        "incorrect_answers": [
+            "Područje divergencije",
+            "Bezdan",
+            "Epipelagička zona"
+        ],
+        "explanation": "Područja konvergencije morskih struja, gdje se miješaju različite temperature i saliniteti, često su iznimno bogata hranjivim tvarima i ribom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1974",
+        "category": "geografija",
+        "question": "Koji je najveći krater na svijetu nastao udarom meteorita, smješten u Južnoj Africi?",
+        "correct_answer": "Vredefort",
+        "incorrect_answers": [
+            "Chicxulub",
+            "Popigai",
+            "Sudbury"
+        ],
+        "explanation": "Krater Vredefort u Južnoj Africi najveći je potvrđeni udarni krater na Zemlji, promjera oko 300 km, nastao prije otprilike 2 milijarde godina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1975",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se morska voda zamrzava i širi, stvarajući ledene stijene koje erodiraju obalu?",
+        "correct_answer": "Kriofrakcija (mrazno trošenje)",
+        "incorrect_answers": [
+            "Abrazija",
+            "Solno trošenje",
+            "Kavitacija"
+        ],
+        "explanation": "Kriofrakcija je mehanički proces trošenja stijena uzrokovan širenjem vode kada se smrzava u pukotinama, što je često prisutno na obalama u hladnim klimama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1976",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Sydney Opera House?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Južna Afrika",
+            "Velika Britanija"
+        ],
+        "explanation": "Sydney Opera House, jedna od najpoznatijih građevina 20. stoljeća, smještena je u Sydneyu, glavnom gradu australske države Novi Južni Wales.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1977",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna širina na kojoj Sunce doseže zenit samo jednom godišnje, tijekom ljetnog solsticija?",
+        "correct_answer": "Sjeverni povratnik (Rakova obratnica)",
+        "incorrect_answers": [
+            "Ekvator",
+            "Južni povratnik (Jarčeva obratnica)",
+            "Arktički krug"
+        ],
+        "explanation": "Sjeverni povratnik je najsjevernija paralela na kojoj Sunce može biti izravno iznad glave (u zenitu) u podne, što se događa tijekom ljetnog solsticija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1978",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se biljni ostaci talože u močvarnim uvjetima i pretvaraju u treset, a kasnije u ugljen?",
+        "correct_answer": "Ugljenifikacija",
+        "incorrect_answers": [
+            "Fosilizacija",
+            "Litifikacija",
+            "Dijageneza"
+        ],
+        "explanation": "Ugljenifikacija je geološki proces kojim se organska tvar, prvenstveno biljni ostaci, postupno transformira u ugljen pod utjecajem topline i tlaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1979",
+        "category": "geografija",
+        "question": "Koji planinski lanac prolazi kroz Italiju od sjevera do juga?",
+        "correct_answer": "Apenini",
+        "incorrect_answers": [
+            "Alpe",
+            "Dinarske planine",
+            "Karpati"
+        ],
+        "explanation": "Apenini su planinski lanac koji se proteže duž cijelog Apeninskog poluotoka, čineći 'kičmu' Italije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1980",
+        "category": "geografija",
+        "question": "Koja je država poznata po svom Velikom kanjonu (Grand Canyon)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Meksiko",
+            "Kanada",
+            "Brazil"
+        ],
+        "explanation": "Veliki kanjon je impozantan kanjon rijeke Colorado, smješten u saveznoj državi Arizona u Sjedinjenim Američkim Državama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1981",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna širina gdje je dan uvijek jednako dug kao noć?",
+        "correct_answer": "Ekvator",
+        "incorrect_answers": [
+            "Sjeverni povratnik",
+            "Arktički krug",
+            "Južni pol"
+        ],
+        "explanation": "Na ekvatoru su dan i noć uvijek otprilike jednako dugi, po 12 sati, tijekom cijele godine zbog minimalnog nagiba Zemljine osi u odnosu na Sunce.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1982",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Egipta?",
+        "correct_answer": "Kairo",
+        "incorrect_answers": [
+            "Aleksandrija",
+            "Giza",
+            "Luxor"
+        ],
+        "explanation": "Kairo je glavni grad Egipta i najveći grad u arapskom svijetu i Africi, smješten na obalama rijeke Nil.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
