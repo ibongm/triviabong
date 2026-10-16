@@ -1,5 +1,18 @@
 # Changelog
 
+### [2026-10-16] - Workflows open PRs instead of pushing to main; untrack reports and root artifacts (audit H1, M4, L7)
+- **Files Changed**:
+  - `.github/workflows/generate-questions.yml` (Modified)
+  - `.github/workflows/audit-category.yml` (Modified)
+  - `.gitignore` (Modified)
+  - `reports/audit_*_2026-10-10.md` (8 files, removed from tracking; kept on disk)
+  - `AUDIT_REPORT.md`, `lighthouse-report.report.html`, `lighthouse-report.report.json`, `screenshots/*.png` (removed from tracking; kept on disk)
+- **Details**:
+  - `generate-questions.yml`: adds `pull-requests: write`; commits to `questions/<category>-<run_id>` and opens a PR with `gh pr create` instead of pushing to `main` (2026-10-10..15 pushed ~8.6k unreviewed questions straight to production). An empty run still exits cleanly.
+  - `audit-category.yml`: drops `git add -f reports/` (it bypassed the `/reports/` gitignore in a public repo); uploads `reports/` as the `audit-<category>-<run_id>` artifact (`if: always()`); fixes go to `audit/<category>-<run_id>` + PR. Adds `pull-requests: write`.
+  - PRs opened with `GITHUB_TOKEN` don't trigger `ci.yml`; both PR bodies say to run CI on the branch via workflow_dispatch before merging.
+  - `.gitignore`: adds `lighthouse-report.*`, `/screenshots/` (output of `scripts/capture-audit-screens.mjs`), `/AUDIT_REPORT.md`. Nothing in the repo reads those files.
+
 ### [2026-10-16] - Dependency vulnerability remediation (npm audit 22 -> 8, critical 2 -> 0)
 - **Files Changed**:
   - `package.json` (Modified)

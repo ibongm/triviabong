@@ -35,6 +35,11 @@ plans/adminsdkkey.json
 /plans/
 /docs/
 /.adeptly/
+# Diagnostic artifacts (Lighthouse runs, scripts/capture-audit-screens.mjs
+# output, ad hoc root audit write-ups).
+lighthouse-report.*
+/screenshots/
+/AUDIT_REPORT.md
 
 # Agent config and scratch files - local tooling only
 /.agent/

@@ -27,6 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout Repository
@@ -54,15 +55,35 @@ jobs:
           COUNT: ${{ inputs.count }}
         run: node scripts/audit-category.mjs "$CATEGORY" "$COUNT"
 
-      - name: Commit and Push Fixes & Report
+      # The audit report stays out of git (/reports/ is gitignored and this
+      # repo is public) - it's downloadable from the run instead (audit M4).
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-${{ inputs.category }}-${{ github.run_id }}
+          path: reports/
+          if-no-files-found: warn
+
+      # Fixes go to a review branch + PR, never straight to main (audit H1).
+      # A PR opened with GITHUB_TOKEN does not trigger ci.yml - run CI on the
+      # branch via workflow_dispatch before merging.
+      - name: Push fixes to a review branch and open a PR
         env:
           CATEGORY: ${{ inputs.category }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          BRANCH="audit/${CATEGORY}-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
           git add src/data/categories/
-          git add -f reports/
-          git diff --cached --quiet || git commit -m "fix(data): audit $CATEGORY"
-          git stash --include-untracked
-          git pull --rebase origin main
-          git push origin main
+          if git diff --cached --quiet; then
+            echo "No fixes to commit."
+            exit 0
+          fi
+          git commit -m "fix(data): audit $CATEGORY"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "Audit fixes: $CATEGORY" \
+            --body "Automated audit run $GITHUB_RUN_ID. The audit report is attached to the run as an artifact (audit-$CATEGORY-$GITHUB_RUN_ID). Review the changes against it and run CI on this branch before merging."
