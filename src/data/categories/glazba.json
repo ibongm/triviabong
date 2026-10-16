@@ -14567,7 +14567,7 @@
     {
         "id": "hr_mus_1283",
         "category": "glazba",
-        "question": "Koja hrvatska mezzosopranistica, rođena u Zadru, ostvarila je zapaženu međunarodnu karijeru u opernim kućama diljem svijeta, poznata po ulogama u Wagnerovim operama?",
+        "question": "Koja hrvatska mezzosopranistica ostvarila je zapaženu međunarodnu karijeru u opernim kućama diljem svijeta, poznata po ulogama u Wagnerovim operama?",
         "correct_answer": "Ruža Pospiš Baldani",
         "incorrect_answers": [
             "Dunja Vejzović",
@@ -14807,7 +14807,7 @@
     {
         "id": "hr_mus_1299",
         "category": "glazba",
-        "question": "Koji se pojam odnosi na glazbenu strukturu gdje se jedna melodijska linija oponaša ili ponavlja u drugim glasovima ili dionicama s malim odmakom?",
+        "question": "Koji se pojam odnosi na kompleksnu glazbenu strukturu gdje se kratka melodijska tema (subjekt) sustavno oponaša i razrađuje u više glasova ili dionica, slijedeći pravila kontrapunkta?",
         "correct_answer": "Fuga",
         "incorrect_answers": [
             "Sonata",
@@ -14988,11 +14988,11 @@
         "id": "hr_mus_1311",
         "category": "glazba",
         "question": "Kako se zove instrument koji se sastoji od niza metalnih ploča različitih duljina, koje se udaraju batićima i proizvode jasan, zvonak zvuk?",
-        "correct_answer": "Ksilofon",
+        "correct_answer": "Glockenspiel",
         "incorrect_answers": [
             "Vibrafon",
-            "Marimba",
-            "Glockenspiel"
+            "Ksilofon",
+            "Marimba"
         ],
         "explanation": "Ksilofon je udaraljkaški instrument s drvenim (ne metalnim) pločicama, ali se uobičajeno povezuje s ovom karakteristikom u širem smislu glazbala s pločicama.",
         "difficulty": "medium",
@@ -15032,8 +15032,8 @@
     {
         "id": "hr_mus_1314",
         "category": "glazba",
-        "question": "Koja je hrvatska glazbena skupina, osnovana 1980-ih, poznata po svojim šaljivim i satiričnim pjesmama, te hitovima poput 'Anđela' i 'Djevojke u ljetnim haljinama volim'?",
-        "correct_answer": "Davorin Bogović i Prljavo Kazalište",
+        "question": "Koja je hrvatska glazbena skupina, osnovana 1980-ih, poznata po svojim brojnim hitovima poput 'Anđela' i 'Djevojke u ljetnim haljinama volim'?",
+        "correct_answer": "Prljavo Kazalište",
         "incorrect_answers": [
             "Azra",
             "Parni Valjak",
@@ -15167,7 +15167,7 @@
     {
         "id": "hr_mus_1323",
         "category": "glazba",
-        "question": "Koji je hrvatski pjevač, poznat po specifičnom glasu i karizmi, ostvario veliku popularnost u regiji s pjesmama poput 'Džuli' i 'Stari morski vuk'?",
+        "question": "Koji je hrvatski pjevač, poznat po specifičnom glasu i karizmi, ostvario veliku popularnost u regiji s pjesmom 'Džuli'?",
         "correct_answer": "Danijel Popović",
         "incorrect_answers": [
             "Jasmin Stavros",
@@ -15212,7 +15212,7 @@
     {
         "id": "hr_mus_1326",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni pojam za 'lagano i sporo' izvođenje?",
+        "question": "Kako se naziva glazbeni pojam za vrlo sporo izvođenje?",
         "correct_answer": "Largo",
         "incorrect_answers": [
             "Adagio",
@@ -15302,7 +15302,7 @@
     {
         "id": "hr_mus_1332",
         "category": "glazba",
-        "question": "Koji je hrvatski glazbenik, pjevač i tekstopisac, poznat po svom nekonvencionalnom stilu i hitovima poput 'Stojim na kantunu' i 'Daleka obala'?",
+        "question": "Koji je hrvatski glazbenik, pjevač i tekstopisac, poznat po svom nekonvencionalnom stilu i hitovima poput 'Stojim na kantunu' i 'Morska vila'?",
         "correct_answer": "Marijan Ban (Daleka Obala)",
         "incorrect_answers": [
             "Gibonni",
@@ -15407,7 +15407,7 @@
     {
         "id": "hr_mus_1339",
         "category": "glazba",
-        "question": "Koji je virtuozni violinist i skladatelj, poznat po svojoj 'Vražjoj sonati' i tehničkoj bravuri, često smatran jednim od najvećih violinista svih vremena?",
+        "question": "Koji je virtuozni talijanski violinist i skladatelj, čija je tehnička bravura bila toliko izvanredna da su ga često nazivali 'vražjim violinistom'?",
         "correct_answer": "Niccolò Paganini",
         "incorrect_answers": [
             "Johann Sebastian Bach",
@@ -15587,7 +15587,7 @@
     {
         "id": "hr_mus_1351",
         "category": "glazba",
-        "question": "Koji je glazbeni žanr, nastao u 1980-ima u Detroitu i Chicagu, poznat po elektroničkim ritmovima i ponavljajućim melodijskim frazama, često izvođen u klubovima?",
+        "question": "Koji je glazbeni žanr, nastao u 1980-ima u Detroitu, poznat po elektroničkim ritmovima i ponavljajućim melodijskim frazama, često izvođen u klubovima?",
         "correct_answer": "Techno",
         "incorrect_answers": [
             "Disco",
@@ -15632,7 +15632,7 @@
     {
         "id": "hr_mus_1354",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni interval koji obuhvaća šest cijelih tonova, npr. od C do F#?",
+        "question": "Kako se naziva glazbeni interval koji obuhvaća tri cijela tona, odnosno šest polutonova, npr. od C do F#?",
         "correct_answer": "Tritonus",
         "incorrect_answers": [
             "Kvarta",
@@ -15725,9 +15725,9 @@
         "question": "Koji je glazbeni tempo označen talijanskim izrazom \"Allegro\"?",
         "correct_answer": "Brzo",
         "incorrect_answers": [
-            "Vrlo sporo",
+            "Spora",
             "Umjereno",
-            "Vrlo brzo"
+            "Vrlo žustro"
         ],
         "explanation": "Allegro je glazbena oznaka za brzi i živahni tempo, tipičan za mnoge klasične skladbe.",
         "difficulty": "medium",
@@ -15752,7 +15752,7 @@
     {
         "id": "hr_mus_1362",
         "category": "glazba",
-        "question": "Koja je splitska rock grupa, osnovana 1970-ih, poznata po svojim energičnim nastupima i hitovima poput \"Glasno, glasnije\" i \"Lutka\"?",
+        "question": "Koja je splitska hard rock grupa, osnovana 1980-ih, poznata po svojim energičnim nastupima i hitovima poput \"Glasno, glasnije\" i \"Lutka\"?",
         "correct_answer": "Osmi Putnik",
         "incorrect_answers": [
             "Magazin",
@@ -15767,7 +15767,7 @@
     {
         "id": "hr_mus_1363",
         "category": "glazba",
-        "question": "Koji je njemački romantičarski skladatelj, poznat po svojim simfonijama (osobito \"Devetoj\"), koncertima za klavir i violinu, te komornoj glazbi?",
+        "question": "Koji je njemački romantičarski skladatelj, poznat po svojim simfonijama, koncertima za klavir i violinu, te komornoj glazbi?",
         "correct_answer": "Johannes Brahms",
         "incorrect_answers": [
             "Ludwig van Beethoven",
@@ -15812,7 +15812,7 @@
     {
         "id": "hr_mus_1366",
         "category": "glazba",
-        "question": "Koji je hrvatski pjevač, poznat po suradnji s brojnim hip-hop izvođačima i svojim hitovima poput \"Generacija\" i \"Žena, a ne broj\"?",
+        "question": "Koji je hrvatski hip-hop izvođač, poznat po suradnji s brojnim drugim izvođačima i svojim hitovima poput \"Generacija\" i \"Žena, a ne broj\"?",
         "correct_answer": "Edo Maajka",
         "incorrect_answers": [
             "Dino Dvornik",
@@ -15842,7 +15842,7 @@
     {
         "id": "hr_mus_1368",
         "category": "glazba",
-        "question": "Koji je britanski pjevač, poznat po svom melankoličnom baritonu i hitovima poput \"Hallelujah\" i \"Suzanne\"?",
+        "question": "Koji je kanadski pjevač, poznat po svom melankoličnom baritonu i hitovima poput \"Hallelujah\" i \"Suzanne\"?",
         "correct_answer": "Leonard Cohen",
         "incorrect_answers": [
             "Bob Dylan",
@@ -15917,7 +15917,7 @@
     {
         "id": "hr_mus_1373",
         "category": "glazba",
-        "question": "Koji je limeni puhački instrument, poznat po svom dubokom i reskom zvuku, s tri ventila i usnikom u obliku čaše?",
+        "question": "Koji je limeni puhački instrument, poznat po svom prodornom i svijetlom zvuku, s tri ventila i usnikom u obliku čaše?",
         "correct_answer": "Truba",
         "incorrect_answers": [
             "Trombon",
@@ -15992,7 +15992,7 @@
     {
         "id": "hr_mus_1378",
         "category": "glazba",
-        "question": "Koji se drveni puhački instrument s dvostrukim jezičkom, poznat po svom dubokom i rezonantnom zvuku, smatra najnižim u obitelji oboe?",
+        "question": "Koji se drveni puhački instrument s dvostrukim jezičkom, poznat po svom dubokom i rezonantnom zvuku, smatra najnižim u obitelji fagota?",
         "correct_answer": "Kontrafagot",
         "incorrect_answers": [
             "Fagot",
@@ -16172,7 +16172,7 @@
     {
         "id": "hr_mus_1390",
         "category": "glazba",
-        "question": "Koja je glazbena ljestvica najčešće korištena u zapadnoj glazbi, s osam tonova unutar oktave?",
+        "question": "Kako se naziva glazbena ljestvica s osam tonova unutar oktave, čiji je zvuk često doživljavan kao vedar i stabilan, i koja predstavlja temelj mnogih glazbenih djela u zapadnoj glazbi?",
         "correct_answer": "Dur ljestvica",
         "incorrect_answers": [
             "Pentatonska ljestvica",
@@ -16372,7 +16372,7 @@
         "incorrect_answers": [
             "Klarinet",
             "Oboa",
-            "Fagott"
+            "Fagot"
         ],
         "explanation": "Saksofon je drveni puhački instrument s jednim jezičkom, izumljen od strane Adolphea Saxa, popularan u jazzu, klasičnoj i pop glazbi.",
         "difficulty": "medium",
@@ -16667,7 +16667,7 @@
     {
         "id": "hr_mus_1423",
         "category": "glazba",
-        "question": "Koji je hrvatski kompozitor, jedan od osnivača Hrvatske akademije znanosti i umjetnosti, autor prve hrvatske opere \"Ljubav i zloba\"?",
+        "question": "Koji je hrvatski kompozitor, autor prve hrvatske opere \"Ljubav i zloba\"?",
         "correct_answer": "Vatroslav Lisinski",
         "incorrect_answers": [
             "Ivan Zajc",
@@ -16712,7 +16712,7 @@
     {
         "id": "hr_mus_1426",
         "category": "glazba",
-        "question": "Koja je opera francuskog skladatelja Georgesa Bizeta, smještena u Sevilju i poznata po svojim španjolskim motivima i liku ciganke Carmen?",
+        "question": "Koja je opera francuskog skladatelja Georgesa Bizeta, smještena u Sevilju i poznata po svojim španjolskim motivima?",
         "correct_answer": "Carmen",
         "incorrect_answers": [
             "Faust",
@@ -16787,7 +16787,7 @@
     {
         "id": "hr_mus_1431",
         "category": "glazba",
-        "question": "Kako se naziva srednjovjekovni jednosložni gregorijanski koral, pjevan bez instrumentalne pratnje, koji je bio dominantan oblik crkvene glazbe u zapadnoj Europi?",
+        "question": "Kako se naziva srednjovjekovni jednoglasni gregorijanski koral, pjevan bez instrumentalne pratnje, koji je bio dominantan oblik crkvene glazbe u zapadnoj Europi?",
         "correct_answer": "Choralis planus",
         "incorrect_answers": [
             "Madrigal",
@@ -16847,7 +16847,7 @@
     {
         "id": "hr_mus_1435",
         "category": "glazba",
-        "question": "Koji se gudački instrument, najveći u obitelji violina, svira stojeći ili sjedeći na visokoj stolici, a proizvodi najdublje tonove?",
+        "question": "Koji se gudački instrument, najveći u orkestru, svira stojeći ili sjedeći na visokoj stolici, a proizvodi najdublje tonove?",
         "correct_answer": "Kontrabas",
         "incorrect_answers": [
             "Viola",
@@ -16877,7 +16877,7 @@
     {
         "id": "hr_mus_1437",
         "category": "glazba",
-        "question": "Koji je hrvatski rock glazbenik, poznat po karizmatičnim nastupima, bio prvi pjevač grupe Azra s hitovima poput 'Crno bijeli svijet'?",
+        "question": "Koji je hrvatski rock glazbenik, poznat po karizmatičnim nastupima, bio prvi pjevač grupe Azra prije nego što je Branimir Štulić preuzeo ulogu glavnog vokala?",
         "correct_answer": "Davorin Bogović",
         "incorrect_answers": [
             "Darko Rundek",
@@ -16892,7 +16892,7 @@
     {
         "id": "hr_mus_1438",
         "category": "glazba",
-        "question": "Kako se naziva glazbeni pojam koji označava improviziranu kadencu, virtuozni dio skladbe koji solist izvodi samostalno, obično pred kraj stavka?",
+        "question": "Kako se naziva virtuozni dio skladbe koji solist izvodi samostalno, obično pred kraj stavka, često u obliku improvizacije?",
         "correct_answer": "Kadenca",
         "incorrect_answers": [
             "Preludij",
@@ -16926,7 +16926,7 @@
         "correct_answer": "Rockabilly",
         "incorrect_answers": [
             "Doo-wop",
-            "Rythm and Blues",
+            "Rhythm and Blues",
             "Soul"
         ],
         "explanation": "Rockabilly je jedan od najranijih stilova rock and rolla, karakterističan za 1950-e i s jakim utjecajem countryja i bluesa.",
@@ -17076,7 +17076,7 @@
         "correct_answer": "INmusic Festival",
         "incorrect_answers": [
             "Exit Festival",
-            "Terraneo Festival",
+            "Ferragosto JAM",
             "Seasplash Festival"
         ],
         "explanation": "INmusic Festival je najveći open-air rock festival u Hrvatskoj i jedan od najprepoznatljivijih u regiji.",
@@ -17132,7 +17132,7 @@
     {
         "id": "hr_mus_1454",
         "category": "glazba",
-        "question": "Koji je austrijski skladatelj 20. stoljeća, pionir dodekafonije (dvanaestonske tehnike), poznat po operi 'Wozzeck'?",
+        "question": "Koji je austrijski skladatelj 20. stoljeća, predstavnik dodekafonije (dvanaestonske tehnike), poznat po operi 'Wozzeck'?",
         "correct_answer": "Alban Berg",
         "incorrect_answers": [
             "Arnold Schoenberg",
@@ -17207,7 +17207,7 @@
     {
         "id": "hr_mus_1459",
         "category": "glazba",
-        "question": "Koji je hrvatski kantautor, poznat po svojim satiričnim i duhovitim pjesmama, autor kultnih hitova poput 'Ne dirajte mi ravnicu'?",
+        "question": "Koji je hrvatski kantautor, poznat po svojim domoljubnim i tamburaškim pjesmama, autor kultnog hita 'Ne dirajte mi ravnicu'?",
         "correct_answer": "Miroslav Škoro",
         "incorrect_answers": [
             "Krunoslav Kićo Slabinac",
@@ -17252,7 +17252,7 @@
     {
         "id": "hr_mus_1462",
         "category": "glazba",
-        "question": "Koji je glazbeni oblik iz razdoblja klasicizma, koji se sastoji od tri ili četiri stavka, namijenjen za solo instrument s pratnjom klavira ili za orkestar?",
+        "question": "Koji je glazbeni oblik iz razdoblja klasicizma, koji se sastoji od tri ili četiri stavka, namijenjen za solo instrument ili za solo instrument s pratnjom klavira?",
         "correct_answer": "Sonata",
         "incorrect_answers": [
             "Simfonija",
@@ -17432,7 +17432,7 @@
     {
         "id": "hr_mus_1474",
         "category": "glazba",
-        "question": "Koji je hrvatski pjevač, autor brojnih hitova poput \"Doris\", \"Sve ove godine\" i \"Ako me ostaviš\", bio član grupe Indexi?",
+        "question": "Koji je bio legendarni pjevač sarajevske grupe Indexi, poznat po brojnim hitovima poput 'Da sam ja netko' i 'Bacila je sve niz rijeku'?",
         "correct_answer": "Davorin Popović",
         "incorrect_answers": [
             "Goran Bregović",
@@ -17447,7 +17447,7 @@
     {
         "id": "hr_mus_1475",
         "category": "glazba",
-        "question": "Koji je instrument, ključan za jazz glazbu, poznat po svojoj mogućnosti da svira i akorde i melodije, te je često solistički instrument u jazz sastavima?",
+        "question": "Koji je puhački instrument, ključan za jazz glazbu, poznat po svom ekspresivnom zvuku i često solističkoj ulozi u jazz sastavima?",
         "correct_answer": "Saksofon",
         "incorrect_answers": [
             "Trombon",
@@ -17511,8 +17511,8 @@
         "correct_answer": "Trozvuk",
         "incorrect_answers": [
             "Septakord",
-            "Kvintakord",
-            "Sekstakord"
+            "Oktava",
+            "Interval"
         ],
         "explanation": "Trozvuk je osnovna harmonijska jedinica, koja može biti durska, molska, umanjena ili povećana, ovisno o intervalima.",
         "difficulty": "hard",
