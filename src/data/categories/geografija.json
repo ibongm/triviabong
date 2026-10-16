@@ -11103,8 +11103,8 @@
     {
         "id": "hr_geo_1041",
         "category": "geografija",
-        "question": "Koji se tjesnac nalazi između Sjeverne i Južne Amerike i dijeli ih na užem dijelu Panamskog kanala?",
-        "correct_answer": "Panamski tjesnac",
+        "question": "Koji se zemljouz nalazi između Sjeverne i Južne Amerike, a kroz njega je prokopan kanal koji spaja Atlantski i Tihi ocean?",
+        "correct_answer": "Panamska prevlaka",
         "incorrect_answers": [
             "Beringov tjesnac",
             "Gibraltar",
@@ -11224,7 +11224,7 @@
         "id": "hr_geo_1049",
         "category": "geografija",
         "question": "Koja država se nalazi na jugu Afrike i poznata je po Rtu dobre nade?",
-        "correct_answer": "Južnoafrička Republika",
+        "correct_answer": "Južna Afrika",
         "incorrect_answers": [
             "Namibija",
             "Angola",
@@ -11253,7 +11253,7 @@
     {
         "id": "hr_geo_1051",
         "category": "geografija",
-        "question": "Koje je najveće jezero u Južnoj Americi po površini?",
+        "question": "Koje je najveće slatkovodno jezero u Južnoj Americi po površini?",
         "correct_answer": "Jezero Titicaca",
         "incorrect_answers": [
             "Jezero Maracaibo",
@@ -11449,10 +11449,10 @@
         "id": "hr_geo_1064",
         "category": "geografija",
         "question": "Koji je najveći grad u Africi po broju stanovnika (urbanog područja, stanje 2023.)?",
-        "correct_answer": "Lagos",
+        "correct_answer": "Kinshasa",
         "incorrect_answers": [
+            "Lagos",
             "Kairo",
-            "Kinshasa",
             "Johanesburg"
         ],
         "explanation": "Lagos u Nigeriji, s preko 15 milijuna stanovnika, najveći je grad u Africi po broju stanovnika (stanje 2023.).",
@@ -11508,7 +11508,7 @@
     {
         "id": "hr_geo_1068",
         "category": "geografija",
-        "question": "Koji se planinski lanac proteže kroz sedam europskih zemalja, od Francuske do Slovenije?",
+        "question": "Koji se planinski lanac proteže kroz osam europskih zemalja, od Francuske do Slovenije?",
         "correct_answer": "Alpe",
         "incorrect_answers": [
             "Pireneji",
@@ -11586,9 +11586,9 @@
         "question": "Koja je zemlja poznata po 'aurora borealis' (polarnoj svjetlosti) i nalazi se na sjeveru Europe?",
         "correct_answer": "Norveška",
         "incorrect_answers": [
-            "Finska",
-            "Švedska",
-            "Island"
+            "Danska",
+            "Estonija",
+            "Latvija"
         ],
         "explanation": "Norveška, posebno njeni sjeverni dijelovi, jedno je od najboljih mjesta za promatranje polarne svjetlosti.",
         "difficulty": "easy",
@@ -11718,7 +11718,7 @@
     {
         "id": "hr_geo_1082",
         "category": "geografija",
-        "question": "Koji je najveći umjetni kanal na svijetu, koji spaja Sredozemno i Crveno more?",
+        "question": "Koji je najdulji morski kanal bez brana na svijetu?",
         "correct_answer": "Sueski kanal",
         "incorrect_answers": [
             "Panamski kanal",
@@ -11793,7 +11793,7 @@
     {
         "id": "hr_geo_1087",
         "category": "geografija",
-        "question": "Koji se pustinja smatra najvećom hladnom pustinjom na svijetu?",
+        "question": "Koja se pustinja smatra najvećom hladnom pustinjom na svijetu?",
         "correct_answer": "Gobi",
         "incorrect_answers": [
             "Sahara",
@@ -11898,7 +11898,7 @@
     {
         "id": "hr_geo_1094",
         "category": "geografija",
-        "question": "Koji je najveći tropski kišni šuma na svijetu?",
+        "question": "Koja je najveća tropska kišna šuma na svijetu?",
         "correct_answer": "Amazonska prašuma",
         "incorrect_answers": [
             "Konžanska prašuma",
@@ -11928,7 +11928,7 @@
     {
         "id": "hr_geo_1096",
         "category": "geografija",
-        "question": "Koja je zemlja poznata po Fjordovima i jezerima kao što je jezero Loch Ness?",
+        "question": "Koja je zemlja poznata po svojim planinskim krajolicima, dubokim morskim uvalama nalik fjordovima i jezerima oko kojih se vežu legende?",
         "correct_answer": "Škotska",
         "incorrect_answers": [
             "Norveška",
@@ -11976,9 +11976,9 @@
         "question": "Koji je najveći kanjon na svijetu?",
         "correct_answer": "Veliki kanjon",
         "incorrect_answers": [
-            "Fiskalni kanjon",
-            "Kanadi kanjon",
-            "Koloradski kanjon"
+            "Fish River kanjon",
+            "Copper kanjon",
+            "Antelope kanjon"
         ],
         "explanation": "Veliki kanjon u Arizoni, SAD, jedan je od najpoznatijih i najvećih kanjona na svijetu, poznat po geološkoj povijesti.",
         "difficulty": "easy",
@@ -11989,7 +11989,7 @@
         "id": "hr_geo_1100",
         "category": "geografija",
         "question": "Koja država ima najviše vremenskih zona?",
-        "correct_answer": "Francuska (uključujući prekomorske teritorije)",
+        "correct_answer": "Francuska",
         "incorrect_answers": [
             "Rusija",
             "SAD",
@@ -12033,7 +12033,7 @@
     {
         "id": "hr_geo_1103",
         "category": "geografija",
-        "question": "Koja je rijeka poznata po slapovima Iguazu, smještenim na granici Argentine i Brazila?",
+        "question": "Koja rijeka tvori impresivne slapove smještene na granici Argentine i Brazila?",
         "correct_answer": "Iguazu",
         "incorrect_answers": [
             "Parana",
@@ -12082,7 +12082,7 @@
         "correct_answer": "Kuba",
         "incorrect_answers": [
             "Jamajka",
-            "Haiti",
+            "Trinidad",
             "Portoriko"
         ],
         "explanation": "Kuba je najveći otok u karipskom moru, smještena južno od Floride.",
@@ -12138,8 +12138,8 @@
     {
         "id": "hr_geo_1110",
         "category": "geografija",
-        "question": "Koje je najveće jezero u Hrvatskoj?",
-        "correct_answer": "Vransko jezero (kod Biograda)",
+        "question": "Koje je najveće prirodno jezero u Hrvatskoj?",
+        "correct_answer": "Vransko jezero",
         "incorrect_answers": [
             "Plitvička jezera",
             "Perućko jezero",
@@ -12248,7 +12248,7 @@
         "incorrect_answers": [
             "Azija",
             "Afrika",
-            "Sjeverna Amerika"
+            "Oceanija"
         ],
         "explanation": "Sve države Europe u potpunosti se nalaze na sjevernoj hemisferi.",
         "difficulty": "hard",
@@ -12333,7 +12333,7 @@
     {
         "id": "hr_geo_1123",
         "category": "geografija",
-        "question": "Koji kontinent je u potpunosti na južnoj hemisferi?",
+        "question": "Koji je jedini kontinent u potpunosti na južnoj hemisferi?",
         "correct_answer": "Antarktika",
         "incorrect_answers": [
             "Australija",
@@ -12348,7 +12348,7 @@
     {
         "id": "hr_geo_1124",
         "category": "geografija",
-        "question": "Koji se polarni medvjedi najčešće povezuju?",
+        "question": "S kojim se područjem polarni medvjedi najčešće povezuju?",
         "correct_answer": "Arktik",
         "incorrect_answers": [
             "Antarktika",
@@ -12423,7 +12423,7 @@
     {
         "id": "hr_geo_1129",
         "category": "geografija",
-        "question": "Koji je najduži planinski lanac na Zemlji?",
+        "question": "Koji je najduži kopneni planinski lanac na Zemlji?",
         "correct_answer": "Andi",
         "incorrect_answers": [
             "Himalaja",
@@ -12483,7 +12483,7 @@
     {
         "id": "hr_geo_1133",
         "category": "geografija",
-        "question": "Koji je najgušće naseljeni otok na svijetu?",
+        "question": "Koji je najmnogoljudniji otok na svijetu?",
         "correct_answer": "Java",
         "incorrect_answers": [
             "Honshu",
@@ -12513,7 +12513,7 @@
     {
         "id": "hr_geo_1135",
         "category": "geografija",
-        "question": "Koja je najdublji rov u oceanima?",
+        "question": "Koji je najdublji rov u oceanima?",
         "correct_answer": "Marijanska brazda",
         "incorrect_answers": [
             "Puerto Rico rov",
@@ -12528,7 +12528,7 @@
     {
         "id": "hr_geo_1136",
         "category": "geografija",
-        "question": "Koji je najsjeverniji glavni grad na svijetu?",
+        "question": "Koji je najsjeverniji glavni grad suverene države na svijetu?",
         "correct_answer": "Reykjavik",
         "incorrect_answers": [
             "Helsinki",
@@ -12603,7 +12603,7 @@
     {
         "id": "hr_geo_1141",
         "category": "geografija",
-        "question": "Koji otok u Sredozemnom moru je podijeljen između dvije države, Grčke i Turske (de facto)?",
+        "question": "Koji otok u Sredozemnom moru je politički podijeljen između Republike Cipar i de facto Turske Republike Sjeverni Cipar?",
         "correct_answer": "Cipar",
         "incorrect_answers": [
             "Sicilija",
@@ -12693,7 +12693,7 @@
     {
         "id": "hr_geo_1147",
         "category": "geografija",
-        "question": "Koja je najmnogoljudnija država u Europi (bez Rusije)?",
+        "question": "Koja je, prema podacima iz 2024. godine, najmnogoljudnija država u Europi (bez Rusije)?",
         "correct_answer": "Njemačka",
         "incorrect_answers": [
             "Francuska",
@@ -12798,7 +12798,7 @@
     {
         "id": "hr_geo_1154",
         "category": "geografija",
-        "question": "Koja je najveća umjetna akumulacija u Hrvatskoj?",
+        "question": "Koja je najveća umjetna akumulacija po površini u Hrvatskoj?",
         "correct_answer": "Dubravsko jezero",
         "incorrect_answers": [
             "Perućko jezero",
@@ -12903,7 +12903,7 @@
     {
         "id": "hr_geo_1161",
         "category": "geografija",
-        "question": "Koji je najveći otok na svijetu koji je u potpunosti prekriven ledom?",
+        "question": "Koji je najveći otok na svijetu koji je većim dijelom prekriven ledenim pokrovom?",
         "correct_answer": "Grenland",
         "incorrect_answers": [
             "Baffin Land",
@@ -12949,10 +12949,10 @@
         "id": "hr_geo_1164",
         "category": "geografija",
         "question": "Koja je najgušće naseljena država na svijetu (isključujući mikrodržave)?",
-        "correct_answer": "Bangladeš",
+        "correct_answer": "Singapur",
         "incorrect_answers": [
             "Indija",
-            "Singapur",
+            "Bangladeš",
             "Južna Koreja"
         ],
         "explanation": "Bangladeš je jedna od najgušće naseljenih država na svijetu, s preko 170 milijuna stanovnika na relativno maloj površini.",
@@ -12963,7 +12963,7 @@
     {
         "id": "hr_geo_1165",
         "category": "geografija",
-        "question": "Koja je država poznata po 'Table Mountain' (Stolnoj planini) u Cape Townu?",
+        "question": "Koja je država poznata po Stolnoj planini u Cape Townu?",
         "correct_answer": "Južnoafrička Republika",
         "incorrect_answers": [
             "Australija",
@@ -13038,7 +13038,7 @@
     {
         "id": "hr_geo_1170",
         "category": "geografija",
-        "question": "Koja država se nalazi na jugu Afrike i poznata je po pustinji Namib?",
+        "question": "Koja je država u južnoj Africi poznata po prostranoj pustinji koja se proteže duž njezine obale?",
         "correct_answer": "Namibija",
         "incorrect_answers": [
             "Angola",
@@ -13083,7 +13083,7 @@
     {
         "id": "hr_geo_1173",
         "category": "geografija",
-        "question": "Koja se država proteže na oba kontinenta, Aziju i Europu, te ima većinu stanovništva u Europi, ali veći dio teritorija u Aziji?",
+        "question": "Koja se država proteže na oba kontinenta, Aziju i Europu, s većim dijelom teritorija u Aziji i značajnom populacijom u europskom dijelu?",
         "correct_answer": "Turska",
         "incorrect_answers": [
             "Rusija",
@@ -13188,7 +13188,7 @@
     {
         "id": "hr_geo_1180",
         "category": "geografija",
-        "question": "Koji je najduži tjesnac na svijetu?",
+        "question": "Koji je jedan od najdužih i najprometnijih tjesnaca na svijetu?",
         "correct_answer": "Malajski tjesnac",
         "incorrect_answers": [
             "Gibraltarski tjesnac",
@@ -13429,7 +13429,7 @@
         "id": "hr_geo_1197",
         "category": "geografija",
         "question": "Koji je drugi najviši vrh na Zemlji?",
-        "correct_answer": "K2 (Mount Godwin Austen)",
+        "correct_answer": "K2",
         "incorrect_answers": [
             "Kangchendzonga",
             "Lhotse",
@@ -13536,9 +13536,9 @@
         "question": "Koji grad je poznat kao \"Venecija sjevera\" zbog svojih mnogobrojnih kanala?",
         "correct_answer": "Amsterdam",
         "incorrect_answers": [
-            "Stockholm",
-            "Sankt Peterburg",
-            "Bruges"
+            "Bruxelles",
+            "Varšava",
+            "Prag"
         ],
         "explanation": "Amsterdam u Nizozemskoj, s mrežom kanala koji prolaze kroz grad, često se naziva \"Venecijom sjevera\".",
         "difficulty": "medium",
@@ -13548,7 +13548,7 @@
     {
         "id": "hr_geo_1206",
         "category": "geografija",
-        "question": "Koja je zemlja poznata kao \"Zemlja Duge Oblak\" (Aotearoa na maorskom)?",
+        "question": "Koja je zemlja poznata pod maorskim imenom Aotearoa?",
         "correct_answer": "Novi Zeland",
         "incorrect_answers": [
             "Australija",
@@ -13598,7 +13598,7 @@
         "incorrect_answers": [
             "Alpe",
             "Karpati",
-            "Kavkaz"
+            "Dinaridi"
         ],
         "explanation": "Gorje Ural tradicionalno se smatra prirodnom granicom između europskog i azijskog kontinenta.",
         "difficulty": "easy",
@@ -13653,7 +13653,7 @@
     {
         "id": "hr_geo_1213",
         "category": "geografija",
-        "question": "Koja je rijeka najduža u Južnoj Americi i druga po duljini na svijetu?",
+        "question": "Koja je najduža rijeka u Južnoj Americi?",
         "correct_answer": "Amazona",
         "incorrect_answers": [
             "Parana",
@@ -13789,9 +13789,9 @@
         "id": "hr_geo_1222",
         "category": "geografija",
         "question": "Koja država zauzima veći dio Skandinavskog poluotoka?",
-        "correct_answer": "Švedska",
+        "correct_answer": "Norveška",
         "incorrect_answers": [
-            "Norveška",
+            "Švedska",
             "Danska",
             "Finska"
         ],
@@ -13806,9 +13806,9 @@
         "question": "Kroz koje države teče rijeka Mekong?",
         "correct_answer": "Kina, Mianmar, Laos, Tajland, Kambodža, Vijetnam",
         "incorrect_answers": [
-            "Indija, Nepal, Bangladeš",
-            "Malezija, Filipini, Indonezija",
-            "Južna Koreja, Sjeverna Koreja, Japan"
+            "Indija, Nepal, Bangladeš, Butan, Šri Lanka, Pakistan",
+            "Malezija, Filipini, Indonezija, Singapur, Brunej, Istočni Timor",
+            "Južna Koreja, Sjeverna Koreja, Japan, Mongolija, Afganistan, Kazahstan"
         ],
         "explanation": "Rijeka Mekong, jedna od najvećih rijeka Azije, protječe kroz šest zemalja jugoistočne Azije.",
         "difficulty": "medium",
@@ -13938,7 +13938,7 @@
     {
         "id": "hr_geo_1232",
         "category": "geografija",
-        "question": "Koja je najveća umjetna akumulacija u Africi, nastalo pregrađivanjem rijeke Zambezi?",
+        "question": "Koja je najveća umjetna akumulacija u Africi po volumenu, nastala pregrađivanjem rijeke Zambezi?",
         "correct_answer": "Jezero Kariba",
         "incorrect_answers": [
             "Jezero Victoria",
