@@ -25139,5 +25139,395 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja po površini na Zemlji (uključujući polarne pustinje)?",
+        "correct_answer": "Antarktička pustinja",
+        "incorrect_answers": [
+            "Sahara",
+            "Gobi",
+            "Atacama"
+        ],
+        "explanation": "Antarktik je najveća pustinja na svijetu. Iako je smrznut, zbog iznimno niskih oborina klasificira se kao pustinja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najmanja neovisna država na svijetu po kopnenoj površini?",
+        "correct_answer": "Vatikan",
+        "incorrect_answers": [
+            "Monako",
+            "Nauru",
+            "San Marino"
+        ],
+        "explanation": "Vatikan je najmanja suverena država na svijetu, s površinom od samo 0,44 četvornih kilometara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je ocean najmanji na svijetu?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Južni ocean",
+            "Atlantski ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana, smješten oko Sjevernog pola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koje more je potpuno okruženo kopnom (endoreično)?",
+        "correct_answer": "Kaspijsko jezero",
+        "incorrect_answers": [
+            "Sredozemno more",
+            "Crno more",
+            "Baltičko more"
+        ],
+        "explanation": "Kaspijsko jezero, iako se naziva morem, endoreičko je jezero, što znači da je potpuno okruženo kopnom bez izljeva u ocean.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je država poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Koreja",
+            "Tajland"
+        ],
+        "explanation": "Japan se tradicionalno naziva 'Zemljom izlazećeg sunca' zbog svog geografskog položaja istočno od kontinentalne Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji tjesnac povezuje Tihi i Atlantski ocean na jugu Južne Amerike?",
+        "correct_answer": "Magellanov tjesnac",
+        "incorrect_answers": [
+            "Drakeov prolaz",
+            "Gibraltarski tjesnac",
+            "Beringov tjesnac"
+        ],
+        "explanation": "Magellanov tjesnac, smješten na jugu Čilea, prirodni je morski put koji povezuje Tihi i Atlantski ocean.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja pustinja se nalazi u Južnoj Americi i jedna je od najsušnijih na svijetu?",
+        "correct_answer": "Atacama",
+        "incorrect_answers": [
+            "Sahara",
+            "Gobi",
+            "Kalahari"
+        ],
+        "explanation": "Pustinja Atacama, smještena u Čileu i Peruu, jedna je od najsušnijih pustinja na planetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koje je more poznato po iznimno visokoj slanosti, što omogućuje plivanje bez potonuća?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Crveno more",
+            "Baltičko more",
+            "Aralsko more"
+        ],
+        "explanation": "Mrtvo more, smješteno između Izraela i Jordana, ima jednu od najviših koncentracija soli, što povećava uzgon.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva proces širenja pustinja, često uzrokovan ljudskim aktivnostima i klimatskim promjenama?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Erozija",
+            "Akvakultura",
+            "Urbanizacija"
+        ],
+        "explanation": "Dezertifikacija je proces degradacije zemljišta u sušnim, polusušnim i suhim subhumidnim područjima, pretvarajući ih u pustinje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji kontinent je povijesno nazivan 'Tamnim kontinentom' zbog misterija i neistraženosti?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Azija",
+            "Australija"
+        ],
+        "explanation": "Afrika je u prošlosti nazvana 'Tamnim kontinentom' od strane Europljana zbog neistraženih unutrašnjih područja i nedostatka karata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je najviša glavna grada na svijetu?",
+        "correct_answer": "La Paz",
+        "incorrect_answers": [
+            "Kito",
+            "Bogota",
+            "Thimphu"
+        ],
+        "explanation": "La Paz u Boliviji, iako službeno nije jedina prijestolnica (Sucre je ustavni), faktički je najviši glavni grad na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva uski morski put koji spaja dva veća vodena tijela?",
+        "correct_answer": "Tjesnac",
+        "incorrect_answers": [
+            "Zaljev",
+            "Fjord",
+            "Estuarij"
+        ],
+        "explanation": "Tjesnac je prirodni uski morski prolaz koji spaja dva veća mora, oceana ili jezera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija na svijetu po površini?",
+        "correct_answer": "Jezero Volta",
+        "incorrect_answers": [
+            "Hoover Dam jezero",
+            "Brana Tri klisure",
+            "Jezero Nasser"
+        ],
+        "explanation": "Jezero Volta u Gani je najveća umjetna akumulacija na svijetu po površini, stvorena izgradnjom brane Akosombo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja država je poznata po svojoj neutralnosti, satovima i čokoladi, smještena u Alpama?",
+        "correct_answer": "Švicarska",
+        "incorrect_answers": [
+            "Austrija",
+            "Belgija",
+            "Nizozemska"
+        ],
+        "explanation": "Švicarska je poznata po svojoj neutralnosti, visokokvalitetnim satovima, čokoladi i prekrasnim planinskim krajolicima Alpa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji kontinent obuhvaća najveći dio kopnene mase Zemlje?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Sjeverna Amerika",
+            "Europa"
+        ],
+        "explanation": "Azija je najveći kontinent na svijetu po površini i broju stanovnika, pokrivajući oko 30% Zemljine kopnene mase.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je glavna rijeka koja teče kroz Egipat?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazon",
+            "Kongo",
+            "Niger"
+        ],
+        "explanation": "Nil je vitalna rijeka za Egipat, smatrana izvorom života za drevnu i modernu egipatsku civilizaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva suhi, vrući vjetar koji puše iz Sahare preko Sredozemlja?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Mistral"
+        ],
+        "explanation": "Siroko je vjetar koji potječe iz Sahare, nosi prašinu i pijesak preko Sredozemnog mora, donoseći vruće i vlažno vrijeme.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja je država poznata po svojim gondolama i kanalima?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Nizozemska",
+            "Francuska",
+            "Grčka"
+        ],
+        "explanation": "Italija, posebno grad Venecija, poznata je po svojim slikovitim kanalima i tradicionalnim gondolama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji je najviši vrh na svijetu?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kangchenjunga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest, smješten u Himalaji, najviši je vrh na Zemlji s nadmorskom visinom od 8.848,86 metara (stanje 2020.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji morski prolaz razdvaja Veliku Britaniju od Francuske?",
+        "correct_answer": "Engleski kanal (La Manche)",
+        "incorrect_answers": [
+            "Beringov tjesnac",
+            "Gibraltarski tjesnac",
+            "Bospor"
+        ],
+        "explanation": "Engleski kanal, poznat i kao La Manche, morski je prolaz koji razdvaja južnu obalu Engleske od sjeverne obale Francuske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je najveća rijeka u Južnoj Americi po volumenu i duljini?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Parana",
+            "Orinoco",
+            "Magdalena"
+        ],
+        "explanation": "Rijeka Amazon je najveća rijeka na svijetu po volumenu ispuštene vode i smatra se najdužom rijekom (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni proces kojim se stijene raspadaju na manje komade zbog promjena temperature, vode ili vjetra?",
+        "correct_answer": "Mehaničko trošenje",
+        "incorrect_answers": [
+            "Kemijsko trošenje",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Mehaničko trošenje je proces fizikalnog raspadanja stijena na manje dijelove bez promjene njihovog kemijskog sastava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja pustinja je poznata po svojim crvenim dinama i nalazi se u Africi?",
+        "correct_answer": "Kalahari",
+        "incorrect_answers": [
+            "Sahara",
+            "Namib",
+            "Velika pješčana pustinja"
+        ],
+        "explanation": "Pustinja Kalahari, koja se proteže kroz Bocvanu, Namibiju i Južnu Afriku, poznata je po svojim prostranim crvenim pješčanim dinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada rijeka vijuga preko ravnice, stvarajući zavoje i petlje?",
+        "correct_answer": "Meandriranje",
+        "incorrect_answers": [
+            "Kanjonizacija",
+            "Deltizacija",
+            "Braiding"
+        ],
+        "explanation": "Meandriranje je prirodni proces u kojem rijeka, tekući kroz ravnicu, razvija zavoje (meandre) zbog erozije i taloženja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja je najveća država u Africi po površini?",
+        "correct_answer": "Alžir",
+        "incorrect_answers": [
+            "Egipat",
+            "Sudan",
+            "Demokratska Republika Kongo"
+        ],
+        "explanation": "Alžir je najveća zemlja u Africi po kopnenoj površini (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je jedina zemlja koja graniči sa samo jednom drugom državom?",
+        "correct_answer": "Portugal",
+        "incorrect_answers": [
+            "Danska",
+            "Južna Koreja",
+            "Kanada"
+        ],
+        "explanation": "Portugal graniči samo sa Španjolskom, što ga čini jedinstvenim primjerom države s jednom kopnenom granicom u Europi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
