@@ -1,5 +1,15 @@
 # Changelog
 
+### [2026-10-16] - CSP (report-only), immutable asset caching, Croatian document metadata, manifest screenshot fix (audit M1, M2, M3, L1)
+- **Files Changed**:
+  - `vercel.json` (Modified)
+  - `index.html` (Modified)
+  - `public/screenshot-mobile .png` -> `public/screenshot-mobile.png` (Renamed)
+- **Details**:
+  - `vercel.json`: new `/assets/(.*)` rule sets `Cache-Control: public, max-age=31536000, immutable` (Vite asset names are content-hashed; `index.html` keeps Vercel's revalidating default). Adds `Content-Security-Policy-Report-Only` covering Firebase Auth/Firestore and the Google sign-in popup; it only reports violations, so watch the browser console during sign-in and play before switching to enforcing. Removes the deprecated `X-XSS-Protection`.
+  - `index.html`: `lang="en"` -> `lang="hr"` (screen-reader pronunciation, no translate prompt); adds `meta description` and `theme-color` (`#0f172a`, matching the manifest).
+  - The mobile PWA screenshot had a space before `.png`, so `/screenshot-mobile.png` from `manifest.json` fell through to the SPA rewrite and was served as HTML. Renamed; dimensions (1080x1920) match the manifest.
+
 ### [2026-10-16] - Postpone Season 1 to 2026-W48; pin Daily Challenge payout constants (audit M8, L4)
 - **Files Changed**:
   - `src/constants/seasons.js` (Modified)
