@@ -25139,5 +25139,470 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja na svijetu po površini?",
+        "correct_answer": "Antarktička polarna pustinja",
+        "incorrect_answers": [
+            "Sahara",
+            "Gobi",
+            "Arapska pustinja"
+        ],
+        "explanation": "Antarktička polarna pustinja najveća je na svijetu, s površinom od oko 14 milijuna km², zbog ekstremno niskih temperatura i male količine padalina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koje je najveće slatkovodno jezero na svijetu po volumenu vode?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Jezero Superior",
+            "Viktorijino jezero",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru sadrži oko 20% svjetske slatke vode i najdublje je jezero na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja je klimatska zona najveća na Zemlji?",
+        "correct_answer": "Polarna klima",
+        "incorrect_answers": [
+            "Tropska klima",
+            "Umjerena klima",
+            "Pustinjska klima"
+        ],
+        "explanation": "Polarna klima obuhvaća najveće područje Zemlje, uključujući Arktik i Antarktik, karakterizirana niskim temperaturama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu (ne računajući kontinente)?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Australija",
+            "Borneo",
+            "Nova Gvineja"
+        ],
+        "explanation": "Grenland je najveći otok na svijetu, površine preko 2,1 milijun km², dok se Australija klasificira kao kontinent.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva granično područje gdje se dvije tektonske ploče sudaraju, često rezultirajući planinskim lancima?",
+        "correct_answer": "Konvergentna granica ploča",
+        "incorrect_answers": [
+            "Divergentna granica ploča",
+            "Transformna granica ploča",
+            "Subdukcijska zona"
+        ],
+        "explanation": "Na konvergentnim granicama ploče se sudaraju, što može dovesti do subdukcije (podvlačenja jedne pod drugu) ili kolizije i nastanka planina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Koloseum?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Turska"
+        ],
+        "explanation": "Koloseum je amfiteatar u centru Rima, u Italiji, izgrađen u 1. stoljeću, koji je služio za gladijatorske borbe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva oštri, nazubljeni planinski greben nastao erozijom ledenjaka s dvije ili više strana?",
+        "correct_answer": "Arn",
+        "incorrect_answers": [
+            "Morena",
+            "Cirik",
+            "U-dolina"
+        ],
+        "explanation": "Arn je uska, oštra stjenovita pregrada ili greben, nastao glacijalnom erozijom između dva susjedna cirka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva ušće rijeke gdje se rijeka dijeli na više rukavaca prije nego što se ulije u more ili jezero?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Fjord",
+            "Kanjon"
+        ],
+        "explanation": "Delta je geomorfološki oblik reljefa koji nastaje na ušću rijeke u more ili jezero, taloženjem sedimenta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je europska država poznata po proizvodnji satova, čokolade i bankarskom sektoru, te po svojoj neutralnosti?",
+        "correct_answer": "Švicarska",
+        "incorrect_answers": [
+            "Austrija",
+            "Belgija",
+            "Nizozemska"
+        ],
+        "explanation": "Švicarska je poznata po visokokvalitetnim satovima, svjetski poznatoj čokoladi i jakom financijskom sektoru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva topla morska struja koja značajno utječe na klimu zapadne Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Labradorska struja",
+            "Ojašio struja"
+        ],
+        "explanation": "Golfska struja prenosi toplu vodu iz tropskih područja prema sjeveru, čineći europsku klimu blažom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je geološka formacija najmlađi dio Jadranske obale, nastala taloženjem sedimenata u holocenu?",
+        "correct_answer": "Aluvijalne ravnice",
+        "incorrect_answers": [
+            "Krški platoi",
+            "Vulkani",
+            "Ledeničke doline"
+        ],
+        "explanation": "Aluvijalne ravnice nastaju taloženjem riječnih sedimenata u holocenu, što čini najmlađe dijelove obale Jadrana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je po broju stanovnika najnaseljeniji kontinent?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija ima preko 4,7 milijardi stanovnika (stanje 2023.), što je čini najnaseljenijim kontinentom na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je aktivni vulkan smješten na otoku Siciliji u Italiji, poznat po čestim erupcijama?",
+        "correct_answer": "Etna",
+        "incorrect_answers": [
+            "Vezuv",
+            "Stromboli",
+            "Fuji"
+        ],
+        "explanation": "Etna je jedan od najaktivnijih vulkana na svijetu, smješten na istočnoj obali Sicilije, u Italiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja je podzemna rijeka u Sloveniji poznata po svojoj dužini i krškim formacijama?",
+        "correct_answer": "Reka",
+        "incorrect_answers": [
+            "Krka",
+            "Neretva",
+            "Soča"
+        ],
+        "explanation": "Reka je rijeka u Sloveniji koja ponire u Škocjanskim jamama i nastavlja podzemnim tokom, stvarajući fascinantan krški sustav.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je datum ljetnog solsticija na sjevernoj hemisferi (približno)?",
+        "correct_answer": "21. lipnja",
+        "incorrect_answers": [
+            "21. ožujka",
+            "23. rujna",
+            "21. prosinca"
+        ],
+        "explanation": "Ljetni solsticij na sjevernoj hemisferi obično pada oko 21. lipnja, označavajući najduži dan u godini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva trajno smrznuto tlo u polarnim i subpolarnim područjima?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Tajga",
+            "Stepa"
+        ],
+        "explanation": "Permafrost je tlo koje ostaje zamrznuto najmanje dvije uzastopne godine, a karakteristično je za hladne regije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je druga najdublja oceanska brazda na svijetu, smještena u Tihom oceanu?",
+        "correct_answer": "Tonganska brazda",
+        "incorrect_answers": [
+            "Japanska brazda",
+            "Kurilsko-kamčatska brazda",
+            "Filipinska brazda"
+        ],
+        "explanation": "Tonganska brazda, s dubinom Horizon Deep (oko 10 882 m), druga je najdublja oceanska brazda nakon Marijanske brazde (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Kako se naziva sezonski preokret vjetrova koji donosi obilne kiše u dijelovima Azije?",
+        "correct_answer": "Monsun",
+        "incorrect_answers": [
+            "Tornado",
+            "Tajfun",
+            "Uragan"
+        ],
+        "explanation": "Monsun je sezonski vjetar koji mijenja smjer s godišnjim dobima i donosi vlažne i suhe periode, posebno u južnoj i jugoistočnoj Aziji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva podzemna šupljina u kršu, nastala otapanjem vapnenca, koja često sadrži stalaktite i stalagmite?",
+        "correct_answer": "Špilja",
+        "incorrect_answers": [
+            "Jama",
+            "Ponor",
+            "Škrapa"
+        ],
+        "explanation": "Špilje su prirodne podzemne šupljine koje se formiraju u topivim stijenama poput vapnenca djelovanjem vode i sadrže krške ukrase.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi Mount Everest, najviši vrh svijeta?",
+        "correct_answer": "Nepal (i Kina)",
+        "incorrect_answers": [
+            "Indija",
+            "Butan",
+            "Pakistan"
+        ],
+        "explanation": "Mount Everest, s visinom od 8.848,86 metara (stanje 2020.), nalazi se na granici Nepala i Kine (Tibet).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva podmorski planinski lanac gdje se formira nova oceanska kora uslijed razmicanja tektonskih ploča?",
+        "correct_answer": "Srednjeoceanski hrbat",
+        "incorrect_answers": [
+            "Oceanska brazda",
+            "Abisalna ravnica",
+            "Kontinentalni prag"
+        ],
+        "explanation": "Srednjeoceanski hrbat je podvodni planinski lanac nastao na divergentnim granicama tektonskih ploča izlijevanjem magme.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je najveća vruća pustinja na svijetu, smještena u sjevernoj Africi?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na Zemlji, prostire se na preko 9 milijuna km² sjeverne Afrike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koje je drugo po veličini more koje okružuje Italiju, smješteno istočno od Apeninskog poluotoka?",
+        "correct_answer": "Jadransko more",
+        "incorrect_answers": [
+            "Tirensko more",
+            "Jonsko more",
+            "Ligursko more"
+        ],
+        "explanation": "Jadransko more se nalazi istočno od Apeninskog poluotoka i zapadno od Balkanskog poluotoka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva reljefni oblik stvoren erozijom vjetra, karakterističan za pustinje, koji podsjeća na gljivu?",
+        "correct_answer": "Gljiva stijena",
+        "incorrect_answers": [
+            "Hofl",
+            "Barchan",
+            "Mesa"
+        ],
+        "explanation": "Gljiva stijena (pečurka stijena) nastaje eolskom erozijom kada vjetar nosi abrazivni materijal i više erodira donji dio stijene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koji su vodopadi u Sjevernoj Americi poznati po svojoj veličini i nalaze se na granici SAD-a i Kanade?",
+        "correct_answer": "slapovi Niagare",
+        "incorrect_answers": [
+            "Victoria Falls",
+            "Angel Falls",
+            "Iguazu Falls"
+        ],
+        "explanation": "Slapovi Niagare su skupina velikih slapova na rijeci Niagari, smješteni na granici SAD-a i Kanade.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je najveća država na svijetu koja nema izlaz na more?",
+        "correct_answer": "Kazahstan",
+        "incorrect_answers": [
+            "Mongolija",
+            "Bjelorusija",
+            "Etiopija"
+        ],
+        "explanation": "Kazahstan je najveća država bez izlaza na more na svijetu, s površinom od oko 2,7 milijuna km².",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni plin koji se uglavnom sastoji od metana i često se nalazi uz naftu?",
+        "correct_answer": "Zemni plin",
+        "incorrect_answers": [
+            "Propan",
+            "Butan",
+            "Vodik"
+        ],
+        "explanation": "Zemni plin je fosilno gorivo, primarno metan, koji se koristi kao izvor energije i često se nalazi u podzemnim ležištima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva vrsta pustinje koja nastaje na zavjetrinskoj strani planinskog lanca zbog zadržavanja vlage na privjetrinskoj strani?",
+        "correct_answer": "Kišna sjena",
+        "incorrect_answers": [
+            "Polarna pustinja",
+            "Primorska pustinja",
+            "Tropska pustinja"
+        ],
+        "explanation": "Pustinje kišne sjene nastaju kada zrak prelazi planinski lanac, ispušta vlagu na jednoj strani, a na drugoj se spušta suh.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koja država graniči s Hrvatskom na istoku i sjeveru?",
+        "correct_answer": "Mađarska",
+        "incorrect_answers": [
+            "Italija",
+            "Austrija",
+            "Slovenija"
+        ],
+        "explanation": "Mađarska graniči s Hrvatskom na sjeveru i istoku, dijeleći granicu dugu preko 300 km.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Koje jezero je poznato kao najslanije jezero na svijetu i jedno od najnižih kopnenih točaka?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Kaspijsko jezero",
+            "Veliko slano jezero",
+            "Aralsko jezero"
+        ],
+        "explanation": "Mrtvo more, između Izraela i Jordana, je najniža kopnena točka na Zemlji i jedno od najslanijih jezera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Kako se naziva pješčana dina u obliku polumjeseca, nastala djelovanjem vjetra u pustinjama?",
+        "correct_answer": "Barkhan",
+        "incorrect_answers": [
+            "Seif dina",
+            "Star dina",
+            "Pješčana gomila"
+        ],
+        "explanation": "Barkhan je najčešći tip pješčane dine, karakteriziran asimetričnim oblikom polumjeseca, s blagim nagibom na privjetrinskoj strani.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
