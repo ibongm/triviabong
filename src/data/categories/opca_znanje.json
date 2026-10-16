@@ -1,16 +1,5 @@
 [
     {
-        "id": "hr_gen_101",
-        "category": "opca_znanje",
-        "question": "Koji je kemijski simbol za zlato?",
-        "correct_answer": "Au",
-        "incorrect_answers": [
-            "Ag",
-            "Fe",
-            "Pb"
-        ]
-    },
-    {
         "id": "hr_gen_102",
         "category": "opca_znanje",
         "question": "Koliko minuta ima u jednom danu?",
@@ -41,17 +30,6 @@
             "Kisik",
             "Ugljikov dioksid",
             "Argon"
-        ]
-    },
-    {
-        "id": "hr_gen_105",
-        "category": "opca_znanje",
-        "question": "Koji je najlakši kemijski element u periodnom sustavu?",
-        "correct_answer": "Vodik",
-        "incorrect_answers": [
-            "Helij",
-            "Litij",
-            "Ugljik"
         ]
     },
     {
@@ -1100,17 +1078,6 @@
         ]
     },
     {
-        "id": "hr_gen_201",
-        "category": "opca_znanje",
-        "question": "Koji je glavni grad Kanade?",
-        "correct_answer": "Ottawa",
-        "incorrect_answers": [
-            "Toronto",
-            "Vancouver",
-            "Montreal"
-        ]
-    },
-    {
         "id": "hr_gen_202",
         "category": "opca_znanje",
         "question": "Koja je najveća žlijezda u ljudskom tijelu?",
@@ -1188,17 +1155,6 @@
         ]
     },
     {
-        "id": "hr_gen_209",
-        "category": "opca_znanje",
-        "question": "Tko je naslikao 'Zvjezdanu noć'?",
-        "correct_answer": "Vincent van Gogh",
-        "incorrect_answers": [
-            "Claude Monet",
-            "Pablo Picasso",
-            "Leonardo da Vinci"
-        ]
-    },
-    {
         "id": "hr_gen_210",
         "category": "opca_znanje",
         "question": "Koliko igrača ima jedna nogometna momčad na terenu na početku utakmice?",
@@ -1218,17 +1174,6 @@
             "Zlato",
             "Željezo",
             "Olovo"
-        ]
-    },
-    {
-        "id": "hr_gen_212",
-        "category": "opca_znanje",
-        "question": "Koji je najviši planinski vrh na svijetu?",
-        "correct_answer": "Mount Everest",
-        "incorrect_answers": [
-            "K2",
-            "Mont Blanc",
-            "Kilimanjaro"
         ]
     },
     {
@@ -1342,28 +1287,6 @@
         ]
     },
     {
-        "id": "hr_gen_223",
-        "category": "opca_znanje",
-        "question": "Koje je najveće slatkovodno jezero po površini na svijetu?",
-        "correct_answer": "Jezero Superior",
-        "incorrect_answers": [
-            "Bajkalsko jezero",
-            "Kaspijsko jezero",
-            "Viktorijino jezero"
-        ]
-    },
-    {
-        "id": "hr_gen_224",
-        "category": "opca_znanje",
-        "question": "Koji je kemijski simbol za zlato?",
-        "correct_answer": "Au",
-        "incorrect_answers": [
-            "Ag",
-            "Fe",
-            "Pb"
-        ]
-    },
-    {
         "id": "hr_gen_225",
         "category": "opca_znanje",
         "question": "Koje su se drevne olimpijske igre održavale u čast Zeusa?",
@@ -1405,17 +1328,6 @@
             "2",
             "3",
             "0"
-        ]
-    },
-    {
-        "id": "hr_gen_229",
-        "category": "opca_znanje",
-        "question": "Koji je najmanji kontinent po površini?",
-        "correct_answer": "Australija",
-        "incorrect_answers": [
-            "Europa",
-            "Antarktika",
-            "Južna Amerika"
         ]
     },
     {

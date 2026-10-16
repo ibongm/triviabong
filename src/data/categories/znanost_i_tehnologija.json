@@ -10208,17 +10208,6 @@
         ]
     },
     {
-        "id": "hr_sci_942",
-        "category": "znanost_i_tehnologija",
-        "question": "Koji je najzastupljeniji plin u Zemljinoj atmosferi?",
-        "correct_answer": "Dušik",
-        "incorrect_answers": [
-            "Kisik",
-            "Argon",
-            "Ugljikov dioksid"
-        ]
-    },
-    {
         "id": "hr_sci_943",
         "category": "znanost_i_tehnologija",
         "question": "Koja je primarna funkcija crvenih krvnih zrnaca (eritrocita)?",
@@ -10238,17 +10227,6 @@
             "Venera",
             "Jupiter",
             "Saturn"
-        ]
-    },
-    {
-        "id": "hr_sci_945",
-        "category": "znanost_i_tehnologija",
-        "question": "Što je algoritam u računarstvu?",
-        "correct_answer": "Skup jasno definiranih koraka za rješavanje problema",
-        "incorrect_answers": [
-            "Vrsta računalnog virusa",
-            "Programski jezik",
-            "Hardverska komponenta"
         ]
     },
     {
@@ -10370,17 +10348,6 @@
             "Kinetička energija",
             "Toplinska energija",
             "Kemijska energija"
-        ]
-    },
-    {
-        "id": "hr_sci_957",
-        "category": "znanost_i_tehnologija",
-        "question": "Koja je kemijska formula za vodu?",
-        "correct_answer": "H2O",
-        "incorrect_answers": [
-            "CO2",
-            "O2",
-            "NaCl"
         ]
     },
     {
@@ -10843,17 +10810,6 @@
             "Switch",
             "Modem",
             "Hub"
-        ]
-    },
-    {
-        "id": "hr_sci_1000",
-        "category": "znanost_i_tehnologija",
-        "question": "Koji je najveći planet u našem Sunčevom sustavu?",
-        "correct_answer": "Jupiter",
-        "incorrect_answers": [
-            "Saturn",
-            "Zemlja",
-            "Mars"
         ]
     },
     {
@@ -20022,21 +19978,6 @@
         "addedOn": "2026-10-13"
     },
     {
-        "id": "hr_sci_1616",
-        "category": "znanost",
-        "question": "Koji organ proizvodi žuč, koja pomaže u probavi masti?",
-        "correct_answer": "Jetra",
-        "incorrect_answers": [
-            "Gušterača",
-            "Slezena",
-            "Bubreg"
-        ],
-        "explanation": "Jetra je najveća žlijezda u ljudskom tijelu i proizvodi žuč koja se pohranjuje u žučnom mjehuru prije nego što pomogne u probavi.",
-        "difficulty": "medium",
-        "difficultySource": "guess",
-        "addedOn": "2026-10-13"
-    },
-    {
         "id": "hr_sci_1617",
         "category": "znanost",
         "question": "Kako se naziva jedinica za snagu u SI sustavu?",
@@ -23272,21 +23213,6 @@
             "Rendgensko zračenje"
         ],
         "explanation": "Vidljiva svjetlost je dio elektromagnetskog spektra koji je osjetljiv ljudskom oku, obuhvaćajući boje od crvene do ljubičaste.",
-        "difficulty": "easy",
-        "difficultySource": "guess",
-        "addedOn": "2026-10-14"
-    },
-    {
-        "id": "hr_sci_1833",
-        "category": "znanost",
-        "question": "Koji je planet poznat kao \"Crveni planet\"?",
-        "correct_answer": "Mars",
-        "incorrect_answers": [
-            "Venera",
-            "Jupiter",
-            "Saturn"
-        ],
-        "explanation": "Mars je poznat kao Crveni planet zbog obilja željezovog oksida (hrđe) na svojoj površini, što mu daje crvenkastu boju.",
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"

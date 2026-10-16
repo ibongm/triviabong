@@ -1,5 +1,24 @@
 # Changelog
 
+### [2026-10-16] - Deduplicate the question bank; resolve the archipelago conflict (audit M7)
+- **Files Changed**:
+  - `src/data/categories/geografija.json`, `glazba.json`, `knjizevnost_i_umjetnost.json`, `opca_znanje.json`, `pop_kultura.json`, `povijest.json`, `sport.json`, `znanost_i_tehnologija.json` (Modified)
+- **Details**:
+  - Removed 89 duplicate questions (81 within a file, 8 cross-file): 16,012 -> 15,923. Duplicates were matched on question text lowercased with punctuation stripped; the 26 matches that differ only in quote style, parentheses or commas were reviewed by hand and are the same question. Kept the older entry of each group (no `addedOn` before any `addedOn`, then earlier `addedOn`, then lower numeric id); on a cross-file tie the category copy is kept over `opca_znanje` (which already aggregates every category). Pure deletions: the files keep their LF + 4-space format (round-trip verified byte-identical before writing).
+  - Archipelago conflict: kept `hr_geo_909` (Finska; the Archipelago Sea is the most commonly cited largest archipelago by island count, ~40-50k islands depending on definition) and removed `hr_geo_1595`, which answered Malezija, listed Indonezija as wrong, and whose explanation credited Malaysia with Indonesia's 17,500 islands. Reworded `hr_geo_909` so the question asks for a country, matching its answer: "U kojoj se zemlji nalazi najveći arhipelag na svijetu po broju otoka?".
+  - The other 6 duplicate pairs with different answer strings were synonyms (Yangtze / Yangtze (Chang Jiang), Zvjezdani ratovi / Ratovi zvijezda, Decrescendo / Diminuendo, …); the kept entry's wrong options never include the removed entry's answer.
+  - Today's (2026-10-16) Daily Challenge set was checked before and after: unchanged (the seed ranks by `date|id`, so removing one of today's picks would have changed it mid-day; none were).
+  - `questionStats/{id}` docs for removed ids are left as orphans (admin-only counters).
+  - Removed -> kept:
+  - `geografija.json` (39): `hr_geo_903→hr_geo_3`, `hr_geo_995→hr_geo_3`, `hr_geo_917→hr_geo_6`, `hr_geo_1004→hr_geo_6`, `hr_geo_1002→hr_geo_7`, `hr_geo_931→hr_geo_9`, `hr_geo_962→hr_geo_12`, `hr_geo_978→hr_geo_15`, `hr_geo_927→hr_geo_16`, `hr_geo_1017→hr_geo_16`, `hr_geo_982→hr_geo_27`, `hr_geo_942→hr_geo_30`, `hr_geo_1200→hr_geo_31`, `hr_geo_973→hr_geo_35`, `hr_geo_940→hr_geo_45`, `hr_geo_971→hr_geo_58`, `hr_geo_946→hr_geo_59`, `hr_geo_895→hr_geo_60`, `hr_geo_981→hr_geo_61`, `hr_geo_1022→hr_geo_63`, `hr_geo_997→hr_geo_74`, `hr_geo_990→hr_geo_75`, `hr_geo_1025→hr_geo_81`, `hr_geo_953→hr_geo_89`, `hr_geo_986→hr_geo_93`, `hr_geo_1029→hr_geo_95`, `hr_geo_1010→hr_geo_97`, `hr_geo_988→hr_geo_101`, `hr_geo_1006→hr_geo_130`, `hr_geo_1009→hr_geo_150`, `hr_geo_968→hr_geo_204`, `hr_geo_960→hr_geo_207`, `hr_geo_894→hr_geo_290`, `hr_geo_1030→hr_geo_902`, `hr_geo_1595→hr_geo_909`, `hr_geo_1189→hr_geo_994`, `hr_geo_1652→hr_geo_996`, `hr_geo_1568→hr_geo_1177`, `hr_geo_1718→hr_geo_1183`
+  - `opca_znanje.json` (8): `hr_gen_201→hr_geo_6`, `hr_gen_223→hr_geo_769`, `hr_gen_212→hr_geo_957`, `hr_gen_229→hr_geo_1026`, `hr_gen_105→hr_sci_614`, `hr_gen_101→hr_sci_937`, `hr_gen_224→hr_sci_937`, `hr_gen_209→hr_art_603`
+  - `povijest.json` (3): `hr_his_969→hr_hist_502`, `hr_hist_1109→hr_his_949`, `hr_hist_2189→hr_hist_1617`
+  - `glazba.json` (9): `hr_mus_793→hr_mus_500`, `hr_mus_798→hr_mus_535`, `hr_mus_821→hr_mus_638`, `hr_mus_861→hr_mus_747`, `hr_mus_868→hr_mus_773`, `hr_mus_873→hr_mus_784`, `hr_mus_1999→hr_mus_1502`, `hr_mus_2177→hr_mus_1608`, `hr_mus_2160→hr_mus_1846`
+  - `sport.json` (9): `hr_sport_796→hr_sport_577`, `hr_sport_797→hr_sport_590`, `hr_spo_1041→hr_sport_613`, `hr_sport_809→hr_sport_621`, `hr_sport_832→hr_sport_700`, `hr_sport_842→hr_sport_738`, `hr_sport_844→hr_sport_746`, `hr_sport_845→hr_sport_748`, `hr_sport_1631→hr_sport_1607`
+  - `znanost_i_tehnologija.json` (6): `hr_sci_957→hr_sci_9`, `hr_sci_1000→hr_sci_43`, `hr_sci_942→hr_sci_647`, `hr_sci_945→hr_sci_834`, `hr_sci_1833→hr_sci_944`, `hr_sci_1616→hr_sci_1537`
+  - `pop_kultura.json` (4): `hr_pop_843→hr_pop_5`, `hr_pop_928→hr_pop_847`, `hr_pop_2206→hr_pop_847`, `hr_pop_1500→hr_pop_1017`
+  - `knjizevnost_i_umjetnost.json` (11): `hr_art_549→hr_art_544`, `hr_art_1181→hr_art_756`, `hr_art_1131→hr_art_776`, `hr_art_1454→hr_art_993`, `hr_art_1231→hr_art_1121`, `hr_art_1702→hr_art_1184`, `hr_art_2176→hr_art_1184`, `hr_art_2196→hr_art_1187`, `hr_art_1990→hr_art_1268`, `hr_art_1814→hr_art_1431`, `hr_art_1852→hr_art_1773`
+
 ### [2026-10-16] - CSP (report-only), immutable asset caching, Croatian document metadata, manifest screenshot fix (audit M1, M2, M3, L1)
 - **Files Changed**:
   - `vercel.json` (Modified)

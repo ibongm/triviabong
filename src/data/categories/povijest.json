@@ -10648,17 +10648,6 @@
         ]
     },
     {
-        "id": "hr_his_969",
-        "category": "povijest",
-        "question": "Koje je godine započeo Prvi svjetski rat?",
-        "correct_answer": "1914.",
-        "incorrect_answers": [
-            "1905.",
-            "1917.",
-            "1918."
-        ]
-    },
-    {
         "id": "hr_his_970",
         "category": "povijest",
         "question": "Koji je američki predsjednik proglasio plan od \"Četrnaest točaka\" za mir nakon Prvog svjetskog rata?",
@@ -12506,21 +12495,6 @@
         "difficulty": "hard",
         "difficultySource": "guess",
         "addedOn": "2026-10-10"
-    },
-    {
-        "id": "hr_hist_1109",
-        "category": "povijest",
-        "question": "Koji je grčki povjesničar poznat kao 'Otac povijesti'?",
-        "correct_answer": "Herodot",
-        "incorrect_answers": [
-            "Tukidid",
-            "Ksenofont",
-            "Plutarh"
-        ],
-        "explanation": "Herodot je bio grčki povjesničar iz 5. st. pr. Kr. čije se djelo 'Povijesti' smatra prvim sustavnim povijesnim djelom na Zapadu.",
-        "difficulty": "medium",
-        "difficultySource": "guess",
-        "addedOn": "2026-10-11"
     },
     {
         "id": "hr_hist_1110",
@@ -28703,21 +28677,6 @@
         ],
         "explanation": "Kralj Dmitar Zvonimir vladao je od 1075. do 1089. godine, a krunjen je papinskom krunom, što je potvrdilo neovisnost hrvatske države.",
         "difficulty": "hard",
-        "difficultySource": "guess",
-        "addedOn": "2026-10-14"
-    },
-    {
-        "id": "hr_hist_2189",
-        "category": "povijest",
-        "question": "Koji je renesansni umjetnik autor freske 'Posljednja večera' i slike 'Mona Lisa'?",
-        "correct_answer": "Leonardo da Vinci",
-        "incorrect_answers": [
-            "Michelangelo",
-            "Rafael",
-            "Donatello"
-        ],
-        "explanation": "Leonardo da Vinci bio je polimat renesanse, poznat po svojim iznimnim doprinosima slikarstvu, znanosti i inženjerstvu.",
-        "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-14"
     },
