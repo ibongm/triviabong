@@ -25139,5 +25139,365 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji se kontinent nalazi između Atlantskog i Indijskog oceana?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Europa"
+        ],
+        "explanation": "Afrika je jedini kontinent koji se proteže od sjeverne do južne umjerene zone, omeđen Atlantskim i Indijskim oceanom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji planinski lanac razdvaja Europu i Aziju na zapadu Rusije?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Karpati",
+            "Alpe"
+        ],
+        "explanation": "Planina Ural tvori prirodnu geografsku granicu između Europe i Azije u Rusiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je najmanji ocean na Zemlji?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz između Afrike i Europe koji povezuje Sredozemno more i Atlantski ocean?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Sueski kanal",
+            "Panamski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji odvaja Gibraltar i Španjolsku od Maroka, povezujući Sredozemno more i Atlantski ocean.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je država poznata po Koloseumu, Pizi i Rimu?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Turska"
+        ],
+        "explanation": "Italija je dom brojnim povijesnim znamenitostima poput Koloseuma, Krivog tornja u Pizi i Rima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Kako se naziva široki pojas zimzelenih crnogoričnih šuma koji se proteže preko Sjeverne Amerike i Euroazije?",
+        "correct_answer": "Tajga",
+        "incorrect_answers": [
+            "Savana",
+            "Tundra",
+            "Prašuma"
+        ],
+        "explanation": "Tajga je biom karakteriziran zimzelenim crnogoričnim šumama, dominantan u subarktičkim regijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koje je najveće slatkovodno jezero po volumenu u Africi?",
+        "correct_answer": "Jezero Tanganjika",
+        "incorrect_answers": [
+            "Viktorijino jezero",
+            "Malavijsko jezero",
+            "Čad"
+        ],
+        "explanation": "Jezero Tanganjika je drugo najstarije i drugo najdublje jezero na svijetu, te najveće slatkovodno jezero po volumenu u Africi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koji ocean graniči s istočnom obalom Sjeverne Amerike?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Tihi ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Atlantski ocean je drugi najveći ocean na svijetu i graniči s istočnom obalom Sjeverne Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva uski kopneni pojas koji spaja dva veća kopna, okružen morem s dvije strane?",
+        "correct_answer": "Prevlak",
+        "incorrect_answers": [
+            "Poluotok",
+            "Otoka",
+            "Tjesnac"
+        ],
+        "explanation": "Prevlak (ili zemljana prevlaka) je uska kopnena masa koja spaja dva veća kopna i razdvaja dva mora ili oceana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji kontinent na svijetu?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najveći i najnaseljeniji kontinent, dom za više od polovice svjetske populacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Kako se naziva geomorfološki oblik nastao taloženjem sedimenata na ušću rijeke u more ili jezero?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Zaljev"
+        ],
+        "explanation": "Delta je aluvijalna ravnica nastala taloženjem riječnih sedimenata na ušću rijeke, obično trokutastog oblika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koja je država poznata po piramidama u Gizi i rijeci Nil?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Sudan",
+            "Irak",
+            "Maroko"
+        ],
+        "explanation": "Egipat je drevna civilizacija smještena uz rijeku Nil, poznata po svojim faraonima i piramidama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je najslaniji ocean na svijetu?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Tihi ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Atlantski ocean ima najveću prosječnu slanost među svim oceanima, zbog svoje geografije i struja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni otvor na površini Zemlje kroz koji izbijaju užarena lava, pepeo i plinovi?",
+        "correct_answer": "Vulkan",
+        "incorrect_answers": [
+            "Gejzir",
+            "Krater",
+            "Fumarola"
+        ],
+        "explanation": "Vulkan je geološki oblik, obično planina, nastao izbacivanjem magme, pepela i plinova iz Zemljine unutrašnjosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "U kojoj je državi smještena pustinja Atacama, jedna od najsuših pustinja na svijetu?",
+        "correct_answer": "Čile",
+        "incorrect_answers": [
+            "Peru",
+            "Argentina",
+            "Bolivija"
+        ],
+        "explanation": "Pustinja Atacama, poznata po ekstremnoj suhoći, nalazi se uglavnom u sjevernom Čileu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koji kontinent povezuje Sjevernu i Južnu Ameriku?",
+        "correct_answer": "Sjeverna Amerika",
+        "incorrect_answers": [
+            "Antarktika",
+            "Afrika",
+            "Europa"
+        ],
+        "explanation": "Sjeverna Amerika je kontinent koji se proteže od arktičkih područja na sjeveru do Panamske prevlake, povezujući se s Južnom Amerikom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planinskog lanca Himalaje?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2",
+            "Kangchendzonga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest je najviši vrh na Zemlji s nadmorskom visinom od 8.848,86 metara (stanje 2020.) i dio je Himalaje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Kako se naziva velika, ravna površina kopna koja je značajno iznad razine mora?",
+        "correct_answer": "Visoravan",
+        "incorrect_answers": [
+            "Nizina",
+            "Dolina",
+            "Brdo"
+        ],
+        "explanation": "Visoravan (plato) je veliko, ravno, povišeno područje kopna, često s strmim stranama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim samurajima, trešnjinim cvjetovima i planini Fuji?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Tajland"
+        ],
+        "explanation": "Japan je otočna država u istočnoj Aziji, bogate kulture i poznatih simbola poput samuraja i planine Fuji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji je najuži tjesnac na svijetu kroz koji prolazi značajan pomorski promet?",
+        "correct_answer": "Bospor",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Beringov tjesnac",
+            "Magellanov tjesnac"
+        ],
+        "explanation": "Bospor je uski, prirodni tjesnac u sjeverozapadnoj Turskoj koji povezuje Crno more s Mramornim morem i dalje s Egejskim i Sredozemnim.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Južnoj Americi po protoku?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Parana",
+            "Orinoco",
+            "Rio Negro"
+        ],
+        "explanation": "Amazon je druga najduža rijeka na svijetu i daleko najveća po volumenu protoka vode, koja se ulijeva u Atlantski ocean.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva plitki, često slani bazen vode odvojen od mora pješčanim nasipom ili koraljnim grebenom?",
+        "correct_answer": "Laguna",
+        "incorrect_answers": [
+            "Zaljev",
+            "Estuarij",
+            "Fjord"
+        ],
+        "explanation": "Laguna je plitka vodena površina odvojena od veće vodene mase, poput oceana, pješčanim sprudom ili koraljnim grebenom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja je država poznata po Velikom koraljnom grebenu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Fidži"
+        ],
+        "explanation": "Veliki koraljni greben, najveći koraljni greben na svijetu, nalazi se uz obalu Queenslanda u Australiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji kontinent pokriva Južni pol?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Arktik",
+            "Južna Amerika",
+            "Australija"
+        ],
+        "explanation": "Antarktika je najjužniji kontinent i sadrži geografski Južni pol.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-16"
     }
 ]
