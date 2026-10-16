@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { addDaysToDateKey, getYesterdayZagrebDateKey } from '../../api/daily-challenge-payout.js';
+import { addDaysToDateKey, getYesterdayZagrebDateKey, isAuthorizedCron } from '../../api/daily-challenge-payout.js';
 
 describe('addDaysToDateKey', () => {
     it('handles standard day subtractions', () => {
@@ -37,5 +37,26 @@ describe('getYesterdayZagrebDateKey', () => {
         // 2026-02-28 23:10 UTC -> 2026-03-01 00:10 in Zagreb -> yesterday is 2026-02-28
         const monthBoundaryCronTime = new Date('2026-02-28T23:10:00Z');
         expect(getYesterdayZagrebDateKey(monthBoundaryCronTime)).toBe('2026-02-28');
+    });
+});
+
+describe('isAuthorizedCron', () => {
+    it('accepts the exact bearer secret', () => {
+        expect(isAuthorizedCron('Bearer s3cret', 's3cret')).toBe(true);
+    });
+
+    it('rejects a wrong secret of the same length', () => {
+        expect(isAuthorizedCron('Bearer s3creX', 's3cret')).toBe(false);
+    });
+
+    it('rejects a different-length header without throwing', () => {
+        expect(isAuthorizedCron('Bearer s3cret-and-more', 's3cret')).toBe(false);
+        expect(isAuthorizedCron('', 's3cret')).toBe(false);
+        expect(isAuthorizedCron(undefined, 's3cret')).toBe(false);
+    });
+
+    it('never authorizes when the secret is unset', () => {
+        expect(isAuthorizedCron('Bearer ', '')).toBe(false);
+        expect(isAuthorizedCron('Bearer undefined', undefined)).toBe(false);
     });
 });

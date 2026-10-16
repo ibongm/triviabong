@@ -13,6 +13,10 @@ import {
     collection, query, orderBy, limit, getDocs, getCountFromServer, where,
 } from 'firebase/firestore';
 import { readFileSync } from 'node:fs';
+// zagrebDateKey is the same Intl Europe/Zagreb formatter as
+// getZagrebDateString (src/utils/achievements.js), which plain node can't
+// import (extensionless imports); periods.js has none.
+import { zagrebDateKey, weekKeyForDateKey, addWeeks } from '../src/utils/periods.js';
 
 const testEnv = await initializeTestEnvironment({
     projectId: 'triviabong-web',
@@ -31,7 +35,9 @@ const check = async (name, fn) => {
     catch (err) { console.error(`  FAIL  ${name}\n        ${err.message}`); failed++; }
 };
 
-const WEEK = '2026-W44';
+// The rules only accept the CURRENT Zagreb ISO week (audit M1), so the week
+// under test is computed, not hardcoded.
+const WEEK = weekKeyForDateKey(zagrebDateKey());
 const wRef = (db, uid, week = WEEK) => doc(db, 'weeklyBoards', week, 'players', uid);
 const sRef = (db, uid, season = 's1') => doc(db, 'seasonBoards', season, 'players', uid);
 
@@ -74,7 +80,15 @@ await check('DENIES an empty name', () => assertFails(setDoc(wRef(A, 'alice'), w
 await check('DENIES a client-supplied updatedAt', () => assertFails(setDoc(wRef(A, 'alice'), weekly([1500], { updatedAt: new Date('2020-01-01') }))));
 await check('DENIES an unknown field', () => assertFails(setDoc(wRef(A, 'alice'), weekly([1500], { rank: 1 }))));
 await check('DENIES a malformed week key', () => assertFails(setDoc(wRef(A, 'alice', '2026-44'), weekly([1500]))));
-await check('DENIES a week key with junk appended', () => assertFails(setDoc(wRef(A, 'alice', '2026-W44-x'), weekly([1500]))));
+await check('DENIES a week key with junk appended', () => assertFails(setDoc(wRef(A, 'alice', `${WEEK}-x`), weekly([1500]))));
+await check(`DENIES last week (${addWeeks(WEEK, -1)})`, () => assertFails(setDoc(wRef(A, 'alice', addWeeks(WEEK, -1)), weekly([1500]))));
+await check(`DENIES next week (${addWeeks(WEEK, 1)})`, () => assertFails(setDoc(wRef(A, 'alice', addWeeks(WEEK, 1)), weekly([1500]))));
+await check('DENIES a week far in the future', () => assertFails(setDoc(wRef(A, 'alice', '2099-W10'), weekly([1500]))));
+await check('DENIES a week in the past year', () => assertFails(setDoc(wRef(A, 'alice', '2025-W08'), weekly([1500]))));
+await reset();
+await seedWeekly('alice', [900], addWeeks(WEEK, -1));
+await check('DENIES topping up an ended week', () => assertFails(setDoc(wRef(A, 'alice', addWeeks(WEEK, -1)), weekly([1200, 900]))));
+await reset();
 
 console.log('\nweekly player docs - update (single top-5 insertion)');
 await reset();

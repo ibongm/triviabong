@@ -26,6 +26,7 @@
 //                 "Authorization: Bearer $CRON_SECRET" on cron-triggered
 //                 invocations once this env var exists, so this doubles as
 //                 both the Vercel-side and our-side check.
+import { timingSafeEqual } from 'node:crypto';
 import { initializeApp, cert, getApps } from 'firebase-admin/app';
 import { getFirestore, FieldValue, Timestamp } from 'firebase-admin/firestore';
 
@@ -271,9 +272,18 @@ export const sweepExpiredDuels = async (db, nowMs = Date.now()) => {
     }
 };
 
+// Constant-time check of "Authorization: Bearer <CRON_SECRET>". An unset
+// secret never authorizes. timingSafeEqual throws on unequal lengths, so the
+// byte lengths are compared first (that leaks only the length).
+export const isAuthorizedCron = (authHeader, secret) => {
+    if (!secret) return false;
+    const expected = Buffer.from(`Bearer ${secret}`, 'utf8');
+    const got = Buffer.from(typeof authHeader === 'string' ? authHeader : '', 'utf8');
+    return got.length === expected.length && timingSafeEqual(got, expected);
+};
+
 export default async function handler(req, res) {
-    const authHeader = req.headers.authorization || '';
-    if (!process.env.CRON_SECRET || authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+    if (!isAuthorizedCron(req.headers.authorization, process.env.CRON_SECRET)) {
         res.status(401).json({ error: 'Unauthorized.' });
         return;
     }

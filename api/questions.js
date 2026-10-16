@@ -100,8 +100,10 @@ const putCategoryFile = async (repo, branch, filePath, data, sha, message) => {
         return { ok: false, status: 409, error: 'Datoteka je promijenjena u međuvremenu, pokušajte ponovno.' };
     }
     if (!res.ok) {
-        const details = await res.text();
-        return { ok: false, status: 502, error: 'Neuspješno spremanje promjena na GitHub.', details };
+        // Logged server-side only - the raw GitHub error body isn't returned
+        // to the caller.
+        console.error(`GitHub PUT ${filePath} failed (${res.status}):`, await res.text());
+        return { ok: false, status: 502, error: 'Neuspješno spremanje promjena na GitHub.' };
     }
 
     const json = await res.json();
@@ -121,7 +123,9 @@ export default async function handler(req, res) {
     }
 
     const { action = 'add', category, questions, id, question } = req.body || {};
-    const filename = CATEGORY_FILES[category];
+    // Own-property lookup only - a plain index would resolve '__proto__' or
+    // 'constructor' to an inherited, truthy value.
+    const filename = Object.hasOwn(CATEGORY_FILES, category) ? CATEGORY_FILES[category] : null;
     if (!filename) {
         res.status(400).json({ error: `Nepoznata kategorija: ${category}` });
         return;
@@ -165,7 +169,7 @@ export default async function handler(req, res) {
             `Add ${added} question(s) to ${category} via admin upload`
         );
         if (!commit.ok) {
-            res.status(commit.status).json({ error: commit.error, details: commit.details });
+            res.status(commit.status).json({ error: commit.error });
             return;
         }
 
@@ -196,7 +200,7 @@ export default async function handler(req, res) {
             `Remove ${id} from ${category} via admin panel`
         );
         if (!commit.ok) {
-            res.status(commit.status).json({ error: commit.error, details: commit.details });
+            res.status(commit.status).json({ error: commit.error });
             return;
         }
 
@@ -227,7 +231,7 @@ export default async function handler(req, res) {
             `Edit ${id} in ${category} via admin panel`
         );
         if (!commit.ok) {
-            res.status(commit.status).json({ error: commit.error, details: commit.details });
+            res.status(commit.status).json({ error: commit.error });
             return;
         }
 

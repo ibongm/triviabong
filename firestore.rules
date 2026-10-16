@@ -44,6 +44,46 @@ service cloud.firestore {
       );
     }
 
+    // Zagreb calendar-day window for a "YYYY-MM-DD" key (security audit
+    // 2026-10-16, H2). Zagreb day D starts at D 00:00 UTC minus 1h (CET) or
+    // 2h (CEST) and ends 23h/22h after D 00:00 UTC. Rules have no tz
+    // database, so the window is the union of both offsets: open from
+    // D 00:00 UTC - 2h, closed at D 00:00 UTC + 23h05m. The 5 min tail lets a
+    // round started just before CET midnight still submit, and it still
+    // closes before the 23:10 UTC payout cron (vercel.json).
+    function zagrebDayStart(d) {
+      let p = d.split('-');
+      return timestamp.date(int(p[0]), int(p[1]), int(p[2]));
+    }
+    function isCurrentZagrebDay(d) {
+      return d is string
+        && d.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+        && request.time >= zagrebDayStart(d) - duration.value(2, 'h')
+        && request.time < zagrebDayStart(d) + duration.value(1385, 'm');
+    }
+
+    // ISO week window for a "YYYY-Www" key (audit M1), same Zagreb slop as
+    // isCurrentZagrebDay: week 1 is the week containing Jan 4, weeks start
+    // Monday. dayOfWeek() is 1 (Mon) .. 7 (Sun).
+    function isoWeekStart(weekKey) {
+      let p = weekKey.split('-W');
+      let jan4 = timestamp.date(int(p[0]), 1, 4);
+      return jan4 - duration.value((jan4.dayOfWeek() - 1) * 24, 'h')
+        + duration.value((int(p[1]) - 1) * 168, 'h');
+    }
+    function isCurrentZagrebWeek(weekKey) {
+      return weekKey.matches('^[0-9]{4}-W[0-9]{2}$')
+        && request.time >= isoWeekStart(weekKey) - duration.value(2, 'h')
+        && request.time < isoWeekStart(weekKey) + duration.value(167, 'h') + duration.value(5, 'm');
+    }
+
+    // Fields only the server (payout cron via Admin SDK) or admin may set on
+    // users/{uid} - the cron trusts dailyWinStreak/lastDailyWinDate when
+    // computing the win-streak bonus (audit H4).
+    function serverOwnedUserKeys() {
+      return ['role', 'dailyWinStreak', 'lastDailyWinDate'];
+    }
+
     match /users/{uid} {
       // Only the owner or an admin can read a specific profile.
       allow get: if isOwner(uid) || isAdmin();
@@ -51,10 +91,12 @@ service cloud.firestore {
       allow list: if isAdmin();
 
       // Created by syncUserProfile() on first login — owner only, and it
-      // can't seed itself with privileged fields.
+      // can't seed itself with privileged fields. 40 keys is well above the
+      // ~25 top-level fields the client writes; it bounds field injection.
       allow create: if isOwner(uid)
         && request.resource.data.uid == uid
-        && !('role' in request.resource.data)
+        && !request.resource.data.keys().hasAny(serverOwnedUserKeys())
+        && request.resource.data.keys().size() <= 40
         && (!('level' in request.resource.data) || (request.resource.data.level is int && request.resource.data.level >= 1))
         && (!('xp' in request.resource.data) || (request.resource.data.xp is int && request.resource.data.xp >= 0))
         && (!('coins' in request.resource.data) || (request.resource.data.coins is int && request.resource.data.coins >= 0));
@@ -64,7 +106,8 @@ service cloud.firestore {
       // update anything (AdminPanel's edit form).
       allow update: if isAdmin()
         || (isOwner(uid)
-            && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role'])
+            && !request.resource.data.diff(resource.data).affectedKeys().hasAny(serverOwnedUserKeys())
+            && request.resource.data.keys().size() <= 40
             && (!('level' in request.resource.data) || (request.resource.data.level is int && request.resource.data.level >= 1))
             && (!('xp' in request.resource.data) || (request.resource.data.xp is int && request.resource.data.xp >= 0))
             && (!('coins' in request.resource.data) || (request.resource.data.coins is int && request.resource.data.coins >= 0))
@@ -94,8 +137,19 @@ service cloud.firestore {
       // same "signed-in required" gate as Daily Challenge/sessions - there's
       // no anonymous mission tracking. dateKey format matches
       // getZagrebDateString()'s YYYY-MM-DD output.
+      //
+      // Shape mirrors freshMissionState() in src/hooks/useDailyMissions.js
+      // (audit M4). Per-slot progress/claimed values are still
+      // client-reported - only the document shape is enforced here.
       match /missions/{dateKey} {
-        allow read, write: if isOwner(uid) && dateKey.matches('[0-9]{4}-[0-9]{2}-[0-9]{2}');
+        allow read: if isOwner(uid) && dateKey.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$');
+        allow write: if isOwner(uid)
+          && dateKey.matches('^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+          && request.resource.data.keys().hasOnly(['dateKey', 'slots', 'cleanSweepClaimed'])
+          && request.resource.data.dateKey == dateKey
+          && request.resource.data.cleanSweepClaimed is bool
+          && request.resource.data.slots is map
+          && request.resource.data.slots.keys().hasOnly(['slot1', 'slot2', 'slot3']);
       }
 
       // Private leagues (engagement plan Phase 6): the player's own index of
@@ -159,7 +213,12 @@ service cloud.firestore {
     // that keep users/{uid} owner/admin-only (email, role, etc.). Synced
     // by syncPublicProfile() alongside the existing full-stats sync.
     match /publicProfiles/{uid} {
-      allow read: if true;
+      // Single-doc reads stay public; listing (= enumerating every uid) is
+      // signed-in only (audit L4). The only list queries are the admin
+      // Rekordi rebuild and AdminLeaderboardsProfiles - signed-out Rekordi
+      // reads records/rekordiSummary instead.
+      allow get: if true;
+      allow list: if isSignedIn();
 
       // Admin can also write any uid's doc, specifically so the AdminPanel
       // "backfill" action can populate this collection for existing players
@@ -495,12 +554,108 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    // Records boards (audit H1): signed-in writers only, lists may never
+    // shrink (no wiping the board), and every entry's shape is checked.
+    // Rules have no loops, so each list is checked by unrolling a per-index
+    // helper 10 times; `l.size() <= i ||` short-circuits past the end of
+    // shorter lists, keeping the evaluated-expression count well under the
+    // 1000 limit even with all five rekordiSummary lists full. The admin
+    // rebuild actions (recompute*) bypass via isAdmin(). Entry CONTENT is
+    // still client-derived - this blocks anonymous defacement and wiping,
+    // not a signed-in player inserting a fabricated entry.
+    function listNotShrunk(f) {
+      return resource == null
+        || !(f in resource.data)
+        || (f in request.resource.data && request.resource.data[f].size() >= resource.data[f].size());
+    }
+    function nameOk(n) {
+      return n is string && n.size() > 0 && n.size() <= 20;
+    }
+    // Each entry is indexed ONCE and handed to a shape function: repeated
+    // l[i] lookups each re-materialize the list in the evaluator, which made
+    // a 10-entry check blow the expression limit on its own.
+    function fpShapeOk(e) {
+      return e.keys().hasOnly(['category', 'name', 'uid', 'elapsedMs', 'createdAt'])
+        && e.category is string && e.category.size() <= 50
+        && nameOk(e.name)
+        && (e.uid == null || e.uid is string)
+        && e.elapsedMs is int && e.elapsedMs >= 0 && e.elapsedMs <= 200000;
+    }
+    // Index checks are inlined (no per-index helper taking the whole list):
+    // every function call that receives the list costs ~its length again.
+    function fpEntriesOk(l) {
+      return l is list && l.size() <= 10
+        && (l.size() <= 0 || fpShapeOk(l[0])) && (l.size() <= 1 || fpShapeOk(l[1]))
+        && (l.size() <= 2 || fpShapeOk(l[2])) && (l.size() <= 3 || fpShapeOk(l[3]))
+        && (l.size() <= 4 || fpShapeOk(l[4])) && (l.size() <= 5 || fpShapeOk(l[5]))
+        && (l.size() <= 6 || fpShapeOk(l[6])) && (l.size() <= 7 || fpShapeOk(l[7]))
+        && (l.size() <= 8 || fpShapeOk(l[8])) && (l.size() <= 9 || fpShapeOk(l[9]));
+    }
+    // rekordiSummary holds up to 5 x 10 entries, and the evaluator's cost
+    // per list entry is high (measured in the emulator: a full shape check -
+    // key allowlist + string bounds - fits only ONE 10-entry list under the
+    // 1000-expression limit). The profile sync legitimately rewrites all four
+    // profile lists in one write, and even a type-only check on 40 entries
+    // plus this rule's fixed overhead (the whole-doc diff, shrink checks)
+    // exceeds the limit - which would deny every profile sync. So the four
+    // profile lists are bounded only as lists: <= 10 entries, never shrinking.
+    // bestScore (rewritten alone, on score saves) gets the full per-entry
+    // shape check. Only lists THIS write changes are validated at all - an
+    // untouched list was validated when it was written.
+    // Residual: a signed-in caller can still put arbitrary entry content into
+    // a PROFILE board (anonymous writes and wiping are blocked). The real fix
+    // is deriving rekordiSummary server-side.
+    function rsChangedKeys() {
+      return resource == null
+        ? request.resource.data.keys()
+        : request.resource.data.diff(resource.data).affectedKeys();
+    }
+    // Profile boards: { uid, displayName, <field> } - list bounds only, see above.
+    function profileEntriesOk(l) {
+      return l is list && l.size() <= 10;
+    }
+    // Changed lists only (see above); an unchanged list can't have shrunk.
+    function profileListOk(f, changed) {
+      return !(f in changed)
+        || (profileEntriesOk(request.resource.data[f]) && listNotShrunk(f));
+    }
+    // bestScore board: { category, name, uid|null, score }.
+    function bestScoreShapeOk(e) {
+      return e.keys().hasOnly(['category', 'name', 'uid', 'score'])
+        && e.category is string && e.category.size() <= 50
+        && nameOk(e.name)
+        && (e.uid == null || e.uid is string)
+        && e.score is int && e.score >= 0 && e.score <= 10000;
+    }
+    function bestScoreEntriesOk(l) {
+      return l is list && l.size() <= 10
+        && (l.size() <= 0 || bestScoreShapeOk(l[0])) && (l.size() <= 1 || bestScoreShapeOk(l[1]))
+        && (l.size() <= 2 || bestScoreShapeOk(l[2])) && (l.size() <= 3 || bestScoreShapeOk(l[3]))
+        && (l.size() <= 4 || bestScoreShapeOk(l[4])) && (l.size() <= 5 || bestScoreShapeOk(l[5]))
+        && (l.size() <= 6 || bestScoreShapeOk(l[6])) && (l.size() <= 7 || bestScoreShapeOk(l[7]))
+        && (l.size() <= 8 || bestScoreShapeOk(l[8])) && (l.size() <= 9 || bestScoreShapeOk(l[9]));
+    }
+    function bestScoreListOk(changed) {
+      return !('bestScore' in changed)
+        || (bestScoreEntriesOk(request.resource.data.bestScore) && listNotShrunk('bestScore'));
+    }
+    // Takes the changed-key set as an argument so the (whole-document) diff
+    // is computed once per write, not once per list.
+    function rekordiSummaryOk(changed) {
+      return profileListOk('level', changed)
+        && profileListOk('maxStreak', changed)
+        && profileListOk('achievementCount', changed)
+        && profileListOk('dayStreak', changed)
+        && bestScoreListOk(changed);
+    }
+
     match /records/fastestPerfect {
       allow read: if true;
 
-      allow create, update: if request.resource.data.keys().hasOnly(['entries', 'updatedAt'])
-        && request.resource.data.entries is list
-        && request.resource.data.entries.size() <= 10;
+      allow create, update: if isAdmin() || (isSignedIn()
+        && request.resource.data.keys().hasOnly(['entries', 'updatedAt'])
+        && fpEntriesOk(request.resource.data.entries)
+        && listNotShrunk('entries'));
 
       allow delete: if isAdmin();
     }
@@ -514,13 +669,10 @@ service cloud.firestore {
     match /records/rekordiSummary {
       allow read: if true;
 
-      allow create, update: if request.resource.data.keys().hasOnly(
+      allow create, update: if isAdmin() || (isSignedIn()
+        && request.resource.data.keys().hasOnly(
           ['level', 'maxStreak', 'achievementCount', 'dayStreak', 'bestScore', 'updatedAt'])
-        && (!('level' in request.resource.data) || (request.resource.data.level is list && request.resource.data.level.size() <= 10))
-        && (!('maxStreak' in request.resource.data) || (request.resource.data.maxStreak is list && request.resource.data.maxStreak.size() <= 10))
-        && (!('achievementCount' in request.resource.data) || (request.resource.data.achievementCount is list && request.resource.data.achievementCount.size() <= 10))
-        && (!('dayStreak' in request.resource.data) || (request.resource.data.dayStreak is list && request.resource.data.dayStreak.size() <= 10))
-        && (!('bestScore' in request.resource.data) || (request.resource.data.bestScore is list && request.resource.data.bestScore.size() <= 10));
+        && rekordiSummaryOk(rsChangedKeys()));
 
       allow delete: if isAdmin();
     }
@@ -544,8 +696,15 @@ service cloud.firestore {
       allow read: if isSignedIn() && attemptDocId.matches('.*_' + request.auth.uid + '$');
 
       // The only attempt of the day for this uid - doc doesn't exist yet.
+      // The doc id must be the caller's own "{date}_{uid}" - otherwise anyone
+      // could pre-create another player's attempt doc and, with no update
+      // path, lock them out of that day (audit H2) - and the date must be
+      // today in Zagreb.
       allow create: if isOwner(request.resource.data.uid)
         && request.resource.data.keys().hasOnly(['uid', 'date', 'attemptsUsed', 'updatedAt'])
+        && request.resource.data.date is string
+        && attemptDocId == request.resource.data.date + '_' + request.auth.uid
+        && isCurrentZagrebDay(request.resource.data.date)
         && request.resource.data.attemptsUsed == 1
         && request.resource.data.updatedAt == request.time;
 
@@ -564,6 +723,8 @@ service cloud.firestore {
       allow read: if true;
 
       allow create, update: if isOwner(uid)
+        // No posting to a day that has ended but not been paid out yet.
+        && isCurrentZagrebDay(date)
         && request.resource.data.keys().hasOnly(['uid', 'name', 'score', 'createdAt'])
         && request.resource.data.uid == uid
         && request.resource.data.name is string
@@ -764,9 +925,15 @@ service cloud.firestore {
                       && request.resource.data.player1Answer.optionIndex >= 0
                       && request.resource.data.player1Answer.optionIndex <= 3
                       && request.resource.data.player1Answer.answeredAt == request.time))
+              // Score may only move together with this question's answer,
+              // by at most one answer's maximum (audit M2): 900 =
+              // (BASE_SCORE 100 + 20s x 10) x (1 + 10 x 0.2), the most
+              // computeDuelAnswerScore gives at the sudden-death streak.
               && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player1Score'])
-                  || (request.resource.data.player1Score is int
+                  || (request.resource.data.diff(resource.data).affectedKeys().hasAny(['player1Answer'])
+                      && request.resource.data.player1Score is int
                       && request.resource.data.player1Score >= resource.data.player1Score
+                      && request.resource.data.player1Score - resource.data.player1Score <= 900
                       && request.resource.data.player1Score <= 8000))
               && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player1Correct'])
                   || (request.resource.data.player1Correct is int
@@ -787,8 +954,10 @@ service cloud.firestore {
                       && request.resource.data.player2Answer.optionIndex <= 3
                       && request.resource.data.player2Answer.answeredAt == request.time))
               && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player2Score'])
-                  || (request.resource.data.player2Score is int
+                  || (request.resource.data.diff(resource.data).affectedKeys().hasAny(['player2Answer'])
+                      && request.resource.data.player2Score is int
                       && request.resource.data.player2Score >= resource.data.player2Score
+                      && request.resource.data.player2Score - resource.data.player2Score <= 900
                       && request.resource.data.player2Score <= 8000))
               && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['player2Correct'])
                   || (request.resource.data.player2Correct is int
@@ -819,28 +988,41 @@ service cloud.firestore {
 
           // Finish the match from the last reveal (either the 10th question
           // with no tie, or the sudden-death 11th question) - becomes
-          // immutable immediately after via matchIsTerminal() above.
+          // immutable immediately after via matchIsTerminal() above. The
+          // winner is whatever the stored scores imply, same as
+          // MatchView.jsx's finish effect (audit H3) - a participant can't
+          // end the match early or name themselves the winner.
           || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'lastActivityAt'])
               && resource.data.status == 'reveal'
               && request.resource.data.status == 'match_over'
-              && (request.resource.data.winnerUid == null
-                  || request.resource.data.winnerUid == resource.data.player1Uid
-                  || request.resource.data.winnerUid == resource.data.player2Uid)
+              && (resource.data.currentQuestionIndex == 10
+                  || (resource.data.currentQuestionIndex == 9
+                      && resource.data.player1Score != resource.data.player2Score))
+              && request.resource.data.winnerUid == (
+                   resource.data.player1Score > resource.data.player2Score ? resource.data.player1Uid
+                   : resource.data.player2Score > resource.data.player1Score ? resource.data.player2Uid
+                   : null)
               && request.resource.data.lastActivityAt == request.time)
 
-          // Forfeit - either participant may report the OTHER player as
-          // inactive (never themselves - winnerUid must be their opponent,
-          // not their own uid) from any non-terminal status. No server
-          // exists to verify the 30s inactivity claim independently (see
-          // Plan B §6) - this is a deliberate, documented v1 limit.
-          // forfeitReason ('manual' | 'timeout') is optional-but-validated-
+          // Forfeit - from any non-terminal status. forfeitReason ('manual' | 'timeout') is optional-but-validated-
           // if-present (older/other-path writes without it still validate)
           // so MatchView.jsx can show different copy for a deliberate quit
           // vs. a stale-heartbeat auto-forfeit.
+          //
+          // Two shapes (audit L1): conceding (winner = opponent, any
+          // reason), or claiming a 'timeout' win for yourself - allowed only
+          // when the opponent's heartbeat doc proves they've been silent for
+          // 40s. FORFEIT_THRESHOLD_MS in MatchView.jsx is 45s; the 5s gap is
+          // clock-skew margin. A missing heartbeat doc makes get() error,
+          // which denies - no proof, no win.
           || (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'winnerUid', 'forfeitReason', 'lastActivityAt'])
               && request.resource.data.status == 'forfeited'
-              && request.resource.data.winnerUid != request.auth.uid
               && (request.resource.data.winnerUid == resource.data.player1Uid || request.resource.data.winnerUid == resource.data.player2Uid)
+              && (request.resource.data.winnerUid != request.auth.uid
+                  || (request.resource.data.forfeitReason == 'timeout'
+                      && get(/databases/$(database)/documents/matches/$(matchId)/heartbeats/$(
+                           request.auth.uid == resource.data.player1Uid ? resource.data.player2Uid : resource.data.player1Uid
+                         )).data.heartbeatAt < request.time - duration.value(40, 's')))
               && (!request.resource.data.diff(resource.data).affectedKeys().hasAny(['forfeitReason'])
                   || request.resource.data.forfeitReason in ['manual', 'timeout'])
               && request.resource.data.lastActivityAt == request.time)
@@ -1130,8 +1312,10 @@ service cloud.firestore {
       match /players/{uid} {
         allow read: if true;
 
+        // Only the current ISO week (Zagreb) - no pre-loading a future week
+        // or topping up an ended-but-unpaid one (audit M1).
         allow create: if isOwner(uid)
-          && weekKey.matches('^[0-9]{4}-W[0-9]{2}$')
+          && isCurrentZagrebWeek(weekKey)
           && weeklyBoardShapeOk(request.resource.data)
           && request.resource.data.s1 > 0
           && request.resource.data.s2 == 0
@@ -1140,7 +1324,7 @@ service cloud.firestore {
           && request.resource.data.s5 == 0;
 
         allow update: if isOwner(uid)
-          && weekKey.matches('^[0-9]{4}-W[0-9]{2}$')
+          && isCurrentZagrebWeek(weekKey)
           && weeklyBoardShapeOk(request.resource.data)
           && request.resource.data.s1 >= resource.data.s1
           && request.resource.data.s2 >= resource.data.s2 && request.resource.data.s2 <= resource.data.s1

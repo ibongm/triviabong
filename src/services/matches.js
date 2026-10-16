@@ -337,8 +337,9 @@ export const finishMatch = async (matchId, winnerUid) => {
     }
 };
 
-// winnerUid must be the OPPONENT's uid, never the caller's own - enforced
-// both here and (authoritatively) by firestore.rules. reason distinguishes
+// winnerUid is the opponent's uid for a concession ('manual'). For a
+// 'timeout' claim it is the caller's own uid, which firestore.rules only
+// accepts when the opponent's heartbeat doc is >40s stale. reason distinguishes
 // a deliberate quit ('manual', the "Napusti dvoboj" button) from a stale-
 // heartbeat auto-forfeit ('timeout'), so the surviving player's screen can
 // show different copy instead of identical text for both cases.

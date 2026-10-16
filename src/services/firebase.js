@@ -250,7 +250,11 @@ export const syncUserStatsToFirestore = async (uid, stats) => {
         const userRef = doc(db, "users", uid);
         const {
             uid: _uid, email: _email, displayName: _dn, photoURL: _ph,
-            lastLogin: _ll, role: _role, ...cleanStats
+            lastLogin: _ll, role: _role,
+            // Server-owned (payout cron) - firestore.rules rejects any client
+            // change, so a stale local copy must never be written back.
+            dailyWinStreak: _dws, lastDailyWinDate: _ldw,
+            ...cleanStats
         } = stats || {};
 
         await setDoc(userRef, {
@@ -713,6 +717,9 @@ export const saveScoreToFirestore = async (categoryKey, name, score, uid = null,
         if (typeof elapsedMs === 'number') payload.elapsedMs = elapsedMs;
         if (typeof isPerfect === 'boolean') payload.isPerfect = isPerfect;
         await addDoc(scoresRef, payload);
+        // The records/* boards require sign-in (firestore.rules), so a
+        // signed-out save would only produce a permission-denied error.
+        if (!uid) return true;
         await maybeUpdateRekordiBestScore(categoryKey, name, uid, score);
         if (isPerfect === true && typeof elapsedMs === 'number') {
             await maybeUpdateFastestPerfectRecord(categoryKey, name, uid, elapsedMs);

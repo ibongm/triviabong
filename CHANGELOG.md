@@ -1,5 +1,30 @@
 # Changelog
 
+### [2026-10-16] - Security audit remediation (H1–H4, M1, M2, M4, L1–L4)
+- **Files Changed**:
+  - `firestore.rules` (Modified)
+  - `src/services/firebase.js` (Modified)
+  - `src/services/matches.js` (Modified)
+  - `api/questions.js` (Modified)
+  - `api/daily-challenge-payout.js` (Modified)
+  - `src/utils/dailyChallengePayout.test.js` (Modified)
+  - `scripts/firestore-rules-weekly-boards.test.mjs` (Modified)
+  - `scripts/firestore-rules-security-audit.test.mjs` (Added)
+- **Details**:
+  - H1 (rules): `records/fastestPerfect` + `records/rekordiSummary` now require sign-in (admin bypass for rebuilds) and reject shrinking lists. fastestPerfect and rekordiSummary.bestScore entries get full shape checks; the four rekordiSummary profile lists get list bounds only (≤10, no shrink), because even a type-only check on the 40 entries a profile sync rewrites exceeds the 1000-expression limit (measured in the emulator). Only lists a write changes are validated. Entries are indexed once and index checks inlined, since each function call receiving a list re-costs its length. `saveScoreToFirestore` skips both record updates when signed out.
+  - H2 (rules): `isCurrentZagrebDay()` window `[D 00:00Z − 2h, D 00:00Z + 23h05m)` (closes before the 23:10 UTC cron). `dailyAttempts` create requires doc id `== date + '_' + auth.uid` and today's date (blocks locking out other players). `dailyLeaderboards` create/update requires the current day.
+  - H3 (rules): `match_over` only from the question-10 reveal (or question 9 with unequal scores), and `winnerUid` must equal the score-implied winner.
+  - H4 (rules + client): `users/{uid}` create/update reject `role`, `dailyWinStreak`, `lastDailyWinDate` (trusted by the payout cron) and cap docs at 40 keys (~25 in use). `syncUserStatsToFirestore` strips `dailyWinStreak`/`lastDailyWinDate`, so a stale local copy can't fail the stats sync.
+  - M1 (rules + test): weekly board create/update only for the current Zagreb ISO week (`isoWeekStart`/`isCurrentZagrebWeek`). Weekly test computes `WEEK` dynamically and covers past/future/ended weeks.
+  - M2 (rules): a 1v1 score may only change in the same write as that player's answer, by ≤900 (one answer's max).
+  - M4 (rules): mission docs restricted to `{dateKey (== doc id), slots{slot1..3}, cleanSweepClaimed: bool}`; read/write split.
+  - L1 (rules): timeout forfeit with `winnerUid == caller` allowed only when the opponent's heartbeat doc is >40s stale (client threshold 45s). The auto-forfeit was previously always denied. Concessions unchanged.
+  - L2 (API): `api/questions.js` category lookup uses `Object.hasOwn`. The raw GitHub error body is logged server-side, no longer returned.
+  - L3 (API): cron auth via exported `isAuthorizedCron()` using `timingSafeEqual` with a length pre-check; unit-tested.
+  - L4 (rules): `publicProfiles` get stays public, list requires sign-in (only admin views list it).
+  - Tests: new emulator suite (98 checks) incl. a CEL probe confirming `int()` on `"08"`/`"09"`, month/year edges, leap day and 53-week years via the real helpers. All 7 rules suites pass (356 checks), plus 399 unit tests, build and lint.
+  - Not deployed: rules need `firebase deploy --only firestore:rules` together with the client build.
+
 ### [2026-10-11] - Mobile (390px) UI audit remediation & Croatian copy fixes
 - **Files Changed**:
   - `src/App.jsx` (Modified)
