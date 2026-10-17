@@ -30899,5 +30899,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koja je starogrčka država bila poznata po svojem vojnom ustroju i asketskom načinu života?",
+        "correct_answer": "Sparta",
+        "incorrect_answers": [
+            "Atena",
+            "Korint",
+            "Teba"
+        ],
+        "explanation": "Sparta je bila poznata po svojoj militarističkoj kulturi i strogom društvenom sustavu usmjerenom na vojno osposobljavanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Tko je bio najpoznatiji faraon koji je vladao Egiptom tijekom Novog kraljevstva, poznat po svojim velikim građevinama i vojnim pohodima?",
+        "correct_answer": "Ramzes II.",
+        "incorrect_answers": [
+            "Tutankamon",
+            "Akhenaten",
+            "Kleopatra VII."
+        ],
+        "explanation": "Ramzes II. je vladao 66 godina i ostavio je trajan pečat na egipatskoj povijesti kroz brojne monumentalne hramove i obeliske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Koji je rimski car proglasio kršćanstvo državnom religijom Rimskog Carstva 380. godine n.e.?",
+        "correct_answer": "Teodozije I.",
+        "incorrect_answers": [
+            "Konstantin I.",
+            "Dioklecijan",
+            "Julijan Apostata"
+        ],
+        "explanation": "Teodozije I. je 380. godine n.e. izdao Solunski edikt kojim je nicejsko kršćanstvo postalo službena religija Rimskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koja je dinastija ujedinila Kinu nakon Razdoblja zaraćenih država i uspostavila centraliziranu carsku vlast?",
+        "correct_answer": "Dinastija Qin",
+        "incorrect_answers": [
+            "Dinastija Han",
+            "Dinastija Zhou",
+            "Dinastija Tang"
+        ],
+        "explanation": "Dinastija Qin je pod vodstvom Qin Shi Huanga ujedinila Kinu 221. pr. Kr. i postavila temelje za buduće carstvo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koja je bila primarna svrha egipatskih piramida?",
+        "correct_answer": "Grobnice za faraone",
+        "incorrect_answers": [
+            "Hramovi za bogove",
+            "Astronomski opservatoriji",
+            "Skladišta žita"
+        ],
+        "explanation": "Piramide su monumentalne građevine koje su služile kao grobnice za faraone i njihove supruge u starom Egiptu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Kako se naziva sporazum između Katoličke crkve i Svetog Rimskog Carstva iz 1122. godine, kojim je okončana Borba za investituru?",
+        "correct_answer": "Wormski konkordat",
+        "incorrect_answers": [
+            "Lateranski ugovor",
+            "Konkordat iz Sutrija",
+            "Mir u Augsburgu"
+        ],
+        "explanation": "Wormski konkordat je sporazum kojim je riješeno pitanje imenovanja biskupa i opata, razdvajajući duhovnu od svjetovne vlasti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Tko je bio franački kralj i car okrunjen u Rimu 800. godine od strane pape Lava III., čime je obnovljeno Zapadno Rimsko Carstvo?",
+        "correct_answer": "Karlo Veliki",
+        "incorrect_answers": [
+            "Klodvig I.",
+            "Pipinom Mali",
+            "Oton I."
+        ],
+        "explanation": "Karlo Veliki je okrunjen za cara 25. prosinca 800. godine, simbolizirajući obnovu carstva na Zapadu i jačanje veza s papinstvom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje velike ekonomske, političke i društvene krize u Europi u 14. stoljeću, obilježeno kugom, ratovima i glađu?",
+        "correct_answer": "Kasni srednji vijek",
+        "incorrect_answers": [
+            "Rani srednji vijek",
+            "Visoki srednji vijek",
+            "Rana moderna era"
+        ],
+        "explanation": "Kasni srednji vijek (oko 1300.-1500.) obilježen je krizama poput Crne smrti, Stogodišnjeg rata i općim društvenim previranjima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Tko je bio talijanski renesansni mislilac i političar, autor djela 'Vladar' (Il Principe), koje je utjecalo na modernu političku filozofiju?",
+        "correct_answer": "Niccolò Machiavelli",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Francesco Petrarca",
+            "Dante Alighieri"
+        ],
+        "explanation": "Machiavelli je napisao 'Vladara' 1513. godine, djelo koje je analiziralo političku moć i vodstvo iz realistične, a često i cinične perspektive.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik 1517. godine objavio 95 teza protiv prodaje indulgencija, čime je započeo protestantsku reformaciju?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Jean Calvin",
+            "Huldrych Zwingli",
+            "John Wycliffe"
+        ],
+        "explanation": "Martin Luther je 31. listopada 1517. godine na vrata crkve u Wittenbergu izvjesio svojih 95 teza, kritizirajući praksu indulgencija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Koja je velika pomorska bitka 1571. godine zaustavila osmansko širenje na Sredozemlju?",
+        "correct_answer": "Bitka kod Lepanta",
+        "incorrect_answers": [
+            "Bitka kod Trafalgara",
+            "Bitka kod Preveze",
+            "Bitka kod Actiuma"
+        ],
+        "explanation": "Bitka kod Lepanta, koju je vodila Sveta liga protiv Osmanskog Carstva, bila je ključna pobjeda koja je smanjila osmansku pomorsku moć.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Tko je bio engleski vojskovođa i političar koji je vodio Parlamentarne snage u Engleskom građanskom ratu i kasnije postao 'Lord Protector'?",
+        "correct_answer": "Oliver Cromwell",
+        "incorrect_answers": [
+            "Karlo I.",
+            "Richard III.",
+            "George Monck"
+        ],
+        "explanation": "Oliver Cromwell bio je ključna figura u Engleskom građanskom ratu, vodeći vojsku Parlamenta i uspostavljajući Commonwealth Engleske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Koja je filozofska ideja, dominantna u 18. stoljeću, naglašavala razum, znanost i individualna prava, potičući društvene i političke reforme?",
+        "correct_answer": "Prosvjetiteljstvo",
+        "incorrect_answers": [
+            "Romantizam",
+            "Merkantilizam",
+            "Humanizam"
+        ],
+        "explanation": "Prosvjetiteljstvo je bilo intelektualni pokret koji je naglašavao razum, individualizam i sumnju u tradicionalne autoritete, utječući na revolucije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Tko je bio vođa francuskog 'jakobinskog terora' i ključna figura Francuske revolucije, poznat po svojoj puritanskoj revnosti?",
+        "correct_answer": "Maximilien Robespierre",
+        "incorrect_answers": [
+            "Georges Danton",
+            "Jean-Paul Marat",
+            "Jacques Necker"
+        ],
+        "explanation": "Robespierre je bio vodeća figura Odbora javnog spasa i instrumentalni zagovornik politike terora tijekom Francuske revolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koji je izum Jamesa Watta bio ključan za razvoj Industrijske revolucije?",
+        "correct_answer": "Poboljšani parni stroj",
+        "incorrect_answers": [
+            "Mehanički tkalački stan",
+            "Predilica Jenny",
+            "Telegraf"
+        ],
+        "explanation": "James Watt je 1769. godine patentirao poboljšani parni stroj, čija je učinkovitost transformirala industriju i promet.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik donio Proklamaciju o emancipaciji 1863. godine, kojom su oslobođeni robovi u pobunjenim državama Konfederacije?",
+        "correct_answer": "Abraham Lincoln",
+        "incorrect_answers": [
+            "Ulysses S. Grant",
+            "Andrew Johnson",
+            "James Buchanan"
+        ],
+        "explanation": "Abraham Lincoln je izdao Proklamaciju o emancipaciji 1. siječnja 1863. godine, što je bio ključan korak ka ukidanju ropstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje 'novog imperijalizma' krajem 19. i početkom 20. stoljeća, kada su europske sile intenzivno kolonizirale Afriku?",
+        "correct_answer": "Borba za Afriku (Scramble for Africa)",
+        "incorrect_answers": [
+            "Berlinska konferencija",
+            "Veliki pohod",
+            "Kolonijalna groznica"
+        ],
+        "explanation": "Borba za Afriku odnosi se na brzu kolonizaciju i podjelu Afrike od strane europskih sila između 1881. i 1914. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koji je događaj 28. lipnja 1914. godine u Sarajevu doveo do početka Prvog svjetskog rata?",
+        "correct_answer": "Atentat na nadvojvodu Franza Ferdinanda",
+        "incorrect_answers": [
+            "Invazija Srbije na Austro-Ugarsku",
+            "Njemačka objava rata Rusiji",
+            "Mobilizacija ruskih trupa"
+        ],
+        "explanation": "Ubojstvo austrougarskog prijestolonasljednika Franza Ferdinanda u Sarajevu bilo je neposredan povod za početak Prvog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Tko je bio vođa boljševika i prva osoba Sovjetske Rusije nakon Listopadske revolucije 1917. godine?",
+        "correct_answer": "Vladimir Lenjin",
+        "incorrect_answers": [
+            "Lav Trocki",
+            "Josif Staljin",
+            "Nikita Hruščov"
+        ],
+        "explanation": "Lenjin je bio vođa Boljševičke partije i ključna figura u Listopadskoj revoluciji, nakon koje je postao prvi čelnik Sovjetske Rusije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Koji je program gospodarskih reformi i socijalnih mjera pokrenuo Franklin D. Roosevelt u SAD-u tijekom Velike depresije?",
+        "correct_answer": "New Deal",
+        "incorrect_answers": [
+            "Great Society",
+            "Fair Deal",
+            "Square Deal"
+        ],
+        "explanation": "New Deal je bio niz programa i reformi između 1933. i 1939. godine, usmjerenih na oporavak od Velike depresije, pomoć siromašnima i reformu financijskog sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koja je godina označila početak Drugog svjetskog rata u Europi, invazijom Njemačke na Poljsku?",
+        "correct_answer": "1939.",
+        "incorrect_answers": [
+            "1938.",
+            "1940.",
+            "1941."
+        ],
+        "explanation": "Njemačka invazija na Poljsku 1. rujna 1939. godine, bez objave rata, općenito se smatra početkom Drugog svjetskog rata u Europi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Koja je bitka 1942.-1943. bila prekretnica na Istočnoj fronti Drugog svjetskog rata, označivši početak sovjetske ofenzive?",
+        "correct_answer": "Bitka za Staljingrad",
+        "incorrect_answers": [
+            "Bitka za Kursk",
+            "Bitka za Moskvu",
+            "Opsada Lenjingrada"
+        ],
+        "explanation": "Bitka za Staljingrad bila je jedna od najkrvavijih u povijesti i označila je prekretnicu na Istočnoj fronti u korist Sovjetskog Saveza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Koji je nacistički koncentracijski logor postao simbol Holokausta i najveće mjesto masovnog uništenja?",
+        "correct_answer": "Auschwitz-Birkenau",
+        "incorrect_answers": [
+            "Dachau",
+            "Bergen-Belsen",
+            "Treblinka"
+        ],
+        "explanation": "Auschwitz-Birkenau bio je najveći od njemačkih koncentracijskih logora i logora smrti, gdje je sustavno ubijeno više od milijun ljudi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je grad bio podijeljen zidom od 1961. do 1989. godine, simbolizirajući hladnoratovsku podjelu između Istoka i Zapada?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "Beč",
+            "Prag",
+            "Varšava"
+        ],
+        "explanation": "Berlinski zid je podijelio grad Berlin na Istočni i Zapadni Berlin, postajući najupečatljiviji simbol Hladnog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Tko je bio dugogodišnji vođa Jugoslavije od kraja Drugog svjetskog rata do svoje smrti 1980. godine?",
+        "correct_answer": "Josip Broz Tito",
+        "incorrect_answers": [
+            "Edvard Kardelj",
+            "Aleksandar Ranković",
+            "Milovan Đilas"
+        ],
+        "explanation": "Josip Broz Tito bio je vrhovni zapovjednik JNA tijekom Drugog svjetskog rata i kasnije predsjednik SFR Jugoslavije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Koji je sustav rasne segregacije i diskriminacije bio na snazi u Južnoafričkoj Republici od 1948. do početka 1990-ih?",
+        "correct_answer": "Apartheid",
+        "incorrect_answers": [
+            "Kolonijalizam",
+            "Feudalizam",
+            "Imperijalizam"
+        ],
+        "explanation": "Apartheid je bio službena politika rasne segregacije i diskriminacije prema nebijelom stanovništvu Južnoafričke Republike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Koje su godine Slovenija i Hrvatska proglasile neovisnost od SFR Jugoslavije, označivši početak raspada države?",
+        "correct_answer": "1991.",
+        "incorrect_answers": [
+            "1990.",
+            "1992.",
+            "1989."
+        ],
+        "explanation": "Slovenija i Hrvatska proglasile su neovisnost 25. lipnja 1991. godine, što je pokrenulo proces raspada Jugoslavije i ratove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji je hrvatski knez, spominjan u Trpimirovoj darovnici iz 852. godine, prvi nosio titulu 'knez Hrvata'?",
+        "correct_answer": "Trpimir",
+        "incorrect_answers": [
+            "Branimir",
+            "Domagoj",
+            "Mislav"
+        ],
+        "explanation": "Knez Trpimir je prvi poznati vladar koji je koristio titulu 'knez Hrvata' (dux Chroatorum) u svojoj darovnici samostanu u Rižinicama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koji je hrvatski kralj okrunjen u Biogradu na Moru 1075. godine, simbolizirajući vrhunac srednjovjekovne hrvatske države?",
+        "correct_answer": "Dmitar Zvonimir",
+        "incorrect_answers": [
+            "Petar Krešimir IV.",
+            "Tomislav",
+            "Stjepan Držislav"
+        ],
+        "explanation": "Dmitar Zvonimir je okrunjen u Biogradu na Moru 1075. godine krunom koju mu je poslao papa Grgur VII., potvrđujući suverenitet Hrvatske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Kako se naziva bitka iz 1493. godine u kojoj je osmanska vojska teško porazila hrvatsko plemstvo, što je imalo dugotrajne posljedice za Hrvatsku?",
+        "correct_answer": "Krbavska bitka",
+        "incorrect_answers": [
+            "Bitka kod Mohača",
+            "Bitka kod Sigeta",
+            "Bitka kod Siska"
+        ],
+        "explanation": "Krbavska bitka 1493. godine bila je katastrofalan poraz hrvatske vojske od Osmanskog Carstva, što je dovelo do gubitka velikog dijela plemstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Tko je bio vođa Ilirskog pokreta u 19. stoljeću i pokretač Hrvatskog narodnog preporoda?",
+        "correct_answer": "Ljudevit Gaj",
+        "incorrect_answers": [
+            "Ivan Mažuranić",
+            "Stjepan Radić",
+            "Ante Starčević"
+        ],
+        "explanation": "Ljudevit Gaj bio je ključna figura Ilirskog pokreta, zalažući se za jedinstvo južnoslavenskih naroda i standardizaciju hrvatskog jezika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koji je mađarski revolucionar i državnik bio ključna figura Mađarske revolucije 1848.-1849. protiv habsburške vlasti?",
+        "correct_answer": "Lajos Kossuth",
+        "incorrect_answers": [
+            "István Széchenyi",
+            "Ferenc Deák",
+            "József Bem"
+        ],
+        "explanation": "Lajos Kossuth je bio vođa mađarske nacionalne revolucije 1848. godine, zagovornik neovisnosti i privremeni predsjednik Mađarske.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Tko je bio arhitekt i savjetnik faraona Džosera, poznat po projektiranju prve stepenaste piramide?",
+        "correct_answer": "Imhotep",
+        "incorrect_answers": [
+            "Hemiunu",
+            "Senemut",
+            "Ankhesenamon"
+        ],
+        "explanation": "Imhotep, vezir i glavni arhitekt faraona Džosera, zaslužan je za projektiranje Stepenaste piramide u Sakkari, prve monumentalne kamene građevine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Kako se nazivala velika prijestolnica Astečkog Carstva, izgrađena na otoku usred jezera Texcoco?",
+        "correct_answer": "Tenochtitlan",
+        "incorrect_answers": [
+            "Cusco",
+            "Palenque",
+            "Teotihuacan"
+        ],
+        "explanation": "Tenochtitlan je bio glavni grad Astečkog Carstva, impresivan grad izgrađen na jezeru s razvijenim sustavom kanala i plovećih vrtova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Tko je bio osnivač Mongolskog Carstva i jedan od najvećih osvajača u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Kublaj-kan",
+            "Timur (Tamerlan)",
+            "Batu-kan"
+        ],
+        "explanation": "Džingis-kan je ujedinio nomadska mongolska plemena i stvorio najveće kopneno carstvo u povijesti, protežući se od Azije do Europe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koji je mir 1555. godine okončao vjerske ratove u Svetom Rimskom Carstvu, dopuštajući prinčevima da biraju religiju za svoje zemlje ('Cuius regio, eius religio')?",
+        "correct_answer": "Augsburški mir",
+        "incorrect_answers": [
+            "Vestfalski mir",
+            "Mir u Utrechtu",
+            "Nantski edikt"
+        ],
+        "explanation": "Augsburški mir je privremeno riješio sukobe između katolika i protestanata u Svetom Rimskom Carstvu, dajući regionalnim vladarima pravo izbora vjere.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Koji je britanski premijer vodio Veliku Britaniju tijekom Drugog svjetskog rata?",
+        "correct_answer": "Winston Churchill",
+        "incorrect_answers": [
+            "Neville Chamberlain",
+            "Clement Attlee",
+            "Harold Wilson"
+        ],
+        "explanation": "Winston Churchill bio je premijer Ujedinjenog Kraljevstva od 1940. do 1945. godine, ključna figura Saveznika u Drugom svjetskom ratu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Koji je vojni savez osnovan 1955. godine kao odgovor Sovjetskog Saveza na stvaranje NATO-a?",
+        "correct_answer": "Varšavski pakt",
+        "incorrect_answers": [
+            "SEATO",
+            "CENTO",
+            "COMECON"
+        ],
+        "explanation": "Varšavski pakt je bio politički i vojni savez komunističkih država Srednje i Istočne Europe, predvođen Sovjetskim Savezom, osnovan kao protuteža NATO-u.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2376",
+        "category": "povijest",
+        "question": "Kako se naziva ekonomski plan koji je SAD pokrenuo 1948. godine za obnovu zapadne Europe nakon Drugog svjetskog rata?",
+        "correct_answer": "Marshallov plan",
+        "incorrect_answers": [
+            "Trumanova doktrina",
+            "Molotovljev plan",
+            "Eisenhowerova doktrina"
+        ],
+        "explanation": "Marshallov plan (službeno Program europske obnove) bio je američka inicijativa za pomoć zapadnoeuropskim zemljama u obnovi gospodarstva nakon rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
