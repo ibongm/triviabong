@@ -30445,5 +30445,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je temeljni zakon genetike koji opisuje kako se aleli različitih gena razdvajaju neovisno jedan o drugome tijekom stvaranja gameta?",
+        "correct_answer": "Mendelov zakon neovisnog razvrstavanja",
+        "incorrect_answers": [
+            "Mendelov zakon segregacije",
+            "Hardy-Weinbergov princip",
+            "Krebsov ciklus"
+        ],
+        "explanation": "Drugi Mendelov zakon kaže da se aleli različitih gena razdvajaju neovisno, što rezultira različitim kombinacijama u gametama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem bakterije pretvaraju atmosferski dušik u amonijak, oblik koji biljke mogu koristiti?",
+        "correct_answer": "Fiksacija dušika",
+        "incorrect_answers": [
+            "Denitrifikacija",
+            "Nitrifikacija",
+            "Amonifikacija"
+        ],
+        "explanation": "Fiksacija dušika je biološki proces ključan za kruženje dušika na Zemlji, a provode ga specifične vrste bakterija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje otpora protoku električne struje u krugu?",
+        "correct_answer": "Električni otpor",
+        "incorrect_answers": [
+            "Električna snaga",
+            "Električni napon",
+            "Električni kapacitet"
+        ],
+        "explanation": "Električni otpor mjeri koliko se materijal protivi prolasku električne struje, a mjeri se u omima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim se RNA sintetizira koristeći DNA kao predložak?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se genetska informacija iz DNA prepisuje u RNA.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji je izumitelj patentirao fonograf 1878. godine, uređaj za snimanje i reprodukciju zvuka?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Alexander Graham Bell",
+            "Nikola Tesla",
+            "Guglielmo Marconi"
+        ],
+        "explanation": "Thomas Edison je bio plodan izumitelj, a fonograf je bio jedan od njegovih najpoznatijih izuma koji je revolucionarizirao snimanje zvuka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske reakcije oslobađa energiju u okolinu, često u obliku topline ili svjetlosti?",
+        "correct_answer": "Egzotermna reakcija",
+        "incorrect_answers": [
+            "Endotermna reakcija",
+            "Fotosinteza",
+            "Redoks reakcija"
+        ],
+        "explanation": "Egzotermne reakcije oslobađaju energiju, što je tipično popraćeno porastom temperature okoline.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koji je naziv za izbočine na površini tankog crijeva koje značajno povećavaju njegovu površinu za apsorpciju hranjivih tvari?",
+        "correct_answer": "Resice (villi)",
+        "incorrect_answers": [
+            "Mikrovili",
+            "Kripte",
+            "Pilorus"
+        ],
+        "explanation": "Resice su male, prstolike izbočine koje, zajedno s mikrovilima, dramatično povećavaju površinu apsorpcije u tankom crijevu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji je najveći vulkan na Zemlji prema obujmu, smješten na Havajima?",
+        "correct_answer": "Mauna Loa",
+        "incorrect_answers": [
+            "Mount Fuji",
+            "Mount Vesuvius",
+            "Popocatépetl"
+        ],
+        "explanation": "Mauna Loa je aktivni štitasti vulkan i jedan je od pet vulkana koji čine otok Hawaii, poznat po svojoj masivnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Kako se naziva dio oka koji sadrži fotoreceptore (štapiće i čunjiće) i pretvara svjetlost u električne signale?",
+        "correct_answer": "Mrežnica (retina)",
+        "incorrect_answers": [
+            "Leća",
+            "Rožnica (cornea)",
+            "Zjenica (pupil)"
+        ],
+        "explanation": "Mrežnica je osjetljivi sloj tkiva na stražnjem dijelu oka koji detektira svjetlost i šalje signale mozgu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji kemijski element je ključan sastojak silikonskih čipova i najrasprostranjeniji poluvodič?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Germanij",
+            "Ugljik",
+            "Željezo"
+        ],
+        "explanation": "Silicij je drugi najzastupljeniji element u Zemljinoj kori i temelj je moderne elektronike zbog svojih poluvodičkih svojstava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se naziva metoda za određivanje starosti arheoloških i geoloških uzoraka na temelju raspada radioaktivnog izotopa ugljika-14?",
+        "correct_answer": "Radiougljično datiranje",
+        "incorrect_answers": [
+            "Dendrokronologija",
+            "K-Ar datiranje",
+            "Termoluminiscencija"
+        ],
+        "explanation": "Radiougljično datiranje je pouzdana metoda za određivanje starosti organskih materijala do oko 50.000 godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model ili apstrakciju koja predstavlja sučelje za interakciju s podacima bez brige o njihovoj implementaciji?",
+        "correct_answer": "Apstraktni tip podataka (ADT)",
+        "incorrect_answers": [
+            "Konkretni tip podataka",
+            "Algoritam",
+            "Varijabla"
+        ],
+        "explanation": "ADT definira skup operacija koje se mogu izvršiti na podacima, skrivajući detalje njihove interne strukture.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja se tehnika obrade slike koristi za stvaranje realističnih 3D objekata iz 2D fotografija, koristeći više slika snimljenih iz različitih kutova?",
+        "correct_answer": "Fotogrametrija",
+        "incorrect_answers": [
+            "Renderiranje",
+            "Kromatografija",
+            "Spektroskopija"
+        ],
+        "explanation": "Fotogrametrija pronalazi primjenu u kartografiji, geodeziji, arheologiji i izradi 3D modela za videoigre ili filmove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji je pojam za dio oceana koji leži iznad kontinentalnog pojasa i obično je plitak?",
+        "correct_answer": "Kontinentalna polica",
+        "incorrect_answers": [
+            "Oceanska brazda",
+            "Abisalna ravnica",
+            "Oceanski greben"
+        ],
+        "explanation": "Kontinentalna polica je podvodni produžetak kontinenta, bogat morskim životom i resursima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je glavna svrha 'firewalla' (zaštitnog zida) u računalnoj mreži?",
+        "correct_answer": "Kontrola ulaznog i izlaznog mrežnog prometa",
+        "incorrect_answers": [
+            "Ubrzanje internetske veze",
+            "Brisanje virusa",
+            "Povećanje kapaciteta pohrane"
+        ],
+        "explanation": "Firewall služi kao sigurnosna barijera koja filtrira podatke između mreže i vanjskog svijeta, sprječavajući neovlašteni pristup.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Kako se naziva najmanja jedinica zvuka u govornom jeziku koja razlikuje riječi (npr. 'p' i 'b' u 'patka' i 'batka')?",
+        "correct_answer": "Fonetika",
+        "incorrect_answers": [
+            "Morfem",
+            "Sintaksa",
+            "Semantika"
+        ],
+        "explanation": "Fonetika je dio jezikoslovlja koji proučava glasove ljudskog govora, odnosno njihovu produkciju, akustička svojstva i percepciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji element je sastavni dio klorofila, zelenog pigmenta ključnog za fotosintezu u biljkama?",
+        "correct_answer": "Magnezij",
+        "incorrect_answers": [
+            "Željezo",
+            "Kalcij",
+            "Cink"
+        ],
+        "explanation": "Magnezijev ion nalazi se u središtu porfirinskog prstena molekule klorofila, što je ključno za njegovu funkciju apsorpcije svjetlosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je naziv za pojavu kada se svjetlost raspršuje zbog čestica u mediju, čineći snop svjetlosti vidljivim (npr. zrake sunca kroz prašinu)?",
+        "correct_answer": "Tyndallov efekt",
+        "incorrect_answers": [
+            "Dopplerov efekt",
+            "Photoelektrični efekt",
+            "Refrakcija"
+        ],
+        "explanation": "Tyndallov efekt je optička pojava raspršivanja svjetlosti na koloidnim česticama, što je karakteristično za maglu ili dim.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koju tehnologiju bežične komunikacije kratkog dometa (obično do 10 metara) najčešće koristimo za povezivanje slušalica ili drugih perifernih uređaja s telefonom?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC (Near Field Communication)",
+            "Zigbee"
+        ],
+        "explanation": "Bluetooth omogućuje bežičnu razmjenu podataka na kratkim udaljenostima, idealno za osobne uređaje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je naziv za znanstvenu disciplinu koja proučava prošli život na Zemlji kroz fosile?",
+        "correct_answer": "Paleontologija",
+        "incorrect_answers": [
+            "Arheologija",
+            "Antropologija",
+            "Geologija"
+        ],
+        "explanation": "Paleontologija koristi fosile za rekonstrukciju drevnih ekosustava, evolucijskih veza i klime.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija jetre u probavnom sustavu?",
+        "correct_answer": "Proizvodnja žuči i detoksikacija",
+        "incorrect_answers": [
+            "Apsorpcija hranjivih tvari",
+            "Razgradnja ugljikohidrata",
+            "Izlučivanje enzima za razgradnju proteina"
+        ],
+        "explanation": "Jetra ima mnoge vitalne funkcije, uključujući proizvodnju žuči za probavu masti i metabolizam toksina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji je pojam u fizici za česticu bez mase i električnog naboja, koja interagira samo putem slabe nuklearne sile i gravitacije?",
+        "correct_answer": "Neutrino",
+        "incorrect_answers": [
+            "Foton",
+            "Elektron",
+            "Proton"
+        ],
+        "explanation": "Neutrini su iznimno teško detektibilne čestice koje neprestano prolaze kroz materiju, uključujući i naše tijelo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji je naziv za skupinu organskih molekula koje služe kao primarni izvor energije za većinu živih organizama?",
+        "correct_answer": "Ugljikohidrati",
+        "incorrect_answers": [
+            "Proteini",
+            "Lipidi",
+            "Nukleinske kiseline"
+        ],
+        "explanation": "Ugljikohidrati, poput glukoze, skladište energiju koja se oslobađa tijekom staničnog disanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je poznati znanstvenik formulirao teoriju kontinentalnog pomicanja početkom 20. stoljeća?",
+        "correct_answer": "Alfred Wegener",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Isaac Newton",
+            "Albert Einstein"
+        ],
+        "explanation": "Wegener je 1912. godine predložio da su kontinenti nekada bili spojeni u jedan superkontinent, Pangeu, koji se zatim raspao.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je kemijski proces kojim se iz rude metali izvlače zagrijavanjem na visokim temperaturama, često uz redukcijsko sredstvo?",
+        "correct_answer": "Talište (smelting)",
+        "incorrect_answers": [
+            "Elektroliza",
+            "Kristalizacija",
+            "Destilacija"
+        ],
+        "explanation": "Talište je ključan proces u metalurgiji, gdje se nečistoće odvajaju od metala radi dobivanja čistog materijala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji se tip virusa 'ugrađuje' u genom domaćina i koristi njegovu replikacijsku mašineriju za stvaranje vlastitih kopija?",
+        "correct_answer": "Retrovirus",
+        "incorrect_answers": [
+            "Bakteriofag",
+            "Adenovirus",
+            "RNA virus"
+        ],
+        "explanation": "Retrovirusi, poput HIV-a, koriste enzim reverznu transkriptazu za pretvaranje svoje RNA u DNA koju integriraju u genom domaćina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je osnovni princip iza funkcioniranja optičkih vlakana koja prenose svjetlost na velike udaljenosti bez značajnog gubitka?",
+        "correct_answer": "Totalna unutarnja refleksija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Apsorpcija",
+            "Polarizacija"
+        ],
+        "explanation": "Svjetlost se reflektira unutar vlakna pod malim kutom, omogućujući joj da putuje duž vlakna bez bijega.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje otpornosti ekosustava na poremećaje i njegovu sposobnost da se oporavi nakon njih?",
+        "correct_answer": "Ekološka otpornost (rezilijencija)",
+        "incorrect_answers": [
+            "Ekološka produktivnost",
+            "Bioraznolikost",
+            "Ekološka sukcesija"
+        ],
+        "explanation": "Ekološka otpornost mjeri sposobnost ekosustava da se vrati u stabilno stanje nakon šoka ili stresa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji je pojam u računalstvu za specifični program koji se automatski pokreće kada se operativni sustav podigne, često zlonamjerno, i teško ga je otkriti?",
+        "correct_answer": "Rootkit",
+        "incorrect_answers": [
+            "Trojanac",
+            "Virus",
+            "Crvi (worms)"
+        ],
+        "explanation": "Rootkitovi su dizajnirani da sakriju prisutnost zlonamjernog softvera, omogućujući neovlašteni pristup i kontrolu sustava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Kako se naziva najveća arterija u ljudskom tijelu koja nosi krv bogatu kisikom iz srca u ostatak tijela?",
+        "correct_answer": "Aorta",
+        "incorrect_answers": [
+            "Plućna arterija",
+            "Vena cava",
+            "Kapilara"
+        ],
+        "explanation": "Aorta je ključna za distribuciju kisika i hranjivih tvari do svih organa i tkiva u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je naziv za astronomski fenomen gdje se zvijezda ili masivan objekt urušava pod vlastitom gravitacijom stvarajući točku beskonačne gustoće?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Supernova",
+            "Neutronska zvijezda",
+            "Bijeli patuljak"
+        ],
+        "explanation": "Crna rupa ima tako snažno gravitacijsko polje da ništa, čak ni svjetlost, ne može pobjeći nakon što prijeđe horizont događaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji se kemijski element, zbog svoje sposobnosti stvaranja dugih lanaca i raznolikih spojeva, smatra okosnicom života na Zemlji?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisak",
+            "Vodok",
+            "Dušik"
+        ],
+        "explanation": "Ugljik stvara stabilne kovalentne veze s drugim atomima ugljika i s drugim elementima, omogućujući formiranje složenih organskih molekula.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji se pojam u računalnoj znanosti odnosi na automatsko prepoznavanje i izvlačenje relevantnih informacija iz velikih skupova podataka?",
+        "correct_answer": "Data mining (rudarenje podataka)",
+        "incorrect_answers": [
+            "Data warehousing",
+            "Data encryption",
+            "Data backup"
+        ],
+        "explanation": "Data mining koristi algoritme i statističke metode za otkrivanje uzoraka, trendova i korelacija unutar podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji je pojam za fenomen u kojem se organizmi, obično insekti, prilagode da izgledaju kao drugi, opasniji organizmi kako bi se zaštitili od predatora?",
+        "correct_answer": "Mimikrija",
+        "incorrect_answers": [
+            "Kamulaža",
+            "Divergencija",
+            "Konvergencija"
+        ],
+        "explanation": "Mimikrija je evolucijski proces gdje jedna vrsta razvija sličnosti s drugom, često otrovnom ili opasnom, radi preživljavanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji je pojam u fizici koji opisuje promjenu smjera valova kada prolaze kroz otvor ili oko prepreke?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Refleksija",
+            "Interferencija"
+        ],
+        "explanation": "Difrakcija objašnjava zašto valovi, uključujući svjetlost i zvuk, mogu zaobići prepreke i proširiti se iza njih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
