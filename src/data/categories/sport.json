@@ -32151,5 +32151,530 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koja je atletska disciplina poznata kao 'kraljica sportova'?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Gimnastika"
+        ],
+        "explanation": "Atletika se tradicionalno naziva 'kraljicom sportova' zbog svoje drevne povijesti i raznolikosti disciplina koje obuhvaća.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koliko koraka smije napraviti igrač s loptom u rukometu prije driblinga ili dodavanja?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "Neograničeno"
+        ],
+        "explanation": "Prema pravilima rukometa, igrač s loptom smije napraviti najviše tri koraka prije nego što mora dodati, šutirati ili driblati.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koliko setova je potrebno osvojiti za pobjedu u odbojkaškom meču (osim u odlučujućem setu)?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Standardni odbojkaški meč igra se na tri dobivena seta, što znači da je za pobjedu potrebno osvojiti tri seta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koji je najpoznatiji sport u kojem se natjecatelji spuštaju niz snježnu stazu na dvije daske?",
+        "correct_answer": "Alpsko skijanje",
+        "incorrect_answers": [
+            "Snowboarding",
+            "Skijaško trčanje",
+            "Skijaški skokovi"
+        ],
+        "explanation": "Alpsko skijanje je disciplina u kojoj se sportaši spuštaju niz označenu snježnu stazu na skijama, a uključuje spust, slalom i veleslalom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se dva borca udaraju šakama, obično u rukavicama?",
+        "correct_answer": "Boks",
+        "incorrect_answers": [
+            "Karate",
+            "Judo",
+            "Taekwondo"
+        ],
+        "explanation": "Boks je borilački sport u kojem dva protivnika, koristeći samo šake za udaranje, nastoje jedan drugog srušiti ili nokautirati.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koja je najpoznatija biciklistička utrka na svijetu?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Olimpijske igre"
+        ],
+        "explanation": "Tour de France je najprestižnija i najpoznatija etapna biciklistička utrka koja se svake godine održava u Francuskoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Koja je duljina staze za utrku na 400 metara s preponama?",
+        "correct_answer": "400 metara",
+        "incorrect_answers": [
+            "100 metara",
+            "800 metara",
+            "110 metara"
+        ],
+        "explanation": "Utrka na 400 metara s preponama je atletska disciplina gdje sportaši trče puni krug na standardnoj atletskoj stazi, preskačući deset prepona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koji je nogometni turnir najstarije nacionalno natjecanje na svijetu?",
+        "correct_answer": "FA kup",
+        "incorrect_answers": [
+            "Liga prvaka",
+            "Svjetsko prvenstvo",
+            "Copa América"
+        ],
+        "explanation": "FA kup (Football Association Challenge Cup) najstarije je nogometno natjecanje na svijetu, prvi put održano u sezoni 1871./72. u Engleskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u košarci kada igrač zadrži loptu duže od pet sekundi, a blizu mu je protivnik?",
+        "correct_answer": "Zadržavanje lopte (5 sekundi)",
+        "incorrect_answers": [
+            "Dvostruka lopta",
+            "Koračanje",
+            "Osobna pogreška"
+        ],
+        "explanation": "Kada igrač čvrsto drži loptu pet ili više sekundi dok ga aktivno čuva protivnik, suci dosuđuju prekršaj 'zadržavanja lopte'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Kako se naziva turnir koji se igra na travnatoj podlozi i smatra se najprestižnijim Grand Slam turnirom?",
+        "correct_answer": "Wimbledon",
+        "incorrect_answers": [
+            "Roland Garros",
+            "US Open",
+            "Australian Open"
+        ],
+        "explanation": "Wimbledon je najstariji i najprestižniji teniski turnir, jedini Grand Slam koji se igra na travnatoj podlozi u Londonu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koliko iznosi kazna za teži prekršaj u rukometu, kada igrač mora privremeno napustiti teren?",
+        "correct_answer": "2 minute isključenja",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Crveni karton",
+            "5 minuta isključenja"
+        ],
+        "explanation": "Za teže prekršaje u rukometu, sudac izriče kaznu od dvije minute isključenja, tijekom koje momčad igra s igračem manje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) čini jednu momčad u vodi u vaterpolu?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "9"
+        ],
+        "explanation": "Vaterpolo momčad u vodi sastoji se od sedam igrača: šest igrača u polju i jednog vratara, što je standardno pravilo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Što označava zastavica sa žuto-crvenim prugama u Formuli 1?",
+        "correct_answer": "Skliska podloga (ulje, voda)",
+        "incorrect_answers": [
+            "Kraj utrke",
+            "Opasnost na stazi",
+            "Pretjecanje dozvoljeno"
+        ],
+        "explanation": "Žuto-crvena prugasta zastava obavještava vozače o promjeni prianjanja na stazi, obično zbog ulja, šljunka ili vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Kolika je standardna duljina staze za brzo klizanje na Olimpijskim igrama?",
+        "correct_answer": "400 metara",
+        "incorrect_answers": [
+            "200 metara",
+            "500 metara",
+            "1000 metara"
+        ],
+        "explanation": "Standardna ovalna staza za brzo klizanje u dvorani, kakva se koristi na Olimpijskim igrama, dugačka je 400 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koja je svrha 'runda' u boksačkom meču?",
+        "correct_answer": "Dijeljenje borbe na vremenske segmente",
+        "incorrect_answers": [
+            "Odmor za suce",
+            "Promjena rukavica",
+            "Provjera opreme"
+        ],
+        "explanation": "Bokserski mečevi su podijeljeni u runde, obično tri minute, kako bi se borcima omogućio kratak odmor i taktičke prilagodbe između segmenata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Kako se naziva udarac u golfu kojim se loptica lansira s početne pozicije svake rupe?",
+        "correct_answer": "Tee shot",
+        "incorrect_answers": [
+            "Putt",
+            "Chip",
+            "Bunker shot"
+        ],
+        "explanation": "Tee shot, poznat i kao 'drive', prvi je udarac na svakoj rupi, izvodi se s 'tee' (podizača) unutar područja za početni udarac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Kako se naziva pokušaj u ragbiju kojim se postižu bodovi prenošenjem lopte iza protivničke gol-linije i njenim spuštanjem na tlo?",
+        "correct_answer": "Polaganje (Try)",
+        "incorrect_answers": [
+            "Drop gol",
+            "Kazneni udarac",
+            "Konverzija"
+        ],
+        "explanation": "Polaganje ('Try') je osnovni način postizanja bodova u ragbiju, a vrijedi 5 bodova i omogućuje pokušaj konverzije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koja gimnastička sprava zahtijeva izvođenje vježbi snage, ravnoteže i agilnosti na uskoj drvenoj gredi?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Preskok",
+            "Parter",
+            "Dvovisinske ruče"
+        ],
+        "explanation": "Greda je sprava u ženskoj sportskoj gimnastici dugačka 5 metara i široka samo 10 centimetara, na kojoj se izvode složene vježbe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem konj i jahač izvode unaprijed određene figure i pokrete?",
+        "correct_answer": "Dresura",
+        "incorrect_answers": [
+            "Preskakanje prepona",
+            "Trke galoperima",
+            "Polo"
+        ],
+        "explanation": "Dresura je olimpijska konjička disciplina u kojoj se ocjenjuje harmonija i sinkronizacija između konja i jahača kroz izvođenje niza figura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "U kojem borilačkom sportu se koristi katana (japanski mač) u natjecateljskom obliku?",
+        "correct_answer": "Kendo",
+        "incorrect_answers": [
+            "Judo",
+            "Karate",
+            "Aikido"
+        ],
+        "explanation": "Kendo je moderna japanska borilačka vještina mačevanja koja koristi bambusove mačeve (shinai) i zaštitnu opremu, simulirajući borbu katanama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) čini jednu momčad na terenu u futsalu?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "6",
+            "7",
+            "11"
+        ],
+        "explanation": "Futsal, poznat i kao mali nogomet, igra se s pet igrača po momčadi na terenu, uključujući vratara, na manjem igralištu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi 'touchdown' u američkom nogometu prije dodatnog udarca ili pretvaranja?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "3",
+            "5",
+            "7"
+        ],
+        "explanation": "Touchdown je osnovni način postizanja bodova u američkom nogometu, vrijedi 6 bodova, nakon čega slijedi pokušaj za dodatne bodove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koja videoigra je poznata po turnirima s najvišim nagradnim fondom u povijesti e-sporta (The International)?",
+        "correct_answer": "Dota 2",
+        "incorrect_answers": [
+            "League of Legends",
+            "Counter-Strike: Global Offensive",
+            "Fortnite"
+        ],
+        "explanation": "Dota 2 je MOBA (Multiplayer Online Battle Arena) igra čiji godišnji turnir 'The International' redovito ima najveće nagradne fondove u e-sportu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koji je jedini nogometni klub koji je osvojio sva tri glavna UEFA klupska natjecanja (Liga prvaka/Kup prvaka, Kup pobjednika kupova, Kup UEFA/Europska liga)?",
+        "correct_answer": "Juventus",
+        "incorrect_answers": [
+            "Real Madrid",
+            "Barcelona",
+            "Bayern München"
+        ],
+        "explanation": "Juventus je jedini klub koji je osvojio sva tri glavna UEFA klupska natjecanja: Kup prvaka, Kup pobjednika kupova i Kup UEFA.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Tko je jedini igrač u povijesti NBA lige koji je osvojio nagradu za MVP-a regularne sezone, obrambenog igrača godine i MVP-a finala u istoj sezoni?",
+        "correct_answer": "Hakeem Olajuwon",
+        "incorrect_answers": [
+            "Michael Jordan",
+            "LeBron James",
+            "Kareem Abdul-Jabbar"
+        ],
+        "explanation": "Hakeem Olajuwon je 1994. godine postao jedini igrač koji je u istoj sezoni osvojio nagrade za najkorisnijeg igrača, najboljeg obrambenog igrača i MVP-a finala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Tko je jedini tenisač koji je osvojio 'Zlatni Slam' (sva četiri Grand Slama i olimpijsko zlato u istoj kalendarskoj godini) u pojedinačnoj konkurenciji?",
+        "correct_answer": "Steffi Graf",
+        "incorrect_answers": [
+            "Serena Williams",
+            "Roger Federer",
+            "Novak Đoković"
+        ],
+        "explanation": "Steffi Graf je 1988. godine postala jedina tenisačica koja je osvojila sva četiri Grand Slam turnira i zlatnu olimpijsku medalju u pojedinačnoj konkurenciji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Tko je prvi atletičar u povijesti koji je pretrčao 100 metara ispod 10 sekundi s potpuno elektroničkim mjerenjem vremena?",
+        "correct_answer": "Jim Hines",
+        "incorrect_answers": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Jesse Owens"
+        ],
+        "explanation": "Jim Hines je 1968. godine postao prvi čovjek koji je s elektroničkim mjerenjem postigao rezultat ispod 10 sekundi (9.95s) na 100 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Kako se naziva taktika u nogometu kada cijela momčad brani gol, obično s 9 ili 10 igrača iza lopte?",
+        "correct_answer": "Catenaccio",
+        "incorrect_answers": [
+            "Totalni nogomet",
+            "Tiki-taka",
+            "Presing"
+        ],
+        "explanation": "Catenaccio je defenzivna taktika koja se razvila u Italiji, a naglašava jaku obranu i kontrolu prostora ispred gola, često s librom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koji je bivši NBA igrač, poznat po nadimku 'The Mailman', jedini igrač u povijesti lige koji je postigao preko 36.000 poena bez osvojenog prvenstva?",
+        "correct_answer": "Karl Malone",
+        "incorrect_answers": [
+            "Charles Barkley",
+            "Allen Iverson",
+            "Patrick Ewing"
+        ],
+        "explanation": "Karl Malone je drugi najbolji strijelac u povijesti NBA lige (stanje 2024.) s 36.928 poena, ali nikada nije osvojio NBA naslov.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koji je jedini muški tenisač u Open eri koji je osvojio Grand Slam turnir bez da je izgubio set?",
+        "correct_answer": "Rafael Nadal",
+        "incorrect_answers": [
+            "Roger Federer",
+            "Novak Đoković",
+            "Pete Sampras"
+        ],
+        "explanation": "Rafael Nadal je uspio osvojiti Roland Garros 2017. i 2020. godine bez da je izgubio ijedan set, što je iznimno rijetko postignuće.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koji je vozač osvojio najviše naslova u Svjetskom prvenstvu u reliju (WRC)?",
+        "correct_answer": "Sébastien Loeb",
+        "incorrect_answers": [
+            "Tommi Mäkinen",
+            "Juha Kankkunen",
+            "Sébastien Ogier"
+        ],
+        "explanation": "Sébastien Loeb je dominirao WRC-om osvojivši rekordnih devet uzastopnih naslova svjetskog prvaka od 2004. do 2012. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "U kojem se sportu natjecatelji spuštaju niz ledenu stazu na sanjkama, ležeći na trbuhu glavom naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Sanjkanje (Luge)",
+            "Nordijska kombinacija"
+        ],
+        "explanation": "Skeleton je zimski olimpijski sport u kojem se sportaš spušta niz ledenu stazu na malim sanjkama, glavom naprijed i ležeći na trbuhu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Tko je najmlađi boksač u povijesti koji je osvojio naslov svjetskog prvaka u teškoj kategoriji?",
+        "correct_answer": "Mike Tyson",
+        "incorrect_answers": [
+            "Muhammad Ali",
+            "George Foreman",
+            "Floyd Patterson"
+        ],
+        "explanation": "Mike Tyson je 1986. godine, s 20 godina i 4 mjeseca, postao najmlađi svjetski prvak u teškoj kategoriji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koji je grad bio domaćin Ljetnih olimpijskih igara dva puta, s najvećim razmakom između ta dva domaćinstva?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Pariz",
+            "London",
+            "Los Angeles"
+        ],
+        "explanation": "Atena je bila domaćin prvih modernih Olimpijskih igara 1896., a zatim ponovno 2004. godine, što je razmak od 108 godina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Kako se naziva dio igre u curlingu gdje se cilja da se kamen postavi što bliže središtu mete?",
+        "correct_answer": "End",
+        "incorrect_answers": [
+            "Frame",
+            "Round",
+            "Set"
+        ],
+        "explanation": "Igra curlinga je podijeljena na 'endove', a u svakom endu svaka momčad baca osam kamena nastojeći ih postaviti bliže centru mete.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
