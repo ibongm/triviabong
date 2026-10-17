@@ -25139,5 +25139,395 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Kako se naziva najveća pustinja na svijetu, smještena u sjevernoj Africi?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Arabijska pustinja",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokrivajući značajan dio sjeverne Afrike. Njezina površina iznosi oko 9,2 milijuna km².",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Nil",
+            "Jangce",
+            "Mississippi-Missouri"
+        ],
+        "explanation": "Rijeka Amazon smatra se najdužom rijekom na svijetu po novijim mjerenjima, duga oko 6.992 km. Također je najveća po protoku vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva geološki proces pomicanja velikih ploča Zemljine kore?",
+        "correct_answer": "Tektonika ploča",
+        "incorrect_answers": [
+            "Erozija",
+            "Vremensko trošenje",
+            "Sedimentacija"
+        ],
+        "explanation": "Tektonika ploča je znanstvena teorija koja objašnjava pomicanje Zemljine litosfere. Ona objašnjava potrese, vulkane i nastanak planina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz između Afrike i Europe, koji povezuje Atlantski ocean i Sredozemno more?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Dardanele",
+            "Bospor",
+            "Suezki kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je strateški važan morski prolaz koji povezuje Atlantski ocean sa Sredozemnim morem, a razdvaja Europu (Španjolska) i Afriku (Maroko).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji je najsuši kontinent na svijetu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Afrika",
+            "Australija",
+            "Južna Amerika"
+        ],
+        "explanation": "Antarktika je najhladniji, najsuši i najvjetrovitiji kontinent na svijetu, unatoč velikoj količini leda sadrži vrlo malo vlage u zraku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi slap Victoria, jedan od najvećih i najpoznatijih slapova na svijetu?",
+        "correct_answer": "Zambija / Zimbabve",
+        "incorrect_answers": [
+            "Južna Afrika",
+            "Kenija",
+            "Tanzanija"
+        ],
+        "explanation": "Slap Victoria, poznat i kao 'Mosi-oa-Tunya', nalazi se na rijeci Zambezi, na granici Zambije i Zimbabvea.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koji je najaktivniji vulkan na svijetu (stanje 2024.)?",
+        "correct_answer": "Kīlauea",
+        "incorrect_answers": [
+            "Etna",
+            "Stromboli",
+            "Mount Fuji"
+        ],
+        "explanation": "Kīlauea, smještena na Havajima, smatra se jednim od najaktivnijih vulkana na svijetu s gotovo neprekidnim erupcijama tijekom posljednjih desetljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija nastala taloženjem sedimenata na ušću rijeke u more, koja ima oblik trokuta?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Fjord"
+        ],
+        "explanation": "Delta je ravnica nastala taloženjem riječnih sedimenata na ušću rijeke u more ili jezero. Ime je dobila po grčkom slovu delta (Δ).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi grad Amsterdam?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Amsterdam je glavni grad Nizozemske i najveći grad u državi. Poznat je po kanalima, umjetnosti i bogatoj povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva kružni koraljni greben koji okružuje lagunu?",
+        "correct_answer": "Atol",
+        "incorrect_answers": [
+            "Barrier reef",
+            "Fringing reef",
+            "Gajot"
+        ],
+        "explanation": "Atol je prstenasti koraljni greben koji djelomično ili potpuno okružuje lagunu. Nastaje na vrhu potopljenog vulkanskog otoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi poluotok Kamčatka, poznat po svojim vulkanima?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Japan",
+            "Aljaska",
+            "Kanada"
+        ],
+        "explanation": "Poluotok Kamčatka nalazi se na dalekom istoku Rusije i poznat je po iznimnoj vulkanskoj aktivnosti, s više od 160 vulkana, od kojih su 29 aktivni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je najveći grad po broju stanovnika na svijetu (gradsko područje, stanje 2024.)?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Delhi",
+            "Šangaj",
+            "São Paulo"
+        ],
+        "explanation": "Tokio, glavni grad Japana, najveća je metropolitanska regija na svijetu po broju stanovnika, s preko 37 milijuna ljudi (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se suha područja pretvaraju u pustinje zbog klimatskih promjena ili ljudskih aktivnosti?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Urbanizacija",
+            "Deforestacija",
+            "Akvizicija"
+        ],
+        "explanation": "Dezertifikacija je proces degradacije zemljišta u sušnim, polusušnim i suhim subhumidnim područjima uzrokovan raznim čimbenicima, uključujući klimatske promjene i ljudske aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada rijeka na ušću formira duboki, lijevkasti zaljev zbog plime i oseke?",
+        "correct_answer": "Estuarij",
+        "incorrect_answers": [
+            "Delta",
+            "Laguna",
+            "Fjord"
+        ],
+        "explanation": "Estuarij je polu-zatvoreno obalno vodeno tijelo, gdje se riječna voda miješa s morskom vodom. Karakterističan je za područja s izraženim plimama i osekama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je država poznata po Himalaji i Mount Everestu?",
+        "correct_answer": "Nepal",
+        "incorrect_answers": [
+            "Kina",
+            "Indija",
+            "Butan"
+        ],
+        "explanation": "Nepal je planinska država smještena u Himalaji, a unutar njenih granica nalazi se osam od deset najviših vrhova svijeta, uključujući Mount Everest.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva geološka katastrofa uzrokovana pomicanjem velikih masa tla, snijega ili stijena niz padinu?",
+        "correct_answer": "Odron / Lavina",
+        "incorrect_answers": [
+            "Cunami",
+            "Uragan",
+            "Vulkanska erupcija"
+        ],
+        "explanation": "Odron ili lavina je iznenadno i brzo klizanje velikih masa snijega, leda, stijena ili zemlje niz padinu. Može biti uzrokovan potresima ili kišama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "U kojoj se državi nalaze slapovi Iguazu?",
+        "correct_answer": "Argentina / Brazil",
+        "incorrect_answers": [
+            "Čile",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Slapovi Iguazu su golem sustav slapova na rijeci Iguazu, smješteni na granici Argentine i Brazila. Jedni su od najspektakularnijih na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna tvorevina u suhim područjima, oblikovana djelovanjem vjetra i abrazije, često s prepoznatljivim 'gljivastim' oblicima?",
+        "correct_answer": "Pustinjska gljiva",
+        "incorrect_answers": [
+            "Meandar",
+            "Dina",
+            "Oaza"
+        ],
+        "explanation": "Pustinjska gljiva, ili 'mushroom rock', stjenovita je formacija oblikovana erozijom vjetra koji nosi pijesak, te abrazijom na nižim dijelovima stijene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji je najgušće naseljeni kontinent na svijetu (stanje 2024.)?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najmnogoljudniji kontinent, dom za preko 4,7 milijardi ljudi, što je čini i najgušće naseljenim kontinentom na Zemlji (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja je država poznata po gejzirima i vrućim izvorima zbog svoje lokacije na Atlantskom srednjooceanskom hrptu?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Japan",
+            "Čile"
+        ],
+        "explanation": "Island je vulkanski aktivna zemlja, smještena na spoju euroazijske i sjevernoameričke tektonske ploče, što rezultira brojnim gejzirima i termalnim izvorima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva najveći šumski biom na svijetu, koji se proteže kroz sjevernu Europu, Aziju i Sjevernu Ameriku?",
+        "correct_answer": "Tajga / Borealna šuma",
+        "incorrect_answers": [
+            "Tropska prašuma",
+            "Savana",
+            "Tundra"
+        ],
+        "explanation": "Tajga ili borealna šuma je najveći kopneni biom na Zemlji. Karakteriziraju je četinjače i subarktička klima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja se rijeka ulijeva u Kaspijsko jezero, najveće jezero na svijetu?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Ural",
+            "Don"
+        ],
+        "explanation": "Volga je najduža rijeka u Europi i ulijeva se u Kaspijsko jezero, koje je zapravo slano jezero i najveća zatvorena vodena masa na Zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se razina mora povlači, otkrivajući kopno, zbog globalnog zahlađenja i nakupljanja leda?",
+        "correct_answer": "Regresija mora",
+        "incorrect_answers": [
+            "Transgresija mora",
+            "Abrasija",
+            "Sedimentacija"
+        ],
+        "explanation": "Regresija mora je geološki proces kada se razina mora smanjuje u odnosu na kopno, obično zbog formiranja velikih ledenih ploča i globalnog zahlađenja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Turskoj?",
+        "correct_answer": "Istanbul",
+        "incorrect_answers": [
+            "Ankara",
+            "Izmir",
+            "Adana"
+        ],
+        "explanation": "Istanbul je najveći grad u Turskoj i njen ekonomski, kulturni i povijesni centar. Ankara je glavni grad Turske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koji je najveći ocean po površini?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean pokriva oko trećine Zemljine površine i najveći je od pet svjetskih oceana. Sadrži više od polovice slobodne vode na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Kako se naziva suhi i topli vjetar koji puše iz Sahare preko Sredozemnog mora prema Europi?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Maestral",
+            "Jugo"
+        ],
+        "explanation": "Siroko je jak, često vlažan, topao vjetar koji puše iz sjeverne Afrike i Arabije, noseći prašinu i pijesak preko Sredozemlja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
