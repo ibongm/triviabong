@@ -30899,5 +30899,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Tko je napisao poznato djelo \"Božanstvena komedija\"?",
+        "correct_answer": "Dante Alighieri",
+        "incorrect_answers": [
+            "Francesco Petrarca",
+            "Giovanni Boccaccio",
+            "Niccolò Machiavelli"
+        ],
+        "explanation": "Dante Alighieri je bio talijanski pjesnik iz Firence, poznat po svom epu koji se smatra jednim od najvećih djela svjetske književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Koja je bila glavna posljedica Berlinskog zida kada je izgrađen 1961. godine?",
+        "correct_answer": "Podjela Berlina na Istočni i Zapadni te ograničenje protoka ljudi",
+        "incorrect_answers": [
+            "Početak procesa denacifikacije Njemačke",
+            "Ujedinjenje Istočne i Zapadne Njemačke",
+            "Stvaranje NATO pakta"
+        ],
+        "explanation": "Berlinski zid je izgrađen od strane Istočne Njemačke kako bi spriječio masovni bijeg ljudi iz komunističkog Istoka na Zapad, dijeleći grad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Koji je bizantski car pokrenuo ikonoklastički spor u 8. stoljeću, zabranjujući štovanje ikona?",
+        "correct_answer": "Leon III. Izaurijski",
+        "incorrect_answers": [
+            "Justinijan I.",
+            "Bazilije II. Bugarožder",
+            "Heraklije"
+        ],
+        "explanation": "Leon III. je započeo ikonoklazam 726. godine, vjerujući da štovanje ikona predstavlja idolopoklonstvo, što je izazvalo veliku vjersku krizu u Bizantu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koji je bio glavni razlog za početak Prvog svjetskog rata?",
+        "correct_answer": "Atentat na nadvojvodu Franje Ferdinanda u Sarajevu",
+        "incorrect_answers": [
+            "Napad Njemačke na Poljsku",
+            "Ruska invazija na Ukrajinu",
+            "Pad Berlinskog zida"
+        ],
+        "explanation": "Atentat u Sarajevu 1914. poslužio je kao povod za eskalaciju tenzija koje su dovele do Prvog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koje je drevno carstvo gradilo viseće vrtove u Babilonu, jedno od Sedam svjetskih čuda?",
+        "correct_answer": "Novobabilonsko Carstvo",
+        "incorrect_answers": [
+            "Asirsko Carstvo",
+            "Egipatsko Carstvo",
+            "Perzijsko Carstvo"
+        ],
+        "explanation": "Viseći vrtovi Babilona pripisuju se kralju Nabukodonosoru II., koji je vladao Novobabilonskim Carstvom u 6. stoljeću pr. Kr.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koji se francuski prosvjetiteljski filozof zalagao za razdvajanje vlasti (zakonodavne, izvršne, sudske) u svojoj knjizi \"O duhu zakona\"?",
+        "correct_answer": "Montesquieu",
+        "incorrect_answers": [
+            "Voltaire",
+            "Jean-Jacques Rousseau",
+            "Denis Diderot"
+        ],
+        "explanation": "Montesquieu je u svom djelu \"O duhu zakona\" (1748.) razradio teoriju o podjeli vlasti, koja je imala velik utjecaj na modernu demokraciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Kako se naziva pokret za prava crnaca u SAD-u koji se razvio 1960-ih, a zagovarao je radikalnije metode borbe i samoobranu?",
+        "correct_answer": "Pokret Crne pantere",
+        "incorrect_answers": [
+            "Pokret za građanska prava",
+            "NAACP",
+            "Ku Klux Klan"
+        ],
+        "explanation": "Pokret Crne pantere (Black Panther Party) osnovan je 1966. godine i zalagao se za naoružanu samoobranu i radikalnije društvene promjene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koji je mirovni sporazum, potpisan 1925. godine, osigurao granice između Francuske, Belgije i Njemačke, ali nije uključio istočne granice Njemačke?",
+        "correct_answer": "Locarnski ugovori",
+        "incorrect_answers": [
+            "Versajski ugovor",
+            "Rapalski ugovor",
+            "Münchenski sporazum"
+        ],
+        "explanation": "Locarnski ugovori, potpisani u Švicarskoj, imali su za cilj stabilizirati poslijeratne odnose u Europi, posebno na zapadnim granicama Njemačke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Koji je rimski car postao prvi kršćanski car i izdao Milanski edikt 313. godine?",
+        "correct_answer": "Konstantin Veliki",
+        "incorrect_answers": [
+            "August",
+            "Neron",
+            "Dioklecijan"
+        ],
+        "explanation": "Konstantin Veliki je 313. godine izdao Milanski edikt, kojim je kršćanstvu dana sloboda vjeroispovijesti unutar Rimskog Carstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koja je bila prva žena koja je obletjela Zemlju solo zrakoplovom 1932. godine?",
+        "correct_answer": "Amelia Earhart",
+        "incorrect_answers": [
+            "Valentina Tereškova",
+            "Bessie Coleman",
+            "Harriet Quimby"
+        ],
+        "explanation": "Amelia Earhart je 1932. postala prva žena koja je solo preletjela Atlantski ocean, što je bila velika prekretnica u zrakoplovstvu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Koji je povijesni pojam za skupinu protestanata u Francuskoj, uglavnom kalvinističke vjere, koji su bili progonjeni u 16. i 17. stoljeću?",
+        "correct_answer": "Hugenoti",
+        "incorrect_answers": [
+            "Valdenzi",
+            "Katari",
+            "Anabaptisti"
+        ],
+        "explanation": "Hugenoti su bili francuski protestanti koji su se suočavali s progonom, što je dovelo do vjerskih ratova i velikih migracija iz Francuske.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Koji je bio glavni neprijatelj Spartanca u Peloponeskom ratu?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Rim",
+            "Perzija",
+            "Makedonija"
+        ],
+        "explanation": "Peloponeski rat (431.-404. pr. Kr.) bio je sukob između dva najveća grčka polisa, Atene i Sparte, i njihovih saveznika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Tko je bio engleski kralj poznat po tome što je imao šest žena i pokrenuo Englesku reformaciju u 16. stoljeću?",
+        "correct_answer": "Henrik VIII.",
+        "incorrect_answers": [
+            "Vilim Osvajač",
+            "Rikard Lavljeg Srca",
+            "Ivan Bez Zemlje"
+        ],
+        "explanation": "Henrik VIII. je pokrenuo englesku reformaciju kako bi se razveo od Katarine Aragonske, čime je odvojio Englesku Crkvu od Rima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Koji je rimski car izdao edikt 212. godine n.e. kojim je dodijelio rimsko državljanstvo svim slobodnim muškarcima u Carstvu?",
+        "correct_answer": "Karakala",
+        "incorrect_answers": [
+            "Hadrijan",
+            "Trajan",
+            "Neron"
+        ],
+        "explanation": "Karakala je ediktom Constitutio Antoniniana značajno proširio broj rimskih građana, što je imalo velike posljedice na oporezivanje i vojnu službu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koja je svjetska organizacija osnovana 1945. godine radi očuvanja mira i sigurnosti nakon Drugog svjetskog rata?",
+        "correct_answer": "Ujedinjeni narodi",
+        "incorrect_answers": [
+            "Liga naroda",
+            "Europska unija",
+            "NATO"
+        ],
+        "explanation": "Ujedinjeni narodi su osnovani 24. listopada 1945. s ciljem promicanja međunarodne suradnje i sprečavanja sukoba.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Tko je bio vođa Komunističke partije Kine i osnivač Narodne Republike Kine 1949. godine?",
+        "correct_answer": "Mao Zedong",
+        "incorrect_answers": [
+            "Chiang Kai-shek",
+            "Deng Xiaoping",
+            "Sun Yat-sen"
+        ],
+        "explanation": "Mao Zedong je bio centralna figura u osnivanju Narodne Republike Kine i njezin prvi predsjednik.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Koji se događaj u Rusiji 1905. godine smatra pretečom Oktobarske revolucije i započeo je s krvavom nedjeljom?",
+        "correct_answer": "Prva ruska revolucija",
+        "incorrect_answers": [
+            "Dekembristički ustanak",
+            "Velika čistka",
+            "Februarska revolucija"
+        ],
+        "explanation": "Prva ruska revolucija 1905. godine, potaknuta 'Krvavom nedjeljom', bila je odgovor na nezadovoljstvo carskom vlašću i ekonomske probleme.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koji se kontinent smatra kolijevkom čovječanstva, gdje su pronađeni najstariji fosili hominida?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Najstariji poznati fosili hominida, uključujući 'Lucy', pronađeni su u istočnoj Africi, što je čini kolijevkom čovječanstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Tko je bio posljednji car Rusije, svrgnut tijekom Februarske revolucije 1917. godine?",
+        "correct_answer": "Nikola II.",
+        "incorrect_answers": [
+            "Petar Veliki",
+            "Aleksandar III.",
+            "Ivan Grozni"
+        ],
+        "explanation": "Car Nikola II. abdicirao je u ožujku 1917., čime je završila vladavina dinastije Romanov u Rusiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Koji je datum službenog početka Drugog svjetskog rata, kada je Njemačka napala Poljsku?",
+        "correct_answer": "1. rujna 1939.",
+        "incorrect_answers": [
+            "7. prosinca 1941.",
+            "6. lipnja 1944.",
+            "8. svibnja 1945."
+        ],
+        "explanation": "Napadom Njemačke na Poljsku 1. rujna 1939. godine službeno je započeo Drugi svjetski rat u Europi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koji je bio najpoznatiji vođa Mongola koji je ujedinio nomadska plemena i stvorio najveće kopneno carstvo u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Timur",
+            "Kublaj-kan",
+            "Atila"
+        ],
+        "explanation": "Džingis-kan je početkom 13. stoljeća ujedinio mongolska plemena i pokrenuo osvajačke pohode koji su rezultirali ogromnim carstvom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje u japanskoj povijesti (1603.-1868.) kada je Japanom vladala obitelj Tokugawa, a zemlja je bila izolirana od vanjskog svijeta?",
+        "correct_answer": "Edo razdoblje",
+        "incorrect_answers": [
+            "Meiji razdoblje",
+            "Heian razdoblje",
+            "Kamakura razdoblje"
+        ],
+        "explanation": "Edo razdoblje obilježeno je vladavinom šoguna iz obitelji Tokugawa i politikom sakoku (izolacije), koja je trajala više od 250 godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Koji se francuski grad smatra središtem Prosvjetiteljstva u 18. stoljeću?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "London",
+            "Beč",
+            "Berlin"
+        ],
+        "explanation": "Pariz je bio epicentar prosvjetiteljskih ideja, okupljalište filozofa, pisaca i umjetnika koji su oblikovali modernu misao.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Tko je bio poznati slikar renesanse, autor \"Mona Lise\" i \"Posljednje večere\"?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Donatello"
+        ],
+        "explanation": "Leonardo da Vinci bio je talijanski polihistor renesansnog razdoblja, poznat po svojim umjetničkim djelima i izumima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Koji se naziv koristi za razdoblje u staroj Grčkoj od 1200. do 800. pr. Kr., obilježeno padom mikenske civilizacije i nedostatkom pisanih izvora?",
+        "correct_answer": "Mračno doba",
+        "incorrect_answers": [
+            "Arhajsko doba",
+            "Klasično doba",
+            "Helenističko doba"
+        ],
+        "explanation": "Grčko 'Mračno doba' je razdoblje društvenog i kulturnog propadanja nakon kolapsa mikenske civilizacije, s vrlo malo arheoloških i pisanih dokaza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i prvi car Etiopskog Carstva, prema legendi sin kraljice od Sabe i kralja Solomona?",
+        "correct_answer": "Menelik I.",
+        "incorrect_answers": [
+            "Haile Selassie",
+            "Lalibela",
+            "Zara Yaqob"
+        ],
+        "explanation": "Prema etiopskoj legendi, Menelik I. je prvi car Etiopije i osnivač Solomonske dinastije, donijevši Kovčeg saveza u Etiopiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Koje je godine završen Vijetnamski rat povlačenjem američkih trupa i padom Sajgona?",
+        "correct_answer": "1975.",
+        "incorrect_answers": [
+            "1968.",
+            "1973.",
+            "1989."
+        ],
+        "explanation": "Vijetnamski rat je službeno završio 30. travnja 1975. padom Sajgona i ujedinjenjem Vijetnama pod komunističkom vlašću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji se hrvatski ban, ujedno i pjesnik, sukobio s habsburškim dvorom i pogubljen je 1671. godine u Bečkom Novom Mjestu?",
+        "correct_answer": "Petar Zrinski",
+        "incorrect_answers": [
+            "Nikola Šubić Zrinski",
+            "Josip Jelačić",
+            "Ivan Mažuranić"
+        ],
+        "explanation": "Petar Zrinski je, zajedno s Franom Krstom Frankopanom, bio vođa Zrinsko-frankopanske urote protiv habsburškog apsolutizma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koji je izum J. Gutenberga u 15. stoljeću revolucionirao širenje znanja i informacija?",
+        "correct_answer": "Tiskarski stroj",
+        "incorrect_answers": [
+            "Telefon",
+            "Parobrod",
+            "Električna žarulja"
+        ],
+        "explanation": "Johannes Gutenberg je oko 1440. godine izumio tiskarski stroj s pomičnim slovima, što je omogućilo masovnu proizvodnju knjiga.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Koje je godine srušen Berlinski zid, simbol Hladnog rata?",
+        "correct_answer": "1989.",
+        "incorrect_answers": [
+            "1961.",
+            "1991.",
+            "1945."
+        ],
+        "explanation": "Berlinski zid je pao 9. studenog 1989., što je označilo kraj Hladnog rata i ubrzalo ujedinjenje Njemačke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Tko je bio engleski državnik iz 17. stoljeća koji je vodio parlamentarne snage u Engleskom građanskom ratu i postao lord protektor?",
+        "correct_answer": "Oliver Cromwell",
+        "incorrect_answers": [
+            "Karlo I.",
+            "Henrik VIII.",
+            "Vilim III. Oranski"
+        ],
+        "explanation": "Oliver Cromwell je bio ključna figura u pobjedi parlamenta nad rojalistima i uspostavi Commonwealtha Engleske.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koji je bio glavni cilj križarskih ratova u srednjem vijeku?",
+        "correct_answer": "Oslobađanje Jeruzalema i Svete Zemlje",
+        "incorrect_answers": [
+            "Otkrivanje novih trgovačkih puteva",
+            "Borba protiv Mongolskog Carstva",
+            "Širenje obrazovanja"
+        ],
+        "explanation": "Križarski ratovi bili su niz vojnih pohoda koje su europski kršćani pokrenuli između 11. i 13. stoljeća s ciljem oslobađanja Jeruzalema.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koje je godine, prema tradiciji, osnovan grad Rim?",
+        "correct_answer": "753. pr. Kr.",
+        "incorrect_answers": [
+            "509. pr. Kr.",
+            "27. pr. Kr.",
+            "476. n.e."
+        ],
+        "explanation": "Prema rimskoj tradiciji, Rim su osnovali Romul i Rem 21. travnja 753. pr. Kr.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Tko je bio vođa pobune Spartaka, roba gladijatora, protiv Rimske Republike u 1. stoljeću pr. Kr.?",
+        "correct_answer": "Spartak",
+        "incorrect_answers": [
+            "Odoakar",
+            "Gaj Marije",
+            "Hanibal"
+        ],
+        "explanation": "Spartak je vodio veliku pobunu robova (Treći robovski rat) od 73. do 71. pr. Kr. protiv Rimske Republike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji se car smatra utemeljiteljem Rimskog Carstva 27. pr. Kr.?",
+        "correct_answer": "August",
+        "incorrect_answers": [
+            "Julije Cezar",
+            "Neron",
+            "Trajan"
+        ],
+        "explanation": "Oktavijan, usvojeni sin Julija Cezara, nakon pobjede u građanskim ratovima uzeo je ime August i postao prvi rimski car.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koji je francuski vladar prodao teritorij Louisiane Sjedinjenim Američkim Državama 1803. godine?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Luj XVI.",
+            "Luj XIV.",
+            "Karlo Veliki"
+        ],
+        "explanation": "Napoleon je prodao Louisianu SAD-u 1803. godine za 15 milijuna dolara, udvostručivši tako teritorij SAD-a.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Koji je bio prvi car ujedinjenog Japana, poznat po centralizaciji vlasti i kraju razdoblja Sengoku (ratnih država) u 16. stoljeću?",
+        "correct_answer": "Oda Nobunaga",
+        "incorrect_answers": [
+            "Tokugawa Ieyasu",
+            "Toyotomi Hideyoshi",
+            "Car Meiji"
+        ],
+        "explanation": "Oda Nobunaga je započeo proces ujedinjenja Japana tijekom razdoblja Sengoku, postavljajući temelje za ujedinjenu zemlju pod Toyotomijem i Tokugawom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Koji je događaj 1969. godine označio veliko postignuće u svemirskoj utrci?",
+        "correct_answer": "Slijetanje Apolla 11 na Mjesec",
+        "incorrect_answers": [
+            "Lansiranje Sputnika 1",
+            "Jurij Gagarin u svemiru",
+            "Otkriće planete Pluton"
+        ],
+        "explanation": "Apollo 11 je bio američka svemirska misija koja je uspješno spustila prve ljude na Mjesec, Neila Armstronga i Buzza Aldrina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
