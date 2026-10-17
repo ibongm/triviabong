@@ -32151,5 +32151,605 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koliko maksimalno žutih kartona jedan igrač može dobiti prije nego što bude isključen s nogometne utakmice?",
+        "correct_answer": "Dva",
+        "incorrect_answers": [
+            "Jedan",
+            "Tri",
+            "Četiri"
+        ],
+        "explanation": "Igrač dobiva crveni karton i isključenje s utakmice ako mu sudac pokaže drugi žuti karton. To je standardno pravilo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi slobodno bacanje u košarci?",
+        "correct_answer": "1 bod",
+        "incorrect_answers": [
+            "2 boda",
+            "3 boda",
+            "0 bodova"
+        ],
+        "explanation": "Svako uspješno realizirano slobodno bacanje u košarci donosi momčadi jedan bod, dok se za pogodak iz igre dobiva više.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koji se od navedenih Grand Slam turnira igra prvi u kalendarskoj godini?",
+        "correct_answer": "Australian Open",
+        "incorrect_answers": [
+            "Roland Garros",
+            "Wimbledon",
+            "US Open"
+        ],
+        "explanation": "Australian Open tradicionalno otvara tenisku Grand Slam sezonu u siječnju svake godine, održava se u Melbourneu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koja je duljina standardne atletske staze u krugovima (stadionski krug)?",
+        "correct_answer": "400 metara",
+        "incorrect_answers": [
+            "100 metara",
+            "200 metara",
+            "800 metara"
+        ],
+        "explanation": "Standardna atletska staza, korištena za većinu trkačkih disciplina na stadionima, dugačka je 400 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u rukometu kada igrač napravi više od tri koraka s loptom bez driblanja?",
+        "correct_answer": "Koraci",
+        "incorrect_answers": [
+            "Dupla lopta",
+            "Prestup",
+            "Prolaz"
+        ],
+        "explanation": "Koraci su prekršaj kada igrač s loptom napravi više od dopuštena tri koraka bez driblanja. Slično je košarci.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Kako se naziva igrač u odbojci koji ima obrambenu ulogu i nosi dres različite boje od ostalih?",
+        "correct_answer": "Libero",
+        "incorrect_answers": [
+            "Bloker",
+            "Dizač",
+            "Smečer"
+        ],
+        "explanation": "Libero je specijalizirani obrambeni igrač u odbojci koji ne smije napadati iznad mreže niti blokirati, a nosi drugačiji dres.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kolika je visina mreže za mušku odbojku (u metrima)?",
+        "correct_answer": "2.43 metra",
+        "incorrect_answers": [
+            "2.24 metra",
+            "2.50 metara",
+            "2.35 metara"
+        ],
+        "explanation": "Standardna visina odbojkaške mreže za muške utakmice je 2.43 metra, dok je za ženske utakmice niža i iznosi 2.24 metra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koji je F1 vozač osvojio najviše Velikih nagrada Monaka?",
+        "correct_answer": "Ayrton Senna",
+        "incorrect_answers": [
+            "Michael Schumacher",
+            "Graham Hill",
+            "Lewis Hamilton"
+        ],
+        "explanation": "Ayrton Senna drži rekord s šest pobjeda na prestižnoj utrci za Veliku nagradu Monaka, što mu je donijelo nadimak 'Kralj Monaca'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koja je najpoznatija biciklistička utrka na svijetu?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Pariz-Roubaix"
+        ],
+        "explanation": "Tour de France je najprestižnija i najpoznatija višednevna biciklistička utrka, održavana uglavnom u Francuskoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u alpskom skijanju gdje skijaši prolaze između široko postavljenih kapija i cilj je najbrže vrijeme?",
+        "correct_answer": "Veleslalom",
+        "incorrect_answers": [
+            "Slalom",
+            "Spust",
+            "Super-G"
+        ],
+        "explanation": "Veleslalom karakteriziraju dulje staze i veći razmak između kapija u usporedbi sa slalomom, što omogućuje veće brzine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Kako se naziva tehnika bacanja protivnika na leđa u judu?",
+        "correct_answer": "Nage-waza",
+        "incorrect_answers": [
+            "Katame-waza",
+            "Ashi-waza",
+            "Osae-komi"
+        ],
+        "explanation": "Nage-waza je kategorija tehnika u judu koje uključuju bacanja (throws), za razliku od zahvata u parteru (katame-waza).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koliko udaraca iznad para na jednoj rupi predstavlja \"bogey\"?",
+        "correct_answer": "1 udarac",
+        "incorrect_answers": [
+            "2 udarca",
+            "0 udaraca",
+            "-1 udarac"
+        ],
+        "explanation": "Bogey u golfu označava rezultat jednog udarca iznad nominalnog broja udaraca (par) predviđenog za određenu rupu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koliko bodova donosi uspješno izvedena konverzija nakon \"položaja\" (try) u ragbiju?",
+        "correct_answer": "2 boda",
+        "incorrect_answers": [
+            "3 boda",
+            "1 bod",
+            "5 bodova"
+        ],
+        "explanation": "Konverzija se izvodi nakon 'tryja' (5 bodova) i ako je uspješna, donosi dodatna 2 boda, odnosno ukupno 7 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koliko je 'segmenta' (polja) na standardnoj pikado ploči, od broja 1 do 20?",
+        "correct_answer": "20",
+        "incorrect_answers": [
+            "15",
+            "25",
+            "10"
+        ],
+        "explanation": "Standardna pikado ploča podijeljena je na 20 numeriranih segmenata, od 1 do 20, plus središnji 'bullseye' koji vrijedi 25 ili 50 bodova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koliko se crvenih kugli koristi na početku standardne snooker partije?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "10",
+            "20",
+            "21"
+        ],
+        "explanation": "Na početku snooker partije na stolu se nalazi 15 crvenih kugli, smještenih u trokutu, koje se ubacuju prve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Kako se naziva situacija u baseballu kada bacač napravi četiri \"lopte\" (ball) prema udaraču?",
+        "correct_answer": "Walk (Baza na loptama)",
+        "incorrect_answers": [
+            "Strikeout",
+            "Home run",
+            "Foul ball"
+        ],
+        "explanation": "Ako bacač baci četiri 'lopte' koje su izvan zone udarca, udarač automatski dobiva prvu bazu, što se naziva 'walk'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koja je najpoznatija godišnja svjetska liga/turnir u igri League of Legends?",
+        "correct_answer": "Worlds (Svjetsko prvenstvo)",
+        "incorrect_answers": [
+            "MSI",
+            "LEC",
+            "LCS"
+        ],
+        "explanation": "Worlds je najprestižnije globalno natjecanje u League of Legendsu, gdje se najbolji timovi iz svih regija bore za titulu prvaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koju ocjenu je gimnastičarka Nadia Comăneci prva postigla na Olimpijskim igrama 1976. godine?",
+        "correct_answer": "Savršena 10",
+        "incorrect_answers": [
+            "9.9",
+            "9.5",
+            "10.5"
+        ],
+        "explanation": "Nadia Comăneci je na Olimpijskim igrama u Montrealu 1976. postala prva gimnastičarka u povijesti koja je dobila savršenu ocjenu 10.0.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koji se mač u sportskom mačevanju koristi tako da se bodovi postižu vrhom ili oštricom na cijelom tijelu iznad struka (osim ruku)?",
+        "correct_answer": "Sablja",
+        "incorrect_answers": [
+            "Floret",
+            "Mač",
+            "Epee"
+        ],
+        "explanation": "Sablja je mač u mačevanju gdje je ciljana površina cijelo tijelo iznad struka, uključujući i ruke, a pogodak se ostvaruje i sječivom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Kako se naziva disciplina konjičkog sporta koja se fokusira na harmoniju i poslušnost konja i jahača kroz unaprijed određene figure?",
+        "correct_answer": "Dresurno jahanje",
+        "incorrect_answers": [
+            "Preponsko jahanje",
+            "Galopske utrke",
+            "Voltižiranje"
+        ],
+        "explanation": "Dresurno jahanje je umjetnička forma konjičkog sporta koja ocjenjuje sposobnost konja da izvodi niz memoriranih pokreta i figura.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Kako se naziva mornarski čvor koji se lako veže i odvezuje, a služi za privremeno fiksiranje konopa na stup?",
+        "correct_answer": "Krivac (Cleat Hitch)",
+        "incorrect_answers": [
+            "Osam (Figure-eight knot)",
+            "Direktni vez (Square knot)",
+            "Povez (Bowline)"
+        ],
+        "explanation": "Krivac je jednostavan i učinkovit čvor koji se koristi za privremeno vezivanje konopa na bitve ili stupove na plovilu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koji je nogometni klub osvojio najviše naslova prvaka Engleske (Premier League i prethodnici) (stanje 2024.)?",
+        "correct_answer": "Manchester United",
+        "incorrect_answers": [
+            "Liverpool",
+            "Arsenal",
+            "Manchester City"
+        ],
+        "explanation": "Manchester United drži rekord s 20 naslova prvaka Engleske u povijesti. Liverpool je drugi s 19. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Tko je rekorder po broju osvojenih NBA prvenstava kao trener (stanje 2024.)?",
+        "correct_answer": "Phil Jackson",
+        "incorrect_answers": [
+            "Red Auerbach",
+            "Gregg Popovich",
+            "Pat Riley"
+        ],
+        "explanation": "Phil Jackson je osvojio impresivnih 11 NBA prvenstava kao glavni trener, što ga čini najuspješnijim u povijesti lige. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Kako se naziva prvi bod u teniskom gemu?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "0",
+            "A (advantage)",
+            "Love"
+        ],
+        "explanation": "Bodovanje u tenisu počinje od 'love' (0), a prvi osvojeni bod se računa kao 15, drugi kao 30, a treći kao 40.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Tko je jedina žena u povijesti koja je osvojila tri zlatne olimpijske medalje u sprintu na istim Olimpijskim igrama (100m, 200m, 4x100m)?",
+        "correct_answer": "Florence Griffith-Joyner",
+        "incorrect_answers": [
+            "Elaine Thompson-Herah",
+            "Wilma Rudolph",
+            "Allyson Felix"
+        ],
+        "explanation": "Florence Griffith-Joyner postigla je ovaj jedinstveni podvig na Olimpijskim igrama u Seulu 1988. godine, postavši legenda sprinta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Koji je maksimalan broj isključenja (2 minute kazne) prije diskvalifikacije igrača u rukometu?",
+        "correct_answer": "Tri",
+        "incorrect_answers": [
+            "Dva",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "Igrač je diskvalificiran iz utakmice nakon što dobije treće isključenje na dvije minute, čime više ne smije igrati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koji dio tijela smiju koristiti igrači u vaterpolu za držanje lopte?",
+        "correct_answer": "Samo jedna ruka",
+        "incorrect_answers": [
+            "Obje ruke",
+            "Bilo koji dio tijela",
+            "Samo glavu"
+        ],
+        "explanation": "Igrači u vaterpolu smiju držati loptu samo jednom rukom, osim vratara koji to može raditi s obje ruke unutar 5 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Kako se naziva etapa biciklističke utrke gdje biciklisti voze pojedinačno protiv štoperice?",
+        "correct_answer": "Kronometar (Time trial)",
+        "incorrect_answers": [
+            "Etape s masovnim startom",
+            "Brdska etapa",
+            "Ravničarska etapa"
+        ],
+        "explanation": "Kronometar je etapa u kojoj svaki biciklist starta u određenim intervalima i natječe se samostalno protiv vremena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koliko igrača jedne momčadi (uključujući vratara) smije biti na ledu u hokeju za vrijeme normalne igre?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "4"
+        ],
+        "explanation": "Svaka momčad u hokeju na ledu na ledu smije imati šest igrača: jednog vratara i pet klizača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Tko je prvi osvojio UFC pojas u dvije različite težinske kategorije istovremeno?",
+        "correct_answer": "Randy Couture",
+        "incorrect_answers": [
+            "Conor McGregor",
+            "Daniel Cormier",
+            "Georges St-Pierre"
+        ],
+        "explanation": "Randy Couture je 2007. godine postao prvi borac koji je držao UFC pojaseve u poluteškoj i teškoj kategoriji istovremeno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koja boja dresa tradicionalno nosi vodeći igrač na posljednjem danu Masters turnira u golfu?",
+        "correct_answer": "Zelena jakna",
+        "incorrect_answers": [
+            "Crvena majica",
+            "Plava jakna",
+            "Bijela polo majica"
+        ],
+        "explanation": "Pobjednik Masters turnira tradicionalno dobiva zelenu jaknu, što je jedan od najprepoznatljivijih simbola u golfu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koja je atletska disciplina u kojoj se natjecatelji natječu u sedam različitih disciplina?",
+        "correct_answer": "Sedmoboj (Heptatlon)",
+        "incorrect_answers": [
+            "Desetoboj",
+            "Petoboj",
+            "Troskok"
+        ],
+        "explanation": "Sedmoboj je atletska višebojska disciplina za žene koja se sastoji od sedam različitih disciplina. Desetoboj je za muškarce.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Kako se naziva situacija u šahu kada igrač prijeti protivničkom kralju?",
+        "correct_answer": "Šah",
+        "incorrect_answers": [
+            "Mat",
+            "Pat",
+            "Rošada"
+        ],
+        "explanation": "Šah je izravna prijetnja protivničkom kralju, koju je potrebno odmah otkloniti. Mat je kada se šah ne može otkloniti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koja je jedina zemlja koja je osvojila tri FIFA Svjetska prvenstva zaredom (muškarci)?",
+        "correct_answer": "Nijedna",
+        "incorrect_answers": [
+            "Brazil",
+            "Njemačka",
+            "Italija"
+        ],
+        "explanation": "Niti jedna reprezentacija u povijesti FIFA Svjetskih prvenstava nije uspjela osvojiti tri naslova zaredom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koja je duljina standardnog olimpijskog bazena (u metrima)?",
+        "correct_answer": "50 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "100 metara",
+            "33 metra"
+        ],
+        "explanation": "Olimpijski bazen je dužine 50 metara i koristi se za natjecanja na dugim prugama. Kratki bazen je 25 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koji se poznati događaj u automobilizmu održava na stazi Nürburgring Nordschleife, poznatoj kao \"Zeleni pakao\"?",
+        "correct_answer": "24 sata Nürburgringa",
+        "incorrect_answers": [
+            "24 sata Le Mansa",
+            "Daytona 500",
+            "Indy 500"
+        ],
+        "explanation": "24 sata Nürburgringa je utrka izdržljivosti na jednoj od najzahtjevnijih staza na svijetu, poznatoj po svojoj dužini i kompleksnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koja je najpoznatija disciplina u 'Powerliftingu' koja uključuje podizanje utega sa zemlje do uspravnog položaja?",
+        "correct_answer": "Mrtvo dizanje (Deadlift)",
+        "incorrect_answers": [
+            "Čučanj (Squat)",
+            "Potisak s klupe (Bench press)",
+            "Trzaj (Snatch)"
+        ],
+        "explanation": "Mrtvo dizanje je jedna od tri discipline powerliftinga, uz čučanj i potisak s klupe, i mjeri maksimalnu snagu podizanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koji od ovih sportova NIJE dio modernog triatlona?",
+        "correct_answer": "Jahanje",
+        "incorrect_answers": [
+            "Plivanje",
+            "Biciklizam",
+            "Trčanje"
+        ],
+        "explanation": "Triatlon se sastoji od plivanja, biciklizma i trčanja. Jahanje je dio modernog petoboja, ali ne triatlona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2492",
+        "category": "sport",
+        "question": "Tko je najmlađi strijelac u povijesti hrvatske nogometne reprezentacije (stanje 2024.)?",
+        "correct_answer": "Luka Modrić",
+        "incorrect_answers": [
+            "Mateo Kovačić",
+            "Ivan Rakitić",
+            "Mario Mandžukić"
+        ],
+        "explanation": "Luka Modrić postao je najmlađi strijelac za Hrvatsku s 19 godina i 279 dana protiv Brazila 2005. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2493",
+        "category": "sport",
+        "question": "Kako se naziva udarac u tenisu koji se izvodi prije nego što loptica dvaput odskoči od tla, blizu mreže?",
+        "correct_answer": "Volej",
+        "incorrect_answers": [
+            "Smeč",
+            "Drop shot",
+            "Forehand"
+        ],
+        "explanation": "Volej je udarac koji se izvodi iz zraka prije nego što loptica odskoči od tla, obično u blizini mreže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
