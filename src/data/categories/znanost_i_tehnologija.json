@@ -30445,5 +30445,500 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je element osnovni sastojak dijamanata i grafita?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Silicij",
+            "Željezo"
+        ],
+        "explanation": "I dijamant i grafit su alotropske modifikacije ugljika, što znači da su sačinjeni isključivo od atoma ugljika, ali različito raspoređenih.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen pri kojem se svjetlost raspršuje u više boja prolaskom kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Refrakcija",
+            "Polarizacija"
+        ],
+        "explanation": "Disperzija svjetlosti je pojava razlaganja bijele svjetlosti na komponente spektra zbog ovisnosti indeksa loma o valnoj duljini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Tko je formulirao zakone planetarnog gibanja?",
+        "correct_answer": "Johannes Kepler",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Nikola Kopernik"
+        ],
+        "explanation": "Johannes Kepler je početkom 17. stoljeća objavio tri zakona koja opisuju gibanje planeta oko Sunca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja je funkcija lizosoma u životinjskoj stanici?",
+        "correct_answer": "Razgradnja otpadnih tvari i staničnih komponenti",
+        "incorrect_answers": [
+            "Proizvodnja energije",
+            "Sinteza proteina",
+            "Pohrana genetskih informacija"
+        ],
+        "explanation": "Lizosomi sadrže hidrolitičke enzime koji razgrađuju stanični otpad, makromolekule i istrošene organele.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji je najmanji dio elementa koji zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna građevna jedinica materije koja se sastoji od jezgre i elektronskog omotača, zadržavajući svojstva elementa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji se vitamin najviše sintetizira u koži izlaganjem sunčevoj svjetlosti?",
+        "correct_answer": "Vitamin D",
+        "incorrect_answers": [
+            "Vitamin C",
+            "Vitamin A",
+            "Vitamin K"
+        ],
+        "explanation": "Izlaganje kože ultraljubičastim zrakama potiče sintezu vitamina D, koji je ključan za zdravlje kostiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je najčešće korištena programski jezik za razvoj web stranica na strani klijenta (frontend)?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "explanation": "JavaScript je skriptni jezik koji omogućuje interaktivnost na web stranicama i izvodi se izravno u korisnikovom pregledniku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Kako se zove najveći prirodni satelit planeta Saturna, poznat po gustoj atmosferi i mogućim jezerima tekućeg metana?",
+        "correct_answer": "Titan",
+        "incorrect_answers": [
+            "Ganimed",
+            "Europa",
+            "Mimas"
+        ],
+        "explanation": "Titan je najveći Saturnov mjesec i jedini mjesec u Sunčevom sustavu s gustom atmosferom, bogatom dušikom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji se proces koristi za razdvajanje smjesa na temelju razlike u točkama vrelišta njihovih komponenti?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Sedimentacija",
+            "Kristalizacija"
+        ],
+        "explanation": "Destilacija koristi razlike u isparljivosti za pročišćavanje tekućina ili razdvajanje tekućih smjesa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Tko je izumio prvu praktičnu žarulju sa žarnom niti?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "Benjamin Franklin"
+        ],
+        "explanation": "Iako su mnogi radili na žarulji, Thomas Edison je 1879. patentirao prvu komercijalno isplativu i dugotrajnu žarulju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcija crvenih krvnih stanica (eritrocita)?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Proizvodnja antitijela"
+        ],
+        "explanation": "Eritrociti sadrže hemoglobin, protein koji veže kisik u plućima i prenosi ga do tkiva u tijelu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje bežični prijenos podataka na kratke udaljenosti, često korištena za povezivanje slušalica ili tipkovnica?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "LTE"
+        ],
+        "explanation": "Bluetooth je bežični komunikacijski protokol kratkog dometa za povezivanje elektroničkih uređaja i razmjenu podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je kemijski element ključan za stvaranje klorofila u biljkama?",
+        "correct_answer": "Magnezij",
+        "incorrect_answers": [
+            "Kalcij",
+            "Željezo",
+            "Cink"
+        ],
+        "explanation": "Magnezij je središnji atom u molekuli klorofila, pigmenta koji je neophodan za fotosintezu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između RAM-a (Random Access Memory) i ROM-a (Read-Only Memory) u računalu?",
+        "correct_answer": "RAM je privremena memorija za rad, ROM je trajna za pokretanje sustava.",
+        "incorrect_answers": [
+            "RAM je brži, ROM je sporiji",
+            "RAM pohranjuje operativni sustav, ROM podatke",
+            "RAM je fizički veći, ROM manji"
+        ],
+        "explanation": "RAM je volatilna memorija koja gubi podatke bez napajanja, dok je ROM nevolatilna i sadrži stalne upute potrebne za pokretanje računala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je prvi umjetni satelit koji je lansiran u svemir?",
+        "correct_answer": "Sputnjik 1",
+        "incorrect_answers": [
+            "Apollo 11",
+            "Voyager 1",
+            "Hubble"
+        ],
+        "explanation": "Sputnjik 1, lansiran od strane Sovjetskog Saveza 4. listopada 1957., bio je prvi umjetni satelit Zemlje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji proces pretvara tekućinu u plin na temperaturama ispod točke vrelišta?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Vrenje",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je proces faznog prijelaza u kojem molekule tekućine napuštaju površinu i prelaze u plinovito stanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja se kemijska reakcija događa kada metal reagira s kisikom, često rezultirajući stvaranjem hrđe?",
+        "correct_answer": "Oksidacija",
+        "incorrect_answers": [
+            "Redukcija",
+            "Neutralizacija",
+            "Fermentacija"
+        ],
+        "explanation": "Oksidacija je kemijska reakcija u kojoj tvar gubi elektrone, često se odnosi na reakciju s kisikom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Tko je razvio prvu teoriju evolucije putem prirodne selekcije?",
+        "correct_answer": "Charles Darwin",
+        "incorrect_answers": [
+            "Gregor Mendel",
+            "Louis Pasteur",
+            "Alfred Russel Wallace"
+        ],
+        "explanation": "Charles Darwin je u svom djelu 'Podrijetlo vrsta' (1859.) detaljno predstavio teoriju evolucije putem prirodne selekcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Kako se zove virtualna valuta koja koristi kriptografiju za sigurnost i decentraliziranu kontrolu?",
+        "correct_answer": "Kriptovaluta",
+        "incorrect_answers": [
+            "Digitalni novac",
+            "E-valuta",
+            "Token"
+        ],
+        "explanation": "Kriptovaluta je digitalna ili virtualna valuta koja koristi kriptografiju za osiguravanje transakcija i kontrolu stvaranja novih jedinica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji se tip mikroskopa koristi za promatranje površinske strukture uzorka u vrlo visokoj rezoluciji?",
+        "correct_answer": "Skenirajući elektronski mikroskop (SEM)",
+        "incorrect_answers": [
+            "Svjetlosni mikroskop",
+            "Transmisijski elektronski mikroskop (TEM)",
+            "Atomski mikroskop (AFM)"
+        ],
+        "explanation": "SEM stvara sliku skeniranjem uzorka snopom elektrona i detektiranjem reflektiranih elektrona, dajući 3D prikaz površine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja je temeljna interakcija odgovorna za stabilnost atomske jezgre?",
+        "correct_answer": "Jaka nuklearna sila",
+        "incorrect_answers": [
+            "Slaba nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ],
+        "explanation": "Jaka nuklearna sila je najjača od četiri fundamentalne sile i drži protone i neutrone zajedno unutar atomske jezgre.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se naziva iznenadno, nekontrolirano električno pražnjenje u atmosferi, praćeno grmljavinom?",
+        "correct_answer": "Munja",
+        "incorrect_answers": [
+            "Aurora",
+            "Komet",
+            "Tornado"
+        ],
+        "explanation": "Munja je atmosfersko električno pražnjenje koje nastaje unutar oblaka ili između oblaka i Zemljine površine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Tko je poznat po izumu telefona?",
+        "correct_answer": "Alexander Graham Bell",
+        "incorrect_answers": [
+            "Guglielmo Marconi",
+            "Thomas Edison",
+            "Samuel Morse"
+        ],
+        "explanation": "Alexander Graham Bell je 1876. dobio patent za telefon, iako je bilo i drugih izumitelja s ranijim, ali manje razvijenim prototipima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja je funkcija vena u krvožilnom sustavu?",
+        "correct_answer": "Povratak krvi prema srcu",
+        "incorrect_answers": [
+            "Prijenos krvi iz srca",
+            "Razmjena plinova",
+            "Filtracija krvi"
+        ],
+        "explanation": "Vene su krvne žile koje prenose deoksigeniranu krv (osim plućnih vena) iz tkiva natrag u srce.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji se algoritam koristi za pronalaženje najkraćeg puta između čvorova u grafu?",
+        "correct_answer": "Dijkstrin algoritam",
+        "incorrect_answers": [
+            "Bubble Sort",
+            "Quick Sort",
+            "Breadth-First Search (BFS)"
+        ],
+        "explanation": "Dijkstrin algoritam pronalazi najkraće putove od jednog početnog čvora do svih ostalih čvorova u grafu s pozitivnim težinama bridova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koja je funkcija ozonskog omotača u Zemljinoj atmosferi?",
+        "correct_answer": "Apsorpcija štetnog ultraljubičastog (UV) zračenja",
+        "incorrect_answers": [
+            "Stvaranje oblaka",
+            "Regulacija temperature",
+            "Proizvodnja kisika"
+        ],
+        "explanation": "Ozonski omotač u stratosferi apsorbira većinu štetnog UV-B zračenja sa Sunca, štiteći život na Zemlji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Kako se zove galaksija najbliža Mliječnoj stazi, vidljiva golim okom na južnoj hemisferi?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut",
+            "Veliki Magellanov oblak",
+            "Mali Magellanov oblak"
+        ],
+        "explanation": "Andromeda (M31) je spiralna galaksija, najbliža nama velika galaksija, udaljena oko 2,5 milijuna svjetlosnih godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji je proces prijelaza tvari iz plinovitog u tekuće stanje?",
+        "correct_answer": "Kondenzacija",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Depozicija",
+            "Isparavanje"
+        ],
+        "explanation": "Kondenzacija je proces u kojem se plin ili para hladi i prelazi u tekuće stanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji je termin za nevidljivu formu materije koja čini oko 27% svemira i čiju prirodu još ne poznajemo?",
+        "correct_answer": "Tamna tvar",
+        "incorrect_answers": [
+            "Tamna energija",
+            "Antimaterija",
+            "Neutrini"
+        ],
+        "explanation": "Tamna tvar ne emitira, ne apsorbira i ne reflektira svjetlost, a njezina prisutnost se detektira gravitacijskim utjecajima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se kemijski element koristi za izradu solarnih panela?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Germanij",
+            "Galij",
+            "Indij"
+        ],
+        "explanation": "Silicij je poluvodič koji se najčešće koristi u fotonaponskim ćelijama za pretvaranje sunčeve svjetlosti u električnu energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Tko je otac moderne fizike i tvorac teorije relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Max Planck",
+            "Niels Bohr"
+        ],
+        "explanation": "Albert Einstein je svojim teorijama posebne i opće relativnosti revolucionirao shvaćanje prostora, vremena, gravitacije i energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je funkcija ribosoma u stanici?",
+        "correct_answer": "Sinteza proteina",
+        "incorrect_answers": [
+            "Proizvodnja lipida",
+            "Pohrana energije",
+            "Razgradnja staničnog otpada"
+        ],
+        "explanation": "Ribosomi su stanične organele odgovorne za prevođenje genetske informacije iz mRNA u proteine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva postupak stvaranja identičnih kopija gena, stanica ili cijelih organizama?",
+        "correct_answer": "Kloniranje",
+        "incorrect_answers": [
+            "Mutacija",
+            "Hibridizacija",
+            "Rekombinacija"
+        ],
+        "explanation": "Kloniranje je proces stvaranja genetički identične kopije biološkog entiteta, bilo prirodno ili umjetno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
