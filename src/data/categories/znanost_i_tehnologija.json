@@ -30445,5 +30445,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Kako se naziva osnovna jedinica električnog otpora u Međunarodnom sustavu jedinica (SI)?",
+        "correct_answer": "Ohm",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Wat"
+        ],
+        "explanation": "Ohm je mjerna jedinica za električni otpor, nazvana po njemačkom fizičaru Georgu Simonu Ohmu. Definira se kao omjer napona i struje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koja je stanična organela odgovorna za sintezu proteina na temelju genetskih uputa iz mRNA?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Golgijev aparat",
+            "Lizosom",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Ribosomi su kompleksne molekularne mašine unutar svih živih stanica koje provode sintezu proteina, proces prevođenja genetskog koda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se naziva skupina elemenata u periodnom sustavu koji su poznati po svojoj kemijskoj nereaktivnosti, poput helija, neona i argona?",
+        "correct_answer": "Plemeniti plinovi",
+        "incorrect_answers": [
+            "Alkalijski metali",
+            "Halogeni elementi",
+            "Prijelazni metali"
+        ],
+        "explanation": "Plemeniti plinovi imaju punu vanjsku elektronsku ljusku, što ih čini izuzetno stabilnima i nereaktivnima s drugim elementima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta računalne memorije koja se koristi za privremeno pohranjivanje podataka i programa koji se trenutno koriste, te gubi sadržaj kada se računalo isključi?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "HDD (Hard Disk Drive)",
+            "SSD (Solid State Drive)",
+            "ROM (Read-Only Memory)"
+        ],
+        "explanation": "RAM je hlapljiva memorija koja omogućava brz pristup podacima. Koristi se za aktivne procese i gubi podatke bez napajanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji se optički fenomen događa kada se bijela svjetlost razlaže na svoje sastavne boje (spektar) prolaskom kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Apsorpcija",
+            "Difrakcija"
+        ],
+        "explanation": "Disperzija je pojava razlaganja svjetlosti na spektralne boje zbog ovisnosti indeksa loma o valnoj duljini svjetlosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji je švedski botaničar i zoolog poznat kao otac moderne taksonomije, koji je uveo binomnu nomenklaturu za klasifikaciju živih bića?",
+        "correct_answer": "Carl Linnaeus",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Louis Pasteur"
+        ],
+        "explanation": "Carl Linnaeus (Karl von Linné) je razvio sustav klasifikacije organizama koji se još uvijek koristi kao osnova u biologiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje prijenosom elektrona s jednog atoma na drugi, stvarajući pozitivno i negativno nabijene ione koji se privlače?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje zbog snažne elektrostatičke privlačnosti između suprotno nabijenih iona, koji se formiraju prijenosom elektrona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji je najveći planet u našem Sunčevom sustavu, poznat po svojoj Velikoj crvenoj pjegi, ogromnoj oluji koja traje stoljećima?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Mars",
+            "Uran"
+        ],
+        "explanation": "Jupiter je plinoviti div, pet puta udaljeniji od Sunca nego Zemlja, s masom većom od dvostruke mase svih ostalih planeta zajedno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji protokol definira kako se web stranice prenose preko interneta, omogućujući komunikaciju između web preglednika i poslužitelja?",
+        "correct_answer": "HTTP (Hypertext Transfer Protocol)",
+        "incorrect_answers": [
+            "FTP (File Transfer Protocol)",
+            "SMTP (Simple Mail Transfer Protocol)",
+            "TCP (Transmission Control Protocol)"
+        ],
+        "explanation": "HTTP je temeljni protokol za prijenos informacija na World Wide Webu. Koristi se za zahtjeve i odgovore između klijenta i poslužitelja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva uređaj koji pretvara mehaničku energiju (poput okretanja turbine) u električnu energiju, a koristi se u elektranama?",
+        "correct_answer": "Generator",
+        "incorrect_answers": [
+            "Transformator",
+            "Motor",
+            "Ispravljač"
+        ],
+        "explanation": "Generator radi na principu elektromagnetske indukcije, stvarajući električnu struju gibanjem vodiča kroz magnetsko polje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji je glavni organski spoj, bogat energijom, koji biljke proizvode tijekom fotosinteze i koji služi kao hrana?",
+        "correct_answer": "Glukoza",
+        "incorrect_answers": [
+            "Fruktoza",
+            "Škrob",
+            "Celuloza"
+        ],
+        "explanation": "Glukoza (šećer) je primarni proizvod fotosinteze, pohranjujući energiju sunčeve svjetlosti u kemijskim vezama. Iz nje se grade i drugi ugljikohidrati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja se prirodna tvar, dobivena iz lišajeva, često koristi kao indikator za određivanje kiselosti ili lužnatosti otopine, mijenjajući boju u crvenu za kiselo i plavu za lužnato?",
+        "correct_answer": "Lakmus",
+        "incorrect_answers": [
+            "Fenolftalein",
+            "Bromtimol plavo",
+            "Metil narančasto"
+        ],
+        "explanation": "Lakmus papir je klasičan pH indikator koji mijenja boju u rasponu od crvene (kiselo) do plave (lužnato) pri pH oko 4.5-8.3.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Kako se naziva temperatura pri kojoj tekućina prelazi u plinovito stanje pri određenom tlaku, a pritom se stvaraju mjehurići pare unutar cijele tekućine?",
+        "correct_answer": "Vrelište",
+        "incorrect_answers": [
+            "Talište",
+            "Rosište",
+            "Smrzavalište"
+        ],
+        "explanation": "Vrelište je karakteristična temperatura za svaku tekućinu pri kojoj se ravnotežni tlak pare izjednačuje s vanjskim tlakom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji princip objektno orijentiranog programiranja podrazumijeva grupiranje podataka (svojstava) i metoda (funkcija) koje operiraju na tim podacima unutar jedne cjeline, skrivajući implementacijske detalje?",
+        "correct_answer": "Enkapsulacija",
+        "incorrect_answers": [
+            "Nasljeđivanje",
+            "Polimorfizam",
+            "Apstrakcija"
+        ],
+        "explanation": "Enkapsulacija štiti interne podatke objekta od vanjskog pristupa i modificiranja, osiguravajući da se objektom manipulira samo putem definiranih metoda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je poznati svemirski teleskop, lansiran 1990. godine, revolucionirao astronomiju pružajući jasne slike svemira bez atmosferskih izobličenja?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Spitzer svemirski teleskop",
+            "Chandra rendgenski opservatorij"
+        ],
+        "explanation": "Hubbleov teleskop je desetljećima snimao nevjerojatne slike svemira i donio mnoštvo otkrića u astronomiji. (lansiran 1990.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji su znanstvenici 1953. godine objavili otkriće dvostruke spiralne strukture molekule DNA, koristeći se rendgenskim difrakcijskim podacima Rosalind Franklin?",
+        "correct_answer": "James Watson i Francis Crick",
+        "incorrect_answers": [
+            "Louis Pasteur i Robert Koch",
+            "Marie i Pierre Curie",
+            "Albert Einstein i Max Planck"
+        ],
+        "explanation": "Watson i Crick su 1953. godine predložili model dvostruke spirale za DNA, što je temelj razumijevanja nasljeđivanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja je približna brzina zvuka u zraku na sobnoj temperaturi (oko 20°C)?",
+        "correct_answer": "343 m/s",
+        "incorrect_answers": [
+            "1500 m/s",
+            "300 000 km/s",
+            "1200 km/h"
+        ],
+        "explanation": "Brzina zvuka ovisi o mediju kroz koji putuje i temperaturi. U zraku pri 20°C iznosi približno 343 metra u sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja funkcionalna skupina karakterizira alkohole, a sastoji se od atoma kisika vezanog na atom vodika i na organsku skupinu (R-OH)?",
+        "correct_answer": "Hidroksilna skupina",
+        "incorrect_answers": [
+            "Karboksilna skupina",
+            "Karbonilna skupina",
+            "Amino skupina"
+        ],
+        "explanation": "Hidroksilna (-OH) skupina daje alkoholima njihova karakteristična svojstva, uključujući mogućnost stvaranja vodikovih veza.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji je poznati operativni sustav otvorenog koda, nastao kao jezgra sustava koju je razvio Linus Torvalds, a danas se koristi u širokom rasponu uređaja, od pametnih telefona do superračunala?",
+        "correct_answer": "Linux",
+        "incorrect_answers": [
+            "Windows",
+            "macOS",
+            "Android"
+        ],
+        "explanation": "Linux je obitelj operativnih sustava sličnih Unixu. Njegov otvoreni kod omogućuje besplatno korištenje i modificiranje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji sustav u ljudskom tijelu proizvodi i luči hormone izravno u krvotok, regulirajući razne tjelesne funkcije poput metabolizma, rasta i raspoloženja?",
+        "correct_answer": "Endokrini sustav",
+        "incorrect_answers": [
+            "Živčani sustav",
+            "Probavni sustav",
+            "Limfni sustav"
+        ],
+        "explanation": "Endokrini sustav sastoji se od žlijezda koje proizvode hormone, kemijske glasnike ključne za koordinaciju tjelesnih procesa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se nazivaju zamišljene linije koje pokazuju smjer i jačinu magnetskog polja, uvijek izlazeći iz sjevernog pola i ulazeći u južni pol magneta?",
+        "correct_answer": "Magnetske silnice",
+        "incorrect_answers": [
+            "Električne silnice",
+            "Gravitacijske silnice",
+            "Valne fronte"
+        ],
+        "explanation": "Magnetske silnice vizualno predstavljaju magnetsko polje. Njihova gustoća označava jačinu polja, a smjer pokazuje put magnetskog toka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja je vrsta kemijske reakcije u kojoj tvar brzo reagira s kisikom, obično proizvodeći toplinu i svjetlost (plamen)?",
+        "correct_answer": "Izgaranje (gorenje)",
+        "incorrect_answers": [
+            "Neutralizacija",
+            "Redoks reakcija",
+            "Precipitatna reakcija"
+        ],
+        "explanation": "Izgaranje je egzotermna redoks reakcija, pri čemu se gorivo oksidira oslobađajući energiju u obliku topline i svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Kako se naziva granica oko crne rupe iz koje niti svjetlost ne može pobjeći, čineći je točkom bez povratka?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Akrecijski disk",
+            "Ergoreferencijalna površina"
+        ],
+        "explanation": "Horizont događaja je regija prostor-vremena izvan koje se događaji ne mogu opaziti, niti na njih utjecati.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja se vrsta strukture podataka temelji na principu \"posljednji unutra, prvi van\" (LIFO), gdje se element koji je posljednji dodan prvi uklanja?",
+        "correct_answer": "Stog (Stack)",
+        "incorrect_answers": [
+            "Red (Queue)",
+            "Povezana lista (Linked List)",
+            "Stablo (Tree)"
+        ],
+        "explanation": "Stog je apstraktni tip podataka. Operacije push (dodavanje) i pop (uklanjanje) odvijaju se na vrhu stoga.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se nazivaju različiti oblici ili verzije gena koji se nalaze na istom mjestu (lokusu) na kromosomu i određuju određenu osobinu?",
+        "correct_answer": "Aleli",
+        "incorrect_answers": [
+            "Genotipi",
+            "Fenotipi",
+            "Kromosomi"
+        ],
+        "explanation": "Aleli određuju varijacije neke osobine, primjerice boju očiju ili krvnu grupu, a svaki roditelj doprinosi jednim alelom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva vrijeme potrebno da se polovica radioaktivnih atoma nekog izotopa raspadne, što je karakteristično za svaki radioaktivni element?",
+        "correct_answer": "Vrijeme poluraspada",
+        "incorrect_answers": [
+            "Kritična masa",
+            "Nuklearna fisija",
+            "Nuklearna fuzija"
+        ],
+        "explanation": "Vrijeme poluraspada je fundamentalna konstanta koja opisuje brzinu radioaktivnog raspada, neovisna o vanjskim uvjetima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta zlonamjernog softvera koji šifrira korisnikove datoteke i zahtijeva otkupninu (obično u kriptovalutama) za njihovo dešifriranje?",
+        "correct_answer": "Ransomware",
+        "incorrect_answers": [
+            "Virus",
+            "Crv (Worm)",
+            "Trojanac (Trojan)"
+        ],
+        "explanation": "Ransomware onemogućuje pristup podacima. Napadači prijete trajnim gubitkom podataka ako se otkupnina ne plati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji organizmi u ekosustavu proizvode vlastitu hranu putem fotosinteze ili kemosinteze, čineći osnovu prehrambene mreže?",
+        "correct_answer": "Proizvođači (autotrofi)",
+        "incorrect_answers": [
+            "Potrošači (heterotrofi)",
+            "Razlagači (detritivori)",
+            "Grabežljivci"
+        ],
+        "explanation": "Proizvođači, poput biljaka i alga, pretvaraju anorganske tvari u organske, stvarajući energiju za cijeli ekosustav.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji mehanizam prijenosa topline uključuje izravan kontakt između čestica materijala, pri čemu se energija prenosi vibracijama s čestice na česticu?",
+        "correct_answer": "Kondukcija (provođenje)",
+        "incorrect_answers": [
+            "Konvekcija (strujanje)",
+            "Radijacija (zračenje)",
+            "Advekcija"
+        ],
+        "explanation": "Kondukcija je primarni način prijenosa topline u krutim tijelima. Čestice ne mijenjaju položaj, već samo vibriraju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koja je kemijska formula za sumpornu kiselinu, jednu od najjačih mineralnih kiselina?",
+        "correct_answer": "H2SO4",
+        "incorrect_answers": [
+            "HCl",
+            "HNO3",
+            "CH3COOH"
+        ],
+        "explanation": "Sumporna kiselina je korozivna mineralna kiselina, poznata po svojoj jakosti i širokoj industrijskoj primjeni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koja je nama najbliža velika spiralna galaksija, za koju se očekuje da će se sudariti s Mliječnom stazom za nekoliko milijardi godina?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut (Triangulum)",
+            "Magellanovi oblaci",
+            "Sombrero"
+        ],
+        "explanation": "Galaksija Andromeda je udaljena oko 2,5 milijuna svjetlosnih godina i najveća je galaksija u Lokalnoj grupi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Kako se naziva specijalizirani elektronički sklop dizajniran za brzu manipulaciju i izmjenu memorije kako bi se ubrzalo stvaranje slika u okvirnom spremniku za izlaz na zaslon, posebno važan za video igre i grafički intenzivne aplikacije?",
+        "correct_answer": "GPU (Graphics Processing Unit)",
+        "incorrect_answers": [
+            "CPU (Central Processing Unit)",
+            "RAM (Random Access Memory)",
+            "SSD (Solid State Drive)"
+        ],
+        "explanation": "GPU je optimiziran za paralelnu obradu, što ga čini izuzetno učinkovitim za prikazivanje grafike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja je glavna karakteristika po kojoj se prokariotske stanice razlikuju od eukariotskih stanica?",
+        "correct_answer": "Prokariotske stanice nemaju jezgru ni druge membranske organele.",
+        "incorrect_answers": [
+            "Prokariotske stanice su uvijek veće",
+            "Prokariotske stanice imaju mitohondrije",
+            "Prokariotske stanice provode fotosintezu"
+        ],
+        "explanation": "Prokarioti su jednostavniji organizmi bez prave jezgre i organela omeđenih membranom, za razliku od eukariota.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se u fizici definira rad, kada sila djeluje na tijelo i uzrokuje njegovo pomicanje u smjeru sile?",
+        "correct_answer": "Umnožak sile i prijeđenog puta u smjeru sile",
+        "incorrect_answers": [
+            "Umnožak mase i ubrzanja",
+            "Brzina promjene energije",
+            "Količina gibanja tijela"
+        ],
+        "explanation": "Rad je skalarna veličina i mjeri se u džulima (J). Obavlja se samo ako je prisutan pomak u smjeru djelovanja sile.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Kako se nazivaju male molekule koje se povezuju u duge lance kako bi formirale polimere?",
+        "correct_answer": "Monomeri",
+        "incorrect_answers": [
+            "Izomeri",
+            "Katalizatori",
+            "Enzimi"
+        ],
+        "explanation": "Monomeri su gradivni blokovi polimera. Proces njihovog spajanja naziva se polimerizacija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koja vrsta satelitske orbite omogućuje satelitu da ostane iznad iste točke na Zemljinom ekvatoru, što je idealno za telekomunikacijske i meteorološke svrhe?",
+        "correct_answer": "Geostacionarna orbita",
+        "incorrect_answers": [
+            "Niska Zemljina orbita (LEO)",
+            "Polarna orbita",
+            "Helio-sinkrona orbita"
+        ],
+        "explanation": "U geostacionarnoj orbiti, satelit se kreće istom kutnom brzinom kao i Zemlja, pa se čini stacionarnim s površine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Kako se naziva konačan, precizan niz uputa ili koraka za rješavanje problema ili izvršavanje zadatka, koji se često koristi u programiranju?",
+        "correct_answer": "Algoritam",
+        "incorrect_answers": [
+            "Protokol",
+            "Sintaksa",
+            "Kompajler"
+        ],
+        "explanation": "Algoritmi su temelj računalstva. Oni pružaju korak-po-korak rješenje za bilo koji izračunljiv problem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Koje su dvije vrste fotoreceptorskih stanica u mrežnici ljudskog oka odgovorne za vid – jedna za noćni vid i percepciju svjetlosti/tame, a druga za dnevni vid i percepciju boja?",
+        "correct_answer": "Štapići i čunjići",
+        "incorrect_answers": [
+            "Dendriti i aksoni",
+            "Nefroni i neuroni",
+            "Limfociti i fagociti"
+        ],
+        "explanation": "Štapići su osjetljiviji na svjetlost i zaduženi za crno-bijeli vid, dok su čunjići odgovorni za prepoznavanje boja pri jakom svjetlu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za silu, nazvana po poznatom engleskom fizičaru?",
+        "correct_answer": "Newton (N)",
+        "incorrect_answers": [
+            "Joule (J)",
+            "Watt (W)",
+            "Pascal (Pa)"
+        ],
+        "explanation": "Newton je definiran kao sila potrebna za ubrzanje mase od jednog kilograma za jedan metar u sekundi na kvadrat (1 N = 1 kg·m/s²).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
