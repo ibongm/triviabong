@@ -30445,5 +30445,560 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je najveći organ u ljudskom tijelu, koji služi kao zaštitna barijera i pomaže u regulaciji temperature?",
+        "correct_answer": "Koža",
+        "incorrect_answers": [
+            "Jetra",
+            "Pluća",
+            "Mozak"
+        ],
+        "explanation": "Koža je najveći organ ljudskog tijela, koji pokriva vanjsku površinu i ima ključne funkcije u zaštiti, regulaciji temperature i osjetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji kemijski element je osnova organske kemije i može tvoriti četiri kovalentne veze?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Ugljik je izvanredan zbog svoje sposobnosti stvaranja dugih lanaca i prstenova, što je temelj raznolikosti organskih spojeva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se zove znanstveno područje koje proučava fosile i pretpovijesni život?",
+        "correct_answer": "Paleontologija",
+        "incorrect_answers": [
+            "Arheologija",
+            "Geologija",
+            "Antropologija"
+        ],
+        "explanation": "Paleontologija je znanost koja proučava život koji je postojao u prethodnim geološkim razdobljima kroz analizu fosila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila prijenos podataka putem nevidljivih radio valova, a danas je standard za bežični internet?",
+        "correct_answer": "Wi-Fi",
+        "incorrect_answers": [
+            "Bluetooth",
+            "Ethernet",
+            "Optička vlakna"
+        ],
+        "explanation": "Wi-Fi (Wireless Fidelity) je tehnologija bežičnog umrežavanja koja omogućuje uređajima povezivanje na internet ili međusobno putem radio valova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji znanstvenik je formulirao teoriju relativnosti, uključujući poznatu jednadžbu E=mc²?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Stephen Hawking"
+        ],
+        "explanation": "Albert Einstein je razvio opću i specijalnu teoriju relativnosti, koje su revolucionirale naše razumijevanje prostora, vremena i gravitacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji je glavni plin u Zemljinoj atmosferi, čineći oko 78% njezina volumena?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Dušik (N₂) je najzastupljeniji plin u Zemljinoj atmosferi i ključna komponenta za život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke gube vodu u obliku vodene pare kroz svoje listove?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Apsorpcija",
+            "Respiracija",
+            "Kondenzacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz biljaka, prvenstveno kroz stomate na listovima, što pomaže u transportu vode i hranjivih tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koju tehnološku napravu je izumio Johannes Gutenberg oko 1440. godine, što je revolucioniralo širenje znanja?",
+        "correct_answer": "Tiskarski stroj",
+        "incorrect_answers": [
+            "Teleskop",
+            "Kompas",
+            "Paralelni stroj"
+        ],
+        "explanation": "Gutenbergov tiskarski stroj s pomičnim slovima omogućio je masovnu proizvodnju knjiga, čime je znanje postalo dostupnije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj zvuk odskače od prepreke i vraća se do izvora?",
+        "correct_answer": "Jeka",
+        "incorrect_answers": [
+            "Rezonancija",
+            "Refrakcija",
+            "Difrakcija"
+        ],
+        "explanation": "Jeka je zvuk koji se reflektira od površine natrag prema izvoru, obično s dovoljnim kašnjenjem da se čuje kao zaseban zvuk.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja vrsta zračenja, dio elektromagnetskog spektra, koristi se u medicini za snimanje kostiju i unutarnjih organa?",
+        "correct_answer": "X-zrake",
+        "incorrect_answers": [
+            "UV zrake",
+            "Infracrvene zrake",
+            "Gama zrake"
+        ],
+        "explanation": "X-zrake su oblik elektromagnetskog zračenja koje ima visoku energiju i može proći kroz meka tkiva, ali ga apsorbiraju gušća tkiva poput kostiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se zove sila koja drži planete u orbiti oko Sunca?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Centrifugalna sila",
+            "Magnetska sila",
+            "Nuklearna sila"
+        ],
+        "explanation": "Gravitacija je fundamentalna interakcija koja privlači tijela s masom. Ona je ključna za održavanje planeta u orbiti oko zvijezda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je tehnološka inovacija omogućila stvaranje Interneta kakvog poznajemo?",
+        "correct_answer": "World Wide Web (WWW)",
+        "incorrect_answers": [
+            "Operativni sustavi",
+            "Tranzistori",
+            "Mikroprocesori"
+        ],
+        "explanation": "World Wide Web, koji je izumio Tim Berners-Lee, sustav je međusobno povezanih dokumenata i drugih web resursa, povezanih hipertekstom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna jedinica živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Atom",
+            "Molekula",
+            "Tkivo"
+        ],
+        "explanation": "Stanica je temeljna strukturalna, funkcionalna i biološka jedinica svih poznatih živih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje otpora protoku električne struje u krugu?",
+        "correct_answer": "Otpor",
+        "incorrect_answers": [
+            "Napon",
+            "Struja",
+            "Snaga"
+        ],
+        "explanation": "Električni otpor je svojstvo materijala koje se opire protoku električne struje, a mjeri se u omima (Ω).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je atmosferska pojava uzrokovana sunčevim zračenjem koje zagrijava Zemljinu površinu, a zatim se ta toplina zadržava plinovima u atmosferi?",
+        "correct_answer": "Efekt staklenika",
+        "incorrect_answers": [
+            "Oluja",
+            "El Niño",
+            "Ozonska rupa"
+        ],
+        "explanation": "Efekt staklenika je prirodni proces zagrijavanja Zemlje zbog apsorpcije infracrvenog zračenja od strane određenih plinova u atmosferi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji je element dobio ime po grčkoj riječi za 'nositelj svjetlosti' i ključan je za rasvjetu u žaruljama sa žarnom niti?",
+        "correct_answer": "Volfram",
+        "incorrect_answers": [
+            "Krom",
+            "Titan",
+            "Molibden"
+        ],
+        "explanation": "Volfram (W) ima najvišu točku taljenja od svih elemenata, što ga čini idealnim za filamente u žaruljama sa žarnom niti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva poluvodički uređaj koji se koristi za pojačavanje ili prebacivanje elektroničkih signala i električne snage?",
+        "correct_answer": "Tranzistor",
+        "incorrect_answers": [
+            "Otpornik",
+            "Kondenzator",
+            "Induktor"
+        ],
+        "explanation": "Tranzistor je temeljni gradivni blok moderne elektronike, omogućujući složene sklopove i minijaturizaciju elektroničkih uređaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koju vrstu zračenja emitiraju radioaktivni izotopi i koristi se u radioterapiji za uništavanje tumorskih stanica?",
+        "correct_answer": "Gama zrake",
+        "incorrect_answers": [
+            "Alfa čestice",
+            "Beta čestice",
+            "Mikrovalovi"
+        ],
+        "explanation": "Gama zrake su oblik visokoenergetskog elektromagnetskog zračenja koje može prodrijeti duboko u tkivo i oštetiti DNA stanica, uključujući tumorske.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji astronomski objekt je masivan i toliko gust da mu ni svjetlost ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Neutronska zvijezda",
+            "Bijeli patuljak",
+            "Kvasar"
+        ],
+        "explanation": "Crna rupa je regija prostor-vremena gdje je gravitacija toliko jaka da ništa, uključujući svjetlost, ne može pobjeći nakon što prijeđe horizont događaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila genetsku 'izmjenu' gena u točno određenoj točki, slično 'rezanju i lijepljenju' DNA?",
+        "correct_answer": "CRISPR-Cas9",
+        "incorrect_answers": [
+            "Kloniranje",
+            "Sekvenciranje DNA",
+            "PCR"
+        ],
+        "explanation": "CRISPR-Cas9 je revolucionarna tehnologija za uređivanje genoma koja omogućuje precizne izmjene DNA na željenim mjestima, s velikim potencijalom u medicini i biotehnologiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se zove sloj atmosfere najbliži Zemljinoj površini, gdje se događaju sve vremenske pojave?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži sloj Zemljine atmosfere, gdje se odvija većina meteoroloških fenomena i u kojem žive svi organizmi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji je ključni pojam u računarstvu koji označava skup pravila za izvođenje operacija, posebno u šifriranju ili kompresiji podataka?",
+        "correct_answer": "Algoritam",
+        "incorrect_answers": [
+            "Protokol",
+            "Program",
+            "Hardver"
+        ],
+        "explanation": "Algoritam je korak-po-korak procedura ili formula za rješavanje problema ili obavljanje zadataka, temeljni za programiranje i računarstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje potpunim prijenosom elektrona između atoma, stvarajući ione?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje kada atom s niskom ionizacijskom energijom preda elektron atomu s visokim afinitetom za elektrone, stvarajući suprotno nabijene ione.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je pojam za proces kodiranja informacija u digitalni format, često radi smanjenja veličine datoteke?",
+        "correct_answer": "Kompresija",
+        "incorrect_answers": [
+            "Enkripcija",
+            "Dekodiranje",
+            "Virtualizacija"
+        ],
+        "explanation": "Kompresija podataka je postupak smanjenja količine bitova potrebnih za predstavljanje podataka, što štedi prostor za pohranu i ubrzava prijenos.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je naziv za sustav koji koristi umjetne satelite za određivanje točne lokacije na Zemljinoj površini?",
+        "correct_answer": "GPS (Globalni pozicijski sustav)",
+        "incorrect_answers": [
+            "Radar",
+            "Sonar",
+            "Lidar"
+        ],
+        "explanation": "GPS je satelitski navigacijski sustav koji prima signale s mreže satelita u orbiti kako bi odredio točan položaj i vrijeme na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koja je vrsta zvijezde u kojoj se trenutno nalazi naše Sunce?",
+        "correct_answer": "Žuti patuljak",
+        "incorrect_answers": [
+            "Crveni div",
+            "Bijeli patuljak",
+            "Neutronska zvijezda"
+        ],
+        "explanation": "Naše Sunce je žuti patuljak, zvijezda srednje veličine koja fuzionira vodik u helij u svojoj jezgri, u stabilnoj fazi glavnog niza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Kako se naziva skup mjera i praksi za zaštitu računalnih sustava, mreža i podataka od digitalnih napada?",
+        "correct_answer": "Kibernetička sigurnost",
+        "incorrect_answers": [
+            "Računalno programiranje",
+            "Mrežna arhitektura",
+            "Informacijska tehnologija"
+        ],
+        "explanation": "Kibernetička sigurnost se bavi zaštitom informacijskih sustava od neovlaštenog pristupa, oštećenja ili uništenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji je osnovni sastojak stakla, prisutan u pijesku i kvarcu?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Aluminijev oksid",
+            "Željezov oksid",
+            "Kalcijev karbonat"
+        ],
+        "explanation": "Silicijev dioksid (SiO₂) je primarna komponenta stakla i najzastupljeniji mineral u Zemljinoj kori, poznat kao kvarc u svom kristalnom obliku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji je naziv za organele koje su 'pakirni centar' stanice, modificiraju i pakiraju proteine i lipide?",
+        "correct_answer": "Golgijev aparat",
+        "incorrect_answers": [
+            "Endoplazmatski retikulum",
+            "Lizosomi",
+            "Vakuole"
+        ],
+        "explanation": "Golgijev aparat je stanična organela odgovorna za modifikaciju, sortiranje i pakiranje proteina i lipida za lučenje ili dostavu drugim organelama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se mjerni sustav primjenjuje gotovo univerzalno u znanosti i većini zemalja svijeta?",
+        "correct_answer": "SI sustav (Međunarodni sustav jedinica)",
+        "incorrect_answers": [
+            "Imperijalni sustav",
+            "Američki uobičajeni sustav",
+            "Britanski sustav jedinica"
+        ],
+        "explanation": "SI sustav je koherentni sustav jedinica koji je međunarodno prihvaćen kao standard za mjerenje, osiguravajući dosljednost u znanstvenim podacima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je naziv za sloj Zemlje koji se sastoji od rastaljenih stijena i na kojem 'plutaju' tektonske ploče?",
+        "correct_answer": "Astenosfera",
+        "incorrect_answers": [
+            "Litosfera",
+            "Mezosfera",
+            "Barisfera"
+        ],
+        "explanation": "Astenosfera je viskozni sloj unutar gornjeg plašta Zemlje, karakteriziran visokim temperaturama i pritiscima koji omogućuju plastično ponašanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je pojam za tehnologiju koja omogućuje stvaranje trodimenzionalnih objekata iz digitalnog dizajna?",
+        "correct_answer": "3D ispis",
+        "incorrect_answers": [
+            "Lasersko graviranje",
+            "CNC obrada",
+            "Digitalna fotografija"
+        ],
+        "explanation": "3D ispis, ili aditivna proizvodnja, je proces izrade trodimenzionalnog objekta sloj po sloj iz digitalnog 3D modela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji kemijski element je ključan za rad štitnjače i sprječavanje gušavosti?",
+        "correct_answer": "Jod",
+        "incorrect_answers": [
+            "Željezo",
+            "Kalcij",
+            "Cink"
+        ],
+        "explanation": "Jod je esencijalan mikroelement potreban za sintezu hormona štitnjače koji reguliraju metabolizam, rast i razvoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalni zakon koji opisuje da se tlak tekućine u zatvorenom sustavu prenosi jednako na sve strane?",
+        "correct_answer": "Pascalov zakon",
+        "incorrect_answers": [
+            "Bernoullijev princip",
+            "Hookeov zakon",
+            "Arhimedov princip"
+        ],
+        "explanation": "Pascalov zakon kaže da se promjena tlaka primijenjena na bilo koju točku zatvorene nestlačive tekućine prenosi jednako na svaku točku tekućine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koja je najčešća vrsta zvijezde u svemiru, manja i hladnija od našeg Sunca?",
+        "correct_answer": "Crveni patuljak",
+        "incorrect_answers": [
+            "Plavi div",
+            "Bijeli patuljak",
+            "Supernova"
+        ],
+        "explanation": "Crveni patuljci su najmanje i najhladnije zvijezde glavnog niza, s dugim životnim vijekom, što ih čini najbrojnijima u galaksiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji se pojam u programiranju odnosi na ponovno korištenje postojećeg koda u novim kontekstima bez ponovnog pisanja?",
+        "correct_answer": "Apstrakcija",
+        "incorrect_answers": [
+            "Enkapsulacija",
+            "Nasljeđivanje",
+            "Polimorfizam"
+        ],
+        "explanation": "Apstrakcija u programiranju omogućuje skrivanje složenih detalja implementacije i prikazivanje samo bitnih značajki, potičući ponovno korištenje koda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji se plin, osim kisika, najčešće koristi u medicini za anesteziju i kao analgetik?",
+        "correct_answer": "Dušikov suboksid",
+        "incorrect_answers": [
+            "Ksenon",
+            "Helij",
+            "Argon"
+        ],
+        "explanation": "Dušikov suboksid (N₂O), poznat kao 'plin smijavac', koristi se u medicini zbog svojih anestetičkih i analgetskih svojstava, često u stomatologiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
