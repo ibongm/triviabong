@@ -30445,5 +30445,589 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kod određenih materijala gdje njihov električni otpor potpuno nestaje ispod određene kritične temperature?",
+        "correct_answer": "Supravodljivost",
+        "incorrect_answers": [
+            "Poluvodljivost",
+            "Izolacija",
+            "Rezistencija"
+        ],
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji se termin koristi za promjenu u sekvenci DNA koja može, ali ne mora, utjecati na funkciju gena ili proteina?",
+        "correct_answer": "Mutacija",
+        "incorrect_answers": [
+            "Replikacija",
+            "Transkripcija",
+            "Translacija"
+        ],
+        "explanation": "Mutacija je trajna promjena u sekvenci nukleotida u DNA ili RNA. Ona može biti bezopasna, korisna ili štetna za organizam.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji je najlakši i najrasprostranjeniji kemijski element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) je s atomskim brojem 1 najjednostavniji i najlakši element. Čini oko 75% sve poznate barionske (normalne) materije u svemiru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji se dio računala smatra njegovim 'mozgom' i odgovoran je za izvršavanje instrukcija i obradu podataka?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Radna memorija (RAM)",
+            "Grafička procesorska jedinica (GPU)",
+            "Tvrdi disk (HDD)"
+        ],
+        "explanation": "CPU je primarna komponenta računala koja izvršava instrukcije programa i obrađuje osnovne aritmetičke, logičke i ulazno/izlazne operacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji je planet u našem Sunčevom sustavu poznat po svojim izrazito uočljivim prstenovima, uglavnom sastavljenim od čestica leda i stijena?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je šesti planet od Sunca i drugi po veličini. Njegov najistaknutiji sustav prstenova, vidljiv i malim teleskopom, sastoji se uglavnom od leda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je jedinica mjere za silu u SI sustavu, nazvana po znanstveniku Isaacu Newtonu?",
+        "correct_answer": "Newton",
+        "incorrect_answers": [
+            "Džul",
+            "Vat",
+            "Paskal"
+        ],
+        "explanation": "Newton (N) je SI jedinica sile. Definira se kao sila potrebna da tijelu mase 1 kilograma da ubrzanje od 1 metra u sekundi na kvadrat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Kako se naziva najviša taksonomska kategorija u biološkoj klasifikaciji živih organizama, iznad carstva?",
+        "correct_answer": "Domena",
+        "incorrect_answers": [
+            "Vrsta",
+            "Rod",
+            "Koljeno"
+        ],
+        "explanation": "Domena je najviša taksonomska kategorija, uvedena radi preciznije klasifikacije. Postoje tri domene: Bakterije, Arheje i Eukarioti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja tvar ima pH vrijednost veću od 7?",
+        "correct_answer": "Baza",
+        "incorrect_answers": [
+            "Kiselina",
+            "Neutralna otopina",
+            "Pufer"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine. Vrijednosti iznad 7 označavaju baze (lužine), ispod 7 kiseline, a 7 neutralnu otopinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji je standardni protokol za siguran prijenos hiperteksta putem interneta, često označen kao 'https://' u URL-u?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "FTP",
+            "SMTP",
+            "TCP"
+        ],
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) je komunikacijski protokol za sigurnu komunikaciju putem računalne mreže, koji se koristi za sigurne transakcije na internetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva zadnji stadij evolucije zvijezde slične Suncu, nakon što izbaci svoje vanjske slojeve i preostane joj gusta jezgra?",
+        "correct_answer": "Bijeli patuljak",
+        "incorrect_answers": [
+            "Crna rupa",
+            "Crveni div",
+            "Neutronska zvijezda"
+        ],
+        "explanation": "Bijeli patuljak je zvjezdani ostatak koji se stvara kada zvijezda niske ili srednje mase potroši svo svoje nuklearno gorivo i odbaci vanjske slojeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se naziva najniža moguća teoretska temperatura na kojoj sve termalno gibanje čestica prestaje, što odgovara 0 Kelvina?",
+        "correct_answer": "Apsolutna nula",
+        "incorrect_answers": [
+            "Kritična točka",
+            "Trojna točka",
+            "Vrelište"
+        ],
+        "explanation": "Apsolutna nula je najniža moguća temperatura, 0 K ili -273.15 °C, gdje molekule imaju minimalnu energiju gibanja. To je osnova Kelvinove temperaturne ljestvice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je najveća žlijezda u ljudskom tijelu, koja obavlja preko 500 različitih funkcija, uključujući detoksikaciju i proizvodnju žuči?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Štitnjača",
+            "Bubrezi"
+        ],
+        "explanation": "Jetra je vitalni organ s više funkcija, uključujući metabolizam, detoksikaciju, sintezu proteina i proizvodnju biokemikalija nužnih za probavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja se funkcionalna skupina sastoji od atoma ugljika dvostruko vezanog za atom kisika (C=O)?",
+        "correct_answer": "Karbonilna skupina",
+        "incorrect_answers": [
+            "Hidroksilna skupina",
+            "Karboksilna skupina",
+            "Amino skupina"
+        ],
+        "explanation": "Karbonilna skupina (C=O) je temeljna funkcionalna skupina prisutna u mnogim organskim spojevima kao što su aldehidi, ketoni, esteri i amidi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Kako se naziva grana umjetne inteligencije koja se bavi razvojem računalnih sustava sposobnih za 'učenje' iz podataka, umjesto da budu eksplicitno programirani?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Računalna grafika",
+            "Baze podataka",
+            "Operativni sustavi"
+        ],
+        "explanation": "Strojno učenje je podskup umjetne inteligencije koji omogućuje sustavima da uče iz podataka, identificiraju uzorke i donose odluke uz minimalnu ljudsku intervenciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je planet najbliži Suncu i najbrže se okreće oko njega, s godinom koja traje samo 88 Zemaljskih dana?",
+        "correct_answer": "Merkur",
+        "incorrect_answers": [
+            "Venera",
+            "Mars",
+            "Pluton"
+        ],
+        "explanation": "Merkur je najbliži planet Suncu i ima najkraću orbitalnu periodu, krećući se brzinom od oko 47 kilometara u sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen stvaranja električne struje u vodiču koji se kreće kroz magnetsko polje, što je temelj rada generatora?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Električna kondukcija",
+            "Magnetska rezonancija",
+            "Piezoelektrični efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je proces proizvodnje elektromotorne sile (napona) u vodiču izloženom promjenjivom magnetskom polju. Temelj je za generatore i transformatore.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je naziv za sloj Zemlje koji obuhvaća sve žive organizme i njihova staništa, uključujući dio atmosfere, hidrosfere i litosfere?",
+        "correct_answer": "Biosfera",
+        "incorrect_answers": [
+            "Litosfera",
+            "Atmosfera",
+            "Hidrosfera"
+        ],
+        "explanation": "Biosfera je globalni ekološki sustav koji integrira sva živa bića i njihove odnose, uključujući njihovu interakciju s elementima litosfere, hidrosfere i atmosfere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se atomi ili molekule gibaju iz područja više koncentracije u područje niže koncentracije?",
+        "correct_answer": "Difuzija",
+        "incorrect_answers": [
+            "Osmoza",
+            "Sedimentacija",
+            "Apsorpcija"
+        ],
+        "explanation": "Difuzija je spontano miješanje čestica zbog njihovog nasumičnog termalnog gibanja, što dovodi do ravnomjerne raspodjele tvari.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja je temeljna tehnologija koja omogućuje bežičnu komunikaciju na kratkim udaljenostima između uređaja poput pametnih telefona, slušalica i zvučnika?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "LTE"
+        ],
+        "explanation": "Bluetooth je standard za bežičnu tehnologiju kratkog dometa za razmjenu podataka između fiksnih i mobilnih uređaja, stvarajući osobne mreže (PAN-ove).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj Mjesec prolazi između Sunca i Zemlje, bacajući sjenu na Zemlju i privremeno zaklanjajući Sunce?",
+        "correct_answer": "Pomrčina Sunca",
+        "incorrect_answers": [
+            "Pomrčina Mjeseca",
+            "Polarna svjetlost",
+            "Meteorski pljusak"
+        ],
+        "explanation": "Pomrčina Sunca nastaje kada Mjesec, prolazeći između Sunca i Zemlje, zakloni Sunce. Može biti totalna, djelomična ili prstenasta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj se valovi, nakon prolaska kroz otvor ili oko prepreke, šire iza nje?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Refrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Difrakcija je pojava savijanja valova (svjetlosti, zvuka, vode) oko prepreka ili nakon prolaska kroz uske otvore, što je karakteristično za valnu prirodu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja stanična organela sadrži genetski materijal (DNA) u eukariotskim stanicama i kontrolira stanične aktivnosti?",
+        "correct_answer": "Jezgra",
+        "incorrect_answers": [
+            "Vakuola",
+            "Citoplazma",
+            "Ribosom"
+        ],
+        "explanation": "Jezgra je centar kontrole eukariotske stanice. Sadrži kromosome, gene i regulira ekspresiju gena, a time i sve stanične funkcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji je naziv za kemijsku reakciju u kojoj tvar reagira s kisikom, oslobađajući toplinu i svjetlost, poput gorenja drva?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Fermentacija",
+            "Fotosinteza",
+            "Neutralizacija"
+        ],
+        "explanation": "Izgaranje je egzotermna redoks reakcija između goriva i oksidansa (obično atmosferskog kisika) koja proizvodi toplinu i često svjetlost u obliku plamena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji se programski koncept odnosi na stvaranje novih objekata na temelju postojećih klasa, nasljeđujući njihova svojstva i metode?",
+        "correct_answer": "Objektno orijentirano programiranje (OOP)",
+        "incorrect_answers": [
+            "Proceduralno programiranje",
+            "Funkcionalno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "OOP je paradigma programiranja koja se temelji na konceptu 'objekata', koji mogu sadržavati podatke i kod. Glavni principi su enkapsulacija, nasljeđivanje i polimorfizam.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji optički instrument koristi leće ili zrcala za prikupljanje svjetlosti i stvaranje uvećanih slika udaljenih objekata, poput planeta i galaksija?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Spektroskop",
+            "Kolimator"
+        ],
+        "explanation": "Teleskop je instrument koji se koristi za promatranje udaljenih objekata, koristeći sustav leća ili zakrivljenih zrcala za prikupljanje i fokusiranje svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koja je SI jedinica za snagu, definirana kao rad obavljen u jedinici vremena?",
+        "correct_answer": "Vat",
+        "incorrect_answers": [
+            "Džul",
+            "Newton",
+            "Pascal"
+        ],
+        "explanation": "Vat (W) je SI jedinica za snagu. Snaga od jednog vata definira se kao izvršeni rad od jednog džula u jednoj sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim biljke transpiracijom gube vodu u obliku vodene pare kroz male otvore na listovima?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz biljaka, uglavnom kroz stomate na lišću. Ovaj proces pomaže u transportu vode i hranjivih tvari kroz biljku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje prijenosom elektrona s jednog atoma na drugi, stvarajući pozitivne i negativne ione koji se privlače?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje elektrostatičkim privlačenjem između suprotno nabijenih iona, koji nastaju prijenosom elektrona između atoma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva organizirana kolekcija strukturiranih podataka, pohranjenih i dostupnih elektronički iz računalnog sustava?",
+        "correct_answer": "Baza podataka",
+        "incorrect_answers": [
+            "Proračunska tablica",
+            "Tekstualna datoteka",
+            "Cache memorija"
+        ],
+        "explanation": "Baza podataka je sustavno organizirana kolekcija informacija. Ona omogućuje učinkovito pohranjivanje, dohvaćanje, modificiranje i upravljanje velikim količinama podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Kako se naziva nebesko tijelo koje se, uslijed gravitacije, skupilo u tako malen volumen da je njegovo gravitacijsko polje toliko jako da mu ni svjetlost ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Neutronska zvijezda",
+            "Kvazar"
+        ],
+        "explanation": "Crna rupa je područje prostor-vremena iz kojeg ništa, pa ni svjetlost, ne može pobjeći zbog izuzetno snažne gravitacije. Nastaje kolapsom masivnih zvijezda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koja se pojava događa kada se bijelo svjetlo razloži na svoje sastavne boje (spektar) prolaskom kroz prizmu ili vodene kapljice?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Polarizacija",
+            "Interferencija",
+            "Apsorpcija"
+        ],
+        "explanation": "Disperzija svjetlosti je pojava razlaganja bijele svjetlosti na komponente različitih valnih duljina (boje) zbog različitog indeksa loma medija za svaku valnu duljinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je hormon ključan za regulaciju razine šećera (glukoze) u krvi, potičući stanice da ga apsorbiraju iz krvotoka?",
+        "correct_answer": "Inzulin",
+        "incorrect_answers": [
+            "Adrenalin",
+            "Tiroksin",
+            "Kortizol"
+        ],
+        "explanation": "Inzulin je peptidni hormon koji proizvodi gušterača. Njegova glavna uloga je smanjenje razine glukoze u krvi olakšavanjem ulaska glukoze u stanice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji je jedini metal koji je tekuć na sobnoj temperaturi?",
+        "correct_answer": "Živa",
+        "incorrect_answers": [
+            "Bakar",
+            "Aluminij",
+            "Volfram"
+        ],
+        "explanation": "Živa (Hg) je teški, srebrno-bijeli metal koji je jedini metal koji je tekuć na sobnoj temperaturi i standardnom tlaku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva zlonamjerni softver koji se širi samostalno replicirajući se i inficirajući druge računalne sustave bez intervencije korisnika?",
+        "correct_answer": "Računalni crv",
+        "incorrect_answers": [
+            "Trojanac",
+            "Spyware",
+            "Ransomware"
+        ],
+        "explanation": "Računalni crv je samoreplicirajući računalni program koji koristi računalnu mrežu za slanje kopija samog sebe drugim čvorovima u mreži.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koja se teorija smatra dominantnim kozmološkim modelom koji opisuje ranu ekspanziju svemira iz izuzetno vrućeg, gustog stanja?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija paralelne dimenzije",
+            "Teorija crne rupe"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći model koji objašnjava kako se svemir razvijao od izuzetno gustog i vrućeg početnog stanja do današnjeg stanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji se proces koristi u nuklearnim elektranama, gdje se teške atomske jezgre cijepaju na manje jezgre, oslobađajući veliku količinu energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Beta raspad"
+        ],
+        "explanation": "Nuklearna fisija je nuklearna reakcija u kojoj se jezgra atoma cijepa na dvije ili više manjih jezgri, oslobađajući ogromnu količinu energije, što se koristi u nuklearnim elektranama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji su jednostanični prokariotski mikroorganizmi, koji se razmnožavaju diobom i mogu biti korisni (npr. u probavi) ili štetni (uzrokujući bolesti)?",
+        "correct_answer": "Bakterije",
+        "incorrect_answers": [
+            "Gljive",
+            "Alge",
+            "Virusi"
+        ],
+        "explanation": "Bakterije su raznolika skupina jednostaničnih prokariotskih mikroorganizama. One igraju ključnu ulogu u ekosustavima i medicini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Koja se linearna struktura podataka temelji na principu 'Prvi unutra, prvi van' (FIFO)?",
+        "correct_answer": "Red (Queue)",
+        "incorrect_answers": [
+            "Stog (Stack)",
+            "Povezani popis (Linked List)",
+            "Stablo (Tree)"
+        ],
+        "explanation": "Red (Queue) je apstraktni tip podataka u kojem se elementi dodaju na 'kraj' (rear) i uklanjaju s 'početka' (front), slijedeći princip FIFO (First-In, First-Out).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koja se SI jedinica koristi za mjerenje količine tvari?",
+        "correct_answer": "Mol",
+        "incorrect_answers": [
+            "Kilogram",
+            "Litra",
+            "Sekunda"
+        ],
+        "explanation": "Mol je SI jedinica za količinu tvari. Jedan mol sadrži točno 6.02214076 × 10^23 elementarnih jedinica (Avogadrov broj). (stanje 2024.)",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
