@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu nogometnu momčad na terenu za vrijeme utakmice, uključujući golmana?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Prema nogometnim pravilima, svaka momčad započinje utakmicu s jedanaest igrača, od kojih je jedan vratar.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koja je podloga na kojoj se igraju US Open turniri?",
+        "correct_answer": "Tvrda podloga",
+        "incorrect_answers": [
+            "Zemljana podloga",
+            "Travnata podloga",
+            "Tepih podloga"
+        ],
+        "explanation": "US Open se, uz Australian Open, igra na tvrdoj podlozi, što ga razlikuje od Roland Garrosa (zemlja) i Wimbledona (trava).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koji se materijal najčešće koristi za izradu kočionih diskova na bolidima Formule 1?",
+        "correct_answer": "Ugljična vlakna",
+        "incorrect_answers": [
+            "Čelik",
+            "Titan",
+            "Keramika"
+        ],
+        "explanation": "Kočnice od ugljičnih vlakana omogućuju izuzetno visoke temperature rada i učinkovito kočenje, ključno za performanse F1 bolida.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koliko bodova donosi slobodno bacanje u košarci?",
+        "correct_answer": "1",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "0"
+        ],
+        "explanation": "Svako uspješno realizirano slobodno bacanje donosi ekipi jedan bod.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Kolika je visina mreže za muškarce u profesionalnoj odbojci (mjereno od sredine terena)?",
+        "correct_answer": "2.43 metra",
+        "incorrect_answers": [
+            "2.24 metra",
+            "2.50 metara",
+            "2.35 metara"
+        ],
+        "explanation": "Službena visina odbojkaške mreže za muške natjecatelje iznosi 2.43 metra. Za žene je visina 2.24 metra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koja je jedina plivačka disciplina u kojoj se natjecatelji smiju odbiti od ruba bazena nakon starta i okretaja dok su potpuno pod vodom?",
+        "correct_answer": "Leđno plivanje",
+        "incorrect_answers": [
+            "Kraul",
+            "Prsno plivanje",
+            "Delfin"
+        ],
+        "explanation": "U leđnom plivanju, plivači smiju gurati od ruba bazena dok su na leđima i zadržati se potpuno pod vodom do 15 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kako se naziva linija ispred golmanskog prostora s koje se izvode sedmerci?",
+        "correct_answer": "Linija sedam metara",
+        "incorrect_answers": [
+            "Linija šest metara",
+            "Linija devet metara",
+            "Golmanska linija"
+        ],
+        "explanation": "Kazneni udarac u rukometu, poznat kao sedmerac, izvodi se s linije udaljene sedam metara od gola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koji je naziv za žutu majicu koju nosi vodeći biciklist na Tour de Franceu?",
+        "correct_answer": "Maillot Jaune",
+        "incorrect_answers": [
+            "Maglia Rosa",
+            "Maillot Vert",
+            "Polka Dot Jersey"
+        ],
+        "explanation": "Žuta majica, ili 'Maillot Jaune', tradicionalno se dodjeljuje vozaču s najboljim ukupnim vremenom na Tour de Franceu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koliko je igrača u momčadi koja igra u vodi u vaterpolu?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "5"
+        ],
+        "explanation": "Svaka vaterpolska momčad ima sedam igrača u vodi u isto vrijeme: šest igrača u polju i jednog vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Tko je jedini boksač u povijesti koji je osvojio naslov svjetskog prvaka u osam različitih težinskih kategorija?",
+        "correct_answer": "Manny Pacquiao",
+        "incorrect_answers": [
+            "Floyd Mayweather Jr.",
+            "Oscar De La Hoya",
+            "Canelo Álvarez"
+        ],
+        "explanation": "Filipinski boksač Manny Pacquiao drži rekord s osam osvojenih svjetskih naslova u različitim težinskim kategorijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Kako se naziva sprava u muškoj sportskoj gimnastici koja se sastoji od dviju paralelnih vodoravnih šipki smještenih na različitim visinama?",
+        "correct_answer": "Razboj (paralelne prečke)",
+        "incorrect_answers": [
+            "Preča",
+            "Karike",
+            "Konj s hvataljkama"
+        ],
+        "explanation": "Razboj je muška gimnastička sprava s dvije paralelne prečke, dok su dvovisinske prečke ženska sprava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koja od navedenih disciplina spada u tehničke discipline alpskog skijanja?",
+        "correct_answer": "Slalom",
+        "incorrect_answers": [
+            "Spust",
+            "Super G",
+            "Kombinacija"
+        ],
+        "explanation": "Slalom i veleslalom su tehničke discipline, dok su spust i superveleslalom (Super G) brzinske discipline.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koja tenisačica drži rekord s najviše osvojenih Grand Slam naslova u pojedinačnoj konkurenciji u cijeloj povijesti tenisa (stanje 2024.)?",
+        "correct_answer": "Margaret Court",
+        "incorrect_answers": [
+            "Serena Williams",
+            "Steffi Graf",
+            "Martina Navratilova"
+        ],
+        "explanation": "Margaret Court osvojila je ukupno 24 Grand Slam naslova u pojedinačnoj konkurenciji, što je rekord (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koliki je promjer paka koji se koristi u hokeju na ledu prema međunarodnim pravilima?",
+        "correct_answer": "7.62 cm",
+        "incorrect_answers": [
+            "6.50 cm",
+            "8.10 cm",
+            "9.00 cm"
+        ],
+        "explanation": "Službeni promjer paka za hokej na ledu je 3 inča, što iznosi 7.62 centimetara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Kako se naziva zaštitna kaciga koju nose vozači u automobilističkim utrkama?",
+        "correct_answer": "Šljem",
+        "incorrect_answers": [
+            "Kapa",
+            "Vizir",
+            "Beretka"
+        ],
+        "explanation": "Vozači utrka nose posebno dizajnirane šljemove za zaštitu glave u slučaju nesreće.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koja je boja olimpijskog kruga koja simbolizira Afriku?",
+        "correct_answer": "Crna",
+        "incorrect_answers": [
+            "Žuta",
+            "Plava",
+            "Zelena"
+        ],
+        "explanation": "Pet olimpijskih krugova simbolizira pet kontinenata; crna boja kruga predstavlja Afriku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Kako se naziva disciplina konjičkog sporta u kojoj konj i jahač izvode niz unaprijed određenih figura u areni?",
+        "correct_answer": "Drezura",
+        "incorrect_answers": [
+            "Preponsko jahanje",
+            "Galopske utrke",
+            "Eventing"
+        ],
+        "explanation": "Drezura je disciplina u kojoj se ocjenjuje harmonija i poslušnost konja pri izvođenju složenih figura, dok je preponsko jahanje preskakanje prepreka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Kako se naziva borilište u boksu?",
+        "correct_answer": "Ring",
+        "incorrect_answers": [
+            "Oktogon",
+            "Tatami",
+            "Kavez"
+        ],
+        "explanation": "Boksački mečevi se tradicionalno održavaju u ringu. Oktogon je za MMA, a tatami za judo/karate.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koji je europski grad bio domaćin finala Svjetskog prvenstva u nogometu 2018. godine?",
+        "correct_answer": "Moskva",
+        "incorrect_answers": [
+            "London",
+            "Pariz",
+            "Berlin"
+        ],
+        "explanation": "Finale Svjetskog prvenstva u nogometu 2018. godine odigrano je na stadionu Lužnjiki u Moskvi, Rusija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koja je minimalna udaljenost mete za gađanje zračnom puškom u olimpijskom streljaštvu?",
+        "correct_answer": "10 metara",
+        "incorrect_answers": [
+            "25 metara",
+            "50 metara",
+            "75 metara"
+        ],
+        "explanation": "Olimpijska disciplina gađanja zračnom puškom izvodi se na udaljenosti od 10 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Na kojoj spravi u ženskoj gimnastici sportašice izvode vježbe na dvije paralelne šipke različitih visina?",
+        "correct_answer": "Dvovisinske prečke",
+        "incorrect_answers": [
+            "Greda",
+            "Preča",
+            "Razboj"
+        ],
+        "explanation": "Dvovisinske prečke su ženska sprava, dok je razboj sprava s paralelnim prečkama iste visine za muškarce.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "U kojoj je godini Jugoslavija bila domaćin Zimskih olimpijskih igara?",
+        "correct_answer": "1984.",
+        "incorrect_answers": [
+            "1972.",
+            "1992.",
+            "1968."
+        ],
+        "explanation": "XIV. Zimske olimpijske igre održane su 1984. godine u Sarajevu, tadašnjem dijelu Jugoslavije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Kolika je standardna dužina staze za veslačke utrke na Olimpijskim igrama i Svjetskim prvenstvima?",
+        "correct_answer": "2000 metara",
+        "incorrect_answers": [
+            "1500 metara",
+            "2500 metara",
+            "3000 metara"
+        ],
+        "explanation": "Olimpijske i svjetske veslačke utrke održavaju se na stazama dužine 2000 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koliko je sudaca na terenu tijekom profesionalne nogometne utakmice (glavni sudac i pomoćnici)?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "3",
+            "5",
+            "2"
+        ],
+        "explanation": "Tim sudaca na terenu sastoji se od glavnog suca i dva pomoćna suca (linijski suci), te četvrtog suca pokraj aut-linije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Koliko minuta traje isključenje igrača za manji prekršaj u hokeju na ledu?",
+        "correct_answer": "2 minute",
+        "incorrect_answers": [
+            "5 minuta",
+            "10 minuta",
+            "1 minuta"
+        ],
+        "explanation": "Za većinu manjih prekršaja u hokeju, igrač dobiva dvominutnu kaznu, što znači da njegova momčad igra s igračem manje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Kako se naziva igrač koji baca loptu prema udaraču u baseballu?",
+        "correct_answer": "Bacač (Pitcher)",
+        "incorrect_answers": [
+            "Hvatač (Catcher)",
+            "Trkač (Runner)",
+            "Udarač (Batter)"
+        ],
+        "explanation": "Bacač je zadužen za bacanje lopte s brdašca prema udaraču, pokušavajući ga izbaciti iz igre.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koja boja pojasa označava najviši stupanj majstorstva u judu?",
+        "correct_answer": "Crni pojas",
+        "incorrect_answers": [
+            "Bijeli pojas",
+            "Crveni pojas",
+            "Smeđi pojas"
+        ],
+        "explanation": "Crni pojas je globalno prepoznat kao simbol najvišeg postignuća i stručnosti u borilačkim vještinama poput juda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koje je tradicionalno piće koje pobjednik pije iz trofeja nakon pobjede u Kentucky Derbyju?",
+        "correct_answer": "Menta Julep",
+        "incorrect_answers": [
+            "Šampanjac",
+            "Pivo",
+            "Burbon"
+        ],
+        "explanation": "Menta Julep je tradicionalno piće Kentucky Derbyja, a pobjednik ga često pije iz trofeja, ukrašenog ružama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koja plivačka disciplina je nazvana po kukcu zbog pokreta ruku i nogu?",
+        "correct_answer": "Delfin",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Kraul"
+        ],
+        "explanation": "Delfin stil je dobio ime zbog valovitog pokreta tijela i udaraca nogama koji podsjećaju na plivanje dupina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše zlatnih medalja na Ljetnim olimpijskim igrama u Ateni 2004. godine?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Kina",
+            "Rusija",
+            "Australija"
+        ],
+        "explanation": "Sjedinjene Američke Države predvodile su ljestvicu medalja na Ljetnim olimpijskim igrama 2004. u Ateni s 35 zlatnih medalja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Kako se naziva pokušaj (touchdown) u ragbiju, koji vrijedi 5 bodova?",
+        "correct_answer": "Try",
+        "incorrect_answers": [
+            "Goal",
+            "Score",
+            "Touch"
+        ],
+        "explanation": "'Try' u ragbiju je kada igrač spusti loptu u protivničku 'in-goal' zonu i vrijedi 5 bodova, nakon čega slijedi pokušaj pretvaranja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Kako se naziva mala loptica koja služi kao meta u boćanju?",
+        "correct_answer": "Bulin (ili balin)",
+        "incorrect_answers": [
+            "Kugla",
+            "Meta",
+            "Cilj"
+        ],
+        "explanation": "Bulin je manja lopta koja se prva baca i služi kao meta koju boće trebaju dotaknuti ili joj se što više približiti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Kolika je standardna duljina biciklističke etape na Tour de Franceu, mjereno u prosjeku?",
+        "correct_answer": "Oko 170-200 km",
+        "incorrect_answers": [
+            "Oko 100-120 km",
+            "Oko 250-300 km",
+            "Oko 50-70 km"
+        ],
+        "explanation": "Prosječna duljina etape na Tour de Franceu obično se kreće između 170 i 200 kilometara, ovisno o profilu terena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Kako se naziva igrač u kriketu čija je primarna uloga bacanje lopte prema udaraču?",
+        "correct_answer": "Bacač (Bowler)",
+        "incorrect_answers": [
+            "Hvatač (Wicket-keeper)",
+            "Udarač (Batsman)",
+            "Poljski igrač (Fielder)"
+        ],
+        "explanation": "Bacač je odgovoran za bacanje lopte prema udaraču s ciljem srušiti 'wicket' ili natjerati udarača na pogrešku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koje su boje loptice koje se koriste u profesionalnom tenisu?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Bijela",
+            "Zelena",
+            "Narančasta"
+        ],
+        "explanation": "Moderna teniska loptica je žute boje, što omogućava bolju vidljivost za igrače i gledatelje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koliko je konstruktorskih naslova osvojio Ferrari u Formuli 1 (stanje 2024.)?",
+        "correct_answer": "16",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "18"
+        ],
+        "explanation": "Ferrari je najuspješnija momčad u povijesti Formule 1 s ukupno 16 osvojenih konstruktorskih naslova (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Kako se naziva 'meta' ili područje s koncentričnim krugovima u curlingu u koje timovi pokušavaju smjestiti svoje kamenje?",
+        "correct_answer": "Kuća (House)",
+        "incorrect_answers": [
+            "Zona",
+            "Centar",
+            "Prsten"
+        ],
+        "explanation": "Kuća je glavno područje na ledu, podijeljeno u koncentrične krugove, gdje se bodovi dodjeljuju na temelju blizine centra.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koji se materijal tradicionalno koristi za izradu diska u bacanju diska?",
+        "correct_answer": "Metal i drvo",
+        "incorrect_answers": [
+            "Samo drvo",
+            "Samo metal",
+            "Plastika"
+        ],
+        "explanation": "Disk se tradicionalno sastoji od metalnog ruba i drvene ili plastične sredine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
