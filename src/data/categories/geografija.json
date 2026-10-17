@@ -25139,5 +25139,365 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja na svijetu po površini?",
+        "correct_answer": "Antarktička pustinja",
+        "incorrect_answers": [
+            "Sahara",
+            "Pustinja Gobi",
+            "Arapska pustinja"
+        ],
+        "explanation": "Antarktička pustinja je najveća polarna pustinja na svijetu, koja pokriva gotovo cijeli kontinent Antarktike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja rijeka ima najveći protok vode na svijetu?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Nil",
+            "Mississippi",
+            "Jangce"
+        ],
+        "explanation": "Rijeka Amazon ima najveći protok vode i najveći drenažni bazen na svijetu, ispuštajući više vode nego sedam sljedećih najvećih rijeka zajedno.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je najdublji ocean na Zemlji?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean je najveći i najdublji ocean, a u njemu se nalazi Marijanska brazda, najdublja točka na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma diže iz Zemljinog plašta i izbija na površinu?",
+        "correct_answer": "Vulkanizam",
+        "incorrect_answers": [
+            "Erozija",
+            "Tektonika ploča",
+            "Metamorfizam"
+        ],
+        "explanation": "Vulkanizam je geološki proces kroz koji rastaljeni kamen (magma), pepeo i plinovi izbijaju na površinu Zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji ocean okružuje Sjeverni pol?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Tihi ocean",
+            "Indijski ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana na svijetu, a nalazi se oko Sjevernog pola.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna struktura vidljiva iz svemira golim okom?",
+        "correct_answer": "Kineski zid",
+        "incorrect_answers": [
+            "Piramida u Gizi",
+            "Palm Jumeirah",
+            "Manhattan"
+        ],
+        "explanation": "Kineski zid je najveća građevina na svijetu i jedina je umjetna struktura navodno vidljiva iz svemira golim okom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva linija koja označava krajnji sjeverni ili južni doseg Sunčeve izravne svjetlosti tijekom solsticija?",
+        "correct_answer": "Obratnica",
+        "incorrect_answers": [
+            "Ekvator",
+            "Početni meridijan",
+            "Polarni krug"
+        ],
+        "explanation": "Obratnice (Rakova i Jarčeva) su paralele koje označavaju najsjeverniju i najjužniju točku gdje Sunce može biti izravno iznad glave.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja država se nalazi na jugu Afrike i poznata je po rudarstvu dijamanata?",
+        "correct_answer": "Bocvana",
+        "incorrect_answers": [
+            "Južna Afrika",
+            "Angola",
+            "Namibija"
+        ],
+        "explanation": "Bocvana je vodeći svjetski proizvođač dijamanata po vrijednosti i ima najveći rudnik dijamanata u Africi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva najveći koraljni greben na svijetu?",
+        "correct_answer": "Veliki koraljni greben",
+        "incorrect_answers": [
+            "Belize Barrier Reef",
+            "Koraljno more",
+            "Crveno more"
+        ],
+        "explanation": "Veliki koraljni greben, smješten uz obalu Australije, najveći je sustav koraljnih grebena na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada vjetar nosi sitne čestice pijeska i stijena, oblikujući pustinjski krajolik?",
+        "correct_answer": "Eolska erozija",
+        "incorrect_answers": [
+            "Glacijalna erozija",
+            "Fluvijalna erozija",
+            "Krška erozija"
+        ],
+        "explanation": "Eolska erozija je geomorfološki proces oblikovanja površine Zemlje djelovanjem vjetra i prenošenja sedimenta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je država poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Tajland"
+        ],
+        "explanation": "Naziv 'Japan' (Nihon ili Nippon) znači 'zemlja izlazećeg sunca', što odražava njegov položaj istočno od Kine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva uska kopnena prevlaka koja spaja dva veća kopna i razdvaja dva mora?",
+        "correct_answer": "Prevlaka (zemljouz)",
+        "incorrect_answers": [
+            "Poluotok",
+            "Rt",
+            "Delta"
+        ],
+        "explanation": "Prevlaka (zemljouz) je uska kopnena površina koja spaja dva veća kopna, obično kontinenata, a između njih se nalaze dva mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi pustinja Atacama, jedna od najsušnijih na svijetu?",
+        "correct_answer": "Čile",
+        "incorrect_answers": [
+            "Peru",
+            "Argentina",
+            "Bolivija"
+        ],
+        "explanation": "Pustinja Atacama, smještena u Čileu, smatra se najsušnijom nepolarnom pustinjom na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se voda u stijenama smrzava i širi, uzrokujući pucanje stijena?",
+        "correct_answer": "Mrazno razaranje (gelivacija)",
+        "incorrect_answers": [
+            "Kemijsko trošenje",
+            "Abrazija",
+            "Erozija"
+        ],
+        "explanation": "Mrazno razaranje je oblik fizičkog trošenja stijena uzrokovan širenjem vode kada se smrzava u pukotinama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je najnaseljenija otočna država na svijetu?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Japan",
+            "Filipini",
+            "Ujedinjeno Kraljevstvo"
+        ],
+        "explanation": "Indonezija, s preko 270 milijuna stanovnika, najveća je otočna država na svijetu po broju stanovnika (stanje 2023.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva kružno udubljenje nastalo urušavanjem vulkanskog konusa nakon erupcije?",
+        "correct_answer": "Kaldera",
+        "incorrect_answers": [
+            "Krater",
+            "Vulkanski čep",
+            "Lava kupola"
+        ],
+        "explanation": "Kaldera je veliko, kružno udubljenje nastalo kada se strop prazne magmatske komore uruši nakon velike erupcije vulkana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Kini?",
+        "correct_answer": "Jangce",
+        "incorrect_answers": [
+            "Žuta rijeka",
+            "Mekong",
+            "Xi Jiang"
+        ],
+        "explanation": "Rijeka Jangce je najduža rijeka koja u potpunosti teče unutar jedne zemlje, Kine, i najduža u Aziji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji je najgušće naseljeni kontinent?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je kontinent s najvećom populacijom i najvećom prosječnom gustoćom naseljenosti na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva trajno smrznuto tlo koje se nalazi u polarnim i subpolarnim regijama?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Ledena kapa",
+            "Glečer"
+        ],
+        "explanation": "Permafrost je tlo koje ostaje potpuno zamrznuto najmanje dvije uzastopne godine, ispod površinskog sloja koji se ljeti otapa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi slap Iguazú?",
+        "correct_answer": "Argentina i Brazil",
+        "incorrect_answers": [
+            "Peru",
+            "Kolumbija",
+            "Venezuela"
+        ],
+        "explanation": "Slap Iguazú, impresivan sustav slapova, nalazi se na granici Argentine i Brazila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je najniža točka na kopnu Zemlje?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Dolina smrti",
+            "Kaspijsko jezero",
+            "Jezero Eyre"
+        ],
+        "explanation": "Obala Mrtvog mora je najniža točka na kopnu, leži oko 430 metara ispod razine mora (stanje 2023.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva pustinjski krajolik karakteriziran stjenovitim platoima s gotovo vertikalnim stranama?",
+        "correct_answer": "Mesa",
+        "incorrect_answers": [
+            "Dina",
+            "Kanjon",
+            "Oaza"
+        ],
+        "explanation": "Mesa je izolirani, ravni vrh brda ili planine s jednim ili više strmih litica, tipičan za sušne regije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koji kontinent je u potpunosti smješten na južnoj hemisferi?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Južna Amerika",
+            "Afrika"
+        ],
+        "explanation": "Australija je jedini kontinent koji je u potpunosti smješten na južnoj hemisferi i nalazi se istočno od Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koja je država najmanja po površini u Južnoj Americi?",
+        "correct_answer": "Surinam",
+        "incorrect_answers": [
+            "Urugvaj",
+            "Ekvador",
+            "Gvajana"
+        ],
+        "explanation": "Surinam je najmanja suverena država u Južnoj Americi s površinom od 163.821 kvadratnih kilometara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
