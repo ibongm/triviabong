@@ -25139,5 +25139,440 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalazi rijeka Amazon?",
+        "correct_answer": "Južna Amerika",
+        "incorrect_answers": [
+            "Afrika",
+            "Azija",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Rijeka Amazon, druga najduža rijeka na svijetu i najveća po protoku, nalazi se u Južnoj Americi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka koja u potpunosti protječe Europom?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Rajna",
+            "Dnjepar"
+        ],
+        "explanation": "Volga je najduža rijeka u Europi, dugačka otprilike 3.530 kilometara, u potpunosti unutar Rusije (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji razdvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Sueski kanal",
+            "Beringov prolaz"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean i Sredozemno more, a odvaja Španjolsku od Maroka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Australije?",
+        "correct_answer": "Canberra",
+        "incorrect_answers": [
+            "Sydney",
+            "Melbourne",
+            "Perth"
+        ],
+        "explanation": "Canberra je administrativno središte Australije, osnovana kao kompromis između rivalskih gradova Sydneyja i Melbournea.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po tjestenini, pizzi i Koloseumu?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Francuska",
+            "Grčka",
+            "Španjolska"
+        ],
+        "explanation": "Italija je zemlja prepoznatljiva po svojoj bogatoj kulinarskoj tradiciji s tjesteninom i pizzom, te po antičkim spomenicima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna kamena formacija u obliku luka ili mosta, često nastala erozijom?",
+        "correct_answer": "Prirodni luk",
+        "incorrect_answers": [
+            "Stalaktit",
+            "Gejzir",
+            "Fjord"
+        ],
+        "explanation": "Prirodni luk nastaje selektivnom erozijom manje otpornih slojeva stijena, ostavljajući za sobom kameni most.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja je najmanja neovisna država na svijetu po površini i broju stanovnika?",
+        "correct_answer": "Vatikan",
+        "incorrect_answers": [
+            "Monako",
+            "San Marino",
+            "Nauru"
+        ],
+        "explanation": "Vatikan je enklava unutar Rima, najmanja suverena država na svijetu, sa samo 0,44 km² površine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalazi pustinja Sahara?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Australija"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, smještena u sjevernom dijelu afričkog kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka u Južnoj Americi po duljini?",
+        "correct_answer": "Amazona",
+        "incorrect_answers": [
+            "Parana",
+            "Orinoco",
+            "Magdalena"
+        ],
+        "explanation": "Amazona, duga oko 6.992 km, smatra se najdužom rijekom u Južnoj Americi, pa čak i na svijetu (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Novog Zelanda?",
+        "correct_answer": "Wellington",
+        "incorrect_answers": [
+            "Auckland",
+            "Christchurch",
+            "Queenstown"
+        ],
+        "explanation": "Wellington je drugi najveći grad Novog Zelanda i njegova politička prijestolnica, smješten na Sjevernom otoku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po sushiju i planini Fuji?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Tajland"
+        ],
+        "explanation": "Japan je otočna država u istočnoj Aziji, globalno poznata po svojoj jedinstvenoj kuhinji, uključujući sushi, i planini Fuji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji povezuje Crveno more i Adenski zaljev?",
+        "correct_answer": "Bab-el-Mandeb",
+        "incorrect_answers": [
+            "Hormuški tjesnac",
+            "Malajski prolaz",
+            "Sueski kanal"
+        ],
+        "explanation": "Bab-el-Mandeb je strateški važan tjesnac između Jemena na Arapskom poluotoku i Džibutija/Eritreje na Rogu Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalazi Veliki koraljni greben?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Azija",
+            "Afrika",
+            "Južna Amerika"
+        ],
+        "explanation": "Veliki koraljni greben nalazi se uz obalu Queenslanda u Australiji i najveći je koraljni sustav na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji je najveći otok na Karibima?",
+        "correct_answer": "Kuba",
+        "incorrect_answers": [
+            "Jamajka",
+            "Hispaniola",
+            "Portoriko"
+        ],
+        "explanation": "Kuba je najveći otok na Karibima, a također je i najveća država u toj regiji po površini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Njemačke?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "Frankfurt",
+            "München",
+            "Hamburg"
+        ],
+        "explanation": "Berlin je najveći grad u Njemačkoj i njezin glavni grad, smješten u istočnom dijelu zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je otočna država u Indijskom oceanu poznata po začinima i vaniliji?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Maldivi",
+            "Sejšeli",
+            "Šri Lanka"
+        ],
+        "explanation": "Madagaskar je četvrti najveći otok na svijetu i glavni je svjetski proizvođač vanilije i drugih začina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja zemlja graniči s Hrvatskom i Italijom, a poznata je po Alpama?",
+        "correct_answer": "Slovenija",
+        "incorrect_answers": [
+            "Austrija",
+            "Mađarska",
+            "Bosna i Hercegovina"
+        ],
+        "explanation": "Slovenija je mala europska zemlja koja graniči s obje navedene države i veliki dio njenog teritorija zauzimaju Alpe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja rijeka većim dijelom čini granicu između Laosa i Tajlanda?",
+        "correct_answer": "Mekong",
+        "incorrect_answers": [
+            "Jangce",
+            "Crvena rijeka",
+            "Iravadi"
+        ],
+        "explanation": "Mekong je glavna transnacionalna rijeka u jugoistočnoj Aziji i ključna za život duž granice Laosa i Tajlanda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Europe?",
+        "correct_answer": "Elbrus",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Matterhorn",
+            "Grossglockner"
+        ],
+        "explanation": "Elbrus, smješten u Kavkaskom gorju u Rusiji, najviši je vrh Europe s nadmorskom visinom od 5.642 metra.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja morska struja donosi topliju vodu i ublažava klimu zapadne Europe?",
+        "correct_answer": "Golfska struja (Sjevernoatlantska struja)",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Labradorna struja",
+            "Kurošio struja"
+        ],
+        "explanation": "Golfska struja, odnosno njezin nastavak Sjevernoatlantska struja, transportira toplu vodu prema sjeveru, utječući na blažu klimu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva geomorfološki proces gdje se zbog selektivne erozije i denudacije stvaraju izolirani brežuljci ravnog vrha, poput mesa i buta?",
+        "correct_answer": "Stolna erozija",
+        "incorrect_answers": [
+            "Krška erozija",
+            "Fluvijalna erozija",
+            "Glacijalna erozija"
+        ],
+        "explanation": "Stolna erozija obuhvaća procese koji dovode do oblikovanja uzvisina s ravnim vrhovima i strmim stranama u slojevitim stijenama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Ujedinjenog Kraljevstva?",
+        "correct_answer": "London",
+        "incorrect_answers": [
+            "Manchester",
+            "Edinburgh",
+            "Dublin"
+        ],
+        "explanation": "London je najveći grad u Ujedinjenom Kraljevstvu i njegov politički, ekonomski i kulturni centar.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja je otočna država u Sredozemnom moru najmanja članica EU po broju stanovnika?",
+        "correct_answer": "Malta",
+        "incorrect_answers": [
+            "Cipar",
+            "Kreta",
+            "Sardinija"
+        ],
+        "explanation": "Malta je arhipelag u Sredozemnom moru i najmanja država članica Europske unije po površini i broju stanovnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada vjetar prenosi i taloži pijesak, stvarajući pješčane dine?",
+        "correct_answer": "Eolska akumulacija",
+        "incorrect_answers": [
+            "Fluvijalna erozija",
+            "Glacijalna abrazija",
+            "Vulkanska aktivnost"
+        ],
+        "explanation": "Eolska akumulacija je geomorfološki proces gdje se pijesak i sitne čestice talože djelovanjem vjetra, tvoreći razne oblike dina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Brazila?",
+        "correct_answer": "Brasília",
+        "incorrect_answers": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Salvador"
+        ],
+        "explanation": "Brasília je planirani grad izgrađen 1960-ih kako bi služio kao nova, centralno smještena prijestolnica Brazila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je zemlja u Srednjoj Americi poznata po drevnim majanskim piramidama?",
+        "correct_answer": "Meksiko",
+        "incorrect_answers": [
+            "Peru",
+            "Ekvador",
+            "Kolumbija"
+        ],
+        "explanation": "Meksiko je dom mnogim arheološkim nalazištima Maya i Asteka, uključujući impresivne piramide poput Chichen Itze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koja je najduža cesta na svijetu, povezujući Sjevernu i Južnu Ameriku?",
+        "correct_answer": "Panamerička autocesta",
+        "incorrect_answers": [
+            "Transsibirska autocesta",
+            "Great Ocean Road",
+            "Highway 1"
+        ],
+        "explanation": "Panamerička autocesta je mreža cesta dugačka oko 30.000 km, koja se proteže od Aljaske do Argentine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva klimatski tip karakteriziran vrućim, suhim ljetima i blagim, vlažnim zimama?",
+        "correct_answer": "Sredozemna klima",
+        "incorrect_answers": [
+            "Kontinentalna klima",
+            "Oceanska klima",
+            "Pustinjska klima"
+        ],
+        "explanation": "Sredozemna klima tipična je za regije oko Sredozemnog mora, kao i za dijelove Kalifornije, Čilea i Australije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koje more oplakuje obale Hrvatske?",
+        "correct_answer": "Jadransko more",
+        "incorrect_answers": [
+            "Crno more",
+            "Sredozemno more",
+            "Egejsko more"
+        ],
+        "explanation": "Jadransko more je dio Sredozemnog mora koje čini istočnu obalu Italije i zapadnu obalu Balkanskog poluotoka, uključujući Hrvatsku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
