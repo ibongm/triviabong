@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koja država ima najviše zlatnih medalja u povijesti Olimpijskih igara (ljetne i zimske, stanje 2024.)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Kina",
+            "Rusija (ili SSSR)",
+            "Njemačka"
+        ],
+        "explanation": "Sjedinjene Američke Države uvjerljivo prednjače po ukupnom broju zlatnih medalja na svim Olimpijskim igrama, ljetnim i zimskim (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Kako se naziva udarac u nogometu kojim igrač s boka pokušava ubaciti loptu u kazneni prostor ispred gola?",
+        "correct_answer": "Centaršut",
+        "incorrect_answers": [
+            "Volej",
+            "Šut",
+            "Dribling"
+        ],
+        "explanation": "Centaršut je udarac koji se izvodi s krila ili boka terena s ciljem ubacivanja lopte u sredinu, često pred gol.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "U kojem sportu se koristi izraz 'ace' za servis koji protivnik ne uspije dotaknuti?",
+        "correct_answer": "Tenis",
+        "incorrect_answers": [
+            "Odbojka",
+            "Badminton",
+            "Stolni tenis"
+        ],
+        "explanation": "'Ace' je u tenisu izravan poen postignut servisom kada primatelj ne uspije dotaknuti lopticu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koliko je igrača u momčadi na terenu na početku utakmice bejzbola (uključujući bacača i hvatača)?",
+        "correct_answer": "Devet",
+        "incorrect_answers": [
+            "Jedanaest",
+            "Sedam",
+            "Deset"
+        ],
+        "explanation": "Bejzbolska momčad na terenu ima devet igrača, uključujući bacača (pitchera) i hvatača (catchera).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Koji je službeni naziv za sport u kojem se natjecatelji natječu na konjima u preskakanju prepona?",
+        "correct_answer": "Preponsko jahanje",
+        "incorrect_answers": [
+            "Dresurno jahanje",
+            "Konjička trka",
+            "Polo"
+        ],
+        "explanation": "Preponsko jahanje je olimpijska disciplina u kojoj konj i jahač moraju preskočiti niz prepreka bez rušenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Kolika je visina koša u košarci (od poda do obruča) prema službenim pravilima?",
+        "correct_answer": "3.05 metara",
+        "incorrect_answers": [
+            "3.15 metara",
+            "2.95 metara",
+            "3.20 metara"
+        ],
+        "explanation": "Standardna visina koša u košarci, prema FIBA i NBA pravilima, iznosi točno 3.05 metara (10 stopa).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Tko je najmlađi osvajač zlatne medalje na Zimskim olimpijskim igrama u povijesti (stanje 2024.)?",
+        "correct_answer": "Kim Yoon-mi",
+        "incorrect_answers": [
+            "Tara Lipinski",
+            "Wolfgang Neuss",
+            "Sonja Henie"
+        ],
+        "explanation": "Južnokorejka Kim Yoon-mi osvojila je zlatnu medalju u brzom klizanju na kratke staze 1994. sa samo 13 godina i 83 dana (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Kako se zove zaštitna kaciga koju nosi udarač (batter) u bejzbolu?",
+        "correct_answer": "Šljem",
+        "incorrect_answers": [
+            "Maska",
+            "Kapa",
+            "Kaciga"
+        ],
+        "explanation": "Udarači u bejzbolu nose šljem (eng. batting helmet) kako bi se zaštitili od udarca loptom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koji je jedini plivački stil u kojem se natjecatelj može kretati pod vodom više od 15 metara nakon starta ili okreta?",
+        "correct_answer": "Leđno",
+        "incorrect_answers": [
+            "Slobodno",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "Prema pravilima plivanja, u leđnom stilu plivač smije zaroniti do 15 metara, dok za ostale stilove mora biti na površini prije te oznake.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "U kojem gradu se tradicionalno održava finale Super Bowla u američkom nogometu svake godine?",
+        "correct_answer": "Ne postoji jedan grad",
+        "incorrect_answers": [
+            "Miami",
+            "Los Angeles",
+            "New Orleans"
+        ],
+        "explanation": "Grad domaćin Super Bowla bira se svake godine i mijenja se, ne postoji stalna lokacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Kako se naziva specijalni udarac u biljaru kojim se bijela kugla okreće unatrag nakon udarca u ciljanu kuglu?",
+        "correct_answer": "Retrospektivni udarac (draw shot)",
+        "incorrect_answers": [
+            "Slajs",
+            "Top spin",
+            "Bank shot"
+        ],
+        "explanation": "Retrospektivni udarac ili 'draw shot' postiže se udarcem u donji dio bijele kugle, što uzrokuje njezino vraćanje nakon kontakta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Kolika je težina (približna) kugle za kuglanje u kategoriji za odrasle?",
+        "correct_answer": "Od 6 do 7.25 kg",
+        "incorrect_answers": [
+            "Od 3 do 4.5 kg",
+            "Od 8 do 9 kg",
+            "Od 10 do 12 kg"
+        ],
+        "explanation": "Kugle za kuglanje variraju u težini, a maksimalna dopuštena težina je 16 funti, što je otprilike 7.25 kg.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koji je sport poznat po terminima 'double-double' i 'triple-double'?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Odbojka",
+            "Rukomet",
+            "Nogomet"
+        ],
+        "explanation": "Ovi izrazi odnose se na postizanje dvoznamenkastog broja u dvije, odnosno tri statističke kategorije (npr. poeni, skokovi, asistencije).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše svjetskih prvenstava u nogometu (muški, stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je dosad osvojio pet naslova svjetskog prvaka u nogometu, više od bilo koje druge reprezentacije (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Kako se naziva pozicija u odbojci koja se fokusira na obranu i primanje servisa, ali ne smije servirati niti blokirati iznad mreže?",
+        "correct_answer": "Libero",
+        "incorrect_answers": [
+            "Dizač",
+            "Korektor",
+            "Srednji bloker"
+        ],
+        "explanation": "Libero je specijalizirani obrambeni igrač u odbojci koji nosi različitu boju dresa i ima ograničenja u igri.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Tko je rekorder po broju osvojenih naslova prvaka Formule 1 s 8 osvojenih titula (stanje 2024.)?",
+        "correct_answer": "Nitko",
+        "incorrect_answers": [
+            "Michael Schumacher",
+            "Lewis Hamilton",
+            "Juan Manuel Fangio"
+        ],
+        "explanation": "Michael Schumacher i Lewis Hamilton dijele rekord sa po sedam naslova prvaka F1, nitko nema osam (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koliko je igrača u momčadi na terenu u hokeju na travi (uključujući vratara)?",
+        "correct_answer": "Jedanaest",
+        "incorrect_answers": [
+            "Deset",
+            "Dvanaest",
+            "Devet"
+        ],
+        "explanation": "Momčad hokeja na travi ima jedanaest igrača na terenu, uključujući jednog vratara, slično nogometu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Kako se naziva osnovni udarac u stolnom tenisu kojim se loptica prebacuje preko mreže s rotacijom prema naprijed?",
+        "correct_answer": "Topspin",
+        "incorrect_answers": [
+            "Backspin",
+            "Slice",
+            "Flip"
+        ],
+        "explanation": "Topspin je udarac u stolnom tenisu gdje se loptici daje rotacija prema naprijed, što joj omogućuje niži let i brži pad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Tko je prvi atletičar koji je skočio preko 8 metara u skoku u dalj (stanje 2024.)?",
+        "correct_answer": "Jesse Owens",
+        "incorrect_answers": [
+            "Bob Beamon",
+            "Carl Lewis",
+            "Mike Powell"
+        ],
+        "explanation": "Jesse Owens je bio prvi, skočivši 8.13 metara 1935. godine, godinu dana prije Berlinskih olimpijskih igara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koja boja karte označava kazneni udarac ('penalty card') za grubo ponašanje u nogometu?",
+        "correct_answer": "Crveni karton",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Plavi karton",
+            "Zeleni karton"
+        ],
+        "explanation": "Crveni karton u nogometu označava isključenje igrača s utakmice zbog teškog prekršaja ili drugog žutog kartona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koliko dugo traje jedna 'runda' u profesionalnom boksu za muškarce?",
+        "correct_answer": "Tri minute",
+        "incorrect_answers": [
+            "Dvije minute",
+            "Četiri minute",
+            "Pet minuta"
+        ],
+        "explanation": "Profesionalni boksački mečevi za muškarce obično se sastoje od rundi koje traju tri minute.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'curling kamen' i 'metla'?",
+        "correct_answer": "Curling",
+        "incorrect_answers": [
+            "Boćanje",
+            "Hokej na ledu",
+            "Shuffleboard"
+        ],
+        "explanation": "Curling je zimski sport gdje se kamenje gura po ledu prema ciljanoj zoni, a metle se koriste za zaglađivanje leda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Kako se zove borilačka vještina u kojoj se borci bore u kimono odjeći s ciljem imobilizacije protivnika na tlu?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Krav Maga"
+        ],
+        "explanation": "Judo je japanska borilačka vještina koja se fokusira na bacanja, zahvate i imobilizaciju, uz korištenje kimona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koji je najpoznatiji godišnji biciklistički događaj poznat kao 'Velika petlja'?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ],
+        "explanation": "Tour de France je najprestižnija i najpoznatija etapna biciklistička utrka, često nazivana 'Velika petlja'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Kolika je standardna širina gola u nogometu?",
+        "correct_answer": "7.32 metra",
+        "incorrect_answers": [
+            "7.50 metara",
+            "7.10 metara",
+            "6.90 metara"
+        ],
+        "explanation": "Prema pravilima nogometa, širina gola (udaljenost između unutarnjih rubova stativa) iznosi 7.32 metra (8 jardi).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "U kojoj se zemlji održavaju tradicionalne utrke saonicama s psećom zapregom, poznate kao Iditarod?",
+        "correct_answer": "Sjedinjene Američke Države (Aljaska)",
+        "incorrect_answers": [
+            "Kanada",
+            "Norveška",
+            "Rusija"
+        ],
+        "explanation": "Iditarod Trail Sled Dog Race je legendarna utrka saonicama s psećom zapregom koja se održava na Aljasci, SAD.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koji se od navedenih sportova igra s loptom, palicom i vratima (wicketima)?",
+        "correct_answer": "Kriket",
+        "incorrect_answers": [
+            "Bejzbol",
+            "Hokej na travi",
+            "Golf"
+        ],
+        "explanation": "Kriket je timski sport koji se igra s loptom, palicom i setom tri drvena stupa (wicketa) na svakom kraju terena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Tko je bila prva žena koja je preplivala La Manche (Engleski kanal)?",
+        "correct_answer": "Gertrude Ederle",
+        "incorrect_answers": [
+            "Florence Chadwick",
+            "Diana Nyad",
+            "Lynne Cox"
+        ],
+        "explanation": "Amerikanka Gertrude Ederle postala je prva žena koja je uspješno preplivala La Manche 1926. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koji sport se igra na terenu podijeljenom mrežom, gdje dva tima udaraju loptu rukama, a lopta ne smije pasti na pod?",
+        "correct_answer": "Odbojka",
+        "incorrect_answers": [
+            "Tenis",
+            "Badminton",
+            "Stolni tenis"
+        ],
+        "explanation": "Odbojka je sport u kojem dva tima pokušavaju prebaciti loptu preko mreže tako da padne na protivničku stranu terena, bez da je sami ispuste.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno za pobjedu u setu odbojke (osim petog seta)?",
+        "correct_answer": "25 bodova",
+        "incorrect_answers": [
+            "21 bod",
+            "15 bodova",
+            "30 bodova"
+        ],
+        "explanation": "Za pobjedu u setu odbojke (prva četiri seta) potrebno je osvojiti 25 bodova uz minimalno dva poena prednosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'sabljasta' oprema (široka oštrica s ručkom u obliku koša)?",
+        "correct_answer": "Mačevanje",
+        "incorrect_answers": [
+            "Kendo",
+            "Hokej na ledu",
+            "Polo"
+        ],
+        "explanation": "Sablja je jedna od tri discipline u sportskom mačevanju, karakteristična po udarcima i rezovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Kako se naziva kazna u košarci kada igrač prekrši pravilo dvostrukog vođenja lopte?",
+        "correct_answer": "Dupla",
+        "incorrect_answers": [
+            "Koraci",
+            "Osobna greška",
+            "Povratna lopta"
+        ],
+        "explanation": "Dupla je prekršaj u košarci kada igrač ponovno počne voditi loptu nakon što ju je zaustavio i uhvatio.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koja je jedina disciplina u plivanju na Olimpijskim igrama gdje se natjecatelji smiju odgurivati od dna bazena?",
+        "correct_answer": "Samo u polo startu",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Nijedna"
+        ],
+        "explanation": "Plivači se ne smiju odgurivati od dna bazena tijekom utrke; jedina iznimka je prilikom polo starta, ali to nije disciplina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koji sport se igra s loptom ovalnog oblika?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Vaterpolo"
+        ],
+        "explanation": "Ragbi se igra s prepoznatljivom ovalnom loptom, za razliku od okruglih lopti u većini drugih momčadskih sportova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Tko je najmlađi strijelac u povijesti FIFA Svjetskih prvenstava (stanje 2024.)?",
+        "correct_answer": "Pelé",
+        "incorrect_answers": [
+            "Kylian Mbappé",
+            "Lionel Messi",
+            "Michael Owen"
+        ],
+        "explanation": "Pelé je postigao svoj prvi gol na Svjetskom prvenstvu 1958. u Švedskoj sa 17 godina i 239 dana (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koliki je standardni promjer golf rupe?",
+        "correct_answer": "10.8 cm",
+        "incorrect_answers": [
+            "8.5 cm",
+            "12.2 cm",
+            "15 cm"
+        ],
+        "explanation": "Službeni promjer golf rupe je 4.25 inča, što iznosi približno 10.8 centimetara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Kako se naziva gimnastička sprava koja se sastoji od dviju paralelnih greda na različitim visinama, namijenjena ženskoj gimnastici?",
+        "correct_answer": "Dvovisinske ruče",
+        "incorrect_answers": [
+            "Vratilo",
+            "Ruče",
+            "Karike"
+        ],
+        "explanation": "Dvovisinske ruče su sprava u ženskoj sportskoj gimnastici koja zahtijeva snagu, koordinaciju i fleksibilnost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'startni blok' kako bi se sportašima omogućio snažan i stabilan početak utrke?",
+        "correct_answer": "Atletika (sprint)",
+        "incorrect_answers": [
+            "Plivanje",
+            "Biciklizam",
+            "Veslanje"
+        ],
+        "explanation": "Startni blokovi koriste se u sprinterskim disciplinama atletike (trčanje) kako bi se osigurao optimalan start i prijenos sile.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
