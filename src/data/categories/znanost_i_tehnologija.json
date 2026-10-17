@@ -30445,5 +30445,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja je razlika između DNA i RNA molekule u pogledu šećera koji sadrže?",
+        "correct_answer": "DNA sadrži deoksiribozu, a RNA ribozu.",
+        "incorrect_answers": [
+            "Obje sadrže deoksiribozu.",
+            "Obje sadrže ribozu.",
+            "DNA sadrži ribozu, a RNA deoksiribozu."
+        ],
+        "explanation": "Deoksiriboza nema hidroksilnu skupinu na 2' ugljiku, dok je riboza ima. To utječe na stabilnost i funkciju molekula.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koja je temeljna čestica odgovorna za prijenos slabe nuklearne sile, koja uzrokuje radioaktivni raspad?",
+        "correct_answer": "Bozoni W i Z",
+        "incorrect_answers": [
+            "Fotoni",
+            "Gluoni",
+            "Higgs bozon"
+        ],
+        "explanation": "Slaba nuklearna sila je jedna od četiri temeljne sile prirode, a prenose je masivni bozoni W i Z.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Što je osnovna funkcija vatrozida (firewalla) u računalnoj mreži?",
+        "correct_answer": "Kontrolira dolazni i odlazni mrežni promet na temelju unaprijed definiranih sigurnosnih pravila.",
+        "incorrect_answers": [
+            "Ubrzava internetsku vezu.",
+            "Defragmentira tvrdi disk.",
+            "Štiti od virusa nakon što su ušli u sustav."
+        ],
+        "explanation": "Vatrozid djeluje kao barijera, filtrirajući mrežni promet kako bi spriječio neovlašteni pristup i osigurao sigurnost sustava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji element ima atomski broj 1, a najrasprostranjeniji je element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik je najlakši i najčešći kemijski element, čini oko 75% svemira po masi. Njegov atomski broj je 1.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva granična linija oko crne rupe unutar koje ništa, čak ni svjetlost, ne može pobjeći?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Ergosfera",
+            "Schwarzschildov radijus"
+        ],
+        "explanation": "Horizont događaja je granica bez povratka. Jednom kada nešto prijeđe tu granicu, gravitacijsko povlačenje crne rupe je preveliko za bijeg.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja se stanična organela bavi sintezom proteina na temelju informacija iz mRNA?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Jezgra",
+            "Golgijev aparat"
+        ],
+        "explanation": "Ribosomi su stanične strukture odgovorne za sintezu proteina (translacija), čitajući genetski kod iz mRNA.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja se pojava događa kada se magnetsko polje mijenja kroz vodič, inducirajući električnu struju?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Hallov efekt",
+            "Piezoelektrični efekt",
+            "Termoelektrični efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je princip rada transformatora, generatora i mnogih drugih električnih uređaja. Otkrio ju je Faraday.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je struktura podataka tipa 'Prvi unutra, prvi van' (First-In, First-Out - FIFO)?",
+        "correct_answer": "Red (Queue)",
+        "incorrect_answers": [
+            "Stog (Stack)",
+            "Stablo (Tree)",
+            "Lista (List)"
+        ],
+        "explanation": "U redu, elementi se dodaju na kraj i uklanjaju s početka, baš kao u redu čekanja u stvarnom životu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja skupina organskih spojeva sadrži barem jednu hidroksilnu (-OH) skupinu vezanu za ugljikov atom?",
+        "correct_answer": "Alkoholi",
+        "incorrect_answers": [
+            "Aldehidi",
+            "Ketoni",
+            "Eteri"
+        ],
+        "explanation": "Alkoholi su karakterizirani prisutnošću hidroksilne skupine (-OH) vezane na zasićeni ugljikov atom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva termodinamički proces u kojem se volumen plina mijenja bez promjene temperature?",
+        "correct_answer": "Izotermni proces",
+        "incorrect_answers": [
+            "Izobarni proces",
+            "Izohorni proces",
+            "Adijabatski proces"
+        ],
+        "explanation": "Izotermni procesi odvijaju se pri konstantnoj temperaturi, što znači da je promjena unutarnje energije sustava nula.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja je temeljna uloga razlagača (dekompozitora) u ekosustavu?",
+        "correct_answer": "Razgrađuju mrtvu organsku tvar i vraćaju hranjive tvari u tlo.",
+        "incorrect_answers": [
+            "Proizvode kisik fotosintezom.",
+            "Služe kao primarni potrošači.",
+            "Pomažu u oprašivanju biljaka."
+        ],
+        "explanation": "Razlagači, poput bakterija i gljiva, esencijalni su za recikliranje materijala i održavanje ciklusa hranjivih tvari u prirodi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je prva žena u povijesti koja je putovala u svemir?",
+        "correct_answer": "Valentina Tereškova",
+        "incorrect_answers": [
+            "Sally Ride",
+            "Svetlana Savitskaja",
+            "Yuri Gagarin"
+        ],
+        "explanation": "Valentina Tereškova je sovjetska kozmonautkinja koja je 1963. godine postala prva žena u svemiru, leteći misijom Vostok 6.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Što je objektno orijentirano programiranje (OOP)?",
+        "correct_answer": "Programska paradigma temeljena na konceptu 'objekata' koji sadrže podatke i metode.",
+        "incorrect_answers": [
+            "Metoda za optimizaciju baze podataka.",
+            "Vrsta algoritma za sortiranje podataka.",
+            "Niski programski jezik za hardversku interakciju."
+        ],
+        "explanation": "OOP organizira softverski dizajn oko podataka, ili objekata, umjesto funkcija i logike, s fokusom na enkapsulaciju i nasljeđivanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja se suprotstavlja relativnom gibanju površina koje su u dodiru?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Normalna sila",
+            "Napon"
+        ],
+        "explanation": "Trenje je sila otpora koja djeluje tangencijalno na dodirne površine i odupire se njihovom klizanju jedna po drugoj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja se vrsta biomolekule sastoji od monomera nazvanih nukleotidi?",
+        "correct_answer": "Nukleinske kiseline (DNA i RNA)",
+        "incorrect_answers": [
+            "Proteini",
+            "Ugljikohidrati",
+            "Lipidi"
+        ],
+        "explanation": "Nukleinske kiseline, DNA i RNA, su polimeri sastavljeni od ponavljajućih jedinica – nukleotida.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji je pojam za podpolje umjetne inteligencije koje strojevima omogućuje 'učenje' iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje (Machine Learning)",
+        "incorrect_answers": [
+            "Računalna grafika",
+            "Web razvoj",
+            "Analiza podataka"
+        ],
+        "explanation": "Strojno učenje je grana umjetne inteligencije koja omogućuje računalnim sustavima poboljšanje performansi na zadatku s iskustvom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koju boju svjetlosti ima najkraću valnu duljinu unutar vidljivog spektra?",
+        "correct_answer": "Ljubičasta",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Žuta"
+        ],
+        "explanation": "Vidljivi spektar se proteže od ljubičaste (najkraća valna duljina) do crvene (najduža valna duljina).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koju funkciju obavlja klorofil u biljkama?",
+        "correct_answer": "Apsorbira sunčevu svjetlost za fotosintezu.",
+        "incorrect_answers": [
+            "Regulira temperaturu biljke.",
+            "Pohranjuje vodu u stabljici.",
+            "Transportira hranjive tvari kroz korijenje."
+        ],
+        "explanation": "Klorofil je zeleni pigment u biljkama, ključan za apsorpciju svjetlosne energije potrebne za pretvaranje ugljičnog dioksida i vode u šećere i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja se teorija najbolje objašnjava trenutno prihvaćeni model nastanka svemira?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stacionarnog stanja",
+            "Teorija pulsirajućeg svemira",
+            "Teorija struna"
+        ],
+        "explanation": "Teorija Velikog praska opisuje kako se svemir proširio iz izuzetno vrućeg, gustog stanja prije otprilike 13,8 milijardi godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je laboratorijski instrument primarno korišten za precizno mjerenje volumena tekućine?",
+        "correct_answer": "Bireta",
+        "incorrect_answers": [
+            "Epruveta",
+            "Petrijeva zdjelica",
+            "Satno staklo"
+        ],
+        "explanation": "Bireta je staklena cijev s ljestvicom i slavinom na dnu, dizajnirana za precizno dodavanje i mjerenje volumena tekućine, posebno u titracijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Što je GPU (Graphics Processing Unit)?",
+        "correct_answer": "Specijalizirani elektronički sklop dizajniran za brzu manipulaciju i mijenjanje memorije za stvaranje slika na zaslonu.",
+        "incorrect_answers": [
+            "Primarno odgovoran za obradu tekstualnih podataka.",
+            "Vrsta trajnog skladištenja podataka.",
+            "Glavna komponenta za mrežnu povezanost."
+        ],
+        "explanation": "GPU-ovi su optimizirani za paralelnu obradu, što ih čini idealnim za grafiku i, u novije vrijeme, za strojno učenje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja se vrsta nuklearnog procesa koristi u nuklearnim elektranama za proizvodnju energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Alfa raspad",
+            "Beta raspad"
+        ],
+        "explanation": "Nuklearna fisija je proces cijepanja teške atomske jezgre na dvije ili više lakših jezgri, oslobađajući veliku količinu energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem tekućina prelazi u plinovito stanje ispod svoje točke vrelišta?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Vrenje"
+        ],
+        "explanation": "Isparavanje se događa na površini tekućine pri bilo kojoj temperaturi ispod točke vrelišta, dok je vrenje brži proces unutar cijele tekućine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji planet u našem Sunčevom sustavu ima najintenzivniji staklenički učinak, što rezultira ekstremno visokim temperaturama površine?",
+        "correct_answer": "Venera",
+        "incorrect_answers": [
+            "Mars",
+            "Merkur",
+            "Jupiter"
+        ],
+        "explanation": "Venera ima gustu atmosferu bogatu ugljikovim dioksidom, što uzrokuje snažan staklenički učinak i površinske temperature dovoljne za taljenje olova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja je osnovna ideja Einsteinove specijalne teorije relativnosti?",
+        "correct_answer": "Zakoni fizike su isti za sve promatrače u inercijalnim referentnim sustavima i brzina svjetlosti u vakuumu je konstantna.",
+        "incorrect_answers": [
+            "Gravitacija je zakrivljenost prostor-vremena.",
+            "Energija i masa su ekvivalentne.",
+            "Crne rupe nastaju kolapsom masivnih zvijezda."
+        ],
+        "explanation": "Specijalna relativnost se bavi odnosom između prostora i vremena za objekte koji se gibaju konstantnom brzinom, s dva glavna postulata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji se proces koristi za stvaranje točnih kopija DNA ili gena?",
+        "correct_answer": "Kloniranje",
+        "incorrect_answers": [
+            "Mutacija",
+            "Rekombinacija",
+            "Transkripcija"
+        ],
+        "explanation": "Kloniranje u molekularnoj biologiji odnosi se na umnožavanje specifičnih fragmenata DNA ili gena, stvarajući identične kopije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji su elementi poznati kao plemeniti plinovi i karakterizira ih niska reaktivnost?",
+        "correct_answer": "Helij, Neon, Argon, Kripton, Ksenon, Radon",
+        "incorrect_answers": [
+            "Fluor, Klor, Brom, Jod",
+            "Litij, Natrij, Kalij",
+            "Kisik, Dušik, Ugljik"
+        ],
+        "explanation": "Plemeniti plinovi (Grupa 18) imaju punu vanjsku elektronsku ljusku, što ih čini vrlo stabilnima i nereaktivnima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se materijal najčešće koristi kao poluvodič u elektronici, posebno u računalnim čipovima?",
+        "correct_answer": "Silicij",
+        "incorrect_answers": [
+            "Bakar",
+            "Aluminij",
+            "Željezo"
+        ],
+        "explanation": "Silicij je najčešći poluvodički materijal zbog svoje obilnosti i pogodnih elektronskih svojstava za izradu tranzistora i integriranih krugova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva oblik energije koji tijelo posjeduje zbog svog gibanja?",
+        "correct_answer": "Kinetička energija",
+        "incorrect_answers": [
+            "Potencijalna energija",
+            "Toplinska energija",
+            "Kemijska energija"
+        ],
+        "explanation": "Kinetička energija je energija koju posjeduje objekt zbog svog gibanja i ovisi o njegovoj masi i brzini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za organizme koji proizvode vlastitu hranu, obično fotosintezom ili kemosintezom?",
+        "correct_answer": "Autotrofi",
+        "incorrect_answers": [
+            "Heterotrofi",
+            "Saprotrofi",
+            "Karnivori"
+        ],
+        "explanation": "Autotrofi su 'samo-hranioci', proizvodeći složene organske spojeve iz jednostavnih anorganskih, poput biljaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je tip teleskopa najčešći za promatranje udaljenih galaksija i maglica?",
+        "correct_answer": "Reflektorski teleskop (reflektor)",
+        "incorrect_answers": [
+            "Refraktorski teleskop (refraktor)",
+            "Radioteleskop",
+            "Binokular"
+        ],
+        "explanation": "Reflektorski teleskopi koriste ogledala za skupljanje svjetlosti, omogućujući izradu velikih otvora i postizanje veće svjetlosne moći od refraktora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je uloga cache memorije u računalu?",
+        "correct_answer": "Brza memorija koja pohranjuje često korištene podatke za brži pristup procesoru.",
+        "incorrect_answers": [
+            "Trajno pohranjuje operativni sustav.",
+            "Pohranjuje podatke kada je računalo isključeno.",
+            "Omogućuje grafičko sučelje."
+        ],
+        "explanation": "Cache memorija smanjuje prosječno vrijeme pristupa podacima iz glavne memorije, poboljšavajući performanse sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji je naziv za kemijsku reakciju u kojoj se iz molekula tvari oslobađa energija u obliku topline?",
+        "correct_answer": "Egzotermna reakcija",
+        "incorrect_answers": [
+            "Endotermna reakcija",
+            "Redoks reakcija",
+            "Supstitucijska reakcija"
+        ],
+        "explanation": "Egzotermne reakcije otpuštaju energiju u okolinu, obično u obliku topline, uzrokujući porast temperature okoline.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji fizički fenomen objašnjava zašto se duga formira kada sunčeva svjetlost prolazi kroz kapljice vode?",
+        "correct_answer": "Disperzija svjetlosti",
+        "incorrect_answers": [
+            "Difrakcija svjetlosti",
+            "Apsorpcija svjetlosti",
+            "Polarizacija svjetlosti"
+        ],
+        "explanation": "Disperzija je pojava razlaganja bijele svjetlosti na sastavne boje zbog različitih indeksa loma za različite valne duljine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Što je 'prirodna selekcija' u kontekstu evolucije?",
+        "correct_answer": "Proces u kojem organizmi bolje prilagođeni svom okolišu imaju veću vjerojatnost preživljavanja i razmnožavanja.",
+        "incorrect_answers": [
+            "Novi geni nastaju spontano i slučajno.",
+            "Svi organizmi teže savršenstvu.",
+            "Promjene u okolišu ne utječu na vrste."
+        ],
+        "explanation": "Prirodna selekcija je ključni mehanizam evolucije, gdje se korisne osobine prenose na sljedeće generacije, a nepovoljne postupno uklanjaju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za precizno 'uređivanje' gena, omogućujući znanstvenicima izmjenu DNA na specifičnim mjestima?",
+        "correct_answer": "CRISPR-Cas9",
+        "incorrect_answers": [
+            "PCR (Lančana reakcija polimeraze)",
+            "ELISA (Enzimska imunoanaliza)",
+            "Kromatografija"
+        ],
+        "explanation": "CRISPR-Cas9 je revolucionarna tehnika za uređivanje genoma koja omogućuje ciljanu promjenu sekvenci DNA s velikom preciznošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koja je primarna uloga protokola HTTP?",
+        "correct_answer": "Protokol za prijenos hipertekstualnih dokumenata na World Wide Webu.",
+        "incorrect_answers": [
+            "Šalje e-poštu između servera.",
+            "Šifrira internetske veze.",
+            "Omogućuje streaming videozapisa u stvarnom vremenu."
+        ],
+        "explanation": "HTTP je temelj za komunikaciju podataka na World Wide Webu, služi za dohvaćanje HTML dokumenata i drugih resursa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Koja se vrsta zračenja koristi za proučavanje 'ostataka' Velikog praska, poznata kao kozmičko mikrovalno pozadinsko zračenje?",
+        "correct_answer": "Mikrovalno zračenje",
+        "incorrect_answers": [
+            "Rendgensko zračenje",
+            "Gama zračenje",
+            "Infracrveno zračenje"
+        ],
+        "explanation": "Kozmičko mikrovalno pozadinsko zračenje (CMB) je reliktna radijacija iz ranog svemira, najjača je u mikrovalnom dijelu spektra.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
