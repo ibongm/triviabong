@@ -25139,5 +25139,500 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji kontinent je dom planinskog lanca Himalaja?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Južna Amerika"
+        ],
+        "explanation": "Himalaja, uključujući najviši vrh Mount Everest, nalazi se u Aziji. Proteže se kroz nekoliko zemalja tog kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najsjevernija država Južne Amerike?",
+        "correct_answer": "Kolumbija",
+        "incorrect_answers": [
+            "Venezuela",
+            "Brazil",
+            "Ekvador"
+        ],
+        "explanation": "Kolumbija se nalazi na sjeverozapadnom dijelu Južne Amerike i ima obale na Tihom oceanu i Karipskom moru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Francuske?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Rim",
+            "Berlin",
+            "Madrid"
+        ],
+        "explanation": "Pariz je glavni grad Francuske, poznat po umjetnosti, modi i kulturi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je država poznata po svom 'Velikom koraljnom grebenu'?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Belize"
+        ],
+        "explanation": "Veliki koraljni greben je najveći svjetski sustav koraljnih grebena, smješten uz obalu Queenslanda u Australiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja se država nalazi na poluotoku Skandinavija, a ima granicu s Rusijom i Finskom?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Danska",
+            "Island"
+        ],
+        "explanation": "Norveška se prostire zapadnim dijelom Skandinavskog poluotoka i dijeli granicu s Rusijom i Finskom na sjeveru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja pustinja se nalazi na većem dijelu sjeverne Afrike?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, prostire se na približno 9,2 milijuna četvornih kilometara u sjevernoj Africi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji odvaja Europu od Afrike i spaja Atlantski ocean sa Sredozemnim morem?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Suez"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji spaja Atlantski ocean i Sredozemno more te odvaja Europu (Španjolsku) od Afrike (Maroko).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se Sunce ne spušta ispod horizonta tijekom ljetnih mjeseci u polarnim područjima?",
+        "correct_answer": "Ponoćno sunce",
+        "incorrect_answers": [
+            "Polarna svjetlost",
+            "Polarna noć",
+            "Bijela noć"
+        ],
+        "explanation": "Ponoćno sunce je prirodni fenomen koji se javlja u ljetnim mjesecima na zemljopisnim širinama sjeverno od Arktičkog kruga i južno od Antarktičkog kruga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "U kojoj državi se nalaze poznati slapovi Iguazú?",
+        "correct_answer": "Argentina i Brazil",
+        "incorrect_answers": [
+            "Čile",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Slapovi Iguazú su sustav slapova na rijeci Iguazú, na granici Argentine (80%) i Brazila (20%).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja je najnaseljenija država na svijetu? (stanje 2024.)",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Indija je pretekla Kinu po broju stanovnika 2023. godine, a procjenjuje se da će njezina populacija nastaviti rasti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je država po površini najveća u Južnoj Americi?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Brazil je s površinom od preko 8,5 milijuna km² najveća država Južne Amerike i peta najveća država na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva suhi, prašnjavi vjetar koji puše iz Sahare preko Sredozemnog mora prema južnoj Europi?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Košava",
+            "Mistral"
+        ],
+        "explanation": "Siroko je topao i suhi vjetar koji donosi pijesak i prašinu iz Sahare, često uzrokujući povišene temperature i mutno nebo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Europi izvan Kavkaza?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Elbrus",
+            "Grossglockner",
+            "Matterhorn"
+        ],
+        "explanation": "Mont Blanc je najviši vrh Alpa i najviša planina u zapadnoj Europi, s visinom od 4.808 metara (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja rijeka prolazi kroz veći broj glavnih gradova u Europi nego bilo koja druga?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Sena",
+            "Temza"
+        ],
+        "explanation": "Dunav prolazi kroz četiri europska glavna grada: Beč, Bratislavu, Budimpeštu i Beograd.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna širina koja označava najsjeverniju točku gdje Sunce doseže zenit?",
+        "correct_answer": "Rakova obratnica",
+        "incorrect_answers": [
+            "Jarčeva obratnica",
+            "Ekvator",
+            "Arktički krug"
+        ],
+        "explanation": "Rakova obratnica (oko 23.5° sjeverne geografske širine) je najsjevernija točka na kojoj Sunce doseže zenit tijekom ljetnog solsticija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koji je najdublji slatkovodni jezero na svijetu?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Jezero Superior",
+            "Tanganyikinsko jezero",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru je najdublje jezero na svijetu, s maksimalnom dubinom od 1.642 metra, i sadrži oko 20% svjetske slatke vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja vrsta oblaka je poznata po stvaranju oluja s grmljavinom, jakim vjetrovima i tučom?",
+        "correct_answer": "Kumulonimbus",
+        "incorrect_answers": [
+            "Stratokumulus",
+            "Cirus",
+            "Nimbostratus"
+        ],
+        "explanation": "Kumulonimbus oblaci su visoki, vertikalno razvijeni oblaci koji donose jake oborine, grmljavinu, munje i tuču.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija u kojoj rijeka probija planinski lanac, često stvarajući uske, duboke doline?",
+        "correct_answer": "Antecedentna dolina",
+        "incorrect_answers": [
+            "Epigenetska dolina",
+            "Viseća dolina",
+            "Tektonska dolina"
+        ],
+        "explanation": "Antecedentne doline nastaju kada rijeka zadrži svoj prvobitni tok dok se zemlja oko nje polako izdiže, probijajući se kroz izdignuti teren.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisni pojam koji opisuje područje gdje se pustinja i poljoprivredno zemljište postupno pretvaraju u pustinju zbog klimatskih promjena ili ljudskih aktivnosti?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Urbanizacija",
+            "Deforestacija",
+            "Eroza"
+        ],
+        "explanation": "Dezertifikacija je proces degradacije zemljišta u sušnim, polusušnim i suhim subhumidnim područjima, rezultat raznih čimbenika, uključujući klimatske promjene i ljudske aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja je najjužnija država Južne Amerike?",
+        "correct_answer": "Čile",
+        "incorrect_answers": [
+            "Argentina",
+            "Urugvaj",
+            "Peru"
+        ],
+        "explanation": "Čile se proteže duž zapadne obale Južne Amerike, dosežući najjužnije točke kontinenta, uključujući Ognjenu zemlju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je najgušće naseljena zemlja na svijetu? (stanje 2024., bez mikrodržava)",
+        "correct_answer": "Bangladeš",
+        "incorrect_answers": [
+            "Indija",
+            "Monako",
+            "Singapur"
+        ],
+        "explanation": "Bez mikrodržava poput Monaka ili Singapura, Bangladeš ima najveću gustoću naseljenosti, s preko 1.200 ljudi po km².",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja rijeka tvori veći dio granice između Poljske i Njemačke?",
+        "correct_answer": "Odra",
+        "incorrect_answers": [
+            "Visla",
+            "Laba",
+            "Dnjepar"
+        ],
+        "explanation": "Rijeka Odra tvori veći dio granice između Poljske i Njemačke, poznate kao linija Odra-Nisa, uspostavljene nakon Drugog svjetskog rata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni fenomen kada se razina mora povlači daleko od obale prije dolaska tsunamija?",
+        "correct_answer": "Odsukavanje",
+        "incorrect_answers": [
+            "Morski povratak",
+            "Plima",
+            "Morska regresija"
+        ],
+        "explanation": "Odsukavanje (eng. drawback) je iznenadno povlačenje mora koje prethodi dolasku prvog, često najvećeg, vala tsunamija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koja se država nalazi na otoku Cejlon?",
+        "correct_answer": "Šri Lanka",
+        "incorrect_answers": [
+            "Maldivi",
+            "Madagaskar",
+            "Tajland"
+        ],
+        "explanation": "Šri Lanka je otočna država u južnoj Aziji, poznata i pod svojim povijesnim nazivom Cejlon.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma diže iz Zemljine unutrašnjosti i formira novi oceanski pod na srednjooceanskim hrptovima?",
+        "correct_answer": "Širenje morskog dna",
+        "incorrect_answers": [
+            "Subdukcija",
+            "Orogeneza",
+            "Metamorfoza"
+        ],
+        "explanation": "Širenje morskog dna je geološki proces u kojem se oceanska kora stvara na srednjooceanskim hrptovima i polako se razdvaja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja se velika rijeka u Africi ulijeva u Sredozemno more?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Kongo",
+            "Niger",
+            "Zambezi"
+        ],
+        "explanation": "Nil je najduža rijeka u Africi i ulijeva se u Sredozemno more tvoreći veliku deltu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koja je najniža točka na Zemljinoj površini koja nije pod morem?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Jezero Assal",
+            "Dolina Smrti",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Mrtvo more, smješteno između Izraela i Jordana, nalazi se na oko -430 metara ispod razine mora (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna regija koja se proteže od Aljaske do Patagonije, pretežno uz zapadnu obalu Sjeverne i Južne Amerike, a poznata je po čestoj seizmičkoj i vulkanskoj aktivnosti?",
+        "correct_answer": "Pacifički vatreni prsten",
+        "incorrect_answers": [
+            "Atlantski rift",
+            "Afrički rift",
+            "Alpski orogen"
+        ],
+        "explanation": "Pacifički vatreni prsten je područje u Tihom oceanu gdje se nalaze mnogi vulkani i seizmička aktivnost zbog sudara tektonskih ploča.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koja je država poznata po svom kanalu koji povezuje Atlantski i Tihi ocean?",
+        "correct_answer": "Panama",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Nikaragva",
+            "Kostarika"
+        ],
+        "explanation": "Panamski kanal je umjetni kanal u Panami koji značajno skraćuje morski put između Atlantskog i Tihog oceana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni proces kojim se stijene raspadaju na manje komade zbog promjena temperature, smrzavanja vode ili djelovanja biljaka i životinja?",
+        "correct_answer": "Fizikalno trošenje",
+        "incorrect_answers": [
+            "Kemijsko trošenje",
+            "Eroza",
+            "Sedimentacija"
+        ],
+        "explanation": "Fizikalno trošenje (mehaničko) je proces raspadanja stijena bez promjene njihovog kemijskog sastava.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Koja je najmanja država po površini na svijetu?",
+        "correct_answer": "Vatikan",
+        "incorrect_answers": [
+            "Monako",
+            "San Marino",
+            "Lihtenštajn"
+        ],
+        "explanation": "Grad-država Vatikan je najmanja suverena država na svijetu, smještena unutar Rima u Italiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2014",
+        "category": "geografija",
+        "question": "Koji kontinent, isključujući Antarktiku, nema niti jedan aktivni vulkan na kopnu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija nema aktivnih vulkana na kopnu (iako ih ima na nekim vanjskim otocima koji pripadaju kontinentu), što je čini geološki stabilnom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2015",
+        "category": "geografija",
+        "question": "Koja je rijeka najdulja u Južnoj Americi?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Parana",
+            "Orinoco",
+            "Magdalena"
+        ],
+        "explanation": "Amazon je najduža rijeka Južne Amerike i, po novijim mjerenjima, najduža rijeka na svijetu (stanje 2024.), duža od Nila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
