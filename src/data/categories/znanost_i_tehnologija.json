@@ -30445,5 +30445,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja fizikalna veličina mjeri brzinu promjene brzine?",
+        "correct_answer": "Ubrzanje",
+        "incorrect_answers": [
+            "Snaga",
+            "Masa",
+            "Rad"
+        ],
+        "explanation": "Ubrzanje je vektorska veličina koja opisuje promjenu brzine tijela u jedinici vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji je planet poznat kao \"Crveni planet\"?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je poznat po svojoj crvenkastoj boji, koju uzrokuje željezni oksid na njegovoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja boja svjetlosti ima najkraću valnu duljinu u vidljivom spektru?",
+        "correct_answer": "Ljubičasta",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Žuta"
+        ],
+        "explanation": "Unutar vidljivog spektra, ljubičasta svjetlost ima najkraću valnu duljinu i najveću frekvenciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je pH neutralne otopine na temperaturi od 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine, a vrijednost 7 označava neutralnu otopinu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koja krvna grupa se smatra univerzalnim primateljem u ABO sustavu?",
+        "correct_answer": "AB+",
+        "incorrect_answers": [
+            "O-",
+            "A+",
+            "B-"
+        ],
+        "explanation": "Osobe s krvnom grupom AB+ imaju antigene A i B te Rh faktor, pa mogu primiti krv od svih ABO i Rh tipova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je službena klasifikacija Plutona od 2006. godine?",
+        "correct_answer": "Patuljasti planet",
+        "incorrect_answers": [
+            "Planet",
+            "Mjesec",
+            "Asteroid"
+        ],
+        "explanation": "Međunarodna astronomska unija 2006. godine redefinirala je pojam planeta, a Pluton nije zadovoljio sve kriterije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koji je decimalni ekvivalent binarnog broja 1011?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "13",
+            "10"
+        ],
+        "explanation": "Binarni 1011 se prevodi kao 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 8 + 0 + 2 + 1 = 11.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Što je SI jedinica za magnetski tok?",
+        "correct_answer": "Weber",
+        "incorrect_answers": [
+            "Tesla",
+            "Gauss",
+            "Henri"
+        ],
+        "explanation": "Weber (Wb) je izvedena SI jedinica magnetskog toka, nazvana po njemačkom fizičaru Wilhelmu Eduardu Weberu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji je naziv za organske spojeve koji sadrže funkcionalnu skupinu -COOH (karboksilna skupina)?",
+        "correct_answer": "Karboksilne kiseline",
+        "incorrect_answers": [
+            "Alkoholi",
+            "Aldehidi",
+            "Esteri"
+        ],
+        "explanation": "Karboksilne kiseline su organski spojevi s karboksilnom skupinom, koja im daje kisela svojstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcionalna jedinica bubrega odgovorna za filtraciju krvi?",
+        "correct_answer": "Nefron",
+        "incorrect_answers": [
+            "Neuron",
+            "Hepatocit",
+            "Alveola"
+        ],
+        "explanation": "Svaki bubreg sadrži milijune nefrona koji filtriraju krv, reapsorbiraju korisne tvari i izlučuju otpad.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji je najrašireniji otvoreni sustav za upravljanje bazama podataka (DBMS) koji koristi SQL?",
+        "correct_answer": "MySQL",
+        "incorrect_answers": [
+            "PostgreSQL",
+            "MongoDB",
+            "Oracle Database"
+        ],
+        "explanation": "MySQL je popularan relacijski sustav za upravljanje bazama podataka s otvorenim kodom, široko korišten za web aplikacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je SI jedinica za snagu?",
+        "correct_answer": "Vat (Watt)",
+        "incorrect_answers": [
+            "Džul (Joule)",
+            "Volt",
+            "Amper"
+        ],
+        "explanation": "Vat je jedinica za snagu u Međunarodnom sustavu jedinica (SI), definiran kao jedan džul u sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji se element nalazi u dijamantima i grafitu?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Silicij",
+            "Željezo",
+            "Titan"
+        ],
+        "explanation": "Dijamant i grafit su alotropske modifikacije ugljika, što znači da su oba građena isključivo od atoma ugljika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji dio biljke upija vodu i hranjive tvari iz tla?",
+        "correct_answer": "Korijen",
+        "incorrect_answers": [
+            "Stabljika",
+            "List",
+            "Cvijet"
+        ],
+        "explanation": "Korijenov sustav sidri biljku u tlu i primarno je odgovoran za apsorpciju vode i minerala.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je najbliža zvijezda Zemlji?",
+        "correct_answer": "Sunce",
+        "incorrect_answers": [
+            "Proxima Centauri",
+            "Sirius",
+            "Alfa Centauri"
+        ],
+        "explanation": "Sunce je zvijezda oko koje Zemlja kruži, pružajući svjetlost i toplinu ključne za život.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja kratica označava RAM u računalnoj memoriji?",
+        "correct_answer": "Random Access Memory",
+        "incorrect_answers": [
+            "Read Only Memory",
+            "Remote Access Module",
+            "Rapid Access Memory"
+        ],
+        "explanation": "RAM je vrsta računalne memorije kojoj se može pristupiti nasumičnim redoslijedom i koristi se za pohranu podataka koje procesor aktivno koristi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva pretvaranje izmjenične struje (AC) u istosmjernu struju (DC)?",
+        "correct_answer": "Ispravljanje (Rektifikacija)",
+        "incorrect_answers": [
+            "Indukcija",
+            "Transformacija",
+            "Modulacija"
+        ],
+        "explanation": "Ispravljanje je proces u kojem se diodama ili drugim poluvodičkim uređajima izmjenična struja pretvara u istosmjernu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji dio mozga odgovoran za ravnotežu i koordinaciju pokreta?",
+        "correct_answer": "Mali mozak (Cerebellum)",
+        "incorrect_answers": [
+            "Veliki mozak (Cerebrum)",
+            "Moždano deblo",
+            "Hipotalamus"
+        ],
+        "explanation": "Mali mozak ima ključnu ulogu u motoričkoj kontroli, pomažući u koordinaciji voljnih pokreta, ravnoteži i držanju tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja je galaksija najbliža Mliječnoj stazi?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut",
+            "Vrtlog",
+            "Sombrero"
+        ],
+        "explanation": "Andromeda (M31) je spiralna galaksija udaljena oko 2,5 milijuna svjetlosnih godina i najveća je u Lokalnoj Grupi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji se uređaj koristi za povezivanje različitih računalnih mreža i prosljeđivanje paketa podataka između njih?",
+        "correct_answer": "Router",
+        "incorrect_answers": [
+            "Switch",
+            "Hub",
+            "Modem"
+        ],
+        "explanation": "Router analizira mrežne adrese paketa podataka i usmjerava ih prema njihovom odredištu u različitim mrežama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja je pojava kada se svjetlost ili drugi valovi savijaju oko prepreke ili prolaze kroz mali otvor?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Refleksija",
+            "Interferencija"
+        ],
+        "explanation": "Difrakcija je pojava koja se događa kada valovi naiđu na prepreku ili otvor, uzrokujući širenje valova.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija u kojoj se kisik oduzima nekoj tvari?",
+        "correct_answer": "Redukcija",
+        "incorrect_answers": [
+            "Oksidacija",
+            "Neutralizacija",
+            "Hidroliza"
+        ],
+        "explanation": "Redukcija je proces primanja elektrona, što često uključuje smanjenje oksidacijskog broja atoma ili gubitak kisika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji se proces naziva programiranom staničnom smrću, ključnim za razvoj i održavanje tkiva?",
+        "correct_answer": "Apoptoza",
+        "incorrect_answers": [
+            "Nekroza",
+            "Mitoza",
+            "Mejoza"
+        ],
+        "explanation": "Apoptoza je genetski kontroliran proces stanične smrti koji omogućuje uklanjanje oštećenih ili nepotrebnih stanica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Kako se naziva teorija koja opisuje nastanak i evoluciju zvijezda i planeta iz oblaka plina i prašine?",
+        "correct_answer": "Nebularna hipoteza",
+        "incorrect_answers": [
+            "Teorija Velikog praska",
+            "Kvantna teorija",
+            "Teorija struna"
+        ],
+        "explanation": "Nebularna hipoteza objašnjava da se Sunčev sustav formirao iz rotirajućeg oblaka plina i prašine koji se urušio pod vlastitom gravitacijom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje brzine prijenosa podataka, obično u bitovima po sekundi?",
+        "correct_answer": "Propusnost (Bandwidth)",
+        "incorrect_answers": [
+            "Latencija",
+            "Frekvencija",
+            "Protokol"
+        ],
+        "explanation": "Propusnost označava maksimalnu količinu podataka koja se može prenijeti preko mrežne veze u određenom vremenskom intervalu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se zove proces kojim se zvuk odbija od prepreke i vraća izvoru?",
+        "correct_answer": "Eho",
+        "incorrect_answers": [
+            "Rezonancija",
+            "Refrakcija",
+            "Vibracija"
+        ],
+        "explanation": "Eho je pojava refleksije zvuka od površine koja se vraća do slušatelja nakon što je izvorni zvuk prestao.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji se metal koristi u termometrima zbog svog tekućeg stanja na sobnoj temperaturi?",
+        "correct_answer": "Živa",
+        "incorrect_answers": [
+            "Olovo",
+            "Bakar",
+            "Aluminij"
+        ],
+        "explanation": "Živa je jedini metal koji je tekući na sobnoj temperaturi, što je čini korisnom za mjerenje temperature.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se zove znanstvena grana koja proučava kukce?",
+        "correct_answer": "Entomologija",
+        "incorrect_answers": [
+            "Zoologija",
+            "Botanika",
+            "Mikologija"
+        ],
+        "explanation": "Entomologija je grana zoologije koja se specifično bavi proučavanjem insekata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se zove sustav koji omogućava bežičnu razmjenu podataka na kratke udaljenosti, često korišten za slušalice i zvučnike?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "Ethernet"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija koja omogućuje prijenos podataka između uređaja na kratkim udaljenostima pomoću radio valova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koja je temeljna interakcija odgovorna za radioaktivni raspad atoma i promjenu nuklearnog sastava?",
+        "correct_answer": "Slaba nuklearna sila",
+        "incorrect_answers": [
+            "Jaka nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ],
+        "explanation": "Slaba nuklearna sila je odgovorna za procese kao što je beta-raspad, gdje se neutron pretvara u proton (ili obratno).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je kemijski proces kojim se metal postupno uništava zbog reakcije s okolinom (npr. hrđanje)?",
+        "correct_answer": "Korozija",
+        "incorrect_answers": [
+            "Fermentacija",
+            "Kondenzacija",
+            "Vapnjenje"
+        ],
+        "explanation": "Korozija je kemijska ili elektrokemijska reakcija metala s okolinom, što dovodi do njegovog propadanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji su vitamini topljivi u mastima?",
+        "correct_answer": "A, D, E, K",
+        "incorrect_answers": [
+            "B, C",
+            "B i C",
+            "Sve skupine vitamina"
+        ],
+        "explanation": "Vitamini topljivi u mastima (A, D, E, K) apsorbiraju se uz pomoć masti i pohranjuju se u masnom tkivu tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja programskog koda visoke razine (npr. C++, Java) u strojni kod koji računalo može izravno izvršiti?",
+        "correct_answer": "Kompilacija",
+        "incorrect_answers": [
+            "Interpretacija",
+            "Debugiranje",
+            "Enkripcija"
+        ],
+        "explanation": "Kompilacija je proces prevođenja cijelog izvornog koda u izvršni strojni kod prije samog pokretanja programa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva hipotetsko područje oko zvijezde gdje temperature omogućuju postojanje tekuće vode na površini planeta?",
+        "correct_answer": "Nastanjiva zona (Goldilocks zona)",
+        "incorrect_answers": [
+            "Ozon zona",
+            "Zvjezdana zona",
+            "Zona smrzavanja"
+        ],
+        "explanation": "Nastanjiva zona je idealna udaljenost od zvijezde gdje uvjeti nisu previše vrući ni previše hladni za tekuću vodu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji fenomen opisuje smanjenje intenziteta zvuka ili svjetlosti dok putuje kroz medij?",
+        "correct_answer": "Apsorpcija",
+        "incorrect_answers": [
+            "Emisija",
+            "Refleksija",
+            "Difrakcija"
+        ],
+        "explanation": "Apsorpcija je proces u kojem medij preuzima energiju vala (zvuka ili svjetlosti) i pretvara je u drugi oblik energije, obično toplinu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
