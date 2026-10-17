@@ -30445,5 +30445,410 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji plin najviše pridonosi efektu staklenika na Zemlji?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Metan",
+            "Vodena para",
+            "Dušikov oksid"
+        ],
+        "explanation": "Iako je vodena para najzastupljeniji staklenički plin, ugljikov dioksid (CO2) smatra se glavnim pokretačem globalnog zatopljenja zbog ljudskih aktivnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva proces pri kojem svjetlost mijenja smjer kada prolazi iz jednog medija u drugi?",
+        "correct_answer": "Refrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Apsorpcija"
+        ],
+        "explanation": "Refrakcija je pojava savijanja svjetlosnih zraka pri prijelazu iz jednog optički prozirnog sredstva u drugo, uzrokovana promjenom brzine svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Što je 'algoritam' u kontekstu računarstva?",
+        "correct_answer": "Skup preciznih uputa za rješavanje problema",
+        "incorrect_answers": [
+            "Programski jezik",
+            "Vrsta računalne memorije",
+            "Operativni sustav"
+        ],
+        "explanation": "Algoritam je dobro definiran postupak ili skup uputa za rješavanje specifičnog problema ili obavljanje zadatka, često korišten u programiranju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja informacija iz genetskog koda DNA u RNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se segment DNA kopira u RNA molekulu, dok je translacija pretvaranje RNA u proteine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje otpora protoku električne struje?",
+        "correct_answer": "Otpor (resistance)",
+        "incorrect_answers": [
+            "Napon",
+            "Struja",
+            "Snaga"
+        ],
+        "explanation": "Otpor je svojstvo materijala koje se suprotstavlja protoku električne struje, a mjeri se u omima (Ω).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Što proučava grana biologije poznata kao ekologija?",
+        "correct_answer": "Odnose organizama i njihove okoline",
+        "incorrect_answers": [
+            "Građu živih bića",
+            "Nasljeđivanje genetskih osobina",
+            "Kemijske procese u stanicama"
+        ],
+        "explanation": "Ekologija je znanstvena disciplina koja proučava interakcije između živih organizama i njihove abiotičke (nežive) okoline, uključujući ekosustave.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koju tehnologiju koriste satelitski navigacijski sustavi poput GPS-a za određivanje lokacije?",
+        "correct_answer": "Mjerenje vremena signala",
+        "incorrect_answers": [
+            "Magnetsko polje Zemlje",
+            "Gravitacijske valove",
+            "Atmosferski tlak"
+        ],
+        "explanation": "GPS sustav određuje lokaciju mjereći vrijeme potrebno za prijem signala od najmanje četiri satelita, što omogućuje izračun udaljenosti i položaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Što je 'pixel' u digitalnoj slici?",
+        "correct_answer": "Najmanji pojedinačni element slike",
+        "incorrect_answers": [
+            "Datotečni format slike",
+            "Program za obradu slike",
+            "Složen algoritam"
+        ],
+        "explanation": "Pixel (picture element) je najmanja kontrolirana točka u digitalnoj slici ili na zaslonu, koja prikazuje jednu boju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija ozonskog omotača u Zemljinoj atmosferi?",
+        "correct_answer": "Apsorpcija štetnog UV zračenja",
+        "incorrect_answers": [
+            "Regulacija temperature",
+            "Proizvodnja kisika",
+            "Stvaranje oblaka"
+        ],
+        "explanation": "Ozonski omotač u stratosferi apsorbira većinu štetnog ultraljubičastog (UV) zračenja sa Sunca, štiteći život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Što je RAM u računalnom sustavu?",
+        "correct_answer": "Privremena memorija za brzi pristup podacima",
+        "incorrect_answers": [
+            "Trajna pohrana podataka",
+            "Grafički procesor",
+            "Mrežni adapter"
+        ],
+        "explanation": "RAM (Random Access Memory) je vrsta računalne memorije koja omogućuje vrlo brz pristup podacima koje procesor aktivno koristi, ali sadržaj se gubi isključivanjem napajanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se naziva proces taloženja tvari iz otopine u čvrsto stanje?",
+        "correct_answer": "Kristalizacija",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Destilacija",
+            "Fotosinteza"
+        ],
+        "explanation": "Kristalizacija je proces kojim se kruta tvar s visoko uređenom atomskom strukturom (kristal) formira iz otopine, taline ili plina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je kemijski spoj glavni sastojak mramora i školjaka?",
+        "correct_answer": "Kalcijev karbonat",
+        "incorrect_answers": [
+            "Natrijev klorid",
+            "Silicijev dioksid",
+            "Magnezijev sulfat"
+        ],
+        "explanation": "Kalcijev karbonat (CaCO3) je uobičajena tvar koja se nalazi u prirodi u obliku minerala kalcita i aragonita, te kao glavni sastojak mramora i školjaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Tko je razvio prvu teoriju relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Niels Bohr",
+            "Marie Curie"
+        ],
+        "explanation": "Albert Einstein je 1905. objavio specijalnu teoriju relativnosti, a 1915. opću teoriju relativnosti, revolucionirajući fiziku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja se boja svjetlosti najviše lomi kada prolazi kroz prizmu?",
+        "correct_answer": "Ljubičasta",
+        "incorrect_answers": [
+            "Crvena",
+            "Žuta",
+            "Zelena"
+        ],
+        "explanation": "Ljubičasta svjetlost ima najkraću valnu duljinu i najveću frekvenciju u vidljivom spektru, pa se najviše lomi (skreće) pri prolasku kroz prizmu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je naziv za uređaj koji pretvara kemijsku energiju u električnu energiju putem redoks reakcija?",
+        "correct_answer": "Baterija (galvanski članak)",
+        "incorrect_answers": [
+            "Motor",
+            "Generator",
+            "Kondenzator"
+        ],
+        "explanation": "Baterija, ili galvanski članak, elektrokemijski je uređaj koji skladišti energiju u kemijskim reakcijama i oslobađa je kao električnu struju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Što je 'URL' u internetskom kontekstu?",
+        "correct_answer": "Jedinstveni lokator resursa",
+        "incorrect_answers": [
+            "Univerzalni referentni link",
+            "Unutarnji registar lokacija",
+            "Udaljeni resursni labirint"
+        ],
+        "explanation": "URL (Uniform Resource Locator) je referenca na web-resurs koja specificira njegovu lokaciju na računalnoj mreži i mehanizam za dohvaćanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je naziv za tehniku uzgoja biljaka bez tla, koristeći hranjivu otopinu?",
+        "correct_answer": "Hidroponika",
+        "incorrect_answers": [
+            "Aeroponika",
+            "Geoponika",
+            "Permakultura"
+        ],
+        "explanation": "Hidroponika je metoda uzgoja biljaka korištenjem mineralnih hranjivih otopina u vodi, bez upotrebe tla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja je funkcija leće u ljudskom oku?",
+        "correct_answer": "Fokusiranje svjetlosti na mrežnicu",
+        "incorrect_answers": [
+            "Percepcija boja",
+            "Regulacija količine svjetlosti",
+            "Zaštita oka od oštećenja"
+        ],
+        "explanation": "Leća u oku je prozirna, biconveksna struktura koja lomi svjetlost i fokusira je na mrežnicu, omogućujući stvaranje jasne slike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji je najčešći element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik čini oko 75% svemirske mase i nalazi se u zvijezdama, plinskim oblacima i međuplanetarnom prostoru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim se nuklearne elektrane koriste za proizvodnju električne energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Termalna konverzija"
+        ],
+        "explanation": "Nuklearne elektrane koriste nuklearnu fisiju, proces cijepanja teških atomskih jezgri (npr. urana) kako bi se oslobodila energija za zagrijavanje vode i pokretanje turbina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji je osnovni princip rada laserskog uređaja?",
+        "correct_answer": "Stimulirana emisija zračenja",
+        "incorrect_answers": [
+            "Spontana emisija zračenja",
+            "Apsorpcija fotona",
+            "Interferencija valova"
+        ],
+        "explanation": "Laser (Light Amplification by Stimulated Emission of Radiation) proizvodi koherentnu svjetlost pojačavanjem svjetlosti stimuliranom emisijom fotona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za mjerenje starosti arheoloških nalaza i fosila na temelju raspada radioaktivnog izotopa ugljika-14?",
+        "correct_answer": "Radiougljično datiranje",
+        "incorrect_answers": [
+            "Dendrokronologija",
+            "Termoluminiscencija",
+            "Kalij-argonsko datiranje"
+        ],
+        "explanation": "Radiougljično datiranje (C-14 datiranje) koristi poznatu brzinu raspada izotopa ugljika-14 za procjenu starosti organskih materijala starih do 50.000 godina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Što je 'blockchain' tehnologija?",
+        "correct_answer": "Distribuirana, decentralizirana baza podataka",
+        "incorrect_answers": [
+            "Vrsta operativnog sustava",
+            "Metoda enkripcije podataka",
+            "Protokol za bežično umrežavanje"
+        ],
+        "explanation": "Blockchain je distribuirana knjiga transakcija koja se sastoji od blokova podataka povezanih kriptografskim metodama, osiguravajući integritet i nepromjenjivost podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je element poznat kao 'kralj metala' zbog svoje otpornosti na koroziju i kemijsku inertnost?",
+        "correct_answer": "Platina",
+        "incorrect_answers": [
+            "Zlato",
+            "Srebro",
+            "Željezo"
+        ],
+        "explanation": "Platina je plemeniti metal visoke gustoće, poznat po izuzetnoj otpornosti na koroziju i oksidaciju, čak i pri visokim temperaturama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između vektorske i rasterske grafike?",
+        "correct_answer": "Vektorska grafika koristi matematičke putanje, rasterska piksele",
+        "incorrect_answers": [
+            "Vektorska je uvijek manja datoteka",
+            "Rasterska se može zumirati bez gubitka kvalitete",
+            "Vektorska se koristi samo za fotografije"
+        ],
+        "explanation": "Vektorska grafika definira objekte matematičkim formulama i može se skalirati bez gubitka kvalitete, dok rasterska grafika koristi mrežu piksela i gubi kvalitetu pri skaliranju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji dio mozga kontrolira osnovne funkcije poput disanja, otkucaja srca i spavanja?",
+        "correct_answer": "Moždano deblo",
+        "incorrect_answers": [
+            "Veliki mozak (cerebrum)",
+            "Mali mozak (cerebellum)",
+            "Talamus"
+        ],
+        "explanation": "Moždano deblo povezuje veliki mozak s leđnom moždinom i kontrolira vitalne automatske funkcije tijela neophodne za preživljavanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je naziv za skupinu zvijezda, plina, prašine i tamne tvari koje drži na okupu gravitacija?",
+        "correct_answer": "Galaksija",
+        "incorrect_answers": [
+            "Planetarni sustav",
+            "Maglica",
+            "Jato zvijezda"
+        ],
+        "explanation": "Galaksija je masivan, gravitacijski vezan sustav koji se sastoji od zvijezda, zvjezdanih ostataka, međuzvjezdanog plina, prašine i tamne tvari. Naša galaksija je Mliječna staza.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
