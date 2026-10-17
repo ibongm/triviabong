@@ -25139,5 +25139,470 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najniža kopnena točka na svijetu?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Dolina smrti",
+            "Kaspijsko jezero",
+            "Jezero Eyre"
+        ],
+        "explanation": "Obala Mrtvog mora je najniža kopnena točka na Zemlji, smještena oko 430 metara ispod razine mora (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz glavni grad Francuske, Pariz?",
+        "correct_answer": "Sena",
+        "incorrect_answers": [
+            "Loire",
+            "Rajna",
+            "Garonne"
+        ],
+        "explanation": "Sena je rijeka duga 777 km koja teče kroz Pariz i ulijeva se u La Manche. Igra važnu ulogu u povijesti i životu grada.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planinskog lanca Dinarida, smješten u Hrvatskoj, a dominira Jadranskom obalom?",
+        "correct_answer": "Dinara",
+        "incorrect_answers": [
+            "Biokovo",
+            "Velebit",
+            "Mosor"
+        ],
+        "explanation": "Dinara, s vrhom Sinjal (1831 m), najviši je vrh u Hrvatskoj i daje ime cijelom planinskom lancu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva područje gdje se rijeka ulijeva u more ili jezero, često stvarajući nanosne sedimentne oblike poput delte?",
+        "correct_answer": "Ušće",
+        "incorrect_answers": [
+            "Izvor",
+            "Pritoka",
+            "Meandar"
+        ],
+        "explanation": "Ušće je završni dio rijeke gdje se njezina voda miješa s vodom većeg vodenog tijela, akumulirajući sediment.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni fenomen gdje se voda diže i spušta u oceanima zbog gravitacije Mjeseca i Sunca?",
+        "correct_answer": "Plima i oseka",
+        "incorrect_answers": [
+            "Morske struje",
+            "Tsunamiji",
+            "Konvekcija"
+        ],
+        "explanation": "Plima je dizanje, a oseka spuštanje razine mora, a ovaj fenomen se ponavlja u pravilnim ciklusima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja je najdublja točka Zemljine površine, smještena u Tihom oceanu?",
+        "correct_answer": "Marijanska brazda",
+        "incorrect_answers": [
+            "Portorikanski rov",
+            "Javanska brazda",
+            "Kajmanska brazda"
+        ],
+        "explanation": "Marijanska brazda doseže dubinu od oko 11.000 metara, čime je najdublji poznati dio svih oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva komad kopna potpuno okružen vodom?",
+        "correct_answer": "Otok",
+        "incorrect_answers": [
+            "Poluotok",
+            "Kontinent",
+            "Rt"
+        ],
+        "explanation": "Otok je relativno mala kopnena masa koja je sa svih strana okružena vodom, za razliku od kontinenta koji je mnogo veći.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je rijeka, prema većini izvora (stanje 2024.), najdulja na svijetu?",
+        "correct_answer": "Amazona",
+        "incorrect_answers": [
+            "Nil",
+            "Jangce",
+            "Mississippi"
+        ],
+        "explanation": "Amazona je, uzimajući u obzir složenost njezinih pritoka, prepoznata kao dulja od Nila. Obje rijeke su predmet dugotrajnih mjerenja i rasprava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koji je najviši aktivni vulkan na svijetu?",
+        "correct_answer": "Ojos del Salado",
+        "incorrect_answers": [
+            "Kilimanjaro",
+            "Mauna Loa",
+            "Popocatépetl"
+        ],
+        "explanation": "Ojos del Salado, smješten na granici Čilea i Argentine, najviši je aktivni vulkan na svijetu i drugi najviši vrh Anda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji tjesnac, širok samo 83 kilometra na najužem dijelu, povezuje Aziju i Sjevernu Ameriku?",
+        "correct_answer": "Beringov prolaz",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Bospor",
+            "Sueski kanal"
+        ],
+        "explanation": "Beringov prolaz povezuje Čukotsko more (dio Arktičkog oceana) i Beringovo more (dio Tihog oceana), razdvajajući Rusiju i SAD.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koji je vulkan, smješten na Havajima, poznat kao jedan od najaktivnijih na svijetu?",
+        "correct_answer": "Kilauea",
+        "incorrect_answers": [
+            "Etna",
+            "Stromboli",
+            "Fuji"
+        ],
+        "explanation": "Kilauea, štitasti vulkan, neprekidno eruptira od 1983. do 2018. godine, s povremenim erupcijama i nakon toga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva najjužnija točka Južne Amerike, poznata po olujnom vremenu?",
+        "correct_answer": "Rt Horn",
+        "incorrect_answers": [
+            "Rt dobre nade",
+            "Rt Agulhas",
+            "Magellanov prolaz"
+        ],
+        "explanation": "Rt Horn je najjužniji rt kopnene mase Južne Amerike, smješten na otočiću Hornos u Čileu. Dio je Drakeovog prolaza.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je država, prema procjenama (stanje 2024.), najveća po broju stanovnika na svijetu?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Indija je pretekla Kinu po broju stanovnika te se procjenjuje da je njezina populacija oko 1,428 milijardi ljudi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji je grad (metropolitansko područje) najnaseljeniji na svijetu (stanje 2024.)?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Delhi",
+            "Šangaj",
+            "Sao Paulo"
+        ],
+        "explanation": "Tokio, s populacijom od preko 37 milijuna ljudi u širem metropolitanskom području, drži titulu najnaseljenijeg grada.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je jedini kontinent koji se proteže na sve četiri Zemljine hemisfere (sjevernu, južnu, istočnu i zapadnu)?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Oceanija"
+        ],
+        "explanation": "Afrika jedina ima teritorij sjeverno, južno, istočno i zapadno od ekvatora i nultog meridijana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja se rijeka smatra najsvetijom u hinduizmu?",
+        "correct_answer": "Ganges",
+        "incorrect_answers": [
+            "Ind",
+            "Brahmaputra",
+            "Yamuna"
+        ],
+        "explanation": "Ganges je sveta rijeka koja izvire u Himalaji i protječe kroz sjevernu Indiju i Bangladeš. Hodočasnici se kupaju u njoj zbog duhovnog pročišćenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koju se regiju u središnjoj Aziji zbog njene iznimno velike nadmorske visine često naziva \"Krovom svijeta\"?",
+        "correct_answer": "Tibetanska visoravan",
+        "incorrect_answers": [
+            "Himalaja",
+            "Pamir",
+            "Altaj"
+        ],
+        "explanation": "Tibetanska visoravan je najveća i najviša visoravan na svijetu, prosječne visine preko 4.500 metara iznad razine mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja je najviša plovna vodena površina (jezero) na svijetu?",
+        "correct_answer": "Jezero Titicaca",
+        "incorrect_answers": [
+            "Jezero Baikal",
+            "Jezero Tahoe",
+            "Jezero Maracaibo"
+        ],
+        "explanation": "Jezero Titicaca, smješteno u Andama na granici Perua i Bolivije, nalazi se na nadmorskoj visini od 3.812 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koja je najgušće naseljena država na svijetu?",
+        "correct_answer": "Monako",
+        "incorrect_answers": [
+            "Singapur",
+            "Vatikan",
+            "Bahrein"
+        ],
+        "explanation": "Monako, kneževina na Azurnoj obali, ima preko 26.000 stanovnika po kvadratnom kilometru (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Kako se naziva fenomen kada se pustinja formira na zavjetrinskoj strani planinskog lanca zbog zadržavanja vlage na privjetrinskoj strani?",
+        "correct_answer": "Kišna sjena",
+        "incorrect_answers": [
+            "Orografska barijera",
+            "Konvekcijska pustinja",
+            "Sušna zona"
+        ],
+        "explanation": "Planinski lanci blokiraju vlažne zračne mase, uzrokujući oborine na jednoj strani, dok druga strana ostaje suha i stvara pustinju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja na svijetu po površini?",
+        "correct_answer": "Antarktička polarna pustinja",
+        "incorrect_answers": [
+            "Sahara",
+            "Arabska pustinja",
+            "Gobi"
+        ],
+        "explanation": "Antarktička polarna pustinja, iako prekrivena ledom, ima iznimno niske padaline, što je čini tehnički najvećom pustinjom na Zemlji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je država s najvećim brojem službenih jezika?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Južnoafrička Republika",
+            "Švicarska",
+            "Bolivija"
+        ],
+        "explanation": "Indija ima 22 službeno priznata jezika prema Ustavu, iako se koristi mnogo više.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koji je grad po površini najveći na svijetu?",
+        "correct_answer": "New York City",
+        "incorrect_answers": [
+            "Šangaj",
+            "Tokio",
+            "London"
+        ],
+        "explanation": "New York City, uključujući pet gradskih četvrti, obuhvaća široko metropolitansko područje koje ga čini jednim od najvećih gradova po ukupnoj površini.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se veliki komadi leda odvajaju od ledenjaka ili ledene police i padaju u more, stvarajući sante leda?",
+        "correct_answer": "Teljenje ledenjaka",
+        "incorrect_answers": [
+            "Glacijalna erozija",
+            "Otapanje",
+            "Akumulacija leda"
+        ],
+        "explanation": "Ovaj proces je ključan za dinamiku ledenjaka i formiranje santi leda, te značajno utječe na porast razine mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva geološki proces nastanka planina uslijed tektonskih sila?",
+        "correct_answer": "Orogeneza",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfizam"
+        ],
+        "explanation": "Orogeneza uključuje nabiranje i rasjedanje Zemljine kore, što dovodi do izdizanja i oblikovanja planinskih lanaca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Kako se naziva linija na topografskoj karti koja spaja točke jednake nadmorske visine?",
+        "correct_answer": "Izohipsa",
+        "incorrect_answers": [
+            "Izoterma",
+            "Izobara",
+            "Izohalina"
+        ],
+        "explanation": "Izohipse (ili slojnice) su osnovni element topografskih karata i služe za prikazivanje reljefa terena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koji je najdulji umjetni kanal na svijetu?",
+        "correct_answer": "Veliki kanal (Kina)",
+        "incorrect_answers": [
+            "Sueski kanal",
+            "Panamski kanal",
+            "Kielski kanal"
+        ],
+        "explanation": "Veliki kanal u Kini, dug preko 1776 km, povezuje Peking i Hangzhou, a građen je kroz nekoliko stoljeća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koja je prijestolnica jedina na svijetu smještena dijelom ispod razine mora?",
+        "correct_answer": "Amsterdam",
+        "incorrect_answers": [
+            "Kopenhagen",
+            "Stockholm",
+            "Venecija"
+        ],
+        "explanation": "Amsterdam je izgrađen na polderima i nasipima, a značajan dio grada nalazi se ispod razine mora, zaštićen sustavom brana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koja je najveća poznata špilja na svijetu po volumenu?",
+        "correct_answer": "Son Doong (Vijetnam)",
+        "incorrect_answers": [
+            "Mammoth Cave (SAD)",
+            "Postojnska jama (Slovenija)",
+            "Jeita Grotto (Libanon)"
+        ],
+        "explanation": "Son Doong špilja u Vijetnamu je toliko velika da ima vlastiti ekosustav, uključujući šumu i rijeku, unutar sebe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Koja država na svijetu, uz Rusiju, graniči s najvećim brojem drugih država (14 kopnenih granica)?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Indija",
+            "Njemačka",
+            "Kanada"
+        ],
+        "explanation": "Kina i Rusija su države s najviše kopnenih granica, svaka graniči s 14 drugih zemalja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Koja država ima najveći broj piramida na svijetu?",
+        "correct_answer": "Sudan",
+        "incorrect_answers": [
+            "Egipat",
+            "Meksiko",
+            "Peru"
+        ],
+        "explanation": "Sudan ima preko 200 piramida, što je dvostruko više od Egipta, izgrađenih od strane drevnog kraljevstva Kuš.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
