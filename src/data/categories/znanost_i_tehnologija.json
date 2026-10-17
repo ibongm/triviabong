@@ -30445,5 +30445,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja molekularna struktura nalik dvostrukoj spirali sadrži genetske upute koje se koriste u razvoju i funkcioniranju svih poznatih živih organizama?",
+        "correct_answer": "DNA (Deoksiribonukleinska kiselina)",
+        "incorrect_answers": [
+            "RNA",
+            "Protein",
+            "ATP"
+        ],
+        "explanation": "DNA je dvostruka spirala koja nosi genetske informacije i ključna je za nasljeđivanje i sintezu proteina. Njena struktura omogućuje precizno kopiranje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Tko je formulirao zakon univerzalne gravitacije koji opisuje privlačnu silu između dvaju tijela s masom?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Isaac Newton je u 17. stoljeću objavio Zakon univerzalne gravitacije, objašnjavajući kako se objekti međusobno privlače. To je temelj klasične mehanike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se zvao prvi elektronički digitalni programabilni računalni stroj opće namjene, dovršen 1945. godine?",
+        "correct_answer": "ENIAC",
+        "incorrect_answers": [
+            "UNIVAC",
+            "Colossus",
+            "Z3"
+        ],
+        "explanation": "ENIAC (Electronic Numerical Integrator and Computer) je bio prvi takav stroj, razvijen na Sveučilištu u Pennsylvaniji za vojne potrebe. Označio je početak moderne računalne ere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja je neutralna vrijednost na pH ljestvici, koja označava niti kiselo niti lužnato rješenje?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH ljestvica se kreće od 0 do 14. Vrijednost 7 predstavlja neutralnu otopinu, kao što je čista voda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji plin biljke apsorbiraju iz atmosfere tijekom procesa fotosinteze?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Metan"
+        ],
+        "explanation": "Biljke koriste ugljikov dioksid i vodu za stvaranje glukoze i kisika uz pomoć sunčeve svjetlosti u procesu fotosinteze. Ovo je ključno za život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je najmanja čestica elementa koja zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna jedinica materije koja se sastoji od jezgre i elektrona. On definira specifični kemijski element.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je osnovna boja Sunca kada se promatra izvan Zemljine atmosfere?",
+        "correct_answer": "Bijela",
+        "incorrect_answers": [
+            "Žuta",
+            "Crvena",
+            "Narančasta"
+        ],
+        "explanation": "Sunce emitira svjetlost u širokom spektru boja, što se našem oku čini kao bijelo. Žućkasta boja s površine Zemlje je zbog atmosferskog raspršenja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja stanična organela je odgovorna za sintezu proteina, prevođenjem genetskih informacija s mRNA?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Golgi aparat",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Ribosomi su stanične organele koje prevođenjem mRNA molekula sintetiziraju proteine. Oni su ključni za sve stanične funkcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja temperatura predstavlja apsolutnu nulu, teorijsku točku na kojoj je sva molekularna aktivnost zaustavljena?",
+        "correct_answer": "-273.15 °C (ili 0 K)",
+        "incorrect_answers": [
+            "0 °C",
+            "-100 °C",
+            "273.15 °C"
+        ],
+        "explanation": "Apsolutna nula je najniža moguća temperatura, pri kojoj termodinamička aktivnost materije prestaje. U Celzijusovim stupnjevima to je -273.15 °C, odnosno 0 Kelvina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva skup precizno definiranih uputa za rješavanje nekog problema ili obavljanje zadatka?",
+        "correct_answer": "Algoritam",
+        "incorrect_answers": [
+            "Protokol",
+            "Sintaksa",
+            "Kompajler"
+        ],
+        "explanation": "Algoritam je korak-po-korak postupak za izvršavanje zadatka ili rješavanje problema, često se koristi u računalstvu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se naziva područje prostor-vremena iz kojeg ništa, pa čak ni svjetlost, ne može pobjeći zbog iznimno jake gravitacije?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Kvazar",
+            "Pulsar",
+            "Maglica"
+        ],
+        "explanation": "Crne rupe nastaju kolapsom masivnih zvijezda i imaju izuzetno jaku gravitaciju zbog koje ni svjetlost ne može pobjeći izvan 'horizonta događaja'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcionalna jedinica živčanog sustava, odgovorna za prijenos električnih i kemijskih signala?",
+        "correct_answer": "Neuron",
+        "incorrect_answers": [
+            "Nefon",
+            "Hepatocit",
+            "Eritrocit"
+        ],
+        "explanation": "Neuron je živčana stanica koja prenosi impulse i informacije unutar mozga i živčanog sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja skupina elemenata u periodnom sustavu je poznata po svojoj kemijskoj inertnosti i puna je vanjskih elektronskih ljuski?",
+        "correct_answer": "Plemeniti plinovi",
+        "incorrect_answers": [
+            "Alkalijski metali",
+            "Halogeni elementi",
+            "Prijelazni metali"
+        ],
+        "explanation": "Plemeniti plinovi (npr. helij, neon, argon) imaju stabilnu elektronsku konfiguraciju i rijetko sudjeluju u kemijskim reakcijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Kako se naziva sigurnosni sustav koji nadzire i filtrira dolazni i odlazni mrežni promet na temelju unaprijed definiranih sigurnosnih pravila?",
+        "correct_answer": "Vatrozid",
+        "incorrect_answers": [
+            "Antivirus",
+            "VPN",
+            "Ruter"
+        ],
+        "explanation": "Vatrozid (firewall) djeluje kao barijera između sigurne i nesigurne mreže, štiteći sustave od neovlaštenog pristupa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je vodeća znanstvena teorija o nastanku Svemira, sugerirajući da je Svemir nastao iz iznimno guste i vruće točke prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija pulsirajućeg Svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija velikog praska objašnjava širenje Svemira iz početnog singulariteta. To je najprihvaćenija kozmološka teorija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je osnovna razlika između virusa i bakterija u pogledu stanične strukture?",
+        "correct_answer": "Virusi su acelularni (nemaju stanice), dok su bakterije jednostanični organizmi.",
+        "incorrect_answers": [
+            "Bakterije su veće od virusa",
+            "Virusi imaju jezgru, bakterije nemaju",
+            "Bakterije su uvijek patogene, virusi nisu"
+        ],
+        "explanation": "Virusi su paraziti koji se repliciraju unutar živih stanica, dok su bakterije samostalni prokariotski mikroorganizmi s vlastitim staničnim strukturama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze nastaje prijenosom elektrona između atoma, što rezultira stvaranjem iona i elektrostatičkom privlačnošću?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje kada jedan atom preda elektron drugom atomu, stvarajući kation i anion koji se zatim privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji se princip koristi u laserima za pojačavanje svjetlosti kroz stimuliranu emisiju zračenja?",
+        "correct_answer": "Stimulirana emisija",
+        "incorrect_answers": [
+            "Spontana emisija",
+            "Fotoelektrični efekt",
+            "Comptonov efekt"
+        ],
+        "explanation": "Laser funkcionira na principu stimulirane emisije, gdje pobuđeni atomi emitiraju fotone identične onima koji su ih pobudili, stvarajući koherentno svjetlo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Kako se naziva programska paradigma temeljena na konceptu \"objekata\", koji mogu sadržavati podatke (atribute) i kod (metode)?",
+        "correct_answer": "Objektno orijentirano programiranje (OOP)",
+        "incorrect_answers": [
+            "Funkcionalno programiranje",
+            "Proceduralno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "OOP organizira softverski dizajn oko objekata, omogućujući modularnost, ponovnu upotrebu koda i lakše održavanje složenih sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva međuzvjezdani oblak prašine, vodika, helija i drugih ioniziranih plinova, često mjesto nastanka zvijezda?",
+        "correct_answer": "Maglica",
+        "incorrect_answers": [
+            "Galaksija",
+            "Komet",
+            "Asteroid"
+        ],
+        "explanation": "Maglice su golemi oblaci plina i prašine u svemiru. Neke su ostatci eksplodiranih zvijezda, dok su druge područja gdje se rađaju nove zvijezde.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja stanična struktura regulira prolazak tvari u stanicu i izvan nje, te je ključna za održavanje stanične homeostaze?",
+        "correct_answer": "Stanična membrana",
+        "incorrect_answers": [
+            "Stanična stijenka",
+            "Jezgra",
+            "Vakuola"
+        ],
+        "explanation": "Stanična membrana, sastavljena od dvosloja lipida i proteina, selektivno propušta tvari i štiti unutrašnjost stanice od vanjskog okruženja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji zakon kemije nalaže da ukupna masa reaktanata u kemijskoj reakciji mora biti jednaka ukupnoj masi produkata?",
+        "correct_answer": "Zakon očuvanja mase",
+        "incorrect_answers": [
+            "Zakon očuvanja energije",
+            "Zakon umnožnih omjera",
+            "Zakon stalnih omjera"
+        ],
+        "explanation": "Zakon očuvanja mase, formuliran od Lavoisiera, kaže da se masa u zatvorenom sustavu ne može stvoriti niti uništiti kemijskim reakcijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja je vrsta vala zvučni val, koji se širi kroz medij vibracijama čestica?",
+        "correct_answer": "Mehanički val",
+        "incorrect_answers": [
+            "Elektromagnetski val",
+            "Gravitacijski val",
+            "Kvantni val"
+        ],
+        "explanation": "Zvučni valovi su mehanički valovi jer im je potreban medij (poput zraka ili vode) za širenje, za razliku od elektromagnetskih valova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja je zvijezda najbliža Zemlji, isključujući Sunce?",
+        "correct_answer": "Proxima Centauri",
+        "incorrect_answers": [
+            "Alpha Centauri A",
+            "Sirius",
+            "Vega"
+        ],
+        "explanation": "Proxima Centauri je crveni patuljak udaljen oko 4.2 svjetlosne godine i dio je trostrukog sustava Alpha Centauri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se nazivaju nediferencirane stanice s sposobnošću samoobnavljanja i diferencijacije u različite tipove specijaliziranih stanica?",
+        "correct_answer": "Matične stanice",
+        "incorrect_answers": [
+            "Spolne stanice",
+            "Somatske stanice",
+            "Neuroni"
+        ],
+        "explanation": "Matične stanice imaju potencijal razviti se u mnoge vrste stanica, što ih čini ključnima za rast, popravak i medicinska istraživanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koja kvantna pojava opisuje trenutnu povezanost dviju ili više čestica, tako da stanje jedne čestice odmah utječe na stanje druge, bez obzira na udaljenost?",
+        "correct_answer": "Kvantna sprezanja (entanglement)",
+        "incorrect_answers": [
+            "Kvantna superpozicija",
+            "Kvantna kromodinamika",
+            "Kvantna fluktuacija"
+        ],
+        "explanation": "Kvantna sprezanja su fenomen gdje su dvije čestice povezane na način da mjerenje jedne odmah određuje stanje druge, bez obzira na udaljenost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Što znači akronim API u kontekstu softverskog razvoja?",
+        "correct_answer": "Application Programming Interface",
+        "incorrect_answers": [
+            "Advanced Protocol Integration",
+            "Automated Program Interaction",
+            "Application Process Indicator"
+        ],
+        "explanation": "API je skup definicija i protokola koji omogućuju različitim softverskim komponentama međusobnu komunikaciju i interakciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između prokariotskih i eukariotskih stanica?",
+        "correct_answer": "Eukariotske stanice imaju pravu jezgru i organele s membranom, dok prokariotske nemaju.",
+        "incorrect_answers": [
+            "Prokariotske stanice su uvijek veće",
+            "Eukariotske stanice ne sadrže DNA",
+            "Prokariotske stanice su višestanične"
+        ],
+        "explanation": "Ključna razlika je prisutnost jezgre i membranskih organela kod eukariota, što ih čini kompleksnijima od prokariota.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Što mjeri pH vrijednost otopine?",
+        "correct_answer": "Kiselost ili lužnatost",
+        "incorrect_answers": [
+            "Gustoću",
+            "Temperaturu",
+            "Viskoznost"
+        ],
+        "explanation": "pH ljestvica mjeri koncentraciju vodikovih iona u otopini, što određuje je li otopina kisela (pH<7), neutralna (pH=7) ili lužnata (pH>7).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja se suprotstavlja gibanju između dviju površina koje su u kontaktu?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Normalna sila",
+            "Centripetalna sila"
+        ],
+        "explanation": "Trenje je sila otpora koja djeluje tangencijalno na dodirne plohe dvaju tijela i suprotstavlja se njihovom relativnom gibanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je standardni protokol za siguran prijenos podataka preko interneta, najčešće korišten za web stranice?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "FTP",
+            "HTTP",
+            "SMTP"
+        ],
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) je sigurna verzija HTTP-a, koja koristi SSL/TLS za enkripciju komunikacije između web preglednika i poslužitelja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Kako se naziva molekula koja se ne može preklapati sa svojom zrcalnom slikom, slično kao lijeva i desna ruka?",
+        "correct_answer": "Kiralna molekula",
+        "incorrect_answers": [
+            "Izomer",
+            "Enantiomer",
+            "Racemat"
+        ],
+        "explanation": "Kiralne molekule su stereospecifične i imaju značajnu ulogu u biokemiji i farmaciji, gdje se različiti enantiomeri mogu ponašati drugačije u tijelu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja se subatomska čestica naziva \"Božja čestica\" i odgovorna je za davanje mase drugim česticama u Standardnom modelu fizike čestica?",
+        "correct_answer": "Higgsov bozon",
+        "incorrect_answers": [
+            "Kvark",
+            "Elektron",
+            "Foton"
+        ],
+        "explanation": "Higgsov bozon je ključna čestica koja objašnjava kako su druge temeljne čestice stekle masu interakcijom s Higgsovim poljem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva test razvijen od strane Alana Turinga, osmišljen za procjenu sposobnosti stroja da pokaže inteligentno ponašanje koje se ne može razlikovati od ljudskog?",
+        "correct_answer": "Turingov test",
+        "incorrect_answers": [
+            "P-NP problem",
+            "Von Neumannova arhitektura",
+            "Mooreov zakon"
+        ],
+        "explanation": "Turingov test je mjera za procjenu umjetne inteligencije. Ako ljudski ispitanik ne može razlikovati razgovor s čovjekom od razgovora sa strojem, stroj je prošao test.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koja se tehnika genetskog inženjeringa koristi za precizno uređivanje genoma, omogućujući znanstvenicima da dodaju, uklone ili promijene specifične sekvence DNA?",
+        "correct_answer": "CRISPR-Cas9",
+        "incorrect_answers": [
+            "PCR",
+            "Kloniranje",
+            "Genetska selekcija"
+        ],
+        "explanation": "CRISPR-Cas9 je revolucionarna tehnologija za uređivanje gena koja omogućuje iznimno precizne promjene na razini DNA, otvarajući nove mogućnosti u medicini i biotehnologiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koja hipotetska vrsta materije ne emitira, ne apsorbira i ne reflektira svjetlost, a pretpostavlja se da čini oko 27% ukupne mase-energije Svemira?",
+        "correct_answer": "Tamna tvar",
+        "incorrect_answers": [
+            "Tamna energija",
+            "Antimaterija",
+            "Neutrino"
+        ],
+        "explanation": "Tamna tvar je nevidljiva i nepoznata forma materije čija se prisutnost zaključuje iz njenog gravitacijskog utjecaja na vidljivu materiju i kozmičke strukture.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
