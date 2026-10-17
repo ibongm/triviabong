@@ -25139,5 +25139,395 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji grad na svijetu?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Delhi",
+            "Šangaj",
+            "Peking"
+        ],
+        "explanation": "Tokio, japanska prijestolnica, najveća je metropolitanska regija na svijetu po broju stanovnika, s preko 37 milijuna ljudi (stanje 2024.). Obuhvaća šire područje grada.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji je najdublje jezero na svijetu?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Jezero Tanganjika",
+            "Kaspijsko jezero",
+            "Jezero Superior"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru, Rusija, najdublje je slatkovodno jezero na svijetu, s maksimalnom dubinom od 1.642 metra. Sadrži oko 20% svjetske tekuće slatke vode.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva pustinja koja prekriva veći dio sjeverne Afrike?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Atacama",
+            "Gobi",
+            "Kalahari"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, prostire se na više od 9 milijuna kvadratnih kilometara. Obuhvaća velike dijelove sjeverne Afrike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je država poznata kao 'Zemlja Izlazećeg Sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Japan se tradicionalno naziva 'Zemlja Izlazećeg Sunca', a taj naziv potječe od japanske riječi 'Nihon' ili 'Nippon', što znači 'izvor sunca'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva linija koja označava granicu između kopna i mora?",
+        "correct_answer": "Obalna linija",
+        "incorrect_answers": [
+            "Morska granica",
+            "Plimsoll linija",
+            "Nulta paralela"
+        ],
+        "explanation": "Obalna linija je dinamična granica između kopna i mora ili oceana, koja se stalno mijenja pod utjecajem plime i oseke, valova i geomorfoloških procesa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja država ima glavni grad Ciudad de México?",
+        "correct_answer": "Meksiko",
+        "incorrect_answers": [
+            "Čile",
+            "Kolumbija",
+            "Argentina"
+        ],
+        "explanation": "Ciudad de México je glavni grad Meksika i jedno od najvećih metropolitanskih područja na svijetu. Središte je kulture, politike i ekonomije zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se zove uski kopneni pojas koji spaja dva veća kopna?",
+        "correct_answer": "Zemljouz (prevlaka)",
+        "incorrect_answers": [
+            "Poluotok",
+            "Tjesnac",
+            "Delta"
+        ],
+        "explanation": "Zemljouz (prevlaka) je uski pojas kopna s morem s obje strane, koji spaja dvije veće kopnene mase. Primjer je Panamska prevlaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna građevina vidljiva iz svemira?",
+        "correct_answer": "Kineski zid",
+        "incorrect_answers": [
+            "Piramide u Gizi",
+            "Palma Jumeirah",
+            "Dubajski neboderi"
+        ],
+        "explanation": "Iako je ova tvrdnja često predmet rasprave, Kineski zid je najveća umjetna struktura na Zemlji. Vidljivost iz svemira ovisi o uvjetima i visini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva područje oko Sjevernog pola?",
+        "correct_answer": "Arktik",
+        "incorrect_answers": [
+            "Antarktika",
+            "Sibir",
+            "Grenland"
+        ],
+        "explanation": "Arktik je polarna regija koja okružuje Zemljin Sjeverni pol, karakterizirana niskim temperaturama, ledom i tundrom. Uključuje dijelove Europe, Azije i Sjeverne Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja je najveća šuma na svijetu (borealna)?",
+        "correct_answer": "Tajga (Borealna šuma)",
+        "incorrect_answers": [
+            "Amazonska prašuma",
+            "Kongo prašuma",
+            "Šuma Sundarbans"
+        ],
+        "explanation": "Tajga, ili borealna šuma, najveća je kopnena biome na svijetu, prostire se kroz Sjevernu Ameriku, Europu i Aziju. Dominiraju četinjače, poput smreke i jele.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Kako se naziva horizontalna kružnica na Zemlji jednako udaljena od polova?",
+        "correct_answer": "Ekvator",
+        "incorrect_answers": [
+            "Početni meridijan",
+            "Tropska linija",
+            "Grinički meridijan"
+        ],
+        "explanation": "Ekvator je zamišljena linija koja dijeli Zemlju na sjevernu i južnu polutku. Na Ekvatoru su dan i noć uvijek otprilike jednako dugi, oko 12 sati.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koja europska država se prostire na dva kontinenta?",
+        "correct_answer": "Turska",
+        "incorrect_answers": [
+            "Rusija",
+            "Kazahstan",
+            "Azerbajdžan"
+        ],
+        "explanation": "Turska se nalazi na anatolskom poluotoku u zapadnoj Aziji, s manjim dijelom na Balkanskom poluotoku u jugoistočnoj Europi. Istanbul leži na Bosporu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Kako se naziva proces taloženja sedimenata na ušću rijeke u more ili jezero?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Fjord",
+            "Laguna"
+        ],
+        "explanation": "Delta je geomorfološki oblik reljefa koji nastaje taloženjem riječnog sedimenta na ušću rijeke. Ima karakterističan trokutasti oblik, nalik grčkom slovu delta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja je najveća rijeka u Africi po dužini?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Kongo",
+            "Niger",
+            "Zambezi"
+        ],
+        "explanation": "Nil je najduža rijeka u Africi i jedna od najdužih na svijetu, dugačka oko 6.650 kilometara. Prolazi kroz jedanaest zemalja i ulijeva se u Sredozemno more.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada Sunce ne zalazi ispod horizonta više od 24 sata?",
+        "correct_answer": "Polarni dan (ponoćno sunce)",
+        "incorrect_answers": [
+            "Ekvatorijalna zora",
+            "Arktička noć",
+            "Solsticij"
+        ],
+        "explanation": "Polarni dan ili ponoćno sunce je prirodni fenomen koji se javlja u ljetnim mjesecima na polovima. Sunce ostaje vidljivo 24 sata dnevno iznad horizonta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je valuta Indije?",
+        "correct_answer": "Indijska rupija",
+        "incorrect_answers": [
+            "Jen",
+            "Juan",
+            "Bat"
+        ],
+        "explanation": "Indijska rupija (INR) je službena valuta Indije. Ime 'rupija' potječe od sanskrtske riječi 'rupyakam', što znači srebrni novac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva proces oblikovanja Zemljine površine djelovanjem vjetra?",
+        "correct_answer": "Eolska erozija",
+        "incorrect_answers": [
+            "Fluvijalna erozija",
+            "Glacijalna erozija",
+            "Krška erozija"
+        ],
+        "explanation": "Eolska erozija je geomorfološki proces oblikovanja reljefa uslijed djelovanja vjetra. Karakteristična je za suha i pustinjska područja gdje vjetar nosi pijesak i prašinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja se pustinja nalazi u južnoj Africi?",
+        "correct_answer": "Kalahari",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Kalahari je velika polusušna pješčana savana u južnoj Africi, koja pokriva dijelove Bocvane, Namibije i Južne Afrike. Ime znači 'velika žeđ'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji je najpoznatiji spomenik u Parizu?",
+        "correct_answer": "Eiffelov toranj",
+        "incorrect_answers": [
+            "Louvre",
+            "Notre-Dame",
+            "Slavoluk pobjede"
+        ],
+        "explanation": "Eiffelov toranj je čelični toranj izgrađen 1889. godine, simbol je Pariza i jedna od najprepoznatljivijih građevina na svijetu. Visok je 330 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Kako se naziva područje visokog tlaka koje donosi stabilno i suho vrijeme?",
+        "correct_answer": "Anticiklona",
+        "incorrect_answers": [
+            "Ciklona",
+            "Tornada",
+            "Monsun"
+        ],
+        "explanation": "Anticiklona je područje povišenog atmosferskog tlaka koje karakterizira spuštanje zraka, što rezultira stabilnim vremenom, slabim vjetrom i obično vedrim nebom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koji je morski prolaz koji razdvaja Gibraltar od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardanele",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji povezuje Atlantski ocean i Sredozemno more. Odvaja Španjolsku i Gibraltar od Maroka i Sjeverne Afrike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva regija u Aziji poznata po 'krovu svijeta'?",
+        "correct_answer": "Tibetanska visoravan",
+        "incorrect_answers": [
+            "Sibirska ravnica",
+            "Dečanska visoravan",
+            "Gobi pustinja"
+        ],
+        "explanation": "Tibetanska visoravan, poznata kao 'Krov svijeta', najveća je i najviša visoravan na Zemlji, prosječne visine preko 4.500 metara. Okružena je Himalajom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Turskoj?",
+        "correct_answer": "Istanbul",
+        "incorrect_answers": [
+            "Ankara",
+            "Izmir",
+            "Adana"
+        ],
+        "explanation": "Istanbul je najveći grad u Turskoj i kulturno, ekonomsko i povijesno središte zemlje. Jedini je grad na svijetu koji se prostire na dva kontinenta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva proces širenja pustinja na područja koja su ranije bila plodna?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Urbanizacija",
+            "Erozija",
+            "Deforestacija"
+        ],
+        "explanation": "Dezertifikacija je degradacija zemljišta u sušnim i polusušnim područjima, što dovodi do smanjenja biološke produktivnosti i širenja pustinjskih uvjeta. Uzrokuju je ljudske aktivnosti i klimatske promjene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja je država najveći proizvođač kave na svijetu?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Vijetnam",
+            "Kolumbija",
+            "Etiopija"
+        ],
+        "explanation": "Brazil je najveći proizvođač kave na svijetu, proizvodeći značajan dio ukupne svjetske opskrbe. Kava je ključni izvozni proizvod Brazila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Kako se naziva tropska oluja s brzinom vjetra većom od 119 km/h koja nastaje iznad Tihog oceana?",
+        "correct_answer": "Tajfun",
+        "incorrect_answers": [
+            "Uragan",
+            "Ciklon",
+            "Tornado"
+        ],
+        "explanation": "Tajfun je regionalni naziv za tropski ciklon u sjeverozapadnom Tihom oceanu. Iste pojave u Atlantiku i sjeveroistočnom Tihom oceanu zovu se uragani.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
