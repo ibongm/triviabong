@@ -25139,5 +25139,410 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji kontinent ima najveći broj stanovnika na svijetu?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Europa",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najveći i najnaseljeniji kontinent na svijetu, dom za više od 4,7 milijardi ljudi (stanje 2023.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Turske?",
+        "correct_answer": "Ankara",
+        "incorrect_answers": [
+            "Istanbul",
+            "Izmir",
+            "Bursa"
+        ],
+        "explanation": "Iako je Istanbul veći i poznatiji grad, Ankara je službena prijestolnica Turske od 1923. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva proces izdizanja kontinenata iz mora nakon otapanja ledenjaka?",
+        "correct_answer": "Izostatičko podizanje",
+        "incorrect_answers": [
+            "Orogena faza",
+            "Erozija",
+            "Tektonsko pomicanje"
+        ],
+        "explanation": "Izostatičko podizanje je proces gdje se kopno izdiže zbog smanjenja težine ledenog pokrivača koji je pritiskao Zemljinu koru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji pojam opisuje područje između tropske i polarne zone?",
+        "correct_answer": "Umjereni pojas",
+        "incorrect_answers": [
+            "Ekstremna zona",
+            "Subtropski pojas",
+            "Arktički krug"
+        ],
+        "explanation": "Umjereni pojas je klimatska zona smještena između tropskih i polarnih područja, karakterizirana izraženim godišnjim dobima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva riječni sustav u kojem rijeka teče kroz krško područje i povremeno ponire u podzemlje?",
+        "correct_answer": "Ponornica",
+        "incorrect_answers": [
+            "Afluentna rijeka",
+            "Egzotična rijeka",
+            "Estuarijska rijeka"
+        ],
+        "explanation": "Ponornica je rijeka koja dijelom svog toka ponire u zemlju, nastavljajući teći podzemnim kanalima, što je tipično za krške krajeve.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja država je poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Naziv 'Zemlja izlazećeg sunca' potječe od japanskog naziva za Japan, 'Nihon' ili 'Nippon', što doslovno znači 'izvor sunca'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja se država proteže na dva kontinenta, Europu i Aziju, a njen veći dio je u Aziji?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Turska",
+            "Egipat",
+            "Kazahstan"
+        ],
+        "explanation": "Rusija je transkontinentalna država koja se prostire preko istočne Europe i sjeverne Azije, s većinom teritorija u Aziji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva vulkanski oblik nastao od nagomilanih slojeva lave niske viskoznosti, što rezultira širokim, blagim padinama?",
+        "correct_answer": "Štitasti vulkan",
+        "incorrect_answers": [
+            "Stratovulkan",
+            "Kupolasti vulkan",
+            "Kaldera"
+        ],
+        "explanation": "Štitasti vulkani nastaju iz tekuće lave koja se razlijeva na velike udaljenosti, stvarajući niski profil nalik štitu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva geomorfološki oblik nastao erozijom rijeke koja se usijeca u meandrirajuće dno, stvarajući duboke usjeke u obliku slova 'U'?",
+        "correct_answer": "Kanjonski meandar",
+        "incorrect_answers": [
+            "Okser",
+            "Aluvijalna lepeza",
+            "Delta"
+        ],
+        "explanation": "Kanjonski meandar je usječeno korito rijeke koje slijedi prethodne meandre, karakteristično za područja s izdizanjem reljefa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji je zaljev poznat po najvećim plimama na svijetu?",
+        "correct_answer": "Zaljev Fundy",
+        "incorrect_answers": [
+            "Meksički zaljev",
+            "Hudsonov zaljev",
+            "Perzijski zaljev"
+        ],
+        "explanation": "Zaljev Fundy u Kanadi ima najveće plimne razlike na svijetu, koje mogu doseći i preko 16 metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Kako se naziva duboki, kružni udubljen oblik koji nastaje erozijom ledenjaka na planinskom vrhu?",
+        "correct_answer": "Kržnik (cirque)",
+        "incorrect_answers": [
+            "Fjord",
+            "Morina",
+            "Kotlina"
+        ],
+        "explanation": "Kržnik je amfiteatralna udubina nastala erozivnim djelovanjem ledenjaka na vrhu planine, često s jezerom na dnu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koja je država poznata po Kineskom zidu?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Indija",
+            "Japan",
+            "Mongolija"
+        ],
+        "explanation": "Kineski zid je sustav obrambenih zidova i utvrda koji su kroz povijest gradile različite kineske dinastije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja topla morska struja ima značajan utjecaj na klimu zapadne Europe?",
+        "correct_answer": "Sjevernoatlantska struja (Golfska struja)",
+        "incorrect_answers": [
+            "Labradorska struja",
+            "Kanarska struja",
+            "Humboldtova struja"
+        ],
+        "explanation": "Sjevernoatlantska struja, nastavak Golfske struje, donosi toplu vodu iz tropskih područja, ublažavajući zime u zapadnoj Europi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva geološko razdoblje u kojem se pojavljuju prvi sisavci i cvjetnice?",
+        "correct_answer": "Mezozoik",
+        "incorrect_answers": [
+            "Paleozoik",
+            "Kenozoik",
+            "Prekambrij"
+        ],
+        "explanation": "Mezozoik je geološka era (prije 252 do 66 milijuna godina) poznata po dinosaurima, ali i razvoju ranih sisavaca i cvjetnica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je kontinent poznat po kengurima?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Afrika",
+            "Južna Amerika",
+            "Azija"
+        ],
+        "explanation": "Kenguri su autohtona životinjska vrsta koja naseljava isključivo Australiju i Novu Gvineju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Brazila?",
+        "correct_answer": "Brasília",
+        "incorrect_answers": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Salvador"
+        ],
+        "explanation": "Brasília je planski izgrađen glavni grad Brazila, inauguriran 1960. godine, koji je zamijenio Rio de Janeiro.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva lokalni vjetar koji puše iz planina prema moru, obično hladan i suh?",
+        "correct_answer": "Bura",
+        "incorrect_answers": [
+            "Jugo",
+            "Maestral",
+            "Tramontana"
+        ],
+        "explanation": "Bura je jak, hladan i suh vjetar koji puše s planina prema Jadranu, karakterističan za istočnu obalu Jadranskog mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja je država u potpunosti okružena teritorijem Južne Afrike?",
+        "correct_answer": "Lesoto",
+        "incorrect_answers": [
+            "Esvatini",
+            "Namibija",
+            "Bocvana"
+        ],
+        "explanation": "Lesoto je enklava, neovisna država koja je u potpunosti okružena teritorijem Južne Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva područje dna oceana koje predstavlja prijelaz između kontinentalnog pojasa i dubokog oceanskog dna?",
+        "correct_answer": "Kontinentalna padina",
+        "incorrect_answers": [
+            "Abisalna ravnica",
+            "Oceanski greben",
+            "Oceanski rov"
+        ],
+        "explanation": "Kontinentalna padina je strmo nagnuti dio morskog dna koji se pruža od ruba kontinentalnog šelfa prema abisalnoj ravnici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Kako se naziva atmosferski fenomen gdje se temperatura zraka povećava s visinom, umjesto da opada?",
+        "correct_answer": "Temperaturna inverzija",
+        "incorrect_answers": [
+            "Adiabatsko hlađenje",
+            "Toplinski val",
+            "Ciklonska aktivnost"
+        ],
+        "explanation": "Temperaturna inverzija je pojava u troposferi gdje se hladniji zrak nalazi ispod sloja toplijeg zraka, što često uzrokuje maglu i zagađenje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Njemačke?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "München",
+            "Hamburg",
+            "Frankfurt"
+        ],
+        "explanation": "Berlin je najveći grad i prijestolnica Savezne Republike Njemačke, povijesno i kulturno značajan.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji otok u Sredozemnom moru je dom aktivnog vulkana Etna?",
+        "correct_answer": "Sicilija",
+        "incorrect_answers": [
+            "Sardinija",
+            "Kreta",
+            "Korzika"
+        ],
+        "explanation": "Sicilija je najveći otok u Sredozemnom moru i dom Etne, jednog od najaktivnijih vulkana na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva cilindrična kartografska projekcija koja vjerno prikazuje kutove i oblike, ali deformira veličine površina prema polovima?",
+        "correct_answer": "Mercatorova projekcija",
+        "incorrect_answers": [
+            "Petersova projekcija",
+            "Lambertova konična projekcija",
+            "Robinsonova projekcija"
+        ],
+        "explanation": "Mercatorova projekcija je standardna za navigacijske karte jer čuva kutove i smjerove, ali distorzira veličinu kopna što je dalje od ekvatora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva oštar, stjenovit greben nastao erozijom dva ledenjačka cirka koji se spajaju?",
+        "correct_answer": "Areta (planinski hrpt)",
+        "incorrect_answers": [
+            "Horn",
+            "U-dolina",
+            "Fjord"
+        ],
+        "explanation": "Areta je oštar greben nastao kada se bočne stijene dvaju susjednih ledenjačkih cirka ili dolina erodiraju i sastaju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koje je najveće jezero na svijetu po površini, a klasificira se kao slano jezero?",
+        "correct_answer": "Kaspijsko jezero",
+        "incorrect_answers": [
+            "Aralsko jezero",
+            "Mrtvo more",
+            "Veliko slano jezero"
+        ],
+        "explanation": "Kaspijsko jezero je najveće jezero na svijetu po površini i volumenu, smješteno između Europe i Azije, a ima slanu vodu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je država dom tornja Eiffel?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Italija",
+            "Španjolska",
+            "Njemačka"
+        ],
+        "explanation": "Eiffelov toranj je poznati željezni toranj smješten na Champ de Mars u Parizu, glavnom gradu Francuske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koji morski prolaz odvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Sueski kanal",
+            "Dardanele"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji povezuje Atlantski ocean i Sredozemno more te dijeli Iberijski poluotok od sjeverozapadne Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
