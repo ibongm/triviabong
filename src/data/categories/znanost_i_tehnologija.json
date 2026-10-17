@@ -30445,5 +30445,500 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je planet poznat kao 'Crveni planet' zbog svoje crvenkaste površine bogate željeznim oksidima?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je poznat kao 'Crveni planet' zbog prisutnosti željeznog(III) oksida (hrđe) na svojoj površini, što mu daje prepoznatljivu crvenkastu boju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija srca u ljudskom tijelu?",
+        "correct_answer": "Pumpanje krvi kroz tijelo",
+        "incorrect_answers": [
+            "Filtriranje krvi od toksina",
+            "Proizvodnja hormona",
+            "Regulacija tjelesne temperature"
+        ],
+        "explanation": "Srce je mišićni organ čija je primarna funkcija pumpanje krvi, bogate kisikom i hranjivim tvarima, kroz cijeli krvožilni sustav tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna jedinica živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Atom",
+            "Molekula",
+            "Tkivo"
+        ],
+        "explanation": "Stanica je osnovna strukturna i funkcionalna jedinica svih poznatih organizama, sposobna za samostalan život i razmnožavanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje otpornosti materijala na protok električne struje?",
+        "correct_answer": "Otpor",
+        "incorrect_answers": [
+            "Provodljivost",
+            "Napon",
+            "Snaga"
+        ],
+        "explanation": "Otpor je fizikalna veličina koja karakterizira sposobnost tvari da se opire prolasku električne struje kroz nju, izražava se u omima (Ω).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja tekućine u plin?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Taljenje"
+        ],
+        "explanation": "Isparavanje je fizikalni proces u kojem tekućina prelazi u plinovito stanje, obično na temperaturama ispod točke vrelišta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje duljine u SI sustavu?",
+        "correct_answer": "Metar",
+        "incorrect_answers": [
+            "Kilogram",
+            "Sekunda",
+            "Litra"
+        ],
+        "explanation": "Metar je osnovna jedinica za mjerenje duljine u Međunarodnom sustavu jedinica (SI).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Kako se zove znanstveno polje koje proučava životinje?",
+        "correct_answer": "Zoologija",
+        "incorrect_answers": [
+            "Botanika",
+            "Ekologija",
+            "Geologija"
+        ],
+        "explanation": "Zoologija je grana biologije koja se bavi proučavanjem životinjskog svijeta, uključujući njihovu strukturu, funkciju, razvoj i evoluciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je osnovna svrha termostata u kućanstvu?",
+        "correct_answer": "Regulacija temperature",
+        "incorrect_answers": [
+            "Mjerenje vlažnosti zraka",
+            "Pročišćavanje zraka",
+            "Praćenje potrošnje energije"
+        ],
+        "explanation": "Termostat je uređaj koji automatski kontrolira i održava željenu temperaturu u prostoru putem sustava grijanja ili hlađenja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja od navedenih životinja spada u sisavce?",
+        "correct_answer": "Kit",
+        "incorrect_answers": [
+            "Morski pas",
+            "Krokodil",
+            "Noj"
+        ],
+        "explanation": "Kitovi su morski sisavci, što znači da dišu zrak, rađaju žive mlade i hrane ih mlijekom, za razliku od ostalih navedenih.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja nas drži na površini Zemlje?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Centrifugalna sila",
+            "Magnetizam",
+            "Inercija"
+        ],
+        "explanation": "Gravitacija je prirodna sila privlačenja koja djeluje između bilo koja dva tijela s masom, a najznačajnija je za privlačenje objekata prema Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija korijena biljke?",
+        "correct_answer": "Upijanje vode i hranjivih tvari",
+        "incorrect_answers": [
+            "Proizvodnja kisika",
+            "Fotosinteza",
+            "Razmnožavanje"
+        ],
+        "explanation": "Korijenje biljaka primarno služi za pričvršćivanje biljke u tlo te za upijanje vode i minerala iz tla, koji su ključni za njezin rast.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je najčešći oblik dalekovidnosti?",
+        "correct_answer": "Hiperopija",
+        "incorrect_answers": [
+            "Miopija",
+            "Astigmatizam",
+            "Glaukom"
+        ],
+        "explanation": "Hiperopija, ili dalekovidnost, je stanje oka u kojem se svjetlost fokusira iza mrežnice, zbog čega su bliski objekti zamagljeni.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je komunikacijski protokol temelj World Wide Weba, omogućujući preglednicima dohvaćanje web stranica?",
+        "correct_answer": "HTTP",
+        "incorrect_answers": [
+            "FTP",
+            "SMTP",
+            "TCP/IP"
+        ],
+        "explanation": "HTTP (Hypertext Transfer Protocol) je protokol aplikacijskog sloja za distribuirane, kolaborativne, hipermedijske informacijske sustave, temelj komunikacije na webu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja vrsta veze drži atome unutar molekule vode (H2O) zajedno?",
+        "correct_answer": "Kovalentna veza",
+        "incorrect_answers": [
+            "Ionska veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Kovalentna veza nastaje dijeljenjem elektrona između atoma vodika i kisika u molekuli vode, stvarajući stabilnu molekularnu strukturu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Kako se naziva dio računala koji izvršava instrukcije programa i obavlja aritmetičke i logičke operacije?",
+        "correct_answer": "CPU (Centralna procesorska jedinica)",
+        "incorrect_answers": [
+            "RAM",
+            "GPU",
+            "SSD"
+        ],
+        "explanation": "CPU je 'mozak' računala, odgovoran za interpretaciju i izvršavanje većine naredbi iz računalnih programa, obavljanje aritmetičkih i logičkih operacija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji je proces kojim biljke pretvaraju svjetlosnu energiju u kemijsku energiju, proizvodeći hranu?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Disanje",
+            "Transpiracija",
+            "Glikoliza"
+        ],
+        "explanation": "Fotosinteza je biološki proces u kojem biljke, alge i neke bakterije koriste sunčevu svjetlost za sintezu organskih spojeva iz ugljikovog dioksida i vode.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva energija koju tijelo posjeduje zbog svog gibanja?",
+        "correct_answer": "Kinetička energija",
+        "incorrect_answers": [
+            "Potencijalna energija",
+            "Toplinska energija",
+            "Kemijska energija"
+        ],
+        "explanation": "Kinetička energija je energija koju tijelo posjeduje zbog svog gibanja; ovisi o masi i brzini tijela (E_k = 1/2 mv^2).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između AC (izmjenične) i DC (istosmjerne) struje?",
+        "correct_answer": "AC struja mijenja smjer, DC teče u jednom smjeru",
+        "incorrect_answers": [
+            "AC je uvijek jača od DC",
+            "DC se koristi samo u baterijama",
+            "AC se koristi samo za prijenos podataka"
+        ],
+        "explanation": "Izmjenična (AC) struja povremeno mijenja smjer protoka elektrona, dok istosmjerna (DC) struja teče u konstantnom, jednom smjeru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Što je to 'crna rupa' u astronomiji?",
+        "correct_answer": "Područje prostor-vremena s iznimno jakom gravitacijom iz kojeg ništa, pa ni svjetlost, ne može pobjeći",
+        "incorrect_answers": [
+            "Planet koji je izgubio svoju atmosferu",
+            "Zvijezda u ranoj fazi nastanka",
+            "Golema praznina u svemiru bez materije"
+        ],
+        "explanation": "Crna rupa je objekt s toliko snažnim gravitacijskim poljem da ništa, čak ni svjetlost, ne može pobjeći nakon što prijeđe točku bez povratka, nazvanu horizont događaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je naziv za najrasprostranjeniji materijalni element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik čini oko 75% sve poznate materije u svemiru, nastao je u Velikom prasku i ključan je sastojak zvijezda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji je naziv za tehnologiju koja omogućuje bežični prijenos podataka na kratkim udaljenostima između uređaja?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "LTE"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja na malim udaljenostima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se svjetlost odbija od površine?",
+        "correct_answer": "Refleksija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Apsorpcija",
+            "Difrakcija"
+        ],
+        "explanation": "Refleksija je fizikalna pojava u kojoj se val (svjetlost, zvuk) odbija od površine i vraća se u medij iz kojeg je došao.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji se tip virusa koristi kao 'vektor' za unošenje gena u stanice u genetskom inženjeringu?",
+        "correct_answer": "Adenovirus",
+        "incorrect_answers": [
+            "Gripa virus",
+            "Rinovirus",
+            "Hepatitis B virus"
+        ],
+        "explanation": "Adenovirusi se često modificiraju i koriste u genetskom inženjeringu kao vektori za unos gena u ljudske stanice zbog svoje sposobnosti infekcije raznih tipova stanica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji se pojam u programiranju odnosi na stvaranje novih klasa iz postojećih klasa, nasljeđujući njihova svojstva i metode?",
+        "correct_answer": "Nasljeđivanje",
+        "incorrect_answers": [
+            "Enkapsulacija",
+            "Polimorfizam",
+            "Apstrakcija"
+        ],
+        "explanation": "Nasljeđivanje je temeljni koncept objektno orijentiranog programiranja gdje nova klasa (podklasa) preuzima atribute i metode postojeće klase (nadklase).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je naziv za kvantni fenomen gdje čestica može postojati u više stanja istovremeno dok se ne izvrši mjerenje?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Spletenost",
+            "Kvantni tunel",
+            "Dekohaerencija"
+        ],
+        "explanation": "Superpozicija je princip kvantne mehanike koji kaže da sustav može postojati u više kvantnih stanja istovremeno sve dok se ne izvrši mjerenje, koje ga 'natjera' u jedno od tih stanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva bolest koju karakterizira nekontrolirani rast i širenje abnormalnih stanica u tijelu?",
+        "correct_answer": "Rak",
+        "incorrect_answers": [
+            "Dijabetes",
+            "Artritis",
+            "Osteoporoza"
+        ],
+        "explanation": "Rak je opći pojam za bolesti koje nastaju kada se abnormalne stanice počnu nekontrolirano dijeliti i širiti na okolna tkiva i organe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija ribosoma u stanici?",
+        "correct_answer": "Sinteza proteina",
+        "incorrect_answers": [
+            "Proizvodnja energije (ATP)",
+            "Pohrana genetskog materijala",
+            "Detoksikacija"
+        ],
+        "explanation": "Ribosomi su stanične organele odgovorne za sintezu proteina, proces prevođenja genetskih informacija iz mRNA u lanac aminokiselina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva molekula koja pohranjuje genetske informacije u većini živih organizama?",
+        "correct_answer": "DNA",
+        "incorrect_answers": [
+            "RNA",
+            "Protein",
+            "Lipid"
+        ],
+        "explanation": "DNA (deoksiribonukleinska kiselina) je molekula koja sadrži genetske upute korištene u razvoju i funkcioniranju svih poznatih živih organizama i mnogih virusa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Što je to 'spam' u kontekstu računalne tehnologije?",
+        "correct_answer": "Neželjene masovne elektroničke poruke",
+        "incorrect_answers": [
+            "Vrsta računalnog virusa",
+            "Sigurnosni protokol",
+            "Tehnika za poboljšanje performansi mreže"
+        ],
+        "explanation": "Spam se odnosi na neželjene masovne poruke, najčešće e-poštu, koje se šalju velikom broju primatelja bez njihovog pristanka, obično u marketinške svrhe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za najudaljeniji planet od Sunca u našem Sunčevom sustavu (stanje 2006. i dalje)?",
+        "correct_answer": "Neptun",
+        "incorrect_answers": [
+            "Pluton",
+            "Uran",
+            "Jupiter"
+        ],
+        "explanation": "Nakon redefiniranja statusa Plutona 2006. godine, Neptun je službeno priznat kao osmi i najudaljeniji planet od Sunca u našem Sunčevom sustavu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Kako se naziva znanost koja proučava nasljeđivanje genetskih osobina?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Fiziologija",
+            "Embriologija",
+            "Patologija"
+        ],
+        "explanation": "Genetika je znanost o genima, nasljeđivanju i varijaciji organizama, fokusirana na molekularne mehanizme prijenosa osobina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija krvnih pločica (trombocita)?",
+        "correct_answer": "Zgrušavanje krvi",
+        "incorrect_answers": [
+            "Prijenos kisika",
+            "Borba protiv infekcija",
+            "Regulacija šećera u krvi"
+        ],
+        "explanation": "Trombociti su male, bezbojne krvne stanice čija je ključna uloga zaustavljanje krvarenja formiranjem krvnog ugruška (tromba) na mjestu ozljede.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje snage električne struje?",
+        "correct_answer": "Amper (A)",
+        "incorrect_answers": [
+            "Volt (V)",
+            "Ohm (Ω)",
+            "Watt (W)"
+        ],
+        "explanation": "Amper je SI jedinica za mjerenje jakosti električne struje, odnosno količine naboja koja prođe kroz vodič u jedinici vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
