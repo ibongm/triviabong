@@ -32151,5 +32151,590 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koja je država bila domaćin prvog Svjetskog prvenstva u nogometu 1930. godine?",
+        "correct_answer": "Urugvaj",
+        "incorrect_answers": [
+            "Italija",
+            "Brazil",
+            "Argentina"
+        ],
+        "explanation": "Urugvaj je bio prva zemlja koja je organizirala FIFA Svjetsko prvenstvo i ujedno osvojila to natjecanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koji NBA tim ima najviše osvojenih naslova prvaka (stanje 2024.)?",
+        "correct_answer": "Boston Celtics i Los Angeles Lakers",
+        "incorrect_answers": [
+            "Golden State Warriors",
+            "Chicago Bulls",
+            "San Antonio Spurs"
+        ],
+        "explanation": "Boston Celtics i Los Angeles Lakers dijele prvo mjesto s po 17 NBA naslova svaki.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Na kojoj podlozi se igra Grand Slam turnir Australian Open?",
+        "correct_answer": "Tvrda podloga",
+        "incorrect_answers": [
+            "Zemljana podloga",
+            "Travnata podloga",
+            "Tepih podloga"
+        ],
+        "explanation": "Australian Open se, kao i US Open, igra na tvrdoj podlozi, dok Roland Garros koristi zemlju, a Wimbledon travu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Tko je aktualni svjetski rekorder u utrci na 100 metara za muškarce (stanje 2024.)?",
+        "correct_answer": "Usain Bolt",
+        "incorrect_answers": [
+            "Tyson Gay",
+            "Justin Gatlin",
+            "Yohan Blake"
+        ],
+        "explanation": "Jamajčanin Usain Bolt drži svjetski rekord od 9.58 sekundi postavljen 2009. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Iz koje je države porijeklom vozač Formule 1 Max Verstappen?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Njemačka",
+            "Velika Britanija"
+        ],
+        "explanation": "Max Verstappen, trostruki svjetski prvak u Formuli 1, rođen je u Belgiji, ali se natječe pod nizozemskom zastavom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koji plivački stil se smatra najbržim?",
+        "correct_answer": "Kraul (slobodni stil)",
+        "incorrect_answers": [
+            "Leđno",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "Kraul, ili slobodni stil, omogućava plivačima najveću brzinu kroz vodu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kako se naziva najpoznatija biciklistička utrka koja traje tri tjedna i prolazi kroz Francusku?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ],
+        "explanation": "Tour de France je najprestižnija i najpoznatija višednevna biciklistička utrka na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "U kojoj je državi nastala borilačka organizacija Ultimate Fighting Championship (UFC)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Japan",
+            "Brazil",
+            "Tajland"
+        ],
+        "explanation": "UFC je osnovan u Sjedinjenim Američkim Državama 1993. godine i predstavlja najveću organizaciju mješovitih borilačkih vještina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koja disciplina alpskog skijanja uključuje prolazak kroz najmanji broj vrata, s najvećim brzinama?",
+        "correct_answer": "Spust",
+        "incorrect_answers": [
+            "Slalom",
+            "Veleslalom",
+            "Super-G"
+        ],
+        "explanation": "Spust je najbrža disciplina alpskog skijanja, gdje skijaši postižu najveće brzine na dugoj stazi s rijetkim vratima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u rukometu, uključujući vratara?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "Rukometna ekipa na terenu ima šest igrača u polju i jednog vratara, što čini ukupno sedam igrača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koliko maksimalno setova može imati jedna odbojkaška utakmica?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Tri",
+            "Četiri",
+            "Šest"
+        ],
+        "explanation": "Odbojka se igra na tri dobivena seta, što znači da je maksimalni broj setova pet (3-2 rezultat).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Od kojeg je materijala napravljena lopta za vaterpolo?",
+        "correct_answer": "Guma",
+        "incorrect_answers": [
+            "Koža",
+            "Plastika",
+            "Spužva"
+        ],
+        "explanation": "Lopta za vaterpolo je obično izrađena od gume kako bi dobro plutala i bila otporna na vodu te omogućila dobar hvat.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Kakvog je oblika lopta koja se koristi u ragbiju?",
+        "correct_answer": "Ovalnog",
+        "incorrect_answers": [
+            "Okruglog",
+            "Kvadratnog",
+            "Cilindričnog"
+        ],
+        "explanation": "Ragbi lopta je prepoznatljiva po svom ovalnom obliku, što omogućuje specifične načine dodavanja i kretanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koji od navedenih turnira nije jedan od četiri muška 'Major' golf turnira?",
+        "correct_answer": "Players Championship",
+        "incorrect_answers": [
+            "The Masters",
+            "The Open Championship",
+            "PGA Championship"
+        ],
+        "explanation": "Players Championship je prestižan turnir, ali nije jedan od četiri Major turnira u muškom profesionalnom golfu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Kako se naziva igrač u baseballu koji baca loptu prema udaraču?",
+        "correct_answer": "Bacač (Pitcher)",
+        "incorrect_answers": [
+            "Hvatač (Catcher)",
+            "Unutarnji igrač (Infielder)",
+            "Vanjski igrač (Outfielder)"
+        ],
+        "explanation": "Bacač je centralna figura u obrambenom dijelu baseballa, čiji je zadatak baciti loptu na takav način da udarač ne može pogoditi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koliko prepona treba preskočiti u standardnoj utrci na 110 metara s preponama?",
+        "correct_answer": "Deset",
+        "incorrect_answers": [
+            "Osam",
+            "Dvanaest",
+            "Šest"
+        ],
+        "explanation": "U utrci na 110 metara s preponama za muškarce, natjecatelji moraju preskočiti deset prepona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u hokeju na ledu kada igrač uđe u protivničku napadačku trećinu prije paka?",
+        "correct_answer": "Zaleđe (Offside)",
+        "incorrect_answers": [
+            "Icing",
+            "Hooking",
+            "Tripping"
+        ],
+        "explanation": "Zaleđe se događa kada igrač uđe u napadačku zonu prije paka, a kažnjava se prekidom igre i face-offom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koji dio opreme štiti lice mačevaoca?",
+        "correct_answer": "Maska",
+        "incorrect_answers": [
+            "Štitnik za prsa",
+            "Rukavica",
+            "Jakna"
+        ],
+        "explanation": "Maska je ključni dio zaštitne opreme u mačevanju, dizajnirana za zaštitu glave i lica od udaraca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koji neobični hibridni sport kombinira borbu u ringu i stratešku igru na ploči?",
+        "correct_answer": "Šah-boks",
+        "incorrect_answers": [
+            "Borba s mačem i štitom",
+            "Hrvanje i sudoku",
+            "Karate i biljar"
+        ],
+        "explanation": "Šah-boks je hibridni sport koji se sastoji od naizmjeničnih rundi šaha i boksa, kombinirajući intelektualnu i fizičku snagu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koja gimnastička sprava ima dva viseća prstena na kojima se izvode vježbe snage i ravnoteže?",
+        "correct_answer": "Karike",
+        "incorrect_answers": [
+            "Parter",
+            "Preskok",
+            "Preča"
+        ],
+        "explanation": "Karike su muška gimnastička sprava poznata po zahtjevnim vježbama snage, stabilnosti i ravnoteže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koje je boje lopta koja se uvijek prva cilja nakon početnog udarca u snookeru?",
+        "correct_answer": "Crvena",
+        "incorrect_answers": [
+            "Žuta",
+            "Zelena",
+            "Plava"
+        ],
+        "explanation": "U snookeru se redoslijedom igra crvena lopta (za 1 bod), a zatim se bira obojena lopta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koliko segmenata s brojevima ima standardna pikado ploča?",
+        "correct_answer": "Dvadeset",
+        "incorrect_answers": [
+            "Šesnaest",
+            "Osamnaest",
+            "Dvadeset i četiri"
+        ],
+        "explanation": "Standardna pikado ploča ima brojeve od 1 do 20, te dodatne segmente za duple, triple i centar (bullseye).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koja konjička disciplina uključuje preskakanje prepreka na specifičnom terenu?",
+        "correct_answer": "Preponsko jahanje",
+        "incorrect_answers": [
+            "Dresurno jahanje",
+            "Endurance jahanje",
+            "Western jahanje"
+        ],
+        "explanation": "Preponsko jahanje je disciplina u kojoj konj i jahač moraju preskočiti niz prepreka bez rušenja istih.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Tko se smatra osnivačem Paraolimpijskih igara?",
+        "correct_answer": "Sir Ludwig Guttmann",
+        "incorrect_answers": [
+            "Pierre de Coubertin",
+            "Juan Antonio Samaranch",
+            "Avery Brundage"
+        ],
+        "explanation": "Sir Ludwig Guttmann je pionir u sportu za osobe s invaliditetom i osnivač Stoke Mandeville igara, preteče Paraolimpijskih igara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u futsalu (malom nogometu)?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Četiri",
+            "Šest",
+            "Sedam"
+        ],
+        "explanation": "U futsalu svaka ekipa ima pet igrača na terenu, uključujući golmana, što omogućuje brzu i dinamičnu igru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se polirani kameni blokovi guraju po ledu prema meti?",
+        "correct_answer": "Curling",
+        "incorrect_answers": [
+            "Bob",
+            "Skeleton",
+            "Hokej"
+        ],
+        "explanation": "Curling je zimski timski sport u kojem se kameni diskovi kližu po ledu prema ciljnoj zoni označenoj krugovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koja je najlakša težinska kategorija u profesionalnom boksu?",
+        "correct_answer": "Minimum kategorija (Strawweight)",
+        "incorrect_answers": [
+            "Muha kategorija (Flyweight)",
+            "Bantam kategorija (Bantamweight)",
+            "Pero kategorija (Featherweight)"
+        ],
+        "explanation": "Minimum kategorija (do 47.6 kg) je najlakša u profesionalnom boksu, poznata i kao strawweight.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koja boja majice označava vodećeg natjecatelja u ukupnom poretku na Tour de Franceu?",
+        "correct_answer": "Žuta majica",
+        "incorrect_answers": [
+            "Zelena majica",
+            "Točkasta majica",
+            "Bijela majica"
+        ],
+        "explanation": "Žuta majica (Maillot Jaune) je simbol vodećeg biciklista u generalnom poretku po vremenu na Tour de Franceu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koliko zlatnih olimpijskih medalja ima Michael Phelps, najuspješniji olimpijac svih vremena (stanje 2024.)?",
+        "correct_answer": "23",
+        "incorrect_answers": [
+            "18",
+            "20",
+            "25"
+        ],
+        "explanation": "Michael Phelps osvojio je nevjerojatnih 23 zlatne olimpijske medalje, što ga čini najtrofejnijim olimpijcem svih vremena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Iz koje je zemlje porijeklom borilačka vještina taekwondo?",
+        "correct_answer": "Južna Koreja",
+        "incorrect_answers": [
+            "Kina",
+            "Japan",
+            "Tajland"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina i nacionalni sport Južne Koreje, poznat po dinamičnim udarcima nogama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Kako se naziva završnica profesionalne bejzbol lige (MLB) u Sjevernoj Americi?",
+        "correct_answer": "World Series",
+        "incorrect_answers": [
+            "Super Bowl",
+            "Stanley Cup",
+            "NBA Finals"
+        ],
+        "explanation": "World Series je godišnje prvenstvo Major League Baseballa (MLB), koje se igra između pobjednika American League i National League.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koji je naziv za najteži skok u umjetničkom klizanju, koji uključuje četiri rotacije u zraku?",
+        "correct_answer": "Četverostruki Axel (Quadruple Axel)",
+        "incorrect_answers": [
+            "Trostruki Lutz",
+            "Dvojni Salchow",
+            "Trostruki Toe Loop"
+        ],
+        "explanation": "Četverostruki Axel je najteži skok u umjetničkom klizanju, tehnički zahtijeva četiri i pol rotacije u zraku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Kako se naziva servis u stolnom tenisu kada loptica dodirne mrežu, ali svejedno prijeđe na protivničku stranu i padne u polje?",
+        "correct_answer": "Let (Net)",
+        "incorrect_answers": [
+            "As",
+            "Fail",
+            "Greška"
+        ],
+        "explanation": "Servis se ponavlja ako loptica dotakne mrežu, ali svejedno pređe na protivničku stranu i padne u polje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koja dva sporta kombinira biatlon?",
+        "correct_answer": "Skijaško trčanje i streljaštvo",
+        "incorrect_answers": [
+            "Skijaško trčanje i bob",
+            "Skijaški skokovi i hokej",
+            "Brzo klizanje i streljaštvo"
+        ],
+        "explanation": "Biatlon je zimski sport koji spaja izdržljivost skijaškog trčanja s preciznošću streljaštva na ciljeve.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koja je jedriličarska klasa poznata po tome što koristi jedrilicu s dva trupa (katamaran)?",
+        "correct_answer": "Nacra 17",
+        "incorrect_answers": [
+            "Laser",
+            "Finn",
+            "470"
+        ],
+        "explanation": "Nacra 17 je mješovita katamaranska klasa koja se koristi na Olimpijskim igrama, poznata po brzini i dinamičnosti na vodi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Kako se sada službeno naziva sport sinkroniziranog plivanja?",
+        "correct_answer": "Umjetničko plivanje",
+        "incorrect_answers": [
+            "Ritmoplastično plivanje",
+            "Vodenbalet",
+            "Akrobatsko plivanje"
+        ],
+        "explanation": "FINA (Svjetska plivačka federacija) je 2017. godine promijenila ime iz 'sinkronizirano plivanje' u 'umjetničko plivanje'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koliko bodova donosi 'touchdown' u američkom nogometu (prije dodatnog pokušaja)?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Tri"
+        ],
+        "explanation": "Touchdown je najvredniji potez u američkom nogometu i donosi šest bodova, prije dodatnog pokušaja za bod ili dva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koje su dvije discipline u dizanju utega na Olimpijskim igrama?",
+        "correct_answer": "Trzaj i izbačaj",
+        "incorrect_answers": [
+            "Potisak i čučanj",
+            "Mrtvo dizanje i nabačaj",
+            "Bič i potisak"
+        ],
+        "explanation": "Dizanje utega na Olimpijskim igrama sastoji se od dvije discipline: trzaja (snatch) i izbačaja (clean and jerk).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2492",
+        "category": "sport",
+        "question": "Koje su discipline dio modernog petoboja?",
+        "correct_answer": "Mačevanje, plivanje, jahanje, streljaštvo i trčanje",
+        "incorrect_answers": [
+            "Mačevanje, plivanje, veslanje, biciklizam i trčanje",
+            "Boks, plivanje, jahanje, streljaštvo i trčanje",
+            "Mačevanje, gimnastika, jahanje, streljaštvo i trčanje"
+        ],
+        "explanation": "Moderni petoboj uključuje mačevanje, plivanje slobodnim stilom, preponsko jahanje, te kombiniranu disciplinu streljaštva i trčanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
