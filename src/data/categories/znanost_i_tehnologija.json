@@ -30445,5 +30445,560 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Kako se naziva granična površina oko crne rupe iz koje ni svjetlost ne može pobjeći?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Schwarzschildov radijus",
+            "Singularitet",
+            "Ergosfera"
+        ],
+        "explanation": "Horizont događaja je granica bez povratka; jednom kada nešto prijeđe tu granicu, ne može se vratiti van, uključujući svjetlost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koju vrijednost pH ima neutralna otopina na sobnoj temperaturi?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "Na pH ljestvici od 0 do 14, vrijednost 7 označava neutralnost, ni kiselo ni lužnato.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja je struktura DNA molekule, prvi put opisana od strane Watsona i Cricka?",
+        "correct_answer": "Dvostruka uzvojnica",
+        "incorrect_answers": [
+            "Trostruka spirala",
+            "Jednostruka nit",
+            "Paralelne trake"
+        ],
+        "explanation": "DNA molekula ima karakterističnu strukturu dvostruke uzvojnice, gdje su dvije niti nukleotida spiralno uvijene.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja je glavna komponenta računala odgovorna za izvršavanje instrukcija programa i obavljanje aritmetičkih i logičkih operacija?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Grafička kartica (GPU)",
+            "Memorija s nasumičnim pristupom (RAM)",
+            "Tvrdi disk (HDD)"
+        ],
+        "explanation": "CPU je mozak računala koji interpretira i izvršava većinu naredbi programa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji planet u našem Sunčevom sustavu je poznat kao 'Crveni planet'?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je dobio nadimak 'Crveni planet' zbog prisutnosti željeznog oksida (hrđe) na svojoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Kako se naziva električna struja koja periodično mijenja smjer protoka elektrona?",
+        "correct_answer": "Izmjenična struja",
+        "incorrect_answers": [
+            "Istosmjerna struja",
+            "Jednosmjerna struja",
+            "Galvanska struja"
+        ],
+        "explanation": "Izmjenična struja (AC) je električna struja koja se periodično preokreće u smjeru, za razliku od istosmjerne struje (DC).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je kemijska formula vode?",
+        "correct_answer": "H₂O",
+        "incorrect_answers": [
+            "CO₂",
+            "O₂",
+            "H₂O₂"
+        ],
+        "explanation": "Molekula vode sastoji se od dva atoma vodika i jednog atoma kisika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je razlika između bakterije i virusa u pogledu stanične strukture?",
+        "correct_answer": "Bakterije su žive stanice, virusi nisu",
+        "incorrect_answers": [
+            "Virusi imaju staničnu stijenku, bakterije nemaju",
+            "Bakterije su paraziti, virusi su samostalni",
+            "Virusi su veći od bakterija"
+        ],
+        "explanation": "Virusi nisu stanice; to su sitne čestice genetskog materijala unutar proteinske ovojnice koje trebaju stanicu domaćina za razmnožavanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji protokol se prvenstveno koristi za prijenos web stranica preko interneta?",
+        "correct_answer": "HTTP",
+        "incorrect_answers": [
+            "FTP",
+            "SMTP",
+            "TCP"
+        ],
+        "explanation": "Hypertext Transfer Protocol (HTTP) je temeljni protokol za prijenos informacija na World Wide Webu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja je faza u životnom ciklusu zvijezde u kojoj provodi najveći dio svog života, fuzionirajući vodik u helij?",
+        "correct_answer": "Glavni niz",
+        "incorrect_answers": [
+            "Crveni div",
+            "Bijeli patuljak",
+            "Neutronska zvijezda"
+        ],
+        "explanation": "Zvijezde poput našeg Sunca provode većinu svog života na glavnom nizu, gdje fuzijom vodika proizvode energiju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koju skupinu elemenata u periodnom sustavu karakterizira prisutnost sedam valentnih elektrona i visoka reaktivnost (npr. fluor, klor)?",
+        "correct_answer": "Halogeni",
+        "incorrect_answers": [
+            "Alkalijski metali",
+            "Plemeniti plinovi",
+            "Zemnoalkalijski metali"
+        ],
+        "explanation": "Halogeni elementi (Skupina 17) imaju sedam valentnih elektrona i teže primiti jedan elektron, što ih čini vrlo reaktivnima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji ključni princip stanične teorije kaže da sve žive stanice nastaju iz postojećih stanica?",
+        "correct_answer": "Omnis cellula e cellula",
+        "incorrect_answers": [
+            "Spontana generacija",
+            "Abiogeneza",
+            "Endosimbioza"
+        ],
+        "explanation": "'Omnis cellula e cellula' je latinska fraza koja znači 'sve stanice iz stanica', naglašavajući da stanice ne nastaju spontano.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koju jedinicu za mjerenje digitalne informacije čini osam bitova?",
+        "correct_answer": "Bajt (Byte)",
+        "incorrect_answers": [
+            "Kilobajt",
+            "Megabajt",
+            "Bit"
+        ],
+        "explanation": "Bajt je osnovna jedinica za pohranu digitalnih informacija u računarstvu, sastavljen od osam bitova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji je naziv galaksije najbliže našoj Mliječnoj stazi i također je spiralna galaksija?",
+        "correct_answer": "Andromeda",
+        "incorrect_answers": [
+            "Trokut",
+            "Magelanov oblak",
+            "Whirlpool"
+        ],
+        "explanation": "Galaksija Andromeda (M31) je najbliža velika spiralna galaksija Mliječnoj stazi i vidljiva je golim okom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji uređaj pretvara mehaničku energiju u električnu energiju?",
+        "correct_answer": "Generator",
+        "incorrect_answers": [
+            "Elektromotor",
+            "Transformator",
+            "Otpornik"
+        ],
+        "explanation": "Generator radi na principu elektromagnetske indukcije, gdje se mehanička energija gibanja pretvara u električnu struju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Kako se naziva kemikalija koja u vodenoj otopini oslobađa H+ ione?",
+        "correct_answer": "Kiselina",
+        "incorrect_answers": [
+            "Baza",
+            "Sol",
+            "Pufer"
+        ],
+        "explanation": "Kiseline su tvari koje doniraju protone (H+ ione) u otopini, povećavajući njezinu kiselost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje precizno 'uređivanje' gena, odnosno izrezivanje i umetanje dijelova DNA?",
+        "correct_answer": "CRISPR-Cas9",
+        "incorrect_answers": [
+            "PCR",
+            "Elektroforeza",
+            "Kloniranje"
+        ],
+        "explanation": "CRISPR-Cas9 je revolucionarna tehnologija za uređivanje genoma koja omogućuje precizne izmjene DNA sekvenci.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je jedinstveni numerički identifikator dodijeljen svakom uređaju spojenom na računalnu mrežu koja koristi internetski protokol?",
+        "correct_answer": "IP adresa",
+        "incorrect_answers": [
+            "MAC adresa",
+            "URL",
+            "DNS"
+        ],
+        "explanation": "IP adresa omogućuje uređajima međusobnu komunikaciju unutar mreže, slično poštanskoj adresi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji planet u našem Sunčevom sustavu ima najgušću atmosferu, uglavnom sastavljenu od ugljikovog dioksida, što rezultira ekstremnim efektom staklenika?",
+        "correct_answer": "Venera",
+        "incorrect_answers": [
+            "Merkur",
+            "Mars",
+            "Jupiter"
+        ],
+        "explanation": "Venera ima gustu atmosferu CO2 koja zarobljava toplinu, čineći je najtoplijim planetom u Sunčevom sustavu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je primarni mehanizam prijenosa topline u tekućinama i plinovima putem gibanja zagrijanih čestica?",
+        "correct_answer": "Konvekcija",
+        "incorrect_answers": [
+            "Kondukcija",
+            "Radijacija",
+            "Apsorpcija"
+        ],
+        "explanation": "Konvekcija je prijenos topline strujanjem, gdje zagrijana tvar postaje manje gusta i diže se, dok hladnija tvar pada.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja je stanična organela odgovorna za sintezu proteina prema uputama iz mRNA?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Lizosom",
+            "Endoplazmatski retikulum",
+            "Golgijev aparat"
+        ],
+        "explanation": "Ribosomi su stanične tvornice proteina, gdje se genetska informacija s mRNA prevodi u sekvencu aminokiselina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja tri jezika su temeljna za razvoj front-end web stranica (struktura, stil, interaktivnost)?",
+        "correct_answer": "HTML, CSS, JavaScript",
+        "incorrect_answers": [
+            "Python, Java, C++",
+            "SQL, PHP, Ruby",
+            "C#, .NET, Swift"
+        ],
+        "explanation": "HTML definira strukturu, CSS stil, a JavaScript interaktivnost web stranice koju korisnik vidi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji poznati svemirski teleskop, lansiran 1990., pruža oštre slike svemira bez utjecaja Zemljine atmosfere?",
+        "correct_answer": "Hubble svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Spitzer svemirski teleskop",
+            "Kepler svemirski teleskop"
+        ],
+        "explanation": "Hubble je desetljećima snimao spektakularne slike svemira, revolucionirajući astronomiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koje svojstvo svjetlosti i materije kaže da se mogu ponašati i kao čestice i kao valovi?",
+        "correct_answer": "Dualnost val-čestica",
+        "incorrect_answers": [
+            "Kvantna sprezanje",
+            "Superpozicija",
+            "Tuneliranje"
+        ],
+        "explanation": "Dualnost val-čestica je temeljni koncept kvantne mehanike koji opisuje ovo dvostruko ponašanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija u kojoj se dvije ili više tvari spajaju kako bi stvorile jednu složeniju tvar?",
+        "correct_answer": "Reakcija sinteze (spajanja)",
+        "incorrect_answers": [
+            "Reakcija raspada",
+            "Reakcija supstitucije",
+            "Redoks reakcija"
+        ],
+        "explanation": "U reakciji sinteze, dva ili više reaktanata kombiniraju se u jedan produkt (A + B -> AB).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koje su dvije glavne podjele ljudskog živčanog sustava?",
+        "correct_answer": "Središnji i periferni živčani sustav",
+        "incorrect_answers": [
+            "Simpatički i parasimpatički",
+            "Somatski i autonomni",
+            "Motoristički i senzorni"
+        ],
+        "explanation": "Živčani sustav dijeli se na središnji (mozak i leđna moždina) i periferni (svi ostali živci).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koju strukturu podataka karakterizira redoslijed 'prvi ušao, prvi izašao' (FIFO)?",
+        "correct_answer": "Red (Queue)",
+        "incorrect_answers": [
+            "Stog (Stack)",
+            "Povezana lista (Linked List)",
+            "Stablo (Tree)"
+        ],
+        "explanation": "U redu, elementi se dodaju na kraj i uklanjaju s početka, baš kao u redu za čekanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Između kojih se dvaju planeta u našem Sunčevom sustavu nalazi glavni asteroidni pojas?",
+        "correct_answer": "Marsa i Jupitera",
+        "incorrect_answers": [
+            "Zemlje i Marsa",
+            "Jupitera i Saturna",
+            "Saturna i Urana"
+        ],
+        "explanation": "Glavni asteroidni pojas je područje Sunčevog sustava smješteno između orbita Marsa i Jupitera, gdje se nalazi većina asteroida.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koju fazu tvari karakteriziraju čestice koje su gusto zbijene, ali se mogu slobodno gibati jedna pored druge, omogućujući tvari da teče, ali ne i da se komprimira?",
+        "correct_answer": "Tekućina",
+        "incorrect_answers": [
+            "Krutina",
+            "Plin",
+            "Plazma"
+        ],
+        "explanation": "U tekućinama, molekule su blizu, ali imaju dovoljno energije za klizanje jedna preko druge, što im omogućuje da zauzmu oblik posude.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je mehanizam evolucije, predložen od Charlesa Darwina, gdje organizmi bolje prilagođeni okolišu imaju veću vjerojatnost preživjeti i razmnožavati se?",
+        "correct_answer": "Prirodna selekcija",
+        "incorrect_answers": [
+            "Genetski drift",
+            "Mutacija",
+            "Migracija"
+        ],
+        "explanation": "Prirodna selekcija je ključni pokretač evolucije, gdje povoljne osobine postaju češće u populaciji tijekom generacija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koje područje umjetne inteligencije se bavi omogućavanjem računalima da 'vide' i interpretiraju digitalne slike i videozapise?",
+        "correct_answer": "Računalni vid",
+        "incorrect_answers": [
+            "Obrada prirodnog jezika",
+            "Strojno učenje",
+            "Robotika"
+        ],
+        "explanation": "Računalni vid (Computer Vision) osposobljava računala za razumijevanje vizualnog svijeta, slično ljudskom vidu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je naziv za energiju dobivenu iz prirodnih izvora koji se ne iscrpljuju ili se obnavljaju mnogo brže nego što se troše (npr. Sunce, vjetar)?",
+        "correct_answer": "Obnovljiva energija",
+        "incorrect_answers": [
+            "Fosilna goriva",
+            "Nuklearna fuzija",
+            "Nuklearna fisija"
+        ],
+        "explanation": "Obnovljivi izvori energije su prirodno nadoknadivi, poput sunčeve svjetlosti, vjetra, kiše, plime i geotermalne topline.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen odbijanja zvučnih valova od prepreke, što stvara ponavljanje zvuka?",
+        "correct_answer": "Jeka",
+        "incorrect_answers": [
+            "Rezonancija",
+            "Refrakcija",
+            "Amplituda"
+        ],
+        "explanation": "Jeka nastaje kada se zvučni valovi odbiju od površine i vrate se izvoru, stvarajući ponavljanje izvornog zvuka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva maksimalna količina otopljene tvari koja se može otopiti u određenoj količini otapala pri određenoj temperaturi?",
+        "correct_answer": "Topljivost",
+        "incorrect_answers": [
+            "Koncentracija",
+            "Viskoznost",
+            "Gustoća"
+        ],
+        "explanation": "Topljivost je mjera sposobnosti tvari (otopljene tvari) da se otopi u drugoj tvari (otapalu) i formira otopinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koju vrstu stanica u ljudskom oku koristimo za prepoznavanje boja?",
+        "correct_answer": "Čunjići",
+        "incorrect_answers": [
+            "Štapići",
+            "Ganglijske stanice",
+            "Pigmentni epitel"
+        ],
+        "explanation": "Čunjići (cones) su fotoreceptori u mrežnici odgovorni za percepciju boja i oštar vid pri jakom svjetlu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji je opći pojam za zlonamjerni softver dizajniran za oštećenje, iskorištavanje ili neovlašteni pristup računalnim sustavima?",
+        "correct_answer": "Malware",
+        "incorrect_answers": [
+            "Firmware",
+            "Shareware",
+            "Freeware"
+        ],
+        "explanation": "Malware je skraćenica od 'malicious software' i obuhvaća viruse, trojance, crve i drugi štetan softver.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji kemijski element je ključna komponenta u punjivim baterijama koje se široko koriste u prijenosnim elektroničkim uređajima i električnim vozilima?",
+        "correct_answer": "Litij",
+        "incorrect_answers": [
+            "Kadmij",
+            "Olovo",
+            "Nikal"
+        ],
+        "explanation": "Litij-ionske baterije su popularne zbog svoje visoke gustoće energije, dugog vijeka trajanja i relativno lagane težine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
