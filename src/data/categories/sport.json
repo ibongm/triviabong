@@ -32151,5 +32151,590 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koliki je najmanji broj igrača s kojim nogometna momčad može započeti utakmicu prema FIFA pravilima?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "9",
+            "8",
+            "10"
+        ],
+        "explanation": "Utakmica ne može započeti ako neka momčad ima manje od sedam igrača na terenu prema FIFA pravilima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koja zemlja je osvojila najviše naslova svjetskog prvaka u nogometu (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je rekorder s pet osvojenih naslova svjetskog prvaka u nogometu, najviše od svih nacija do 2024. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koji je maksimalni broj uzastopnih dodavanja lopte rukom bez dodira tla koji je dopušten u vaterpolu prije nego što se dosudi prekršaj?",
+        "correct_answer": "Nema ograničenja",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "5"
+        ],
+        "explanation": "U vaterpolu nema ograničenja u broju uzastopnih dodavanja između igrača prije nego što lopta mora dodirnuti vodu ili protivničkog igrača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Tko je najbolji strijelac u povijesti FIFA Svjetskih prvenstava (stanje 2024.)?",
+        "correct_answer": "Miroslav Klose",
+        "incorrect_answers": [
+            "Ronaldo (Brazil)",
+            "Lionel Messi",
+            "Pelé"
+        ],
+        "explanation": "Njemački napadač Miroslav Klose drži rekord sa 16 postignutih golova na svjetskim prvenstvima do 2024. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Koliki je promjer košarkaškog obruča prema FIBA pravilima (u centimetrima)?",
+        "correct_answer": "45 cm",
+        "incorrect_answers": [
+            "40 cm",
+            "42 cm",
+            "48 cm"
+        ],
+        "explanation": "Službeni unutarnji promjer košarkaškog obruča prema FIBA pravilima iznosi 45 centimetara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koja je visina koša u košarci prema službenim pravilima (u metrima)?",
+        "correct_answer": "3.05 m",
+        "incorrect_answers": [
+            "2.95 m",
+            "3.15 m",
+            "3.25 m"
+        ],
+        "explanation": "Službena visina koša od podloge do obruča u košarci je točno 3.05 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Koja država je osvojila najviše zlatnih medalja u muškoj košarci na Olimpijskim igrama (stanje 2024.)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Sovjetski Savez",
+            "Jugoslavija",
+            "Španjolska"
+        ],
+        "explanation": "SAD su dominantne u muškoj košarci na Olimpijskim igrama s daleko najviše osvojenih zlatnih medalja do 2024. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koliko poena se mora osvojiti u teniskom 'tie-breaku' za osvajanje seta (uz minimalnu prednost od dva poena)?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "5",
+            "6",
+            "10"
+        ],
+        "explanation": "U tie-breaku je potrebno osvojiti najmanje sedam poena i imati prednost od dva poena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Kako se naziva servis u tenisu koji protivnik ne može vratiti, što rezultira direktnim poenom za servera?",
+        "correct_answer": "As",
+        "incorrect_answers": [
+            "Volej",
+            "Smeč",
+            "Drop shot"
+        ],
+        "explanation": "As je savršen servis gdje lopta pada u polje, a protivnik je ne može dotaknuti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koji se Grand Slam teniski turnir igra na zemljanoj podlozi?",
+        "correct_answer": "Roland Garros",
+        "incorrect_answers": [
+            "Wimbledon",
+            "Australian Open",
+            "US Open"
+        ],
+        "explanation": "Roland Garros, ili French Open, jedini je Grand Slam turnir koji se tradicionalno igra na zemljanoj podlozi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Tko je jedini tenisač u povijesti koji je osvojio svaki Grand Slam turnir najmanje dvaput u pojedinačnoj konkurenciji (stanje 2024.)?",
+        "correct_answer": "Novak Đoković",
+        "incorrect_answers": [
+            "Roger Federer",
+            "Rafael Nadal",
+            "Rod Laver"
+        ],
+        "explanation": "Novak Đoković je jedini tenisač koji je uspio osvojiti svaki od četiri Grand Slam turnira barem dvaput do 2024. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koja je disciplina poznata kao 'kraljica sportova'?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Gimnastika"
+        ],
+        "explanation": "Atletika se tradicionalno naziva 'kraljicom sportova' zbog raznolikosti disciplina i temeljne važnosti ljudskih fizičkih sposobnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koliko metara iznosi svjetski rekord u skoku u dalj za muškarce, koji drži Mike Powell (stanje 2024.)?",
+        "correct_answer": "8.95 m",
+        "incorrect_answers": [
+            "8.90 m",
+            "9.00 m",
+            "8.85 m"
+        ],
+        "explanation": "Svjetski rekord u skoku u dalj za muškarce postavio je Mike Powell 1991. godine i iznosi 8.95 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koji sportaš je poznat kao 'najbrži čovjek na svijetu' zbog svojih svjetskih rekorda u sprinterskim disciplinama na 100 i 200 metara?",
+        "correct_answer": "Usain Bolt",
+        "incorrect_answers": [
+            "Carl Lewis",
+            "Jesse Owens",
+            "Justin Gatlin"
+        ],
+        "explanation": "Usain Bolt iz Jamajke drži svjetske rekorde i općenito je prepoznat kao najbrži sprinter svih vremena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Kako se naziva palica koja se predaje između trkača u štafetnoj utrci?",
+        "correct_answer": "Palica",
+        "incorrect_answers": [
+            "Štap",
+            "Štafeta",
+            "Batina"
+        ],
+        "explanation": "U štafetnim utrkama, natjecatelji prenose specifičnu palicu između sebe do cilja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koja je jedina plivačka disciplina na Olimpijskim igrama u kojoj su natjecateljima dopušteni skokovi s okretom (salta) pri startu i okretanju?",
+        "correct_answer": "Slobodni stil",
+        "incorrect_answers": [
+            "Leđni stil",
+            "Prsni stil",
+            "Delfin stil"
+        ],
+        "explanation": "Samo u disciplini slobodnog stila plivači smiju izvoditi salto okret na zidu bazena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koliko metara je dugačak standardni olimpijski bazen?",
+        "correct_answer": "50 m",
+        "incorrect_answers": [
+            "25 m",
+            "75 m",
+            "100 m"
+        ],
+        "explanation": "Standardni olimpijski bazen za plivačka natjecanja ima duljinu od 50 metara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koja je dimenzija rukometnog gola (visina x širina u metrima)?",
+        "correct_answer": "2 x 3 m",
+        "incorrect_answers": [
+            "2.44 x 7.32 m",
+            "1.83 x 2.44 m",
+            "2.13 x 4.88 m"
+        ],
+        "explanation": "Službene dimenzije rukometnog gola su 2 metra visine i 3 metra širine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koja je država najuspješnija u muškom rukometu na Olimpijskim igrama (stanje 2024.)?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Švedska",
+            "Hrvatska",
+            "Danska"
+        ],
+        "explanation": "Francuska je osvojila najviše zlatnih medalja u muškom rukometu na Olimpijskim igrama do 2024. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koja je visina mreže za mušku odbojku prema FIVB pravilima (u metrima)?",
+        "correct_answer": "2.43 m",
+        "incorrect_answers": [
+            "2.24 m",
+            "2.34 m",
+            "2.53 m"
+        ],
+        "explanation": "Službena visina gornjeg ruba mreže za mušku odbojku je 2.43 metra.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Kako se naziva udarac u odbojci kojim se lopta snažno udari iznad glave preko mreže u protivničko polje?",
+        "correct_answer": "Smeč",
+        "incorrect_answers": [
+            "Blok",
+            "Dizanje",
+            "Prijem"
+        ],
+        "explanation": "Smeč je snažan napadački udarac kojim se lopta pokušava poslati u protivničko polje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koja momčad je osvojila najviše konstruktorskih naslova u Formuli 1 (stanje 2024.)?",
+        "correct_answer": "Ferrari",
+        "incorrect_answers": [
+            "McLaren",
+            "Mercedes",
+            "Williams"
+        ],
+        "explanation": "Ferrari je najuspješnija momčad u povijesti Formule 1 po broju osvojenih konstruktorskih naslova do 2024.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko krugova ima Velika nagrada Monaka Formule 1 (približno)?",
+        "correct_answer": "78",
+        "incorrect_answers": [
+            "65",
+            "72",
+            "83"
+        ],
+        "explanation": "Velika nagrada Monaka obično ima 78 krugova, što je prilagođeno duljini staze.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Kako se naziva kategorija u boksu za borce teže od 90.72 kg (200 lbs)?",
+        "correct_answer": "Teška kategorija",
+        "incorrect_answers": [
+            "Poluteška kategorija",
+            "Srednja kategorija",
+            "Superteška kategorija"
+        ],
+        "explanation": "Borci teži od 90.72 kg klasificiraju se u tešku kategoriju, najprestižniju u boksu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Koji je sportski promoter poznat po promicanju kontroverznih, ali iznimno popularnih boksačkih mečeva u drugoj polovici 20. stoljeća, često povezan s Muhammadom Alijem?",
+        "correct_answer": "Don King",
+        "incorrect_answers": [
+            "Bob Arum",
+            "Dana White",
+            "Oscar De La Hoya"
+        ],
+        "explanation": "Don King je ikonski boksački promoter poznat po organizaciji nekih od najvećih borbi, uključujući 'Rumble in the Jungle'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "U kojem zimskom sportu se natjecatelji spuštaju na sanjkama licem prema dolje, prvo glavom?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Bob",
+            "Luge",
+            "Snowboard"
+        ],
+        "explanation": "Skeleton je olimpijski zimski sport u kojem se sportaši spuštaju na sanjkama po ledenoj stazi licem prema dolje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koji je sport poznat kao 'šah na ledu'?",
+        "correct_answer": "Curling",
+        "incorrect_answers": [
+            "Hokej na ledu",
+            "Brzo klizanje",
+            "Sinkronizirano klizanje"
+        ],
+        "explanation": "Curling se često naziva 'šah na ledu' zbog strateškog planiranja i preciznosti koja je potrebna za igru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u alpskom skijanju gdje se vrata postavljaju blizu jedno drugome, zahtijevajući brze i kratke zavoje?",
+        "correct_answer": "Slalom",
+        "incorrect_answers": [
+            "Veleslalom",
+            "Spust",
+            "Super G"
+        ],
+        "explanation": "Slalom je tehnička disciplina u alpskom skijanju s najkraćim razmacima između vrata i najbržim zavojima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'shuttlecock' (badmintonska loptica) umjesto loptice?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Tenis",
+            "Stolni tenis",
+            "Skvoš"
+        ],
+        "explanation": "Badminton se igra s reketima i laganom lopticom s perjem poznatom kao 'shuttlecock' ili badmintonska loptica.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koja je najpoznatija etapna biciklistička utrka u svijetu, poznata po žutom dresu?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Olimpijske igre"
+        ],
+        "explanation": "Tour de France je najprestižnija biciklistička utrka na svijetu, a žuti dres nosi vodeći natjecatelj u ukupnom poretku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koji borilački sport koristi pojas (obično crni) za označavanje majstorskog stupnja?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Boks",
+            "Hrvanje",
+            "Muay Thai"
+        ],
+        "explanation": "U judu, različite boje pojaseva označavaju razinu znanja i vještine, s crnim pojasom kao majstorskim stupnjem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Kako se naziva potez u hrvanju kojim se protivnik obara na leđa i drži na podlozi za pobjedu?",
+        "correct_answer": "Tuš",
+        "incorrect_answers": [
+            "Zahvat",
+            "Predaja",
+            "Pritisak"
+        ],
+        "explanation": "Tuš je konačan pobjednički potez u hrvanju, gdje se protivnik drži na leđima na podlozi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koji sport se igra s batom, loptom i wicketima, a popularan je u zemljama Commonwealtha?",
+        "correct_answer": "Kriket",
+        "incorrect_answers": [
+            "Bejzbol",
+            "Softbol",
+            "Golf"
+        ],
+        "explanation": "Kriket je timski sport koji se igra s palicom, loptom i wicketima, a posebno je popularan u Velikoj Britaniji i njenim bivšim kolonijama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji skaču s velike visine pričvršćeni elastičnim užetom?",
+        "correct_answer": "Bungee jumping",
+        "incorrect_answers": [
+            "Padobranstvo",
+            "Paragliding",
+            "Base jumping"
+        ],
+        "explanation": "Bungee jumping je ekstremni sport gdje se osoba pričvršćena elastičnim užetom skače s visokog objekta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koliko je polja (rupa) na standardnom golf igralištu?",
+        "correct_answer": "18",
+        "incorrect_answers": [
+            "9",
+            "12",
+            "24"
+        ],
+        "explanation": "Standardno golf igralište ima 18 rupa koje igrači moraju odigrati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koja je zemlja rodno mjesto Taekwondoa?",
+        "correct_answer": "Južna Koreja",
+        "incorrect_answers": [
+            "Kina",
+            "Japan",
+            "Tajland"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina i nacionalni sport Južne Koreje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Kako se zove olimpijski sport u kojem se natjecatelji natječu u pet različitih disciplina: mačevanje, plivanje, jahanje, streljaštvo i trčanje?",
+        "correct_answer": "Moderni petoboj",
+        "incorrect_answers": [
+            "Decatlon",
+            "Triatlon",
+            "Heptatlon"
+        ],
+        "explanation": "Moderni petoboj je jedini olimpijski sport koji kombinira ovih pet specifičnih disciplina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koji je sport poznat po specifičnoj lopti u obliku 'jaja' ili elipse?",
+        "correct_answer": "Ragbi",
+        "incorrect_answers": [
+            "Američki nogomet",
+            "Kriket",
+            "Polo"
+        ],
+        "explanation": "Ragbi se igra s prepoznatljivom ovalnom loptom koja se često naziva 'jaje'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2492",
+        "category": "sport",
+        "question": "U kojem sportu se natjecatelji penju po stijenama koristeći samo vlastito tijelo i sigurnosnu opremu, bez užadi za penjanje prema gore?",
+        "correct_answer": "Sportsko penjanje",
+        "incorrect_answers": [
+            "Planinarenje",
+            "Alpinizam",
+            "Speleologija"
+        ],
+        "explanation": "Sportsko penjanje je disciplina u kojoj se sportaši penju po stijenama ili umjetnim stijenama uz korištenje minimalne opreme za sigurnost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
