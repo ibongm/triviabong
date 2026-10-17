@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše FIFA Svjetskih prvenstava u nogometu (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je osvojio pet naslova prvaka, što ga čini najuspješnijom reprezentacijom u povijesti Svjetskih prvenstava.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koji se plivački stil naziva 'kraljevskim' stilom zbog svoje brzine?",
+        "correct_answer": "Kraul (slobodni stil)",
+        "incorrect_answers": [
+            "Leđni stil",
+            "Prsni stil",
+            "Delfin (leptir)"
+        ],
+        "explanation": "Kraul je najbrži plivački stil, zbog čega se često naziva 'slobodni stil' jer ga natjecatelji najčešće biraju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koliko je igrača u momčadi na terenu u polo utakmici?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "5",
+            "6",
+            "7"
+        ],
+        "explanation": "Svaka polo momčad sastoji se od četiri jahača, od kojih svaki ima svoju specifičnu ulogu u igri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Kako se naziva udarac u tenisu koji se izvodi odmah nakon što loptica odskoči od tla, prije nego što dosegne vrhunac svog luka?",
+        "correct_answer": "Groundstroke",
+        "incorrect_answers": [
+            "Volley",
+            "Smash",
+            "Drop shot"
+        ],
+        "explanation": "Groundstroke je temeljni udarac u tenisu koji se izvodi iz pozadine terena, nakon jednog odskoka loptice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "U kojem sportu se koristi disk nazvan 'frisbee'?",
+        "correct_answer": "Ultimate Frisbee",
+        "incorrect_answers": [
+            "Disc Golf",
+            "Freestyle Frisbee",
+            "Plažni tenis"
+        ],
+        "explanation": "Ultimate Frisbee je timski sport koji se igra s letećim diskom, kombinirajući elemente nogometa i košarke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koja je osnovna svrha 'checkera' u hokeju na ledu?",
+        "correct_answer": "Ometanje protivničkog igrača s pakom",
+        "incorrect_answers": [
+            "Postizanje gola",
+            "Dodavanje paka suigraču",
+            "Zaustavljanje igre"
+        ],
+        "explanation": "Checker je obrambena radnja kojom se nastoji oduzeti pak protivniku ili ga spriječiti u napredovanju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Koliko disciplina ima ženski sedmoboj u atletici?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "5",
+            "8",
+            "10"
+        ],
+        "explanation": "Ženski sedmoboj sastoji se od sedam atletskih disciplina: 100m prepone, skok u vis, bacanje kugle, 200m, skok u dalj, bacanje koplja i 800m.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Kako se naziva kazneni udarac u nogometu s udaljenosti od 11 metara?",
+        "correct_answer": "Jedanaesterac (penal)",
+        "incorrect_answers": [
+            "Slobodni udarac",
+            "Korner",
+            "Aut"
+        ],
+        "explanation": "Jedanaesterac je najstroža kazna u nogometu, dosuđuje se za prekršaj unutar kaznenog prostora.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koja je zemlja bila domaćin prvih modernih Olimpijskih igara 1896. godine?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Francuska",
+            "Velika Britanija",
+            "Italija"
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni, Grčka, čime je oživljena drevna tradicija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koliko je maksimalan broj igrača u vaterpolskoj momčadi u igri, uključujući vratara?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "9"
+        ],
+        "explanation": "Svaka vaterpolska momčad ima sedam igrača u vodi, uključujući vratara, te rezervne igrače na klupi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Kako se naziva situacija u boksu kada sudac broji do deset, a nokautirani borac ne ustane?",
+        "correct_answer": "Nokaut (KO)",
+        "incorrect_answers": [
+            "Tehnički nokaut (TKO)",
+            "Diskvalifikacija",
+            "Odluka sudaca"
+        ],
+        "explanation": "Nokaut je pobjeda kada borac padne na tlo i ne može nastaviti borbu nakon brojanja do deset.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koji je službeni naziv za stazu za utrke konja?",
+        "correct_answer": "Hipodrom",
+        "incorrect_answers": [
+            "Autodrom",
+            "Velodrom",
+            "Stadion"
+        ],
+        "explanation": "Hipodrom je namjenski izgrađeno trkalište za konjske utrke, često s tribinama za gledatelje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "U kojoj se državi održava poznata biciklistička utrka 'Giro d'Italia'?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Francuska",
+            "Španjolska",
+            "Belgija"
+        ],
+        "explanation": "Giro d'Italia je jedna od tri Grand Tour biciklističke utrke, koja se tradicionalno vozi kroz Italiju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koji je jedini plivač u povijesti Olimpijskih igara osvojio osam zlatnih medalja na jednim igrama (stanje 2024.)?",
+        "correct_answer": "Michael Phelps",
+        "incorrect_answers": [
+            "Mark Spitz",
+            "Ian Thorpe",
+            "Caeleb Dressel"
+        ],
+        "explanation": "Michael Phelps je na Olimpijskim igrama u Pekingu 2008. godine osvojio osam zlatnih medalja, što je rekord za jednog sportaša na jednim igrama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Kako se naziva udarac u odbojci kada se loptica snažno udara preko mreže s visine?",
+        "correct_answer": "Smeč (Spike)",
+        "incorrect_answers": [
+            "Servis",
+            "Blok",
+            "Dizanje (Set)"
+        ],
+        "explanation": "Smeč je napadački udarac kojim se loptica snažno udara prema protivničkom terenu, s ciljem postizanja poena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koja je jedina momčad u NBA povijesti koja je regularnu sezonu završila s omjerom 73-9 (stanje 2024.)?",
+        "correct_answer": "Golden State Warriors",
+        "incorrect_answers": [
+            "Chicago Bulls",
+            "Los Angeles Lakers",
+            "Boston Celtics"
+        ],
+        "explanation": "Golden State Warriorsi su u sezoni 2015./2016. ostvarili rekordnih 73 pobjede i 9 poraza u regularnoj sezoni.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koji se materijal najčešće koristi za izradu modernih kugli za kuglanje?",
+        "correct_answer": "Plastika (poliester, uretan ili reaktivna smola)",
+        "incorrect_answers": [
+            "Tvrda guma",
+            "Drvo",
+            "Metal"
+        ],
+        "explanation": "Modernije kugle za kuglanje izrađuju se od različitih vrsta plastike, poput poliestera, uretana ili reaktivne smole, za bolje performanse.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Kako se naziva natjecanje u skokovima u vodu s visoke platforme ili daske?",
+        "correct_answer": "Skokovi u vodu",
+        "incorrect_answers": [
+            "Sinkronizirano plivanje",
+            "Plivanje",
+            "Veslanje"
+        ],
+        "explanation": "Skokovi u vodu su akrobatska disciplina gdje natjecatelji izvode različite skokove s daske ili platforme.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koja država tradicionalno dominira sportom kriketa i ima najveću bazu navijača?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Australija",
+            "Engleska",
+            "Pakistan"
+        ],
+        "explanation": "Indija, uz Australiju i Englesku, ima izuzetno jaku tradiciju i dominantnu poziciju u kriketu, s najvećim brojem navijača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Kako se naziva borilačka vještina koja koristi tehnike udaraca rukama i nogama, te se fokusira na samoobranu?",
+        "correct_answer": "Taekwondo",
+        "incorrect_answers": [
+            "Judo",
+            "Hrvanje",
+            "Boks"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina i olimpijski sport poznat po dinamičnim udarcima nogama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koji je najpoznatiji godišnji događaj u konjskim utrkama u Velikoj Britaniji, poznat po strmim i zahtjevnim preponama?",
+        "correct_answer": "Grand National",
+        "incorrect_answers": [
+            "Kentucky Derby",
+            "Royal Ascot",
+            "Prix de l'Arc de Triomphe"
+        ],
+        "explanation": "Grand National je prestižna i iznimno zahtjevna utrka s preponama koja se održava svake godine u Aintreeju, Engleska.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koliko je krugova uobičajeno za jednu utrku Formule 1 na većini staza, u smislu prijeđene udaljenosti?",
+        "correct_answer": "Broj krugova koji osigurava približno 305 km",
+        "incorrect_answers": [
+            "50 krugova",
+            "60 krugova",
+            "75 krugova"
+        ],
+        "explanation": "Duljina utrke Formule 1 je određena tako da ukupan broj krugova iznosi nešto više od 305 kilometara (izuzev Monaca).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Kako se naziva glavni sudac u teniskom meču, koji sjedi na povišenoj stolici s pogledom na cijeli teren?",
+        "correct_answer": "Glavni sudac (Umpire)",
+        "incorrect_answers": [
+            "Linijski sudac",
+            "Sakupljač loptica",
+            "Izbornik"
+        ],
+        "explanation": "Glavni sudac (eng. umpire) nadgleda cijeli tijek meča, donosi odluke o spornim lopticama i kaznama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koji je sport poznat po korištenju lukova i strijela za gađanje meta?",
+        "correct_answer": "Streličarstvo",
+        "incorrect_answers": [
+            "Gađanje glinenih golubova",
+            "Mačevanje",
+            "Bacanje koplja"
+        ],
+        "explanation": "Streličarstvo je sport preciznosti koji uključuje gađanje meta lukom i strijelom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Kako se zove zaštitna kaciga koju nosi hvatač (catcher) u baseballu, štiteći lice i glavu?",
+        "correct_answer": "Maska",
+        "incorrect_answers": [
+            "Šljem",
+            "Kapa",
+            "Vizir"
+        ],
+        "explanation": "Maska je ključni dio opreme hvatača, štiti lice i glavu od snažnih udaraca lopticom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Koja je zemlja prepoznata kao rodno mjesto modernog golfa, kakvog ga danas poznajemo?",
+        "correct_answer": "Škotska",
+        "incorrect_answers": [
+            "Engleska",
+            "Nizozemska",
+            "Francuska"
+        ],
+        "explanation": "Moderni golf, kakvog danas poznajemo, razvio se u Škotskoj u 15. stoljeću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Kako se naziva vježba u gimnastici gdje se sportaš okreće oko prečke (horizontal bar), držeći se rukama?",
+        "correct_answer": "Velika ljuljačka (Giant swing)",
+        "incorrect_answers": [
+            "Salt",
+            "Premet",
+            "Stoj na rukama"
+        ],
+        "explanation": "Velika ljuljačka je temeljna vježba na prečki, gdje gimnastičar izvodi puni okret oko osovine s ispruženim tijelom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koji je sportski događaj poznat i pod popularnim nazivom 'March Madness'?",
+        "correct_answer": "NCAA muško košarkaško prvenstvo",
+        "incorrect_answers": [
+            "NBA doigravanje",
+            "Nogometno SP",
+            "Teniski Grand Slam"
+        ],
+        "explanation": "March Madness je popularan naziv za godišnje prvenstvo Nacionalne sveučilišne atletske asocijacije (NCAA) u košarci u SAD-u.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koji sport se igra s loptom i mrežom, gdje je cilj udariti loptu tako da padne na protivničku stranu terena?",
+        "correct_answer": "Odbojka",
+        "incorrect_answers": [
+            "Nogomet",
+            "Košarka",
+            "Tenis"
+        ],
+        "explanation": "Odbojka je timski sport gdje dvije ekipe igraju preko mreže, pokušavajući postići poene udarajući loptu u protivničko polje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Kako se naziva potez u šahu gdje se kralj pomiče dva polja prema topu, a top prelazi preko kralja na susjedno polje?",
+        "correct_answer": "Rokada",
+        "incorrect_answers": [
+            "Promocija",
+            "En passant",
+            "Šah"
+        ],
+        "explanation": "Rokada je poseban potez u šahu koji uključuje kralja i jednog od topova, s ciljem zaštite kralja i aktiviranja topa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koji sport uključuje jahanje konja i udaranje lopte palicama?",
+        "correct_answer": "Polo",
+        "incorrect_answers": [
+            "Konjički skokovi",
+            "Dresura",
+            "Klađenje na konje"
+        ],
+        "explanation": "Polo je timski sport koji se igra na konjima, gdje jahači koriste dugačke palice kako bi loptu gurnuli u protivnička vrata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Kako se naziva startna pozicija u plivanju koja se isključivo koristi za leđni stil?",
+        "correct_answer": "Start iz vode (Backstroke start)",
+        "incorrect_answers": [
+            "Start s bloka",
+            "Start iz stojećeg položaja",
+            "Start iz ležećeg položaja"
+        ],
+        "explanation": "Plivači leđnog stila započinju utrku iz vode, držeći se za startnu ručku na bloku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Tko je najpoznatiji igrač bejzbola svih vremena, poznat i kao 'Bambino'?",
+        "correct_answer": "Babe Ruth",
+        "incorrect_answers": [
+            "Jackie Robinson",
+            "Hank Aaron",
+            "Willie Mays"
+        ],
+        "explanation": "Babe Ruth je legendarni američki bejzbolaš koji je promijenio igru i postao ikona sporta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koliko je igrača u momčadi na terenu u američkom nogometu (NFL)?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka momčad u američkom nogometu ima jedanaest igrača na terenu u isto vrijeme, u napadu ili obrani.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koji sport uključuje izvođenje akrobatskih skokova i okreta na skijama na snježnoj padini?",
+        "correct_answer": "Freestyle skijanje",
+        "incorrect_answers": [
+            "Alpsko skijanje",
+            "Skijaško trčanje",
+            "Snowboarding"
+        ],
+        "explanation": "Freestyle skijanje obuhvaća discipline poput mogula, aerialsa, skijaškog krosa i slopestylea, poznate po akrobacijama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Kako se naziva udarac u badmintonu kada se loptica visoko i duboko udari prema protivničkoj pozadini?",
+        "correct_answer": "Clear (čisti udarac)",
+        "incorrect_answers": [
+            "Drop shot",
+            "Smash",
+            "Drive"
+        ],
+        "explanation": "Clear je obrambeni ili neutralni udarac koji se koristi za pomicanje protivnika s mreže i dobivanje vremena za oporavak pozicije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koja je glavna razlika između trkaćih konja čistokrvnih pasmina i kasača?",
+        "correct_answer": "Čistokrvni konji galopiraju, kasači kasaju",
+        "incorrect_answers": [
+            "Različita težina jahača",
+            "Različite staze",
+            "Različita oprema"
+        ],
+        "explanation": "Čistokrvni konji se natječu u galopu, najbržem hodu, dok kasači održavaju kas, dvotaktni simetrični hod.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Kako se naziva sprava u gimnastici na kojoj se izvode vježbe snage i ravnoteže, a sastoji se od dvije paralelne drvene prečke?",
+        "correct_answer": "Razboj (paralelne prečke)",
+        "incorrect_answers": [
+            "Preskok",
+            "Krugovi",
+            "Greda"
+        ],
+        "explanation": "Razboj je muška gimnastička sprava na kojoj se izvode dinamične vježbe snage, ravnoteže i agilnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
