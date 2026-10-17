@@ -30445,5 +30445,620 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja molekula prenosi genetske informacije iz jezgre stanice do ribosoma radi sinteze proteina?",
+        "correct_answer": "mRNA (messenger RNA)",
+        "incorrect_answers": [
+            "tRNA",
+            "rRNA",
+            "DNA"
+        ],
+        "explanation": "Messenger RNA (mRNA) je vrsta RNA koja kopira genetske upute iz DNA i prenosi ih u citoplazmu gdje služe kao kalup za sintezu proteina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji je znanstvenik formulirao zakon univerzalne gravitacije, objašnjavajući sile privlačnosti između svih tijela u svemiru?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Johannes Kepler"
+        ],
+        "explanation": "Isaac Newton je objavio svoj zakon univerzalne gravitacije 1687. godine, koji opisuje privlačnu silu između dvaju tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na granu umjetne inteligencije koja omogućava računalnim sustavima da uče iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojevo učenje",
+        "incorrect_answers": [
+            "Objektno orijentirano programiranje",
+            "Kvantno računanje",
+            "Robotika"
+        ],
+        "explanation": "Strojevo učenje je podskup umjetne inteligencije koji se fokusira na razvoj algoritama koji omogućuju računalima učenje iz podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je kemijski element najlakši i najrasprostranjeniji u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) je s atomskim brojem 1 najlakši kemijski element i čini oko 75% svemirske mase.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji je planet u našem Sunčevom sustavu poznat po svojim izrazitim prstenovima?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je drugi najveći planet u Sunčevom sustavu i najpoznatiji je po svom spektakularnom sustavu prstenova sastavljenom od čestica leda i stijena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada stanice 'jedu' druge stanice ili velike čestice, uobičajen kod ameba i nekih imunoloških stanica?",
+        "correct_answer": "Fagocitoza",
+        "incorrect_answers": [
+            "Pinocitoza",
+            "Egzocitoza",
+            "Mitoza"
+        ],
+        "explanation": "Fagocitoza je vrsta endocitoze gdje stanica apsorbira čvrste čestice, stvarajući fagosom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja fizikalna veličina mjeri prosječnu kinetičku energiju čestica u sustavu?",
+        "correct_answer": "Temperatura",
+        "incorrect_answers": [
+            "Toplina",
+            "Energija",
+            "Entropija"
+        ],
+        "explanation": "Temperatura je mjera prosječne kinetičke energije čestica u tvari, što odražava koliko su čestice brze.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica podataka koja se prenosi preko interneta?",
+        "correct_answer": "Paket",
+        "incorrect_answers": [
+            "Bit",
+            "Bajt",
+            "Okvir"
+        ],
+        "explanation": "Podaci se na internetu dijele u manje dijelove zvane paketi, koji se neovisno prenose i ponovno sastavljaju na odredištu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja pH vrijednost označava neutralnu otopinu pri 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "Pri standardnim uvjetima, čista voda ima pH vrijednost 7, što je definicija neutralnosti na pH ljestvici.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji je poznati svemirski teleskop lansiran 1990. godine i revolucionirao je naše razumijevanje svemira?",
+        "correct_answer": "Hubble svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Spitzer svemirski teleskop",
+            "Kepler svemirski teleskop"
+        ],
+        "explanation": "Hubble svemirski teleskop je operirao u orbiti od 1990. do 2024. godine i donio je mnoge ključne spoznaje o svemiru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se naziva cijeli skup genetskog materijala jednog organizma?",
+        "correct_answer": "Genom",
+        "incorrect_answers": [
+            "Kromosom",
+            "Gen",
+            "Alel"
+        ],
+        "explanation": "Genom predstavlja sveukupnost genetskih informacija sadržanih u DNA (ili RNA kod nekih virusa) jednog organizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji se fenomen događa kada se magnetsko polje koje se mijenja koristi za stvaranje električne struje u vodiču?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Elektrostatička privlačnost",
+            "Jouleov efekt",
+            "Termoelektrični efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je proces stvaranja elektromotorne sile (napona) i električne struje u vodiču promjenom magnetskog toka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koju jedinicu za pohranu podataka čini 1024 gigabajta?",
+        "correct_answer": "Terabajt",
+        "incorrect_answers": [
+            "Petabajt",
+            "Megabajt",
+            "Kilobajt"
+        ],
+        "explanation": "Terabajt (TB) je veća jedinica za pohranu podataka, koja se sastoji od 1024 gigabajta (GB).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koju vrstu zvijezde karakterizira gravitacijski kolaps njezine jezgre nakon što iscrpi nuklearno gorivo, rezultirajući iznimno gustom tvari?",
+        "correct_answer": "Neutronska zvijezda",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Crna rupa",
+            "Crveni div"
+        ],
+        "explanation": "Neutronske zvijezde su iznimno guste zvijezde nastale kolapsom masivnih zvijezda, sastoje se uglavnom od neutrona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je osnovna razlika između virusa i bakterije u pogledu stanične strukture?",
+        "correct_answer": "Virusi nisu stanice, dok su bakterije jednostanični organizmi.",
+        "incorrect_answers": [
+            "Bakterije imaju jezgru, virusi nemaju",
+            "Virusi imaju staničnu stijenku, bakterije nemaju",
+            "Bakterije se ne mogu replicirati samostalno, virusi mogu."
+        ],
+        "explanation": "Virusi su acelularni, nemaju staničnu strukturu, dok su bakterije prokariotske stanice, posjeduju staničnu strukturu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji se optički instrument koristi za promatranje objekata koji su previše udaljeni da bi se vidjeli golim okom?",
+        "correct_answer": "Teleskop",
+        "incorrect_answers": [
+            "Mikroskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Teleskop koristi leće ili zrcala za prikupljanje svjetlosti iz udaljenih objekata i njihovo povećanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji se protokol koristi za siguran prijenos hiperteksta putem interneta, često naznačen kao 'https://' u URL-u?",
+        "correct_answer": "HTTPS (Hypertext Transfer Protocol Secure)",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "HTTPS je sigurna verzija HTTP protokola, koja koristi SSL/TLS enkripciju za zaštitu komunikacije između web preglednika i poslužitelja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji se tip kemijske veze stvara kada jedan atom donira elektrone drugom atomu, tvoreći ione s suprotnim nabojima?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje potpunim prijenosom elektrona s jednog atoma na drugi, stvarajući pozitivne i negativne ione koji se privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja teorija objašnjava početak svemira iz izuzetno vrućeg i gustog stanja prije otprilike 13,8 milijardi godina?",
+        "correct_answer": "Teorija velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija cikličkog svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija velikog praska je vodeći kozmološki model koji opisuje kako se svemir razvijao od svog početka do danas.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji se pigment u biljkama koristi za apsorpciju sunčeve svjetlosti tijekom fotosinteze?",
+        "correct_answer": "Klorofil",
+        "incorrect_answers": [
+            "Karotenoid",
+            "Antocijan",
+            "Ksantofil"
+        ],
+        "explanation": "Klorofil je zeleni pigment prisutan u kloroplastima biljaka koji apsorbira svjetlosnu energiju potrebnu za fotosintezu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje električnog otpora?",
+        "correct_answer": "Om (Ohm)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ],
+        "explanation": "Om (Ω) je SI izvedena jedinica za električni otpor, nazvana po njemačkom fizičaru Georgu Simonu Ohmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji je najčešći tip softvera koji omogućuje korisniku interakciju s računalnim hardverom i pokretanje aplikacija?",
+        "correct_answer": "Operativni sustav",
+        "incorrect_answers": [
+            "Antivirusni program",
+            "Uredski paket",
+            "Web preglednik"
+        ],
+        "explanation": "Operativni sustav (OS) je ključni sustavski softver koji upravlja računalnim hardverom i softverskim resursima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Kako se naziva kemijska reakcija u kojoj dolazi do gubljenja elektrona?",
+        "correct_answer": "Oksidacija",
+        "incorrect_answers": [
+            "Redukcija",
+            "Neutralizacija",
+            "Hidroliza"
+        ],
+        "explanation": "Oksidacija je proces u kemijskoj reakciji gdje atom, ion ili molekula gubi elektrone.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je naziv za sloj atmosfere Zemlje u kojem se nalaze većina vremenskih pojava?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži sloj Zemljine atmosfere i mjesto gdje se događaju gotovo sve meteorološke pojave.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Tko je razvio teoriju prirodne selekcije koja objašnjava mehanizam evolucije?",
+        "correct_answer": "Charles Darwin",
+        "incorrect_answers": [
+            "Gregor Mendel",
+            "Jean-Baptiste Lamarck",
+            "Alfred Russel Wallace"
+        ],
+        "explanation": "Charles Darwin je objavio svoju teoriju prirodne selekcije u knjizi 'Podrijetlo vrsta' 1859. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji je pojam u kvantnoj mehanici koji opisuje da čestica može postojati na više mjesta ili u više stanja istovremeno dok se ne promatra?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Zapletenost",
+            "Tuneliranje",
+            "Kvantizacija"
+        ],
+        "explanation": "Superpozicija je temeljno načelo kvantne mehanike gdje sustav može biti u kombinaciji više stanja istovremeno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Kako se naziva softver dizajniran za oštećenje, iskorištavanje ili preuzimanje kontrole nad računalnim sustavom bez znanja korisnika?",
+        "correct_answer": "Zlonamjerni softver (malware)",
+        "incorrect_answers": [
+            "Firewall",
+            "Antivirus",
+            "Operativni sustav"
+        ],
+        "explanation": "Zlonamjerni softver, ili malware, je opći naziv za svaki softver stvoren s namjerom narušavanja funkcioniranja sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se proces koristi za spajanje mnogih malih monomera u dugi lanac, stvarajući polimer?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Depolimerizacija",
+            "Fermentacija",
+            "Destilacija"
+        ],
+        "explanation": "Polimerizacija je kemijski proces u kojem se monomeri kemijski vežu kako bi tvorili duge makromolekule, polimere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva prva letjelica s ljudskom posadom koja je sletjela na Mjesec?",
+        "correct_answer": "Apollo 11",
+        "incorrect_answers": [
+            "Vostok 1",
+            "Soyuz 1",
+            "Gemini 8"
+        ],
+        "explanation": "Apollo 11 je bila američka misija koja je 20. srpnja 1969. godine uspješno spustila prve ljude na Mjesec.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se oblik energije povezuje s gibanjem objekta?",
+        "correct_answer": "Kinetička energija",
+        "incorrect_answers": [
+            "Potencijalna energija",
+            "Toplinska energija",
+            "Kemijska energija"
+        ],
+        "explanation": "Kinetička energija je energija koju tijelo posjeduje zbog svog gibanja, a ovisi o njegovoj masi i brzini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji se naziv koristi za točku u svemiru gdje je gravitacija toliko jaka da ni svjetlost ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Pulsar",
+            "Kvazar",
+            "Nebulozna"
+        ],
+        "explanation": "Crna rupa je objekt s tako snažnom gravitacijskom silom da ništa, čak ni svjetlost, ne može pobjeći izvan horizonta događaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za opisivanje organizama koji mogu preživjeti u ekstremnim uvjetima kao što su visoke temperature, kiseli okoliš ili visoki tlak?",
+        "correct_answer": "Ekstremofili",
+        "incorrect_answers": [
+            "Aerobni organizmi",
+            "Anaerobni organizmi",
+            "Paraziti"
+        ],
+        "explanation": "Ekstremofili su organizmi, uglavnom mikroorganizmi, koji uspijevaju u uvjetima koji su smrtonosni za većinu drugih oblika života.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji se princip koristi za objašnjenje zašto krilo aviona stvara uzgon?",
+        "correct_answer": "Bernoullijev princip",
+        "incorrect_answers": [
+            "Arhimedov princip",
+            "Pascalov zakon",
+            "Newtonovi zakoni gibanja"
+        ],
+        "explanation": "Bernoullijev princip opisuje da povećanje brzine fluida prati smanjenje statičkog tlaka, što je ključno za aerodinamički uzgon krila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji se izraz odnosi na mjeru učinkovitosti algoritma u smislu vremena ili prostora potrebnog za njegovo izvršavanje kako se ulazna veličina povećava?",
+        "correct_answer": "Asimptotska složenost (Big O notacija)",
+        "incorrect_answers": [
+            "Vremenska preciznost",
+            "Funkcionalna robusnost",
+            "Metrička skalabilnost"
+        ],
+        "explanation": "Asimptotska složenost, često izražena Big O notacijom, opisuje performanse algoritma kako se ulazna veličina teži beskonačnosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Kako se naziva znanstveno polje posvećeno potrazi za izvanzemaljskim životom u svemiru?",
+        "correct_answer": "Astrobiologija",
+        "incorrect_answers": [
+            "Kozmologija",
+            "Astronomija",
+            "Astrofizika"
+        ],
+        "explanation": "Astrobiologija je interdisciplinarno polje koje proučava nastanak, evoluciju i rasprostranjenost života u svemiru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji bozoni posreduju slabu nuklearnu silu, odgovornu za radioaktivni raspad, a nose električni naboj?",
+        "correct_answer": "W bozoni",
+        "incorrect_answers": [
+            "Z bozon",
+            "Gluoni",
+            "Fotoni"
+        ],
+        "explanation": "W bozoni (W+ i W-) su nositelji slabe nuklearne sile i jedinstveni su među bozonima jer imaju električni naboj.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za molekule koje su zrcalne slike jedna drugoj, ali se ne mogu preklopiti jedna preko druge?",
+        "correct_answer": "Enantiomeri",
+        "incorrect_answers": [
+            "Izomeri",
+            "Diastereomeri",
+            "Konformeri"
+        ],
+        "explanation": "Enantiomeri su stereozomeri koji su međusobno neklopeće zrcalne slike, česta pojava u organskoj kemiji i farmakologiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Kako se naziva stanje u kojem imunološki sustav tijela pogrešno napada vlastite zdrave stanice i tkiva?",
+        "correct_answer": "Autoimuna bolest",
+        "incorrect_answers": [
+            "Alergijska reakcija",
+            "Imunodeficijencija",
+            "Transplantacijsko odbacivanje"
+        ],
+        "explanation": "Autoimune bolesti nastaju kada imunološki sustav greškom prepoznaje vlastite komponente kao strane i pokreće napad na njih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koju apstraktnu strukturu podataka karakterizira LIFO (Last-In, First-Out) princip, gdje se zadnji dodani element prvi uklanja?",
+        "correct_answer": "Stog (Stack)",
+        "incorrect_answers": [
+            "Red (Queue)",
+            "Stablo (Tree)",
+            "Lista (List)"
+        ],
+        "explanation": "Stog (stack) je linearna struktura podataka u kojoj su operacije dodavanja (push) i uklanjanja (pop) elemenata ograničene na jedan kraj, vrh stoga.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2355",
+        "category": "znanost",
+        "question": "Koji pojam opisuje sposobnost materijala da apsorbira energiju i plastično se deformira prije loma, mjera otpornosti na širenje pukotina?",
+        "correct_answer": "Žilavost (Toughness)",
+        "incorrect_answers": [
+            "Tvrdoća (Hardness)",
+            "Krhkost (Brittleness)",
+            "Elastičnost (Elasticity)"
+        ],
+        "explanation": "Žilavost je mjera količine energije koju materijal može apsorbirati prije nego što dođe do loma, što ga čini otpornim na širenje pukotina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sci_2356",
+        "category": "znanost",
+        "question": "Koja hipotetska vrsta tvari u kozmologiji ne emitira, apsorbira ili reflektira svjetlost, ali je odgovorna za veći dio mase galaksija?",
+        "correct_answer": "Tamna tvar",
+        "incorrect_answers": [
+            "Tamna energija",
+            "Antimaterija",
+            "Neutrini"
+        ],
+        "explanation": "Tamna tvar je nevidljiva i neinteragirajuća s elektromagnetskim zračenjem, a njezino postojanje zaključuje se iz gravitacijskih učinaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
