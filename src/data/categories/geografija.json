@@ -25139,5 +25139,470 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je država poznata po Koloseumu i Kosom tornju u Pizi?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Turska"
+        ],
+        "explanation": "Italija je dom brojnim povijesnim znamenitostima, uključujući rimski Koloseum i Kosi toranj u Pizi, simbole bogate kulturne baštine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji je najmanji kontinent na svijetu po površini?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Europa",
+            "Antarktika",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija je najmanji kontinent, a ujedno je i jedina država koja obuhvaća cijeli kontinent, poznata po jedinstvenoj flori i fauni.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi kip Krista Otkupitelja?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Meksiko",
+            "Argentina",
+            "Peru"
+        ],
+        "explanation": "Kip Krista Otkupitelja nalazi se u Rio de Janeiru u Brazilu, na vrhu planine Corcovado. Simbol je grada i brazilskog kršćanstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji je ocean najmanji na svijetu?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Atlantski ocean",
+            "Južni ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana, smješten oko Sjevernog pola i uglavnom prekriven ledom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je država poznata po tornjevima Petronas?",
+        "correct_answer": "Malezija",
+        "incorrect_answers": [
+            "Singapur",
+            "Tajland",
+            "Indonezija"
+        ],
+        "explanation": "Petronas tornjevi su blizanci u Kuala Lumpuru, glavni grad Malezije. Bili su najviše zgrade na svijetu od 1998. do 2004. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Tadž Mahal?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Pakistan",
+            "Bangladeš",
+            "Iran"
+        ],
+        "explanation": "Tadž Mahal je veličanstveni mauzolej smješten u Agri, Indija. Izgrađen je od bijelog mramora i simbol je vječne ljubavi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Južne Koreje?",
+        "correct_answer": "Seul",
+        "incorrect_answers": [
+            "Tokio",
+            "Peking",
+            "Pjongjang"
+        ],
+        "explanation": "Seul je glavni i najveći grad Južne Koreje, smješten na rijeci Han. Predstavlja jedno od vodećih globalnih gospodarskih i tehnoloških središta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Australije?",
+        "correct_answer": "Canberra",
+        "incorrect_answers": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane"
+        ],
+        "explanation": "Canberra je glavni grad Australije, planski izgrađen grad smješten između Sydneya i Melbournea, političko je središte države.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi slap Iguazú?",
+        "correct_answer": "Argentina",
+        "incorrect_answers": [
+            "Čile",
+            "Peru",
+            "Bolivija"
+        ],
+        "explanation": "Slapovi Iguazú su sustav slapova na rijeci Iguazú, na granici Argentine i Brazila. Jedni su od najspektakularnijih na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Južnoafričke Republike (administrativna)?",
+        "correct_answer": "Pretoria",
+        "incorrect_answers": [
+            "Cape Town",
+            "Johannesburg",
+            "Durban"
+        ],
+        "explanation": "Pretoria je administrativni glavni grad Južnoafričke Republike, dok su Cape Town i Bloemfontein zakonodavni i sudski glavni gradovi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Brazila?",
+        "correct_answer": "Brasília",
+        "incorrect_answers": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Buenos Aires"
+        ],
+        "explanation": "Brasília je savezni glavni grad Brazila, planski izgrađen i svečano otvoren 1960. godine kako bi služio kao političko središte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koja planina dijeli Europu i Aziju?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Alpe",
+            "Karpati"
+        ],
+        "explanation": "Planinski lanac Ural tradicionalno se smatra prirodnom granicom između europskog i azijskog kontinenta u Rusiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je država poznata po izlazećem suncu i planini Fuji?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Tajland"
+        ],
+        "explanation": "Japan je otočna država u istočnoj Aziji, poznata po svom simbolu izlazećeg sunca i svetoj planini Fuji, aktivnom vulkanu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Europi?",
+        "correct_answer": "Elbrus",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Matterhorn",
+            "Grossglockner"
+        ],
+        "explanation": "Elbrus, smješten na Kavkazu u Rusiji, najviši je vrh u Europi s visinom od 5.642 metra, popularan među alpinistima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Tajlanda?",
+        "correct_answer": "Bangkok",
+        "incorrect_answers": [
+            "Hanoi",
+            "Manila",
+            "Kuala Lumpur"
+        ],
+        "explanation": "Bangkok je glavni i najnaseljeniji grad Tajlanda, poznat po bogatoj kulturi, hramovima i užurbanoj modernoj atmosferi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je država poznata po Velikom koraljnom grebenu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Filipini",
+            "Indonezija",
+            "Fidži"
+        ],
+        "explanation": "Veliki koraljni greben, najveći koraljni sustav na svijetu, smješten je uz obalu Queenslanda u Australiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je najsjevernija točka kopna?",
+        "correct_answer": "Kaffeklubben otok",
+        "incorrect_answers": [
+            "Sjeverni pol",
+            "Arktički arhipelag",
+            "Otok Ellesmere"
+        ],
+        "explanation": "Otok Kaffeklubben, sjeverno od Grenlanda, najsjevernija je kopnena točka na Zemlji (stanje 2024.), otkriven 1900. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji tjesnac povezuje Crno more s Mramornim morem i dalje s Egejskim morem?",
+        "correct_answer": "Bospor",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Kerčki tjesnac",
+            "Gibraltarski tjesnac"
+        ],
+        "explanation": "Bospor je uski prirodni tjesnac u sjeverozapadnoj Turskoj koji razdvaja europski od azijskog dijela Istanbula.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koje je najveće slatkovodno jezero u Africi?",
+        "correct_answer": "Viktorijino jezero",
+        "incorrect_answers": [
+            "Jezero Tanganjika",
+            "Jezero Malawi",
+            "Jezero Čad"
+        ],
+        "explanation": "Viktorijino jezero je najveće jezero u Africi po površini i drugo najveće slatkovodno jezero na svijetu, izvor rijeke Nil.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja je država poznata po pustinji Atacama, najsušijem mjestu na svijetu?",
+        "correct_answer": "Čile",
+        "incorrect_answers": [
+            "Peru",
+            "Argentina",
+            "Bolivija"
+        ],
+        "explanation": "Pustinja Atacama, smještena u Čileu i dijelovima Perua, jedno je od najsušnijih mjesta na Zemlji zbog kišne sjene Anda.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koji je najviši vrh planinskog lanca Alpe?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Matterhorn",
+            "Grossglockner",
+            "Zugspitze"
+        ],
+        "explanation": "Mont Blanc je najviši vrh Alpa i najviša planina u zapadnoj Europi, smješten na granici Francuske i Italije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva morska struja koja donosi toplije vrijeme zapadnoj Europi?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Humboldtova struja",
+            "Kanarska struja"
+        ],
+        "explanation": "Golfska struja je snažna, topla i brza oceanska struja koja zapadnoj Europi donosi znatno topliju klimu nego što bi se očekivalo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se ledenjak lomi i otapa u more, stvarajući sante leda?",
+        "correct_answer": "Teljenje ledenjaka",
+        "incorrect_answers": [
+            "Ablacija",
+            "Sublimacija",
+            "Kristalizacija"
+        ],
+        "explanation": "Teljenje ledenjaka je proces u kojem se blokovi leda odvajaju od čela ledenjaka i padaju u more ili jezero, stvarajući sante.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koja vrsta pustinje nastaje zbog efektne barijere planinskog lanca koji blokira vlagu?",
+        "correct_answer": "Kišna sjena pustinja",
+        "incorrect_answers": [
+            "Polarna pustinja",
+            "Primorska pustinja",
+            "Eolska pustinja"
+        ],
+        "explanation": "Pustinje kišne sjene nastaju na zavjetrinskoj strani planina, gdje zrak gubi vlagu dok se diže i spušta se suh.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija u kojoj su slojevi stijena savijeni u valovite oblike uslijed bočnih pritisaka?",
+        "correct_answer": "Nabor",
+        "incorrect_answers": [
+            "Rasjed",
+            "Kanjon",
+            "Fjord"
+        ],
+        "explanation": "Nabori su valovita savijanja slojeva stijena koja nastaju pod utjecajem kompresijskih sila u Zemljinoj kori, često u orogenezi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je pustinja poznata po crvenom pijesku i najstarijim dinama na svijetu?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Gobi",
+            "Atacama"
+        ],
+        "explanation": "Pustinja Namib u Namibiji poznata je po svojim visokim crvenim dinama, koje su među najstarijima na svijetu, stare milijune godina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisni pojam koji označava nisko, obično močvarno zemljište formirano od nanosa rijeke na njezinu ušću?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Zaljev"
+        ],
+        "explanation": "Delta je geomorfološki oblik reljefa koji nastaje na ušću rijeke u more ili jezero taloženjem sedimenata koje rijeka nosi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma diže iz Zemljine kore i stvara nove oceanske kore na srednjooceanskim hrptovima?",
+        "correct_answer": "Širenje morskog dna",
+        "incorrect_answers": [
+            "Subdukcija",
+            "Orogeneza",
+            "Metamorfoza"
+        ],
+        "explanation": "Širenje morskog dna je geološki proces stvaranja nove oceanske kore na divergirajućim granicama tektonskih ploča, potaknut magmom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koja je najniža kopnena točka u Africi?",
+        "correct_answer": "Jezero Assal",
+        "incorrect_answers": [
+            "Jezero Tanganjika",
+            "Viktorijino jezero",
+            "Depresija Qattara"
+        ],
+        "explanation": "Jezero Assal u Džibutiju je najniža kopnena točka na afričkom kontinentu, smješteno 155 metara ispod razine mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Kako se naziva vrsta atmosferskog taloga koja nastaje sublimacijom vodene pare izravno u led na tlu, pri temperaturama ispod nule?",
+        "correct_answer": "Mraz",
+        "incorrect_answers": [
+            "Rosa",
+            "Snijeg",
+            "Inje"
+        ],
+        "explanation": "Mraz je sloj leda koji nastaje kada se vodena para direktno pretvara u led na hladnim površinama, bez prolaska kroz tekuće stanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Kako se naziva pojas aktivnih vulkana i potresa koji okružuje Tihi ocean?",
+        "correct_answer": "Pacifički vatreni prsten",
+        "incorrect_answers": [
+            "Atlantski vulkanski pojas",
+            "Afrička riftna dolina",
+            "Alpsko-himalajski pojas"
+        ],
+        "explanation": "Pacifički vatreni prsten je područje u bazenu Tihog oceana gdje se događa velika većina potresa i vulkanskih erupcija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
