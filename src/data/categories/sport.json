@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila prvo FIFA Svjetsko prvenstvo u nogometu 1930. godine?",
+        "correct_answer": "Urugvaj",
+        "incorrect_answers": [
+            "Brazil",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Urugvaj je bio domaćin i pobjednik prvog Svjetskog prvenstva u nogometu, pobijedivši Argentinu u finalu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koji je legendarni košarkaš poznat pod nadimkom \"Air Jordan\"?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": [
+            "LeBron James",
+            "Kobe Bryant",
+            "Magic Johnson"
+        ],
+        "explanation": "Michael Jordan dobio je nadimak \"Air Jordan\" zbog svojih izvanrednih sposobnosti skakanja i elegancije u zraku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koliko Grand Slam turnira se igra svake godine u profesionalnom tenisu?",
+        "correct_answer": "Četiri",
+        "incorrect_answers": [
+            "Tri",
+            "Pet",
+            "Šest"
+        ],
+        "explanation": "Svake godine se igraju četiri Grand Slam turnira: Australian Open, Roland Garros, Wimbledon i US Open.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koja se atletska disciplina sastoji od bacanja teškog metalnog diska?",
+        "correct_answer": "Bacanje diska",
+        "incorrect_answers": [
+            "Bacanje kugle",
+            "Bacanje koplja",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Bacanje diska je atletska disciplina u kojoj natjecatelji bacaju metalni disk što je dalje moguće.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz snježnu stazu na dva skoka i zatim skaču s brda?",
+        "correct_answer": "Skijaški skokovi",
+        "incorrect_answers": [
+            "Alpsko skijanje",
+            "Skijaško trčanje",
+            "Snowboarding"
+        ],
+        "explanation": "Skijaški skokovi su zimska sportska disciplina u kojoj se natjecatelji spuštaju niz skakaonicu i pokušavaju ostvariti što duži skok.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koji boksač je bio poznat pod nadimkom \"Iron Mike\"?",
+        "correct_answer": "Mike Tyson",
+        "incorrect_answers": [
+            "George Foreman",
+            "Evander Holyfield",
+            "Lennox Lewis"
+        ],
+        "explanation": "Mike Tyson, bivši svjetski prvak u teškoj kategoriji, zaradio je nadimak \"Iron Mike\" zbog svoje snage i agresivnog stila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Koja su četiri stila plivanja u kojima se natječu na Olimpijskim igrama?",
+        "correct_answer": "Slobodni, Leđni, Prsni, Delfin",
+        "incorrect_answers": [
+            "Slobodni, Leđni, Prsni, Bočni",
+            "Slobodni, Kravl, Leđni, Delfin",
+            "Slobodni, Prsni, Bočni, Kraul"
+        ],
+        "explanation": "Olimpijske discipline plivanja uključuju slobodni stil (kraul), leđni, prsni i delfin (leptirov) stil.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koja sprava u gimnastici zahtijeva da se sportaš okreće oko prečke i izvodi složene elemente u zraku?",
+        "correct_answer": "Preča",
+        "incorrect_answers": [
+            "Ruče",
+            "Karike",
+            "Konj s hvataljkama"
+        ],
+        "explanation": "Preča je sprava u muškoj sportskoj gimnastici na kojoj se izvode dinamične rotacije i letovi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Kako se naziva najprestižnija biciklistička utrka na svijetu, koja se održava u Francuskoj?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Paris-Roubaix"
+        ],
+        "explanation": "Tour de France je najpoznatija i najcjenjenija višednevna biciklistička utrka, dugačka oko 3500 km.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koji je cilj igre golfa?",
+        "correct_answer": "Ubaciti lopticu u rupu s što manje udaraca",
+        "incorrect_answers": [
+            "Prebaciti lopticu preko najviše prepreke",
+            "Udariti lopticu što dalje",
+            "Ubaciti lopticu u sve rupe u određenom vremenu"
+        ],
+        "explanation": "Cilj golfa je odigrati svaku rupu i cijelo igralište s što manjim brojem udaraca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koliko igrača se nalazi na terenu u jednoj ekipi tijekom službene utakmice odbojke?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Četiri"
+        ],
+        "explanation": "U odbojci, svaka ekipa ima šest igrača na terenu u svakom trenutku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koliko traje poluvrijeme u rukometnoj utakmici za seniore?",
+        "correct_answer": "30 minuta",
+        "incorrect_answers": [
+            "20 minuta",
+            "25 minuta",
+            "35 minuta"
+        ],
+        "explanation": "Rukometna utakmica za seniore sastoji se od dva poluvremena po 30 minuta, s pauzom od 10-15 minuta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi polaganje (try) u ragbiju (Union verzija)?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Tri",
+            "Četiri",
+            "Šest"
+        ],
+        "explanation": "U ragbiju Union, polaganje (try) je osnovni način postizanja bodova i vrijedi pet bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Kako se naziva igrač u kriketu koji baca lopticu prema udaraču?",
+        "correct_answer": "Bowler",
+        "incorrect_answers": [
+            "Batter",
+            "Wicket-keeper",
+            "Fielder"
+        ],
+        "explanation": "Bowler je igrač u kriketu čiji je zadatak baciti lopticu i pokušati izbaciti udarača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koji je drugi naziv za sport stolni tenis?",
+        "correct_answer": "Ping-pong",
+        "incorrect_answers": [
+            "Badminton",
+            "Skvoš",
+            "Tenis"
+        ],
+        "explanation": "Stolni tenis se često naziva i ping-pong zbog zvuka koji proizvode loptica i reket.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koliko se bijelih kugli koristi u standardnoj igri bilijara \"Osmica\" (8-ball)?",
+        "correct_answer": "Jedna",
+        "incorrect_answers": [
+            "Dvije",
+            "Tri",
+            "Četiri"
+        ],
+        "explanation": "U igri 8-ball bilijara, koristi se samo jedna bijela kugla (udaraljka) za udaranje ostalih kugli.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Što je \"power play\" u hokeju na ledu?",
+        "correct_answer": "Situacija kada je jedna ekipa s igračem više na ledu zbog kazne",
+        "incorrect_answers": [
+            "Kada je golman zamijenjen dodatnim napadačem",
+            "Kada se igra produljetak",
+            "Kada igrač postigne hat-trick"
+        ],
+        "explanation": "Power play nastaje kada jedna ekipa ima brojčanu prednost na ledu jer je protivnički igrač isključen.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Kako se naziva jahač u konjskim utrkama?",
+        "correct_answer": "Džokej",
+        "incorrect_answers": [
+            "Konjanik",
+            "Kavalir",
+            "Jahanac"
+        ],
+        "explanation": "Osoba koja jaše konja u profesionalnim konjskim utrkama naziva se džokej.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koje od navedenih nije oružje u sportskom mačevanju?",
+        "correct_answer": "Samurajski mač (Katana)",
+        "incorrect_answers": [
+            "Flert",
+            "Sablja",
+            "Mač"
+        ],
+        "explanation": "Flert, sablja i mač su tri discipline sportskog mačevanja, dok je Katana tradicionalni japanski mač.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koja je maksimalna ocjena za pogodak u središte mete (bullseye) u streličarstvu?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+            "9",
+            "11",
+            "12"
+        ],
+        "explanation": "U streličarstvu, unutarnji krug mete, poznat kao bullseye, donosi maksimalnih 10 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Što znači japanska riječ \"Judo\"?",
+        "correct_answer": "Nježan put",
+        "incorrect_answers": [
+            "Snažan udarac",
+            "Borbeni duh",
+            "Put ratnika"
+        ],
+        "explanation": "\"Judo\" na japanskom znači \"nježan put\" ili \"fleksibilan način\", naglašavajući korištenje protivnikove snage.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koje su dvije discipline u dizanju utega na Olimpijskim igrama?",
+        "correct_answer": "Trzaj i izbačaj",
+        "incorrect_answers": [
+            "Potisak i čučanj",
+            "Mrtvo dizanje i biceps pregib",
+            "Klasični i slobodni stil"
+        ],
+        "explanation": "Dizanje utega na Olimpijskim igrama sastoji se od dvije discipline: trzaj (snatch) i izbačaj (clean and jerk).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji koriste snagom vjetra za pogon plovila?",
+        "correct_answer": "Jedrenje",
+        "incorrect_answers": [
+            "Veslanje",
+            "Kajakaštvo",
+            "Kanuing"
+        ],
+        "explanation": "Jedrenje je vodeni sport koji koristi vjetar uhvaćen u jedra za kretanje plovila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koja je ekipa osvojila najviše NBA naslova u povijesti (stanje 2024.)?",
+        "correct_answer": "Boston Celtics i Los Angeles Lakers",
+        "incorrect_answers": [
+            "Chicago Bulls",
+            "Golden State Warriors",
+            "San Antonio Spurs"
+        ],
+        "explanation": "Boston Celtics i Los Angeles Lakers dijele rekord s po 17 osvojenih NBA prvenstava (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Koliko je puta nogometna reprezentacija Brazila osvojila FIFA Svjetsko prvenstvo (stanje 2024.)?",
+        "correct_answer": "Pet",
+        "incorrect_answers": [
+            "Četiri",
+            "Šest",
+            "Tri"
+        ],
+        "explanation": "Brazil je najuspješnija nogometna reprezentacija s pet osvojenih naslova svjetskog prvaka (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Koja je podloga tradicionalna za Wimbledon teniski turnir?",
+        "correct_answer": "Trava",
+        "incorrect_answers": [
+            "Zemlja",
+            "Tvrda podloga",
+            "Tepih"
+        ],
+        "explanation": "Wimbledon je jedini Grand Slam turnir koji se i dalje igra na travi, što mu daje poseban karakter.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koja je približna duljina maratonske utrke u miljama?",
+        "correct_answer": "26.2 milje",
+        "incorrect_answers": [
+            "20 milja",
+            "28.5 milja",
+            "30 milja"
+        ],
+        "explanation": "Standardna duljina maratona je 42.195 kilometara, što je približno 26.2 milje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koliko članova posade ima bob četverosjed?",
+        "correct_answer": "Četiri",
+        "incorrect_answers": [
+            "Tri",
+            "Pet",
+            "Dva"
+        ],
+        "explanation": "Bob četverosjed je natjecateljska posada koja se sastoji od četiri sportaša koji se spuštaju niz ledenu stazu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Kako se naziva kavez u kojem se održavaju MMA borbe?",
+        "correct_answer": "Oktagon",
+        "incorrect_answers": [
+            "Ring",
+            "Kvadrat",
+            "Kavez"
+        ],
+        "explanation": "Borbe u Ultimate Fighting Championshipu (UFC) i sličnim organizacijama održavaju se u osmerokutnom kavezu, nazvanom Oktagon.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Kako se naziva brzinac u reliju?",
+        "correct_answer": "Brzinski ispit (SS - Special Stage)",
+        "incorrect_answers": [
+            "Krug",
+            "Kvalifikacije",
+            "Etapa"
+        ],
+        "explanation": "Brzinski ispit je dionica puta na reliju gdje se mjeri vrijeme i gdje se natjecatelji bore protiv štoperice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koliko bodova donosi pogodak u vanjski prsten mete u pikadu (double ring)?",
+        "correct_answer": "Dvostruka vrijednost broja",
+        "incorrect_answers": [
+            "Trostruka vrijednost broja",
+            "Jednaka vrijednost broja",
+            "Pet bodova"
+        ],
+        "explanation": "Pogodak u vanjski prsten (double ring) udvostručuje vrijednost broja u koji je strelica pogodila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koja je boja kugle koja se koristi za izbijanje iz \"baulk\" zone na početku snooker partije?",
+        "correct_answer": "Bijela",
+        "incorrect_answers": [
+            "Crna",
+            "Žuta",
+            "Roza"
+        ],
+        "explanation": "Bijela kugla je udaraljka u snookeru kojom se udaraju ostale kugle.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koliko izmjena (substitucija) je dopušteno tijekom vaterpolo utakmice?",
+        "correct_answer": "Neograničen broj",
+        "incorrect_answers": [
+            "Tri",
+            "Pet",
+            "Sedam"
+        ],
+        "explanation": "U vaterpolu je dopušten neograničen broj izmjena igrača tijekom utakmice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koja je bila nagrada za pobjednika u antičkim Olimpijskim igrama?",
+        "correct_answer": "Vijenac od maslinovih grančica",
+        "incorrect_answers": [
+            "Zlatna medalja",
+            "Novčana nagrada",
+            "Brončani kip"
+        ],
+        "explanation": "Pobjednici antičkih Olimpijskih igara dobivali su vijenac od maslinovih grančica kao simbol časti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Kako se naziva predmet koji se udara reketom u badmintonu?",
+        "correct_answer": "Perjanica (eng. shuttlecock)",
+        "incorrect_answers": [
+            "Loptica",
+            "Volej",
+            "Disk"
+        ],
+        "explanation": "U badmintonu se koristi perjanica, specifičan projektil s perjem koji leti drugačije od loptice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koji se sport sastoji od naizmjeničnih rundi šaha i boksa?",
+        "correct_answer": "Šah boks",
+        "incorrect_answers": [
+            "Borbeni šah",
+            "Hibridni boks",
+            "Kombinirani ring"
+        ],
+        "explanation": "Šah boks je hibridni sport u kojem se natjecatelji izmjenjuju u rundama šaha i boksa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Kako se naziva dugački val koji se lomi postepeno i idealan je za surfanje?",
+        "correct_answer": "Break",
+        "incorrect_answers": [
+            "Tsunami",
+            "Plima",
+            "Morski greben"
+        ],
+        "explanation": "\"Break\" u surfanju odnosi se na mjesto gdje se valovi počinju lomiti i postaju pogodni za jahanje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koliko se igrača nalazi u jednoj ekipi u curlingu?",
+        "correct_answer": "Četiri",
+        "incorrect_answers": [
+            "Tri",
+            "Pet",
+            "Šest"
+        ],
+        "explanation": "Tim u curlingu sastoji se od četiri igrača koji naizmjenično guraju kamenje po ledu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
