@@ -25139,5 +25139,485 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazona",
+            "Mississippi",
+            "Jangce"
+        ],
+        "explanation": "Rijeka Nil, dugačka otprilike 6.650 km, tradicionalno se smatra najdužom rijekom na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji je naziv za poluotok koji obuhvaća zemlje poput Saudijske Arabije, Jemena i Omana?",
+        "correct_answer": "Arapski poluotok",
+        "incorrect_answers": [
+            "Indokineski poluotok",
+            "Sinajski poluotok",
+            "Anadolski poluotok"
+        ],
+        "explanation": "Arapski poluotok je najveći poluotok na svijetu, smješten na jugozapadnom dijelu Azije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja država ima glavni grad Berlin?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Austrija",
+            "Švicarska",
+            "Belgija"
+        ],
+        "explanation": "Berlin je najveći grad i glavni grad Savezne Republike Njemačke, te jedna od njezinih 16 saveznih država.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji je naziv za planinsku barijeru koja razdvaja Europu i Aziju?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Alpe",
+            "Himalaja"
+        ],
+        "explanation": "Planina Ural tradicionalno se smatra prirodnom granicom između europskog i azijskog kontinenta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja država je poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Naziv 'Japan' potječe od kineskih riječi za 'izvor sunca', što se odnosi na njegov položaj istočno od Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji ocean je najveći na svijetu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean zauzima otprilike trećinu površine Zemlje i najveći je ocean po površini i volumenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja je jedina prijestolnica na svijetu koja se nalazi ispod razine mora?",
+        "correct_answer": "Amsterdam",
+        "incorrect_answers": [
+            "Venecija",
+            "Kopenhagen",
+            "Rotterdam"
+        ],
+        "explanation": "Dijelovi Amsterdama leže ispod razine mora, a sustav brana i kanala štiti grad od poplava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva fenomen kada se tople zračne mase zarobljavaju ispod sloja hladnog zraka, često rezultirajući smogom?",
+        "correct_answer": "Temperaturna inverzija",
+        "incorrect_answers": [
+            "Efekt staklenika",
+            "Oluja",
+            "Monsun"
+        ],
+        "explanation": "Temperaturna inverzija je meteorološka pojava u kojoj temperatura zraka raste s visinom, umjesto da pada.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja se država nalazi na poluotoku s najdužom obalom na Mediteranu?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Italija",
+            "Turska",
+            "Hrvatska"
+        ],
+        "explanation": "Grčka, sa svojim brojnim otocima i razvedenom obalom, ima najdužu mediteransku obalu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kada se pijesak pod utjecajem vjetra oblikuje u karakteristične dine?",
+        "correct_answer": "Eolska akumulacija",
+        "incorrect_answers": [
+            "Glacijalna erozija",
+            "Fluvialna denudacija",
+            "Krški procesi"
+        ],
+        "explanation": "Eolska akumulacija je geomorfološki proces stvaranja dine i drugih reljefnih oblika taloženjem pijeska vjetrom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Francuske?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Rim",
+            "London",
+            "Madrid"
+        ],
+        "explanation": "Pariz je glavni grad Francuske, poznat po svojim umjetničkim galerijama, katedralama i poznatim spomenicima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koja rijeka ima najveći protok vode na svijetu?",
+        "correct_answer": "Amazona",
+        "incorrect_answers": [
+            "Kongo",
+            "Jangce",
+            "Mississippi"
+        ],
+        "explanation": "Rijeka Amazona ima najveći protok vode na svijetu, ispuštajući više vode nego sljedećih sedam najvećih rijeka zajedno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je najmanji kontinent na svijetu po površini?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Europa",
+            "Antarktika",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija se često smatra i kontinentom i državom, te je najmanji kontinent po kopnenoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja je zemlja s najvećim brojem stanovnika u Africi (stanje 2024.)?",
+        "correct_answer": "Nigerija",
+        "incorrect_answers": [
+            "Egipat",
+            "Etiopija",
+            "Južnoafrička Republika"
+        ],
+        "explanation": "Nigerija je najnaseljenija zemlja Afrike s procijenjenih preko 220 milijuna stanovnika (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji se pojam koristi za opisivanje otoka ili otočja nastalog od koraljnog grebena koji okružuje lagunu?",
+        "correct_answer": "Atol",
+        "incorrect_answers": [
+            "Fjord",
+            "Estuarij",
+            "Delta"
+        ],
+        "explanation": "Atol je prstenasti koraljni greben koji okružuje lagunu, a nastaje rastom koralja oko potopljenog vulkanskog otoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je boja zastave Brazila?",
+        "correct_answer": "Zelena, žuta, plava",
+        "incorrect_answers": [
+            "Crvena, bijela, plava",
+            "Plava, bijela",
+            "Žuta, crvena"
+        ],
+        "explanation": "Brazilska zastava sadrži zeleni pravokutnik, žuti romb i plavi krug s zvijezdama i natpisom 'Ordem e Progresso'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je najdulja kopnena granica između dvije države na svijetu?",
+        "correct_answer": "SAD i Kanada",
+        "incorrect_answers": [
+            "Rusija i Kina",
+            "Indija i Bangladeš",
+            "Argentina i Čile"
+        ],
+        "explanation": "Granica između SAD-a i Kanade dugačka je oko 8.891 km, uključujući Aljasku, i najduža je međunarodna granica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja pustinja je poznata kao 'najstarija pustinja na svijetu' i nalazi se u Africi?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Kalahari",
+            "Atacama"
+        ],
+        "explanation": "Pustinja Namib se procjenjuje na 55 do 80 milijuna godina starosti, što je čini najstarijom pustinjom na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Ujedinjenog Kraljevstva?",
+        "correct_answer": "London",
+        "incorrect_answers": [
+            "Edinburgh",
+            "Dublin",
+            "Manchester"
+        ],
+        "explanation": "London je glavni i najveći grad Ujedinjenog Kraljevstva i Engleske, smješten na rijeci Temzi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji morski prolaz razdvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Bospor",
+            "Suezski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean i Sredozemno more, te odvaja Europu (Španjolsku) od Afrike (Maroko).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je najpoznatija građevina u Parizu?",
+        "correct_answer": "Eiffelov toranj",
+        "incorrect_answers": [
+            "Koloseum",
+            "Big Ben",
+            "Kip slobode"
+        ],
+        "explanation": "Eiffelov toranj je čelični toranj izgrađen u Parizu za Svjetsku izložbu 1889. i postao je simbol grada.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja država se nalazi na jugu Azije i graniči s Indijom, a poznata je po najvišem vrhu K2?",
+        "correct_answer": "Pakistan",
+        "incorrect_answers": [
+            "Nepal",
+            "Butan",
+            "Bangladeš"
+        ],
+        "explanation": "K2, drugi najviši vrh na svijetu, nalazi se u planinskom lancu Karakorum, na granici Pakistana i Kine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koji je naziv za proces kada se morska voda isparava, a minerali, uključujući sol, kristaliziraju?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kondenzacija",
+            "Precipitacija"
+        ],
+        "explanation": "Proces isparavanja morske vode dovodi do koncentracije i kristalizacije soli, što se koristi u solanama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji kontinent je dom planinskog lanca Alpe?",
+        "correct_answer": "Europa",
+        "incorrect_answers": [
+            "Azija",
+            "Sjeverna Amerika",
+            "Južna Amerika"
+        ],
+        "explanation": "Alpe su najveći i najviši planinski lanac u Europi, koji se proteže kroz više zemalja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Turske?",
+        "correct_answer": "Ankara",
+        "incorrect_answers": [
+            "Istanbul",
+            "Izmir",
+            "Antalya"
+        ],
+        "explanation": "Ankara je službeni glavni grad Turske, dok je Istanbul najveći grad u zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koji je naziv za skupinu jezera u Sjevernoj Americi koja čine najveći sustav slatkovodnih jezera na svijetu?",
+        "correct_answer": "Velika jezera",
+        "incorrect_answers": [
+            "Finger Lakes",
+            "Canadian Shield Lakes",
+            "Great Slave Lake"
+        ],
+        "explanation": "Velika jezera (Superior, Michigan, Huron, Erie, Ontario) sadrže oko 21% svjetske površine slatke vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Italije?",
+        "correct_answer": "Rim",
+        "incorrect_answers": [
+            "Milano",
+            "Venecija",
+            "Firenca"
+        ],
+        "explanation": "Rim je glavni grad Italije i najveći grad u zemlji, smješten na rijeci Tiber.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Ujedinjenim Arapskim Emiratima?",
+        "correct_answer": "Dubai",
+        "incorrect_answers": [
+            "Abu Dhabi",
+            "Sharjah",
+            "Ajman"
+        ],
+        "explanation": "Dubai je najveći grad Ujedinjenih Arapskih Emirata i poznato globalno središte za poslovanje i turizam.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koji je naziv za uski morski prolaz koji povezuje Perzijski zaljev i Omanski zaljev?",
+        "correct_answer": "Hormuški tjesnac",
+        "incorrect_answers": [
+            "Bab-el-Mandeb",
+            "Malajski prolaz",
+            "Messinski prolaz"
+        ],
+        "explanation": "Hormuški tjesnac je strateški važan pomorski put, ključan za globalnu opskrbu naftom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po piramidama, sfingi i Nilu?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Maroko",
+            "Sudan",
+            "Libija"
+        ],
+        "explanation": "Egipat je drevna civilizacija smještena u sjeveroistočnoj Africi, poznata po Nilu i piramidama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Koji je naziv za polarni vjetar koji donosi hladan i suh zrak s polarnih područja?",
+        "correct_answer": "Polarni istočnjaci",
+        "incorrect_answers": [
+            "Zapadni vjetrovi",
+            "Monsuni",
+            "Pasati"
+        ],
+        "explanation": "Polarni istočnjaci su hladni i suhi vjetrovi koji pušu iz polarnih područja prema ekvatoru, karakteristični za polarne zone.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2014",
+        "category": "geografija",
+        "question": "Koji kontinent je najsuši na svijetu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Afrika",
+            "Australija",
+            "Azija"
+        ],
+        "explanation": "Antarktika je najhladniji, najsušniji i najvjetrovitiji kontinent na svijetu, s vrlo niskom količinom padalina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
