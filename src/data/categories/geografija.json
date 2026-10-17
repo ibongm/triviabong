@@ -25139,5 +25139,440 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija zemlja na svijetu?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Indija",
+            "Sjedinjene Američke Države",
+            "Rusija"
+        ],
+        "explanation": "Kina ima najveći broj stanovnika na svijetu (stanje 2024.). Indija je na drugom mjestu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najniža točka na kopnu Zemlje, nepokrivena ledom?",
+        "correct_answer": "obala Mrtvog mora",
+        "incorrect_answers": [
+            "Dolina Smrti",
+            "depresija Danakil",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Mrtvo more se nalazi na oko 430 metara ispod razine mora (stanje 2024.) i najniža je točka na kopnu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji se kontinent sastoji od zemalja s najvišom prosječnom nadmorskom visinom?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Južna Amerika",
+            "Antarktika"
+        ],
+        "explanation": "Azija ima najvišu prosječnu nadmorsku visinu zbog prisutnosti golemih planinskih lanaca poput Himalaje i Tibetske visoravni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji je najširi morski prolaz na svijetu?",
+        "correct_answer": "Drakeov prolaz",
+        "incorrect_answers": [
+            "Gibraltarski tjesnac",
+            "Beringov prolaz",
+            "Sueski kanal"
+        ],
+        "explanation": "Drakeov prolaz, koji razdvaja Južnu Ameriku od Antarktike, najširi je prolaz s približno 800-900 km širine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja planina je poznata kao \"Krov Afrike\"?",
+        "correct_answer": "Kilimanjaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Mount Elgon",
+            "Ruwenzori"
+        ],
+        "explanation": "Kilimanjaro je najviša planina u Africi, s vrhom Uhuru na 5895 metara nadmorske visine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji se proces naziva eolska erozija?",
+        "correct_answer": "erozija uzrokovana vjetrom",
+        "incorrect_answers": [
+            "erozija uzrokovana vodom",
+            "erozija uzrokovana ledom",
+            "erozija uzrokovana kemijskim procesima"
+        ],
+        "explanation": "Eolska erozija je geomorfološki proces oblikovanja površine Zemlje djelovanjem vjetra i pijeska.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koji je naziv za polarni vrtlog koji se periodično stvara iznad polova, donoseći ekstremnu hladnoću?",
+        "correct_answer": "Polarni vorteks",
+        "incorrect_answers": [
+            "Ciklona",
+            "Anticiklona",
+            "Tajfun"
+        ],
+        "explanation": "Polarni vorteks je velika masa hladnog zraka i niskog tlaka koja se nalazi iznad polarnih područja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Hrvatskoj?",
+        "correct_answer": "Dinara",
+        "incorrect_answers": [
+            "Biokovo",
+            "Velebit",
+            "Risnjak"
+        ],
+        "explanation": "Dinara je s vrhom Sinjal (1831 m) najviša planina u Hrvatskoj i dio je Dinarida.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Skandinaviji po broju stanovnika?",
+        "correct_answer": "Stockholm",
+        "incorrect_answers": [
+            "Oslo",
+            "Kopenhagen",
+            "Helsinki"
+        ],
+        "explanation": "Stockholm je glavni grad Švedske i najveći grad u Skandinaviji s populacijom od preko milijun stanovnika (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva fenomen kada se ledenjak kreće po podlozi i nosi sa sobom materijal, erodirajući pritom stijene?",
+        "correct_answer": "Ledena abrazija",
+        "incorrect_answers": [
+            "Fluvioglacijalna erozija",
+            "Periglacijalna erozija",
+            "Fjordizacija"
+        ],
+        "explanation": "Ledena abrazija je proces erozije uzrokovan kretanjem ledenjaka preko stijena, glačajući ih i odnoseći čestice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koji je po površini najmanji kontinent?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija je i kontinent i zemlja, te je po površini najmanji od sedam kontinenata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je pojam za morski zaljev ili ušće rijeke djelomično odvojeno od mora pješčanim nasipom ili sprudom?",
+        "correct_answer": "Laguna",
+        "incorrect_answers": [
+            "Estuarij",
+            "Fjord",
+            "Delta"
+        ],
+        "explanation": "Laguna je plitko vodeno tijelo odvojeno od većeg vodenog tijela (obično mora) pješčanim nasipom ili koraljnim grebenom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja država ima glavni grad Berlin?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Austrija",
+            "Švicarska",
+            "Poljska"
+        ],
+        "explanation": "Berlin je najveći grad i glavni grad Savezne Republike Njemačke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna linija koja označava istočnu granicu gdje više nije moguće vidjeti polarnu svjetlost (auroru)?",
+        "correct_answer": "Auroralni oval",
+        "incorrect_answers": [
+            "Magnetski ekvator",
+            "Arktički krug",
+            "Polarni krug"
+        ],
+        "explanation": "Auroralni oval je prstenasto područje oko Zemljinih magnetskih polova gdje se najčešće može vidjeti polarna svjetlost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim gondolama i kanalima?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Francuska",
+            "Grčka",
+            "Nizozemska"
+        ],
+        "explanation": "Venecija, grad u Italiji, globalno je prepoznatljiva po svojim brojnim kanalima i tradicionalnim gondolama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koji se plitki sloj atmosfere najbliži Zemljinoj površini naziva?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži sloj Zemljine atmosfere, gdje se odvijaju svi vremenski fenomeni i gdje živi većina živih bića.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Južne Amerike izvan planinskog lanca Anda?",
+        "correct_answer": "Pico Cristóbal Colón",
+        "incorrect_answers": [
+            "Roraima",
+            "Huascarán",
+            "Aconcagua"
+        ],
+        "explanation": "Pico Cristóbal Colón (5775 m) nalazi se u Sierra Nevadi de Santa Marta u Kolumbiji i najviši je vrh na kontinentu izvan Anda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja se rijeka naziva \"Majkom rijeka\" u Egiptu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Eufrat",
+            "Tigris",
+            "Jordan"
+        ],
+        "explanation": "Nil je vitalna rijeka za Egipat, pružajući vodu za piće, navodnjavanje i plodno tlo, zbog čega je nazvana \"Majkom rijeka\".",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva geološki proces kada se Zemljina kora izdiže ili spušta zbog promjene opterećenja (npr. otapanje ledenjaka)?",
+        "correct_answer": "Izostazija",
+        "incorrect_answers": [
+            "Tektonika ploča",
+            "Vulkanizam",
+            "Erozija"
+        ],
+        "explanation": "Izostazija je proces ravnoteže između Zemljine kore i plašta, gdje se kora izdiže ili spušta kako bi kompenzirala promjene mase.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja je zemlja dom Velikog koraljnog grebena?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Fidži"
+        ],
+        "explanation": "Veliki koraljni greben je najveći sustav koraljnih grebena na svijetu i nalazi se uz obalu Queenslanda u Australiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja država ima zastavu s javorovim listom?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Sjedinjene Američke Države",
+            "Velika Britanija",
+            "Australija"
+        ],
+        "explanation": "Javorov list je nacionalni simbol Kanade i istaknuto se nalazi na njezinoj državnoj zastavi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji se kontinent smatra mjestom porijekla ljudske vrste?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Znanstveni dokazi, uključujući fosilne nalaze, ukazuju na Afriku kao kolijevku čovječanstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva linija neposredno iznad koje snijeg i led opstaju tijekom cijele godine?",
+        "correct_answer": "Granica vječnog snijega",
+        "incorrect_answers": [
+            "Termoklina",
+            "Izoterma",
+            "Rosište"
+        ],
+        "explanation": "Granica vječnog snijega je nadmorska visina iznad koje akumulacija snijega premašuje njegovo otapanje tijekom godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji je naziv za uski pojas zemlje koji spaja dva veća kopna, okružen vodom s dvije strane?",
+        "correct_answer": "Kopnena prevlaka",
+        "incorrect_answers": [
+            "Zaljev",
+            "Prolaz",
+            "Tjesnac"
+        ],
+        "explanation": "Kopnena prevlaka je uska traka zemlje koja povezuje dva veća kopna, poput Panamske prevlake.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva vrsta tla koja je trajno zamrznuta i ne otapa se ljeti?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Löss",
+            "Glina",
+            "Humus"
+        ],
+        "explanation": "Permafrost je tlo koje ostaje zamrznuto tijekom dvije ili više uzastopnih godina, često u polarnim regijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koji je pojam za obalni reljef koji nastaje potapanjem riječnih dolina?",
+        "correct_answer": "Rijasi",
+        "incorrect_answers": [
+            "Fjordovi",
+            "Estuariji",
+            "Klifovi"
+        ],
+        "explanation": "Rijasi su duboki, uski morski zaljevi koji predstavljaju potopljene riječne doline, karakteristični za obale kao što je sjeverozapadna Španjolska.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koji je najdublji kanjon u Europi?",
+        "correct_answer": "Kanjon Tare",
+        "incorrect_answers": [
+            "Kanjon Verdon",
+            "Kanjon Cetine",
+            "Kanjon Morače"
+        ],
+        "explanation": "Kanjon rijeke Tare u Crnoj Gori je najdublji kanjon u Europi i drugi po dubini u svijetu (iza Grand Canyona).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po sustavu poldera, zemljišta dobivenog isušivanjem morskog dna?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska je poznata po svojim polderima, velikim područjima zemlje dobivenim sustavnim isušivanjem mora i jezera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koji je drugi najviši vrh Afrike?",
+        "correct_answer": "Mount Kenya",
+        "incorrect_answers": [
+            "Kilimanjaro",
+            "Mount Elgon",
+            "Ruwenzori"
+        ],
+        "explanation": "Mount Kenya je drugi najviši vrh u Africi, s vrhom Batian na 5199 metara nadmorske visine, nakon Kilimanjara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
