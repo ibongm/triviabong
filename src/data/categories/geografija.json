@@ -25139,5 +25139,305 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazon",
+            "Mississippi",
+            "Yangtze"
+        ],
+        "explanation": "Nil se smatra najdužom rijekom na svijetu, protječući kroz sjeveroistočnu Afriku (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji je najmanji kontinent na svijetu po površini?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Europa",
+            "Antarktika",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija se klasificira kao kontinent, ali je najmanja po kopnenoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva morska struja koja donosi topliju vodu uz obalu zapadne Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Ojašio struja",
+            "Kanarska struja"
+        ],
+        "explanation": "Golfska struja je snažna, topla i brza oceanska struja koja značajno utječe na klimu zapadne Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji se ocean nalazi između Afrike te Sjeverne i Južne Amerike?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Tihi ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Atlantski ocean je drugi najveći ocean na svijetu, smješten između Europe/Afrike i Amerika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Brazila?",
+        "correct_answer": "Brasilia",
+        "incorrect_answers": [
+            "Rio de Janeiro",
+            "Sao Paulo",
+            "Buenos Aires"
+        ],
+        "explanation": "Brasilia je planski izgrađen glavni grad Brazila, službeno inauguriran 1960. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji se kontinent nalazi najjužnije?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Australija",
+            "Afrika"
+        ],
+        "explanation": "Antarktika je najjužniji kontinent na Zemlji, okružen Južnim oceanom i prekriven ledom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva tropska ciklona koja se formira iznad Tihog oceana, obično pogađajući Aziju?",
+        "correct_answer": "Tajfun",
+        "incorrect_answers": [
+            "Uragan",
+            "Tornado",
+            "Ciklon"
+        ],
+        "explanation": "Tajfun je regionalni naziv za tropski ciklon u sjeverozapadnom dijelu Tihog oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je država poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Naziv 'Japan' na japanskom znači 'zemlja izlazećeg sunca', što se odnosi na njegovu istočnu lokaciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni fenomen gdje Sunce ostaje iznad horizonta 24 sata dnevno?",
+        "correct_answer": "Polarni dan",
+        "incorrect_answers": [
+            "Polarna svjetlost",
+            "Bijela noć",
+            "Solsticij"
+        ],
+        "explanation": "Polarni dan je prirodni fenomen koji se događa u polarnim regijama tijekom ljetnih mjeseci, kada Sunce ne zalazi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva proces spajanja dviju rijeka ili riječnih sustava?",
+        "correct_answer": "Konfluencija",
+        "incorrect_answers": [
+            "Bifurkacija",
+            "Delta",
+            "Estuarij"
+        ],
+        "explanation": "Konfluencija je točka gdje se dvije ili više rijeka spajaju, tvoreći jednu rijeku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Njemačke?",
+        "correct_answer": "Berlin",
+        "incorrect_answers": [
+            "München",
+            "Frankfurt",
+            "Hamburg"
+        ],
+        "explanation": "Berlin je najveći grad Njemačke i njezin glavni grad od ujedinjenja 1990. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva duboki, uski morski zaljev strmih obala, nastao djelovanjem ledenjaka?",
+        "correct_answer": "Fjord",
+        "incorrect_answers": [
+            "Kanjon",
+            "Estuarij",
+            "Laguna"
+        ],
+        "explanation": "Fjordovi su karakteristični za obale koje su tijekom geološke prošlosti bile pod utjecajem ledenjaka, poput Norveške.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je naziv za izrazito suho područje, gdje je godišnja količina oborina vrlo niska?",
+        "correct_answer": "Pustinja",
+        "incorrect_answers": [
+            "Stepa",
+            "Savana",
+            "Prašuma"
+        ],
+        "explanation": "Pustinja je biom karakteriziran ekstremno niskom razinom padalina, što podržava rijetku vegetaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva geološka formacija u obliku luka ili mosta, prirodno isklesana erozijom?",
+        "correct_answer": "Prirodni most (luk)",
+        "incorrect_answers": [
+            "Stalaktit",
+            "Stalagmit",
+            "Sinklinala"
+        ],
+        "explanation": "Prirodni mostovi nastaju kada erozija i vremenski uvjeti izdubljuju mekše slojeve stijena, ostavljajući tvrđe slojeve kao luk.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Kako se naziva val uzrokovan potresom ili podvodnom erupcijom vulkana?",
+        "correct_answer": "Tsunami",
+        "incorrect_answers": [
+            "Uragan",
+            "Plima",
+            "Ciklon"
+        ],
+        "explanation": "Tsunami je serija morskih valova uzrokovanih velikim pomicanjem mase, često potresom na dnu oceana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija na svijetu po površini (stanje 2024.)?",
+        "correct_answer": "Jezero Volta",
+        "incorrect_answers": [
+            "Jezero Kariba",
+            "Jezero Nasser",
+            "Brana Tri klanca"
+        ],
+        "explanation": "Jezero Volta u Gani je najveće umjetno jezero na svijetu po površini, nastalo izgradnjom brane Akosombo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja se država nalazi na južnom dijelu Apeninskog poluotoka?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Turska",
+            "Španjolska"
+        ],
+        "explanation": "Italija zauzima veći dio Apeninskog poluotoka, poznatog po svom karakterističnom obliku 'čizme'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji se kontinent nalazi istočno od Europe i zapadno od Tihog oceana?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Afrika",
+            "Sjeverna Amerika",
+            "Južna Amerika"
+        ],
+        "explanation": "Azija je najveći i najmnogoljudniji kontinent, prostirući se istočno od Europe i dosežući Tihi ocean.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma diže prema površini Zemlje, ali se ohladi i skrutne prije nego što eruptira?",
+        "correct_answer": "Intruzija",
+        "incorrect_answers": [
+            "Ekstruzija",
+            "Subdukcija",
+            "Metamorfizam"
+        ],
+        "explanation": "Intruzija je nastanak magmatskih stijena hlađenjem i skrućivanjem magme unutar Zemljine kore.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji je naziv za područje gdje rijeka ulazi u ocean ili jezero, često formirajući trokutasti oblik?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Ušće",
+            "Kanjon"
+        ],
+        "explanation": "Delta je nizina nastala nakupljanjem sedimenata na ušću rijeke u veću vodenu površinu, često s račvastim tokovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-17"
     }
 ]
