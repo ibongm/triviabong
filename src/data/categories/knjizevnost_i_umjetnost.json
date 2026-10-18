@@ -30352,5 +30352,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2289",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor drame \"Gospoda Glembajevi\"?",
+        "correct_answer": "Miroslav Krleža",
+        "incorrect_answers": [
+            "Ranko Marinković",
+            "Tin Ujević",
+            "August Šenoa"
+        ],
+        "explanation": "\"Gospoda Glembajevi\" je najpoznatija drama Miroslava Krleže, dio njegovog ciklusa o obitelji Glembaj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2290",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski renesansni umjetnik naslikao \"Mona Lisu\"?",
+        "correct_answer": "Leonardo da Vinci",
+        "incorrect_answers": [
+            "Michelangelo",
+            "Rafael",
+            "Sandro Botticelli"
+        ],
+        "explanation": "\"Mona Lisa\", poznata i kao \"La Gioconda\", remek-djelo je Leonarda da Vincija, slikana tehnikom sfumata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2291",
+        "category": "knjizevnost",
+        "question": "Koji je austrijski kompozitor, \"čudo od djeteta\", autor više od 600 djela, uključujući opere \"Figarov pir\" i \"Don Giovanni\"?",
+        "correct_answer": "Wolfgang Amadeus Mozart",
+        "incorrect_answers": [
+            "Ludwig van Beethoven",
+            "Johann Sebastian Bach",
+            "Franz Schubert"
+        ],
+        "explanation": "Mozart je bio iznimno plodan kompozitor klasičnog razdoblja, poznat po brojnim operama, simfonijama i koncertima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2292",
+        "category": "knjizevnost",
+        "question": "Koji je engleski dramatičar i pjesnik autor tragedija \"Hamlet\" i \"Romeo i Julija\"?",
+        "correct_answer": "William Shakespeare",
+        "incorrect_answers": [
+            "Charles Dickens",
+            "Jane Austen",
+            "Oscar Wilde"
+        ],
+        "explanation": "William Shakespeare se smatra jednim od najvećih pisaca engleskog jezika i svjetske književnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2293",
+        "category": "knjizevnost",
+        "question": "Koji je ruski književnik autor romana \"Ana Karenjina\" i \"Rat i mir\"?",
+        "correct_answer": "Lav Tolstoj",
+        "incorrect_answers": [
+            "Fjodor Dostojevski",
+            "Anton Čehov",
+            "Ivan Turgenjev"
+        ],
+        "explanation": "Lav Tolstoj je jedan od najvećih romanopisaca svih vremena, poznat po svojim epskim djelima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2294",
+        "category": "knjizevnost",
+        "question": "Tko je autor povijesnog romana \"Zlatarovo zlato\"?",
+        "correct_answer": "August Šenoa",
+        "incorrect_answers": [
+            "Vjenceslav Novak",
+            "Ksaver Šandor Gjalski",
+            "Eugen Kumičić"
+        ],
+        "explanation": "\"Zlatarovo zlato\" je prvi hrvatski povijesni roman, objavljen 1871. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2295",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski postimpresionistički slikar poznat po intenzivnom korištenju boja i poteza, autor slike \"Suncokreti\"?",
+        "correct_answer": "Vincent van Gogh",
+        "incorrect_answers": [
+            "Paul Cézanne",
+            "Claude Monet",
+            "Pierre-Auguste Renoir"
+        ],
+        "explanation": "Van Gogh je jedan od najutjecajnijih umjetnika u povijesti zapadne umjetnosti, poznat po svojim ekspresivnim djelima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2296",
+        "category": "knjizevnost",
+        "question": "Koji talijanski renesansni slikar je autor poznate slike \"Rođenje Venere\", prikazujući boginju kako izlazi iz morske školjke?",
+        "correct_answer": "Sandro Botticelli",
+        "incorrect_answers": [
+            "Titian",
+            "Raphael",
+            "Caravaggio"
+        ],
+        "explanation": "\"Rođenje Venere\" je jedno od najpoznatijih djela Sandra Botticellija, simbolizira ideal ljepote renesanse.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2297",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski slikar, suosnivač kubizma, poznat po djelu \"Guernica\"?",
+        "correct_answer": "Pablo Picasso",
+        "incorrect_answers": [
+            "Salvador Dalí",
+            "Joan Miró",
+            "Francisco Goya"
+        ],
+        "explanation": "Picasso je jedan od najutjecajnijih umjetnika 20. stoljeća, a \"Guernica\" je snažna antiratna poruka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2298",
+        "category": "knjizevnost",
+        "question": "Koji je britanski pisac autor fantasy serijala \"Gospodar prstenova\"?",
+        "correct_answer": "J.R.R. Tolkien",
+        "incorrect_answers": [
+            "C.S. Lewis",
+            "George R.R. Martin",
+            "Ursula K. Le Guin"
+        ],
+        "explanation": "\"Gospodar prstenova\" je jedno od najutjecajnijih djela fantasy žanra, objavljeno 1954. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2299",
+        "category": "knjizevnost",
+        "question": "Koji je američki kompozitor autor glazbe za filmove poput \"Ralje\", \"Zvjezdani ratovi\" i \"Indiana Jones\"?",
+        "correct_answer": "John Williams",
+        "incorrect_answers": [
+            "Hans Zimmer",
+            "Ennio Morricone",
+            "Bernard Herrmann"
+        ],
+        "explanation": "John Williams je jedan od najpoznatijih i najnagrađivanijih skladatelja filmske glazbe u povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2300",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski nobelovac autor romana \"Most na Drini\"?",
+        "correct_answer": "Ivo Andrić",
+        "incorrect_answers": [
+            "Miroslav Krleža",
+            "Tin Ujević",
+            "Antun Gustav Matoš"
+        ],
+        "explanation": "Ivo Andrić dobio je Nobelovu nagradu za književnost 1961. godine, a \"Most na Drini\" je njegovo najpoznatije djelo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2301",
+        "category": "knjizevnost",
+        "question": "Koja je antička grčka skulptura, izložena u Louvreu, poznata po nedostatku ruku?",
+        "correct_answer": "Miloska Venera",
+        "incorrect_answers": [
+            "Laokont i sinovi",
+            "Diskobol",
+            "Hermes s malim Dionizom"
+        ],
+        "explanation": "Miloska Venera je mramorna skulptura iz helenističkog razdoblja, otkrivena na otoku Milosu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2302",
+        "category": "knjizevnost",
+        "question": "Tko je autor epskog spjeva \"Smrt Smail-age Čengića\"?",
+        "correct_answer": "Ivan Mažuranić",
+        "incorrect_answers": [
+            "Petar Preradović",
+            "August Harambašić",
+            "Stanko Vraz"
+        ],
+        "explanation": "Ivan Mažuranić je hrvatski pjesnik, lingvist i političar, a \"Smrt Smail-age Čengića\" njegovo je najznačajnije djelo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2303",
+        "category": "knjizevnost",
+        "question": "Koji se glazbeni instrument tradicionalno koristi u irskoj folk glazbi i ima dugačak vrat te najčešće četiri žice?",
+        "correct_answer": "Bendžo",
+        "incorrect_answers": [
+            "Mandolina",
+            "Ukulele",
+            "Citra"
+        ],
+        "explanation": "Iako se bendžo često povezuje s američkim bluegrassom, popularan je i u irskoj tradicionalnoj glazbi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2304",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski animirani film osvojio Oscara 1961. godine za najbolji kratki animirani film?",
+        "correct_answer": "Surogat",
+        "incorrect_answers": [
+            "Profesor Baltazar",
+            "Krava na mjesecu",
+            "Dnevnik plavuše"
+        ],
+        "explanation": "\"Surogat\" Dušana Vukotića bio je prvi neamerički film koji je osvojio Oscara u toj kategoriji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2305",
+        "category": "knjizevnost",
+        "question": "Tko je komponirao glazbu za hrvatsku himnu \"Lijepa naša domovino\"?",
+        "correct_answer": "Josip Runjanin",
+        "incorrect_answers": [
+            "Ivan Zajc",
+            "Vatroslav Lisinski",
+            "Ferdo Livadić"
+        ],
+        "explanation": "Glazbu za hrvatsku himnu \"Lijepa naša domovino\" komponirao je Josip Runjanin, a tekst je napisao Antun Mihanović.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2306",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana \"Prosjaci i sinovi\"?",
+        "correct_answer": "Ivan Raos",
+        "incorrect_answers": [
+            "Ante Kovačić",
+            "Vjenceslav Novak",
+            "Dinko Šimunović"
+        ],
+        "explanation": "\"Prosjaci i sinovi\" je popularni hrvatski roman i TV serija Ivana Raosa, s humorističnim prikazom dalmatinskog sela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2307",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor poznat po operama \"Aida\", \"Nabucco\" i \"La Traviata\"?",
+        "correct_answer": "Giuseppe Verdi",
+        "incorrect_answers": [
+            "Giacomo Puccini",
+            "Gioachino Rossini",
+            "Vincenzo Bellini"
+        ],
+        "explanation": "Giuseppe Verdi je jedan od najvećih opernih skladatelja, čija su djela obilježila talijanski romantizam.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2308",
+        "category": "knjizevnost",
+        "question": "Koji je arhitektonski stil dominirao u Europi od 11. do 13. stoljeća, karakteriziran masivnim zidovima, polukružnim lukovima i teškim, tamnim interijerima?",
+        "correct_answer": "Romanika",
+        "incorrect_answers": [
+            "Gotika",
+            "Barok",
+            "Renesansa"
+        ],
+        "explanation": "Romanika je prvi paneuropski stil nakon antike, razvijen u srednjem vijeku prije gotike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2309",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor romana \"Kiklop\"?",
+        "correct_answer": "Ranko Marinković",
+        "incorrect_answers": [
+            "Slobodan Novak",
+            "Ivo Brešan",
+            "Miroslav Krleža"
+        ],
+        "explanation": "\"Kiklop\" Ranka Marinkovića je modernistički roman s elementima groteske i satire.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2310",
+        "category": "knjizevnost",
+        "question": "Koji je austrijski slikar, simbolist, poznat po upotrebi zlatnih listića i erotskim prikazima, autor slike \"Poljubac\"?",
+        "correct_answer": "Gustav Klimt",
+        "incorrect_answers": [
+            "Egon Schiele",
+            "Franz Marc",
+            "Edvard Munch"
+        ],
+        "explanation": "\"Poljubac\" je remek-djelo Gustava Klimta, ikona bečke secesije i simbolizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2311",
+        "category": "knjizevnost",
+        "question": "Koji je francuski pisac autor romana \"Stranac\" i dobitnik Nobelove nagrade za književnost?",
+        "correct_answer": "Albert Camus",
+        "incorrect_answers": [
+            "Jean-Paul Sartre",
+            "André Gide",
+            "Marcel Proust"
+        ],
+        "explanation": "Albert Camus je bio francuski filozof, pisac i novinar, jedna od ključnih figura egzistencijalizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2312",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor drame \"Ekvinocij\"?",
+        "correct_answer": "Ivo Vojnović",
+        "incorrect_answers": [
+            "Milan Begović",
+            "Josip Kosor",
+            "Janko Polić Kamov"
+        ],
+        "explanation": "Ivo Vojnović je najpoznatiji dubrovački dramatičar, a \"Ekvinocij\" je jedno od njegovih najvažnijih djela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2313",
+        "category": "knjizevnost",
+        "question": "Koji je engleski barokni kompozitor, njemačkog porijekla, poznat po oratoriju \"Mesija\" i ariji \"Aleluja\"?",
+        "correct_answer": "Georg Friedrich Händel",
+        "incorrect_answers": [
+            "Antonio Vivaldi",
+            "Henry Purcell",
+            "Claudio Monteverdi"
+        ],
+        "explanation": "Händel je bio plodan kompozitor, cijenjen zbog svojih opera, oratorija i instrumentalne glazbe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2314",
+        "category": "knjizevnost",
+        "question": "Koji je roman američke spisateljice Margaret Mitchell, smješten u vrijeme Američkog građanskog rata, postao klasik i filmski hit?",
+        "correct_answer": "Zameo ih vjetar",
+        "incorrect_answers": [
+            "Grožđe gnjeva",
+            "Male žene",
+            "Veliki Gatsby"
+        ],
+        "explanation": "\"Zameo ih vjetar\" je epski povijesni roman iz 1936. godine, dobitnik Pulitzerove nagrade.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2315",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski slikar, predstavnik secesije, poznat po djelu \"Val\" i ciklusu \"Život ljudski\"?",
+        "correct_answer": "Vlaho Bukovac",
+        "incorrect_answers": [
+            "Mato Celestin Medović",
+            "Ivan Meštrović",
+            "Edo Murtić"
+        ],
+        "explanation": "Vlaho Bukovac je bio vodeći hrvatski slikar na prijelazu iz 19. u 20. stoljeće, školovan u Parizu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2316",
+        "category": "knjizevnost",
+        "question": "Koji je gotički arhitektonski element karakterističan za katedrale, omogućujući visoke zidove i velike prozore?",
+        "correct_answer": "Kontrafor",
+        "incorrect_answers": [
+            "Peristil",
+            "Lukobrani",
+            "Pilastar"
+        ],
+        "explanation": "Kontrafori su vanjska potporna rebra koja prenose bočni potisak zidova i svodova, tipična za gotičku arhitekturu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2317",
+        "category": "knjizevnost",
+        "question": "Koji je grčki dramaturg poznat kao \"otac komedije\"?",
+        "correct_answer": "Aristofan",
+        "incorrect_answers": [
+            "Euripid",
+            "Eshil",
+            "Sofoklo"
+        ],
+        "explanation": "Aristofan je najpoznatiji predstavnik stare atičke komedije, čija su djela satirična kritika društva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2318",
+        "category": "knjizevnost",
+        "question": "Koji je književni trop, poznat i kao preneseno značenje, u kojem se jedan pojam zamjenjuje drugim s kojim je u bliskoj vezi, ali ne po sličnosti već po logičkoj povezanosti?",
+        "correct_answer": "Metonimija",
+        "incorrect_answers": [
+            "Metafora",
+            "Personifikacija",
+            "Hiperbola"
+        ],
+        "explanation": "Metonimija je stilsko sredstvo zamjene naziva, gdje se umjesto cjeline spominje dio ili obratno, primjerice \"čitam Krležu\" umjesto \"čitam Krležino djelo\".",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2319",
+        "category": "knjizevnost",
+        "question": "Koja se slikarska tehnika koristi uljanim bojama koje se nanose u debelim slojevima, stvarajući teksturu na površini?",
+        "correct_answer": "Impasto",
+        "incorrect_answers": [
+            "Sfumato",
+            "Freska",
+            "Akvarel"
+        ],
+        "explanation": "Impasto je tehnika gdje se boja nanosi tako gusto da ostaje reljefna na platnu, vidljiva i taktilna.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2320",
+        "category": "knjizevnost",
+        "question": "Koji je avangardni kompozitor 20. stoljeća poznat po djelu \"4'33\"\", koje se sastoji od četiri minute i trideset tri sekunde tišine?",
+        "correct_answer": "John Cage",
+        "incorrect_answers": [
+            "Arnold Schönberg",
+            "Karlheinz Stockhausen",
+            "Philip Glass"
+        ],
+        "explanation": "\"4'33\"\" je kontroverzno djelo Johna Cagea koje propituje definiciju glazbe, fokusirajući se na slučajne zvukove okoline.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2321",
+        "category": "knjizevnost",
+        "question": "Koji je francuski kompozitor autor baleta \"Posvećenje proljeća\", čija je praizvedba izazvala skandal zbog revolucionarnosti?",
+        "correct_answer": "Igor Stravinski",
+        "incorrect_answers": [
+            "Claude Debussy",
+            "Maurice Ravel",
+            "Camille Saint-Saëns"
+        ],
+        "explanation": "\"Posvećenje proljeća\" Igora Stravinskog šokiralo je parišku publiku 1913. godine svojim atonalitetom i ritmičkom kompleksnošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2322",
+        "category": "knjizevnost",
+        "question": "Koji se puhački instrument, poznat po bogatom i toplom zvuku, najčešće koristi kao solistički instrument u orkestrima?",
+        "correct_answer": "Klarinet",
+        "incorrect_answers": [
+            "Flauta",
+            "Oboa",
+            "Truba"
+        ],
+        "explanation": "Klarinet ima najširi raspon tonova među puhačkim instrumentima i veliku izražajnu moć.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2323",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnik pionir fotografije, autor prve trajne fotografije poznate kao \"Pogled s prozora u Le Gras\"?",
+        "correct_answer": "Nicéphore Niépce",
+        "incorrect_answers": [
+            "Louis Daguerre",
+            "William Henry Fox Talbot",
+            "George Eastman"
+        ],
+        "explanation": "Nicéphore Niépce je francuski izumitelj koji je stvorio prvu uspješnu trajnu fotografiju oko 1826. ili 1827. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2324",
+        "category": "knjizevnost",
+        "question": "Koji je arhitekt projektirao Guggenheim muzej u Bilbau, poznat po dekonstruktivističkom stilu i upotrebi titana?",
+        "correct_answer": "Frank Gehry",
+        "incorrect_answers": [
+            "I. M. Pei",
+            "Zaha Hadid",
+            "Santiago Calatrava"
+        ],
+        "explanation": "Guggenheim muzej u Bilbau (otvoren 1997.) je Gehryjevo remek-djelo i primjer dekonstruktivističke arhitekture.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2325",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret, razvijen 1960-ih, gdje je ideja ili koncept važniji od samog umjetničkog predmeta?",
+        "correct_answer": "Konceptualna umjetnost",
+        "incorrect_answers": [
+            "Pop art",
+            "Minimalizam",
+            "Land art"
+        ],
+        "explanation": "U konceptualnoj umjetnosti naglasak je na intelektualnom sadržaju i procesu razmišljanja, a ne na estetici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2326",
+        "category": "knjizevnost",
+        "question": "Koji je književni pravac u prvoj polovici 19. stoljeća naglašavao osjećaje, individualnost i prirodu, nasuprot razumu?",
+        "correct_answer": "Romantizam",
+        "incorrect_answers": [
+            "Klasicizam",
+            "Realizam",
+            "Prosvjetiteljstvo"
+        ],
+        "explanation": "Romantizam se pojavio kao reakcija na racionalizam prosvjetiteljstva i klasicizam, cijeneći emocije i subjektivnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2327",
+        "category": "knjizevnost",
+        "question": "Koja se slikarska tehnika, razvijena u renesansi, koristi za stvaranje iluzije trodimenzionalnosti i dubine na ravnoj površini kontroliranim prijelazima svjetlosti i sjene?",
+        "correct_answer": "Kijaroskuro (Chiaroscuro)",
+        "incorrect_answers": [
+            "Sfumato",
+            "Tenebrizam",
+            "Pointilizam"
+        ],
+        "explanation": "Kijaroskuro (chiaroscuro) je tehnika upotrebe jakih kontrasta između svjetla i tame, što stvara dramatičan efekt volumena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
