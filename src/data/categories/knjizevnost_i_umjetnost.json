@@ -30352,5 +30352,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_art_2289",
+        "category": "knjizevnost",
+        "question": "Tko je autor epskog spjeva 'Odiseja'?",
+        "correct_answer": "Homer",
+        "incorrect_answers": [
+            "Vergilije",
+            "Hesiod",
+            "Sofoklo"
+        ],
+        "explanation": "Homer je starogrčki pjesnik kojem se pripisuju dva najvažnija djela grčke književnosti, 'Ilijada' i 'Odiseja'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2290",
+        "category": "knjizevnost",
+        "question": "Koji je slikar poznat po slici 'Guernica', koja prikazuje strahote rata?",
+        "correct_answer": "Pablo Picasso",
+        "incorrect_answers": [
+            "Salvador Dalí",
+            "Joan Miró",
+            "Francisco Goya"
+        ],
+        "explanation": "'Guernica' je jedno od najpoznatijih antiratnih djela, nastalo 1937. godine kao odgovor na bombardiranje Guernice tijekom Španjolskog građanskog rata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2291",
+        "category": "knjizevnost",
+        "question": "Koji je književni žanr u kojem se radnja odvija u izmišljenom svijetu, često s elementima magije, nadnaravnih bića i herojskih potraga?",
+        "correct_answer": "Fantastika",
+        "incorrect_answers": [
+            "Realizam",
+            "Sci-fi",
+            "Horor"
+        ],
+        "explanation": "Fantastika je žanr koji se temelji na mašti i često uključuje magiju, mitologiju i izmišljene svjetove koji se razlikuju od stvarnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2292",
+        "category": "knjizevnost",
+        "question": "Koja je talijanska opera poznata po 'Zboru židovskih robova' (Va, pensiero)?",
+        "correct_answer": "Nabucco",
+        "incorrect_answers": [
+            "Rigoletto",
+            "Traviata",
+            "Aida"
+        ],
+        "explanation": "'Va, pensiero' je poznati zbor iz opere 'Nabucco' Giuseppea Verdija, koja je praizvedena 1842. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2293",
+        "category": "knjizevnost",
+        "question": "Koji je njemački kompozitor iz razdoblja romantizma poznat po svojim simfonijama, uključujući 'Devetu simfoniju' s 'Odom radosti'?",
+        "correct_answer": "Ludwig van Beethoven",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "Wolfgang Amadeus Mozart",
+            "Richard Wagner"
+        ],
+        "explanation": "Beethovenova Deveta simfonija, dovršena 1824., monumentalno je djelo koje uključuje zbor i soliste u završnom stavku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2294",
+        "category": "knjizevnost",
+        "question": "Koja je književna nagrada najprestižnija svjetska nagrada za književnost, dodjeljuje se svake godine od 1901.?",
+        "correct_answer": "Nobelova nagrada za književnost",
+        "incorrect_answers": [
+            "Pulitzerova nagrada",
+            "Bookerova nagrada",
+            "Goncourtova nagrada"
+        ],
+        "explanation": "Nobelova nagrada za književnost dodjeljuje se autorima koji su 'stvorili najizvrsnije djelo u idealnom smjeru'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2295",
+        "category": "knjizevnost",
+        "question": "Koji je španjolski slikar poznat po korištenju tamnih tonova i temama ratnih strahota, npr. u 'Trećem svibnju 1808.'?",
+        "correct_answer": "Francisco Goya",
+        "incorrect_answers": [
+            "El Greco",
+            "Diego Velázquez",
+            "Joan Miró"
+        ],
+        "explanation": "Goya je bio važan španjolski umjetnik čije su slike, poput 'Trećeg svibnja 1808.', često prikazivale brutalnost rata i ljudsku patnju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2296",
+        "category": "knjizevnost",
+        "question": "Koji je umjetnički pokret s početka 20. stoljeća naglašavao snove, podsvijest i iracionalno, s predstavnicima poput Dalíja i Magrittea?",
+        "correct_answer": "Nadrealizam",
+        "incorrect_answers": [
+            "Kubizam",
+            "Futurizam",
+            "Ekspresionizam"
+        ],
+        "explanation": "Nadrealizam se razvio iz dadaizma i istraživao je oslobađanje podsvijesti kroz umjetnost, često stvarajući bizarne i sanjive prizore.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2297",
+        "category": "knjizevnost",
+        "question": "Koji je engleski dramatičar poznat po tragedijama poput 'Hamleta', 'Romea i Julije' i 'Kralja Leara'?",
+        "correct_answer": "William Shakespeare",
+        "incorrect_answers": [
+            "Christopher Marlowe",
+            "Ben Jonson",
+            "George Bernard Shaw"
+        ],
+        "explanation": "Shakespeare je jedan od najvećih dramatičara svih vremena, čija djela i danas snažno utječu na svjetsku kulturu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2298",
+        "category": "knjizevnost",
+        "question": "Koja je hrvatska spisateljica autorica popularnog ciklusa romana 'Grička vještica'?",
+        "correct_answer": "Marija Jurić Zagorka",
+        "incorrect_answers": [
+            "Ivana Brlić-Mažuranić",
+            "Vesna Krmpotić",
+            "Irena Vrkljan"
+        ],
+        "explanation": "Marija Jurić Zagorka je prva hrvatska profesionalna novinarka i najčitanija hrvatska književnica, poznata po povijesnim romanima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2299",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni instrument iz obitelji udaraljki sastavljen od niza drvenih pločica različitih duljina, koje se udaraju batićima?",
+        "correct_answer": "Ksilofon",
+        "incorrect_answers": [
+            "Timpani",
+            "Marimba",
+            "Vibrafon"
+        ],
+        "explanation": "Ksilofon (grč. xylon 'drvo' + phone 'zvuk') je udaraljkaški instrument s drvenim pločicama koje proizvode tonove udarcima batića.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2300",
+        "category": "knjizevnost",
+        "question": "Koji je književni pravac u 18. stoljeću stavljao naglasak na razum, prosvjetljenje i kritiku autoriteta?",
+        "correct_answer": "Prosvjetiteljstvo",
+        "incorrect_answers": [
+            "Romantizam",
+            "Barok",
+            "Klasicizam"
+        ],
+        "explanation": "Prosvjetiteljstvo je filozofski i književni pokret koji je promicao znanje, razum i ljudska prava kao put do napretka društva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2301",
+        "category": "knjizevnost",
+        "question": "Koja je njemačka kompozitorica i mističarka iz 12. stoljeća, poznata po svojim glazbenim djelima i vizijama?",
+        "correct_answer": "Hildegarda iz Bingena",
+        "incorrect_answers": [
+            "Clara Schumann",
+            "Fanny Mendelssohn",
+            "Alma Mahler"
+        ],
+        "explanation": "Hildegarda iz Bingena bila je izuzetna srednjovjekovna žena, opatica, mističarka, spisateljica i kompozitorica čija djela obuhvaćaju teologiju, medicinu i glazbu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2302",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski pjesnik autor 'Božanstvene komedije'?",
+        "correct_answer": "Dante Alighieri",
+        "incorrect_answers": [
+            "Francesco Petrarca",
+            "Giovanni Boccaccio",
+            "Ludovico Ariosto"
+        ],
+        "explanation": "'Božanstvena komedija' je jedno od najvažnijih djela svjetske književnosti, ep koji opisuje putovanje kroz Pakao, Čistilište i Raj.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2303",
+        "category": "knjizevnost",
+        "question": "Koji se stil u slikarstvu 17. stoljeća odlikovao dramatičnošću, intenzivnim emocijama, bogatim bojama i snažnim kontrastima svjetla i sjene?",
+        "correct_answer": "Barok",
+        "incorrect_answers": [
+            "Renesansa",
+            "Rokoko",
+            "Klasicizam"
+        ],
+        "explanation": "Barokno slikarstvo često je imalo za cilj potaknuti snažne emocionalne reakcije kod promatrača, koristeći dinamične kompozicije i jake svjetlosne efekte.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2304",
+        "category": "knjizevnost",
+        "question": "Koja je grčka božica zaštitnica umjetnosti i znanosti, često prikazana s maslinovom grančicom i sovom?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Afrodita",
+            "Hera",
+            "Artemida"
+        ],
+        "explanation": "Atena je božica mudrosti, rata, obrta i zaštitnica Atene. Rođena je iz glave Zeusa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2305",
+        "category": "knjizevnost",
+        "question": "Tko je napisao poznati esej 'Umjetnost radi umjetnosti' (L'art pour l'art)?",
+        "correct_answer": "Théophile Gautier",
+        "incorrect_answers": [
+            "Charles Baudelaire",
+            "Gustave Flaubert",
+            "Oscar Wilde"
+        ],
+        "explanation": "Koncept 'umjetnost radi umjetnosti' zagovarao je da umjetnost ne treba služiti moralnim ili didaktičkim svrhama, već samo estetskoj vrijednosti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2306",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni instrument poznat kao 'kralj instrumenata' zbog svoje veličine, složenosti i sposobnosti proizvodnje širokog spektra zvukova?",
+        "correct_answer": "Orgulje",
+        "incorrect_answers": [
+            "Klavir",
+            "Čembalo",
+            "Harfa"
+        ],
+        "explanation": "Orgulje su najstariji klavijaturni instrument, a složenim sustavom cijevi, registara i manuala mogu oponašati cijeli orkestar.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2307",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor drame 'Aretej' i ciklusa 'Legende'?",
+        "correct_answer": "Miroslav Krleža",
+        "incorrect_answers": [
+            "Tin Ujević",
+            "August Šenoa",
+            "Slavko Kolar"
+        ],
+        "explanation": "Krleža je jedan od najvećih hrvatskih književnika 20. stoljeća, poznat po enciklopedijskom znanju i kritičkom sagledavanju hrvatske povijesti i društva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2308",
+        "category": "knjizevnost",
+        "question": "Koja je grčka božica ljepote i ljubavi?",
+        "correct_answer": "Afrodita",
+        "incorrect_answers": [
+            "Atena",
+            "Hera",
+            "Artemida"
+        ],
+        "explanation": "Afrodita je u grčkoj mitologiji božica ljepote, ljubavi, užitka i prokreacije. Rođena je iz morske pjene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2309",
+        "category": "knjizevnost",
+        "question": "Koji je američki pisac poznat po svojim kratkim pričama i romanima koji često istražuju teme gubitka, tuge i ljudske psihe, poput 'Pustolovine Toma Sawyera'?",
+        "correct_answer": "Mark Twain",
+        "incorrect_answers": [
+            "Edgar Allan Poe",
+            "F. Scott Fitzgerald",
+            "Ernest Hemingway"
+        ],
+        "explanation": "Mark Twain (pravim imenom Samuel Langhorne Clemens) jedan je od najvećih američkih humorista i romanopisaca, majstor regionalnog dijalekta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2310",
+        "category": "knjizevnost",
+        "question": "Koja je francuska katedrala poznata po svojim gotičkim gargojlima i vitrajima, a bila je inspiracija za roman Victora Hugoa?",
+        "correct_answer": "Notre Dame",
+        "incorrect_answers": [
+            "Katedrala u Chartresu",
+            "Katedrala u Reimsu",
+            "Bazilika Sacré-Cœur"
+        ],
+        "explanation": "Katedrala Notre Dame u Parizu jedan je od najpoznatijih primjera gotičke arhitekture, simbol francuske povijesti i kulture.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2311",
+        "category": "knjizevnost",
+        "question": "Tko je naslikao 'Rađanje Venere', jedno od najpoznatijih djela rane renesanse?",
+        "correct_answer": "Sandro Botticelli",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Rafael"
+        ],
+        "explanation": "'Rađanje Venere' Botticellijevo je remek-djelo iz oko 1485. godine, koje prikazuje božicu Veneru kako izlazi iz mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2312",
+        "category": "knjizevnost",
+        "question": "Koji je književni pravac u prvoj polovici 19. stoljeća naglašavao osjećaje, individualnost, prirodu i prošlost?",
+        "correct_answer": "Romantizam",
+        "incorrect_answers": [
+            "Klasicizam",
+            "Realizam",
+            "Prosvjetiteljstvo"
+        ],
+        "explanation": "Romantizam je bio reakcija na racionalizam prosvjetiteljstva, veličao je emocije, maštu, prirodu i povratak idealiziranoj prošlosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2313",
+        "category": "knjizevnost",
+        "question": "Koji je talijanski kompozitor autor opere 'Seviljski brijač'?",
+        "correct_answer": "Gioachino Rossini",
+        "incorrect_answers": [
+            "Giuseppe Verdi",
+            "Giacomo Puccini",
+            "Vincenzo Bellini"
+        ],
+        "explanation": "'Seviljski brijač' je jedna od najpopularnijih komičnih opera, praizvedena 1816. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2314",
+        "category": "knjizevnost",
+        "question": "Koji je hrvatski književnik autor zbirke novela 'Pripovijesti iz davnine'?",
+        "correct_answer": "Ivana Brlić-Mažuranić",
+        "incorrect_answers": [
+            "Marija Jurić Zagorka",
+            "Dinko Šimunović",
+            "Vjenceslav Novak"
+        ],
+        "explanation": "Ivana Brlić-Mažuranić, poznata kao 'hrvatski Andersen', stvorila je originalan svijet temeljen na slavenskoj mitologiji i narodnim predajama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2315",
+        "category": "knjizevnost",
+        "question": "Koji se umjetnički stil iz 19. stoljeća, posebno u arhitekturi i primijenjenoj umjetnosti, odlikovao dekorativnim krivuljama, organskim motivima i inspiracijom iz prirode?",
+        "correct_answer": "Secesija (Art Nouveau)",
+        "incorrect_answers": [
+            "Barok",
+            "Rokoko",
+            "Klasicizam"
+        ],
+        "explanation": "Secesija, poznata i kao Art Nouveau, bila je popularna krajem 19. i početkom 20. stoljeća, karakterizirana elegancijom i fluidnim linijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2316",
+        "category": "knjizevnost",
+        "question": "Koji je glazbeni žanr nastao u SAD-u krajem 19. i početkom 20. stoljeća, kombinirajući elemente europske harmonije s afričkim ritmovima?",
+        "correct_answer": "Jazz",
+        "incorrect_answers": [
+            "Blues",
+            "Rock",
+            "Klasična glazba"
+        ],
+        "explanation": "Jazz je glazbeni stil koji je nastao u afroameričkim zajednicama New Orleansa, s naglaskom na improvizaciju i sinkopirane ritmove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2317",
+        "category": "knjizevnost",
+        "question": "Koja je književna vrsta, nastala u Grčkoj, koja prikazuje sukob junaka s neizbježnom sudbinom, obično završavajući tragično?",
+        "correct_answer": "Tragedija",
+        "incorrect_answers": [
+            "Komedija",
+            "Satira",
+            "Ep"
+        ],
+        "explanation": "Grčka tragedija, čiji su glavni predstavnici Eshil, Sofoklo i Euripid, istražuje ozbiljne teme i moralne dileme.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2318",
+        "category": "knjizevnost",
+        "question": "Koji je nizozemski slikar, majstor portreta i žanr-scena, poznat po djelima poput 'Djevojka s bisernom naušnicom'?",
+        "correct_answer": "Johannes Vermeer",
+        "incorrect_answers": [
+            "Rembrandt",
+            "Frans Hals",
+            "Pieter Bruegel Stariji"
+        ],
+        "explanation": "Vermeer je bio jedan od najvećih slikara nizozemskog zlatnog doba, majstor svjetla i intimnih prizora iz svakodnevnog života.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2319",
+        "category": "knjizevnost",
+        "question": "Koji je kompozitor autor 'Godišnjih doba' (Le quattro stagioni), poznate zbirke koncerata za violinu?",
+        "correct_answer": "Antonio Vivaldi",
+        "incorrect_answers": [
+            "Johann Sebastian Bach",
+            "George Frideric Händel",
+            "Wolfgang Amadeus Mozart"
+        ],
+        "explanation": "'Godišnja doba' je Vivaldijevo najpoznatije djelo, serija od četiri violinska koncerta koja glazbeno opisuju svako godišnje doba.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2320",
+        "category": "knjizevnost",
+        "question": "Koji je američki arhitekt poznat po konceptu 'organske arhitekture' i projektu 'Kuća na slapovima'?",
+        "correct_answer": "Frank Lloyd Wright",
+        "incorrect_answers": [
+            "Le Corbusier",
+            "Ludwig Mies van der Rohe",
+            "Walter Gropius"
+        ],
+        "explanation": "Frank Lloyd Wright je jedan od najutjecajnijih arhitekata 20. stoljeća, zagovornik harmonije između ljudskog stanovanja i prirodnog okoliša.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2321",
+        "category": "knjizevnost",
+        "question": "Koja je književna vrsta prozni tekst kratkog opsega koji izlaže autorovo mišljenje ili razmišljanje o nekoj temi?",
+        "correct_answer": "Esej",
+        "incorrect_answers": [
+            "Novela",
+            "Pripovijetka",
+            "Reportaža"
+        ],
+        "explanation": "Esej je nefikcionalni, analitički ili interpretativni tekst koji istražuje određenu temu iz osobnog gledišta autora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2322",
+        "category": "knjizevnost",
+        "question": "Koji je grčki kiparski stil klasičnog razdoblja težio idealnoj ljepoti, harmoniji i mirnom izrazu, s djelima poput 'Diskobola'?",
+        "correct_answer": "Klasični stil",
+        "incorrect_answers": [
+            "Arhajski stil",
+            "Helenistički stil",
+            "Romanika"
+        ],
+        "explanation": "Klasično razdoblje grčke umjetnosti (oko 480.-323. pr. Kr.) poznato je po savršenstvu oblika i idealizaciji ljudskog tijela.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2323",
+        "category": "knjizevnost",
+        "question": "Tko je autor djela 'Princ', političke rasprave o stjecanju i održavanju vlasti?",
+        "correct_answer": "Niccolò Machiavelli",
+        "incorrect_answers": [
+            "Thomas More",
+            "Jean-Jacques Rousseau",
+            "John Locke"
+        ],
+        "explanation": "'Princ' je politički traktat iz 16. stoljeća koji se smatra jednim od prvih djela moderne političke filozofije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_art_2324",
+        "category": "knjizevnost",
+        "question": "Koji je žanr vizualne umjetnosti koji koristi fotografije, tekst i različite predmete za stvaranje kolaža ili montaže s političkom ili društvenom porukom?",
+        "correct_answer": "Fotomontaža",
+        "incorrect_answers": [
+            "Ready-made",
+            "Instalacija",
+            "Grafit"
+        ],
+        "explanation": "Fotomontaža je tehnika spajanja različitih fotografskih elemenata u jedinstvenu cjelinu, često s kritičkim ili satiričnim ciljem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
