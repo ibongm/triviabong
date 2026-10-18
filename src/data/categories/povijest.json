@@ -30899,5 +30899,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koji je drevni narod sagradio piramide u Gizi?",
+        "correct_answer": "Egipćani",
+        "incorrect_answers": [
+            "Rimljani",
+            "Grci",
+            "Sumerani"
+        ],
+        "explanation": "Piramide u Gizi su monumentalne grobnice koje su gradili stari Egipćani za svoje faraone, uključujući Keopsa, Kefrena i Mikerina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Tko je bila prva žena faraon Starog Egipta koja je vladala punom titulom faraona?",
+        "correct_answer": "Hatšepsut",
+        "incorrect_answers": [
+            "Kleopatra VII.",
+            "Nefertiti",
+            "Nefertari"
+        ],
+        "explanation": "Hatšepsut je bila peta faraonka 18. dinastije Starog Egipta i jedna od najuspješnijih žena vladarica, vladajući kao muškarac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Koja je civilizacija razvila klinasto pismo?",
+        "correct_answer": "Sumerani",
+        "incorrect_answers": [
+            "Egipćani",
+            "Inke",
+            "Grci"
+        ],
+        "explanation": "Klinasto pismo je jedan od najstarijih sustava pisanja na svijetu, a razvili su ga Sumerani u Mezopotamiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koja je perzijska dinastija vladala najvećim carstvom antike, protežući se od Egipta do Indije, prije nego što ju je osvojio Aleksandar Veliki?",
+        "correct_answer": "Ahemenidska dinastija",
+        "incorrect_answers": [
+            "Sasanidska dinastija",
+            "Partsko Carstvo",
+            "Safavidska dinastija"
+        ],
+        "explanation": "Ahemenidska dinastija (oko 550.-330. pr. Kr.) bila je prva perzijska dinastija koja je izgradila golemo carstvo, uništeno od strane Aleksandra Velikog.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koji je rimski car proglasio kršćanstvo službenom religijom Rimskog Carstva?",
+        "correct_answer": "Teodozije I.",
+        "incorrect_answers": [
+            "Konstantin Veliki",
+            "August",
+            "Neron"
+        ],
+        "explanation": "Car Teodozije I. donio je 380. godine Teodozijev edikt kojim je kršćanstvo postalo državna religija Rimskog Carstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koja je bizantska carica bila supruga Justina II. i poznata po svojim diplomatskim i vjerskim utjecajima?",
+        "correct_answer": "Sofija",
+        "incorrect_answers": [
+            "Irena Atenska",
+            "Teodora",
+            "Pulherija"
+        ],
+        "explanation": "Carica Sofija, supruga Justina II., igrala je značajnu ulogu u bizantskoj politici, posebno u diplomatskim odnosima s perzijskim i lombardskim kraljevstvima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Koje se godine dogodila bitka kod Hastingsa, u kojoj je Vilim Osvajač porazio Harolda Godwinsona i započeo normansko osvajanje Engleske?",
+        "correct_answer": "1066.",
+        "incorrect_answers": [
+            "1054.",
+            "1077.",
+            "1088."
+        ],
+        "explanation": "Bitka kod Hastingsa odigrala se 14. listopada 1066. godine, što je bio ključan događaj u normanskom osvajanju Engleske.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Kako se zove period u Europi obilježen procvatom umjetnosti i znanosti nakon srednjeg vijeka?",
+        "correct_answer": "Renesansa",
+        "incorrect_answers": [
+            "Barok",
+            "Gotika",
+            "Romantizam"
+        ],
+        "explanation": "Renesansa je razdoblje u europskoj povijesti (otprilike od 14. do 17. stoljeća) koje je označilo prijelaz iz srednjeg vijeka u moderno doba.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Koji je istraživač prvi stigao do Indije ploveći oko Rta dobre nade?",
+        "correct_answer": "Vasco da Gama",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Ferdinand Magellan",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Vasco da Gama je 1498. godine uspješno stigao u Calicut u Indiji, čime je otvorio pomorski put iz Europe do Indije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Tko je bio zapovjednik Osmanske flote u Bitci kod Lepanta 1571. godine?",
+        "correct_answer": "Ali Paša",
+        "incorrect_answers": [
+            "Piali Paša",
+            "Barbarossa Hajrudin",
+            "Sulejman Veličanstveni"
+        ],
+        "explanation": "Ali Paša je bio admiral osmanske flote koju je u pomorskoj bitci kod Lepanta 1571. godine porazila flota Svete lige.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Tko je bio engleski kralj poznat po tome što je imao šest žena?",
+        "correct_answer": "Henrik VIII.",
+        "incorrect_answers": [
+            "Edvard VIII.",
+            "Karlo I.",
+            "Rikard Lavljeg Srca"
+        ],
+        "explanation": "Henrik VIII. (vladao 1509.-1547.) je najpoznatiji po svojim brakovima, točnije po tome što je imao šest žena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Koji je događaj 1773. godine u Bostonu, prerušeni u Indijance, prosvjedovali protiv britanskih poreza na čaj?",
+        "correct_answer": "Bostonska čajanka",
+        "incorrect_answers": [
+            "Bostonski masakr",
+            "Bitka kod Yorktowna",
+            "Osveta Paul Reverea"
+        ],
+        "explanation": "Bostonska čajanka je prosvjed američkih kolonista protiv britanske vlasti, posebno oporezivanja čaja, koji se dogodio 16. prosinca 1773.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i prvi car Prvog Francuskog Carstva?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Luj XIV.",
+            "Karlo Veliki",
+            "Robespierre"
+        ],
+        "explanation": "Napoleon Bonaparte je proglašen carem Francuza 1804. godine, čime je uspostavljeno Prvo Francusko Carstvo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Koja se povijesna ličnost pripisuje izjavi \"Neka jedu kolače!\" (iako je autentičnost upitna)?",
+        "correct_answer": "Marija Antoaneta",
+        "incorrect_answers": [
+            "Katarina Velika",
+            "Elizabeta I.",
+            "Madame de Pompadour"
+        ],
+        "explanation": "Izjava 'Qu'ils mangent de la brioche!' (Neka jedu kolače!) pogrešno se pripisuje francuskoj kraljici Mariji Antoaneti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koje se godine dogodila Oktobarska revolucija u Rusiji?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1922.",
+            "1914."
+        ],
+        "explanation": "Oktobarska revolucija, predvođena boljševicima i Lenjinom, odigrala se u studenom 1917. godine (po gregorijanskom kalendaru).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "U kojem je gradu potpisano primirje kojim je završen Prvi svjetski rat?",
+        "correct_answer": "Compiègne",
+        "incorrect_answers": [
+            "Versailles",
+            "Pariz",
+            "Berlin"
+        ],
+        "explanation": "Primirje kojim je završen Prvi svjetski rat potpisano je u željezničkom vagonu u šumi pored Compiègnea, Francuska, 11. studenog 1918.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Tko je bio vođa fašističke Italije tijekom Drugog svjetskog rata?",
+        "correct_answer": "Benito Mussolini",
+        "incorrect_answers": [
+            "Adolf Hitler",
+            "Francisco Franco",
+            "Joseph Staljin"
+        ],
+        "explanation": "Benito Mussolini je bio diktator Italije od 1922. do 1943. godine i saveznik Adolfa Hitlera u Drugom svjetskom ratu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koji je američki general bio vrhovni zapovjednik savezničkih snaga u Europi tijekom Drugog svjetskog rata i kasnije predsjednik SAD-a?",
+        "correct_answer": "Dwight D. Eisenhower",
+        "incorrect_answers": [
+            "George S. Patton",
+            "Douglas MacArthur",
+            "Chester W. Nimitz"
+        ],
+        "explanation": "Dwight D. Eisenhower bio je Vrhovni zapovjednik savezničkih ekspedicijskih snaga u Europi i ključna figura u planiranju iskrcavanja u Normandiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Koji je događaj 7. prosinca 1941. godine doveo do ulaska SAD-a u Drugi svjetski rat?",
+        "correct_answer": "Napad na Pearl Harbor",
+        "incorrect_answers": [
+            "Iskrcavanje u Normandiji",
+            "Bitka kod Midwaya",
+            "Pad Berlina"
+        ],
+        "explanation": "Iznenadni napad Japana na američku pomorsku bazu Pearl Harbor na Havajima bio je direktan povod za ulazak SAD-a u Drugi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Tko je bila prva žena premijerka Ujedinjenog Kraljevstva, poznata kao \"Željezna Lady\"?",
+        "correct_answer": "Margaret Thatcher",
+        "incorrect_answers": [
+            "Theresa May",
+            "Indira Gandhi",
+            "Golda Meir"
+        ],
+        "explanation": "Margaret Thatcher, članica Konzervativne stranke, bila je premijerka Ujedinjenog Kraljevstva od 1979. do 1990. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i prvi rimski car?",
+        "correct_answer": "August",
+        "incorrect_answers": [
+            "Julije Cezar",
+            "Neron",
+            "Trajan"
+        ],
+        "explanation": "Oktavijan August (vladao 27. pr. Kr. – 14. n. Kr.) bio je prvi rimski car, čime je započelo Rimsko Carstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Tko je bio grčki povjesničar poznat kao \"Otac povijesti\"?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Sokrat",
+            "Platon"
+        ],
+        "explanation": "Herodot je bio starogrčki povjesničar iz 5. stoljeća pr. Kr., poznat po svom djelu \"Povijesti\" i smatran ocem povijesti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Tko je bio posljednji car Inka prije španjolskog osvajanja?",
+        "correct_answer": "Atahualpa",
+        "incorrect_answers": [
+            "Moctezuma II.",
+            "Pachacuti",
+            "Huayna Capac"
+        ],
+        "explanation": "Atahualpa je bio posljednji neovisni vladar Inka, uhvaćen i pogubljen od strane španjolskih konkvistadora 1532. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je kralj ujedinio engleska kraljevstva i postao prvi kralj Engleske?",
+        "correct_answer": "Alfred Veliki",
+        "incorrect_answers": [
+            "Vilim Osvajač",
+            "Henrik II.",
+            "Edward III."
+        ],
+        "explanation": "Alfred Veliki je uspješno obranio engleska kraljevstva od Vikinga i postavio temelje ujedinjenoj Engleskoj u 9. stoljeću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje velike gladi i bolesti (Crna smrt) koje je opustošilo Europu u 14. stoljeću?",
+        "correct_answer": "Kasni srednji vijek",
+        "incorrect_answers": [
+            "Rano moderno doba",
+            "Antika",
+            "Rano srednjovjekovlje"
+        ],
+        "explanation": "Crna smrt, pandemija kuge, pogodila je Europu od 1346. do 1353. godine, spadajući u razdoblje Kasnog srednjeg vijeka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Koje je godine osnovana Istočnoindijska kompanija, ključna za britansku kolonizaciju Indije?",
+        "correct_answer": "1600.",
+        "incorrect_answers": [
+            "1550.",
+            "1650.",
+            "1700."
+        ],
+        "explanation": "Britanska istočnoindijska kompanija osnovana je 31. prosinca 1600. godine kraljevskom poveljom Elizabete I.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Tko je bila egipatska kraljica, posljednji faraon Ptolemejevske dinastije?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatšepsut",
+            "Ankhesenamun"
+        ],
+        "explanation": "Kleopatra VII. Philopator bila je posljednja aktivna vladarica Ptolemejskog Kraljevstva Egipta, umrla je 30. pr. Kr.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji je papa 1075. godine izdao \"Dictatus Papae\", dokument kojim je proglasio vrhovnu vlast pape nad svjetovnim vladarima?",
+        "correct_answer": "Grgur VII.",
+        "incorrect_answers": [
+            "Urban II.",
+            "Inocent III.",
+            "Leon X."
+        ],
+        "explanation": "Papa Grgur VII. izdao je \"Dictatus Papae\" 1075. godine, dokument koji je naglašavao duhovnu i svjetovnu moć papinstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koji je njemački redovnik pokrenuo Protestantsku reformaciju 1517. godine objavom svojih 95 teza?",
+        "correct_answer": "Martin Luther",
+        "incorrect_answers": [
+            "Ivan Kalvin",
+            "Ulrich Zwingli",
+            "Jan Hus"
+        ],
+        "explanation": "Martin Luther je 31. listopada 1517. objavio svojih 95 teza na vratima crkve u Wittenbergu, što se smatra početkom Reformacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Koji je rimski car podijelio Rimsko Carstvo na tetrarhiju?",
+        "correct_answer": "Dioklecijan",
+        "incorrect_answers": [
+            "Konstantin",
+            "August",
+            "Trajan"
+        ],
+        "explanation": "Dioklecijan je 293. godine uspostavio tetrarhiju, sustav vladavine četvorice, kako bi stabilizirao Rimsko Carstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Koja je država bila prva koja je formalno proglasila neovisnost od Sovjetskog Saveza u ožujku 1990. godine?",
+        "correct_answer": "Litva",
+        "incorrect_answers": [
+            "Estonija",
+            "Latvija",
+            "Ukrajina"
+        ],
+        "explanation": "Litva je 11. ožujka 1990. postala prva sovjetska republika koja je proglasila obnovu svoje neovisnosti, korak koji je vodio raspadu SSSR-a.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koji je njemački filozof i ekonomist, zajedno s Friedrichom Engelsom, napisao \"Komunistički manifest\" 1848. godine?",
+        "correct_answer": "Karl Marx",
+        "incorrect_answers": [
+            "Adam Smith",
+            "John Stuart Mill",
+            "Max Weber"
+        ],
+        "explanation": "Karl Marx i Friedrich Engels objavili su \"Manifest Komunističke partije\" 1848. godine, programski tekst komunističkog pokreta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koji je portugalski moreplovac započeo prvo putovanje oko svijeta, iako ga nije dovršio?",
+        "correct_answer": "Ferdinand Magellan",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Vasco da Gama",
+            "James Cook"
+        ],
+        "explanation": "Ferdinand Magellan je započeo prvo oplovljavanje svijeta 1519., ali je poginuo na Filipinima 1521. prije nego što se vratio u Europu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje u kineskoj povijesti (221.-206. pr. Kr.) poznato po ujedinjenju Kine i izgradnji Kineskog zida?",
+        "correct_answer": "Dinastija Qin",
+        "incorrect_answers": [
+            "Dinastija Han",
+            "Dinastija Tang",
+            "Dinastija Song"
+        ],
+        "explanation": "Dinastija Qin ujedinila je Kinu pod prvim carem Qin Shi Huangom, koji je započeo s izgradnjom Kineskog zida.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Tko je bio osnivač Mogulskog Carstva u Indiji u 16. stoljeću?",
+        "correct_answer": "Babur",
+        "incorrect_answers": [
+            "Akbar",
+            "Aurangzeb",
+            "Shah Jahan"
+        ],
+        "explanation": "Babur je 1526. godine osnovao Mogulsko Carstvo u Indiji nakon pobjede u Bitci kod Panipata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koji je događaj 1961. godine simbolizirao podjelu Berlina tijekom Hladnog rata?",
+        "correct_answer": "Izgradnja Berlinskog zida",
+        "incorrect_answers": [
+            "Berlinska blokada",
+            "Podjela Njemačke",
+            "Reunifikacija Berlina"
+        ],
+        "explanation": "Izgradnja Berlinskog zida 13. kolovoza 1961. godine fizički je odvojila Zapadni Berlin od Istočnog Berlina i Istočne Njemačke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Koje se godine dogodila Bitka na Kosovom polju između srpske i osmanske vojske?",
+        "correct_answer": "1389.",
+        "incorrect_answers": [
+            "1453.",
+            "1526.",
+            "1371."
+        ],
+        "explanation": "Bitka na Kosovom polju odigrala se 15. lipnja 1389. godine i imala je dalekosežne posljedice za povijest Balkana.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i vođa prvog Mongolskog Carstva?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Kublaj-kan",
+            "Timur",
+            "Atila"
+        ],
+        "explanation": "Džingis-kan (Temujin) ujedinio je mongolska plemena i osnovao Mongolsko Carstvo, najveće kopneno carstvo u povijesti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
