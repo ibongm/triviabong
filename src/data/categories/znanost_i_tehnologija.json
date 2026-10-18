@@ -30445,5 +30445,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija ribosoma u stanici?",
+        "correct_answer": "Sinteza proteina",
+        "incorrect_answers": [
+            "Proizvodnja energije",
+            "Pohrana genetskog materijala",
+            "Detoxifikacija stanice"
+        ],
+        "explanation": "Ribosomi su stanične organele odgovorne za prevođenje genetskih informacija iz mRNA u proteinske sekvence, što je ključno za funkcioniranje stanice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke ispuštaju vodenu paru kroz male otvore na lišću, zvane puči?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Respiracija",
+            "Fotosinteza",
+            "Gutacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode s površine biljaka, uglavnom kroz puči na listovima, što pomaže u transportu vode kroz biljku i njezinu hlađenju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja vrsta veza drži dva lanca DNA zajedno u dvostrukoj spirali?",
+        "correct_answer": "Vodikove veze",
+        "incorrect_answers": [
+            "Peptidne veze",
+            "Ionska veza",
+            "Kovalentne veze"
+        ],
+        "explanation": "Vodikove veze su slabe međumolekulske sile koje se formiraju između komplementarnih baza (adenina s timinom, guanina s citozinom), držeći tako dva lanca DNA zajedno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je element najzastupljeniji u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Argon",
+            "Ugljikov dioksid"
+        ],
+        "explanation": "Dušik (N2) čini otprilike 78% Zemljine atmosfere, što ga čini najzastupljenijim plinom, dok kisik čini oko 21%.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se zove kemijski spoj odgovoran za crvenu boju krvi kod većine kralježnjaka?",
+        "correct_answer": "Hemoglobin",
+        "incorrect_answers": [
+            "Klorofil",
+            "Melanin",
+            "Kolagen"
+        ],
+        "explanation": "Hemoglobin je protein u crvenim krvnim stanicama koji sadrži željezo i veže kisik, dajući krvi karakterističnu crvenu boju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje kada dva ili više spojeva imaju istu molekulsku formulu, ali različite prostorne rasporede atoma, što se ne može međusobno prevesti rotacijom?",
+        "correct_answer": "Stereoisomeri",
+        "incorrect_answers": [
+            "Izotopi",
+            "Alotropi",
+            "Kiralni spojevi"
+        ],
+        "explanation": "Stereoisomeri su podvrsta izomera koji se razlikuju po trodimenzionalnom rasporedu atoma u prostoru, a ne samo po redoslijedu vezanja, što rezultira različitim svojstvima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koji je primarni plin koji uzrokuje efekt staklenika u Zemljinoj atmosferi?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Metan",
+            "Dušikov oksid",
+            "Vodena para"
+        ],
+        "explanation": "Ugljikov dioksid (CO2) je najznačajniji antropogeni staklenički plin i ima najveći utjecaj na globalno zatopljenje uslijed ljudskih aktivnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna jedinica mišića?",
+        "correct_answer": "Sarkomera",
+        "incorrect_answers": [
+            "Miofibril",
+            "Mišićno vlakno",
+            "Aktin"
+        ],
+        "explanation": "Sarkomera je osnovna kontraktilna jedinica mišićnog vlakna, sastavljena od aktinskih i miozinskih filamenata, odgovorna za mišićnu kontrakciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se elektroni prenose s jednog atoma na drugi, rezultirajući stvaranjem iona i formiranjem veze?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje potpunim prijenosom elektrona s jednog atoma na drugi, stvarajući pozitivne i negativne ione koji se snažno privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja je primarna komponenta jezgre Sunca koja prolazi kroz nuklearnu fuziju?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Ugljik"
+        ],
+        "explanation": "Sunce, kao i većina zvijezda, primarno stvara energiju fuzijom jezgri vodika u jezgre helija pod ekstremnim tlakom i temperaturom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se zove uređaj koji pretvara električnu energiju u mehaničku energiju?",
+        "correct_answer": "Elektromotor",
+        "incorrect_answers": [
+            "Generator",
+            "Transformator",
+            "Kondenzator"
+        ],
+        "explanation": "Elektromotor je stroj koji koristi elektromagnetsku indukciju za pretvaranje električne energije u rotacijsko mehaničko kretanje, npr. u automobilima ili ventilatorima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je fizička konstanta koja predstavlja omjer između energije fotona i njegove frekvencije?",
+        "correct_answer": "Planckova konstanta",
+        "incorrect_answers": [
+            "Gravitacijska konstanta",
+            "Boltzmannova konstanta",
+            "Stefan-Boltzmannova konstanta"
+        ],
+        "explanation": "Planckova konstanta (h) je fundamentalna fizička konstanta u kvantnoj mehanici koja povezuje energiju fotona s njegovom frekvencijom (E=hν).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada se svjetlost raspršuje u više komponentnih boja prolazeći kroz prizmu ili vodene kapljice?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Interferencija",
+            "Refleksija"
+        ],
+        "explanation": "Disperzija je pojava razdvajanja bijele svjetlosti na komponente spektra (dugine boje) zbog različite brzine putovanja različitih valnih duljina kroz medij.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija transformatora u električnom krugu?",
+        "correct_answer": "Promjena napona",
+        "incorrect_answers": [
+            "Regulacija struje",
+            "Pohrana energije",
+            "Mjerenje otpora"
+        ],
+        "explanation": "Transformatori se koriste za promjenu izmjeničnog napona između dvije razine, obično za smanjenje ili povećanje napona u elektroenergetskim sustavima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Prema općoj teoriji relativnosti, što je glavni uzrok gravitacije?",
+        "correct_answer": "Zakrivljenost prostor-vremena",
+        "incorrect_answers": [
+            "Privlačna sila između masa",
+            "Magnetsko polje",
+            "Kretanje subatomskih čestica"
+        ],
+        "explanation": "Einsteinova opća teorija relativnosti objašnjava gravitaciju kao rezultat zakrivljenosti prostor-vremena uzrokovane prisutnošću mase i energije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje najveće brzine koju objekt može postići pri padu kroz fluid (poput zraka), kada je sila otpora jednaka sili gravitacije?",
+        "correct_answer": "Terminalna brzina",
+        "incorrect_answers": [
+            "Početna brzina",
+            "Maksimalna brzina",
+            "Kritična brzina"
+        ],
+        "explanation": "Terminalna brzina je konstantna brzina koju objekt postiže kada je sila otpora fluida jednaka sili gravitacije, rezultirajući nultom neto silom i konstantnim padom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja je kozmička pozadinska radijacija (CMB) važan dokaz za koju teoriju o nastanku svemira?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija pulziranja",
+            "Teorija multiverzuma"
+        ],
+        "explanation": "Kozmička mikrovalna pozadinska radijacija je reliktna toplina iz ranog svemira, nastala otprilike 380.000 godina nakon Velikog praska, i jedan od najsnažnijih dokaza te teorije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja vrsta računalne memorije privremeno pohranjuje podatke i programe koje CPU trenutno koristi i gubi svoj sadržaj kada se napajanje isključi?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "ROM (Read Only Memory)",
+            "SSD (Solid State Drive)",
+            "HDD (Hard Disk Drive)"
+        ],
+        "explanation": "RAM je volatilna memorija koja se koristi za privremeno pohranjivanje podataka i programa koji su aktivno u upotrebi od strane procesora, što omogućuje brzi pristup.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Kako se naziva set pravila i protokola koji omogućuje komunikaciju između uređaja na mreži?",
+        "correct_answer": "Protokol",
+        "incorrect_answers": [
+            "Algoritam",
+            "Driver",
+            "Firewall"
+        ],
+        "explanation": "Protokol je skup standardnih pravila za predstavljanje podataka, signalizaciju, autorizaciju i otkrivanje pogrešaka, omogućujući pouzdanu komunikaciju između uređaja na mreži.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji programski koncept omogućuje objektima da naslijede svojstva i ponašanja iz drugih objekata, promičući ponovnu upotrebu koda?",
+        "correct_answer": "Nasljeđivanje",
+        "incorrect_answers": [
+            "Polimorfizam",
+            "Enkapsulacija",
+            "Apstrakcija"
+        ],
+        "explanation": "Nasljeđivanje je temeljni princip objektno orijentiranog programiranja gdje nova klasa (podklasa) preuzima atribute i metode postojeće klase (nadklase).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva struktura podataka koja pohranjuje elemente u linearnom nizu, gdje se novi elementi dodaju na jedan kraj, a uklanjaju s drugog kraja (FIFO princip)?",
+        "correct_answer": "Red (Queue)",
+        "incorrect_answers": [
+            "Stog (Stack)",
+            "Lista",
+            "Stablo (Tree)"
+        ],
+        "explanation": "Red je struktura podataka koja radi po principu 'prvi unutra, prvi van' (FIFO - First-In, First-Out), što znači da se elementi obrađuju redoslijedom dodavanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji se pojam u umjetnoj inteligenciji odnosi na sposobnost stroja da simulira ljudsko kognitivno ponašanje, kao što su učenje, rješavanje problema i razumijevanje jezika?",
+        "correct_answer": "Umjetna inteligencija",
+        "incorrect_answers": [
+            "Strojarstvo",
+            "Robotika",
+            "Kybernetika"
+        ],
+        "explanation": "Umjetna inteligencija (AI) je široko područje informatike posvećeno razvoju strojeva koji mogu razmišljati i djelovati poput ljudi, uključujući učenje i rješavanje problema.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja metoda šifriranja koristi dva različita, ali matematički povezana ključa (javni i privatni) za šifriranje i dešifriranje?",
+        "correct_answer": "Asimetrična kriptografija",
+        "incorrect_answers": [
+            "Simetrična kriptografija",
+            "Hasiranje",
+            "Steganografija"
+        ],
+        "explanation": "Asimetrična kriptografija (kriptografija javnog ključa) koristi par ključeva: javni za šifriranje i privatni za dešifriranje, osiguravajući sigurnu komunikaciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Kako se zove vrsta softvera koja omogućuje operativnom sustavu interakciju s hardverskim komponentama (npr. pisačem, grafičkom karticom)?",
+        "correct_answer": "Driver (Upravljački program)",
+        "incorrect_answers": [
+            "Firmware",
+            "Middleware",
+            "Compiler"
+        ],
+        "explanation": "Upravljački programi (driveri) su softverske komponente koje prevode operativne sustavske naredbe u specifične upute koje hardver može razumjeti i izvršiti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je naziv za ranjivost u računalnom sustavu koju napadač može iskoristiti za neovlašten pristup ili izvršavanje štetnih radnji?",
+        "correct_answer": "Propust (Vulnerability)",
+        "incorrect_answers": [
+            "Bug",
+            "Virus",
+            "Trojanac"
+        ],
+        "explanation": "Propust je slabost u softveru, hardveru ili konfiguraciji koja omogućuje napadaču neovlašteno djelovanje ili narušavanje sigurnosti sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva postupak čišćenja otpadnih voda uklanjanjem zagađujućih tvari biološkim, kemijskim i fizičkim metodama?",
+        "correct_answer": "Pročišćavanje otpadnih voda",
+        "incorrect_answers": [
+            "Destilacija",
+            "Filtracija",
+            "Koagulacija"
+        ],
+        "explanation": "Pročišćavanje otpadnih voda je složen proces uklanjanja zagađivača iz kanalizacije i industrijskih otpadnih voda radi zaštite okoliša i ljudskog zdravlja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji se pojam u ekologiji odnosi na sposobnost ekosustava da se vrati u svoje prvobitno stanje nakon poremećaja?",
+        "correct_answer": "Otpornost (Resilience)",
+        "incorrect_answers": [
+            "Stabilnost",
+            "Produktivnost",
+            "Raznolikost"
+        ],
+        "explanation": "Otpornost ekosustava je njegova sposobnost da apsorbira šokove i poremećaje, te da se oporavi i održi svoju strukturu i funkciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koja je tehnologija koja omogućuje uređajima da komuniciraju s internetom i međusobno putem ugrađenih senzora i softvera?",
+        "correct_answer": "Internet stvari (IoT)",
+        "incorrect_answers": [
+            "Virtualna stvarnost",
+            "5G mreža",
+            "Umjetna inteligencija"
+        ],
+        "explanation": "Internet stvari (IoT) je mreža fizičkih objekata opremljenih senzorima, softverom i drugim tehnologijama za povezivanje i razmjenu podataka putem interneta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva znanstvena disciplina koja proučava nasljeđe i varijacije organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Biokemija",
+            "Citologija",
+            "Mikrobiologija"
+        ],
+        "explanation": "Genetika je grana biologije koja se bavi proučavanjem gena, genetskih varijacija i nasljeđivanja kod živih organizama, uključujući mehanizme nasljeđivanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za opisivanje kada se materijal zagrijava do vrlo visokih temperatura kako bi se promijenila njegova fizička ili kemijska svojstva, često uključujući taljenje?",
+        "correct_answer": "Piroliza",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Elektroliza",
+            "Kataliza"
+        ],
+        "explanation": "Piroliza je termokemijski proces razgradnje organskih materijala pri visokim temperaturama u odsustvu kisika, mijenjajući njihova svojstva ili sastav.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koja je karakteristika lasera koja se odnosi na činjenicu da emitira svjetlost jedne boje (valne duljine)?",
+        "correct_answer": "Monokromatičnost",
+        "incorrect_answers": [
+            "Koherentnost",
+            "Kolimacija",
+            "Divergencija"
+        ],
+        "explanation": "Monokromatičnost lasera znači da zrači svjetlost vrlo uskog spektra valnih duljina, odnosno jedne boje, što ga čini preciznim alatom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na sustav koji koristi umjetne satelite za pružanje geolokacijskih i vremenskih informacija bilo kojem prijemniku na ili blizu Zemlje?",
+        "correct_answer": "Globalni sustav pozicioniranja (GPS)",
+        "incorrect_answers": [
+            "Globalna mreža",
+            "Bežična mreža",
+            "Satelitska televizija"
+        ],
+        "explanation": "GPS je satelitski navigacijski sustav koji korisnicima pruža informacije o položaju, brzini i vremenu, bilo gdje na Zemlji uz pomoć satelitskih signala.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja je osnovna razlika između fuzije i fisije kao nuklearnih reakcija?",
+        "correct_answer": "Fuzija spaja jezgre, fisija ih cijepa",
+        "incorrect_answers": [
+            "Fuzija oslobađa manje energije, fisija više",
+            "Fuzija koristi uranij, fisija vodik",
+            "Fuzija se događa na Zemlji, fisija u Suncu"
+        ],
+        "explanation": "Nuklearna fuzija je spajanje lakih atomskih jezgri, dok je nuklearna fisija cijepanje teških atomskih jezgri, pri čemu obje reakcije oslobađaju ogromnu energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva izrada trodimenzionalnih objekata iz digitalnog dizajna sloj po sloj, dodavanjem materijala?",
+        "correct_answer": "3D ispis (Aditivna proizvodnja)",
+        "incorrect_answers": [
+            "Subtraktivna proizvodnja",
+            "Lasersko rezanje",
+            "CNC obrada"
+        ],
+        "explanation": "3D ispis je proces stvaranja trodimenzionalnog objekta na temelju digitalnog modela, dodavanjem materijala sloj po sloj, poznat i kao aditivna proizvodnja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji je pojam u farmakologiji za lijek koji se prodaje pod kemijskim imenom, a ne pod robnom markom, nakon isteka patenta?",
+        "correct_answer": "Generički lijek",
+        "incorrect_answers": [
+            "Patentirani lijek",
+            "Bio-ekvivalent",
+            "Originalni lijek"
+        ],
+        "explanation": "Generički lijekovi su kemijski identični originalnim lijekovima, dostupni nakon isteka patenta, i obično su jeftiniji jer ne uključuju troškove istraživanja i razvoja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji je pojam u biologiji za proces samouništenja programirane stanice, ključan za razvoj i uklanjanje oštećenih stanica?",
+        "correct_answer": "Apoptoza",
+        "incorrect_answers": [
+            "Nekroza",
+            "Mitoza",
+            "Fagocitoza"
+        ],
+        "explanation": "Apoptoza je programirana stanična smrt, vitalni proces za održavanje homeostaze, razvoj organizma i uklanjanje oštećenih ili nepotrebnih stanica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji subatomski bozon prenosi slabu nuklearnu silu?",
+        "correct_answer": "W i Z bozoni",
+        "incorrect_answers": [
+            "Gluon",
+            "Foton",
+            "Higgsov bozon"
+        ],
+        "explanation": "W i Z bozoni su elementarne čestice (gauge bozoni) odgovorne za prijenos slabe nuklearne sile, koja uzrokuje radioaktivni beta raspad i nuklearne fuzijske reakcije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Kako se u strojnom učenju naziva problem kada se model previše dobro prilagodi podacima za treniranje, pa gubi sposobnost generalizacije na nove podatke?",
+        "correct_answer": "Prekomjerno prilagođavanje (Overfitting)",
+        "incorrect_answers": [
+            "Potpuno prilagođavanje",
+            "Nedovoljno prilagođavanje",
+            "Prilagodba značajkama"
+        ],
+        "explanation": "Prekomjerno prilagođavanje nastaje kada model uhvati šum i specifičnosti podataka za treniranje, umjesto temeljnih obrazaca, smanjujući performanse na neviđenim podacima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koji optički fenomen opisuje kada valovi svjetlosti prolaze kroz otvor ili oko prepreke i šire se, stvarajući uzorke interferencije?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Refleksija",
+            "Apsorpcija"
+        ],
+        "explanation": "Difrakcija je pojava skretanja i širenja valova svjetlosti kada prolaze pored oštrih rubova ili kroz uske otvore, što stvara karakteristične uzorke interferencije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
