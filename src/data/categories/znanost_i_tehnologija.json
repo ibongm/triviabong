@@ -30445,5 +30445,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja stanična organela sadrži genetski materijal (DNA) i kontrolira stanične aktivnosti u eukariotskim stanicama?",
+        "correct_answer": "Jezgra",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Ribosom",
+            "Endoplazmatski retikulum"
+        ],
+        "explanation": "Jezgra je glavno skladište genetskog materijala i kontrolira sve vitalne funkcije stanice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koje je agregatno stanje tvari koje ima definiran volumen, ali nedefiniran oblik i poprima oblik posude u kojoj se nalazi?",
+        "correct_answer": "Tekuće",
+        "incorrect_answers": [
+            "Kruto",
+            "Plinovito",
+            "Plazma"
+        ],
+        "explanation": "Tekućine imaju fiksni volumen, ali njihove molekule se mogu slobodno kretati, pa nemaju stalan oblik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji je primarni uređaj za pohranu podataka u računalu koji čuva informacije čak i kada je računalo isključeno?",
+        "correct_answer": "Tvrdi disk (HDD/SSD)",
+        "incorrect_answers": [
+            "RAM",
+            "Procesor (CPU)",
+            "Grafička kartica (GPU)"
+        ],
+        "explanation": "Tvrdi disk ili SSD je postojana pohrana za operativni sustav, programe i datoteke, za razliku od RAM-a koji je privremena memorija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju količinu energije koju sustav može apsorbirati ili emitirati, prema kvantnoj teoriji?",
+        "correct_answer": "Kvant",
+        "incorrect_answers": [
+            "Atom",
+            "Elektron",
+            "Foton"
+        ],
+        "explanation": "Kvant je diskretna jedinica energije ili druge fizikalne veličine, koncept koji je uveo Max Planck.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koja je najveća žlijezda u ljudskom tijelu koja proizvodi žuč i detoksicira krv?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Štitnjača",
+            "Bubrezi"
+        ],
+        "explanation": "Jetra je vitalni organ s mnogim funkcijama, uključujući metabolizam, detoksikaciju i proizvodnju žuči.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je kratica za \"World Wide Web\"?",
+        "correct_answer": "WWW",
+        "incorrect_answers": [
+            "WWR",
+            "WWM",
+            "WWS"
+        ],
+        "explanation": "WWW, ili World Wide Web, je sustav međusobno povezanih dokumenata i drugih web resursa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je pH vrijednost neutralne otopine na sobnoj temperaturi?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost; vrijednost 7 označava neutralnu otopinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji algoritam za sortiranje ima prosječnu vremensku složenost O(n log n) i koristi strategiju \"podijeli pa vladaj\"?",
+        "correct_answer": "QuickSort (Brzo sortiranje)",
+        "incorrect_answers": [
+            "BubbleSort (Mjehurićasto sortiranje)",
+            "SelectionSort (Sortiranje odabirom)",
+            "InsertionSort (Sortiranje umetanjem)"
+        ],
+        "explanation": "QuickSort je popularan i učinkovit algoritam za sortiranje koji rekurzivno dijeli listu na manje podliste.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji se fenomen događa kada se magnetsko polje koje se mijenja s vremenom inducira električnu struju u vodiču?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Elektrostatska privlačnost",
+            "Magnetska rezonancija",
+            "Peltierov efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je princip rada generatora i transformatora, otkriven od strane Faradaya.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji dio oka je odgovoran za percepciju boja?",
+        "correct_answer": "Čunjići",
+        "incorrect_answers": [
+            "Štapići",
+            "Leća",
+            "Zjenica"
+        ],
+        "explanation": "Čunjići su fotoreceptori u mrežnici koji su osjetljivi na boju i oštrinu vida, za razliku od štapića.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja se vrsta kemijske veze formira kada atomi potpuno prenose elektrone, stvarajući ione suprotnog naboja koji se međusobno privlače?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje elektrostatskim privlačenjem između pozitivno nabijenih kationa i negativno nabijenih aniona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je naziv za granicu oko crne rupe izvan koje ništa, uključujući svjetlost, ne može pobjeći zbog ekstremne gravitacije?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Akrecijski disk",
+            "Ergostera"
+        ],
+        "explanation": "Horizont događaja je točka bez povratka; jednom kada nešto prijeđe tu granicu, ne može se vratiti van.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja je podatkovna struktura koja slijedi princip \"prvi ušao, prvi izašao\" (FIFO)?",
+        "correct_answer": "Red (Queue)",
+        "incorrect_answers": [
+            "Stog (Stack)",
+            "Stablo (Tree)",
+            "Graf (Graph)"
+        ],
+        "explanation": "Red (Queue) je apstraktna podatkovna struktura u kojoj se elementi dodaju na kraj, a uklanjaju s početka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Kako se naziva mjerna jedinica za glasnoću zvuka?",
+        "correct_answer": "Decibel",
+        "incorrect_answers": [
+            "Herc",
+            "Joule",
+            "Volt"
+        ],
+        "explanation": "Decibel je logaritamska jedinica koja se koristi za izražavanje omjera dviju vrijednosti fizikalne veličine, često snage ili intenziteta zvuka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja zelena molekula u biljkama apsorbira svjetlosnu energiju tijekom fotosinteze?",
+        "correct_answer": "Klorofil",
+        "incorrect_answers": [
+            "Hemoglobin",
+            "Antocijan",
+            "Karotenoid"
+        ],
+        "explanation": "Klorofil je pigment koji biljkama daje zelenu boju i ključan je za apsorpciju svjetlosti u fotosintezi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je funkcionalna grupa karakteristična za alkohole?",
+        "correct_answer": "Hidroksilna grupa (-OH)",
+        "incorrect_answers": [
+            "Karbonilna grupa (-CO)",
+            "Karboksilna grupa (-COOH)",
+            "Amino grupa (-NH2)"
+        ],
+        "explanation": "Hidroksilna grupa (-OH) vezana na ugljikov atom je definicija alkohola u organskoj kemiji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je matematički koncept koji se najčešće koristi za opisivanje rotacije i položaja robotike ruku ili objekata u 3D prostoru?",
+        "correct_answer": "Matrice i transformacije",
+        "incorrect_answers": [
+            "Binarni kod",
+            "Logička vrata",
+            "Fourierova transformacija"
+        ],
+        "explanation": "Matrice i transformacije se koriste za predstavljanje orijentacije i pozicije segmenata robota u prostoru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Tko je formulirao zakon univerzalne gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Stephen Hawking"
+        ],
+        "explanation": "Isaac Newton je u 17. stoljeću opisao gravitaciju kao privlačnu silu između svih tijela s masom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja je molekula nositelj genetske informacije kod većine organizama?",
+        "correct_answer": "DNA",
+        "incorrect_answers": [
+            "RNA",
+            "Protein",
+            "Lipid"
+        ],
+        "explanation": "DNA (deoksiribonukleinska kiselina) sadrži genetske upute za razvoj i funkcioniranje svih živih organizama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je naziv za vrstu zlonamjernog softvera (malware) koji šifrira korisničke podatke i zahtijeva otkupninu za njihovo dešifriranje?",
+        "correct_answer": "Ransomware",
+        "incorrect_answers": [
+            "Spyware",
+            "Adware",
+            "Crv (Worm)"
+        ],
+        "explanation": "Ransomware blokira pristup podacima dok korisnik ne plati traženu otkupninu, obično u kriptovalutama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji je planet Sunčevog sustava poznat po svojim prstenovima sastavljenim od čestica leda i stijena?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je plinoviti div, poznat po svom sustavu prstenova koji su vidljivi čak i malim teleskopima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji zakon termodinamike definira postojanje apsolutne nule i kaže da je nemoguće doseći apsolutnu nulu u konačnom broju koraka?",
+        "correct_answer": "Treći zakon termodinamike",
+        "incorrect_answers": [
+            "Prvi zakon termodinamike",
+            "Drugi zakon termodinamike",
+            "Nulti zakon termodinamike"
+        ],
+        "explanation": "Treći zakon termodinamike bavi se ponašanjem sustava na temperaturi apsolutne nule, gdje entropija idealnog kristala teži nuli.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koje od sljedećih nije carstvo živih organizama prema modernoj taksonomiji?",
+        "correct_answer": "Virusi",
+        "incorrect_answers": [
+            "Životinje",
+            "Biljke",
+            "Gljive"
+        ],
+        "explanation": "Virusi nisu klasificirani u carstva jer se ne smatraju živim organizmima u potpunosti, već su paraziti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja je kemijska formula vode?",
+        "correct_answer": "H2O",
+        "incorrect_answers": [
+            "CO2",
+            "O2",
+            "NaCl"
+        ],
+        "explanation": "Molekula vode sastoji se od dva atoma vodika i jednog atoma kisika.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je pristup programiranju koji se usredotočuje na \"objekte\" koji sadrže podatke i metode, te podržava koncepte kao što su inkapsulacija, nasljeđivanje i polimorfizam?",
+        "correct_answer": "Objektno orijentirano programiranje (OOP)",
+        "incorrect_answers": [
+            "Funkcionalno programiranje",
+            "Proceduralno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "OOP je paradigma koja organizira softver oko podataka, a ne logike i funkcija, što omogućuje modularnost i ponovnu upotrebu koda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji princip kaže da će se sustav u kemijskoj ravnoteži, podvrgnut promjeni koncentracije, temperature ili tlaka, pomaknuti u smjeru koji ublažava tu promjenu?",
+        "correct_answer": "Le Chatelierov princip",
+        "incorrect_answers": [
+            "Hessov zakon",
+            "Raoultov zakon",
+            "Boyleov zakon"
+        ],
+        "explanation": "Le Chatelierov princip je fundamentalan u kemiji za predviđanje promjene ravnoteže kemijskih reakcija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je naziv za svemirski teleskop koji je lansiran 1990. godine i revolucionirao naše razumijevanje svemira, pružajući jasne slike dubokog svemira?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Chandra rendgenski opservatorij",
+            "Spitzer svemirski teleskop"
+        ],
+        "explanation": "Hubble je preko 30 godina služio kao ključni alat za astronomska otkrića (stanje 2024.). James Webb ga je naslijedio.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koja boja svjetlosti ima najkraću valnu duljinu u vidljivom spektru?",
+        "correct_answer": "Ljubičasta",
+        "incorrect_answers": [
+            "Crvena",
+            "Zelena",
+            "Žuta"
+        ],
+        "explanation": "U vidljivom spektru, ljubičasta svjetlost ima najkraću valnu duljinu i najveću frekvenciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji sustav u ljudskom tijelu odgovara za transport kisika, hranjivih tvari i hormona te uklanjanje otpadnih tvari?",
+        "correct_answer": "Krvožilni sustav",
+        "incorrect_answers": [
+            "Živčani sustav",
+            "Probavni sustav",
+            "Dišni sustav"
+        ],
+        "explanation": "Krvožilni sustav, sa srcem kao pumpom, osigurava kruženje krvi kroz cijelo tijelo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za metodu koja se koristi za pretvaranje privatnih IP adresa u javne IP adrese, omogućujući više uređaja na privatnoj mreži da dijele jednu javnu IP adresu prilikom pristupa internetu?",
+        "correct_answer": "NAT (Network Address Translation)",
+        "incorrect_answers": [
+            "DHCP (Dynamic Host Configuration Protocol)",
+            "ARP (Address Resolution Protocol)",
+            "DNS (Domain Name System)"
+        ],
+        "explanation": "NAT je ključna tehnologija za očuvanje IPv4 adresa i omogućavanje internetske povezanosti privatnih mreža.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kada se plin direktno pretvara u kruto stanje, bez prolaska kroz tekuće?",
+        "correct_answer": "Depozicija (ili desublimacija)",
+        "incorrect_answers": [
+            "Sublimacija",
+            "Kondenzacija",
+            "Isparavanje"
+        ],
+        "explanation": "Depozicija je obrnuti proces od sublimacije, gdje se tvar izravno pretvara iz plinovitog u kruto stanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija solarne ploče?",
+        "correct_answer": "Pretvaranje sunčeve svjetlosti u električnu energiju",
+        "incorrect_answers": [
+            "Grijanje vode",
+            "Pročišćavanje zraka",
+            "Stvaranje vjetra"
+        ],
+        "explanation": "Solarne ploče koriste fotonaponski efekt za generiranje električne struje iz sunčeve energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji je naziv za proces u kojem se genetska informacija iz DNA prepisuje u molekulu RNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se stvara komplementarna RNA kopija gena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koja je podkategorija umjetne inteligencije koja omogućuje računalnim sustavima da uče iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje (Machine Learning)",
+        "incorrect_answers": [
+            "Računalni vid (Computer Vision)",
+            "Obrada prirodnog jezika (NLP)",
+            "Ekspertni sustavi"
+        ],
+        "explanation": "Strojno učenje je znanstveno područje koje računalima daje sposobnost učenja iz podataka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Prema općoj teoriji relativnosti, što uzrokuje gravitaciju?",
+        "correct_answer": "Zakrivljenost prostor-vremena",
+        "incorrect_answers": [
+            "Gravitoni",
+            "Privlačna sila mase",
+            "Magnetske sile"
+        ],
+        "explanation": "Einsteinova opća teorija relativnosti opisuje gravitaciju kao geometrijsko svojstvo zakrivljenosti prostor-vremena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koja je uloga razlagača (dekompozitora) u ekosustavu?",
+        "correct_answer": "Razgradnja mrtve organske tvari i vraćanje hranjivih tvari u tlo",
+        "incorrect_answers": [
+            "Proizvodnja kisika",
+            "Pretvaranje sunčeve energije u kemijsku",
+            "Konzumacija živih biljaka"
+        ],
+        "explanation": "Razlagači, poput bakterija i gljiva, esencijalni su za recikliranje hranjivih tvari u ekosustavima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
