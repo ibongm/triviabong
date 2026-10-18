@@ -25139,5 +25139,365 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazonka",
+            "Mississippi",
+            "Yangtze"
+        ],
+        "explanation": "Nil se smatra najdužom rijekom na svijetu, teče kroz sjeveroistočnu Afriku i ulijeva se u Sredozemno more. Njegova dužina je oko 6650 km.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Francuske?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Rim",
+            "Berlin",
+            "London"
+        ],
+        "explanation": "Pariz je glavni i najveći grad Francuske, poznat po umjetnosti, modi i kulturi. Leži na rijeci Seini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je drugi po veličini kontinent na svijetu?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Sjeverna Amerika",
+            "Južna Amerika"
+        ],
+        "explanation": "Afrika je drugi najveći kontinent i po površini i po broju stanovnika, odmah iza Azije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji plovni kanal povezuje Atlantski i Tihi ocean?",
+        "correct_answer": "Panamski kanal",
+        "incorrect_answers": [
+            "Sueski kanal",
+            "Kielski kanal",
+            "Korintski kanal"
+        ],
+        "explanation": "Panamski kanal je umjetni plovni put koji spaja Atlantski i Tihi ocean, omogućujući brodovima da izbjegnu dugi put oko Južne Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi znamenita pješčana stijena Uluru (Ayers Rock)?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Južna Afrika",
+            "Indija"
+        ],
+        "explanation": "Uluru, poznat i kao Ayers Rock, velika je pješčana stijena u središnjoj Australiji. To je sveta lokacija za Aboridžine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji je najhladniji kontinent na svijetu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Arktik",
+            "Sjeverna Amerika",
+            "Azija"
+        ],
+        "explanation": "Antarktika je najhladniji kontinent na Zemlji, s najnižim zabilježenim temperaturama i gotovo potpunom prekrivenošću ledom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koji prolaz povezuje Sredozemno more i Atlantski ocean?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Sueski kanal",
+            "Panamski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji razdvaja Europu (Španjolsku) od Afrike (Maroko) i povezuje Sredozemno more s Atlantskim oceanom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva stalno smrznuto tlo u polarnim i subpolarnim područjima?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Tajga",
+            "Stepa"
+        ],
+        "explanation": "Permafrost je tlo koje ostaje smrznuto najmanje dvije uzastopne godine, a može biti duboko i stotine metara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva plitka morska uvala odvojena od otvorenog mora pješčanim sprudom ili grebenom?",
+        "correct_answer": "Laguna",
+        "incorrect_answers": [
+            "Fjord",
+            "Estuarij",
+            "Delta"
+        ],
+        "explanation": "Laguna je plitka vodena masa odvojena od većeg vodenog tijela, poput oceana, pješčanim sprudovima ili grebenima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja rijeka protječe kroz glavni grad Srbije, Beograd?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Sava",
+            "Drava",
+            "Morava"
+        ],
+        "explanation": "Dunav je druga najduža rijeka u Europi koja protječe kroz deset zemalja, uključujući Srbiju i njen glavni grad Beograd.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "U kojoj državi se nalazi planinski lanac Karpati?",
+        "correct_answer": "Rumunjska",
+        "incorrect_answers": [
+            "Italija",
+            "Francuska",
+            "Španjolska"
+        ],
+        "explanation": "Karpati su planinski lanac u srednjoj i istočnoj Europi. Najveći dio Karpata nalazi se u Rumunjskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koja država leži na \"vatrenom prstenu Pacifika\" i često je pogođena potresima i vulkanskim erupcijama?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Egipat",
+            "Brazil",
+            "Švedska"
+        ],
+        "explanation": "Japan je otočna država smještena na tektonski aktivnom području poznatom kao \"vatreni prsten Pacifika\", što ga čini podložnim potresima i vulkanima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je najgušće naseljeni kontinent?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najveći i najmnogoljudniji kontinent na Zemlji. Na njoj živi preko 4,7 milijardi ljudi (stanje 2023.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koje je najveće jezero u Africi i drugo po veličini slatkovodno jezero na svijetu po površini?",
+        "correct_answer": "Viktorijino jezero",
+        "incorrect_answers": [
+            "Tanganjika",
+            "Malavi",
+            "Albertovo jezero"
+        ],
+        "explanation": "Viktorijino jezero je najveće jezero u Africi i drugo po površini slatkovodno jezero na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je najveći koraljni greben na svijetu, smješten uz obalu Australije?",
+        "correct_answer": "Veliki koraljni greben",
+        "incorrect_answers": [
+            "Mesoamerički koraljni greben",
+            "Koraljni greben Raja Ampat",
+            "Maldivski atoli"
+        ],
+        "explanation": "Veliki koraljni greben najveći je svjetski sustav koraljnih grebena, sastavljen od preko 3000 pojedinačnih grebena i 900 otoka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se morski sedimenti i pijesak skupljaju na obali, stvarajući uzvišice?",
+        "correct_answer": "Dina",
+        "incorrect_answers": [
+            "Morena",
+            "Delta",
+            "Sprud"
+        ],
+        "explanation": "Dina je nakupina pijeska ili prašine, često u obliku brežuljka ili grebena, nastala djelovanjem vjetra ili vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva vremenska zona koja se nalazi na 0 stupnjeva zemljopisne dužine?",
+        "correct_answer": "Glavna vremenska zona (GMT/UTC)",
+        "incorrect_answers": [
+            "Ekvator",
+            "Međunarodna datumska granica",
+            "Sjeverni pol"
+        ],
+        "explanation": "Glavna vremenska zona (GMT/UTC) je vremenska zona na 0° zemljopisne dužine, koja prolazi kroz Greenwich u Londonu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Kako se naziva suhi vjetar koji puše iz Sahare prema Sredozemnom moru i Europi?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Jugo",
+            "Maestral"
+        ],
+        "explanation": "Siroko je topao i suh vjetar koji nastaje u Sahari i putuje preko Sredozemlja, donoseći sa sobom pijesak i visoke temperature.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji poluotok je poznat po svojim gejzirima i termalnim izvorima, a nalazi se na istoku Rusije?",
+        "correct_answer": "Kamčatka",
+        "incorrect_answers": [
+            "Tajmir",
+            "Kola",
+            "Čukotski poluotok"
+        ],
+        "explanation": "Kamčatka je vulganski aktivni poluotok u dalekom istočnom dijelu Rusije, poznat po brojnim vulkanima, gejzirima i termalnim izvorima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni fenomen gdje se rijeke ulijevaju u more, stvarajući područje miješanja slatke i slane vode?",
+        "correct_answer": "Estuarij",
+        "incorrect_answers": [
+            "Delta",
+            "Zaljev",
+            "Fjord"
+        ],
+        "explanation": "Estuarij je djelomično zatvoreno obalno vodeno tijelo gdje se rijeka ulijeva u ocean, a slatka voda se miješa sa slanom morskom vodom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva proces u kojem se stijene raspadaju na manje komade zbog promjena temperature, mraza ili djelovanja vode i vjetra?",
+        "correct_answer": "Trošenje (erozija)",
+        "incorrect_answers": [
+            "Sedimentacija",
+            "Metamorfoza",
+            "Vulkanska aktivnost"
+        ],
+        "explanation": "Trošenje (erozija, denudacija) je prirodni proces raspadanja i premještanja stijena i tla na Zemljinoj površini pod utjecajem atmosferskih čimbenika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji je najviši vrh u Europi, ako se Kavkaz smatra azijskim?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Elbrus",
+            "Matterhorn",
+            "Grossglockner"
+        ],
+        "explanation": "Mont Blanc je najviši vrh u Alpama i Zapadnoj Europi, s visinom od 4808 metara (stanje 2023.), smješten na granici Francuske i Italije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva vrsta tropske oluje koja se razvija iznad Atlantskog oceana i Sjevernog Pacifika?",
+        "correct_answer": "Uragan",
+        "incorrect_answers": [
+            "Tajfun",
+            "Ciklon",
+            "Tornad"
+        ],
+        "explanation": "Uragan je snažna tropska oluja s rotirajućim vjetrovima i niskim tlakom, specifična za Atlantski ocean i sjeveroistočni Pacifik.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se Sunce i Mjesec poravnaju s Zemljom, uzrokujući iznimno visoke i niske morske mijene?",
+        "correct_answer": "Siziđija",
+        "incorrect_answers": [
+            "Apogej",
+            "Perigej",
+            "Ekvator"
+        ],
+        "explanation": "Siziđija je astronomski pojam koji opisuje poravnanje triju nebeskih tijela, poput Sunca, Zemlje i Mjeseca, što utječe na morske mijene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
