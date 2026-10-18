@@ -25139,5 +25139,485 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najviša planina u Andama i u cijeloj Južnoj Americi?",
+        "correct_answer": "Aconcagua",
+        "incorrect_answers": [
+            "Chimborazo",
+            "Cotopaxi",
+            "Ojos del Salado"
+        ],
+        "explanation": "Aconcagua je najviši vrh planinskog lanca Anda, smješten u Argentini. S visinom od 6.961 metar, ujedno je i najviši vrh Južne Amerike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji je najveći otok uz obalu Afrike?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Zanzibar",
+            "Mauricijus",
+            "Sejšeli"
+        ],
+        "explanation": "Madagaskar je druga najveća otočna država na svijetu i najveći otok uz obalu Afrike, smješten u Indijskom oceanu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva morska struja koja donosi topliju vodu iz tropskih područja prema obalama sjeverozapadne Europe, utječući na klimu?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Humboldtova struja",
+            "Kanarska struja"
+        ],
+        "explanation": "Golfska struja je snažna, topla i brza oceanska struja koja značajno utječe na umjereniju klimu zapadne Europe. Ona prenosi tople vode iz Meksičkog zaljeva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koje je najveće od Velikih jezera Sjeverne Amerike po površini?",
+        "correct_answer": "Jezero Superior",
+        "incorrect_answers": [
+            "Jezero Huron",
+            "Jezero Michigan",
+            "Jezero Erie"
+        ],
+        "explanation": "Jezero Superior je najveće slatkovodno jezero po površini u Sjevernoj Americi i drugo najveće slatkovodno jezero na svijetu (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji je najviši vrh svijeta?",
+        "correct_answer": "Mount Everest",
+        "incorrect_answers": [
+            "K2 (Čogori)",
+            "Kangčendžunga",
+            "Lhotse"
+        ],
+        "explanation": "Mount Everest, s visinom od 8.848,86 metara (stanje 2020.), najviši je vrh na Zemlji iznad razine mora, smješten u Himalaji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji je glavni grad Austrije smješten na rijeci Dunav?",
+        "correct_answer": "Beč",
+        "incorrect_answers": [
+            "Prag",
+            "Budimpešta",
+            "Bratislava"
+        ],
+        "explanation": "Beč je glavni grad Austrije i jedan od najvećih gradova uz rijeku Dunav, poznat po bogatoj povijesti i kulturi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja je zemlja vodeći svjetski proizvođač kave (stanje 2023.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Kolumbija",
+            "Vijetnam",
+            "Etiopija"
+        ],
+        "explanation": "Brazil je već desetljećima najveći svjetski proizvođač i izvoznik kave, s ogromnim plantažama i povoljnom klimom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koji je kontinent po površini najmanji na svijetu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Antarktika",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija je po površini najmanji kontinent na svijetu, a ujedno je i najveći otok. Zauzima samo jedan kontinent.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je država s najvećim brojem vremenskih zona, uključujući prekomorska područja?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Rusija",
+            "Sjedinjene Američke Države",
+            "Kina"
+        ],
+        "explanation": "Francuska ima najveći broj vremenskih zona, ukupno 12, zbog svojih brojnih prekomorskih departmana i teritorija širom svijeta (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva klimatska zona karakterizirana vrlo niskim temperaturama, permafrostom i oskudnom vegetacijom mahovina i lišajeva?",
+        "correct_answer": "Tundra",
+        "incorrect_answers": [
+            "Tajga",
+            "Savana",
+            "Stepa"
+        ],
+        "explanation": "Tundra je biom koji se nalazi u arktičkim i subarktičkim regijama, a karakteriziraju ga ekstremno niske temperature i permafrost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Koloseum, amfiteatar izgrađen u antičko doba?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Turska",
+            "Egipat"
+        ],
+        "explanation": "Koloseum se nalazi u Rimu, glavnom gradu Italije, i jedan je od najpoznatijih simbola antičkog Rimskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva široki, lijevkasti estuarij u koji se ulijeva rijeka, a na njega utječu plima i oseka?",
+        "correct_answer": "Rijeka La Plata",
+        "incorrect_answers": [
+            "Delta Nigera",
+            "Ušće Amazone",
+            "Estuarij Temze"
+        ],
+        "explanation": "Rijeka La Plata zapravo je estuarij, široki zaljev nastao ušćem rijeka Parana i Urugvaj, gdje se miješaju slatka i slana voda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je otočna država poznata po proizvodnji sakea i razvijenoj robotici?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Južna Koreja",
+            "Kina",
+            "Filipini"
+        ],
+        "explanation": "Japan je otočna država u istočnoj Aziji, globalno poznata po svojoj jedinstvenoj kulturi, naprednoj tehnologiji i proizvodnji sakea.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji ocean je najmanji po površini na Zemlji?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Atlantski ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet svjetskih oceana, smješten oko Sjevernog pola.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji morski tjesnac razdvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean i Sredozemno more te razdvaja Iberijski poluotok (Europu) od Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je pustinja poznata po svojim crvenim dinama i nalazi se u Africi?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Sahara",
+            "Atacama",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Namib je obalna pustinja u južnoj Africi, poznata po svojim impresivnim crvenim pješčanim dinama, među najstarijima na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni most od stijene, često nastao erozijom vjetra i vode?",
+        "correct_answer": "Kameni most",
+        "incorrect_answers": [
+            "Stalagmit",
+            "Fjord",
+            "Atol"
+        ],
+        "explanation": "Kameni most je prirodna formacija stijene koja se proteže poput mosta, često nastala dugotrajnom erozijom manje otpornih slojeva stijena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji je glavni grad Francuske, poznat po Eiffelovom tornju i rijeci Seini?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "Rim",
+            "Berlin",
+            "London"
+        ],
+        "explanation": "Pariz je glavni grad Francuske, globalno poznat po svojim umjetničkim galerijama, modnim kućama i ikoničkim znamenitostima poput Eiffelovog tornja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva suhi, hladni vjetar koji puše s planina prema obalnim područjima Jadrana, posebno u Hrvatskoj?",
+        "correct_answer": "Bura",
+        "incorrect_answers": [
+            "Jugo",
+            "Maestral",
+            "Levant"
+        ],
+        "explanation": "Bura je hladan, suh i jak vjetar koji puše iz sjeveroistočnog smjera, karakterističan za jadransku obalu Hrvatske i Crne Gore.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja se rijeka smatra najsvetijom u hinduizmu?",
+        "correct_answer": "Ganges",
+        "incorrect_answers": [
+            "Ind",
+            "Brahmaputra",
+            "Jamuna"
+        ],
+        "explanation": "Ganges je jedna od najvećih rijeka u Aziji i najsvetija rijeka u hinduizmu, štovana kao božica Ganga.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Između koje dvije države se nalaze slapovi Niagara?",
+        "correct_answer": "SAD i Kanada",
+        "incorrect_answers": [
+            "SAD i Meksiko",
+            "Kanada i Aljaska",
+            "SAD i Kuba"
+        ],
+        "explanation": "Slapovi Niagara sastoje se od tri velika slapa na rijeci Niagari, smješteni na granici Sjedinjenih Američkih Država i Kanade.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji morski prolaz povezuje Crno more s Mramornim morem i Sredozemljem?",
+        "correct_answer": "Bospor",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Gibraltarski tjesnac",
+            "Kerčki prolaz"
+        ],
+        "explanation": "Bospor je tjesnac koji dijeli europski i azijski dio Istanbula te je strateški važna veza između Crnog i Mramornog mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja je rijeka, po volumenu vode, najveća na svijetu?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+            "Nil",
+            "Jangce",
+            "Mississippi"
+        ],
+        "explanation": "Amazon je rijeka u Južnoj Americi koja po volumenu vode i prosječnom protoku daleko nadmašuje sve ostale rijeke na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Kako se naziva područje oceanskog dna koje čini prijelaz između kontinentalne kopnene mase i dubokog oceanskog bazena?",
+        "correct_answer": "Kontinentalna padina",
+        "incorrect_answers": [
+            "Kontinentalni prag",
+            "Abisalna ravnica",
+            "Oceanski rov"
+        ],
+        "explanation": "Kontinentalna padina je strmiji dio morskog dna nakon kontinentalnog praga, koji se spušta prema dubokim oceanskim ravnicama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koji je najveći grad po broju stanovnika u Africi (stanje 2024.)?",
+        "correct_answer": "Lagos",
+        "incorrect_answers": [
+            "Kairo",
+            "Kinšasa",
+            "Johannesburg"
+        ],
+        "explanation": "Lagos, u Nigeriji, smatra se najvećim gradom u Africi po broju stanovnika, s populacijom koja kontinuirano raste.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja europska država ima najviše jezera?",
+        "correct_answer": "Finska",
+        "incorrect_answers": [
+            "Švedska",
+            "Norveška",
+            "Rusija"
+        ],
+        "explanation": "Finska je poznata kao \"zemlja tisuću jezera\" zbog svog iznimno velikog broja jezera, koja pokrivaju značajan dio njezine površine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva velika koraljna struktura smještena uz obalu Australije?",
+        "correct_answer": "Veliki koraljni greben",
+        "incorrect_answers": [
+            "Koraljni trokut",
+            "Koraljno more",
+            "Veliki pacifički greben"
+        ],
+        "explanation": "Veliki koraljni greben je najveći sustav koraljnih grebena na svijetu, proteže se duž obale Queenslanda u Australiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna točka gdje se susreću tri države?",
+        "correct_answer": "Tromeđa",
+        "incorrect_answers": [
+            "Granica",
+            "Enklava",
+            "Eksklava"
+        ],
+        "explanation": "Tromeđa je geografska točka na kojoj se susreću teritorijalne granice triju različitih država ili administrativnih jedinica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koji je najveći endoreični bazen (bez otjecanja u more) na svijetu, smješten u Aziji?",
+        "correct_answer": "Kaspijsko jezero",
+        "incorrect_answers": [
+            "Aralsko jezero",
+            "Bajkalsko jezero",
+            "Veliko slano jezero"
+        ],
+        "explanation": "Kaspijsko jezero je najveće endoreično jezero na svijetu, klasificirano kao jezero, ali posjeduje mnoga obilježja mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Kako se naziva iznenadna, snažna rotirajuća oluja s vertikalnom osi, karakteristična za središnji dio SAD-a?",
+        "correct_answer": "Tornado",
+        "incorrect_answers": [
+            "Uragan",
+            "Tajfun",
+            "Ciklon"
+        ],
+        "explanation": "Tornado je nasilna, rotirajuća kolona zraka koja se proteže od olujnog oblaka do Zemljine površine, poznata po razornoj snazi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Tadž Mahal, monumentalna grobnica od bijelog mramora?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Pakistan",
+            "Bangladeš",
+            "Iran"
+        ],
+        "explanation": "Tadž Mahal, UNESCO-va svjetska baština i jedno od sedam novih svjetskih čuda, smješten je u gradu Agri u Indiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_geo_2014",
+        "category": "geografija",
+        "question": "Koja je klimatska zona poznata po izrazitim kišnim i sušnim razdobljima, karakteristična za dijelove Afrike i Južne Amerike?",
+        "correct_answer": "Savana (tropska savanska klima)",
+        "incorrect_answers": [
+            "Pustinja",
+            "Ekvatorijalna klima",
+            "Mediteranska klima"
+        ],
+        "explanation": "Savanska klima ima izražena kišna i sušna razdoblja, s visokim temperaturama tijekom cijele godine i prevladavajućim travnatim ekosustavom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
     }
 ]
