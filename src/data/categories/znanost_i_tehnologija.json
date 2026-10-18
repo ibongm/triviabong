@@ -30445,5 +30445,500 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji plin je odgovoran za efekt staklenika i globalno zatopljenje?",
+        "correct_answer": "Ugljikov dioksid (CO2)",
+        "incorrect_answers": [
+            "Kisik (O2)",
+            "Dušik (N2)",
+            "Vodik (H2)"
+        ],
+        "explanation": "Ugljikov dioksid je glavni staklenički plin koji apsorbira toplinu i doprinosi globalnom zatopljenju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke proizvode hranu koristeći sunčevu svjetlost?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Transpiracija",
+            "Fermentacija"
+        ],
+        "explanation": "Fotosinteza je biokemijski proces u kojem biljke pretvaraju svjetlosnu energiju u kemijsku, proizvodeći glukozu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja je najpoznatija formula Alberta Einsteina koja povezuje masu i energiju?",
+        "correct_answer": "E=mc²",
+        "incorrect_answers": [
+            "F=ma",
+            "PV=nRT",
+            "H₂O"
+        ],
+        "explanation": "Formula E=mc² izražava ekvivalenciju mase i energije, temeljnu postavku specijalne teorije relativnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za bežični prijenos podataka na kratkim udaljenostima, npr. za slušalice?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "NFC"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja se često koristi za povezivanje mobilnih uređaja i periferije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji je izumitelj patentirao prvu uspješnu žarulju s dugim vijekom trajanja?",
+        "correct_answer": "Thomas Edison",
+        "incorrect_answers": [
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "George Westinghouse"
+        ],
+        "explanation": "Thomas Edison je 1879. patentirao žarulju sa žarnom niti koja je imala praktičnu primjenu i dug vijek trajanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji je naziv za silu koja drži nebeska tijela (planete, zvijezde, galaksije) zajedno?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Elektromagnetizam",
+            "Centrifugalna sila",
+            "Magnetska sila"
+        ],
+        "explanation": "Gravitacija je temeljna prirodna sila koja privlači tijela s masom, odgovorna za kretanje planeta i strukturu svemira.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je funkcija crvenih krvnih zrnaca u ljudskom tijelu?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Proizvodnja antitijela"
+        ],
+        "explanation": "Crvena krvna zrnca sadrže hemoglobin koji veže kisik u plućima i prenosi ga do svih tkiva u tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji dio računala izvršava instrukcije programa i provodi aritmetičke i logičke operacije?",
+        "correct_answer": "CPU (Centralna procesorska jedinica)",
+        "incorrect_answers": [
+            "RAM (Radna memorija)",
+            "GPU (Grafička procesorska jedinica)",
+            "SSD (Solid-state pogon)"
+        ],
+        "explanation": "CPU je 'mozak' računala, odgovoran za izvršavanje većine instrukcija unutar operativnog sustava i aplikacija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji element periodnog sustava ima atomski broj 6 i ključan je za organsku kemiju?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljik (C) ima atomski broj 6 i sposobnost stvaranja stabilnih veza s mnogim atomima, što ga čini osnovom organskih spojeva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se voda pretvara iz tekućeg u plinovito stanje?",
+        "correct_answer": "Isparavanje (Vaporizacija)",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Talište"
+        ],
+        "explanation": "Isparavanje je fizikalni proces pri kojem se molekule s površine tekućine odvajaju i prelaze u plinovito stanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Tko je razvio prvu teoriju o prirodnom odabiru kao mehanizmu evolucije?",
+        "correct_answer": "Charles Darwin",
+        "incorrect_answers": [
+            "Gregor Mendel",
+            "Louis Pasteur",
+            "Alfred Russel Wallace"
+        ],
+        "explanation": "Charles Darwin je u svojoj knjizi 'O porijeklu vrsta' predstavio teoriju evolucije putem prirodnog odabira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je temeljna jedinica električnog naboja?",
+        "correct_answer": "Coulomb",
+        "incorrect_answers": [
+            "Amper",
+            "Volt",
+            "Ohm"
+        ],
+        "explanation": "Coulomb (C) je SI jedinica za električni naboj, definirana kao količina naboja koju prenese struja od jednog ampera u jednoj sekundi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je proces kojim se svjetlost razlaže na svoje sastavne boje kada prolazi kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Difrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Disperzija je pojava razdvajanja svjetlosti na spektar zbog ovisnosti indeksa loma o valnoj duljini (boji).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija endoplazmatskog retikuluma (ER) u stanici?",
+        "correct_answer": "Sinteza proteina i lipida",
+        "incorrect_answers": [
+            "Pohrana vode",
+            "Regulacija staničnog ciklusa",
+            "Fotosinteza"
+        ],
+        "explanation": "Endoplazmatski retikulum je mreža membrana odgovorna za sintezu i transport proteina (grubi ER) te lipida i detoksikaciju (glatki ER).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model koji opisuje vjerojatnost pronalaska elektrona u određenom području oko atomske jezgre?",
+        "correct_answer": "Atomska orbitala",
+        "incorrect_answers": [
+            "Elektronska ljuska",
+            "Kvantni broj",
+            "Valentni elektron"
+        ],
+        "explanation": "Atomska orbitala je regija prostora oko jezgre atoma gdje je vjerojatnost pronalaska elektrona najveća, definirana kvantnim brojevima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je primarna uloga rutera u računalnoj mreži?",
+        "correct_answer": "Prosljeđivanje paketa podataka između mreža",
+        "incorrect_answers": [
+            "Pohrana podataka",
+            "Povezivanje uređaja unutar jedne mreže",
+            "Pretvaranje analognog signala u digitalni"
+        ],
+        "explanation": "Ruter usmjerava podatkovne pakete između različitih mreža, koristeći IP adrese za određivanje najbolje putanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva otpor materijala prolasku električne struje?",
+        "correct_answer": "Električni otpor",
+        "incorrect_answers": [
+            "Vodljivost",
+            "Snaga",
+            "Napon"
+        ],
+        "explanation": "Električni otpor je svojstvo materijala koje se suprotstavlja toku električne struje, mjeri se u omima (Ω).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje svjetline zvijezde kako je vidimo sa Zemlje?",
+        "correct_answer": "Prividna magnituda",
+        "incorrect_answers": [
+            "Apsolutna magnituda",
+            "Luminoznost",
+            "Spektralna klasa"
+        ],
+        "explanation": "Prividna magnituda je mjera sjaja zvijezde ili drugog nebeskog tijela kako se opaža sa Zemlje, bez obzira na udaljenost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji se tip zvijezde formira nakon što masivna zvijezda potroši svoje nuklearno gorivo i uruši se pod vlastitom gravitacijom?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Smeđi patuljak",
+            "Neutronska zvijezda"
+        ],
+        "explanation": "Crna rupa je objekt s iznimno jakim gravitacijskim poljem iz kojeg ništa, pa čak ni svjetlost, ne može pobjeći, nastao iz masivne zvijezde.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva znanstvena disciplina koja proučava odnos živih organizama i njihove okoline?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Botanika",
+            "Zoologija",
+            "Fiziologija"
+        ],
+        "explanation": "Ekologija je grana biologije koja istražuje interakcije organizama međusobno te njihove interakcije s abiotičkim čimbenicima okoliša.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja je tehnika koja koristi ultrazvučne valove za vizualizaciju unutarnjih organa tijela?",
+        "correct_answer": "Sonografija (Ultrazvuk)",
+        "incorrect_answers": [
+            "Rendgen",
+            "Magnetska rezonanca (MRI)",
+            "CT skeniranje"
+        ],
+        "explanation": "Sonografija, ili ultrazvuk, medicinska je dijagnostička tehnika koja koristi visokofrekventne zvučne valove za stvaranje slika unutrašnjosti tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji se pojam u informatici odnosi na program koji se replicira unutar računala i širi se na druga računala, često bez korisnikovog znanja?",
+        "correct_answer": "Računalni virus",
+        "incorrect_answers": [
+            "Firewall",
+            "Antivirus",
+            "Operativni sustav"
+        ],
+        "explanation": "Računalni virus je zlonamjerni program koji se veže na druge programe i replicira se, šireći se na druge sustave.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija Goldgijevog aparata u stanici?",
+        "correct_answer": "Modifikacija, sortiranje i pakiranje proteina i lipida",
+        "incorrect_answers": [
+            "Proizvodnja energije",
+            "Pohrana genetskog materijala",
+            "Stanično disanje"
+        ],
+        "explanation": "Goldgijev aparat služi kao centar za obradu i pakiranje molekula, posebno proteina i lipida, namijenjenih za izlučivanje ili transport u druge organele.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Što je kvazar?",
+        "correct_answer": "Izrazito sjajno i udaljeno galaktičko jezgro",
+        "incorrect_answers": [
+            "Vrsta supernove",
+            "Planet izvan našeg Sunčevog sustava",
+            "Vrsta kozmičkog zračenja"
+        ],
+        "explanation": "Kvazar (kvazi-stelarni radioizvor) je vrlo kompaktna i izuzetno luminozna regija u centru udaljenih galaksija, pokretana supermasivnom crnom rupom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je primarni uzrok plime i oseke na Zemlji?",
+        "correct_answer": "Gravitacijska sila Mjeseca",
+        "incorrect_answers": [
+            "Zemljina rotacija",
+            "Gravitacijska sila Sunca",
+            "Vjetrovi na oceanima"
+        ],
+        "explanation": "Gravitacijska sila Mjeseca stvara plimne valove koji uzrokuju promjene razine mora, a Sunce također utječe, ali u manjoj mjeri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se atomske jezgre bombardiraju neutronima kako bi se stvorili teži elementi?",
+        "correct_answer": "Nuklearna transmutacija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Nuklearna fuzija",
+            "Radioaktivni raspad"
+        ],
+        "explanation": "Nuklearna transmutacija je proces pretvorbe jednog kemijskog elementa u drugi promjenom broja protona u jezgri atoma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja vrsta poluvodiča nastaje dopiranjem silicija s atomima peterovalentnog elementa, npr. fosfora?",
+        "correct_answer": "N-tip poluvodiča",
+        "incorrect_answers": [
+            "P-tip poluvodiča",
+            "Intrinzični poluvodič",
+            "Izolator"
+        ],
+        "explanation": "Dopiranje silicija elementom s pet valentnih elektrona (npr. fosforom) stvara višak slobodnih elektrona, što rezultira N-tip poluvodičem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen superpozicije i isprepletenosti (entanglement) čestica koji se koristi u kvantnom računalstvu?",
+        "correct_answer": "Kvantna isprepletenost",
+        "incorrect_answers": [
+            "Heisenbergov princip",
+            "Kvantna mehanika",
+            "Kvantna dekoherencija"
+        ],
+        "explanation": "Kvantna isprepletenost je pojava u kojoj se stanje dviju ili više čestica ne može opisati neovisno jedna o drugoj, čak i kad su prostorno odvojene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koja je temeljna sila odgovorna za držanje atomskih jezgri zajedno?",
+        "correct_answer": "Jaka nuklearna sila",
+        "incorrect_answers": [
+            "Slaba nuklearna sila",
+            "Elektromagnetska sila",
+            "Gravitacijska sila"
+        ],
+        "explanation": "Jaka nuklearna sila je najjača od četiri temeljne sile i djeluje na vrlo kratkim udaljenostima, držeći protone i neutrone u jezgri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Kako se naziva geološki period u kojem su dominirali dinosauri?",
+        "correct_answer": "Mezozoik",
+        "incorrect_answers": [
+            "Kenozoik",
+            "Paleozoik",
+            "Prekambrij"
+        ],
+        "explanation": "Mezozoik, poznat i kao Doba dinosaura, trajao je otprilike od prije 252 do 66 milijuna godina i uključuje trijas, juru i kredu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za stvaranje trodimenzionalnih slika predmeta pomoću laserskih zraka?",
+        "correct_answer": "Holografija",
+        "incorrect_answers": [
+            "Fotogrametrija",
+            "Stereoskopija",
+            "Litografija"
+        ],
+        "explanation": "Holografija je metoda za snimanje i reprodukciju trodimenzionalnog objekta korištenjem interferencije laserskih zraka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje otpora materijala prema vanjskoj sili koja ga pokušava razvući ili rastegnuti?",
+        "correct_answer": "Vlačna čvrstoća",
+        "incorrect_answers": [
+            "Tlačna čvrstoća",
+            "Tvrdoća",
+            "Žilavost"
+        ],
+        "explanation": "Vlačna čvrstoća je maksimalno naprezanje koje materijal može izdržati dok se rasteže prije nego što se lomi ili trajno deformira.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model koji opisuje kako se magnetsko polje inducira promjenom električnog polja, i obrnuto?",
+        "correct_answer": "Maxwellove jednadžbe",
+        "incorrect_answers": [
+            "Newtonovi zakoni gibanja",
+            "Ohmov zakon",
+            "Einsteinove jednadžbe polja"
+        ],
+        "explanation": "Maxwellove jednadžbe su skup od četiri parcijalne diferencijalne jednadžbe koje opisuju ponašanje električnih i magnetskih polja te njihovu interakciju s materijom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
