@@ -30445,5 +30445,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je planet Sunčevog sustava poznat po svojim prstenovima sastavljenim uglavnom od leda i stijena?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Mars",
+            "Uran"
+        ],
+        "explanation": "Saturn je plinoviti div, drugi najveći planet u našem sustavu, prepoznatljiv po svojim širokim i kompleksnim sustavima prstenova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva globalna mreža računala koja omogućava razmjenu informacija i komunikaciju?",
+        "correct_answer": "Internet",
+        "incorrect_answers": [
+            "Intranet",
+            "Ekstranet",
+            "Local Area Network"
+        ],
+        "explanation": "Internet je globalni sustav međusobno povezanih računalnih mreža koji koristi standardizirane protokole za komunikaciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje električnog otpora?",
+        "correct_answer": "Om (Ohm)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ],
+        "explanation": "Om (Ω) je izvedena SI jedinica električnog otpora, a nazvana je po njemačkom fizičaru Georgu Simonu Ohmu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je organ odgovoran za filtriranje krvi i proizvodnju urina kod ljudi?",
+        "correct_answer": "Bubreg",
+        "incorrect_answers": [
+            "Jetra",
+            "Srce",
+            "Pluća"
+        ],
+        "explanation": "Bubrezi su vitalni organi koji održavaju ravnotežu tekućina i elektrolita u tijelu, filtriraju otpadne tvari iz krvi i stvaraju urin.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koja se vrsta zvijezde nalazi u središtu našeg Sunčevog sustava?",
+        "correct_answer": "Žuti patuljak",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Crveni div",
+            "Neutronka"
+        ],
+        "explanation": "Sunce je zvijezda spektralnog tipa G2V, poznata kao žuti patuljak, koja trenutno fuzijom vodika u helij proizvodi energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Što je CPU u računalu?",
+        "correct_answer": "Centralna procesorska jedinica",
+        "incorrect_answers": [
+            "Centralna programska jedinica",
+            "Kompaktna procesorska jedinica",
+            "Kontrolna periferna jedinica"
+        ],
+        "explanation": "CPU (Central Processing Unit) je 'mozak' računala, odgovoran za izvršavanje instrukcija i obradu podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Kako se naziva kvantna čestica bez mase i električnog naboja, koja je nusprodukt radioaktivnog beta-raspada?",
+        "correct_answer": "Neutrino",
+        "incorrect_answers": [
+            "Elektron",
+            "Proton",
+            "Neutron"
+        ],
+        "explanation": "Neutrini su subatomske čestice koje vrlo slabo interagiraju s materijom, što ih čini teškima za detekciju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji dio biljke upija vodu i hranjive tvari iz tla?",
+        "correct_answer": "Korijen",
+        "incorrect_answers": [
+            "Stabljika",
+            "List",
+            "Cvijet"
+        ],
+        "explanation": "Korijenov sustav sidri biljku u tlu i primarno je odgovoran za apsorpciju vode i mineralnih soli.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja je svrha protokola HTTP?",
+        "correct_answer": "Prijenos hiperteksta",
+        "incorrect_answers": [
+            "Prijenos datoteka",
+            "Prijenos elektroničke pošte",
+            "Siguran prijenos podataka"
+        ],
+        "explanation": "HTTP (Hypertext Transfer Protocol) je protokol za prijenos web stranica i drugih resursa preko interneta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem atom gubi ili prima elektrone, postajući ion?",
+        "correct_answer": "Ionizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Oksidacija",
+            "Redukcija"
+        ],
+        "explanation": "Ionizacija je proces stvaranja iona, atoma ili molekula s neto električnim nabojem, putem dobivanja ili gubitka elektrona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja fizikalna veličina mjeri količinu sile po jedinici površine?",
+        "correct_answer": "Tlak",
+        "incorrect_answers": [
+            "Snaga",
+            "Energija",
+            "Volumen"
+        ],
+        "explanation": "Tlak (p) je definiran kao sila (F) primijenjena okomito na površinu (A), podijeljena s veličinom te površine (p = F/A).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je naziv za proces kojim biljke transpiriraju vodu iz svojih listova u atmosferu?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Disanje",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je ispuštanje vodene pare iz biljaka, uglavnom kroz puči na listovima, što pomaže u transportu vode i hranjivih tvari.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji tip memorije zadržava podatke samo dok je računalo uključeno (nestalna memorija)?",
+        "correct_answer": "RAM",
+        "incorrect_answers": [
+            "ROM",
+            "SSD",
+            "HDD"
+        ],
+        "explanation": "RAM (Random Access Memory) je vrsta računalne memorije koja omogućuje pisanje i čitanje podataka, ali gubi sadržaj kada se isključi napajanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji je element središnji atom u svim organskim spojevima?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Vodik",
+            "Dušik"
+        ],
+        "explanation": "Ugljik ima jedinstvenu sposobnost stvaranja stabilnih veza s drugim atomima ugljika i mnogim drugim elementima, tvoreći složene molekule.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja se pojava događa kada se valovi susretnu i međusobno se pojačaju ili ponište?",
+        "correct_answer": "Interferencija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Refleksija",
+            "Refrakcija"
+        ],
+        "explanation": "Interferencija je pojava međudjelovanja dvaju ili više valova, rezultirajući stvaranjem novog valnog uzorka s pojačanom ili smanjenom amplitudom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je svrha ribosoma u stanici?",
+        "correct_answer": "Sinteza proteina",
+        "incorrect_answers": [
+            "Proizvodnja energije",
+            "Pohrana genetskog materijala",
+            "Razgradnja otpada"
+        ],
+        "explanation": "Ribosomi su stanične organele odgovorne za prevođenje genetskih informacija iz mRNA u proteinske sekvence.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za bežični prijenos podataka na kratke udaljenosti, često za povezivanje slušalica ili miševa?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "GPS"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje povezivanje i razmjenu podataka između uređaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji se proces naziva kruženjem vode u prirodi?",
+        "correct_answer": "Hidrološki ciklus",
+        "incorrect_answers": [
+            "Ugljikov ciklus",
+            "Dušikov ciklus",
+            "Kisikov ciklus"
+        ],
+        "explanation": "Hidrološki ciklus opisuje kontinuirano kretanje vode iznad i ispod površine Zemlje, uključujući isparavanje, kondenzaciju i oborine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji fenomen objašnjava zašto se magnetni polovi Zemlje mijenjaju tijekom geoloških razdoblja?",
+        "correct_answer": "Geodinamo efekt",
+        "incorrect_answers": [
+            "Tektonika ploča",
+            "Koriolisova sila",
+            "Magnetska rezonancija"
+        ],
+        "explanation": "Geodinamo efekt je teorija koja objašnjava stvaranje Zemljinog magnetskog polja konvekcijskim strujanjem rastaljenog željeza u vanjskoj jezgri.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcija vatrozida (firewalla) u računalnoj mreži?",
+        "correct_answer": "Nadzor i filtriranje mrežnog prometa",
+        "incorrect_answers": [
+            "Pojačavanje internetskog signala",
+            "Ubrzavanje rada računala",
+            "Pohrana podataka"
+        ],
+        "explanation": "Vatrozid je sigurnosni sustav koji nadzire i kontrolira dolazni i odlazni mrežni promet na temelju unaprijed postavljenih sigurnosnih pravila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim se biljke prilagođavaju sušnim uvjetima smanjenjem gubitka vode?",
+        "correct_answer": "Kseromorfija",
+        "incorrect_answers": [
+            "Hidrofilija",
+            "Tropizam",
+            "Fototropizam"
+        ],
+        "explanation": "Kseromorfija je skup morfoloških i fizioloških prilagodbi biljaka životu u suhim okruženjima, s ciljem smanjenja transpiracije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja kemijska veza nastaje privlačenjem pozitivnih i negativnih iona?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje kada atom u potpunosti preda jedan ili više elektrona drugom atomu, stvarajući ione koji se privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji je naziv za granicu oko crne rupe unutar koje ništa, čak ni svjetlost, ne može pobjeći?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Akrecijski disk",
+            "Ergorezon"
+        ],
+        "explanation": "Horizont događaja je jednosmjerna membrana oko crne rupe; informacije i materija mogu proći unutra, ali ne mogu van.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je primarni programski jezik za razvoj aplikacija za Android operativni sustav?",
+        "correct_answer": "Java",
+        "incorrect_answers": [
+            "Python",
+            "C++",
+            "Swift"
+        ],
+        "explanation": "Java je tradicionalno bio glavni programski jezik za razvoj Android aplikacija, iako je Kotlin postao preferirani izbor.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja se fizikalna veličina mjeri u Jouleima (J)?",
+        "correct_answer": "Energija",
+        "incorrect_answers": [
+            "Snaga",
+            "Sila",
+            "Tlak"
+        ],
+        "explanation": "Joule je SI izvedena jedinica za energiju i rad, nazvana po engleskom fizičaru Jamesu Prescottu Jouleu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koja je uloga leukocita u ljudskom tijelu?",
+        "correct_answer": "Obrana od infekcija",
+        "incorrect_answers": [
+            "Prijenos kisika",
+            "Zgrušavanje krvi",
+            "Regulacija šećera u krvi"
+        ],
+        "explanation": "Leukociti, ili bijele krvne stanice, ključni su dio imunološkog sustava i bore se protiv patogena i stranih tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji kemijski pojam opisuje sposobnost atoma da privlači elektrone u kovalentnoj vezi?",
+        "correct_answer": "Elektronegativnost",
+        "incorrect_answers": [
+            "Ionizacijska energija",
+            "Afinitet prema elektronu",
+            "Redukcijski potencijal"
+        ],
+        "explanation": "Elektronegativnost je mjera tendencije atoma da privlači par veznih elektrona kada je kemijski vezan za drugi atom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva uređaj koji pretvara analogni signal u digitalni signal i obrnuto, omogućujući komunikaciju preko telefonskih linija?",
+        "correct_answer": "Modem",
+        "incorrect_answers": [
+            "Router",
+            "Switch",
+            "Repeater"
+        ],
+        "explanation": "Modem (modulator-demodulator) pretvara podatke iz digitalnog formata u analogni za prijenos i obrnuto, i obratno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji je planet najpoznatiji po svojoj velikoj crvenoj pjegi, divovskoj oluji?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Saturn",
+            "Neptun",
+            "Uran"
+        ],
+        "explanation": "Jupiterova Velika crvena pjega je masivna, dugotrajna anticiklonska oluja, veća od Zemlje, koja traje stoljećima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji se proces naziva 'programiranom staničnom smrću', ključnim za razvoj i homeostazu organizma?",
+        "correct_answer": "Apoptoza",
+        "incorrect_answers": [
+            "Nekroza",
+            "Mitoza",
+            "Mejoza"
+        ],
+        "explanation": "Apoptoza je genetski kontrolirani proces stanične smrti koji uklanja nepotrebne ili oštećene stanice bez izazivanja upale.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Što je 'polimorfizam' u kontekstu objektno orijentiranog programiranja?",
+        "correct_answer": "Sposobnost objekata različitih klasa da odgovore na isti poziv metode na različite načine",
+        "incorrect_answers": [
+            "Sposobnost klase da nasljeđuje svojstva druge klase",
+            "Skrivanje detalja implementacije od korisnika",
+            "Grupiranje podataka i funkcija u jednu jedinicu"
+        ],
+        "explanation": "Polimorfizam omogućuje da se objektima različitih klasa pristupa preko zajedničkog sučelja, čime se postiže fleksibilniji i proširiviji kod.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja tvar u crvenim krvnim zrncima prenosi kisik?",
+        "correct_answer": "Hemoglobin",
+        "incorrect_answers": [
+            "Mioglobin",
+            "Kolagen",
+            "Keratin"
+        ],
+        "explanation": "Hemoglobin je protein bogat željezom u eritrocitima koji veže kisik u plućima i otpušta ga u tkivima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja je osnovna funkcija 3D pisača?",
+        "correct_answer": "Izrada trodimenzionalnih predmeta dodavanjem slojeva materijala",
+        "incorrect_answers": [
+            "Skeniranje trodimenzionalnih objekata",
+            "Stvaranje digitalnih 3D modela",
+            "Rezanje materijala u 3D oblike"
+        ],
+        "explanation": "3D pisači grade fizičke objekte iz digitalnog 3D modela taloženjem materijala sloj po sloj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva proces kojim se genetska informacija iz DNA prepisuje u mRNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se segment DNA kopira u molekulu RNA.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koja se pojava događa kada zvijezda iscrpi nuklearno gorivo i kolabira pod vlastitom gravitacijom u iznimno gustu neutronsku zvijezdu?",
+        "correct_answer": "Supernova (Tip II)",
+        "incorrect_answers": [
+            "Nova",
+            "Bijeli patuljak",
+            "Crna rupa"
+        ],
+        "explanation": "Supernova tipa II je eksplozija masivne zvijezde nakon što joj jezgra kolabira, često ostavljajući neutronsku zvijezdu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
