@@ -32151,5 +32151,560 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "U kojoj zemlji je nastao moderni nogomet, kakvog danas poznajemo?",
+        "correct_answer": "Engleska",
+        "incorrect_answers": [
+            "Brazil",
+            "Italija",
+            "Španjolska"
+        ],
+        "explanation": "Moderni nogomet, s pravilima kodificiranim u sredinom 19. stoljeća, razvijen je u Engleskoj, gdje su se počeli organizirati prvi nogometni klubovi i lige.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Kako se naziva udarac u nogometu koji izravno prelazi preko gol-linije, ali ne ulazi u gol?",
+        "correct_answer": "Gol-aut",
+        "incorrect_answers": [
+            "Korner",
+            "Slobodan udarac",
+            "Prekršaj"
+        ],
+        "explanation": "Gol-aut je način nastavljanja igre kada lopta prijeđe preko gol-linije, a posljednji ju je dirao igrač napadačke momčadi, dodjeljuje se obrambenoj momčadi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koliko igrača, uključujući golmana, čini jednu momčad na terenu u nogometu?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Svaka nogometna momčad započinje utakmicu s jedanaest igrača, od kojih je jedan golman, što je standardno pravilo u nogometu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koja je zemlja osvojila najviše FIFA Svjetskih prvenstava u nogometu (stanje 2024.)?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Njemačka",
+            "Italija",
+            "Argentina"
+        ],
+        "explanation": "Brazil je najuspješnija nacija u povijesti Svjetskih prvenstava, s pet osvojenih naslova prvaka (1958., 1962., 1970., 1994., 2002.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Kako se naziva plivački stil u kojem plivač leži na leđima i naizmjenično zamahuje rukama i nogama?",
+        "correct_answer": "Leđno",
+        "incorrect_answers": [
+            "Kraul",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "Leđni stil je jedini plivački stil u kojem plivač cijelo vrijeme leži na leđima, što omogućuje lakše disanje i pregled okoline.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno za pobjedu u setu u odbojci, uz minimalnu razliku od dva boda?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "21",
+            "15",
+            "30"
+        ],
+        "explanation": "Standardni set u odbojci igra se do 25 bodova, s uvjetom da momčad mora imati barem dva boda prednosti nad protivnikom za pobjedu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kako se naziva atletičarska disciplina u kojoj se natjecatelji natječu u bacanju teškog diska?",
+        "correct_answer": "Bacanje diska",
+        "incorrect_answers": [
+            "Bacanje koplja",
+            "Bacanje kugle",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Bacanje diska je atletska bacačka disciplina u kojoj se sportaš okreće u krugu i baca disk s ciljem postizanja što veće udaljenosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "U kojem sportu se koristi reket, a loptica se prebacuje preko mreže?",
+        "correct_answer": "Tenis",
+        "incorrect_answers": [
+            "Stolni tenis",
+            "Badminton",
+            "Squash"
+        ],
+        "explanation": "Tenis je sport s reketom gdje dva igrača ili dva para udaraju lopticu preko mreže na suprotne strane terena, a cilj je osvojiti poene udarcima u protivnikov dio terena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koji se grad tradicionalno smatra rodnim mjestom Olimpijskih igara?",
+        "correct_answer": "Olimpija",
+        "incorrect_answers": [
+            "Atena",
+            "Sparta",
+            "Korint"
+        ],
+        "explanation": "AntiÄke Olimpijske igre, preteča modernih igara, nastale su u Olimpiji u Grčkoj i održavale su se svake četiri godine u čast boga Zeusa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra na ledu, s palicom i pakom?",
+        "correct_answer": "Hokej na ledu",
+        "incorrect_answers": [
+            "Curling",
+            "Brzo klizanje",
+            "Umjetničko klizanje"
+        ],
+        "explanation": "Hokej na ledu je brza i dinamična kontaktna sportska igra koja se igra na zaleđenoj površini, a cilj je zabiti pak u protivnički gol koristeći palice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Kako se naziva rezultat u tenisu kada je rezultat u gemu 0-0?",
+        "correct_answer": "Love",
+        "incorrect_answers": [
+            "Zero",
+            "Nil",
+            "None"
+        ],
+        "explanation": "U tenisu se 'love' koristi kao izraz za nula bodova, a pretpostavlja se da potječe od francuske riječi 'l'oeuf' (jaje) zbog oblika nule.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koja je jedina država koja je sudjelovala na svim izdanjima Zimskih olimpijskih igara (stanje 2024.)?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Norveška",
+            "Kanada",
+            "Švedska"
+        ],
+        "explanation": "SAD su jedina nacija koja je sudjelovala na svim Zimskim olimpijskim igrama od njihovog osnutka 1924. godine u Chamonixu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koji je najpoznatiji i najprestižniji biciklistički događaj na svijetu?",
+        "correct_answer": "Tour de France",
+        "incorrect_answers": [
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Pariz-Roubaix"
+        ],
+        "explanation": "Tour de France je najpoznatija i najprestižnija višednevna biciklistička utrka na svijetu, koja se tradicionalno održava u Francuskoj svakog ljeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Kako se naziva udarac u odbojci kojim se servira lopta iznad glave s vrha mreže?",
+        "correct_answer": "Smeč",
+        "incorrect_answers": [
+            "Blok",
+            "Čekić",
+            "Dizanje"
+        ],
+        "explanation": "Smeč je snažan udarac u odbojci kojim se lopta udarcem iz zraka pokušava poslati preko mreže u protivničko polje, čime se želi osvojiti poen.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koji je sportski izraz za iznenadnu ozljedu mišića, često praćenu oštrim bolom?",
+        "correct_answer": "Istezanje",
+        "incorrect_answers": [
+            "Prijelom",
+            "Uganuće",
+            "Modrica"
+        ],
+        "explanation": "Istezanje mišića (lat. distensio) je česta sportska ozljeda koja nastaje pretjeranim istezanjem mišićnih vlakana, što dovodi do oštre boli i ograničenja pokreta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Tko je najpoznatiji hrvatski skijaš, dvostruki osvajač Svjetskog kupa i olimpijski pobjednik?",
+        "correct_answer": "Ivica Kostelić",
+        "incorrect_answers": [
+            "Janica Kostelić",
+            "Natko Zrnčić-Dim",
+            "Filip Zubčić"
+        ],
+        "explanation": "Ivica Kostelić je jedan od najuspješnijih hrvatskih skijaša u povijesti, poznat po osvajanju Velikog kristalnog globusa u sezoni 2010./2011.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koliko je zlatnih medalja osvojila Janica Kostelić na Zimskim olimpijskim igrama?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "3",
+            "5",
+            "6"
+        ],
+        "explanation": "Janica Kostelić je osvojila impresivne četiri zlatne medalje na Zimskim olimpijskim igrama, tri u Salt Lake Cityju 2002. i jednu u Torinu 2006. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koja je zemlja bila domaćin prvih modernih Olimpijskih igara 1896. godine?",
+        "correct_answer": "Grčka",
+        "incorrect_answers": [
+            "Francuska",
+            "Ujedinjeno Kraljevstvo",
+            "Sjedinjene Američke Države"
+        ],
+        "explanation": "Prve moderne Olimpijske igre održane su u Ateni, glavnom gradu Grčke, 1896. godine, čime je oživljena drevna tradicija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "U kojem sportu se koristi 'strike' i 'spare' izrazi?",
+        "correct_answer": "Kuglanje",
+        "incorrect_answers": [
+            "Golf",
+            "Baseball",
+            "Boćanje"
+        ],
+        "explanation": "U kuglanju, 'strike' se postiže kada se sruše svi čunjevi prvim bacanjem, dok 'spare' označava rušenje svih čunjeva s dva bacanja u jednom framu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Kako se naziva sustav bodovanja u boksu gdje suci dodjeljuju bodove na temelju udaraca i kontrole meča?",
+        "correct_answer": "Bodovanje po rundama",
+        "incorrect_answers": [
+            "Nokaut sustav",
+            "Tehnički bodovi",
+            "Kombinacijsko bodovanje"
+        ],
+        "explanation": "U boksu suci ocjenjuju svaku rundu dodjeljujući bodove borcima na temelju čišćih udaraca, agresivnosti, učinkovitosti i obrane, obično po sustavu 10-9.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Tko je prvi čovjek koji je istrčao maraton za manje od 2 sata (stanje 2024.)?",
+        "correct_answer": "Eliud Kipchoge",
+        "incorrect_answers": [
+            "Haile Gebrselassie",
+            "Kenenisa Bekele",
+            "Usain Bolt"
+        ],
+        "explanation": "Kenijski atletičar Eliud Kipchoge je 2019. godine u Beču postao prvi čovjek koji je maraton istrčao za manje od dva sata (1:59:40.2), iako taj rezultat nije službeno priznat kao svjetski rekord.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometaš bio kapetan reprezentacije koja je osvojila srebrnu medalju na Svjetskom prvenstvu 2018. godine?",
+        "correct_answer": "Luka Modrić",
+        "incorrect_answers": [
+            "Ivan Rakitić",
+            "Mario Mandžukić",
+            "Darijo Srna"
+        ],
+        "explanation": "Luka Modrić je predvodio hrvatsku nogometnu reprezentaciju do povijesnog srebra na Svjetskom prvenstvu u Rusiji 2018. godine, a pritom je osvojio i Zlatnu loptu turnira.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko je puta Dinamo Zagreb osvojio naslov prvaka Jugoslavije u nogometu?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "3",
+            "5",
+            "6"
+        ],
+        "explanation": "GNK Dinamo Zagreb, pod bivšim imenom Dinamo, osvojio je četiri naslova prvaka Jugoslavije: 1948., 1954., 1958. i 1982. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "U kojem se sportu koristi 'par' kao mjera za očekivani broj udaraca po rupi?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Kuglanje",
+            "Bejzbol",
+            "Kriket"
+        ],
+        "explanation": "Par u golfu predstavlja broj udaraca za koji se očekuje da će profesionalni golferi trebati kako bi lopticu ubacili u rupu, ovisno o njezinoj duljini i težini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Kako se naziva udarac u odbojci kada igrač skoči i snažno udari loptu preko mreže u protivničko polje?",
+        "correct_answer": "Smeč",
+        "incorrect_answers": [
+            "Blok",
+            "Servis",
+            "Dizanje"
+        ],
+        "explanation": "Smeč je agresivni udarac u odbojci, često izveden skokom i udarcem s visine, s ciljem da se loptu teško obrani i tako osvoji poen.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Koji je sport poznat po 'trostrukoj kruni' koja uključuje Kentucky Derby, Preakness Stakes i Belmont Stakes?",
+        "correct_answer": "Konjske utrke",
+        "incorrect_answers": [
+            "Motociklističke utrke",
+            "Formula 1",
+            "Biciklizam"
+        ],
+        "explanation": "Američka Trostruka kruna za čistokrvne konje odnosi se na pobjede u tri najprestižnije konjske utrke u SAD-u, koje se održavaju svake godine u svibnju i lipnju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koja je jedina zemlja koja je osvojila svjetsko prvenstvo u ragbiju 'Union' verziji, ali nikada u nogometu (stanje 2024.)?",
+        "correct_answer": "Južna Afrika",
+        "incorrect_answers": [
+            "Australija",
+            "Novi Zeland",
+            "Irska"
+        ],
+        "explanation": "Južna Afrika je četverostruki svjetski prvak u ragbiju (1995., 2007., 2019., 2023.), dok njihova nogometna reprezentacija nikada nije osvojila Svjetsko prvenstvo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Tko je jedini košarkaš u povijesti NBA lige koji je prosječno bilježio triple-double po sezoni više puta (stanje 2024.)?",
+        "correct_answer": "Russell Westbrook",
+        "incorrect_answers": [
+            "Oscar Robertson",
+            "LeBron James",
+            "Nikola Jokić"
+        ],
+        "explanation": "Russell Westbrook je jedini igrač u povijesti NBA lige koji je četiri puta prosječno bilježio triple-double u jednoj sezoni, uključujući rekordne tri uzastopne sezone.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra s 'shuttlecockom' (pernatom lopticom)?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Stolni tenis",
+            "Tenis",
+            "Squash"
+        ],
+        "explanation": "Badminton je raketni sport gdje igrači udaraju pernatom lopticom ('shuttlecock') preko mreže koristeći rekete, a cilj je da loptica padne u protivničko polje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno za pobjedu u setu u stolnom tenisu, uz minimalnu razliku od dva boda?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "21",
+            "15",
+            "10"
+        ],
+        "explanation": "U stolnom tenisu se set osvaja kada igrač ili par postigne 11 bodova, s minimalnom prednošću od dva boda nad protivnikom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koji sport se igra na velikom stolu prekrivenom zelenom tkaninom, s biljarskim kuglama i štapom?",
+        "correct_answer": "Biljar",
+        "incorrect_answers": [
+            "Snooker",
+            "Kuglanje",
+            "Pikado"
+        ],
+        "explanation": "Biljar je skupina sportova i igara koje se igraju na stolu prekrivenom zelenom tkaninom, koristeći štap za udaranje kugli.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koja je maksimalna brzina koju je postigao najbrži čovjek na svijetu, Usain Bolt, u utrci na 100 metara?",
+        "correct_answer": "Oko 44.7 km/h",
+        "incorrect_answers": [
+            "Oko 35 km/h",
+            "Oko 39 km/h",
+            "Oko 50 km/h"
+        ],
+        "explanation": "Usain Bolt je tijekom svog svjetskog rekorda na 100 metara (9.58 s) postigao prosječnu brzinu od 37.58 km/h, dok je maksimalna brzina dosegnula 44.72 km/h.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Kako se naziva sportska disciplina u kojoj se sportaši natječu u sinkroniziranom plivanju i skokovima s platforme?",
+        "correct_answer": "Sinkronizirano plivanje i skokovi u vodu",
+        "incorrect_answers": [
+            "Vodeni polo",
+            "Umjetničko plivanje",
+            "Plivanje s preponama"
+        ],
+        "explanation": "Sinkronizirano plivanje je umjetnička disciplina plivanja, dok su skokovi u vodu akrobatska disciplina, no zajedno čine dio vodenih sportova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koji je jedini sportaš bio istovremeno UFC prvak u dvije različite težinske kategorije (stanje 2024.)?",
+        "correct_answer": "Conor McGregor",
+        "incorrect_answers": [
+            "Jon Jones",
+            "Daniel Cormier",
+            "Randy Couture"
+        ],
+        "explanation": "Conor McGregor je prvi UFC borac koji je istovremeno držao naslove u dvije različite težinske kategorije (perolaka i laka kategorija) nakon UFC 205 događaja 2016. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koliko je 'perioda' u standardnoj košarkaškoj utakmici (FIBA pravila)?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Prema FIBA pravilima, standardna košarkaška utakmica podijeljena je na četiri četvrtine ili 'perioda', od kojih svaki traje 10 minuta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se igra na konju, a cilj je pogoditi lopticu štapom kroz gol?",
+        "correct_answer": "Polo",
+        "incorrect_answers": [
+            "Džokejstvo",
+            "Konjičke utrke",
+            "Dressage"
+        ],
+        "explanation": "Polo je timski sport koji se igra na konjima, gdje jahači koriste dugačke štapove ('mallets') kako bi udarili lopticu u protivnička vrata, a često se naziva 'igrom kraljeva'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koji je hrvatski nogometaš bio proglašen najboljim strijelcem Svjetskog prvenstva 1998. godine?",
+        "correct_answer": "Davor Šuker",
+        "incorrect_answers": [
+            "Robert Prosinečki",
+            "Zvonimir Boban",
+            "Alen Bokšić"
+        ],
+        "explanation": "Davor Šuker je na Svjetskom prvenstvu u Francuskoj 1998. godine osvojio Zlatnu kopačku kao najbolji strijelac turnira, postigavši šest golova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
