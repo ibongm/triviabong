@@ -30445,5 +30445,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja je jedinica mjere za električni otpor?",
+        "correct_answer": "Om (Ohm)",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Watt"
+        ],
+        "explanation": "Om je SI jedinica za električni otpor, nazvana po njemačkom fizičaru Georgu Simonu Ohmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji je znanstveni naziv za proces kojim biljke pretvaraju svjetlosnu energiju u kemijsku energiju?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Transpiracija",
+            "Fermentacija"
+        ],
+        "explanation": "Fotosinteza je vitalni proces u biljkama i nekim drugim organizmima za proizvodnju hrane koristeći svjetlost, vodu i ugljikov dioksid.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji je najčešći operativni sustav za osobna računala u svijetu (stanje 2024.)?",
+        "correct_answer": "Windows",
+        "incorrect_answers": [
+            "macOS",
+            "Linux",
+            "Android"
+        ],
+        "explanation": "Windows tvrtke Microsoft dominantan je operativni sustav na tržištu osobnih računala. (stanje 2024.)",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je kemijski element s atomskim brojem 79?",
+        "correct_answer": "Zlato",
+        "incorrect_answers": [
+            "Srebro",
+            "Platina",
+            "Živa"
+        ],
+        "explanation": "Zlato je plemeniti metal poznat po svojoj inertnosti i cijenjenosti, a njegov atomski broj je 79.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva tehnika kojom se isključuju specifični geni kako bi se proučavala njihova funkcija?",
+        "correct_answer": "Genetsko nokautiranje (Gene knockout)",
+        "incorrect_answers": [
+            "Genetsko pojačavanje",
+            "Kloniranje",
+            "Hibridizacija"
+        ],
+        "explanation": "Genetsko nokautiranje je genetička tehnika kojom se inaktivira, odnosno \"nokautira\", ekspresija specifičnog gena u organizmu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji zakon opisuje gravitacijsku privlačnost između dviju masa?",
+        "correct_answer": "Newtonov zakon univerzalne gravitacije",
+        "incorrect_answers": [
+            "Ohmsov zakon",
+            "Prvi zakon termodinamike",
+            "Hookeov zakon"
+        ],
+        "explanation": "Isaac Newton je formulirao ovaj zakon koji kaže da se svaka dva tijela privlače silom razmjernom umnošku njihovih masa, a obrnuto razmjernu kvadratu udaljenosti među njima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja kratica označava globalnu mrežu računala koja omogućuje razmjenu informacija i komunikaciju?",
+        "correct_answer": "Internet",
+        "incorrect_answers": [
+            "Intranet",
+            "Extranet",
+            "LAN"
+        ],
+        "explanation": "Internet je globalni sustav međusobno povezanih računalnih mreža koji koristi standardni skup komunikacijskih protokola (TCP/IP).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koji je naziv za negativno nabijenu česticu koja kruži oko jezgre atoma?",
+        "correct_answer": "Elektron",
+        "incorrect_answers": [
+            "Proton",
+            "Neutron",
+            "Foton"
+        ],
+        "explanation": "Elektron je subatomska čestica koja nosi elementarni negativni električni naboj i ključna je za kemijske veze.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Kako se naziva kvantni fenomen gdje čestica može biti na više mjesta ili u više stanja istovremeno dok se ne promatra?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Entanglement",
+            "Tuneliranje",
+            "Kvanta"
+        ],
+        "explanation": "Superpozicija je temeljno načelo kvantne mehanike gdje je kvantni sustav u kombinaciji svih svojih mogućih stanja istovremeno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja je osnovna građevna jedinica svih živih bića?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Molekula",
+            "Atom",
+            "Organ"
+        ],
+        "explanation": "Stanica je najmanja strukturna i funkcionalna jedinica živog organizma, sposobna za samostalni život i reprodukciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila stvaranje prve fotografije u boji?",
+        "correct_answer": "Aditivna metoda (RGB)",
+        "incorrect_answers": [
+            "Subtraktivna metoda (CMYK)",
+            "Dagerotipija",
+            "Holografija"
+        ],
+        "explanation": "Prva fotografija u boji nastala je 1861. godine korištenjem aditivne metode boja (crvena, zelena, plava) koju je predložio James Clerk Maxwell.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je pojam za silu koja se suprotstavlja gibanju i nastaje zbog dodira površina?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Potisak",
+            "Gravitacija",
+            "Centrifugalna sila"
+        ],
+        "explanation": "Trenje je otpor gibanju kada se dva predmeta kreću jedan preko drugoga ili pokušavaju kretati.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja tehnika dubokog učenja koristi rekurentne neuronske mreže s \"memorijskim ćelijama\" za obradu sekvencijalnih podataka kao što su tekst ili govor?",
+        "correct_answer": "LSTM (Long Short-Term Memory)",
+        "incorrect_answers": [
+            "CNN (Convolutional Neural Network)",
+            "MLP (Multi-Layer Perceptron)",
+            "GAN (Generative Adversarial Network)"
+        ],
+        "explanation": "LSTM mreže su vrsta RNN-a sposobne naučiti dugoročne ovisnosti u sekvencijalnim podacima, što ih čini idealnima za obradu prirodnog jezika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja je funkcija mitohondrija u životinjskoj stanici?",
+        "correct_answer": "Proizvodnja energije (ATP)",
+        "incorrect_answers": [
+            "Sinteza proteina",
+            "Skladištenje genetskog materijala",
+            "Razgradnja otpada"
+        ],
+        "explanation": "Mitohondriji su organele odgovorne za stanično disanje i proizvodnju adenozin trifosfata (ATP), glavnog izvora energije za stanicu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji planet je poznat kao \"Crveni planet\"?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars je dobio nadimak \"Crveni planet\" zbog prisutnosti željezovog oksida (hrđe) na njegovoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji je naziv za proces pri kojem atom gubi ili prima elektrone, postajući ion?",
+        "correct_answer": "Ionizacija",
+        "incorrect_answers": [
+            "Oksidacija",
+            "Redukcija",
+            "Hidroliza"
+        ],
+        "explanation": "Ionizacija je fizikalni proces pretvaranja atoma ili molekule u ion dodavanjem ili uklanjanjem nabijenih čestica, poput elektrona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Kako se naziva teorija koja ujedinjuje elektromagnetsku, slabu i jaku nuklearnu silu u jednu jedinstvenu interakciju, unutar okvira kvantne teorije polja?",
+        "correct_answer": "Standardni model fizike čestica",
+        "incorrect_answers": [
+            "Teorija struna",
+            "Opća teorija relativnosti",
+            "Kvanta gravitacija"
+        ],
+        "explanation": "Standardni model je teorija koja opisuje tri od četiri fundamentalne sile prirode (elektromagnetska, slaba i jaka) i sve poznate elementarne čestice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja vrsta softvera štiti računalo od zlonamjernih programa kao što su virusi i trojanci?",
+        "correct_answer": "Antivirusni softver",
+        "incorrect_answers": [
+            "Operativni sustav",
+            "Web preglednik",
+            "Uređivač teksta"
+        ],
+        "explanation": "Antivirusni softver je program dizajniran za otkrivanje, sprječavanje i uklanjanje zlonamjernog softvera s računalnog sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji se fenomen javlja kada se bijela svjetlost razdvoji na svoje spektralne boje prolaskom kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Refrakcija",
+            "Difrakcija"
+        ],
+        "explanation": "Disperzija je pojava razlaganja svjetlosti na njezine sastavne boje zbog različitih indeksa loma za različite valne duljine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je naziv za polimernu molekulu koja se sastoji od ponavljajućih jedinica monosaharida i služi kao glavni skladišni polisaharid u biljkama?",
+        "correct_answer": "Škrob",
+        "incorrect_answers": [
+            "Celuloza",
+            "Glikogen",
+            "Kitozan"
+        ],
+        "explanation": "Škrob je složeni ugljikohidrat, primarni izvor skladištenja energije u biljkama, sastavljen od amiloze i amilopektina.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja se komponenta računala koristi za trajno pohranjivanje podataka, čak i kada je računalo isključeno?",
+        "correct_answer": "Tvrdi disk (HDD/SSD)",
+        "incorrect_answers": [
+            "RAM",
+            "Procesor (CPU)",
+            "Grafička kartica (GPU)"
+        ],
+        "explanation": "Tvrdi disk (HDD) ili SSD (Solid State Drive) služe za dugotrajnu pohranu operativnog sustava, programa i korisničkih datoteka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se naziva energija koju posjeduje tijelo zbog svog gibanja?",
+        "correct_answer": "Kinetička energija",
+        "incorrect_answers": [
+            "Potencijalna energija",
+            "Toplinska energija",
+            "Kemijska energija"
+        ],
+        "explanation": "Kinetička energija je energija koju posjeduje tijelo u pokretu, a ovisi o njegovoj masi i brzini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja je svrha Gramovog bojenja u mikrobiologiji?",
+        "correct_answer": "Klasifikacija bakterija prema građi stanične stijenke",
+        "incorrect_answers": [
+            "Određivanje veličine bakterija",
+            "Prepoznavanje virusa",
+            "Mjerenje pH vrijednosti medija"
+        ],
+        "explanation": "Gramovo bojenje je metoda koja dijeli bakterije na Gram-pozitivne i Gram-negativne na temelju kemijskih i fizičkih svojstava njihovih staničnih stijenki.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Kako se naziva udaljenost koju svjetlost prijeđe u jednoj godini?",
+        "correct_answer": "Svjetlosna godina",
+        "incorrect_answers": [
+            "Astronomska jedinica",
+            "Parseka",
+            "Kilometar"
+        ],
+        "explanation": "Svjetlosna godina je jedinica za udaljenost koja se koristi u astronomiji, a predstavlja put koji svjetlost prijeđe u vakuumu tijekom jedne zemaljske godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja je pH vrijednost čiste vode pri 25°C?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "0",
+            "14",
+            "5"
+        ],
+        "explanation": "Čista voda je neutralna, što znači da ima pH vrijednost 7 pri sobnoj temperaturi, što označava jednak broj H+ i OH- iona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji se princip koristi za objašnjenje kako promjenjivo magnetsko polje stvara električno polje (i obrnuto), temelj elektromagnetske indukcije?",
+        "correct_answer": "Faradayev zakon indukcije",
+        "incorrect_answers": [
+            "Ampereov zakon",
+            "Gaussov zakon",
+            "Lenzov zakon"
+        ],
+        "explanation": "Faradayev zakon elektromagnetske indukcije opisuje kako se elektromotorna sila inducira u petlji vodiča zbog promjene magnetskog toka kroz petlju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji pojam opisuje sve životinje i biljke koje žive u određenom području?",
+        "correct_answer": "Biocenoza",
+        "incorrect_answers": [
+            "Ekosustav",
+            "Biotop",
+            "Populacija"
+        ],
+        "explanation": "Biocenoza je zajednica svih živih organizama (biljaka, životinja, mikroorganizama) koji nastanjuju određeno stanište (biotop).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koja je najpoznatija sol, kemijskog naziva natrijev klorid?",
+        "correct_answer": "Kuhinjska sol",
+        "incorrect_answers": [
+            "Gorka sol",
+            "Epsom sol",
+            "Morska sol"
+        ],
+        "explanation": "Kuhinjska sol je opći naziv za natrijev klorid (NaCl), kemijski spoj koji se prvenstveno koristi kao začin i konzervans.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva napad u kojem napadač presreće komunikaciju između dvije strane, a da ni jedna strana to ne zna, pretvarajući se da je legitimna strana za obje?",
+        "correct_answer": "Man-in-the-Middle (MitM) napad",
+        "incorrect_answers": [
+            "DDoS napad",
+            "Phishing napad",
+            "SQL Injection"
+        ],
+        "explanation": "MitM napad je vrsta cyber napada gdje napadač tajno presreće i potencijalno mijenja komunikaciju između dvoje sudionika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je pojam za silu koja drži planete u orbiti oko Sunca?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Magnetska sila",
+            "Centrifugalna sila",
+            "Nuklearna sila"
+        ],
+        "explanation": "Gravitacija je univerzalna privlačna sila između bilo koja dva tijela s masom, ključna za formiranje i kretanje nebeskih tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji organ pumpa krv kroz ljudsko tijelo?",
+        "correct_answer": "Srce",
+        "incorrect_answers": [
+            "Pluća",
+            "Jetra",
+            "Bubreg"
+        ],
+        "explanation": "Srce je mišićni organ koji ritmičkim kontrakcijama pumpa krv bogatu kisikom i hranjivim tvarima po cijelom tijelu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je osnovna svrha gorivih članaka?",
+        "correct_answer": "Izravna pretvorba kemijske energije u električnu",
+        "incorrect_answers": [
+            "Skladištenje električne energije",
+            "Mehanizam za pokretanje motora",
+            "Proizvodnja vodika"
+        ],
+        "explanation": "Gorivi članci su elektrokemijski uređaji koji pretvaraju kemijsku energiju goriva (poput vodika) i oksidansa (poput kisika) izravno u električnu energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se kovalentna veza cijepa tako da svaki atom dobije po jedan elektron, tvoreći slobodne radikale?",
+        "correct_answer": "Homolitičko cijepanje",
+        "incorrect_answers": [
+            "Heterolitičko cijepanje",
+            "Hidroliza",
+            "Piroliza"
+        ],
+        "explanation": "Homolitičko cijepanje je proces razbijanja kovalentne veze gdje se zajednički par elektrona ravnomjerno podijeli između dva atoma, rezultirajući stvaranjem radikala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva grana umjetne inteligencije koja se bavi učenjem strojeva iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Duboko učenje",
+            "Ekspertni sustavi",
+            "Robotika"
+        ],
+        "explanation": "Strojno učenje je podskup umjetne inteligencije koji sustavima omogućuje da uče iz podataka, identificiraju uzorke i donose odluke uz minimalnu ljudsku intervenciju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji je kemijski element ključan za život i nalazi se u svim organskim molekulama?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Kisik",
+            "Dušik",
+            "Vodik"
+        ],
+        "explanation": "Ugljik je temeljni element života zbog svoje sposobnosti stvaranja stabilnih veza s drugim atomima, tvoreći raznolike organske spojeve.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji se proces smatra glavnim izvorom energije Sunca i drugih zvijezda?",
+        "correct_answer": "Nuklearna fuzija",
+        "incorrect_answers": [
+            "Nuklearna fisija",
+            "Kemijske reakcije",
+            "Gravitacijsko skupljanje"
+        ],
+        "explanation": "Nuklearna fuzija je proces spajanja lakih atomskih jezgri u teže, oslobađajući pritom ogromne količine energije. To je gorivo za zvijezde.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
