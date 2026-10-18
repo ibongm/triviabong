@@ -25139,5 +25139,395 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja država trenutno ima najveću populaciju na svijetu?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "SAD",
+            "Indonezija"
+        ],
+        "explanation": "Indija je pretekla Kinu i postala najmnogoljudnija država na svijetu, s procijenjenih preko 1,43 milijarde stanovnika (stanje 2024.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji ocean pokriva najveću površinu Zemlje?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean je najveći i najdublji ocean na Zemlji, pokrivajući otprilike trećinu površine planeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Kako se naziva linija koja označava nulti meridijan?",
+        "correct_answer": "Greenwich meridijan",
+        "incorrect_answers": [
+            "Ekvator",
+            "Datumska granica",
+            "Sjeverni polarnik"
+        ],
+        "explanation": "Greenwich meridijan je nulti meridijan od kojeg se mjeri geografska dužina, prolazi kroz Kraljevski opservatorij u Greenwichu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koji je kontinent najsuši i s najvišom prosječnom nadmorskom visinom?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Afrika",
+            "Australija",
+            "Azija"
+        ],
+        "explanation": "Antarktika je kontinent s najnižom prosječnom temperaturom, najnižom vlagom i najvišom prosječnom nadmorskom visinom zbog svoje ledene kape.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva geomorfološki proces stvaranja pustinja?",
+        "correct_answer": "Dezertifikacija",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfizam"
+        ],
+        "explanation": "Dezertifikacija je proces degradacije zemljišta u suhim područjima, pri čemu se plodno tlo pretvara u pustinju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja je jedina država koja graniči s Danskom?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Švedska",
+            "Norveška",
+            "Poljska"
+        ],
+        "explanation": "Danska ima samo jednu kopnenu granicu, i to s Njemačkom na jugu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja je najniža točka na kopnu Zemlje?",
+        "correct_answer": "Obala Mrtvog mora",
+        "incorrect_answers": [
+            "Dolina smrti",
+            "Kaspijsko jezero",
+            "Jezero Assal"
+        ],
+        "explanation": "Obala Mrtvog mora, smještena između Izraela, Jordana i Palestine, najniža je točka na kopnu, oko 430 metara ispod razine mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja se država sastoji od više od 17.000 otoka?",
+        "correct_answer": "Indonezija",
+        "incorrect_answers": [
+            "Filipini",
+            "Japan",
+            "Grčka"
+        ],
+        "explanation": "Indonezija je arhipelaška država koja se sastoji od približno 17.500 otoka, što je čini najvećom otočnom državom na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva kopneni most koji je nekada povezivao Aziju i Sjevernu Ameriku?",
+        "correct_answer": "Beringov kopneni most (Beringia)",
+        "incorrect_answers": [
+            "Panamski most",
+            "Suez",
+            "Sibirska prevlaka"
+        ],
+        "explanation": "Beringov kopneni most, poznat kao Beringija, bio je most između Azije i Sjeverne Amerike tijekom ledenih doba.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma diže iz Zemljinog plašta i stvara novu oceansku koru?",
+        "correct_answer": "Širenje morskog dna",
+        "incorrect_answers": [
+            "Subdukcija",
+            "Orogenoza",
+            "Erozija"
+        ],
+        "explanation": "Širenje morskog dna je geološki proces u kojem se tektonske ploče razmiču, a magma iz plašta se diže i stvara novu oceansku koru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja država ima najveći udio šuma u Europi?",
+        "correct_answer": "Finska",
+        "incorrect_answers": [
+            "Švedska",
+            "Rusija (europski dio)",
+            "Austrija"
+        ],
+        "explanation": "Finska je poznata kao 'zemlja tisuću jezera i šuma', s preko 70% površine prekrivene šumom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva geografsko područje gdje rijeka donosi sedimente i tvori trokutasti ili lepezasti oblik prije nego što se ulije u veće vodeno tijelo?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Fjord"
+        ],
+        "explanation": "Delta je geomorfološka formacija nastala taloženjem sedimenata koje rijeka nosi, obično na ušću u more ili jezero.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja država se nalazi na poluotoku Skandinavija, a nije članica Europske unije?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Švedska",
+            "Finska",
+            "Danska"
+        ],
+        "explanation": "Norveška je, za razliku od Švedske i Finske, odabrala da ne bude članica Europske unije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva suhi, hladni vjetar koji puše iz sjevernih planinskih područja prema obali Jadranskog mora?",
+        "correct_answer": "Bura",
+        "incorrect_answers": [
+            "Jugo",
+            "Maestral",
+            "Levant"
+        ],
+        "explanation": "Bura je karakterističan hladan i suh vjetar Jadrana, koji puše s kopna prema moru i donosi vedro vrijeme.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji se pojam koristi za opisivanje područja na Zemlji s jedinstvenim karakteristikama klime, flore i faune?",
+        "correct_answer": "Biomi",
+        "incorrect_answers": [
+            "Ekosustavi",
+            "Habitat",
+            "Regije"
+        ],
+        "explanation": "Biomi su velike ekološke regije definirane klimom, dominantnom vegetacijom i životinjskim svijetom koji se u njima razvio.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva južni rt Afrike, poznat po opasnim morima?",
+        "correct_answer": "Rt dobre nade",
+        "incorrect_answers": [
+            "Rt Agulhas",
+            "Rt Horn",
+            "Rt Verde"
+        ],
+        "explanation": "Rt dobre nade povijesno je poznat kao važna pomorska točka, iako najjužnija točka Afrike nije on, već Rt Agulhas.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Maroka?",
+        "correct_answer": "Rabat",
+        "incorrect_answers": [
+            "Casablanca",
+            "Marakeš",
+            "Fes"
+        ],
+        "explanation": "Rabat je glavni grad Maroka, dok su Casablanca i Marakeš veći i poznatiji gradovi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji je kontinent najmanji po površini?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Europa",
+            "Antarktika",
+            "Južna Amerika"
+        ],
+        "explanation": "Australija je i kontinent i država te je najmanji kontinent na svijetu po površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva klimatski fenomen koji karakteriziraju abnormalno tople površinske vode u ekvatorijalnom Tihom oceanu?",
+        "correct_answer": "El Niño",
+        "incorrect_answers": [
+            "La Niña",
+            "Ciklona",
+            "Monsun"
+        ],
+        "explanation": "El Niño je kompleksan klimatski obrazac koji se javlja u Tihom oceanu i ima značajan utjecaj na globalne vremenske prilike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja se država u Južnoj Americi nalazi u Andama i nema izlaz na more?",
+        "correct_answer": "Bolivija",
+        "incorrect_answers": [
+            "Peru",
+            "Čile",
+            "Ekvador"
+        ],
+        "explanation": "Bolivija i Paragvaj su jedine dvije države Južne Amerike bez izlaza na more, a Bolivija je smještena u Andama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koji se poluotok naziva 'čizmom' zbog svog oblika?",
+        "correct_answer": "Apeninski poluotok",
+        "incorrect_answers": [
+            "Balkanski poluotok",
+            "Iberski poluotok",
+            "Skandinavski poluotok"
+        ],
+        "explanation": "Apeninski poluotok, na kojem se nalazi Italija, prepoznatljiv je po svom obliku koji podsjeća na čizmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisna točka gdje se susreću granice triju država?",
+        "correct_answer": "Trotočka (tromeđa)",
+        "incorrect_answers": [
+            "Granični prijelaz",
+            "Međudržavna zona",
+            "Konfluencija"
+        ],
+        "explanation": "Trotočka ili tromeđa je mjesto gdje se susreću državne granice triju zemalja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva optička pojava u atmosferi gdje se objekti čine pomaknuti ili iskrivljeni zbog temperaturnih razlika u zraku, često viđena u pustinjama ili na moru?",
+        "correct_answer": "Miraž",
+        "incorrect_answers": [
+            "Fatamorgana",
+            "Aurora",
+            "Halo efekt"
+        ],
+        "explanation": "Miraž je optička iluzija nastala prelamanjem svjetlosti kroz slojeve zraka različitih temperatura, stvarajući privid vode ili udaljenih objekata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koja je jedina država koja ima izlaz i na Atlantski i na Tihi ocean preko svog kopnenog teritorija?",
+        "correct_answer": "Kolumbija",
+        "incorrect_answers": [
+            "Panama",
+            "SAD",
+            "Meksiko"
+        ],
+        "explanation": "Kolumbija je jedina država u Južnoj Americi koja ima obalu i na Atlantskom (Karipskom) i na Tihom oceanu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koje more razdvaja Europu i Afriku?",
+        "correct_answer": "Sredozemno more",
+        "incorrect_answers": [
+            "Crno more",
+            "Jadransko more",
+            "Sjeverno more"
+        ],
+        "explanation": "Sredozemno more je veliko unutarnje more koje se proteže između Europe na sjeveru i Afrike na jugu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koji se prirodni fenomen povezuje s pojavom iznenadnih, snažnih valova izazvanih podvodnim potresima ili vulkanskim erupcijama?",
+        "correct_answer": "Tsunami",
+        "incorrect_answers": [
+            "Plimni val",
+            "Oluja",
+            "Ciklon"
+        ],
+        "explanation": "Tsunami je serija oceanskih valova uzrokovanih velikim pomicanjem morske vode, obično zbog potresa, vulkanske erupcije ili klizišta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
