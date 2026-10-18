@@ -25139,5 +25139,335 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji je najduži riječni sustav na svijetu?",
+        "correct_answer": "Amazona",
+        "incorrect_answers": [
+            "Nil",
+            "Mississippi-Missouri",
+            "Yangtze"
+        ],
+        "explanation": "Rijeka Amazona, s procijenjenom dužinom od oko 6.992 km, smatra se najdužom rijekom na svijetu (stanje 2022.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najnaseljenija država na svijetu?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Indija je pretekla Kinu i postala najnaseljenija država na svijetu s više od 1,4 milijarde stanovnika (stanje 2023.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja je pustinja najveća na svijetu (ne-polarna)?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Velika Viktorijina pustinja"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, smještena u sjevernoj Africi, pokrivajući ogromno područje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja se rijeka naziva 'Majkom rijeka' u Egiptu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazona",
+            "Dunav",
+            "Yangtze"
+        ],
+        "explanation": "Nil je od vitalne važnosti za Egipat i često se naziva 'Majkom rijeka' zbog svoje uloge u povijesti i gospodarstvu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Novog Zelanda?",
+        "correct_answer": "Wellington",
+        "incorrect_answers": [
+            "Auckland",
+            "Christchurch",
+            "Queenstown"
+        ],
+        "explanation": "Wellington je glavni grad Novog Zelanda, smješten na južnom kraju Sjevernog otoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji je najaktivniji vulkan na svijetu (prema broju erupcija)?",
+        "correct_answer": "Stromboli",
+        "incorrect_answers": [
+            "Etna",
+            "Mauna Loa",
+            "Popocatépetl"
+        ],
+        "explanation": "Stromboli, smješten sjeverno od Sicilije, konstantno eruptira više od 2000 godina, čime je najaktivniji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji odvaja Južnu Ameriku od Antarktike?",
+        "correct_answer": "Drakeov prolaz",
+        "incorrect_answers": [
+            "Magellanov prolaz",
+            "Beringov prolaz",
+            "Gibraltarski tjesnac"
+        ],
+        "explanation": "Drakeov prolaz je najširi i najdublji morski prolaz na svijetu, poznat po svojim olujama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koji je ocean najmanji na svijetu?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Južni ocean",
+            "Atlantski ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja se pustinja nalazi u južnoj Africi i poznata je po svojim crvenim dinama?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Kalahari",
+            "Sahara",
+            "Atacama"
+        ],
+        "explanation": "Namib je obalna pustinja u južnoj Africi, poznata po impresivnim visokim crvenim pješčanim dinama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna tvorevina u obliku otoka ili poluotoka nastala taloženjem pijeska i šljunka paralelno s obalom?",
+        "correct_answer": "Pješčani sprud",
+        "incorrect_answers": [
+            "Laguna",
+            "Fjord",
+            "Estuarij"
+        ],
+        "explanation": "Pješčani sprud je izdužena nakupina sedimenta koja se formira u plitkim obalnim vodama, često paralelno s obalom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je boja Zemlje najviše vidljiva iz svemira?",
+        "correct_answer": "Plava",
+        "incorrect_answers": [
+            "Zelena",
+            "Smeđa",
+            "Bijela"
+        ],
+        "explanation": "Zemlja je nazvana 'Plavi planet' zbog obilja vode koja pokriva oko 71% njene površine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je glavni grad države s najvećom površinom na svijetu?",
+        "correct_answer": "Moskva",
+        "incorrect_answers": [
+            "Peking",
+            "Washington D.C.",
+            "Ottawa"
+        ],
+        "explanation": "Moskva je glavni grad Rusije, koja je po površini najveća država na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Kako se naziva sloj atmosfere najbliži Zemljinoj površini gdje se odvijaju sve vremenske pojave?",
+        "correct_answer": "Troposfera",
+        "incorrect_answers": [
+            "Stratosfera",
+            "Mezosfera",
+            "Termosfera"
+        ],
+        "explanation": "Troposfera je najniži sloj Zemljine atmosfere, gdje se događaju svi vremenski fenomeni i gdje živi većina živih bića.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji se kontinent naziva 'tamnim kontinentom'?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Azija",
+            "Antarktika"
+        ],
+        "explanation": "Afrika je povijesno nazivana 'tamnim kontinentom' zbog svojih tajanstvenih i neistraženih područja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je drugi najviši vrh na svijetu?",
+        "correct_answer": "K2",
+        "incorrect_answers": [
+            "Lhotse",
+            "Kangchendzonga",
+            "Makalu"
+        ],
+        "explanation": "K2, poznat i kao Mount Godwin Austen, drugi je najviši planinski vrh na svijetu, smješten na granici Pakistana i Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Japan je poznat kao 'Zemlja izlazećeg sunca' jer se nalazi na istoku i dočekuje prve zrake sunca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koji je najslaniji ocean na svijetu?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Tihi ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Atlantski ocean ima najveću prosječnu slanost među svim oceanima na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji je najviši vrh u Europi (izvan Kavkaza)?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Elbrus",
+            "Grossglockner",
+            "Matterhorn"
+        ],
+        "explanation": "Mont Blanc je najviši vrh Alpa i najviši u zapadnoj Europi, s visinom od 4.808 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji grad na svijetu?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Delhi",
+            "Šangaj",
+            "Peking"
+        ],
+        "explanation": "Tokio je, sa svojim metropolitanskim područjem, najnaseljeniji grad na svijetu s preko 37 milijuna stanovnika (stanje 2023.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Kako se naziva proces raspadanja stijena na mjestu, bez pomicanja materijala?",
+        "correct_answer": "Trošenje",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfizam"
+        ],
+        "explanation": "Trošenje je proces razgradnje stijena i minerala na Zemljinoj površini pod utjecajem atmosferskih uvjeta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koji se meridijan koristi kao početni meridijan za mjerenje zemljopisne dužine?",
+        "correct_answer": "Greenwich",
+        "incorrect_answers": [
+            "Ekvator",
+            "Međunarodna datumska granica",
+            "Pariški meridijan"
+        ],
+        "explanation": "Greenwichski meridijan, koji prolazi kroz Royal Observatory u Greenwichu, London, služi kao nulti meridijan.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je najniža točka na Sjevernoameričkom kontinentu?",
+        "correct_answer": "Dolina Smrti",
+        "incorrect_answers": [
+            "Jezero Superior",
+            "Veliko slano jezero",
+            "Meksički zaljev"
+        ],
+        "explanation": "Dolina Smrti u Kaliforniji, SAD, sadrži najnižu točku u Sjevernoj Americi, 86 metara ispod razine mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
