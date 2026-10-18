@@ -30899,5 +30899,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Tko je bio grčki povjesničar, poznat kao \"Otac povijesti\", čije je djelo \"Historije\" opisivalo Grčko-perzijske ratove?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Sokrat",
+            "Platon"
+        ],
+        "explanation": "Herodot je bio grčki pisac i geograf iz 5. stoljeća pr. Kr., čije se opsežno djelo o povijesti Grčko-perzijskih ratova smatra prvim pravim povijesnim djelom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Koji je rimski car prvi prihvatio kršćanstvo i izdao Milanski edikt 313. godine?",
+        "correct_answer": "Konstantin Veliki",
+        "incorrect_answers": [
+            "Neron",
+            "August",
+            "Dioklecijan"
+        ],
+        "explanation": "Konstantin Veliki je 313. godine izdao Milanski edikt kojim je kršćanima zajamčena sloboda vjeroispovijesti, čime je zaustavljen progon kršćana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje križarskih ratova, vjerskih vojnih pohoda iz Europe na Bliski istok?",
+        "correct_answer": "11. do 13. stoljeće",
+        "incorrect_answers": [
+            "7. do 9. stoljeće",
+            "14. do 16. stoljeće",
+            "17. do 19. stoljeće"
+        ],
+        "explanation": "Križarski ratovi bili su niz vojnih pohoda koje su europski kršćani pokrenuli uglavnom protiv muslimana na Bliskom istoku, trajali su od kraja 11. do kraja 13. stoljeća.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koji je izum u 15. stoljeću revolucionirao širenje znanja i pismenosti u Europi?",
+        "correct_answer": "Tiskarski stroj",
+        "incorrect_answers": [
+            "Teleskop",
+            "Kompas",
+            "Parobrod"
+        ],
+        "explanation": "Johannes Gutenberg je oko 1440. godine izumio tiskarski stroj s pomičnim slovima, što je omogućilo masovnu proizvodnju knjiga i brzo širenje ideja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Tko je bio engleski reformator i prevoditelj Biblije na engleski jezik, čije su ideje utjecale na protestantske pokrete prije Luthera?",
+        "correct_answer": "John Wycliffe",
+        "incorrect_answers": [
+            "Jan Hus",
+            "Martin Luther",
+            "Jean Calvin"
+        ],
+        "explanation": "John Wycliffe (oko 1330.-1384.) bio je engleski teolog i reformator koji je osporavao autoritet Crkve i zagovarao prijevod Biblije na narodni jezik.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koja je bila glavna parola američkih kolonista koja je izražavala njihovo nezadovoljstvo britanskom poreznom politikom?",
+        "correct_answer": "\"Nema oporezivanja bez zastupanja!\"",
+        "incorrect_answers": [
+            "\"Sloboda ili smrt!\"",
+            "\"Živjela revolucija!\"",
+            "\"Jednakost za sve!\""
+        ],
+        "explanation": "Ova parola odražavala je uvjerenje kolonista da ih britanska vlada ne smije oporezivati ako nemaju svoje predstavnike u britanskom parlamentu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Na kojem je otoku Napoleon Bonaparte proveo svoje posljednje godine u egzilu nakon poraza kod Waterlooa?",
+        "correct_answer": "Sveta Helena",
+        "incorrect_answers": [
+            "Elba",
+            "Korzika",
+            "Malta"
+        ],
+        "explanation": "Nakon konačnog poraza u Bitci kod Waterlooa 1815. godine, Napoleon je prognan na udaljeni otok Svetu Helenu, gdje je i umro 1821. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koje je godine završen Bečki kongres, kojim je prekrojena karta Europe nakon Napoleonskih ratova?",
+        "correct_answer": "1815.",
+        "incorrect_answers": [
+            "1805.",
+            "1830.",
+            "1848."
+        ],
+        "explanation": "Bečki kongres, održan od 1814. do 1815. godine, bio je diplomatska konferencija europskih sila s ciljem uspostave novog političkog poretka i granica nakon pada Napoleona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Tko je bio srpski vođa Prvog srpskog ustanka (1804.-1813.) protiv Osmanskog Carstva?",
+        "correct_answer": "Karađorđe Petrović",
+        "incorrect_answers": [
+            "Miloš Obrenović",
+            "Vuk Karadžić",
+            "Ilija Garašanin"
+        ],
+        "explanation": "Karađorđe Petrović bio je vođa Prvog srpskog ustanka koji je 1804. godine započeo borbu za oslobođenje Srbije od osmanske vlasti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koja je organizacija osnovana nakon Prvog svjetskog rata s ciljem sprječavanja budućih sukoba, ali bez SAD-a kao članice?",
+        "correct_answer": "Liga naroda",
+        "incorrect_answers": [
+            "Ujedinjeni narodi",
+            "Crveni križ",
+            "Europska unija"
+        ],
+        "explanation": "Liga naroda osnovana je 1920. godine prema prijedlogu američkog predsjednika Woodrowa Wilsona, ali Sjedinjene Američke Države joj se nikada nisu pridružile.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Kako se naziva plan Saveznika za invaziju na Normandiju 6. lipnja 1944. godine?",
+        "correct_answer": "Operacija Overlord",
+        "incorrect_answers": [
+            "Operacija Barbarossa",
+            "Operacija Pustinjska lisica",
+            "Operacija Valkira"
+        ],
+        "explanation": "Operacija Overlord je bio kodni naziv za bitku za Normandiju, savezničku invaziju Zapadne Europe pod njemačkom okupacijom tijekom Drugog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Koji je bio glavni cilj Marshallovog plana nakon Drugog svjetskog rata?",
+        "correct_answer": "Ekonomska obnova poslijeratne Europe",
+        "incorrect_answers": [
+            "Stvaranje vojne alijanse protiv SSSR-a",
+            "Podjela Njemačke",
+            "Kolonizacija prekomorskih zemalja"
+        ],
+        "explanation": "Marshallov plan, službeno poznat kao Europski program obnove, bio je inicijativa SAD-a za pomoć Zapadnoj Europi u ekonomskoj obnovi nakon Drugog svjetskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Koji je hrvatski ban, vojskovođa i pjesnik, poginuo u Bitci kod Sigeta 1566. godine braneći utvrdu od Turaka?",
+        "correct_answer": "Nikola Šubić Zrinski",
+        "incorrect_answers": [
+            "Petar Zrinski",
+            "Fran Krsto Frankopan",
+            "Josip Jelačić"
+        ],
+        "explanation": "Nikola Šubić Zrinski bio je hrvatski ban i junak koji je junački poginuo braneći Siget od osmanske vojske Sulejmana Veličanstvenog 1566. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Kako se zvao sustav pisanja u starom Egiptu, koji je uključivao slike i simbole?",
+        "correct_answer": "Hijeroglifi",
+        "incorrect_answers": [
+            "Klinasto pismo",
+            "Feničko pismo",
+            "Latinično pismo"
+        ],
+        "explanation": "Hijeroglifi su bili formalni sustav pisanja korišten u starom Egiptu, kombinirajući logografske, slogovne i abecedne elemente.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koja je spartanska praksa uključivala strogi vojni trening dječaka od rane dobi, poznat kao Agoge?",
+        "correct_answer": "Agoge",
+        "incorrect_answers": [
+            "Geruzija",
+            "Eforat",
+            "Apella"
+        ],
+        "explanation": "Agoge je bio strogi obrazovni i trenažni sustav za sve spartanske muške građane, osmišljen da ih učini snažnim i discipliniranim vojnicima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koji je rimski car podijelio Rimsko Carstvo na četiri dijela (tetrarhiju) krajem 3. stoljeća n.e. radi lakšeg upravljanja?",
+        "correct_answer": "Dioklecijan",
+        "incorrect_answers": [
+            "August",
+            "Trajan",
+            "Neron"
+        ],
+        "explanation": "Dioklecijan je uveo tetrarhiju (vladavinu četvorice) 293. godine n.e. kako bi učinkovitije upravljao golemim Rimskim Carstvom i stabilizirao njegove granice.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje u srednjem vijeku (otprilike od 5. do 10. stoljeća) koje se često opisuje kao razdoblje opadanja u Zapadnoj Europi?",
+        "correct_answer": "Tamni vijek",
+        "incorrect_answers": [
+            "Zlatno doba",
+            "Prosvjetiteljstvo",
+            "Renesansa"
+        ],
+        "explanation": "\"Tamni vijek\" je historiografski pojam koji se odnosi na razdoblje ranog srednjeg vijeka u Zapadnoj Europi nakon pada Zapadnog Rimskog Carstva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Tko je bio osnivač i prvi sultan Osmanskog Carstva?",
+        "correct_answer": "Osman I.",
+        "incorrect_answers": [
+            "Sulejman Veličanstveni",
+            "Mehmed II. Osvajač",
+            "Selim I."
+        ],
+        "explanation": "Osman I. (vladao oko 1299.-1326.) se smatra osnivačem Osmanskog Carstva, koje je nastalo na području sjeverozapadne Anatolije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Koji je europski istraživač 1498. godine prvi stigao do Indije ploveći oko Rta dobre nade?",
+        "correct_answer": "Vasco da Gama",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Ferdinand Magellan",
+            "James Cook"
+        ],
+        "explanation": "Vasco da Gama je bio portugalski istraživač koji je 1498. godine uspješno uspostavio morski put do Indije, otvarajući novu eru trgovine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Koji je događaj 1517. godine, kada je Martin Luther objavio svojih 95 teza, označio početak protestantske reformacije?",
+        "correct_answer": "Objavljivanje 95 teza na vratima crkve u Wittenbergu",
+        "incorrect_answers": [
+            "Krunidba Henrika VIII. za poglavara Engleske crkve",
+            "Sabor u Trentu",
+            "Spaljivanje Jana Husa"
+        ],
+        "explanation": "Martin Luther je 31. listopada 1517. godine na vrata crkve u Wittenbergu izvjesio svojih 95 teza, kritizirajući praksu prodaje indulgencija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koja se europska monarhija suočila s \"Slavnom revolucijom\" (Glorious Revolution) 1688. godine, koja je rezultirala uspostavom ustavne monarhije?",
+        "correct_answer": "Engleska",
+        "incorrect_answers": [
+            "Francuska",
+            "Španjolska",
+            "Rusija"
+        ],
+        "explanation": "Slavna revolucija 1688. godine u Engleskoj dovela je do zbacivanja kralja Jakova II. i uspostave Vilima III. i Marije II. kao zajedničkih vladara uz ograničenja moći parlamenta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Koji su ratovi, vođeni između Velike Britanije i Kine sredinom 19. stoljeća, rezultirali britanskom dominacijom nad kineskim trgovinskim lukama?",
+        "correct_answer": "Opijumski ratovi",
+        "incorrect_answers": [
+            "Bokserski ustanak",
+            "Tajpinški ustanak",
+            "Kinesko-japanski ratovi"
+        ],
+        "explanation": "Opijumski ratovi (Prvi 1839.-1842. i Drugi 1856.-1860.) vođeni su zbog britanske trgovine opijumom u Kini i rezultirali su ustupcima Kine zapadnim silama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Koje je godine potpisan Versajski ugovor, službeno okončavši Prvi svjetski rat i nametnuvši teške uvjete Njemačkoj?",
+        "correct_answer": "1919.",
+        "incorrect_answers": [
+            "1918.",
+            "1920.",
+            "1917."
+        ],
+        "explanation": "Versajski ugovor potpisan je 28. lipnja 1919. godine u dvorcu Versailles kod Pariza, između Saveznika i Njemačke, čime je formalno završio Prvi svjetski rat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je sovjetski grad izdržao herojsku opsadu njemačkih snaga od 1941. do 1944. godine, postavši simbol otpora?",
+        "correct_answer": "Lenjingrad (današnji Sankt-Peterburg)",
+        "incorrect_answers": [
+            "Moskva",
+            "Staljingrad",
+            "Kijev"
+        ],
+        "explanation": "Opsada Lenjingrada od strane njemačkih i finskih snaga trajala je 872 dana i jedna je od najdužih i najrazornijih opsada u povijesti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje detanta (smanjenja napetosti) u odnosima između SAD-a i Sovjetskog Saveza tijekom Hladnog rata?",
+        "correct_answer": "Detant",
+        "incorrect_answers": [
+            "Željezna zavjesa",
+            "Trka u naoružanju",
+            "Hladni rat"
+        ],
+        "explanation": "Detant (francuski za \"popuštanje\") je razdoblje smanjenih geopolitičkih napetosti između SAD-a i Sovjetskog Saveza koje je trajalo od kasnih 1960-ih do kasnih 1970-ih.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Koje je godine Hrvatska stekla međunarodno priznanje kao neovisna država, nakon raspada SFR Jugoslavije?",
+        "correct_answer": "1992.",
+        "incorrect_answers": [
+            "1991.",
+            "1995.",
+            "1989."
+        ],
+        "explanation": "Iako je Hrvatska proglasila neovisnost 25. lipnja 1991., međunarodno priznanje uslijedilo je uglavnom 15. siječnja 1992. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Kako se zvao slavni pravni zakonik koji je u 6. stoljeću n.e. sastavio bizantski car Justinijan I.?",
+        "correct_answer": "Corpus Iuris Civilis",
+        "incorrect_answers": [
+            "Hamurabijev zakonik",
+            "Zakonik dvanaest ploča",
+            "Sharia zakonik"
+        ],
+        "explanation": "Corpus Iuris Civilis je bila sveobuhvatna zbirka rimskog prava koju je naručio car Justinijan I. i koja je imala ogroman utjecaj na europsko pravo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Tko je bio srpski car koji je vladao od 1346. do 1355. godine i čije je carstvo obuhvaćalo veliki dio Balkana?",
+        "correct_answer": "Stefan Dušan",
+        "incorrect_answers": [
+            "Stefan Nemanja",
+            "knez Lazar",
+            "car Uroš"
+        ],
+        "explanation": "Stefan Dušan, poznat kao Dušan Silni, bio je najmoćniji vladar srednjovjekovne Srbije, za čije je vladavine srpska država dosegla svoj vrhunac.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koji je osmanski sultan bio poznat kao \"Zakonodavac\" i \"Veličanstveni\" u 16. stoljeću?",
+        "correct_answer": "Sulejman I. Veličanstveni",
+        "incorrect_answers": [
+            "Mehmed II. Osvajač",
+            "Selim I. Grozni",
+            "Murat IV."
+        ],
+        "explanation": "Sulejman I. (vladao 1520.-1566.) bio je jedan od najdugovječnijih i najuspješnijih sultana Osmanskog Carstva, poznat po reformama zakonodavstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Koje se razdoblje Francuske revolucije (1793.-1794.) naziva \"Vladavina terora\", obilježeno masovnim pogubljenjima?",
+        "correct_answer": "Vladavina terora",
+        "incorrect_answers": [
+            "Termidorska reakcija",
+            "Direktorij",
+            "Konzulat"
+        ],
+        "explanation": "Vladavina terora bilo je razdoblje nasilja tijekom Francuske revolucije, potaknuto sukobom između dviju suparničkih političkih frakcija, Žirondinaca i Jakobinaca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Tko je bio vođa revolucije na Haitiju (1791.-1804.), koja je dovela do prve neovisne crnačke republike na svijetu?",
+        "correct_answer": "Toussaint Louverture",
+        "incorrect_answers": [
+            "Jean-Jacques Dessalines",
+            "Henri Christophe",
+            "Simon Bolívar"
+        ],
+        "explanation": "Toussaint Louverture bio je vođa Haićanske revolucije i prvi guverner slobodnog Haitija, koji se borio protiv francuske kolonijalne vlasti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koje je godine izbila Oktobarska revolucija u Rusiji, koja je dovela boljševike na vlast?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1922.",
+            "1924."
+        ],
+        "explanation": "Oktobarska revolucija bila je boljševička revolucija koja se odvijala u Rusiji 1917. godine, predvođena Vladimirom Lenjinom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koji je grad bio meta prve atomske bombe bačene u ratu, 6. kolovoza 1945. godine?",
+        "correct_answer": "Hiroshima",
+        "incorrect_answers": [
+            "Nagasaki",
+            "Tokio",
+            "Berlin"
+        ],
+        "explanation": "Američki bombarder \"Enola Gay\" bacio je prvu atomsku bombu (\"Little Boy\") na japanski grad Hirošimu 6. kolovoza 1945. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik izgovorio čuvenu rečenicu \"Gospodine Gorbačov, srušite ovaj zid!\" ispred Berlinskog zida 1987. godine?",
+        "correct_answer": "Ronald Reagan",
+        "incorrect_answers": [
+            "John F. Kennedy",
+            "Richard Nixon",
+            "Jimmy Carter"
+        ],
+        "explanation": "Ronald Reagan je 12. lipnja 1987. godine održao govor kod Brandenburških vrata u Berlinu, pozivajući Mihaila Gorbačova da sruši Berlinski zid.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji je drevni grad bio glavni grad Astečkog Carstva, a danas se nalazi na mjestu modernog Mexico Cityja?",
+        "correct_answer": "Tenochtitlan",
+        "incorrect_answers": [
+            "Cuzco",
+            "Palenque",
+            "Tikal"
+        ],
+        "explanation": "Tenochtitlan je bio glavni grad Astečkog Carstva, izgrađen na otoku u jezeru Texcoco, a osvojili su ga španjolski konkvistadori 1521. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Kako se naziva pokret u srednjovjekovnoj Europi, od 11. do 14. stoljeća, koji se fokusirao na razum i logiku u teologiji i filozofiji?",
+        "correct_answer": "Skolastika",
+        "incorrect_answers": [
+            "Humanizam",
+            "Nominalizam",
+            "Realizam"
+        ],
+        "explanation": "Skolastika je filozofska metoda i sustav učenja karakterističan za srednjovjekovne sveučilišne škole, s naglaskom na logičkoj analizi i sintezi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Tko je bio poljski astronom koji je u 16. stoljeću formulirao heliocentrični model Sunčevog sustava?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Nikola Kopernik je u svom djelu \"De revolutionibus orbium coelestium\" iz 1543. godine predstavio heliocentrični model, stavljajući Sunce u centar.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Koje je godine došlo do \"Baršunaste revolucije\" u Čehoslovačkoj, koja je mirno srušila komunistički režim?",
+        "correct_answer": "1989.",
+        "incorrect_answers": [
+            "1968.",
+            "1991.",
+            "1956."
+        ],
+        "explanation": "Baršunasta revolucija je bila nenasilna tranzicija moći u Čehoslovačkoj od jednopartijske komunističke vladavine do parlamentarne republike 1989. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
