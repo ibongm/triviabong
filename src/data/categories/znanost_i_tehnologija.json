@@ -30445,5 +30445,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja temperaturna skala definira apsolutnu nulu kao najnižu moguću temperaturu, pri kojoj atomska gibanja prestaju?",
+        "correct_answer": "Kelvinova",
+        "incorrect_answers": [
+            "Celzijeva",
+            "Fahrenheitova",
+            "Rankineova"
+        ],
+        "explanation": "Kelvinova skala je apsolutna termodinamička skala gdje je 0 Kelvina (-273.15 °C) točka gdje sva termalna energija nestaje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja genetske informacije iz mRNA u proteinski slijed unutar stanice?",
+        "correct_answer": "Translacija",
+        "incorrect_answers": [
+            "Transkripcija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Translacija je proces sinteze proteina gdje ribosomi čitaju genetski kod iz mRNA i sastavljaju aminokiseline u polipeptidni lanac.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja se komponenta neuronske mreže koristi za transformaciju ulaza u izlaz primjenom nelinearne funkcije na zbroj ponderiranih ulaza?",
+        "correct_answer": "Aktivacijska funkcija",
+        "incorrect_answers": [
+            "Težina",
+            "Prednapon (Bias)",
+            "Izlazni sloj"
+        ],
+        "explanation": "Aktivacijska funkcija određuje izlaz neurona ili čvora, uvodeći nelinearnost u model, što mu omogućuje učenje složenih uzoraka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je naziv za atom ili molekulu koja je izgubila ili dobila jedan ili više elektrona, pa stoga nosi neto električni naboj?",
+        "correct_answer": "Ion",
+        "incorrect_answers": [
+            "Izotop",
+            "Izomer",
+            "Radikal"
+        ],
+        "explanation": "Ion je električki nabijen atom ili molekula nastala gubitkom (kation) ili dobitkom (anion) elektrona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji planet u našem Sunčevom sustavu poznat je po svojim istaknutim prstenovima, uglavnom sastavljenim od čestica leda i stijena?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": [
+            "Jupiter",
+            "Uran",
+            "Neptun"
+        ],
+        "explanation": "Saturn je drugi po veličini planet Sunčevog sustava, najpoznatiji po svom impresivnom sustavu prstenova, vidljivih čak i manjim teleskopima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja fizička pojava nastaje kada se valovi (svjetlost, zvuk) međusobno superponiraju, rezultirajući pojačavanjem ili poništavanjem jedni drugih?",
+        "correct_answer": "Interferencija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Refrakcija",
+            "Polarizacija"
+        ],
+        "explanation": "Interferencija je pojava kod valova koja nastaje preklapanjem dvaju ili više valova, što može dovesti do konstruktivnog ili destruktivnog efekta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja se zona oceana proteže od površine do dubine gdje sunčeva svjetlost prodire dovoljno za fotosintezu?",
+        "correct_answer": "Fotička zona",
+        "incorrect_answers": [
+            "Afotička zona",
+            "Bentoska zona",
+            "Abisalna zona"
+        ],
+        "explanation": "Fotička zona je gornji sloj oceana ili jezera u koji prodire sunčeva svjetlost, omogućujući fotosintezu fitoplanktonu i biljkama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja se struktura podataka pridržava principa 'prvi unutra, prvi van' (FIFO), gdje se elementi dodaju na jedan kraj, a uklanjaju s drugog?",
+        "correct_answer": "Red (Queue)",
+        "incorrect_answers": [
+            "Stog (Stack)",
+            "Povezana lista (Linked List)",
+            "Stablo (Tree)"
+        ],
+        "explanation": "Red je linearna struktura podataka u kojoj se prvi dodani element uklanja prvi, slično redu čekanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja funkcionalna skupina sadrži atom ugljika dvostruko vezan za atom kisika (C=O), a nalazi se u aldehidima i ketonima?",
+        "correct_answer": "Karbonilna skupina",
+        "incorrect_answers": [
+            "Hidroksilna skupina",
+            "Karboksilna skupina",
+            "Amino skupina"
+        ],
+        "explanation": "Karbonilna skupina (C=O) je temeljna funkcionalna skupina u organskoj kemiji, prisutna u mnogim važnim spojevima poput aldehida i ketona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji je naziv za leguru željeza s ugljikom (do 2,14%), poznatu po svojoj čvrstoći i širokoj primjeni u građevinarstvu i industriji?",
+        "correct_answer": "Čelik",
+        "incorrect_answers": [
+            "Bronca",
+            "Mjed",
+            "Titan"
+        ],
+        "explanation": "Čelik je najvažnija legura željeza i ugljika, s udjelom ugljika do 2,14%, poznata po svojoj izdržljivosti i svestranosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja stanična organela je odgovorna za sintezu proteina, bilo slobodna u citoplazmi ili vezana za endoplazmatski retikulum?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Golgi aparat",
+            "Lizosom",
+            "Vakuola"
+        ],
+        "explanation": "Ribosomi su stanične organele koje sudjeluju u sintezi proteina, prevođenjem genetskog koda iz mRNA u polipeptidni lanac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Kako se naziva kvantni fenomen gdje se čestica, poput elektrona, može istovremeno nalaziti na više mjesta ili u više stanja prije mjerenja?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Kvantna spregnutost",
+            "Kvantna neodređenost",
+            "Tuneliranje"
+        ],
+        "explanation": "Superpozicija je princip kvantne mehanike prema kojem se kvantni sustav može nalaziti u kombinaciji više stanja istovremeno.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji mrežni protokol osigurava pouzdan, uspostavljen prijenos podataka između aplikacija, često se koristi za web promet (HTTP) i e-poštu (SMTP)?",
+        "correct_answer": "TCP (Transmission Control Protocol)",
+        "incorrect_answers": [
+            "UDP (User Datagram Protocol)",
+            "IP (Internet Protocol)",
+            "ICMP (Internet Control Message Protocol)"
+        ],
+        "explanation": "TCP je protokol orijentiran na vezu koji osigurava pouzdan i sekvencijski prijenos podataka, s kontrolom pogrešaka i protoka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji kozmološki model opisuje svemir kao kontinuirano širenje iz izuzetno vrućeg i gustog početnog stanja?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija pulsirajućeg svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija Velikog praska je dominantna znanstvena teorija koja objašnjava porijeklo i razvoj svemira od njegovog početnog stanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji je najreaktivniji nemetal, element u periodnom sustavu s atomskim brojem 9?",
+        "correct_answer": "Fluor",
+        "incorrect_answers": [
+            "Klor",
+            "Kisik",
+            "Dušik"
+        ],
+        "explanation": "Fluor je halogeni element i najelektronegativniji element, što ga čini najreaktivnijim nemetalom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je bolest uzrokovana nekontroliranim rastom i širenjem abnormalnih stanica u tijelu?",
+        "correct_answer": "Rak",
+        "incorrect_answers": [
+            "Dijabetes",
+            "Alzheimerova bolest",
+            "Srčani udar"
+        ],
+        "explanation": "Rak je opći termin za skupinu bolesti koje karakterizira nekontrolirana dioba i širenje abnormalnih stanica koje mogu napasti druge dijelove tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je naziv za fizičku silu koja se suprotstavlja gibanju ili tendenciji gibanja dviju površina u kontaktu?",
+        "correct_answer": "Trenje",
+        "incorrect_answers": [
+            "Gravitacija",
+            "Normalna sila",
+            "Napetost"
+        ],
+        "explanation": "Trenje je sila koja djeluje između dvije površine u kontaktu i suprotstavlja se njihovom relativnom gibanju ili pokušaju gibanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja paradigma programiranja naglašava podjelu problema na manje, međusobno neovisne jedinice koda (module) koje se mogu ponovno koristiti?",
+        "correct_answer": "Modularno programiranje",
+        "incorrect_answers": [
+            "Objektno orijentirano programiranje",
+            "Proceduralno programiranje",
+            "Funkcionalno programiranje"
+        ],
+        "explanation": "Modularno programiranje fokusira se na organizaciju koda u zasebne, samostalne module, olakšavajući razvoj, održavanje i ponovnu upotrebu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koja je tvar, prema Brønsted-Lowryjevoj teoriji, donor protona (H⁺)?",
+        "correct_answer": "Kiselina",
+        "incorrect_answers": [
+            "Baza",
+            "Sol",
+            "Pufer"
+        ],
+        "explanation": "Prema Brønsted-Lowryjevoj teoriji, kiselina je kemijska vrsta sposobna donirati proton (vodikov ion) drugoj tvari.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji planet ima 'Veliku crvenu pjegu', divovsku oluju koja je veća od Zemlje i traje stotinama godina?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+            "Mars",
+            "Venera",
+            "Neptun"
+        ],
+        "explanation": "Velika crvena pjega je prepoznatljiva, dugotrajna anticiklonalna oluja koja dominira atmosferom Jupitera.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem bakterije preuzimaju slobodnu DNA iz okoline?",
+        "correct_answer": "Transformacija",
+        "incorrect_answers": [
+            "Transdukcija",
+            "Konjugacija",
+            "Mutageneza"
+        ],
+        "explanation": "Transformacija je jedan od načina genetske rekombinacije kod bakterija, gdje stanica apsorbira slobodnu DNA iz okoline.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji optički uređaj koristi leću ili sustav leća za stvaranje uvećane slike malih objekata?",
+        "correct_answer": "Mikroskop",
+        "incorrect_answers": [
+            "Teleskop",
+            "Periskop",
+            "Kaleidoskop"
+        ],
+        "explanation": "Mikroskop je optički instrument namijenjen promatranju objekata premalih da bi se vidjeli golim okom, proizvodeći uvećanu sliku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za maskiranje IP adrese ili digitalnog identiteta korisnika na internetu, preusmjeravanjem prometa kroz posrednički server?",
+        "correct_answer": "Proxy server",
+        "incorrect_answers": [
+            "Firewall",
+            "Antivirus",
+            "VPN"
+        ],
+        "explanation": "Proxy server djeluje kao posrednik za zahtjeve klijenata prema drugim serverima, čime se može sakriti stvarna IP adresa klijenta i poboljšati sigurnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji je naziv za polimere aminokiselina koji imaju složene trodimenzionalne strukture i obavljaju brojne funkcije u živim organizmima?",
+        "correct_answer": "Proteini",
+        "incorrect_answers": [
+            "Ugljikohidrati",
+            "Lipidi",
+            "Nukleinske kiseline"
+        ],
+        "explanation": "Proteini su makromolekule sastavljene od aminokiselina povezanih peptidnim vezama, ključne za strukturu, funkciju i regulaciju stanica.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je naziv za proces cijepanja teške atomske jezgre na dvije ili više manjih jezgri, oslobađajući veliku količinu energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Gama zračenje"
+        ],
+        "explanation": "Nuklearna fisija je proces u kojem se teška atomska jezgra dijeli na manje, oslobađajući pritom značajnu količinu energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji je najveći organ ljudskog tijela, koji služi kao zaštitna barijera i regulira tjelesnu temperaturu?",
+        "correct_answer": "Koža",
+        "incorrect_answers": [
+            "Jetra",
+            "Mozak",
+            "Pluća"
+        ],
+        "explanation": "Koža je najveći organ ljudskog tijela po površini i masi, obavljajući zaštitne, osjetilne i termoregulacijske funkcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta memorije koja zadržava podatke samo dok je računalo uključeno, a gubi ih po isključivanju (npr. RAM)?",
+        "correct_answer": "Volatilna memorija",
+        "incorrect_answers": [
+            "Ne-volatilna memorija",
+            "Trajna memorija",
+            "ROM"
+        ],
+        "explanation": "Volatilna memorija, poput RAM-a, zahtijeva napajanje kako bi zadržala pohranjene informacije, gubeći ih kada se napajanje prekine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se proces koristi za spajanje mnogih malih monomernih jedinica u dugačke lančane molekule poznate kao polimeri?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Kondenzacija",
+            "Fermentacija"
+        ],
+        "explanation": "Polimerizacija je kemijska reakcija u kojoj se molekule monomera spajaju u velike makromolekule, polimere.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva gusti ostatak masivne zvijezde koji je kolabirao pod vlastitom gravitacijom i ima gravitacijsko polje toliko jako da mu ni svjetlost ne može pobjeći?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Pulsar",
+            "Kvazar",
+            "Bijeli patuljak"
+        ],
+        "explanation": "Crna rupa je područje prostor-vremena gdje je gravitacija toliko snažna da ništa, pa ni svjetlost, ne može pobjeći iz njezina horizonta događaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za biljne strukture koje upijaju vodu i hranjive tvari iz tla i sidre biljku?",
+        "correct_answer": "Korijen",
+        "incorrect_answers": [
+            "Stabljika",
+            "List",
+            "Cvijet"
+        ],
+        "explanation": "Korijen je podzemni dio biljke koji služi za pričvršćivanje, upijanje vode i mineralnih tvari, te pohranu hranjivih tvari.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je naziv za najvišu točku vala ili poremećaja?",
+        "correct_answer": "Greben (vrh)",
+        "incorrect_answers": [
+            "Dolina",
+            "Valna duljina",
+            "Amplituda"
+        ],
+        "explanation": "Greben je točka na mediju kroz koju se val kreće gdje je pomak medija maksimalan u pozitivnom smjeru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji algoritam strojnog učenja radi tako da pronalazi 'najbolju fit' liniju ili hiperravninu koja minimizira pogreške između predviđenih i stvarnih vrijednosti?",
+        "correct_answer": "Linearna regresija",
+        "incorrect_answers": [
+            "K-means klasteriranje",
+            "Stablo odlučivanja",
+            "Podržavajući vektorski strojevi (SVM)"
+        ],
+        "explanation": "Linearna regresija je statistička metoda koja se koristi za modeliranje odnosa između ovisne varijable i jedne ili više nezavisnih varijabli.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja se promjena agregatnog stanja događa kada tekućina prelazi u plinovito stanje na površini, obično ispod vrelišta?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Vrenje",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je proces prijelaza tekućine u plinovito stanje koji se odvija samo na površini tekućine pri bilo kojoj temperaturi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva maksimalna veličina populacije koju određeno okruženje može podržati neograničeno dugo?",
+        "correct_answer": "Nosivi kapacitet",
+        "incorrect_answers": [
+            "Ekološka niša",
+            "Biomasa",
+            "Bioakumulacija"
+        ],
+        "explanation": "Nosivi kapacitet je najveća populacija vrste koju okoliš može održati bez trajnog pogoršanja resursa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji se instrument koristi za mjerenje jakosti električne struje u krugu?",
+        "correct_answer": "Ampermetar",
+        "incorrect_answers": [
+            "Voltmetar",
+            "Ohmmetar",
+            "Vatmetar"
+        ],
+        "explanation": "Ampermetar je mjerni instrument koji služi za mjerenje jakosti električne struje u krugu, a spaja se serijski.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Koji je naziv za softver koji omogućuje komunikaciju između operativnog sustava i hardverskog uređaja (npr. pisača, grafičke kartice)?",
+        "correct_answer": "Upravljački program (Driver)",
+        "incorrect_answers": [
+            "Firmware",
+            "Kompajler",
+            "BIOS"
+        ],
+        "explanation": "Upravljački program, ili driver, je računalni program koji omogućuje interakciju operativnog sustava s hardverskim uređajem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Kako se naziva smjesa u kojoj su čestice jedne tvari (otopljena tvar) ravnomjerno raspoređene u drugoj tvari (otapalu) i ne talože se?",
+        "correct_answer": "Otopina",
+        "incorrect_answers": [
+            "Suspenzija",
+            "Koloid",
+            "Emulzija"
+        ],
+        "explanation": "Otopina je homogena smjesa dviju ili više tvari gdje je otopljena tvar ravnomjerno raspršena u otapalu, bez vidljivog taloženja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Koja vrsta teleskopa koristi ogledala za prikupljanje i fokusiranje svjetlosti?",
+        "correct_answer": "Reflektorski teleskop",
+        "incorrect_answers": [
+            "Refraktorski teleskop",
+            "Katadioptrijski teleskop",
+            "Radio teleskop"
+        ],
+        "explanation": "Reflektorski teleskop koristi zakrivljena ogledala za formiranje slike, za razliku od refraktorskog koji koristi leće.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koji je naziv za skup svih gena u populaciji neke vrste?",
+        "correct_answer": "Genomski fond (Gene pool)",
+        "incorrect_answers": [
+            "Genotip",
+            "Fenotip",
+            "Kariotip"
+        ],
+        "explanation": "Genomski fond (gene pool) je ukupnost svih gena i njihovih alela prisutnih u populaciji neke vrste u određenom trenutku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
+    },
+    {
+        "id": "hr_sci_2355",
+        "category": "znanost",
+        "question": "Koji pojam opisuje pojavu u Einsteinovoj specijalnoj teoriji relativnosti gdje se vrijeme za objekt koji se kreće velikom brzinom čini da teče sporije u usporedbi s promatračem u mirovanju?",
+        "correct_answer": "Dilatacija vremena",
+        "incorrect_answers": [
+            "Kontrakcija duljine",
+            "Relativnost simultanosti",
+            "Ekivalencija mase i energije"
+        ],
+        "explanation": "Dilatacija vremena je posljedica specijalne relativnosti prema kojoj se vrijeme mjeri kraće za objekt koji se kreće velikom brzinom u odnosu na mirnog promatrača.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-19"
     }
 ]
