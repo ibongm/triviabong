@@ -30445,5 +30445,605 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji fenomen u kvantnoj fizici omogućuje kvantnim računalima da obavljaju više izračuna istovremeno, jer kvantni bit (qubit) može postojati u više stanja istovremeno?",
+        "correct_answer": "Superpozicija",
+        "incorrect_answers": [
+            "Entanglement",
+            "Dekorencija",
+            "Kvantna zapletenost"
+        ],
+        "explanation": "Superpozicija je princip kvantne mehanike gdje sustav može postojati u više kvantnih stanja istovremeno dok se ne izvrši mjerenje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji je naziv za enzim koji igra ključnu ulogu u replikaciji DNA, tako što odmotava dvostruku spiralu DNA razbijajući vodikove veze između baza?",
+        "correct_answer": "Helikaza",
+        "incorrect_answers": [
+            "Ligaza",
+            "Polimeraza",
+            "Topoizomeraza"
+        ],
+        "explanation": "Helikaza je enzim koji katalizira odmotavanje dvolančane DNA spirale tijekom replikacije, transkripcije i popravka DNA.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja vrijednost na pH ljestvici, iznad 7, označava lužnatu otopinu?",
+        "correct_answer": "8",
+        "incorrect_answers": [
+            "7",
+            "6",
+            "5"
+        ],
+        "explanation": "pH ljestvica mjeri kiselost ili lužnatost otopine. Vrijednosti iznad 7 su lužnate, 7 je neutralno, a ispod 7 su kisele.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se naziva znanstvena disciplina koja se bavi proučavanjem planeta izvan našeg Sunčevog sustava?",
+        "correct_answer": "Ekzoplanetologija",
+        "incorrect_answers": [
+            "Astrobiologija",
+            "Kozmologija",
+            "Planetologija"
+        ],
+        "explanation": "Ekzoplanetologija je grana astronomije koja proučava ekzoplanete, odnosno planete koji orbitiraju oko zvijezda izvan našeg Sunčevog sustava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji je najgori slučaj vremenske složenosti za algoritam sortiranja QuickSort kada je ulaz već sortiran ili obrnuto sortiran?",
+        "correct_answer": "O(n^2)",
+        "incorrect_answers": [
+            "O(n log n)",
+            "O(n)",
+            "O(log n)"
+        ],
+        "explanation": "Iako je prosječna složenost QuickSorta O(n log n), u najgorem slučaju, kada je ulaz već sortiran, složenost postaje O(n^2).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji je naziv za granicu oko crne rupe unutar koje gravitacija postaje toliko jaka da ništa, uključujući svjetlost, ne može pobjeći?",
+        "correct_answer": "Horizont događaja",
+        "incorrect_answers": [
+            "Singularnost",
+            "Ergosfera",
+            "Akrecijski disk"
+        ],
+        "explanation": "Horizont događaja je granica bez povratka, regija prostor-vremena oko crne rupe iz koje je nemoguće pobjeći.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Kako se naziva molekularni sustav, izveden iz bakterija, koji omogućuje znanstvenicima precizno uređivanje genoma ciljanjem i rezanjem specifičnih sekvenci DNA?",
+        "correct_answer": "CRISPR-Cas9",
+        "incorrect_answers": [
+            "PCR",
+            "Western blot",
+            "Elektroforeza"
+        ],
+        "explanation": "CRISPR-Cas9 je revolucionarna tehnologija za uređivanje gena koja omogućuje precizno mijenjanje DNA sekvenci.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja su dva najpoznatija alotropna oblika ugljika, jedan je izuzetno tvrd i providan, a drugi mekan i provodi struju?",
+        "correct_answer": "Dijamant i grafit",
+        "incorrect_answers": [
+            "Fullereni i nanočestice",
+            "Kvarc i opal",
+            "Željezo i čelik"
+        ],
+        "explanation": "Dijamant i grafit su alotropi ugljika s različitim kristalnim strukturama, što im daje različita fizikalna svojstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji tip baze podataka organizira podatke u tablice s redovima i stupcima te koristi SQL za upite i manipulaciju podacima?",
+        "correct_answer": "Relacijska baza podataka",
+        "incorrect_answers": [
+            "NoSQL baza podataka",
+            "Grafovska baza podataka",
+            "Dokumentna baza podataka"
+        ],
+        "explanation": "Relacijske baze podataka temelje se na relacijskom modelu podataka, gdje su podaci organizirani u povezane tablice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji je temeljni postulat Einsteinove specijalne teorije relativnosti koji kaže da su zakoni fizike isti za sve promatrače koji se gibaju konstantnom brzinom jedni u odnosu na druge?",
+        "correct_answer": "Princip relativnosti",
+        "incorrect_answers": [
+            "Princip ekvivalencije",
+            "Princip neizvjesnosti",
+            "Princip isključenja"
+        ],
+        "explanation": "Princip relativnosti navodi da fizikalni zakoni imaju isti oblik u svim inercijskim referentnim sustavima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji sustav u ljudskom tijelu proizvodi hormone koji reguliraju rast, metabolizam i reprodukciju?",
+        "correct_answer": "Endokrini sustav",
+        "incorrect_answers": [
+            "Živčani sustav",
+            "Limfni sustav",
+            "Probavni sustav"
+        ],
+        "explanation": "Endokrini sustav je mreža žlijezda koje proizvode i otpuštaju hormone u krvotok, regulirajući brojne tjelesne funkcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je formula za benzen, aromatski ugljikovodik s prstenastom strukturom?",
+        "correct_answer": "C6H6",
+        "incorrect_answers": [
+            "C2H6",
+            "C6H12",
+            "CH4"
+        ],
+        "explanation": "Benzen je organski kemijski spoj s formulom C6H6, poznat po svojoj cikličkoj strukturi i aromatičnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je svemirski teleskop, lansiran 1990. godine, znatno unaprijedio naše razumijevanje svemira zahvaljujući slikama visoke rezolucije?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb svemirski teleskop",
+            "Keplerov teleskop",
+            "Chandra X-ray opservatorij"
+        ],
+        "explanation": "Hubbleov svemirski teleskop (HST) je ključan instrument za astronomiju, pruža detaljne slike svemira izvan Zemljine atmosfere.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji pojam u umjetnoj inteligenciji označava sposobnost sustava da uči iz podataka bez eksplicitnog programiranja?",
+        "correct_answer": "Strojno učenje",
+        "incorrect_answers": [
+            "Logičko programiranje",
+            "Ekspertni sustavi",
+            "Algoritam pretraživanja"
+        ],
+        "explanation": "Strojno učenje je podskup umjetne inteligencije koji omogućuje računalima da uče iz podataka i donose odluke bez da su eksplicitno programirana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji se proces koristi za proizvodnju električne energije iz razgradnje organskih materijala u anaerobnim uvjetima?",
+        "correct_answer": "Bioplin",
+        "incorrect_answers": [
+            "Geotermalna energija",
+            "Hidroelektrana",
+            "Nuklearna fuzija"
+        ],
+        "explanation": "Bioplin je smjesa plinova, pretežno metana, nastala anaerobnom razgradnjom organskih tvari. Može se koristiti za proizvodnju energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja je stanična organela odgovorna za sintezu proteina na temelju informacija iz mRNA?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Golgijev aparat",
+            "Lizosom",
+            "Vakuola"
+        ],
+        "explanation": "Ribosomi su stanične organele odgovorne za sintezu proteina, prevođenjem genetskog koda iz mRNA u aminokiseline.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja vrsta kemijske veze je najjača i nastaje potpunim prijenosom elektrona između atoma, tvoreći ione?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje elektrostatičkom privlačnošću između suprotno nabijenih iona, koji su nastali prijenosom elektrona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji protokol osigurava sigurnu komunikaciju preko računalne mreže putem šifriranja i autentifikacije, često se koristi za web stranice (HTTPS)?",
+        "correct_answer": "TLS/SSL",
+        "incorrect_answers": [
+            "FTP",
+            "HTTP",
+            "SMTP"
+        ],
+        "explanation": "TLS (Transport Layer Security) i njegov prethodnik SSL (Secure Sockets Layer) kriptografski su protokoli koji osiguravaju sigurnu komunikaciju preko mreže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji zakon termodinamike definira apsolutnu nulu kao najnižu moguću temperaturu na kojoj sustav ima minimalnu unutarnju energiju?",
+        "correct_answer": "Treći zakon termodinamike",
+        "incorrect_answers": [
+            "Prvi zakon termodinamike",
+            "Drugi zakon termodinamike",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Treći zakon termodinamike navodi da se entropija sustava približava konstantnoj vrijednosti kada se temperatura približi apsolutnoj nuli.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem populacije živih organizama mijenjaju svoje nasljedne karakteristike tijekom generacija, često rezultirajući prilagodbom okolišu?",
+        "correct_answer": "Prirodna selekcija",
+        "incorrect_answers": [
+            "Genetički drift",
+            "Mutacija",
+            "Migracija"
+        ],
+        "explanation": "Prirodna selekcija je mehanizam evolucije gdje jedinke s povoljnim osobinama preživljavaju i razmnožavaju se više od drugih.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koja se faza u životnom ciklusu zvijezde javlja nakon što potroši vodikovo gorivo u jezgri i počne se širiti, postajući svjetlija i hladnija?",
+        "correct_answer": "Crveni div",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Neutronka zvijezda",
+            "Crna rupa"
+        ],
+        "explanation": "Crveni div je zvijezda koja je iscrpila vodik u svojoj jezgri i počela se širiti te hladiti, povećavajući svoju svjetlost.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koja je linearna struktura podataka koja slijedi princip \"zadnji unutra, prvi van\" (LIFO)?",
+        "correct_answer": "Stog (Stack)",
+        "incorrect_answers": [
+            "Red (Queue)",
+            "Povezana lista",
+            "Polje (Array)"
+        ],
+        "explanation": "Stog je apstraktna struktura podataka gdje se elementi dodaju i uklanjaju samo s jednog kraja, poznatog kao vrh.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koja fizička pojava opisuje stvaranje električne struje u vodiču kada se on kreće kroz magnetsko polje ili kada se magnetsko polje oko njega mijenja?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Elektrostatska indukcija",
+            "Magnetska rezonancija",
+            "Peltierov efekt"
+        ],
+        "explanation": "Elektromagnetska indukcija je proces proizvodnje elektromotorne sile (napona) kroz promjenjivo magnetsko polje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Prema Brønsted-Lowryjevoj teoriji kiselina i baza, koja je definicija baze?",
+        "correct_answer": "Akceptor protona (H+)",
+        "incorrect_answers": [
+            "Donor protona (H+)",
+            "Akceptor elektronskog para",
+            "Donor elektronskog para"
+        ],
+        "explanation": "Brønsted-Lowryjeva baza je tvar koja može prihvatiti proton (H+ ion) od druge tvari (kiseline).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koja je tehnika kojom se biljne stanice ili tkiva uzgajaju u sterilnim uvjetima na hranjivoj podlozi za proizvodnju cijelih biljaka?",
+        "correct_answer": "Kultura tkiva",
+        "incorrect_answers": [
+            "Genetički inženjering",
+            "Hibridizacija",
+            "Kloniranje životinja"
+        ],
+        "explanation": "Kultura tkiva je metoda aseptičnog uzgoja biljnih stanica, tkiva ili organa na definiranim hranjivim podlogama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji je naziv za program koji omogućuje interakciju između operativnog sustava i hardverskog uređaja (npr. pisača, grafičke kartice)?",
+        "correct_answer": "Upravljački program (Driver)",
+        "incorrect_answers": [
+            "Firmware",
+            "BIOS",
+            "Aplikacija"
+        ],
+        "explanation": "Upravljački program je softver koji omogućuje operativnom sustavu komunikaciju i upravljanje određenim hardverskim uređajem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji optički fenomen objašnjava zašto se svjetlost razdvaja na svoje sastavne boje (spektar) kada prolazi kroz prizmu?",
+        "correct_answer": "Disperzija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Difrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Disperzija svjetlosti je pojava razdvajanja bijele svjetlosti na komponente spektra zbog ovisnosti indeksa loma o valnoj duljini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se mali, reaktivni molekuli (monomeri) povezuju u duge lance tvoreći makromolekule (polimere)?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Hidroliza",
+            "Oksidacija",
+            "Redukcija"
+        ],
+        "explanation": "Polimerizacija je kemijska reakcija kojom se monomeri spajaju u duge makromolekule, polimere.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koja hipotetska forma materije čini otprilike 27% svemira i ne emitira, ne reflektira niti apsorbira svjetlost, a otkrivena je samo putem gravitacijskog utjecaja?",
+        "correct_answer": "Tamna materija",
+        "incorrect_answers": [
+            "Tamna energija",
+            "Antimaterija",
+            "Neutronka materija"
+        ],
+        "explanation": "Tamna materija je nevidljiva forma materije koja se ne detektira izravno, ali čiji se gravitacijski učinci promatraju u svemiru.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Kako se naziva par različitih alela za određeni gen koji jedinka nasljeđuje od roditelja (npr. Aa)?",
+        "correct_answer": "Heterozigot",
+        "incorrect_answers": [
+            "Homozigot",
+            "Fenotip",
+            "Genotip"
+        ],
+        "explanation": "Heterozigot je jedinka koja za određenu osobinu ima dva različita alela (npr. jedan dominantan i jedan recesivan).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji se kibernetički napad odnosi na pokušaj preopterećenja sustava, mreže ili servera s ogromnom količinom prometa kako bi ga učinio nedostupnim legitimnim korisnicima?",
+        "correct_answer": "DDoS napad (Distributed Denial of Service)",
+        "incorrect_answers": [
+            "Phishing napad",
+            "Ransomware napad",
+            "Brute-force napad"
+        ],
+        "explanation": "DDoS napad je zlonamjerni pokušaj prekida normalnog prometa ciljanog servera, usluge ili mreže preplavljujući ga internetskim prometom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja je pojava kada se plin ili tekućina kreću u slojevima bez značajnog miješanja, obično pri malim brzinama i visokoj viskoznosti?",
+        "correct_answer": "Laminarno strujanje",
+        "incorrect_answers": [
+            "Turbulentno strujanje",
+            "Bernoullijev efekt",
+            "Kavitacija"
+        ],
+        "explanation": "Laminarno strujanje je režim strujanja fluida karakteriziran glatkim, paralelnim slojevima fluida bez poremećaja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji proces uključuje cijepanje teške atomske jezgre na dvije ili više lakših jezgri, oslobađajući pritom veliku količinu energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Gama zračenje"
+        ],
+        "explanation": "Nuklearna fisija je nuklearna reakcija u kojoj se atomska jezgra dijeli na manje jezgre, obično uz oslobađanje neutrona i energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva vanjski, čvrsti sloj koji okružuje staničnu membranu kod biljnih stanica, gljiva, algi i većine bakterija, pružajući potporu i zaštitu?",
+        "correct_answer": "Stanična stijenka",
+        "incorrect_answers": [
+            "Stanična membrana",
+            "Citoplazma",
+            "Jezgra"
+        ],
+        "explanation": "Stanična stijenka je zaštitni i potporni sloj izvan stanične membrane kod mnogih organizama, uključujući bakterije i biljke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koja programska paradigma naglašava modularnost, ponovnu upotrebu koda i organizaciju programa oko \"objekata\" koji sadrže i podatke i metode?",
+        "correct_answer": "Objektno orijentirano programiranje",
+        "incorrect_answers": [
+            "Funkcionalno programiranje",
+            "Proceduralno programiranje",
+            "Logičko programiranje"
+        ],
+        "explanation": "Objektno orijentirano programiranje je paradigma koja koristi \"objekte\" – instance klasa koje sadrže podatke i funkcije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Kako se naziva jedinica mjere za glasnoću zvuka, koja se temelji na logaritamskoj skali?",
+        "correct_answer": "Decibel",
+        "incorrect_answers": [
+            "Herc",
+            "Joule",
+            "Vat"
+        ],
+        "explanation": "Decibel (dB) je logaritamska jedinica koja se koristi za izražavanje omjera dviju vrijednosti, često intenziteta zvuka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2352",
+        "category": "znanost",
+        "question": "Koji princip kaže da će, ako se na sustav u kemijskoj ravnoteži djeluje promjenom koncentracije, temperature ili tlaka, sustav pomaknuti ravnotežu tako da poništi tu promjenu?",
+        "correct_answer": "Le Chatelierov princip",
+        "incorrect_answers": [
+            "Gibbsov princip",
+            "Avogadrov zakon",
+            "Proustov zakon"
+        ],
+        "explanation": "Le Chatelierov princip opisuje kako se sustav u ravnoteži prilagođava na promjene uvjeta, pomičući ravnotežu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2353",
+        "category": "znanost",
+        "question": "Koja vrsta imunosti se stječe kada tijelo samo proizvodi protutijela kao odgovor na infekciju ili cijepljenje?",
+        "correct_answer": "Aktivna imunost",
+        "incorrect_answers": [
+            "Pasivna imunost",
+            "Prirođena imunost",
+            "Umjetna imunost"
+        ],
+        "explanation": "Aktivna imunost se razvija kada imunološki sustav proizvodi vlastita protutijela kao odgovor na izloženost antigenu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2354",
+        "category": "znanost",
+        "question": "Koji je naziv za teoriju o nastanku svemira koja kaže da je svemir započeo kao beskonačno gusta i vruća točka prije otprilike 13,8 milijardi godina i otada se širi?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Ciklički model svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija Velikog praska je vodeći kozmološki model za objašnjenje početka i širenja svemira.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2355",
+        "category": "znanost",
+        "question": "Koji je naziv za kriptografsku metodu koja koristi par ključeva – javni ključ za šifriranje i privatni ključ za dešifriranje – omogućujući sigurnu komunikaciju bez prethodne razmjene tajnog ključa?",
+        "correct_answer": "Asimetrična kriptografija",
+        "incorrect_answers": [
+            "Simetrična kriptografija",
+            "Kvantna kriptografija",
+            "Hash funkcija"
+        ],
+        "explanation": "Asimetrična kriptografija (ili kriptografija javnog ključa) koristi dva različita, ali matematički povezana ključa za šifriranje i dešifriranje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
