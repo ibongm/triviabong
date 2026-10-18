@@ -30445,5 +30445,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji planet u Sunčevom sustavu nazivamo \"Crvenim planetom\" zbog njegove površine bogate željeznim oksidom?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+            "Venera",
+            "Jupiter",
+            "Saturn"
+        ],
+        "explanation": "Mars svoju crvenkastu boju duguje prisutnosti željeznog oksida, poznatog kao hrđa, na svojoj površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koja je najveća žlijezda u ljudskom tijelu, odgovorna za detoksikaciju krvi i proizvodnju žuči?",
+        "correct_answer": "Jetra",
+        "incorrect_answers": [
+            "Gušterača",
+            "Štitnjača",
+            "Bubrezi"
+        ],
+        "explanation": "Jetra je vitalni organ s više od 500 funkcija, uključujući metabolizam, detoksikaciju i sintezu proteina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji kemijski element ima simbol \"Au\" i poznat je po svojoj inertnosti i vodljivosti?",
+        "correct_answer": "Zlato",
+        "incorrect_answers": [
+            "Srebro",
+            "Aluminij",
+            "Bakar"
+        ],
+        "explanation": "Zlato (Aurum) je plemeniti metal koji je otporan na koroziju i ima izvrsnu električnu i toplinsku vodljivost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se naziva glavni softver koji omogućuje interakciju između korisnika i računalnog hardvera (npr. Windows, macOS, Linux)?",
+        "correct_answer": "Operativni sustav",
+        "incorrect_answers": [
+            "Preglednik",
+            "Antivirus",
+            "Baza podataka"
+        ],
+        "explanation": "Operativni sustav upravlja hardverskim resursima i pruža platformu za pokretanje aplikacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada biljke ispuštaju vodenu paru kroz male otvore na listovima?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je izbacivanje vode u obliku pare iz biljaka, prvenstveno kroz stomate na listovima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koji je najveći mjesec u Sunčevom sustavu, veći čak i od planeta Merkur?",
+        "correct_answer": "Ganimed",
+        "incorrect_answers": [
+            "Titan",
+            "Europa",
+            "Kalisto"
+        ],
+        "explanation": "Ganimed je Jupiterov mjesec i najveći mjesec u Sunčevom sustavu, s vlastitim magnetskim poljem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je kemijska formula za sumpornu kiselinu, jednu od najvažnijih industrijskih kemikalija?",
+        "correct_answer": "H₂SO₄",
+        "incorrect_answers": [
+            "HCl",
+            "HNO₃",
+            "H₃PO₄"
+        ],
+        "explanation": "Sumporna kiselina, H₂SO₄, vrlo je jaka mineralna kiselina koja se široko koristi u industriji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja se tehnologija koristi za bežični prijenos podataka na kratke udaljenosti, često za spajanje periferije poput slušalica ili tipkovnica?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "NFC",
+            "Ethernet"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koja se fizikalna veličina mjeri u vatima (W) i predstavlja brzinu obavljanja rada ili prijenosa energije?",
+        "correct_answer": "Snaga",
+        "incorrect_answers": [
+            "Energija",
+            "Rad",
+            "Napon"
+        ],
+        "explanation": "Snaga je mjera koliko brzo se rad obavlja ili energija prenosi. Jedan vat je jedan džul po sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva stanična organela koja sadrži genetski materijal (DNA) i kontrolira stanične aktivnosti?",
+        "correct_answer": "Jezgra",
+        "incorrect_answers": [
+            "Ribosom",
+            "Mitohondrij",
+            "Vakuola"
+        ],
+        "explanation": "Jezgra sadrži kromosome s DNA i regulira sintezu proteina i diobu stanice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji je naziv za područje svemira iz kojeg ništa, čak ni svjetlost, ne može pobjeći zbog ekstremno jake gravitacije?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Kvazar",
+            "Pulsar",
+            "Maglica"
+        ],
+        "explanation": "Crna rupa je prostor-vremenska regija s tako snažnom gravitacijskom silom da ništa ne može pobjeći, uključujući elektromagnetsko zračenje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koji je najlakši kemijski element i najzastupljeniji element u svemiru?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Kisik",
+            "Ugljik"
+        ],
+        "explanation": "Vodik je prvi element u periodnom sustavu, s jednim protonom i najjednostavniji je i najrasprostranjeniji element.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Kako se naziva vrsta cyber napada gdje napadač šalje prevelik broj zahtjeva serveru s ciljem preopterećenja i onemogućavanja usluge?",
+        "correct_answer": "DDoS napad (Distributed Denial of Service)",
+        "incorrect_answers": [
+            "Phishing",
+            "Ransomware",
+            "Malware"
+        ],
+        "explanation": "DDoS napad koordinirano koristi više kompromitiranih sustava za preopterećenje ciljanog servera, sprječavajući legitimnim korisnicima pristup.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja fizikalna konstanta povezuje energiju fotona s njegovom frekvencijom (E = hf)?",
+        "correct_answer": "Planckova konstanta",
+        "incorrect_answers": [
+            "Brzina svjetlosti",
+            "Boltzmannova konstanta",
+            "Gravitacijska konstanta"
+        ],
+        "explanation": "Planckova konstanta (h) je temeljna fizikalna konstanta u kvantnoj mehanici, ključna za razumijevanje kvantizacije energije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je znanstvena disciplina koja proučava nasljeđivanje genetskih osobina?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Botanika",
+            "Zoologija",
+            "Ekologija"
+        ],
+        "explanation": "Genetika proučava gene, nasljeđe i varijacije živih organizama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji se teleskop nalazi u orbiti oko Zemlje i pruža detaljne slike svemira bez atmosferskih smetnji?",
+        "correct_answer": "Hubbleov svemirski teleskop",
+        "incorrect_answers": [
+            "James Webb teleskop",
+            "Keck teleskop",
+            "Spitzer teleskop"
+        ],
+        "explanation": "Hubble, lansiran 1990., revolucionirao je astronomiju pružajući jasne slike dubokog svemira. (stanje 2024.)",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja je kemijska veza prisutna kada atomi dijele elektrone, ali ih ne dijele jednako, što rezultira djelomičnim nabojima?",
+        "correct_answer": "Polarna kovalentna veza",
+        "incorrect_answers": [
+            "Nepolarna kovalentna veza",
+            "Ionska veza",
+            "Metalna veza"
+        ],
+        "explanation": "Polarna kovalentna veza nastaje kada atomi s različitom elektronegativnošću nejednako dijele elektrone.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji je akronim za \"World Wide Web\"?",
+        "correct_answer": "WWW",
+        "incorrect_answers": [
+            "URL",
+            "HTTP",
+            "HTML"
+        ],
+        "explanation": "WWW je sustav međusobno povezanih dokumenata i drugih web resursa, dostupnih putem interneta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji fizički princip kaže da se na tijelo u mirovanju djeluje jednako jakom silom u suprotnom smjeru kada na njega djeluje druga sila?",
+        "correct_answer": "Newtonov treći zakon gibanja",
+        "incorrect_answers": [
+            "Newtonov prvi zakon gibanja",
+            "Newtonov drugi zakon gibanja",
+            "Zakon očuvanja energije"
+        ],
+        "explanation": "Newtonov treći zakon kaže: 'Za svaku akciju postoji jednaka i suprotna reakcija'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koji je naziv za specifični segment DNA koji nosi genetsku informaciju za sintezu određenog proteina ili RNA molekule?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Alel",
+            "Kodon"
+        ],
+        "explanation": "Geni su osnovne nasljedne jedinice koje određuju biološke osobine organizma.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Kako se naziva teorija o nastanku svemira koja sugerira da je svemir započeo kao vrlo vruća, gusta točka i otada se širi?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija stabilnog stanja",
+            "Teorija oscilirajućeg svemira",
+            "Teorija inflacije"
+        ],
+        "explanation": "Teorija Velikog praska je dominantni kozmološki model za nastanak i rani razvoj svemira.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji pojam opisuje kemijsku reakciju u kojoj se iz molekule uklanja vodik, ili se molekuli dodaje kisik, što često uključuje gubitak elektrona?",
+        "correct_answer": "Oksidacija",
+        "incorrect_answers": [
+            "Redukcija",
+            "Neutralizacija",
+            "Hidroliza"
+        ],
+        "explanation": "Oksidacija je proces gubitka elektrona ili povećanja oksidacijskog broja atoma, često vezan uz reakcije s kisikom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji protokol se prvenstveno koristi za siguran prijenos web stranica preko interneta, osiguravajući enkripciju podataka?",
+        "correct_answer": "HTTPS",
+        "incorrect_answers": [
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) je sigurna verzija HTTP-a, koristeći SSL/TLS za enkripciju komunikacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja je jedinica za mjerenje otpora u električnom krugu?",
+        "correct_answer": "Om",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Vat"
+        ],
+        "explanation": "Om (Ω) je jedinica električnog otpora, a definiran je Ohmovim zakonom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se naziva putanja kojom se nebesko tijelo giba oko drugog nebeskog tijela pod utjecajem gravitacije?",
+        "correct_answer": "Orbita",
+        "incorrect_answers": [
+            "Trajektorija",
+            "Ekliptika",
+            "Apogej"
+        ],
+        "explanation": "Orbita je zakrivljeni put nekog objekta oko točke ili drugog objekta, pod utjecajem gravitacije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji je naziv za proces spajanja kisika s drugom tvari, često uz oslobađanje topline i svjetlosti (npr. gorenje)?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Korozija",
+            "Vrenje",
+            "Fermentacija"
+        ],
+        "explanation": "Izgaranje je kemijska reakcija, obično oksidacija, u kojoj goriva tvar reagira s oksidansom, oslobađajući energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja je metoda pohrane podataka koja koristi električne signale za snimanje informacija na magnetske ili optičke medije?",
+        "correct_answer": "Digitalna pohrana",
+        "incorrect_answers": [
+            "Analogna pohrana",
+            "Kvantna pohrana",
+            "Molekularna pohrana"
+        ],
+        "explanation": "Digitalna pohrana pretvara podatke u binarne kodove (0 i 1) koji se mogu zapisati i čitati elektronički.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva pojava kada se valovi (npr. svjetlost ili zvuk) šire iza prepreke ili prolaze kroz otvor, mijenjajući svoj smjer?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Refrakcija",
+            "Interferencija"
+        ],
+        "explanation": "Difrakcija je pojava savijanja valova oko prepreka ili kroz otvore, što dovodi do njihovog širenja u područje geometrijske sjene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koji pojam opisuje raznolikost života na Zemlji na svim razinama, od gena do ekosustava?",
+        "correct_answer": "Bioraznolikost",
+        "incorrect_answers": [
+            "Biomasa",
+            "Bioetika",
+            "Biogeografija"
+        ],
+        "explanation": "Bioraznolikost je ukupnost svih gena, vrsta i ekosustava na određenom području ili na Zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koja vrsta organske reakcije uključuje spajanje malih molekula (monomera) u dugi lanac (polimer)?",
+        "correct_answer": "Polimerizacija",
+        "incorrect_answers": [
+            "Hidrogenacija",
+            "Destilacija",
+            "Fermentacija"
+        ],
+        "explanation": "Polimerizacija je kemijski proces u kojem se monomerni molekuli kemijski vežu kako bi formirali polimerne lance ili mreže.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Kako se naziva specijalizirani program koji pretražuje i indeksira web stranice kako bi ih korisnici lakše pronašli putem tražilica?",
+        "correct_answer": "Web crawler (ili spider)",
+        "incorrect_answers": [
+            "Firewall",
+            "Router",
+            "Compiler"
+        ],
+        "explanation": "Web crawleri automatski pregledavaju internet i prikupljaju informacije za baze podataka tražilica.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koja se fizikalna veličina mjeri u džulima (J) i predstavlja sposobnost obavljanja rada?",
+        "correct_answer": "Energija",
+        "incorrect_answers": [
+            "Snaga",
+            "Tlak",
+            "Impuls"
+        ],
+        "explanation": "Energija je skalarna fizikalna veličina koja opisuje sposobnost nekog sustava da izvrši rad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja se skupina zvijezda pojavljuje kao prepoznatljiv uzorak na noćnom nebu i često se koristi za navigaciju?",
+        "correct_answer": "Konstelacija (Zviježđe)",
+        "incorrect_answers": [
+            "Galaksija",
+            "Maglica",
+            "Kvazar"
+        ],
+        "explanation": "Konstelacija je skupina zvijezda koje, gledano sa Zemlje, tvore određeni oblik ili uzorak.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji je naziv za grupu tvari koje imaju pH vrijednost manju od 7 i oslobađaju vodikove ione u otopini?",
+        "correct_answer": "Kiseline",
+        "incorrect_answers": [
+            "Baze",
+            "Soli",
+            "Otopine"
+        ],
+        "explanation": "Kiseline su tvari koje doniraju protone (H⁺ ione) ili prihvaćaju elektronske parove. Mjere se na pH skali.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji pojam u računarstvu označava algoritam koji transformira podatke na takav način da postanu nečitljivi bez posebnog ključa?",
+        "correct_answer": "Enkripcija (Šifriranje)",
+        "incorrect_answers": [
+            "Kompresija",
+            "Dekripcija",
+            "Hashiranje"
+        ],
+        "explanation": "Enkripcija je proces pretvaranja informacija u siguran kod kako bi se spriječio neautorizirani pristup.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2351",
+        "category": "znanost",
+        "question": "Kako se naziva pretvaranje izmjenične struje (AC) u istosmjernu struju (DC)?",
+        "correct_answer": "Ispravljanje (Rectifikacija)",
+        "incorrect_answers": [
+            "Transformacija",
+            "Indukcija",
+            "Amplikacija"
+        ],
+        "explanation": "Ispravljanje je proces pretvaranja izmjenične električne struje u istosmjernu, obično pomoću dioda.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
