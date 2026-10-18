@@ -25139,5 +25139,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "U kojem se planinskom lancu nalazi najviši vrh svijeta, Mount Everest?",
+        "correct_answer": "Himalaja",
+        "incorrect_answers": [
+            "Ande",
+            "Stjenjak",
+            "Alpe"
+        ],
+        "explanation": "Mount Everest je najviši vrh Zemlje i dio je planinskog lanca Himalaja, koji se proteže kroz Aziju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalazi pustinja Sahara?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Australija",
+            "Južna Amerika"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, smještena u sjevernoj Africi. Pokriva velika područja kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "U koje se more ulijeva rijeka Dunav, druga najduža rijeka u Europi?",
+        "correct_answer": "Crno more",
+        "incorrect_answers": [
+            "Jadransko more",
+            "Sredozemno more",
+            "Baltičko more"
+        ],
+        "explanation": "Dunav izvire u Schwarzwaldu u Njemačkoj i nakon protoka kroz deset zemalja ulijeva se u Crno more.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koje su karakteristike mediteranske klime?",
+        "correct_answer": "Vruća i suha ljeta, blage i vlažne zime",
+        "incorrect_answers": [
+            "Hladna ljeta i snježne zime",
+            "Ujednačene temperature tijekom cijele godine",
+            "Obilne padaline u svim godišnjim dobima"
+        ],
+        "explanation": "Mediteranska klima je subtropska klima s karakterističnim suhim i toplim ljetima te vlažnim i blagim zimama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Na obali koje države se nalazi Veliki koraljni greben (Great Barrier Reef)?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Meksiko"
+        ],
+        "explanation": "Veliki koraljni greben je najveći sustav koraljnih grebena na svijetu i nalazi se uz obalu Queenslanda u Australiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Kroz koliko kontinenata prolazi ekvator?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Ekvator prolazi kroz Južnu Ameriku (Ekvador, Kolumbija, Brazil), Afriku (Gabon, Kongo, DR Kongo, Uganda, Kenija, Somalija) i Aziju (Indonezija).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koje more zapljuskuje zapadne obale Balkanskog poluotoka?",
+        "correct_answer": "Jadransko more",
+        "incorrect_answers": [
+            "Crno more",
+            "Egejsko more",
+            "Jonsko more"
+        ],
+        "explanation": "Jadransko more je dio Sredozemnog mora koje se nalazi između Apeninskog i Balkanskog poluotoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "U koji ocean se ulijeva rijeka Amazon, rijeka s najvećim protokom vode na svijetu?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Tihi ocean",
+            "Indijski ocean",
+            "Južni ocean"
+        ],
+        "explanation": "Rijeka Amazon, najduža rijeka u Južnoj Americi, svoj tok završava ulijevajući se u Atlantski ocean.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Što je glavni uzrok potresa i vulkanske aktivnosti na Zemlji?",
+        "correct_answer": "Kretanje tektonskih ploča",
+        "incorrect_answers": [
+            "Promjene u Zemljinoj orbiti",
+            "Utjecaj Mjeseca",
+            "Zemljina rotacija"
+        ],
+        "explanation": "Većina potresa i vulkanskih erupcija događa se duž granica tektonskih ploča koje se neprestano kreću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja je osnovna svrha Griničkog meridijana (Prime Meridian)?",
+        "correct_answer": "Referentna točka za mjerenje zemljopisne dužine i vremenskih zona",
+        "incorrect_answers": [
+            "Granica između kontinenata",
+            "Najduži meridijan na svijetu",
+            "Linija koja označava magnetski pol"
+        ],
+        "explanation": "Grinički meridijan je nulta točka za mjerenje zemljopisne dužine i dijeli istočnu od zapadne polutke Zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Kako se naziva sezonski vjetar koji donosi obilne padaline u dijelovima Azije, posebno Indije?",
+        "correct_answer": "Monsun",
+        "incorrect_answers": [
+            "Bura",
+            "Mistral",
+            "Scirocco"
+        ],
+        "explanation": "Monsun je sezonski vjetar koji mijenja smjer ovisno o godišnjem dobu, donoseći vlažan zrak i obilne kiše ljeti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi poznata planina Fuji, simbol zemlje?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Planina Fuji je aktivni stratovulkan i najviša planina Japana, prepoznatljiv po svom gotovo savršeno simetričnom stošcu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je posebnost Mrtvog mora?",
+        "correct_answer": "Izuzetno visok salinitet",
+        "incorrect_answers": [
+            "Najdublje jezero na svijetu",
+            "Jezero bez riba",
+            "Jezero s najnižom temperaturom vode"
+        ],
+        "explanation": "Mrtvo more ima izuzetno visok udio soli, što mu daje veliku gustoću i omogućuje plutanje na površini vode.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalazi sustav Velikih jezera (Superior, Huron, Michigan, Erie, Ontario)?",
+        "correct_answer": "Sjeverna Amerika",
+        "incorrect_answers": [
+            "Europa",
+            "Azija",
+            "Afrika"
+        ],
+        "explanation": "Velika jezera su niz međusobno povezanih slatkovodnih jezera koja se nalaze na granici SAD-a i Kanade u Sjevernoj Americi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "U kojem smjeru uglavnom teče rijeka Nil?",
+        "correct_answer": "Sjever",
+        "incorrect_answers": [
+            "Jug",
+            "Istok",
+            "Zapad"
+        ],
+        "explanation": "Nil je najduža rijeka u Africi koja teče od izvora na jugu prema Sredozemnom moru na sjeveru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva uski kopneni pojas koji spaja dvije veće kopnene mase i razdvaja dva mora ili oceana?",
+        "correct_answer": "Zemljouz (prevlaka)",
+        "incorrect_answers": [
+            "Poluotok",
+            "Arhipelag",
+            "Delta"
+        ],
+        "explanation": "Zemljouz ili prevlaka je uska kopnena masa koja spaja dva veća kopna i razdvaja dva vodena tijela, poput Panamskog zemljouza.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja vrsta vegetacije dominira u stepskim područjima?",
+        "correct_answer": "Trave",
+        "incorrect_answers": [
+            "Četinjače",
+            "Širokolisne šume",
+            "Grmlje otporno na sušu"
+        ],
+        "explanation": "Stepe su prostrane ravnice karakteristične po suhoj klimi i prevladavajućoj niskoj travnatoj vegetaciji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi pustinja Atacama, jedno od najsuših mjesta na Zemlji?",
+        "correct_answer": "Čile",
+        "incorrect_answers": [
+            "Peru",
+            "Argentina",
+            "Bolivija"
+        ],
+        "explanation": "Pustinja Atacama nalazi se duž pacifičke obale Južne Amerike, većinom unutar Čilea, te je poznata po ekstremnoj suhoći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Australije?",
+        "correct_answer": "Canberra",
+        "incorrect_answers": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane"
+        ],
+        "explanation": "Canberra je glavni grad Australije, iako je po veličini manji od Sydneya i Melbournea.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja dva mora ili oceana povezuje Gibraltarski tjesnac?",
+        "correct_answer": "Sredozemno more i Atlantski ocean",
+        "incorrect_answers": [
+            "Crveno more i Indijski ocean",
+            "Sjeverno more i Atlantski ocean",
+            "Baltičko more i Sjeverno more"
+        ],
+        "explanation": "Gibraltarski tjesnac je uski morski prolaz koji razdvaja Europu i Afriku te povezuje Sredozemno more s Atlantskim oceanom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se zove superkontinent koji je postojao prije otprilike 335 milijuna godina?",
+        "correct_answer": "Pangea",
+        "incorrect_answers": [
+            "Gondwana",
+            "Laurazija",
+            "Rodinija"
+        ],
+        "explanation": "Pangea je bila superkontinent koji je postojao u paleozoiku i mezozoiku, prije nego što se razdvojio na današnje kontinente.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji veliki geološki rasjedni sustav prolazi kroz istočnu Afriku?",
+        "correct_answer": "Velika rasjedna dolina (Great Rift Valley)",
+        "incorrect_answers": [
+            "Andski rasjed",
+            "San Andreas rasjed",
+            "Himalajski rasjed"
+        ],
+        "explanation": "Velika rasjedna dolina je ogroman geološki sustav dolina i rasjeda koji se proteže od Libanona na sjeveru do Mozambika na jugu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koje je jezero u središnjoj Aziji poznato po značajnom smanjenju površine posljednjih desetljeća?",
+        "correct_answer": "Aralsko jezero",
+        "incorrect_answers": [
+            "Bajkalsko jezero",
+            "Kaspijsko jezero",
+            "Jezero Balhaš"
+        ],
+        "explanation": "Aralsko jezero se drastično smanjilo zbog preusmjeravanja rijeka koje su ga hranile za potrebe navodnjavanja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji prirodni fenomen uzrokuje pojavu polarne svjetlosti (aurora borealis)?",
+        "correct_answer": "Interakcija solarnih čestica s magnetskim poljem Zemlje",
+        "incorrect_answers": [
+            "Zemljina rotacija",
+            "Odbijanje svjetlosti od oblaka",
+            "Vulkanizmi ispod polarnog leda"
+        ],
+        "explanation": "Polarna svjetlost nastaje kada električno nabijene čestice sa Sunca udare u Zemljinu atmosferu i reagiraju s plinovima u njoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koji je vulkan poznat po katastrofalnoj erupciji 1883. godine, koja je uzrokovala globalne klimatske promjene?",
+        "correct_answer": "Krakatau",
+        "incorrect_answers": [
+            "Vezuv",
+            "Stromboli",
+            "Etna"
+        ],
+        "explanation": "Erupcija vulkana Krakatau na otočju u Indoneziji 1883. godine bila je jedna od najsmrtonosnijih i najjačih zabilježenih u povijesti.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Kako nastaju fjordovi?",
+        "correct_answer": "Ledenjačkom erozijom dolina",
+        "incorrect_answers": [
+            "Tektonskim pomicanjem ploča",
+            "Vulkanskim erupcijama",
+            "Riječnom erozijom"
+        ],
+        "explanation": "Fjordovi su uski, duboki i strmi morski zaljevi, nastali uranjanjem u more riječnih dolina koje su oblikovali ledenjaci.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva produžetak kopna pod morem, relativno plitak i blago nagnut?",
+        "correct_answer": "Kontinentalna polica (šelf)",
+        "incorrect_answers": [
+            "Oceanska brazda",
+            "Podmorski kanjon",
+            "Abisalna ravnica"
+        ],
+        "explanation": "Kontinentalna polica je podvodni produžetak kopnenog kontinenta koji se blago spušta prije nego što strmo padne u oceansku dubinu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva astronomski događaj kada Sunce doseže svoju najveću ili najmanju deklinaciju?",
+        "correct_answer": "Solsticij",
+        "incorrect_answers": [
+            "Ekvinocij",
+            "Apsid",
+            "Perigej"
+        ],
+        "explanation": "Solsticij je trenutak u godini kada je Sunce najdalje od ekvatora, što rezultira najdužim ili najkraćim danom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koja vrsta sedimenta nastaje taloženjem fine prašine koju prenosi vjetar, često formirajući plodno tlo?",
+        "correct_answer": "Les",
+        "incorrect_answers": [
+            "Pijesak",
+            "Šljunak",
+            "Glina"
+        ],
+        "explanation": "Les je vjetrom doneseni prapor, izuzetno plodan sediment koji pokriva goleme površine, posebno u Kini i dijelovima Europe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Koju veliku kopnenu državu presijeca Transsibirska željeznica, povezujući njezine istočne i zapadne dijelove?",
+        "correct_answer": "Rusija",
+        "incorrect_answers": [
+            "Kina",
+            "Kanada",
+            "SAD"
+        ],
+        "explanation": "Transsibirska željeznica najduža je željeznička pruga na svijetu i prolazi kroz cijelu Rusiju, povezujući Moskvu s Vladivostokom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "U kojem se oceanu nalazi famozni Bermudski trokut?",
+        "correct_answer": "Atlantski ocean",
+        "incorrect_answers": [
+            "Tihi ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Bermudski trokut je područje u zapadnom dijelu sjevernog Atlantskog oceana gdje su se navodno događali neobjašnjivi nestanci zrakoplova i brodova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2014",
+        "category": "geografija",
+        "question": "Kako se naziva područje oko Tihog oceana poznato po intenzivnoj seizmičkoj i vulkanskoj aktivnosti?",
+        "correct_answer": "Pacifički vatreni pojas",
+        "incorrect_answers": [
+            "Atlantidski pojas",
+            "Indijski bazen",
+            "Srednjoatlantski hrbat"
+        ],
+        "explanation": "Pacifički vatreni pojas je zona čestih potresa i vulkanskih erupcija koja okružuje Tihi ocean, rezultat kretanja tektonskih ploča.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2015",
+        "category": "geografija",
+        "question": "U kojem se planinskom lancu nalazi planina K2, drugi najviši vrh svijeta?",
+        "correct_answer": "Karakorum",
+        "incorrect_answers": [
+            "Himalaja",
+            "Ande",
+            "Alpe"
+        ],
+        "explanation": "K2, poznat i kao Mount Godwin Austen, drugi je najviši vrh na Zemlji i nalazi se u planinskom lancu Karakorum, dijelu Himalaje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2016",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi prvi nacionalni park na svijetu, Yellowstone?",
+        "correct_answer": "Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Kanada",
+            "Australija",
+            "Novi Zeland"
+        ],
+        "explanation": "Yellowstone je prvi nacionalni park na svijetu, osnovan 1872. godine, i nalazi se u zapadnom dijelu Sjedinjenih Američkih Država.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2017",
+        "category": "geografija",
+        "question": "Koja je glavna karakteristika vegetacije u tundri?",
+        "correct_answer": "Mahovine, lišajevi i nisko raslinje",
+        "incorrect_answers": [
+            "Visoke tropske šume",
+            "Guste četinjače",
+            "Širokolisne listopadne šume"
+        ],
+        "explanation": "Tundra je biome karakterističan za hladna područja, s permafrostom koji sprječava rast visokog drveća, pa prevladavaju mahovine i nisko raslinje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2018",
+        "category": "geografija",
+        "question": "U kojem se oceanu nalazi Marijanska brazda, najdublja točka svjetskih oceana?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Južni ocean"
+        ],
+        "explanation": "Marijanska brazda, koja uključuje Challenger Deep, najdublja je oceanska brazda i nalazi se u zapadnom dijelu Tihog oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2019",
+        "category": "geografija",
+        "question": "Koja dva mora povezuje Sueski kanal?",
+        "correct_answer": "Crveno more i Sredozemno more",
+        "incorrect_answers": [
+            "Baltičko more i Sjeverno more",
+            "Jadransko more i Jonsko more",
+            "Crno more i Egejsko more"
+        ],
+        "explanation": "Sueski kanal je umjetni plovni kanal u Egiptu koji povezuje Sredozemno more s Crvenim morem, omogućujući plovidbu između Europe i Azije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2020",
+        "category": "geografija",
+        "question": "U kojoj se američkoj saveznoj državi nalazi Veliko slano jezero?",
+        "correct_answer": "Utah",
+        "incorrect_answers": [
+            "Nevada",
+            "Arizona",
+            "Kalifornija"
+        ],
+        "explanation": "Veliko slano jezero je najveće slano jezero na zapadnoj hemisferi, smješteno u saveznoj državi Utah u SAD-u.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
