@@ -32151,5 +32151,530 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad na terenu u nogometu?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "9",
+            "10",
+            "12"
+        ],
+        "explanation": "Nogometna utakmica se igra s dvije momčadi, svaka s jedanaest igrača, uključujući jednog vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaški klub osvojio Euroligu (tadašnji Kup prvaka) tri puta zaredom krajem 80-ih i početkom 90-ih?",
+        "correct_answer": "Jugoplastika (kasnije Pop 84)",
+        "incorrect_answers": [
+            "Cibona",
+            "Zadar",
+            "Partizan"
+        ],
+        "explanation": "KK Jugoplastika iz Splita, kasnije poznata kao Pop 84, osvojila je tri uzastopna naslova europskog prvaka od 1989. do 1991. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Na kojoj podlozi se igra Grand Slam turnir Roland Garros?",
+        "correct_answer": "Zemljana podloga (crvena zemlja)",
+        "incorrect_answers": [
+            "Trava",
+            "Tvrda podloga",
+            "Beton"
+        ],
+        "explanation": "Roland Garros, također poznat kao French Open, jedini je Grand Slam turnir koji se igra na zemljanim terenima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koliko disciplina obuhvaća ženski sedmoboj u atletici?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Pet",
+            "Šest",
+            "Osam"
+        ],
+        "explanation": "Sedmoboj je kombinirana atletska disciplina za žene koja se sastoji od sedam različitih natjecanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Koliko puta je hrvatska muška rukometna reprezentacija osvojila Svjetsko prvenstvo (stanje 2024.)?",
+        "correct_answer": "Jednom",
+        "incorrect_answers": [
+            "Dva puta",
+            "Tri puta",
+            "Nikada"
+        ],
+        "explanation": "Hrvatska je osvojila Svjetsko prvenstvo u rukometu jednom, 2003. godine u Portugalu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koji je jedini plivački stil u kojem je dopušteno disati pod vodom (odnosno ne izranjati glavu iz vode pri svakom zamahu) na startu i nakon okreta?",
+        "correct_answer": "Leđno",
+        "incorrect_answers": [
+            "Slobodno",
+            "Prsno",
+            "Delfin"
+        ],
+        "explanation": "U plivanju leđno plivači mogu disati pod vodom na startu i nakon okreta dok ne prođu 15 metara, bez izronjavanja glave.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kako se naziva glavni sudac u boksu koji je u ringu s borcima?",
+        "correct_answer": "Ringsudac (eng. referee)",
+        "incorrect_answers": [
+            "Bodovni sudac",
+            "Vremenar",
+            "Trener"
+        ],
+        "explanation": "Ringsudac je odgovoran za nadzor borbe unutar ringa i provođenje pravila, osiguravajući sigurnost boraca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Kako se naziva rezultat jednog udarca ispod para (Par) na golf rupi?",
+        "correct_answer": "Birdie",
+        "incorrect_answers": [
+            "Eagle",
+            "Bogey",
+            "Albatross"
+        ],
+        "explanation": "Birdie je izraz u golfu koji označava da je igrač završio rupu jednim udarcem ispod propisanog 'Par' broja udaraca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koliko igrača se nalazi na terenu u jednoj momčadi tijekom odbojkaške utakmice?",
+        "correct_answer": "Šest",
+        "incorrect_answers": [
+            "Pet",
+            "Sedam",
+            "Četiri"
+        ],
+        "explanation": "Svaka momčad u odbojci ima šest igrača na terenu u svakom trenutku igre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Kako se naziva najviši rang u judu, prikazan crnim pojasom?",
+        "correct_answer": "Dan",
+        "incorrect_answers": [
+            "Kyu",
+            "Sensei",
+            "Dojo"
+        ],
+        "explanation": "Sustav rangiranja u judu uključuje 'kyu' (niži, obojeni pojasevi) i 'dan' (viši, crni pojasevi i više).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koja boja majice označava vozača s ukupnim najboljim vremenom na Tour de Franceu?",
+        "correct_answer": "Žuta majica (Maillot Jaune)",
+        "incorrect_answers": [
+            "Zelena majica",
+            "Točkasta majica",
+            "Bijela majica"
+        ],
+        "explanation": "Žuta majica se dodjeljuje vozaču koji ima najkraće ukupno vrijeme (generalni plasman) na Tour de Franceu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koji dio veslačkog čamca služi za stabilizaciju i usmjeravanje?",
+        "correct_answer": "Kormilo",
+        "incorrect_answers": [
+            "Klupa",
+            "Nogara",
+            "Veslo"
+        ],
+        "explanation": "Kormilo je upravljački uređaj smješten na krmi čamca, koristi se za promjenu smjera.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Kako se naziva osoba koja jaše konja u konjskim utrkama?",
+        "correct_answer": "Džokej",
+        "incorrect_answers": [
+            "Jahač",
+            "Kočijaš",
+            "Trener"
+        ],
+        "explanation": "Džokej je profesionalni jahač obučen za natjecanje u konjskim utrkama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koliko setova (gemova) se obično igra u stolnom tenisu na velikim natjecanjima (npr. do tri dobivena seta)?",
+        "correct_answer": "Pet ili sedam",
+        "incorrect_answers": [
+            "Tri",
+            "Devet",
+            "Jedanaest"
+        ],
+        "explanation": "Na međunarodnim natjecanjima, mečevi se često igraju do tri dobivena seta (od pet) ili do četiri dobivena seta (od sedam).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koja gimnastička sprava se koristi isključivo u muškoj sportskoj gimnastici?",
+        "correct_answer": "Krukovi (eng. Still Rings)",
+        "incorrect_answers": [
+            "Greda",
+            "Preskok",
+            "Parter"
+        ],
+        "explanation": "Krukovi su sprava koja se koristi samo u muškoj sportskoj gimnastici, a zahtijeva izvanrednu snagu gornjeg dijela tijela.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koliko bodova vrijedi 'touchdown' u američkom nogometu?",
+        "correct_answer": "6 bodova",
+        "incorrect_answers": [
+            "3 boda",
+            "7 bodova",
+            "1 bod"
+        ],
+        "explanation": "Touchdown je primarni način postizanja bodova u američkom nogometu i vrijedi 6 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koliko igrača (uključujući vratara) smije biti u vodi za jednu momčad u vaterpolu?",
+        "correct_answer": "Sedam",
+        "incorrect_answers": [
+            "Šest",
+            "Osam",
+            "Pet"
+        ],
+        "explanation": "Svaka momčad u vaterpolu ima šest igrača u polju i jednog vratara, što čini ukupno sedam igrača u vodi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koja je najlakša od tri oružja u sportskom mačevanju?",
+        "correct_answer": "Floret",
+        "incorrect_answers": [
+            "Sablja",
+            "Mač",
+            "Koplje"
+        ],
+        "explanation": "Floret je najlakše oružje s fleksibilnom oštricom, a pogodak se boduje samo vrhom na trupu protivnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koliko je maksimalan broj bodova koji se može postići jednim bacanjem tri strelice u pikadu (stanje 2024.)?",
+        "correct_answer": "180",
+        "incorrect_answers": [
+            "150",
+            "200",
+            "Bullseye"
+        ],
+        "explanation": "Maksimalan rezultat postiže se bacanjem tri strelice u \"trostruki 20\", što rezultira s 3 x 60 = 180 bodova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Kako se naziva igrač koji baca lopticu (eng. bowls) prema udaraču u kriketu?",
+        "correct_answer": "Bowler",
+        "incorrect_answers": [
+            "Batsman",
+            "Fielder",
+            "Wicketkeeper"
+        ],
+        "explanation": "Bowler je igrač koji s kraja \"pitcha\" baca loptu prema \"batsmanu\", s ciljem da sruši \"wicket\" ili ograniči bodove.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koliko bodova donosi \"polaganje\" (try) u ragbiju?",
+        "correct_answer": "5 bodova",
+        "incorrect_answers": [
+            "3 boda",
+            "7 bodova",
+            "2 boda"
+        ],
+        "explanation": "Polaganje (try) je osnovni način postizanja bodova u ragbiju i donosi 5 bodova, s mogućnošću dodatnih pretvaranja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koliko je standardnih krugova na olimpijskoj stazi za brzo klizanje?",
+        "correct_answer": "400 metara",
+        "incorrect_answers": [
+            "200 metara",
+            "500 metara",
+            "333.33 metara"
+        ],
+        "explanation": "Standardna veličina olimpijskog ovala za brzo klizanje je 400 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko je maksimalan broj bodova koji igrač može postići u jednom 'frejmu' snookera bez da protivnik napravi prekršaj (stanje 2024.)?",
+        "correct_answer": "147",
+        "incorrect_answers": [
+            "135",
+            "155",
+            "163"
+        ],
+        "explanation": "Maksimalan break (niz bodova) od 147 postiže se ubacivanjem svake crvene kugle, zatim crne, pa svih obojenih kugli.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Kako se naziva igrač koji stoji iza udarača i hvata loptu koju baca bacač u baseballu?",
+        "correct_answer": "Hvatač (eng. Catcher)",
+        "incorrect_answers": [
+            "Bacač",
+            "Baseman",
+            "Udarač"
+        ],
+        "explanation": "Hvatač je ključni obrambeni igrač koji radi s bacačem i signalizira mu bacanja, te hvata loptu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "Koja je jedina disciplina u umjetničkom klizanju u kojoj se ne izvode skokovi?",
+        "correct_answer": "Ples na ledu",
+        "incorrect_answers": [
+            "Pojedinačno klizanje",
+            "Klizanje u parovima",
+            "Sinkronizirano klizanje"
+        ],
+        "explanation": "Ples na ledu se fokusira na ritam, ekspresiju i složene korake, a skokovi nisu dopušteni.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Koliko je udaljena meta od strijelca u olimpijskom streličarstvu?",
+        "correct_answer": "70 metara",
+        "incorrect_answers": [
+            "50 metara",
+            "90 metara",
+            "30 metara"
+        ],
+        "explanation": "U olimpijskom streličarstvu, strijelci gađaju mete s udaljenosti od 70 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koliko bodova je potrebno za osvajanje jednog seta u badmintonu (uz minimalnu razliku od dva boda)?",
+        "correct_answer": "21 bod",
+        "incorrect_answers": [
+            "15 bodova",
+            "25 bodova",
+            "11 bodova"
+        ],
+        "explanation": "Set u badmintonu se osvaja kada momčad dosegne 21 bod s minimalnom prednošću od dva boda.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Kako se naziva daska za surfanje koja je obično kraća i pogodnija za brze manevre na velikim valovima?",
+        "correct_answer": "Shortboard",
+        "incorrect_answers": [
+            "Longboard",
+            "Funboard",
+            "Paddleboard"
+        ],
+        "explanation": "Shortboardi su dizajnirani za agilnost i brze, radikalne pokrete na strmim i brzim valovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koliko kugli (bez bijele) se koristi u standardnoj igri bilijara \"Osmica\" (Eight-ball pool)?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "10",
+            "16",
+            "22"
+        ],
+        "explanation": "U \"Osmici\" se koristi 15 numeriranih kugli (7 punih, 7 šarenih i 1 crna) plus bijela kugla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Kako se naziva tehnika skijaških skokova u kojoj skakač drži skije u V-poziciji?",
+        "correct_answer": "V-stil",
+        "incorrect_answers": [
+            "Paralelni stil",
+            "Deltastil",
+            "A-stil"
+        ],
+        "explanation": "V-stil, koji je popularizirao Jan Boklöv, omogućuje veći otpor zraka i dulje skokove, te je danas standardna tehnika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Kako se naziva tradicionalna japanska odjeća koja se nosi u karateu i drugim borilačkim vještinama?",
+        "correct_answer": "Kimono (ili Gi)",
+        "incorrect_answers": [
+            "Hakama",
+            "Yukata",
+            "Obi"
+        ],
+        "explanation": "Kimono (češće se u borilačkim vještinama naziva Gi) je uniforma koju borci nose tijekom treninga i natjecanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koja je najveća visina olimpijskog tornja za skokove u vodu?",
+        "correct_answer": "10 metara",
+        "incorrect_answers": [
+            "5 metara",
+            "7.5 metara",
+            "12 metara"
+        ],
+        "explanation": "Olimpijski toranj za skokove u vodu ima platforme na visinama od 10, 7.5, 5, 3 i 1 metar, s 10 metara kao najvišom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koji dio tijela se najčešće koristi za napade u taekwondou?",
+        "correct_answer": "Noge (udarci nogom)",
+        "incorrect_answers": [
+            "Ruke (udarci šakom)",
+            "Laktovi",
+            "Koljena"
+        ],
+        "explanation": "Taekwondo je korejska borilačka vještina koja se prvenstveno fokusira na snažne i brze udarce nogama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koja je najlakša muška težinska kategorija u UFC-u (stanje 2024.)?",
+        "correct_answer": "Muha kategorija (Flyweight)",
+        "incorrect_answers": [
+            "Bantam kategorija",
+            "Pero kategorija",
+            "Slamka kategorija"
+        ],
+        "explanation": "Muha kategorija u UFC-u obuhvaća borce do 125 funti (56,7 kg), što je najlakša muška divizija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Kako se naziva sportsko jedrenje u kojem se jahte natječu kružnim stazama označenim bovama?",
+        "correct_answer": "Regata",
+        "incorrect_answers": [
+            "Kruženje",
+            "Kup",
+            "Flota"
+        ],
+        "explanation": "Regata je organizirano natjecanje u jedrenju koje se odvija na određenoj stazi s točno definiranim pravilima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
