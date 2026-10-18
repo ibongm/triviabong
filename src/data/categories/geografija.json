@@ -25139,5 +25139,440 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je država poznata po klokanima, koalama i bumeranzima?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Južna Afrika",
+            "Indonezija"
+        ],
+        "explanation": "Australija je jedini kontinent koji je ujedno i država, a te su životinje i predmeti autohtoni za njezino područje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koji je najnaseljeniji kontinent na svijetu?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija je najveći i najnaseljeniji kontinent, dom za preko 4,7 milijardi ljudi, što čini preko 60% svjetske populacije (stanje 2023.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je europski grad poznat pod nadimkom \"Vječni grad\"?",
+        "correct_answer": "Rim",
+        "incorrect_answers": [
+            "Atena",
+            "Pariz",
+            "Istanbul"
+        ],
+        "explanation": "Rim se često naziva \"Vječnim gradom\" zbog svoje duge i bogate povijesti koja seže preko 2500 godina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva zamišljena linija koja dijeli Zemlju na sjevernu i južnu polutku?",
+        "correct_answer": "Ekvator",
+        "incorrect_answers": [
+            "Meridijan",
+            "Nulti meridijan",
+            "Tropik Raka"
+        ],
+        "explanation": "Ekvator je zamišljena kružnica na površini Zemlje, jednako udaljena od Sjevernog i Južnog pola, koja definira geografsku širinu 0°.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja je najveća država Južne Amerike po površini i broju stanovnika?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Peru",
+            "Kolumbija"
+        ],
+        "explanation": "Brazil je najveća zemlja u Južnoj Americi, zauzima gotovo polovicu kontinenta i dom je za više od 215 milijuna ljudi (stanje 2022.).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji je jedan od najprepoznatljivijih simbola Pariza i Francuske?",
+        "correct_answer": "Eiffelov toranj",
+        "incorrect_answers": [
+            "Brandenburška vrata",
+            "Kolosej",
+            "Buckinghamska palača"
+        ],
+        "explanation": "Eiffelov toranj je željezna konstrukcija izgrađena za Svjetsku izložbu 1889. godine i postao je globalna kulturna ikona Francuske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja je najduža rijeka na svijetu?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Amazona",
+            "Mississippi",
+            "Jangce"
+        ],
+        "explanation": "Rijeku Nil tradicionalno se smatra najdužom rijekom na svijetu s otprilike 6.650 km. Neke studije navode Amazonu kao dulju, ali to je predmet debate.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja na svijetu po površini, izuzev polarnih regija?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Gobi",
+            "Atacama",
+            "Arapska pustinja"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokriva veliki dio sjeverne Afrike i prostire se na više od 9 milijuna km².",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koji ocean u potpunosti okružuje kontinent Antarktiku?",
+        "correct_answer": "Južni ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Tihi ocean"
+        ],
+        "explanation": "Južni ocean je najmlađi imenovani ocean, službeno priznat 2000. godine, te okružuje Antarktiku južno od 60° južne geografske širine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji je ocean najdublji na svijetu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean je najveći i najdublji ocean na Zemlji, a u njemu se nalazi Marijanska brazda, najdublja točka na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po drevnim piramidama Maja i Asteka?",
+        "correct_answer": "Meksiko",
+        "incorrect_answers": [
+            "Peru",
+            "Brazil",
+            "Kolumbija"
+        ],
+        "explanation": "Meksiko je dom brojnim impresivnim arheološkim nalazištima, uključujući Teotihuacan i Chichen Itza, s piramidama koje su gradile civilizacije Maja i Asteka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je najviši planinski vrh Afrike?",
+        "correct_answer": "Kilimanjaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Mount Stanley",
+            "Atlas"
+        ],
+        "explanation": "Kilimanjaro je neaktivni stratovulkan u Tanzaniji i najviša planina u Africi s tri vulkanska konusa.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koji je najuži morski tjesnac na svijetu, koji razdvaja Europu od Azije i poznat je po prometnoj Istanbulu?",
+        "correct_answer": "Bospor",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Gibraltar",
+            "Beringov tjesnac"
+        ],
+        "explanation": "Bospor je uski prirodni tjesnac i međunarodno važan plovni put u sjeverozapadnoj Turskoj, spaja Crno more s Mramornim morem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji je najviši planinski vrh u Alpama i zapadnoj Europi?",
+        "correct_answer": "Mont Blanc",
+        "incorrect_answers": [
+            "Grossglockner",
+            "Matterhorn",
+            "Elbrus"
+        ],
+        "explanation": "Mont Blanc se nalazi na granici Francuske i Italije i najviši je vrh Alpa s visinom od 4.808 metara nadmorske visine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je najdublji kanjon u Europi?",
+        "correct_answer": "Kanjon Tare",
+        "incorrect_answers": [
+            "Kanjon Neretve",
+            "Kanjon Cetine",
+            "Kanjon Vltava"
+        ],
+        "explanation": "Kanjon rijeke Tare, smješten u Crnoj Gori i Bosni i Hercegovini, najdublji je kanjon u Europi i drugi po dubini u svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva topla morska struja koja značajno utječe na klimu zapadne Europe, čineći je blažom?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Kanarska struja",
+            "Labradorska struja",
+            "Benguelska struja"
+        ],
+        "explanation": "Golfska struja je snažna, topla i brza oceanska struja koja prenosi toplu vodu iz Meksičkog zaljeva preko Atlantskog oceana prema Europi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se nazivaju stijene nastale hlađenjem i skrućivanjem magme ili lave?",
+        "correct_answer": "Magmatske stijene",
+        "incorrect_answers": [
+            "Sedimentne stijene",
+            "Metamorfne stijene",
+            "Kršne stijene"
+        ],
+        "explanation": "Magmatske stijene nastaju kristalizacijom magme unutar Zemljine kore (intruzivne) ili lave na površini (ekstruzivne).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja država, uz Kinu, dijeli najveći dio Himalaje i ima najviši vrh svijeta, Mount Everest, unutar svojih granica?",
+        "correct_answer": "Nepal",
+        "incorrect_answers": [
+            "Indija",
+            "Butan",
+            "Pakistan"
+        ],
+        "explanation": "Nepal se nalazi u središnjem dijelu Himalaje i dom je osam od četrnaest najviših vrhova svijeta, uključujući Mount Everest.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koje dvije države dijele najdužu kopnenu granicu na svijetu?",
+        "correct_answer": "Kanada i Sjedinjene Američke Države",
+        "incorrect_answers": [
+            "Rusija i Kina",
+            "SAD i Meksiko",
+            "Kina i Mongolija"
+        ],
+        "explanation": "Kopnena granica između Kanade i Sjedinjenih Američkih Država dugačka je oko 8.891 km, uključujući granicu s Aljaskom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja država na Bliskom istoku ima izlaz i na Crveno more i na Perzijski zaljev?",
+        "correct_answer": "Saudijska Arabija",
+        "incorrect_answers": [
+            "Egipat",
+            "Iran",
+            "Ujedinjeni Arapski Emirati"
+        ],
+        "explanation": "Saudijska Arabija se prostire od obala Crvenog mora na zapadu do Perzijskog zaljeva na istoku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koji je kontinent u potpunosti smješten na istočnoj polutki?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Afrika",
+            "Azija",
+            "Europa"
+        ],
+        "explanation": "Australija se nalazi između 113° i 153° istočne geografske dužine, što je u potpunosti unutar istočne polutke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji se planinski lanac smatra jednim od najstarijih na svijetu, smješten u Rusiji?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Alpe",
+            "Himalaja",
+            "Ande"
+        ],
+        "explanation": "Ural je planinski lanac koji se proteže od sjevera prema jugu kroz zapadnu Rusiju i smatra se jednom od najstarijih geoloških formacija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koji je najveći zaljev na svijetu po površini?",
+        "correct_answer": "Bengalski zaljev",
+        "incorrect_answers": [
+            "Meksički zaljev",
+            "Hudsonov zaljev",
+            "Veliki australski zaljev"
+        ],
+        "explanation": "Bengalski zaljev je najveći zaljev na svijetu, smješten između Indijskog potkontinenta i Indokine, dio Indijskog oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Sjevernoj Americi po broju stanovnika u širem gradskom području?",
+        "correct_answer": "Ciudad de México",
+        "incorrect_answers": [
+            "New York City",
+            "Los Angeles",
+            "Toronto"
+        ],
+        "explanation": "Ciudad de México ima populaciju od preko 22 milijuna ljudi u svom metropolitanskom području (stanje 2023.), što ga čini najvećim u Sjevernoj Americi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja država ima najdužu obalu na svijetu, uključujući sve otoke?",
+        "correct_answer": "Kanada",
+        "incorrect_answers": [
+            "Indonezija",
+            "Norveška",
+            "Australija"
+        ],
+        "explanation": "Kanada ima najdužu obalu na svijetu, proteže se na preko 243.042 kilometra, zahvaljujući brojnim otocima i arktičkom arhipelagu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja država, zbog svojih prekomorskih teritorija, ima najveći broj vremenskih zona?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Rusija",
+            "SAD",
+            "Kina"
+        ],
+        "explanation": "Francuska, uključujući svoje prekomorske posjede, obuhvaća 12 različitih vremenskih zona, više nego bilo koja druga zemlja na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Kako se naziva složeni oblik prividne atmosferske pojave, optičke iluzije, koja se javlja zbog temperaturnih inverzija?",
+        "correct_answer": "Fata morgana",
+        "incorrect_answers": [
+            "Aurora borealis",
+            "Miraž",
+            "Duga"
+        ],
+        "explanation": "Fata morgana je vrsta superiornog miraža koja se često vidi u polarnim regijama ili iznad mora, gdje se objekti čine izduženima i nestabilnima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Africi po broju stanovnika u svom metropolitanskom području (stanje 2023.)?",
+        "correct_answer": "Lagos",
+        "incorrect_answers": [
+            "Kairo",
+            "Kinšasa",
+            "Johannesburg"
+        ],
+        "explanation": "Lagos, u Nigeriji, je najveći grad u Africi po broju stanovnika, s populacijom metropolitanskog područja koja premašuje 20 milijuna.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koji je drugi najviši planinski vrh na svijetu, poznat i kao K2?",
+        "correct_answer": "Mount Godwin Austen",
+        "incorrect_answers": [
+            "Kangchendzonga",
+            "Lhotse",
+            "Makalu"
+        ],
+        "explanation": "Mount Godwin Austen, poznat kao K2, drugi je najviši vrh na svijetu i dio je planinskog lanca Karakorum u Himalaji.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
