@@ -30899,5 +30899,575 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koja je civilizacija sagradila piramide u Gizi?",
+        "correct_answer": "Stari Egipat",
+        "incorrect_answers": [
+            "Rimsko Carstvo",
+            "Grčka civilizacija",
+            "Mezopotamija"
+        ],
+        "explanation": "Stari Egipat je poznat po svojim monumentalnim građevinama, uključujući i Velike piramide u Gizi, koje su služile kao grobnice faraonima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Koji je rimski car legalizirao kršćanstvo Milanskim ediktom 313. godine n.e.?",
+        "correct_answer": "Konstantin I. Veliki",
+        "incorrect_answers": [
+            "Neron",
+            "Dioklecijan",
+            "August"
+        ],
+        "explanation": "Konstantin I. je Milanskim ediktom 313. godine n.e. izdao toleranciju za kršćanstvo unutar Rimskog Carstva, čime je prestao progon kršćana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Tko je bio vođa mongolske invazije na Europu u 13. stoljeću?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Atila",
+            "Batu-kan",
+            "Tamerlan"
+        ],
+        "explanation": "Džingis-kan je bio osnivač i prvi veliki kan Mongolskog Carstva, koje je postalo najveće kopneno carstvo u povijesti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koje je godine pao Carigrad i time označio kraj Bizantskog Carstva?",
+        "correct_answer": "1453.",
+        "incorrect_answers": [
+            "1204.",
+            "1521.",
+            "1337."
+        ],
+        "explanation": "Carigrad je pao pod osmansku vlast 29. svibnja 1453. godine, što je dovelo do konačnog pada Bizantskog Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koji je događaj započeo Prvi svjetski rat?",
+        "correct_answer": "Atentat na nadvojvodu Franje Ferdinanda",
+        "incorrect_answers": [
+            "Potapanje Lusitanije",
+            "Njemačka invazija na Poljsku",
+            "Bombardiranje Pearl Harbora"
+        ],
+        "explanation": "Atentat na austrougarskog nadvojvodu Franju Ferdinanda u Sarajevu 28. lipnja 1914. poslužio je kao povod za izbijanje Prvog svjetskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koji je španjolski konkvistador osvojio carstvo Asteka?",
+        "correct_answer": "Hernán Cortés",
+        "incorrect_answers": [
+            "Francisco Pizarro",
+            "Vasco da Gama",
+            "Juan Ponce de León"
+        ],
+        "explanation": "Hernán Cortés je predvodio ekspediciju koja je između 1519. i 1521. godine osvojila Astečko Carstvo u današnjem Meksiku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Tko je bio kralj Francuske za vrijeme Francuske revolucije?",
+        "correct_answer": "Luj XVI.",
+        "incorrect_answers": [
+            "Luj XIV.",
+            "Napoleon Bonaparte",
+            "Luj XIII."
+        ],
+        "explanation": "Luj XVI. bio je posljednji kralj Francuske prije ukidanja monarhije tijekom Francuske revolucije i pogubljen je 1793. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koje se godine dogodio iskrcavanje u Normandiji (Dan D) u Drugom svjetskom ratu?",
+        "correct_answer": "1944.",
+        "incorrect_answers": [
+            "1941.",
+            "1942.",
+            "1945."
+        ],
+        "explanation": "Savezničko iskrcavanje u Normandiji, poznato kao Dan D, dogodilo se 6. lipnja 1944. godine, otvarajući zapadnu frontu u Drugom svjetskom ratu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Koji je engleski kralj poznat po razvodu od Katarine Aragonske i osnivanju Engleske crkve?",
+        "correct_answer": "Henrik VIII.",
+        "incorrect_answers": [
+            "Edvard III.",
+            "Henrik V.",
+            "Henrik IV."
+        ],
+        "explanation": "Henrik VIII. je zbog želje za muškim nasljednikom i razvoda od Katarine Aragonske prekinuo veze s Rimom i osnovao Anglikansku crkvu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje velike kulturne i umjetničke obnove u Europi koje je uslijedilo nakon srednjeg vijeka?",
+        "correct_answer": "Renesansa",
+        "incorrect_answers": [
+            "Reformacija",
+            "Barok",
+            "Prosvjetiteljstvo"
+        ],
+        "explanation": "Renesansa, što znači 'preporod', je razdoblje od 14. do 17. stoljeća koje je obilježeno obnovom klasične umjetnosti, književnosti i znanosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Koja je velika pomorska bitka 1571. godine zaustavila osmansko napredovanje u Sredozemlju?",
+        "correct_answer": "Bitka kod Lepanta",
+        "incorrect_answers": [
+            "Bitka kod Trafalgara",
+            "Bitka kod Midwaya",
+            "Bitka kod Tsushime"
+        ],
+        "explanation": "U Bitci kod Lepanta 1571. godine, kršćanska Sveta liga porazila je osmansku flotu, čime je zaustavljeno daljnje širenje Osmanskog Carstva na zapad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Koji je grčki povjesničar poznat kao 'otac povijesti'?",
+        "correct_answer": "Herodot",
+        "incorrect_answers": [
+            "Tukidid",
+            "Ksenofont",
+            "Platon"
+        ],
+        "explanation": "Herodot je autor 'Povijesti', detaljnog zapisa o Grčko-perzijskim ratovima i često se smatra prvim povjesničarem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Koji je sovjetski vođa uveo politiku glasnosti i perestrojke 1980-ih?",
+        "correct_answer": "Mihail Gorbačov",
+        "incorrect_answers": [
+            "Leonid Brežnjev",
+            "Josif Staljin",
+            "Vladimir Putin"
+        ],
+        "explanation": "Mihail Gorbačov je uveo glasnost (otvorenost) i perestrojku (restrukturiranje) s ciljem reforme Sovjetskog Saveza, što je dovelo do njegovog raspada.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Koje je carstvo postojalo na području današnjeg Perua prije dolaska Španjolaca?",
+        "correct_answer": "Carstvo Inka",
+        "incorrect_answers": [
+            "Carstvo Maja",
+            "Carstvo Asteka",
+            "Carstvo Tolteka"
+        ],
+        "explanation": "Carstvo Inka bilo je najveće pretkolumbovsko carstvo u Americi, smješteno u Andama, koje je osvojio Francisco Pizarro.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Tko je bila poznata francuska heroina i svetica koja je vodila francuske snage u Stogodišnjem ratu?",
+        "correct_answer": "Ivana Orleanska",
+        "incorrect_answers": [
+            "Marija Antoaneta",
+            "Katarina Medici",
+            "Eleanor Akvitanska"
+        ],
+        "explanation": "Ivana Orleanska je vodila francusku vojsku u nekoliko važnih pobjeda protiv Engleza tijekom Stogodišnjeg rata prije nego što je spaljena na lomači.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koji se rat vodio u Sjedinjenim Američkim Državama od 1861. do 1865. godine?",
+        "correct_answer": "Američki građanski rat",
+        "incorrect_answers": [
+            "Američko-meksički rat",
+            "Rat 1812.",
+            "Francusko-indijanski rat"
+        ],
+        "explanation": "Američki građanski rat vodio se između sjevernih (Unije) i južnih (Konfederacije) država, prvenstveno zbog pitanja ropstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje u Europi od 16. do 18. stoljeća obilježeno razvojem znanosti i kritičkog mišljenja?",
+        "correct_answer": "Prosvjetiteljstvo",
+        "incorrect_answers": [
+            "Renesansa",
+            "Barok",
+            "Industrijska revolucija"
+        ],
+        "explanation": "Prosvjetiteljstvo je bilo intelektualni i kulturni pokret koji je naglašavao razum, individualizam i znanstvenu metodu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koje je godine Kolumbo prvi put stigao do Amerike?",
+        "correct_answer": "1492.",
+        "incorrect_answers": [
+            "1488.",
+            "1500.",
+            "1512."
+        ],
+        "explanation": "Kristofor Kolumbo je 12. listopada 1492. godine, ploveći pod španjolskom zastavom, stigao do Bahama, što je označilo početak europske kolonizacije Amerike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Koji je antički grad-država bio poznat po svojoj demokraciji i filozofima poput Sokrata i Platona?",
+        "correct_answer": "Atena",
+        "incorrect_answers": [
+            "Sparta",
+            "Korint",
+            "Teba"
+        ],
+        "explanation": "Atena je bila vodeći grad-država u antičkoj Grčkoj, poznata po razvoju demokracije, filozofije, umjetnosti i arhitekture.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Tko je bio egipatska kraljica i posljednji vladar ptolemejske dinastije?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatšepsut",
+            "Ankhesenamun"
+        ],
+        "explanation": "Kleopatra VII. bila je posljednji aktivni vladar Kraljevstva Ptolomeja u Egiptu, poznata po svojim odnosima s Julijem Cezarom i Markom Antonijem.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koji je povijesni dokument, potpisan 1783., službeno okončao Američki rat za neovisnost?",
+        "correct_answer": "Pariški mir",
+        "incorrect_answers": [
+            "Versajski ugovor",
+            "Ugovor iz Genta",
+            "Jayev ugovor"
+        ],
+        "explanation": "Pariški mir iz 1783. godine bio je mirovni ugovor između Velike Britanije i Sjedinjenih Američkih Država, kojim je Britanija priznala američku neovisnost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Koje se godine dogodila Oktobarska revolucija u Rusiji?",
+        "correct_answer": "1917.",
+        "incorrect_answers": [
+            "1905.",
+            "1922.",
+            "1939."
+        ],
+        "explanation": "Oktobarska revolucija 1917. godine, predvođena boljševicima i Vladimirom Lenjinom, dovela je do uspostave sovjetske vlasti u Rusiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Tko je bio rimski car koji je progonio kršćane i krivio ih za požar u Rimu?",
+        "correct_answer": "Neron",
+        "incorrect_answers": [
+            "Kaligula",
+            "Tiberije",
+            "Trajan"
+        ],
+        "explanation": "Car Neron, koji je vladao od 54. do 68. godine n.e., poznat je po svojim ekscentričnostima i progonima kršćana, koje je optužio za Veliki rimski požar.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je kineski filozof osnivač daoizma?",
+        "correct_answer": "Laozi",
+        "incorrect_answers": [
+            "Konfucije",
+            "Sun Tzu",
+            "Mencije"
+        ],
+        "explanation": "Laozi je legendarni drevni kineski filozof i pisac, tradicionalno smatran autorom djela 'Tao Te Ching' i osnivačem daoizma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Koje je godine završio Drugi svjetski rat u Europi?",
+        "correct_answer": "1945.",
+        "incorrect_answers": [
+            "1944.",
+            "1943.",
+            "1946."
+        ],
+        "explanation": "Drugi svjetski rat u Europi završio je 8. svibnja 1945. godine, Danom pobjede u Europi, predajom Njemačke.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Tko je bio prvi car ujedinjene Kine?",
+        "correct_answer": "Qin Shi Huang",
+        "incorrect_answers": [
+            "Car Wu od Hana",
+            "Car Taizong",
+            "Car Kangxi"
+        ],
+        "explanation": "Qin Shi Huang ujedinio je Kinu 221. pr. Kr. i proglasio se prvim carem, dajući ime dinastiji Qin.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Koja je bitka 480. pr. Kr. poznata po herojskoj obrani Spartanaca protiv Perzijanaca?",
+        "correct_answer": "Bitka kod Termopila",
+        "incorrect_answers": [
+            "Bitka kod Maratona",
+            "Bitka kod Salamine",
+            "Bitka kod Plateje"
+        ],
+        "explanation": "Bitka kod Termopila bila je epska borba gdje je mala grčka sila, predvođena Spartancima, pokušala zadržati veliku perzijsku vojsku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koji je arapski kalifat imao glavni grad u Bagdadu i dosegao vrhunac u zlatnom dobu islama?",
+        "correct_answer": "Abasidski Kalifat",
+        "incorrect_answers": [
+            "Umajadski Kalifat",
+            "Fatimidski Kalifat",
+            "Otomanski Kalifat"
+        ],
+        "explanation": "Abasidski Kalifat vladao je od 750. do 1258. godine, a Bagdad je postao središte znanosti, umjetnosti i kulture tijekom zlatnog doba islama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje velike gladi i bolesti (Crna smrt) koja je pogodila Europu u 14. stoljeću?",
+        "correct_answer": "Kuga",
+        "incorrect_answers": [
+            "Španjolska gripa",
+            "Kolera",
+            "Tifus"
+        ],
+        "explanation": "Crna smrt, oblik bubonske kuge, harala je Europom sredinom 14. stoljeća, ubivši procijenjenih 30-60% stanovništva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Tko je bio rimski vojskovođa i političar čiji je uspon označio kraj Rimske Republike?",
+        "correct_answer": "Julije Cezar",
+        "incorrect_answers": [
+            "Pompej",
+            "Ciceron",
+            "Marko Antonije"
+        ],
+        "explanation": "Julije Cezar je svojim vojnim osvajanjima i političkim manevrima stekao ogromnu moć, što je dovelo do građanskih ratova i kraja Rimske Republike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Koji je osmanski sultan Sulejman Veličanstveni, poznat po najvećem širenju Carstva?",
+        "correct_answer": "Sulejman I.",
+        "incorrect_answers": [
+            "Sulejman II.",
+            "Sulejman III.",
+            "Mehmed II."
+        ],
+        "explanation": "Sulejman I., poznat kao Veličanstveni, vladao je Osmanskim Carstvom u 16. stoljeću i pod njim je Carstvo doseglo svoj teritorijalni i kulturni vrhunac.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koja se bitka u Prvom svjetskom ratu, vođena 1916. godine, smatra jednom od najdužih i najkrvavijih u povijesti?",
+        "correct_answer": "Bitka kod Verduna",
+        "incorrect_answers": [
+            "Bitka na Sommi",
+            "Bitka kod Marne",
+            "Bitka kod Gallipolija"
+        ],
+        "explanation": "Bitka kod Verduna, vođena od veljače do prosinca 1916., bila je jedna od najbrutalnijih bitaka Prvog svjetskog rata, s ogromnim gubicima na obje strane.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Tko je bio vođa i osnivač Sikhizma u 15. stoljeću?",
+        "correct_answer": "Guru Nanak",
+        "incorrect_answers": [
+            "Guru Gobind Singh",
+            "Kabir",
+            "Budha"
+        ],
+        "explanation": "Guru Nanak je osnivač Sikhizma i prvi od deset sikhskih Gurua, koji je propovijedao jedinstvo Boga i ravnopravnost svih ljudi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Koji je povijesni događaj 1688. godine u Engleskoj doveo do svrgavanja kralja Jakova II. i uspostave parlamentarne monarhije?",
+        "correct_answer": "Slavna revolucija",
+        "incorrect_answers": [
+            "Engleski građanski rat",
+            "Pobuna Baruta",
+            "Pobuna kmetova"
+        ],
+        "explanation": "Slavna revolucija (1688.) je događaj u kojem je engleski parlament pozvao Vilima Oranskog da preuzme prijestolje, što je dovelo do Billa o pravima i ograničenja kraljevske moći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji je starogrčki filozof bio učitelj Aleksandra Velikog?",
+        "correct_answer": "Aristotel",
+        "incorrect_answers": [
+            "Platon",
+            "Sokrat",
+            "Pitagora"
+        ],
+        "explanation": "Aristotel, jedan od najvećih filozofa antičke Grčke, bio je učitelj mladog Aleksandra, budućeg makedonskog osvajača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koje je godine proglašena Socijalistička Federativna Republika Jugoslavija?",
+        "correct_answer": "1945.",
+        "incorrect_answers": [
+            "1918.",
+            "1929.",
+            "1943."
+        ],
+        "explanation": "SFR Jugoslavija je službeno proglašena 29. studenog 1945. godine, nakon završetka Drugog svjetskog rata i oslobođenja zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Tko je bio vođa Crvenih košulja i ujedinitelj Italije u 19. stoljeću?",
+        "correct_answer": "Giuseppe Garibaldi",
+        "incorrect_answers": [
+            "Camillo Cavour",
+            "Victor Emanuel II.",
+            "Mazzini"
+        ],
+        "explanation": "Giuseppe Garibaldi bio je talijanski general i nacionalist koji je odigrao ključnu ulogu u ujedinjenju Italije, vodeći svoje 'Crvene košulje'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Koja je dinastija vladala Kinu od 1644. do 1912. godine, kao posljednja carska dinastija?",
+        "correct_answer": "Dinastija Qing",
+        "incorrect_answers": [
+            "Dinastija Ming",
+            "Dinastija Han",
+            "Dinastija Tang"
+        ],
+        "explanation": "Dinastija Qing bila je posljednja carska dinastija u Kini, vladajući od 1644. do 1912. godine, prije uspostave republike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
