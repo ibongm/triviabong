@@ -30899,5 +30899,590 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Tko se smatra prvim faraonom koji je ujedinio Gornji i Donji Egipat oko 3100. pr. Kr. i osnovao Prvu dinastiju?",
+        "correct_answer": "Narmer (Menes)",
+        "incorrect_answers": [
+            "Tutankamon",
+            "Ramzes II",
+            "Akhenaton"
+        ],
+        "explanation": "Narmer, često identificiran s legendarnim Menesom, bio je ključna figura u ranom ujedinjenju Egipta. Njegova paleta prikazuje pobjede nad sjevernim kraljevstvom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Između koja su se dva moćna polisa, sa svojim saveznicima, vodili Peloponeski ratovi (431.-404. pr. Kr.)?",
+        "correct_answer": "Atena i Sparta",
+        "incorrect_answers": [
+            "Rim i Kartaga",
+            "Perzija i Grčka",
+            "Teba i Korint"
+        ],
+        "explanation": "Peloponeski ratovi bili su sukob između Atenskog pomorskog saveza i Peloponeskog saveza predvođenog Spartom, s dalekosežnim posljedicama za grčki svijet.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Koja su tri utjecajna rimska političara formirala Prvi trijumvirat 60. pr. Kr.?",
+        "correct_answer": "Julije Cezar, Pompej i Kras",
+        "incorrect_answers": [
+            "August, Antonije i Lepid",
+            "Sula, Marije i Cinna",
+            "Tiberije, Gaj i Neron"
+        ],
+        "explanation": "Prvi trijumvirat bio je neformalni politički savez između Cezara, Pompeja i Krasa, koji su zajedno dominirali rimskom politikom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Kako se naziva sveobuhvatna zbirka rimskog prava koju je naručio bizantski car Justinijan I. u 6. stoljeću, a koja je utjecala na europsko pravo?",
+        "correct_answer": "Corpus Juris Civilis",
+        "incorrect_answers": [
+            "Hamurabijev zakonik",
+            "Zakonik dvanaest ploča",
+            "Sharia"
+        ],
+        "explanation": "Corpus Juris Civilis je bio temeljni pravni kodeks Bizantskog Carstva i imao je ogroman utjecaj na razvoj pravnih sustava diljem Europe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koje se godine dogodila Bitka kod Hastingsa, u kojoj je Vilim Osvajač pobijedio englesku vojsku i započeo normansko osvajanje Engleske?",
+        "correct_answer": "1066.",
+        "incorrect_answers": [
+            "800.",
+            "1215.",
+            "1485."
+        ],
+        "explanation": "Bitka kod Hastingsa 1066. godine ključna je prekretnica u engleskoj povijesti, koja je dovela do promjene vladajuće elite i dubokih kulturnih i jezičnih promjena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Koje je godine Martin Luther navodno objavio svojih '95 teza' na vratima crkve u Wittenbergu, čime je započela protestantska reformacija?",
+        "correct_answer": "1517.",
+        "incorrect_answers": [
+            "1492.",
+            "1618.",
+            "1588."
+        ],
+        "explanation": "Lutherovo objavljivanje teza 1517. godine kritiziralo je praksu prodaje indulgencija i potaknulo šire rasprave koje su dovele do reformacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Koji je portugalski istraživač prvi dospio do Indije morskim putem oko Afrike 1498. godine?",
+        "correct_answer": "Vasco da Gama",
+        "incorrect_answers": [
+            "Kristofor Kolumbo",
+            "Ferdinand Magellan",
+            "Bartolomeu Dias"
+        ],
+        "explanation": "Vasco da Gama je 1498. godine uspješno doplovio do Calicuta u Indiji, otvorivši novu pomorsku rutu i omogućivši izravnu trgovinu s Istokom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koje je godine Napoleon Bonaparte konačno poražen u Bitki kod Waterlooa, čime je završena njegova vladavina i Napoleonski ratovi?",
+        "correct_answer": "1815.",
+        "incorrect_answers": [
+            "1789.",
+            "1804.",
+            "1821."
+        ],
+        "explanation": "Bitka kod Waterlooa 1815. godine bila je konačni poraz Napoleona Bonapartea od savezničkih snaga, što je dovelo do njegovog izgnanstva i mira u Europi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Koji je škotski inženjer usavršio parni stroj u 18. stoljeću, što je imalo ključnu ulogu u Industrijskoj revoluciji?",
+        "correct_answer": "James Watt",
+        "incorrect_answers": [
+            "George Stephenson",
+            "Richard Arkwright",
+            "Eli Whitney"
+        ],
+        "explanation": "James Watt je značajno poboljšao učinkovitost parnog stroja, čineći ga praktičnim za široku upotrebu u industriji i prometu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik izdao Proklamaciju o emancipaciji 1863. godine, proglasivši slobodu robovima u Konfederaciji tijekom Američkog građanskog rata?",
+        "correct_answer": "Abraham Lincoln",
+        "incorrect_answers": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Andrew Jackson"
+        ],
+        "explanation": "Abraham Lincoln je izdao Proklamaciju o emancipaciji 1863., što je bio ključni korak prema ukidanju ropstva i promjeni prirode građanskog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Koja je ličnost ubijena u Sarajevu 1914. godine, što je bio neposredan povod za početak Prvog svjetskog rata?",
+        "correct_answer": "Nadvojvoda Franz Ferdinand",
+        "incorrect_answers": [
+            "Car Franjo Josip I.",
+            "Winston Churchill",
+            "Gavrilo Princip"
+        ],
+        "explanation": "Atentat na austrougarskog nadvojvodu Franza Ferdinanda u Sarajevu 28. lipnja 1914. godine doveo je do niza događaja koji su eskalirali u Prvi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Kako se naziva dan kada su savezničke snage izvršile iskrcavanje u Normandiji 6. lipnja 1944. godine, otvarajući zapadnu frontu u Drugom svjetskom ratu?",
+        "correct_answer": "Dan D (D-Day)",
+        "incorrect_answers": [
+            "Operacija Barbarossa",
+            "Bitka za Britaniju",
+            "Operacija Overlord"
+        ],
+        "explanation": "Dan D je kodni naziv za početak Operacije Overlord, najveće pomorske invazije u povijesti, ključne za oslobađanje zapadne Europe od nacističke okupacije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Koje je godine izgrađen Berlinski zid, koji je fizički podijelio Berlin i postao simbol Hladnog rata?",
+        "correct_answer": "1961.",
+        "incorrect_answers": [
+            "1949.",
+            "1953.",
+            "1989."
+        ],
+        "explanation": "Berlinski zid izgrađen je 1961. godine kako bi spriječio bijeg istočnih Nijemaca u Zapadni Berlin, postajući snažan simbol podjele Hladnog rata.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Koji je babilonski kralj poznat po svom zakoniku, jednom od najstarijih i najpotpunijih preživjelih zakonskih tekstova iz drevne Mezopotamije?",
+        "correct_answer": "Hamurabi",
+        "incorrect_answers": [
+            "Sargon Akadski",
+            "Nabukodonosor II",
+            "Gilgameš"
+        ],
+        "explanation": "Hamurabi, šesti kralj Prve babilonske dinastije, izdao je svoj slavni zakonik oko 1754. pr. Kr., koji je obuhvaćao različita područja prava.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koji je grad bio glavni cilj Prvog križarskog rata (1096.-1099.)?",
+        "correct_answer": "Jeruzalem",
+        "incorrect_answers": [
+            "Carigrad",
+            "Rim",
+            "Damask"
+        ],
+        "explanation": "Glavni cilj Prvog križarskog rata bio je oslobađanje Jeruzalema i Svetog groba od muslimanske vlasti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koja je bogata i utjecajna obitelj iz Firence bila poznata po pokroviteljstvu umjetnosti i znanosti tijekom renesanse?",
+        "correct_answer": "Medici",
+        "incorrect_answers": [
+            "Borgia",
+            "Sforza",
+            "Visconti"
+        ],
+        "explanation": "Obitelj Medici bila je bankarska i politička dinastija koja je imala ključnu ulogu u renesansnoj Firenci, podržavajući mnoge umjetnike i znanstvenike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Koja je moćna britanska trgovinska kompanija dominirala trgovinom s Indijom i imala značajan politički utjecaj u 17. i 18. stoljeću?",
+        "correct_answer": "Britanska istočnoindijska kompanija",
+        "incorrect_answers": [
+            "Nizozemska istočnoindijska kompanija",
+            "Hudson's Bay Company",
+            "Virginia Company"
+        ],
+        "explanation": "Britanska istočnoindijska kompanija je bila ključna u britanskoj kolonijalnoj ekspanziji u Aziji, osobito u Indiji, prije nego što je vlast preuzela Britanska kruna.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Tko je bio vrhovni zapovjednik Kontinentalne vojske tijekom Američkog rata za neovisnost i prvi predsjednik Sjedinjenih Američkih Država?",
+        "correct_answer": "George Washington",
+        "incorrect_answers": [
+            "Benjamin Franklin",
+            "Thomas Jefferson",
+            "John Adams"
+        ],
+        "explanation": "George Washington vodio je američke snage do pobjede nad Britancima i bio je ključna figura u osnivanju Sjedinjenih Američkih Država.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Koja je roba bila u središtu Opijumskih ratova (sredina 19. st.) između Kine i Velike Britanije?",
+        "correct_answer": "Opijum",
+        "incorrect_answers": [
+            "Čaj",
+            "Svila",
+            "Začini"
+        ],
+        "explanation": "Opijumski ratovi vođeni su zbog britanske trgovine opijumom u Kini, što je dovelo do kineskih pokušaja da zaustave uvoz droge.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Koja je konferencija održana 1884.-1885. godine regulirala europsku kolonizaciju i podjelu Afrike?",
+        "correct_answer": "Berlinska konferencija",
+        "incorrect_answers": [
+            "Konferencija u Parizu",
+            "Bečki kongres",
+            "Potsdamska konferencija"
+        ],
+        "explanation": "Berlinska konferencija, koju su organizirale europske sile, uspostavila je pravila za podjelu Afrike, što je dovelo do brzog kolonijalnog preuzimanja kontinenta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Kako se nazivala velika vojna ofenziva Sjevernog Vijetnama i Viet Conga 1968. godine tijekom Vijetnamskog rata, koja je iznenadila američke snage?",
+        "correct_answer": "Tet ofenziva",
+        "incorrect_answers": [
+            "Ofenziva kod Delte",
+            "Operacija Rolling Thunder",
+            "Bitka kod Dien Bien Phu"
+        ],
+        "explanation": "Tet ofenziva bila je serija iznenadnih napada tijekom vijetnamske Nove godine (Tet), koja je imala veliki psihološki utjecaj u SAD-u, unatoč taktičkom porazu za Sjeverni Vijetnam.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Koji je drevni grčki epski pjesnik autor 'Ilijade' i 'Odiseje', djela koja opisuju Trojanski rat i Odisejeva putovanja?",
+        "correct_answer": "Homer",
+        "incorrect_answers": [
+            "Ezop",
+            "Sofoklo",
+            "Euripid"
+        ],
+        "explanation": "Homer se tradicionalno smatra autorom 'Ilijade' i 'Odiseje', dvaju temeljnih djela zapadne književnosti koja opisuju događaje vezane uz Trojanski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Kako se naziva kodeks časti i morala samuraja u feudalnom Japanu, koji je naglašavao hrabrost, lojalnost i samodisciplinu?",
+        "correct_answer": "Bushido",
+        "incorrect_answers": [
+            "Taoizam",
+            "Šintoizam",
+            "Zen"
+        ],
+        "explanation": "Bushido, 'put ratnika', bio je moralni kodeks koji su slijedili samuraji, a koji je vodio njihovo ponašanje i životni stil.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koji je poljski astronom u 16. stoljeću formulirao heliocentrični model Sunčevog sustava, s Suncem u središtu?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Isaac Newton",
+            "Johannes Kepler"
+        ],
+        "explanation": "Kopernik je bio prvi koji je razvio matematički model heliocentričnog sustava, što je bio temelj znanstvene revolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Tko je bio prvi hrvatski knez kojeg je priznao papa, čime je Hrvatska dobila međunarodno priznanje 879. godine?",
+        "correct_answer": "Branimir",
+        "incorrect_answers": [
+            "Tomislav",
+            "Trpimir",
+            "Mislav"
+        ],
+        "explanation": "Knez Branimir dobio je papinsko priznanje 879. godine, što je bio važan korak prema uspostavi neovisne hrvatske države.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Kako se nazvao američki plan ekonomske pomoći europskim zemljama nakon Drugog svjetskog rata, pokrenut 1948. godine, s ciljem obnove i suzbijanja komunizma?",
+        "correct_answer": "Marshallov plan",
+        "incorrect_answers": [
+            "Trumanova doktrina",
+            "Comecon",
+            "Pakt iz Varšave"
+        ],
+        "explanation": "Marshallov plan (European Recovery Program) osigurao je financijsku pomoć za obnovu poslijeratne Europe, što je doprinijelo stabilizaciji i smanjenju komunističkog utjecaja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "U kojem je kineskom carstvu započeo razvoj Puta svile, drevne mreže trgovačkih puteva koja je povezivala Istok i Zapad?",
+        "correct_answer": "Dinastija Han",
+        "incorrect_answers": [
+            "Dinastija Qin",
+            "Dinastija Tang",
+            "Dinastija Ming"
+        ],
+        "explanation": "Put svile je uglavnom uspostavljen tijekom dinastije Han (206. pr. Kr. – 220. n.e.), potičući kulturnu i ekonomsku razmjenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Tko je bio ključna figura u indijskom pokretu za neovisnost, poznat po filozofiji nenasilnog građanskog neposluha?",
+        "correct_answer": "Mahatma Gandhi",
+        "incorrect_answers": [
+            "Jawaharlal Nehru",
+            "Sardar Patel",
+            "Subhas Chandra Bose"
+        ],
+        "explanation": "Mahatma Gandhi je nenasilnim otporom predvodio Indiju do neovisnosti od britanske vlasti, postavši simbol mirne borbe za slobodu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koje je godine Karlo Veliki okrunjen za cara Svetog Rimskog Carstva od strane pape Lava III.?",
+        "correct_answer": "800.",
+        "incorrect_answers": [
+            "476.",
+            "962.",
+            "1066."
+        ],
+        "explanation": "Karlo Veliki je okrunjen za cara na Božić 800. godine, što je simboliziralo obnovu Zapadnog Rimskog Carstva i jačanje veza s papinstvom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Kako se nazvala ekspedicija koja je, iako je njezin vođa poginuo na putu, prva uspješno oplovila svijet u ranom 16. stoljeću?",
+        "correct_answer": "Magellanova ekspedicija",
+        "incorrect_answers": [
+            "Kolumbova ekspedicija",
+            "Drakeova oplovidba",
+            "Cookova putovanja"
+        ],
+        "explanation": "Iako je Ferdinand Magellan poginuo na Filipinima, dio njegove posade predvođen Juanom Sebastiánom Elcanom dovršio je prvu plovidbu oko svijeta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Tko je bila prva žena u svemiru, sovjetska kozmonautkinja, 1963. godine?",
+        "correct_answer": "Valentina Tereškova",
+        "incorrect_answers": [
+            "Sally Ride",
+            "Svetlana Savitskaya",
+            "Elena Kondakova"
+        ],
+        "explanation": "Valentina Tereškova je 1963. godine postala prva žena koja je putovala u svemir, u misiji Vostok 6.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koje se godine tradicionalno smatra krajem Zapadnog Rimskog Carstva, kada je svrgnut posljednji car Romul Augustul?",
+        "correct_answer": "476.",
+        "incorrect_answers": [
+            "330.",
+            "410.",
+            "1453."
+        ],
+        "explanation": "Godina 476. n.e. često se navodi kao kraj Zapadnog Rimskog Carstva, iako je Istočno Rimsko Carstvo (Bizant) nastavilo postojati stoljećima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koji je jugoslavenski vođa bio suosnivač Pokreta nesvrstanih, promičući politiku neovisnu o blokovskoj podjeli tijekom Hladnog rata?",
+        "correct_answer": "Josip Broz Tito",
+        "incorrect_answers": [
+            "Aleksandar Ranković",
+            "Edvard Kardelj",
+            "Milan Stojadinović"
+        ],
+        "explanation": "Josip Broz Tito je bio ključna figura u osnivanju i vođenju Pokreta nesvrstanih, koji je predstavljao alternativu kapitalizmu i komunizmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Koja je bila posljednja aktivna faraonka drevnog Egipta, poznata po svojim vezama s Julijem Cezarom i Markom Antonijem?",
+        "correct_answer": "Kleopatra VII.",
+        "incorrect_answers": [
+            "Nefertiti",
+            "Hatshepsut",
+            "Nefertari"
+        ],
+        "explanation": "Kleopatra VII. je bila posljednja kraljica ptolemejske dinastije i posljednja aktivna vladarica samostalnog Egipta prije nego što je postao rimska provincija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji se vikinški istraživač smatra prvim Europljaninom koji je stigao do Sjeverne Amerike, mnogo prije Kristofora Kolumba?",
+        "correct_answer": "Leif Erikson",
+        "incorrect_answers": [
+            "Erik Crveni",
+            "Bjarni Herjólfsson",
+            "Freydís Eiríksdóttir"
+        ],
+        "explanation": "Leif Erikson, sin Erika Crvenog, istražio je obale Sjeverne Amerike oko 1000. godine, nazivajući ih Vinlandom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koji je osmanski sultan, poznat kao Veličanstveni ili Zakonodavac, vladao Osmanskim Carstvom u njegovom zenitu u 16. stoljeću?",
+        "correct_answer": "Sulejman I. Veličanstveni",
+        "incorrect_answers": [
+            "Mehmed II. Osvajač",
+            "Selim I.",
+            "Mustafa Kemal Atatürk"
+        ],
+        "explanation": "Sulejman I. je bio najdugovječniji sultan Osmanskog Carstva, pod čijom je vladavinom Carstvo doseglo vrhunac vojne, političke i kulturne moći.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2374",
+        "category": "povijest",
+        "question": "Koji je mirovni ugovor, potpisan 1919. godine, formalno okončao Prvi svjetski rat između saveznika i Njemačke?",
+        "correct_answer": "Versailleski ugovor",
+        "incorrect_answers": [
+            "Pariški sporazum",
+            "Brest-Litovski sporazum",
+            "Ženevski protokol"
+        ],
+        "explanation": "Versailleski ugovor nametnuo je stroge uvjete Njemačkoj nakon Prvog svjetskog rata, što je dugoročno imalo značajne posljedice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2375",
+        "category": "povijest",
+        "question": "Koje je godine pao Berlinski zid, što je simboliziralo kraj Hladnog rata i ponovno ujedinjenje Njemačke?",
+        "correct_answer": "1989.",
+        "incorrect_answers": [
+            "1961.",
+            "1975.",
+            "1991."
+        ],
+        "explanation": "Pad Berlinskog zida 9. studenog 1989. godine bio je ključni događaj koji je ubrzao raspad Istočnog bloka i ponovno ujedinjenje Njemačke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2376",
+        "category": "povijest",
+        "question": "Koji je grad bio glavni grad Carstva Inka u Andama, poznat po svojim impresivnim arhitektonskim ostacima?",
+        "correct_answer": "Cusco",
+        "incorrect_answers": [
+            "Tenochtitlan",
+            "Machu Picchu",
+            "Nazca"
+        ],
+        "explanation": "Cusco je bio povijesna prijestolnica Carstva Inka, smještena u dolini Urubamba, i središte njihove političke i vjerske moći.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
