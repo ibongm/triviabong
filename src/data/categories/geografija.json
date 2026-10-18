@@ -25139,5 +25139,545 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji umjetni kanal povezuje Sredozemno more s Crvenim morem?",
+        "correct_answer": "Sueski kanal",
+        "incorrect_answers": [
+            "Panamski kanal",
+            "Korintski kanal",
+            "Kielski kanal"
+        ],
+        "explanation": "Sueski kanal je strateški važan pomorski put koji omogućuje brodovima prolaz između Europe i Azije bez obilaska Afrike. Otvoren je 1869. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koje je najdublje jezero u Africi?",
+        "correct_answer": "Jezero Tanganyika",
+        "incorrect_answers": [
+            "Jezero Victoria",
+            "Jezero Malawi",
+            "Jezero Turkana"
+        ],
+        "explanation": "Jezero Tanganyika je drugo najdublje jezero na svijetu i najdublje u Africi, s maksimalnom dubinom od 1470 metara. Nalazi se u Istočnoafričkom rascjepu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Australije?",
+        "correct_answer": "Canberra",
+        "incorrect_answers": [
+            "Sydney",
+            "Melbourne",
+            "Perth"
+        ],
+        "explanation": "Canberra je planski izgrađen grad, odabran kao kompromis između rivalskih gradova Sydneyja i Melbournea za mjesto glavnog grada.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Kako se naziva strma, stepenasta dolina nastala djelovanjem ledenjaka, često s jezerima u njezinim udubljenjima?",
+        "correct_answer": "Cirk",
+        "incorrect_answers": [
+            "U-dolina",
+            "Fjord",
+            "V-dolina"
+        ],
+        "explanation": "Cirk je udubljenje u planinskom reljefu u kojem se nakupljao snijeg i led, tvoreći početnu točku ledenjaka. Često se u njima nalaze planinska jezera.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji je najsuši kontinent na svijetu?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Afrika",
+            "Južna Amerika"
+        ],
+        "explanation": "Antarktika je kontinent s najmanje oborina, što ga čini tehnički najsušom pustinjom na svijetu. Većina padalina padne kao snijeg.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja rijeka ima najveću deltu na svijetu, poznatu po mangrovim šumama i bogatoj biološkoj raznolikosti?",
+        "correct_answer": "Ganges-Brahmaputra",
+        "incorrect_answers": [
+            "Nil",
+            "Mississippi",
+            "Amazon"
+        ],
+        "explanation": "Delta Ganges-Brahmaputra, poznata i kao Sundarbans, najveća je delta na svijetu i dom je jedinstvenog ekosustava mangrovih šuma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva velika monolitna stijena u središnjoj Australiji, koja je sveto mjesto Aboridžinima i poznata i kao Uluru?",
+        "correct_answer": "Ayers Rock",
+        "incorrect_answers": [
+            "Mount Kosciuszko",
+            "Kata Tjuta",
+            "The Olgas"
+        ],
+        "explanation": "Ayers Rock, ili Uluru, golemi je pješčenjački monolit u središnjoj Australiji, jedna od najpoznatijih prirodnih znamenitosti zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koji se poznati slapovi nalaze na granici između Sjedinjenih Američkih Država i Kanade?",
+        "correct_answer": "Nijagarini slapovi",
+        "incorrect_answers": [
+            "Iguazu slapovi",
+            "Viktorijini slapovi",
+            "Salto Angel"
+        ],
+        "explanation": "Nijagarini slapovi su skupina tri masivna slapa na rijeci Nijagari, a popularna su turistička atrakcija na granici SAD-a i Kanade.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Kako se naziva trajno smrznuto tlo u polarnim i subpolarnim područjima, koje ostaje smrznuto najmanje dvije uzastopne godine?",
+        "correct_answer": "Permafrost",
+        "incorrect_answers": [
+            "Tundra",
+            "Ledeni pokrov",
+            "Smrznuta močvara"
+        ],
+        "explanation": "Permafrost obuhvaća tlo, stijene ili sedimente koji ostaju ispod točke smrzavanja dulje od dvije godine. Obuhvaća oko 15% sjeverne polutke.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji planinski lanac tradicionalno služi kao prirodna granica između Europe i Azije na istoku?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Karpati",
+            "Alpe",
+            "Kavkaz"
+        ],
+        "explanation": "Planine Ural protežu se od Arktičkog oceana na sjeveru do rijeke Ural na jugu i smatraju se prirodnom istočnom granicom Europe.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koji je najpoznatiji aktivni vulkan u blizini Napulja u Italiji, poznat po uništenju Pompeja i Herkulaneja 79. godine n.e.?",
+        "correct_answer": "Vezuv",
+        "incorrect_answers": [
+            "Etna",
+            "Stromboli",
+            "Fudži"
+        ],
+        "explanation": "Vezuv je stratovulkan istočno od Napulja u Italiji, poznat po iznenadnoj erupciji koja je zatrpala drevne rimske gradove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koje je jezero poznato po izuzetno visokoj slanosti i po tome što omogućuje ljudima da plutaju na površini bez napora?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Kaspijsko jezero",
+            "Aralsko jezero",
+            "Veliko slano jezero"
+        ],
+        "explanation": "Mrtvo more, smješteno između Izraela i Jordana, je hiper-slano jezero čija je površina i obala najniža kopnena točka na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja se svjetska metropola, poznata po povijesnom imenu Konstantinopol, prostire na dva kontinenta?",
+        "correct_answer": "Istanbul",
+        "incorrect_answers": [
+            "Moskva",
+            "Rim",
+            "Kairo"
+        ],
+        "explanation": "Istanbul se proteže preko Bospora, tjesnaca koji razdvaja Europu i Aziju, čineći ga jedinim gradom na svijetu koji se nalazi na dva kontinenta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja je otočna država poznata po jedinstvenom životinjskom svijetu, uključujući lemure, i nalazi se istočno od afričke obale?",
+        "correct_answer": "Madagaskar",
+        "incorrect_answers": [
+            "Šri Lanka",
+            "Fidži",
+            "Novi Zeland"
+        ],
+        "explanation": "Madagaskar je četvrti po veličini otok na svijetu i dom je mnogim vrstama koje ne žive nigdje drugdje, uključujući gotovo sve vrste lemura.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Kako se naziva prostrano, plitko područje mora koje se proteže od kopnene mase, obično do dubine od oko 200 metara?",
+        "correct_answer": "Epikontinentalna polica",
+        "incorrect_answers": [
+            "Oceanski rov",
+            "Abisalna ravnica",
+            "Kontinentalna padina"
+        ],
+        "explanation": "Epikontinentalna polica je podvodni produžetak kontinenta, relativno plitak i bogat resursima, uključujući ribe i naftu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva močvarno područje s tropskom vegetacijom koja raste u slanoj ili bočatoj vodi, karakteristično za delte rijeka i obalne linije?",
+        "correct_answer": "Mangrove",
+        "incorrect_answers": [
+            "Savana",
+            "Tundra",
+            "Tajga"
+        ],
+        "explanation": "Mangrove su grmovi ili mala stabla koja rastu u slanoj vodi tropskih i suptropskih obalnih područja. Imaju posebne korijene za filtriranje soli.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je država s najvećom prosječnom nadmorskom visinom na svijetu?",
+        "correct_answer": "Butan",
+        "incorrect_answers": [
+            "Nepal",
+            "Švicarska",
+            "Tibet"
+        ],
+        "explanation": "Butan ima prosječnu nadmorsku visinu od preko 3.280 metara, čineći ga najvišom zemljom na svijetu po ovom kriteriju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi poznati kip Krista Otkupitelja, smješten iznad grada Rio de Janeira?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+            "Argentina",
+            "Meksiko",
+            "Portugal"
+        ],
+        "explanation": "Kip Krista Otkupitelja (Cristo Redentor) nalazi se na vrhu planine Corcovado u Rio de Janeiru i simbol je Brazila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Kako se naziva rotirajuća kolona zraka koja se proteže od olujnog oblaka do tla, često s razarajućom snagom?",
+        "correct_answer": "Tornado",
+        "incorrect_answers": [
+            "Uragan",
+            "Tajfun",
+            "Ciklon"
+        ],
+        "explanation": "Tornado je siloviti, rotirajući stup zraka u kontaktu i s površinom Zemlje i s kumulonimbusnim oblakom, ili, u rijetkim slučajevima, s kumulusnim oblakom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koja rijeka prolazi kroz glavni grad Francuske, Pariz?",
+        "correct_answer": "Sena",
+        "incorrect_answers": [
+            "Loira",
+            "Rajna",
+            "Rona"
+        ],
+        "explanation": "Rijeka Sena teče kroz Pariz i ima brojne mostove, a njezine obale su UNESCO-va svjetska baština.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Na kojem se kontinentu nalaze drevne piramide i gradovi Maja?",
+        "correct_answer": "Sjeverna Amerika",
+        "incorrect_answers": [
+            "Južna Amerika",
+            "Afrika",
+            "Azija"
+        ],
+        "explanation": "Civilizacija Maja razvijala se na području današnjeg Meksika, Gvatemale, Belizea, Hondurasa i El Salvadora, što spada pod Sjevernu Ameriku (Srednju Ameriku).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja topla morska struja značajno utječe na klimu zapadne Europe, čineći je blažom nego što bi se očekivalo za tu geografsku širinu?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Labradorska struja",
+            "Kurošio struja"
+        ],
+        "explanation": "Golfska struja donosi toplu vodu iz Meksičkog zaljeva preko Atlantika, zagrijavajući zapadnu Europu i čineći zime blažim.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja je afrička pustinja poznata po svojim izrazito crvenim pješčanim dinama, među najvišima na svijetu?",
+        "correct_answer": "Namib",
+        "incorrect_answers": [
+            "Kalahari",
+            "Atacama",
+            "Velika pješčana pustinja"
+        ],
+        "explanation": "Pustinja Namib je obalna pustinja u južnoj Africi, poznata po impresivnim visokim crvenim dinama koje se protežu duž obale Namibije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koja je najveća špilja u Europi po dužini istraženih prolaza, smještena u Sloveniji?",
+        "correct_answer": "Postojnska jama",
+        "incorrect_answers": [
+            "Škocjanske jame",
+            "Aggtelek",
+            "Mamutska špilja"
+        ],
+        "explanation": "Postojnska jama je sustav špilja dug 24 km, otvoren za turiste i poznat po podzemnoj željeznici i bogatom špiljskom životinjskom svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva vanjski, čvrsti sloj Zemlje koji uključuje Zemljinu koru i najgornji dio plašta?",
+        "correct_answer": "Litosfera",
+        "incorrect_answers": [
+            "Astenosfera",
+            "Mezosfera",
+            "Barisfera"
+        ],
+        "explanation": "Litosfera je čvrsta vanjska ljuska Zemlje, sastavljena od tektonskih ploča koje se neprestano kreću. Debljina joj varira od 5 do 200 km.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Kako se naziva padalina u obliku ledenih kuglica ili nepravilnih komadića leda koji nastaju u grmljavinskim oblacima?",
+        "correct_answer": "Tuča (grad)",
+        "incorrect_answers": [
+            "Snijeg",
+            "Susnježica",
+            "Rosa"
+        ],
+        "explanation": "Tuča (grad) je vrsta oborina koja se sastoji od leda, nastaje u kumulonimbus oblacima i može uzrokovati značajnu štetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "U kojoj se državi nalaze drevne ruševine Petre, poznate po građevinama uklesanim u stijene?",
+        "correct_answer": "Jordan",
+        "incorrect_answers": [
+            "Egipat",
+            "Izrael",
+            "Saudijska Arabija"
+        ],
+        "explanation": "Petra je povijesni i arheološki grad u južnom Jordanu, poznat po arhitekturi uklesanoj u stijene i sustavu vodnih kanala.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Kako se naziva prostrana travnata stepa koja se prostire u Južnoj Americi, posebno u Argentini?",
+        "correct_answer": "Pampa",
+        "incorrect_answers": [
+            "Savana",
+            "Prerija",
+            "Tundra"
+        ],
+        "explanation": "Pampa je plodna nizina u Južnoj Americi, pretežno travnata, koja pokriva velik dio Argentine, Urugvaja i južnog Brazila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Koja je najviša prijestolnica na svijetu po nadmorskoj visini?",
+        "correct_answer": "La Paz",
+        "incorrect_answers": [
+            "Quito",
+            "Bogota",
+            "Ciudad de México"
+        ],
+        "explanation": "La Paz, de facto glavni grad Bolivije, smješten je na prosječnoj nadmorskoj visini od oko 3.650 metara, čineći ga najvišim glavnim gradom na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Koji je vulkanski arhipelag u Tihom oceanu poznat po jedinstvenoj fauni, uključujući divovske kornjače, koja je inspirirala Charlesa Darwina?",
+        "correct_answer": "Galapagos",
+        "incorrect_answers": [
+            "Havaji",
+            "Sejšeli",
+            "Maldivi"
+        ],
+        "explanation": "Otočje Galapagos, dio Ekvadora, poznato je po visokom stupnju endemizma vrsta, što ga čini ključnim mjestom za studij evolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2013",
+        "category": "geografija",
+        "question": "Kako se naziva granica tektonskih ploča gdje se ploče razilaze jedna od druge i stvara se nova oceanska kora?",
+        "correct_answer": "Divergentna granica",
+        "incorrect_answers": [
+            "Konvergentna granica",
+            "Transformna granica",
+            "Subdukcijska zona"
+        ],
+        "explanation": "Na divergentnim granicama magma izlazi na površinu i stvara novu litosferu, što se događa na srednjooceanskim hrptovima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2014",
+        "category": "geografija",
+        "question": "Koja je najdublja točka na kopnu na Zemlji, smještena u Aziji?",
+        "correct_answer": "Mrtvo more (obala)",
+        "incorrect_answers": [
+            "Kaspijsko jezero (obala)",
+            "Jezero Bajkal (dno)",
+            "Dolina smrti (SAD)"
+        ],
+        "explanation": "Obale Mrtvog mora nalaze se na oko 430 metara ispod razine mora (stanje 2023.), što je najniža kopnena točka na Zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2015",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Kineski zid, jedno od sedam svjetskih čuda?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Japan",
+            "Mongolija",
+            "Južna Koreja"
+        ],
+        "explanation": "Kineski zid je sustav utvrda koji se proteže tisućama kilometara, izgrađen radi zaštite Kine od nomadskih plemena.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2016",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni most od stijene, nastao erozijom vjetra ili vode, gdje je dio stijene ostao u obliku luka?",
+        "correct_answer": "Prirodni luk",
+        "incorrect_answers": [
+            "Stijenski stup",
+            "Ertenjak",
+            "Kanion"
+        ],
+        "explanation": "Prirodni lukovi se formiraju kada erozija ukloni mekše stijene ispod čvršćeg sloja, ostavljajući mostoliku strukturu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2017",
+        "category": "geografija",
+        "question": "Kako se naziva biom karakteriziran igličastim zimzelenim drvećem i hladnim zimama, tipičan za Sjevernu Europu, Aziju i Sjevernu Ameriku?",
+        "correct_answer": "Tajga (Borealna šuma)",
+        "incorrect_answers": [
+            "Tundra",
+            "Savana",
+            "Prašuma"
+        ],
+        "explanation": "Tajga ili borealna šuma najveći je zemaljski biom na svijetu, pretežno se sastoji od četinjača i obilježena je dugim, hladnim zimama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2018",
+        "category": "geografija",
+        "question": "Koje je najveće jezero po površini u Africi i jedan od glavnih izvora rijeke Nil?",
+        "correct_answer": "Jezero Victoria",
+        "incorrect_answers": [
+            "Jezero Tanganyika",
+            "Jezero Malawi",
+            "Jezero Turkana"
+        ],
+        "explanation": "Jezero Victoria je drugo najveće slatkovodno jezero na svijetu po površini i ključni izvor za Bijeli Nil, jedan od dva glavna pritoka Nila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
