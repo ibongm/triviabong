@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu nogometnu momčad na terenu za vrijeme utakmice?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "9"
+        ],
+        "explanation": "Nogometni tim, uključujući vratara, sastoji se od jedanaest igrača koji su istovremeno na terenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koliko igrača smije biti u vodi istovremeno u vaterpolu (uključujući vratara)?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "6",
+            "8",
+            "5"
+        ],
+        "explanation": "Jedna vaterpolska momčad na terenu (u vodi) sastoji se od šest igrača i jednog vratara.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koliko koraka smije napraviti rukometaš s loptom bez dodavanja ili šutiranja?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Rukometaš s loptom smije napraviti najviše tri koraka prije nego što mora dodati loptu ili šutirati na gol.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Koji sportaš je poznat pod nadimkom 'Iron Mike'?",
+        "correct_answer": "Mike Tyson",
+        "incorrect_answers": [
+            "Muhammad Ali",
+            "George Foreman",
+            "Evander Holyfield"
+        ],
+        "explanation": "Mike Tyson, bivši svjetski prvak u teškoj kategoriji u boksu, poznat je po svom nadimku 'Iron Mike'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Svake koliko godina se održavaju ljetne Olimpijske igre?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+            "2",
+            "3",
+            "5"
+        ],
+        "explanation": "Ljetne Olimpijske igre održavaju se svake četiri godine, slijedeći drevnu tradiciju sportskog natjecanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koja je najduža plivačka disciplina na Olimpijskim igrama u bazenu?",
+        "correct_answer": "1500 metara slobodno",
+        "incorrect_answers": [
+            "800 metara slobodno",
+            "400 metara slobodno",
+            "200 metara slobodno"
+        ],
+        "explanation": "U plivanju, 1500 metara slobodnim stilom je najduža pojedinačna disciplina koja se održava na Olimpijskim igrama u bazenu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Kako se naziva sprava na kojoj gimnastičarke izvode vježbe ravnoteže i akrobatike?",
+        "correct_answer": "Greda",
+        "incorrect_answers": [
+            "Razboj",
+            "Parter",
+            "Preskok"
+        ],
+        "explanation": "Greda je uska sprava na kojoj gimnastičarke izvode zahtjevne vježbe balansa i akrobatskih elemenata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "Koliko setova je potrebno osvojiti za pobjedu u odbojkaškoj utakmici (u standardnom formatu, stanje 2024.)?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Utakmica u odbojci se igra na tri dobivena seta, pri čemu se svaki set igra do 25 poena (s razlikom od dva poena).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koji je hrvatski rukometaš poznat po nadimku 'Kralj' i jedan od najboljih svih vremena?",
+        "correct_answer": "Ivano Balić",
+        "incorrect_answers": [
+            "Domagoj Duvnjak",
+            "Blaženko Lacković",
+            "Petar Metličić"
+        ],
+        "explanation": "Ivano Balić je široko priznat kao jedan od najboljih rukometaša svih vremena i poznat je po nadimku 'Kralj'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaš poznat pod nadimkom 'Veliki Žuti'?",
+        "correct_answer": "Krešimir Ćosić",
+        "incorrect_answers": [
+            "Dražen Petrović",
+            "Toni Kukoč",
+            "Dino Rađa"
+        ],
+        "explanation": "Krešimir Ćosić, legendarni hrvatski košarkaš, bio je poznat po nadimku 'Veliki Žuti'.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koji je sport poznat po tome što se natjecatelji spuštaju niz ledenu stazu na malim sanjkama licem prema naprijed?",
+        "correct_answer": "Skeleton",
+        "incorrect_answers": [
+            "Luge",
+            "Bob",
+            "Biatlon"
+        ],
+        "explanation": "Skeleton je zimski sport u kojem se sportaši na sanjkama spuštaju niz zaleđenu stazu licem prema naprijed.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koja NBA momčad ima najviše osvojenih naslova (stanje 2024.)?",
+        "correct_answer": "Boston Celtics",
+        "incorrect_answers": [
+            "Los Angeles Lakers",
+            "Chicago Bulls",
+            "Golden State Warriors"
+        ],
+        "explanation": "Boston Celticsi drže rekord s 18 NBA naslova prvaka, prestignuvši Los Angeles Lakerse (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Koju disciplinu trčanja na kratke staze nazivamo 'kraljevskom' disciplinom sprinta?",
+        "correct_answer": "100 metara",
+        "incorrect_answers": [
+            "200 metara",
+            "400 metara",
+            "800 metara"
+        ],
+        "explanation": "Utrka na 100 metara je najprestižnija i najbrža disciplina sprinta u atletici, stoga se često naziva 'kraljevskom'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koji tim Formule 1 ima najviše konstruktorskih naslova (stanje 2024.)?",
+        "correct_answer": "Ferrari",
+        "incorrect_answers": [
+            "Mercedes",
+            "McLaren",
+            "Williams"
+        ],
+        "explanation": "Scuderia Ferrari je najuspješnija momčad u povijesti Formule 1 s najviše osvojenih konstruktorskih naslova (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koliko se bodova dobiva za 'touchdown' u američkom nogometu (prije dodatnog udarca/konverzije)?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "3",
+            "7",
+            "5"
+        ],
+        "explanation": "Touchdown je primarni način za postizanje bodova u američkom nogometu i vrijedi 6 bodova, nakon čega slijedi pokušaj za dodatne bodove.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koji se europski nogometni klub često naziva 'Stara dama'?",
+        "correct_answer": "Juventus",
+        "incorrect_answers": [
+            "AC Milan",
+            "Inter Milan",
+            "Roma"
+        ],
+        "explanation": "Talijanski nogometni klub Juventus iz Torina tradicionalno nosi nadimak 'La Vecchia Signora' ili 'Stara dama'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koliko je igrača jedne momčadi istovremeno na ledu u hokeju na ledu (uključujući golmana)?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "5",
+            "7",
+            "4"
+        ],
+        "explanation": "Svaka hokejaška momčad na ledu ima šest igrača: jednog vratara i pet klizača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Kako se naziva disciplina u konjičkom sportu gdje konj i jahač izvode niz unaprijed određenih pokreta i figura?",
+        "correct_answer": "Dresurno jahanje",
+        "incorrect_answers": [
+            "Preponsko jahanje",
+            "Eventing (Višeboj)",
+            "Polo"
+        ],
+        "explanation": "Dresurno jahanje je umjetnost jahanja gdje se ocjenjuje sklad i preciznost pokreta konja i jahača.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koji je hrvatski košarkaš prvi osvojio NBA prsten?",
+        "correct_answer": "Toni Kukoč",
+        "incorrect_answers": [
+            "Dražen Petrović",
+            "Dino Rađa",
+            "Krešimir Ćosić"
+        ],
+        "explanation": "Toni Kukoč je prvi hrvatski košarkaš koji je osvojio NBA naslov prvaka s Chicago Bullsima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Koji je grad bio domaćin finala Svjetskog prvenstva u nogometu 2022.?",
+        "correct_answer": "Lusail",
+        "incorrect_answers": [
+            "Doha",
+            "Al Khor",
+            "Al Rayyan"
+        ],
+        "explanation": "Finale Svjetskog prvenstva u nogometu 2022. godine odigrano je na stadionu Lusail Iconic Stadium u Kataru.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Tko je svjetski rekorder u skoku s motkom (stanje 2024.)?",
+        "correct_answer": "Armand Duplantis",
+        "incorrect_answers": [
+            "Renaud Lavillenie",
+            "Sergej Bubka",
+            "Tim Lobinger"
+        ],
+        "explanation": "Švedski atletičar Armand Duplantis drži aktualni svjetski rekord u skoku s motkom (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koji vozač Formule 1 ima nadimak 'The Iceman'?",
+        "correct_answer": "Kimi Räikkönen",
+        "incorrect_answers": [
+            "Sebastian Vettel",
+            "Fernando Alonso",
+            "Max Verstappen"
+        ],
+        "explanation": "Kimi Räikkönen je poznat po svom hladnom i mirnom karakteru, zbog čega je dobio nadimak 'The Iceman'.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko je puta Stipe Miočić osvojio naslov UFC prvaka u teškoj kategoriji (stanje 2024.)?",
+        "correct_answer": "Tri puta",
+        "incorrect_answers": [
+            "Jednom",
+            "Dva puta",
+            "Četiri puta"
+        ],
+        "explanation": "Stipe Miočić je tri puta osvajao naslov prvaka UFC-a u teškoj kategoriji, potvrđujući svoju dominaciju (stanje 2024.).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Koliko se vesla koristi u disciplini 'dvojac na pariće'?",
+        "correct_answer": "Četiri",
+        "incorrect_answers": [
+            "Dva",
+            "Tri",
+            "Šest"
+        ],
+        "explanation": "U disciplini dvojac na pariće, svaki od dva veslača koristi po dva vesla, ukupno četiri.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "U kojem borilačkom sportu je glavni cilj baciti protivnika na leđa i kontrolirati ga, a udarci su ograničeni ili zabranjeni?",
+        "correct_answer": "Judo",
+        "incorrect_answers": [
+            "Karate",
+            "Taekwondo",
+            "Boks"
+        ],
+        "explanation": "Judo se fokusira na tehnike bacanja, držanja i zahvata, s ciljem kontrole protivnika na tlu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Tko je osnivač modernih Olimpijskih igara?",
+        "correct_answer": "Pierre de Coubertin",
+        "incorrect_answers": [
+            "Dimitrios Vikelas",
+            "Juan Antonio Samaranch",
+            "Thomas Bach"
+        ],
+        "explanation": "Pierre de Coubertin, francuski pedagog i povjesničar, bio je osnivač Međunarodnog olimpijskog odbora i modernih Olimpijskih igara.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koliko igrača čini jednu momčad u kriketu?",
+        "correct_answer": "11",
+        "incorrect_answers": [
+            "10",
+            "12",
+            "9"
+        ],
+        "explanation": "Kriket je timski sport koji se igra između dvije momčadi, svaka s jedanaest igrača na terenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koliko se bodova (tuševa) maksimalno može postići u jednoj rundi mačevanja?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "5",
+            "10",
+            "20"
+        ],
+        "explanation": "U mačevanju, u većini pojedinačnih natjecanja, pobjeda se postiže osvajanjem 15 bodova ili 'tuševa'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koja skijašica ima najviše pobjeda u Svjetskom kupu u povijesti alpskog skijanja (stanje 2024.)?",
+        "correct_answer": "Mikaela Shiffrin",
+        "incorrect_answers": [
+            "Lindsey Vonn",
+            "Annemarie Moser-Pröll",
+            "Janica Kostelić"
+        ],
+        "explanation": "Američka skijašica Mikaela Shiffrin drži rekord po broju pobjeda u Svjetskom kupu u alpskom skijanju (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koja država ima najviše pobjednika Tour de Francea u povijesti?",
+        "correct_answer": "Francuska",
+        "incorrect_answers": [
+            "Belgija",
+            "Španjolska",
+            "Italija"
+        ],
+        "explanation": "Francuska, iako nije dominirala u novije vrijeme, ima najviše različitih pobjednika Tour de Francea u povijesti biciklizma.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se slobodnim padom skače s visokih objekata ili stijena uz pomoć padobrana?",
+        "correct_answer": "BASE jumping",
+        "incorrect_answers": [
+            "Skydiving",
+            "Paragliding",
+            "Wingsuit flying"
+        ],
+        "explanation": "BASE jumping je ekstremni sport skakanja s fiksnih objekata (zgrada, antena, raspona, Zemlje) s padobranom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koji je jedini hrvatski vozač ikada vozio Formulu 1 u službenoj utrci?",
+        "correct_answer": "Nijedan",
+        "incorrect_answers": [
+            "Marin Radić",
+            "Ivan Horvat",
+            "Marko Kovač"
+        ],
+        "explanation": "Do danas, nijedan hrvatski vozač nije sudjelovao u službenoj utrci Formule 1.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koji je bio prvi neeuropski klub koji je osvojio FIFA Svjetsko klupsko prvenstvo?",
+        "correct_answer": "Corinthians",
+        "incorrect_answers": [
+            "Boca Juniors",
+            "River Plate",
+            "Santos"
+        ],
+        "explanation": "Brazilski klub Corinthians je prvi neeuropski osvajač FIFA Svjetskog klupskog prvenstva 2000. godine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Kolika je visina prepona za muškarce u utrci na 110 metara s preponama?",
+        "correct_answer": "1.067 metara",
+        "incorrect_answers": [
+            "0.914 metara",
+            "1.10 metara",
+            "0.84 metara"
+        ],
+        "explanation": "Standardna visina prepona za muškarce u utrci na 110 metara s preponama iznosi 1.067 metara.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Koliko palica smije imati igrač golfa u svojoj torbi tijekom natjecanja?",
+        "correct_answer": "14",
+        "incorrect_answers": [
+            "12",
+            "15",
+            "Neograničeno"
+        ],
+        "explanation": "Prema pravilima golfa, igrač smije nositi maksimalno 14 palica u svojoj torbi tijekom natjecateljskog kruga.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koliko olimpijskih disciplina ima konjički sport?",
+        "correct_answer": "Tri (dresura, preponsko jahanje, eventing)",
+        "incorrect_answers": [
+            "Dvije",
+            "Četiri",
+            "Pet"
+        ],
+        "explanation": "Konjički sport na Olimpijskim igrama uključuje tri discipline: dresuru, preponsko jahanje i eventing (višeboj).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koji je maksimalan broj sudaca koji ocjenjuju skok u vodu na Olimpijskim igrama?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+            "5",
+            "9",
+            "6"
+        ],
+        "explanation": "Na Olimpijskim igrama, skokove u vodu obično ocjenjuje sedam sudaca, od kojih se najviša i najniža ocjena odbacuju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Kako se naziva sport u kojem se natjecatelji spuštaju niz posebno izgrađenu zaleđenu stazu na leđima, glavom naprijed, na malim sanjkama?",
+        "correct_answer": "Luge",
+        "incorrect_answers": [
+            "Skeleton",
+            "Bob",
+            "Sanakanje"
+        ],
+        "explanation": "Luge je olimpijski zimski sport u kojem se sportaši na posebnim sanjkama spuštaju niz ledenu stazu ležeći na leđima, glavom naprijed.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
