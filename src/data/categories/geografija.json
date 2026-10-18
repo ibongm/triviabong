@@ -25139,5 +25139,410 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Kako se naziva najveća pustinja u Aziji, koja se proteže kroz Kinu i Mongoliju?",
+        "correct_answer": "Pustinja Gobi",
+        "incorrect_answers": [
+            "Pustinja Sahara",
+            "Pustinja Rub' al Khali",
+            "Pustinja Takla Makan"
+        ],
+        "explanation": "Gobi je najveća pustinja u Aziji i peta po veličini na svijetu. Poznata je po hladnoj klimi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Novog Zelanda?",
+        "correct_answer": "Wellington",
+        "incorrect_answers": [
+            "Auckland",
+            "Christchurch",
+            "Queenstown"
+        ],
+        "explanation": "Wellington je južniji od Aucklanda i glavni je grad Novog Zelanda, smješten na Sjevernom otoku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je najdublji kanjon u Europi?",
+        "correct_answer": "Kanjon Tare",
+        "incorrect_answers": [
+            "Kanjon Verdon",
+            "Kanjon rijeke Cetine",
+            "Kanjon Samaria"
+        ],
+        "explanation": "Kanjon Tare, smješten u Crnoj Gori i Bosni i Hercegovini, najdublji je kanjon u Europi i drugi po veličini u svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je država poznata po velikom koraljnom grebenu, Velikom koraljnom grebenu?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Meksiko"
+        ],
+        "explanation": "Veliki koraljni greben nalazi se uz obalu Queenslanda u Australiji i najveći je koraljni sustav na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva uski morski prolaz između Afrike i Europe?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Suez",
+            "Kerčki tjesnac"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean i Sredozemno more te razdvaja Europu (Španjolsku) od Afrike (Maroka).",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Kako se zove glavni grad Perua?",
+        "correct_answer": "Lima",
+        "incorrect_answers": [
+            "Bogota",
+            "Santiago",
+            "Quito"
+        ],
+        "explanation": "Lima je glavni i najveći grad Perua, smješten na pacifičkoj obali.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koji je najviši vrh Europe (ako se granica Europe i Azije promatra duž Kavkaza)?",
+        "correct_answer": "Elbrus",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Matterhorn",
+            "Mount Kazbek"
+        ],
+        "explanation": "Elbrus, smješten u Rusiji, najviši je vrh Kavkaza i ujedno najviši vrh Europe po toj definiciji granice.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "U kojoj se zemlji nalazi Sahara, najveća vruća pustinja na svijetu?",
+        "correct_answer": "Veći dio sjeverne Afrike",
+        "incorrect_answers": [
+            "Saudijska Arabija",
+            "Kina",
+            "Australija"
+        ],
+        "explanation": "Sahara se prostire kroz mnoge zemlje sjeverne Afrike, uključujući Egipat, Libiju, Alžir, Niger, Sudan itd.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Tajlanda?",
+        "correct_answer": "Bangkok",
+        "incorrect_answers": [
+            "Hanoi",
+            "Manila",
+            "Kuala Lumpur"
+        ],
+        "explanation": "Bangkok je glavni i najveći grad Tajlanda, poznat po svojim hramovima i užurbanom životu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva kopneni most koji je nekada spajao Aziju i Sjevernu Ameriku?",
+        "correct_answer": "Beringov kopneni most (Beringija)",
+        "incorrect_answers": [
+            "Sueski kopneni most",
+            "Panamski kopneni most",
+            "Gibraltarski kopneni most"
+        ],
+        "explanation": "Beringov kopneni most povezivao je Sibir i Aljasku tijekom ledenih doba, omogućujući migracije životinja i ljudi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je država poznata kao 'Zemlja izlazećeg sunca'?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Japan se nalazi istočno od azijskog kopna, što simbolizira izlazak sunca.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se tlo pomiče u slojevima niz padinu zbog smrzavanja i otapanja vode?",
+        "correct_answer": "Soliflukcija",
+        "incorrect_answers": [
+            "Erozija",
+            "Abrazija",
+            "Deflacija"
+        ],
+        "explanation": "Soliflukcija je sporo kretanje tla niz padinu, posebno u periglacijalnim područjima s permafrostom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Argentine?",
+        "correct_answer": "Buenos Aires",
+        "incorrect_answers": [
+            "Rio de Janeiro",
+            "Santiago",
+            "Montevideo"
+        ],
+        "explanation": "Buenos Aires je glavni i najveći grad Argentine, smješten na obali Atlantskog oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu (koji nije kontinent)?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Nova Gvineja",
+            "Borneo",
+            "Madagaskar"
+        ],
+        "explanation": "Grenland, autonomni teritorij Danske, najveći je otok na svijetu po površini.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja država graniči s najviše drugih država u Europi?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Rusija",
+            "Francuska",
+            "Austrija"
+        ],
+        "explanation": "Njemačka graniči s devet europskih država: Danskom, Poljskom, Češkom, Austrijom, Švicarskom, Francuskom, Luksemburgom, Belgijom i Nizozemskom.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Kako se naziva područje niske obale uz more, s velikim površinama slane vode, često odvojene od otvorenog mora sprudovima?",
+        "correct_answer": "Laguna",
+        "incorrect_answers": [
+            "Fjord",
+            "Estuarij",
+            "Zaljev"
+        ],
+        "explanation": "Laguna je plitka vodena površina odvojena od mora pješčanim sprudom, koraljnim grebenom ili otocima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja se rijeka naziva 'rijekom života' za Egipat?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Eufrat",
+            "Tigar",
+            "Kongo"
+        ],
+        "explanation": "Nil je ključan za život i poljoprivredu u Egiptu, a većina stanovništva živi uz njegove obale.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni jezero u Africi po površini?",
+        "correct_answer": "Jezero Viktorija",
+        "incorrect_answers": [
+            "Jezero Tanganjika",
+            "Jezero Malavi",
+            "Jezero Čad"
+        ],
+        "explanation": "Jezero Viktorija je najveće jezero u Africi i drugo najveće slatkovodno jezero na svijetu po površini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi grad Petra, poznat po svojim građevinama uklesanim u stijene?",
+        "correct_answer": "Jordan",
+        "incorrect_answers": [
+            "Egipat",
+            "Grčka",
+            "Izrael"
+        ],
+        "explanation": "Petra je arheološko nalazište u Jordanu, poznato po jedinstvenim fasadama uklesanim u pješčane stijene.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji je pojas vjetrova karakterističan za područja između 30° i 60° zemljopisne širine?",
+        "correct_answer": "Zapadni vjetrovi",
+        "incorrect_answers": [
+            "Pasati",
+            "Polarni istočni vjetrovi",
+            "Monsuni"
+        ],
+        "explanation": "Zapadni vjetrovi pušu iz zapadnog smjera u srednjim geografskim širinama, obično između 30 i 60 stupnjeva.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se vruća magma izbija na površinu Zemlje?",
+        "correct_answer": "Vulkanizam",
+        "incorrect_answers": [
+            "Erozija",
+            "Tektonika",
+            "Metamorfizam"
+        ],
+        "explanation": "Vulkanizam je geološki proces izbacivanja magme, pepela i plinova iz unutrašnjosti Zemlje na površinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Turske?",
+        "correct_answer": "Ankara",
+        "incorrect_answers": [
+            "Istanbul",
+            "Izmir",
+            "Antalya"
+        ],
+        "explanation": "Ankara je glavni grad Turske, iako je Istanbul veći i poznatiji grad.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni most od stijena nastao erozijom vjetra ili vode?",
+        "correct_answer": "Prirodni luk",
+        "incorrect_answers": [
+            "Dolina",
+            "Kanjon",
+            "Spilja"
+        ],
+        "explanation": "Prirodni lukovi su stjenovite formacije u obliku mosta, nastale selektivnom erozijom mekših stijena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Africi po broju stanovnika?",
+        "correct_answer": "Lagos",
+        "incorrect_answers": [
+            "Kairo",
+            "Kinshasa",
+            "Johannesburg"
+        ],
+        "explanation": "Lagos u Nigeriji je najveći grad u Africi po broju stanovnika, s preko 20 milijuna ljudi (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Kako se naziva proces taloženja i nakupljanja sedimenata na ušću rijeke u more ili jezero?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Fjord",
+            "Laguna"
+        ],
+        "explanation": "Delta je trokutasti ili lepezasti oblik ušća rijeke nastao nakupljanjem sedimenata koje rijeka donosi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja planina razdvaja europski i azijski dio Rusije?",
+        "correct_answer": "Ural",
+        "incorrect_answers": [
+            "Kavkaz",
+            "Altaj",
+            "Verhojanski masiv"
+        ],
+        "explanation": "Planina Ural služi kao prirodna granica između europskog i azijskog dijela Rusije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Hrvatskoj po broju stanovnika?",
+        "correct_answer": "Zagreb",
+        "incorrect_answers": [
+            "Split",
+            "Rijeka",
+            "Osijek"
+        ],
+        "explanation": "Zagreb je glavni i najveći grad Republike Hrvatske, smješten na rijeci Savi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
