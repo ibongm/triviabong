@@ -30445,5 +30445,515 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koja stanična organela proizvodi proteine?",
+        "correct_answer": "Ribosom",
+        "incorrect_answers": [
+            "Mitohondrij",
+            "Jezgra",
+            "Lizosom"
+        ],
+        "explanation": "Ribosomi su stanične organele odgovorne za sintezu proteina, proces prevođenja genetske informacije iz mRNA u proteinske sekvence.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva sila koja djeluje na tijela i privlači ih jedno drugome zbog njihove mase?",
+        "correct_answer": "Gravitacija",
+        "incorrect_answers": [
+            "Inercija",
+            "Centrifugalna sila",
+            "Trenje"
+        ],
+        "explanation": "Gravitacija je temeljna prirodna sila koja privlači tijela s masom jedno drugome. Ona je odgovorna za padanje predmeta na Zemlju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koja je najmanja temeljna jedinica živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Molekula",
+            "Organ",
+            "Tkivo"
+        ],
+        "explanation": "Stanica je osnovna strukturna i funkcionalna jedinica svih poznatih živih organizama, sposobna za samostalno preživljavanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji je najrasprostranjeniji element u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Dušik čini oko 78% Zemljine atmosfere, dok kisik čini oko 21%. Ostali plinovi prisutni su u manjim koncentracijama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva centralni dio atoma, sastavljen od protona i neutrona?",
+        "correct_answer": "Jezgra",
+        "incorrect_answers": [
+            "Elektron",
+            "Orbitala",
+            "Neutron"
+        ],
+        "explanation": "Atomska jezgra je gusto središte atoma, gdje su smješteni protoni i neutroni, dok elektroni kruže oko jezgre.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija crvenih krvnih zrnaca u ljudskom tijelu?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Zgrušavanje krvi",
+            "Borba protiv infekcija",
+            "Proizvodnja antitijela"
+        ],
+        "explanation": "Crvena krvna zrnca, zahvaljujući proteinu hemoglobinu, primarno su odgovorna za transport kisika iz pluća do tkiva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koji programski jezik često koristimo za izradu web stranica uz HTML i CSS?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "explanation": "JavaScript je programski jezik koji omogućuje interaktivnost na web stranicama, radeći na strani klijenta u web pregledniku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Što je 'byte' u računarstvu?",
+        "correct_answer": "Grupa od 8 bitova",
+        "incorrect_answers": [
+            "Najmanja jedinica informacije",
+            "Brzina procesora",
+            "Vrsta memorije"
+        ],
+        "explanation": "Byte je jedinica digitalne informacije koja se najčešće sastoji od osam bitova. Koristi se za mjerenje veličine datoteka i memorije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji je najlakši element u periodnom sustavu?",
+        "correct_answer": "Vodik",
+        "incorrect_answers": [
+            "Helij",
+            "Litij",
+            "Ugljik"
+        ],
+        "explanation": "Vodik (H) je s atomskim brojem 1 najlakši element i najrasprostranjeniji kemijski element u svemiru.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji je proces pretvaranja tekućine u plin?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Talište"
+        ],
+        "explanation": "Isparavanje je fizikalni proces u kojem se tekuća tvar pretvara u plinovito stanje ispod svoje točke vrenja, obično s površine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija korijena biljke?",
+        "correct_answer": "Upijanje vode i hranjivih tvari",
+        "incorrect_answers": [
+            "Proizvodnja energije",
+            "Provođenje fotosinteze",
+            "Razmnožavanje"
+        ],
+        "explanation": "Korijenski sustav biljke odgovoran je za pričvršćivanje biljke u tlo i upijanje vode i otopljenih minerala iz tla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je najvažnija komponenta računala koja obrađuje instrukcije i izvodi izračune?",
+        "correct_answer": "Centralna procesorska jedinica (CPU)",
+        "incorrect_answers": [
+            "Radna memorija (RAM)",
+            "Grafička kartica (GPU)",
+            "Tvrdi disk (HDD)"
+        ],
+        "explanation": "CPU je 'mozak' računala, odgovoran za izvršavanje programa, obavljanje aritmetičkih operacija i upravljanje radom drugih komponenti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koja kemijska veza nastaje potpunim prijenosom elektrona između atoma?",
+        "correct_answer": "Ionska veza",
+        "incorrect_answers": [
+            "Kovalentna veza",
+            "Metalna veza",
+            "Vodikova veza"
+        ],
+        "explanation": "Ionska veza nastaje kada atom s niskom energijom ionizacije preda elektron atomu s visokom elektronegativnošću, stvarajući ione koji se privlače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak pijeska i stakla?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Kalcijev karbonat",
+            "Aluminijev oksid",
+            "Željezni oksid"
+        ],
+        "explanation": "Silicijev dioksid (SiO₂) je najčešći spoj u Zemljinoj kori, primarna komponenta pijeska i ključna sirovina za proizvodnju stakla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Kako se naziva znanstvena disciplina koja proučava nasljeđivanje i varijacije organizama?",
+        "correct_answer": "Genetika",
+        "incorrect_answers": [
+            "Ekologija",
+            "Fiziologija",
+            "Anatomija"
+        ],
+        "explanation": "Genetika je grana biologije koja se bavi proučavanjem gena, genetske varijacije i nasljeđivanja kod živih organizama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja vrsta zračenja ima najveću energiju i najmanju valnu duljinu u elektromagnetskom spektru?",
+        "correct_answer": "Gama zračenje",
+        "incorrect_answers": [
+            "Radio valovi",
+            "Infracrveno zračenje",
+            "X-zrake"
+        ],
+        "explanation": "Gama zrake su najenergičniji oblik elektromagnetskog zračenja, koje nastaje tijekom radioaktivnog raspada atomskih jezgri.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje softvera čiji je izvorni kod javno dostupan i može se slobodno mijenjati?",
+        "correct_answer": "Otvoreni kod (Open Source)",
+        "incorrect_answers": [
+            "Vlasnički softver",
+            "Shareware",
+            "Freeware"
+        ],
+        "explanation": "Otvoreni kod odnosi se na softver čiji se izvorni kod slobodno distribuira, omogućavajući korisnicima da ga vide, modificiraju i dijele.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za odvajanje komponenti smjese na temelju njihovih različitih točaka vrelišta?",
+        "correct_answer": "Destilacija",
+        "incorrect_answers": [
+            "Filtracija",
+            "Kromatografija",
+            "Centrifugiranje"
+        ],
+        "explanation": "Destilacija je proces zagrijavanja tekuće smjese do vrenja i zatim hlađenja nastalih para kako bi se odvojile komponente.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Kako se naziva zvijezda koja je toliko masivna da njezina gravitacijska sila ne dopušta ni svjetlosti da pobjegne?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Neutronska zvijezda",
+            "Bijeli patuljak",
+            "Kvazar"
+        ],
+        "explanation": "Crna rupa je objekt u svemiru s izuzetno jakim gravitacijskim poljem iz kojeg ništa, pa ni svjetlost, ne može pobjeći.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koja je uloga ozonskog omotača u Zemljinoj atmosferi?",
+        "correct_answer": "Apsorpcija ultraljubičastog zračenja",
+        "incorrect_answers": [
+            "Regulacija temperature",
+            "Proizvodnja kisika",
+            "Zadržavanje topline"
+        ],
+        "explanation": "Ozonski omotač u stratosferi apsorbira većinu štetnog ultraljubičastog (UV) zračenja sa Sunca, štiteći život na Zemlji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na sustav koji oponaša ljudsku inteligenciju i sposobnosti učenja?",
+        "correct_answer": "Umjetna inteligencija (AI)",
+        "incorrect_answers": [
+            "Virtualna stvarnost (VR)",
+            "Proširena stvarnost (AR)",
+            "Kvantno računarstvo"
+        ],
+        "explanation": "Umjetna inteligencija (AI) je široko područje računarstva koje se bavi stvaranjem strojeva koji mogu simulirati ljudske kognitivne funkcije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Koji je zakon termodinamike poznat kao zakon očuvanja energije?",
+        "correct_answer": "Prvi zakon termodinamike",
+        "incorrect_answers": [
+            "Nulti zakon termodinamike",
+            "Drugi zakon termodinamike",
+            "Treći zakon termodinamike"
+        ],
+        "explanation": "Prvi zakon termodinamike kaže da je ukupna energija izoliranog sustava konstantna; energija se može transformirati, ali ne može biti stvorena niti uništena.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se elektroni izbacuju s površine metala kada na nju padne svjetlost?",
+        "correct_answer": "Fotoelektrični efekt",
+        "incorrect_answers": [
+            "Fotoosinteza",
+            "Kvantni skok",
+            "Refrakcija"
+        ],
+        "explanation": "Fotoelektrični efekt je pojava izbacivanja elektrona s površine tvari (najčešće metala) pod utjecajem elektromagnetnog zračenja (svjetlosti).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koja je glavna razlika između RNA i DNA?",
+        "correct_answer": "RNA sadrži uracil umjesto timina i šećer ribozu umjesto deoksiriboze",
+        "incorrect_answers": [
+            "RNA je uvijek dvolančana, a DNA jednolančana",
+            "RNA se nalazi samo u citoplazmi, a DNA samo u jezgri",
+            "DNA je manja molekula od RNA"
+        ],
+        "explanation": "RNA (ribonukleinska kiselina) ima šećer ribozu i bazu uracil, dok DNA (deoksiribonukleinska kiselina) ima deoksiribozu i bazu timin. DNA je obično dvolančana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se naziva hipotetska čestica koja putuje brže od brzine svjetlosti?",
+        "correct_answer": "Tahon",
+        "incorrect_answers": [
+            "Neutrino",
+            "Foton",
+            "Kvark"
+        ],
+        "explanation": "Tahon je hipotetska subatomska čestica koja bi se, kad bi postojala, uvijek gibala brzinama većim od brzine svjetlosti u vakuumu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji se pojam u biokemiji odnosi na razgradnju složenih molekula u jednostavnije, uz oslobađanje energije?",
+        "correct_answer": "Katabolizam",
+        "incorrect_answers": [
+            "Anabolizam",
+            "Metabolizam",
+            "Homeostaza"
+        ],
+        "explanation": "Katabolizam je metabolički proces razgradnje molekula, dok anabolizam predstavlja sintezu složenih molekula. Oba čine metabolizam.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je kvantnomehanički princip koji kaže da dva identična fermiona ne mogu istovremeno zauzimati isto kvantno stanje?",
+        "correct_answer": "Paulijev princip isključenja",
+        "incorrect_answers": [
+            "Heisenbergov princip neodređenosti",
+            "Bohrov model atoma",
+            "Planckova hipoteza"
+        ],
+        "explanation": "Paulijev princip isključenja ključan je za razumijevanje strukture atoma i periodnog sustava elemenata, određujući kako se elektroni raspoređuju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji protokol omogućuje sigurnu komunikaciju putem interneta, često korišten za šifriranje prometa web stranica (HTTPS)?",
+        "correct_answer": "TLS (Transport Layer Security)",
+        "incorrect_answers": [
+            "FTP (File Transfer Protocol)",
+            "HTTP (Hypertext Transfer Protocol)",
+            "SMTP (Simple Mail Transfer Protocol)"
+        ],
+        "explanation": "TLS je nasljednik SSL-a i kriptografski protokol dizajniran za pružanje komunikacijske sigurnosti putem računalne mreže, najčešće interneta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se svjetlosni valovi savijaju dok prolaze oko prepreke ili kroz uski otvor?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refleksija",
+            "Apsorpcija",
+            "Polarizacija"
+        ],
+        "explanation": "Difrakcija je pojava skretanja valova s pravca prvobitnog širenja kad naiđu na prepreku ili prolaze kroz otvor, što je izraženije kada su valne duljine usporedive s veličinom prepreke.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koja je tehnika programiranja koja se fokusira na izoliranje problema u zasebne, samostalne module?",
+        "correct_answer": "Modularno programiranje",
+        "incorrect_answers": [
+            "Objektno orijentirano programiranje",
+            "Funkcionalno programiranje",
+            "Imperativno programiranje"
+        ],
+        "explanation": "Modularno programiranje dijeli program na neovisne, izmjenjive module, što poboljšava organizaciju koda, održavanje i ponovnu upotrebu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je pojam za mjerenje otpornosti tekućine na tečenje?",
+        "correct_answer": "Viskoznost",
+        "incorrect_answers": [
+            "Gustoća",
+            "Površinska napetost",
+            "Elastičnost"
+        ],
+        "explanation": "Viskoznost je svojstvo tekućina i plinova koje se očituje kao otpor gibanju slojeva fluida ili otpor protjecanju. Voda ima nisku, med visoku viskoznost.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji se pojam u ekologiji odnosi na najveću populaciju neke vrste koju određeni okoliš može dugoročno održati?",
+        "correct_answer": "Nosivost okoliša (Carrying capacity)",
+        "incorrect_answers": [
+            "Biotop",
+            "Ekološka niša",
+            "Biocenoza"
+        ],
+        "explanation": "Nosivost okoliša predstavlja maksimalan broj jedinki određene vrste koje okoliš može podržati bez dugoročnog narušavanja resursa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje dvosmjernu video i audio komunikaciju u stvarnom vremenu s bilo kojeg mjesta?",
+        "correct_answer": "Videokonferencija",
+        "incorrect_answers": [
+            "Virtualna stvarnost",
+            "Teleportacija",
+            "Proširena stvarnost"
+        ],
+        "explanation": "Videokonferencija je tehnologija koja omogućuje udaljenim sudionicima da se vide i čuju jedni druge, olakšavajući sastanke i suradnju na daljinu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji se tip zvijezde formira nakon što masivna zvijezda potroši svoje nuklearno gorivo i kolabira, ali nije dovoljno masivna da postane crna rupa?",
+        "correct_answer": "Neutronska zvijezda",
+        "incorrect_answers": [
+            "Crveni div",
+            "Bijeli patuljak",
+            "Plavi superdiv"
+        ],
+        "explanation": "Neutronska zvijezda je jezgra masivne zvijezde koja je kolabirala i uglavnom se sastoji od neutrona, iznimno je gusta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
