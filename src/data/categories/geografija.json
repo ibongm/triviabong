@@ -25139,5 +25139,455 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja na svijetu po površini?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Sahara",
+            "Gobi",
+            "Atacama"
+        ],
+        "explanation": "Antarktika se klasificira kao hladna pustinja jer prima iznimno malo padalina, što je definicija pustinje.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja se rijeka naziva \"Žuta rijeka\" i važna je za kinesku civilizaciju?",
+        "correct_answer": "Huang He",
+        "incorrect_answers": [
+            "Jangce",
+            "Mekong",
+            "Brahmaputra"
+        ],
+        "explanation": "Huang He, ili Žuta rijeka, dobila je ime po žutom mulju koji nosi i ključna je za razvoj Kine.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je najgušće naseljeni kontinent?",
+        "correct_answer": "Azija",
+        "incorrect_answers": [
+            "Europa",
+            "Afrika",
+            "Sjeverna Amerika"
+        ],
+        "explanation": "Azija ima najveću površinu i najveći broj stanovnika, što je čini najgušće naseljenim kontinentom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je najdublja točka na Zemljinoj kopnenoj površini?",
+        "correct_answer": "Mrtvo more",
+        "incorrect_answers": [
+            "Dolina smrti",
+            "Bajkalsko jezero",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Obala Mrtvog mora je najniža kopnena točka na Zemlji, oko 430 metara ispod razine mora (stanje 2023.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji je najveći otok na svijetu (bez kontinenata)?",
+        "correct_answer": "Grenland",
+        "incorrect_answers": [
+            "Nova Gvineja",
+            "Borneo",
+            "Madagaskar"
+        ],
+        "explanation": "Grenland je najveći otok na svijetu, koji je autonomni teritorij unutar Kraljevine Danske.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja je planina poznata po svom piramidalnom obliku i strmim liticama, popularna među planinarima u Alpama?",
+        "correct_answer": "Matterhorn",
+        "incorrect_answers": [
+            "Mont Blanc",
+            "Jungfrau",
+            "Eiger"
+        ],
+        "explanation": "Matterhorn je ikonična planina u Peninskim Alpama na granici Švicarske i Italije, prepoznatljiva po obliku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se morska voda pretvara u paru, ostavljajući iza sebe sol?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Precipitacija",
+            "Sublimacija"
+        ],
+        "explanation": "Isparavanje je proces u kojem tekućina prelazi u plinovito stanje, što se događa s morskom vodom u ciklusima soli i vode.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Fudži, ikonična stratovulkanska planina?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Indonezija"
+        ],
+        "explanation": "Fudži je najviša planina u Japanu i aktivni stratovulkan, smatra se jednim od tri svete planine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je najdulja rijeka u Europi, a da nije Volga?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Dnjepar",
+            "Loara"
+        ],
+        "explanation": "Dunav je druga najdulja rijeka u Europi, nakon Volge, a protječe kroz deset država.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koji geomorfološki oblik nastaje na ušću rijeke u jezero ili more taloženjem sedimenata u obliku trokuta ili lepeze?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Zaljev"
+        ],
+        "explanation": "Delta je geomorfološki oblik nastao taloženjem sedimenata na ušću rijeke u jezero ili more, obično trokutastog ili lepezastog oblika.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja se pustinja proteže duž zapadne obale Južne Amerike i jedna je od najsušnijih na svijetu?",
+        "correct_answer": "Atacama",
+        "incorrect_answers": [
+            "Patagonija",
+            "Kalahari",
+            "Gobi"
+        ],
+        "explanation": "Pustinja Atacama, smještena u Čileu i Peruu, izuzetno je suha zbog efekta kišne sjene i hladnih oceanskih struja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je najniži kontinent po prosječnoj nadmorskoj visini?",
+        "correct_answer": "Antarktika",
+        "incorrect_answers": [
+            "Australija",
+            "Europa",
+            "Južna Amerika"
+        ],
+        "explanation": "Antarktika ima najnižu prosječnu nadmorsku visinu zbog debljine ledene kape koja pritišće kopno.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Kako se naziva uski morski prolaz koji povezuje Atlantski ocean i Sredozemno more?",
+        "correct_answer": "Gibraltarski prolaz",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski prolaz je morski prolaz koji razdvaja Gibraltar i Španjolsku u Europi od Maroka u Africi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koji je najpoznatiji umjetni kanal koji povezuje Pacifički i Atlantski ocean?",
+        "correct_answer": "Panamski kanal",
+        "incorrect_answers": [
+            "Sueski kanal",
+            "Kielski kanal",
+            "Korintski kanal"
+        ],
+        "explanation": "Panamski kanal je umjetni kanal dug 82 km koji preseca Panamu i povezuje dva oceana, skraćujući pomorske putove.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja se država nalazi na području tzv. \"Roga Afrike\"?",
+        "correct_answer": "Somalija",
+        "incorrect_answers": [
+            "Nigerija",
+            "Egipat",
+            "Južna Afrika"
+        ],
+        "explanation": "Somalija se nalazi na istočnom dijelu afričkog kontinenta, poznatom kao Rog Afrike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je najveća šuma tajge na svijetu?",
+        "correct_answer": "Sibirska tajga",
+        "incorrect_answers": [
+            "Kanadska tajga",
+            "Skandinavska tajga",
+            "Aljaška tajga"
+        ],
+        "explanation": "Sibirska tajga, koja se prostire po većem dijelu Rusije, najveća je borealna šuma na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva prirodni proces pomicanja Zemljine kore koji uzrokuje potrese i stvaranje planina?",
+        "correct_answer": "Tektonika ploča",
+        "incorrect_answers": [
+            "Glacijacija",
+            "Erozija",
+            "Sedimentacija"
+        ],
+        "explanation": "Tektonika ploča je znanstvena teorija koja opisuje kretanje Zemljine litosfere i objašnjava mnoge geološke pojave.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Indije?",
+        "correct_answer": "New Delhi",
+        "incorrect_answers": [
+            "Mumbai",
+            "Kolkata",
+            "Chennai"
+        ],
+        "explanation": "New Delhi je glavni grad Indije i sjedište indijske savezne vlade.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koja je najveća špilja na svijetu po volumenu?",
+        "correct_answer": "Hang Son Doong",
+        "incorrect_answers": [
+            "Mamutska špilja",
+            "Jewel Cave",
+            "Krubera"
+        ],
+        "explanation": "Hang Son Doong u Vijetnamu smatra se najvećom špiljom na svijetu po volumenu, s vlastitim ekosustavom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji se planinski lanac proteže kroz istočnu Europu i tvori prirodnu granicu?",
+        "correct_answer": "Karpati",
+        "incorrect_answers": [
+            "Alpe",
+            "Pireneji",
+            "Ural"
+        ],
+        "explanation": "Karpati su veliki planinski lanac koji se proteže kroz središnju i istočnu Europu, od Austrije do Rumunjske.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koje je najslanije more na svijetu (bez zatvorenih jezera)?",
+        "correct_answer": "Crveno more",
+        "incorrect_answers": [
+            "Sredozemno more",
+            "Baltičko more",
+            "Sjeverno more"
+        ],
+        "explanation": "Crveno more je poznato po visokoj salinitetu zbog ograničene izmjene vode i visokog isparavanja.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Australije?",
+        "correct_answer": "Canberra",
+        "incorrect_answers": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane"
+        ],
+        "explanation": "Canberra je glavni grad Australije, planski izgrađen grad, za razliku od većih gradova kao što je Sydney.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Kako se naziva proces kada se stijene raspadaju na manje komade zbog promjena temperature, mraza ili kemijskih reakcija?",
+        "correct_answer": "Trošenje (ili Vremensko raspadanje)",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfizam"
+        ],
+        "explanation": "Trošenje je proces razgradnje stijena na mjestu, bez pomicanja fragmenata, za razliku od erozije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi slap Iguazu, jedan od najvećih sustava slapova na svijetu?",
+        "correct_answer": "Argentina/Brazil (granica)",
+        "incorrect_answers": [
+            "Venezuela",
+            "Kanada",
+            "SAD"
+        ],
+        "explanation": "Slapovi Iguazu nalaze se na granici Brazila i Argentine, s većim dijelom u Argentini.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja je najveća umjetna akumulacija na svijetu po duljini obale?",
+        "correct_answer": "Jezero Volta",
+        "incorrect_answers": [
+            "Jezero Mead",
+            "Jezero Nasser",
+            "Brana Tri klanca"
+        ],
+        "explanation": "Jezero Volta u Gani ima jednu od najduljih obalnih linija od svih umjetnih jezera.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je najsjevernija točka kopna Južne Amerike?",
+        "correct_answer": "Punta Gallinas, Kolumbija",
+        "incorrect_answers": [
+            "Cabo Frio",
+            "Rt Horn",
+            "Punta Pariñas"
+        ],
+        "explanation": "Punta Gallinas u Kolumbiji je najsjevernija točka kontinentalnog kopna Južne Amerike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2009",
+        "category": "geografija",
+        "question": "Koji se kontinent nalazi na svim četirima hemisferama (sjevernoj, južnoj, istočnoj, zapadnoj)?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Europa"
+        ],
+        "explanation": "Afrika se jedinstveno proteže na sve četiri hemisfere, prelazeći ekvator i nulti meridijan.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2010",
+        "category": "geografija",
+        "question": "Koji je najveći grad u Nizozemskoj?",
+        "correct_answer": "Amsterdam",
+        "incorrect_answers": [
+            "Haag",
+            "Rotterdam",
+            "Utrecht"
+        ],
+        "explanation": "Amsterdam je najveći grad i glavni grad Nizozemske, dok je Haag sjedište vlade.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2011",
+        "category": "geografija",
+        "question": "Kako se naziva zemljopisni pojam za područje suhe klime gdje se povremeno pojavljuju suha korita rijeka?",
+        "correct_answer": "Vadi (wadi)",
+        "incorrect_answers": [
+            "Oaza",
+            "Playa",
+            "Erg"
+        ],
+        "explanation": "Vadi je suho korito rijeke u pustinjskim i polupustinjskim regijama koje se privremeno puni vodom nakon kiše.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2012",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Brazila?",
+        "correct_answer": "Brasília",
+        "incorrect_answers": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Salvador"
+        ],
+        "explanation": "Brasília je planski izgrađen glavni grad Brazila, inauguriran 1960. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
