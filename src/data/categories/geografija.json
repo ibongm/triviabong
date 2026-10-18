@@ -25139,5 +25139,395 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji je ocean najveći po površini i volumenu?",
+        "correct_answer": "Tihi ocean",
+        "incorrect_answers": [
+            "Atlantski ocean",
+            "Indijski ocean",
+            "Arktički ocean"
+        ],
+        "explanation": "Tihi ocean pokriva najveću površinu Zemlje i sadrži najveći volumen vode od svih svjetskih oceana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Koja je najveća pustinja u Africi i jedna od najvećih na svijetu?",
+        "correct_answer": "Sahara",
+        "incorrect_answers": [
+            "Kalahari",
+            "Namib",
+            "Gobi"
+        ],
+        "explanation": "Sahara je najveća vruća pustinja na svijetu, pokrivajući značajan dio Sjeverne Afrike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji je kontinent najmanji po površini?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Europa",
+            "Južna Amerika",
+            "Antarktika"
+        ],
+        "explanation": "Australija je i kontinent i država, te je najmanji od sedam kontinenata na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je država poznata po drevnim piramidama, uključujući i Veliku piramidu?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Meksiko",
+            "Peru",
+            "Grčka"
+        ],
+        "explanation": "Egipat je dom Velike piramide u Gizi i mnogih drugih piramida koje su služile kao grobnice faraona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koji je najduži kontinentalni planinski lanac na svijetu?",
+        "correct_answer": "Andi",
+        "incorrect_answers": [
+            "Himalaja",
+            "Stjenjak",
+            "Ural"
+        ],
+        "explanation": "Andi su najduži kontinentalni planinski lanac na svijetu, protežu se uz zapadnu obalu Južne Amerike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koje je najveće slatkovodno jezero na svijetu po volumenu?",
+        "correct_answer": "Bajkalsko jezero",
+        "incorrect_answers": [
+            "Jezero Superior",
+            "Viktorijino jezero",
+            "Kaspijsko jezero"
+        ],
+        "explanation": "Bajkalsko jezero u Sibiru, Rusija, sadrži oko 20% svjetske nezaleđene slatke vode.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja država graniči s najviše drugih država (14)?",
+        "correct_answer": "Kina",
+        "incorrect_answers": [
+            "Rusija",
+            "Brazil",
+            "Njemačka"
+        ],
+        "explanation": "Kina dijeli kopnene granice s 14 suverenih država, što je najveći broj na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja od navedenih rijeka prvenstveno teče prema Arktičkom oceanu?",
+        "correct_answer": "Jenisej",
+        "incorrect_answers": [
+            "Nil",
+            "Amazon",
+            "Mississippi"
+        ],
+        "explanation": "Jenisej je jedna od glavnih rijeka Sibira koja teče prema sjeveru i ulijeva se u Karsko more, dio Arktičkog oceana.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koji je najviši aktivni vulkan na svijetu?",
+        "correct_answer": "Ojos del Salado",
+        "incorrect_answers": [
+            "Mauna Loa",
+            "Etna",
+            "Fuji"
+        ],
+        "explanation": "Ojos del Salado u Andama, na granici Čilea i Argentine, najviši je aktivni vulkan na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Koja topla oceanska struja značajno utječe na klimu zapadne Europe?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Benguelska struja",
+            "Humboldtova struja",
+            "Kuroshio struja"
+        ],
+        "explanation": "Golfska struja donosi toplu vodu iz Meksičkog zaljeva prema Europi, čineći klimu znatno blažom nego što bi inače bila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja se od navedenih pustinja nalazi u Južnoj Americi?",
+        "correct_answer": "Atacama",
+        "incorrect_answers": [
+            "Gobi",
+            "Sahara",
+            "Mojave"
+        ],
+        "explanation": "Pustinja Atacama, jedna od najsušnijih na svijetu, nalazi se u Čileu u Južnoj Americi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji je najviši slap u Europi?",
+        "correct_answer": "Vinnufossen",
+        "incorrect_answers": [
+            "Rheinfall",
+            "Mardalsfossen",
+            "Gavarnie Fall"
+        ],
+        "explanation": "Vinnufossen u Norveškoj, s ukupnom visinom od 860 metara, najviši je slap u Europi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koje se more nalazi između Europe i Azije?",
+        "correct_answer": "Crno more",
+        "incorrect_answers": [
+            "Jadransko more",
+            "Egejsko more",
+            "Baltsko more"
+        ],
+        "explanation": "Crno more je unutarnje more koje odvaja jugoistočnu Europu od zapadne Azije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Geirangerfjord, poznat po UNESCO-voj zaštiti?",
+        "correct_answer": "Norveška",
+        "incorrect_answers": [
+            "Island",
+            "Novi Zeland",
+            "Čile"
+        ],
+        "explanation": "Geirangerfjord je jedan od najpoznatijih norveških fjordova i dio je UNESCO-ve svjetske baštine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koji je najduži spiljski sustav na svijetu?",
+        "correct_answer": "Mamutska špilja",
+        "incorrect_answers": [
+            "Škocjanske jame",
+            "Postojnska jama",
+            "Carlsbad Caverns"
+        ],
+        "explanation": "Nacionalni park Mamutska špilja u Kentuckyju, SAD, sadrži najduži poznati sustav špilja na svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koji se grad nalazi na ušću Bijelog i Plavog Nila?",
+        "correct_answer": "Kartum",
+        "incorrect_answers": [
+            "Kairo",
+            "Asuan",
+            "Aleksandrija"
+        ],
+        "explanation": "Kartum je glavni grad Sudana i leži na mjestu gdje se spajaju dvije glavne pritoke Nila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koji je ocean najmanji po površini?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Indijski ocean",
+            "Južni ocean",
+            "Atlantski ocean"
+        ],
+        "explanation": "Arktički ocean je najmanji i najplići od pet glavnih oceana na svijetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja europska rijeka protječe kroz najviše glavnih gradova (četiri)?",
+        "correct_answer": "Dunav",
+        "incorrect_answers": [
+            "Rajna",
+            "Dnjepar",
+            "Laba"
+        ],
+        "explanation": "Dunav teče kroz Beč, Bratislavu, Budimpeštu i Beograd, što ga čini rijekom koja prolazi kroz najviše europskih glavnih gradova.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "U kojoj se zemlji nalaze poznati gejziri poput Strokkura i Velikog Gejzira?",
+        "correct_answer": "Island",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Sjedinjene Američke Države",
+            "Japan"
+        ],
+        "explanation": "Island je poznat po svojoj geotermalnoj aktivnosti, uključujući brojne gejzire, zbog svog položaja na srednjoatlantskom hrbatu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koje se more nalazi između Arapskog poluotoka i Afrike?",
+        "correct_answer": "Crveno more",
+        "incorrect_answers": [
+            "Perzijski zaljev",
+            "Arapsko more",
+            "Sredozemno more"
+        ],
+        "explanation": "Crveno more je morski zaljev Indijskog oceana koji razdvaja Afriku od Arapskog poluotoka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koji je najviši planinski vrh Oceanije?",
+        "correct_answer": "Puncak Jaya",
+        "incorrect_answers": [
+            "Mount Cook",
+            "Mauna Kea",
+            "Mount Kosciuszko"
+        ],
+        "explanation": "Puncak Jaya (također Carstensz Pyramid) na Novoj Gvineji najviši je vrh Oceanije (4.884 m).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji tjesnac razdvaja Australiju od otoka Tasmanije?",
+        "correct_answer": "Bassov tjesnac",
+        "incorrect_answers": [
+            "Cookov tjesnac",
+            "Torresov tjesnac",
+            "Beringov tjesnac"
+        ],
+        "explanation": "Bassov tjesnac je vodena površina koja razdvaja južni dio Australije od otoka Tasmanije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koja je najmanja suverena država u Južnoj Americi po površini?",
+        "correct_answer": "Surinam",
+        "incorrect_answers": [
+            "Urugvaj",
+            "Gvajana",
+            "Ekvador"
+        ],
+        "explanation": "Surinam je najmanja suverena država u Južnoj Americi, smještena na sjeveroistočnoj obali kontinenta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koji planinski lanac tvori \"kičmu\" Italije?",
+        "correct_answer": "Apenini",
+        "incorrect_answers": [
+            "Alpe",
+            "Dinaridi",
+            "Karpati"
+        ],
+        "explanation": "Apenini su planinski lanac koji se proteže duž cijele dužine Italije, tvoreći njezinu geografsku okosnicu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koja rijeka služi kao dio prirodne granice između SAD-a i Kanade na istoku?",
+        "correct_answer": "Rijeka Svetog Lovre",
+        "incorrect_answers": [
+            "Columbia",
+            "Mississippi",
+            "Ohio"
+        ],
+        "explanation": "Rijeka Svetog Lovre povezuje Velika jezera s Atlantskim oceanom i tvori značajan dio granice između SAD-a i Kanade.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2008",
+        "category": "geografija",
+        "question": "Koja je država svjetski poznata po svojim cvjetovima trešnje (sakuri)?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Kina",
+            "Južna Koreja",
+            "Vijetnam"
+        ],
+        "explanation": "Cvjetovi trešnje, ili sakura, nacionalni su simbol Japana i svake godine privlače brojne turiste.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
