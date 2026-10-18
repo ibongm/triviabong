@@ -25139,5 +25139,335 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Koloseum?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Turska",
+            "Egipat"
+        ],
+        "explanation": "Koloseum, amfiteatar eliptičnog oblika, nalazi se u Rimu, glavnom gradu Italije. Izgrađen je u prvom stoljeću i simbol je starog Rima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Kako se naziva morska struja koja donosi toplu vodu iz tropskih područja prema sjeverozapadnoj Europi, utječući na njezinu klimu?",
+        "correct_answer": "Golfska struja",
+        "incorrect_answers": [
+            "Humboldtova struja",
+            "Benguelska struja",
+            "Labradorna struja"
+        ],
+        "explanation": "Golfska struja je snažna, topla i brza oceanska struja koja izvire u Meksičkom zaljevu i utječe na blagu klimu zapadne Europe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koja država graniči s devet drugih država, uključujući Francusku i Italiju?",
+        "correct_answer": "Njemačka",
+        "incorrect_answers": [
+            "Austrija",
+            "Poljska",
+            "Švicarska"
+        ],
+        "explanation": "Njemačka graniči s devet zemalja: Austrijom, Belgijom, Češkom, Danskom, Francuskom, Luksemburgom, Nizozemskom, Poljskom i Švicarskom.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je najmnogoljudnija zemlja na svijetu (stanje 2024.)?",
+        "correct_answer": "Indija",
+        "incorrect_answers": [
+            "Kina",
+            "Sjedinjene Američke Države",
+            "Indonezija"
+        ],
+        "explanation": "Od 2023. godine, Indija je pretekla Kinu i postala najmnogoljudnija zemlja na svijetu. Njezina populacija nastavlja rasti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Koja se rijeka ulijeva u Kaspijsko jezero?",
+        "correct_answer": "Volga",
+        "incorrect_answers": [
+            "Dunav",
+            "Ural",
+            "Don"
+        ],
+        "explanation": "Rijeka Volga je najduža rijeka u Europi i najveća rijeka na svijetu koja se ulijeva u zatvoreno jezero, Kaspijsko jezero.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koja se znamenitost, poznata kao 'Stijena', nalazi u zaljevu San Francisca?",
+        "correct_answer": "Alcatraz",
+        "incorrect_answers": [
+            "Golden Gate",
+            "Angel Island",
+            "Treasure Island"
+        ],
+        "explanation": "Alcatraz je bio poznati federalni zatvor smješten na otoku u zaljevu San Francisca. Danas je popularna turistička atrakcija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koja država ima bijeli križ na crvenoj pozadini kao zastavu?",
+        "correct_answer": "Švicarska",
+        "incorrect_answers": [
+            "Danska",
+            "Engleska",
+            "Norveška"
+        ],
+        "explanation": "Zastava Švicarske sastoji se od bijelog, jednakostraničnog križa na crvenoj pozadini. Slična je zastavi Međunarodnog Crvenog križa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Kako se naziva uski kopneni pojas koji spaja dva veća kopna i razdvaja dva mora ili oceana?",
+        "correct_answer": "Prevlaka",
+        "incorrect_answers": [
+            "Tjesnac",
+            "Rt",
+            "Poluotok"
+        ],
+        "explanation": "Prevlaka je uski kopneni most između dva veća kopna. Geografski su važni jer predstavljaju prirodne točke za kopneni transport između mora.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koji vjetar puše dolinom Rone u Francuskoj i donosi hladan, suh zrak?",
+        "correct_answer": "Mistral",
+        "incorrect_answers": [
+            "Bura",
+            "Košava",
+            "Siroko"
+        ],
+        "explanation": "Mistral je snažan, hladan i suh vjetar koji puše iz sjeveroistoka kroz dolinu Rone u Francuskoj prema Sredozemnom moru. Utječe na lokalnu klimu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva oštri, nazubljeni greben koji je nastao erozijom ledenjaka s dvije ili više strana?",
+        "correct_answer": "Areta",
+        "incorrect_answers": [
+            "Cirque",
+            "Morena",
+            "Dolina U-oblika"
+        ],
+        "explanation": "Areta je uski, oštri greben koji nastaje kada dva ledenjaka erodiraju paralelnim dolinama s obje strane ili kada cirques erodiraju prema natrag.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koji kontinent povezuje Sjevernu i Južnu Ameriku?",
+        "correct_answer": "Sjeverna Amerika",
+        "incorrect_answers": [
+            "Antarktika",
+            "Afrika",
+            "Europa"
+        ],
+        "explanation": "Geografski, Sjeverna Amerika je kontinent koji obuhvaća i Srednju Ameriku, koja služi kao most između Sjeverne i Južne Amerike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Kako se naziva zona oceana koja prima dovoljno sunčeve svjetlosti za fotosintezu?",
+        "correct_answer": "Fotička zona",
+        "incorrect_answers": [
+            "Afotička zona",
+            "Batialna zona",
+            "Abisalna zona"
+        ],
+        "explanation": "Fotička zona je gornji sloj oceana u koji prodire dovoljno sunčeve svjetlosti za odvijanje fotosinteze. Ključna je za morski život.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "U kojoj se državi nalazi Veliki koraljni greben?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Fidži"
+        ],
+        "explanation": "Veliki koraljni greben je najveći sustav koraljnih grebena na svijetu. Nalazi se uz obalu Queenslanda u sjeveroistočnoj Australiji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Koja rijeka tvori deltu poznatu kao 'Žitnica Egipta'?",
+        "correct_answer": "Nil",
+        "incorrect_answers": [
+            "Eufrat",
+            "Tigris",
+            "Jordan"
+        ],
+        "explanation": "Delta Nila je plodno područje na sjeveru Egipta gdje se rijeka Nil razlijeva u Sredozemno more. To je jedna od najvećih riječnih delti na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Kako se naziva klimatski fenomen karakteriziran zagrijavanjem površinskih voda u istočnom i središnjem Pacifiku?",
+        "correct_answer": "El Niño",
+        "incorrect_answers": [
+            "La Niña",
+            "Ciklona",
+            "Monsun"
+        ],
+        "explanation": "El Niño je kompleksan klimatski obrazac koji uključuje zagrijavanje oceanske površine u tropskom Tihom oceanu. Ima globalne utjecaje na vrijeme.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je država poznata po svom sustavu poldera, zemljišta otetog od mora?",
+        "correct_answer": "Nizozemska",
+        "incorrect_answers": [
+            "Belgija",
+            "Danska",
+            "Švedska"
+        ],
+        "explanation": "Nizozemska je poznata po svojim opsežnim sustavima za upravljanje vodom, uključujući nasipe i poldere, kojima su stvarali plodno tlo ispod razine mora.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Kako se naziva horizontalno kretanje zraka, često mjereno brzinom?",
+        "correct_answer": "Vjetar",
+        "incorrect_answers": [
+            "Magla",
+            "Oblak",
+            "Kiša"
+        ],
+        "explanation": "Vjetar je kretanje zraka od područja visokog tlaka prema području niskog tlaka. On je ključan element vremenskih uvjeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koja kartografska projekcija zadržava točne površine kontinenata, ali izobličuje njihov oblik?",
+        "correct_answer": "Petersova projekcija",
+        "incorrect_answers": [
+            "Mercatorova projekcija",
+            "Gnomonska projekcija",
+            "Lambertova konična projekcija"
+        ],
+        "explanation": "Petersova projekcija (Arno Peters) je jednako površinska kartografska projekcija koja točno prikazuje relativne površine kopnenih masa, ali izobličuje njihove oblike.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "U kojem se gradu nalazi Eiffelov toranj?",
+        "correct_answer": "Pariz",
+        "incorrect_answers": [
+            "London",
+            "Rim",
+            "Berlin"
+        ],
+        "explanation": "Eiffelov toranj je poznati željezni toranj smješten na Champ de Mars u Parizu, Francuska. Jedan je od najprepoznatljivijih simbola grada.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Kako se naziva suha zona Zemlje gdje prosječna godišnja količina oborina iznosi manje od 250 mm?",
+        "correct_answer": "Pustinja",
+        "incorrect_answers": [
+            "Stepa",
+            "Savana",
+            "Tundra"
+        ],
+        "explanation": "Pustinja je područje Zemlje koje prima vrlo malo oborina, što otežava rast biljnog svijeta. Karakterizira ih ekstremna suhoća.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Koja je zemlja poznata po svojim kengurima i koalama?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Novi Zeland",
+            "Južnoafrička Republika",
+            "Indonezija"
+        ],
+        "explanation": "Australija je dom mnogih endemskih životinjskih vrsta, uključujući kengure i koale, koje su postale prepoznatljivi simboli te zemlje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Kako se naziva granica tektonskih ploča gdje se dvije ploče sudaraju, često stvarajući planinske lance?",
+        "correct_answer": "Konvergentna granica",
+        "incorrect_answers": [
+            "Divergentna granica",
+            "Transformna granica",
+            "Stabilna granica"
+        ],
+        "explanation": "Konvergentna granica nastaje kada se dvije tektonske ploče pomiču jedna prema drugoj. To može rezultirati subdukcijom, planinskim lancima ili vulkanskom aktivnošću.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
