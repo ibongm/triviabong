@@ -30445,5 +30445,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke ispuštaju vodenu paru iz svojih listova u atmosferu?",
+        "correct_answer": "Transpiracija",
+        "incorrect_answers": [
+            "Fotosinteza",
+            "Respiracija",
+            "Guttacija"
+        ],
+        "explanation": "Transpiracija je proces isparavanja vode iz biljaka, prvenstveno kroz stomate na listovima, što pomaže u cirkulaciji vode.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koji je kemijski element najzastupljeniji u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljik",
+            "Argon"
+        ],
+        "explanation": "Dušik (N2) čini približno 78% Zemljine atmosfere, što ga čini najzastupljenijim elementom u zraku.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Tko je formulirao zakone gibanja i univerzalne gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Isaac Newton je u 17. stoljeću objavio svoje zakone gibanja i zakon univerzalne gravitacije, koji su postavili temelje klasične fizike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se naziva najmanji gradivni element tvari koji zadržava kemijska svojstva elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna jedinica materije koja zadržava kemijska svojstva elementa i sastoji se od jezgre i elektronskog omotača.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koji se organ ljudskog tijela sastoji od sive i bijele tvari i kontrolira većinu tjelesnih funkcija?",
+        "correct_answer": "Mozak",
+        "incorrect_answers": [
+            "Srce",
+            "Pluća",
+            "Jetra"
+        ],
+        "explanation": "Mozak je središnji organ živčanog sustava i kontrolira sve misli, pokrete, osjete i vitalne funkcije tijela.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja vrsta energije se oslobađa tijekom kemijske reakcije sagorijevanja?",
+        "correct_answer": "Toplinska energija",
+        "incorrect_answers": [
+            "Svjetlosna energija",
+            "Električna energija",
+            "Potencijalna energija"
+        ],
+        "explanation": "Sagorijevanje je egzotermna kemijska reakcija koja oslobađa energiju, najčešće u obliku topline i svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koji se fenomen javlja kada se magnetski polovi istog tipa (npr. sjever-sjever) pokušavaju spojiti?",
+        "correct_answer": "Odbijanje",
+        "incorrect_answers": [
+            "Privlačenje",
+            "Neutralizacija",
+            "Indukcija"
+        ],
+        "explanation": "Isti magnetski polovi se odbijaju, dok se različiti magnetski polovi privlače.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je tehnika bežičnog prijenosa podataka popularna za povezivanje perifernih uređaja na kratke udaljenosti?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "NFC"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji je najveći kopneni sisavac na svijetu?",
+        "correct_answer": "Afrički slon",
+        "incorrect_answers": [
+            "Plavi kit",
+            "Bijeli nosorog",
+            "Grizli medvjed"
+        ],
+        "explanation": "Afrički slon je najveći kopneni sisavac po masi, dok je plavi kit najveća životinja uopće.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Kako se naziva mjerna jedinica za frekvenciju, koja označava broj ciklusa u sekundi?",
+        "correct_answer": "Hertz",
+        "incorrect_answers": [
+            "Volt",
+            "Amper",
+            "Ohm"
+        ],
+        "explanation": "Hertz (Hz) je SI jedinica za frekvenciju, definirana kao jedan ciklus po sekundi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Kako se zove instrument koji se koristi za mjerenje atmosferskog tlaka?",
+        "correct_answer": "Barometar",
+        "incorrect_answers": [
+            "Termometar",
+            "Higrometar",
+            "Anemometar"
+        ],
+        "explanation": "Barometar je mjerni instrument koji služi za mjerenje apsolutnog atmosferskog tlaka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se čvrsta tvar izravno pretvara u plin bez prolaska kroz tekuće stanje?",
+        "correct_answer": "Sublimacija",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Isparavanje",
+            "Taljenje"
+        ],
+        "explanation": "Sublimacija je fizikalni proces prijelaza tvari iz čvrstog direktno u plinovito agregatno stanje, bez tekuće faze.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je najpoznatiji algoritam za pretraživanje weba, razvijen od strane tvrtke Google?",
+        "correct_answer": "PageRank",
+        "incorrect_answers": [
+            "QuickSort",
+            "BubbleSort",
+            "DeepRank"
+        ],
+        "explanation": "PageRank je algoritam koji koristi Google za procjenu relativne važnosti web stranica u svom tražilici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj se svjetlosni valovi spajaju, pojačavajući ili poništavajući jedni druge?",
+        "correct_answer": "Interferencija",
+        "incorrect_answers": [
+            "Difrakcija",
+            "Disperzija",
+            "Polarizacija"
+        ],
+        "explanation": "Interferencija je pojava međusobnog djelovanja dvaju ili više valova, rezultirajući stvaranjem novog valnog uzorka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je primarna funkcija crvenih krvnih zrnaca u ljudskom tijelu?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Regulacija šećera u krvi"
+        ],
+        "explanation": "Crvena krvna zrnca sadrže hemoglobin koji veže kisik u plućima i prenosi ga do svih tkiva u tijelu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Kako se naziva teorija koja opisuje svemir kao rezultat širenja iz iznimno gustog i vrućeg stanja?",
+        "correct_answer": "Teorija Velikog praska",
+        "incorrect_answers": [
+            "Teorija struna",
+            "Teorija stanja mirovanja",
+            "Teorija relativnosti"
+        ],
+        "explanation": "Teorija Velikog praska je kozmološki model koji opisuje rani razvoj i širenje svemira od početne singularnosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koji je programski jezik poznat po svojoj svestranosti i širokoj primjeni u razvoju web stranica, umjetne inteligencije i analizi podataka?",
+        "correct_answer": "Python",
+        "incorrect_answers": [
+            "Java",
+            "C++",
+            "Assembly"
+        ],
+        "explanation": "Python je popularan, visoko-razinski programski jezik poznat po svojoj jednostavnosti i širokom spektru primjene.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koji element periodnog sustava ima simbol 'Fe'?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Fosfor",
+            "Fluor",
+            "Francij"
+        ],
+        "explanation": "Simbol 'Fe' u periodnom sustavu elemenata označava kemijski element željezo.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji dio oka fokusira svjetlost na mrežnicu?",
+        "correct_answer": "Leća",
+        "incorrect_answers": [
+            "Rožnica",
+            "Zjenica",
+            "Iris"
+        ],
+        "explanation": "Leća oka je bikonveksna struktura koja lomi svjetlost i fokusira je na mrežnicu, omogućujući jasan vid.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Što se događa s otporom metala kada se njegova temperatura poveća?",
+        "correct_answer": "Otpor se povećava",
+        "incorrect_answers": [
+            "Otpor se smanjuje",
+            "Otpor ostaje isti",
+            "Otpor prvo raste pa pada"
+        ],
+        "explanation": "Povećanjem temperature metala, atomi vibriraju intenzivnije, što povećava broj sudara s elektronima i posljedično povećava otpor.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji je glavni produkt nuklearne fisije koji se koristi kao gorivo u nuklearnim reaktorima?",
+        "correct_answer": "Uranij-235",
+        "incorrect_answers": [
+            "Plutonij-239",
+            "Torij-232",
+            "Deuterij"
+        ],
+        "explanation": "Uranij-235 je primarno fisilno gorivo koje se koristi u većini nuklearnih reaktora za proizvodnju energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se elektroni odvajaju od atoma ili molekula, stvarajući ione?",
+        "correct_answer": "Ionizacija",
+        "incorrect_answers": [
+            "Eksitacija",
+            "Rezonancija",
+            "Disocijacija"
+        ],
+        "explanation": "Ionizacija je fizikalni proces u kojem se atom ili molekula pretvara u ion dobivanjem ili gubljenjem elektrona.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji je drugi naziv za vitamin C?",
+        "correct_answer": "Askorbinska kiselina",
+        "incorrect_answers": [
+            "Folna kiselina",
+            "Retinol",
+            "Tokoferol"
+        ],
+        "explanation": "Vitamin C je esencijalni nutrijent i antioksidans poznat i pod nazivom askorbinska kiselina.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Kako se naziva pojava u kojoj se molekule otapala gibaju kroz polupropusnu membranu iz područja niže koncentracije otopljene tvari u područje više koncentracije?",
+        "correct_answer": "Osmoza",
+        "incorrect_answers": [
+            "Difuzija",
+            "Aktivni transport",
+            "Filtracija"
+        ],
+        "explanation": "Osmoza je pasivni transport molekula otapala (najčešće vode) kroz polupropusnu membranu, s ciljem izjednačavanja koncentracija.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je princip razvila Maria Goeppert Mayer, a opisuje raspored nukleona unutar atomske jezgre u 'ljuskama'?",
+        "correct_answer": "Model ljusaka atomske jezgre",
+        "incorrect_answers": [
+            "Standardni model čestica",
+            "Model kapljice atomske jezgre",
+            "Kvantna elektrodinamika"
+        ],
+        "explanation": "Model ljusaka atomske jezgre, za koji je Maria Goeppert Mayer dobila Nobelovu nagradu, objašnjava stabilnost atomskih jezgri na temelju 'magičnih brojeva'.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Kako se naziva tehnika strojnog učenja gdje algoritam uči iz interakcije s okolinom kako bi maksimizirao nagradu?",
+        "correct_answer": "Učenje potpomognutim potkrjepljivanjem (Reinforcement Learning)",
+        "incorrect_answers": [
+            "Nadzirano učenje",
+            "Nenadzirano učenje",
+            "Polunadzirano učenje"
+        ],
+        "explanation": "Učenje potpomognutim potkrjepljivanjem je vrsta strojnog učenja gdje agent uči kroz pokušaje i pogreške, optimizirajući svoje akcije radi postizanja cilja.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja je minimalna brzina koju objekt mora postići da bi izbjegao gravitacijsku silu nebeskog tijela i trajno napustio njegovu gravitacijsku sferu?",
+        "correct_answer": "Brzina oslobađanja",
+        "incorrect_answers": [
+            "Orbitalna brzina",
+            "Brzina svjetlosti",
+            "Zvučna brzina"
+        ],
+        "explanation": "Brzina oslobađanja je brzina potrebna za bijeg iz gravitacijskog polja tijela bez daljnjeg pogona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Koji se pojam koristi za opisivanje pojava koje se događaju pri temperaturama bliskim apsolutnoj nuli, poput supravodljivosti i suprafluidnosti?",
+        "correct_answer": "Kriogenika",
+        "incorrect_answers": [
+            "Termodinamika",
+            "Akustika",
+            "Optika"
+        ],
+        "explanation": "Kriogenika je grana fizike i inženjerstva koja se bavi proizvodnjom i proučavanjem tvari na ekstremno niskim temperaturama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Kako se naziva medicinska tehnika koja koristi jaka magnetska polja i radio valove za stvaranje detaljnih slika organa i tkiva u tijelu?",
+        "correct_answer": "Magnetska rezonancija (MR)",
+        "incorrect_answers": [
+            "Rendgensko snimanje",
+            "Ultrazvuk",
+            "CT skeniranje"
+        ],
+        "explanation": "Magnetska rezonancija koristi magnetno polje i radio valove za dobivanje preciznih slika unutarnjih struktura tijela bez invazivnih postupaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je pojam za količinu tvari koja sadrži Avogadrov broj (oko 6.022 x 10^23) čestica (atoma, molekula, iona)?",
+        "correct_answer": "Mol",
+        "incorrect_answers": [
+            "Gram",
+            "Kilogram",
+            "Litar"
+        ],
+        "explanation": "Mol je SI jedinica za količinu tvari, definirana kao broj čestica jednak Avogadrovom broju.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Kako se naziva tip zvijezde koji nastaje nakon što masivna zvijezda potroši svoje nuklearno gorivo i uruši se pod vlastitom gravitacijom?",
+        "correct_answer": "Crna rupa",
+        "incorrect_answers": [
+            "Bijeli patuljak",
+            "Smeđi patuljak",
+            "Crveni div"
+        ],
+        "explanation": "Crna rupa je područje u prostor-vremenu s toliko jakom gravitacijskom silom da ništa, čak ni svjetlost, ne može pobjeći iz nje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Koji se fizikalni zakon odnosi na promjenu obujma plina ovisno o promjeni temperature pri konstantnom tlaku?",
+        "correct_answer": "Charlesov zakon",
+        "incorrect_answers": [
+            "Boyleov zakon",
+            "Gay-Lussacov zakon",
+            "Avogadrov zakon"
+        ],
+        "explanation": "Charlesov zakon navodi da je obujam idealnog plina pri konstantnom tlaku izravno proporcionalan apsolutnoj temperaturi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja je tehnologija omogućila stvaranje prvog genetski modificiranog organizma?",
+        "correct_answer": "Rekombinantna DNA tehnologija",
+        "incorrect_answers": [
+            "Kloniranje",
+            "PCR",
+            "Sekvenciranje genoma"
+        ],
+        "explanation": "Rekombinantna DNA tehnologija omogućuje spajanje DNA fragmenata iz različitih izvora, stvarajući nove genetske kombinacije.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Koji se efekt događa kada se magnetsko polje inducira promjenjivim električnim poljem, i obrnuto?",
+        "correct_answer": "Elektromagnetska indukcija",
+        "incorrect_answers": [
+            "Magnetska rezonancija",
+            "Elektrostatska indukcija",
+            "Kvantna sprezanje"
+        ],
+        "explanation": "Elektromagnetska indukcija je pojava stvaranja električnog napona u vodiču zbog promjene magnetskog toka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Kako se naziva znanstvena disciplina koja se bavi proučavanjem interakcije živih organizama s njihovim okolišem?",
+        "correct_answer": "Ekologija",
+        "incorrect_answers": [
+            "Biologija",
+            "Genetika",
+            "Paleontologija"
+        ],
+        "explanation": "Ekologija proučava odnose između živih organizama i njihove interakcije s abiotičkim komponentama okoliša.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
