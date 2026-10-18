@@ -30445,5 +30445,530 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Koji je najveći organ ljudskog tijela po težini i površini?",
+        "correct_answer": "Koža",
+        "incorrect_answers": [
+            "Jetra",
+            "Srce",
+            "Pluća"
+        ],
+        "explanation": "Koža pokriva cijelu površinu tijela i najveći je organ po težini i površini, štiteći tijelo od vanjskih utjecaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Kako se naziva fizikalni fenomen kada materijal ne pruža otpor protoku električne struje ispod određene kritične temperature?",
+        "correct_answer": "Supravodljivost",
+        "incorrect_answers": [
+            "Poluvodljivost",
+            "Izolacija",
+            "Rezonancija"
+        ],
+        "explanation": "Supravodljivost je fenomen karakteriziran apsolutnim odsustvom električnog otpora i izbacivanjem magnetskih polja iz unutrašnjosti materijala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Koji se znanstvenik smatra ocem genetike zbog svojih eksperimenata s graškom i otkrića zakona nasljeđivanja?",
+        "correct_answer": "Gregor Mendel",
+        "incorrect_answers": [
+            "Charles Darwin",
+            "Louis Pasteur",
+            "Robert Koch"
+        ],
+        "explanation": "Gregor Mendel je kroz svoje eksperimente s križanjem graška formulirao osnovne zakone nasljeđivanja, postavljajući temelje moderne genetike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Kako se zove kemijska reakcija u kojoj organski spoj reagira s kisikom, obično oslobađajući toplinu i svjetlost?",
+        "correct_answer": "Izgaranje",
+        "incorrect_answers": [
+            "Redukcija",
+            "Oksidacija",
+            "Neutralizacija"
+        ],
+        "explanation": "Izgaranje je egzotermna redoks reakcija između goriva i oksidansa, najčešće atmosferskog kisika, koja proizvodi toplinu i svjetlost.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Koja je osnovna jedinica digitalne informacije u računarstvu, koja može imati vrijednost 0 ili 1?",
+        "correct_answer": "Bit",
+        "incorrect_answers": [
+            "Bajt",
+            "Gigabit",
+            "Herc"
+        ],
+        "explanation": "Bit je najmanja jedinica digitalne informacije, predstavljena binarnom znamenkom (0 ili 1), koja služi kao temelj svih računalnih podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Kako se naziva proces fotosinteze koji se odvija u biljkama, algama i cijanobakterijama, koristeći svjetlost za sintezu organskih tvari?",
+        "correct_answer": "Fotoliza vode",
+        "incorrect_answers": [
+            "Kemosinteza",
+            "Glukoneogeneza",
+            "Glikoliza"
+        ],
+        "explanation": "Fotosinteza je proces kojim biljke, alge i neke bakterije pretvaraju svjetlosnu energiju u kemijsku energiju za sintezu hrane.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Koja je fundamentalna sila odgovorna za raspad radioaktivnih jezgri i beta raspad?",
+        "correct_answer": "Slaba nuklearna sila",
+        "incorrect_answers": [
+            "Jaka nuklearna sila",
+            "Gravitacijska sila",
+            "Elektromagnetska sila"
+        ],
+        "explanation": "Slaba nuklearna sila odgovorna je za raspad subatomskih čestica i uzrokuje radioaktivni raspad atomskih jezgri, poput beta raspada.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Kako se zove skupina zvijezda, planeta, plina i prašine, koje drži na okupu gravitacija, a koje se vide kao cjelina na noćnom nebu?",
+        "correct_answer": "Galaksija",
+        "incorrect_answers": [
+            "Sazviježđe",
+            "Planetarni sustav",
+            "Maglica"
+        ],
+        "explanation": "Galaksija je ogroman gravitacijski vezan sustav koji se sastoji od zvijezda, zvjezdanih ostataka, međuzvjezdanog plina, prašine i tamne tvari.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji kemijski element, označen simbolom Fe, je ključna komponenta hemoglobina u krvi?",
+        "correct_answer": "Željezo",
+        "incorrect_answers": [
+            "Bakar",
+            "Cink",
+            "Magnezij"
+        ],
+        "explanation": "Željezo je esencijalni element za život, ključan za transport kisika u krvi kao sastavni dio proteina hemoglobina.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koji je naziv za sustav koji omogućuje uređajima spajanje na internet putem bežičnih radio valova?",
+        "correct_answer": "Wi-Fi",
+        "incorrect_answers": [
+            "Ethernet",
+            "Bluetooth",
+            "USB"
+        ],
+        "explanation": "Wi-Fi je obitelj bežičnih mrežnih protokola temeljenih na standardima IEEE 802.11, koji omogućavaju bežični pristup internetu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji pojam opisuje prilagodbu organizma na promjene u okolišu tijekom vremena, što dovodi do nastanka novih vrsta?",
+        "correct_answer": "Evolucija",
+        "incorrect_answers": [
+            "Metabolizam",
+            "Homeostaza",
+            "Fotosinteza"
+        ],
+        "explanation": "Evolucija je proces postupnih promjena nasljednih osobina bioloških populacija tijekom generacija, što može dovesti do formiranja novih vrsta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Koja je jedinica sile u SI sustavu?",
+        "correct_answer": "Newton",
+        "incorrect_answers": [
+            "Džul",
+            "Vat",
+            "Volt"
+        ],
+        "explanation": "Newton (N) je SI jedinica za silu, definirana kao sila potrebna za ubrzanje mase od jednog kilograma za jedan metar u sekundi na kvadrat.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Kako se naziva proces u biologiji gdje se genetska informacija iz DNA prepisuje u molekulu RNA?",
+        "correct_answer": "Transkripcija",
+        "incorrect_answers": [
+            "Translacija",
+            "Replikacija",
+            "Mutacija"
+        ],
+        "explanation": "Transkripcija je prvi korak u ekspresiji gena, gdje se segment DNA kopira u RNA pomoću enzima RNA polimeraze.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Koja vrsta računalne memorije kratkotrajno pohranjuje podatke i programe koje CPU trenutno koristi?",
+        "correct_answer": "RAM (Random Access Memory)",
+        "incorrect_answers": [
+            "ROM (Read-Only Memory)",
+            "SSD (Solid State Drive)",
+            "HDD (Hard Disk Drive)"
+        ],
+        "explanation": "RAM je volatilna memorija koja omogućuje brz pristup podacima i koristi se za privremenu pohranu aktivnih programa i podataka.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koji fizičar je formulirao teoriju relativnosti?",
+        "correct_answer": "Albert Einstein",
+        "incorrect_answers": [
+            "Isaac Newton",
+            "Niels Bohr",
+            "Stephen Hawking"
+        ],
+        "explanation": "Albert Einstein je razvio dvije teorije relativnosti: specijalnu (1905.) i opću (1915.), koje su revolucionirale fiziku i naše razumijevanje svemira.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koji je proces diobe jezgre gdje se jedna jezgra dijeli na dvije ili više manjih jezgri, oslobađajući veliku količinu energije?",
+        "correct_answer": "Nuklearna fisija",
+        "incorrect_answers": [
+            "Nuklearna fuzija",
+            "Radioaktivni raspad",
+            "Nuklearna sinteza"
+        ],
+        "explanation": "Nuklearna fisija je nuklearna reakcija u kojoj se atomska jezgra razdvaja na dvije ili više manjih jezgri, uz oslobađanje energije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Koja je glavna funkcija crvenih krvnih zrnaca (eritrocita) u ljudskom tijelu?",
+        "correct_answer": "Prijenos kisika",
+        "incorrect_answers": [
+            "Borba protiv infekcija",
+            "Zgrušavanje krvi",
+            "Proizvodnja antitijela"
+        ],
+        "explanation": "Crvena krvna zrnca, zahvaljujući proteinu hemoglobinu, primarno su odgovorna za prijenos kisika iz pluća u tkiva i ugljikovog dioksida natrag u pluća.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem se tekućina pretvara u plin na temperaturi ispod vrelišta?",
+        "correct_answer": "Isparavanje",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Vrenje",
+            "Smrzavanje"
+        ],
+        "explanation": "Isparavanje je proces prijelaza tvari iz tekućeg u plinovito stanje koji se događa na površini tekućine pri temperaturi nižoj od vrelišta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji se tip mikroprocesora koristi u većini modernih osobnih računala i servera, poznat po svojoj arhitekturi?",
+        "correct_answer": "x86 (ili x64)",
+        "incorrect_answers": [
+            "ARM",
+            "RISC-V",
+            "MIPS"
+        ],
+        "explanation": "Arhitektura x86 (često proširena na x64) dominira tržištem desktop i serverskih procesora zbog svoje dugotrajne kompatibilnosti i performansi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna jedinica živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Organ",
+            "Molekula",
+            "Tkivo"
+        ],
+        "explanation": "Stanica je osnovna strukturna, funkcionalna i biološka jedinica svih poznatih živih organizama, sposobna za samostalan život.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Koji element periodnog sustava ima atomski broj 6 i ključan je za organsku kemiju?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Klor",
+            "Kisik",
+            "Vodík"
+        ],
+        "explanation": "Ugljik je jedinstven po svojoj sposobnosti stvaranja dugih lanaca i raznolikih struktura, što ga čini temeljnim elementom organske kemije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Kako se zove znanstvena grana koja proučava gibanje, energiju, silu i prostor-vrijeme?",
+        "correct_answer": "Fizika",
+        "incorrect_answers": [
+            "Biologija",
+            "Kemija",
+            "Astronomija"
+        ],
+        "explanation": "Fizika je prirodna znanost koja proučava materiju, njezino gibanje i ponašanje kroz prostor i vrijeme, te povezane pojmove kao što su energija i sila.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji se pojam odnosi na mrežu računalnih poslužitelja dizajniranih za isporuku web sadržaja i usluga korisnicima s geografski raspoređenih lokacija?",
+        "correct_answer": "CDN (Content Delivery Network)",
+        "incorrect_answers": [
+            "LAN (Local Area Network)",
+            "VPN (Virtual Private Network)",
+            "WAN (Wide Area Network)"
+        ],
+        "explanation": "CDN sustav je distribuirana mreža poslužitelja koja ubrzava isporuku web sadržaja približavajući sadržaj geografski bliže krajnjem korisniku.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Koji hormon gušterače regulira razinu šećera (glukoze) u krvi?",
+        "correct_answer": "Inzulin",
+        "incorrect_answers": [
+            "Adrenalin",
+            "Tiroksin",
+            "Estrogen"
+        ],
+        "explanation": "Inzulin je hormon kojeg proizvodi gušterača i ključan je za snižavanje razine glukoze u krvi, omogućujući stanicama da apsorbiraju šećer za energiju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Kako se naziva svjetlosna zraka koja se sastoji od visoko koherentnih fotona, koristi se u medicini i industriji?",
+        "correct_answer": "Laser",
+        "incorrect_answers": [
+            "Ultrazvuk",
+            "Rendgenske zrake",
+            "Mikrovalovi"
+        ],
+        "explanation": "Laser (Light Amplification by Stimulated Emission of Radiation) proizvodi intenzivan, uski snop koherentne monokromatske svjetlosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koji se izraz koristi za opisivanje svih kemijskih reakcija koje se odvijaju unutar živog organizma radi održavanja života?",
+        "correct_answer": "Metabolizam",
+        "incorrect_answers": [
+            "Homeostaza",
+            "Fotosinteza",
+            "Regulacija"
+        ],
+        "explanation": "Metabolizam je skup svih kemijskih procesa koji se odvijaju u živim organizmima, a uključuje anabolizam (izgradnju) i katabolizam (razgradnju).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koja je vrsta umjetne inteligencije specifično dizajnirana za razumijevanje i generiranje ljudskog jezika?",
+        "correct_answer": "NLP (Obrada prirodnog jezika)",
+        "incorrect_answers": [
+            "Računalni vid",
+            "Robotika",
+            "Ekspertni sustavi"
+        ],
+        "explanation": "Obrada prirodnog jezika (NLP) je podpolje AI koje se bavi interakcijom između računala i ljudskog jezika, fokusirajući se na razumijevanje i generiranje teksta.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada se elektroni kreću kroz vodič?",
+        "correct_answer": "Električna struja",
+        "incorrect_answers": [
+            "Magnetsko polje",
+            "Električni otpor",
+            "Napon"
+        ],
+        "explanation": "Električna struja je usmjereno gibanje električki nabijenih čestica, obično elektrona, kroz vodič.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koja je znanstvena grana koja proučava sastav, strukturu, svojstva i reakcije tvari?",
+        "correct_answer": "Kemija",
+        "incorrect_answers": [
+            "Biologija",
+            "Fizika",
+            "Geologija"
+        ],
+        "explanation": "Kemija je prirodna znanost koja proučava materiju, njezine elemente i spojeve, te kako se ti elementi i spojevi ponašaju i mijenjaju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za najmanju česticu kemijskog elementa koja zadržava kemijska svojstva tog elementa?",
+        "correct_answer": "Atom",
+        "incorrect_answers": [
+            "Molekula",
+            "Proton",
+            "Elektron"
+        ],
+        "explanation": "Atom je osnovna gradivna jedinica materije koja se sastoji od jezgre i elektrona, zadržavajući kemijska svojstva elementa.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Kako se naziva optička leća koja raspršuje paralelne zrake svjetlosti tako da se čini da dolaze iz virtualne žarišne točke?",
+        "correct_answer": "Konkavna leća",
+        "incorrect_answers": [
+            "Konveksna leća",
+            "Cilindrična leća",
+            "Prizma"
+        ],
+        "explanation": "Konkavna leća je leća koja je u sredini tanja nego na rubovima i uzrokuje rasipanje paralelnih zraka svjetlosti nakon prolaska kroz nju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Kako se naziva tehnologija koja omogućuje kreiranje sigurnog, globalno dostupnog i otvorenog mrežnog sustava putem kriptografski vezanih blokova podataka?",
+        "correct_answer": "Blockchain",
+        "incorrect_answers": [
+            "Intranet",
+            "Extranet",
+            "Deep Web"
+        ],
+        "explanation": "Blockchain je decentralizirana i distribuirana digitalna baza podataka, organizirana kao lanac blokova, poznata po svojoj sigurnosti i nepromjenjivosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koji se pojam u programiranju odnosi na grešku u kodu koja uzrokuje neočekivano ponašanje ili rušenje programa?",
+        "correct_answer": "Bug",
+        "incorrect_answers": [
+            "Feature",
+            "Patch",
+            "Update"
+        ],
+        "explanation": "Bug je pogreška ili kvar u računalnom programu ili sustavu koji uzrokuje da se program ponaša nepravilno ili se sruši.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2349",
+        "category": "znanost",
+        "question": "Kako se naziva skupina morskih organizama koji plutaju u vodenom stupcu, neovisni o strujama, i služe kao temelj morskog hranidbenog lanca?",
+        "correct_answer": "Plankton",
+        "incorrect_answers": [
+            "Nekton",
+            "Bentos",
+            "Perifiton"
+        ],
+        "explanation": "Planktoni su mikroskopski organizmi koji žive u vodi i ključni su proizvođači kisika te predstavljaju bazu morskog hranidbenog lanca.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2350",
+        "category": "znanost",
+        "question": "Koji izraz opisuje smanjenje snage ili intenziteta signala tijekom prijenosa?",
+        "correct_answer": "Atenuacija",
+        "incorrect_answers": [
+            "Amplifikacija",
+            "Modulacija",
+            "Demodulacija"
+        ],
+        "explanation": "Atenuacija je fizikalni proces smanjenja snage signala dok putuje kroz medij, što je uobičajeno u komunikacijama i akustici.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
