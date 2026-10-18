@@ -30899,5 +30899,545 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_hist_2338",
+        "category": "povijest",
+        "question": "Koja je drevna civilizacija poznata po izgradnji piramida i razvoju hijeroglifskog pisma?",
+        "correct_answer": "Egipatska civilizacija",
+        "incorrect_answers": [
+            "Mezopotamska civilizacija",
+            "Indijska civilizacija",
+            "Kineska civilizacija"
+        ],
+        "explanation": "Stari Egipćani su razvili kompleksnu kulturu s impresivnim građevinama poput piramida i jedinstvenim sustavom pisanja poznatim kao hijeroglifi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2339",
+        "category": "povijest",
+        "question": "Kako se naziva prvi pisani zakonik u povijesti, stvoren oko 1754. pr. Kr. u Mezopotamiji?",
+        "correct_answer": "Hamurabijev zakonik",
+        "incorrect_answers": [
+            "Mojsijev zakonik",
+            "Solonov zakonik",
+            "Dronski zakonik"
+        ],
+        "explanation": "Hamurabijev zakonik je jedan od najstarijih sačuvanih zakonika, napisan na kamenoj steli, koji je detaljno regulirao život u drevnom Babilonu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2340",
+        "category": "povijest",
+        "question": "Tko je bio legendarni osnivač Rima, prema rimskoj mitologiji, zajedno sa svojim bratom blizancem?",
+        "correct_answer": "Romul",
+        "incorrect_answers": [
+            "Rem",
+            "Eneja",
+            "August"
+        ],
+        "explanation": "Prema legendi, Romul i Rem su bili blizanci koje je odgojila vučica, a Romul je na kraju ubio Rema i osnovao Rim.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2341",
+        "category": "povijest",
+        "question": "Koji je događaj 476. godine n.e. tradicionalno označen kao pad Zapadnog Rimskog Carstva?",
+        "correct_answer": "Svrgnuće Romula Augustula",
+        "incorrect_answers": [
+            "Bitka kod Adrianopola",
+            "Pljačka Rima od strane Vizigota",
+            "Podjela Carstva na istočno i zapadno"
+        ],
+        "explanation": "Svrgnuće posljednjeg zapadnorimskog cara, Romula Augustula, od strane germanskog vođe Odoakra 476. godine često se uzima kao kraj Carstva.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2342",
+        "category": "povijest",
+        "question": "Koji je franački vladar krunjen za cara Svetog Rimskog Carstva 800. godine od strane pape Lava III.?",
+        "correct_answer": "Karlo Veliki",
+        "incorrect_answers": [
+            "Pipinski Mali",
+            "Klodvig I.",
+            "Oton I. Veliki"
+        ],
+        "explanation": "Karlo Veliki, kralj Franaka, okrunjen je za cara na Božić 800. godine u Rimu, simbolizirajući obnovu Zapadnog Rimskog Carstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2343",
+        "category": "povijest",
+        "question": "Kako se naziva pokret u 16. stoljeću koji je doveo do odvajanja protestantskih crkava od Katoličke crkve?",
+        "correct_answer": "Reformacija",
+        "incorrect_answers": [
+            "Renesansa",
+            "Križarski ratovi",
+            "Prosvjetiteljstvo"
+        ],
+        "explanation": "Reformacija je bio religijski i politički pokret pokrenut od strane Martina Luthera, koji je doveo do osnivanja protestantskih kršćanskih denominacija.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2344",
+        "category": "povijest",
+        "question": "Tko je bio poznati talijanski slikar, kipar, arhitekt i pjesnik iz doba renesanse, autor 'Davida' i fresaka Sikstinske kapele?",
+        "correct_answer": "Michelangelo Buonarroti",
+        "incorrect_answers": [
+            "Leonardo da Vinci",
+            "Rafael Santi",
+            "Donatello"
+        ],
+        "explanation": "Michelangelo je bio svestrani genij renesanse, najpoznatiji po svojim skulpturama 'David' i 'Pieta', te freskama u Sikstinskoj kapeli.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2345",
+        "category": "povijest",
+        "question": "Koja se bitka 1571. godine smatra jednom od najvećih pomorskih bitaka u povijesti, gdje je Sveta liga porazila Osmansko Carstvo?",
+        "correct_answer": "Bitka kod Lepanta",
+        "incorrect_answers": [
+            "Bitka kod Trafalgara",
+            "Bitka kod Varne",
+            "Bitka kod Sudaca"
+        ],
+        "explanation": "Pomorska bitka kod Lepanta 1571. godine bila je ključna pobjeda kršćanskih snaga Svete lige nad Osmanskim Carstvom u Sredozemlju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2346",
+        "category": "povijest",
+        "question": "Koji je španjolski konkvistador osvojio Astečko Carstvo u Meksiku početkom 16. stoljeća?",
+        "correct_answer": "Hernán Cortés",
+        "incorrect_answers": [
+            "Francisco Pizarro",
+            "Vasco Núñez de Balboa",
+            "Juan Ponce de León"
+        ],
+        "explanation": "Hernán Cortés je sa svojim vojnicima 1521. godine osvojio Astečko Carstvo, unatoč velikoj brojčanoj prednosti Asteka.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2347",
+        "category": "povijest",
+        "question": "Koje je godine Luj XVI. svrgnut i kasnije giljotiniran tijekom Francuske revolucije?",
+        "correct_answer": "1792.",
+        "incorrect_answers": [
+            "1789.",
+            "1793.",
+            "1799."
+        ],
+        "explanation": "Luj XVI. je službeno svrgnut s prijestolja u rujnu 1792. godine, a pogubljen je giljotinom u siječnju 1793. godine.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2348",
+        "category": "povijest",
+        "question": "Koji je francuski general preuzeo vlast u Francuskoj državnim udarom 1799. godine, okončavši Francusku revoluciju?",
+        "correct_answer": "Napoleon Bonaparte",
+        "incorrect_answers": [
+            "Maksimilijan Robespierre",
+            "Georges Danton",
+            "Jean-Paul Marat"
+        ],
+        "explanation": "Napoleon Bonaparte je državnim udarom 18. brumairea (9. studenog) 1799. godine uspostavio konzulat, čime je preuzeo vlast i završio revoluciju.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2349",
+        "category": "povijest",
+        "question": "Kojim se imenom naziva industrijska revolucija koja je započela u Velikoj Britaniji u kasnom 18. stoljeću?",
+        "correct_answer": "Prva industrijska revolucija",
+        "incorrect_answers": [
+            "Druga industrijska revolucija",
+            "Digitalna revolucija",
+            "Agrarna revolucija"
+        ],
+        "explanation": "Prva industrijska revolucija, karakterizirana parnim strojem i tekstilnom industrijom, počela je u Velikoj Britaniji u 18. stoljeću.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2350",
+        "category": "povijest",
+        "question": "Koje se godine dogodio Sarajevski atentat na nadvojvodu Franju Ferdinanda, događaj koji je poslužio kao povod Prvom svjetskom ratu?",
+        "correct_answer": "1914.",
+        "incorrect_answers": [
+            "1908.",
+            "1912.",
+            "1918."
+        ],
+        "explanation": "Atentat na austrougarskog nadvojvodu Franju Ferdinanda 28. lipnja 1914. godine u Sarajevu bio je iskra koja je pokrenula Prvi svjetski rat.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2351",
+        "category": "povijest",
+        "question": "Kako se naziva njemački munjeviti ratni plan u Drugom svjetskom ratu, baziran na brzom proboju oklopnih jedinica i zračnoj potpori?",
+        "correct_answer": "Blitzkrieg",
+        "incorrect_answers": [
+            "Operacija Barbarossa",
+            "Maginotova linija",
+            "Sitzkrieg"
+        ],
+        "explanation": "Blitzkrieg, ili munjeviti rat, bio je taktika njemačke vojske koja je koristila brze, koordinirane napade tenkovima i zrakoplovima za brzo probijanje neprijateljskih linija.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2352",
+        "category": "povijest",
+        "question": "Koje je godine nacistička Njemačka napala Poljsku, čime je započeo Drugi svjetski rat?",
+        "correct_answer": "1939.",
+        "incorrect_answers": [
+            "1938.",
+            "1940.",
+            "1941."
+        ],
+        "explanation": "Napadi nacističke Njemačke na Poljsku 1. rujna 1939. godine bili su izravni povod za objavu rata od strane Francuske i Velike Britanije, označivši početak WWII.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2353",
+        "category": "povijest",
+        "question": "Koji je američki predsjednik donio odluku o bacanju atomskih bombi na Hiroshimu i Nagasaki 1945. godine?",
+        "correct_answer": "Harry S. Truman",
+        "incorrect_answers": [
+            "Franklin D. Roosevelt",
+            "Dwight D. Eisenhower",
+            "John F. Kennedy"
+        ],
+        "explanation": "Harry S. Truman je, nakon smrti Roosevelta, donio konačnu odluku o korištenju atomskih bombi kako bi se ubrzao kraj Drugog svjetskog rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2354",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje geopolitičke napetosti između SAD-a i Sovjetskog Saveza nakon Drugog svjetskog rata?",
+        "correct_answer": "Hladni rat",
+        "incorrect_answers": [
+            "Novi svjetski poredak",
+            "Mirna koegzistencija",
+            "Globalizacija"
+        ],
+        "explanation": "Hladni rat je trajao od kraja 1940-ih do ranih 1990-ih, obilježen ideološkom borbom, utrkom u naoružanju i posredničkim ratovima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2355",
+        "category": "povijest",
+        "question": "Koje se godine dogodio pad Berlinskog zida, simbolično označavajući kraj Hladnog rata?",
+        "correct_answer": "1989.",
+        "incorrect_answers": [
+            "1985.",
+            "1990.",
+            "1991."
+        ],
+        "explanation": "Pad Berlinskog zida 9. studenoga 1989. godine bio je ključan trenutak u raspadu Istočnog bloka i kraju Hladnog rata.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2356",
+        "category": "povijest",
+        "question": "Tko je bila prva žena koja je postala premijerka Velike Britanije, poznata kao 'Željezna lady'?",
+        "correct_answer": "Margaret Thatcher",
+        "incorrect_answers": [
+            "Theresa May",
+            "Elizabeth II.",
+            "Indira Gandhi"
+        ],
+        "explanation": "Margaret Thatcher je bila premijerka Velike Britanije od 1979. do 1990. godine, poznata po svojoj strogoj političkoj i ekonomskoj politici.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2357",
+        "category": "povijest",
+        "question": "Koji je rimski car legalizirao kršćanstvo Milanskim ediktom 313. godine n.e.?",
+        "correct_answer": "Konstantin I. Veliki",
+        "incorrect_answers": [
+            "Dioklecijan",
+            "Teodozije I.",
+            "August"
+        ],
+        "explanation": "Konstantin I. je Milanskim ediktom 313. godine priznao kršćanstvo kao dozvoljenu religiju, čime je okončao progone kršćana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2358",
+        "category": "povijest",
+        "question": "Koji je hrvatski kralj krunjen 925. godine, čime je Hrvatska postala kraljevina?",
+        "correct_answer": "Tomislav",
+        "incorrect_answers": [
+            "Trpimir",
+            "Zvonimir",
+            "Krešimir IV."
+        ],
+        "explanation": "Kralj Tomislav je ujedinio hrvatske kneževine i okrunjen je za kralja oko 925. godine, čime je stvoreno Hrvatsko Kraljevstvo.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2359",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje procvata islamske kulture i znanosti, otprilike od 8. do 13. stoljeća?",
+        "correct_answer": "Zlatno doba islama",
+        "incorrect_answers": [
+            "Osmansko razdoblje",
+            "Perzijsko carstvo",
+            "Mamelučko razdoblje"
+        ],
+        "explanation": "Zlatno doba islama označava razdoblje inovacija i procvata u znanosti, matematici, medicini, filozofiji i umjetnosti u islamskom svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2360",
+        "category": "povijest",
+        "question": "Tko je bila kraljica Kleopatra VII., posljednja vladarica helenističkog Egipta?",
+        "correct_answer": "Kraljica Egipta",
+        "incorrect_answers": [
+            "Kraljica Grčke",
+            "Kraljica Rima",
+            "Kraljica Mezopotamije"
+        ],
+        "explanation": "Kleopatra VII. je bila posljednja vladarica ptolemejskog Egipta, poznata po svojim odnosima s Julijem Cezarom i Markom Antonijem.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2361",
+        "category": "povijest",
+        "question": "Koja je bitka 480. pr. Kr. bila ključna pomorska bitka gdje su Grci porazili Perzijance, preokrenuvši tijek Grčko-perzijskih ratova?",
+        "correct_answer": "Bitka kod Salamine",
+        "incorrect_answers": [
+            "Bitka kod Maratona",
+            "Bitka kod Termopila",
+            "Bitka kod Plateje"
+        ],
+        "explanation": "U Bitci kod Salamine, atenska flota pod Temistoklom nadmudrila je i uništila perzijsku flotu, što je bio odlučujući trenutak rata.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2362",
+        "category": "povijest",
+        "question": "Kako se zove razdoblje u Francuskoj nakon povratka monarhije 1814. godine, nakon pada Napoleona?",
+        "correct_answer": "Restauracija Bourbona",
+        "incorrect_answers": [
+            "Druga republika",
+            "Drugo carstvo",
+            "Srpanjska monarhija"
+        ],
+        "explanation": "Restauracija Bourbona je razdoblje kada su se članovi dinastije Bourbon vratili na francusko prijestolje nakon svrgavanja Napoleona.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2363",
+        "category": "povijest",
+        "question": "Koji je talijanski grad bio centar Renesanse u 15. stoljeću, dom obitelji Medici i umjetnika poput Leonarda i Michelangela?",
+        "correct_answer": "Firenca",
+        "incorrect_answers": [
+            "Rim",
+            "Venecija",
+            "Milano"
+        ],
+        "explanation": "Firenca je bila epicentar Renesanse, gdje su obitelj Medici poticala umjetnost i znanost, privlačeći brojne velikane tog doba.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2364",
+        "category": "povijest",
+        "question": "Tko je bio osnivač mongolskog carstva u 13. stoljeću, najvećeg kopnenog carstva u povijesti?",
+        "correct_answer": "Džingis-kan",
+        "incorrect_answers": [
+            "Kublaj-kan",
+            "Timur Lenk",
+            "Atila"
+        ],
+        "explanation": "Džingis-kan je ujedinio mongolska plemena i stvorio ogromno carstvo koje se protezalo od istočne Azije do istočne Europe.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2365",
+        "category": "povijest",
+        "question": "Koje je godine pao Carigrad pod Osmansku vlast, označavajući kraj Bizantskog Carstva?",
+        "correct_answer": "1453.",
+        "incorrect_answers": [
+            "1054.",
+            "1204.",
+            "1529."
+        ],
+        "explanation": "Carigrad, glavni grad Bizantskog Carstva, pao je pod osmansku vojsku pod vodstvom sultana Mehmeda II. 29. svibnja 1453. godine.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2366",
+        "category": "povijest",
+        "question": "Koji je švedski kralj poznat po ulozi u protestantskoj strani Tridesetogodišnjeg rata, poginuo u Bitci kod Lützena 1632.?",
+        "correct_answer": "Gustav II. Adolf",
+        "incorrect_answers": [
+            "Karlo XII.",
+            "Gustav I. Vasa",
+            "Kristina"
+        ],
+        "explanation": "Gustav II. Adolf, 'Lav sa sjevera', bio je ključni protestantski vođa u Tridesetogodišnjem ratu, poznat po vojnim inovacijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2367",
+        "category": "povijest",
+        "question": "Kako se naziva prvi kineski car koji je ujedinio Kinu 221. pr. Kr. i započeo izgradnju Kineskog zida?",
+        "correct_answer": "Qin Shi Huang",
+        "incorrect_answers": [
+            "Wu iz Hana",
+            "Gaozu iz Hana",
+            "Yongle"
+        ],
+        "explanation": "Qin Shi Huang je prvi car ujedinjene Kine, zaslužan za standardizaciju i početak izgradnje Velikog zida te Terakotnu vojsku.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2368",
+        "category": "povijest",
+        "question": "Tko je bio poznati astronom iz renesanse, autor heliocentričnog modela Svemira?",
+        "correct_answer": "Nikola Kopernik",
+        "incorrect_answers": [
+            "Galileo Galilei",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "explanation": "Kopernik je u 16. stoljeću razvio heliocentrični model, prema kojem se Zemlja i drugi planeti okreću oko Sunca, a ne obrnuto.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2369",
+        "category": "povijest",
+        "question": "Koji je dokument iz 1776. godine označio službenu neovisnost Sjedinjenih Američkih Država od Velike Britanije?",
+        "correct_answer": "Deklaracija neovisnosti",
+        "incorrect_answers": [
+            "Ustav SAD-a",
+            "Povelja o pravima",
+            "Ugovor iz Pariza"
+        ],
+        "explanation": "Deklaracija neovisnosti, donesena 4. srpnja 1776., proglasila je trinaest američkih kolonija neovisnim od britanske vlasti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2370",
+        "category": "povijest",
+        "question": "Koji je povijesni događaj 14. srpnja 1789. simbolično označio početak Francuske revolucije?",
+        "correct_answer": "Pad Bastille",
+        "incorrect_answers": [
+            "Saziv Generalnih staleža",
+            "Teniska prisega",
+            "Pohod na Versailles"
+        ],
+        "explanation": "Pad Bastille, simbola kraljevske tiranije, bio je ključan događaj koji je potaknuo masovni revolt i početak Francuske revolucije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2371",
+        "category": "povijest",
+        "question": "Kako se naziva razdoblje terora i masovnih pogubljenja u Francuskoj revoluciji, između 1793. i 1794. godine?",
+        "correct_answer": "Jakobinski teror",
+        "incorrect_answers": [
+            "Direktorij",
+            "Napoleonova era",
+            "Vladavina žirondinaca"
+        ],
+        "explanation": "Jakobinski teror je bilo razdoblje masovnih pogubljenja giljotinom, vođeno od strane Robespierrea i Odbora javnog spasa, radi suzbijanja kontrarevolucije.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2372",
+        "category": "povijest",
+        "question": "Koji je antički grad uništen erupcijom vulkana Vezuv 79. godine n.e. i ostao zatrpan pod pepelom?",
+        "correct_answer": "Pompeji",
+        "incorrect_answers": [
+            "Herculaneum",
+            "Ostija",
+            "Teba"
+        ],
+        "explanation": "Pompeji su, zajedno s Herculaneumom, bili rimski gradovi koji su uništeni i konzervirani pod pepelom Vezuva, pružajući uvid u antički život.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_hist_2373",
+        "category": "povijest",
+        "question": "Koja je starogrčka grad-država bila poznata po vojnoj snazi i strogom društvenom uređenju?",
+        "correct_answer": "Sparta",
+        "incorrect_answers": [
+            "Atena",
+            "Korint",
+            "Teba"
+        ],
+        "explanation": "Sparta je bila vojno orijentirana polis, gdje se život pojedinca podređivao državi i vojnoj obuci od rane dobi.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
