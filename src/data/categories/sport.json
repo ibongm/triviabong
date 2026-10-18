@@ -32151,5 +32151,575 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sport_2454",
+        "category": "sport",
+        "question": "U kojem se sportu koristi mreža podijeljena na dva polja, a igrači udaraju loptu reketom preko nje?",
+        "correct_answer": "Tenis",
+        "incorrect_answers": [
+            "Badminton",
+            "Odbojka",
+            "Skvoš"
+        ],
+        "explanation": "Tenis se igra reketom preko mreže na terenu podijeljenom na dva polja, s ciljem prebacivanja loptice u protivničko polje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2455",
+        "category": "sport",
+        "question": "Koliko je bodova potrebno za pobjedu u setu odbojke, uz uvjet da je razlika barem dva boda?",
+        "correct_answer": "25",
+        "incorrect_answers": [
+            "21",
+            "15",
+            "30"
+        ],
+        "explanation": "Standardni set u odbojci osvaja se kada jedna ekipa postigne 25 bodova, s minimalno dva boda prednosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2456",
+        "category": "sport",
+        "question": "Koji se sport igra s palicom i malom lopticom, a cilj je ubaciti lopticu u rupu na što manje udaraca?",
+        "correct_answer": "Golf",
+        "incorrect_answers": [
+            "Hokej",
+            "Kriket",
+            "Bejzbol"
+        ],
+        "explanation": "Golf je sport u kojem se palicom udara loptica s ciljem ubacivanja u rupe na terenu u što manjem broju udaraca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2457",
+        "category": "sport",
+        "question": "Kako se naziva dio staze u biciklizmu (cestovnom) koji je izrazito strm i zahtijeva veliki napor za uspon?",
+        "correct_answer": "Uspon (ili brdo)",
+        "incorrect_answers": [
+            "Spust",
+            "Ravnica",
+            "Kronometar"
+        ],
+        "explanation": "Uspon je dionica cestovne biciklističke staze s velikim nagibom, koja je fizički najzahtjevnija za vozače.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2458",
+        "category": "sport",
+        "question": "Kolika je standardna širina gola u nogometu, mjerena iznutra (stanje 2024.)?",
+        "correct_answer": "7,32 metra",
+        "incorrect_answers": [
+            "7,24 metra",
+            "7,42 metra",
+            "7,12 metara"
+        ],
+        "explanation": "Prema FIFA pravilima, standardna širina nogometnog gola iznosi 7,32 metra (8 jardi), a visina 2,44 metra (8 stopa).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2459",
+        "category": "sport",
+        "question": "Koju boju kartona sudac pokazuje igraču u nogometu za ozbiljan prekršaj koji rezultira isključenjem iz igre?",
+        "correct_answer": "Crveni karton",
+        "incorrect_answers": [
+            "Žuti karton",
+            "Plavi karton",
+            "Zeleni karton"
+        ],
+        "explanation": "Crveni karton u nogometu znači isključenje igrača iz igre zbog ozbiljnog prekršaja ili drugog žutog kartona.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2460",
+        "category": "sport",
+        "question": "Tko je rekorder po broju osvojenih zlatnih medalja na Ljetnim olimpijskim igrama u povijesti (stanje 2024.)?",
+        "correct_answer": "Michael Phelps",
+        "incorrect_answers": [
+            "Usain Bolt",
+            "Carl Lewis",
+            "Larisa Latinjina"
+        ],
+        "explanation": "Michael Phelps, američki plivač, drži rekord s najviše zlatnih medalja (28) osvojenih na Ljetnim olimpijskim igrama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2461",
+        "category": "sport",
+        "question": "U kojem se sportu koristi izraz \"double-double\" ili \"triple-double\" za opis učinka igrača?",
+        "correct_answer": "Košarka",
+        "incorrect_answers": [
+            "Rukomet",
+            "Odbojka",
+            "Hokej na ledu"
+        ],
+        "explanation": "\"Double-double\" i \"triple-double\" su statistički pojmovi u košarci koji označavaju ostvarenje dvoznamenkastog broja u dvije ili tri kategorije statistike.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2462",
+        "category": "sport",
+        "question": "Koji je sport poznat kao \"kralj sportova\"?",
+        "correct_answer": "Nogomet",
+        "incorrect_answers": [
+            "Košarka",
+            "Tenis",
+            "Atletika"
+        ],
+        "explanation": "Nogomet se univerzalno naziva \"kraljem sportova\" zbog svoje globalne popularnosti i utjecaja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2463",
+        "category": "sport",
+        "question": "Koliko je igrača u momčadi na terenu u hokeju na ledu za vrijeme igre (bez vratara)?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "4",
+            "6",
+            "7"
+        ],
+        "explanation": "U hokeju na ledu, svaka momčad ima 5 igrača na terenu uz golmana, što čini ukupno 6 igrača po momčadi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2464",
+        "category": "sport",
+        "question": "Koji se oblik plivanja smatra najbržim?",
+        "correct_answer": "Kraul (ili slobodni stil)",
+        "incorrect_answers": [
+            "Leđni stil",
+            "Prsni stil",
+            "Delfin stil"
+        ],
+        "explanation": "Kraul stil, poznat i kao slobodni stil, omogućuje plivačima da razviju najveću brzinu i najefikasniji je.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2465",
+        "category": "sport",
+        "question": "Koja je boja lopte u biljaru koja se udari na početku igre (\"break shot\")?",
+        "correct_answer": "Bijela",
+        "incorrect_answers": [
+            "Crna",
+            "Žuta",
+            "Crvena"
+        ],
+        "explanation": "Bijela loptica je jedina koju igrač smije udarati štapom u biljaru, a koristi se za udarce u druge loptice.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2466",
+        "category": "sport",
+        "question": "Kako se naziva prekršaj u nogometu kada igrač namjerno dotakne loptu rukom ili dlanom?",
+        "correct_answer": "Igranje rukom",
+        "incorrect_answers": [
+            "Faul",
+            "Prekršaj",
+            "Ofsajd"
+        ],
+        "explanation": "Igranje rukom je prekršaj u nogometu kada igrač, osim vratara u kaznenom prostoru, namjerno dodirne loptu rukom.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2467",
+        "category": "sport",
+        "question": "Koja je najveća dopuštena težina boksačkih rukavica za profesionalce u teškoj kategoriji (stanje 2024.)?",
+        "correct_answer": "10 unci",
+        "incorrect_answers": [
+            "8 unci",
+            "12 unci",
+            "16 unci"
+        ],
+        "explanation": "U profesionalnom boksu, rukavice od 10 unci obvezne su za tešku kategoriju, dok se 8 unci koriste u lakšim kategorijama.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2468",
+        "category": "sport",
+        "question": "Koji se sport naziva \"Kraljicom sportova\"?",
+        "correct_answer": "Atletika",
+        "incorrect_answers": [
+            "Gimnastika",
+            "Plivanje",
+            "Tenis"
+        ],
+        "explanation": "Atletika se tradicionalno naziva \"Kraljicom sportova\" jer obuhvaća temeljne ljudske pokrete: trčanje, skakanje i bacanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2469",
+        "category": "sport",
+        "question": "Koji se rekvizit koristi za udaranje loptice u stolnom tenisu?",
+        "correct_answer": "Reket (ili drvo)",
+        "incorrect_answers": [
+            "Palica",
+            "Štap",
+            "Lopata"
+        ],
+        "explanation": "U stolnom tenisu, loptica se udara reketom, koji se sastoji od drvene osnove i gumenih obloga.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2470",
+        "category": "sport",
+        "question": "Koja se zemlja smatra rodnim mjestom modernog nogometa?",
+        "correct_answer": "Engleska",
+        "incorrect_answers": [
+            "Brazil",
+            "Italija",
+            "Kina"
+        ],
+        "explanation": "Moderni nogomet, s pravilima kodificiranima u 19. stoljeću, razvio se u Engleskoj.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2471",
+        "category": "sport",
+        "question": "Koliko disciplina ima triatlon?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "Triatlon je kombinacija tri različite discipline: plivanja, biciklizma i trčanja.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2472",
+        "category": "sport",
+        "question": "Koja se boja zastave koristi u Formuli 1 za označavanje kraja utrke?",
+        "correct_answer": "Karirana zastava (crno-bijela)",
+        "incorrect_answers": [
+            "Crvena zastava",
+            "Žuta zastava",
+            "Zelena zastava"
+        ],
+        "explanation": "Karirana zastava u Formuli 1 signalizira završetak utrke, a prvi vozač koji je vidi prelazi ciljnu crtu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2473",
+        "category": "sport",
+        "question": "Kolika je standardna visina mreže za muškarce u odbojci na pijesku (stanje 2024.)?",
+        "correct_answer": "2,43 metra",
+        "incorrect_answers": [
+            "2,24 metra",
+            "2,34 metra",
+            "2,53 metra"
+        ],
+        "explanation": "Visina mreže u odbojci na pijesku za muške natjecatelje je 2,43 metra, ista kao i u dvoranskoj odbojci.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2474",
+        "category": "sport",
+        "question": "Koji sport se igra na ledu, a igrači kližu i udaraju pak štapom?",
+        "correct_answer": "Hokej na ledu",
+        "incorrect_answers": [
+            "Curling",
+            "Brzo klizanje",
+            "Umjetničko klizanje"
+        ],
+        "explanation": "Hokej na ledu je timski sport u kojem se igrači na klizaljkama natječu udarajući pak štapom po ledu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2475",
+        "category": "sport",
+        "question": "Koji je legendarni košarkaš poznat po nadimku \"Air Jordan\"?",
+        "correct_answer": "Michael Jordan",
+        "incorrect_answers": [
+            "LeBron James",
+            "Kobe Bryant",
+            "Magic Johnson"
+        ],
+        "explanation": "Michael Jordan, jedan od najvećih košarkaša svih vremena, stekao je nadimak \"Air Jordan\" zbog svojih impresivnih skokova i sposobnosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2476",
+        "category": "sport",
+        "question": "Koliko je izmjena (substitucija) dozvoljeno jednoj momčadi tijekom reguliranog vremena nogometne utakmice (stanje 2024.)?",
+        "correct_answer": "5",
+        "incorrect_answers": [
+            "3",
+            "4",
+            "6"
+        ],
+        "explanation": "Od 2022. godine, FIFA je trajno dopustila pet izmjena po momčadi u većini natjecanja, plus dodatnu u produžecima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2477",
+        "category": "sport",
+        "question": "Kako se naziva dugačka palica kojom se udaraju biljarske kugle?",
+        "correct_answer": "Štap",
+        "incorrect_answers": [
+            "Reket",
+            "Palica",
+            "Bat"
+        ],
+        "explanation": "U biljaru se koristi štap za udaranje bijele kugle koja potom udara druge kugle.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2478",
+        "category": "sport",
+        "question": "U kojem se sportu koristi oprema nazvana \"floret\", \"epée\" i \"sablja\"?",
+        "correct_answer": "Mačevanje",
+        "incorrect_answers": [
+            "Kendo",
+            "Karate",
+            "Streljaštvo"
+        ],
+        "explanation": "Floret, epée i sablja su tri različita oružja koja se koriste u sportskom mačevanju, svako sa svojim pravilima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2479",
+        "category": "sport",
+        "question": "Tko je jedini vozač Formule 1 koji je osvojio \"Veliki Slam\" (pole position, najbrži krug, pobjeda i vodstvo u svakom krugu) više od dva puta (stanje 2024.)?",
+        "correct_answer": "Lewis Hamilton",
+        "incorrect_answers": [
+            "Michael Schumacher",
+            "Jim Clark",
+            "Max Verstappen"
+        ],
+        "explanation": "Lewis Hamilton drži rekord s najviše \"Velikih Slamova\" u Formuli 1, postigavši ih šest puta.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2480",
+        "category": "sport",
+        "question": "Koja je sportska disciplina u kojoj se natjecatelji natječu tko će najdalje baciti koplje?",
+        "correct_answer": "Bacanje koplja",
+        "incorrect_answers": [
+            "Bacanje diska",
+            "Bacanje kugle",
+            "Bacanje kladiva"
+        ],
+        "explanation": "Bacanje koplja je atletska disciplina u kojoj je cilj baciti koplje što je moguće dalje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2481",
+        "category": "sport",
+        "question": "Koliko sudaca obično sudi košarkašku utakmicu na profesionalnoj razini (NBA, EuroLeague)?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "5"
+        ],
+        "explanation": "U profesionalnoj košarci, utakmicu obično sude tri glavna suca kako bi se osigurala pokrivenost cijelog terena.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2482",
+        "category": "sport",
+        "question": "Koji je sportski rekvizit okruglog oblika, napravljen od kože ili sintetičkog materijala, koji se udara nogom u nogometu?",
+        "correct_answer": "Lopta",
+        "incorrect_answers": [
+            "Disk",
+            "Pak",
+            "Kugla"
+        ],
+        "explanation": "Lopta je osnovni rekvizit u nogometu, dizajnirana za udaranje nogom i postizanje golova.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2483",
+        "category": "sport",
+        "question": "Koji je najstariji i najprestižniji teniski turnir na svijetu, poznat po tome što se igra na travnatoj podlozi?",
+        "correct_answer": "Wimbledon",
+        "incorrect_answers": [
+            "Roland Garros",
+            "US Open",
+            "Australian Open"
+        ],
+        "explanation": "Wimbledon je najstariji teniski turnir na svijetu, jedini Grand Slam koji se igra na travnatoj podlozi, i iznimno je prestižan.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2484",
+        "category": "sport",
+        "question": "Koliki je promjer košarkaškog obruča prema FIBA pravilima (stanje 2024.)?",
+        "correct_answer": "45 centimetara",
+        "incorrect_answers": [
+            "42 centimetra",
+            "48 centimetara",
+            "50 centimetara"
+        ],
+        "explanation": "Standardni promjer košarkaškog obruča, prema FIBA i NBA pravilima, iznosi točno 45 cm (18 inča).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2485",
+        "category": "sport",
+        "question": "Koja se natjecateljska disciplina u plivanju pliva na leđima?",
+        "correct_answer": "Leđni stil",
+        "incorrect_answers": [
+            "Slobodni stil",
+            "Prsni stil",
+            "Delfin stil"
+        ],
+        "explanation": "Leđni stil je jedna od četiri osnovne discipline u plivanju, gdje plivači leže na leđima i rade zaveslaje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2486",
+        "category": "sport",
+        "question": "Koji sport je poznat po tome što se igra s \"shuttlecockom\"?",
+        "correct_answer": "Badminton",
+        "incorrect_answers": [
+            "Tenis",
+            "Skvoš",
+            "Odbojka"
+        ],
+        "explanation": "Badminton je reketni sport u kojem se umjesto loptice koristi \"shuttlecock\" (badmintonska loptica) koja se prebacuje preko mreže.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2487",
+        "category": "sport",
+        "question": "Koji je jedini sportaš koji je osvojio zlatnu medalju na Zimskim i Ljetnim olimpijskim igrama u različitim sportovima (stanje 2024.)?",
+        "correct_answer": "Eddie Eagan",
+        "incorrect_answers": [
+            "Bo Jackson",
+            "Jim Thorpe",
+            "Clara Hughes"
+        ],
+        "explanation": "Eddie Eagan je osvojio zlatnu medalju u boksu (Ljetne OI 1920.) i u bobu četverosjedu (Zimske OI 1932.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2488",
+        "category": "sport",
+        "question": "Kako se naziva početni udarac u tenisu kojim se započinje poen?",
+        "correct_answer": "Servis",
+        "incorrect_answers": [
+            "Forhend",
+            "Bekhend",
+            "Volley"
+        ],
+        "explanation": "Servis je udarac kojim tenisač započinje poen, bacajući lopticu u zrak i udarajući je reketom preko mreže.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2489",
+        "category": "sport",
+        "question": "Koji se oblik hrvanja najčešće natječe na Olimpijskim igrama, uz slobodni stil?",
+        "correct_answer": "Grčko-rimsko hrvanje",
+        "incorrect_answers": [
+            "Sumo",
+            "Džudo",
+            "Krav Maga"
+        ],
+        "explanation": "Na Olimpijskim igrama natječu se dvije glavne discipline hrvanja: slobodni stil i grčko-rimsko hrvanje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2490",
+        "category": "sport",
+        "question": "Koliki je maksimalan broj igrača na klupi za rezervne igrače u nogometu za FIFA Svjetsko prvenstvo (stanje 2024.)?",
+        "correct_answer": "15",
+        "incorrect_answers": [
+            "12",
+            "11",
+            "7"
+        ],
+        "explanation": "Na Svjetskom prvenstvu (od 2022. nadalje), momčadi mogu imati maksimalno 15 zamjenskih igrača na klupi, uz 11 na terenu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sport_2491",
+        "category": "sport",
+        "question": "Koji je sport u kojem se natjecatelji spuštaju na skijama niz snježnu padinu, a mjeri se vrijeme od starta do cilja?",
+        "correct_answer": "Alpsko skijanje (spust)",
+        "incorrect_answers": [
+            "Skijaško trčanje",
+            "Skijaški skokovi",
+            "Snowboarding"
+        ],
+        "explanation": "Alpsko skijanje uključuje discipline poput spusta, slaloma i veleslaloma, gdje je cilj najbrže proći stazu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
