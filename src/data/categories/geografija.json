@@ -25139,5 +25139,380 @@
         "difficulty": "easy",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_geo_1983",
+        "category": "geografija",
+        "question": "Koji se kontinent nalazi na svim hemisferama (sjevernoj, južnoj, istočnoj i zapadnoj)?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Antarktika"
+        ],
+        "explanation": "Afrika se prostire preko ekvatora, početnog meridijana i 180. meridijana, što je čini jedinstvenom po tom položaju.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1984",
+        "category": "geografija",
+        "question": "Kako se naziva morski prolaz koji razdvaja Europu od Afrike?",
+        "correct_answer": "Gibraltarski tjesnac",
+        "incorrect_answers": [
+            "Bospor",
+            "Dardaneli",
+            "Sueski kanal"
+        ],
+        "explanation": "Gibraltarski tjesnac povezuje Atlantski ocean i Sredozemno more te geografski razdvaja Španjolsku i Maroko.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1985",
+        "category": "geografija",
+        "question": "Koji pustinjski fenomen karakterizira velika, pokretna pješčana brda stvorena vjetrom?",
+        "correct_answer": "Dina",
+        "incorrect_answers": [
+            "Oaza",
+            "Kanjon",
+            "Delta"
+        ],
+        "explanation": "Dine su nakupine pijeska koje vjetar oblikuje u brdašca ili grebene, često prisutne u pustinjama i na obalama.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1986",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Ujedinjenog Kraljevstva?",
+        "correct_answer": "London",
+        "incorrect_answers": [
+            "Manchester",
+            "Edinburgh",
+            "Dublin"
+        ],
+        "explanation": "London je glavni i najveći grad Engleske i Ujedinjenog Kraljevstva.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1987",
+        "category": "geografija",
+        "question": "Kako se naziva prirodna tvorevina u kojoj se rijeka ulijeva u more, stvarajući deltu nalik grčkom slovu?",
+        "correct_answer": "Delta",
+        "incorrect_answers": [
+            "Estuarij",
+            "Laguna",
+            "Zaljev"
+        ],
+        "explanation": "Delta je obično trokutasti oblik kopna na ušću rijeke gdje se rijeka dijeli na više rukavaca prije nego što se ulije u veće vodeno tijelo.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1988",
+        "category": "geografija",
+        "question": "Koji je najveći slatkovodni jezero u Africi?",
+        "correct_answer": "Jezero Victoria",
+        "incorrect_answers": [
+            "Jezero Tanganyika",
+            "Jezero Malawi",
+            "Jezero Chad"
+        ],
+        "explanation": "Jezero Victoria je najveće afričko jezero po površini i drugo najveće slatkovodno jezero na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1989",
+        "category": "geografija",
+        "question": "Koji se vjetar karakterizira kao suhi i vrući vjetar koji puše iz Sahare prema Sredozemnom moru?",
+        "correct_answer": "Siroko",
+        "incorrect_answers": [
+            "Bura",
+            "Košava",
+            "Mistral"
+        ],
+        "explanation": "Siroko je jugoistočni vjetar koji donosi topao i suh zrak iz pustinje Sahare preko Sredozemlja, često noseći pijesak.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1990",
+        "category": "geografija",
+        "question": "Koja je država poznata po \"Velikom koraljnom grebenu\"?",
+        "correct_answer": "Australija",
+        "incorrect_answers": [
+            "Indonezija",
+            "Filipini",
+            "Belize"
+        ],
+        "explanation": "Veliki koraljni greben najveći je koraljni greben na svijetu, smješten uz obalu Queenslanda u Australiji.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1991",
+        "category": "geografija",
+        "question": "Koja je boja karakteristična za pustinju Saharu na većini geografskih karata?",
+        "correct_answer": "Žuta",
+        "incorrect_answers": [
+            "Zelena",
+            "Plava",
+            "Bijela"
+        ],
+        "explanation": "Žuta boja na kartama konvencionalno se koristi za prikaz pustinjskih i suhih područja, uključujući Saharu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1992",
+        "category": "geografija",
+        "question": "Kako se naziva geološki proces u kojem se planine oblikuju i izdizu kao rezultat tektonskih ploča?",
+        "correct_answer": "Orogeneza",
+        "incorrect_answers": [
+            "Erozija",
+            "Sedimentacija",
+            "Metamorfoza"
+        ],
+        "explanation": "Orogeneza je proces nastanka planina koji uključuje nabiranje i rasjedanje Zemljine kore zbog sudaranja tektonskih ploča.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1993",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Japana?",
+        "correct_answer": "Tokio",
+        "incorrect_answers": [
+            "Kyoto",
+            "Osaka",
+            "Seul"
+        ],
+        "explanation": "Tokio je najveći grad i glavni grad Japana.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1994",
+        "category": "geografija",
+        "question": "Koji se tip klime karakterizira vrlo niskim temperaturama tijekom cijele godine i vječnim ledom, bez prave vegetacije?",
+        "correct_answer": "Polarna klima",
+        "incorrect_answers": [
+            "Kontinentalna klima",
+            "Sredozemna klima",
+            "Tropska klima"
+        ],
+        "explanation": "Polarna klima, prisutna na Arktiku i Antarktici, ima iznimno niske temperature i prevladavaju vječni led i snijeg.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1995",
+        "category": "geografija",
+        "question": "Koja država leži na \"vatrenom prstenu Pacifika\" i ima vrlo visoku učestalost potresa i vulkanskih erupcija?",
+        "correct_answer": "Japan",
+        "incorrect_answers": [
+            "Brazil",
+            "Egipat",
+            "Njemačka"
+        ],
+        "explanation": "Japan se nalazi na spoju više tektonskih ploča unutar Pacifičkog vatrenog prstena, što rezultira čestim geološkim aktivnostima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1996",
+        "category": "geografija",
+        "question": "Kako se naziva uski morski prolaz između Crnog mora i Mramornog mora, ključan za plovidbu prema Sredozemlju?",
+        "correct_answer": "Bospor",
+        "incorrect_answers": [
+            "Dardaneli",
+            "Kerčki prolaz",
+            "Gibraltarski tjesnac"
+        ],
+        "explanation": "Bospor je tjesnac koji dijeli europski i azijski dio Istanbula te povezuje Crno more s Mramornim morem.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1997",
+        "category": "geografija",
+        "question": "Koja je valuta Europske unije koju koristi većina članica?",
+        "correct_answer": "Euro",
+        "incorrect_answers": [
+            "Dolar",
+            "Funt",
+            "Yen"
+        ],
+        "explanation": "Euro je službena valuta Eurozone, monetarne unije 20 od 27 država članica Europske unije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1998",
+        "category": "geografija",
+        "question": "Koja je prijestolnica Norveške?",
+        "correct_answer": "Oslo",
+        "incorrect_answers": [
+            "Stockholm",
+            "Kopenhagen",
+            "Helsinki"
+        ],
+        "explanation": "Oslo je glavni grad i najveći grad Norveške, smješten na jugu zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_1999",
+        "category": "geografija",
+        "question": "Koja je država poznata po piramidama i rijeci Nilu?",
+        "correct_answer": "Egipat",
+        "incorrect_answers": [
+            "Indija",
+            "Kina",
+            "Grčka"
+        ],
+        "explanation": "Egipat je drevna civilizacija smještena uz rijeku Nil, poznata po svojim monumentalnim piramidama.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2000",
+        "category": "geografija",
+        "question": "Koji je prirodni fenomen odgovoran za plimu i oseku?",
+        "correct_answer": "Gravitacijska sila Mjeseca i Sunca",
+        "incorrect_answers": [
+            "Rotacija Zemlje",
+            "Vjetar i morske struje",
+            "Tektonske ploče"
+        ],
+        "explanation": "Plima i oseka nastaju zbog gravitacijskog privlačenja Mjeseca i, u manjoj mjeri, Sunca na vodene mase Zemlje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2001",
+        "category": "geografija",
+        "question": "Koja je zemlja oblikovana kao čizma?",
+        "correct_answer": "Italija",
+        "incorrect_answers": [
+            "Grčka",
+            "Španjolska",
+            "Portugal"
+        ],
+        "explanation": "Talijanski poluotok ima prepoznatljiv oblik koji podsjeća na čizmu.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2002",
+        "category": "geografija",
+        "question": "Koji je najdublji kanjon u Europi?",
+        "correct_answer": "Kanjon Tare",
+        "incorrect_answers": [
+            "Kanjon Verdon",
+            "Kanjon rijeke Cetine",
+            "Kanjon rijeke Neretve"
+        ],
+        "explanation": "Kanjon rijeke Tare, smješten u Crnoj Gori, najdublji je kanjon u Europi i drugi najdublji u svijetu.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2003",
+        "category": "geografija",
+        "question": "Kako se naziva pojava kada se slojevi stijena savijaju zbog bočnih pritisaka u Zemljinoj kori?",
+        "correct_answer": "Nabiranje",
+        "incorrect_answers": [
+            "Rasjedanje",
+            "Erozija",
+            "Vulkanizam"
+        ],
+        "explanation": "Nabiranje je proces deformacije stijena, gdje se slojevi savijaju u valovite strukture (antiklinale i sinklinale) zbog kompresijskih sila.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2004",
+        "category": "geografija",
+        "question": "Koji je najveći otok u Europi?",
+        "correct_answer": "Velika Britanija",
+        "incorrect_answers": [
+            "Island",
+            "Sicilija",
+            "Irska"
+        ],
+        "explanation": "Velika Britanija je najveći europski otok i deveti najveći otok na svijetu.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2005",
+        "category": "geografija",
+        "question": "Koji je kontinent poznat kao \"Crni kontinent\"?",
+        "correct_answer": "Afrika",
+        "incorrect_answers": [
+            "Azija",
+            "Južna Amerika",
+            "Australija"
+        ],
+        "explanation": "Izraz \"Crni kontinent\" tradicionalno se koristio za Afriku, često u kontekstu njenih misterija i neistražene unutrašnjosti.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2006",
+        "category": "geografija",
+        "question": "Koja je najviša točka u Africi?",
+        "correct_answer": "Kilimanjaro",
+        "incorrect_answers": [
+            "Mount Kenya",
+            "Mount Stanley",
+            "Ras Dashen"
+        ],
+        "explanation": "Kilimanjaro je neaktivni vulkan u Tanzaniji i najviša planina u Africi.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_geo_2007",
+        "category": "geografija",
+        "question": "Koji je ocean najmanji po površini?",
+        "correct_answer": "Arktički ocean",
+        "incorrect_answers": [
+            "Južni ocean",
+            "Indijski ocean",
+            "Atlantski ocean"
+        ],
+        "explanation": "Arktički ocean najmanji je i najplići od pet glavnih oceana na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
