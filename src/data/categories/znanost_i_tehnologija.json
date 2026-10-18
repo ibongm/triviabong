@@ -30445,5 +30445,500 @@
         "difficulty": "medium",
         "difficultySource": "guess",
         "addedOn": "2026-10-16"
+    },
+    {
+        "id": "hr_sci_2316",
+        "category": "znanost",
+        "question": "Tko je formulirao zakone gibanja i univerzalne gravitacije?",
+        "correct_answer": "Isaac Newton",
+        "incorrect_answers": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Nikola Tesla"
+        ],
+        "explanation": "Isaac Newton je u 17. stoljeću formulirao tri zakona gibanja i zakon univerzalne gravitacije, koji su postavili temelje klasične fizike.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2317",
+        "category": "znanost",
+        "question": "Koja je najmanja funkcionalna jedinica živog organizma?",
+        "correct_answer": "Stanica",
+        "incorrect_answers": [
+            "Molekula",
+            "Organ",
+            "Tkivo"
+        ],
+        "explanation": "Stanica je osnovna strukturna i funkcionalna jedinica svih poznatih organizama, sposobna samostalno obavljati životne funkcije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2318",
+        "category": "znanost",
+        "question": "Kako se naziva proces u kojem biljke proizvode vlastitu hranu koristeći sunčevu svjetlost?",
+        "correct_answer": "Fotosinteza",
+        "incorrect_answers": [
+            "Respiracija",
+            "Fermentacija",
+            "Transpiracija"
+        ],
+        "explanation": "Fotosinteza je biološki proces u kojem biljke, alge i neke bakterije pretvaraju sunčevu energiju u kemijsku energiju, proizvodeći glukozu i kisik.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2319",
+        "category": "znanost",
+        "question": "Koji se planet nalazi najbliže Suncu?",
+        "correct_answer": "Merkur",
+        "incorrect_answers": [
+            "Venera",
+            "Mars",
+            "Zemlja"
+        ],
+        "explanation": "Merkur je najmanji planet u našem Sunčevom sustavu i najbliži je Suncu. Njegova orbita je najkraća od svih planeta.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2320",
+        "category": "znanost",
+        "question": "Kako se naziva tekući metal koji se nekad koristio u termometrima?",
+        "correct_answer": "Živa",
+        "incorrect_answers": [
+            "Galij",
+            "Olovo",
+            "Bakar"
+        ],
+        "explanation": "Živa (Hg) je jedini metal koji je tekuć pri sobnoj temperaturi, a zbog svoje osjetljivosti na promjene temperature koristila se u termometrima.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2321",
+        "category": "znanost",
+        "question": "Koja vrsta zračenja je odgovorna za tamnjenje kože?",
+        "correct_answer": "UV zračenje (ultraljubičasto)",
+        "incorrect_answers": [
+            "Infracrveno zračenje",
+            "Rendgensko zračenje",
+            "Alfa zračenje"
+        ],
+        "explanation": "Ultraljubičasto (UV) zračenje iz Sunca potiče proizvodnju melanina u koži, što dovodi do tamnjenja i služi kao obrambeni mehanizam.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2322",
+        "category": "znanost",
+        "question": "Kako se zove znanost koja proučava kukce?",
+        "correct_answer": "Entomologija",
+        "incorrect_answers": [
+            "Ornitologija",
+            "Herpetologija",
+            "Zoologija"
+        ],
+        "explanation": "Entomologija je grana zoologije koja se specifično bavi proučavanjem insekata. Ime potječe od grčkih riječi 'entomon' (insekt) i 'logos' (nauka).",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2323",
+        "category": "znanost",
+        "question": "Koja je svrha firewall-a u računalnoj mreži?",
+        "correct_answer": "Kontrola mrežnog prometa radi sigurnosti",
+        "incorrect_answers": [
+            "Povećanje brzine interneta",
+            "Spremanje datoteka u oblak",
+            "Automatsko ažuriranje softvera"
+        ],
+        "explanation": "Firewall (vatrozid) je sigurnosni sustav koji nadzire i filtrira ulazni i izlazni mrežni promet na temelju unaprijed definiranih sigurnosnih pravila.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2324",
+        "category": "znanost",
+        "question": "Koji je kemijski element najzastupljeniji u Zemljinoj atmosferi?",
+        "correct_answer": "Dušik",
+        "incorrect_answers": [
+            "Kisik",
+            "Ugljikov dioksid",
+            "Argon"
+        ],
+        "explanation": "Dušik (N2) čini približno 78% Zemljine atmosfere. Kisik je drugi najzastupljeniji plin s oko 21%.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2325",
+        "category": "znanost",
+        "question": "Koja tehnologija omogućuje bežično povezivanje uređaja na kratkim udaljenostima (npr. slušalice, zvučnici)?",
+        "correct_answer": "Bluetooth",
+        "incorrect_answers": [
+            "Wi-Fi",
+            "Ethernet",
+            "NFC"
+        ],
+        "explanation": "Bluetooth je bežična tehnologija kratkog dometa koja omogućuje razmjenu podataka između fiksnih i mobilnih uređaja na malim udaljenostima.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2326",
+        "category": "znanost",
+        "question": "Koji se plin koristi za gašenje požara jer istiskuje kisik?",
+        "correct_answer": "Ugljikov dioksid",
+        "incorrect_answers": [
+            "Dušik",
+            "Klor",
+            "Helij"
+        ],
+        "explanation": "Ugljikov dioksid (CO2) je teži od zraka i ne podržava gorenje, pa se koristi u aparatima za gašenje požara za istiskivanje kisika.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2327",
+        "category": "znanost",
+        "question": "Što je vakuumska cijev?",
+        "correct_answer": "Elektronička komponenta korištena prije tranzistora",
+        "incorrect_answers": [
+            "Cijev za transport tekućine u vakuumu",
+            "Dio modernog procesora",
+            "Vrsta optičkog vlakna"
+        ],
+        "explanation": "Vakuumske cijevi bile su ključne elektroničke komponente za pojačavanje i prebacivanje signala prije izuma tranzistora, dominantne do 1960-ih.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2328",
+        "category": "znanost",
+        "question": "Koji je glavni sastojak pijeska i stakla?",
+        "correct_answer": "Silicijev dioksid",
+        "incorrect_answers": [
+            "Kalcijev karbonat",
+            "Natrijev klorid",
+            "Aluminijev oksid"
+        ],
+        "explanation": "Silicijev dioksid (SiO2), poznat i kao kvarc, glavni je sastojak većine pijeska i sirovina za proizvodnju stakla.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2329",
+        "category": "znanost",
+        "question": "Što je svrha kondenzatora u električnom krugu?",
+        "correct_answer": "Pohranjivanje električnog naboja",
+        "incorrect_answers": [
+            "Proizvodnja električne energije",
+            "Povećanje otpora",
+            "Pretvaranje izmjenične struje u istosmjernu"
+        ],
+        "explanation": "Kondenzator je pasivna elektronička komponenta koja pohranjuje električnu energiju u električnom polju između dvije vodljive ploče.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2330",
+        "category": "znanost",
+        "question": "Koja je temeljna jedinica genetskog nasljeđivanja?",
+        "correct_answer": "Gen",
+        "incorrect_answers": [
+            "Kromosom",
+            "Protein",
+            "Stanica"
+        ],
+        "explanation": "Gen je osnovna funkcionalna jedinica nasljeđivanja, segment DNA koji sadrži upute za sintezu proteina ili RNA molekula.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2331",
+        "category": "znanost",
+        "question": "Koja se tehnika koristi za određivanje starosti arheoloških nalaza mjerenjem radioaktivnog raspada izotopa ugljika-14?",
+        "correct_answer": "Radiokarbonsko datiranje",
+        "incorrect_answers": [
+            "Dendrokronologija",
+            "Termoluminiscencija",
+            "Stratigrafija"
+        ],
+        "explanation": "Radiokarbonsko datiranje je metoda koja koristi raspad radioaktivnog izotopa ugljika-14 za određivanje starosti organskih materijala.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2332",
+        "category": "znanost",
+        "question": "Što je poluvodič?",
+        "correct_answer": "Materijal s električnom vodljivošću između vodiča i izolatora",
+        "incorrect_answers": [
+            "Materijal koji savršeno provodi struju",
+            "Materijal koji uopće ne provodi struju",
+            "Materijal koji provodi samo toplinu"
+        ],
+        "explanation": "Poluvodiči poput silicija ili germanija imaju električnu vodljivost koja se može kontrolirati, ključnu za elektroniku i tranzistore.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2333",
+        "category": "znanost",
+        "question": "Koja je uloga ozonskog omotača u Zemljinoj atmosferi?",
+        "correct_answer": "Apsorpcija štetnog UV zračenja",
+        "incorrect_answers": [
+            "Regulacija temperature",
+            "Proizvodnja kisika",
+            "Sprečavanje meteorita"
+        ],
+        "explanation": "Ozonski omotač (O3) u stratosferi apsorbira većinu štetnog ultraljubičastog (UV) zračenja Sunca, štiteći život na Zemlji.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2334",
+        "category": "znanost",
+        "question": "Koji je najveći vulkan na Zemlji (po volumenu i površini)?",
+        "correct_answer": "Mauna Loa",
+        "incorrect_answers": [
+            "Vezuv",
+            "Fuji",
+            "Etna"
+        ],
+        "explanation": "Mauna Loa na Havajima je najveći aktivni štitasti vulkan na Zemlji po volumenu i površini (stanje 2024.).",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2335",
+        "category": "znanost",
+        "question": "Kako se naziva proces kada plazma prolazi kroz magnetsko polje kako bi se generirala električna energija?",
+        "correct_answer": "Magnetohidrodinamika (MHD)",
+        "incorrect_answers": [
+            "Termoelektrični efekt",
+            "Piezoelektrični efekt",
+            "Fotoelektrični efekt"
+        ],
+        "explanation": "Magnetohidrodinamika (MHD) je proučavanje dinamike električno vodljivih fluida, poput plazme, i njihove interakcije s magnetskim poljima.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2336",
+        "category": "znanost",
+        "question": "Što je Mooreov zakon?",
+        "correct_answer": "Predviđanje da se broj tranzistora na mikročipu udvostručuje otprilike svake dvije godine",
+        "incorrect_answers": [
+            "Zakon o očuvanju energije u računalnim sustavima",
+            "Algoritam za optimizaciju mrežnog prometa",
+            "Princip rada kvantnih računala"
+        ],
+        "explanation": "Mooreov zakon je zapažanje Gordona Moorea iz 1965. da se složenost integriranih krugova, odnosno broj tranzistora, udvostručuje otprilike svakih 18-24 mjeseca.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2337",
+        "category": "znanost",
+        "question": "Što je svrha 'proof-of-work' (dokaza rada) u kriptovalutama kao što je Bitcoin?",
+        "correct_answer": "Sprečavanje dvostrukog trošenja i osiguravanje mreže",
+        "incorrect_answers": [
+            "Brza obrada transakcija",
+            "Smanjenje potrošnje energije",
+            "Anonimnost korisnika"
+        ],
+        "explanation": "Proof-of-work je algoritam koji zahtijeva značajan izračun kako bi se dodao novi blok u blockchain, čime se osigurava transakcijska mreža od zloupotrebe.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2338",
+        "category": "znanost",
+        "question": "Koji element periodnog sustava ima atomski broj 6?",
+        "correct_answer": "Ugljik",
+        "incorrect_answers": [
+            "Dušik",
+            "Kisik",
+            "Bor"
+        ],
+        "explanation": "Atomski broj predstavlja broj protona u jezgri atoma. Element s atomskim brojem 6 je ugljik (C), temelj organske kemije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2339",
+        "category": "znanost",
+        "question": "Kako se naziva proces pretvaranja tekućine u plin pri određenoj temperaturi?",
+        "correct_answer": "Isparavanje (vaporizacija)",
+        "incorrect_answers": [
+            "Kondenzacija",
+            "Sublimacija",
+            "Taljenje"
+        ],
+        "explanation": "Isparavanje je proces u kojem molekule s površine tekućine dobivaju dovoljno energije za bijeg u plinovito stanje.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2340",
+        "category": "znanost",
+        "question": "Koji je najveći superračunalo na svijetu (stanje 2024.)?",
+        "correct_answer": "Frontier",
+        "incorrect_answers": [
+            "Fugaku",
+            "Aurora",
+            "Summit"
+        ],
+        "explanation": "Prema TOP500 listi iz lipnja 2024., Frontier u SAD-u je najbrže superračunalo na svijetu, postižući exascale performanse.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2341",
+        "category": "znanost",
+        "question": "Koju vrstu oblaka obično povezujemo s olujama i grmljavinom?",
+        "correct_answer": "Kumulonimbusi",
+        "incorrect_answers": [
+            "Cirusi",
+            "Stratusi",
+            "Nimbostratusi"
+        ],
+        "explanation": "Kumulonimbusi su visoki, vertikalno razvijeni oblaci koji donose grmljavinske oluje, jaku kišu, tuču i munje.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2342",
+        "category": "znanost",
+        "question": "Koji je temeljni princip na kojem počiva MRI (magnetska rezonancija) snimanje?",
+        "correct_answer": "Nuklearna magnetska rezonancija",
+        "incorrect_answers": [
+            "Rendgensko zračenje",
+            "Ultrazvučni valovi",
+            "Ionizirajuće zračenje"
+        ],
+        "explanation": "MRI koristi jaka magnetska polja i radio valove za detekciju i mapiranje magnetskih svojstava atomskih jezgri, posebno vodika u vodi.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2343",
+        "category": "znanost",
+        "question": "Kako se naziva fenomen kada se svjetlost savija prilikom prolaska kroz prorez ili oko prepreke?",
+        "correct_answer": "Difrakcija",
+        "incorrect_answers": [
+            "Refrakcija",
+            "Refleksija",
+            "Interferencija"
+        ],
+        "explanation": "Difrakcija je pojava skretanja valova s pravca prvobitnog širenja nakon nailaska na rub zapreke ili na otvor, primjerice kod svjetlosti.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2344",
+        "category": "znanost",
+        "question": "Koja vrsta baterije koristi litijeve ione kao primarni nositelj naboja?",
+        "correct_answer": "Litij-ionska baterija",
+        "incorrect_answers": [
+            "Nikal-kadmijska baterija",
+            "Olovno-kiselinska baterija",
+            "Alkalna baterija"
+        ],
+        "explanation": "Litij-ionske baterije su punjive baterije koje su postale dominantne u prijenosnoj elektronici i električnim vozilima zbog visoke gustoće energije.",
+        "difficulty": "easy",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2345",
+        "category": "znanost",
+        "question": "Koji je naziv za matematički model u teoriji kaosa koji pokazuje ekstremnu osjetljivost na početne uvjete?",
+        "correct_answer": "Efekt leptira",
+        "incorrect_answers": [
+            "Princip neodređenosti",
+            "Heisenbergov princip",
+            "Zakon entropije"
+        ],
+        "explanation": "Efekt leptira opisuje kako mala promjena u jednom dijelu nelinearnog sustava može imati veliki učinak drugdje, karakterističan za teoriju kaosa.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2346",
+        "category": "znanost",
+        "question": "Koji je proces stvaranja zvijezda iz oblaka plina i prašine?",
+        "correct_answer": "Akrecija",
+        "incorrect_answers": [
+            "Fuzija",
+            "Supernova",
+            "Kataliza"
+        ],
+        "explanation": "Zvijezde se formiraju procesom akrecije, gdje se gravitacijskim privlačenjem postupno skupljaju plin i prašina iz divovskih molekularnih oblaka.",
+        "difficulty": "hard",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2347",
+        "category": "znanost",
+        "question": "Što je funkcija DHCP protokola u računalnim mrežama?",
+        "correct_answer": "Automatsko dodjeljivanje IP adresa uređajima",
+        "incorrect_answers": [
+            "Enkripcija mrežnog prometa",
+            "Prevođenje domena u IP adrese",
+            "Routiranje paketa između mreža"
+        ],
+        "explanation": "DHCP (Dynamic Host Configuration Protocol) automatski dodjeljuje jedinstvene IP adrese i druge mrežne konfiguracijske parametre uređajima u mreži.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
+    },
+    {
+        "id": "hr_sci_2348",
+        "category": "znanost",
+        "question": "Koja je uloga kolesterola u ljudskom tijelu?",
+        "correct_answer": "Sastavni dio staničnih membrana i preteča hormona",
+        "incorrect_answers": [
+            "Primarni izvor energije za mišiće",
+            "Regulacija razine šećera u krvi",
+            "Borba protiv virusnih infekcija"
+        ],
+        "explanation": "Kolesterol je vitalna lipidna molekula, ključna komponenta staničnih membrana i preteča za sintezu steroidnih hormona i vitamina D.",
+        "difficulty": "medium",
+        "difficultySource": "guess",
+        "addedOn": "2026-10-18"
     }
 ]
